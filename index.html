@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#FF8A4C" />
+  <title>英语奇遇记 English Adventure</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦊%3C/text%3E%3C/svg%3E" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FF8A4C',
+            'primary-dark': '#E76F33',
+            secondary: '#4ECDC4',
+            'secondary-dark': '#38B2AC',
+            cream: '#FFF8F0'
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-cream has-bottom-nav">
+
+  <!-- 顶部导航栏 -->
+  <header id="topNav" class="sticky top-0 z-40 bg-white shadow-sm">
+    <div class="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="text-3xl">🦊</div>
+        <div>
+          <div class="font-bold text-base leading-tight">英语奇遇记</div>
+          <div class="text-[10px] text-gray-500 font-en leading-tight">English Adventure</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="gradeBtn" class="text-xs bg-orange-100 text-primary-dark px-3 py-1.5 rounded-full font-bold tap-bounce">
+          <span id="gradeLabel">三年级</span> ⌄
+        </button>
+        <div class="flex items-center gap-1 bg-yellow-50 px-2 py-1 rounded-full">
+          <span>🪙</span>
+          <span id="coinDisplay" class="font-bold text-sm">0</span>
+        </div>
+        <div class="flex items-center gap-1 bg-orange-50 px-2 py-1 rounded-full">
+          <span>🔥</span>
+          <span id="streakDisplay" class="font-bold text-sm">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 内容容器 -->
+  <main id="app" class="max-w-3xl mx-auto px-4 py-4 fade-in">
+    <!-- 这里由 app.js 注入页面 -->
+    <div class="text-center py-20 text-gray-400">加载中...</div>
+  </main>
+
+  <!-- 底部导航 -->
+  <nav id="bottomNav" class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 z-40">
+    <div class="max-w-3xl mx-auto grid grid-cols-5 py-2">
+      <button data-page="home" class="nav-btn flex flex-col items-center gap-0.5 py-1 text-gray-400 active:scale-95 transition">
+        <span class="text-xl">🏠</span><span class="text-[10px]">首页</span>
+      </button>
+      <button data-page="learn" class="nav-btn flex flex-col items-center gap-0.5 py-1 text-gray-400 active:scale-95 transition">
+        <span class="text-xl">📚</span><span class="text-[10px]">学习</span>
+      </button>
+      <button data-page="mistakes" class="nav-btn flex flex-col items-center gap-0.5 py-1 text-gray-400 active:scale-95 transition">
+        <span class="text-xl">📝</span><span class="text-[10px]">错题本</span>
+      </button>
+      <button data-page="leaderboard" class="nav-btn flex flex-col items-center gap-0.5 py-1 text-gray-400 active:scale-95 transition">
+        <span class="text-xl">🏆</span><span class="text-[10px]">排行榜</span>
+      </button>
+      <button data-page="me" class="nav-btn flex flex-col items-center gap-0.5 py-1 text-gray-400 active:scale-95 transition">
+        <span class="text-xl">👤</span><span class="text-[10px]">我的</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 弹窗容器 -->
+  <div id="modalRoot"></div>
+  <div id="toastRoot" class="fixed top-20 left-0 right-0 flex justify-center pointer-events-none z-50"></div>
+
+  <!-- 应用脚本 -->
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
