@@ -1,0 +1,193 @@
+// speech.js - 语音合成与识别封装
+
+let voicesCache = null;
+
+// 获取所有英语声音
+function getEnglishVoices() {
+  if (voicesCache) return voicesCache;
+  const all = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
+  voicesCache = all.filter(v => v.lang.startsWith('en'));
+  return voicesCache;
+}
+
+// 监听 voices 加载（Chrome 异步加载）
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = () => {
+    voicesCache = null;
+  };
+}
+
+// 朗读文本
+export function speak(text, options = {}) {
+  if (!('speechSynthesis' in window)) {
+    console.warn('当前浏览器不支持语音合成');
+    return;
+  }
+
+  // 取消之前的朗读
+  window.speechSynthesis.cancel();
+
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = options.lang || 'en-US';
+  utter.rate = options.rate || 0.9;
+  utter.pitch = options.pitch || 1;
+  utter.volume = options.volume || 1;
+
+  // 选个英语声音
+  const voices = getEnglishVoices();
+  if (voices.length > 0) {
+    // 优先选女声
+    const female = voices.find(v => /female|samantha|karen|moira/i.test(v.name));
+    utter.voice = female || voices[0];
+  }
+
+  if (options.onEnd) utter.onend = options.onEnd;
+  if (options.onError) utter.onerror = options.onError;
+
+  window.speechSynthesis.speak(utter);
+  return utter;
+}
+
+export function stopSpeaking() {
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+  }
+}
+
+// === 语音识别 ===
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+export function isSpeechRecognitionSupported() {
+  return !!SR;
+}
+
+// 开始识别 - 返回一个对象 { stop, promise }
+export function recognize(options = {}) {
+  if (!SR) {
+    return {
+      promise: Promise.reject(new Error('当前浏览器不支持语音识别')),
+      stop: () => {}
+    };
+  }
+
+  const rec = new SR();
+  rec.lang = options.lang || 'en-US';
+  rec.interimResults = false;
+  rec.maxAlternatives = 3;
+  rec.continuous = false;
+
+  const promise = new Promise((resolve, reject) => {
+    rec.onresult = (ev) => {
+      const result = ev.results[0];
+      const alternatives = [];
+      for (let i = 0; i < result.length; i++) {
+        alternatives.push({
+          transcript: result[i].transcript,
+          confidence: result[i].confidence
+        });
+      }
+      resolve(alternatives);
+    };
+    rec.onerror = (ev) => reject(new Error(ev.error || '识别失败'));
+    rec.onend = () => {
+      // 如果没有 result，promise 会一直 pending; 我们改成 reject
+      // 但通常 onresult 已经触发
+    };
+  });
+
+  rec.start();
+
+  return {
+    promise,
+    stop: () => rec.stop()
+  };
+}
+
+// 计算文本相似度 (0-100) - 用于跟读评分
+export function similarity(target, spoken) {
+  const t = target.toLowerCase().replace(/[^a-z\s]/g, '').trim();
+  const s = spoken.toLowerCase().replace(/[^a-z\s]/g, '').trim();
+  if (!t || !s) return 0;
+  if (t === s) return 100;
+
+  // 计算 Levenshtein 距离
+  const dist = levenshtein(t, s);
+  const maxLen = Math.max(t.length, s.length);
+  const score = Math.max(0, Math.round((1 - dist / maxLen) * 100));
+  return score;
+}
+
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  if (m === 0) return n;
+  if (n === 0) return m;
+  const dp = Array(n + 1).fill(0);
+  for (let j = 0; j <= n; j++) dp[j] = j;
+  for (let i = 1; i <= m; i++) {
+    let prev = dp[0];
+    dp[0] = i;
+    for (let j = 1; j <= n; j++) {
+      const tmp = dp[j];
+      if (a[i-1] === b[j-1]) {
+        dp[j] = prev;
+      } else {
+        dp[j] = Math.min(prev, dp[j-1], dp[j]) + 1;
+      }
+      prev = tmp;
+    }
+  }
+  return dp[n];
+}
+
+// 简单音效合成 (用 Web Audio API)
+let audioCtx = null;
+function getAudioCtx() {
+  if (!audioCtx) {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+  return audioCtx;
+}
+
+export function playSound(type) {
+  try {
+    const ctx = getAudioCtx();
+    if (ctx.state === 'suspended') ctx.resume();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    if (type === 'correct') {
+      osc.frequency.setValueAtTime(523, ctx.currentTime); // C5
+      osc.frequency.setValueAtTime(659, ctx.currentTime + 0.1); // E5
+      osc.frequency.setValueAtTime(784, ctx.currentTime + 0.2); // G5
+      gain.gain.setValueAtTime(0.2, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.4);
+    } else if (type === 'wrong') {
+      osc.frequency.setValueAtTime(200, ctx.currentTime);
+      osc.frequency.setValueAtTime(150, ctx.currentTime + 0.1);
+      gain.gain.setValueAtTime(0.15, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.3);
+    } else if (type === 'levelup') {
+      [523, 659, 784, 1047].forEach((freq, i) => {
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + i * 0.1);
+      });
+      gain.gain.setValueAtTime(0.2, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.6);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.6);
+    } else if (type === 'click') {
+      osc.frequency.setValueAtTime(800, ctx.currentTime);
+      gain.gain.setValueAtTime(0.1, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.05);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.05);
+    }
+  } catch (e) {
+    // 静默失败
+  }
+}

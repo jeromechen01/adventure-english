@@ -1,0 +1,85 @@
+{
+  "level": "primary",
+  "articles": [
+    {
+      "id": "rp-001",
+      "title": "My Family",
+      "grade": 4,
+      "lexile": 200,
+      "wordCount": 65,
+      "category": "story",
+      "content": "I have a happy family. There are four people in my family. They are my father, my mother, my brother and me. My father is a teacher. My mother is a doctor. My brother is a student. I am a student, too. We love each other. We are happy every day.",
+      "translation": "我有一个幸福的家庭。我家有四口人。他们是我爸爸、妈妈、哥哥和我。我爸爸是一名老师。我妈妈是一名医生。我哥哥是一名学生。我也是一名学生。我们彼此相爱。我们每天都很开心。",
+      "questions": [
+        {"type": "choice", "q": "How many people are there in the writer's family?", "options": ["3", "4", "5", "6"], "answer": 1},
+        {"type": "choice", "q": "What does the mother do?", "options": ["A teacher", "A doctor", "A student", "A nurse"], "answer": 1},
+        {"type": "choice", "q": "Is the brother a student?", "options": ["Yes, he is.", "No, he isn't.", "Yes, he does.", "No, he doesn't."], "answer": 0}
+      ],
+      "keyWords": ["family", "father", "mother", "brother", "happy"]
+    },
+    {
+      "id": "rp-002",
+      "title": "My Pet Dog",
+      "grade": 4,
+      "lexile": 220,
+      "wordCount": 72,
+      "category": "story",
+      "content": "I have a pet dog. His name is Lucky. He is white and brown. He is two years old. Lucky is very smart. He can run fast and jump high. He likes to play with me in the park. Every day, I give him food and water. I love Lucky very much. He is my best friend.",
+      "translation": "我有一只宠物狗。他叫 Lucky。他是白色和棕色的。他两岁了。Lucky 非常聪明。他能跑得快、跳得高。他喜欢在公园里和我玩。每天我都给他喂食和水。我非常爱 Lucky。他是我最好的朋友。",
+      "questions": [
+        {"type": "choice", "q": "What is the dog's name?", "options": ["Brown", "Lucky", "Park", "White"], "answer": 1},
+        {"type": "choice", "q": "How old is Lucky?", "options": ["1", "2", "3", "4"], "answer": 1},
+        {"type": "choice", "q": "What does Lucky like to do?", "options": ["Sleep at home", "Play in the park", "Eat fish", "Watch TV"], "answer": 1}
+      ],
+      "keyWords": ["pet", "dog", "smart", "friend", "park"]
+    },
+    {
+      "id": "rp-003",
+      "title": "A Day at School",
+      "grade": 5,
+      "lexile": 280,
+      "wordCount": 85,
+      "category": "story",
+      "content": "I go to school from Monday to Friday. I get up at six thirty. I have breakfast at seven. Then I go to school by bike. School begins at eight o'clock. I have four classes in the morning. I have lunch at school at noon. In the afternoon, I have two more classes. School is over at four. After school, I play with my friends. I go home at five.",
+      "translation": "我周一到周五上学。我六点半起床。我七点吃早饭。然后我骑自行车去学校。学校八点开始上课。我上午有四节课。我中午在学校吃午饭。下午我还有两节课。四点放学。放学后我和朋友们玩。我五点回家。",
+      "questions": [
+        {"type": "choice", "q": "What time does the writer get up?", "options": ["6:00", "6:30", "7:00", "7:30"], "answer": 1},
+        {"type": "choice", "q": "How does the writer go to school?", "options": ["By bus", "By car", "By bike", "On foot"], "answer": 2},
+        {"type": "choice", "q": "How many classes does the writer have a day?", "options": ["4", "5", "6", "7"], "answer": 2}
+      ],
+      "keyWords": ["school", "breakfast", "bike", "lunch", "class"]
+    },
+    {
+      "id": "rp-004",
+      "title": "The Four Seasons",
+      "grade": 5,
+      "lexile": 300,
+      "wordCount": 95,
+      "category": "science",
+      "content": "There are four seasons in a year. They are spring, summer, autumn and winter. Spring is warm. Trees turn green and flowers come out. In summer, it is very hot. Children love summer because they can swim. Autumn is cool. Leaves turn yellow and fall down. Farmers are busy in autumn. Winter is the coldest season. It often snows. Children make snowmen in the snow. Each season has its own beauty.",
+      "translation": "一年有四个季节。它们是春天、夏天、秋天和冬天。春天很暖和。树变绿，花儿开放。夏天非常热。孩子们喜欢夏天因为可以游泳。秋天很凉爽。树叶变黄落下。秋天农民很忙。冬天是最冷的季节。经常下雪。孩子们在雪地里堆雪人。每个季节都有自己的美丽。",
+      "questions": [
+        {"type": "choice", "q": "How many seasons are there in a year?", "options": ["2", "3", "4", "5"], "answer": 2},
+        {"type": "choice", "q": "Which season is the coldest?", "options": ["Spring", "Summer", "Autumn", "Winter"], "answer": 3},
+        {"type": "choice", "q": "What can children do in summer?", "options": ["Make snowmen", "Swim", "Pick fruits", "Plant trees"], "answer": 1}
+      ],
+      "keyWords": ["season", "spring", "summer", "autumn", "winter"]
+    },
+    {
+      "id": "rp-005",
+      "title": "My Favourite Hobby",
+      "grade": 6,
+      "lexile": 350,
+      "wordCount": 105,
+      "category": "story",
+      "content": "Everyone has a hobby. My favourite hobby is reading. I love reading books because they teach me a lot. I started reading when I was five. Now I read every day after school. I have many books at home. Some are about animals, some are about science, and others are storybooks. My favourite book is The Little Prince. I have read it three times. Reading makes me happy and clever. I will read more books in the future. What is your favourite hobby?",
+      "translation": "每个人都有爱好。我最喜欢的爱好是阅读。我喜欢读书因为它们教会我很多东西。我五岁开始读书。现在我每天放学后都读书。我家里有很多书。有些是关于动物的，有些是关于科学的，还有故事书。我最喜欢的书是《小王子》。我已经读了三遍。阅读让我开心又聪明。我将来会读更多的书。你最喜欢的爱好是什么？",
+      "questions": [
+        {"type": "choice", "q": "What is the writer's favourite hobby?", "options": ["Drawing", "Reading", "Swimming", "Singing"], "answer": 1},
+        {"type": "choice", "q": "When did the writer start reading?", "options": ["At 3", "At 5", "At 6", "At 8"], "answer": 1},
+        {"type": "choice", "q": "How many times has the writer read The Little Prince?", "options": ["1", "2", "3", "4"], "answer": 2}
+      ],
+      "keyWords": ["hobby", "reading", "book", "favourite", "every day"]
+    }
+  ]
+}

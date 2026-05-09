@@ -1,0 +1,66 @@
+{
+  "grade": 9,
+  "totalWords": 30,
+  "units": [
+    {
+      "unitId": "g9-u1",
+      "unitName": "Unit 1 Learning Strategies",
+      "words": [
+        {"id": "g9w001", "word": "improve", "phonetic": "/ɪmˈpruːv/", "pos": "v.", "meaning": "提高；改善", "examples": [{"en": "I want to improve my English.", "zh": "我想提高我的英语。"}, {"en": "Practice can improve your skills.", "zh": "练习可以提高你的技能。"}], "synonyms": ["enhance"], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g9w002", "word": "ability", "phonetic": "/əˈbɪləti/", "pos": "n.", "meaning": "能力", "examples": [{"en": "She has the ability to lead.", "zh": "她有领导能力。"}, {"en": "Trust your ability.", "zh": "相信自己的能力。"}], "synonyms": ["skill"], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w003", "word": "knowledge", "phonetic": "/ˈnɒlɪdʒ/", "pos": "n.", "meaning": "知识", "examples": [{"en": "Knowledge is power.", "zh": "知识就是力量。"}, {"en": "He has wide knowledge.", "zh": "他知识渊博。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w004", "word": "method", "phonetic": "/ˈmeθəd/", "pos": "n.", "meaning": "方法", "examples": [{"en": "What's the best method?", "zh": "什么是最好的方法？"}, {"en": "Try a new method.", "zh": "试试新方法。"}], "synonyms": ["way"], "antonyms": [], "difficulty": 3, "tags": ["noun"]},
+        {"id": "g9w005", "word": "succeed", "phonetic": "/səkˈsiːd/", "pos": "v.", "meaning": "成功", "examples": [{"en": "Believe you can succeed.", "zh": "相信你能成功。"}, {"en": "She succeeded in the exam.", "zh": "她考试成功了。"}], "synonyms": [], "antonyms": ["fail"], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g9w006", "word": "challenge", "phonetic": "/ˈtʃæləndʒ/", "pos": "n./v.", "meaning": "挑战", "examples": [{"en": "Life is full of challenges.", "zh": "生活充满挑战。"}, {"en": "I love a challenge.", "zh": "我喜欢挑战。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["noun"]}
+      ]
+    },
+    {
+      "unitId": "g9-u2",
+      "unitName": "Unit 2 Society",
+      "words": [
+        {"id": "g9w007", "word": "society", "phonetic": "/səˈsaɪəti/", "pos": "n.", "meaning": "社会", "examples": [{"en": "We live in a modern society.", "zh": "我们生活在现代社会。"}, {"en": "Society is changing fast.", "zh": "社会变化很快。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w008", "word": "environment", "phonetic": "/ɪnˈvaɪrənmənt/", "pos": "n.", "meaning": "环境", "examples": [{"en": "Protect our environment.", "zh": "保护我们的环境。"}, {"en": "The environment is important.", "zh": "环境很重要。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w009", "word": "pollution", "phonetic": "/pəˈluːʃn/", "pos": "n.", "meaning": "污染", "examples": [{"en": "Air pollution is serious.", "zh": "空气污染很严重。"}, {"en": "Reduce pollution.", "zh": "减少污染。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w010", "word": "protect", "phonetic": "/prəˈtekt/", "pos": "v.", "meaning": "保护", "examples": [{"en": "We must protect animals.", "zh": "我们必须保护动物。"}, {"en": "Protect yourself.", "zh": "保护好自己。"}], "synonyms": ["guard"], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g9w011", "word": "develop", "phonetic": "/dɪˈveləp/", "pos": "v.", "meaning": "发展", "examples": [{"en": "China is developing fast.", "zh": "中国发展很快。"}, {"en": "Develop your skills.", "zh": "发展你的技能。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g9w012", "word": "communicate", "phonetic": "/kəˈmjuːnɪkeɪt/", "pos": "v.", "meaning": "交流", "examples": [{"en": "We communicate by email.", "zh": "我们通过邮件交流。"}, {"en": "Try to communicate clearly.", "zh": "试着清楚地交流。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g9-u3",
+      "unitName": "Unit 3 Culture",
+      "words": [
+        {"id": "g9w013", "word": "culture", "phonetic": "/ˈkʌltʃə/", "pos": "n.", "meaning": "文化", "examples": [{"en": "Chinese culture is rich.", "zh": "中国文化很丰富。"}, {"en": "Learn about other cultures.", "zh": "了解其他文化。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["noun"]},
+        {"id": "g9w014", "word": "tradition", "phonetic": "/trəˈdɪʃn/", "pos": "n.", "meaning": "传统", "examples": [{"en": "It's a family tradition.", "zh": "这是家庭传统。"}, {"en": "Respect our traditions.", "zh": "尊重我们的传统。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w015", "word": "festival", "phonetic": "/ˈfestɪvl/", "pos": "n.", "meaning": "节日", "examples": [{"en": "Spring Festival is fun.", "zh": "春节很有趣。"}, {"en": "We celebrate this festival.", "zh": "我们庆祝这个节日。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["noun"]},
+        {"id": "g9w016", "word": "celebrate", "phonetic": "/ˈselɪbreɪt/", "pos": "v.", "meaning": "庆祝", "examples": [{"en": "We celebrate Christmas.", "zh": "我们庆祝圣诞节。"}, {"en": "Let's celebrate her birthday.", "zh": "让我们庆祝她的生日。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g9w017", "word": "history", "phonetic": "/ˈhɪstri/", "pos": "n.", "meaning": "历史", "examples": [{"en": "I love history.", "zh": "我喜欢历史。"}, {"en": "China has a long history.", "zh": "中国有悠久的历史。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["subject"]},
+        {"id": "g9w018", "word": "ancient", "phonetic": "/ˈeɪnʃənt/", "pos": "adj.", "meaning": "古代的", "examples": [{"en": "Ancient China was great.", "zh": "古代中国很伟大。"}, {"en": "This is an ancient temple.", "zh": "这是座古寺。"}], "synonyms": ["old"], "antonyms": ["modern"], "difficulty": 4, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g9-u4",
+      "unitName": "Unit 4 Health",
+      "words": [
+        {"id": "g9w019", "word": "health", "phonetic": "/helθ/", "pos": "n.", "meaning": "健康", "examples": [{"en": "Health is important.", "zh": "健康很重要。"}, {"en": "Take care of your health.", "zh": "照顾好你的健康。"}], "synonyms": [], "antonyms": ["illness"], "difficulty": 3, "tags": ["noun"]},
+        {"id": "g9w020", "word": "medicine", "phonetic": "/ˈmedsn/", "pos": "n.", "meaning": "药", "examples": [{"en": "Take this medicine.", "zh": "吃这个药。"}, {"en": "Medicine can save lives.", "zh": "药能救命。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["noun"]},
+        {"id": "g9w021", "word": "illness", "phonetic": "/ˈɪlnəs/", "pos": "n.", "meaning": "疾病", "examples": [{"en": "He has a serious illness.", "zh": "他得了重病。"}, {"en": "Illness can be prevented.", "zh": "疾病可以预防。"}], "synonyms": ["disease"], "antonyms": ["health"], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w022", "word": "advice", "phonetic": "/ədˈvaɪs/", "pos": "n.", "meaning": "建议", "examples": [{"en": "Take my advice.", "zh": "听我的建议。"}, {"en": "Good advice helps.", "zh": "好的建议有帮助。"}], "synonyms": ["suggestion"], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w023", "word": "stress", "phonetic": "/stres/", "pos": "n.", "meaning": "压力", "examples": [{"en": "Too much stress is bad.", "zh": "压力太大不好。"}, {"en": "Reduce your stress.", "zh": "减轻你的压力。"}], "synonyms": ["pressure"], "antonyms": [], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w024", "word": "relax", "phonetic": "/rɪˈlæks/", "pos": "v.", "meaning": "放松", "examples": [{"en": "Relax and breathe.", "zh": "放松，深呼吸。"}, {"en": "I relax on weekends.", "zh": "我周末放松。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g9-u5",
+      "unitName": "Unit 5 Dreams",
+      "words": [
+        {"id": "g9w025", "word": "dream", "phonetic": "/driːm/", "pos": "n./v.", "meaning": "梦想", "examples": [{"en": "Follow your dreams.", "zh": "追逐你的梦想。"}, {"en": "I have a dream.", "zh": "我有一个梦想。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["noun"]},
+        {"id": "g9w026", "word": "achieve", "phonetic": "/əˈtʃiːv/", "pos": "v.", "meaning": "实现；达到", "examples": [{"en": "She achieved her goal.", "zh": "她实现了目标。"}, {"en": "Achieve your dreams.", "zh": "实现你的梦想。"}], "synonyms": ["accomplish"], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g9w027", "word": "goal", "phonetic": "/ɡəʊl/", "pos": "n.", "meaning": "目标", "examples": [{"en": "Set a goal for yourself.", "zh": "为自己设定目标。"}, {"en": "His goal is to help others.", "zh": "他的目标是帮助别人。"}], "synonyms": ["aim"], "antonyms": [], "difficulty": 3, "tags": ["noun"]},
+        {"id": "g9w028", "word": "courage", "phonetic": "/ˈkʌrɪdʒ/", "pos": "n.", "meaning": "勇气", "examples": [{"en": "Have courage.", "zh": "要有勇气。"}, {"en": "Courage is needed.", "zh": "需要勇气。"}], "synonyms": ["bravery"], "antonyms": ["fear"], "difficulty": 4, "tags": ["noun"]},
+        {"id": "g9w029", "word": "imagine", "phonetic": "/ɪˈmædʒɪn/", "pos": "v.", "meaning": "想象", "examples": [{"en": "Imagine a perfect world.", "zh": "想象一个完美的世界。"}, {"en": "I can't imagine that.", "zh": "我无法想象。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g9w030", "word": "succeed", "phonetic": "/səkˈsiːd/", "pos": "v.", "meaning": "成功", "examples": [{"en": "Hard work helps you succeed.", "zh": "努力工作能助你成功。"}, {"en": "She will succeed.", "zh": "她会成功的。"}], "synonyms": [], "antonyms": ["fail"], "difficulty": 4, "tags": ["verb"]}
+      ]
+    }
+  ]
+}

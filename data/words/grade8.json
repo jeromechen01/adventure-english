@@ -1,0 +1,66 @@
+{
+  "grade": 8,
+  "totalWords": 30,
+  "units": [
+    {
+      "unitId": "g8-u1",
+      "unitName": "Unit 1 Where Did You Go on Vacation",
+      "words": [
+        {"id": "g8w001", "word": "vacation", "phonetic": "/vəˈkeɪʃn/", "pos": "n.", "meaning": "假期", "examples": [{"en": "We went on vacation last summer.", "zh": "去年夏天我们度假了。"}, {"en": "Have a nice vacation!", "zh": "假期愉快！"}], "synonyms": ["holiday"], "antonyms": [], "difficulty": 3, "tags": ["time"]},
+        {"id": "g8w002", "word": "anyone", "phonetic": "/ˈeniwʌn/", "pos": "pron.", "meaning": "任何人", "examples": [{"en": "Did anyone see my book?", "zh": "有人看到我的书吗？"}, {"en": "Anyone can do it.", "zh": "任何人都可以做。"}], "synonyms": ["anybody"], "antonyms": [], "difficulty": 3, "tags": ["pronoun"]},
+        {"id": "g8w003", "word": "anywhere", "phonetic": "/ˈeniweə/", "pos": "adv.", "meaning": "任何地方", "examples": [{"en": "I can't find it anywhere.", "zh": "哪儿也找不到。"}, {"en": "Sit anywhere you like.", "zh": "你想坐哪儿就坐哪儿。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w004", "word": "wonderful", "phonetic": "/ˈwʌndəfl/", "pos": "adj.", "meaning": "精彩的", "examples": [{"en": "The trip was wonderful.", "zh": "这次旅行很精彩。"}, {"en": "What a wonderful day!", "zh": "多么美好的一天！"}], "synonyms": ["amazing"], "antonyms": ["awful"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w005", "word": "decide", "phonetic": "/dɪˈsaɪd/", "pos": "v.", "meaning": "决定", "examples": [{"en": "I decided to go.", "zh": "我决定去了。"}, {"en": "Decide quickly.", "zh": "快做决定。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w006", "word": "myself", "phonetic": "/maɪˈself/", "pos": "pron.", "meaning": "我自己", "examples": [{"en": "I made it myself.", "zh": "这是我自己做的。"}, {"en": "I told myself to be brave.", "zh": "我告诉自己要勇敢。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["pronoun"]}
+      ]
+    },
+    {
+      "unitId": "g8-u2",
+      "unitName": "Unit 2 How Often Do You Exercise",
+      "words": [
+        {"id": "g8w007", "word": "often", "phonetic": "/ˈɒfn/", "pos": "adv.", "meaning": "经常", "examples": [{"en": "I often go swimming.", "zh": "我经常去游泳。"}, {"en": "How often do you read?", "zh": "你多久读一次书？"}], "synonyms": ["frequently"], "antonyms": ["rarely"], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g8w008", "word": "hardly", "phonetic": "/ˈhɑːdli/", "pos": "adv.", "meaning": "几乎不", "examples": [{"en": "I hardly know him.", "zh": "我几乎不认识他。"}, {"en": "She hardly ever cries.", "zh": "她几乎从不哭。"}], "synonyms": ["barely"], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w009", "word": "twice", "phonetic": "/twaɪs/", "pos": "adv.", "meaning": "两次", "examples": [{"en": "I read it twice.", "zh": "我读了两遍。"}, {"en": "Twice a week.", "zh": "一周两次。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w010", "word": "Internet", "phonetic": "/ˈɪntənet/", "pos": "n.", "meaning": "互联网", "examples": [{"en": "I use the Internet daily.", "zh": "我每天上网。"}, {"en": "Look it up on the Internet.", "zh": "上网查一下。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
+        {"id": "g8w011", "word": "program", "phonetic": "/ˈprəʊɡræm/", "pos": "n.", "meaning": "节目；程序", "examples": [{"en": "I watch this program every week.", "zh": "我每周看这个节目。"}, {"en": "The program runs well.", "zh": "程序运行良好。"}], "synonyms": ["show"], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
+        {"id": "g8w012", "word": "result", "phonetic": "/rɪˈzʌlt/", "pos": "n.", "meaning": "结果", "examples": [{"en": "What's the result?", "zh": "结果如何？"}, {"en": "The result was good.", "zh": "结果很好。"}], "synonyms": ["outcome"], "antonyms": [], "difficulty": 3, "tags": ["noun"]}
+      ]
+    },
+    {
+      "unitId": "g8-u3",
+      "unitName": "Unit 3 Comparison",
+      "words": [
+        {"id": "g8w013", "word": "outgoing", "phonetic": "/ˈaʊtɡəʊɪŋ/", "pos": "adj.", "meaning": "外向的", "examples": [{"en": "She is an outgoing girl.", "zh": "她是个外向的女孩。"}, {"en": "Outgoing people make friends easily.", "zh": "外向的人容易交朋友。"}], "synonyms": [], "antonyms": ["shy"], "difficulty": 4, "tags": ["personality"]},
+        {"id": "g8w014", "word": "shy", "phonetic": "/ʃaɪ/", "pos": "adj.", "meaning": "害羞的", "examples": [{"en": "He is too shy to speak.", "zh": "他害羞得不敢说话。"}, {"en": "Don't be shy.", "zh": "别害羞。"}], "synonyms": [], "antonyms": ["outgoing"], "difficulty": 2, "tags": ["personality"]},
+        {"id": "g8w015", "word": "serious", "phonetic": "/ˈsɪəriəs/", "pos": "adj.", "meaning": "严肃的", "examples": [{"en": "This is a serious matter.", "zh": "这是严肃的事情。"}, {"en": "He looks serious.", "zh": "他看起来很严肃。"}], "synonyms": [], "antonyms": ["funny"], "difficulty": 3, "tags": ["personality"]},
+        {"id": "g8w016", "word": "smart", "phonetic": "/smɑːt/", "pos": "adj.", "meaning": "聪明的", "examples": [{"en": "She is a smart girl.", "zh": "她是个聪明的女孩。"}, {"en": "Smart students study hard.", "zh": "聪明的学生学习刻苦。"}], "synonyms": ["clever"], "antonyms": ["stupid"], "difficulty": 2, "tags": ["personality"]},
+        {"id": "g8w017", "word": "common", "phonetic": "/ˈkɒmən/", "pos": "adj.", "meaning": "共同的；普通的", "examples": [{"en": "We have a lot in common.", "zh": "我们有很多共同点。"}, {"en": "It's a common name.", "zh": "这是个常见的名字。"}], "synonyms": ["normal"], "antonyms": ["uncommon"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w018", "word": "different", "phonetic": "/ˈdɪfrənt/", "pos": "adj.", "meaning": "不同的", "examples": [{"en": "We are different.", "zh": "我们不一样。"}, {"en": "She has different ideas.", "zh": "她有不同的想法。"}], "synonyms": [], "antonyms": ["same"], "difficulty": 2, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u4",
+      "unitName": "Unit 4 Best City",
+      "words": [
+        {"id": "g8w019", "word": "city", "phonetic": "/ˈsɪti/", "pos": "n.", "meaning": "城市", "examples": [{"en": "Beijing is a big city.", "zh": "北京是一座大城市。"}, {"en": "I live in this city.", "zh": "我住在这座城市。"}], "synonyms": [], "antonyms": ["village"], "difficulty": 1, "tags": ["place"]},
+        {"id": "g8w020", "word": "popular", "phonetic": "/ˈpɒpjələ/", "pos": "adj.", "meaning": "受欢迎的", "examples": [{"en": "She is a popular singer.", "zh": "她是位受欢迎的歌手。"}, {"en": "This song is popular.", "zh": "这首歌很流行。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w021", "word": "creative", "phonetic": "/kriˈeɪtɪv/", "pos": "adj.", "meaning": "有创意的", "examples": [{"en": "She is a creative artist.", "zh": "她是位有创意的艺术家。"}, {"en": "Try to be creative.", "zh": "尽量有创意一点。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w022", "word": "important", "phonetic": "/ɪmˈpɔːtənt/", "pos": "adj.", "meaning": "重要的", "examples": [{"en": "This is very important.", "zh": "这非常重要。"}, {"en": "Family is important.", "zh": "家庭很重要。"}], "synonyms": [], "antonyms": ["unimportant"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w023", "word": "comfortable", "phonetic": "/ˈkʌmftəbl/", "pos": "adj.", "meaning": "舒适的", "examples": [{"en": "The chair is comfortable.", "zh": "椅子很舒服。"}, {"en": "Make yourself comfortable.", "zh": "请别拘束。"}], "synonyms": ["cozy"], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w024", "word": "expensive", "phonetic": "/ɪkˈspensɪv/", "pos": "adj.", "meaning": "昂贵的", "examples": [{"en": "The car is expensive.", "zh": "这辆车很贵。"}, {"en": "Don't buy expensive things.", "zh": "别买贵东西。"}], "synonyms": ["costly"], "antonyms": ["cheap"], "difficulty": 3, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u5",
+      "unitName": "Unit 5 Future",
+      "words": [
+        {"id": "g8w025", "word": "future", "phonetic": "/ˈfjuːtʃə/", "pos": "n.", "meaning": "未来", "examples": [{"en": "Think about your future.", "zh": "想想你的未来。"}, {"en": "In the future, robots will help us.", "zh": "未来，机器人会帮助我们。"}], "synonyms": [], "antonyms": ["past"], "difficulty": 3, "tags": ["time"]},
+        {"id": "g8w026", "word": "robot", "phonetic": "/ˈrəʊbɒt/", "pos": "n.", "meaning": "机器人", "examples": [{"en": "I have a toy robot.", "zh": "我有一个玩具机器人。"}, {"en": "Robots can do many things.", "zh": "机器人能做很多事情。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
+        {"id": "g8w027", "word": "scientist", "phonetic": "/ˈsaɪəntɪst/", "pos": "n.", "meaning": "科学家", "examples": [{"en": "I want to be a scientist.", "zh": "我想当科学家。"}, {"en": "Scientists study nature.", "zh": "科学家研究自然。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["job"]},
+        {"id": "g8w028", "word": "engineer", "phonetic": "/ˌendʒɪˈnɪə/", "pos": "n.", "meaning": "工程师", "examples": [{"en": "My uncle is an engineer.", "zh": "我叔叔是工程师。"}, {"en": "Engineers build things.", "zh": "工程师建造东西。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w029", "word": "study", "phonetic": "/ˈstʌdi/", "pos": "v.", "meaning": "学习", "examples": [{"en": "Study hard.", "zh": "努力学习。"}, {"en": "I study English every day.", "zh": "我每天学英语。"}], "synonyms": ["learn"], "antonyms": [], "difficulty": 1, "tags": ["action"]},
+        {"id": "g8w030", "word": "learn", "phonetic": "/lɜːn/", "pos": "v.", "meaning": "学", "examples": [{"en": "I learn from my teacher.", "zh": "我向老师学习。"}, {"en": "Learn something new.", "zh": "学点新东西。"}], "synonyms": ["study"], "antonyms": [], "difficulty": 1, "tags": ["action"]}
+      ]
+    }
+  ]
+}

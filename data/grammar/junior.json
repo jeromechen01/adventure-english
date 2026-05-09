@@ -1,0 +1,243 @@
+{
+  "level": "junior",
+  "topics": [
+    {
+      "id": "gj-001",
+      "title": "现在完成时",
+      "grade": [8, 9],
+      "summary": "现在完成时表示过去的动作对现在造成的影响或结果，结构为 have/has + 过去分词。",
+      "rules": [
+        "结构: have/has + V-ed (过去分词)",
+        "He/She/It 用 has, 其他主语用 have",
+        "时间标志: already, yet, just, ever, never, since, for",
+        "since + 时间点; for + 时间段"
+      ],
+      "examples": [
+        {"en": "I have finished my homework.", "zh": "我已经完成了作业。"},
+        {"en": "She has lived here for ten years.", "zh": "她在这里住了十年了。"},
+        {"en": "Have you ever been to Beijing?", "zh": "你去过北京吗？"}
+      ],
+      "quiz": [
+        {"question": "I ___ already eaten.", "options": ["have", "has", "had", "having"], "answer": 0, "explanation": "I 用 have。"},
+        {"question": "She ___ been to Paris twice.", "options": ["have", "has", "had", "is"], "answer": 1, "explanation": "She 用 has。"},
+        {"question": "We ___ known each other ___ 2010.", "options": ["have / for", "have / since", "has / for", "has / since"], "answer": 1, "explanation": "we 用 have；2010 是时间点用 since。"},
+        {"question": "He has lived here ___ five years.", "options": ["since", "for", "in", "at"], "answer": 1, "explanation": "five years 是时间段用 for。"},
+        {"question": "Have you ___ finished the book?", "options": ["already", "yet", "just", "ever"], "answer": 0, "explanation": "肯定句中 already 表示已经；yet 用于否定和疑问句。"}
+      ]
+    },
+    {
+      "id": "gj-002",
+      "title": "被动语态",
+      "grade": [8, 9],
+      "summary": "被动语态强调动作的承受者，结构为 be + 过去分词，时态由 be 动词体现。",
+      "rules": [
+        "一般现在时被动: am/is/are + V-ed",
+        "一般过去时被动: was/were + V-ed",
+        "情态动词被动: 情态动词 + be + V-ed",
+        "动作执行者用 by + 名词/宾格代词引出"
+      ],
+      "examples": [
+        {"en": "English is spoken in many countries.", "zh": "英语在许多国家被使用。"},
+        {"en": "The window was broken by Tom.", "zh": "窗户被汤姆打破了。"},
+        {"en": "Books should be read every day.", "zh": "每天都应该读书。"}
+      ],
+      "quiz": [
+        {"question": "The book ___ by many students.", "options": ["read", "reads", "is read", "reading"], "answer": 2, "explanation": "书 是被读，用被动 is read。"},
+        {"question": "The room ___ cleaned yesterday.", "options": ["is", "was", "were", "are"], "answer": 1, "explanation": "yesterday 过去时，单数主语用 was。"},
+        {"question": "Apples ___ in autumn.", "options": ["pick", "picks", "are picked", "is picked"], "answer": 2, "explanation": "苹果是被采摘的，复数用 are picked。"},
+        {"question": "The work must ___ done today.", "options": ["be", "is", "was", "been"], "answer": 0, "explanation": "情态动词 must + be + 过去分词。"},
+        {"question": "The cake was made ___ my mom.", "options": ["of", "from", "by", "with"], "answer": 2, "explanation": "动作执行者用 by。"}
+      ]
+    },
+    {
+      "id": "gj-003",
+      "title": "宾语从句",
+      "grade": [8, 9],
+      "summary": "宾语从句作动词或介词的宾语，连接词常用 that, if/whether, 以及特殊疑问词。",
+      "rules": [
+        "陈述句作宾语从句用 that 引导，that 可省略",
+        "一般疑问句作宾语从句用 if 或 whether 引导，从句用陈述语序",
+        "特殊疑问句作宾语从句用原疑问词引导，从句用陈述语序",
+        "时态呼应：主句过去时，从句一般也用过去时（除非客观真理）"
+      ],
+      "examples": [
+        {"en": "I think (that) he is right.", "zh": "我认为他是对的。"},
+        {"en": "She asked if I was happy.", "zh": "她问我是否开心。"},
+        {"en": "Do you know where he lives?", "zh": "你知道他住哪儿吗？"}
+      ],
+      "quiz": [
+        {"question": "He said ___ he liked English.", "options": ["that", "if", "what", "which"], "answer": 0, "explanation": "陈述句用 that 引导。"},
+        {"question": "Do you know ___ he comes from?", "options": ["that", "if", "where", "who"], "answer": 2, "explanation": "问来自哪里用 where。"},
+        {"question": "She asked me ___ I had finished.", "options": ["that", "if", "what", "where"], "answer": 1, "explanation": "一般疑问句作宾从用 if/whether。"},
+        {"question": "I don't know ___ to do.", "options": ["how", "what", "where", "which"], "answer": 1, "explanation": "what to do = 做什么。"},
+        {"question": "He told me that he ___ tired then.", "options": ["is", "was", "be", "were"], "answer": 1, "explanation": "主句过去时，从句也用过去时 was。"}
+      ]
+    },
+    {
+      "id": "gj-004",
+      "title": "定语从句",
+      "grade": [9],
+      "summary": "定语从句修饰名词或代词（先行词），引导词包括关系代词 who, which, that 等。",
+      "rules": [
+        "who 指人作主语或宾语",
+        "which 指物或动物",
+        "that 指人或物，常可代替 who/which",
+        "whose 表示\"...的\"，可指人或物",
+        "where 指地点，when 指时间"
+      ],
+      "examples": [
+        {"en": "The boy who is reading is my brother.", "zh": "正在读书的那个男孩是我弟弟。"},
+        {"en": "I like the book that you gave me.", "zh": "我喜欢你给我的那本书。"},
+        {"en": "This is the school where I studied.", "zh": "这是我学习过的学校。"}
+      ],
+      "quiz": [
+        {"question": "The man ___ is talking is my dad.", "options": ["who", "which", "where", "what"], "answer": 0, "explanation": "先行词是 the man (人)，作主语用 who。"},
+        {"question": "The book ___ is on the desk is mine.", "options": ["who", "which", "what", "whose"], "answer": 1, "explanation": "先行词是 the book (物)，用 which。"},
+        {"question": "This is the place ___ I was born.", "options": ["which", "that", "where", "when"], "answer": 2, "explanation": "先行词是地点 the place，用 where。"},
+        {"question": "I'll never forget the day ___ we met.", "options": ["which", "where", "when", "who"], "answer": 2, "explanation": "先行词是时间 the day，用 when。"},
+        {"question": "The girl ___ bag is red is Lisa.", "options": ["who", "whose", "which", "that"], "answer": 1, "explanation": "表示\"...的\"用 whose。"}
+      ]
+    },
+    {
+      "id": "gj-005",
+      "title": "if 条件句",
+      "grade": [8, 9],
+      "summary": "if 引导真实条件状语从句，遵循 \"主将从现\" 原则。",
+      "rules": [
+        "主将从现：主句用一般将来时，从句用一般现在时",
+        "If + 主语 + V现在式, 主语 + will + V原",
+        "可表示真实可能发生的情况"
+      ],
+      "examples": [
+        {"en": "If it rains tomorrow, we will stay at home.", "zh": "如果明天下雨，我们就待在家里。"},
+        {"en": "If you study hard, you will pass the exam.", "zh": "如果你努力学习，你会通过考试。"}
+      ],
+      "quiz": [
+        {"question": "If it ___ tomorrow, I will stay home.", "options": ["rain", "rains", "will rain", "rained"], "answer": 1, "explanation": "从句一般现在时，主语 it 用 rains。"},
+        {"question": "If you don't hurry, you ___ late.", "options": ["are", "will be", "were", "be"], "answer": 1, "explanation": "主句一般将来时 will be。"},
+        {"question": "I will help you if I ___ free.", "options": ["am", "will be", "was", "be"], "answer": 0, "explanation": "if 从句用一般现在时 am。"},
+        {"question": "If she ___ hard, she will succeed.", "options": ["work", "works", "will work", "worked"], "answer": 1, "explanation": "从句 she 第三人称单数现在时 works。"},
+        {"question": "What will you do if it ___ rainy?", "options": ["is", "will be", "was", "be"], "answer": 0, "explanation": "if 从句用现在时 is。"}
+      ]
+    },
+    {
+      "id": "gj-006",
+      "title": "一般将来时",
+      "grade": [7, 8],
+      "summary": "一般将来时表示将来要发生的动作或状态，常用结构 will + V原 或 be going to + V原。",
+      "rules": [
+        "will + 动词原形 (适用于所有人称)",
+        "be going to + 动词原形 (强调计划、打算或迹象)",
+        "时间标志: tomorrow, next week, in the future, soon"
+      ],
+      "examples": [
+        {"en": "I will visit my grandma next Sunday.", "zh": "下周日我要去看望奶奶。"},
+        {"en": "It is going to rain.", "zh": "要下雨了。"},
+        {"en": "She will be a teacher.", "zh": "她将成为一名老师。"}
+      ],
+      "quiz": [
+        {"question": "I ___ play football tomorrow.", "options": ["will", "am", "do", "was"], "answer": 0, "explanation": "tomorrow 表将来用 will。"},
+        {"question": "Look at the dark clouds. It ___ rain.", "options": ["will", "is going to", "rains", "rained"], "answer": 1, "explanation": "看到迹象用 be going to。"},
+        {"question": "She is going to ___ a doctor.", "options": ["be", "is", "was", "been"], "answer": 0, "explanation": "be going to + 动词原形。"},
+        {"question": "We ___ have a party next week.", "options": ["will", "are", "do", "did"], "answer": 0, "explanation": "next week 将来时用 will。"},
+        {"question": "Will you ___ to the cinema?", "options": ["go", "goes", "going", "went"], "answer": 0, "explanation": "will 后接动词原形。"}
+      ]
+    },
+    {
+      "id": "gj-007",
+      "title": "动词不定式",
+      "grade": [7, 8],
+      "summary": "动词不定式 to + V原，可作主语、宾语、定语、状语等。",
+      "rules": [
+        "to + 动词原形",
+        "want/like/decide/plan/hope 后接 to do",
+        "make/let/help/see/hear sb. do (省略 to)",
+        "It is + adj + (for sb) + to do sth (常见句型)"
+      ],
+      "examples": [
+        {"en": "I want to learn English well.", "zh": "我想学好英语。"},
+        {"en": "It is important to be honest.", "zh": "诚实是重要的。"},
+        {"en": "Let me help you.", "zh": "让我帮你吧。"}
+      ],
+      "quiz": [
+        {"question": "I want ___ a doctor.", "options": ["be", "to be", "being", "is"], "answer": 1, "explanation": "want 后接 to do。"},
+        {"question": "It's nice ___ you.", "options": ["meet", "to meet", "meeting", "met"], "answer": 1, "explanation": "It is + adj + to do 句型。"},
+        {"question": "Let me ___ you with that.", "options": ["help", "to help", "helping", "helps"], "answer": 0, "explanation": "let sb. do 省略 to。"},
+        {"question": "I decided ___ harder.", "options": ["study", "to study", "studying", "studied"], "answer": 1, "explanation": "decide 后接 to do。"},
+        {"question": "He told me ___ here.", "options": ["wait", "to wait", "waiting", "waited"], "answer": 1, "explanation": "tell sb. to do sth.。"}
+      ]
+    },
+    {
+      "id": "gj-008",
+      "title": "比较级与最高级",
+      "grade": [7, 8],
+      "summary": "形容词和副词的比较级用于两者比较，最高级用于三者及以上的比较。",
+      "rules": [
+        "比较级 + than",
+        "the + 最高级 + (in/of 范围)",
+        "最高级前一般加 the，但物主代词后不加 the",
+        "irregular: good/well → better → best; bad/badly → worse → worst"
+      ],
+      "examples": [
+        {"en": "Tom is taller than Jim.", "zh": "汤姆比吉姆高。"},
+        {"en": "She is the tallest girl in our class.", "zh": "她是我们班最高的女孩。"},
+        {"en": "This is my best friend.", "zh": "这是我最好的朋友。"}
+      ],
+      "quiz": [
+        {"question": "He is the ___ student in his class.", "options": ["tall", "taller", "tallest", "more tall"], "answer": 2, "explanation": "in his class 范围三人以上，用最高级。"},
+        {"question": "Math is ___ than English for me.", "options": ["easy", "easier", "easiest", "more easy"], "answer": 1, "explanation": "than 前用比较级 easier。"},
+        {"question": "This is the ___ book I have ever read.", "options": ["good", "better", "best", "well"], "answer": 2, "explanation": "good 的最高级是 best。"},
+        {"question": "Tom is ___ of the three boys.", "options": ["tall", "taller", "the tallest", "more tall"], "answer": 2, "explanation": "三者比较用最高级。"},
+        {"question": "She runs ___ than me.", "options": ["fast", "faster", "fastest", "more fast"], "answer": 1, "explanation": "比较级 faster。"}
+      ]
+    },
+    {
+      "id": "gj-009",
+      "title": "感叹句",
+      "grade": [7, 8],
+      "summary": "感叹句以 What 或 How 开头，表达强烈情感。",
+      "rules": [
+        "What + a/an + adj + 单数可数名词 + 主语 + 谓语!",
+        "What + adj + 复数/不可数名词 + 主语 + 谓语!",
+        "How + adj/adv + 主语 + 谓语!",
+        "How + adj + a/an + 单数可数名词 + 主语 + 谓语!"
+      ],
+      "examples": [
+        {"en": "What a nice day it is!", "zh": "多么好的天气啊！"},
+        {"en": "How beautiful she is!", "zh": "她多漂亮啊！"},
+        {"en": "What clever children they are!", "zh": "多么聪明的孩子们啊！"}
+      ],
+      "quiz": [
+        {"question": "___ a nice day!", "options": ["How", "What", "Why", "Which"], "answer": 1, "explanation": "What + a + adj + 名词。"},
+        {"question": "___ beautiful the flowers are!", "options": ["How", "What", "Why", "Which"], "answer": 0, "explanation": "How + adj。"},
+        {"question": "___ delicious food it is!", "options": ["How", "What", "What a", "How a"], "answer": 1, "explanation": "food 是不可数，用 What + adj + 不可数名词。"},
+        {"question": "___ fast he runs!", "options": ["How", "What", "What a", "How a"], "answer": 0, "explanation": "How + adv (fast 是副词)。"},
+        {"question": "___ interesting books they are!", "options": ["How", "What", "What a", "How a"], "answer": 1, "explanation": "books 是复数名词，用 What。"}
+      ]
+    },
+    {
+      "id": "gj-010",
+      "title": "状语从句",
+      "grade": [8, 9],
+      "summary": "状语从句修饰主句的谓语，常见有时间、原因、条件、让步等类型。",
+      "rules": [
+        "时间状语: when, while, as, before, after, since, until",
+        "原因状语: because, since, as",
+        "条件状语: if, unless",
+        "让步状语: although, though, even though"
+      ],
+      "examples": [
+        {"en": "I was reading when she came in.", "zh": "她进来时我正在读书。"},
+        {"en": "He was late because he missed the bus.", "zh": "他迟到了因为没赶上公交车。"},
+        {"en": "Although it rained, we went out.", "zh": "尽管下雨，我们还是出去了。"}
+      ],
+      "quiz": [
+        {"question": "I'll wait ___ you come back.", "options": ["since", "until", "because", "although"], "answer": 1, "explanation": "until 表示 \"直到\"。"},
+        {"question": "He stayed at home ___ he was ill.", "options": ["because", "if", "although", "when"], "answer": 0, "explanation": "原因状语用 because。"},
+        {"question": "___ it was cold, he went swimming.", "options": ["Because", "If", "Although", "When"], "answer": 2, "explanation": "让步关系用 Although。"},
+        {"question": "I won't go ___ you go with me.", "options": ["if", "unless", "because", "when"], "answer": 1, "explanation": "unless = if not，意为\"除非\"。"},
+        {"question": "Don't talk ___ the teacher is speaking.", "options": ["when", "while", "since", "if"], "answer": 1, "explanation": "while 强调一段时间内同时进行。"}
+      ]
+    }
+  ]
+}

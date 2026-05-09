@@ -1,0 +1,247 @@
+{
+  "level": "primary",
+  "topics": [
+    {
+      "id": "gp-001",
+      "title": "be 动词的用法",
+      "grade": [3, 4],
+      "summary": "be 动词包括 am, is, are，根据主语不同变化。",
+      "rules": [
+        "I 用 am",
+        "You / We / They / 复数名词用 are",
+        "He / She / It / 单数名词用 is",
+        "否定句在 be 动词后加 not"
+      ],
+      "examples": [
+        {"en": "I am a student.", "zh": "我是一名学生。"},
+        {"en": "She is my teacher.", "zh": "她是我的老师。"},
+        {"en": "We are friends.", "zh": "我们是朋友。"}
+      ],
+      "quiz": [
+        {"question": "I ___ a boy.", "options": ["am", "is", "are", "be"], "answer": 0, "explanation": "主语是 I，所以用 am。"},
+        {"question": "She ___ my sister.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "主语是 She，单数第三人称，用 is。"},
+        {"question": "They ___ my friends.", "options": ["am", "is", "are", "be"], "answer": 2, "explanation": "主语是 They (复数)，用 are。"},
+        {"question": "We ___ happy today.", "options": ["am", "is", "are", "be"], "answer": 2, "explanation": "主语是 We (复数)，用 are。"},
+        {"question": "It ___ a cat.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "主语是 It，第三人称单数，用 is。"}
+      ]
+    },
+    {
+      "id": "gp-002",
+      "title": "There be 句型",
+      "grade": [4, 5],
+      "summary": "There be 句型表示 \"某地有某物\"，be 动词的形式与后面紧跟的名词一致。",
+      "rules": [
+        "There is + 单数可数名词 / 不可数名词",
+        "There are + 复数名词",
+        "就近原则：be 动词跟距离最近的那个名词保持一致",
+        "否定句直接在 be 后加 not"
+      ],
+      "examples": [
+        {"en": "There is a book on the desk.", "zh": "桌上有一本书。"},
+        {"en": "There are many students in the classroom.", "zh": "教室里有很多学生。"},
+        {"en": "There is some milk in the cup.", "zh": "杯子里有一些牛奶。"}
+      ],
+      "quiz": [
+        {"question": "There ___ a pen on the table.", "options": ["is", "are", "am", "be"], "answer": 0, "explanation": "a pen 是单数，用 is。"},
+        {"question": "There ___ five apples in the box.", "options": ["is", "are", "am", "be"], "answer": 1, "explanation": "five apples 是复数，用 are。"},
+        {"question": "There ___ some water in the bottle.", "options": ["is", "are", "am", "be"], "answer": 0, "explanation": "water 是不可数名词，用 is。"},
+        {"question": "There ___ two dogs and a cat.", "options": ["is", "are", "am", "be"], "answer": 1, "explanation": "就近原则不适用此处主谓位置；离 be 最近的是 two dogs，复数用 are。"},
+        {"question": "There ___ many books in my bag.", "options": ["is", "are", "am", "be"], "answer": 1, "explanation": "many books 是复数，用 are。"}
+      ]
+    },
+    {
+      "id": "gp-003",
+      "title": "一般现在时",
+      "grade": [4, 5, 6],
+      "summary": "一般现在时表示经常性的动作或状态，主语是第三人称单数时动词要加 -s 或 -es。",
+      "rules": [
+        "I/You/We/They + 动词原形",
+        "He/She/It + 动词第三人称单数 (动词+s/es)",
+        "否定句用 don't / doesn't + 动词原形",
+        "疑问句用 Do / Does + 主语 + 动词原形"
+      ],
+      "examples": [
+        {"en": "I go to school every day.", "zh": "我每天去上学。"},
+        {"en": "She likes apples.", "zh": "她喜欢苹果。"},
+        {"en": "He doesn't play football.", "zh": "他不踢足球。"}
+      ],
+      "quiz": [
+        {"question": "She ___ to school every day.", "options": ["go", "goes", "going", "went"], "answer": 1, "explanation": "she 是第三人称单数，go 要变 goes。"},
+        {"question": "I ___ apples.", "options": ["like", "likes", "liking", "liked"], "answer": 0, "explanation": "主语 I，动词用原形。"},
+        {"question": "He ___ TV in the evening.", "options": ["watch", "watches", "watching", "watched"], "answer": 1, "explanation": "He 是第三人称单数，watch 以 ch 结尾要加 es。"},
+        {"question": "They ___ play football on Sunday.", "options": ["don't", "doesn't", "isn't", "aren't"], "answer": 0, "explanation": "they 用 don't。"},
+        {"question": "___ she like English?", "options": ["Do", "Does", "Is", "Are"], "answer": 1, "explanation": "she 用 Does 提问。"}
+      ]
+    },
+    {
+      "id": "gp-004",
+      "title": "一般过去时",
+      "grade": [5, 6],
+      "summary": "一般过去时表示过去发生的动作或状态，动词要用过去式。",
+      "rules": [
+        "be 动词过去式：was / were",
+        "实义动词的过去式：规则动词 +ed，不规则动词需单独记忆",
+        "否定句：didn't + 动词原形",
+        "时间标志词：yesterday, last week, ago, in 1999 等"
+      ],
+      "examples": [
+        {"en": "I went to the park yesterday.", "zh": "我昨天去了公园。"},
+        {"en": "She was happy last night.", "zh": "她昨晚很开心。"},
+        {"en": "We didn't watch TV.", "zh": "我们没看电视。"}
+      ],
+      "quiz": [
+        {"question": "I ___ to the zoo last Sunday.", "options": ["go", "goes", "went", "going"], "answer": 2, "explanation": "last Sunday 表示过去，go 的过去式是 went。"},
+        {"question": "She ___ at home yesterday.", "options": ["is", "are", "was", "were"], "answer": 2, "explanation": "she 单数 + 过去时间，用 was。"},
+        {"question": "They ___ happy last weekend.", "options": ["is", "are", "was", "were"], "answer": 3, "explanation": "they 是复数 + 过去时，用 were。"},
+        {"question": "He ___ play basketball yesterday.", "options": ["don't", "doesn't", "didn't", "isn't"], "answer": 2, "explanation": "过去时否定用 didn't。"},
+        {"question": "We ___ dinner two hours ago.", "options": ["have", "has", "had", "having"], "answer": 2, "explanation": "two hours ago 表示过去，have 的过去式是 had。"}
+      ]
+    },
+    {
+      "id": "gp-005",
+      "title": "现在进行时",
+      "grade": [5, 6],
+      "summary": "现在进行时表示此刻或现阶段正在进行的动作，由 be + 动词-ing 构成。",
+      "rules": [
+        "结构: am/is/are + V-ing",
+        "时间标志: now, at this moment, Look!, Listen!",
+        "动词加 -ing 规则: 一般直接加 ing；以不发音 e 结尾去 e 加 ing；重读闭音节双写末字母加 ing"
+      ],
+      "examples": [
+        {"en": "I am reading a book now.", "zh": "我现在正在读书。"},
+        {"en": "She is singing.", "zh": "她正在唱歌。"},
+        {"en": "They are playing football.", "zh": "他们正在踢足球。"}
+      ],
+      "quiz": [
+        {"question": "Look! She ___ a book.", "options": ["read", "reads", "is reading", "reading"], "answer": 2, "explanation": "Look! 提示现在进行时；she 用 is + V-ing。"},
+        {"question": "I ___ TV now.", "options": ["watch", "am watching", "watching", "watches"], "answer": 1, "explanation": "now + I，用 am + V-ing。"},
+        {"question": "They ___ in the park.", "options": ["plays", "playing", "are playing", "play"], "answer": 2, "explanation": "they + 进行时用 are + V-ing。"},
+        {"question": "He is ___ a letter.", "options": ["write", "writes", "writing", "wrote"], "answer": 2, "explanation": "write 去 e 加 ing 变 writing。"},
+        {"question": "We ___ swimming now.", "options": ["am", "is", "are", "be"], "answer": 2, "explanation": "we + V-ing 用 are。"}
+      ]
+    },
+    {
+      "id": "gp-006",
+      "title": "情态动词 can",
+      "grade": [3, 4, 5],
+      "summary": "can 表示能力或可能性，意思是 \"能够、可以\"。",
+      "rules": [
+        "can + 动词原形",
+        "否定: cannot / can't",
+        "疑问句: Can + 主语 + 动词原形?",
+        "can 没有人称和数的变化"
+      ],
+      "examples": [
+        {"en": "I can swim.", "zh": "我会游泳。"},
+        {"en": "She can't drive.", "zh": "她不会开车。"},
+        {"en": "Can you sing?", "zh": "你会唱歌吗？"}
+      ],
+      "quiz": [
+        {"question": "I can ___ a bike.", "options": ["ride", "rides", "riding", "rode"], "answer": 0, "explanation": "can 后接动词原形。"},
+        {"question": "She ___ play the piano.", "options": ["can", "cans", "is can", "do can"], "answer": 0, "explanation": "can 没有人称变化。"},
+        {"question": "___ you swim?", "options": ["Do", "Does", "Can", "Are"], "answer": 2, "explanation": "问能力用 Can。"},
+        {"question": "He ___ speak English.", "options": ["can't", "doesn't", "isn't", "don't"], "answer": 0, "explanation": "can 的否定形式是 can't。"},
+        {"question": "Birds can ___.", "options": ["fly", "flies", "flying", "flew"], "answer": 0, "explanation": "can 后接动词原形。"}
+      ]
+    },
+    {
+      "id": "gp-007",
+      "title": "人称代词",
+      "grade": [3, 4],
+      "summary": "人称代词分主格和宾格，要根据在句中作主语还是宾语来选用。",
+      "rules": [
+        "主格做主语: I, you, he, she, it, we, they",
+        "宾格做宾语: me, you, him, her, it, us, them",
+        "形容词性物主代词: my, your, his, her, its, our, their",
+        "名词性物主代词: mine, yours, his, hers, its, ours, theirs"
+      ],
+      "examples": [
+        {"en": "He likes me.", "zh": "他喜欢我。"},
+        {"en": "This is my book.", "zh": "这是我的书。"},
+        {"en": "The book is mine.", "zh": "这本书是我的。"}
+      ],
+      "quiz": [
+        {"question": "Please give ___ the book.", "options": ["I", "me", "my", "mine"], "answer": 1, "explanation": "give 后跟宾格 me。"},
+        {"question": "This is ___ pen.", "options": ["I", "me", "my", "mine"], "answer": 2, "explanation": "pen 前用形容词性物主代词 my。"},
+        {"question": "The hat is ___.", "options": ["I", "me", "my", "mine"], "answer": 3, "explanation": "句末单独用名词性物主代词 mine。"},
+        {"question": "She likes ___.", "options": ["he", "him", "his", "himself"], "answer": 1, "explanation": "动词后用宾格 him。"},
+        {"question": "___ are good students.", "options": ["Us", "We", "Our", "Ours"], "answer": 1, "explanation": "句首做主语用 We。"}
+      ]
+    },
+    {
+      "id": "gp-008",
+      "title": "可数名词与不可数名词",
+      "grade": [4, 5],
+      "summary": "英语名词分可数和不可数。可数名词有单复数，不可数名词只有单数形式。",
+      "rules": [
+        "可数名词复数一般加 -s；以 s/x/sh/ch 结尾加 -es；以辅音字母+y 结尾变 y 为 i 加 -es",
+        "不可数名词如 water, milk, bread 等不能直接加 a/an，也没有复数",
+        "不可数名词用 some, much, a lot of 修饰；用 a glass of, a piece of 等量词表示数量"
+      ],
+      "examples": [
+        {"en": "I have two books.", "zh": "我有两本书。"},
+        {"en": "There is some water.", "zh": "有一些水。"},
+        {"en": "I'd like a piece of bread.", "zh": "我想要一片面包。"}
+      ],
+      "quiz": [
+        {"question": "I have three ___.", "options": ["book", "books", "a book", "any book"], "answer": 1, "explanation": "three 后接复数名词 books。"},
+        {"question": "There is ___ milk in the bottle.", "options": ["a", "an", "some", "many"], "answer": 2, "explanation": "milk 不可数，用 some。"},
+        {"question": "Look at the ___.", "options": ["box", "boxs", "boxes", "boxies"], "answer": 2, "explanation": "box 以 x 结尾，复数加 es。"},
+        {"question": "How ___ water do you want?", "options": ["many", "much", "some", "any"], "answer": 1, "explanation": "water 不可数，用 much。"},
+        {"question": "I'd like a ___ of bread.", "options": ["piece", "cup", "bottle", "glass"], "answer": 0, "explanation": "面包用 piece 作量词。"}
+      ]
+    },
+    {
+      "id": "gp-009",
+      "title": "形容词比较级",
+      "grade": [5, 6],
+      "summary": "形容词比较级用于两个事物的比较，表示 \"更...\"。",
+      "rules": [
+        "比较级 + than",
+        "单音节词加 -er：tall → taller",
+        "以 e 结尾的加 -r：nice → nicer",
+        "辅音+y 变 y 为 i 加 -er：happy → happier",
+        "重读闭音节双写末字母加 -er：big → bigger",
+        "多音节词前加 more：beautiful → more beautiful",
+        "不规则: good → better, bad → worse, many/much → more"
+      ],
+      "examples": [
+        {"en": "Tom is taller than Mike.", "zh": "汤姆比迈克高。"},
+        {"en": "This book is more interesting than that one.", "zh": "这本书比那本书更有趣。"},
+        {"en": "I am better than yesterday.", "zh": "我比昨天好些了。"}
+      ],
+      "quiz": [
+        {"question": "He is ___ than me.", "options": ["tall", "taller", "tallest", "more tall"], "answer": 1, "explanation": "than 前用比较级 taller。"},
+        {"question": "This bag is ___ than that one.", "options": ["heavy", "heavier", "more heavy", "heaviest"], "answer": 1, "explanation": "heavy 变 y 为 i 加 er。"},
+        {"question": "Math is ___ than English for me.", "options": ["difficult", "difficulter", "more difficult", "most difficult"], "answer": 2, "explanation": "difficult 是多音节词，用 more difficult。"},
+        {"question": "She sings ___ than her sister.", "options": ["good", "well", "better", "best"], "answer": 2, "explanation": "well 的比较级是 better。"},
+        {"question": "The red box is ___ than the blue one.", "options": ["big", "bigger", "more big", "biggest"], "answer": 1, "explanation": "big 重读闭音节双写 g 加 er。"}
+      ]
+    },
+    {
+      "id": "gp-010",
+      "title": "一般疑问句",
+      "grade": [3, 4, 5],
+      "summary": "一般疑问句以 be 动词、助动词或情态动词开头，可以用 yes 或 no 回答。",
+      "rules": [
+        "be 动词开头: Is/Am/Are + 主语 + ...?",
+        "实义动词用助动词 do/does/did 开头",
+        "情态动词 can/will 开头时直接前置",
+        "肯定回答 Yes, 主语 + be/do/can.",
+        "否定回答 No, 主语 + be/do/can + not."
+      ],
+      "examples": [
+        {"en": "Are you a student? Yes, I am.", "zh": "你是学生吗？是的，我是。"},
+        {"en": "Does she like apples? No, she doesn't.", "zh": "她喜欢苹果吗？不，她不喜欢。"},
+        {"en": "Can you swim? Yes, I can.", "zh": "你会游泳吗？是的，我会。"}
+      ],
+      "quiz": [
+        {"question": "___ you happy? — Yes, I am.", "options": ["Is", "Are", "Do", "Does"], "answer": 1, "explanation": "you 用 are。"},
+        {"question": "___ she like reading?", "options": ["Is", "Are", "Do", "Does"], "answer": 3, "explanation": "she 实义动词 like，用 Does。"},
+        {"question": "___ they go to school by bus?", "options": ["Is", "Are", "Do", "Does"], "answer": 2, "explanation": "they 实义动词 go，用 Do。"},
+        {"question": "___ you swim?", "options": ["Is", "Are", "Do", "Can"], "answer": 3, "explanation": "问能力用 Can。"},
+        {"question": "Is he a doctor? — ___, he is.", "options": ["Yes", "No", "Sorry", "Please"], "answer": 0, "explanation": "肯定回答用 Yes。"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+/* 英语奇遇记 - 自定义样式 */
+
+:root {
+  --color-primary: #FF8A4C;
+  --color-primary-dark: #E76F33;
+  --color-secondary: #4ECDC4;
+  --color-secondary-dark: #38B2AC;
+  --color-bg: #FFF8F0;
+  --color-bg-card: #FFFFFF;
+  --color-text: #2D3748;
+  --color-text-light: #718096;
+  --color-success: #48BB78;
+  --color-danger: #F56565;
+  --color-warning: #ED8936;
+  --color-gold: #F6AD55;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-en {
+  font-family: "Comic Sans MS", "Comic Neue", "Marker Felt", "Trebuchet MS", sans-serif;
+}
+
+/* 卡通按钮 */
+.btn-cartoon {
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0 4px 0 var(--color-primary-dark);
+  cursor: pointer;
+  transition: all 0.1s;
+  user-select: none;
+}
+
+.btn-cartoon:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 var(--color-primary-dark);
+}
+
+.btn-cartoon-secondary {
+  background: var(--color-secondary);
+  box-shadow: 0 4px 0 var(--color-secondary-dark);
+}
+
+.btn-cartoon-secondary:active {
+  box-shadow: 0 2px 0 var(--color-secondary-dark);
+}
+
+/* 卡通卡片 */
+.card-cartoon {
+  background: var(--color-bg-card);
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+}
+
+.card-cartoon:hover {
+  transform: translateY(-2px);
+}
+
+/* 闪烁动画 */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 138, 76, 0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(255, 138, 76, 0); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+/* 弹跳进入 */
+@keyframes bounce-in {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { transform: scale(1.05); }
+  70% { transform: scale(0.9); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.bounce-in {
+  animation: bounce-in 0.5s ease-out;
+}
+
+/* 摇晃 */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}
+
+.shake {
+  animation: shake 0.4s;
+}
+
+/* 飘起来 */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.float {
+  animation: float 2.5s ease-in-out infinite;
+}
+
+/* 旋转 */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
+/* 进度条 */
+.progress-bar {
+  height: 12px;
+  background: #FFE4D2;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-warning));
+  border-radius: 999px;
+  transition: width 0.4s ease-out;
+}
+
+/* 字母方块 (单词消消乐) */
+.letter-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin: 4px;
+  background: var(--color-secondary);
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 12px;
+  box-shadow: 0 3px 0 var(--color-secondary-dark);
+  cursor: pointer;
+  user-select: none;
+  font-family: "Comic Sans MS", "Comic Neue", sans-serif;
+  transition: transform 0.15s;
+}
+
+.letter-tile:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 var(--color-secondary-dark);
+}
+
+.letter-tile.used {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* 点击查词卡片 */
+.word-popup {
+  position: fixed;
+  background: white;
+  border-radius: 16px;
+  padding: 12px 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  z-index: 100;
+  min-width: 200px;
+  border: 2px solid var(--color-primary);
+}
+
+/* 通用动画工具 */
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 段位徽章 */
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.rank-bronze { background: linear-gradient(135deg, #CD7F32, #8B4513); color: white; }
+.rank-silver { background: linear-gradient(135deg, #C0C0C0, #808080); color: white; }
+.rank-gold { background: linear-gradient(135deg, #FFD700, #FFA500); color: white; }
+.rank-diamond { background: linear-gradient(135deg, #B9F2FF, #00BFFF); color: white; }
+.rank-king { background: linear-gradient(135deg, #FF6B9D, #C44569); color: white; }
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+/* 隐藏聚焦的轮廓但保留可访问性 */
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Tab 切换条 */
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  border-bottom: 2px solid #FFE4D2;
+  padding-bottom: 0;
+  margin-bottom: 16px;
+}
+
+.tab-bar button {
+  background: transparent;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 600;
+  color: var(--color-text-light);
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-bar button.active {
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
+}
+
+/* 卡牌稀有度边框 */
+.card-rarity-N { border: 2px solid #A0AEC0; }
+.card-rarity-R { border: 3px solid #4299E1; box-shadow: 0 0 12px rgba(66,153,225,0.3); }
+.card-rarity-SR { border: 3px solid #9F7AEA; box-shadow: 0 0 16px rgba(159,122,234,0.4); }
+.card-rarity-SSR {
+  border: 3px solid #F6AD55;
+  box-shadow: 0 0 20px rgba(246,173,85,0.5);
+  background: linear-gradient(135deg, #fff8e7, #fef0d5);
+}
+
+/* 移动端底部导航 padding */
+.has-bottom-nav {
+  padding-bottom: 80px;
+}
+
+/* 让点击的小动画更可见 */
+.tap-bounce {
+  transition: transform 0.1s;
+}
+.tap-bounce:active {
+  transform: scale(0.95);
+}

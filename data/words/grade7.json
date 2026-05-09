@@ -1,0 +1,66 @@
+{
+  "grade": 7,
+  "totalWords": 30,
+  "units": [
+    {
+      "unitId": "g7-u1",
+      "unitName": "Unit 1 My Name's Gina",
+      "words": [
+        {"id": "g7w001", "word": "first", "phonetic": "/fɜːst/", "pos": "adj./adv.", "meaning": "第一的", "examples": [{"en": "She is the first girl in line.", "zh": "她是队伍中的第一个女孩。"}, {"en": "First, listen carefully.", "zh": "首先，仔细听。"}], "synonyms": [], "antonyms": ["last"], "difficulty": 2, "tags": ["order"]},
+        {"id": "g7w002", "word": "last", "phonetic": "/lɑːst/", "pos": "adj.", "meaning": "最后的", "examples": [{"en": "He is the last student.", "zh": "他是最后一个学生。"}, {"en": "What's your last name?", "zh": "你姓什么？"}], "synonyms": ["final"], "antonyms": ["first"], "difficulty": 2, "tags": ["order"]},
+        {"id": "g7w003", "word": "telephone", "phonetic": "/ˈtelɪfəʊn/", "pos": "n.", "meaning": "电话", "examples": [{"en": "What's your telephone number?", "zh": "你的电话号码是多少？"}, {"en": "Answer the telephone.", "zh": "接电话。"}], "synonyms": ["phone"], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g7w004", "word": "number", "phonetic": "/ˈnʌmbə/", "pos": "n.", "meaning": "号码", "examples": [{"en": "My number is 12345.", "zh": "我的号码是12345。"}, {"en": "Write the number down.", "zh": "把号码写下来。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["math"]},
+        {"id": "g7w005", "word": "question", "phonetic": "/ˈkwestʃən/", "pos": "n.", "meaning": "问题", "examples": [{"en": "I have a question.", "zh": "我有一个问题。"}, {"en": "Answer the question.", "zh": "回答问题。"}], "synonyms": [], "antonyms": ["answer"], "difficulty": 2, "tags": ["communication"]},
+        {"id": "g7w006", "word": "answer", "phonetic": "/ˈɑːnsə/", "pos": "n./v.", "meaning": "回答；答案", "examples": [{"en": "What's the answer?", "zh": "答案是什么？"}, {"en": "Please answer me.", "zh": "请回答我。"}], "synonyms": ["reply"], "antonyms": ["question"], "difficulty": 2, "tags": ["communication"]}
+      ]
+    },
+    {
+      "unitId": "g7-u2",
+      "unitName": "Unit 2 This Is My Sister",
+      "words": [
+        {"id": "g7w007", "word": "family", "phonetic": "/ˈfæməli/", "pos": "n.", "meaning": "家庭", "examples": [{"en": "I love my family.", "zh": "我爱我的家。"}, {"en": "My family is big.", "zh": "我的家庭很大。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["family"]},
+        {"id": "g7w008", "word": "father", "phonetic": "/ˈfɑːðə/", "pos": "n.", "meaning": "父亲", "examples": [{"en": "My father is tall.", "zh": "我父亲很高。"}, {"en": "Father works hard.", "zh": "父亲工作很努力。"}], "synonyms": ["dad"], "antonyms": ["mother"], "difficulty": 1, "tags": ["family"]},
+        {"id": "g7w009", "word": "mother", "phonetic": "/ˈmʌðə/", "pos": "n.", "meaning": "母亲", "examples": [{"en": "My mother is kind.", "zh": "我母亲很善良。"}, {"en": "Mother cooks dinner.", "zh": "妈妈做晚饭。"}], "synonyms": ["mom"], "antonyms": ["father"], "difficulty": 1, "tags": ["family"]},
+        {"id": "g7w010", "word": "brother", "phonetic": "/ˈbrʌðə/", "pos": "n.", "meaning": "兄弟", "examples": [{"en": "I have one brother.", "zh": "我有一个兄弟。"}, {"en": "My brother is funny.", "zh": "我的兄弟很搞笑。"}], "synonyms": [], "antonyms": ["sister"], "difficulty": 1, "tags": ["family"]},
+        {"id": "g7w011", "word": "sister", "phonetic": "/ˈsɪstə/", "pos": "n.", "meaning": "姐妹", "examples": [{"en": "She is my sister.", "zh": "她是我的姐妹。"}, {"en": "My sister loves music.", "zh": "我妹妹喜欢音乐。"}], "synonyms": [], "antonyms": ["brother"], "difficulty": 1, "tags": ["family"]},
+        {"id": "g7w012", "word": "parents", "phonetic": "/ˈpeərənts/", "pos": "n.", "meaning": "父母", "examples": [{"en": "My parents love me.", "zh": "我父母爱我。"}, {"en": "Listen to your parents.", "zh": "听父母的话。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["family"]}
+      ]
+    },
+    {
+      "unitId": "g7-u3",
+      "unitName": "Unit 3 Where's My Backpack",
+      "words": [
+        {"id": "g7w013", "word": "where", "phonetic": "/weə/", "pos": "adv.", "meaning": "在哪里", "examples": [{"en": "Where is my book?", "zh": "我的书在哪里？"}, {"en": "Where do you live?", "zh": "你住在哪里？"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["question"]},
+        {"id": "g7w014", "word": "table", "phonetic": "/ˈteɪbl/", "pos": "n.", "meaning": "桌子", "examples": [{"en": "Put it on the table.", "zh": "把它放在桌上。"}, {"en": "The table is round.", "zh": "桌子是圆的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["furniture"]},
+        {"id": "g7w015", "word": "bed", "phonetic": "/bed/", "pos": "n.", "meaning": "床", "examples": [{"en": "Go to bed.", "zh": "去睡觉。"}, {"en": "My bed is soft.", "zh": "我的床很软。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["furniture"]},
+        {"id": "g7w016", "word": "sofa", "phonetic": "/ˈsəʊfə/", "pos": "n.", "meaning": "沙发", "examples": [{"en": "Sit on the sofa.", "zh": "坐在沙发上。"}, {"en": "The sofa is soft.", "zh": "这个沙发很软。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["furniture"]},
+        {"id": "g7w017", "word": "behind", "phonetic": "/bɪˈhaɪnd/", "pos": "prep.", "meaning": "在...后面", "examples": [{"en": "The cat is behind the door.", "zh": "猫在门后。"}, {"en": "Stand behind me.", "zh": "站在我后面。"}], "synonyms": [], "antonyms": ["in front of"], "difficulty": 2, "tags": ["preposition"]},
+        {"id": "g7w018", "word": "under", "phonetic": "/ˈʌndə/", "pos": "prep.", "meaning": "在...下面", "examples": [{"en": "The dog is under the table.", "zh": "狗在桌子下面。"}, {"en": "Look under the bed.", "zh": "看床下。"}], "synonyms": [], "antonyms": ["over", "above"], "difficulty": 1, "tags": ["preposition"]}
+      ]
+    },
+    {
+      "unitId": "g7-u4",
+      "unitName": "Unit 4 Do You Have a Soccer Ball",
+      "words": [
+        {"id": "g7w019", "word": "have", "phonetic": "/hæv/", "pos": "v.", "meaning": "有", "examples": [{"en": "I have a pen.", "zh": "我有一支笔。"}, {"en": "Do you have any books?", "zh": "你有书吗？"}], "synonyms": ["own"], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
+        {"id": "g7w020", "word": "ball", "phonetic": "/bɔːl/", "pos": "n.", "meaning": "球", "examples": [{"en": "Pass me the ball.", "zh": "把球传给我。"}, {"en": "The ball is round.", "zh": "球是圆的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
+        {"id": "g7w021", "word": "watch", "phonetic": "/wɒtʃ/", "pos": "v.", "meaning": "看；观看", "examples": [{"en": "I watch TV at night.", "zh": "我晚上看电视。"}, {"en": "Watch the game.", "zh": "看比赛。"}], "synonyms": ["see"], "antonyms": [], "difficulty": 2, "tags": ["action"]},
+        {"id": "g7w022", "word": "game", "phonetic": "/ɡeɪm/", "pos": "n.", "meaning": "游戏；比赛", "examples": [{"en": "Let's play a game.", "zh": "我们玩个游戏吧。"}, {"en": "The game is exciting.", "zh": "比赛很激动人心。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["activity"]},
+        {"id": "g7w023", "word": "interesting", "phonetic": "/ˈɪntrəstɪŋ/", "pos": "adj.", "meaning": "有趣的", "examples": [{"en": "This book is interesting.", "zh": "这本书很有趣。"}, {"en": "It's an interesting story.", "zh": "这是个有趣的故事。"}], "synonyms": ["fun"], "antonyms": ["boring"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g7w024", "word": "boring", "phonetic": "/ˈbɔːrɪŋ/", "pos": "adj.", "meaning": "无聊的", "examples": [{"en": "The movie is boring.", "zh": "这部电影很无聊。"}, {"en": "Don't be boring.", "zh": "别这么无聊。"}], "synonyms": ["dull"], "antonyms": ["interesting"], "difficulty": 2, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g7-u5",
+      "unitName": "Unit 5 Daily Activities",
+      "words": [
+        {"id": "g7w025", "word": "usually", "phonetic": "/ˈjuːʒuəli/", "pos": "adv.", "meaning": "通常", "examples": [{"en": "I usually get up at 7.", "zh": "我通常七点起床。"}, {"en": "She usually walks to school.", "zh": "她通常走路上学。"}], "synonyms": ["normally"], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g7w026", "word": "always", "phonetic": "/ˈɔːlweɪz/", "pos": "adv.", "meaning": "总是", "examples": [{"en": "I always do my homework.", "zh": "我总是做作业。"}, {"en": "She is always happy.", "zh": "她总是很开心。"}], "synonyms": [], "antonyms": ["never"], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g7w027", "word": "never", "phonetic": "/ˈnevə/", "pos": "adv.", "meaning": "从不", "examples": [{"en": "I never tell lies.", "zh": "我从不说谎。"}, {"en": "He never gives up.", "zh": "他从不放弃。"}], "synonyms": [], "antonyms": ["always"], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g7w028", "word": "early", "phonetic": "/ˈɜːli/", "pos": "adj./adv.", "meaning": "早", "examples": [{"en": "Get up early.", "zh": "早起。"}, {"en": "I am early today.", "zh": "我今天来早了。"}], "synonyms": [], "antonyms": ["late"], "difficulty": 2, "tags": ["time"]},
+        {"id": "g7w029", "word": "late", "phonetic": "/leɪt/", "pos": "adj./adv.", "meaning": "晚的；迟的", "examples": [{"en": "Don't be late.", "zh": "别迟到。"}, {"en": "It's getting late.", "zh": "时间晚了。"}], "synonyms": [], "antonyms": ["early"], "difficulty": 2, "tags": ["time"]},
+        {"id": "g7w030", "word": "exercise", "phonetic": "/ˈeksəsaɪz/", "pos": "n./v.", "meaning": "锻炼", "examples": [{"en": "Exercise is good for health.", "zh": "锻炼有益健康。"}, {"en": "I exercise every morning.", "zh": "我每天早上锻炼。"}], "synonyms": ["workout"], "antonyms": [], "difficulty": 3, "tags": ["health"]}
+      ]
+    }
+  ]
+}

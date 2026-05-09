@@ -1,0 +1,85 @@
+{
+  "level": "junior",
+  "articles": [
+    {
+      "id": "rj-001",
+      "title": "Protecting Our Environment",
+      "grade": 8,
+      "lexile": 600,
+      "wordCount": 130,
+      "category": "society",
+      "content": "Today, our environment is in danger. The air, water and land are all polluted. Cars and factories produce too much smoke. Rivers are full of dirty water. People throw rubbish everywhere. Animals are losing their homes. We must do something to protect our environment. First, we should walk or ride bikes more often. Second, we should not throw rubbish into rivers. Third, we should plant more trees. We can also save water and electricity at home. Everyone can help. If we all work together, our world will become greener and more beautiful. The earth is our only home. Let's protect it!",
+      "translation": "今天，我们的环境处于危险之中。空气、水和土地都被污染了。汽车和工厂排放太多烟雾。河流里满是脏水。人们到处乱扔垃圾。动物们正在失去家园。我们必须采取行动保护环境。首先，我们应该多走路或骑自行车。其次，我们不应该把垃圾扔进河里。第三，我们应该多种树。我们也可以在家节约水电。每个人都能帮上忙。如果我们一起努力，我们的世界会变得更绿色更美丽。地球是我们唯一的家园。让我们保护它！",
+      "questions": [
+        {"type": "choice", "q": "What is the main problem in the passage?", "options": ["Traffic", "Pollution", "School", "Food"], "answer": 1},
+        {"type": "choice", "q": "Which is NOT a way to protect the environment?", "options": ["Plant trees", "Walk more", "Throw rubbish into rivers", "Save water"], "answer": 2},
+        {"type": "choice", "q": "What does the writer want us to do?", "options": ["Buy more cars", "Cut down trees", "Protect the earth", "Use more electricity"], "answer": 2}
+      ],
+      "keyWords": ["environment", "pollution", "protect", "rubbish", "trees"]
+    },
+    {
+      "id": "rj-002",
+      "title": "How to Learn English Well",
+      "grade": 8,
+      "lexile": 620,
+      "wordCount": 140,
+      "category": "study",
+      "content": "Many students think English is difficult. But if you use good methods, you can learn it well. First, listen to English every day. You can listen to English songs or watch English movies. Second, speak English as much as possible. Don't be afraid of making mistakes. The more you speak, the better you get. Third, read English stories. Reading helps you build vocabulary and improve your understanding. Fourth, write something in English every day. Even a few sentences will help. Finally, practice makes perfect. Don't give up when you find it hard. Remember, learning a language takes time. If you keep working hard, you will succeed.",
+      "translation": "许多学生认为英语很难。但是如果你使用好的方法，你可以学好它。首先，每天听英语。你可以听英文歌或看英文电影。其次，尽可能多说英语。不要害怕犯错。说得越多，你就越好。第三，读英语故事。阅读能帮助你建立词汇量并提高理解力。第四，每天用英语写点东西。即使是几句话也有帮助。最后，熟能生巧。当你觉得难的时候不要放弃。记住，学一门语言需要时间。如果你坚持努力，你就会成功。",
+      "questions": [
+        {"type": "choice", "q": "How many ways does the writer mention to learn English?", "options": ["3", "4", "5", "6"], "answer": 2},
+        {"type": "choice", "q": "What should you NOT be afraid of when speaking English?", "options": ["Reading", "Listening", "Making mistakes", "Writing"], "answer": 2},
+        {"type": "choice", "q": "What does 'practice makes perfect' mean?", "options": ["Practice is hard", "More practice brings better results", "Don't practice too much", "Reading is best"], "answer": 1}
+      ],
+      "keyWords": ["English", "learn", "practice", "method", "speak"]
+    },
+    {
+      "id": "rj-003",
+      "title": "The Power of Friendship",
+      "grade": 9,
+      "lexile": 700,
+      "wordCount": 150,
+      "category": "story",
+      "content": "Friends are an important part of our lives. A good friend can make us laugh when we are sad. A good friend can help us when we are in trouble. A good friend can share our happiness and our worries. I have a best friend named Lily. We have been friends for five years. We met in primary school. At first, I was a shy boy and made few friends. But Lily was kind to me. She invited me to play with her. Slowly, I became more confident. Now we share everything together. We study, eat lunch and play sports together. When I feel down, she always encourages me. Friendship is like a treasure. We should care for it and never let it go.",
+      "translation": "朋友是我们生活中重要的一部分。一个好朋友能在我们难过时让我们笑。一个好朋友能在我们陷入困境时帮助我们。一个好朋友能分享我们的喜悦和忧虑。我有一个最好的朋友叫莉莉。我们已经做了五年朋友。我们在小学认识。起初，我是个害羞的男孩，几乎没有朋友。但莉莉对我很友好。她邀请我和她一起玩。慢慢地，我变得更自信了。现在我们一起分享一切。我们一起学习、吃午餐、做运动。当我情绪低落时，她总是鼓励我。友谊就像宝藏。我们应该珍惜它，永远不让它溜走。",
+      "questions": [
+        {"type": "choice", "q": "How long have the writer and Lily been friends?", "options": ["3 years", "4 years", "5 years", "6 years"], "answer": 2},
+        {"type": "choice", "q": "What was the writer like at first?", "options": ["Outgoing", "Shy", "Brave", "Lazy"], "answer": 1},
+        {"type": "choice", "q": "What does the writer compare friendship to?", "options": ["A flower", "A treasure", "A book", "A song"], "answer": 1}
+      ],
+      "keyWords": ["friend", "friendship", "share", "encourage", "confident"]
+    },
+    {
+      "id": "rj-004",
+      "title": "My Future Job",
+      "grade": 9,
+      "lexile": 680,
+      "wordCount": 145,
+      "category": "self",
+      "content": "Everyone has dreams about their future job. When I was young, I wanted to be a singer. As I grew up, my dream changed. Now I want to be a doctor. Why? Two years ago, my grandfather got very sick. He stayed in the hospital for a long time. The doctors took good care of him. Finally, he got well. I was so happy. I saw how kind and skilled doctors were. I decided to become one in the future. Being a doctor is not easy. I need to study hard, especially science. I also need to be patient and brave. I know it will take many years to reach my goal. But I believe that if I keep trying, I will make my dream come true one day.",
+      "translation": "每个人都对未来的职业有梦想。我小时候想当歌手。随着我长大，我的梦想变了。现在我想成为一名医生。为什么？两年前，我爷爷病得很重。他住了很长时间的院。医生们悉心照料他。最后他康复了。我非常高兴。我看到医生是多么善良和有技能。我决定将来成为一名医生。当医生不容易。我需要努力学习，尤其是科学。我也需要耐心和勇敢。我知道实现这个目标需要很多年。但我相信只要我坚持努力，总有一天我会让梦想成真。",
+      "questions": [
+        {"type": "choice", "q": "What was the writer's first dream?", "options": ["Doctor", "Singer", "Teacher", "Engineer"], "answer": 1},
+        {"type": "choice", "q": "Why does the writer want to be a doctor now?", "options": ["Because it pays well", "Because of the grandfather's experience", "Because it's easy", "Because parents want it"], "answer": 1},
+        {"type": "choice", "q": "What does the writer think being a doctor needs?", "options": ["Just talent", "Just luck", "Hard work and patience", "Just smart"], "answer": 2}
+      ],
+      "keyWords": ["future", "dream", "doctor", "hospital", "study"]
+    },
+    {
+      "id": "rj-005",
+      "title": "The Internet Changes Our Lives",
+      "grade": 9,
+      "lexile": 720,
+      "wordCount": 155,
+      "category": "technology",
+      "content": "The Internet has greatly changed our lives. Twenty years ago, only a few people used computers. Today, almost everyone has a smartphone. We can do so many things online. We can study, work, shop and chat with friends without leaving home. The Internet brings us a lot of useful information. It also makes communication faster and easier. However, the Internet also has problems. Some people spend too much time online and forget to talk to their family. Some students copy answers from the Internet instead of thinking by themselves. Online information is not always true. We must learn to use the Internet wisely. We should use it to help us learn and grow, not to waste our time. The Internet is a powerful tool. How we use it is up to us.",
+      "translation": "互联网极大地改变了我们的生活。二十年前，只有少数人使用电脑。今天，几乎每个人都有智能手机。我们可以在网上做很多事情。我们可以足不出户地学习、工作、购物和与朋友聊天。互联网给我们带来很多有用的信息。它也使交流变得更快更容易。然而，互联网也有问题。有些人花太多时间上网，忘了和家人说话。有些学生从网上抄答案而不自己思考。网上的信息也不总是真实的。我们必须学会明智地使用互联网。我们应该用它帮助我们学习和成长，而不是浪费时间。互联网是个强大的工具。如何使用它取决于我们。",
+      "questions": [
+        {"type": "choice", "q": "What can we do online according to the passage?", "options": ["Only study", "Only shop", "Many things", "Only chat"], "answer": 2},
+        {"type": "choice", "q": "What is one problem of the Internet?", "options": ["It's too cheap", "Some people use it too much", "It has too much information", "It is slow"], "answer": 1},
+        {"type": "choice", "q": "What is the writer's main message?", "options": ["Stop using the Internet", "Use the Internet wisely", "The Internet is bad", "Buy a new computer"], "answer": 1}
+      ],
+      "keyWords": ["Internet", "online", "information", "tool", "wisely"]
+    }
+  ]
+}

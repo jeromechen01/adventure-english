@@ -1,0 +1,152 @@
+{
+  "topics": [
+    {
+      "id": "wt-001",
+      "title": "My Best Friend",
+      "grade": [5, 6, 7],
+      "level": "primary",
+      "type": "narrative",
+      "wordCount": [60, 100],
+      "tips": [
+        "用 He/She is... 介绍朋友的外貌",
+        "用 He/She likes... 介绍兴趣爱好",
+        "举一两个具体的小故事让人物更生动",
+        "结尾可以表达你为什么喜欢这位朋友"
+      ],
+      "keyWords": ["friend", "kind", "helpful", "smart", "favourite"]
+    },
+    {
+      "id": "wt-002",
+      "title": "My Family",
+      "grade": [3, 4, 5],
+      "level": "primary",
+      "type": "narrative",
+      "wordCount": [50, 80],
+      "tips": [
+        "先说家里有几口人 (There are ... people in my family.)",
+        "再分别介绍每位家人的职业或爱好",
+        "结尾用 I love my family. 这样的句子表达情感"
+      ],
+      "keyWords": ["family", "father", "mother", "love", "happy"]
+    },
+    {
+      "id": "wt-003",
+      "title": "My Hobby",
+      "grade": [4, 5, 6],
+      "level": "primary",
+      "type": "narrative",
+      "wordCount": [60, 100],
+      "tips": [
+        "开头点出自己的爱好: My hobby is...",
+        "说明什么时候开始的、为什么喜欢",
+        "描述你怎么做这个爱好",
+        "结尾说说这个爱好给你带来什么"
+      ],
+      "keyWords": ["hobby", "favourite", "every day", "happy", "interesting"]
+    },
+    {
+      "id": "wt-004",
+      "title": "My School",
+      "grade": [4, 5, 6],
+      "level": "primary",
+      "type": "descriptive",
+      "wordCount": [70, 110],
+      "tips": [
+        "介绍学校的位置和大小",
+        "描述教学楼、操场、图书馆等地方",
+        "说说老师和同学",
+        "表达你对学校的感情"
+      ],
+      "keyWords": ["school", "classroom", "teacher", "students", "playground"]
+    },
+    {
+      "id": "wt-005",
+      "title": "My Favourite Animal",
+      "grade": [3, 4, 5],
+      "level": "primary",
+      "type": "descriptive",
+      "wordCount": [50, 80],
+      "tips": [
+        "说出你最喜欢的动物: My favourite animal is...",
+        "描述它的外形 (颜色、大小)",
+        "说说它会做什么或吃什么",
+        "解释你为什么喜欢它"
+      ],
+      "keyWords": ["animal", "cute", "favourite", "like", "lovely"]
+    },
+    {
+      "id": "wt-006",
+      "title": "A Day in My Life",
+      "grade": [5, 6, 7],
+      "level": "primary",
+      "type": "narrative",
+      "wordCount": [80, 120],
+      "tips": [
+        "按时间顺序写: 早上 → 中午 → 下午 → 晚上",
+        "每个时间段做了什么用一般现在时",
+        "用时间状语连接 (in the morning, then, after that, finally)"
+      ],
+      "keyWords": ["morning", "afternoon", "evening", "school", "homework"]
+    },
+    {
+      "id": "wt-007",
+      "title": "My Summer Vacation",
+      "grade": [6, 7, 8],
+      "level": "primary",
+      "type": "narrative",
+      "wordCount": [80, 130],
+      "tips": [
+        "用一般过去时叙述",
+        "说去了哪里、和谁一起",
+        "描述印象最深的活动",
+        "结尾写自己的感受"
+      ],
+      "keyWords": ["vacation", "visited", "wonderful", "happy", "summer"]
+    },
+    {
+      "id": "wt-008",
+      "title": "Protecting the Environment",
+      "grade": [8, 9],
+      "level": "junior",
+      "type": "argumentative",
+      "wordCount": [100, 150],
+      "tips": [
+        "开篇指出环境问题的严重性",
+        "列举 2-3 个具体的保护措施 (First, Second, Third)",
+        "使用连接词 however, therefore, in addition",
+        "结尾呼吁大家行动起来"
+      ],
+      "keyWords": ["environment", "pollution", "protect", "important", "should"]
+    },
+    {
+      "id": "wt-009",
+      "title": "How to Stay Healthy",
+      "grade": [7, 8, 9],
+      "level": "junior",
+      "type": "argumentative",
+      "wordCount": [100, 150],
+      "tips": [
+        "提出健康的重要性",
+        "分点说明保持健康的方法 (饮食、运动、睡眠)",
+        "用 should / had better / it's important to 等表达建议",
+        "结尾总结健康的好处"
+      ],
+      "keyWords": ["health", "exercise", "sleep", "should", "important"]
+    },
+    {
+      "id": "wt-010",
+      "title": "My Dream",
+      "grade": [8, 9],
+      "level": "junior",
+      "type": "narrative",
+      "wordCount": [100, 150],
+      "tips": [
+        "开篇陈述梦想: I have a dream. I want to be...",
+        "解释为什么会有这个梦想",
+        "说明要为此做什么努力",
+        "结尾表达决心和信念"
+      ],
+      "keyWords": ["dream", "future", "work hard", "goal", "achieve"]
+    }
+  ]
+}

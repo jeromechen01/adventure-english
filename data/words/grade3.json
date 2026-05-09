@@ -1,0 +1,66 @@
+{
+  "grade": 3,
+  "totalWords": 30,
+  "units": [
+    {
+      "unitId": "g3-u1",
+      "unitName": "Unit 1 Hello",
+      "words": [
+        {"id": "g3w001", "word": "hello", "phonetic": "/həˈləʊ/", "pos": "int.", "meaning": "你好", "examples": [{"en": "Hello, I'm Tom.", "zh": "你好，我是汤姆。"}, {"en": "Say hello to your teacher.", "zh": "向你的老师问好。"}], "synonyms": ["hi"], "antonyms": ["goodbye"], "difficulty": 1, "tags": ["greeting"]},
+        {"id": "g3w002", "word": "hi", "phonetic": "/haɪ/", "pos": "int.", "meaning": "嗨；你好", "examples": [{"en": "Hi, Mike!", "zh": "嗨，迈克！"}, {"en": "Hi, how are you?", "zh": "嗨，你好吗？"}], "synonyms": ["hello"], "antonyms": ["bye"], "difficulty": 1, "tags": ["greeting"]},
+        {"id": "g3w003", "word": "I", "phonetic": "/aɪ/", "pos": "pron.", "meaning": "我", "examples": [{"en": "I am a student.", "zh": "我是一名学生。"}, {"en": "I like apples.", "zh": "我喜欢苹果。"}], "synonyms": [], "antonyms": ["you"], "difficulty": 1, "tags": ["pronoun"]},
+        {"id": "g3w004", "word": "am", "phonetic": "/æm/", "pos": "v.", "meaning": "是（用于I之后）", "examples": [{"en": "I am happy.", "zh": "我很开心。"}, {"en": "I am nine years old.", "zh": "我九岁了。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb", "be"]},
+        {"id": "g3w005", "word": "you", "phonetic": "/juː/", "pos": "pron.", "meaning": "你；你们", "examples": [{"en": "You are my friend.", "zh": "你是我的朋友。"}, {"en": "How are you?", "zh": "你好吗？"}], "synonyms": [], "antonyms": ["I", "me"], "difficulty": 1, "tags": ["pronoun"]},
+        {"id": "g3w006", "word": "are", "phonetic": "/ɑː(r)/", "pos": "v.", "meaning": "是（用于you/we/they之后）", "examples": [{"en": "You are kind.", "zh": "你很善良。"}, {"en": "We are classmates.", "zh": "我们是同学。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb", "be"]},
+        {"id": "g3w007", "word": "good", "phonetic": "/ɡʊd/", "pos": "adj.", "meaning": "好的", "examples": [{"en": "Good morning!", "zh": "早上好！"}, {"en": "She is a good girl.", "zh": "她是个好女孩。"}], "synonyms": ["nice", "fine"], "antonyms": ["bad"], "difficulty": 1, "tags": ["adjective"]},
+        {"id": "g3w008", "word": "morning", "phonetic": "/ˈmɔːnɪŋ/", "pos": "n.", "meaning": "早晨", "examples": [{"en": "Good morning, class!", "zh": "同学们早上好！"}, {"en": "I read in the morning.", "zh": "我在早上读书。"}], "synonyms": [], "antonyms": ["evening"], "difficulty": 1, "tags": ["time"]},
+        {"id": "g3w009", "word": "afternoon", "phonetic": "/ˌɑːftəˈnuːn/", "pos": "n.", "meaning": "下午", "examples": [{"en": "Good afternoon!", "zh": "下午好！"}, {"en": "We have PE in the afternoon.", "zh": "我们下午上体育课。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["time"]},
+        {"id": "g3w010", "word": "name", "phonetic": "/neɪm/", "pos": "n.", "meaning": "名字", "examples": [{"en": "What's your name?", "zh": "你叫什么名字？"}, {"en": "My name is Lily.", "zh": "我的名字叫莉莉。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["personal"]}
+      ]
+    },
+    {
+      "unitId": "g3-u2",
+      "unitName": "Unit 2 Colours",
+      "words": [
+        {"id": "g3w011", "word": "red", "phonetic": "/red/", "pos": "adj.", "meaning": "红色的", "examples": [{"en": "I like red apples.", "zh": "我喜欢红苹果。"}, {"en": "The flag is red.", "zh": "旗子是红色的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g3w012", "word": "yellow", "phonetic": "/ˈjeləʊ/", "pos": "adj.", "meaning": "黄色的", "examples": [{"en": "The sun is yellow.", "zh": "太阳是黄色的。"}, {"en": "I have a yellow pen.", "zh": "我有一支黄色的笔。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g3w013", "word": "blue", "phonetic": "/bluː/", "pos": "adj.", "meaning": "蓝色的", "examples": [{"en": "The sky is blue.", "zh": "天空是蓝色的。"}, {"en": "I have a blue bag.", "zh": "我有一个蓝色的包。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g3w014", "word": "green", "phonetic": "/ɡriːn/", "pos": "adj.", "meaning": "绿色的", "examples": [{"en": "Leaves are green.", "zh": "树叶是绿色的。"}, {"en": "I see a green frog.", "zh": "我看见一只绿青蛙。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g3w015", "word": "black", "phonetic": "/blæk/", "pos": "adj.", "meaning": "黑色的", "examples": [{"en": "I have a black cat.", "zh": "我有一只黑猫。"}, {"en": "The shoes are black.", "zh": "这双鞋是黑色的。"}], "synonyms": [], "antonyms": ["white"], "difficulty": 1, "tags": ["color"]},
+        {"id": "g3w016", "word": "white", "phonetic": "/waɪt/", "pos": "adj.", "meaning": "白色的", "examples": [{"en": "Snow is white.", "zh": "雪是白色的。"}, {"en": "She wears a white dress.", "zh": "她穿着一件白色裙子。"}], "synonyms": [], "antonyms": ["black"], "difficulty": 1, "tags": ["color"]}
+      ]
+    },
+    {
+      "unitId": "g3-u3",
+      "unitName": "Unit 3 Animals",
+      "words": [
+        {"id": "g3w017", "word": "cat", "phonetic": "/kæt/", "pos": "n.", "meaning": "猫", "examples": [{"en": "I have a cat.", "zh": "我有一只猫。"}, {"en": "The cat is cute.", "zh": "这只猫很可爱。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g3w018", "word": "dog", "phonetic": "/dɒɡ/", "pos": "n.", "meaning": "狗", "examples": [{"en": "I love my dog.", "zh": "我爱我的狗。"}, {"en": "The dog is running.", "zh": "狗在跑。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g3w019", "word": "bird", "phonetic": "/bɜːd/", "pos": "n.", "meaning": "鸟", "examples": [{"en": "Birds can fly.", "zh": "鸟会飞。"}, {"en": "I see a bird in the tree.", "zh": "我看见一只鸟在树上。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g3w020", "word": "fish", "phonetic": "/fɪʃ/", "pos": "n.", "meaning": "鱼", "examples": [{"en": "Fish swim in water.", "zh": "鱼在水里游。"}, {"en": "I have a pet fish.", "zh": "我有一条宠物鱼。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g3w021", "word": "duck", "phonetic": "/dʌk/", "pos": "n.", "meaning": "鸭子", "examples": [{"en": "The duck is yellow.", "zh": "这只鸭子是黄色的。"}, {"en": "I see a duck in the pond.", "zh": "我看见池塘里有一只鸭子。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g3w022", "word": "pig", "phonetic": "/pɪɡ/", "pos": "n.", "meaning": "猪", "examples": [{"en": "The pig is fat.", "zh": "这只猪很胖。"}, {"en": "Pigs like to eat.", "zh": "猪喜欢吃东西。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]}
+      ]
+    },
+    {
+      "unitId": "g3-u4",
+      "unitName": "Unit 4 Body",
+      "words": [
+        {"id": "g3w023", "word": "head", "phonetic": "/hed/", "pos": "n.", "meaning": "头", "examples": [{"en": "Touch your head.", "zh": "摸摸你的头。"}, {"en": "I have a big head.", "zh": "我有个大脑袋。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g3w024", "word": "eye", "phonetic": "/aɪ/", "pos": "n.", "meaning": "眼睛", "examples": [{"en": "I have two eyes.", "zh": "我有两只眼睛。"}, {"en": "Her eyes are big.", "zh": "她的眼睛很大。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g3w025", "word": "nose", "phonetic": "/nəʊz/", "pos": "n.", "meaning": "鼻子", "examples": [{"en": "He has a small nose.", "zh": "他有一个小鼻子。"}, {"en": "Touch your nose.", "zh": "摸摸你的鼻子。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g3w026", "word": "mouth", "phonetic": "/maʊθ/", "pos": "n.", "meaning": "嘴", "examples": [{"en": "Open your mouth.", "zh": "张开你的嘴。"}, {"en": "She has a small mouth.", "zh": "她有一张小嘴。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g3w027", "word": "hand", "phonetic": "/hænd/", "pos": "n.", "meaning": "手", "examples": [{"en": "Wash your hands.", "zh": "洗你的手。"}, {"en": "He raises his hand.", "zh": "他举起了手。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]}
+      ]
+    },
+    {
+      "unitId": "g3-u5",
+      "unitName": "Unit 5 Numbers",
+      "words": [
+        {"id": "g3w028", "word": "one", "phonetic": "/wʌn/", "pos": "num.", "meaning": "一", "examples": [{"en": "I have one book.", "zh": "我有一本书。"}, {"en": "One plus one is two.", "zh": "一加一等于二。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g3w029", "word": "two", "phonetic": "/tuː/", "pos": "num.", "meaning": "二", "examples": [{"en": "I have two cats.", "zh": "我有两只猫。"}, {"en": "Two and three is five.", "zh": "二加三等于五。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g3w030", "word": "three", "phonetic": "/θriː/", "pos": "num.", "meaning": "三", "examples": [{"en": "I have three pens.", "zh": "我有三支笔。"}, {"en": "There are three apples.", "zh": "有三个苹果。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]}
+      ]
+    }
+  ]
+}

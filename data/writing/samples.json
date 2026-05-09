@@ -1,0 +1,124 @@
+{
+  "samples": [
+    {
+      "topicId": "wt-001",
+      "level": "good",
+      "content": "I have a best friend. Her name is Lily. She is twelve years old. Lily has long black hair and big bright eyes. She is a kind and helpful girl. She likes reading and drawing. We often play together after school. Last week, I forgot my pencil. Lily lent hers to me. I felt so warm. I am lucky to have such a good friend.",
+      "translation": "我有一个最好的朋友。她叫莉莉。她十二岁。莉莉有长长的黑发和明亮的大眼睛。她是一个善良乐于助人的女孩。她喜欢阅读和画画。我们经常放学后一起玩。上周我忘带铅笔。莉莉把她的借给了我。我感到很温暖。我很幸运有这样的好朋友。",
+      "highlights": [
+        {"phrase": "best friend", "comment": "高频固定搭配"},
+        {"phrase": "long black hair and big bright eyes", "comment": "形容词并列描写外貌"},
+        {"phrase": "kind and helpful", "comment": "并列形容词体现性格"},
+        {"phrase": "I am lucky to have", "comment": "结尾抒情，表达感激之情"}
+      ]
+    },
+    {
+      "topicId": "wt-002",
+      "level": "good",
+      "content": "There are four people in my family. They are my father, my mother, my younger brother and me. My father is an engineer. He is tall and strong. My mother is a nurse. She is gentle and kind. My brother is six years old. He is a lovely boy. We often have dinner together and talk about our day. I love my family very much.",
+      "translation": "我家有四口人。他们是我爸爸、妈妈、弟弟和我。我爸爸是一位工程师。他又高又壮。我妈妈是位护士。她温柔善良。我弟弟六岁。他是个可爱的男孩。我们经常一起吃晚饭聊聊一天的事。我非常爱我的家人。",
+      "highlights": [
+        {"phrase": "There are four people in my family", "comment": "标准开头句型"},
+        {"phrase": "tall and strong", "comment": "并列形容词"},
+        {"phrase": "have dinner together", "comment": "高频生活短语"},
+        {"phrase": "I love my family very much", "comment": "结尾抒情"}
+      ]
+    },
+    {
+      "topicId": "wt-003",
+      "level": "good",
+      "content": "My hobby is playing the piano. I started playing when I was seven. At first, it was hard. But I kept practising every day. Now I can play many beautiful songs. I usually practise for one hour after school. The piano makes me feel calm and happy. When I am sad, music can cheer me up. I will keep this hobby for the rest of my life.",
+      "translation": "我的爱好是弹钢琴。我七岁开始弹。一开始很难。但我每天坚持练习。现在我能弹许多优美的曲子。我通常放学后练一小时。钢琴让我感到平静和快乐。当我难过时，音乐能让我振作。我会一辈子保持这个爱好。",
+      "highlights": [
+        {"phrase": "started playing when I was seven", "comment": "用 when 引导时间状语从句"},
+        {"phrase": "kept practising every day", "comment": "keep doing 表示坚持"},
+        {"phrase": "cheer me up", "comment": "高频短语动词"},
+        {"phrase": "for the rest of my life", "comment": "高级表达"}
+      ]
+    },
+    {
+      "topicId": "wt-004",
+      "level": "good",
+      "content": "My school is a beautiful place. It is in the centre of our city. There are five tall buildings in our school. We have many classrooms, a big library and a big playground. The library has thousands of books. The playground is where we play sports. Our teachers are kind and patient. My classmates are friendly. I learn many things and make many friends here. I love my school.",
+      "translation": "我的学校是个美丽的地方。它位于市中心。学校有五栋高楼。我们有许多教室，一个大图书馆和一个大操场。图书馆有几千本书。操场是我们做运动的地方。老师们既亲切又耐心。同学们也很友好。我在这里学到很多东西，交了很多朋友。我爱我的学校。",
+      "highlights": [
+        {"phrase": "in the centre of", "comment": "表示位置的高频表达"},
+        {"phrase": "thousands of books", "comment": "复数形式 thousands of"},
+        {"phrase": "kind and patient", "comment": "并列形容词"},
+        {"phrase": "where we play sports", "comment": "where 引导定语从句"}
+      ]
+    },
+    {
+      "topicId": "wt-005",
+      "level": "good",
+      "content": "My favourite animal is the panda. Pandas are black and white. They are big but cute. Pandas live in China. They love eating bamboo. They eat for many hours every day. Pandas are gentle and lovely. They are friends to all people. I hope everyone will protect pandas and their home.",
+      "translation": "我最喜欢的动物是熊猫。熊猫是黑白相间的。它们很大但很可爱。熊猫生活在中国。它们爱吃竹子。它们每天吃很多个小时。熊猫温柔可爱。它们是所有人的朋友。我希望大家都能保护熊猫和它们的家园。",
+      "highlights": [
+        {"phrase": "black and white", "comment": "颜色并列"},
+        {"phrase": "big but cute", "comment": "but 转折"},
+        {"phrase": "gentle and lovely", "comment": "并列形容词"},
+        {"phrase": "I hope everyone will protect", "comment": "结尾表达呼吁"}
+      ]
+    },
+    {
+      "topicId": "wt-006",
+      "level": "good",
+      "content": "I have a busy day. I get up at six thirty. After breakfast, I go to school by bike. I have four classes in the morning. We learn English, Chinese, math and science. At noon, I have lunch with my friends. In the afternoon, I have two more classes and PE. After school, I do my homework first. Then I help my mother cook dinner. I read a book before sleep. I am tired but happy.",
+      "translation": "我有忙碌的一天。我六点半起床。早餐后我骑自行车上学。上午我有四节课。我们学英语、中文、数学和科学。中午我和朋友们吃午饭。下午我还有两节课加体育。放学后我先做作业。然后我帮妈妈做晚饭。我睡前看一本书。我累但开心。",
+      "highlights": [
+        {"phrase": "After breakfast", "comment": "时间过渡"},
+        {"phrase": "by bike", "comment": "by + 交通工具"},
+        {"phrase": "do my homework first. Then", "comment": "顺序连接"},
+        {"phrase": "tired but happy", "comment": "对比情感"}
+      ]
+    },
+    {
+      "topicId": "wt-007",
+      "level": "good",
+      "content": "Last summer, I had a wonderful vacation. My family and I went to Hainan. We stayed there for one week. The beach was beautiful and the sea was blue. I swam in the sea and built sandcastles. I tried many kinds of seafood. I also met some new friends from other cities. We played games together every day. The weather was sunny and hot. I had a great time. I will never forget this trip.",
+      "translation": "去年夏天我度过了一个美好的假期。我和家人去了海南。我们在那里待了一周。海滩很美，海水很蓝。我在海里游泳，堆了沙堡。我尝了很多种海鲜。我还认识了来自其他城市的新朋友。我们每天一起玩游戏。天气晴朗炎热。我玩得很开心。我永远不会忘记这次旅行。",
+      "highlights": [
+        {"phrase": "had a wonderful vacation", "comment": "have + 形容词 + vacation 高分句式"},
+        {"phrase": "stayed there for one week", "comment": "for + 时间段"},
+        {"phrase": "had a great time", "comment": "高频结尾表达"},
+        {"phrase": "will never forget", "comment": "强调难忘"}
+      ]
+    },
+    {
+      "topicId": "wt-008",
+      "level": "good",
+      "content": "Today, our environment is in serious trouble. Air pollution, water pollution and global warming are getting worse. We must take action to save our planet. First, we should use public transport more often instead of cars. Second, we should never throw rubbish on the ground or into rivers. Third, we should plant more trees because trees clean the air. In addition, we can save water and electricity at home. The earth is our only home. Therefore, everyone should do their part. Let's act now before it is too late.",
+      "translation": "今天我们的环境处于严重的麻烦之中。空气污染、水污染和全球变暖越来越严重。我们必须采取行动拯救地球。首先，我们应该多乘坐公共交通而不是开车。其次，我们绝不应该把垃圾扔在地上或河里。第三，我们应该多种树因为树能净化空气。此外，我们可以在家节约水电。地球是我们唯一的家园。因此每个人都应该尽自己的一份力。趁还来得及让我们行动吧。",
+      "highlights": [
+        {"phrase": "in serious trouble", "comment": "高级表达，比 in danger 更具体"},
+        {"phrase": "First, Second, Third, In addition", "comment": "层次清晰的连接词"},
+        {"phrase": "do their part", "comment": "高分短语，意为 \"尽一份力\""},
+        {"phrase": "before it is too late", "comment": "强烈呼吁的结尾"}
+      ]
+    },
+    {
+      "topicId": "wt-009",
+      "level": "good",
+      "content": "Health is the most important thing in life. Without good health, we cannot enjoy anything. So, how can we stay healthy? First, we should eat balanced food. We should eat more fruits and vegetables, and less junk food. Second, we should exercise regularly. Running, swimming or playing ball games are all good choices. Third, we need enough sleep. Most students should sleep at least eight hours every night. Finally, we should keep a happy mood. Stress is bad for our health. If we follow these tips, we can stay healthy and strong.",
+      "translation": "健康是生活中最重要的事。没有好的健康，我们什么都享受不了。那么我们如何保持健康？首先，我们应该均衡饮食。我们应该多吃水果蔬菜，少吃垃圾食品。其次，我们应该定期锻炼。跑步、游泳或者打球都是不错的选择。第三，我们需要充足的睡眠。大多数学生每晚至少应该睡八小时。最后，我们应该保持愉快的心情。压力对健康不利。如果我们遵循这些建议，就能保持健康和强壮。",
+      "highlights": [
+        {"phrase": "the most important thing", "comment": "最高级表强调"},
+        {"phrase": "Without good health", "comment": "用 without 引导条件"},
+        {"phrase": "balanced food", "comment": "高级形容词搭配"},
+        {"phrase": "at least eight hours", "comment": "具体数据增强说服力"}
+      ]
+    },
+    {
+      "topicId": "wt-010",
+      "level": "good",
+      "content": "I have a dream. I want to be a teacher in the future. I love kids and I love teaching. When I was in primary school, my English teacher was kind and patient. She helped me whenever I had a question. She made me love English. I want to be such a teacher one day. To make my dream come true, I will study hard, especially English and Chinese. I will also read many books to learn more. I know the road will be long, but I will never give up. I believe my dream will come true.",
+      "translation": "我有一个梦想。我未来想成为一名老师。我爱孩子也爱教书。我读小学时，我的英语老师既亲切又耐心。每当我有问题时她都会帮助我。她让我爱上了英语。我想有一天成为这样的老师。为了实现梦想，我会努力学习，尤其是英语和中文。我也会读很多书学习更多。我知道路途漫长，但我永远不会放弃。我相信我的梦想会实现。",
+      "highlights": [
+        {"phrase": "I have a dream", "comment": "经典开篇"},
+        {"phrase": "in the future", "comment": "时间状语"},
+        {"phrase": "make my dream come true", "comment": "高分短语，实现梦想"},
+        {"phrase": "never give up", "comment": "表达坚持的决心"}
+      ]
+    }
+  ]
+}
