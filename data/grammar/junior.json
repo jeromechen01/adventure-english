@@ -238,6 +238,202 @@
         {"question": "I won't go ___ you go with me.", "options": ["if", "unless", "because", "when"], "answer": 1, "explanation": "unless = if not，意为\"除非\"。"},
         {"question": "Don't talk ___ the teacher is speaking.", "options": ["when", "while", "since", "if"], "answer": 1, "explanation": "while 强调一段时间内同时进行。"}
       ]
+    },
+    {
+      "id": "gj-011",
+      "title": "现在进行时表将来",
+      "grade": [7, 8],
+      "summary": "现在进行时可以表示按计划即将发生的动作，常用于表示位移或活动的动词，如 go, come, leave, arrive, stay 等。",
+      "rules": [
+        "结构: am/is/are + V-ing",
+        "常与表示将来的时间状语连用：tomorrow, next week, tonight",
+        "常用动词：go, come, leave, arrive, stay, fly",
+        "用于已经计划好的事情"
+      ],
+      "examples": [
+        {"en": "I am leaving tomorrow.", "zh": "我明天离开。"},
+        {"en": "She is coming to my party.", "zh": "她要来我的派对。"},
+        {"en": "We are flying to Beijing next week.", "zh": "我们下周飞北京。"}
+      ],
+      "quiz": [
+        {"question": "I ___ to Shanghai tomorrow.", "options": ["go", "going", "am going", "have gone"], "answer": 2, "explanation": "现在进行时表将来。"},
+        {"question": "She ___ next month.", "options": ["leaves", "is leaving", "left", "leave"], "answer": 1, "explanation": "已计划好的事，用现在进行时。"},
+        {"question": "What ___ you ___ this weekend?", "options": ["are / doing", "do / do", "did / do", "have / done"], "answer": 0, "explanation": "问将来的安排。"},
+        {"question": "We ___ a party tonight.", "options": ["have", "had", "are having", "having"], "answer": 2, "explanation": "tonight 已计划，用进行时表将来。"},
+        {"question": "He ___ here for two more days.", "options": ["stays", "stayed", "is staying", "has stayed"], "answer": 2, "explanation": "未来要做的事。"}
+      ]
+    },
+    {
+      "id": "gj-012",
+      "title": "过去进行时",
+      "grade": [8],
+      "summary": "过去进行时表示过去某个时间正在进行的动作，结构为 was/were + V-ing。",
+      "rules": [
+        "结构: was/were + V-ing",
+        "I/he/she/it/单数主语 + was；you/we/they/复数 + were",
+        "时间标志: at that time, this time yesterday, when + 过去时句子",
+        "常与一般过去时连用，过去进行时表示背景，一般过去时表示突然发生的动作"
+      ],
+      "examples": [
+        {"en": "I was reading at 8 last night.", "zh": "我昨晚8点在读书。"},
+        {"en": "They were playing football when it began to rain.", "zh": "他们正在踢球时开始下雨了。"},
+        {"en": "What were you doing this morning?", "zh": "今早你在做什么？"}
+      ],
+      "quiz": [
+        {"question": "I ___ TV at 8 last night.", "options": ["watched", "was watching", "am watching", "watch"], "answer": 1, "explanation": "过去某时刻正在进行用过去进行时。"},
+        {"question": "They ___ when I called.", "options": ["sleep", "slept", "were sleeping", "sleeping"], "answer": 2, "explanation": "我打电话时他们正在睡觉。"},
+        {"question": "She ___ a book this time yesterday.", "options": ["reads", "read", "was reading", "reading"], "answer": 2, "explanation": "this time yesterday 是过去进行时标志。"},
+        {"question": "We ___ when the teacher came in.", "options": ["talk", "talked", "were talking", "are talking"], "answer": 2, "explanation": "进行中的动作被打断。"},
+        {"question": "What ___ you ___ at noon?", "options": ["did / do", "were / doing", "are / doing", "have / done"], "answer": 1, "explanation": "问过去某时刻正在做什么。"}
+      ]
+    },
+    {
+      "id": "gj-013",
+      "title": "过去完成时",
+      "grade": [9],
+      "summary": "过去完成时表示过去某一时间或动作之前已经完成的动作，即 \"过去的过去\"，结构为 had + 过去分词。",
+      "rules": [
+        "结构: had + V-ed (过去分词)",
+        "所有人称都用 had",
+        "时间标志: by + 过去时间, before + 过去时间, when, after, by the time",
+        "常与一般过去时对比使用：先发生的用过去完成时，后发生的用一般过去时"
+      ],
+      "examples": [
+        {"en": "I had finished my homework before dinner.", "zh": "我吃饭前完成了作业。"},
+        {"en": "When she arrived, the train had left.", "zh": "她到时火车已经开走了。"},
+        {"en": "By 2020, they had lived here for ten years.", "zh": "到2020年他们已经在这里住了十年。"}
+      ],
+      "quiz": [
+        {"question": "When I got there, they ___ left.", "options": ["have", "had", "has", "are"], "answer": 1, "explanation": "过去某时间之前已发生，用过去完成时。"},
+        {"question": "By 2010, he ___ for ten years.", "options": ["worked", "had worked", "has worked", "works"], "answer": 1, "explanation": "By + 过去时间用过去完成时。"},
+        {"question": "She ___ her homework before her mom came.", "options": ["finishes", "finished", "had finished", "has finished"], "answer": 2, "explanation": "妈妈来之前已完成。"},
+        {"question": "I lost the book I ___ from the library.", "options": ["borrow", "borrowed", "had borrowed", "have borrowed"], "answer": 2, "explanation": "借书在丢书之前。"},
+        {"question": "After she ___ the letter, she felt happy.", "options": ["read", "had read", "reads", "is reading"], "answer": 1, "explanation": "after 引出先发生的动作。"}
+      ]
+    },
+    {
+      "id": "gj-014",
+      "title": "动名词",
+      "grade": [8, 9],
+      "summary": "动名词是动词的 -ing 形式作名词使用，可作主语、宾语、表语等，表示具体的某项活动。",
+      "rules": [
+        "结构: V + ing",
+        "可作主语：Reading is fun.",
+        "可作动词宾语，常跟动名词的动词：enjoy, finish, mind, keep, practice, suggest",
+        "介词后必须用动名词：be good at swimming, look forward to seeing",
+        "可作表语：My hobby is reading."
+      ],
+      "examples": [
+        {"en": "Swimming is good exercise.", "zh": "游泳是好运动。"},
+        {"en": "I enjoy listening to music.", "zh": "我喜欢听音乐。"},
+        {"en": "She is good at dancing.", "zh": "她擅长跳舞。"}
+      ],
+      "quiz": [
+        {"question": "I enjoy ___ books.", "options": ["read", "reading", "to read", "reads"], "answer": 1, "explanation": "enjoy 后接动名词。"},
+        {"question": "___ is good for health.", "options": ["Run", "Runs", "Running", "Ran"], "answer": 2, "explanation": "动名词作主语。"},
+        {"question": "She is good at ___.", "options": ["sing", "to sing", "sings", "singing"], "answer": 3, "explanation": "介词 at 后接动名词。"},
+        {"question": "Would you mind ___ the door?", "options": ["close", "closing", "to close", "closed"], "answer": 1, "explanation": "mind 后接动名词。"},
+        {"question": "I look forward to ___ you.", "options": ["see", "seeing", "saw", "sees"], "answer": 1, "explanation": "look forward to 后接动名词。"}
+      ]
+    },
+    {
+      "id": "gj-015",
+      "title": "反义疑问句",
+      "grade": [8, 9],
+      "summary": "反义疑问句用于求证或反问，由陈述句和简短的疑问句组成，前肯后否，前否后肯。",
+      "rules": [
+        "前肯后否: He is a teacher, isn't he?",
+        "前否后肯: She isn't a doctor, is she?",
+        "陈述句中有 be 动词、助动词或情态动词，疑问部分用相同的词",
+        "陈述句没有助动词时，疑问部分用 do/does/did + 主语",
+        "主语必须用人称代词"
+      ],
+      "examples": [
+        {"en": "He is a student, isn't he?", "zh": "他是学生，对吗？"},
+        {"en": "You don't like fish, do you?", "zh": "你不喜欢鱼，对吗？"},
+        {"en": "Tom can swim, can't he?", "zh": "汤姆会游泳，对吗？"}
+      ],
+      "quiz": [
+        {"question": "He is your friend, ___?", "options": ["is he", "isn't he", "doesn't he", "does he"], "answer": 1, "explanation": "前肯后否。"},
+        {"question": "She doesn't like apples, ___?", "options": ["does she", "doesn't she", "is she", "isn't she"], "answer": 0, "explanation": "前否后肯，陈述句有 doesn't 用 does。"},
+        {"question": "You can speak English, ___?", "options": ["do you", "don't you", "can you", "can't you"], "answer": 3, "explanation": "前肯后否，用 can't。"},
+        {"question": "They went home yesterday, ___?", "options": ["did they", "didn't they", "do they", "don't they"], "answer": 1, "explanation": "过去时前肯后否，用 didn't。"},
+        {"question": "Let's go now, ___?", "options": ["shall we", "will we", "do we", "are we"], "answer": 0, "explanation": "Let's 后用 shall we。"}
+      ]
+    },
+    {
+      "id": "gj-016",
+      "title": "间接引语",
+      "grade": [9],
+      "summary": "间接引语（宾语从句）用 that 连接，时态、人称和指示代词等需要相应变化。",
+      "rules": [
+        "陈述句变间接引语用 that 引导，that 可省略",
+        "主句是过去时，从句时态相应后退：现在 → 过去；过去 → 过去完成；将来 → 过去将来",
+        "人称变化：根据语境调整 I, you, he, she 等",
+        "时间状语变化：now → then, today → that day, yesterday → the day before"
+      ],
+      "examples": [
+        {"en": "He said, \"I am tired.\" → He said that he was tired.", "zh": "他说\"我累了\"→ 他说他累了。"},
+        {"en": "She told me she would come.", "zh": "她告诉我她会来。"},
+        {"en": "Tom said he had finished his work.", "zh": "汤姆说他已经完成了工作。"}
+      ],
+      "quiz": [
+        {"question": "He said, \"I am happy.\" → He said that he ___ happy.", "options": ["am", "is", "was", "be"], "answer": 2, "explanation": "主句过去时，从句时态后退。"},
+        {"question": "She told me she ___ come.", "options": ["will", "would", "is", "was"], "answer": 1, "explanation": "将来时变过去将来时。"},
+        {"question": "He said he ___ his homework.", "options": ["has finished", "had finished", "finished", "finishes"], "answer": 1, "explanation": "现在完成时变过去完成时。"},
+        {"question": "Tom said he ___ from China.", "options": ["come", "comes", "came", "coming"], "answer": 2, "explanation": "现在时变过去时。"},
+        {"question": "She said she ___ Tom the day before.", "options": ["sees", "saw", "had seen", "is seeing"], "answer": 2, "explanation": "yesterday 在间接引语中变 the day before，时态变过去完成时。"}
+      ]
+    },
+    {
+      "id": "gj-017",
+      "title": "时间连词 when, while, as, before, after, since, until",
+      "grade": [8, 9],
+      "summary": "时间状语从句用时间连词引导，根据动作的时间关系选择恰当的连词。",
+      "rules": [
+        "when: 表示\"当...时\"，可用于一段时间或一点时间",
+        "while: 表示\"在...期间\"，强调一段持续时间，从句多用进行时",
+        "as: 表示\"一边...一边\"或\"随着...\"",
+        "before: \"在...之前\"; after: \"在...之后\"",
+        "since: \"自从\"，主句多用现在完成时",
+        "until: \"直到...为止\"，否定句中表示\"直到...才\""
+      ],
+      "examples": [
+        {"en": "When I was young, I lived in Beijing.", "zh": "我小时候住在北京。"},
+        {"en": "While she was cooking, the phone rang.", "zh": "她做饭时电话响了。"},
+        {"en": "I haven't seen him since 2010.", "zh": "我从2010年起就没见过他。"}
+      ],
+      "quiz": [
+        {"question": "I'll wait ___ you come back.", "options": ["since", "until", "while", "after"], "answer": 1, "explanation": "until 表示\"直到\"。"},
+        {"question": "___ I was reading, my brother was playing.", "options": ["When", "While", "Since", "Until"], "answer": 1, "explanation": "while 强调同时进行的两个动作。"},
+        {"question": "I have lived here ___ 2015.", "options": ["since", "for", "until", "while"], "answer": 0, "explanation": "since + 时间点，主句用现在完成时。"},
+        {"question": "He left ___ I arrived.", "options": ["before", "after", "since", "until"], "answer": 0, "explanation": "他先走，我后到。"},
+        {"question": "Wash your hands ___ you eat.", "options": ["before", "after", "since", "while"], "answer": 0, "explanation": "饭前洗手。"}
+      ]
+    },
+    {
+      "id": "gj-018",
+      "title": "让步状语从句 though, although, even though",
+      "grade": [9],
+      "summary": "让步状语从句表示\"虽然...但是...\"，由 though, although, even though 引导，主句不能再用 but。",
+      "rules": [
+        "although / though = 虽然，二者基本同义可换用",
+        "even though = 即使，语气更强",
+        "中文\"虽然...但是...\"翻成英文时只能用一个 although/though，不能加 but",
+        "though 可用作副词，置于句末"
+      ],
+      "examples": [
+        {"en": "Although it was raining, we went out.", "zh": "虽然下雨，但我们还是出去了。"},
+        {"en": "Even though she is tired, she keeps working.", "zh": "尽管她很累，但她还在工作。"},
+        {"en": "He failed the test. He had studied hard, though.", "zh": "他没考好，不过他学习是很努力的。"}
+      ],
+      "quiz": [
+        {"question": "___ it was cold, he went swimming.", "options": ["Because", "Although", "If", "When"], "answer": 1, "explanation": "让步关系用 Although。"},
+        {"question": "Although it rained, ___ we still played football.", "options": ["but", "and", "so", "(no word needed)"], "answer": 3, "explanation": "Although 与 but 不能同时使用。"},
+        {"question": "___ he is young, he can take care of himself.", "options": ["Though", "Because", "Since", "If"], "answer": 0, "explanation": "让步语气用 Though。"},
+        {"question": "Even ___ she is sick, she still goes to school.", "options": ["if", "though", "when", "while"], "answer": 1, "explanation": "even though 是固定搭配。"},
+        {"question": "It was hard work; he didn't give up, ___.", "options": ["though", "but", "and", "or"], "answer": 0, "explanation": "though 在句末作副词，意为\"不过\"。"}
+      ]
     }
   ]
 }

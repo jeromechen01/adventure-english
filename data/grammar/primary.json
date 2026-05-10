@@ -242,6 +242,132 @@
         {"question": "___ you swim?", "options": ["Is", "Are", "Do", "Can"], "answer": 3, "explanation": "问能力用 Can。"},
         {"question": "Is he a doctor? — ___, he is.", "options": ["Yes", "No", "Sorry", "Please"], "answer": 0, "explanation": "肯定回答用 Yes。"}
       ]
+    },
+    {
+      "id": "gp-011",
+      "title": "名词复数变化规则",
+      "grade": [4, 5],
+      "summary": "可数名词的复数形式有不同的变化规则，要根据词尾决定加 s 或 es。",
+      "rules": [
+        "一般名词直接加 -s：book → books",
+        "以 s/x/sh/ch/o 结尾加 -es：bus → buses, box → boxes, dish → dishes, watch → watches, tomato → tomatoes",
+        "辅音字母+y 结尾，变 y 为 i 加 -es：baby → babies, city → cities",
+        "以 f/fe 结尾，变 f/fe 为 v 加 -es：knife → knives, leaf → leaves",
+        "不规则复数：man → men, woman → women, child → children, foot → feet, tooth → teeth, mouse → mice"
+      ],
+      "examples": [
+        {"en": "I have two books.", "zh": "我有两本书。"},
+        {"en": "There are three boxes.", "zh": "有三个盒子。"},
+        {"en": "Two children are playing.", "zh": "两个孩子在玩。"}
+      ],
+      "quiz": [
+        {"question": "I see five ___.", "options": ["bus", "buss", "buses", "busies"], "answer": 2, "explanation": "bus 以 s 结尾，复数加 es。"},
+        {"question": "There are three ___.", "options": ["baby", "babys", "babies", "babyes"], "answer": 2, "explanation": "辅音+y 结尾变 y 为 i 加 es。"},
+        {"question": "How many ___ are there?", "options": ["mans", "men", "mens", "mans"], "answer": 1, "explanation": "man 的不规则复数是 men。"},
+        {"question": "I have two ___.", "options": ["foots", "foot", "feet", "feets"], "answer": 2, "explanation": "foot 的复数是 feet。"},
+        {"question": "Cut the ___ with knives.", "options": ["leafs", "leaves", "leafes", "leaf"], "answer": 1, "explanation": "leaf 变 f 为 v 加 es。"}
+      ]
+    },
+    {
+      "id": "gp-012",
+      "title": "时间介词 in / on / at",
+      "grade": [4, 5],
+      "summary": "in、on、at 都是时间介词，但用法不同：in 用于较长时间，on 用于具体某天，at 用于具体时刻。",
+      "rules": [
+        "in + 年/月/季节/上午/下午/晚上：in 2024, in May, in summer, in the morning",
+        "on + 具体某天/星期/日期：on Sunday, on May 1st, on a sunny day",
+        "at + 具体时刻/节日/夜晚：at 7 o'clock, at noon, at night, at Christmas"
+      ],
+      "examples": [
+        {"en": "I get up at seven o'clock.", "zh": "我七点起床。"},
+        {"en": "We have a party on Sunday.", "zh": "我们星期天聚会。"},
+        {"en": "Flowers bloom in spring.", "zh": "花在春天开放。"}
+      ],
+      "quiz": [
+        {"question": "I was born ___ 2010.", "options": ["in", "on", "at", "by"], "answer": 0, "explanation": "in + 年份。"},
+        {"question": "We meet ___ Monday.", "options": ["in", "on", "at", "by"], "answer": 1, "explanation": "on + 星期。"},
+        {"question": "School begins ___ 8 o'clock.", "options": ["in", "on", "at", "by"], "answer": 2, "explanation": "at + 具体时刻。"},
+        {"question": "I read books ___ the morning.", "options": ["in", "on", "at", "by"], "answer": 0, "explanation": "in + the morning。"},
+        {"question": "We have dinner ___ 6 p.m.", "options": ["in", "on", "at", "by"], "answer": 2, "explanation": "at + 具体时刻。"}
+      ]
+    },
+    {
+      "id": "gp-013",
+      "title": "方位介词 in / on / under / behind / next to",
+      "grade": [3, 4, 5],
+      "summary": "方位介词表示物体的位置关系，是描述空间关系的常用词。",
+      "rules": [
+        "in: 在...里面（封闭空间）",
+        "on: 在...上面（接触表面）",
+        "under: 在...下面",
+        "behind: 在...后面",
+        "in front of: 在...前面",
+        "next to / beside: 在...旁边",
+        "between: 在两者之间"
+      ],
+      "examples": [
+        {"en": "The cat is under the chair.", "zh": "猫在椅子下面。"},
+        {"en": "The book is on the desk.", "zh": "书在桌子上。"},
+        {"en": "She sits next to me.", "zh": "她坐在我旁边。"}
+      ],
+      "quiz": [
+        {"question": "The pen is ___ the box.", "options": ["in", "on", "under", "behind"], "answer": 0, "explanation": "笔在盒子里，用 in。"},
+        {"question": "The cat is ___ the table.", "options": ["in", "on", "under", "behind"], "answer": 2, "explanation": "猫在桌子下面，用 under。"},
+        {"question": "The dog is ___ the chair.", "options": ["in", "on", "under", "behind"], "answer": 1, "explanation": "狗在椅子上，用 on。"},
+        {"question": "The ball is ___ the door.", "options": ["in", "next to", "under", "behind"], "answer": 3, "explanation": "球在门后面，用 behind。"},
+        {"question": "Tom sits ___ Mary and Lily.", "options": ["between", "under", "in", "on"], "answer": 0, "explanation": "在两者之间用 between。"}
+      ]
+    },
+    {
+      "id": "gp-014",
+      "title": "特殊疑问词 what / where / when / who / how",
+      "grade": [3, 4, 5],
+      "summary": "特殊疑问句以特殊疑问词开头，用于询问具体信息，不能用 yes/no 回答。",
+      "rules": [
+        "what: 询问事物 - What is this?",
+        "where: 询问地点 - Where are you?",
+        "when: 询问时间 - When do you sleep?",
+        "who: 询问人物 - Who is he?",
+        "how: 询问方式或状态 - How are you? / How do you go?",
+        "结构: 疑问词 + be/助动词 + 主语 + ...?"
+      ],
+      "examples": [
+        {"en": "What is your name?", "zh": "你叫什么名字？"},
+        {"en": "Where do you live?", "zh": "你住在哪里？"},
+        {"en": "How are you today?", "zh": "你今天怎么样？"}
+      ],
+      "quiz": [
+        {"question": "___ is your name?", "options": ["What", "Where", "When", "Who"], "answer": 0, "explanation": "问名字用 What。"},
+        {"question": "___ do you go to school?", "options": ["What", "Where", "When", "Who"], "answer": 2, "explanation": "问时间用 When。"},
+        {"question": "___ is your teacher?", "options": ["What", "Where", "When", "Who"], "answer": 3, "explanation": "问人物用 Who。"},
+        {"question": "___ are you from?", "options": ["What", "Where", "When", "How"], "answer": 1, "explanation": "问地点用 Where。"},
+        {"question": "___ old are you?", "options": ["What", "Where", "When", "How"], "answer": 3, "explanation": "How old 询问年龄。"}
+      ]
+    },
+    {
+      "id": "gp-015",
+      "title": "频度副词 always / usually / often / sometimes / never",
+      "grade": [5, 6],
+      "summary": "频度副词表示动作发生的频繁程度，从经常到从不，位置一般在 be 动词后或实义动词前。",
+      "rules": [
+        "频率从高到低: always (100%) > usually > often > sometimes > rarely > never (0%)",
+        "位置: 在 be 动词后 - She is always happy.",
+        "位置: 在实义动词前 - I usually get up at 6.",
+        "位置: 在情态动词后 - I can always help you.",
+        "sometimes 也可放句首或句末"
+      ],
+      "examples": [
+        {"en": "I always do my homework.", "zh": "我总是做作业。"},
+        {"en": "She is usually late.", "zh": "她通常迟到。"},
+        {"en": "We never eat junk food.", "zh": "我们从不吃垃圾食品。"}
+      ],
+      "quiz": [
+        {"question": "I ___ get up at 6:30.", "options": ["always", "is always", "am always", "have always"], "answer": 0, "explanation": "实义动词前直接用频度副词。"},
+        {"question": "She ___ kind to others.", "options": ["always is", "is always", "always", "always be"], "answer": 1, "explanation": "be 动词后接频度副词。"},
+        {"question": "I ___ eat ice cream — only twice a year.", "options": ["always", "usually", "rarely", "often"], "answer": 2, "explanation": "一年两次表示很少。"},
+        {"question": "He ___ smokes — he hates the smell.", "options": ["always", "often", "usually", "never"], "answer": 3, "explanation": "讨厌烟味，所以从不抽。"},
+        {"question": "We ___ go to the park on Sundays.", "options": ["sometimes", "is sometimes", "are sometimes", "be sometimes"], "answer": 0, "explanation": "实义动词 go 前用频度副词。"}
+      ]
     }
   ]
 }

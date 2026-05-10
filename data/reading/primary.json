@@ -80,6 +80,166 @@
         {"type": "choice", "q": "How many times has the writer read The Little Prince?", "options": ["1", "2", "3", "4"], "answer": 2}
       ],
       "keyWords": ["hobby", "reading", "book", "favourite", "every day"]
+    },
+    {
+      "id": "rp-006",
+      "title": "The Clever Crow",
+      "grade": 4,
+      "lexile": 250,
+      "wordCount": 80,
+      "category": "story",
+      "content": "One hot day, a crow was very thirsty. It looked around and saw a tall jar of water. The crow flew down to drink, but the water was too low. The clever crow thought of a plan. It picked up small stones and dropped them into the jar one by one. The water came up higher and higher. At last, the crow could drink the cool water. It was happy and flew away.",
+      "translation": "一个炎热的日子，一只乌鸦很口渴。它环顾四周，看见一个高高的水罐。乌鸦飞下来喝水，但水位太低。聪明的乌鸦想到了一个办法。它叼起小石头，一颗一颗地丢进罐子里。水位越来越高。最后，乌鸦终于喝到了凉水。它很开心，飞走了。",
+      "questions": [
+        {"type": "choice", "q": "Why was the crow thirsty?", "options": ["It was cold", "It was hot", "It was hungry", "It was tired"], "answer": 1},
+        {"type": "choice", "q": "How did the crow get the water?", "options": ["It broke the jar", "It dropped stones into the jar", "It flew away", "It asked others"], "answer": 1},
+        {"type": "choice", "q": "What does the story tell us?", "options": ["Crows are bad", "Be smart and you can solve problems", "Don't drink water", "Stones are heavy"], "answer": 1}
+      ],
+      "keyWords": ["crow", "thirsty", "stone", "clever", "jar"]
+    },
+    {
+      "id": "rp-007",
+      "title": "Butterflies",
+      "grade": 5,
+      "lexile": 320,
+      "wordCount": 95,
+      "category": "science",
+      "content": "Butterflies are beautiful insects. They start their lives as tiny eggs on green leaves. Soon a small caterpillar comes out and eats many leaves. After some weeks, the caterpillar makes a hard shell around itself. Inside the shell, big changes happen. After about two weeks, a colourful butterfly comes out. It dries its wings in the sun and then flies away to find flowers. Butterflies help flowers grow because they carry pollen from one flower to another.",
+      "translation": "蝴蝶是美丽的昆虫。它们的生命始于绿叶上的小卵。很快，一只小毛毛虫钻出来，吃很多叶子。几周后，毛毛虫在自己周围结起硬壳。壳里发生了巨大的变化。大约两周后，一只彩色的蝴蝶飞出来。它在阳光下晾干翅膀，然后飞去寻找花朵。蝴蝶帮助花朵生长，因为它们把花粉从一朵花带到另一朵花。",
+      "questions": [
+        {"type": "choice", "q": "Where do butterflies start their lives?", "options": ["In the soil", "On leaves", "In the water", "In a nest"], "answer": 1},
+        {"type": "choice", "q": "What does a caterpillar do before becoming a butterfly?", "options": ["Sleeps in a shell", "Eats meat", "Swims", "Sings"], "answer": 0},
+        {"type": "choice", "q": "Why are butterflies useful?", "options": ["They eat insects", "They make honey", "They help flowers grow", "They fly very fast"], "answer": 2}
+      ],
+      "keyWords": ["butterfly", "caterpillar", "leaves", "wings", "flowers"]
+    },
+    {
+      "id": "rp-008",
+      "title": "Lily's Birthday",
+      "grade": 4,
+      "lexile": 280,
+      "wordCount": 90,
+      "category": "life",
+      "content": "Yesterday was Lily's birthday. She turned ten years old. In the afternoon, her friends came to her house. Mom made a big chocolate cake with ten candles on it. Everyone sang the birthday song to Lily. She closed her eyes, made a wish and blew out the candles. Then they ate the cake and played fun games in the garden. Lily got many nice gifts, but her favourite one was a small white rabbit from her father. She named it Snowy.",
+      "translation": "昨天是莉莉的生日。她十岁了。下午，她的朋友们来到她家。妈妈做了一个大巧克力蛋糕，上面有十支蜡烛。大家给莉莉唱生日歌。她闭上眼睛，许了愿，然后吹灭了蜡烛。然后他们吃蛋糕，在花园里玩有趣的游戏。莉莉收到了很多漂亮的礼物，但她最喜欢的是爸爸送的一只小白兔。她给它取名 Snowy。",
+      "questions": [
+        {"type": "choice", "q": "How old is Lily now?", "options": ["8", "9", "10", "11"], "answer": 2},
+        {"type": "choice", "q": "Where did the children play games?", "options": ["At school", "In the garden", "On the street", "In the kitchen"], "answer": 1},
+        {"type": "choice", "q": "What was Lily's favourite gift?", "options": ["A doll", "A book", "A rabbit", "A cake"], "answer": 2}
+      ],
+      "keyWords": ["birthday", "cake", "candles", "wish", "rabbit"]
+    },
+    {
+      "id": "rp-009",
+      "title": "How Plants Grow",
+      "grade": 5,
+      "lexile": 330,
+      "wordCount": 100,
+      "category": "science",
+      "content": "Plants need three important things to grow well: water, air and sunlight. First, we plant a small seed in the soil. Then we water it every few days. The seed will start to wake up. After a few days, a small green plant comes out of the soil. The leaves take in sunlight and air. The roots take in water from the soil. Slowly the plant grows taller and stronger. With good care, the plant will grow flowers and fruits. Plants are very important. They give us food and clean air to breathe.",
+      "translation": "植物生长得好需要三样重要的东西：水、空气和阳光。首先，我们把一颗小种子种在土里。然后每隔几天给它浇水。种子会开始苏醒。过几天，一棵小绿苗会从土里钻出来。叶子吸收阳光和空气。根从土里吸收水分。慢慢地，植物长得更高更壮。在精心照料下，植物会开花结果。植物非常重要。它们给我们食物和洁净的空气。",
+      "questions": [
+        {"type": "choice", "q": "What do plants need to grow?", "options": ["Only water", "Water, air and sunlight", "Only sunlight", "Salt and sugar"], "answer": 1},
+        {"type": "choice", "q": "What part of a plant takes in water?", "options": ["The leaves", "The flowers", "The roots", "The fruits"], "answer": 2},
+        {"type": "choice", "q": "Why are plants important?", "options": ["They are tall", "They are green", "They give us food and air", "They make noise"], "answer": 2}
+      ],
+      "keyWords": ["plant", "seed", "water", "sunlight", "grow"]
+    },
+    {
+      "id": "rp-010",
+      "title": "The Spring Festival",
+      "grade": 6,
+      "lexile": 360,
+      "wordCount": 115,
+      "category": "culture",
+      "content": "The Spring Festival is the most important festival in China. It usually comes in late January or early February. Before the festival, people clean their houses and put up red paper-cuts on windows and doors. On New Year's Eve, the whole family gets together for a big dinner. Dumplings are an important food because they look like old gold money. After dinner, people watch the special TV show together. At midnight, the sky is full of fireworks. Children love this festival most because they get red envelopes with lucky money inside. The Spring Festival lasts about fifteen days.",
+      "translation": "春节是中国最重要的节日。它通常在一月底或二月初。节日前，人们打扫房子，在窗户和门上贴红色剪纸。除夕夜，全家人聚在一起吃团圆饭。饺子是重要的食物，因为它们像古代的金钱。晚饭后，人们一起看特别的电视节目。午夜时分，天空满是烟花。孩子们最喜欢这个节日，因为他们能拿到装有压岁钱的红包。春节大约持续十五天。",
+      "questions": [
+        {"type": "choice", "q": "When does the Spring Festival usually come?", "options": ["In summer", "In late January or early February", "In May", "In October"], "answer": 1},
+        {"type": "choice", "q": "Why are dumplings important?", "options": ["They are easy to cook", "They look like gold money", "They are cheap", "Children like them"], "answer": 1},
+        {"type": "choice", "q": "Why do children love this festival most?", "options": ["They watch TV", "They get red envelopes", "They eat fireworks", "They clean houses"], "answer": 1}
+      ],
+      "keyWords": ["Spring Festival", "dumpling", "fireworks", "red envelope", "family"]
+    },
+    {
+      "id": "rp-011",
+      "title": "My Dream Job",
+      "grade": 6,
+      "lexile": 340,
+      "wordCount": 105,
+      "category": "life",
+      "content": "When I grow up, I want to be a teacher. I think teachers are very important. They teach us reading, writing and many useful things. They also teach us how to be kind, honest and brave. My English teacher Miss Wang is my favourite teacher. She is patient and never shouts at us. When we make mistakes, she helps us instead of getting angry. I want to be a teacher like her. I will help children learn and make them love school. I know I have to study hard now and read many books. One day, my dream will come true.",
+      "translation": "我长大后想当老师。我认为老师非常重要。他们教我们读书、写字和许多有用的东西。他们还教我们如何善良、诚实和勇敢。我的英语老师王老师是我最喜欢的老师。她有耐心，从不冲我们大吼大叫。当我们犯错时，她不会生气，而是帮助我们。我想成为像她一样的老师。我会帮助孩子们学习，让他们爱上学校。我知道现在必须努力学习、多读书。总有一天，我的梦想会成真。",
+      "questions": [
+        {"type": "choice", "q": "What does the writer want to be?", "options": ["A doctor", "A teacher", "A singer", "A pilot"], "answer": 1},
+        {"type": "choice", "q": "Why does the writer like Miss Wang?", "options": ["She is rich", "She is patient and kind", "She is funny", "She is young"], "answer": 1},
+        {"type": "choice", "q": "What must the writer do now?", "options": ["Find a job", "Study hard and read books", "Buy clothes", "Travel"], "answer": 1}
+      ],
+      "keyWords": ["dream", "teacher", "patient", "study", "future"]
+    },
+    {
+      "id": "rp-012",
+      "title": "A Letter to a Friend",
+      "grade": 5,
+      "lexile": 310,
+      "wordCount": 95,
+      "category": "life",
+      "content": "Dear Anna, How are you? I miss you very much. I'm now in a new school in Shanghai. The school is big and beautiful. There is a small lake in the playground. My new teachers are friendly and my new classmates are funny. I have made three good friends. We eat lunch together every day. The food at school is also nice. I have rice, vegetables and meat for lunch. After school, I sometimes play basketball. I hope you can come and visit me one day. Please write back to me soon. Love, Tony",
+      "translation": "亲爱的安娜：你好吗？我非常想你。我现在在上海一所新学校里。学校又大又漂亮。操场上有一个小湖。我的新老师很友好，新同学也很有趣。我交了三个好朋友。我们每天一起吃午饭。学校的食物也很好。我午餐有米饭、蔬菜和肉。放学后我有时打篮球。希望有一天你能来看我。请尽快回信。爱你的，托尼",
+      "questions": [
+        {"type": "choice", "q": "Where is Tony now?", "options": ["Beijing", "Shanghai", "Hong Kong", "Guangzhou"], "answer": 1},
+        {"type": "choice", "q": "How many new friends has Tony made?", "options": ["1", "2", "3", "4"], "answer": 2},
+        {"type": "choice", "q": "What does Tony do after school sometimes?", "options": ["Play football", "Play basketball", "Swim", "Read books"], "answer": 1}
+      ],
+      "keyWords": ["letter", "school", "friend", "friendly", "miss"]
+    },
+    {
+      "id": "rp-013",
+      "title": "Animals in Winter",
+      "grade": 5,
+      "lexile": 340,
+      "wordCount": 105,
+      "category": "science",
+      "content": "Different animals do different things in winter. When it gets cold, some animals fly south to warmer places. Many birds, like swallows, do this every year. They come back when spring arrives. Other animals, like bears, sleep in their caves all winter. They eat a lot of food in autumn so they can sleep through the cold months. Some animals, like rabbits, grow longer and thicker fur in winter. The thick fur keeps them warm. People also do special things in winter. We wear thick coats, drink hot soup and stay inside on very cold days. Nature is amazing.",
+      "translation": "不同的动物在冬天做不同的事。天气变冷时，有些动物飞到南方较暖的地方。许多鸟，比如燕子，每年都这样。它们春天来时再飞回来。其他动物，比如熊，整个冬天都睡在洞里。它们在秋天吃很多食物，这样它们就可以一觉睡过寒冷的几个月。有些动物，比如兔子，冬天会长出更长更厚的毛。厚厚的皮毛让它们保暖。人们冬天也做特别的事。我们穿厚外套，喝热汤，特别冷的日子待在屋里。大自然真神奇。",
+      "questions": [
+        {"type": "choice", "q": "What do swallows do in winter?", "options": ["They sleep in caves", "They fly south", "They grow thick fur", "They die"], "answer": 1},
+        {"type": "choice", "q": "Why do bears eat a lot in autumn?", "options": ["They are hungry", "They sleep all winter", "Food is cheap", "They share with friends"], "answer": 1},
+        {"type": "choice", "q": "What helps rabbits stay warm?", "options": ["Caves", "Long thick fur", "Hot soup", "Coats"], "answer": 1}
+      ],
+      "keyWords": ["winter", "animal", "fly south", "sleep", "fur"]
+    },
+    {
+      "id": "rp-014",
+      "title": "The Magic of Books",
+      "grade": 6,
+      "lexile": 370,
+      "wordCount": 115,
+      "category": "life",
+      "content": "Books are like magic doors. When I open a book, I can travel to any place in the world. I can climb high mountains, swim in deep seas or fly to the stars. I can also meet many people from the past, like kings, scientists and brave heroes. Books make me think about many things. They tell me what is right and what is wrong. When I feel sad, a funny book makes me smile. When I feel lonely, a good book is like a quiet friend. Reading is not always easy, but I never give up. The more I read, the more I know about the world.",
+      "translation": "书就像神奇的大门。当我翻开一本书，我可以去世界上任何地方。我可以爬高山、在深海游泳，也可以飞到星星上。我还能遇见过去的许多人，比如国王、科学家和勇敢的英雄。书让我思考很多事情。它们告诉我什么是对、什么是错。当我难过时，一本有趣的书让我微笑。当我孤独时，好书就像一个安静的朋友。阅读并不总是容易，但我从不放弃。我读得越多，对世界知道得越多。",
+      "questions": [
+        {"type": "choice", "q": "What does the writer compare books to?", "options": ["Magic doors", "Lakes", "Friends only", "Mountains"], "answer": 0},
+        {"type": "choice", "q": "What can a book do when the writer is sad?", "options": ["Make a sound", "Make the writer smile", "Cook food", "Sing songs"], "answer": 1},
+        {"type": "choice", "q": "What is the main idea of the passage?", "options": ["Books are heavy", "Reading is hard", "Books bring us joy and knowledge", "Books are expensive"], "answer": 2}
+      ],
+      "keyWords": ["book", "magic", "travel", "friend", "read"]
+    },
+    {
+      "id": "rp-015",
+      "title": "Tea and the Chinese",
+      "grade": 6,
+      "lexile": 380,
+      "wordCount": 120,
+      "category": "culture",
+      "content": "Tea is a very important drink in China. People in China have been drinking tea for thousands of years. There are many kinds of tea: green tea, black tea, white tea and many more. Each kind has its own colour and taste. In southern China, many families grow tea plants on hillsides. The leaves are picked carefully by hand and dried in the sun. To make a good cup of tea, you need to use clean water and the right water temperature. Many Chinese people like to drink tea with friends. They sit, chat and enjoy a slow afternoon together. Tea is not only a drink. It is also part of Chinese culture.",
+      "translation": "茶是中国非常重要的饮品。中国人喝茶已经有几千年了。茶有很多种类：绿茶、红茶、白茶等等。每种茶都有自己的颜色和味道。在中国南方，许多家庭在山坡上种植茶树。茶叶要用手小心采摘并在阳光下晾干。要泡一杯好茶，需要使用干净的水和合适的水温。许多中国人喜欢和朋友一起喝茶。他们坐下来，聊天，一起享受悠闲的下午。茶不仅是饮品，也是中国文化的一部分。",
+      "questions": [
+        {"type": "choice", "q": "How long have Chinese people been drinking tea?", "options": ["A few months", "Hundreds of years", "Thousands of years", "Just ten years"], "answer": 2},
+        {"type": "choice", "q": "How are tea leaves picked?", "options": ["By machines", "By hand", "By animals", "By wind"], "answer": 1},
+        {"type": "choice", "q": "What does the passage mainly tell us?", "options": ["How to plant tea", "Tea is part of Chinese life and culture", "Black tea is the best", "Tea is expensive"], "answer": 1}
+      ],
+      "keyWords": ["tea", "Chinese", "culture", "drink", "leaves"]
     }
   ]
 }

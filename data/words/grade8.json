@@ -1,65 +1,689 @@
 {
   "grade": 8,
-  "totalWords": 30,
+  "totalWords": 456,
   "units": [
     {
       "unitId": "g8-u1",
       "unitName": "Unit 1 Where Did You Go on Vacation",
       "words": [
-        {"id": "g8w001", "word": "vacation", "phonetic": "/vəˈkeɪʃn/", "pos": "n.", "meaning": "假期", "examples": [{"en": "We went on vacation last summer.", "zh": "去年夏天我们度假了。"}, {"en": "Have a nice vacation!", "zh": "假期愉快！"}], "synonyms": ["holiday"], "antonyms": [], "difficulty": 3, "tags": ["time"]},
-        {"id": "g8w002", "word": "anyone", "phonetic": "/ˈeniwʌn/", "pos": "pron.", "meaning": "任何人", "examples": [{"en": "Did anyone see my book?", "zh": "有人看到我的书吗？"}, {"en": "Anyone can do it.", "zh": "任何人都可以做。"}], "synonyms": ["anybody"], "antonyms": [], "difficulty": 3, "tags": ["pronoun"]},
-        {"id": "g8w003", "word": "anywhere", "phonetic": "/ˈeniweə/", "pos": "adv.", "meaning": "任何地方", "examples": [{"en": "I can't find it anywhere.", "zh": "哪儿也找不到。"}, {"en": "Sit anywhere you like.", "zh": "你想坐哪儿就坐哪儿。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
-        {"id": "g8w004", "word": "wonderful", "phonetic": "/ˈwʌndəfl/", "pos": "adj.", "meaning": "精彩的", "examples": [{"en": "The trip was wonderful.", "zh": "这次旅行很精彩。"}, {"en": "What a wonderful day!", "zh": "多么美好的一天！"}], "synonyms": ["amazing"], "antonyms": ["awful"], "difficulty": 3, "tags": ["adjective"]},
-        {"id": "g8w005", "word": "decide", "phonetic": "/dɪˈsaɪd/", "pos": "v.", "meaning": "决定", "examples": [{"en": "I decided to go.", "zh": "我决定去了。"}, {"en": "Decide quickly.", "zh": "快做决定。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
-        {"id": "g8w006", "word": "myself", "phonetic": "/maɪˈself/", "pos": "pron.", "meaning": "我自己", "examples": [{"en": "I made it myself.", "zh": "这是我自己做的。"}, {"en": "I told myself to be brave.", "zh": "我告诉自己要勇敢。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["pronoun"]}
+        {"id": "g8w001", "word": "anyone", "phonetic": "/ˈeniwʌn/", "pos": "pron.", "meaning": "任何人", "examples": [{"en": "Did anyone come?", "zh": "有人来吗？"}, {"en": "Anyone can do this.", "zh": "任何人都能做到。"}], "synonyms": ["anybody"], "antonyms": [], "difficulty": 2, "tags": ["pronoun"]},
+        {"id": "g8w002", "word": "anywhere", "phonetic": "/ˈeniweə(r)/", "pos": "adv.", "meaning": "任何地方", "examples": [{"en": "Did you go anywhere?", "zh": "你去过哪里吗？"}, {"en": "I can't find it anywhere.", "zh": "我哪儿也找不到。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w003", "word": "wonderful", "phonetic": "/ˈwʌndəfl/", "pos": "adj.", "meaning": "极好的", "examples": [{"en": "What a wonderful day!", "zh": "多美好的一天！"}, {"en": "The trip was wonderful.", "zh": "旅行很棒。"}], "synonyms": ["great"], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w004", "word": "few", "phonetic": "/fjuː/", "pos": "adj.", "meaning": "少的", "examples": [{"en": "A few friends.", "zh": "几个朋友。"}, {"en": "Few people came.", "zh": "几乎没人来。"}], "synonyms": [], "antonyms": ["many"], "difficulty": 2, "tags": ["quantity"]},
+        {"id": "g8w005", "word": "quite", "phonetic": "/kwaɪt/", "pos": "adv.", "meaning": "相当", "examples": [{"en": "Quite good.", "zh": "相当好。"}, {"en": "Quite hot today.", "zh": "今天相当热。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w006", "word": "hen", "phonetic": "/hen/", "pos": "n.", "meaning": "母鸡", "examples": [{"en": "The hen lays eggs.", "zh": "母鸡下蛋。"}, {"en": "I see a hen.", "zh": "我看见一只母鸡。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["animal"]},
+        {"id": "g8w007", "word": "bicycle", "phonetic": "/ˈbaɪsɪkl/", "pos": "n.", "meaning": "自行车", "examples": [{"en": "Ride a bicycle.", "zh": "骑自行车。"}, {"en": "My bicycle is new.", "zh": "我的自行车是新的。"}], "synonyms": ["bike"], "antonyms": [], "difficulty": 3, "tags": ["transport"]},
+        {"id": "g8w008", "word": "activity", "phonetic": "/ækˈtɪvəti/", "pos": "n.", "meaning": "活动", "examples": [{"en": "School activity.", "zh": "学校活动。"}, {"en": "Outdoor activities.", "zh": "户外活动。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w009", "word": "decide", "phonetic": "/dɪˈsaɪd/", "pos": "v.", "meaning": "决定", "examples": [{"en": "I decide to stay.", "zh": "我决定留下。"}, {"en": "Decide quickly.", "zh": "快做决定。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w010", "word": "diary", "phonetic": "/ˈdaɪəri/", "pos": "n.", "meaning": "日记", "examples": [{"en": "Keep a diary.", "zh": "记日记。"}, {"en": "Read my diary.", "zh": "读我的日记。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w011", "word": "enough", "phonetic": "/ɪˈnʌf/", "pos": "adv.", "meaning": "足够地", "examples": [{"en": "Good enough.", "zh": "足够好。"}, {"en": "I have enough.", "zh": "我有足够的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g8w012", "word": "discover", "phonetic": "/dɪˈskʌvə(r)/", "pos": "v.", "meaning": "发现", "examples": [{"en": "Discover new things.", "zh": "发现新事物。"}, {"en": "I discovered a secret.", "zh": "我发现了一个秘密。"}], "synonyms": ["find"], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
       ]
     },
     {
       "unitId": "g8-u2",
       "unitName": "Unit 2 How Often Do You Exercise",
       "words": [
-        {"id": "g8w007", "word": "often", "phonetic": "/ˈɒfn/", "pos": "adv.", "meaning": "经常", "examples": [{"en": "I often go swimming.", "zh": "我经常去游泳。"}, {"en": "How often do you read?", "zh": "你多久读一次书？"}], "synonyms": ["frequently"], "antonyms": ["rarely"], "difficulty": 2, "tags": ["adverb"]},
-        {"id": "g8w008", "word": "hardly", "phonetic": "/ˈhɑːdli/", "pos": "adv.", "meaning": "几乎不", "examples": [{"en": "I hardly know him.", "zh": "我几乎不认识他。"}, {"en": "She hardly ever cries.", "zh": "她几乎从不哭。"}], "synonyms": ["barely"], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
-        {"id": "g8w009", "word": "twice", "phonetic": "/twaɪs/", "pos": "adv.", "meaning": "两次", "examples": [{"en": "I read it twice.", "zh": "我读了两遍。"}, {"en": "Twice a week.", "zh": "一周两次。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
-        {"id": "g8w010", "word": "Internet", "phonetic": "/ˈɪntənet/", "pos": "n.", "meaning": "互联网", "examples": [{"en": "I use the Internet daily.", "zh": "我每天上网。"}, {"en": "Look it up on the Internet.", "zh": "上网查一下。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
-        {"id": "g8w011", "word": "program", "phonetic": "/ˈprəʊɡræm/", "pos": "n.", "meaning": "节目；程序", "examples": [{"en": "I watch this program every week.", "zh": "我每周看这个节目。"}, {"en": "The program runs well.", "zh": "程序运行良好。"}], "synonyms": ["show"], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
-        {"id": "g8w012", "word": "result", "phonetic": "/rɪˈzʌlt/", "pos": "n.", "meaning": "结果", "examples": [{"en": "What's the result?", "zh": "结果如何？"}, {"en": "The result was good.", "zh": "结果很好。"}], "synonyms": ["outcome"], "antonyms": [], "difficulty": 3, "tags": ["noun"]}
+        {"id": "g8w013", "word": "twice", "phonetic": "/twaɪs/", "pos": "adv.", "meaning": "两次", "examples": [{"en": "Twice a week.", "zh": "一周两次。"}, {"en": "I read it twice.", "zh": "我读了两遍。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g8w014", "word": "result", "phonetic": "/rɪˈzʌlt/", "pos": "n.", "meaning": "结果", "examples": [{"en": "Test result.", "zh": "测试结果。"}, {"en": "Good results.", "zh": "好结果。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w015", "word": "hardly", "phonetic": "/ˈhɑːdli/", "pos": "adv.", "meaning": "几乎不", "examples": [{"en": "Hardly any food left.", "zh": "几乎没食物了。"}, {"en": "I hardly know him.", "zh": "我几乎不认识他。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w016", "word": "junk", "phonetic": "/dʒʌŋk/", "pos": "n.", "meaning": "垃圾", "examples": [{"en": "Junk food is bad.", "zh": "垃圾食品不好。"}, {"en": "Throw the junk.", "zh": "扔掉垃圾。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w017", "word": "habit", "phonetic": "/ˈhæbɪt/", "pos": "n.", "meaning": "习惯", "examples": [{"en": "Good habits.", "zh": "好习惯。"}, {"en": "Break a habit.", "zh": "改掉习惯。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w018", "word": "different", "phonetic": "/ˈdɪfrənt/", "pos": "adj.", "meaning": "不同的", "examples": [{"en": "Different colors.", "zh": "不同的颜色。"}, {"en": "We are different.", "zh": "我们不同。"}], "synonyms": [], "antonyms": ["same"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w019", "word": "however", "phonetic": "/haʊˈevə(r)/", "pos": "adv.", "meaning": "然而", "examples": [{"en": "However, I disagree.", "zh": "然而，我不同意。"}, {"en": "It's late, however.", "zh": "然而，已经晚了。"}], "synonyms": ["but"], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w020", "word": "important", "phonetic": "/ɪmˈpɔːtnt/", "pos": "adj.", "meaning": "重要的", "examples": [{"en": "Important news.", "zh": "重要新闻。"}, {"en": "Family is important.", "zh": "家庭很重要。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w021", "word": "depend", "phonetic": "/dɪˈpend/", "pos": "v.", "meaning": "依赖；取决于", "examples": [{"en": "It depends on you.", "zh": "这取决于你。"}, {"en": "Depend on yourself.", "zh": "靠自己。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w022", "word": "interviewer", "phonetic": "/ˈɪntəvjuːə(r)/", "pos": "n.", "meaning": "面试官；采访者", "examples": [{"en": "The interviewer asked.", "zh": "面试官问。"}, {"en": "Interviewer needs questions.", "zh": "采访者需要问题。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w023", "word": "exercise", "phonetic": "/ˈeksəsaɪz/", "pos": "n.", "meaning": "锻炼", "examples": [{"en": "Daily exercise.", "zh": "日常锻炼。"}, {"en": "Exercise is healthy.", "zh": "锻炼有益健康。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["activity"]},
+        {"id": "g8w024", "word": "least", "phonetic": "/liːst/", "pos": "adv.", "meaning": "最少", "examples": [{"en": "At least one.", "zh": "至少一个。"}, {"en": "The least I can do.", "zh": "我最起码能做的。"}], "synonyms": [], "antonyms": ["most"], "difficulty": 3, "tags": ["adverb"]}
       ]
     },
     {
       "unitId": "g8-u3",
-      "unitName": "Unit 3 Comparison",
+      "unitName": "Unit 3 I'm More Outgoing Than My Sister",
       "words": [
-        {"id": "g8w013", "word": "outgoing", "phonetic": "/ˈaʊtɡəʊɪŋ/", "pos": "adj.", "meaning": "外向的", "examples": [{"en": "She is an outgoing girl.", "zh": "她是个外向的女孩。"}, {"en": "Outgoing people make friends easily.", "zh": "外向的人容易交朋友。"}], "synonyms": [], "antonyms": ["shy"], "difficulty": 4, "tags": ["personality"]},
-        {"id": "g8w014", "word": "shy", "phonetic": "/ʃaɪ/", "pos": "adj.", "meaning": "害羞的", "examples": [{"en": "He is too shy to speak.", "zh": "他害羞得不敢说话。"}, {"en": "Don't be shy.", "zh": "别害羞。"}], "synonyms": [], "antonyms": ["outgoing"], "difficulty": 2, "tags": ["personality"]},
-        {"id": "g8w015", "word": "serious", "phonetic": "/ˈsɪəriəs/", "pos": "adj.", "meaning": "严肃的", "examples": [{"en": "This is a serious matter.", "zh": "这是严肃的事情。"}, {"en": "He looks serious.", "zh": "他看起来很严肃。"}], "synonyms": [], "antonyms": ["funny"], "difficulty": 3, "tags": ["personality"]},
-        {"id": "g8w016", "word": "smart", "phonetic": "/smɑːt/", "pos": "adj.", "meaning": "聪明的", "examples": [{"en": "She is a smart girl.", "zh": "她是个聪明的女孩。"}, {"en": "Smart students study hard.", "zh": "聪明的学生学习刻苦。"}], "synonyms": ["clever"], "antonyms": ["stupid"], "difficulty": 2, "tags": ["personality"]},
-        {"id": "g8w017", "word": "common", "phonetic": "/ˈkɒmən/", "pos": "adj.", "meaning": "共同的；普通的", "examples": [{"en": "We have a lot in common.", "zh": "我们有很多共同点。"}, {"en": "It's a common name.", "zh": "这是个常见的名字。"}], "synonyms": ["normal"], "antonyms": ["uncommon"], "difficulty": 3, "tags": ["adjective"]},
-        {"id": "g8w018", "word": "different", "phonetic": "/ˈdɪfrənt/", "pos": "adj.", "meaning": "不同的", "examples": [{"en": "We are different.", "zh": "我们不一样。"}, {"en": "She has different ideas.", "zh": "她有不同的想法。"}], "synonyms": [], "antonyms": ["same"], "difficulty": 2, "tags": ["adjective"]}
+        {"id": "g8w025", "word": "outgoing", "phonetic": "/ˈaʊtɡəʊɪŋ/", "pos": "adj.", "meaning": "外向的", "examples": [{"en": "She is outgoing.", "zh": "她很外向。"}, {"en": "Outgoing kids.", "zh": "外向的孩子。"}], "synonyms": [], "antonyms": ["shy"], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w026", "word": "calm", "phonetic": "/kɑːm/", "pos": "adj.", "meaning": "冷静的", "examples": [{"en": "Stay calm.", "zh": "保持冷静。"}, {"en": "She is calm.", "zh": "她很平静。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w027", "word": "wild", "phonetic": "/waɪld/", "pos": "adj.", "meaning": "狂野的", "examples": [{"en": "Wild parties.", "zh": "狂野的派对。"}, {"en": "Wild horses.", "zh": "野马。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w028", "word": "serious", "phonetic": "/ˈsɪəriəs/", "pos": "adj.", "meaning": "严肃的", "examples": [{"en": "A serious face.", "zh": "严肃的脸。"}, {"en": "Be serious!", "zh": "认真点！"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w029", "word": "talented", "phonetic": "/ˈtæləntɪd/", "pos": "adj.", "meaning": "有才能的", "examples": [{"en": "Talented student.", "zh": "有天赋的学生。"}, {"en": "She is talented.", "zh": "她很有才。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w030", "word": "twin", "phonetic": "/twɪn/", "pos": "n.", "meaning": "双胞胎", "examples": [{"en": "We are twins.", "zh": "我们是双胞胎。"}, {"en": "Twin sisters.", "zh": "孪生姐妹。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["family"]},
+        {"id": "g8w031", "word": "common", "phonetic": "/ˈkɒmən/", "pos": "adj.", "meaning": "共同的", "examples": [{"en": "Common interests.", "zh": "共同的兴趣。"}, {"en": "Common name.", "zh": "常见名字。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w032", "word": "though", "phonetic": "/ðəʊ/", "pos": "conj.", "meaning": "虽然", "examples": [{"en": "Though it rains, I go.", "zh": "虽然下雨，我也去。"}, {"en": "Hard, though.", "zh": "不过，很难。"}], "synonyms": ["although"], "antonyms": [], "difficulty": 3, "tags": ["conjunction"]},
+        {"id": "g8w033", "word": "personality", "phonetic": "/ˌpɜːsəˈnæləti/", "pos": "n.", "meaning": "性格", "examples": [{"en": "Strong personality.", "zh": "强烈的性格。"}, {"en": "She has a kind personality.", "zh": "她性格善良。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w034", "word": "opposite", "phonetic": "/ˈɒpəzɪt/", "pos": "adj.", "meaning": "相反的", "examples": [{"en": "Opposite directions.", "zh": "相反的方向。"}, {"en": "We are opposites.", "zh": "我们是对立面。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w035", "word": "share", "phonetic": "/ʃeə(r)/", "pos": "v.", "meaning": "分享", "examples": [{"en": "Share with me.", "zh": "和我分享。"}, {"en": "Sharing is caring.", "zh": "分享就是关心。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w036", "word": "friendship", "phonetic": "/ˈfrendʃɪp/", "pos": "n.", "meaning": "友谊", "examples": [{"en": "True friendship.", "zh": "真挚的友谊。"}, {"en": "Friendship lasts.", "zh": "友谊长存。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]}
       ]
     },
     {
       "unitId": "g8-u4",
-      "unitName": "Unit 4 Best City",
+      "unitName": "Unit 4 What's the Best Movie Theater",
       "words": [
-        {"id": "g8w019", "word": "city", "phonetic": "/ˈsɪti/", "pos": "n.", "meaning": "城市", "examples": [{"en": "Beijing is a big city.", "zh": "北京是一座大城市。"}, {"en": "I live in this city.", "zh": "我住在这座城市。"}], "synonyms": [], "antonyms": ["village"], "difficulty": 1, "tags": ["place"]},
-        {"id": "g8w020", "word": "popular", "phonetic": "/ˈpɒpjələ/", "pos": "adj.", "meaning": "受欢迎的", "examples": [{"en": "She is a popular singer.", "zh": "她是位受欢迎的歌手。"}, {"en": "This song is popular.", "zh": "这首歌很流行。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
-        {"id": "g8w021", "word": "creative", "phonetic": "/kriˈeɪtɪv/", "pos": "adj.", "meaning": "有创意的", "examples": [{"en": "She is a creative artist.", "zh": "她是位有创意的艺术家。"}, {"en": "Try to be creative.", "zh": "尽量有创意一点。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
-        {"id": "g8w022", "word": "important", "phonetic": "/ɪmˈpɔːtənt/", "pos": "adj.", "meaning": "重要的", "examples": [{"en": "This is very important.", "zh": "这非常重要。"}, {"en": "Family is important.", "zh": "家庭很重要。"}], "synonyms": [], "antonyms": ["unimportant"], "difficulty": 2, "tags": ["adjective"]},
-        {"id": "g8w023", "word": "comfortable", "phonetic": "/ˈkʌmftəbl/", "pos": "adj.", "meaning": "舒适的", "examples": [{"en": "The chair is comfortable.", "zh": "椅子很舒服。"}, {"en": "Make yourself comfortable.", "zh": "请别拘束。"}], "synonyms": ["cozy"], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
-        {"id": "g8w024", "word": "expensive", "phonetic": "/ɪkˈspensɪv/", "pos": "adj.", "meaning": "昂贵的", "examples": [{"en": "The car is expensive.", "zh": "这辆车很贵。"}, {"en": "Don't buy expensive things.", "zh": "别买贵东西。"}], "synonyms": ["costly"], "antonyms": ["cheap"], "difficulty": 3, "tags": ["adjective"]}
+        {"id": "g8w037", "word": "theater", "phonetic": "/ˈθɪətə(r)/", "pos": "n.", "meaning": "剧院", "examples": [{"en": "Movie theater.", "zh": "电影院。"}, {"en": "Theater tickets.", "zh": "剧院门票。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["place"]},
+        {"id": "g8w038", "word": "service", "phonetic": "/ˈsɜːvɪs/", "pos": "n.", "meaning": "服务", "examples": [{"en": "Good service.", "zh": "好服务。"}, {"en": "Customer service.", "zh": "客户服务。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w039", "word": "quality", "phonetic": "/ˈkwɒləti/", "pos": "n.", "meaning": "质量", "examples": [{"en": "High quality.", "zh": "高质量。"}, {"en": "Quality matters.", "zh": "质量很重要。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w040", "word": "screen", "phonetic": "/skriːn/", "pos": "n.", "meaning": "屏幕", "examples": [{"en": "Big screen.", "zh": "大屏幕。"}, {"en": "Phone screen.", "zh": "手机屏幕。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
+        {"id": "g8w041", "word": "comfortable", "phonetic": "/ˈkʌmftəbl/", "pos": "adj.", "meaning": "舒适的", "examples": [{"en": "Comfortable seat.", "zh": "舒适的座位。"}, {"en": "Make yourself comfortable.", "zh": "请便。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w042", "word": "performer", "phonetic": "/pəˈfɔːmə(r)/", "pos": "n.", "meaning": "表演者", "examples": [{"en": "Great performer.", "zh": "出色的表演者。"}, {"en": "Performers practice.", "zh": "表演者要练习。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w043", "word": "talent", "phonetic": "/ˈtælənt/", "pos": "n.", "meaning": "才能", "examples": [{"en": "Special talent.", "zh": "特殊的才能。"}, {"en": "She has talent.", "zh": "她有才能。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w044", "word": "show", "phonetic": "/ʃəʊ/", "pos": "n.", "meaning": "节目", "examples": [{"en": "Talent show.", "zh": "才艺秀。"}, {"en": "TV show.", "zh": "电视节目。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["entertainment"]},
+        {"id": "g8w045", "word": "winner", "phonetic": "/ˈwɪnə(r)/", "pos": "n.", "meaning": "获胜者", "examples": [{"en": "The winner takes all.", "zh": "赢家通吃。"}, {"en": "I am a winner.", "zh": "我是赢家。"}], "synonyms": [], "antonyms": ["loser"], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w046", "word": "prize", "phonetic": "/praɪz/", "pos": "n.", "meaning": "奖品", "examples": [{"en": "Win a prize.", "zh": "赢得奖品。"}, {"en": "Big prize.", "zh": "大奖。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w047", "word": "creative", "phonetic": "/kriˈeɪtɪv/", "pos": "adj.", "meaning": "有创造力的", "examples": [{"en": "Creative idea.", "zh": "有创意的想法。"}, {"en": "She is creative.", "zh": "她很有创意。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w048", "word": "perform", "phonetic": "/pəˈfɔːm/", "pos": "v.", "meaning": "表演", "examples": [{"en": "Perform on stage.", "zh": "在舞台上表演。"}, {"en": "She performs well.", "zh": "她表演得好。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
       ]
     },
     {
       "unitId": "g8-u5",
-      "unitName": "Unit 5 Future",
+      "unitName": "Unit 5 Watching TV Shows",
       "words": [
-        {"id": "g8w025", "word": "future", "phonetic": "/ˈfjuːtʃə/", "pos": "n.", "meaning": "未来", "examples": [{"en": "Think about your future.", "zh": "想想你的未来。"}, {"en": "In the future, robots will help us.", "zh": "未来，机器人会帮助我们。"}], "synonyms": [], "antonyms": ["past"], "difficulty": 3, "tags": ["time"]},
-        {"id": "g8w026", "word": "robot", "phonetic": "/ˈrəʊbɒt/", "pos": "n.", "meaning": "机器人", "examples": [{"en": "I have a toy robot.", "zh": "我有一个玩具机器人。"}, {"en": "Robots can do many things.", "zh": "机器人能做很多事情。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
-        {"id": "g8w027", "word": "scientist", "phonetic": "/ˈsaɪəntɪst/", "pos": "n.", "meaning": "科学家", "examples": [{"en": "I want to be a scientist.", "zh": "我想当科学家。"}, {"en": "Scientists study nature.", "zh": "科学家研究自然。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["job"]},
-        {"id": "g8w028", "word": "engineer", "phonetic": "/ˌendʒɪˈnɪə/", "pos": "n.", "meaning": "工程师", "examples": [{"en": "My uncle is an engineer.", "zh": "我叔叔是工程师。"}, {"en": "Engineers build things.", "zh": "工程师建造东西。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
-        {"id": "g8w029", "word": "study", "phonetic": "/ˈstʌdi/", "pos": "v.", "meaning": "学习", "examples": [{"en": "Study hard.", "zh": "努力学习。"}, {"en": "I study English every day.", "zh": "我每天学英语。"}], "synonyms": ["learn"], "antonyms": [], "difficulty": 1, "tags": ["action"]},
-        {"id": "g8w030", "word": "learn", "phonetic": "/lɜːn/", "pos": "v.", "meaning": "学", "examples": [{"en": "I learn from my teacher.", "zh": "我向老师学习。"}, {"en": "Learn something new.", "zh": "学点新东西。"}], "synonyms": ["study"], "antonyms": [], "difficulty": 1, "tags": ["action"]}
+        {"id": "g8w049", "word": "sitcom", "phonetic": "/ˈsɪtkɒm/", "pos": "n.", "meaning": "情景喜剧", "examples": [{"en": "Watch a sitcom.", "zh": "看情景喜剧。"}, {"en": "Funny sitcom.", "zh": "有趣的情景喜剧。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["entertainment"]},
+        {"id": "g8w050", "word": "soap opera", "phonetic": "/ˈsəʊp ˌɒprə/", "pos": "n.", "meaning": "肥皂剧", "examples": [{"en": "Soap operas are long.", "zh": "肥皂剧很长。"}, {"en": "Mom watches soap operas.", "zh": "妈妈看肥皂剧。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["entertainment"]},
+        {"id": "g8w051", "word": "news", "phonetic": "/njuːz/", "pos": "n.", "meaning": "新闻", "examples": [{"en": "Watch the news.", "zh": "看新闻。"}, {"en": "Good news!", "zh": "好消息！"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["abstract"]},
+        {"id": "g8w052", "word": "channel", "phonetic": "/ˈtʃænl/", "pos": "n.", "meaning": "频道", "examples": [{"en": "Change the channel.", "zh": "换台。"}, {"en": "TV channels.", "zh": "电视频道。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
+        {"id": "g8w053", "word": "expect", "phonetic": "/ɪkˈspekt/", "pos": "v.", "meaning": "期望", "examples": [{"en": "I expect rain.", "zh": "我预计会下雨。"}, {"en": "Expect a call.", "zh": "等电话。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w054", "word": "find out", "phonetic": "/ˌfaɪnd ˈaʊt/", "pos": "v.", "meaning": "查明", "examples": [{"en": "Find out the truth.", "zh": "查明真相。"}, {"en": "Find out more.", "zh": "了解更多。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w055", "word": "famous", "phonetic": "/ˈfeɪməs/", "pos": "adj.", "meaning": "著名的", "examples": [{"en": "Famous actor.", "zh": "著名演员。"}, {"en": "Become famous.", "zh": "成名。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w056", "word": "appear", "phonetic": "/əˈpɪə(r)/", "pos": "v.", "meaning": "出现", "examples": [{"en": "She appears on TV.", "zh": "她出现在电视上。"}, {"en": "Stars appear.", "zh": "星星出现。"}], "synonyms": [], "antonyms": ["disappear"], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w057", "word": "character", "phonetic": "/ˈkærəktə(r)/", "pos": "n.", "meaning": "角色；性格", "examples": [{"en": "Main character.", "zh": "主角。"}, {"en": "Strong character.", "zh": "坚强的性格。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w058", "word": "cartoon", "phonetic": "/kɑːˈtuːn/", "pos": "n.", "meaning": "动画片", "examples": [{"en": "Watch cartoons.", "zh": "看动画。"}, {"en": "I love cartoons.", "zh": "我喜欢动画。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["entertainment"]},
+        {"id": "g8w059", "word": "important", "phonetic": "/ɪmˈpɔːtnt/", "pos": "adj.", "meaning": "重要的", "examples": [{"en": "Important meeting.", "zh": "重要的会议。"}, {"en": "It's important.", "zh": "这很重要。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w060", "word": "agree", "phonetic": "/əˈɡriː/", "pos": "v.", "meaning": "同意", "examples": [{"en": "I agree with you.", "zh": "我同意你的看法。"}, {"en": "Don't you agree?", "zh": "你不同意吗？"}], "synonyms": [], "antonyms": ["disagree"], "difficulty": 3, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u6",
+      "unitName": "Unit 6 I'm Going to Study Computer Science",
+      "words": [
+        {"id": "g8w061", "word": "computer science", "phonetic": "/kəmˈpjuːtə ˈsaɪəns/", "pos": "n.", "meaning": "计算机科学", "examples": [{"en": "Study computer science.", "zh": "学计算机科学。"}, {"en": "Computer science is hard.", "zh": "计算机科学很难。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["subject"]},
+        {"id": "g8w062", "word": "programmer", "phonetic": "/ˈprəʊɡræmə(r)/", "pos": "n.", "meaning": "程序员", "examples": [{"en": "He is a programmer.", "zh": "他是程序员。"}, {"en": "Programmers write code.", "zh": "程序员写代码。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w063", "word": "engineer", "phonetic": "/ˌendʒɪˈnɪə(r)/", "pos": "n.", "meaning": "工程师", "examples": [{"en": "Software engineer.", "zh": "软件工程师。"}, {"en": "Be an engineer.", "zh": "当工程师。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w064", "word": "medicine", "phonetic": "/ˈmedsn/", "pos": "n.", "meaning": "医学；药物", "examples": [{"en": "Study medicine.", "zh": "学医。"}, {"en": "Take medicine.", "zh": "吃药。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["subject"]},
+        {"id": "g8w065", "word": "future", "phonetic": "/ˈfjuːtʃə(r)/", "pos": "n.", "meaning": "未来", "examples": [{"en": "Bright future.", "zh": "光明的未来。"}, {"en": "In the future.", "zh": "将来。"}], "synonyms": [], "antonyms": ["past"], "difficulty": 3, "tags": ["time"]},
+        {"id": "g8w066", "word": "promise", "phonetic": "/ˈprɒmɪs/", "pos": "v.", "meaning": "承诺", "examples": [{"en": "Promise me.", "zh": "答应我。"}, {"en": "Keep your promise.", "zh": "信守承诺。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w067", "word": "resolution", "phonetic": "/ˌrezəˈluːʃn/", "pos": "n.", "meaning": "决心", "examples": [{"en": "New Year's resolution.", "zh": "新年决心。"}, {"en": "Make a resolution.", "zh": "下决心。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w068", "word": "improve", "phonetic": "/ɪmˈpruːv/", "pos": "v.", "meaning": "提高", "examples": [{"en": "Improve English.", "zh": "提高英语。"}, {"en": "Improve yourself.", "zh": "提升自己。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w069", "word": "self", "phonetic": "/self/", "pos": "n.", "meaning": "自己", "examples": [{"en": "Be yourself.", "zh": "做自己。"}, {"en": "Self study.", "zh": "自学。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["pronoun"]},
+        {"id": "g8w070", "word": "able", "phonetic": "/ˈeɪbl/", "pos": "adj.", "meaning": "能够的", "examples": [{"en": "I'm able to swim.", "zh": "我能游泳。"}, {"en": "Be able to do.", "zh": "能够做。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w071", "word": "fail", "phonetic": "/feɪl/", "pos": "v.", "meaning": "失败", "examples": [{"en": "Don't fail.", "zh": "别失败。"}, {"en": "I failed the test.", "zh": "我考试不及格。"}], "synonyms": [], "antonyms": ["succeed"], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w072", "word": "succeed", "phonetic": "/səkˈsiːd/", "pos": "v.", "meaning": "成功", "examples": [{"en": "I will succeed.", "zh": "我会成功。"}, {"en": "Succeed in life.", "zh": "在生活中成功。"}], "synonyms": [], "antonyms": ["fail"], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u7",
+      "unitName": "Unit 7 Will People Have Robots",
+      "words": [
+        {"id": "g8w073", "word": "robot", "phonetic": "/ˈrəʊbɒt/", "pos": "n.", "meaning": "机器人", "examples": [{"en": "Robots help us.", "zh": "机器人帮助我们。"}, {"en": "A smart robot.", "zh": "一个智能机器人。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
+        {"id": "g8w074", "word": "future", "phonetic": "/ˈfjuːtʃə(r)/", "pos": "adj.", "meaning": "未来的", "examples": [{"en": "Future plans.", "zh": "未来计划。"}, {"en": "Future life.", "zh": "未来生活。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w075", "word": "fewer", "phonetic": "/ˈfjuːə(r)/", "pos": "adj.", "meaning": "更少的", "examples": [{"en": "Fewer cars.", "zh": "更少的车。"}, {"en": "Fewer mistakes.", "zh": "更少的错误。"}], "synonyms": [], "antonyms": ["more"], "difficulty": 3, "tags": ["quantity"]},
+        {"id": "g8w076", "word": "less", "phonetic": "/les/", "pos": "adj.", "meaning": "更少的", "examples": [{"en": "Less time.", "zh": "更少时间。"}, {"en": "Eat less food.", "zh": "少吃。"}], "synonyms": [], "antonyms": ["more"], "difficulty": 2, "tags": ["quantity"]},
+        {"id": "g8w077", "word": "predict", "phonetic": "/prɪˈdɪkt/", "pos": "v.", "meaning": "预测", "examples": [{"en": "Predict the future.", "zh": "预测未来。"}, {"en": "Hard to predict.", "zh": "难以预测。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w078", "word": "city", "phonetic": "/ˈsɪti/", "pos": "n.", "meaning": "城市", "examples": [{"en": "Big city.", "zh": "大城市。"}, {"en": "City life.", "zh": "城市生活。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]},
+        {"id": "g8w079", "word": "human", "phonetic": "/ˈhjuːmən/", "pos": "n.", "meaning": "人类", "examples": [{"en": "Humans need air.", "zh": "人类需要空气。"}, {"en": "Human beings.", "zh": "人类。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w080", "word": "shape", "phonetic": "/ʃeɪp/", "pos": "n.", "meaning": "形状", "examples": [{"en": "Round shape.", "zh": "圆形。"}, {"en": "Different shapes.", "zh": "不同形状。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w081", "word": "Mars", "phonetic": "/mɑːz/", "pos": "n.", "meaning": "火星", "examples": [{"en": "Travel to Mars.", "zh": "去火星旅行。"}, {"en": "Mars is red.", "zh": "火星是红色的。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["nature"]},
+        {"id": "g8w082", "word": "space", "phonetic": "/speɪs/", "pos": "n.", "meaning": "太空", "examples": [{"en": "In space.", "zh": "在太空。"}, {"en": "Space travel.", "zh": "太空旅行。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w083", "word": "fall", "phonetic": "/fɔːl/", "pos": "v.", "meaning": "下降；秋天", "examples": [{"en": "Leaves fall.", "zh": "树叶落下。"}, {"en": "Don't fall.", "zh": "别摔倒。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w084", "word": "factory", "phonetic": "/ˈfæktri/", "pos": "n.", "meaning": "工厂", "examples": [{"en": "Car factory.", "zh": "汽车工厂。"}, {"en": "Work in a factory.", "zh": "在工厂工作。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["place"]}
+      ]
+    },
+    {
+      "unitId": "g8-u8",
+      "unitName": "Unit 8 How Do You Make a Banana Milk Shake",
+      "words": [
+        {"id": "g8w085", "word": "blender", "phonetic": "/ˈblendə(r)/", "pos": "n.", "meaning": "搅拌机", "examples": [{"en": "Use the blender.", "zh": "用搅拌机。"}, {"en": "The blender is loud.", "zh": "搅拌机很吵。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w086", "word": "peel", "phonetic": "/piːl/", "pos": "v.", "meaning": "削皮", "examples": [{"en": "Peel the banana.", "zh": "剥香蕉。"}, {"en": "Peel an apple.", "zh": "削苹果。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w087", "word": "pour", "phonetic": "/pɔː(r)/", "pos": "v.", "meaning": "倾倒", "examples": [{"en": "Pour the milk.", "zh": "倒牛奶。"}, {"en": "Pour me water.", "zh": "给我倒水。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w088", "word": "mix", "phonetic": "/mɪks/", "pos": "v.", "meaning": "混合", "examples": [{"en": "Mix the colors.", "zh": "混合颜色。"}, {"en": "Mix well.", "zh": "充分混合。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w089", "word": "add", "phonetic": "/æd/", "pos": "v.", "meaning": "添加", "examples": [{"en": "Add some salt.", "zh": "加些盐。"}, {"en": "Add water.", "zh": "加水。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w090", "word": "cut", "phonetic": "/kʌt/", "pos": "v.", "meaning": "切", "examples": [{"en": "Cut the bread.", "zh": "切面包。"}, {"en": "Cut up the apple.", "zh": "切苹果。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w091", "word": "spoon", "phonetic": "/spuːn/", "pos": "n.", "meaning": "勺", "examples": [{"en": "Use a spoon.", "zh": "用勺子。"}, {"en": "A clean spoon.", "zh": "干净的勺子。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]},
+        {"id": "g8w092", "word": "instruction", "phonetic": "/ɪnˈstrʌkʃn/", "pos": "n.", "meaning": "说明", "examples": [{"en": "Read instructions.", "zh": "阅读说明。"}, {"en": "Follow instructions.", "zh": "遵循说明。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w093", "word": "recipe", "phonetic": "/ˈresəpi/", "pos": "n.", "meaning": "食谱", "examples": [{"en": "Follow the recipe.", "zh": "按食谱做。"}, {"en": "Old recipe.", "zh": "古老的食谱。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w094", "word": "salt", "phonetic": "/sɔːlt/", "pos": "n.", "meaning": "盐", "examples": [{"en": "Add some salt.", "zh": "加点盐。"}, {"en": "Too much salt.", "zh": "太多盐。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
+        {"id": "g8w095", "word": "sugar", "phonetic": "/ˈʃʊɡə(r)/", "pos": "n.", "meaning": "糖", "examples": [{"en": "Add sugar.", "zh": "加糖。"}, {"en": "Sugar is sweet.", "zh": "糖是甜的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
+        {"id": "g8w096", "word": "tasty", "phonetic": "/ˈteɪsti/", "pos": "adj.", "meaning": "美味的", "examples": [{"en": "Tasty food.", "zh": "美味的食物。"}, {"en": "Very tasty.", "zh": "非常好吃。"}], "synonyms": ["delicious"], "antonyms": [], "difficulty": 3, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u9",
+      "unitName": "Unit 9 Can You Come to My Party",
+      "words": [
+        {"id": "g8w097", "word": "invitation", "phonetic": "/ˌɪnvɪˈteɪʃn/", "pos": "n.", "meaning": "邀请", "examples": [{"en": "Send invitations.", "zh": "发邀请。"}, {"en": "Accept the invitation.", "zh": "接受邀请。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w098", "word": "invite", "phonetic": "/ɪnˈvaɪt/", "pos": "v.", "meaning": "邀请", "examples": [{"en": "Invite friends.", "zh": "邀请朋友。"}, {"en": "She invited me.", "zh": "她邀请了我。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w099", "word": "accept", "phonetic": "/əkˈsept/", "pos": "v.", "meaning": "接受", "examples": [{"en": "Accept gifts.", "zh": "接受礼物。"}, {"en": "I accept.", "zh": "我接受。"}], "synonyms": [], "antonyms": ["refuse"], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w100", "word": "refuse", "phonetic": "/rɪˈfjuːz/", "pos": "v.", "meaning": "拒绝", "examples": [{"en": "Refuse politely.", "zh": "礼貌拒绝。"}, {"en": "She refused.", "zh": "她拒绝了。"}], "synonyms": [], "antonyms": ["accept"], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w101", "word": "available", "phonetic": "/əˈveɪləbl/", "pos": "adj.", "meaning": "有空的", "examples": [{"en": "I'm available now.", "zh": "我现在有空。"}, {"en": "Available later.", "zh": "稍后有空。"}], "synonyms": ["free"], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w102", "word": "weekday", "phonetic": "/ˈwiːkdeɪ/", "pos": "n.", "meaning": "工作日", "examples": [{"en": "On weekdays.", "zh": "工作日。"}, {"en": "Weekdays are busy.", "zh": "工作日很忙。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["time"]},
+        {"id": "g8w103", "word": "appointment", "phonetic": "/əˈpɔɪntmənt/", "pos": "n.", "meaning": "约会；预约", "examples": [{"en": "Make an appointment.", "zh": "预约。"}, {"en": "I have an appointment.", "zh": "我有约。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w104", "word": "schedule", "phonetic": "/ˈʃedjuːl/", "pos": "n.", "meaning": "时间表", "examples": [{"en": "Busy schedule.", "zh": "繁忙的日程。"}, {"en": "Check schedule.", "zh": "查时间表。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w105", "word": "calendar", "phonetic": "/ˈkælɪndə(r)/", "pos": "n.", "meaning": "日历", "examples": [{"en": "Look at the calendar.", "zh": "看日历。"}, {"en": "Wall calendar.", "zh": "挂历。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w106", "word": "free", "phonetic": "/friː/", "pos": "adj.", "meaning": "空闲的", "examples": [{"en": "Are you free?", "zh": "你有空吗？"}, {"en": "Free time.", "zh": "空闲时间。"}], "synonyms": ["available"], "antonyms": ["busy"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w107", "word": "perhaps", "phonetic": "/pəˈhæps/", "pos": "adv.", "meaning": "也许", "examples": [{"en": "Perhaps later.", "zh": "也许稍后。"}, {"en": "Perhaps not.", "zh": "也许不。"}], "synonyms": ["maybe"], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w108", "word": "another", "phonetic": "/əˈnʌðə(r)/", "pos": "adj.", "meaning": "另一个", "examples": [{"en": "Another day.", "zh": "另一天。"}, {"en": "Another chance.", "zh": "另一个机会。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u10",
+      "unitName": "Unit 10 If You Go to the Party",
+      "words": [
+        {"id": "g8w109", "word": "advice", "phonetic": "/ədˈvaɪs/", "pos": "n.", "meaning": "建议", "examples": [{"en": "Good advice.", "zh": "好建议。"}, {"en": "Take my advice.", "zh": "听我的建议。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w110", "word": "wallet", "phonetic": "/ˈwɒlɪt/", "pos": "n.", "meaning": "钱包", "examples": [{"en": "I lost my wallet.", "zh": "我丢了钱包。"}, {"en": "Open the wallet.", "zh": "打开钱包。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w111", "word": "trouble", "phonetic": "/ˈtrʌbl/", "pos": "n.", "meaning": "麻烦", "examples": [{"en": "Big trouble.", "zh": "大麻烦。"}, {"en": "In trouble.", "zh": "有麻烦了。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w112", "word": "afraid", "phonetic": "/əˈfreɪd/", "pos": "adj.", "meaning": "害怕的", "examples": [{"en": "Afraid of dogs.", "zh": "怕狗。"}, {"en": "Don't be afraid.", "zh": "别怕。"}], "synonyms": ["scared"], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w113", "word": "mistake", "phonetic": "/mɪˈsteɪk/", "pos": "n.", "meaning": "错误", "examples": [{"en": "Make a mistake.", "zh": "犯错误。"}, {"en": "Big mistake.", "zh": "大错误。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w114", "word": "embarrass", "phonetic": "/ɪmˈbærəs/", "pos": "v.", "meaning": "使尴尬", "examples": [{"en": "Don't embarrass me.", "zh": "别让我难堪。"}, {"en": "I felt embarrassed.", "zh": "我感到尴尬。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w115", "word": "social", "phonetic": "/ˈsəʊʃl/", "pos": "adj.", "meaning": "社交的", "examples": [{"en": "Social media.", "zh": "社交媒体。"}, {"en": "Social skills.", "zh": "社交技能。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w116", "word": "study", "phonetic": "/ˈstʌdi/", "pos": "n.", "meaning": "研究", "examples": [{"en": "A study shows.", "zh": "一项研究表明。"}, {"en": "Latest study.", "zh": "最新研究。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w117", "word": "experience", "phonetic": "/ɪkˈspɪəriəns/", "pos": "n.", "meaning": "经验", "examples": [{"en": "Work experience.", "zh": "工作经验。"}, {"en": "Bad experience.", "zh": "糟糕经历。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w118", "word": "certain", "phonetic": "/ˈsɜːtn/", "pos": "adj.", "meaning": "确定的", "examples": [{"en": "I'm certain.", "zh": "我确定。"}, {"en": "Certain things.", "zh": "某些事情。"}], "synonyms": ["sure"], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w119", "word": "moment", "phonetic": "/ˈməʊmənt/", "pos": "n.", "meaning": "瞬间", "examples": [{"en": "Magic moment.", "zh": "神奇的瞬间。"}, {"en": "Just a moment.", "zh": "稍等。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["time"]},
+        {"id": "g8w120", "word": "alone", "phonetic": "/əˈləʊn/", "pos": "adj.", "meaning": "独自的", "examples": [{"en": "Live alone.", "zh": "独自生活。"}, {"en": "Leave me alone.", "zh": "让我独处。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u11",
+      "unitName": "Unit 11 Could You Please Clean Your Room",
+      "words": [
+        {"id": "g8w121", "word": "clean", "phonetic": "/kliːn/", "pos": "v.", "meaning": "打扫", "examples": [{"en": "Clean your room.", "zh": "打扫房间。"}, {"en": "Clean the floor.", "zh": "擦地板。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
+        {"id": "g8w122", "word": "sweep", "phonetic": "/swiːp/", "pos": "v.", "meaning": "扫", "examples": [{"en": "Sweep the floor.", "zh": "扫地。"}, {"en": "Sweep the leaves.", "zh": "扫树叶。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w123", "word": "fold", "phonetic": "/fəʊld/", "pos": "v.", "meaning": "折叠", "examples": [{"en": "Fold the paper.", "zh": "叠纸。"}, {"en": "Fold clothes.", "zh": "叠衣服。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w124", "word": "trash", "phonetic": "/træʃ/", "pos": "n.", "meaning": "垃圾", "examples": [{"en": "Take out trash.", "zh": "倒垃圾。"}, {"en": "The trash is full.", "zh": "垃圾桶满了。"}], "synonyms": ["rubbish"], "antonyms": [], "difficulty": 2, "tags": ["object"]},
+        {"id": "g8w125", "word": "chore", "phonetic": "/tʃɔː(r)/", "pos": "n.", "meaning": "家务事", "examples": [{"en": "Daily chores.", "zh": "日常家务。"}, {"en": "Help with chores.", "zh": "帮忙做家务。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w126", "word": "responsibility", "phonetic": "/rɪˌspɒnsəˈbɪləti/", "pos": "n.", "meaning": "责任", "examples": [{"en": "Take responsibility.", "zh": "承担责任。"}, {"en": "Big responsibility.", "zh": "大责任。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w127", "word": "borrow", "phonetic": "/ˈbɒrəʊ/", "pos": "v.", "meaning": "借入", "examples": [{"en": "Borrow a book.", "zh": "借一本书。"}, {"en": "Can I borrow it?", "zh": "我能借吗？"}], "synonyms": [], "antonyms": ["lend"], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w128", "word": "lend", "phonetic": "/lend/", "pos": "v.", "meaning": "借出", "examples": [{"en": "Lend me money.", "zh": "借我钱。"}, {"en": "I lent her my pen.", "zh": "我把笔借给了她。"}], "synonyms": [], "antonyms": ["borrow"], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w129", "word": "argue", "phonetic": "/ˈɑːɡjuː/", "pos": "v.", "meaning": "争论", "examples": [{"en": "Don't argue.", "zh": "别争论。"}, {"en": "They argue often.", "zh": "他们经常吵架。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w130", "word": "develop", "phonetic": "/dɪˈveləp/", "pos": "v.", "meaning": "发展", "examples": [{"en": "Develop skills.", "zh": "发展技能。"}, {"en": "Develop slowly.", "zh": "慢慢发展。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w131", "word": "independent", "phonetic": "/ˌɪndɪˈpendənt/", "pos": "adj.", "meaning": "独立的", "examples": [{"en": "Independent thinking.", "zh": "独立思考。"}, {"en": "Be independent.", "zh": "要独立。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w132", "word": "messy", "phonetic": "/ˈmesi/", "pos": "adj.", "meaning": "凌乱的", "examples": [{"en": "Messy room.", "zh": "凌乱的房间。"}, {"en": "Don't be messy.", "zh": "别乱。"}], "synonyms": [], "antonyms": ["tidy"], "difficulty": 3, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u12",
+      "unitName": "Unit 12 Why Don't You Talk to Your Parents",
+      "words": [
+        {"id": "g8w133", "word": "argument", "phonetic": "/ˈɑːɡjumənt/", "pos": "n.", "meaning": "争论", "examples": [{"en": "Have an argument.", "zh": "争论。"}, {"en": "Avoid arguments.", "zh": "避免争论。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w134", "word": "include", "phonetic": "/ɪnˈkluːd/", "pos": "v.", "meaning": "包括", "examples": [{"en": "Include all.", "zh": "包括所有。"}, {"en": "Includes lunch.", "zh": "包括午餐。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w135", "word": "press", "phonetic": "/pres/", "pos": "v.", "meaning": "按；压", "examples": [{"en": "Press the button.", "zh": "按按钮。"}, {"en": "Press hard.", "zh": "用力按。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w136", "word": "pressure", "phonetic": "/ˈpreʃə(r)/", "pos": "n.", "meaning": "压力", "examples": [{"en": "Under pressure.", "zh": "在压力下。"}, {"en": "Too much pressure.", "zh": "太多压力。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w137", "word": "deal", "phonetic": "/diːl/", "pos": "v.", "meaning": "处理", "examples": [{"en": "Deal with problems.", "zh": "处理问题。"}, {"en": "It's a deal.", "zh": "成交。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w138", "word": "compete", "phonetic": "/kəmˈpiːt/", "pos": "v.", "meaning": "竞争", "examples": [{"en": "Compete to win.", "zh": "竞争夺胜。"}, {"en": "Compete fairly.", "zh": "公平竞争。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w139", "word": "competition", "phonetic": "/ˌkɒmpəˈtɪʃn/", "pos": "n.", "meaning": "竞赛", "examples": [{"en": "Win the competition.", "zh": "赢得比赛。"}, {"en": "Big competition.", "zh": "大比赛。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w140", "word": "compare", "phonetic": "/kəmˈpeə(r)/", "pos": "v.", "meaning": "比较", "examples": [{"en": "Compare prices.", "zh": "比较价格。"}, {"en": "Don't compare.", "zh": "别比较。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w141", "word": "trust", "phonetic": "/trʌst/", "pos": "v.", "meaning": "信任", "examples": [{"en": "Trust me.", "zh": "相信我。"}, {"en": "Don't trust strangers.", "zh": "别相信陌生人。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w142", "word": "communicate", "phonetic": "/kəˈmjuːnɪkeɪt/", "pos": "v.", "meaning": "交流", "examples": [{"en": "Communicate well.", "zh": "好好交流。"}, {"en": "Communicate clearly.", "zh": "清楚交流。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w143", "word": "explain", "phonetic": "/ɪkˈspleɪn/", "pos": "v.", "meaning": "解释", "examples": [{"en": "Explain it.", "zh": "解释一下。"}, {"en": "Explain again.", "zh": "再解释。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w144", "word": "polite", "phonetic": "/pəˈlaɪt/", "pos": "adj.", "meaning": "礼貌的", "examples": [{"en": "Be polite.", "zh": "要有礼貌。"}, {"en": "Polite words.", "zh": "礼貌的话。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u13",
+      "unitName": "Unit 13 What's the Matter",
+      "words": [
+        {"id": "g8w145", "word": "stomachache", "phonetic": "/ˈstʌmək eɪk/", "pos": "n.", "meaning": "胃痛", "examples": [{"en": "I have a stomachache.", "zh": "我胃疼。"}, {"en": "Stomachache is bad.", "zh": "胃疼很难受。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"]},
+        {"id": "g8w146", "word": "backache", "phonetic": "/ˈbækeɪk/", "pos": "n.", "meaning": "背痛", "examples": [{"en": "I have a backache.", "zh": "我背疼。"}, {"en": "Old people get backaches.", "zh": "老人会背疼。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["health"]},
+        {"id": "g8w147", "word": "sore", "phonetic": "/sɔː(r)/", "pos": "adj.", "meaning": "疼痛的", "examples": [{"en": "Sore throat.", "zh": "嗓子痛。"}, {"en": "My arm is sore.", "zh": "我的胳膊疼。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w148", "word": "throat", "phonetic": "/θrəʊt/", "pos": "n.", "meaning": "喉咙", "examples": [{"en": "Sore throat.", "zh": "喉咙痛。"}, {"en": "Clean your throat.", "zh": "清清嗓子。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["body"]},
+        {"id": "g8w149", "word": "passenger", "phonetic": "/ˈpæsɪndʒə(r)/", "pos": "n.", "meaning": "乘客", "examples": [{"en": "Many passengers.", "zh": "许多乘客。"}, {"en": "Passengers wait.", "zh": "乘客在等。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["people"]},
+        {"id": "g8w150", "word": "trouble", "phonetic": "/ˈtrʌbl/", "pos": "n.", "meaning": "麻烦", "examples": [{"en": "Health trouble.", "zh": "健康问题。"}, {"en": "In trouble.", "zh": "有麻烦了。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w151", "word": "save", "phonetic": "/seɪv/", "pos": "v.", "meaning": "拯救", "examples": [{"en": "Save a life.", "zh": "救命。"}, {"en": "Save the planet.", "zh": "拯救地球。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w152", "word": "blood", "phonetic": "/blʌd/", "pos": "n.", "meaning": "血", "examples": [{"en": "Blood is red.", "zh": "血是红的。"}, {"en": "Lose blood.", "zh": "失血。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["body"]},
+        {"id": "g8w153", "word": "bandage", "phonetic": "/ˈbændɪdʒ/", "pos": "n.", "meaning": "绷带", "examples": [{"en": "Use a bandage.", "zh": "用绷带。"}, {"en": "Wrap with bandage.", "zh": "用绷带包扎。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w154", "word": "pain", "phonetic": "/peɪn/", "pos": "n.", "meaning": "疼痛", "examples": [{"en": "Bad pain.", "zh": "疼得厉害。"}, {"en": "Feel pain.", "zh": "感到疼痛。"}], "synonyms": ["ache"], "antonyms": [], "difficulty": 3, "tags": ["health"]},
+        {"id": "g8w155", "word": "treat", "phonetic": "/triːt/", "pos": "v.", "meaning": "治疗", "examples": [{"en": "Treat the wound.", "zh": "治疗伤口。"}, {"en": "Treat it well.", "zh": "好好治疗。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w156", "word": "rest", "phonetic": "/rest/", "pos": "n.", "meaning": "休息", "examples": [{"en": "Get some rest.", "zh": "休息一下。"}, {"en": "Need rest.", "zh": "需要休息。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["activity"]}
+      ]
+    },
+    {
+      "unitId": "g8-u14",
+      "unitName": "Unit 14 I'd Like to Be a Teacher",
+      "words": [
+        {"id": "g8w157", "word": "volunteer", "phonetic": "/ˌvɒlənˈtɪə(r)/", "pos": "n.", "meaning": "志愿者", "examples": [{"en": "Be a volunteer.", "zh": "做志愿者。"}, {"en": "Volunteers help.", "zh": "志愿者帮忙。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w158", "word": "donate", "phonetic": "/dəʊˈneɪt/", "pos": "v.", "meaning": "捐赠", "examples": [{"en": "Donate clothes.", "zh": "捐衣服。"}, {"en": "Donate money.", "zh": "捐钱。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w159", "word": "charity", "phonetic": "/ˈtʃærəti/", "pos": "n.", "meaning": "慈善", "examples": [{"en": "Give to charity.", "zh": "给慈善捐款。"}, {"en": "Charity work.", "zh": "慈善工作。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w160", "word": "helpful", "phonetic": "/ˈhelpfl/", "pos": "adj.", "meaning": "有帮助的", "examples": [{"en": "Very helpful.", "zh": "非常有用。"}, {"en": "Helpful tips.", "zh": "有用的提示。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w161", "word": "kindness", "phonetic": "/ˈkaɪndnəs/", "pos": "n.", "meaning": "善意", "examples": [{"en": "Show kindness.", "zh": "展示善意。"}, {"en": "Random kindness.", "zh": "随机善举。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w162", "word": "society", "phonetic": "/səˈsaɪəti/", "pos": "n.", "meaning": "社会", "examples": [{"en": "Modern society.", "zh": "现代社会。"}, {"en": "Help society.", "zh": "帮助社会。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w163", "word": "elderly", "phonetic": "/ˈeldəli/", "pos": "adj.", "meaning": "年长的", "examples": [{"en": "Elderly people.", "zh": "老年人。"}, {"en": "Help the elderly.", "zh": "帮助老人。"}], "synonyms": ["old"], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w164", "word": "raise", "phonetic": "/reɪz/", "pos": "v.", "meaning": "筹集；提高", "examples": [{"en": "Raise money.", "zh": "筹钱。"}, {"en": "Raise hands.", "zh": "举手。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w165", "word": "homeless", "phonetic": "/ˈhəʊmləs/", "pos": "adj.", "meaning": "无家可归的", "examples": [{"en": "Homeless people.", "zh": "无家可归的人。"}, {"en": "Help the homeless.", "zh": "帮助无家可归的人。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w166", "word": "joy", "phonetic": "/dʒɔɪ/", "pos": "n.", "meaning": "喜悦", "examples": [{"en": "Joy and happiness.", "zh": "喜悦与幸福。"}, {"en": "Bring joy.", "zh": "带来快乐。"}], "synonyms": ["happiness"], "antonyms": ["sadness"], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w167", "word": "feeling", "phonetic": "/ˈfiːlɪŋ/", "pos": "n.", "meaning": "感觉", "examples": [{"en": "Mixed feelings.", "zh": "复杂的感觉。"}, {"en": "Good feeling.", "zh": "好感觉。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w168", "word": "spread", "phonetic": "/spred/", "pos": "v.", "meaning": "传播", "examples": [{"en": "Spread love.", "zh": "传播爱。"}, {"en": "Spread the news.", "zh": "传开消息。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u15",
+      "unitName": "Unit 15 Could You Pass the Salt",
+      "words": [
+        {"id": "g8w169", "word": "manner", "phonetic": "/ˈmænə(r)/", "pos": "n.", "meaning": "礼貌；方式", "examples": [{"en": "Good manners.", "zh": "好礼貌。"}, {"en": "In a polite manner.", "zh": "以礼貌的方式。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w170", "word": "table manners", "phonetic": "/ˈteɪbl ˈmænəz/", "pos": "n.", "meaning": "餐桌礼仪", "examples": [{"en": "Learn table manners.", "zh": "学习餐桌礼仪。"}, {"en": "Good table manners.", "zh": "好的餐桌礼仪。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["culture"]},
+        {"id": "g8w171", "word": "chopsticks", "phonetic": "/ˈtʃɒpstɪks/", "pos": "n.", "meaning": "筷子", "examples": [{"en": "Use chopsticks.", "zh": "用筷子。"}, {"en": "Chinese chopsticks.", "zh": "中国筷子。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w172", "word": "napkin", "phonetic": "/ˈnæpkɪn/", "pos": "n.", "meaning": "餐巾", "examples": [{"en": "Use a napkin.", "zh": "用餐巾。"}, {"en": "Clean napkin.", "zh": "干净的餐巾。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w173", "word": "noisy", "phonetic": "/ˈnɔɪzi/", "pos": "adj.", "meaning": "吵闹的", "examples": [{"en": "Noisy class.", "zh": "嘈杂的班级。"}, {"en": "Don't be noisy.", "zh": "别吵闹。"}], "synonyms": [], "antonyms": ["quiet"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w174", "word": "etiquette", "phonetic": "/ˈetɪket/", "pos": "n.", "meaning": "礼仪", "examples": [{"en": "Business etiquette.", "zh": "商务礼仪。"}, {"en": "Follow etiquette.", "zh": "遵守礼仪。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["culture"]},
+        {"id": "g8w175", "word": "chew", "phonetic": "/tʃuː/", "pos": "v.", "meaning": "咀嚼", "examples": [{"en": "Chew slowly.", "zh": "慢慢咀嚼。"}, {"en": "Chew the food.", "zh": "嚼食物。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w176", "word": "swallow", "phonetic": "/ˈswɒləʊ/", "pos": "v.", "meaning": "吞咽", "examples": [{"en": "Swallow medicine.", "zh": "吞药。"}, {"en": "Swallow water.", "zh": "咽水。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w177", "word": "cover", "phonetic": "/ˈkʌvə(r)/", "pos": "v.", "meaning": "覆盖", "examples": [{"en": "Cover your mouth.", "zh": "捂住嘴。"}, {"en": "Cover the food.", "zh": "盖住食物。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w178", "word": "reach", "phonetic": "/riːtʃ/", "pos": "v.", "meaning": "够到", "examples": [{"en": "Reach the salt.", "zh": "够到盐。"}, {"en": "Reach the goal.", "zh": "达到目标。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w179", "word": "western", "phonetic": "/ˈwestən/", "pos": "adj.", "meaning": "西方的", "examples": [{"en": "Western food.", "zh": "西餐。"}, {"en": "Western culture.", "zh": "西方文化。"}], "synonyms": [], "antonyms": ["eastern"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w180", "word": "eastern", "phonetic": "/ˈiːstən/", "pos": "adj.", "meaning": "东方的", "examples": [{"en": "Eastern Europe.", "zh": "东欧。"}, {"en": "Eastern food.", "zh": "东方食物。"}], "synonyms": [], "antonyms": ["western"], "difficulty": 3, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u16",
+      "unitName": "Unit 16 An Old Man Tried to Move",
+      "words": [
+        {"id": "g8w181", "word": "story", "phonetic": "/ˈstɔːri/", "pos": "n.", "meaning": "故事", "examples": [{"en": "Tell a story.", "zh": "讲故事。"}, {"en": "Old story.", "zh": "古老的故事。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["abstract"]},
+        {"id": "g8w182", "word": "fairy tale", "phonetic": "/ˈfeəri teɪl/", "pos": "n.", "meaning": "童话", "examples": [{"en": "Read fairy tales.", "zh": "读童话。"}, {"en": "Like a fairy tale.", "zh": "像童话一样。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w183", "word": "ancient", "phonetic": "/ˈeɪnʃənt/", "pos": "adj.", "meaning": "古代的", "examples": [{"en": "Ancient times.", "zh": "古代。"}, {"en": "Ancient story.", "zh": "古代故事。"}], "synonyms": [], "antonyms": ["modern"], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w184", "word": "emperor", "phonetic": "/ˈempərə(r)/", "pos": "n.", "meaning": "皇帝", "examples": [{"en": "The Chinese emperor.", "zh": "中国皇帝。"}, {"en": "Emperor's palace.", "zh": "皇宫。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["people"]},
+        {"id": "g8w185", "word": "queen", "phonetic": "/kwiːn/", "pos": "n.", "meaning": "女王", "examples": [{"en": "The queen smiles.", "zh": "女王微笑。"}, {"en": "Queen of England.", "zh": "英国女王。"}], "synonyms": [], "antonyms": ["king"], "difficulty": 2, "tags": ["people"]},
+        {"id": "g8w186", "word": "king", "phonetic": "/kɪŋ/", "pos": "n.", "meaning": "国王", "examples": [{"en": "The king rules.", "zh": "国王统治。"}, {"en": "King of beasts.", "zh": "兽中之王。"}], "synonyms": [], "antonyms": ["queen"], "difficulty": 1, "tags": ["people"]},
+        {"id": "g8w187", "word": "prince", "phonetic": "/prɪns/", "pos": "n.", "meaning": "王子", "examples": [{"en": "The prince is brave.", "zh": "王子很勇敢。"}, {"en": "Little prince.", "zh": "小王子。"}], "synonyms": [], "antonyms": ["princess"], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w188", "word": "princess", "phonetic": "/ˌprɪnˈses/", "pos": "n.", "meaning": "公主", "examples": [{"en": "The princess sings.", "zh": "公主唱歌。"}, {"en": "Beautiful princess.", "zh": "美丽的公主。"}], "synonyms": [], "antonyms": ["prince"], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w189", "word": "magic", "phonetic": "/ˈmædʒɪk/", "pos": "n.", "meaning": "魔法", "examples": [{"en": "Magic show.", "zh": "魔术表演。"}, {"en": "Like magic.", "zh": "像魔法一样。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w190", "word": "magician", "phonetic": "/məˈdʒɪʃn/", "pos": "n.", "meaning": "魔术师", "examples": [{"en": "Famous magician.", "zh": "著名魔术师。"}, {"en": "Magician tricks.", "zh": "魔术师的把戏。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w191", "word": "monster", "phonetic": "/ˈmɒnstə(r)/", "pos": "n.", "meaning": "怪物", "examples": [{"en": "Scary monster.", "zh": "可怕的怪物。"}, {"en": "Sea monster.", "zh": "海怪。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w192", "word": "hero", "phonetic": "/ˈhɪərəʊ/", "pos": "n.", "meaning": "英雄", "examples": [{"en": "My hero.", "zh": "我的英雄。"}, {"en": "Real hero.", "zh": "真正的英雄。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["people"]}
+      ]
+    },
+    {
+      "unitId": "g8-u17",
+      "unitName": "Unit 17 Have You Read Treasure Island",
+      "words": [
+        {"id": "g8w193", "word": "treasure", "phonetic": "/ˈtreʒə(r)/", "pos": "n.", "meaning": "宝藏", "examples": [{"en": "Find treasure.", "zh": "找到宝藏。"}, {"en": "Treasure map.", "zh": "藏宝图。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w194", "word": "island", "phonetic": "/ˈaɪlənd/", "pos": "n.", "meaning": "岛", "examples": [{"en": "Tropical island.", "zh": "热带岛屿。"}, {"en": "Live on an island.", "zh": "住在岛上。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["place"]},
+        {"id": "g8w195", "word": "novel", "phonetic": "/ˈnɒvl/", "pos": "n.", "meaning": "小说", "examples": [{"en": "Read a novel.", "zh": "读小说。"}, {"en": "Famous novel.", "zh": "著名小说。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w196", "word": "author", "phonetic": "/ˈɔːθə(r)/", "pos": "n.", "meaning": "作者", "examples": [{"en": "Famous author.", "zh": "著名作者。"}, {"en": "Meet the author.", "zh": "见作者。"}], "synonyms": ["writer"], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w197", "word": "publish", "phonetic": "/ˈpʌblɪʃ/", "pos": "v.", "meaning": "出版", "examples": [{"en": "Publish a book.", "zh": "出版书。"}, {"en": "Newly published.", "zh": "新出版的。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w198", "word": "yet", "phonetic": "/jet/", "pos": "adv.", "meaning": "已经；还", "examples": [{"en": "Not yet.", "zh": "还没有。"}, {"en": "Have you eaten yet?", "zh": "你吃了吗？"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w199", "word": "already", "phonetic": "/ɔːlˈredi/", "pos": "adv.", "meaning": "已经", "examples": [{"en": "Already done.", "zh": "已经完成。"}, {"en": "I already know.", "zh": "我已经知道了。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g8w200", "word": "ever", "phonetic": "/ˈevə(r)/", "pos": "adv.", "meaning": "曾经", "examples": [{"en": "Have you ever been there?", "zh": "你去过那里吗？"}, {"en": "Best ever.", "zh": "史上最佳。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w201", "word": "never", "phonetic": "/ˈnevə(r)/", "pos": "adv.", "meaning": "从未", "examples": [{"en": "Never give up.", "zh": "永不放弃。"}, {"en": "Never been.", "zh": "从未去过。"}], "synonyms": [], "antonyms": ["ever"], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g8w202", "word": "fiction", "phonetic": "/ˈfɪkʃn/", "pos": "n.", "meaning": "小说；虚构", "examples": [{"en": "Science fiction.", "zh": "科幻小说。"}, {"en": "Read fiction.", "zh": "读小说。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w203", "word": "chapter", "phonetic": "/ˈtʃæptə(r)/", "pos": "n.", "meaning": "章节", "examples": [{"en": "Read chapter one.", "zh": "读第一章。"}, {"en": "New chapter.", "zh": "新章节。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w204", "word": "library", "phonetic": "/ˈlaɪbrəri/", "pos": "n.", "meaning": "图书馆", "examples": [{"en": "Public library.", "zh": "公共图书馆。"}, {"en": "Library books.", "zh": "图书馆的书。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]}
+      ]
+    },
+    {
+      "unitId": "g8-u18",
+      "unitName": "Unit 18 Have You Ever Been to a Museum",
+      "words": [
+        {"id": "g8w205", "word": "museum", "phonetic": "/mjuˈziːəm/", "pos": "n.", "meaning": "博物馆", "examples": [{"en": "Visit the museum.", "zh": "参观博物馆。"}, {"en": "Art museum.", "zh": "艺术博物馆。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["place"]},
+        {"id": "g8w206", "word": "amusement park", "phonetic": "/əˈmjuːzmənt pɑːk/", "pos": "n.", "meaning": "游乐园", "examples": [{"en": "Go to amusement park.", "zh": "去游乐园。"}, {"en": "Amusement park is fun.", "zh": "游乐园很有趣。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["place"]},
+        {"id": "g8w207", "word": "exhibition", "phonetic": "/ˌeksɪˈbɪʃn/", "pos": "n.", "meaning": "展览", "examples": [{"en": "Art exhibition.", "zh": "艺术展。"}, {"en": "Visit an exhibition.", "zh": "参观展览。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w208", "word": "national", "phonetic": "/ˈnæʃnəl/", "pos": "adj.", "meaning": "国家的", "examples": [{"en": "National park.", "zh": "国家公园。"}, {"en": "National anthem.", "zh": "国歌。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w209", "word": "international", "phonetic": "/ˌɪntəˈnæʃnəl/", "pos": "adj.", "meaning": "国际的", "examples": [{"en": "International school.", "zh": "国际学校。"}, {"en": "International business.", "zh": "国际商务。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w210", "word": "modern", "phonetic": "/ˈmɒdn/", "pos": "adj.", "meaning": "现代的", "examples": [{"en": "Modern art.", "zh": "现代艺术。"}, {"en": "Modern life.", "zh": "现代生活。"}], "synonyms": [], "antonyms": ["ancient"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w211", "word": "history", "phonetic": "/ˈhɪstri/", "pos": "n.", "meaning": "历史", "examples": [{"en": "Long history.", "zh": "悠久的历史。"}, {"en": "Family history.", "zh": "家族史。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["subject"]},
+        {"id": "g8w212", "word": "scientific", "phonetic": "/ˌsaɪənˈtɪfɪk/", "pos": "adj.", "meaning": "科学的", "examples": [{"en": "Scientific research.", "zh": "科学研究。"}, {"en": "Scientific facts.", "zh": "科学事实。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w213", "word": "ancient", "phonetic": "/ˈeɪnʃənt/", "pos": "adj.", "meaning": "古老的", "examples": [{"en": "Ancient art.", "zh": "古老的艺术。"}, {"en": "Ancient times.", "zh": "古时候。"}], "synonyms": [], "antonyms": ["modern"], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w214", "word": "exhibit", "phonetic": "/ɪɡˈzɪbɪt/", "pos": "v.", "meaning": "展出", "examples": [{"en": "Exhibit paintings.", "zh": "展出画作。"}, {"en": "On exhibit.", "zh": "正在展出。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w215", "word": "discover", "phonetic": "/dɪˈskʌvə(r)/", "pos": "v.", "meaning": "发现", "examples": [{"en": "Discover new things.", "zh": "发现新事物。"}, {"en": "Discover gold.", "zh": "发现黄金。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w216", "word": "explore", "phonetic": "/ɪkˈsplɔː(r)/", "pos": "v.", "meaning": "探索", "examples": [{"en": "Explore the cave.", "zh": "探索洞穴。"}, {"en": "Explore the world.", "zh": "探索世界。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u19",
+      "unitName": "Unit 19 What's the Highest Mountain",
+      "words": [
+        {"id": "g8w217", "word": "highest", "phonetic": "/ˈhaɪɪst/", "pos": "adj.", "meaning": "最高的", "examples": [{"en": "Highest mountain.", "zh": "最高的山。"}, {"en": "Highest score.", "zh": "最高分。"}], "synonyms": [], "antonyms": ["lowest"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w218", "word": "longest", "phonetic": "/ˈlɒŋɡɪst/", "pos": "adj.", "meaning": "最长的", "examples": [{"en": "Longest river.", "zh": "最长的河。"}, {"en": "Longest day.", "zh": "最长的一天。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w219", "word": "deepest", "phonetic": "/ˈdiːpɪst/", "pos": "adj.", "meaning": "最深的", "examples": [{"en": "Deepest ocean.", "zh": "最深的海洋。"}, {"en": "Deepest love.", "zh": "最深的爱。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w220", "word": "biggest", "phonetic": "/ˈbɪɡɪst/", "pos": "adj.", "meaning": "最大的", "examples": [{"en": "Biggest city.", "zh": "最大的城市。"}, {"en": "Biggest fan.", "zh": "最大的粉丝。"}], "synonyms": [], "antonyms": ["smallest"], "difficulty": 1, "tags": ["adjective"]},
+        {"id": "g8w221", "word": "Mount", "phonetic": "/maʊnt/", "pos": "n.", "meaning": "山", "examples": [{"en": "Mount Everest.", "zh": "珠穆朗玛峰。"}, {"en": "Mount Tai.", "zh": "泰山。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"]},
+        {"id": "g8w222", "word": "Pacific", "phonetic": "/pəˈsɪfɪk/", "pos": "n.", "meaning": "太平洋", "examples": [{"en": "Pacific Ocean.", "zh": "太平洋。"}, {"en": "Cross the Pacific.", "zh": "横跨太平洋。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["nature"]},
+        {"id": "g8w223", "word": "desert", "phonetic": "/ˈdezət/", "pos": "n.", "meaning": "沙漠", "examples": [{"en": "Hot desert.", "zh": "炎热的沙漠。"}, {"en": "Cross the desert.", "zh": "穿越沙漠。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"]},
+        {"id": "g8w224", "word": "population", "phonetic": "/ˌpɒpjuˈleɪʃn/", "pos": "n.", "meaning": "人口", "examples": [{"en": "Large population.", "zh": "大量人口。"}, {"en": "World population.", "zh": "世界人口。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w225", "word": "square", "phonetic": "/skweə(r)/", "pos": "n.", "meaning": "广场；正方形", "examples": [{"en": "Town square.", "zh": "城镇广场。"}, {"en": "Square shape.", "zh": "正方形。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w226", "word": "kilometer", "phonetic": "/ˈkɪləmiːtə(r)/", "pos": "n.", "meaning": "千米", "examples": [{"en": "Five kilometers.", "zh": "五千米。"}, {"en": "Run a kilometer.", "zh": "跑一千米。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w227", "word": "wide", "phonetic": "/waɪd/", "pos": "adj.", "meaning": "宽的", "examples": [{"en": "Wide road.", "zh": "宽路。"}, {"en": "Wide eyes.", "zh": "睁大的眼睛。"}], "synonyms": [], "antonyms": ["narrow"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w228", "word": "fact", "phonetic": "/fækt/", "pos": "n.", "meaning": "事实", "examples": [{"en": "True fact.", "zh": "真实事实。"}, {"en": "In fact.", "zh": "事实上。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]}
+      ]
+    },
+    {
+      "unitId": "g8-u20",
+      "unitName": "Unit 20 What Do You Think of Game Shows",
+      "words": [
+        {"id": "g8w229", "word": "mind", "phonetic": "/maɪnd/", "pos": "v.", "meaning": "介意", "examples": [{"en": "Don't mind me.", "zh": "别介意我。"}, {"en": "Mind your manners.", "zh": "注意礼貌。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w230", "word": "stand", "phonetic": "/stænd/", "pos": "v.", "meaning": "忍受", "examples": [{"en": "I can't stand it.", "zh": "我受不了。"}, {"en": "Stand up to bullies.", "zh": "对抗欺凌者。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w231", "word": "comedy", "phonetic": "/ˈkɒmədi/", "pos": "n.", "meaning": "喜剧", "examples": [{"en": "Watch a comedy.", "zh": "看喜剧。"}, {"en": "Funny comedy.", "zh": "搞笑的喜剧。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["entertainment"]},
+        {"id": "g8w232", "word": "tragedy", "phonetic": "/ˈtrædʒədi/", "pos": "n.", "meaning": "悲剧", "examples": [{"en": "A great tragedy.", "zh": "一场大悲剧。"}, {"en": "Tragedy strikes.", "zh": "悲剧发生。"}], "synonyms": [], "antonyms": ["comedy"], "difficulty": 4, "tags": ["entertainment"]},
+        {"id": "g8w233", "word": "musical", "phonetic": "/ˈmjuːzɪkl/", "pos": "n.", "meaning": "音乐剧", "examples": [{"en": "Watch a musical.", "zh": "看音乐剧。"}, {"en": "Famous musical.", "zh": "著名音乐剧。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["entertainment"]},
+        {"id": "g8w234", "word": "documentary", "phonetic": "/ˌdɒkjuˈmentri/", "pos": "n.", "meaning": "纪录片", "examples": [{"en": "Watch a documentary.", "zh": "看纪录片。"}, {"en": "Nature documentary.", "zh": "自然纪录片。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["entertainment"]},
+        {"id": "g8w235", "word": "popular", "phonetic": "/ˈpɒpjələ(r)/", "pos": "adj.", "meaning": "流行的", "examples": [{"en": "Popular music.", "zh": "流行音乐。"}, {"en": "Very popular.", "zh": "非常受欢迎。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w236", "word": "thrilling", "phonetic": "/ˈθrɪlɪŋ/", "pos": "adj.", "meaning": "惊险的", "examples": [{"en": "Thrilling movie.", "zh": "惊险的电影。"}, {"en": "Thrilling adventure.", "zh": "惊险冒险。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w237", "word": "violent", "phonetic": "/ˈvaɪələnt/", "pos": "adj.", "meaning": "暴力的", "examples": [{"en": "Violent film.", "zh": "暴力电影。"}, {"en": "Avoid violent shows.", "zh": "避免暴力节目。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w238", "word": "boring", "phonetic": "/ˈbɔːrɪŋ/", "pos": "adj.", "meaning": "无聊的", "examples": [{"en": "Boring class.", "zh": "无聊的课。"}, {"en": "Don't be boring.", "zh": "别无聊。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w239", "word": "educational", "phonetic": "/ˌedʒuˈkeɪʃənl/", "pos": "adj.", "meaning": "教育的", "examples": [{"en": "Educational TV.", "zh": "教育电视。"}, {"en": "Educational tool.", "zh": "教育工具。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w240", "word": "discuss", "phonetic": "/dɪˈskʌs/", "pos": "v.", "meaning": "讨论", "examples": [{"en": "Discuss the topic.", "zh": "讨论话题。"}, {"en": "Discuss with friends.", "zh": "和朋友讨论。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u21",
+      "unitName": "Unit 21 Famous People",
+      "words": [
+        {"id": "g8w241", "word": "famous", "phonetic": "/ˈfeɪməs/", "pos": "adj.", "meaning": "著名的", "examples": [{"en": "Famous singer.", "zh": "著名歌手。"}, {"en": "Become famous.", "zh": "出名。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w242", "word": "scientist", "phonetic": "/ˈsaɪəntɪst/", "pos": "n.", "meaning": "科学家", "examples": [{"en": "Famous scientist.", "zh": "著名科学家。"}, {"en": "Scientists research.", "zh": "科学家研究。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["job"]},
+        {"id": "g8w243", "word": "inventor", "phonetic": "/ɪnˈventə(r)/", "pos": "n.", "meaning": "发明家", "examples": [{"en": "Great inventor.", "zh": "伟大的发明家。"}, {"en": "Inventor of phone.", "zh": "电话发明者。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w244", "word": "invent", "phonetic": "/ɪnˈvent/", "pos": "v.", "meaning": "发明", "examples": [{"en": "Invent something new.", "zh": "发明新东西。"}, {"en": "Edison invented the bulb.", "zh": "爱迪生发明了灯泡。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w245", "word": "discover", "phonetic": "/dɪˈskʌvə(r)/", "pos": "v.", "meaning": "发现", "examples": [{"en": "Discover gold.", "zh": "发现黄金。"}, {"en": "Discover new lands.", "zh": "发现新土地。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w246", "word": "discovery", "phonetic": "/dɪˈskʌvəri/", "pos": "n.", "meaning": "发现", "examples": [{"en": "Big discovery.", "zh": "重大发现。"}, {"en": "New discovery.", "zh": "新发现。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w247", "word": "artist", "phonetic": "/ˈɑːtɪst/", "pos": "n.", "meaning": "艺术家", "examples": [{"en": "Famous artist.", "zh": "著名艺术家。"}, {"en": "Artists paint.", "zh": "艺术家绘画。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["job"]},
+        {"id": "g8w248", "word": "genius", "phonetic": "/ˈdʒiːniəs/", "pos": "n.", "meaning": "天才", "examples": [{"en": "She is a genius.", "zh": "她是天才。"}, {"en": "Music genius.", "zh": "音乐天才。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["people"]},
+        {"id": "g8w249", "word": "leader", "phonetic": "/ˈliːdə(r)/", "pos": "n.", "meaning": "领导者", "examples": [{"en": "Strong leader.", "zh": "强有力的领导者。"}, {"en": "Be a leader.", "zh": "做领导者。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w250", "word": "leadership", "phonetic": "/ˈliːdəʃɪp/", "pos": "n.", "meaning": "领导力", "examples": [{"en": "Show leadership.", "zh": "展示领导力。"}, {"en": "Good leadership.", "zh": "好的领导力。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w251", "word": "achievement", "phonetic": "/əˈtʃiːvmənt/", "pos": "n.", "meaning": "成就", "examples": [{"en": "Big achievement.", "zh": "大成就。"}, {"en": "Personal achievement.", "zh": "个人成就。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w252", "word": "successful", "phonetic": "/səkˈsesfl/", "pos": "adj.", "meaning": "成功的", "examples": [{"en": "Successful businessman.", "zh": "成功的商人。"}, {"en": "Be successful.", "zh": "要成功。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u22",
+      "unitName": "Unit 22 Travelling Around",
+      "words": [
+        {"id": "g8w253", "word": "abroad", "phonetic": "/əˈbrɔːd/", "pos": "adv.", "meaning": "在国外", "examples": [{"en": "Travel abroad.", "zh": "出国旅行。"}, {"en": "Live abroad.", "zh": "在国外生活。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w254", "word": "passport", "phonetic": "/ˈpɑːspɔːt/", "pos": "n.", "meaning": "护照", "examples": [{"en": "Show passport.", "zh": "出示护照。"}, {"en": "Lost passport.", "zh": "丢了护照。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w255", "word": "visa", "phonetic": "/ˈviːzə/", "pos": "n.", "meaning": "签证", "examples": [{"en": "Apply for a visa.", "zh": "申请签证。"}, {"en": "Travel visa.", "zh": "旅游签证。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w256", "word": "flight", "phonetic": "/flaɪt/", "pos": "n.", "meaning": "航班", "examples": [{"en": "Long flight.", "zh": "长途飞行。"}, {"en": "Flight delayed.", "zh": "航班延误。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["transport"]},
+        {"id": "g8w257", "word": "luggage", "phonetic": "/ˈlʌɡɪdʒ/", "pos": "n.", "meaning": "行李", "examples": [{"en": "Heavy luggage.", "zh": "沉重的行李。"}, {"en": "Lost luggage.", "zh": "丢失行李。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w258", "word": "tourist", "phonetic": "/ˈtʊərɪst/", "pos": "n.", "meaning": "游客", "examples": [{"en": "Many tourists.", "zh": "许多游客。"}, {"en": "Tourist guide.", "zh": "导游。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w259", "word": "guide", "phonetic": "/ɡaɪd/", "pos": "n.", "meaning": "导游", "examples": [{"en": "Tour guide.", "zh": "导游。"}, {"en": "Follow the guide.", "zh": "跟着导游。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["job"]},
+        {"id": "g8w260", "word": "destination", "phonetic": "/ˌdestɪˈneɪʃn/", "pos": "n.", "meaning": "目的地", "examples": [{"en": "Final destination.", "zh": "最终目的地。"}, {"en": "Travel destination.", "zh": "旅游目的地。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w261", "word": "journey", "phonetic": "/ˈdʒɜːni/", "pos": "n.", "meaning": "旅程", "examples": [{"en": "Long journey.", "zh": "长途旅程。"}, {"en": "Safe journey.", "zh": "一路平安。"}], "synonyms": ["trip"], "antonyms": [], "difficulty": 3, "tags": ["activity"]},
+        {"id": "g8w262", "word": "journey", "phonetic": "/ˈdʒɜːni/", "pos": "n.", "meaning": "旅行", "examples": [{"en": "A long journey.", "zh": "一段长途旅行。"}, {"en": "Life journey.", "zh": "人生旅程。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w263", "word": "traveler", "phonetic": "/ˈtrævələ(r)/", "pos": "n.", "meaning": "旅行者", "examples": [{"en": "Frequent traveler.", "zh": "常旅行的人。"}, {"en": "Tired traveler.", "zh": "疲惫的旅行者。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w264", "word": "explore", "phonetic": "/ɪkˈsplɔː(r)/", "pos": "v.", "meaning": "探索", "examples": [{"en": "Explore the city.", "zh": "探索城市。"}, {"en": "Explore the world.", "zh": "探索世界。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u23",
+      "unitName": "Unit 23 Environment",
+      "words": [
+        {"id": "g8w265", "word": "environment", "phonetic": "/ɪnˈvaɪrənmənt/", "pos": "n.", "meaning": "环境", "examples": [{"en": "Protect environment.", "zh": "保护环境。"}, {"en": "Clean environment.", "zh": "干净的环境。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w266", "word": "pollution", "phonetic": "/pəˈluːʃn/", "pos": "n.", "meaning": "污染", "examples": [{"en": "Air pollution.", "zh": "空气污染。"}, {"en": "Stop pollution.", "zh": "阻止污染。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w267", "word": "pollute", "phonetic": "/pəˈluːt/", "pos": "v.", "meaning": "污染", "examples": [{"en": "Don't pollute.", "zh": "别污染。"}, {"en": "Cars pollute air.", "zh": "汽车污染空气。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w268", "word": "garbage", "phonetic": "/ˈɡɑːbɪdʒ/", "pos": "n.", "meaning": "垃圾", "examples": [{"en": "Take out garbage.", "zh": "倒垃圾。"}, {"en": "Garbage truck.", "zh": "垃圾车。"}], "synonyms": ["trash"], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w269", "word": "recycle", "phonetic": "/ˌriːˈsaɪkl/", "pos": "v.", "meaning": "回收", "examples": [{"en": "Recycle paper.", "zh": "回收纸张。"}, {"en": "Recycle waste.", "zh": "回收废物。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w270", "word": "reuse", "phonetic": "/ˌriːˈjuːz/", "pos": "v.", "meaning": "再利用", "examples": [{"en": "Reuse bottles.", "zh": "重复使用瓶子。"}, {"en": "Reuse bags.", "zh": "重复使用袋子。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w271", "word": "energy", "phonetic": "/ˈenədʒi/", "pos": "n.", "meaning": "能源；能量", "examples": [{"en": "Save energy.", "zh": "节约能源。"}, {"en": "Solar energy.", "zh": "太阳能。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w272", "word": "plastic", "phonetic": "/ˈplæstɪk/", "pos": "n.", "meaning": "塑料", "examples": [{"en": "Plastic bag.", "zh": "塑料袋。"}, {"en": "Avoid plastic.", "zh": "避免塑料。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w273", "word": "waste", "phonetic": "/weɪst/", "pos": "n.", "meaning": "废物", "examples": [{"en": "Industrial waste.", "zh": "工业废物。"}, {"en": "Reduce waste.", "zh": "减少废物。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w274", "word": "global", "phonetic": "/ˈɡləʊbl/", "pos": "adj.", "meaning": "全球的", "examples": [{"en": "Global warming.", "zh": "全球变暖。"}, {"en": "Global problem.", "zh": "全球问题。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w275", "word": "warming", "phonetic": "/ˈwɔːmɪŋ/", "pos": "n.", "meaning": "变暖", "examples": [{"en": "Global warming.", "zh": "全球变暖。"}, {"en": "Warming earth.", "zh": "地球变暖。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w276", "word": "endangered", "phonetic": "/ɪnˈdeɪndʒəd/", "pos": "adj.", "meaning": "濒危的", "examples": [{"en": "Endangered animals.", "zh": "濒危动物。"}, {"en": "Endangered species.", "zh": "濒危物种。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u24",
+      "unitName": "Unit 24 Helping Others",
+      "words": [
+        {"id": "g8w277", "word": "kind", "phonetic": "/kaɪnd/", "pos": "adj.", "meaning": "善良的", "examples": [{"en": "Kind person.", "zh": "善良的人。"}, {"en": "Be kind.", "zh": "要善良。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w278", "word": "honest", "phonetic": "/ˈɒnɪst/", "pos": "adj.", "meaning": "诚实的", "examples": [{"en": "Honest answer.", "zh": "诚实的回答。"}, {"en": "Be honest.", "zh": "要诚实。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w279", "word": "honesty", "phonetic": "/ˈɒnəsti/", "pos": "n.", "meaning": "诚实", "examples": [{"en": "Honesty matters.", "zh": "诚实很重要。"}, {"en": "Honesty is the best policy.", "zh": "诚实是最好的策略。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w280", "word": "generous", "phonetic": "/ˈdʒenərəs/", "pos": "adj.", "meaning": "慷慨的", "examples": [{"en": "Generous gift.", "zh": "慷慨的礼物。"}, {"en": "Be generous.", "zh": "要慷慨。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w281", "word": "selfish", "phonetic": "/ˈselfɪʃ/", "pos": "adj.", "meaning": "自私的", "examples": [{"en": "Selfish person.", "zh": "自私的人。"}, {"en": "Don't be selfish.", "zh": "别自私。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w282", "word": "helpful", "phonetic": "/ˈhelpfl/", "pos": "adj.", "meaning": "乐于助人的", "examples": [{"en": "Helpful student.", "zh": "乐于助人的学生。"}, {"en": "Very helpful.", "zh": "非常有帮助。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w283", "word": "rude", "phonetic": "/ruːd/", "pos": "adj.", "meaning": "粗鲁的", "examples": [{"en": "Rude behavior.", "zh": "粗鲁的行为。"}, {"en": "Don't be rude.", "zh": "别粗鲁。"}], "synonyms": [], "antonyms": ["polite"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w284", "word": "respect", "phonetic": "/rɪˈspekt/", "pos": "v.", "meaning": "尊重", "examples": [{"en": "Respect parents.", "zh": "尊重父母。"}, {"en": "Show respect.", "zh": "表示尊重。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w285", "word": "support", "phonetic": "/səˈpɔːt/", "pos": "v.", "meaning": "支持", "examples": [{"en": "Support friends.", "zh": "支持朋友。"}, {"en": "I support you.", "zh": "我支持你。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w286", "word": "encourage", "phonetic": "/ɪnˈkʌrɪdʒ/", "pos": "v.", "meaning": "鼓励", "examples": [{"en": "Encourage him.", "zh": "鼓励他。"}, {"en": "Mom encourages me.", "zh": "妈妈鼓励我。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w287", "word": "kind-hearted", "phonetic": "/ˌkaɪnd ˈhɑːtɪd/", "pos": "adj.", "meaning": "善心的", "examples": [{"en": "Kind-hearted girl.", "zh": "善心的女孩。"}, {"en": "Kind-hearted people.", "zh": "好心人。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w288", "word": "thankful", "phonetic": "/ˈθæŋkfl/", "pos": "adj.", "meaning": "感激的", "examples": [{"en": "I'm thankful.", "zh": "我很感激。"}, {"en": "Thankful heart.", "zh": "感恩的心。"}], "synonyms": ["grateful"], "antonyms": [], "difficulty": 4, "tags": ["adjective"]}
+      ]
+    },
+    {
+      "unitId": "g8-u25",
+      "unitName": "Unit 25 Sports and Health",
+      "words": [
+        {"id": "g8w289", "word": "fit", "phonetic": "/fɪt/", "pos": "adj.", "meaning": "健康的", "examples": [{"en": "Stay fit.", "zh": "保持健康。"}, {"en": "Keep fit.", "zh": "保持身体健康。"}], "synonyms": ["healthy"], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w290", "word": "fitness", "phonetic": "/ˈfɪtnəs/", "pos": "n.", "meaning": "健康", "examples": [{"en": "Fitness center.", "zh": "健身中心。"}, {"en": "Physical fitness.", "zh": "身体健康。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w291", "word": "training", "phonetic": "/ˈtreɪnɪŋ/", "pos": "n.", "meaning": "训练", "examples": [{"en": "Daily training.", "zh": "日常训练。"}, {"en": "Hard training.", "zh": "刻苦训练。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["activity"]},
+        {"id": "g8w292", "word": "marathon", "phonetic": "/ˈmærəθən/", "pos": "n.", "meaning": "马拉松", "examples": [{"en": "Run a marathon.", "zh": "跑马拉松。"}, {"en": "Marathon race.", "zh": "马拉松比赛。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["sport"]},
+        {"id": "g8w293", "word": "muscle", "phonetic": "/ˈmʌsl/", "pos": "n.", "meaning": "肌肉", "examples": [{"en": "Strong muscles.", "zh": "强壮的肌肉。"}, {"en": "Build muscles.", "zh": "增强肌肉。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["body"]},
+        {"id": "g8w294", "word": "energy", "phonetic": "/ˈenədʒi/", "pos": "n.", "meaning": "活力", "examples": [{"en": "Full of energy.", "zh": "充满活力。"}, {"en": "Need energy.", "zh": "需要能量。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w295", "word": "stretch", "phonetic": "/stretʃ/", "pos": "v.", "meaning": "伸展", "examples": [{"en": "Stretch your arms.", "zh": "伸展手臂。"}, {"en": "Stretch first.", "zh": "先伸展。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w296", "word": "balance", "phonetic": "/ˈbæləns/", "pos": "n.", "meaning": "平衡", "examples": [{"en": "Keep balance.", "zh": "保持平衡。"}, {"en": "Lose balance.", "zh": "失去平衡。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w297", "word": "weight", "phonetic": "/weɪt/", "pos": "n.", "meaning": "体重", "examples": [{"en": "Lose weight.", "zh": "减肥。"}, {"en": "Gain weight.", "zh": "增重。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w298", "word": "diet", "phonetic": "/ˈdaɪət/", "pos": "n.", "meaning": "饮食", "examples": [{"en": "Healthy diet.", "zh": "健康饮食。"}, {"en": "Balanced diet.", "zh": "均衡饮食。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["food"]},
+        {"id": "g8w299", "word": "calorie", "phonetic": "/ˈkæləri/", "pos": "n.", "meaning": "卡路里", "examples": [{"en": "Count calories.", "zh": "计算卡路里。"}, {"en": "Low calorie.", "zh": "低卡路里。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["food"]},
+        {"id": "g8w300", "word": "stress", "phonetic": "/stres/", "pos": "n.", "meaning": "压力", "examples": [{"en": "Reduce stress.", "zh": "减少压力。"}, {"en": "Under stress.", "zh": "在压力下。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]}
+      ]
+    },
+    {
+      "unitId": "g8-u26",
+      "unitName": "Unit 26 Common Verbs",
+      "words": [
+        {"id": "g8w301", "word": "begin", "phonetic": "/bɪˈɡɪn/", "pos": "v.", "meaning": "开始", "examples": [{"en": "Begin work.", "zh": "开始工作。"}, {"en": "Class begins.", "zh": "上课了。"}], "synonyms": ["start"], "antonyms": ["end"], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w302", "word": "complete", "phonetic": "/kəmˈpliːt/", "pos": "v.", "meaning": "完成", "examples": [{"en": "Complete the task.", "zh": "完成任务。"}, {"en": "Complete it now.", "zh": "现在完成。"}], "synonyms": ["finish"], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w303", "word": "create", "phonetic": "/kriˈeɪt/", "pos": "v.", "meaning": "创造", "examples": [{"en": "Create art.", "zh": "创造艺术。"}, {"en": "Create something new.", "zh": "创造新事物。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w304", "word": "produce", "phonetic": "/prəˈdjuːs/", "pos": "v.", "meaning": "生产", "examples": [{"en": "Produce cars.", "zh": "生产汽车。"}, {"en": "Factories produce goods.", "zh": "工厂生产商品。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w305", "word": "destroy", "phonetic": "/dɪˈstrɔɪ/", "pos": "v.", "meaning": "毁坏", "examples": [{"en": "Destroy buildings.", "zh": "摧毁建筑。"}, {"en": "Don't destroy.", "zh": "别毁坏。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w306", "word": "build", "phonetic": "/bɪld/", "pos": "v.", "meaning": "建造", "examples": [{"en": "Build a house.", "zh": "建房子。"}, {"en": "Build trust.", "zh": "建立信任。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w307", "word": "fix", "phonetic": "/fɪks/", "pos": "v.", "meaning": "修理", "examples": [{"en": "Fix the car.", "zh": "修车。"}, {"en": "Fix it quickly.", "zh": "快修好。"}], "synonyms": ["repair"], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w308", "word": "repair", "phonetic": "/rɪˈpeə(r)/", "pos": "v.", "meaning": "修理", "examples": [{"en": "Repair the bike.", "zh": "修自行车。"}, {"en": "Need to repair.", "zh": "需要修理。"}], "synonyms": ["fix"], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w309", "word": "examine", "phonetic": "/ɪɡˈzæmɪn/", "pos": "v.", "meaning": "检查", "examples": [{"en": "Examine carefully.", "zh": "仔细检查。"}, {"en": "Examine the work.", "zh": "检查工作。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w310", "word": "check", "phonetic": "/tʃek/", "pos": "v.", "meaning": "检查", "examples": [{"en": "Check the answer.", "zh": "检查答案。"}, {"en": "Check it out.", "zh": "看看。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w311", "word": "recognize", "phonetic": "/ˈrekəɡnaɪz/", "pos": "v.", "meaning": "认出", "examples": [{"en": "Recognize the face.", "zh": "认出这张脸。"}, {"en": "I recognize you.", "zh": "我认出你了。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w312", "word": "remember", "phonetic": "/rɪˈmembə(r)/", "pos": "v.", "meaning": "记住", "examples": [{"en": "Remember me.", "zh": "记住我。"}, {"en": "Remember the date.", "zh": "记住日期。"}], "synonyms": [], "antonyms": ["forget"], "difficulty": 2, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u27",
+      "unitName": "Unit 27 Time Expressions",
+      "words": [
+        {"id": "g8w313", "word": "century", "phonetic": "/ˈsentʃəri/", "pos": "n.", "meaning": "世纪", "examples": [{"en": "21st century.", "zh": "21世纪。"}, {"en": "Last century.", "zh": "上个世纪。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["time"]},
+        {"id": "g8w314", "word": "decade", "phonetic": "/ˈdekeɪd/", "pos": "n.", "meaning": "十年", "examples": [{"en": "A decade ago.", "zh": "十年前。"}, {"en": "Several decades.", "zh": "几十年。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["time"]},
+        {"id": "g8w315", "word": "lately", "phonetic": "/ˈleɪtli/", "pos": "adv.", "meaning": "最近", "examples": [{"en": "What have you done lately?", "zh": "你最近做了什么？"}, {"en": "Lately, I'm busy.", "zh": "最近我很忙。"}], "synonyms": ["recently"], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w316", "word": "recently", "phonetic": "/ˈriːsntli/", "pos": "adv.", "meaning": "最近", "examples": [{"en": "Recently met.", "zh": "最近见的。"}, {"en": "Recently moved.", "zh": "最近搬家。"}], "synonyms": ["lately"], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w317", "word": "previously", "phonetic": "/ˈpriːviəsli/", "pos": "adv.", "meaning": "先前", "examples": [{"en": "Previously known as.", "zh": "以前称为。"}, {"en": "Previously, I worked there.", "zh": "之前我在那里工作。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w318", "word": "currently", "phonetic": "/ˈkʌrəntli/", "pos": "adv.", "meaning": "目前", "examples": [{"en": "Currently working.", "zh": "目前在工作。"}, {"en": "Currently away.", "zh": "目前不在。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w319", "word": "frequently", "phonetic": "/ˈfriːkwəntli/", "pos": "adv.", "meaning": "经常", "examples": [{"en": "Frequently asked.", "zh": "经常被问。"}, {"en": "Frequently used.", "zh": "经常使用。"}], "synonyms": ["often"], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w320", "word": "usually", "phonetic": "/ˈjuːʒuəli/", "pos": "adv.", "meaning": "通常", "examples": [{"en": "Usually quiet.", "zh": "通常很安静。"}, {"en": "I usually run.", "zh": "我通常跑步。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adverb"]},
+        {"id": "g8w321", "word": "occasionally", "phonetic": "/əˈkeɪʒnəli/", "pos": "adv.", "meaning": "偶尔", "examples": [{"en": "Occasionally late.", "zh": "偶尔迟到。"}, {"en": "Occasionally meet.", "zh": "偶尔见面。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w322", "word": "immediately", "phonetic": "/ɪˈmiːdiətli/", "pos": "adv.", "meaning": "立即", "examples": [{"en": "Come immediately.", "zh": "立即来。"}, {"en": "Stop immediately.", "zh": "立刻停止。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adverb"]},
+        {"id": "g8w323", "word": "suddenly", "phonetic": "/ˈsʌdənli/", "pos": "adv.", "meaning": "突然", "examples": [{"en": "Suddenly stopped.", "zh": "突然停下。"}, {"en": "Suddenly cold.", "zh": "突然冷起来。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adverb"]},
+        {"id": "g8w324", "word": "eventually", "phonetic": "/ɪˈventʃuəli/", "pos": "adv.", "meaning": "最终", "examples": [{"en": "Eventually arrived.", "zh": "最终到达。"}, {"en": "Eventually agreed.", "zh": "最终同意。"}], "synonyms": ["finally"], "antonyms": [], "difficulty": 4, "tags": ["adverb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u28",
+      "unitName": "Unit 28 Society and Community",
+      "words": [
+        {"id": "g8w325", "word": "neighbor", "phonetic": "/ˈneɪbə(r)/", "pos": "n.", "meaning": "邻居", "examples": [{"en": "Friendly neighbor.", "zh": "友好的邻居。"}, {"en": "Help neighbors.", "zh": "帮助邻居。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w326", "word": "community", "phonetic": "/kəˈmjuːnəti/", "pos": "n.", "meaning": "社区", "examples": [{"en": "Local community.", "zh": "本地社区。"}, {"en": "Community center.", "zh": "社区中心。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["place"]},
+        {"id": "g8w327", "word": "citizen", "phonetic": "/ˈsɪtɪzn/", "pos": "n.", "meaning": "市民", "examples": [{"en": "Good citizen.", "zh": "好市民。"}, {"en": "Senior citizen.", "zh": "老年人。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["people"]},
+        {"id": "g8w328", "word": "stranger", "phonetic": "/ˈstreɪndʒə(r)/", "pos": "n.", "meaning": "陌生人", "examples": [{"en": "Don't talk to strangers.", "zh": "别和陌生人说话。"}, {"en": "He is a stranger.", "zh": "他是陌生人。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["people"]},
+        {"id": "g8w329", "word": "rule", "phonetic": "/ruːl/", "pos": "n.", "meaning": "规则", "examples": [{"en": "Follow rules.", "zh": "遵守规则。"}, {"en": "Break the rule.", "zh": "违反规则。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["abstract"]},
+        {"id": "g8w330", "word": "law", "phonetic": "/lɔː/", "pos": "n.", "meaning": "法律", "examples": [{"en": "Follow the law.", "zh": "遵守法律。"}, {"en": "The law says.", "zh": "法律规定。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w331", "word": "duty", "phonetic": "/ˈdjuːti/", "pos": "n.", "meaning": "责任；义务", "examples": [{"en": "Do your duty.", "zh": "尽你的责任。"}, {"en": "On duty.", "zh": "执勤。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w332", "word": "right", "phonetic": "/raɪt/", "pos": "n.", "meaning": "权利", "examples": [{"en": "Human rights.", "zh": "人权。"}, {"en": "My right.", "zh": "我的权利。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w333", "word": "freedom", "phonetic": "/ˈfriːdəm/", "pos": "n.", "meaning": "自由", "examples": [{"en": "Love freedom.", "zh": "热爱自由。"}, {"en": "Freedom of speech.", "zh": "言论自由。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w334", "word": "equal", "phonetic": "/ˈiːkwəl/", "pos": "adj.", "meaning": "平等的", "examples": [{"en": "Equal rights.", "zh": "平等权利。"}, {"en": "Equal pay.", "zh": "同工同酬。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w335", "word": "equality", "phonetic": "/iˈkwɒləti/", "pos": "n.", "meaning": "平等", "examples": [{"en": "Gender equality.", "zh": "性别平等。"}, {"en": "Fight for equality.", "zh": "为平等而战。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w336", "word": "peace", "phonetic": "/piːs/", "pos": "n.", "meaning": "和平", "examples": [{"en": "World peace.", "zh": "世界和平。"}, {"en": "Inner peace.", "zh": "内心平静。"}], "synonyms": [], "antonyms": ["war"], "difficulty": 3, "tags": ["abstract"]}
+      ]
+    },
+    {
+      "unitId": "g8-u29",
+      "unitName": "Unit 29 Knowledge",
+      "words": [
+        {"id": "g8w337", "word": "knowledge", "phonetic": "/ˈnɒlɪdʒ/", "pos": "n.", "meaning": "知识", "examples": [{"en": "General knowledge.", "zh": "常识。"}, {"en": "Knowledge is power.", "zh": "知识就是力量。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w338", "word": "wisdom", "phonetic": "/ˈwɪzdəm/", "pos": "n.", "meaning": "智慧", "examples": [{"en": "Old wisdom.", "zh": "古老的智慧。"}, {"en": "Words of wisdom.", "zh": "智慧之言。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w339", "word": "truth", "phonetic": "/truːθ/", "pos": "n.", "meaning": "真相", "examples": [{"en": "Tell the truth.", "zh": "说实话。"}, {"en": "Whole truth.", "zh": "全部真相。"}], "synonyms": [], "antonyms": ["lie"], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w340", "word": "lie", "phonetic": "/laɪ/", "pos": "n.", "meaning": "谎言", "examples": [{"en": "Tell a lie.", "zh": "撒谎。"}, {"en": "It's a lie.", "zh": "是谎言。"}], "synonyms": [], "antonyms": ["truth"], "difficulty": 2, "tags": ["abstract"]},
+        {"id": "g8w341", "word": "secret", "phonetic": "/ˈsiːkrət/", "pos": "n.", "meaning": "秘密", "examples": [{"en": "Keep a secret.", "zh": "保守秘密。"}, {"en": "Big secret.", "zh": "大秘密。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w342", "word": "fact", "phonetic": "/fækt/", "pos": "n.", "meaning": "事实", "examples": [{"en": "Real fact.", "zh": "真实的事实。"}, {"en": "In fact.", "zh": "事实上。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w343", "word": "opinion", "phonetic": "/əˈpɪniən/", "pos": "n.", "meaning": "意见", "examples": [{"en": "My opinion.", "zh": "我的看法。"}, {"en": "Different opinions.", "zh": "不同意见。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w344", "word": "belief", "phonetic": "/bɪˈliːf/", "pos": "n.", "meaning": "信念", "examples": [{"en": "Strong belief.", "zh": "坚定的信念。"}, {"en": "Belief in self.", "zh": "对自己的信念。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w345", "word": "hope", "phonetic": "/həʊp/", "pos": "n.", "meaning": "希望", "examples": [{"en": "Last hope.", "zh": "最后的希望。"}, {"en": "Lose hope.", "zh": "失去希望。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["abstract"]},
+        {"id": "g8w346", "word": "doubt", "phonetic": "/daʊt/", "pos": "n.", "meaning": "怀疑", "examples": [{"en": "No doubt.", "zh": "毫无疑问。"}, {"en": "Have doubts.", "zh": "有疑虑。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w347", "word": "question", "phonetic": "/ˈkwestʃən/", "pos": "n.", "meaning": "问题", "examples": [{"en": "Ask a question.", "zh": "问问题。"}, {"en": "Good question.", "zh": "好问题。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["abstract"]},
+        {"id": "g8w348", "word": "answer", "phonetic": "/ˈɑːnsə(r)/", "pos": "n.", "meaning": "答案", "examples": [{"en": "Right answer.", "zh": "正确答案。"}, {"en": "Find the answer.", "zh": "找出答案。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["abstract"]}
+      ]
+    },
+    {
+      "unitId": "g8-u30",
+      "unitName": "Unit 30 Reflection",
+      "words": [
+        {"id": "g8w349", "word": "reflect", "phonetic": "/rɪˈflekt/", "pos": "v.", "meaning": "反思", "examples": [{"en": "Reflect on life.", "zh": "反思生活。"}, {"en": "Reflect carefully.", "zh": "仔细反思。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w350", "word": "consider", "phonetic": "/kənˈsɪdə(r)/", "pos": "v.", "meaning": "考虑", "examples": [{"en": "Consider options.", "zh": "考虑选项。"}, {"en": "I'll consider.", "zh": "我会考虑。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w351", "word": "imagine", "phonetic": "/ɪˈmædʒɪn/", "pos": "v.", "meaning": "想象", "examples": [{"en": "Imagine a world.", "zh": "想象一个世界。"}, {"en": "Just imagine!", "zh": "想想看！"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w352", "word": "wonder", "phonetic": "/ˈwʌndə(r)/", "pos": "v.", "meaning": "想知道", "examples": [{"en": "I wonder why.", "zh": "我想知道为什么。"}, {"en": "Wonder where.", "zh": "想知道在哪里。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w353", "word": "decision", "phonetic": "/dɪˈsɪʒn/", "pos": "n.", "meaning": "决定", "examples": [{"en": "Make a decision.", "zh": "做决定。"}, {"en": "Big decision.", "zh": "重大决定。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w354", "word": "choice", "phonetic": "/tʃɔɪs/", "pos": "n.", "meaning": "选择", "examples": [{"en": "Hard choice.", "zh": "艰难的选择。"}, {"en": "Make a choice.", "zh": "做选择。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w355", "word": "regret", "phonetic": "/rɪˈɡret/", "pos": "v.", "meaning": "后悔", "examples": [{"en": "Regret nothing.", "zh": "毫无遗憾。"}, {"en": "I regret it.", "zh": "我后悔。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w356", "word": "mistake", "phonetic": "/mɪˈsteɪk/", "pos": "n.", "meaning": "错误", "examples": [{"en": "Big mistake.", "zh": "大错误。"}, {"en": "Learn from mistakes.", "zh": "从错误中学习。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w357", "word": "realize", "phonetic": "/ˈrɪəlaɪz/", "pos": "v.", "meaning": "意识到", "examples": [{"en": "Realize the truth.", "zh": "意识到真相。"}, {"en": "I realize now.", "zh": "我现在明白了。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w358", "word": "lesson", "phonetic": "/ˈlesn/", "pos": "n.", "meaning": "教训", "examples": [{"en": "Hard lesson.", "zh": "惨痛教训。"}, {"en": "Learn a lesson.", "zh": "吸取教训。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["abstract"]},
+        {"id": "g8w359", "word": "advise", "phonetic": "/ədˈvaɪz/", "pos": "v.", "meaning": "建议", "examples": [{"en": "Advise wisely.", "zh": "明智地建议。"}, {"en": "I advise you.", "zh": "我建议你。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w360", "word": "experience", "phonetic": "/ɪkˈspɪəriəns/", "pos": "v.", "meaning": "经历", "examples": [{"en": "Experience life.", "zh": "体验生活。"}, {"en": "Experience joy.", "zh": "体验快乐。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u31",
+      "unitName": "Unit 31 Travel and Adventure",
+      "words": [
+        {"id": "g8w361", "word": "adventure", "phonetic": "/ədˈventʃə(r)/", "pos": "n.", "meaning": "冒险", "examples": [{"en": "Big adventure.", "zh": "大冒险。"}, {"en": "Have an adventure.", "zh": "去冒险。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w362", "word": "explore", "phonetic": "/ɪkˈsplɔː(r)/", "pos": "v.", "meaning": "探索", "examples": [{"en": "Explore caves.", "zh": "探索洞穴。"}, {"en": "Explore the world.", "zh": "探索世界。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w363", "word": "explorer", "phonetic": "/ɪkˈsplɔːrə(r)/", "pos": "n.", "meaning": "探险家", "examples": [{"en": "Famous explorer.", "zh": "著名探险家。"}, {"en": "Brave explorer.", "zh": "勇敢的探险家。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w364", "word": "journey", "phonetic": "/ˈdʒɜːni/", "pos": "n.", "meaning": "旅程", "examples": [{"en": "Long journey.", "zh": "长途旅程。"}, {"en": "Safe journey.", "zh": "一路平安。"}], "synonyms": ["trip"], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w365", "word": "guidebook", "phonetic": "/ˈɡaɪdbʊk/", "pos": "n.", "meaning": "指南", "examples": [{"en": "Travel guidebook.", "zh": "旅行指南。"}, {"en": "Read the guidebook.", "zh": "看指南。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w366", "word": "souvenir", "phonetic": "/ˌsuːvəˈnɪə(r)/", "pos": "n.", "meaning": "纪念品", "examples": [{"en": "Buy souvenirs.", "zh": "买纪念品。"}, {"en": "Small souvenir.", "zh": "小纪念品。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w367", "word": "backpack", "phonetic": "/ˈbækpæk/", "pos": "n.", "meaning": "背包", "examples": [{"en": "Heavy backpack.", "zh": "沉重的背包。"}, {"en": "Travel backpack.", "zh": "旅行背包。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w368", "word": "hike", "phonetic": "/haɪk/", "pos": "v.", "meaning": "徒步", "examples": [{"en": "Go hiking.", "zh": "去徒步。"}, {"en": "Hike a mountain.", "zh": "登山徒步。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w369", "word": "tent", "phonetic": "/tent/", "pos": "n.", "meaning": "帐篷", "examples": [{"en": "Set up a tent.", "zh": "搭帐篷。"}, {"en": "Sleep in a tent.", "zh": "睡帐篷。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w370", "word": "campfire", "phonetic": "/ˈkæmpfaɪə(r)/", "pos": "n.", "meaning": "篝火", "examples": [{"en": "Sit by the campfire.", "zh": "围着篝火坐。"}, {"en": "Cook over the campfire.", "zh": "在篝火上做饭。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w371", "word": "compass", "phonetic": "/ˈkʌmpəs/", "pos": "n.", "meaning": "指南针", "examples": [{"en": "Use a compass.", "zh": "用指南针。"}, {"en": "Lost compass.", "zh": "丢失的指南针。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w372", "word": "discover", "phonetic": "/dɪˈskʌvə(r)/", "pos": "v.", "meaning": "发现", "examples": [{"en": "Discover new places.", "zh": "发现新地方。"}, {"en": "Discover gold.", "zh": "发现黄金。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u32",
+      "unitName": "Unit 32 News and Media",
+      "words": [
+        {"id": "g8w373", "word": "newspaper", "phonetic": "/ˈnjuːzpeɪpə(r)/", "pos": "n.", "meaning": "报纸", "examples": [{"en": "Read the newspaper.", "zh": "看报纸。"}, {"en": "Daily newspaper.", "zh": "日报。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w374", "word": "headline", "phonetic": "/ˈhedlaɪn/", "pos": "n.", "meaning": "头条", "examples": [{"en": "Front page headline.", "zh": "头版头条。"}, {"en": "Big headline.", "zh": "大标题。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w375", "word": "article", "phonetic": "/ˈɑːtɪkl/", "pos": "n.", "meaning": "文章", "examples": [{"en": "News article.", "zh": "新闻文章。"}, {"en": "Long article.", "zh": "长文。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w376", "word": "report", "phonetic": "/rɪˈpɔːt/", "pos": "n.", "meaning": "报道", "examples": [{"en": "News report.", "zh": "新闻报道。"}, {"en": "Weather report.", "zh": "天气预报。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w377", "word": "interview", "phonetic": "/ˈɪntəvjuː/", "pos": "v.", "meaning": "采访", "examples": [{"en": "Interview the star.", "zh": "采访明星。"}, {"en": "Interview a witness.", "zh": "采访证人。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w378", "word": "broadcast", "phonetic": "/ˈbrɔːdkɑːst/", "pos": "v.", "meaning": "广播", "examples": [{"en": "Broadcast news.", "zh": "广播新闻。"}, {"en": "Live broadcast.", "zh": "直播。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w379", "word": "media", "phonetic": "/ˈmiːdiə/", "pos": "n.", "meaning": "媒体", "examples": [{"en": "Social media.", "zh": "社交媒体。"}, {"en": "News media.", "zh": "新闻媒体。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w380", "word": "podcast", "phonetic": "/ˈpɒdkɑːst/", "pos": "n.", "meaning": "播客", "examples": [{"en": "Listen to podcasts.", "zh": "听播客。"}, {"en": "New podcast.", "zh": "新播客。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["technology"]},
+        {"id": "g8w381", "word": "blog", "phonetic": "/blɒɡ/", "pos": "n.", "meaning": "博客", "examples": [{"en": "Read a blog.", "zh": "读博客。"}, {"en": "Travel blog.", "zh": "旅游博客。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["technology"]},
+        {"id": "g8w382", "word": "trend", "phonetic": "/trend/", "pos": "n.", "meaning": "趋势", "examples": [{"en": "New trend.", "zh": "新趋势。"}, {"en": "Follow the trend.", "zh": "跟随潮流。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w383", "word": "viral", "phonetic": "/ˈvaɪrəl/", "pos": "adj.", "meaning": "病毒式传播的", "examples": [{"en": "Viral video.", "zh": "病毒视频。"}, {"en": "Go viral.", "zh": "走红。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w384", "word": "post", "phonetic": "/pəʊst/", "pos": "v.", "meaning": "发布", "examples": [{"en": "Post a photo.", "zh": "发照片。"}, {"en": "Post online.", "zh": "在网上发布。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u33",
+      "unitName": "Unit 33 Money and Shopping",
+      "words": [
+        {"id": "g8w385", "word": "discount", "phonetic": "/ˈdɪskaʊnt/", "pos": "n.", "meaning": "折扣", "examples": [{"en": "Big discount.", "zh": "大折扣。"}, {"en": "Get a discount.", "zh": "获得折扣。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["money"]},
+        {"id": "g8w386", "word": "receipt", "phonetic": "/rɪˈsiːt/", "pos": "n.", "meaning": "收据", "examples": [{"en": "Keep the receipt.", "zh": "保留收据。"}, {"en": "Lost receipt.", "zh": "丢了收据。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w387", "word": "coupon", "phonetic": "/ˈkuːpɒn/", "pos": "n.", "meaning": "优惠券", "examples": [{"en": "Use a coupon.", "zh": "用优惠券。"}, {"en": "Coupon code.", "zh": "优惠码。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w388", "word": "credit card", "phonetic": "/ˈkredɪt kɑːd/", "pos": "n.", "meaning": "信用卡", "examples": [{"en": "Pay with credit card.", "zh": "用信用卡付。"}, {"en": "Lost credit card.", "zh": "丢了信用卡。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["money"]},
+        {"id": "g8w389", "word": "cash", "phonetic": "/kæʃ/", "pos": "n.", "meaning": "现金", "examples": [{"en": "Pay in cash.", "zh": "付现金。"}, {"en": "Out of cash.", "zh": "没现金了。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"]},
+        {"id": "g8w390", "word": "change", "phonetic": "/tʃeɪndʒ/", "pos": "n.", "meaning": "找零", "examples": [{"en": "Keep the change.", "zh": "不用找了。"}, {"en": "Small change.", "zh": "零钱。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["money"]},
+        {"id": "g8w391", "word": "bargain", "phonetic": "/ˈbɑːɡən/", "pos": "v.", "meaning": "讨价还价", "examples": [{"en": "Bargain at the market.", "zh": "在市场讨价还价。"}, {"en": "Don't bargain.", "zh": "别讨价还价。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w392", "word": "afford", "phonetic": "/əˈfɔːd/", "pos": "v.", "meaning": "承担得起", "examples": [{"en": "Can't afford it.", "zh": "买不起。"}, {"en": "Afford a house.", "zh": "买得起房。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w393", "word": "exchange", "phonetic": "/ɪksˈtʃeɪndʒ/", "pos": "v.", "meaning": "交换", "examples": [{"en": "Exchange goods.", "zh": "交换商品。"}, {"en": "Exchange money.", "zh": "换钱。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w394", "word": "refund", "phonetic": "/ˈriːfʌnd/", "pos": "n.", "meaning": "退款", "examples": [{"en": "Get a refund.", "zh": "得到退款。"}, {"en": "Full refund.", "zh": "全额退款。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["money"]},
+        {"id": "g8w395", "word": "fitting room", "phonetic": "/ˈfɪtɪŋ ruːm/", "pos": "n.", "meaning": "试衣间", "examples": [{"en": "Find the fitting room.", "zh": "找试衣间。"}, {"en": "Use the fitting room.", "zh": "用试衣间。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["place"]},
+        {"id": "g8w396", "word": "label", "phonetic": "/ˈleɪbl/", "pos": "n.", "meaning": "标签", "examples": [{"en": "Read the label.", "zh": "看标签。"}, {"en": "Price label.", "zh": "价签。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]}
+      ]
+    },
+    {
+      "unitId": "g8-u34",
+      "unitName": "Unit 34 Friendship",
+      "words": [
+        {"id": "g8w397", "word": "friend", "phonetic": "/frend/", "pos": "n.", "meaning": "朋友", "examples": [{"en": "Best friend.", "zh": "最好的朋友。"}, {"en": "True friend.", "zh": "真朋友。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["people"]},
+        {"id": "g8w398", "word": "trust", "phonetic": "/trʌst/", "pos": "v.", "meaning": "信任", "examples": [{"en": "Trust friends.", "zh": "信任朋友。"}, {"en": "Trust your heart.", "zh": "相信你的心。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w399", "word": "loyal", "phonetic": "/ˈlɔɪəl/", "pos": "adj.", "meaning": "忠诚的", "examples": [{"en": "Loyal friend.", "zh": "忠诚的朋友。"}, {"en": "Loyal dog.", "zh": "忠诚的狗。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w400", "word": "support", "phonetic": "/səˈpɔːt/", "pos": "v.", "meaning": "支持", "examples": [{"en": "Support friends.", "zh": "支持朋友。"}, {"en": "Mom supports me.", "zh": "妈妈支持我。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w401", "word": "share", "phonetic": "/ʃeə(r)/", "pos": "v.", "meaning": "分享", "examples": [{"en": "Share a secret.", "zh": "分享秘密。"}, {"en": "Share food.", "zh": "分享食物。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
+        {"id": "g8w402", "word": "comfort", "phonetic": "/ˈkʌmfət/", "pos": "v.", "meaning": "安慰", "examples": [{"en": "Comfort a friend.", "zh": "安慰朋友。"}, {"en": "Comfort the child.", "zh": "安慰孩子。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w403", "word": "forgive", "phonetic": "/fəˈɡɪv/", "pos": "v.", "meaning": "原谅", "examples": [{"en": "Forgive me.", "zh": "原谅我。"}, {"en": "Forgive friends.", "zh": "原谅朋友。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w404", "word": "promise", "phonetic": "/ˈprɒmɪs/", "pos": "n.", "meaning": "承诺", "examples": [{"en": "Make a promise.", "zh": "做出承诺。"}, {"en": "Keep a promise.", "zh": "信守承诺。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w405", "word": "secret", "phonetic": "/ˈsiːkrət/", "pos": "n.", "meaning": "秘密", "examples": [{"en": "Keep a secret.", "zh": "保守秘密。"}, {"en": "Tell a secret.", "zh": "说秘密。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w406", "word": "company", "phonetic": "/ˈkʌmpəni/", "pos": "n.", "meaning": "陪伴", "examples": [{"en": "Good company.", "zh": "好的陪伴。"}, {"en": "Enjoy your company.", "zh": "享受你的陪伴。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["abstract"]},
+        {"id": "g8w407", "word": "bond", "phonetic": "/bɒnd/", "pos": "n.", "meaning": "纽带", "examples": [{"en": "Strong bond.", "zh": "强烈的纽带。"}, {"en": "Family bond.", "zh": "家人纽带。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w408", "word": "miss", "phonetic": "/mɪs/", "pos": "v.", "meaning": "想念", "examples": [{"en": "Miss friends.", "zh": "想念朋友。"}, {"en": "Miss home.", "zh": "想家。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]}
+      ]
+    },
+    {
+      "unitId": "g8-u35",
+      "unitName": "Unit 35 Cooking",
+      "words": [
+        {"id": "g8w409", "word": "boil", "phonetic": "/bɔɪl/", "pos": "v.", "meaning": "煮", "examples": [{"en": "Boil water.", "zh": "煮水。"}, {"en": "Boil eggs.", "zh": "煮鸡蛋。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w410", "word": "fry", "phonetic": "/fraɪ/", "pos": "v.", "meaning": "煎；炸", "examples": [{"en": "Fry an egg.", "zh": "煎蛋。"}, {"en": "Fry chicken.", "zh": "炸鸡。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w411", "word": "bake", "phonetic": "/beɪk/", "pos": "v.", "meaning": "烘焙", "examples": [{"en": "Bake bread.", "zh": "烤面包。"}, {"en": "Bake a cake.", "zh": "烤蛋糕。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["verb"]},
+        {"id": "g8w412", "word": "steam", "phonetic": "/stiːm/", "pos": "v.", "meaning": "蒸", "examples": [{"en": "Steam fish.", "zh": "蒸鱼。"}, {"en": "Steam vegetables.", "zh": "蒸蔬菜。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w413", "word": "stir", "phonetic": "/stɜː(r)/", "pos": "v.", "meaning": "搅拌", "examples": [{"en": "Stir the soup.", "zh": "搅拌汤。"}, {"en": "Stir well.", "zh": "搅拌均匀。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w414", "word": "chop", "phonetic": "/tʃɒp/", "pos": "v.", "meaning": "切碎", "examples": [{"en": "Chop the onion.", "zh": "切洋葱。"}, {"en": "Chop the wood.", "zh": "劈柴。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w415", "word": "slice", "phonetic": "/slaɪs/", "pos": "v.", "meaning": "切片", "examples": [{"en": "Slice the bread.", "zh": "切面包。"}, {"en": "Slice the cake.", "zh": "切蛋糕。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w416", "word": "grill", "phonetic": "/ɡrɪl/", "pos": "v.", "meaning": "烤", "examples": [{"en": "Grill chicken.", "zh": "烤鸡。"}, {"en": "Grill outdoors.", "zh": "户外烧烤。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["verb"]},
+        {"id": "g8w417", "word": "oven", "phonetic": "/ˈʌvn/", "pos": "n.", "meaning": "烤箱", "examples": [{"en": "Open the oven.", "zh": "打开烤箱。"}, {"en": "Hot oven.", "zh": "热烤箱。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w418", "word": "pan", "phonetic": "/pæn/", "pos": "n.", "meaning": "平底锅", "examples": [{"en": "Frying pan.", "zh": "煎锅。"}, {"en": "Hot pan.", "zh": "热锅。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w419", "word": "pot", "phonetic": "/pɒt/", "pos": "n.", "meaning": "锅", "examples": [{"en": "Big pot.", "zh": "大锅。"}, {"en": "Cooking pot.", "zh": "做饭的锅。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w420", "word": "ingredient", "phonetic": "/ɪnˈɡriːdiənt/", "pos": "n.", "meaning": "原料", "examples": [{"en": "Fresh ingredients.", "zh": "新鲜原料。"}, {"en": "List of ingredients.", "zh": "原料清单。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["food"]}
+      ]
+    },
+    {
+      "unitId": "g8-u36",
+      "unitName": "Unit 36 Personal Items",
+      "words": [
+        {"id": "g8w421", "word": "wallet", "phonetic": "/ˈwɒlɪt/", "pos": "n.", "meaning": "钱包", "examples": [{"en": "Lost wallet.", "zh": "丢了钱包。"}, {"en": "Open the wallet.", "zh": "打开钱包。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w422", "word": "purse", "phonetic": "/pɜːs/", "pos": "n.", "meaning": "钱包；手提包", "examples": [{"en": "Mom's purse.", "zh": "妈妈的钱包。"}, {"en": "Small purse.", "zh": "小钱包。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w423", "word": "umbrella", "phonetic": "/ʌmˈbrelə/", "pos": "n.", "meaning": "雨伞", "examples": [{"en": "Bring an umbrella.", "zh": "带伞。"}, {"en": "Open the umbrella.", "zh": "打开伞。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["object"]},
+        {"id": "g8w424", "word": "glasses", "phonetic": "/ˈɡlɑːsɪz/", "pos": "n.", "meaning": "眼镜", "examples": [{"en": "Wear glasses.", "zh": "戴眼镜。"}, {"en": "Lost glasses.", "zh": "丢了眼镜。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]},
+        {"id": "g8w425", "word": "ring", "phonetic": "/rɪŋ/", "pos": "n.", "meaning": "戒指", "examples": [{"en": "Gold ring.", "zh": "金戒指。"}, {"en": "Wedding ring.", "zh": "结婚戒指。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]},
+        {"id": "g8w426", "word": "necklace", "phonetic": "/ˈnekləs/", "pos": "n.", "meaning": "项链", "examples": [{"en": "Pretty necklace.", "zh": "漂亮的项链。"}, {"en": "Wear a necklace.", "zh": "戴项链。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w427", "word": "earring", "phonetic": "/ˈɪərɪŋ/", "pos": "n.", "meaning": "耳环", "examples": [{"en": "Pearl earrings.", "zh": "珍珠耳环。"}, {"en": "Lost earring.", "zh": "丢了耳环。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w428", "word": "bracelet", "phonetic": "/ˈbreɪslət/", "pos": "n.", "meaning": "手镯", "examples": [{"en": "Silver bracelet.", "zh": "银手镯。"}, {"en": "Wear a bracelet.", "zh": "戴手镯。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["object"]},
+        {"id": "g8w429", "word": "tie", "phonetic": "/taɪ/", "pos": "n.", "meaning": "领带", "examples": [{"en": "Wear a tie.", "zh": "打领带。"}, {"en": "Red tie.", "zh": "红领带。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["clothing"]},
+        {"id": "g8w430", "word": "scarf", "phonetic": "/skɑːf/", "pos": "n.", "meaning": "围巾", "examples": [{"en": "Warm scarf.", "zh": "温暖的围巾。"}, {"en": "Wool scarf.", "zh": "羊毛围巾。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["clothing"]},
+        {"id": "g8w431", "word": "glove", "phonetic": "/ɡlʌv/", "pos": "n.", "meaning": "手套", "examples": [{"en": "Wear gloves.", "zh": "戴手套。"}, {"en": "Warm gloves.", "zh": "温暖的手套。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["clothing"]},
+        {"id": "g8w432", "word": "boot", "phonetic": "/buːt/", "pos": "n.", "meaning": "靴子", "examples": [{"en": "Rain boots.", "zh": "雨靴。"}, {"en": "Snow boots.", "zh": "雪地靴。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["clothing"]}
+      ]
+    },
+    {
+      "unitId": "g8-u37",
+      "unitName": "Unit 37 Movies and Stories",
+      "words": [
+        {"id": "g8w433", "word": "plot", "phonetic": "/plɒt/", "pos": "n.", "meaning": "情节", "examples": [{"en": "Strong plot.", "zh": "情节紧凑。"}, {"en": "Movie plot.", "zh": "电影情节。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w434", "word": "scene", "phonetic": "/siːn/", "pos": "n.", "meaning": "场景", "examples": [{"en": "Funny scene.", "zh": "搞笑场景。"}, {"en": "Final scene.", "zh": "最后一幕。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w435", "word": "director", "phonetic": "/dəˈrektə(r)/", "pos": "n.", "meaning": "导演", "examples": [{"en": "Famous director.", "zh": "著名导演。"}, {"en": "Movie director.", "zh": "电影导演。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["job"]},
+        {"id": "g8w436", "word": "actor", "phonetic": "/ˈæktə(r)/", "pos": "n.", "meaning": "演员", "examples": [{"en": "Lead actor.", "zh": "主角。"}, {"en": "Famous actor.", "zh": "著名演员。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["job"]},
+        {"id": "g8w437", "word": "scene", "phonetic": "/siːn/", "pos": "n.", "meaning": "镜头", "examples": [{"en": "Action scene.", "zh": "动作场面。"}, {"en": "Love scene.", "zh": "爱情场景。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w438", "word": "ending", "phonetic": "/ˈendɪŋ/", "pos": "n.", "meaning": "结局", "examples": [{"en": "Happy ending.", "zh": "美好的结局。"}, {"en": "Sad ending.", "zh": "悲伤的结局。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w439", "word": "trailer", "phonetic": "/ˈtreɪlə(r)/", "pos": "n.", "meaning": "预告片", "examples": [{"en": "Watch the trailer.", "zh": "看预告片。"}, {"en": "Movie trailer.", "zh": "电影预告片。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["entertainment"]},
+        {"id": "g8w440", "word": "review", "phonetic": "/rɪˈvjuː/", "pos": "n.", "meaning": "评论", "examples": [{"en": "Movie review.", "zh": "电影评论。"}, {"en": "Read reviews.", "zh": "看评论。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w441", "word": "rating", "phonetic": "/ˈreɪtɪŋ/", "pos": "n.", "meaning": "评分", "examples": [{"en": "High rating.", "zh": "高评分。"}, {"en": "Movie rating.", "zh": "电影评分。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w442", "word": "subtitle", "phonetic": "/ˈsʌbtaɪtl/", "pos": "n.", "meaning": "字幕", "examples": [{"en": "Read subtitles.", "zh": "看字幕。"}, {"en": "English subtitles.", "zh": "英文字幕。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["abstract"]},
+        {"id": "g8w443", "word": "horror", "phonetic": "/ˈhɒrə(r)/", "pos": "n.", "meaning": "恐怖片", "examples": [{"en": "Horror movie.", "zh": "恐怖电影。"}, {"en": "Hate horror.", "zh": "讨厌恐怖。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["entertainment"]},
+        {"id": "g8w444", "word": "romance", "phonetic": "/ˈrəʊmæns/", "pos": "n.", "meaning": "浪漫爱情片", "examples": [{"en": "Romance movie.", "zh": "爱情电影。"}, {"en": "Sweet romance.", "zh": "甜蜜的爱情。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["entertainment"]}
+      ]
+    },
+    {
+      "unitId": "g8-u38",
+      "unitName": "Unit 38 Adjectives Set",
+      "words": [
+        {"id": "g8w445", "word": "modern", "phonetic": "/ˈmɒdn/", "pos": "adj.", "meaning": "现代的", "examples": [{"en": "Modern art.", "zh": "现代艺术。"}, {"en": "Modern life.", "zh": "现代生活。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w446", "word": "traditional", "phonetic": "/trəˈdɪʃənl/", "pos": "adj.", "meaning": "传统的", "examples": [{"en": "Traditional food.", "zh": "传统食物。"}, {"en": "Traditional dress.", "zh": "传统服装。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w447", "word": "natural", "phonetic": "/ˈnætʃrəl/", "pos": "adj.", "meaning": "自然的", "examples": [{"en": "Natural beauty.", "zh": "自然美。"}, {"en": "Natural food.", "zh": "天然食品。"}], "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w448", "word": "artificial", "phonetic": "/ˌɑːtɪˈfɪʃl/", "pos": "adj.", "meaning": "人造的", "examples": [{"en": "Artificial flower.", "zh": "人造花。"}, {"en": "Artificial light.", "zh": "人造光。"}], "synonyms": [], "antonyms": ["natural"], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w449", "word": "real", "phonetic": "/rɪəl/", "pos": "adj.", "meaning": "真实的", "examples": [{"en": "Real story.", "zh": "真实故事。"}, {"en": "Real friend.", "zh": "真朋友。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w450", "word": "fake", "phonetic": "/feɪk/", "pos": "adj.", "meaning": "假的", "examples": [{"en": "Fake news.", "zh": "假新闻。"}, {"en": "Fake gold.", "zh": "假金。"}], "synonyms": [], "antonyms": ["real"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w451", "word": "rare", "phonetic": "/reə(r)/", "pos": "adj.", "meaning": "稀有的", "examples": [{"en": "Rare animal.", "zh": "稀有动物。"}, {"en": "Rare event.", "zh": "罕见事件。"}], "synonyms": [], "antonyms": ["common"], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w452", "word": "common", "phonetic": "/ˈkɒmən/", "pos": "adj.", "meaning": "普通的", "examples": [{"en": "Common name.", "zh": "常见的名字。"}, {"en": "Common bird.", "zh": "常见的鸟。"}], "synonyms": [], "antonyms": ["rare"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w453", "word": "useful", "phonetic": "/ˈjuːsfl/", "pos": "adj.", "meaning": "有用的", "examples": [{"en": "Useful book.", "zh": "有用的书。"}, {"en": "Useful tool.", "zh": "有用的工具。"}], "synonyms": [], "antonyms": ["useless"], "difficulty": 3, "tags": ["adjective"]},
+        {"id": "g8w454", "word": "useless", "phonetic": "/ˈjuːsləs/", "pos": "adj.", "meaning": "无用的", "examples": [{"en": "Useless work.", "zh": "无用的工作。"}, {"en": "Useless thing.", "zh": "无用的东西。"}], "synonyms": [], "antonyms": ["useful"], "difficulty": 4, "tags": ["adjective"]},
+        {"id": "g8w455", "word": "clear", "phonetic": "/klɪə(r)/", "pos": "adj.", "meaning": "清楚的", "examples": [{"en": "Clear voice.", "zh": "清晰的声音。"}, {"en": "Clear sky.", "zh": "晴朗的天空。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g8w456", "word": "complex", "phonetic": "/ˈkɒmpleks/", "pos": "adj.", "meaning": "复杂的", "examples": [{"en": "Complex problem.", "zh": "复杂的问题。"}, {"en": "Complex idea.", "zh": "复杂的想法。"}], "synonyms": [], "antonyms": ["simple"], "difficulty": 4, "tags": ["adjective"]}
       ]
     }
   ]
