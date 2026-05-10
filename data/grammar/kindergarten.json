@@ -139,6 +139,150 @@
         {"question": "选正确: ", "options": ["This is mom my.", "This is my mom.", "This my is mom.", "This are my mom."], "answer": 1, "explanation": "正确语序是 This is my mom.。"},
         {"question": "This is = ", "options": ["This are", "this's (不常用)", "These is", "Those are"], "answer": 1, "explanation": "This is 通常不缩写,口语中偶尔说 this's 但书写很少用。"}
       ]
+    },
+    {
+      "id": "gk-007",
+      "title": "复数: 一个和很多个",
+      "grade": [1, 2],
+      "summary": "一个东西用 a/an，多个要在名词后加 s。",
+      "rules": [
+        "一个: a cat / a dog / an apple",
+        "两个或更多: two cats / three dogs / many apples",
+        "名词后加 -s 变复数",
+        "辅音开头用 a，元音开头用 an"
+      ],
+      "examples": [
+        {"en": "a cat", "zh": "一只猫"},
+        {"en": "two cats", "zh": "两只猫"},
+        {"en": "three apples", "zh": "三个苹果"}
+      ],
+      "quiz": [
+        {"question": "I have a ___.", "options": ["cat", "cats", "two cat", "an cat"], "answer": 0, "explanation": "a 后面用单数 cat。"},
+        {"question": "Two ___.", "options": ["dog", "dogs", "a dog", "an dog"], "answer": 1, "explanation": "two 后面用复数 dogs。"},
+        {"question": "Three ___.", "options": ["apple", "apples", "a apple", "an apple"], "answer": 1, "explanation": "three 后面用复数 apples。"},
+        {"question": "I see ___ bird.", "options": ["a", "an", "two", "many"], "answer": 0, "explanation": "bird 单数辅音开头用 a。"},
+        {"question": "I see ___ egg.", "options": ["a", "an", "two egg", "many egg"], "answer": 1, "explanation": "egg 元音开头用 an。"}
+      ]
+    },
+    {
+      "id": "gk-008",
+      "title": "颜色描述: The X is + 颜色",
+      "grade": [1, 2],
+      "summary": "用 The X is + 颜色 来描述东西的颜色。",
+      "rules": [
+        "结构: The + 名词 + is + 颜色",
+        "The apple is red. = 苹果是红色的",
+        "也可以说: It is red.",
+        "颜色词放在 is 后面"
+      ],
+      "examples": [
+        {"en": "The apple is red.", "zh": "苹果是红色的。"},
+        {"en": "The sky is blue.", "zh": "天是蓝色的。"},
+        {"en": "The cat is black.", "zh": "猫是黑色的。"}
+      ],
+      "quiz": [
+        {"question": "The apple ___ red.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "The apple 是单数，用 is。"},
+        {"question": "The sky is ___.", "options": ["blue", "a blue", "blues", "is blue"], "answer": 0, "explanation": "is 后面直接加颜色词。"},
+        {"question": "选正确的: ", "options": ["The cat is black.", "The cat black.", "The cat are black.", "Cat is black the."], "answer": 0, "explanation": "正确语序: The + 名词 + is + 颜色。"},
+        {"question": "___ is yellow.", "options": ["The sun", "Sun the", "Sun is", "The is sun"], "answer": 0, "explanation": "主语是 The sun。"},
+        {"question": "The grape is ___.", "options": ["a purple", "purple", "purples", "is purple"], "answer": 1, "explanation": "is 后直接加颜色 purple。"}
+      ]
+    },
+    {
+      "id": "gk-009",
+      "title": "How many...? 数数",
+      "grade": [1, 2],
+      "summary": "用 How many 问数量，回答用数字+复数名词。",
+      "rules": [
+        "结构: How many + 复数名词?",
+        "How many apples? = 多少个苹果?",
+        "回答: 数字 + 复数名词",
+        "Five apples. = 五个苹果"
+      ],
+      "examples": [
+        {"en": "How many apples?", "zh": "多少个苹果？"},
+        {"en": "Five apples.", "zh": "五个苹果。"},
+        {"en": "How many cats? Two cats.", "zh": "多少只猫？两只猫。"}
+      ],
+      "quiz": [
+        {"question": "How ___ apples?", "options": ["much", "many", "is", "are"], "answer": 1, "explanation": "数可数名词用 many。"},
+        {"question": "How many ___?", "options": ["dog", "dogs", "a dog", "is dog"], "answer": 1, "explanation": "How many 后面用复数 dogs。"},
+        {"question": "How many cats? — ___ cats.", "options": ["A", "Three", "Cat", "Is"], "answer": 1, "explanation": "回答用数字 + 复数。"},
+        {"question": "How many ___ in your bag?", "options": ["book", "books", "a book", "is book"], "answer": 1, "explanation": "How many 后接复数。"},
+        {"question": "选正确的回答: How many fish?", "options": ["Three.", "A fish.", "Fish.", "Yes."], "answer": 0, "explanation": "回答数量用数字。"}
+      ]
+    },
+    {
+      "id": "gk-010",
+      "title": "What's this? 这是什么",
+      "grade": [1, 2],
+      "summary": "用 What's this? 问近处的东西，回答用 It's a/an + 名词。",
+      "rules": [
+        "What's this? = 这是什么?",
+        "What's = What is",
+        "回答: It's a/an + 名词",
+        "It's = It is"
+      ],
+      "examples": [
+        {"en": "What's this? It's a cat.", "zh": "这是什么？是一只猫。"},
+        {"en": "What's this? It's an apple.", "zh": "这是什么？是一个苹果。"},
+        {"en": "What's this? It's a pen.", "zh": "这是什么？是一支笔。"}
+      ],
+      "quiz": [
+        {"question": "What's ___? — It's a cat.", "options": ["this", "these", "those", "they"], "answer": 0, "explanation": "近处单个用 this。"},
+        {"question": "What's this? — ___ a dog.", "options": ["It's", "Its", "It is's", "Is"], "answer": 0, "explanation": "It is 缩写为 It's。"},
+        {"question": "What's this? — It's ___ egg.", "options": ["a", "an", "two", "is"], "answer": 1, "explanation": "egg 元音开头用 an。"},
+        {"question": "What's this? — It's ___ book.", "options": ["a", "an", "two", "is"], "answer": 0, "explanation": "book 辅音开头用 a。"},
+        {"question": "What's = ___", "options": ["What is", "What are", "What it", "Whats"], "answer": 0, "explanation": "What's 是 What is 的缩写。"}
+      ]
+    },
+    {
+      "id": "gk-011",
+      "title": "Look at... / Listen to... 看/听",
+      "grade": [1, 2],
+      "summary": "用 Look at + 东西 / Listen to + 声音，让别人看或听。",
+      "rules": [
+        "Look at + 名词 = 看...",
+        "Listen to + 名词 = 听...",
+        "这种句子叫祈使句，开头不用主语",
+        "请别人时可以加 please"
+      ],
+      "examples": [
+        {"en": "Look at me!", "zh": "看我！"},
+        {"en": "Listen to Mom.", "zh": "听妈妈的。"},
+        {"en": "Look at the cat.", "zh": "看那只猫。"}
+      ],
+      "quiz": [
+        {"question": "___ at me!", "options": ["Look", "See", "Listen", "Hear"], "answer": 0, "explanation": "看用 Look at。"},
+        {"question": "Listen ___ Mom.", "options": ["at", "to", "in", "on"], "answer": 1, "explanation": "Listen 后面用 to。"},
+        {"question": "Look ___ the bird.", "options": ["at", "to", "in", "on"], "answer": 0, "explanation": "Look 后面用 at。"},
+        {"question": "选正确的: ", "options": ["Look me at!", "Look at me!", "I look at!", "At look me!"], "answer": 1, "explanation": "正确语序是 Look at + 人。"},
+        {"question": "___ to the song.", "options": ["Look", "Listen", "See", "Read"], "answer": 1, "explanation": "听歌用 Listen to。"}
+      ]
+    },
+    {
+      "id": "gk-012",
+      "title": "Are you...? Yes/No 一般疑问",
+      "grade": [1, 2],
+      "summary": "用 Are you...? 问对方是不是，回答用 Yes, I am. 或 No, I'm not.",
+      "rules": [
+        "Are you + 名词/形容词?",
+        "Are you Tom? = 你是汤姆吗?",
+        "肯定回答: Yes, I am.",
+        "否定回答: No, I'm not."
+      ],
+      "examples": [
+        {"en": "Are you Tom? Yes, I am.", "zh": "你是汤姆吗？是的，我是。"},
+        {"en": "Are you happy? Yes, I am.", "zh": "你开心吗？是的。"},
+        {"en": "Are you six? No, I'm not.", "zh": "你六岁吗？不，我不是。"}
+      ],
+      "quiz": [
+        {"question": "___ you Tom?", "options": ["Am", "Is", "Are", "Be"], "answer": 2, "explanation": "you 后面用 are，疑问句把 are 提前。"},
+        {"question": "Are you happy? — Yes, ___.", "options": ["I am", "you are", "I is", "I be"], "answer": 0, "explanation": "肯定回答用 Yes, I am。"},
+        {"question": "Are you Lily? — No, ___.", "options": ["I am", "I'm not", "you not", "I not"], "answer": 1, "explanation": "否定回答用 No, I'm not。"},
+        {"question": "选正确的疑问句", "options": ["You are Tom?", "Are you Tom?", "Tom you are?", "Is you Tom?"], "answer": 1, "explanation": "疑问句把 Are 放最前。"},
+        {"question": "Are you a boy? — ___, I am.", "options": ["Yes", "No", "Not", "I"], "answer": 0, "explanation": "肯定回答用 Yes。"}
+      ]
     }
   ]
 }

@@ -80,6 +80,166 @@
         {"type": "choice", "q": "How often does the writer play?", "options": ["Sometimes", "Never", "Every day", "On Sundays"], "answer": 2}
       ],
       "keyWords": ["toys", "ball", "car", "doll", "play"]
+    },
+    {
+      "id": "rk-006",
+      "title": "My Dog",
+      "grade": 1,
+      "lexile": 105,
+      "wordCount": 32,
+      "category": "story",
+      "content": "I have a dog. It is brown. It is big. It can run fast. It can jump high. I love my dog. My dog loves me.",
+      "translation": "我有一只狗。它是棕色的。它很大。它能跑得快。它能跳得高。我爱我的狗。我的狗也爱我。",
+      "questions": [
+        {"type": "choice", "q": "What color is the dog?", "options": ["White", "Brown", "Black", "Red"], "answer": 1},
+        {"type": "choice", "q": "What can the dog do?", "options": ["Sing", "Fly", "Run fast", "Read"], "answer": 2},
+        {"type": "choice", "q": "Is the dog big or small?", "options": ["Big", "Small", "Tiny", "Short"], "answer": 0}
+      ],
+      "keyWords": ["dog", "brown", "run", "jump", "love"]
+    },
+    {
+      "id": "rk-007",
+      "title": "Apples Are Red",
+      "grade": 1,
+      "lexile": 95,
+      "wordCount": 28,
+      "category": "nature",
+      "content": "Apples are red. Bananas are yellow. Pears are green. Grapes are purple. I like fruit. Fruit is sweet. I eat fruit every day.",
+      "translation": "苹果是红色的。香蕉是黄色的。梨是绿色的。葡萄是紫色的。我喜欢水果。水果是甜的。我每天都吃水果。",
+      "questions": [
+        {"type": "choice", "q": "What color are bananas?", "options": ["Red", "Yellow", "Green", "Purple"], "answer": 1},
+        {"type": "choice", "q": "What color are grapes?", "options": ["Red", "Yellow", "Green", "Purple"], "answer": 3},
+        {"type": "choice", "q": "How does fruit taste?", "options": ["Sour", "Salty", "Sweet", "Hot"], "answer": 2}
+      ],
+      "keyWords": ["apple", "banana", "fruit", "sweet", "color"]
+    },
+    {
+      "id": "rk-008",
+      "title": "I Like Animals",
+      "grade": 1,
+      "lexile": 110,
+      "wordCount": 35,
+      "category": "nature",
+      "content": "I like animals. I like cats. They are cute. I like pandas. They eat bamboo. I like birds. They can fly. I like fish. They can swim.",
+      "translation": "我喜欢动物。我喜欢猫。它们很可爱。我喜欢熊猫。它们吃竹子。我喜欢鸟。它们会飞。我喜欢鱼。它们会游泳。",
+      "questions": [
+        {"type": "choice", "q": "What do pandas eat?", "options": ["Fish", "Meat", "Bamboo", "Apples"], "answer": 2},
+        {"type": "choice", "q": "What can birds do?", "options": ["Swim", "Fly", "Run", "Read"], "answer": 1},
+        {"type": "choice", "q": "What can fish do?", "options": ["Fly", "Sing", "Swim", "Jump"], "answer": 2}
+      ],
+      "keyWords": ["animal", "cat", "panda", "bird", "fish"]
+    },
+    {
+      "id": "rk-009",
+      "title": "A Day at School",
+      "grade": 2,
+      "lexile": 130,
+      "wordCount": 38,
+      "category": "life",
+      "content": "I go to school. I see my teacher. I see my friends. We read books. We sing songs. We play games. School is fun. I like my school.",
+      "translation": "我去学校。我看见我的老师。我看见我的朋友。我们读书。我们唱歌。我们玩游戏。学校很有趣。我喜欢我的学校。",
+      "questions": [
+        {"type": "choice", "q": "Who does I see at school?", "options": ["Mom and Dad", "Teacher and friends", "Brother", "Baby"], "answer": 1},
+        {"type": "choice", "q": "What do they do at school?", "options": ["Sleep", "Eat only", "Read, sing, play", "Cry"], "answer": 2},
+        {"type": "choice", "q": "How does the writer feel about school?", "options": ["Sad", "Boring", "Fun", "Tired"], "answer": 2}
+      ],
+      "keyWords": ["school", "teacher", "friend", "read", "fun"]
+    },
+    {
+      "id": "rk-010",
+      "title": "My Mom",
+      "grade": 1,
+      "lexile": 110,
+      "wordCount": 33,
+      "category": "story",
+      "content": "This is my mom. She is kind. She is nice. She can sing. She can cook. She loves me. I love my mom. Mom is the best.",
+      "translation": "这是我妈妈。她很善良。她人很好。她会唱歌。她会做饭。她爱我。我爱我的妈妈。妈妈是最棒的。",
+      "questions": [
+        {"type": "choice", "q": "What can mom do?", "options": ["Fly and swim", "Sing and cook", "Run only", "Drive"], "answer": 1},
+        {"type": "choice", "q": "How is mom?", "options": ["Mean", "Kind and nice", "Sad", "Tired"], "answer": 1},
+        {"type": "choice", "q": "Who loves me?", "options": ["Dad", "Mom", "Cat", "Friend"], "answer": 1}
+      ],
+      "keyWords": ["mom", "kind", "sing", "cook", "love"]
+    },
+    {
+      "id": "rk-011",
+      "title": "Numbers I Know",
+      "grade": 2,
+      "lexile": 115,
+      "wordCount": 30,
+      "category": "life",
+      "content": "I can count. One, two, three. I have three pens. Four, five, six. I have six books. Seven, eight, nine, ten. I can count to ten!",
+      "translation": "我会数数。一，二，三。我有三支笔。四，五，六。我有六本书。七，八，九，十。我能数到十！",
+      "questions": [
+        {"type": "choice", "q": "How many pens does the writer have?", "options": ["One", "Two", "Three", "Six"], "answer": 2},
+        {"type": "choice", "q": "How many books does the writer have?", "options": ["Three", "Four", "Five", "Six"], "answer": 3},
+        {"type": "choice", "q": "How high can the writer count?", "options": ["Five", "Eight", "Ten", "Twenty"], "answer": 2}
+      ],
+      "keyWords": ["count", "number", "pen", "book", "ten"]
+    },
+    {
+      "id": "rk-012",
+      "title": "I Can Run",
+      "grade": 2,
+      "lexile": 120,
+      "wordCount": 32,
+      "category": "story",
+      "content": "I can run. I run fast. I run with my dog. We run in the park. The park is big. We are happy. I love to run.",
+      "translation": "我会跑。我跑得快。我和我的狗一起跑。我们在公园里跑。公园很大。我们很开心。我喜欢跑步。",
+      "questions": [
+        {"type": "choice", "q": "Where do they run?", "options": ["At home", "In the park", "At school", "On the bed"], "answer": 1},
+        {"type": "choice", "q": "Who runs with me?", "options": ["My cat", "My dog", "My mom", "My friend"], "answer": 1},
+        {"type": "choice", "q": "How do they feel?", "options": ["Sad", "Tired", "Happy", "Angry"], "answer": 2}
+      ],
+      "keyWords": ["run", "fast", "dog", "park", "happy"]
+    },
+    {
+      "id": "rk-013",
+      "title": "A Sunny Day",
+      "grade": 2,
+      "lexile": 125,
+      "wordCount": 35,
+      "category": "nature",
+      "content": "Today is a sunny day. The sun is bright. The sky is blue. I see white clouds. I am happy. I go to the park. I play with my friends.",
+      "translation": "今天是晴天。太阳很亮。天空是蓝的。我看见白云。我很开心。我去公园。我和朋友们玩。",
+      "questions": [
+        {"type": "choice", "q": "What color is the sky?", "options": ["Red", "Blue", "Yellow", "Green"], "answer": 1},
+        {"type": "choice", "q": "What color are the clouds?", "options": ["Black", "Gray", "White", "Pink"], "answer": 2},
+        {"type": "choice", "q": "Where does the writer go?", "options": ["School", "Home", "Park", "Shop"], "answer": 2}
+      ],
+      "keyWords": ["sun", "sky", "cloud", "park", "play"]
+    },
+    {
+      "id": "rk-014",
+      "title": "My Bag",
+      "grade": 2,
+      "lexile": 120,
+      "wordCount": 33,
+      "category": "life",
+      "content": "I have a new bag. It is blue. It is big. I have a book in my bag. I have a pen. I have a ruler. I love my bag.",
+      "translation": "我有一个新书包。它是蓝色的。它很大。我书包里有一本书。我有一支笔。我有一把尺子。我爱我的书包。",
+      "questions": [
+        {"type": "choice", "q": "What color is the bag?", "options": ["Red", "Blue", "Yellow", "Green"], "answer": 1},
+        {"type": "choice", "q": "Is the bag new or old?", "options": ["New", "Old", "Big and old", "Small"], "answer": 0},
+        {"type": "choice", "q": "What is NOT in the bag?", "options": ["Book", "Pen", "Ruler", "Apple"], "answer": 3}
+      ],
+      "keyWords": ["bag", "blue", "book", "pen", "ruler"]
+    },
+    {
+      "id": "rk-015",
+      "title": "Big and Small",
+      "grade": 2,
+      "lexile": 130,
+      "wordCount": 36,
+      "category": "life",
+      "content": "An elephant is big. A mouse is small. A house is big. A box is small. My dad is big. My baby brother is small. I am in the middle.",
+      "translation": "大象很大。老鼠很小。房子很大。盒子很小。我爸爸很高大。我的小弟弟很小。我在中间。",
+      "questions": [
+        {"type": "choice", "q": "What is small?", "options": ["Elephant", "House", "Mouse", "Dad"], "answer": 2},
+        {"type": "choice", "q": "Is dad big or small?", "options": ["Big", "Small", "Tiny", "Short"], "answer": 0},
+        {"type": "choice", "q": "Where is I?", "options": ["At the top", "In the middle", "At home", "At school"], "answer": 1}
+      ],
+      "keyWords": ["big", "small", "elephant", "mouse", "dad"]
     }
   ]
 }
