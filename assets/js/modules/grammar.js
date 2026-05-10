@@ -5,7 +5,7 @@ import { playSound } from '../speech.js';
 
 export async function renderGrammarPage(app, params) {
   const profile = storage.getProfile();
-  const level = profile.grade <= 6 ? 'primary' : 'junior';
+  const level = profile.grade <= 2 ? 'kindergarten' : profile.grade <= 6 ? 'primary' : 'junior';
   const data = await loadJSON(`data/grammar/${level}.json`);
   if (!data) {
     app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';
@@ -22,7 +22,7 @@ export async function renderGrammarPage(app, params) {
       <button id="backBtn" class="text-2xl">‹</button>
       <h2 class="text-xl font-bold">🎓 语法学院</h2>
     </div>
-    <div class="text-xs text-gray-500 mb-3">${level === 'primary' ? '小学语法' : '初中语法'} · 共 ${data.topics.length} 个语法点</div>
+    <div class="text-xs text-gray-500 mb-3">${level === 'kindergarten' ? '启蒙句型' : level === 'primary' ? '小学语法' : '初中语法'} · 共 ${data.topics.length} 个语法点</div>
 
     <div class="space-y-2">
       ${data.topics.map(t => `

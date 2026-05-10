@@ -1,0 +1,72 @@
+{
+  "grade": 2,
+  "totalWords": 30,
+  "units": [
+    {
+      "unitId": "g2-u1",
+      "unitName": "Unit 1 Greetings",
+      "words": [
+        {"id": "g2w001", "word": "good", "phonetic": "/ɡʊd/", "pos": "adj.", "meaning": "好的", "examples": [{"en": "Good morning!", "zh": "早上好！"}, {"en": "It is good.", "zh": "这很好。"}], "synonyms": ["nice"], "antonyms": ["bad"], "difficulty": 1, "tags": ["greeting"]},
+        {"id": "g2w002", "word": "morning", "phonetic": "/ˈmɔːnɪŋ/", "pos": "n.", "meaning": "早晨", "examples": [{"en": "Good morning!", "zh": "早上好！"}, {"en": "In the morning.", "zh": "在早上。"}], "synonyms": [], "antonyms": ["evening"], "difficulty": 1, "tags": ["time"]},
+        {"id": "g2w003", "word": "thank", "phonetic": "/θæŋk/", "pos": "v.", "meaning": "谢谢", "examples": [{"en": "Thank you!", "zh": "谢谢你！"}, {"en": "Thank you, Mom.", "zh": "谢谢，妈妈。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["greeting"]},
+        {"id": "g2w004", "word": "please", "phonetic": "/pliːz/", "pos": "adv.", "meaning": "请", "examples": [{"en": "Sit down, please.", "zh": "请坐下。"}, {"en": "Please come.", "zh": "请过来。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["polite"]},
+        {"id": "g2w005", "word": "yes", "phonetic": "/jes/", "pos": "adv.", "meaning": "是的", "examples": [{"en": "Yes, I am.", "zh": "是的，我是。"}, {"en": "Yes, please.", "zh": "好的，请。"}], "synonyms": [], "antonyms": ["no"], "difficulty": 1, "tags": ["answer"]}
+      ]
+    },
+    {
+      "unitId": "g2-u2",
+      "unitName": "Unit 2 Numbers 6-12",
+      "words": [
+        {"id": "g2w006", "word": "six", "phonetic": "/sɪks/", "pos": "num.", "meaning": "六", "examples": [{"en": "Six pencils.", "zh": "六支铅笔。"}, {"en": "I am six.", "zh": "我六岁。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g2w007", "word": "seven", "phonetic": "/ˈsevn/", "pos": "num.", "meaning": "七", "examples": [{"en": "Seven days.", "zh": "七天。"}, {"en": "Seven cars.", "zh": "七辆车。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g2w008", "word": "eight", "phonetic": "/eɪt/", "pos": "num.", "meaning": "八", "examples": [{"en": "Eight kids.", "zh": "八个孩子。"}, {"en": "It is eight.", "zh": "现在是八点。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g2w009", "word": "nine", "phonetic": "/naɪn/", "pos": "num.", "meaning": "九", "examples": [{"en": "Nine balls.", "zh": "九个球。"}, {"en": "I have nine.", "zh": "我有九个。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g2w010", "word": "ten", "phonetic": "/ten/", "pos": "num.", "meaning": "十", "examples": [{"en": "Ten fingers.", "zh": "十个手指。"}, {"en": "I have ten.", "zh": "我有十个。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]}
+      ]
+    },
+    {
+      "unitId": "g2-u3",
+      "unitName": "Unit 3 Food",
+      "words": [
+        {"id": "g2w011", "word": "apple", "phonetic": "/ˈæpl/", "pos": "n.", "meaning": "苹果", "examples": [{"en": "An apple.", "zh": "一个苹果。"}, {"en": "I like apples.", "zh": "我喜欢苹果。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g2w012", "word": "banana", "phonetic": "/bəˈnɑːnə/", "pos": "n.", "meaning": "香蕉", "examples": [{"en": "A banana.", "zh": "一根香蕉。"}, {"en": "Yellow banana.", "zh": "黄色的香蕉。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g2w013", "word": "cake", "phonetic": "/keɪk/", "pos": "n.", "meaning": "蛋糕", "examples": [{"en": "A big cake.", "zh": "一个大蛋糕。"}, {"en": "I love cake.", "zh": "我爱蛋糕。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g2w014", "word": "milk", "phonetic": "/mɪlk/", "pos": "n.", "meaning": "牛奶", "examples": [{"en": "Milk is good.", "zh": "牛奶很好。"}, {"en": "I drink milk.", "zh": "我喝牛奶。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g2w015", "word": "egg", "phonetic": "/eɡ/", "pos": "n.", "meaning": "鸡蛋", "examples": [{"en": "An egg.", "zh": "一个鸡蛋。"}, {"en": "I eat eggs.", "zh": "我吃鸡蛋。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]}
+      ]
+    },
+    {
+      "unitId": "g2-u4",
+      "unitName": "Unit 4 Toys",
+      "words": [
+        {"id": "g2w016", "word": "toy", "phonetic": "/tɔɪ/", "pos": "n.", "meaning": "玩具", "examples": [{"en": "My toy.", "zh": "我的玩具。"}, {"en": "I love toys.", "zh": "我喜欢玩具。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["toy"]},
+        {"id": "g2w017", "word": "ball", "phonetic": "/bɔːl/", "pos": "n.", "meaning": "球", "examples": [{"en": "A red ball.", "zh": "一个红球。"}, {"en": "Pass the ball.", "zh": "传球。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["toy"]},
+        {"id": "g2w018", "word": "doll", "phonetic": "/dɒl/", "pos": "n.", "meaning": "娃娃", "examples": [{"en": "A pink doll.", "zh": "一个粉娃娃。"}, {"en": "My doll.", "zh": "我的娃娃。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["toy"]},
+        {"id": "g2w019", "word": "kite", "phonetic": "/kaɪt/", "pos": "n.", "meaning": "风筝", "examples": [{"en": "A kite.", "zh": "一只风筝。"}, {"en": "Fly a kite.", "zh": "放风筝。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["toy"]},
+        {"id": "g2w020", "word": "car", "phonetic": "/kɑː/", "pos": "n.", "meaning": "小汽车", "examples": [{"en": "A toy car.", "zh": "玩具车。"}, {"en": "Red car.", "zh": "红色小车。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["toy"]}
+      ]
+    },
+    {
+      "unitId": "g2-u5",
+      "unitName": "Unit 5 At School",
+      "words": [
+        {"id": "g2w021", "word": "book", "phonetic": "/bʊk/", "pos": "n.", "meaning": "书", "examples": [{"en": "A book.", "zh": "一本书。"}, {"en": "My book.", "zh": "我的书。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
+        {"id": "g2w022", "word": "pen", "phonetic": "/pen/", "pos": "n.", "meaning": "笔", "examples": [{"en": "A blue pen.", "zh": "一支蓝笔。"}, {"en": "My pen.", "zh": "我的笔。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
+        {"id": "g2w023", "word": "bag", "phonetic": "/bæɡ/", "pos": "n.", "meaning": "包", "examples": [{"en": "A big bag.", "zh": "一个大包。"}, {"en": "My bag.", "zh": "我的包。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
+        {"id": "g2w024", "word": "desk", "phonetic": "/desk/", "pos": "n.", "meaning": "课桌", "examples": [{"en": "My desk.", "zh": "我的课桌。"}, {"en": "On the desk.", "zh": "在课桌上。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
+        {"id": "g2w025", "word": "chair", "phonetic": "/tʃeə/", "pos": "n.", "meaning": "椅子", "examples": [{"en": "A chair.", "zh": "一把椅子。"}, {"en": "Sit on the chair.", "zh": "坐在椅子上。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]}
+      ]
+    },
+    {
+      "unitId": "g2-u6",
+      "unitName": "Unit 6 Actions",
+      "words": [
+        {"id": "g2w026", "word": "run", "phonetic": "/rʌn/", "pos": "v.", "meaning": "跑", "examples": [{"en": "I can run.", "zh": "我能跑。"}, {"en": "Run fast!", "zh": "跑快点！"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]},
+        {"id": "g2w027", "word": "jump", "phonetic": "/dʒʌmp/", "pos": "v.", "meaning": "跳", "examples": [{"en": "I can jump.", "zh": "我能跳。"}, {"en": "Jump high!", "zh": "跳高些！"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]},
+        {"id": "g2w028", "word": "sing", "phonetic": "/sɪŋ/", "pos": "v.", "meaning": "唱", "examples": [{"en": "I can sing.", "zh": "我会唱歌。"}, {"en": "Sing a song.", "zh": "唱首歌。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]},
+        {"id": "g2w029", "word": "dance", "phonetic": "/dɑːns/", "pos": "v.", "meaning": "跳舞", "examples": [{"en": "I can dance.", "zh": "我会跳舞。"}, {"en": "Let's dance!", "zh": "我们跳舞吧！"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]},
+        {"id": "g2w030", "word": "eat", "phonetic": "/iːt/", "pos": "v.", "meaning": "吃", "examples": [{"en": "I eat an apple.", "zh": "我吃苹果。"}, {"en": "Eat your food.", "zh": "吃你的饭。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]}
+      ]
+    }
+  ]
+}

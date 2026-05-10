@@ -87,7 +87,7 @@ function updateTopNav() {
 }
 
 function gradeLabel(g) {
-  const map = { 3: '三年级', 4: '四年级', 5: '五年级', 6: '六年级', 7: '七年级', 8: '八年级', 9: '九年级' };
+  const map = { 1: '一年级', 2: '二年级', 3: '三年级', 4: '四年级', 5: '五年级', 6: '六年级', 7: '七年级', 8: '八年级', 9: '九年级' };
   return map[g] || `${g}年级`;
 }
 
@@ -290,7 +290,7 @@ async function renderMistakes(app) {
 
   // 加载所有年级的词找出错词
   const wordMap = {};
-  for (let g = 3; g <= 9; g++) {
+  for (let g = 1; g <= 9; g++) {
     const data = await loadJSON(`data/words/grade${g}.json`);
     if (!data) continue;
     data.units.forEach(u => u.words.forEach(w => { wordMap[w.id] = { ...w, grade: g }; }));
@@ -522,14 +522,18 @@ function showGradePicker() {
   showModal(`
     <div class="p-6">
       <h3 class="font-bold text-lg text-center mb-4">选择你的年级</h3>
-      <div class="grid grid-cols-2 gap-3">
-        ${[3,4,5,6,7,8,9].map(g => `
-          <button data-grade="${g}" class="card-cartoon tap-bounce ${profile.grade===g?'ring-2 ring-primary':''}">
-            <div class="text-3xl text-center">${g <= 6 ? '📗' : '📘'}</div>
-            <div class="text-center font-bold mt-1">${gradeLabel(g)}</div>
-            <div class="text-center text-[10px] text-gray-500">${g <= 6 ? '小学' : '初中'}</div>
-          </button>
-        `).join('')}
+      <div class="grid grid-cols-3 gap-2">
+        ${[1,2,3,4,5,6,7,8,9].map(g => {
+          const stage = g <= 2 ? '学前' : g <= 6 ? '小学' : '初中';
+          const icon = g <= 2 ? '🌱' : g <= 6 ? '📗' : '📘';
+          return `
+            <button data-grade="${g}" class="card-cartoon tap-bounce ${profile.grade===g?'ring-2 ring-primary':''}" style="padding:10px 6px">
+              <div class="text-2xl text-center">${icon}</div>
+              <div class="text-center font-bold mt-1 text-sm">${gradeLabel(g)}</div>
+              <div class="text-center text-[10px] text-gray-500">${stage}</div>
+            </button>
+          `;
+        }).join('')}
       </div>
     </div>
   `);
@@ -585,13 +589,16 @@ function showFirstLaunchWelcome() {
       <div class="text-6xl mb-3">🦊</div>
       <h3 class="font-bold text-xl mb-2">欢迎来到英语奇遇记！</h3>
       <p class="text-sm text-gray-600 mb-4">先告诉我你在读几年级，我会帮你匹配最合适的内容</p>
-      <div class="grid grid-cols-2 gap-2 mb-4">
-        ${[3,4,5,6,7,8,9].map(g => `
-          <button data-grade="${g}" class="card-cartoon tap-bounce">
-            <div class="text-2xl">${g <= 6 ? '📗' : '📘'}</div>
-            <div class="font-bold text-sm">${gradeLabel(g)}</div>
-          </button>
-        `).join('')}
+      <div class="grid grid-cols-3 gap-2 mb-4">
+        ${[1,2,3,4,5,6,7,8,9].map(g => {
+          const icon = g <= 2 ? '🌱' : g <= 6 ? '📗' : '📘';
+          return `
+            <button data-grade="${g}" class="card-cartoon tap-bounce" style="padding:10px 4px">
+              <div class="text-xl">${icon}</div>
+              <div class="font-bold text-xs">${gradeLabel(g)}</div>
+            </button>
+          `;
+        }).join('')}
       </div>
       <p class="text-xs text-gray-400">之后可以在右上角随时切换</p>
     </div>
@@ -609,7 +616,22 @@ function showFirstLaunchWelcome() {
 
 // 等 DOM 就绪
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', bootstrap);
+  document.addEventListener('DOMContentLoaded', () => bootstrap().catch(showBootError));
 } else {
-  bootstrap();
+  bootstrap().catch(showBootError);
+}
+
+function showBootError(err) {
+  console.error('启动失败:', err);
+  const app = document.getElementById('app');
+  if (app) {
+    app.innerHTML = `
+      <div style="max-width:480px;margin:40px auto;padding:24px;background:#FFF5F5;border-radius:24px;border:2px solid #FCA5A5">
+        <div style="font-size:48px;text-align:center">😣</div>
+        <h3 style="font-size:18px;font-weight:bold;margin:12px 0;color:#C53030;text-align:center">启动失败</h3>
+        <p style="font-size:13px;color:#666;text-align:center;margin-bottom:12px">如果你是直接双击 HTML 打开,请改用 HTTP 服务器访问 (见 README)</p>
+        <pre style="background:#fff;padding:12px;border-radius:8px;font-size:11px;color:#555;overflow:auto;white-space:pre-wrap;word-break:break-all">${(err && (err.stack || err.message)) || err}</pre>
+      </div>
+    `;
+  }
 }

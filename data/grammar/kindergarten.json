@@ -1,0 +1,144 @@
+{
+  "level": "kindergarten",
+  "topics": [
+    {
+      "id": "gk-001",
+      "title": "I am ... 我是...",
+      "grade": [1, 2],
+      "summary": "用 I am 介绍自己。",
+      "rules": [
+        "I 后面用 am",
+        "可以说 I am + 名字 / I am + 数字(年龄) / I am + 形容词",
+        "缩写: I am = I'm"
+      ],
+      "examples": [
+        {"en": "I am Tom.", "zh": "我是汤姆。"},
+        {"en": "I am six.", "zh": "我六岁。"},
+        {"en": "I am happy.", "zh": "我很开心。"}
+      ],
+      "quiz": [
+        {"question": "I ___ Tom.", "options": ["am", "is", "are", "be"], "answer": 0, "explanation": "I 后面用 am。"},
+        {"question": "I ___ a boy.", "options": ["am", "is", "are", "be"], "answer": 0, "explanation": "I 后面用 am。"},
+        {"question": "I ___ seven.", "options": ["am", "is", "are", "be"], "answer": 0, "explanation": "I 后面用 am。"},
+        {"question": "选出正确的: I am ___.", "options": ["happy", "are happy", "is happy", "be happy"], "answer": 0, "explanation": "I am 后面直接加形容词或名词。"},
+        {"question": "I am Tom. = ___ Tom.", "options": ["I'm", "Im", "I are", "Im a"], "answer": 0, "explanation": "I am 的缩写是 I'm，注意有撇号。"}
+      ]
+    },
+    {
+      "id": "gk-002",
+      "title": "It is a ... 这是一个...",
+      "grade": [1, 2],
+      "summary": "用 It is a/an 介绍一个东西。",
+      "rules": [
+        "It 后面用 is",
+        "It is a/an + 名词",
+        "辅音开头用 a，元音开头用 an",
+        "缩写: It is = It's"
+      ],
+      "examples": [
+        {"en": "It is a cat.", "zh": "这是一只猫。"},
+        {"en": "It is an apple.", "zh": "这是一个苹果。"},
+        {"en": "It is red.", "zh": "它是红色的。"}
+      ],
+      "quiz": [
+        {"question": "It ___ a dog.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "It 后面用 is。"},
+        {"question": "It is ___ apple.", "options": ["a", "an", "the", "/"], "answer": 1, "explanation": "apple 以元音 a 开头，用 an。"},
+        {"question": "It is ___ cat.", "options": ["a", "an", "the", "/"], "answer": 0, "explanation": "cat 以辅音 c 开头，用 a。"},
+        {"question": "It is = ___", "options": ["It's", "Its", "It is'", "It s"], "answer": 0, "explanation": "It is 的缩写是 It's。"},
+        {"question": "选出正确的句子", "options": ["It is a egg.", "It is an egg.", "It a egg.", "It an egg."], "answer": 1, "explanation": "egg 以元音 e 开头，用 an；句子要有 is。"}
+      ]
+    },
+    {
+      "id": "gk-003",
+      "title": "I have ... 我有...",
+      "grade": [1, 2],
+      "summary": "用 I have 表示我拥有某样东西。",
+      "rules": [
+        "I have + 名词",
+        "一个用 a/an，多个用复数(后面加 s)",
+        "I 后面用 have，不是 has"
+      ],
+      "examples": [
+        {"en": "I have a pen.", "zh": "我有一支笔。"},
+        {"en": "I have two cats.", "zh": "我有两只猫。"},
+        {"en": "I have a red ball.", "zh": "我有一个红球。"}
+      ],
+      "quiz": [
+        {"question": "I ___ a book.", "options": ["have", "has", "is", "am"], "answer": 0, "explanation": "I 后面用 have。"},
+        {"question": "I have ___ apple.", "options": ["a", "an", "two", "are"], "answer": 1, "explanation": "apple 元音开头，用 an。"},
+        {"question": "I have two ___.", "options": ["cat", "cats", "a cat", "is cat"], "answer": 1, "explanation": "two 后面用复数，cat 加 s 变 cats。"},
+        {"question": "选出正确的句子", "options": ["I has a dog.", "I have a dog.", "I am a dog.", "I is a dog."], "answer": 1, "explanation": "I 后面用 have。"},
+        {"question": "I have ___ pencils.", "options": ["a", "an", "five", "is"], "answer": 2, "explanation": "pencils 是复数，前面用数字。"}
+      ]
+    },
+    {
+      "id": "gk-004",
+      "title": "I like ... 我喜欢...",
+      "grade": [1, 2],
+      "summary": "用 I like 表示我喜欢什么。",
+      "rules": [
+        "I like + 名词(单数或复数)",
+        "喜欢一类东西用复数: I like apples.",
+        "I don't like = 我不喜欢"
+      ],
+      "examples": [
+        {"en": "I like apples.", "zh": "我喜欢苹果。"},
+        {"en": "I like dogs.", "zh": "我喜欢狗。"},
+        {"en": "I don't like milk.", "zh": "我不喜欢牛奶。"}
+      ],
+      "quiz": [
+        {"question": "I ___ cats.", "options": ["like", "likes", "is", "am"], "answer": 0, "explanation": "I 后面用 like。"},
+        {"question": "I like ___.", "options": ["apple", "apples", "a apple", "is apple"], "answer": 1, "explanation": "喜欢一类水果用复数 apples。"},
+        {"question": "我不喜欢 = I ___ like.", "options": ["am not", "don't", "no", "not"], "answer": 1, "explanation": "I 不喜欢用 I don't like。"},
+        {"question": "I like ___.", "options": ["sing", "to sing", "singing", "sang"], "answer": 2, "explanation": "I like 后接动词 -ing 形式表示喜欢做某事。"},
+        {"question": "选错误的: ", "options": ["I like cats.", "I like fish.", "I likes dogs.", "I like apples."], "answer": 2, "explanation": "I 后面用 like，不是 likes。"}
+      ]
+    },
+    {
+      "id": "gk-005",
+      "title": "I can ... 我会...",
+      "grade": [1, 2],
+      "summary": "用 I can 表示我能/会做某事。",
+      "rules": [
+        "I can + 动词原形",
+        "can 表示有能力做某事",
+        "I can't = I cannot = 我不能"
+      ],
+      "examples": [
+        {"en": "I can run.", "zh": "我会跑。"},
+        {"en": "I can sing.", "zh": "我会唱歌。"},
+        {"en": "I can't fly.", "zh": "我不会飞。"}
+      ],
+      "quiz": [
+        {"question": "I can ___.", "options": ["run", "runs", "running", "ran"], "answer": 0, "explanation": "can 后面用动词原形。"},
+        {"question": "I ___ sing.", "options": ["can", "cans", "is", "am can"], "answer": 0, "explanation": "can 没有变化形式。"},
+        {"question": "我不能 = I ___", "options": ["can not", "can't", "no can", "don't can"], "answer": 1, "explanation": "I 不能用 I can't。"},
+        {"question": "选正确的句子", "options": ["I can sings.", "I can sing.", "I can singing.", "I cans sing."], "answer": 1, "explanation": "can 后接动词原形 sing。"},
+        {"question": "I can ___ a kite.", "options": ["fly", "flies", "flying", "flew"], "answer": 0, "explanation": "can 后面用动词原形 fly。"}
+      ]
+    },
+    {
+      "id": "gk-006",
+      "title": "This is ... 这是...",
+      "grade": [1, 2],
+      "summary": "用 This is 介绍近处的人或物。",
+      "rules": [
+        "This is + 人/物",
+        "可以介绍家人、朋友、东西",
+        "This is = 这是(近处)"
+      ],
+      "examples": [
+        {"en": "This is my mom.", "zh": "这是我妈妈。"},
+        {"en": "This is my book.", "zh": "这是我的书。"},
+        {"en": "This is Tom.", "zh": "这是汤姆。"}
+      ],
+      "quiz": [
+        {"question": "This ___ Tom.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "This 后面用 is。"},
+        {"question": "___ is my dad.", "options": ["This", "I", "You", "Are"], "answer": 0, "explanation": "介绍近处的人用 This。"},
+        {"question": "This is ___ pen.", "options": ["I", "me", "my", "are"], "answer": 2, "explanation": "我的用 my。"},
+        {"question": "选正确: ", "options": ["This is mom my.", "This is my mom.", "This my is mom.", "This are my mom."], "answer": 1, "explanation": "正确语序是 This is my mom.。"},
+        {"question": "This is = ", "options": ["This are", "this's (不常用)", "These is", "Those are"], "answer": 1, "explanation": "This is 通常不缩写,口语中偶尔说 this's 但书写很少用。"}
+      ]
+    }
+  ]
+}

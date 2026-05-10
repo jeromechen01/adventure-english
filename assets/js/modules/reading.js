@@ -9,7 +9,7 @@ let wordIndex = null;
 async function buildWordIndex() {
   if (wordIndex) return wordIndex;
   wordIndex = {};
-  for (let g = 3; g <= 9; g++) {
+  for (let g = 1; g <= 9; g++) {
     const data = await loadJSON(`data/words/grade${g}.json`);
     if (!data) continue;
     data.units.forEach(u => u.words.forEach(w => {
@@ -22,7 +22,7 @@ async function buildWordIndex() {
 
 export async function renderReadingPage(app, params) {
   const profile = storage.getProfile();
-  const level = profile.grade <= 6 ? 'primary' : 'junior';
+  const level = profile.grade <= 2 ? 'kindergarten' : profile.grade <= 6 ? 'primary' : 'junior';
   const data = await loadJSON(`data/reading/${level}.json`);
   if (!data) {
     app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';
@@ -38,7 +38,7 @@ export async function renderReadingPage(app, params) {
       <button id="backBtn" class="text-2xl">‹</button>
       <h2 class="text-xl font-bold">📖 阅读乐园</h2>
     </div>
-    <div class="text-xs text-gray-500 mb-3">${level === 'primary' ? '小学' : '初中'}阅读 · 共 ${data.articles.length} 篇</div>
+    <div class="text-xs text-gray-500 mb-3">${level === 'kindergarten' ? '启蒙阅读' : level === 'primary' ? '小学' : '初中'}阅读 · 共 ${data.articles.length} 篇</div>
 
     <div class="space-y-2">
       ${data.articles.map(a => {

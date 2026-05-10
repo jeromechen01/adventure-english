@@ -1,0 +1,72 @@
+{
+  "grade": 1,
+  "totalWords": 30,
+  "units": [
+    {
+      "unitId": "g1-u1",
+      "unitName": "Unit 1 Hello",
+      "words": [
+        {"id": "g1w001", "word": "hi", "phonetic": "/haɪ/", "pos": "int.", "meaning": "嗨", "examples": [{"en": "Hi!", "zh": "嗨！"}, {"en": "Hi, Tom!", "zh": "嗨，汤姆！"}], "synonyms": ["hello"], "antonyms": [], "difficulty": 1, "tags": ["greeting"]},
+        {"id": "g1w002", "word": "hello", "phonetic": "/həˈləʊ/", "pos": "int.", "meaning": "你好", "examples": [{"en": "Hello!", "zh": "你好！"}, {"en": "Hello, Mom.", "zh": "你好，妈妈。"}], "synonyms": ["hi"], "antonyms": [], "difficulty": 1, "tags": ["greeting"]},
+        {"id": "g1w003", "word": "bye", "phonetic": "/baɪ/", "pos": "int.", "meaning": "再见", "examples": [{"en": "Bye!", "zh": "再见！"}, {"en": "Bye, Dad.", "zh": "再见，爸爸。"}], "synonyms": ["goodbye"], "antonyms": ["hi"], "difficulty": 1, "tags": ["greeting"]},
+        {"id": "g1w004", "word": "I", "phonetic": "/aɪ/", "pos": "pron.", "meaning": "我", "examples": [{"en": "I am Tom.", "zh": "我是汤姆。"}, {"en": "I see a cat.", "zh": "我看见一只猫。"}], "synonyms": [], "antonyms": ["you"], "difficulty": 1, "tags": ["pronoun"]},
+        {"id": "g1w005", "word": "you", "phonetic": "/juː/", "pos": "pron.", "meaning": "你", "examples": [{"en": "Are you Tom?", "zh": "你是汤姆吗？"}, {"en": "I see you.", "zh": "我看见你。"}], "synonyms": [], "antonyms": ["I"], "difficulty": 1, "tags": ["pronoun"]}
+      ]
+    },
+    {
+      "unitId": "g1-u2",
+      "unitName": "Unit 2 Numbers 1-10",
+      "words": [
+        {"id": "g1w006", "word": "one", "phonetic": "/wʌn/", "pos": "num.", "meaning": "一", "examples": [{"en": "One cat.", "zh": "一只猫。"}, {"en": "I have one pen.", "zh": "我有一支笔。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g1w007", "word": "two", "phonetic": "/tuː/", "pos": "num.", "meaning": "二", "examples": [{"en": "Two dogs.", "zh": "两只狗。"}, {"en": "I have two pens.", "zh": "我有两支笔。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g1w008", "word": "three", "phonetic": "/θriː/", "pos": "num.", "meaning": "三", "examples": [{"en": "Three apples.", "zh": "三个苹果。"}, {"en": "I see three birds.", "zh": "我看见三只鸟。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g1w009", "word": "four", "phonetic": "/fɔː/", "pos": "num.", "meaning": "四", "examples": [{"en": "Four books.", "zh": "四本书。"}, {"en": "Four cars.", "zh": "四辆车。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]},
+        {"id": "g1w010", "word": "five", "phonetic": "/faɪv/", "pos": "num.", "meaning": "五", "examples": [{"en": "Five fingers.", "zh": "五个手指。"}, {"en": "Five cats.", "zh": "五只猫。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["number"]}
+      ]
+    },
+    {
+      "unitId": "g1-u3",
+      "unitName": "Unit 3 Colors",
+      "words": [
+        {"id": "g1w011", "word": "red", "phonetic": "/red/", "pos": "adj.", "meaning": "红色", "examples": [{"en": "A red apple.", "zh": "一个红苹果。"}, {"en": "I see red.", "zh": "我看见红色。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g1w012", "word": "blue", "phonetic": "/bluː/", "pos": "adj.", "meaning": "蓝色", "examples": [{"en": "A blue sky.", "zh": "蓝天。"}, {"en": "Blue car.", "zh": "蓝车。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g1w013", "word": "yellow", "phonetic": "/ˈjeləʊ/", "pos": "adj.", "meaning": "黄色", "examples": [{"en": "A yellow sun.", "zh": "黄色的太阳。"}, {"en": "Yellow ball.", "zh": "黄球。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g1w014", "word": "green", "phonetic": "/ɡriːn/", "pos": "adj.", "meaning": "绿色", "examples": [{"en": "A green tree.", "zh": "一棵绿树。"}, {"en": "Green grass.", "zh": "绿色的草。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]},
+        {"id": "g1w015", "word": "pink", "phonetic": "/pɪŋk/", "pos": "adj.", "meaning": "粉色", "examples": [{"en": "A pink flower.", "zh": "一朵粉花。"}, {"en": "Pink dress.", "zh": "粉裙子。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["color"]}
+      ]
+    },
+    {
+      "unitId": "g1-u4",
+      "unitName": "Unit 4 Animals",
+      "words": [
+        {"id": "g1w016", "word": "cat", "phonetic": "/kæt/", "pos": "n.", "meaning": "猫", "examples": [{"en": "A cat.", "zh": "一只猫。"}, {"en": "I like cats.", "zh": "我喜欢猫。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g1w017", "word": "dog", "phonetic": "/dɒɡ/", "pos": "n.", "meaning": "狗", "examples": [{"en": "A big dog.", "zh": "一只大狗。"}, {"en": "I love my dog.", "zh": "我爱我的狗。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g1w018", "word": "bird", "phonetic": "/bɜːd/", "pos": "n.", "meaning": "鸟", "examples": [{"en": "A bird.", "zh": "一只鸟。"}, {"en": "Birds fly.", "zh": "鸟会飞。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g1w019", "word": "fish", "phonetic": "/fɪʃ/", "pos": "n.", "meaning": "鱼", "examples": [{"en": "A fish.", "zh": "一条鱼。"}, {"en": "Fish swim.", "zh": "鱼会游。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
+        {"id": "g1w020", "word": "duck", "phonetic": "/dʌk/", "pos": "n.", "meaning": "鸭子", "examples": [{"en": "A duck.", "zh": "一只鸭子。"}, {"en": "I see a duck.", "zh": "我看见一只鸭子。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]}
+      ]
+    },
+    {
+      "unitId": "g1-u5",
+      "unitName": "Unit 5 Body",
+      "words": [
+        {"id": "g1w021", "word": "eye", "phonetic": "/aɪ/", "pos": "n.", "meaning": "眼睛", "examples": [{"en": "Two eyes.", "zh": "两只眼睛。"}, {"en": "Big eyes.", "zh": "大眼睛。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g1w022", "word": "ear", "phonetic": "/ɪə/", "pos": "n.", "meaning": "耳朵", "examples": [{"en": "Two ears.", "zh": "两只耳朵。"}, {"en": "My ears.", "zh": "我的耳朵。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g1w023", "word": "nose", "phonetic": "/nəʊz/", "pos": "n.", "meaning": "鼻子", "examples": [{"en": "My nose.", "zh": "我的鼻子。"}, {"en": "A small nose.", "zh": "一个小鼻子。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g1w024", "word": "mouth", "phonetic": "/maʊθ/", "pos": "n.", "meaning": "嘴", "examples": [{"en": "Open your mouth.", "zh": "张开嘴。"}, {"en": "My mouth.", "zh": "我的嘴。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
+        {"id": "g1w025", "word": "hand", "phonetic": "/hænd/", "pos": "n.", "meaning": "手", "examples": [{"en": "My hand.", "zh": "我的手。"}, {"en": "Two hands.", "zh": "两只手。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]}
+      ]
+    },
+    {
+      "unitId": "g1-u6",
+      "unitName": "Unit 6 Family",
+      "words": [
+        {"id": "g1w026", "word": "mom", "phonetic": "/mɒm/", "pos": "n.", "meaning": "妈妈", "examples": [{"en": "Hi, Mom!", "zh": "嗨，妈妈！"}, {"en": "I love Mom.", "zh": "我爱妈妈。"}], "synonyms": ["mother"], "antonyms": ["dad"], "difficulty": 1, "tags": ["family"]},
+        {"id": "g1w027", "word": "dad", "phonetic": "/dæd/", "pos": "n.", "meaning": "爸爸", "examples": [{"en": "Hi, Dad!", "zh": "嗨，爸爸！"}, {"en": "Dad is tall.", "zh": "爸爸很高。"}], "synonyms": ["father"], "antonyms": ["mom"], "difficulty": 1, "tags": ["family"]},
+        {"id": "g1w028", "word": "baby", "phonetic": "/ˈbeɪbi/", "pos": "n.", "meaning": "宝宝", "examples": [{"en": "A baby.", "zh": "一个宝宝。"}, {"en": "Baby is cute.", "zh": "宝宝很可爱。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["family"]},
+        {"id": "g1w029", "word": "boy", "phonetic": "/bɔɪ/", "pos": "n.", "meaning": "男孩", "examples": [{"en": "A boy.", "zh": "一个男孩。"}, {"en": "I am a boy.", "zh": "我是男孩。"}], "synonyms": [], "antonyms": ["girl"], "difficulty": 1, "tags": ["people"]},
+        {"id": "g1w030", "word": "girl", "phonetic": "/ɡɜːl/", "pos": "n.", "meaning": "女孩", "examples": [{"en": "A girl.", "zh": "一个女孩。"}, {"en": "She is a girl.", "zh": "她是女孩。"}], "synonyms": [], "antonyms": ["boy"], "difficulty": 1, "tags": ["people"]}
+      ]
+    }
+  ]
+}

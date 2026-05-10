@@ -1,197 +1,65 @@
 {
   "grade": 4,
-  "totalWords": 120,
+  "totalWords": 30,
   "units": [
     {
       "unitId": "g4-u1",
       "unitName": "Unit 1 My Classroom",
       "words": [
-        {"id": "g4w001", "word": "classroom", "phonetic": "/ˈklɑːsruːm/", "pos": "n.", "meaning": "教室", "examples": [{"en": "Our classroom is big.", "zh": "我们的教室很大。"}, {"en": "There are 40 desks in the classroom.", "zh": "教室里有40张桌子。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w002", "word": "window", "phonetic": "/ˈwɪndəʊ/", "pos": "n.", "meaning": "窗户", "examples": [{"en": "Open the window, please.", "zh": "请打开窗户。"}, {"en": "The window is clean.", "zh": "窗户很干净。"}], "synonyms": [], "antonyms": ["door"], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w003", "word": "door", "phonetic": "/dɔː(r)/", "pos": "n.", "meaning": "门", "examples": [{"en": "Close the door.", "zh": "关上门。"}, {"en": "The door is brown.", "zh": "门是棕色的。"}], "synonyms": [], "antonyms": ["window"], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w004", "word": "blackboard", "phonetic": "/ˈblækbɔːd/", "pos": "n.", "meaning": "黑板", "examples": [{"en": "Look at the blackboard.", "zh": "看黑板。"}, {"en": "The blackboard is clean.", "zh": "黑板很干净。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w005", "word": "light", "phonetic": "/laɪt/", "pos": "n.", "meaning": "灯；光", "examples": [{"en": "Turn on the light.", "zh": "打开灯。"}, {"en": "The light is bright.", "zh": "灯很亮。"}], "synonyms": [], "antonyms": ["dark"], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w006", "word": "picture", "phonetic": "/ˈpɪktʃə(r)/", "pos": "n.", "meaning": "图画", "examples": [{"en": "Look at the picture.", "zh": "看这幅画。"}, {"en": "I draw a picture.", "zh": "我画一幅画。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w007", "word": "wall", "phonetic": "/wɔːl/", "pos": "n.", "meaning": "墙", "examples": [{"en": "The wall is white.", "zh": "墙是白色的。"}, {"en": "A map is on the wall.", "zh": "墙上有一张地图。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["place"]},
-        {"id": "g4w008", "word": "floor", "phonetic": "/flɔː(r)/", "pos": "n.", "meaning": "地板", "examples": [{"en": "Don't drop it on the floor.", "zh": "别把它掉在地板上。"}, {"en": "Clean the floor.", "zh": "打扫地板。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["place"]},
-        {"id": "g4w009", "word": "fan", "phonetic": "/fæn/", "pos": "n.", "meaning": "风扇", "examples": [{"en": "Turn on the fan.", "zh": "打开风扇。"}, {"en": "The fan is new.", "zh": "这个风扇是新的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]},
-        {"id": "g4w010", "word": "computer", "phonetic": "/kəmˈpjuːtə(r)/", "pos": "n.", "meaning": "电脑", "examples": [{"en": "I have a new computer.", "zh": "我有一台新电脑。"}, {"en": "The computer is fast.", "zh": "电脑很快。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]}
+        {"id": "g4w001", "word": "classroom", "phonetic": "/ˈklɑːsruːm/", "pos": "n.", "meaning": "教室", "examples": [{"en": "Our classroom is big.", "zh": "我们的教室很大。"}, {"en": "I am in the classroom.", "zh": "我在教室里。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]},
+        {"id": "g4w002", "word": "window", "phonetic": "/ˈwɪndəʊ/", "pos": "n.", "meaning": "窗户", "examples": [{"en": "Open the window.", "zh": "打开窗户。"}, {"en": "The window is clean.", "zh": "窗户很干净。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]},
+        {"id": "g4w003", "word": "door", "phonetic": "/dɔː/", "pos": "n.", "meaning": "门", "examples": [{"en": "Close the door.", "zh": "关门。"}, {"en": "The door is red.", "zh": "门是红色的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]},
+        {"id": "g4w004", "word": "desk", "phonetic": "/desk/", "pos": "n.", "meaning": "课桌", "examples": [{"en": "My desk is new.", "zh": "我的课桌是新的。"}, {"en": "Books are on the desk.", "zh": "书在桌子上。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]},
+        {"id": "g4w005", "word": "chair", "phonetic": "/tʃeə/", "pos": "n.", "meaning": "椅子", "examples": [{"en": "Sit on the chair.", "zh": "坐在椅子上。"}, {"en": "The chair is broken.", "zh": "椅子坏了。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]},
+        {"id": "g4w006", "word": "blackboard", "phonetic": "/ˈblækbɔːd/", "pos": "n.", "meaning": "黑板", "examples": [{"en": "Look at the blackboard.", "zh": "看黑板。"}, {"en": "Clean the blackboard, please.", "zh": "请擦黑板。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]}
       ]
     },
     {
       "unitId": "g4-u2",
       "unitName": "Unit 2 My Schoolbag",
       "words": [
-        {"id": "g4w011", "word": "schoolbag", "phonetic": "/ˈskuːlbæɡ/", "pos": "n.", "meaning": "书包", "examples": [{"en": "My schoolbag is heavy.", "zh": "我的书包很重。"}, {"en": "Open your schoolbag.", "zh": "打开你的书包。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w012", "word": "book", "phonetic": "/bʊk/", "pos": "n.", "meaning": "书", "examples": [{"en": "I have many books.", "zh": "我有很多书。"}, {"en": "The book is interesting.", "zh": "这本书很有趣。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
-        {"id": "g4w013", "word": "notebook", "phonetic": "/ˈnəʊtbʊk/", "pos": "n.", "meaning": "笔记本", "examples": [{"en": "I write in my notebook.", "zh": "我在笔记本上写字。"}, {"en": "My notebook is blue.", "zh": "我的笔记本是蓝色的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]},
-        {"id": "g4w014", "word": "story", "phonetic": "/ˈstɔːri/", "pos": "n.", "meaning": "故事", "examples": [{"en": "I read a story.", "zh": "我读一个故事。"}, {"en": "She tells me a story.", "zh": "她给我讲一个故事。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["reading"]},
-        {"id": "g4w015", "word": "math", "phonetic": "/mæθ/", "pos": "n.", "meaning": "数学", "examples": [{"en": "I like math.", "zh": "我喜欢数学。"}, {"en": "Math is fun.", "zh": "数学很有趣。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["subject"]},
-        {"id": "g4w016", "word": "English", "phonetic": "/ˈɪŋɡlɪʃ/", "pos": "n.", "meaning": "英语", "examples": [{"en": "I learn English.", "zh": "我学英语。"}, {"en": "English is useful.", "zh": "英语很有用。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["subject"]},
-        {"id": "g4w017", "word": "Chinese", "phonetic": "/ˌtʃaɪˈniːz/", "pos": "n.", "meaning": "中文；语文", "examples": [{"en": "Chinese is my favourite class.", "zh": "语文是我最喜欢的课。"}, {"en": "I can speak Chinese.", "zh": "我会说中文。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["subject"]},
-        {"id": "g4w018", "word": "many", "phonetic": "/ˈmeni/", "pos": "adj.", "meaning": "许多", "examples": [{"en": "I have many books.", "zh": "我有很多书。"}, {"en": "There are many people.", "zh": "有很多人。"}], "synonyms": ["lots of"], "antonyms": ["few"], "difficulty": 1, "tags": ["quantity"]},
-        {"id": "g4w019", "word": "heavy", "phonetic": "/ˈhevi/", "pos": "adj.", "meaning": "重的", "examples": [{"en": "The bag is heavy.", "zh": "这个包很重。"}, {"en": "Don't carry heavy things.", "zh": "别提重东西。"}], "synonyms": [], "antonyms": ["light"], "difficulty": 2, "tags": ["adjective"]},
-        {"id": "g4w020", "word": "have", "phonetic": "/hæv/", "pos": "v.", "meaning": "有", "examples": [{"en": "I have a pen.", "zh": "我有一支笔。"}, {"en": "Do you have a brother?", "zh": "你有兄弟吗？"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]}
+        {"id": "g4w007", "word": "schoolbag", "phonetic": "/ˈskuːlbæɡ/", "pos": "n.", "meaning": "书包", "examples": [{"en": "My schoolbag is heavy.", "zh": "我的书包很重。"}, {"en": "Her schoolbag is pink.", "zh": "她的书包是粉色的。"}], "synonyms": ["bag"], "antonyms": [], "difficulty": 2, "tags": ["school"]},
+        {"id": "g4w008", "word": "book", "phonetic": "/bʊk/", "pos": "n.", "meaning": "书", "examples": [{"en": "I read a book.", "zh": "我读一本书。"}, {"en": "This book is interesting.", "zh": "这本书很有趣。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
+        {"id": "g4w009", "word": "pencil", "phonetic": "/ˈpensl/", "pos": "n.", "meaning": "铅笔", "examples": [{"en": "I have a pencil.", "zh": "我有一支铅笔。"}, {"en": "The pencil is yellow.", "zh": "这支铅笔是黄色的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
+        {"id": "g4w010", "word": "pen", "phonetic": "/pen/", "pos": "n.", "meaning": "钢笔", "examples": [{"en": "Can I borrow your pen?", "zh": "我能借你的钢笔吗？"}, {"en": "The pen is on the desk.", "zh": "钢笔在桌子上。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["school"]},
+        {"id": "g4w011", "word": "ruler", "phonetic": "/ˈruːlə/", "pos": "n.", "meaning": "尺子", "examples": [{"en": "Use a ruler.", "zh": "用尺子。"}, {"en": "My ruler is broken.", "zh": "我的尺子坏了。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]},
+        {"id": "g4w012", "word": "eraser", "phonetic": "/ɪˈreɪzə/", "pos": "n.", "meaning": "橡皮擦", "examples": [{"en": "I need an eraser.", "zh": "我需要一块橡皮。"}, {"en": "Where is your eraser?", "zh": "你的橡皮在哪里？"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]}
       ]
     },
     {
       "unitId": "g4-u3",
       "unitName": "Unit 3 My Friends",
       "words": [
-        {"id": "g4w021", "word": "tall", "phonetic": "/tɔːl/", "pos": "adj.", "meaning": "高的", "examples": [{"en": "He is tall.", "zh": "他很高。"}, {"en": "The tree is tall.", "zh": "这棵树很高。"}], "synonyms": [], "antonyms": ["short"], "difficulty": 1, "tags": ["adjective"]},
-        {"id": "g4w022", "word": "short", "phonetic": "/ʃɔːt/", "pos": "adj.", "meaning": "矮的；短的", "examples": [{"en": "She is short.", "zh": "她个子不高。"}, {"en": "My hair is short.", "zh": "我的头发很短。"}], "synonyms": [], "antonyms": ["tall", "long"], "difficulty": 1, "tags": ["adjective"]},
-        {"id": "g4w023", "word": "thin", "phonetic": "/θɪn/", "pos": "adj.", "meaning": "瘦的", "examples": [{"en": "The boy is thin.", "zh": "这个男孩很瘦。"}, {"en": "Her hair is thin.", "zh": "她的头发很细。"}], "synonyms": [], "antonyms": ["fat"], "difficulty": 1, "tags": ["adjective"]},
-        {"id": "g4w024", "word": "strong", "phonetic": "/strɒŋ/", "pos": "adj.", "meaning": "强壮的", "examples": [{"en": "My dad is strong.", "zh": "我爸爸很强壮。"}, {"en": "He has strong arms.", "zh": "他有强壮的手臂。"}], "synonyms": [], "antonyms": ["weak"], "difficulty": 2, "tags": ["adjective"]},
-        {"id": "g4w025", "word": "quiet", "phonetic": "/ˈkwaɪət/", "pos": "adj.", "meaning": "安静的", "examples": [{"en": "Be quiet, please.", "zh": "请安静。"}, {"en": "She is a quiet girl.", "zh": "她是个安静的女孩。"}], "synonyms": ["silent"], "antonyms": ["noisy"], "difficulty": 2, "tags": ["adjective"]},
-        {"id": "g4w026", "word": "kind", "phonetic": "/kaɪnd/", "pos": "adj.", "meaning": "善良的", "examples": [{"en": "She is a kind girl.", "zh": "她是个善良的女孩。"}, {"en": "Be kind to animals.", "zh": "对动物要友善。"}], "synonyms": ["nice"], "antonyms": ["mean"], "difficulty": 2, "tags": ["adjective"]},
-        {"id": "g4w027", "word": "friendly", "phonetic": "/ˈfrendli/", "pos": "adj.", "meaning": "友好的", "examples": [{"en": "He is friendly to everyone.", "zh": "他对每个人都很友好。"}, {"en": "The dog is friendly.", "zh": "这只狗很友好。"}], "synonyms": ["nice"], "antonyms": [], "difficulty": 2, "tags": ["adjective"]},
-        {"id": "g4w028", "word": "hair", "phonetic": "/heə(r)/", "pos": "n.", "meaning": "头发", "examples": [{"en": "Her hair is long.", "zh": "她的头发很长。"}, {"en": "He has black hair.", "zh": "他有黑色的头发。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["body"]},
-        {"id": "g4w029", "word": "long", "phonetic": "/lɒŋ/", "pos": "adj.", "meaning": "长的", "examples": [{"en": "The river is long.", "zh": "这条河很长。"}, {"en": "I have long hair.", "zh": "我有长发。"}], "synonyms": [], "antonyms": ["short"], "difficulty": 1, "tags": ["adjective"]},
-        {"id": "g4w030", "word": "young", "phonetic": "/jʌŋ/", "pos": "adj.", "meaning": "年轻的", "examples": [{"en": "She is young.", "zh": "她很年轻。"}, {"en": "Young people work hard.", "zh": "年轻人努力工作。"}], "synonyms": [], "antonyms": ["old"], "difficulty": 2, "tags": ["adjective"]}
+        {"id": "g4w013", "word": "friend", "phonetic": "/frend/", "pos": "n.", "meaning": "朋友", "examples": [{"en": "She is my friend.", "zh": "她是我的朋友。"}, {"en": "I have many friends.", "zh": "我有很多朋友。"}], "synonyms": [], "antonyms": ["enemy"], "difficulty": 1, "tags": ["people"]},
+        {"id": "g4w014", "word": "boy", "phonetic": "/bɔɪ/", "pos": "n.", "meaning": "男孩", "examples": [{"en": "He is a tall boy.", "zh": "他是一个高个子男孩。"}, {"en": "The boy is reading.", "zh": "这个男孩正在读书。"}], "synonyms": [], "antonyms": ["girl"], "difficulty": 1, "tags": ["people"]},
+        {"id": "g4w015", "word": "girl", "phonetic": "/ɡɜːl/", "pos": "n.", "meaning": "女孩", "examples": [{"en": "The girl is singing.", "zh": "这个女孩在唱歌。"}, {"en": "She is a happy girl.", "zh": "她是个开心的女孩。"}], "synonyms": [], "antonyms": ["boy"], "difficulty": 1, "tags": ["people"]},
+        {"id": "g4w016", "word": "tall", "phonetic": "/tɔːl/", "pos": "adj.", "meaning": "高的", "examples": [{"en": "He is tall.", "zh": "他个子高。"}, {"en": "The tree is tall.", "zh": "这棵树很高。"}], "synonyms": ["high"], "antonyms": ["short"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g4w017", "word": "short", "phonetic": "/ʃɔːt/", "pos": "adj.", "meaning": "矮的；短的", "examples": [{"en": "She is short.", "zh": "她个子矮。"}, {"en": "The pencil is short.", "zh": "这支铅笔很短。"}], "synonyms": [], "antonyms": ["tall", "long"], "difficulty": 2, "tags": ["adjective"]},
+        {"id": "g4w018", "word": "thin", "phonetic": "/θɪn/", "pos": "adj.", "meaning": "瘦的", "examples": [{"en": "He is thin.", "zh": "他很瘦。"}, {"en": "The book is thin.", "zh": "这本书很薄。"}], "synonyms": [], "antonyms": ["fat"], "difficulty": 2, "tags": ["adjective"]}
       ]
     },
     {
       "unitId": "g4-u4",
       "unitName": "Unit 4 My Home",
       "words": [
-        {"id": "g4w031", "word": "home", "phonetic": "/həʊm/", "pos": "n.", "meaning": "家", "examples": [{"en": "Welcome to my home.", "zh": "欢迎来我家。"}, {"en": "Home is sweet.", "zh": "家是甜蜜的。"}], "synonyms": ["house"], "antonyms": [], "difficulty": 1, "tags": ["place"]},
-        {"id": "g4w032", "word": "house", "phonetic": "/haʊs/", "pos": "n.", "meaning": "房子", "examples": [{"en": "We live in a big house.", "zh": "我们住在一个大房子里。"}, {"en": "The house is new.", "zh": "这个房子是新的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["place"]},
-        {"id": "g4w033", "word": "room", "phonetic": "/ruːm/", "pos": "n.", "meaning": "房间", "examples": [{"en": "My room is clean.", "zh": "我的房间很干净。"}, {"en": "Come into my room.", "zh": "进我房间来。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["place"]},
-        {"id": "g4w034", "word": "bedroom", "phonetic": "/ˈbedruːm/", "pos": "n.", "meaning": "卧室", "examples": [{"en": "I sleep in the bedroom.", "zh": "我在卧室睡觉。"}, {"en": "The bedroom is small.", "zh": "卧室很小。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]},
-        {"id": "g4w035", "word": "kitchen", "phonetic": "/ˈkɪtʃɪn/", "pos": "n.", "meaning": "厨房", "examples": [{"en": "Mom is in the kitchen.", "zh": "妈妈在厨房里。"}, {"en": "We cook in the kitchen.", "zh": "我们在厨房做饭。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]},
-        {"id": "g4w036", "word": "bathroom", "phonetic": "/ˈbɑːθruːm/", "pos": "n.", "meaning": "卫生间", "examples": [{"en": "Where is the bathroom?", "zh": "卫生间在哪里？"}, {"en": "I wash in the bathroom.", "zh": "我在卫生间洗漱。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]},
-        {"id": "g4w037", "word": "bed", "phonetic": "/bed/", "pos": "n.", "meaning": "床", "examples": [{"en": "Go to bed.", "zh": "去睡觉。"}, {"en": "My bed is soft.", "zh": "我的床很软。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w038", "word": "table", "phonetic": "/ˈteɪbl/", "pos": "n.", "meaning": "桌子", "examples": [{"en": "Put it on the table.", "zh": "把它放在桌子上。"}, {"en": "The table is round.", "zh": "桌子是圆的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w039", "word": "TV", "phonetic": "/ˌtiː ˈviː/", "pos": "n.", "meaning": "电视", "examples": [{"en": "I watch TV after dinner.", "zh": "我吃完晚饭看电视。"}, {"en": "The TV is new.", "zh": "电视是新的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w040", "word": "phone", "phonetic": "/fəʊn/", "pos": "n.", "meaning": "电话", "examples": [{"en": "Where is my phone?", "zh": "我的电话在哪里？"}, {"en": "Answer the phone.", "zh": "接电话。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]}
+        {"id": "g4w019", "word": "home", "phonetic": "/həʊm/", "pos": "n.", "meaning": "家", "examples": [{"en": "Welcome to my home.", "zh": "欢迎到我家。"}, {"en": "I love my home.", "zh": "我爱我的家。"}], "synonyms": ["house"], "antonyms": [], "difficulty": 1, "tags": ["family"]},
+        {"id": "g4w020", "word": "bedroom", "phonetic": "/ˈbedruːm/", "pos": "n.", "meaning": "卧室", "examples": [{"en": "My bedroom is small.", "zh": "我的卧室很小。"}, {"en": "I sleep in my bedroom.", "zh": "我在卧室里睡觉。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["home"]},
+        {"id": "g4w021", "word": "kitchen", "phonetic": "/ˈkɪtʃɪn/", "pos": "n.", "meaning": "厨房", "examples": [{"en": "Mom is in the kitchen.", "zh": "妈妈在厨房。"}, {"en": "We cook in the kitchen.", "zh": "我们在厨房做饭。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["home"]},
+        {"id": "g4w022", "word": "bathroom", "phonetic": "/ˈbɑːθruːm/", "pos": "n.", "meaning": "浴室；卫生间", "examples": [{"en": "The bathroom is clean.", "zh": "浴室很干净。"}, {"en": "I wash in the bathroom.", "zh": "我在浴室洗漱。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["home"]},
+        {"id": "g4w023", "word": "living room", "phonetic": "/ˈlɪvɪŋ ruːm/", "pos": "n.", "meaning": "客厅", "examples": [{"en": "We watch TV in the living room.", "zh": "我们在客厅看电视。"}, {"en": "The living room is big.", "zh": "客厅很大。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["home"]}
       ]
     },
     {
       "unitId": "g4-u5",
-      "unitName": "Unit 5 Dinner Time",
+      "unitName": "Unit 5 Food",
       "words": [
-        {"id": "g4w041", "word": "dinner", "phonetic": "/ˈdɪnə(r)/", "pos": "n.", "meaning": "晚餐", "examples": [{"en": "Dinner is ready.", "zh": "晚饭好了。"}, {"en": "We have dinner at six.", "zh": "我们六点吃晚饭。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
-        {"id": "g4w042", "word": "lunch", "phonetic": "/lʌntʃ/", "pos": "n.", "meaning": "午餐", "examples": [{"en": "What's for lunch?", "zh": "午饭吃什么？"}, {"en": "I have lunch at school.", "zh": "我在学校吃午饭。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
-        {"id": "g4w043", "word": "breakfast", "phonetic": "/ˈbrekfəst/", "pos": "n.", "meaning": "早餐", "examples": [{"en": "I eat breakfast at seven.", "zh": "我七点吃早饭。"}, {"en": "Breakfast is ready.", "zh": "早饭好了。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
-        {"id": "g4w044", "word": "noodles", "phonetic": "/ˈnuːdlz/", "pos": "n.", "meaning": "面条", "examples": [{"en": "I like noodles.", "zh": "我喜欢面条。"}, {"en": "The noodles are hot.", "zh": "面条是热的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
-        {"id": "g4w045", "word": "soup", "phonetic": "/suːp/", "pos": "n.", "meaning": "汤", "examples": [{"en": "The soup is hot.", "zh": "汤是热的。"}, {"en": "Have some soup.", "zh": "喝点汤。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
-        {"id": "g4w046", "word": "fruit", "phonetic": "/fruːt/", "pos": "n.", "meaning": "水果", "examples": [{"en": "I eat fruit every day.", "zh": "我每天吃水果。"}, {"en": "Fruit is good for you.", "zh": "水果对你有益。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
-        {"id": "g4w047", "word": "vegetable", "phonetic": "/ˈvedʒtəbl/", "pos": "n.", "meaning": "蔬菜", "examples": [{"en": "Vegetables are healthy.", "zh": "蔬菜很健康。"}, {"en": "Eat your vegetables.", "zh": "吃你的蔬菜。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
-        {"id": "g4w048", "word": "chicken", "phonetic": "/ˈtʃɪkɪn/", "pos": "n.", "meaning": "鸡肉；鸡", "examples": [{"en": "I like chicken.", "zh": "我喜欢吃鸡。"}, {"en": "The chicken is small.", "zh": "这只鸡很小。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food", "animal"]},
-        {"id": "g4w049", "word": "fork", "phonetic": "/fɔːk/", "pos": "n.", "meaning": "叉子", "examples": [{"en": "Use a fork, please.", "zh": "请用叉子。"}, {"en": "The fork is clean.", "zh": "叉子是干净的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w050", "word": "knife", "phonetic": "/naɪf/", "pos": "n.", "meaning": "刀", "examples": [{"en": "Be careful with the knife.", "zh": "小心刀。"}, {"en": "I need a knife.", "zh": "我需要一把刀。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]}
-      ]
-    },
-    {
-      "unitId": "g4-u6",
-      "unitName": "Unit 6 At the Farm",
-      "words": [
-        {"id": "g4w051", "word": "farm", "phonetic": "/fɑːm/", "pos": "n.", "meaning": "农场", "examples": [{"en": "We visit a farm.", "zh": "我们参观一个农场。"}, {"en": "The farm is big.", "zh": "这个农场很大。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]},
-        {"id": "g4w052", "word": "horse", "phonetic": "/hɔːs/", "pos": "n.", "meaning": "马", "examples": [{"en": "I see a horse.", "zh": "我看见一匹马。"}, {"en": "The horse runs fast.", "zh": "马跑得很快。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
-        {"id": "g4w053", "word": "cow", "phonetic": "/kaʊ/", "pos": "n.", "meaning": "奶牛", "examples": [{"en": "Cows give us milk.", "zh": "奶牛给我们牛奶。"}, {"en": "The cow is brown.", "zh": "这头奶牛是棕色的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
-        {"id": "g4w054", "word": "sheep", "phonetic": "/ʃiːp/", "pos": "n.", "meaning": "绵羊", "examples": [{"en": "Sheep eat grass.", "zh": "绵羊吃草。"}, {"en": "The sheep is white.", "zh": "这只绵羊是白色的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["animal"]},
-        {"id": "g4w055", "word": "goat", "phonetic": "/ɡəʊt/", "pos": "n.", "meaning": "山羊", "examples": [{"en": "The goat is small.", "zh": "这只山羊很小。"}, {"en": "Goats can climb.", "zh": "山羊会爬。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["animal"]},
-        {"id": "g4w056", "word": "tomato", "phonetic": "/təˈmɑːtəʊ/", "pos": "n.", "meaning": "西红柿", "examples": [{"en": "Tomatoes are red.", "zh": "西红柿是红色的。"}, {"en": "I like tomatoes.", "zh": "我喜欢西红柿。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
-        {"id": "g4w057", "word": "potato", "phonetic": "/pəˈteɪtəʊ/", "pos": "n.", "meaning": "土豆", "examples": [{"en": "I like potatoes.", "zh": "我喜欢土豆。"}, {"en": "Wash the potatoes.", "zh": "洗土豆。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
-        {"id": "g4w058", "word": "carrot", "phonetic": "/ˈkærət/", "pos": "n.", "meaning": "胡萝卜", "examples": [{"en": "Rabbits like carrots.", "zh": "兔子喜欢胡萝卜。"}, {"en": "Eat your carrots.", "zh": "吃你的胡萝卜。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
-        {"id": "g4w059", "word": "tree", "phonetic": "/triː/", "pos": "n.", "meaning": "树", "examples": [{"en": "The tree is tall.", "zh": "这棵树很高。"}, {"en": "Birds sit on trees.", "zh": "鸟坐在树上。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"]},
-        {"id": "g4w060", "word": "grass", "phonetic": "/ɡrɑːs/", "pos": "n.", "meaning": "草", "examples": [{"en": "The grass is green.", "zh": "草是绿色的。"}, {"en": "Don't walk on the grass.", "zh": "别在草地上走。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"]}
-      ]
-    },
-    {
-      "unitId": "g4-u7",
-      "unitName": "Unit 7 Days of the Week",
-      "words": [
-        {"id": "g4w061", "word": "Monday", "phonetic": "/ˈmʌndeɪ/", "pos": "n.", "meaning": "星期一", "examples": [{"en": "We have math on Monday.", "zh": "我们周一有数学课。"}, {"en": "Monday is busy.", "zh": "周一很忙。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w062", "word": "Tuesday", "phonetic": "/ˈtjuːzdeɪ/", "pos": "n.", "meaning": "星期二", "examples": [{"en": "Today is Tuesday.", "zh": "今天是星期二。"}, {"en": "I have PE on Tuesday.", "zh": "我周二有体育课。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w063", "word": "Wednesday", "phonetic": "/ˈwenzdeɪ/", "pos": "n.", "meaning": "星期三", "examples": [{"en": "I see her every Wednesday.", "zh": "我每个星期三都见她。"}, {"en": "Wednesday is in the middle of the week.", "zh": "星期三在一周的中间。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["time"]},
-        {"id": "g4w064", "word": "Thursday", "phonetic": "/ˈθɜːzdeɪ/", "pos": "n.", "meaning": "星期四", "examples": [{"en": "We meet on Thursday.", "zh": "我们星期四见面。"}, {"en": "Thursday is busy.", "zh": "星期四很忙。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["time"]},
-        {"id": "g4w065", "word": "Friday", "phonetic": "/ˈfraɪdeɪ/", "pos": "n.", "meaning": "星期五", "examples": [{"en": "I love Friday.", "zh": "我喜欢星期五。"}, {"en": "School is over on Friday.", "zh": "周五放学。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w066", "word": "Saturday", "phonetic": "/ˈsætədeɪ/", "pos": "n.", "meaning": "星期六", "examples": [{"en": "I play on Saturday.", "zh": "我周六玩。"}, {"en": "Saturday is the weekend.", "zh": "周六是周末。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w067", "word": "Sunday", "phonetic": "/ˈsʌndeɪ/", "pos": "n.", "meaning": "星期日", "examples": [{"en": "Sunday is fun.", "zh": "周日很有趣。"}, {"en": "We don't go to school on Sunday.", "zh": "我们周日不上学。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w068", "word": "weekend", "phonetic": "/ˌwiːkˈend/", "pos": "n.", "meaning": "周末", "examples": [{"en": "I love the weekend.", "zh": "我喜欢周末。"}, {"en": "What do you do on weekends?", "zh": "你周末做什么？"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["time"]},
-        {"id": "g4w069", "word": "today", "phonetic": "/təˈdeɪ/", "pos": "n.", "meaning": "今天", "examples": [{"en": "Today is sunny.", "zh": "今天是晴天。"}, {"en": "I am happy today.", "zh": "我今天很开心。"}], "synonyms": [], "antonyms": ["yesterday", "tomorrow"], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w070", "word": "tomorrow", "phonetic": "/təˈmɒrəʊ/", "pos": "n.", "meaning": "明天", "examples": [{"en": "See you tomorrow.", "zh": "明天见。"}, {"en": "Tomorrow is Sunday.", "zh": "明天是星期日。"}], "synonyms": [], "antonyms": ["yesterday"], "difficulty": 2, "tags": ["time"]}
-      ]
-    },
-    {
-      "unitId": "g4-u8",
-      "unitName": "Unit 8 Weather",
-      "words": [
-        {"id": "g4w071", "word": "weather", "phonetic": "/ˈweðə(r)/", "pos": "n.", "meaning": "天气", "examples": [{"en": "How is the weather?", "zh": "天气怎么样？"}, {"en": "The weather is good.", "zh": "天气很好。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g4w072", "word": "sunny", "phonetic": "/ˈsʌni/", "pos": "adj.", "meaning": "晴朗的", "examples": [{"en": "It is sunny today.", "zh": "今天是晴天。"}, {"en": "I love sunny days.", "zh": "我喜欢晴天。"}], "synonyms": [], "antonyms": ["rainy"], "difficulty": 1, "tags": ["weather"]},
-        {"id": "g4w073", "word": "rainy", "phonetic": "/ˈreɪni/", "pos": "adj.", "meaning": "下雨的", "examples": [{"en": "It is rainy today.", "zh": "今天下雨。"}, {"en": "Take an umbrella on rainy days.", "zh": "下雨天带把伞。"}], "synonyms": [], "antonyms": ["sunny"], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g4w074", "word": "windy", "phonetic": "/ˈwɪndi/", "pos": "adj.", "meaning": "有风的", "examples": [{"en": "It is windy outside.", "zh": "外面有风。"}, {"en": "The day is windy.", "zh": "今天有风。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g4w075", "word": "cloudy", "phonetic": "/ˈklaʊdi/", "pos": "adj.", "meaning": "多云的", "examples": [{"en": "It is cloudy today.", "zh": "今天多云。"}, {"en": "Cloudy days are cool.", "zh": "多云的天气很凉爽。"}], "synonyms": [], "antonyms": ["clear"], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g4w076", "word": "snowy", "phonetic": "/ˈsnəʊi/", "pos": "adj.", "meaning": "下雪的", "examples": [{"en": "It is snowy today.", "zh": "今天下雪。"}, {"en": "Snowy days are fun.", "zh": "下雪天很有趣。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g4w077", "word": "warm", "phonetic": "/wɔːm/", "pos": "adj.", "meaning": "温暖的", "examples": [{"en": "It is warm in spring.", "zh": "春天很暖和。"}, {"en": "The room is warm.", "zh": "房间很暖和。"}], "synonyms": [], "antonyms": ["cool"], "difficulty": 1, "tags": ["weather"]},
-        {"id": "g4w078", "word": "cool", "phonetic": "/kuːl/", "pos": "adj.", "meaning": "凉爽的", "examples": [{"en": "It is cool in autumn.", "zh": "秋天很凉爽。"}, {"en": "The water is cool.", "zh": "水很凉。"}], "synonyms": [], "antonyms": ["warm"], "difficulty": 1, "tags": ["weather"]},
-        {"id": "g4w079", "word": "hot", "phonetic": "/hɒt/", "pos": "adj.", "meaning": "热的", "examples": [{"en": "It is hot today.", "zh": "今天很热。"}, {"en": "The soup is hot.", "zh": "汤是热的。"}], "synonyms": [], "antonyms": ["cold"], "difficulty": 1, "tags": ["weather"]},
-        {"id": "g4w080", "word": "cold", "phonetic": "/kəʊld/", "pos": "adj.", "meaning": "冷的", "examples": [{"en": "Winter is cold.", "zh": "冬天很冷。"}, {"en": "I have a cold.", "zh": "我感冒了。"}], "synonyms": [], "antonyms": ["hot"], "difficulty": 1, "tags": ["weather"]}
-      ]
-    },
-    {
-      "unitId": "g4-u9",
-      "unitName": "Unit 9 Clothes",
-      "words": [
-        {"id": "g4w081", "word": "shirt", "phonetic": "/ʃɜːt/", "pos": "n.", "meaning": "衬衫", "examples": [{"en": "The shirt is white.", "zh": "这件衬衫是白色的。"}, {"en": "I like this shirt.", "zh": "我喜欢这件衬衫。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["clothing"]},
-        {"id": "g4w082", "word": "T-shirt", "phonetic": "/ˈtiː ʃɜːt/", "pos": "n.", "meaning": "T恤衫", "examples": [{"en": "I wear a T-shirt.", "zh": "我穿一件T恤衫。"}, {"en": "The T-shirt is blue.", "zh": "T恤衫是蓝色的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["clothing"]},
-        {"id": "g4w083", "word": "skirt", "phonetic": "/skɜːt/", "pos": "n.", "meaning": "裙子", "examples": [{"en": "She has a red skirt.", "zh": "她有一条红裙子。"}, {"en": "The skirt is pretty.", "zh": "这条裙子很漂亮。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["clothing"]},
-        {"id": "g4w084", "word": "dress", "phonetic": "/dres/", "pos": "n.", "meaning": "连衣裙", "examples": [{"en": "She wears a nice dress.", "zh": "她穿了一条漂亮的连衣裙。"}, {"en": "The dress is yellow.", "zh": "这条连衣裙是黄色的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["clothing"]},
-        {"id": "g4w085", "word": "pants", "phonetic": "/pænts/", "pos": "n.", "meaning": "裤子", "examples": [{"en": "My pants are black.", "zh": "我的裤子是黑色的。"}, {"en": "Put on your pants.", "zh": "穿上你的裤子。"}], "synonyms": ["trousers"], "antonyms": [], "difficulty": 2, "tags": ["clothing"]},
-        {"id": "g4w086", "word": "shoe", "phonetic": "/ʃuː/", "pos": "n.", "meaning": "鞋", "examples": [{"en": "Where is my shoe?", "zh": "我的鞋在哪里？"}, {"en": "These shoes are new.", "zh": "这双鞋是新的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["clothing"]},
-        {"id": "g4w087", "word": "sock", "phonetic": "/sɒk/", "pos": "n.", "meaning": "袜子", "examples": [{"en": "Put on your socks.", "zh": "穿上你的袜子。"}, {"en": "My socks are white.", "zh": "我的袜子是白色的。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["clothing"]},
-        {"id": "g4w088", "word": "hat", "phonetic": "/hæt/", "pos": "n.", "meaning": "帽子", "examples": [{"en": "I wear a red hat.", "zh": "我戴一顶红帽子。"}, {"en": "The hat is on the bed.", "zh": "帽子在床上。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["clothing"]},
-        {"id": "g4w089", "word": "wear", "phonetic": "/weə(r)/", "pos": "v.", "meaning": "穿；戴", "examples": [{"en": "She wears a pink dress.", "zh": "她穿一条粉色裙子。"}, {"en": "Wear your coat.", "zh": "穿上你的外套。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
-        {"id": "g4w090", "word": "coat", "phonetic": "/kəʊt/", "pos": "n.", "meaning": "外套", "examples": [{"en": "Put on your coat.", "zh": "穿上你的外套。"}, {"en": "The coat is warm.", "zh": "这件外套很暖和。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["clothing"]}
-      ]
-    },
-    {
-      "unitId": "g4-u10",
-      "unitName": "Unit 10 Toys and Hobbies",
-      "words": [
-        {"id": "g4w091", "word": "toy", "phonetic": "/tɔɪ/", "pos": "n.", "meaning": "玩具", "examples": [{"en": "I have many toys.", "zh": "我有很多玩具。"}, {"en": "The toy is new.", "zh": "玩具是新的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w092", "word": "ball", "phonetic": "/bɔːl/", "pos": "n.", "meaning": "球", "examples": [{"en": "Throw the ball.", "zh": "扔球。"}, {"en": "I have a red ball.", "zh": "我有一个红球。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w093", "word": "doll", "phonetic": "/dɒl/", "pos": "n.", "meaning": "玩偶", "examples": [{"en": "She loves her doll.", "zh": "她喜欢她的玩偶。"}, {"en": "The doll is pretty.", "zh": "这个玩偶很漂亮。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w094", "word": "kite", "phonetic": "/kaɪt/", "pos": "n.", "meaning": "风筝", "examples": [{"en": "I fly a kite.", "zh": "我放风筝。"}, {"en": "The kite is high.", "zh": "风筝飞得高。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]},
-        {"id": "g4w095", "word": "play", "phonetic": "/pleɪ/", "pos": "v.", "meaning": "玩耍", "examples": [{"en": "Let's play together.", "zh": "我们一起玩吧。"}, {"en": "Children play in the park.", "zh": "孩子们在公园里玩。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
-        {"id": "g4w096", "word": "sing", "phonetic": "/sɪŋ/", "pos": "v.", "meaning": "唱歌", "examples": [{"en": "I can sing.", "zh": "我会唱歌。"}, {"en": "She sings well.", "zh": "她唱得好。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
-        {"id": "g4w097", "word": "dance", "phonetic": "/dɑːns/", "pos": "v.", "meaning": "跳舞", "examples": [{"en": "Let's dance.", "zh": "我们跳舞吧。"}, {"en": "She loves to dance.", "zh": "她喜欢跳舞。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
-        {"id": "g4w098", "word": "draw", "phonetic": "/drɔː/", "pos": "v.", "meaning": "画画", "examples": [{"en": "I draw a cat.", "zh": "我画一只猫。"}, {"en": "She likes to draw.", "zh": "她喜欢画画。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
-        {"id": "g4w099", "word": "read", "phonetic": "/riːd/", "pos": "v.", "meaning": "读", "examples": [{"en": "I read a book.", "zh": "我读一本书。"}, {"en": "She reads every day.", "zh": "她每天都读书。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
-        {"id": "g4w100", "word": "write", "phonetic": "/raɪt/", "pos": "v.", "meaning": "写", "examples": [{"en": "I write a letter.", "zh": "我写一封信。"}, {"en": "Please write your name.", "zh": "请写你的名字。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]}
-      ]
-    },
-    {
-      "unitId": "g4-u11",
-      "unitName": "Unit 11 Sports",
-      "words": [
-        {"id": "g4w101", "word": "football", "phonetic": "/ˈfʊtbɔːl/", "pos": "n.", "meaning": "足球", "examples": [{"en": "I play football.", "zh": "我踢足球。"}, {"en": "Football is fun.", "zh": "足球很有趣。"}], "synonyms": ["soccer"], "antonyms": [], "difficulty": 1, "tags": ["sport"]},
-        {"id": "g4w102", "word": "basketball", "phonetic": "/ˈbɑːskɪtbɔːl/", "pos": "n.", "meaning": "篮球", "examples": [{"en": "He plays basketball.", "zh": "他打篮球。"}, {"en": "Basketball is my favourite sport.", "zh": "篮球是我最喜欢的运动。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"]},
-        {"id": "g4w103", "word": "ping-pong", "phonetic": "/ˈpɪŋ pɒŋ/", "pos": "n.", "meaning": "乒乓球", "examples": [{"en": "Let's play ping-pong.", "zh": "我们打乒乓球吧。"}, {"en": "I love ping-pong.", "zh": "我喜欢乒乓球。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"]},
-        {"id": "g4w104", "word": "swim", "phonetic": "/swɪm/", "pos": "v.", "meaning": "游泳", "examples": [{"en": "I can swim.", "zh": "我会游泳。"}, {"en": "Fish can swim.", "zh": "鱼会游泳。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb", "sport"]},
-        {"id": "g4w105", "word": "run", "phonetic": "/rʌn/", "pos": "v.", "meaning": "跑", "examples": [{"en": "I run fast.", "zh": "我跑得快。"}, {"en": "Don't run in the classroom.", "zh": "不要在教室里跑。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb", "sport"]},
-        {"id": "g4w106", "word": "jump", "phonetic": "/dʒʌmp/", "pos": "v.", "meaning": "跳", "examples": [{"en": "He can jump high.", "zh": "他能跳得高。"}, {"en": "The cat jumps.", "zh": "猫跳起来。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
-        {"id": "g4w107", "word": "fly", "phonetic": "/flaɪ/", "pos": "v.", "meaning": "飞", "examples": [{"en": "Birds fly.", "zh": "鸟会飞。"}, {"en": "Planes fly high.", "zh": "飞机飞得高。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
-        {"id": "g4w108", "word": "walk", "phonetic": "/wɔːk/", "pos": "v.", "meaning": "走", "examples": [{"en": "We walk to school.", "zh": "我们走路去学校。"}, {"en": "Let's go for a walk.", "zh": "我们去散步吧。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["verb"]},
-        {"id": "g4w109", "word": "ride", "phonetic": "/raɪd/", "pos": "v.", "meaning": "骑", "examples": [{"en": "I can ride a bike.", "zh": "我会骑自行车。"}, {"en": "He rides to school.", "zh": "他骑车上学。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["verb"]},
-        {"id": "g4w110", "word": "bike", "phonetic": "/baɪk/", "pos": "n.", "meaning": "自行车", "examples": [{"en": "My bike is red.", "zh": "我的自行车是红色的。"}, {"en": "I ride a bike to school.", "zh": "我骑自行车上学。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["transport"]}
-      ]
-    },
-    {
-      "unitId": "g4-u12",
-      "unitName": "Unit 12 Time",
-      "words": [
-        {"id": "g4w111", "word": "time", "phonetic": "/taɪm/", "pos": "n.", "meaning": "时间", "examples": [{"en": "What time is it?", "zh": "几点了？"}, {"en": "Time is gold.", "zh": "时间就是金子。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w112", "word": "clock", "phonetic": "/klɒk/", "pos": "n.", "meaning": "时钟", "examples": [{"en": "The clock is on the wall.", "zh": "钟在墙上。"}, {"en": "Look at the clock.", "zh": "看一下钟。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["object"]},
-        {"id": "g4w113", "word": "watch", "phonetic": "/wɒtʃ/", "pos": "n.", "meaning": "手表", "examples": [{"en": "My watch is new.", "zh": "我的手表是新的。"}, {"en": "I wear a watch.", "zh": "我戴着手表。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["object"]},
-        {"id": "g4w114", "word": "minute", "phonetic": "/ˈmɪnɪt/", "pos": "n.", "meaning": "分钟", "examples": [{"en": "Wait a minute.", "zh": "等一会儿。"}, {"en": "It is five minutes.", "zh": "五分钟。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["time"]},
-        {"id": "g4w115", "word": "hour", "phonetic": "/ˈaʊə(r)/", "pos": "n.", "meaning": "小时", "examples": [{"en": "An hour has 60 minutes.", "zh": "一小时有60分钟。"}, {"en": "I read for an hour.", "zh": "我读一个小时书。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["time"]},
-        {"id": "g4w116", "word": "day", "phonetic": "/deɪ/", "pos": "n.", "meaning": "一天", "examples": [{"en": "Have a nice day.", "zh": "祝你愉快。"}, {"en": "A day has 24 hours.", "zh": "一天有24小时。"}], "synonyms": [], "antonyms": ["night"], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w117", "word": "night", "phonetic": "/naɪt/", "pos": "n.", "meaning": "夜晚", "examples": [{"en": "Good night!", "zh": "晚安！"}, {"en": "The stars are out at night.", "zh": "晚上有星星。"}], "synonyms": [], "antonyms": ["day"], "difficulty": 1, "tags": ["time"]},
-        {"id": "g4w118", "word": "now", "phonetic": "/naʊ/", "pos": "adv.", "meaning": "现在", "examples": [{"en": "Come here now.", "zh": "现在过来。"}, {"en": "I am busy now.", "zh": "我现在很忙。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["time", "adverb"]},
-        {"id": "g4w119", "word": "then", "phonetic": "/ðen/", "pos": "adv.", "meaning": "然后", "examples": [{"en": "I read, and then I sleep.", "zh": "我读书，然后睡觉。"}, {"en": "See you then.", "zh": "到时候见。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["adverb"]},
-        {"id": "g4w120", "word": "early", "phonetic": "/ˈɜːli/", "pos": "adj.", "meaning": "早的", "examples": [{"en": "I get up early.", "zh": "我起得早。"}, {"en": "The early bird gets the worm.", "zh": "早起的鸟儿有虫吃。"}], "synonyms": [], "antonyms": ["late"], "difficulty": 2, "tags": ["adverb", "time"]}
+        {"id": "g4w024", "word": "rice", "phonetic": "/raɪs/", "pos": "n.", "meaning": "米饭", "examples": [{"en": "I eat rice every day.", "zh": "我每天吃米饭。"}, {"en": "The rice is hot.", "zh": "米饭是热的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g4w025", "word": "noodles", "phonetic": "/ˈnuːdlz/", "pos": "n.", "meaning": "面条", "examples": [{"en": "I like noodles.", "zh": "我喜欢面条。"}, {"en": "The noodles are tasty.", "zh": "面条很好吃。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"]},
+        {"id": "g4w026", "word": "bread", "phonetic": "/bred/", "pos": "n.", "meaning": "面包", "examples": [{"en": "Have some bread.", "zh": "吃点面包。"}, {"en": "The bread is fresh.", "zh": "面包很新鲜。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g4w027", "word": "milk", "phonetic": "/mɪlk/", "pos": "n.", "meaning": "牛奶", "examples": [{"en": "I drink milk every morning.", "zh": "我每天早上喝牛奶。"}, {"en": "The milk is cold.", "zh": "牛奶是凉的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g4w028", "word": "water", "phonetic": "/ˈwɔːtə/", "pos": "n.", "meaning": "水", "examples": [{"en": "I want some water.", "zh": "我想要一些水。"}, {"en": "Drink more water.", "zh": "多喝水。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]},
+        {"id": "g4w029", "word": "apple", "phonetic": "/ˈæpl/", "pos": "n.", "meaning": "苹果", "examples": [{"en": "I like apples.", "zh": "我喜欢苹果。"}, {"en": "The apple is red.", "zh": "苹果是红色的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food", "fruit"]},
+        {"id": "g4w030", "word": "egg", "phonetic": "/eɡ/", "pos": "n.", "meaning": "鸡蛋", "examples": [{"en": "I eat an egg.", "zh": "我吃了一个鸡蛋。"}, {"en": "The egg is white.", "zh": "鸡蛋是白色的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"]}
       ]
     }
   ]

@@ -1,0 +1,85 @@
+{
+  "level": "kindergarten",
+  "articles": [
+    {
+      "id": "rk-001",
+      "title": "My Cat",
+      "grade": 1,
+      "lexile": 100,
+      "wordCount": 28,
+      "category": "story",
+      "content": "I have a cat. It is white. It is small. It has big eyes. I love my cat. My cat loves me too.",
+      "translation": "我有一只猫。它是白色的。它很小。它有大大的眼睛。我爱我的猫。我的猫也爱我。",
+      "questions": [
+        {"type": "choice", "q": "What color is the cat?", "options": ["Red", "White", "Black", "Blue"], "answer": 1},
+        {"type": "choice", "q": "Is the cat big or small?", "options": ["Big", "Small", "Tall", "Short"], "answer": 1},
+        {"type": "choice", "q": "What does the cat have?", "options": ["Big eyes", "Small eyes", "Long ears", "Red nose"], "answer": 0}
+      ],
+      "keyWords": ["cat", "white", "small", "love"]
+    },
+    {
+      "id": "rk-002",
+      "title": "My Family",
+      "grade": 1,
+      "lexile": 110,
+      "wordCount": 30,
+      "category": "story",
+      "content": "I have a family. This is my dad. This is my mom. This is my baby brother. We are happy. I love my family.",
+      "translation": "我有一个家。这是我爸爸。这是我妈妈。这是我的小弟弟。我们很开心。我爱我的家。",
+      "questions": [
+        {"type": "choice", "q": "Who is in the family?", "options": ["Dad, Mom, baby brother", "Dad only", "Mom and dad", "Just baby"], "answer": 0},
+        {"type": "choice", "q": "How does the family feel?", "options": ["Sad", "Happy", "Tired", "Angry"], "answer": 1},
+        {"type": "choice", "q": "What does I do?", "options": ["Hate my family", "Love my family", "Leave family", "Cry"], "answer": 1}
+      ],
+      "keyWords": ["family", "dad", "mom", "baby", "happy"]
+    },
+    {
+      "id": "rk-003",
+      "title": "I Can Do Many Things",
+      "grade": 2,
+      "lexile": 130,
+      "wordCount": 32,
+      "category": "story",
+      "content": "I am five. I can run. I can jump. I can sing. I can dance. I can read books. I cannot fly. But I can dream!",
+      "translation": "我五岁。我能跑。我能跳。我会唱歌。我会跳舞。我会读书。我不能飞。但我能做梦！",
+      "questions": [
+        {"type": "choice", "q": "How old is I?", "options": ["Three", "Four", "Five", "Six"], "answer": 2},
+        {"type": "choice", "q": "What can the writer NOT do?", "options": ["Run", "Jump", "Fly", "Sing"], "answer": 2},
+        {"type": "choice", "q": "What CAN the writer still do though they can't fly?", "options": ["Drive", "Cook", "Dream", "Swim"], "answer": 2}
+      ],
+      "keyWords": ["can", "run", "jump", "sing", "dream"]
+    },
+    {
+      "id": "rk-004",
+      "title": "Colors I Like",
+      "grade": 2,
+      "lexile": 120,
+      "wordCount": 30,
+      "category": "life",
+      "content": "I like red. I like apples. I like blue. I like the sky. I like green. I like trees. Colors are fun!",
+      "translation": "我喜欢红色。我喜欢苹果。我喜欢蓝色。我喜欢天空。我喜欢绿色。我喜欢树。颜色真有趣！",
+      "questions": [
+        {"type": "choice", "q": "What color does the writer like for apples?", "options": ["Blue", "Green", "Red", "Yellow"], "answer": 2},
+        {"type": "choice", "q": "What is blue in the story?", "options": ["Apples", "Sky", "Trees", "Cars"], "answer": 1},
+        {"type": "choice", "q": "How does the writer feel about colors?", "options": ["Boring", "Fun", "Sad", "Bad"], "answer": 1}
+      ],
+      "keyWords": ["like", "red", "blue", "green", "colors"]
+    },
+    {
+      "id": "rk-005",
+      "title": "My Toys",
+      "grade": 2,
+      "lexile": 125,
+      "wordCount": 31,
+      "category": "life",
+      "content": "I have many toys. I have a red ball. I have a yellow car. I have a pink doll. I love my toys. I play every day.",
+      "translation": "我有很多玩具。我有一个红球。我有一辆黄色的车。我有一个粉娃娃。我爱我的玩具。我每天都玩。",
+      "questions": [
+        {"type": "choice", "q": "What color is the ball?", "options": ["Red", "Yellow", "Pink", "Blue"], "answer": 0},
+        {"type": "choice", "q": "What color is the doll?", "options": ["Red", "Yellow", "Pink", "Blue"], "answer": 2},
+        {"type": "choice", "q": "How often does the writer play?", "options": ["Sometimes", "Never", "Every day", "On Sundays"], "answer": 2}
+      ],
+      "keyWords": ["toys", "ball", "car", "doll", "play"]
+    }
+  ]
+}
