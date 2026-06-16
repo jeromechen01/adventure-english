@@ -117,6 +117,85 @@ export function similarity(target, spoken) {
   return score;
 }
 
+// ============================================================
+// 词级对齐打分 (V0.2 模块4 背诵)：用 LCS 最长公共子序列做词级对齐
+// ============================================================
+
+// 常见缩写展开
+const CONTRACTIONS = {
+  "i'm": "i am", "you're": "you are", "he's": "he is", "she's": "she is", "it's": "it is",
+  "we're": "we are", "they're": "they are", "that's": "that is", "there's": "there is",
+  "what's": "what is", "who's": "who is", "here's": "here is", "let's": "let us",
+  "i've": "i have", "you've": "you have", "we've": "we have", "they've": "they have",
+  "i'll": "i will", "you'll": "you will", "he'll": "he will", "she'll": "she will",
+  "we'll": "we will", "they'll": "they will", "it'll": "it will",
+  "i'd": "i would", "you'd": "you would", "he'd": "he would", "she'd": "she would",
+  "we'd": "we would", "they'd": "they would",
+  "don't": "do not", "doesn't": "does not", "didn't": "did not", "isn't": "is not",
+  "aren't": "are not", "wasn't": "was not", "weren't": "were not", "can't": "cannot",
+  "couldn't": "could not", "won't": "will not", "wouldn't": "would not",
+  "shouldn't": "should not", "mustn't": "must not", "haven't": "have not",
+  "hasn't": "has not", "hadn't": "had not"
+};
+
+// 规范化：小写、展开缩写、去标点，返回词数组
+export function normalizeWords(text) {
+  if (!text) return [];
+  let s = text.toLowerCase().replace(/[’]/g, "'"); // 统一弯引号
+  // 展开缩写
+  s = s.replace(/[a-z]+'[a-z]+/g, m => CONTRACTIONS[m] || m);
+  // 去掉除字母数字空格外的字符
+  s = s.replace(/[^a-z0-9\s]/g, ' ');
+  return s.split(/\s+/).filter(Boolean);
+}
+
+// LCS 词级对齐：返回 { tokens:[{word,status}], completeness, accuracy, score }
+// status: correct(对) / missing(漏) / extra(多)
+export function alignWords(original, spoken) {
+  const orig = normalizeWords(original);
+  const said = normalizeWords(spoken);
+  const n = orig.length, m = said.length;
+
+  // LCS DP（自底向上）
+  const dp = Array.from({ length: n + 1 }, () => new Int32Array(m + 1));
+  for (let i = n - 1; i >= 0; i--) {
+    for (let j = m - 1; j >= 0; j--) {
+      dp[i][j] = orig[i] === said[j]
+        ? dp[i + 1][j + 1] + 1
+        : Math.max(dp[i + 1][j], dp[i][j + 1]);
+    }
+  }
+
+  // 回溯生成有序 token 列表
+  const tokens = [];
+  let i = 0, j = 0, matched = 0;
+  while (i < n && j < m) {
+    if (orig[i] === said[j]) {
+      tokens.push({ word: orig[i], status: 'correct' });
+      matched++; i++; j++;
+    } else if (dp[i + 1][j] >= dp[i][j + 1]) {
+      tokens.push({ word: orig[i], status: 'missing' });
+      i++;
+    } else {
+      tokens.push({ word: said[j], status: 'extra' });
+      j++;
+    }
+  }
+  while (i < n) { tokens.push({ word: orig[i], status: 'missing' }); i++; }
+  while (j < m) { tokens.push({ word: said[j], status: 'extra' }); j++; }
+
+  const completeness = n ? matched / n : 0;      // 念到了原文多少
+  const accuracy = m ? matched / m : (n ? 0 : 1); // 念的内容有多少是对的
+  const score = Math.round((completeness * 0.7 + accuracy * 0.3) * 100);
+
+  return {
+    tokens,
+    completeness: Math.round(completeness * 100),
+    accuracy: Math.round(accuracy * 100),
+    score
+  };
+}
+
 function levenshtein(a, b) {
   const m = a.length, n = b.length;
   if (m === 0) return n;

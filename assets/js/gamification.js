@@ -1,5 +1,5 @@
 // gamification.js - 游戏化激励系统
-import { getCoins, getBadges, unlockBadge, getStreak, getLearnedWords } from './storage.js';
+import { getCoins, getBadges, unlockBadge, getStreak, getLearnedWords, getStats } from './storage.js';
 
 // === 段位系统 ===
 export const RANKS = [
@@ -47,7 +47,15 @@ export const BADGES = [
   { id: 'rank_silver',  name: '白银晋升', icon: '🥈', desc: '达到白银段位' },
   { id: 'rank_gold',    name: '黄金晋升', icon: '🥇', desc: '达到黄金段位' },
   { id: 'rank_diamond', name: '钻石晋升', icon: '💎', desc: '达到钻石段位' },
-  { id: 'first_essay',  name: '挥毫泼墨', icon: '✍️', desc: '完成第一篇作文' }
+  { id: 'first_essay',  name: '挥毫泼墨', icon: '✍️', desc: '完成第一篇作文' },
+  // === V0.2 闯关 / 强化 / 背诵 新增勋章 ===
+  { id: 'level_10',         name: '过关斩将', icon: '🗺️', desc: '通关 10 个单词关卡' },
+  { id: 'level_three_star', name: '完美主义', icon: '🌟', desc: '获得 10 个三星关卡' },
+  { id: 'boss_slayer',      name: '屠龙勇士', icon: '🐉', desc: '击败 3 个 Boss 关' },
+  { id: 'combo_master',     name: '连击大师', icon: '🔥', desc: '单关达成 10 连击' },
+  { id: 'region_clear',     name: '探险家',   icon: '🧭', desc: '通关一个完整大区' },
+  { id: 'reinforce_master', name: '攻克难关', icon: '💪', desc: '让 20 个错词毕业' },
+  { id: 'recite_perfect',   name: '背诵达人', icon: '🏆', desc: '获得一次 95 分以上背诵' }
 ];
 
 // 检查并解锁勋章 (每次进度更新时调用)
@@ -68,6 +76,15 @@ export function checkBadges() {
   if (rank.id === 'silver' && unlockBadge('rank_silver'))   newBadges.push('rank_silver');
   if (rank.id === 'gold' && unlockBadge('rank_gold'))       newBadges.push('rank_gold');
   if (rank.id === 'diamond' && unlockBadge('rank_diamond')) newBadges.push('rank_diamond');
+
+  // === V0.2 闯关相关勋章 ===
+  const stats = getStats();
+  if ((stats.clearedTotal || 0) >= 10 && unlockBadge('level_10'))        newBadges.push('level_10');
+  if ((stats.threeStars || 0) >= 10 && unlockBadge('level_three_star'))  newBadges.push('level_three_star');
+  if ((stats.bossKills || 0) >= 3 && unlockBadge('boss_slayer'))         newBadges.push('boss_slayer');
+  if ((stats.comboMax || 0) >= 10 && unlockBadge('combo_master'))        newBadges.push('combo_master');
+  if ((stats.regionClears || 0) >= 1 && unlockBadge('region_clear'))     newBadges.push('region_clear');
+  if ((stats.reinforceGrads || 0) >= 20 && unlockBadge('reinforce_master')) newBadges.push('reinforce_master');
 
   return newBadges.map(id => BADGES.find(b => b.id === id)).filter(Boolean);
 }

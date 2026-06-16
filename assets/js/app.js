@@ -3,6 +3,8 @@ import * as storage from './storage.js';
 import { checkBadges, getCurrentRank, getRankProgress, getLeaderboard, BADGES } from './gamification.js';
 import { speak, playSound } from './speech.js';
 import { renderWordsPage } from './modules/words.js';
+import { renderLevelMap } from './modules/levels.js';
+import { renderReinforce } from './modules/reinforce.js';
 import { renderGrammarPage } from './modules/grammar.js';
 import { renderReadingPage } from './modules/reading.js';
 import { renderWritingPage } from './modules/writing.js';
@@ -116,6 +118,8 @@ async function navigate(page, params = {}) {
     case 'leaderboard':renderLeaderboard(app); break;
     case 'me':         renderMe(app); break;
     case 'words':      await renderWordsPage(app, params); break;
+    case 'levels':     await renderLevelMap(app); break;
+    case 'reinforce':  await renderReinforce(app); break;
     case 'grammar':    await renderGrammarPage(app, params); break;
     case 'reading':    await renderReadingPage(app, params); break;
     case 'writing':    await renderWritingPage(app, params); break;
@@ -177,7 +181,7 @@ async function renderHome(app) {
     </div>
 
     <!-- 4 个学习入口 -->
-    <div class="grid grid-cols-2 gap-3 mb-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
       <button data-action="goto-words" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-orange-100 to-orange-50">
         <div class="text-4xl">🚀</div>
         <div class="font-bold mt-2">单词大冒险</div>
@@ -414,7 +418,7 @@ function renderMe(app) {
     <!-- 勋章墙 -->
     <div class="card-cartoon mb-4">
       <h3 class="font-bold mb-3">🎖️ 勋章墙 (${badges.length}/${BADGES.length})</h3>
-      <div class="grid grid-cols-4 gap-3">
+      <div class="grid grid-cols-4 md:grid-cols-6 gap-3">
         ${BADGES.map(b => {
           const unlocked = badges.includes(b.id);
           return `
@@ -441,7 +445,7 @@ function renderMe(app) {
     </div>
 
     <div class="text-center text-xs text-gray-400 mt-6">
-      英语奇遇记 v0.1 · 测试版<br>
+      英语奇遇记 v0.2 · 闯关趣味强化版<br>
       数据全部保存在本机，不上传任何信息
     </div>
   `;

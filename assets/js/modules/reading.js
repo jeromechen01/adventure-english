@@ -2,6 +2,7 @@
 import { loadJSON, toast } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound, recognize, similarity, isSpeechRecognitionSupported, stopSpeaking } from '../speech.js';
+import { renderRecite } from './recite.js';
 
 // 缓存所有单词的本地词库 (用于点词查义)
 let wordIndex = null;
@@ -108,7 +109,7 @@ async function renderArticle(app, data, articleId) {
 
       <div class="grid grid-cols-2 gap-2 mb-3">
         <button id="toggleTransBtn" class="btn-cartoon btn-cartoon-secondary text-sm">${showTranslation ? '隐藏翻译' : '显示翻译'}</button>
-        ${isSpeechRecognitionSupported() ? `<button id="recBtn" class="btn-cartoon text-sm">🎤 跟读评分</button>` : '<div></div>'}
+        <button id="reciteBtn" class="btn-cartoon text-sm">🎤 跟读背诵</button>
       </div>
 
       <button id="quizBtn" class="w-full btn-cartoon">📝 完成阅读后做题 (${article.questions.length} 题)</button>
@@ -118,33 +119,7 @@ async function renderArticle(app, data, articleId) {
     app.querySelector('#speakAllBtn').addEventListener('click', () => speak(article.content, { rate: 0.85 }));
     app.querySelector('#toggleTransBtn').addEventListener('click', () => { showTranslation = !showTranslation; render(); });
     app.querySelector('#quizBtn').addEventListener('click', () => { mode = 'quiz'; render(); });
-
-    const recBtn = app.querySelector('#recBtn');
-    if (recBtn) {
-      recBtn.addEventListener('click', async () => {
-        recBtn.textContent = '🎤 录音中...请朗读全文';
-        recBtn.disabled = true;
-        try {
-          const handle = recognize();
-          const results = await handle.promise;
-          const score = Math.max(...results.map(r => similarity(article.content, r.transcript)));
-          if (score >= 75) {
-            toast(`🎉 朗读得分: ${score} - 非常流利！`, 'success');
-            storage.addCoins(15);
-          } else if (score >= 50) {
-            toast(`朗读得分: ${score} - 还不错，再练习几次`, 'info');
-            storage.addCoins(8);
-          } else {
-            toast(`朗读得分: ${score} - 多听多练`, 'warn');
-            storage.addCoins(3);
-          }
-        } catch (e) {
-          toast('未识别，请重试', 'error');
-        }
-        recBtn.textContent = '🎤 跟读评分';
-        recBtn.disabled = false;
-      });
-    }
+    app.querySelector('#reciteBtn').addEventListener('click', () => { stopSpeaking(); renderRecite(app, article, render); });
 
     // 点词查义
     app.querySelectorAll('.inline-word').forEach(span => {
