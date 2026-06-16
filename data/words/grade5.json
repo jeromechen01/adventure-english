@@ -6,60 +6,775 @@
       "unitId": "g5-u1",
       "unitName": "Unit 1 My Day",
       "words": [
-        {"id": "g5w001", "word": "morning", "phonetic": "/ˈmɔːnɪŋ/", "pos": "n.", "meaning": "早晨", "examples": [{"en": "I get up early in the morning.", "zh": "我早上很早起床。"}, {"en": "Good morning, everyone.", "zh": "大家早上好。"}], "synonyms": [], "antonyms": ["evening"], "difficulty": 2, "tags": ["time"]},
-        {"id": "g5w002", "word": "breakfast", "phonetic": "/ˈbrekfəst/", "pos": "n.", "meaning": "早餐", "examples": [{"en": "I have breakfast at seven.", "zh": "我七点吃早餐。"}, {"en": "Breakfast is important.", "zh": "早餐很重要。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food", "time"]},
-        {"id": "g5w003", "word": "lunch", "phonetic": "/lʌntʃ/", "pos": "n.", "meaning": "午餐", "examples": [{"en": "I have lunch at school.", "zh": "我在学校吃午餐。"}, {"en": "What's for lunch?", "zh": "午餐吃什么？"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food", "time"]},
-        {"id": "g5w004", "word": "dinner", "phonetic": "/ˈdɪnə/", "pos": "n.", "meaning": "晚餐", "examples": [{"en": "We eat dinner at home.", "zh": "我们在家吃晚餐。"}, {"en": "Dinner is ready.", "zh": "晚饭好了。"}], "synonyms": ["supper"], "antonyms": [], "difficulty": 2, "tags": ["food", "time"]},
-        {"id": "g5w005", "word": "school", "phonetic": "/skuːl/", "pos": "n.", "meaning": "学校", "examples": [{"en": "I go to school by bus.", "zh": "我坐公交车上学。"}, {"en": "Our school is big.", "zh": "我们学校很大。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["place"]},
-        {"id": "g5w006", "word": "homework", "phonetic": "/ˈhəʊmwɜːk/", "pos": "n.", "meaning": "家庭作业", "examples": [{"en": "I do my homework after dinner.", "zh": "我晚饭后做作业。"}, {"en": "Did you finish your homework?", "zh": "你做完作业了吗？"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["school"]}
+        {
+          "id": "g5w001",
+          "word": "morning",
+          "phonetic": "/ˈmɔːnɪŋ/",
+          "pos": "n.",
+          "meaning": "早晨",
+          "examples": [
+            {
+              "en": "I get up early in the morning.",
+              "zh": "我早上很早起床。"
+            },
+            {
+              "en": "Good morning, everyone.",
+              "zh": "大家早上好。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "evening"
+          ],
+          "difficulty": 2,
+          "tags": [
+            "time"
+          ]
+        },
+        {
+          "id": "g5w002",
+          "word": "breakfast",
+          "phonetic": "/ˈbrekfəst/",
+          "pos": "n.",
+          "meaning": "早餐",
+          "examples": [
+            {
+              "en": "I have breakfast at seven.",
+              "zh": "我七点吃早餐。"
+            },
+            {
+              "en": "Breakfast is important.",
+              "zh": "早餐很重要。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "food",
+            "time"
+          ],
+          "mnemonic": {
+            "type": "split",
+            "tip": "break(打破) + fast(禁食) = 早餐：打破一整夜没吃东西的状态。"
+          }
+        },
+        {
+          "id": "g5w003",
+          "word": "lunch",
+          "phonetic": "/lʌntʃ/",
+          "pos": "n.",
+          "meaning": "午餐",
+          "examples": [
+            {
+              "en": "I have lunch at school.",
+              "zh": "我在学校吃午餐。"
+            },
+            {
+              "en": "What's for lunch?",
+              "zh": "午餐吃什么？"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "food",
+            "time"
+          ]
+        },
+        {
+          "id": "g5w004",
+          "word": "dinner",
+          "phonetic": "/ˈdɪnə/",
+          "pos": "n.",
+          "meaning": "晚餐",
+          "examples": [
+            {
+              "en": "We eat dinner at home.",
+              "zh": "我们在家吃晚餐。"
+            },
+            {
+              "en": "Dinner is ready.",
+              "zh": "晚饭好了。"
+            }
+          ],
+          "synonyms": [
+            "supper"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "food",
+            "time"
+          ]
+        },
+        {
+          "id": "g5w005",
+          "word": "school",
+          "phonetic": "/skuːl/",
+          "pos": "n.",
+          "meaning": "学校",
+          "examples": [
+            {
+              "en": "I go to school by bus.",
+              "zh": "我坐公交车上学。"
+            },
+            {
+              "en": "Our school is big.",
+              "zh": "我们学校很大。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "place"
+          ]
+        },
+        {
+          "id": "g5w006",
+          "word": "homework",
+          "phonetic": "/ˈhəʊmwɜːk/",
+          "pos": "n.",
+          "meaning": "家庭作业",
+          "examples": [
+            {
+              "en": "I do my homework after dinner.",
+              "zh": "我晚饭后做作业。"
+            },
+            {
+              "en": "Did you finish your homework?",
+              "zh": "你做完作业了吗？"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "school"
+          ],
+          "mnemonic": {
+            "type": "split",
+            "tip": "home(家) + work(功课) = 在家做的功课，家庭作业。"
+          }
+        }
       ]
     },
     {
       "unitId": "g5-u2",
       "unitName": "Unit 2 Hobbies",
       "words": [
-        {"id": "g5w007", "word": "hobby", "phonetic": "/ˈhɒbi/", "pos": "n.", "meaning": "爱好", "examples": [{"en": "My hobby is reading.", "zh": "我的爱好是阅读。"}, {"en": "What's your hobby?", "zh": "你的爱好是什么？"}], "synonyms": ["interest"], "antonyms": [], "difficulty": 2, "tags": ["interest"]},
-        {"id": "g5w008", "word": "read", "phonetic": "/riːd/", "pos": "v.", "meaning": "阅读", "examples": [{"en": "I read every day.", "zh": "我每天阅读。"}, {"en": "She likes to read books.", "zh": "她喜欢读书。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]},
-        {"id": "g5w009", "word": "write", "phonetic": "/raɪt/", "pos": "v.", "meaning": "写", "examples": [{"en": "Write your name here.", "zh": "在这里写下你的名字。"}, {"en": "I write a letter to my mom.", "zh": "我给妈妈写信。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]},
-        {"id": "g5w010", "word": "draw", "phonetic": "/drɔː/", "pos": "v.", "meaning": "画画", "examples": [{"en": "I love to draw.", "zh": "我喜欢画画。"}, {"en": "She draws a picture.", "zh": "她画了一幅画。"}], "synonyms": ["paint"], "antonyms": [], "difficulty": 2, "tags": ["action"]},
-        {"id": "g5w011", "word": "sing", "phonetic": "/sɪŋ/", "pos": "v.", "meaning": "唱歌", "examples": [{"en": "Let's sing a song.", "zh": "让我们唱一首歌。"}, {"en": "She sings well.", "zh": "她唱歌很好听。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["action"]},
-        {"id": "g5w012", "word": "dance", "phonetic": "/dɑːns/", "pos": "v.", "meaning": "跳舞", "examples": [{"en": "Can you dance?", "zh": "你会跳舞吗？"}, {"en": "Let's dance together.", "zh": "我们一起跳舞吧。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["action"]}
+        {
+          "id": "g5w007",
+          "word": "hobby",
+          "phonetic": "/ˈhɒbi/",
+          "pos": "n.",
+          "meaning": "爱好",
+          "examples": [
+            {
+              "en": "My hobby is reading.",
+              "zh": "我的爱好是阅读。"
+            },
+            {
+              "en": "What's your hobby?",
+              "zh": "你的爱好是什么？"
+            }
+          ],
+          "synonyms": [
+            "interest"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "interest"
+          ]
+        },
+        {
+          "id": "g5w008",
+          "word": "read",
+          "phonetic": "/riːd/",
+          "pos": "v.",
+          "meaning": "阅读",
+          "examples": [
+            {
+              "en": "I read every day.",
+              "zh": "我每天阅读。"
+            },
+            {
+              "en": "She likes to read books.",
+              "zh": "她喜欢读书。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "action"
+          ]
+        },
+        {
+          "id": "g5w009",
+          "word": "write",
+          "phonetic": "/raɪt/",
+          "pos": "v.",
+          "meaning": "写",
+          "examples": [
+            {
+              "en": "Write your name here.",
+              "zh": "在这里写下你的名字。"
+            },
+            {
+              "en": "I write a letter to my mom.",
+              "zh": "我给妈妈写信。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "action"
+          ]
+        },
+        {
+          "id": "g5w010",
+          "word": "draw",
+          "phonetic": "/drɔː/",
+          "pos": "v.",
+          "meaning": "画画",
+          "examples": [
+            {
+              "en": "I love to draw.",
+              "zh": "我喜欢画画。"
+            },
+            {
+              "en": "She draws a picture.",
+              "zh": "她画了一幅画。"
+            }
+          ],
+          "synonyms": [
+            "paint"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "action"
+          ]
+        },
+        {
+          "id": "g5w011",
+          "word": "sing",
+          "phonetic": "/sɪŋ/",
+          "pos": "v.",
+          "meaning": "唱歌",
+          "examples": [
+            {
+              "en": "Let's sing a song.",
+              "zh": "让我们唱一首歌。"
+            },
+            {
+              "en": "She sings well.",
+              "zh": "她唱歌很好听。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "action"
+          ]
+        },
+        {
+          "id": "g5w012",
+          "word": "dance",
+          "phonetic": "/dɑːns/",
+          "pos": "v.",
+          "meaning": "跳舞",
+          "examples": [
+            {
+              "en": "Can you dance?",
+              "zh": "你会跳舞吗？"
+            },
+            {
+              "en": "Let's dance together.",
+              "zh": "我们一起跳舞吧。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "action"
+          ]
+        }
       ]
     },
     {
       "unitId": "g5-u3",
       "unitName": "Unit 3 Sports",
       "words": [
-        {"id": "g5w013", "word": "sport", "phonetic": "/spɔːt/", "pos": "n.", "meaning": "运动", "examples": [{"en": "I love sports.", "zh": "我喜欢运动。"}, {"en": "Football is a popular sport.", "zh": "足球是一项流行的运动。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"]},
-        {"id": "g5w014", "word": "football", "phonetic": "/ˈfʊtbɔːl/", "pos": "n.", "meaning": "足球", "examples": [{"en": "I play football on Sunday.", "zh": "我周日踢足球。"}, {"en": "He kicks the football.", "zh": "他踢足球。"}], "synonyms": ["soccer"], "antonyms": [], "difficulty": 2, "tags": ["sport"]},
-        {"id": "g5w015", "word": "basketball", "phonetic": "/ˈbɑːskɪtbɔːl/", "pos": "n.", "meaning": "篮球", "examples": [{"en": "He plays basketball well.", "zh": "他篮球打得很好。"}, {"en": "Let's play basketball.", "zh": "我们打篮球吧。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"]},
-        {"id": "g5w016", "word": "swim", "phonetic": "/swɪm/", "pos": "v.", "meaning": "游泳", "examples": [{"en": "I can swim.", "zh": "我会游泳。"}, {"en": "Fish swim in water.", "zh": "鱼在水里游。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"]},
-        {"id": "g5w017", "word": "run", "phonetic": "/rʌn/", "pos": "v.", "meaning": "跑", "examples": [{"en": "Run fast!", "zh": "跑快点！"}, {"en": "He runs to school.", "zh": "他跑去上学。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["sport"]},
-        {"id": "g5w018", "word": "jump", "phonetic": "/dʒʌmp/", "pos": "v.", "meaning": "跳", "examples": [{"en": "The cat can jump high.", "zh": "猫能跳得很高。"}, {"en": "Jump over the rope.", "zh": "跳过绳子。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"]}
+        {
+          "id": "g5w013",
+          "word": "sport",
+          "phonetic": "/spɔːt/",
+          "pos": "n.",
+          "meaning": "运动",
+          "examples": [
+            {
+              "en": "I love sports.",
+              "zh": "我喜欢运动。"
+            },
+            {
+              "en": "Football is a popular sport.",
+              "zh": "足球是一项流行的运动。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "sport"
+          ]
+        },
+        {
+          "id": "g5w014",
+          "word": "football",
+          "phonetic": "/ˈfʊtbɔːl/",
+          "pos": "n.",
+          "meaning": "足球",
+          "examples": [
+            {
+              "en": "I play football on Sunday.",
+              "zh": "我周日踢足球。"
+            },
+            {
+              "en": "He kicks the football.",
+              "zh": "他踢足球。"
+            }
+          ],
+          "synonyms": [
+            "soccer"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "sport"
+          ],
+          "mnemonic": {
+            "type": "split",
+            "tip": "foot(脚) + ball(球) = 用脚踢的球，足球。"
+          }
+        },
+        {
+          "id": "g5w015",
+          "word": "basketball",
+          "phonetic": "/ˈbɑːskɪtbɔːl/",
+          "pos": "n.",
+          "meaning": "篮球",
+          "examples": [
+            {
+              "en": "He plays basketball well.",
+              "zh": "他篮球打得很好。"
+            },
+            {
+              "en": "Let's play basketball.",
+              "zh": "我们打篮球吧。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "sport"
+          ],
+          "mnemonic": {
+            "type": "split",
+            "tip": "basket(篮子) + ball(球) = 投进篮子的球，篮球。"
+          }
+        },
+        {
+          "id": "g5w016",
+          "word": "swim",
+          "phonetic": "/swɪm/",
+          "pos": "v.",
+          "meaning": "游泳",
+          "examples": [
+            {
+              "en": "I can swim.",
+              "zh": "我会游泳。"
+            },
+            {
+              "en": "Fish swim in water.",
+              "zh": "鱼在水里游。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "sport"
+          ]
+        },
+        {
+          "id": "g5w017",
+          "word": "run",
+          "phonetic": "/rʌn/",
+          "pos": "v.",
+          "meaning": "跑",
+          "examples": [
+            {
+              "en": "Run fast!",
+              "zh": "跑快点！"
+            },
+            {
+              "en": "He runs to school.",
+              "zh": "他跑去上学。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "sport"
+          ]
+        },
+        {
+          "id": "g5w018",
+          "word": "jump",
+          "phonetic": "/dʒʌmp/",
+          "pos": "v.",
+          "meaning": "跳",
+          "examples": [
+            {
+              "en": "The cat can jump high.",
+              "zh": "猫能跳得很高。"
+            },
+            {
+              "en": "Jump over the rope.",
+              "zh": "跳过绳子。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "sport"
+          ]
+        }
       ]
     },
     {
       "unitId": "g5-u4",
       "unitName": "Unit 4 Weather",
       "words": [
-        {"id": "g5w019", "word": "weather", "phonetic": "/ˈweðə/", "pos": "n.", "meaning": "天气", "examples": [{"en": "The weather is nice today.", "zh": "今天天气真好。"}, {"en": "How's the weather?", "zh": "天气怎么样？"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"]},
-        {"id": "g5w020", "word": "sunny", "phonetic": "/ˈsʌni/", "pos": "adj.", "meaning": "晴朗的", "examples": [{"en": "It is a sunny day.", "zh": "今天是个晴天。"}, {"en": "I like sunny weather.", "zh": "我喜欢晴朗的天气。"}], "synonyms": [], "antonyms": ["cloudy"], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g5w021", "word": "rainy", "phonetic": "/ˈreɪni/", "pos": "adj.", "meaning": "下雨的", "examples": [{"en": "It's a rainy day.", "zh": "今天是下雨天。"}, {"en": "I don't like rainy days.", "zh": "我不喜欢下雨天。"}], "synonyms": [], "antonyms": ["sunny"], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g5w022", "word": "windy", "phonetic": "/ˈwɪndi/", "pos": "adj.", "meaning": "刮风的", "examples": [{"en": "It's windy outside.", "zh": "外面刮风。"}, {"en": "Today is windy.", "zh": "今天有风。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g5w023", "word": "snowy", "phonetic": "/ˈsnəʊi/", "pos": "adj.", "meaning": "下雪的", "examples": [{"en": "It is snowy in winter.", "zh": "冬天下雪。"}, {"en": "Children love snowy days.", "zh": "孩子们喜欢下雪天。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"]},
-        {"id": "g5w024", "word": "hot", "phonetic": "/hɒt/", "pos": "adj.", "meaning": "热的", "examples": [{"en": "It is hot today.", "zh": "今天很热。"}, {"en": "The soup is hot.", "zh": "汤很烫。"}], "synonyms": [], "antonyms": ["cold"], "difficulty": 1, "tags": ["weather"]},
-        {"id": "g5w025", "word": "cold", "phonetic": "/kəʊld/", "pos": "adj.", "meaning": "冷的", "examples": [{"en": "It is cold in winter.", "zh": "冬天很冷。"}, {"en": "The water is cold.", "zh": "水很凉。"}], "synonyms": [], "antonyms": ["hot"], "difficulty": 1, "tags": ["weather"]}
+        {
+          "id": "g5w019",
+          "word": "weather",
+          "phonetic": "/ˈweðə/",
+          "pos": "n.",
+          "meaning": "天气",
+          "examples": [
+            {
+              "en": "The weather is nice today.",
+              "zh": "今天天气真好。"
+            },
+            {
+              "en": "How's the weather?",
+              "zh": "天气怎么样？"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "nature"
+          ]
+        },
+        {
+          "id": "g5w020",
+          "word": "sunny",
+          "phonetic": "/ˈsʌni/",
+          "pos": "adj.",
+          "meaning": "晴朗的",
+          "examples": [
+            {
+              "en": "It is a sunny day.",
+              "zh": "今天是个晴天。"
+            },
+            {
+              "en": "I like sunny weather.",
+              "zh": "我喜欢晴朗的天气。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "cloudy"
+          ],
+          "difficulty": 2,
+          "tags": [
+            "weather"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "sun(太阳) + -y = sunny(晴朗的)；-y 把名词变成形容词。"
+          }
+        },
+        {
+          "id": "g5w021",
+          "word": "rainy",
+          "phonetic": "/ˈreɪni/",
+          "pos": "adj.",
+          "meaning": "下雨的",
+          "examples": [
+            {
+              "en": "It's a rainy day.",
+              "zh": "今天是下雨天。"
+            },
+            {
+              "en": "I don't like rainy days.",
+              "zh": "我不喜欢下雨天。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "sunny"
+          ],
+          "difficulty": 2,
+          "tags": [
+            "weather"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "rain(雨) + -y = rainy(下雨的)；-y 把名词变成形容词。"
+          }
+        },
+        {
+          "id": "g5w022",
+          "word": "windy",
+          "phonetic": "/ˈwɪndi/",
+          "pos": "adj.",
+          "meaning": "刮风的",
+          "examples": [
+            {
+              "en": "It's windy outside.",
+              "zh": "外面刮风。"
+            },
+            {
+              "en": "Today is windy.",
+              "zh": "今天有风。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "weather"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "wind(风) + -y = windy(刮风的)；-y 把名词变成形容词。"
+          }
+        },
+        {
+          "id": "g5w023",
+          "word": "snowy",
+          "phonetic": "/ˈsnəʊi/",
+          "pos": "adj.",
+          "meaning": "下雪的",
+          "examples": [
+            {
+              "en": "It is snowy in winter.",
+              "zh": "冬天下雪。"
+            },
+            {
+              "en": "Children love snowy days.",
+              "zh": "孩子们喜欢下雪天。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "weather"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "snow(雪) + -y = snowy(下雪的)；-y 把名词变成形容词。"
+          }
+        },
+        {
+          "id": "g5w024",
+          "word": "hot",
+          "phonetic": "/hɒt/",
+          "pos": "adj.",
+          "meaning": "热的",
+          "examples": [
+            {
+              "en": "It is hot today.",
+              "zh": "今天很热。"
+            },
+            {
+              "en": "The soup is hot.",
+              "zh": "汤很烫。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "cold"
+          ],
+          "difficulty": 1,
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "id": "g5w025",
+          "word": "cold",
+          "phonetic": "/kəʊld/",
+          "pos": "adj.",
+          "meaning": "冷的",
+          "examples": [
+            {
+              "en": "It is cold in winter.",
+              "zh": "冬天很冷。"
+            },
+            {
+              "en": "The water is cold.",
+              "zh": "水很凉。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "hot"
+          ],
+          "difficulty": 1,
+          "tags": [
+            "weather"
+          ]
+        }
       ]
     },
     {
       "unitId": "g5-u5",
       "unitName": "Unit 5 Seasons",
       "words": [
-        {"id": "g5w026", "word": "season", "phonetic": "/ˈsiːzn/", "pos": "n.", "meaning": "季节", "examples": [{"en": "There are four seasons.", "zh": "有四个季节。"}, {"en": "Spring is my favorite season.", "zh": "春天是我最喜欢的季节。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"]},
-        {"id": "g5w027", "word": "spring", "phonetic": "/sprɪŋ/", "pos": "n.", "meaning": "春天", "examples": [{"en": "Flowers bloom in spring.", "zh": "春天花儿开。"}, {"en": "Spring is warm.", "zh": "春天很暖和。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["season"]},
-        {"id": "g5w028", "word": "summer", "phonetic": "/ˈsʌmə/", "pos": "n.", "meaning": "夏天", "examples": [{"en": "Summer is hot.", "zh": "夏天很热。"}, {"en": "I swim in summer.", "zh": "我夏天游泳。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["season"]},
-        {"id": "g5w029", "word": "autumn", "phonetic": "/ˈɔːtəm/", "pos": "n.", "meaning": "秋天", "examples": [{"en": "Leaves fall in autumn.", "zh": "秋天树叶落下。"}, {"en": "Autumn is cool.", "zh": "秋天很凉爽。"}], "synonyms": ["fall"], "antonyms": [], "difficulty": 2, "tags": ["season"]},
-        {"id": "g5w030", "word": "winter", "phonetic": "/ˈwɪntə/", "pos": "n.", "meaning": "冬天", "examples": [{"en": "Winter is cold.", "zh": "冬天很冷。"}, {"en": "It snows in winter.", "zh": "冬天下雪。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["season"]}
+        {
+          "id": "g5w026",
+          "word": "season",
+          "phonetic": "/ˈsiːzn/",
+          "pos": "n.",
+          "meaning": "季节",
+          "examples": [
+            {
+              "en": "There are four seasons.",
+              "zh": "有四个季节。"
+            },
+            {
+              "en": "Spring is my favorite season.",
+              "zh": "春天是我最喜欢的季节。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "nature"
+          ]
+        },
+        {
+          "id": "g5w027",
+          "word": "spring",
+          "phonetic": "/sprɪŋ/",
+          "pos": "n.",
+          "meaning": "春天",
+          "examples": [
+            {
+              "en": "Flowers bloom in spring.",
+              "zh": "春天花儿开。"
+            },
+            {
+              "en": "Spring is warm.",
+              "zh": "春天很暖和。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "season"
+          ]
+        },
+        {
+          "id": "g5w028",
+          "word": "summer",
+          "phonetic": "/ˈsʌmə/",
+          "pos": "n.",
+          "meaning": "夏天",
+          "examples": [
+            {
+              "en": "Summer is hot.",
+              "zh": "夏天很热。"
+            },
+            {
+              "en": "I swim in summer.",
+              "zh": "我夏天游泳。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "season"
+          ]
+        },
+        {
+          "id": "g5w029",
+          "word": "autumn",
+          "phonetic": "/ˈɔːtəm/",
+          "pos": "n.",
+          "meaning": "秋天",
+          "examples": [
+            {
+              "en": "Leaves fall in autumn.",
+              "zh": "秋天树叶落下。"
+            },
+            {
+              "en": "Autumn is cool.",
+              "zh": "秋天很凉爽。"
+            }
+          ],
+          "synonyms": [
+            "fall"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "season"
+          ]
+        },
+        {
+          "id": "g5w030",
+          "word": "winter",
+          "phonetic": "/ˈwɪntə/",
+          "pos": "n.",
+          "meaning": "冬天",
+          "examples": [
+            {
+              "en": "Winter is cold.",
+              "zh": "冬天很冷。"
+            },
+            {
+              "en": "It snows in winter.",
+              "zh": "冬天下雪。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "season"
+          ]
+        }
       ]
     }
   ]

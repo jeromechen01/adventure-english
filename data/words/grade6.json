@@ -6,60 +6,772 @@
       "unitId": "g6-u1",
       "unitName": "Unit 1 How to Get to School",
       "words": [
-        {"id": "g6w001", "word": "bus", "phonetic": "/bʌs/", "pos": "n.", "meaning": "公共汽车", "examples": [{"en": "I go to school by bus.", "zh": "我坐公交车上学。"}, {"en": "The bus is yellow.", "zh": "公交车是黄色的。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["transport"]},
-        {"id": "g6w002", "word": "train", "phonetic": "/treɪn/", "pos": "n.", "meaning": "火车", "examples": [{"en": "The train is fast.", "zh": "火车很快。"}, {"en": "I take a train to Beijing.", "zh": "我坐火车去北京。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["transport"]},
-        {"id": "g6w003", "word": "plane", "phonetic": "/pleɪn/", "pos": "n.", "meaning": "飞机", "examples": [{"en": "The plane flies high.", "zh": "飞机飞得很高。"}, {"en": "We go by plane.", "zh": "我们坐飞机去。"}], "synonyms": ["airplane"], "antonyms": [], "difficulty": 2, "tags": ["transport"]},
-        {"id": "g6w004", "word": "subway", "phonetic": "/ˈsʌbweɪ/", "pos": "n.", "meaning": "地铁", "examples": [{"en": "Take the subway home.", "zh": "坐地铁回家。"}, {"en": "The subway is fast.", "zh": "地铁很快。"}], "synonyms": ["metro"], "antonyms": [], "difficulty": 3, "tags": ["transport"]},
-        {"id": "g6w005", "word": "bike", "phonetic": "/baɪk/", "pos": "n.", "meaning": "自行车", "examples": [{"en": "I ride my bike to school.", "zh": "我骑自行车上学。"}, {"en": "My bike is new.", "zh": "我的自行车是新的。"}], "synonyms": ["bicycle"], "antonyms": [], "difficulty": 1, "tags": ["transport"]},
-        {"id": "g6w006", "word": "car", "phonetic": "/kɑː/", "pos": "n.", "meaning": "小汽车", "examples": [{"en": "The car is red.", "zh": "这辆车是红色的。"}, {"en": "Dad drives a car.", "zh": "爸爸开车。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["transport"]}
+        {
+          "id": "g6w001",
+          "word": "bus",
+          "phonetic": "/bʌs/",
+          "pos": "n.",
+          "meaning": "公共汽车",
+          "examples": [
+            {
+              "en": "I go to school by bus.",
+              "zh": "我坐公交车上学。"
+            },
+            {
+              "en": "The bus is yellow.",
+              "zh": "公交车是黄色的。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "transport"
+          ]
+        },
+        {
+          "id": "g6w002",
+          "word": "train",
+          "phonetic": "/treɪn/",
+          "pos": "n.",
+          "meaning": "火车",
+          "examples": [
+            {
+              "en": "The train is fast.",
+              "zh": "火车很快。"
+            },
+            {
+              "en": "I take a train to Beijing.",
+              "zh": "我坐火车去北京。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "transport"
+          ]
+        },
+        {
+          "id": "g6w003",
+          "word": "plane",
+          "phonetic": "/pleɪn/",
+          "pos": "n.",
+          "meaning": "飞机",
+          "examples": [
+            {
+              "en": "The plane flies high.",
+              "zh": "飞机飞得很高。"
+            },
+            {
+              "en": "We go by plane.",
+              "zh": "我们坐飞机去。"
+            }
+          ],
+          "synonyms": [
+            "airplane"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "transport"
+          ]
+        },
+        {
+          "id": "g6w004",
+          "word": "subway",
+          "phonetic": "/ˈsʌbweɪ/",
+          "pos": "n.",
+          "meaning": "地铁",
+          "examples": [
+            {
+              "en": "Take the subway home.",
+              "zh": "坐地铁回家。"
+            },
+            {
+              "en": "The subway is fast.",
+              "zh": "地铁很快。"
+            }
+          ],
+          "synonyms": [
+            "metro"
+          ],
+          "antonyms": [],
+          "difficulty": 3,
+          "tags": [
+            "transport"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "sub- 表示“在下面” + way(路) = 地下的通道，地铁。"
+          }
+        },
+        {
+          "id": "g6w005",
+          "word": "bike",
+          "phonetic": "/baɪk/",
+          "pos": "n.",
+          "meaning": "自行车",
+          "examples": [
+            {
+              "en": "I ride my bike to school.",
+              "zh": "我骑自行车上学。"
+            },
+            {
+              "en": "My bike is new.",
+              "zh": "我的自行车是新的。"
+            }
+          ],
+          "synonyms": [
+            "bicycle"
+          ],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "transport"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "bike 是 bicycle 的简称；bi- 表示“二”，自行车正好有两个轮子。"
+          }
+        },
+        {
+          "id": "g6w006",
+          "word": "car",
+          "phonetic": "/kɑː/",
+          "pos": "n.",
+          "meaning": "小汽车",
+          "examples": [
+            {
+              "en": "The car is red.",
+              "zh": "这辆车是红色的。"
+            },
+            {
+              "en": "Dad drives a car.",
+              "zh": "爸爸开车。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "transport"
+          ]
+        }
       ]
     },
     {
       "unitId": "g6-u2",
       "unitName": "Unit 2 Where Is Park",
       "words": [
-        {"id": "g6w007", "word": "park", "phonetic": "/pɑːk/", "pos": "n.", "meaning": "公园", "examples": [{"en": "We play in the park.", "zh": "我们在公园里玩。"}, {"en": "The park is beautiful.", "zh": "公园很美。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]},
-        {"id": "g6w008", "word": "library", "phonetic": "/ˈlaɪbrəri/", "pos": "n.", "meaning": "图书馆", "examples": [{"en": "I read in the library.", "zh": "我在图书馆读书。"}, {"en": "The library is quiet.", "zh": "图书馆很安静。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["place"]},
-        {"id": "g6w009", "word": "hospital", "phonetic": "/ˈhɒspɪtl/", "pos": "n.", "meaning": "医院", "examples": [{"en": "Mom works at a hospital.", "zh": "妈妈在医院工作。"}, {"en": "He went to the hospital.", "zh": "他去了医院。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["place"]},
-        {"id": "g6w010", "word": "post office", "phonetic": "/ˈpəʊst ɒfɪs/", "pos": "n.", "meaning": "邮局", "examples": [{"en": "Send the letter at the post office.", "zh": "在邮局寄信。"}, {"en": "The post office is near.", "zh": "邮局就在附近。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["place"]},
-        {"id": "g6w011", "word": "left", "phonetic": "/left/", "pos": "n.", "meaning": "左边", "examples": [{"en": "Turn left here.", "zh": "在这里左转。"}, {"en": "It's on my left.", "zh": "它在我左边。"}], "synonyms": [], "antonyms": ["right"], "difficulty": 2, "tags": ["direction"]},
-        {"id": "g6w012", "word": "right", "phonetic": "/raɪt/", "pos": "n.", "meaning": "右边", "examples": [{"en": "Turn right at the corner.", "zh": "在拐角处右转。"}, {"en": "Look to the right.", "zh": "向右看。"}], "synonyms": [], "antonyms": ["left"], "difficulty": 2, "tags": ["direction"]}
+        {
+          "id": "g6w007",
+          "word": "park",
+          "phonetic": "/pɑːk/",
+          "pos": "n.",
+          "meaning": "公园",
+          "examples": [
+            {
+              "en": "We play in the park.",
+              "zh": "我们在公园里玩。"
+            },
+            {
+              "en": "The park is beautiful.",
+              "zh": "公园很美。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "place"
+          ]
+        },
+        {
+          "id": "g6w008",
+          "word": "library",
+          "phonetic": "/ˈlaɪbrəri/",
+          "pos": "n.",
+          "meaning": "图书馆",
+          "examples": [
+            {
+              "en": "I read in the library.",
+              "zh": "我在图书馆读书。"
+            },
+            {
+              "en": "The library is quiet.",
+              "zh": "图书馆很安静。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 3,
+          "tags": [
+            "place"
+          ]
+        },
+        {
+          "id": "g6w009",
+          "word": "hospital",
+          "phonetic": "/ˈhɒspɪtl/",
+          "pos": "n.",
+          "meaning": "医院",
+          "examples": [
+            {
+              "en": "Mom works at a hospital.",
+              "zh": "妈妈在医院工作。"
+            },
+            {
+              "en": "He went to the hospital.",
+              "zh": "他去了医院。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 3,
+          "tags": [
+            "place"
+          ]
+        },
+        {
+          "id": "g6w010",
+          "word": "post office",
+          "phonetic": "/ˈpəʊst ɒfɪs/",
+          "pos": "n.",
+          "meaning": "邮局",
+          "examples": [
+            {
+              "en": "Send the letter at the post office.",
+              "zh": "在邮局寄信。"
+            },
+            {
+              "en": "The post office is near.",
+              "zh": "邮局就在附近。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 3,
+          "tags": [
+            "place"
+          ],
+          "mnemonic": {
+            "type": "split",
+            "tip": "post(邮政) + office(办公室) = 寄信的地方，邮局。"
+          }
+        },
+        {
+          "id": "g6w011",
+          "word": "left",
+          "phonetic": "/left/",
+          "pos": "n.",
+          "meaning": "左边",
+          "examples": [
+            {
+              "en": "Turn left here.",
+              "zh": "在这里左转。"
+            },
+            {
+              "en": "It's on my left.",
+              "zh": "它在我左边。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "right"
+          ],
+          "difficulty": 2,
+          "tags": [
+            "direction"
+          ]
+        },
+        {
+          "id": "g6w012",
+          "word": "right",
+          "phonetic": "/raɪt/",
+          "pos": "n.",
+          "meaning": "右边",
+          "examples": [
+            {
+              "en": "Turn right at the corner.",
+              "zh": "在拐角处右转。"
+            },
+            {
+              "en": "Look to the right.",
+              "zh": "向右看。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "left"
+          ],
+          "difficulty": 2,
+          "tags": [
+            "direction"
+          ]
+        }
       ]
     },
     {
       "unitId": "g6-u3",
       "unitName": "Unit 3 Going Out",
       "words": [
-        {"id": "g6w013", "word": "visit", "phonetic": "/ˈvɪzɪt/", "pos": "v.", "meaning": "拜访；参观", "examples": [{"en": "I visit my grandma.", "zh": "我去看望奶奶。"}, {"en": "We visited the museum.", "zh": "我们参观了博物馆。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["action"]},
-        {"id": "g6w014", "word": "travel", "phonetic": "/ˈtrævl/", "pos": "v.", "meaning": "旅行", "examples": [{"en": "I love to travel.", "zh": "我喜欢旅行。"}, {"en": "We travel by plane.", "zh": "我们坐飞机旅行。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["action"]},
-        {"id": "g6w015", "word": "trip", "phonetic": "/trɪp/", "pos": "n.", "meaning": "旅行", "examples": [{"en": "Have a good trip!", "zh": "祝你旅途愉快！"}, {"en": "Our trip was fun.", "zh": "我们的旅行很有趣。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["activity"]},
-        {"id": "g6w016", "word": "holiday", "phonetic": "/ˈhɒlədeɪ/", "pos": "n.", "meaning": "假期", "examples": [{"en": "Happy holiday!", "zh": "假期快乐！"}, {"en": "Our holiday was great.", "zh": "我们的假期很棒。"}], "synonyms": ["vacation"], "antonyms": [], "difficulty": 2, "tags": ["time"]},
-        {"id": "g6w017", "word": "beach", "phonetic": "/biːtʃ/", "pos": "n.", "meaning": "沙滩", "examples": [{"en": "We play on the beach.", "zh": "我们在沙滩上玩。"}, {"en": "The beach is sunny.", "zh": "沙滩很晒。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["place"]},
-        {"id": "g6w018", "word": "mountain", "phonetic": "/ˈmaʊntən/", "pos": "n.", "meaning": "山", "examples": [{"en": "The mountain is high.", "zh": "山很高。"}, {"en": "We climb the mountain.", "zh": "我们爬山。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"]}
+        {
+          "id": "g6w013",
+          "word": "visit",
+          "phonetic": "/ˈvɪzɪt/",
+          "pos": "v.",
+          "meaning": "拜访；参观",
+          "examples": [
+            {
+              "en": "I visit my grandma.",
+              "zh": "我去看望奶奶。"
+            },
+            {
+              "en": "We visited the museum.",
+              "zh": "我们参观了博物馆。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "action"
+          ]
+        },
+        {
+          "id": "g6w014",
+          "word": "travel",
+          "phonetic": "/ˈtrævl/",
+          "pos": "v.",
+          "meaning": "旅行",
+          "examples": [
+            {
+              "en": "I love to travel.",
+              "zh": "我喜欢旅行。"
+            },
+            {
+              "en": "We travel by plane.",
+              "zh": "我们坐飞机旅行。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "action"
+          ]
+        },
+        {
+          "id": "g6w015",
+          "word": "trip",
+          "phonetic": "/trɪp/",
+          "pos": "n.",
+          "meaning": "旅行",
+          "examples": [
+            {
+              "en": "Have a good trip!",
+              "zh": "祝你旅途愉快！"
+            },
+            {
+              "en": "Our trip was fun.",
+              "zh": "我们的旅行很有趣。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "activity"
+          ]
+        },
+        {
+          "id": "g6w016",
+          "word": "holiday",
+          "phonetic": "/ˈhɒlədeɪ/",
+          "pos": "n.",
+          "meaning": "假期",
+          "examples": [
+            {
+              "en": "Happy holiday!",
+              "zh": "假期快乐！"
+            },
+            {
+              "en": "Our holiday was great.",
+              "zh": "我们的假期很棒。"
+            }
+          ],
+          "synonyms": [
+            "vacation"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "time"
+          ],
+          "mnemonic": {
+            "type": "split",
+            "tip": "holy(神圣的) + day(日子) = 假日，最早指神圣的节日。"
+          }
+        },
+        {
+          "id": "g6w017",
+          "word": "beach",
+          "phonetic": "/biːtʃ/",
+          "pos": "n.",
+          "meaning": "沙滩",
+          "examples": [
+            {
+              "en": "We play on the beach.",
+              "zh": "我们在沙滩上玩。"
+            },
+            {
+              "en": "The beach is sunny.",
+              "zh": "沙滩很晒。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "place"
+          ]
+        },
+        {
+          "id": "g6w018",
+          "word": "mountain",
+          "phonetic": "/ˈmaʊntən/",
+          "pos": "n.",
+          "meaning": "山",
+          "examples": [
+            {
+              "en": "The mountain is high.",
+              "zh": "山很高。"
+            },
+            {
+              "en": "We climb the mountain.",
+              "zh": "我们爬山。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "nature"
+          ]
+        }
       ]
     },
     {
       "unitId": "g6-u4",
       "unitName": "Unit 4 Feelings",
       "words": [
-        {"id": "g6w019", "word": "happy", "phonetic": "/ˈhæpi/", "pos": "adj.", "meaning": "开心的", "examples": [{"en": "I am happy today.", "zh": "我今天很开心。"}, {"en": "She has a happy family.", "zh": "她有个幸福的家。"}], "synonyms": ["glad"], "antonyms": ["sad"], "difficulty": 1, "tags": ["feeling"]},
-        {"id": "g6w020", "word": "sad", "phonetic": "/sæd/", "pos": "adj.", "meaning": "难过的", "examples": [{"en": "Don't be sad.", "zh": "不要难过。"}, {"en": "She looks sad.", "zh": "她看起来很难过。"}], "synonyms": [], "antonyms": ["happy"], "difficulty": 1, "tags": ["feeling"]},
-        {"id": "g6w021", "word": "angry", "phonetic": "/ˈæŋɡri/", "pos": "adj.", "meaning": "生气的", "examples": [{"en": "Mom is angry.", "zh": "妈妈生气了。"}, {"en": "Don't get angry.", "zh": "别生气。"}], "synonyms": ["mad"], "antonyms": [], "difficulty": 2, "tags": ["feeling"]},
-        {"id": "g6w022", "word": "tired", "phonetic": "/ˈtaɪəd/", "pos": "adj.", "meaning": "累的", "examples": [{"en": "I am tired today.", "zh": "我今天很累。"}, {"en": "He looks tired.", "zh": "他看起来很累。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["feeling"]},
-        {"id": "g6w023", "word": "excited", "phonetic": "/ɪkˈsaɪtɪd/", "pos": "adj.", "meaning": "兴奋的", "examples": [{"en": "I am excited about the trip.", "zh": "我对这次旅行很兴奋。"}, {"en": "She felt excited.", "zh": "她感到很兴奋。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["feeling"]},
-        {"id": "g6w024", "word": "afraid", "phonetic": "/əˈfreɪd/", "pos": "adj.", "meaning": "害怕的", "examples": [{"en": "Don't be afraid.", "zh": "不要害怕。"}, {"en": "I am afraid of dogs.", "zh": "我怕狗。"}], "synonyms": ["scared"], "antonyms": ["brave"], "difficulty": 3, "tags": ["feeling"]}
+        {
+          "id": "g6w019",
+          "word": "happy",
+          "phonetic": "/ˈhæpi/",
+          "pos": "adj.",
+          "meaning": "开心的",
+          "examples": [
+            {
+              "en": "I am happy today.",
+              "zh": "我今天很开心。"
+            },
+            {
+              "en": "She has a happy family.",
+              "zh": "她有个幸福的家。"
+            }
+          ],
+          "synonyms": [
+            "glad"
+          ],
+          "antonyms": [
+            "sad"
+          ],
+          "difficulty": 1,
+          "tags": [
+            "feeling"
+          ]
+        },
+        {
+          "id": "g6w020",
+          "word": "sad",
+          "phonetic": "/sæd/",
+          "pos": "adj.",
+          "meaning": "难过的",
+          "examples": [
+            {
+              "en": "Don't be sad.",
+              "zh": "不要难过。"
+            },
+            {
+              "en": "She looks sad.",
+              "zh": "她看起来很难过。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [
+            "happy"
+          ],
+          "difficulty": 1,
+          "tags": [
+            "feeling"
+          ]
+        },
+        {
+          "id": "g6w021",
+          "word": "angry",
+          "phonetic": "/ˈæŋɡri/",
+          "pos": "adj.",
+          "meaning": "生气的",
+          "examples": [
+            {
+              "en": "Mom is angry.",
+              "zh": "妈妈生气了。"
+            },
+            {
+              "en": "Don't get angry.",
+              "zh": "别生气。"
+            }
+          ],
+          "synonyms": [
+            "mad"
+          ],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "feeling"
+          ]
+        },
+        {
+          "id": "g6w022",
+          "word": "tired",
+          "phonetic": "/ˈtaɪəd/",
+          "pos": "adj.",
+          "meaning": "累的",
+          "examples": [
+            {
+              "en": "I am tired today.",
+              "zh": "我今天很累。"
+            },
+            {
+              "en": "He looks tired.",
+              "zh": "他看起来很累。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "feeling"
+          ]
+        },
+        {
+          "id": "g6w023",
+          "word": "excited",
+          "phonetic": "/ɪkˈsaɪtɪd/",
+          "pos": "adj.",
+          "meaning": "兴奋的",
+          "examples": [
+            {
+              "en": "I am excited about the trip.",
+              "zh": "我对这次旅行很兴奋。"
+            },
+            {
+              "en": "She felt excited.",
+              "zh": "她感到很兴奋。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 3,
+          "tags": [
+            "feeling"
+          ]
+        },
+        {
+          "id": "g6w024",
+          "word": "afraid",
+          "phonetic": "/əˈfreɪd/",
+          "pos": "adj.",
+          "meaning": "害怕的",
+          "examples": [
+            {
+              "en": "Don't be afraid.",
+              "zh": "不要害怕。"
+            },
+            {
+              "en": "I am afraid of dogs.",
+              "zh": "我怕狗。"
+            }
+          ],
+          "synonyms": [
+            "scared"
+          ],
+          "antonyms": [
+            "brave"
+          ],
+          "difficulty": 3,
+          "tags": [
+            "feeling"
+          ]
+        }
       ]
     },
     {
       "unitId": "g6-u5",
       "unitName": "Unit 5 Jobs",
       "words": [
-        {"id": "g6w025", "word": "teacher", "phonetic": "/ˈtiːtʃə/", "pos": "n.", "meaning": "老师", "examples": [{"en": "She is my English teacher.", "zh": "她是我的英语老师。"}, {"en": "I want to be a teacher.", "zh": "我想成为一名老师。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["job"]},
-        {"id": "g6w026", "word": "doctor", "phonetic": "/ˈdɒktə/", "pos": "n.", "meaning": "医生", "examples": [{"en": "My mom is a doctor.", "zh": "我妈妈是医生。"}, {"en": "The doctor is kind.", "zh": "这位医生很善良。"}], "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["job"]},
-        {"id": "g6w027", "word": "nurse", "phonetic": "/nɜːs/", "pos": "n.", "meaning": "护士", "examples": [{"en": "The nurse helps the doctor.", "zh": "护士帮助医生。"}, {"en": "She wants to be a nurse.", "zh": "她想当护士。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["job"]},
-        {"id": "g6w028", "word": "farmer", "phonetic": "/ˈfɑːmə/", "pos": "n.", "meaning": "农民", "examples": [{"en": "My uncle is a farmer.", "zh": "我叔叔是个农民。"}, {"en": "Farmers work hard.", "zh": "农民工作很辛苦。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["job"]},
-        {"id": "g6w029", "word": "driver", "phonetic": "/ˈdraɪvə/", "pos": "n.", "meaning": "司机", "examples": [{"en": "He is a bus driver.", "zh": "他是公交车司机。"}, {"en": "The driver is friendly.", "zh": "司机很友好。"}], "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["job"]},
-        {"id": "g6w030", "word": "police", "phonetic": "/pəˈliːs/", "pos": "n.", "meaning": "警察", "examples": [{"en": "Call the police.", "zh": "报警。"}, {"en": "The police are here.", "zh": "警察来了。"}], "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["job"]}
+        {
+          "id": "g6w025",
+          "word": "teacher",
+          "phonetic": "/ˈtiːtʃə/",
+          "pos": "n.",
+          "meaning": "老师",
+          "examples": [
+            {
+              "en": "She is my English teacher.",
+              "zh": "她是我的英语老师。"
+            },
+            {
+              "en": "I want to be a teacher.",
+              "zh": "我想成为一名老师。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "job"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "teach(教) + -er(……的人) = 教书的人，老师。"
+          }
+        },
+        {
+          "id": "g6w026",
+          "word": "doctor",
+          "phonetic": "/ˈdɒktə/",
+          "pos": "n.",
+          "meaning": "医生",
+          "examples": [
+            {
+              "en": "My mom is a doctor.",
+              "zh": "我妈妈是医生。"
+            },
+            {
+              "en": "The doctor is kind.",
+              "zh": "这位医生很善良。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 1,
+          "tags": [
+            "job"
+          ]
+        },
+        {
+          "id": "g6w027",
+          "word": "nurse",
+          "phonetic": "/nɜːs/",
+          "pos": "n.",
+          "meaning": "护士",
+          "examples": [
+            {
+              "en": "The nurse helps the doctor.",
+              "zh": "护士帮助医生。"
+            },
+            {
+              "en": "She wants to be a nurse.",
+              "zh": "她想当护士。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "job"
+          ]
+        },
+        {
+          "id": "g6w028",
+          "word": "farmer",
+          "phonetic": "/ˈfɑːmə/",
+          "pos": "n.",
+          "meaning": "农民",
+          "examples": [
+            {
+              "en": "My uncle is a farmer.",
+              "zh": "我叔叔是个农民。"
+            },
+            {
+              "en": "Farmers work hard.",
+              "zh": "农民工作很辛苦。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "job"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "farm(农场) + -er(……的人) = 在农场干活的人，农民。"
+          }
+        },
+        {
+          "id": "g6w029",
+          "word": "driver",
+          "phonetic": "/ˈdraɪvə/",
+          "pos": "n.",
+          "meaning": "司机",
+          "examples": [
+            {
+              "en": "He is a bus driver.",
+              "zh": "他是公交车司机。"
+            },
+            {
+              "en": "The driver is friendly.",
+              "zh": "司机很友好。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 2,
+          "tags": [
+            "job"
+          ],
+          "mnemonic": {
+            "type": "root",
+            "tip": "drive(驾驶) + -er(……的人) = 开车的人，司机。"
+          }
+        },
+        {
+          "id": "g6w030",
+          "word": "police",
+          "phonetic": "/pəˈliːs/",
+          "pos": "n.",
+          "meaning": "警察",
+          "examples": [
+            {
+              "en": "Call the police.",
+              "zh": "报警。"
+            },
+            {
+              "en": "The police are here.",
+              "zh": "警察来了。"
+            }
+          ],
+          "synonyms": [],
+          "antonyms": [],
+          "difficulty": 3,
+          "tags": [
+            "job"
+          ]
+        }
       ]
     }
   ]
