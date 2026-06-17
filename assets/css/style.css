@@ -7,12 +7,27 @@
   --color-secondary-dark: #38B2AC;
   --color-bg: #FFF8F0;
   --color-bg-card: #FFFFFF;
-  --color-text: #2D3748;
-  --color-text-light: #718096;
+  --color-text: #5A4A42;        /* 深棕，比纯黑柔和，更童趣 */
+  --color-text-light: #9B8579;
   --color-success: #48BB78;
   --color-danger: #F56565;
   --color-warning: #ED8936;
   --color-gold: #F6AD55;
+
+  /* 🍭 糖果 / 马卡龙点缀色 */
+  --color-lemon: #FFD93D;       /* 柠檬黄：奖励、金币、高亮 */
+  --color-pink: #FF8FB1;        /* 粉红：可爱元素 */
+  --color-sky: #6BCBFF;         /* 天蓝：链接、信息 */
+  --color-grape: #A88BEB;       /* 葡萄紫：稀有、特殊 */
+
+  /* ✏️ 响应式字号系统（手机起步 16px，随屏幕平滑缩放） */
+  --fs-body:    clamp(16px, 4vw,   18px);   /* 正文 */
+  --fs-title:   clamp(22px, 6vw,   32px);   /* 页面标题 */
+  --fs-word:    clamp(28px, 9vw,   44px);   /* 单词主体 */
+  --fs-meaning: clamp(18px, 5vw,   24px);   /* 释义 */
+  --fs-option:  clamp(16px, 4.5vw, 20px);   /* 选项 / 题目 */
+  --fs-btn:     clamp(16px, 4.5vw, 18px);   /* 按钮文字 */
+  --fs-small:   clamp(13px, 3.5vw, 14px);   /* 辅助小字 */
 }
 
 * {
@@ -633,4 +648,173 @@ textarea:focus-visible {
   font-size: 14px;
   color: #744210;
   line-height: 1.6;
+}
+
+/* ============================================================
+   V0.3 卡通化 + 移动端可读性升级
+   仅视觉层（字号 / 配色 / 圆角 / 阴影 / 字体 / 动效），不改任何业务逻辑
+   ============================================================ */
+
+/* ---------- 1. 圆润字体（中文系统圆体 + 英文卡通体，带降级） ---------- */
+body {
+  font-family: "Baloo 2", "Fredoka", "PingFang SC", "Hiragino Sans GB",
+    "HarmonyOS Sans SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-size: var(--fs-body);
+  letter-spacing: 0.01em;
+}
+.font-en {
+  font-family: "Baloo 2", "Fredoka", "Comic Neue", "Comic Sans MS",
+    "Trebuchet MS", sans-serif;
+  letter-spacing: 0.02em;
+}
+h1, h2, h3, .font-bold, .font-extrabold {
+  letter-spacing: 0.01em;
+}
+
+/* ---------- 2. 移动端可读性：放大偏小的文字（手机 ≤640px） ---------- */
+@media (max-width: 640px) {
+  .text-\[10px\] { font-size: 12px   !important; line-height: 1.4 !important; }
+  .text-\[11px\] { font-size: 12.5px !important; line-height: 1.4 !important; }
+  .text-xs       { font-size: 13.5px !important; line-height: 1.45 !important; }
+  .text-sm       { font-size: 15px   !important; line-height: 1.55 !important; }
+  .text-base     { font-size: 16.5px !important; line-height: 1.6 !important; }
+  .text-lg       { font-size: 19px   !important; line-height: 1.5 !important; }
+  .text-xl       { font-size: 21px   !important; line-height: 1.45 !important; }
+
+  /* iOS 输入框 <16px 会触发自动缩放，统一抬到 16px */
+  input, textarea, select { font-size: 16px !important; }
+}
+
+/* 平板：内容更舒展，正文略放大 */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .text-xs   { font-size: 13.5px; }
+  .text-sm   { font-size: 15px; }
+  .text-base { font-size: 17px; }
+}
+
+/* ---------- 3. 触控友好：可点元素 ≥48px ---------- */
+.btn-cartoon,
+.btn-cartoon-secondary,
+button.tap-bounce,
+.record-btn,
+#gradeBtn {
+  min-height: 48px;
+}
+.nav-btn { min-height: 52px; }
+
+/* ---------- 4. 卡通卡片：更大圆角 + 柔和彩色投影 ---------- */
+.card-cartoon {
+  border-radius: 26px;
+  box-shadow: 0 8px 22px rgba(255, 138, 76, 0.13), 0 2px 4px rgba(90, 74, 66, 0.04);
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+.card-cartoon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(255, 138, 76, 0.2);
+}
+
+/* ---------- 5. 卡通按钮：更圆、更立体、字更大 ---------- */
+.btn-cartoon {
+  border-radius: 9999px;
+  padding: 13px 26px;
+  font-size: var(--fs-btn);
+  box-shadow: 0 5px 0 var(--color-primary-dark), 0 8px 14px rgba(255, 138, 76, 0.25);
+}
+.btn-cartoon:active {
+  box-shadow: 0 2px 0 var(--color-primary-dark), 0 4px 8px rgba(255, 138, 76, 0.2);
+}
+.btn-cartoon-secondary {
+  box-shadow: 0 5px 0 var(--color-secondary-dark), 0 8px 14px rgba(78, 205, 196, 0.25);
+}
+.btn-cartoon-secondary:active {
+  box-shadow: 0 2px 0 var(--color-secondary-dark), 0 4px 8px rgba(78, 205, 196, 0.2);
+}
+
+/* 选项 / 题目按钮字号跟随系统 */
+.opt-btn { font-size: var(--fs-option); border-radius: 22px; }
+
+/* ---------- 6. 进度条：发光、有光泽 ---------- */
+.progress-bar { height: 14px; box-shadow: inset 0 2px 4px rgba(0,0,0,0.06); }
+.progress-bar-fill {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-lemon));
+  box-shadow: 0 0 8px rgba(255, 217, 61, 0.5);
+}
+
+/* ---------- 7. 顶部栏 / 标签胶囊 ---------- */
+#topNav {
+  box-shadow: 0 4px 14px rgba(255, 138, 76, 0.1);
+  border-bottom: 2px solid #FFE9DC;
+}
+#gradeBtn { border-radius: 9999px; font-weight: 800; }
+
+/* ---------- 8. 底部导航：图标加大、选中高亮弹跳 ---------- */
+#bottomNav {
+  box-shadow: 0 -4px 18px rgba(90, 74, 66, 0.08);
+  border-top: 2px solid #FFE9DC;
+}
+.nav-btn span:first-child {
+  font-size: 24px;
+  transition: transform 0.2s ease-out;
+}
+.nav-btn.text-primary span:first-child {
+  transform: scale(1.25) translateY(-2px);
+  filter: drop-shadow(0 3px 5px rgba(255, 138, 76, 0.4));
+}
+.nav-btn.text-primary {
+  font-weight: 800;
+}
+.nav-btn span:last-child { font-size: 12px; }
+
+/* ---------- 9. 标题用系统圆体 + 响应式字号 ---------- */
+.page-title, .big-title { font-size: var(--fs-title); font-weight: 900; }
+
+/* ---------- 10. 单词 / 释义专用大字（在已有 .font-en 上叠加可读性） ---------- */
+.word-main { font-size: var(--fs-word); font-weight: 800; line-height: 1.15; }
+.word-meaning { font-size: var(--fs-meaning); }
+
+/* ---------- 11. 模块卡片马卡龙配色（柔和投影区分模块） ---------- */
+.theme-words   { box-shadow: 0 8px 22px rgba(255, 138, 76, 0.16); }
+.theme-grammar { box-shadow: 0 8px 22px rgba(78, 205, 196, 0.16); }
+.theme-reading { box-shadow: 0 8px 22px rgba(107, 203, 255, 0.16); }
+.theme-writing { box-shadow: 0 8px 22px rgba(255, 143, 177, 0.16); }
+
+/* ---------- 12. 空状态：可爱大 emoji + 鼓励语 ---------- */
+.empty-state {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--color-text-light);
+}
+.empty-state .empty-emoji {
+  font-size: 64px;
+  display: block;
+  margin-bottom: 12px;
+  animation: float 2.5s ease-in-out infinite;
+}
+.empty-state .empty-text { font-size: var(--fs-body); font-weight: 700; color: var(--color-text); }
+.empty-state .empty-sub  { font-size: var(--fs-small); margin-top: 6px; }
+
+/* ---------- 13. 微动效：呼吸 + 入场（轻量，不堆砌） ---------- */
+@keyframes breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+.breathe { animation: breathe 2.8s ease-in-out infinite; }
+
+/* 尊重无障碍：用户开启「减少动态效果」时关闭循环动画 */
+@media (prefers-reduced-motion: reduce) {
+  .float, .breathe, .spin-slow, .pulse-glow,
+  .level-node.is-current, .chest-wobble {
+    animation: none !important;
+  }
+}
+
+/* ---------- 14. 三档断点容器 ---------- */
+@media (min-width: 1025px) {
+  #app, .app-container { max-width: 1100px; }
+}
+
+/* ---------- 15. 圆润滚动条点缀 ---------- */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-primary), var(--color-pink));
 }
