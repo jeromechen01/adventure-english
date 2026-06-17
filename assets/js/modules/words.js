@@ -8,6 +8,22 @@ import { renderShootGame } from '../games/shoot-game.js';
 import { renderPetGame } from '../games/pet-game.js';
 import { renderCardCollect } from '../games/card-collect.js';
 
+// 趣味记忆类型标签（V0.2 模块3）
+const MNEMONIC_TYPES = {
+  root: '词根词缀', assoc: '联想记忆', sound: '谐音', split: '拆解', image: '图像联想'
+};
+
+// 渲染"💡 趣味记忆"卡片；无 mnemonic 字段则返回空（向后兼容）
+export function mnemonicHtml(w) {
+  if (!w || !w.mnemonic || !w.mnemonic.tip) return '';
+  const label = MNEMONIC_TYPES[w.mnemonic.type] || '趣味记忆';
+  return `
+    <div class="mnemonic-card">
+      <div class="mn-head">💡 趣味记忆 · ${label}</div>
+      <div class="mn-tip">${w.mnemonic.tip}</div>
+    </div>`;
+}
+
 export async function renderWordsPage(app, params) {
   const profile = storage.getProfile();
   const data = await loadJSON(`data/words/grade${profile.grade}.json`);
@@ -24,10 +40,19 @@ export async function renderWordsPage(app, params) {
   if (params.mode === 'study') return renderStudyFlow(app, data, profile.grade, params.unitId);
 
   // 默认: 单词大冒险首页
+  const grade = profile.grade;
   const learned = storage.getLearnedWords();
   const totalWords = data.units.reduce((sum, u) => sum + u.words.length, 0);
   const learnedInGrade = data.units.flatMap(u => u.words).filter(w => learned[w.id]).length;
   const reviewDue = Object.values(learned).filter(p => p.nextReview && p.nextReview <= Date.now()).length;
+
+  // 闯关概况
+  const numLevels = Math.max(1, Math.ceil(totalWords / 8));
+  const levelProg = storage.getLevelProgress(grade);
+  const clearedLevels = Object.values(levelProg).filter(r => r.cleared).length;
+  const nextLevel = Math.min(storage.getMaxUnlockedLevel(grade), numLevels);
+  const totalStars = storage.getTotalStars(grade);
+  const reinforceCount = storage.getReinforceCount();
 
   app.innerHTML = `
     <div class="flex items-center gap-2 mb-3">
@@ -47,28 +72,45 @@ export async function renderWordsPage(app, params) {
       ${reviewDue > 0 ? `<div class="mt-2 text-xs text-orange-600">⏰ ${reviewDue} 个单词到了复习时间</div>` : ''}
     </div>
 
-    <!-- 玩法入口 -->
-    <h3 class="font-bold mb-2">🎮 游戏闯关</h3>
-    <div class="grid grid-cols-2 gap-3 mb-4">
-      <button data-mode="match" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-purple-100 to-pink-50">
-        <div class="text-4xl">🧩</div>
-        <div class="font-bold mt-2">单词消消乐</div>
-        <div class="text-[11px] text-gray-500 mt-0.5">看中文拼字母</div>
+    <!-- ★ 闯关地图主入口（最醒目）★ -->
+    <button data-go="levels" class="w-full card-cartoon tap-bounce text-left mb-4 relative overflow-hidden"
+      style="background:linear-gradient(135deg,#FFE3C2,#FFD0E0);padding:22px">
+      <div class="absolute right-3 top-3 text-5xl opacity-30">🗺️</div>
+      <div class="text-xs font-bold text-orange-600 mb-1">🔥 单词闯关 · 探险旅程</div>
+      <div class="text-2xl font-extrabold mb-1">第 ${nextLevel} 关</div>
+      <div class="text-xs text-gray-600 mb-3">已通关 ${clearedLevels}/${numLevels} · ⭐${totalStars} 星</div>
+      <div class="inline-block btn-cartoon" style="padding:8px 22px;pointer-events:none">▶ 继续闯关</div>
+    </button>
+
+    <!-- 🔥 错词突击入口（红色醒目） -->
+    <button data-go="reinforce" class="w-full card-cartoon tap-bounce flex items-center gap-3 mb-4 text-left"
+      style="background:linear-gradient(135deg,#FFE0E0,#FFD0C2)">
+      <div class="text-4xl">🔥</div>
+      <div class="flex-1">
+        <div class="font-bold text-red-600">错词突击</div>
+        <div class="text-xs text-gray-600">连对 3 次让错词毕业</div>
+      </div>
+      <span class="text-sm font-bold ${reinforceCount > 0 ? 'bg-red-500 text-white' : 'bg-gray-200 text-gray-500'} px-3 py-1 rounded-full">${reinforceCount} 待强化</span>
+    </button>
+
+    <!-- 自由练习（小入口） -->
+    <h3 class="font-bold mb-2 text-sm text-gray-500">🎮 自由练习</h3>
+    <div class="grid grid-cols-4 gap-2 mb-4">
+      <button data-mode="match" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-purple-100 to-pink-50" style="padding:12px 6px">
+        <div class="text-2xl">🧩</div>
+        <div class="text-[11px] font-bold mt-1">消消乐</div>
       </button>
-      <button data-mode="shoot" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-green-100 to-cyan-50">
-        <div class="text-4xl">🎯</div>
-        <div class="font-bold mt-2">单词打地鼠</div>
-        <div class="text-[11px] text-gray-500 mt-0.5">60 秒挑战</div>
+      <button data-mode="shoot" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-green-100 to-cyan-50" style="padding:12px 6px">
+        <div class="text-2xl">🎯</div>
+        <div class="text-[11px] font-bold mt-1">打地鼠</div>
       </button>
-      <button data-mode="pet" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-yellow-100 to-orange-50">
-        <div class="text-4xl">🦊</div>
-        <div class="font-bold mt-2">宠物养成</div>
-        <div class="text-[11px] text-gray-500 mt-0.5">学单词养宠物</div>
+      <button data-mode="pet" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-yellow-100 to-orange-50" style="padding:12px 6px">
+        <div class="text-2xl">🦊</div>
+        <div class="text-[11px] font-bold mt-1">宠物</div>
       </button>
-      <button data-mode="cards" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-blue-100 to-indigo-50">
-        <div class="text-4xl">🃏</div>
-        <div class="font-bold mt-2">卡牌收集</div>
-        <div class="text-[11px] text-gray-500 mt-0.5">N/R/SR/SSR</div>
+      <button data-mode="cards" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-blue-100 to-indigo-50" style="padding:12px 6px">
+        <div class="text-2xl">🃏</div>
+        <div class="text-[11px] font-bold mt-1">卡牌</div>
       </button>
     </div>
 
@@ -95,6 +137,8 @@ export async function renderWordsPage(app, params) {
   `;
 
   app.querySelector('#backBtn').addEventListener('click', () => window.__nav('home'));
+  app.querySelector('[data-go="levels"]').addEventListener('click', () => window.__nav('levels'));
+  app.querySelector('[data-go="reinforce"]').addEventListener('click', () => window.__nav('reinforce'));
   app.querySelectorAll('[data-mode]').forEach(b => {
     b.addEventListener('click', () => window.__nav('words', { mode: b.dataset.mode }));
   });
@@ -153,6 +197,8 @@ function renderStudyFlow(app, data, grade, unitId) {
 
         ${(w.synonyms && w.synonyms.length) ? `<div class="mt-3 text-xs"><span class="text-gray-400">近义</span>: <span class="font-en">${w.synonyms.join(', ')}</span></div>` : ''}
         ${(w.antonyms && w.antonyms.length) ? `<div class="text-xs"><span class="text-gray-400">反义</span>: <span class="font-en">${w.antonyms.join(', ')}</span></div>` : ''}
+
+        ${mnemonicHtml(w)}
       </div>
 
       <div class="grid grid-cols-2 gap-3 mt-4">
