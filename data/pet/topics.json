@@ -155,7 +155,7 @@
       "name": "Time & Dates 时间日期",
       "icon": "🕐",
       "file": "pet-time.json",
-      "status": "pending"
+      "status": "ready"
     }
   ]
 }
