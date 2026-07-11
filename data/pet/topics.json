@@ -78,7 +78,7 @@
       "name": "Technology 科技电子",
       "icon": "💻",
       "file": "pet-technology.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "entertainment",
