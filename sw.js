@@ -1,7 +1,7 @@
 // sw.js — 英语奇遇记 Service Worker（离线缓存）
 // 注意：所有路径用相对路径，兼容 GitHub Pages 子目录部署。
 // 更新内容时，修改下面的版本号即可触发缓存刷新。
-const CACHE_VERSION = 'ea-v0.3.2';
+const CACHE_VERSION = 'ea-v0.3.3';
 const CACHE_NAME = `english-adventure-${CACHE_VERSION}`;
 
 // 预缓存的核心文件（相对于 sw.js 所在目录，即项目根）
@@ -63,9 +63,18 @@ const PRECACHE_URLS = [
   './data/pet/words/pet-entertainment.json',
   './data/pet/words/pet-house.json',
   './data/pet/words/pet-clothes.json',
+  './data/pet/words/pet-feelings.json',
+  './data/pet/words/pet-animals.json',
+  './data/pet/words/pet-hobbies.json',
+  './data/pet/words/pet-city.json',
+  './data/pet/words/pet-money.json',
+  './data/pet/words/pet-communication.json',
+  './data/pet/words/pet-nature.json',
+  './data/pet/words/pet-time.json',
   './data/pet/reading/index.json',
   './data/pet/reading/pet-reading-1.json',
   './data/pet/reading/pet-reading-2.json',
+  './data/pet/reading/pet-reading-3.json',
 ];
 
 // install：预缓存核心文件。单个文件失败不应让整体 install 失败，逐个容错。

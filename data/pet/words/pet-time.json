@@ -1,0 +1,1239 @@
+{
+  "topic": "time",
+  "topicName": "Time & Dates 时间日期",
+  "icon": "🕐",
+  "level": "B1",
+  "totalWords": 34,
+  "words": [
+    {
+      "id": "pet-time-001",
+      "word": "hour",
+      "phonetic": "/ˈaʊə/",
+      "pos": "n.",
+      "meaning": "小时",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The film lasts two hours.",
+          "zh": "这部电影长两个小时。"
+        },
+        {
+          "en": "I waited for half an hour.",
+          "zh": "我等了半个小时。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "hour 的 h 不发音,读音像 our(我们的);60 分钟凑成的一段就是小时。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "an hour",
+          "half an hour"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-002",
+      "word": "minute",
+      "phonetic": "/ˈmɪnɪt/",
+      "pos": "n.",
+      "meaning": "分钟",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Wait a minute, please.",
+          "zh": "请等一下。"
+        },
+        {
+          "en": "It takes ten minutes to walk there.",
+          "zh": "走到那儿要十分钟。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "minute 谐音\"觅你特\"——分秒必争地\"觅\"你,60 秒就是一分钟。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a few minutes",
+          "in a minute"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-003",
+      "word": "second",
+      "phonetic": "/ˈsekənd/",
+      "pos": "n.",
+      "meaning": "秒；第二",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Wait a second!",
+          "zh": "稍等一下！"
+        },
+        {
+          "en": "There are sixty seconds in a minute.",
+          "zh": "一分钟有六十秒。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "second 既是\"秒\"又是\"第二\"——时间里最小、走在分钟后面的第二级就是秒。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a few seconds",
+          "in seconds"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-004",
+      "word": "moment",
+      "phonetic": "/ˈməʊmənt/",
+      "pos": "n.",
+      "meaning": "片刻；瞬间",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Wait a moment, please.",
+          "zh": "请稍等片刻。"
+        },
+        {
+          "en": "At that moment, the phone rang.",
+          "zh": "就在那一刻,电话响了。"
+        }
+      ],
+      "synonyms": [
+        "instant"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "mo(动,同 move/motion)+ment,动一下的工夫、极短的一刻就是片刻。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "at the moment",
+          "in a moment"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-005",
+      "word": "week",
+      "phonetic": "/wiːk/",
+      "pos": "n.",
+      "meaning": "星期；周",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "See you next week.",
+          "zh": "下周见。"
+        },
+        {
+          "en": "There are seven days in a week.",
+          "zh": "一周有七天。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "week 谐音\"喂克\"——和 weak(虚弱)同音;七天为一\"周\"。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "next week",
+          "last week"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-006",
+      "word": "month",
+      "phonetic": "/mʌnθ/",
+      "pos": "n.",
+      "meaning": "月；月份",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "My birthday is next month.",
+          "zh": "我的生日在下个月。"
+        },
+        {
+          "en": "It rained for a whole month.",
+          "zh": "雨下了整整一个月。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "month 里藏着 moon(月亮),月亮圆缺一轮就是一个月。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "last month",
+          "every month"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-007",
+      "word": "year",
+      "phonetic": "/jɪə/",
+      "pos": "n.",
+      "meaning": "年；年份",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Happy New Year!",
+          "zh": "新年快乐！"
+        },
+        {
+          "en": "She is ten years old.",
+          "zh": "她十岁。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "year 谐音\"椰\"不对,记\"意尔\"——地球绕太阳一圈、十二个月就是一年。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "last year",
+          "every year"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-008",
+      "word": "century",
+      "phonetic": "/ˈsentʃəri/",
+      "pos": "n.",
+      "meaning": "世纪；一百年",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This castle is over a century old.",
+          "zh": "这座城堡有一百多年历史。"
+        },
+        {
+          "en": "We live in the twenty-first century.",
+          "zh": "我们生活在二十一世纪。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "cent(百,拉丁 centum,同 percent)+ury,一百年就是一个世纪。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "the 21st century",
+          "a century ago"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-009",
+      "word": "morning",
+      "phonetic": "/ˈmɔːnɪŋ/",
+      "pos": "n.",
+      "meaning": "早晨；上午",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I get up early in the morning.",
+          "zh": "我早晨起得早。"
+        },
+        {
+          "en": "See you tomorrow morning.",
+          "zh": "明天上午见。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "evening"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "morning 里有 morn(黎明,古语),天刚亮的那段就是早晨。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in the morning",
+          "tomorrow morning"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-010",
+      "word": "afternoon",
+      "phonetic": "/ˌɑːftəˈnuːn/",
+      "pos": "n.",
+      "meaning": "下午",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We play football in the afternoon.",
+          "zh": "我们下午踢足球。"
+        },
+        {
+          "en": "Come over this afternoon.",
+          "zh": "今天下午过来吧。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "after(在...之后)+noon(中午),中午之后的那段就是下午。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in the afternoon",
+          "this afternoon"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-011",
+      "word": "evening",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "pos": "n.",
+      "meaning": "傍晚；晚上",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We watch TV in the evening.",
+          "zh": "我们晚上看电视。"
+        },
+        {
+          "en": "Good evening, everyone.",
+          "zh": "各位,晚上好。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "morning"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "evening 里有 eve(前夕),太阳下山、夜幕前的那段就是傍晚。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in the evening",
+          "this evening"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-012",
+      "word": "midnight",
+      "phonetic": "/ˈmɪdnaɪt/",
+      "pos": "n.",
+      "meaning": "午夜；半夜",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The party ended at midnight.",
+          "zh": "聚会在午夜结束。"
+        },
+        {
+          "en": "He works until midnight.",
+          "zh": "他工作到半夜。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "noon"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "mid(中间)+night(夜),夜的正中间十二点就是午夜。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "at midnight",
+          "before midnight"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-013",
+      "word": "noon",
+      "phonetic": "/nuːn/",
+      "pos": "n.",
+      "meaning": "中午；正午",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We have lunch at noon.",
+          "zh": "我们中午吃午饭。"
+        },
+        {
+          "en": "The sun is highest at noon.",
+          "zh": "正午时太阳最高。"
+        }
+      ],
+      "synonyms": [
+        "midday"
+      ],
+      "antonyms": [
+        "midnight"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "noon 两个 o 像正午头顶的太阳和它的影子,十二点就是中午。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "at noon",
+          "before noon"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-014",
+      "word": "dawn",
+      "phonetic": "/dɔːn/",
+      "pos": "n.",
+      "meaning": "黎明；破晓",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We set off at dawn.",
+          "zh": "我们黎明时出发。"
+        },
+        {
+          "en": "Birds sing at dawn.",
+          "zh": "鸟儿在破晓时歌唱。"
+        }
+      ],
+      "synonyms": [
+        "sunrise"
+      ],
+      "antonyms": [
+        "dusk"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "dawn 谐音\"当\"——天\"当\"地一下亮了、太阳快出来的那刻就是黎明。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "at dawn",
+          "before dawn"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-015",
+      "word": "today",
+      "phonetic": "/təˈdeɪ/",
+      "pos": "adv.",
+      "meaning": "今天",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Today is Monday.",
+          "zh": "今天是星期一。"
+        },
+        {
+          "en": "I have a lot to do today.",
+          "zh": "我今天有很多事要做。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "to+day(日),说的就是眼下这一\"日\"——今天。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "today's news",
+          "later today"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-016",
+      "word": "tomorrow",
+      "phonetic": "/təˈmɒrəʊ/",
+      "pos": "adv.",
+      "meaning": "明天",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I'll see you tomorrow.",
+          "zh": "我明天见你。"
+        },
+        {
+          "en": "Tomorrow is my birthday.",
+          "zh": "明天是我生日。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "yesterday"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "tomorrow 谐音\"图猫肉\"——今天的下一天就是明天(注意 m 单 r 双)。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "tomorrow morning",
+          "see you tomorrow"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-017",
+      "word": "yesterday",
+      "phonetic": "/ˈjestədeɪ/",
+      "pos": "adv.",
+      "meaning": "昨天",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "It rained yesterday.",
+          "zh": "昨天下雨了。"
+        },
+        {
+          "en": "I saw her yesterday afternoon.",
+          "zh": "我昨天下午见到她了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "tomorrow"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "yester(昨,古语)+day(日),过去的那一日就是昨天。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "yesterday morning",
+          "the day before yesterday"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-018",
+      "word": "weekend",
+      "phonetic": "/ˌwiːkˈend/",
+      "pos": "n.",
+      "meaning": "周末",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "What did you do at the weekend?",
+          "zh": "你周末做了什么？"
+        },
+        {
+          "en": "We often go hiking on weekends.",
+          "zh": "我们周末常去徒步。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "weekday"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "week(周)+end(末尾),一周末尾的休息日就是周末。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "at the weekend",
+          "this weekend"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-019",
+      "word": "weekday",
+      "phonetic": "/ˈwiːkdeɪ/",
+      "pos": "n.",
+      "meaning": "工作日；平日",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The shop is busy on weekdays.",
+          "zh": "这家店平日很忙。"
+        },
+        {
+          "en": "I get up early on weekdays.",
+          "zh": "工作日我起得早。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "weekend"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "week(周)+day(日),周一到周五要上班上学的日子就是工作日。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "on weekdays",
+          "a weekday morning"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-020",
+      "word": "date",
+      "phonetic": "/deɪt/",
+      "pos": "n.",
+      "meaning": "日期；约会",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "What's the date today?",
+          "zh": "今天几号？"
+        },
+        {
+          "en": "They went on a date.",
+          "zh": "他们去约会了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "date 谐音\"呆特\"——写在日历上的年月日就是日期;也指男女\"约会\"。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "the date of",
+          "today's date"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-021",
+      "word": "calendar",
+      "phonetic": "/ˈkælɪndə/",
+      "pos": "n.",
+      "meaning": "日历；日程表",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Mark the day on the calendar.",
+          "zh": "在日历上标出这一天。"
+        },
+        {
+          "en": "There is a calendar on the wall.",
+          "zh": "墙上挂着一本日历。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "calendar 谐音\"卡林德\"——一张张标着日期、供查日子的表就是日历。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "on the calendar",
+          "a wall calendar"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-022",
+      "word": "clock",
+      "phonetic": "/klɒk/",
+      "pos": "n.",
+      "meaning": "钟；时钟",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The clock on the wall says three.",
+          "zh": "墙上的钟指着三点。"
+        },
+        {
+          "en": "The alarm clock woke me up.",
+          "zh": "闹钟把我叫醒了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "clock 谐音\"克劳克\"——\"滴答滴答\"走、报时的挂钟就是 clock。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an alarm clock",
+          "the clock says"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-023",
+      "word": "alarm",
+      "phonetic": "/əˈlɑːm/",
+      "pos": "n.",
+      "meaning": "闹钟；警报",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I set the alarm for six.",
+          "zh": "我把闹钟定在六点。"
+        },
+        {
+          "en": "The fire alarm rang loudly.",
+          "zh": "火警警报大声响起。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "alarm 谐音\"啊懒\"——闹钟一响\"啊\"地把懒觉叫醒;也指\"警报\"。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "set an alarm",
+          "an alarm clock"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-024",
+      "word": "early",
+      "phonetic": "/ˈɜːli/",
+      "pos": "adj./adv.",
+      "meaning": "早的；提早",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I arrived early for the class.",
+          "zh": "我提早到了教室。"
+        },
+        {
+          "en": "She catches the early train.",
+          "zh": "她乘早班火车。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "late"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "early 谐音\"厄立\"不对,记\"耳立\"——鸡叫头遍就竖起耳朵起床,那就是早。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "get up early",
+          "an early start"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-025",
+      "word": "late",
+      "phonetic": "/leɪt/",
+      "pos": "adj./adv.",
+      "meaning": "迟的；晚的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Sorry I'm late.",
+          "zh": "抱歉我迟到了。"
+        },
+        {
+          "en": "He went to bed late last night.",
+          "zh": "他昨晚睡得晚。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "early"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "late 谐音\"累特\"——磨蹭到最后、累得赶不上就是迟到。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "be late for",
+          "too late"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-026",
+      "word": "soon",
+      "phonetic": "/suːn/",
+      "pos": "adv.",
+      "meaning": "不久；很快",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I'll be back soon.",
+          "zh": "我很快就回来。"
+        },
+        {
+          "en": "Winter will come soon.",
+          "zh": "冬天很快就到了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "soon 谐音\"孙\"不对,记\"苏恩\"——两个 o 像连着的一小段,时间上很快就到。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "as soon as",
+          "see you soon"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-027",
+      "word": "recently",
+      "phonetic": "/ˈriːsntli/",
+      "pos": "adv.",
+      "meaning": "最近；近来",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I haven't seen him recently.",
+          "zh": "我最近没见过他。"
+        },
+        {
+          "en": "She recently moved house.",
+          "zh": "她最近搬了家。"
+        }
+      ],
+      "synonyms": [
+        "lately"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "recent(近来的)+ly,不久前发生的就是最近。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "until recently",
+          "recently opened"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-028",
+      "word": "already",
+      "phonetic": "/ɔːlˈredi/",
+      "pos": "adv.",
+      "meaning": "已经",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I have already finished my homework.",
+          "zh": "我已经做完作业了。"
+        },
+        {
+          "en": "It's already ten o'clock.",
+          "zh": "已经十点了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "all(全)+ready(准备好),全都准备妥当、事情早办完了就是已经。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "already done",
+          "already here"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-029",
+      "word": "usually",
+      "phonetic": "/ˈjuːʒuəli/",
+      "pos": "adv.",
+      "meaning": "通常；一般",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I usually walk to school.",
+          "zh": "我通常步行上学。"
+        },
+        {
+          "en": "She usually gets up at seven.",
+          "zh": "她一般七点起床。"
+        }
+      ],
+      "synonyms": [
+        "normally"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "usual(通常的)+ly,按老习惯、一般情况下就是通常。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "usually do",
+          "as usual"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-030",
+      "word": "sometimes",
+      "phonetic": "/ˈsʌmtaɪmz/",
+      "pos": "adv.",
+      "meaning": "有时；偶尔",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Sometimes I read before bed.",
+          "zh": "我有时睡前看书。"
+        },
+        {
+          "en": "She sometimes forgets her keys.",
+          "zh": "她偶尔会忘带钥匙。"
+        }
+      ],
+      "synonyms": [
+        "occasionally"
+      ],
+      "antonyms": [
+        "always"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "some(一些)+times(次数),只在一些时候发生就是有时。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "sometimes do",
+          "only sometimes"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-031",
+      "word": "future",
+      "phonetic": "/ˈfjuːtʃə/",
+      "pos": "n.",
+      "meaning": "未来；将来",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "What do you want to do in the future?",
+          "zh": "你将来想做什么？"
+        },
+        {
+          "en": "We must protect our future.",
+          "zh": "我们必须守护我们的未来。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "past"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "future 谐音\"飞出车\"不对,记\"缪彻\"——还没到、往前望去的日子就是未来。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in the future",
+          "a bright future"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-032",
+      "word": "past",
+      "phonetic": "/pɑːst/",
+      "pos": "n.",
+      "meaning": "过去；往昔",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We learn from the past.",
+          "zh": "我们从过去中学习。"
+        },
+        {
+          "en": "In the past, people used candles.",
+          "zh": "过去人们用蜡烛。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "future"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "past 和 pass(经过)同源,已经\"过\"去了的时光就是过去。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "in the past",
+          "the recent past"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-033",
+      "word": "period",
+      "phonetic": "/ˈpɪəriəd/",
+      "pos": "n.",
+      "meaning": "时期；一段时间",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This was a happy period of my life.",
+          "zh": "这是我人生中一段快乐的时期。"
+        },
+        {
+          "en": "The shop is closed for a short period.",
+          "zh": "这家店会关闭一小段时间。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "period 谐音\"劈瑞额的\"——被划成一段一段的时间就是时期。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a long period",
+          "a short period"
+        ]
+      }
+    },
+    {
+      "id": "pet-time-034",
+      "word": "ago",
+      "phonetic": "/əˈɡəʊ/",
+      "pos": "adv.",
+      "meaning": "以前；之前",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She left an hour ago.",
+          "zh": "她一小时前离开了。"
+        },
+        {
+          "en": "We moved here two years ago.",
+          "zh": "我们两年前搬来这里。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "time"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "ago 放在时间后面表\"...以前\"(如 long ago 很久以前),往回数的时间点。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "long ago",
+          "a moment ago"
+        ]
+      }
+    }
+  ]
+}

@@ -120,7 +120,7 @@
       "name": "City & Places 城市地点",
       "icon": "🏙️",
       "file": "pet-city.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "feelings",
@@ -134,28 +134,28 @@
       "name": "Money 金钱",
       "icon": "💰",
       "file": "pet-money.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "communication",
       "name": "Communication 沟通交流",
       "icon": "💬",
       "file": "pet-communication.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "nature",
       "name": "Nature 大自然",
       "icon": "🌳",
       "file": "pet-nature.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "time",
       "name": "Time & Dates 时间日期",
       "icon": "🕐",
       "file": "pet-time.json",
-      "status": "pending"
+      "status": "ready"
     }
   ]
 }

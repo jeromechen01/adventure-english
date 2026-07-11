@@ -1,0 +1,192 @@
+{
+  "level": "B1",
+  "title": "PET 阅读 · 第三组",
+  "articles": [
+    {
+      "id": "pet-r-010",
+      "title": "The School Garden Club",
+      "level": "B1",
+      "lexile": 690,
+      "wordCount": 104,
+      "category": "article",
+      "content": "Last spring, some students at our school started a garden club. At first there was only an empty piece of ground behind the science building. The students cleared away the rubbish and planted vegetables and flowers. Now, a few months later, the garden is full of colour. Members meet every Wednesday after class to water the plants and pull out weeds. They have even grown enough tomatoes to share with teachers. The club teaches students how plants grow and why nature matters. Best of all, working outdoors together has helped many shy students make new friends.",
+      "translation": "去年春天，我们学校的一些学生成立了一个园艺社。起初，科学楼后面只有一块空地。学生们清走了垃圾，种上了蔬菜和花。如今几个月过去，花园里五彩缤纷。社员们每周三放学后聚在一起浇水、拔草。他们种的西红柿甚至多到可以分给老师。这个社团教学生们植物如何生长、大自然为何重要。最棒的是，一起在户外劳动帮助许多害羞的学生结交了新朋友。",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "What was behind the science building at first?",
+          "options": ["A car park", "An empty piece of ground", "A swimming pool", "A playground"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "When do members of the club meet?",
+          "options": ["Every Monday morning", "Every Wednesday after class", "Every weekend", "Every evening"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "The garden club has helped some shy students make friends.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["garden", "plant", "nature", "weed", "share"],
+      "petSkills": ["gist", "detail"]
+    },
+    {
+      "id": "pet-r-011",
+      "title": "A Message about the Trip",
+      "level": "B1",
+      "lexile": 700,
+      "wordCount": 98,
+      "category": "email",
+      "content": "Hi everyone, This is a quick note about our class trip to the science museum next Thursday. The bus will leave school at eight o'clock, so please arrive by ten to eight. Don't be late, because the bus cannot wait. Bring a packed lunch and a bottle of water, as the museum café is quite expensive. You won't need much money, but a little for a souvenir is fine. Remember to wear comfortable shoes because we will walk a lot. If it rains, bring a raincoat. I'm sure we will have a wonderful day. Miss Reed",
+      "translation": "大家好，简短通知一下我们下周四去科学博物馆的班级出游。巴士八点从学校出发，所以请在七点五十前到。别迟到，因为巴士不能等。请自带午餐和一瓶水，因为博物馆咖啡厅相当贵。你不需要带太多钱，带一点买纪念品就行。记得穿舒适的鞋子，因为我们要走很多路。如果下雨，带上雨衣。我相信我们会度过美好的一天。里德老师",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "What time should students arrive at school?",
+          "options": ["By eight o'clock", "By ten to eight", "By half past eight", "By nine o'clock"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "Why should students bring a packed lunch?",
+          "options": ["The museum has no food", "The café is quite expensive", "There is no time to eat", "Lunch is not allowed inside"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Students should wear comfortable shoes for the trip.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["trip", "museum", "packed lunch", "souvenir", "raincoat"],
+      "petSkills": ["scanning", "detail"]
+    },
+    {
+      "id": "pet-r-012",
+      "title": "Ben Learns to Cook",
+      "level": "B1",
+      "lexile": 730,
+      "wordCount": 120,
+      "category": "story",
+      "content": "Ben had never cooked anything before he went to university. For the first week, he ate only sandwiches and instant noodles. Soon he felt tired and unhealthy, so he decided to learn some simple recipes. His mother sent him a small cookbook, and he watched cooking videos online. His first attempt at making soup was a disaster — he added too much salt and forgot to cut the vegetables. But he did not give up. Little by little, his cooking improved. Now Ben can make several tasty meals, and he even invites his friends for dinner. He says learning to cook has made him more independent and much happier.",
+      "translation": "本上大学之前从没做过饭。头一周，他只吃三明治和方便面。很快他就感到疲惫又不健康，于是决定学几道简单的食谱。妈妈给他寄来一本小菜谱，他还在网上看烹饪视频。他第一次做汤是一场灾难——放了太多盐，还忘了切菜。但他没有放弃。一点一点地，他的厨艺进步了。现在本能做好几道美味的饭菜，甚至请朋友来吃晚饭。他说学会做饭让他更独立，也快乐多了。",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "What did Ben eat during his first week at university?",
+          "options": ["Soup and vegetables", "Sandwiches and instant noodles", "Rice and fish", "Nothing at all"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "What went wrong with Ben's first soup?",
+          "options": ["It was too cold", "He added too much salt", "He burned it", "He used no water"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Ben gave up cooking after his first failure.",
+          "answer": false
+        }
+      ],
+      "keyWords": ["recipe", "cookbook", "improve", "independent", "healthy"],
+      "petSkills": ["detail", "inference"]
+    },
+    {
+      "id": "pet-r-013",
+      "title": "Join Our Reading Challenge!",
+      "level": "B1",
+      "lexile": 680,
+      "wordCount": 95,
+      "category": "advert",
+      "content": "Do you love stories? This summer, the town library invites all young people to join the Reading Challenge! The rules are simple: read six books during the holidays and write one sentence about each. Every book you finish brings you closer to a special prize. Readers who complete the challenge will get a free bookmark and a certificate. There will also be a party at the end of August for everyone who takes part. Books of any kind count, from adventure to science. Ask at the front desk to sign up. Happy reading, and good luck!",
+      "translation": "你喜欢故事吗？今年夏天，镇图书馆邀请所有年轻人参加阅读挑战！规则很简单：假期里读六本书，每本写一句话。你每读完一本，就离特别奖品更近一步。完成挑战的读者将获得一枚免费书签和一张证书。八月底还会为所有参与者举办一场派对。任何种类的书都算，从冒险到科学。到前台报名即可。祝阅读愉快，好运！",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "How many books must you read to complete the challenge?",
+          "options": ["Three", "Five", "Six", "Ten"],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "q": "What do readers get if they complete the challenge?",
+          "options": ["A free book", "A bookmark and a certificate", "Some money", "A new library card"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "You sign up for the challenge at the front desk.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["library", "challenge", "prize", "certificate", "sign up"],
+      "petSkills": ["scanning", "gist"]
+    },
+    {
+      "id": "pet-r-014",
+      "title": "Why Sleep Matters",
+      "level": "B1",
+      "lexile": 750,
+      "wordCount": 116,
+      "category": "article",
+      "content": "Many students stay up late to study or use their phones, but they may not know how important sleep really is. During sleep, the brain rests and stores the things we have learned during the day. People who sleep well often find it easier to concentrate and remember information. On the other hand, those who do not get enough sleep can feel tired, worried, and even ill. Experts say that young people need about nine hours of sleep each night. To sleep better, it helps to turn off screens an hour before bed and keep the bedroom quiet and dark. A good night's sleep is one of the best gifts you can give yourself.",
+      "translation": "许多学生熬夜学习或玩手机，却可能不知道睡眠究竟有多重要。睡觉时，大脑得到休息，并储存我们白天学到的东西。睡得好的人往往更容易集中注意力、记住信息。反过来，睡眠不足的人会感到疲惫、焦虑，甚至生病。专家说，年轻人每晚需要大约九小时的睡眠。为了睡得更好，睡前一小时关掉屏幕、保持卧室安静黑暗会有帮助。一夜好眠是你能送给自己最好的礼物之一。",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "What does the brain do during sleep?",
+          "options": ["It stops completely", "It rests and stores what we learned", "It grows bigger", "It uses more energy"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "How many hours of sleep do young people need each night?",
+          "options": ["About five hours", "About seven hours", "About nine hours", "About twelve hours"],
+          "answer": 2
+        },
+        {
+          "type": "truefalse",
+          "q": "The writer suggests turning off screens an hour before bed.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["sleep", "brain", "concentrate", "remember", "screen"],
+      "petSkills": ["gist", "inference"]
+    },
+    {
+      "id": "pet-r-015",
+      "title": "A Postcard from the Mountains",
+      "level": "B1",
+      "lexile": 710,
+      "wordCount": 92,
+      "category": "email",
+      "content": "Dear Grandma, Greetings from the mountains! We arrived two days ago after a long train journey. Our little wooden house is cosy, with a warm fire in the evening. Yesterday we walked up a steep path and reached the top of a hill. The view was amazing — green valleys, a shining lake, and birds flying below us. In the afternoon it rained, so we stayed inside and played card games. Tomorrow, if the weather is fine, we will go fishing by the river. I miss your cooking! See you next week. Love, Katie",
+      "translation": "亲爱的奶奶，山里问好！我们两天前经过漫长的火车旅程到达了这里。我们的小木屋很温馨，晚上有暖暖的炉火。昨天我们沿着陡峭的小路往上走，到达了一座山丘的顶端。景色美极了——碧绿的山谷、闪亮的湖，还有在我们脚下飞翔的鸟儿。下午下雨了，我们就待在屋里玩纸牌。明天如果天气好，我们要去河边钓鱼。我想念你做的饭！下周见。爱你的，凯蒂",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "How did Katie travel to the mountains?",
+          "options": ["By plane", "By train", "By car", "By boat"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "What did they do when it rained?",
+          "options": ["Went fishing", "Walked up the hill", "Stayed inside and played cards", "Took the train home"],
+          "answer": 2
+        },
+        {
+          "type": "truefalse",
+          "q": "Katie plans to go fishing the next day if the weather is fine.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["journey", "cosy", "valley", "view", "fishing"],
+      "petSkills": ["detail", "gist"]
+    }
+  ]
+}
