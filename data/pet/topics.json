@@ -43,7 +43,7 @@
       "name": "Health 健康身体",
       "icon": "🏥",
       "file": "pet-health.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "sport",
