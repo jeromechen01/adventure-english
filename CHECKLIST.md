@@ -1,27 +1,26 @@
 # 功能完成清单 (V0.3 PET 备考框架版)
 
-## 🆕 V0.3 任务 B 进度 (PET 全量词库 + 阅读填充 · 进行中)
+## 🆕 V0.3 任务 B (PET 全量词库 + 阅读填充 · 20 话题全部完成 ✅)
 
-### 词库填充 (本轮完成 14 个话题，累计 16 个 ready)
-- [x] education 教育学习 40 / work 工作职业 40 / family 家庭朋友 40 / health 健康身体 40
-- [x] sport 运动 38 / shopping 购物 38 / weather 天气 32 / environment 环境自然 38 / technology 科技电子 38
-- [x] entertainment 娱乐休闲 38 / house 房屋居家 38 / clothes 服装 36 / feelings 情感情绪 36 / animals 动物 36
-- [x] 加上任务 A 样例 food 25 / travel 25 → **PET 词库累计 578 词**，16 topics status=ready
+### 词库填充 (20 个 pending 话题全部 ready，加样例共 22 topics)
+- [x] education 40 / work 40 / family 40 / health 40 / sport 38 / shopping 38
+- [x] weather 32 / environment 38 / technology 38 / entertainment 38 / house 38 / clothes 36
+- [x] feelings 36 / animals 36 / hobbies 36 / city 36 / money 36 / communication 36 / nature 36 / time 34
+- [x] 加任务 A 样例 food 25 / travel 25 → **PET 词库累计 792 词，22 topics 全部 status=ready，0 pending**
 - [x] 全部沿用任务 A schema：mnemonic 记忆法(联想/词根词缀/谐音/拆解/场景) + petExam.collocations + 2 例句 + 音标
-- [x] 每话题独立 git commit（可断点续跑）；每 4-5 话题跑质检脚本 + 乱码扫描，发现问题即改
-- [ ] **待续 6 话题**：hobbies / city / money / communication / nature / time（下轮从 pending 继续）
-- [ ] 各话题后续可加密到 150-180 词接近 3500 总量（本轮每话题 ~36-40 词高质量打底）
+- [x] 每话题独立 git commit（便于回溯）；每 4-5 话题跑质检脚本 + 乱码扫描，发现问题即改
+- [ ] 后续可选：各话题从 ~34-40 词加密到 150-180 词，冲刺 3500 总量（当前为全话题高质量打底）
 
-### 阅读填充
-- [x] pet-reading-1.json (任务A, 3 篇) + pet-reading-2.json (本轮 6 篇) = **9 篇原创 B1 文章**
-- [x] 题材含 notice / email / story / article / advert；题型 choice + truefalse
-- [x] 新增 `data/pet/reading/index.json` 清单，reading.js 改为按清单合并加载多文件（可无限扩展）
-- [ ] 待续：继续填至 30-50 篇（新建 pet-reading-N.json 并登记进 index.json 即自动加载）
+### 阅读填充 (15 篇原创 B1 文章)
+- [x] pet-reading-1 (3篇) + pet-reading-2 (6篇) + pet-reading-3 (6篇) = **15 篇原创 B1 文章**
+- [x] 题材含 notice / email / story / article / advert；题型 choice + truefalse；petSkills 标注
+- [x] `data/pet/reading/index.json` 清单驱动，reading.js 按清单合并加载多文件（新建文件登记即生效）
+- [ ] 后续可选：继续填至 30-50 篇（新建 pet-reading-N.json 并登记 index.json 即自动加载）
 
 ### 自检
-- [x] 每话题 node 校验 schema 完整 + 词量达标 + id/词形去重；16 JSON 全有效
-- [x] 乱码字符扫描（防串入西里尔/损坏字符）全过；记忆法无过短/废话
-- [x] 全 17 个 JS node --check 通过；reading 多文件加载逻辑已验证；sw.js 缓存版本 → ea-v0.3.2
+- [x] 每话题 node 校验 schema 完整 + 词量达标 + id/词形去重；22 词库 + 3 阅读 JSON 全有效
+- [x] 乱码字符扫描（防串入西里尔/损坏字符）全过；记忆法无过短/废话（792 条自动扫描）
+- [x] 全 17 个 JS node --check 通过；reading 多文件加载逻辑已验证；sw.js 缓存版本 → ea-v0.3.3
 - [x] 版权：词汇释义/例句/记忆法/阅读文章 100% 原创，未碰任何官方原文
 
 ## 🆕 V0.3 新增 (任务 A：PET 框架 + 移动端字号/界面)
