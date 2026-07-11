@@ -24,6 +24,19 @@ async function buildWordIndex() {
   return wordIndex;
 }
 
+// 载入并合并所有 PET 阅读文件（按 index.json 清单；缺失则回退到第一组）
+async function loadPetReading() {
+  let files = ['pet-reading-1.json'];
+  const idx = await loadJSON('data/pet/reading/index.json');
+  if (idx && Array.isArray(idx.files) && idx.files.length) files = idx.files;
+  const articles = [];
+  for (const f of files) {
+    const d = await loadJSON(`data/pet/reading/${f}`);
+    if (d && Array.isArray(d.articles)) articles.push(...d.articles);
+  }
+  return { level: 'B1', articles };
+}
+
 // 归一化题目：把 truefalse 题转成两个选项的选择题，复用现有做题引擎
 function normalizeQuestions(article) {
   return (article.questions || []).map(q => {
@@ -38,8 +51,13 @@ export async function renderReadingPage(app, params) {
   const profile = storage.getProfile();
   const isPet = profile.grade === 'PET';
   const level = isPet ? 'pet' : (profile.grade <= 2 ? 'kindergarten' : profile.grade <= 6 ? 'primary' : 'junior');
-  const data = await loadJSON(isPet ? 'data/pet/reading/pet-reading-1.json' : `data/reading/${level}.json`);
-  if (!data) {
+  let data;
+  if (isPet) {
+    data = await loadPetReading();
+  } else {
+    data = await loadJSON(`data/reading/${level}.json`);
+  }
+  if (!data || !data.articles) {
     app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';
     return;
   }
