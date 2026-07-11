@@ -71,7 +71,7 @@
       "name": "Environment 环境自然",
       "icon": "🌍",
       "file": "pet-environment.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "technology",
