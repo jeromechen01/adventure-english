@@ -141,7 +141,7 @@
       "name": "Communication 沟通交流",
       "icon": "💬",
       "file": "pet-communication.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "nature",
