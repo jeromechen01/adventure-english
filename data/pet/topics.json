@@ -106,7 +106,7 @@
       "name": "Hobbies 兴趣爱好",
       "icon": "🎨",
       "file": "pet-hobbies.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "animals",
