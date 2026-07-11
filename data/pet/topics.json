@@ -64,7 +64,7 @@
       "name": "Weather 天气",
       "icon": "🌦️",
       "file": "pet-weather.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "environment",
