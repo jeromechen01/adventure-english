@@ -1,0 +1,1278 @@
+{
+  "topic": "animals",
+  "topicName": "Animals 动物",
+  "icon": "🐘",
+  "level": "B1",
+  "totalWords": 36,
+  "words": [
+    {
+      "id": "pet-animals-001",
+      "word": "pet",
+      "phonetic": "/pet/",
+      "pos": "n.",
+      "meaning": "宠物",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "A dog is a popular pet.",
+          "zh": "狗是一种很受欢迎的宠物。"
+        },
+        {
+          "en": "She keeps a rabbit as a pet.",
+          "zh": "她养了一只兔子当宠物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "pet 也作动词\"轻抚\",在家里逗着抚摸的小动物就是宠物。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "keep a pet",
+          "a pet dog"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-002",
+      "word": "wild",
+      "phonetic": "/waɪld/",
+      "pos": "adj.",
+      "meaning": "野生的；野性的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Lions are wild animals.",
+          "zh": "狮子是野生动物。"
+        },
+        {
+          "en": "These flowers grow wild.",
+          "zh": "这些花是野生的。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "tame"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "wild 谐音\"歪偶的\"不对,记\"外的\"——在野外自由生长、没被驯的就是野生的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "wild animals",
+          "in the wild"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-003",
+      "word": "zoo",
+      "phonetic": "/zuː/",
+      "pos": "n.",
+      "meaning": "动物园",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We saw pandas at the zoo.",
+          "zh": "我们在动物园看到了熊猫。"
+        },
+        {
+          "en": "The zoo has many rare animals.",
+          "zh": "这家动物园有许多珍稀动物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "zoo 谐音\"租\"不对,记\"入\"——两个 o 像两只圆眼睛,进去看动物的地方就是动物园。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "go to the zoo",
+          "at the zoo"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-004",
+      "word": "cage",
+      "phonetic": "/keɪdʒ/",
+      "pos": "n.",
+      "meaning": "笼子",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The bird flew out of its cage.",
+          "zh": "鸟飞出了笼子。"
+        },
+        {
+          "en": "The rabbit lives in a cage.",
+          "zh": "兔子住在笼子里。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "cage 谐音\"could\"不对,记\"凯奇\"——一根根栏杆围成、关动物的就是笼子。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "in a cage",
+          "a bird cage"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-005",
+      "word": "wing",
+      "phonetic": "/wɪŋ/",
+      "pos": "n.",
+      "meaning": "翅膀",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The bird spread its wings.",
+          "zh": "鸟张开了翅膀。"
+        },
+        {
+          "en": "A butterfly has colourful wings.",
+          "zh": "蝴蝶有色彩斑斓的翅膀。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "wing 谐音\"翁\"不对,记\"文\"——扇动起来\"呼呼\"的、能飞的就是翅膀。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "spread its wings",
+          "a bird's wing"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-006",
+      "word": "tail",
+      "phonetic": "/teɪl/",
+      "pos": "n.",
+      "meaning": "尾巴",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The dog wagged its tail.",
+          "zh": "狗摇着尾巴。"
+        },
+        {
+          "en": "A monkey uses its tail to climb.",
+          "zh": "猴子用尾巴爬树。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "tail 谐音\"忒欧\"不对,记\"泰欧\"——和 tale(故事)同音,长在动物屁股后头的就是尾巴。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "wag its tail",
+          "a long tail"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-007",
+      "word": "fur",
+      "phonetic": "/fɜː/",
+      "pos": "n.",
+      "meaning": "皮毛；毛",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The cat has soft fur.",
+          "zh": "这只猫有柔软的皮毛。"
+        },
+        {
+          "en": "The rabbit's fur is white.",
+          "zh": "兔子的毛是白色的。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "fur 谐音\"服\"——毛茸茸像给动物穿了件\"服\"就是皮毛。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "soft fur",
+          "thick fur"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-008",
+      "word": "insect",
+      "phonetic": "/ˈɪnsekt/",
+      "pos": "n.",
+      "meaning": "昆虫",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A bee is a useful insect.",
+          "zh": "蜜蜂是一种有益的昆虫。"
+        },
+        {
+          "en": "Insects have six legs.",
+          "zh": "昆虫有六条腿。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "in(进入)+sect(切,同 section),身体被\"切\"成一节节的小虫就是昆虫。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a small insect",
+          "an insect bite"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-009",
+      "word": "bee",
+      "phonetic": "/biː/",
+      "pos": "n.",
+      "meaning": "蜜蜂",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Bees make honey.",
+          "zh": "蜜蜂酿蜂蜜。"
+        },
+        {
+          "en": "A bee flew into the room.",
+          "zh": "一只蜜蜂飞进了房间。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "bee 谐音\"必\"不对,记拟声\"嗡\"——\"嗡嗡\"采蜜的就是蜜蜂。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a busy bee",
+          "a bee sting"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-010",
+      "word": "butterfly",
+      "phonetic": "/ˈbʌtəflaɪ/",
+      "pos": "n.",
+      "meaning": "蝴蝶",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "A butterfly landed on the flower.",
+          "zh": "一只蝴蝶落在花上。"
+        },
+        {
+          "en": "Butterflies have beautiful wings.",
+          "zh": "蝴蝶有美丽的翅膀。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "butter(黄油)+fly(飞),像一小片黄油翩翩飞舞的就是蝴蝶。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a colourful butterfly",
+          "catch a butterfly"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-011",
+      "word": "spider",
+      "phonetic": "/ˈspaɪdə/",
+      "pos": "n.",
+      "meaning": "蜘蛛",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "A spider is making a web.",
+          "zh": "一只蜘蛛正在织网。"
+        },
+        {
+          "en": "She is afraid of spiders.",
+          "zh": "她害怕蜘蛛。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "spider 谐音\"死掰的\"不对,记\"斯派德\"——八条腿结网抓虫的就是蜘蛛。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a spider's web",
+          "a big spider"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-012",
+      "word": "snake",
+      "phonetic": "/sneɪk/",
+      "pos": "n.",
+      "meaning": "蛇",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "A snake moved through the grass.",
+          "zh": "一条蛇在草丛里游走。"
+        },
+        {
+          "en": "Some snakes are dangerous.",
+          "zh": "有些蛇很危险。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "snake 谐音\"斯内克\"——s 的形状像蛇身弯弯扭扭,\"嘶\"地吐信就是蛇。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a poisonous snake",
+          "a long snake"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-013",
+      "word": "frog",
+      "phonetic": "/frɒɡ/",
+      "pos": "n.",
+      "meaning": "青蛙",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The frog jumped into the pond.",
+          "zh": "青蛙跳进了池塘。"
+        },
+        {
+          "en": "Frogs eat insects.",
+          "zh": "青蛙吃昆虫。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "frog 谐音\"服了个\"不对,记拟声\"呱\"——\"呱呱\"叫、蹦蹦跳的就是青蛙。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a green frog",
+          "a frog jumps"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-014",
+      "word": "rabbit",
+      "phonetic": "/ˈræbɪt/",
+      "pos": "n.",
+      "meaning": "兔子",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The rabbit has long ears.",
+          "zh": "兔子有长长的耳朵。"
+        },
+        {
+          "en": "Rabbits love to eat carrots.",
+          "zh": "兔子爱吃胡萝卜。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "rabbit 谐音\"来必特\"不对,记\"拉比特\"——长耳朵、蹦蹦跳的就是兔子。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a pet rabbit",
+          "a white rabbit"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-015",
+      "word": "mouse",
+      "phonetic": "/maʊs/",
+      "pos": "n.",
+      "meaning": "老鼠；鼠标",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The cat is chasing a mouse.",
+          "zh": "猫在追一只老鼠。"
+        },
+        {
+          "en": "Click the left button on the mouse.",
+          "zh": "点击鼠标左键。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "mouse 谐音\"骂死\"不对,记\"毛斯\"——复数是 mice;电脑上那个也叫 mouse(鼠标)。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "catch a mouse",
+          "a computer mouse"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-016",
+      "word": "wolf",
+      "phonetic": "/wʊlf/",
+      "pos": "n.",
+      "meaning": "狼",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A wolf lives in the forest.",
+          "zh": "狼生活在森林里。"
+        },
+        {
+          "en": "Wolves hunt in groups.",
+          "zh": "狼群集体捕猎。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "wolf 谐音\"乌夫\"——复数 wolves,月夜\"嗷呜\"长嚎的就是狼。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a hungry wolf",
+          "a pack of wolves"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-017",
+      "word": "fox",
+      "phonetic": "/fɒks/",
+      "pos": "n.",
+      "meaning": "狐狸",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "A fox has a bushy tail.",
+          "zh": "狐狸有一条毛茸茸的尾巴。"
+        },
+        {
+          "en": "The fox is a clever animal.",
+          "zh": "狐狸是种聪明的动物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "fox 谐音\"发克斯\"——尖脸大尾、机灵狡猾的就是狐狸。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a clever fox",
+          "a red fox"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-018",
+      "word": "bear",
+      "phonetic": "/beə/",
+      "pos": "n.",
+      "meaning": "熊",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The bear caught a fish.",
+          "zh": "熊抓到了一条鱼。"
+        },
+        {
+          "en": "Bears sleep all winter.",
+          "zh": "熊整个冬天都在冬眠。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "bear 谐音\"贝尔\"——大块头、毛乎乎、力气大的就是熊(也作动词\"忍受\")。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a big bear",
+          "a polar bear"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-019",
+      "word": "lion",
+      "phonetic": "/ˈlaɪən/",
+      "pos": "n.",
+      "meaning": "狮子",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The lion is the king of animals.",
+          "zh": "狮子是万兽之王。"
+        },
+        {
+          "en": "A lion roared in the distance.",
+          "zh": "远处一头狮子在吼叫。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "lion 谐音\"赖恩\"——一头金色鬃毛、\"嗷\"地一吼的就是狮子。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a lion roars",
+          "a male lion"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-020",
+      "word": "tiger",
+      "phonetic": "/ˈtaɪɡə/",
+      "pos": "n.",
+      "meaning": "老虎",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "A tiger has black stripes.",
+          "zh": "老虎身上有黑色条纹。"
+        },
+        {
+          "en": "Tigers are strong and fast.",
+          "zh": "老虎又强壮又敏捷。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "tiger 谐音\"太哥\"——山中\"大哥\",带条纹、威风凛凛的就是老虎。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a fierce tiger",
+          "a tiger's stripes"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-021",
+      "word": "elephant",
+      "phonetic": "/ˈelɪfənt/",
+      "pos": "n.",
+      "meaning": "大象",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The elephant has a long trunk.",
+          "zh": "大象有长长的鼻子。"
+        },
+        {
+          "en": "Elephants are the largest land animals.",
+          "zh": "大象是最大的陆地动物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "elephant 谐音\"爱了饭特\"不对,记\"艾勒粪特\"——长鼻大耳、体型巨大的就是大象。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a huge elephant",
+          "an elephant's trunk"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-022",
+      "word": "monkey",
+      "phonetic": "/ˈmʌŋki/",
+      "pos": "n.",
+      "meaning": "猴子",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The monkey climbed the tree quickly.",
+          "zh": "猴子很快爬上了树。"
+        },
+        {
+          "en": "Monkeys love bananas.",
+          "zh": "猴子爱吃香蕉。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "monkey 谐音\"忙key\"——上蹿下跳、拿着\"钥匙(key)\"般灵巧的就是猴子。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a naughty monkey",
+          "a monkey climbs"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-023",
+      "word": "giraffe",
+      "phonetic": "/dʒəˈrɑːf/",
+      "pos": "n.",
+      "meaning": "长颈鹿",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "A giraffe has a very long neck.",
+          "zh": "长颈鹿有非常长的脖子。"
+        },
+        {
+          "en": "Giraffes eat leaves from tall trees.",
+          "zh": "长颈鹿吃高树上的叶子。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "giraffe 谐音\"计惹夫\"不对,记\"吉拉夫\"——脖子老长、够得着高处树叶的就是长颈鹿。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a tall giraffe",
+          "a giraffe's neck"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-024",
+      "word": "dolphin",
+      "phonetic": "/ˈdɒlfɪn/",
+      "pos": "n.",
+      "meaning": "海豚",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dolphins are very clever.",
+          "zh": "海豚非常聪明。"
+        },
+        {
+          "en": "We watched dolphins in the sea.",
+          "zh": "我们在海里观看海豚。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "dolphin 谐音\"逗腓\"不对,记\"多芬\"——在海里跃出水面、聪明友好的就是海豚。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a clever dolphin",
+          "watch dolphins"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-025",
+      "word": "shark",
+      "phonetic": "/ʃɑːk/",
+      "pos": "n.",
+      "meaning": "鲨鱼",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A shark has sharp teeth.",
+          "zh": "鲨鱼有锋利的牙齿。"
+        },
+        {
+          "en": "Sharks live in the ocean.",
+          "zh": "鲨鱼生活在海洋里。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "shark 谐音\"傻克\"不对,记\"沙克\"——里面藏 sharp(锋利),满口尖牙的就是鲨鱼。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a dangerous shark",
+          "a shark's teeth"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-026",
+      "word": "eagle",
+      "phonetic": "/ˈiːɡl/",
+      "pos": "n.",
+      "meaning": "鹰；雕",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The eagle flew high in the sky.",
+          "zh": "鹰在高空飞翔。"
+        },
+        {
+          "en": "An eagle has very sharp eyes.",
+          "zh": "鹰有非常锐利的眼睛。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "eagle 谐音\"衣狗\"不对,记\"伊狗\"——展翅高飞、目光如炬的就是鹰。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an eagle flies",
+          "a golden eagle"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-027",
+      "word": "owl",
+      "phonetic": "/aʊl/",
+      "pos": "n.",
+      "meaning": "猫头鹰",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "An owl hunts at night.",
+          "zh": "猫头鹰在夜里捕食。"
+        },
+        {
+          "en": "The owl sat quietly on a branch.",
+          "zh": "猫头鹰静静地停在树枝上。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "owl 谐音\"傲\"——大眼圆睁、夜里\"咕咕\"叫、一脸高冷的就是猫头鹰。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a wise owl",
+          "an owl hoots"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-028",
+      "word": "parrot",
+      "phonetic": "/ˈpærət/",
+      "pos": "n.",
+      "meaning": "鹦鹉",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The parrot can say hello.",
+          "zh": "这只鹦鹉会说\"你好\"。"
+        },
+        {
+          "en": "Parrots have bright feathers.",
+          "zh": "鹦鹉有鲜艳的羽毛。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "parrot 谐音\"怕肉\"不对,记\"派若特\"——会学人说话、羽毛鲜艳的就是鹦鹉。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a talking parrot",
+          "a colourful parrot"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-029",
+      "word": "feed",
+      "phonetic": "/fiːd/",
+      "pos": "v.",
+      "meaning": "喂养；饲养",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Don't feed the animals at the zoo.",
+          "zh": "不要给动物园的动物喂食。"
+        },
+        {
+          "en": "She feeds her cat twice a day.",
+          "zh": "她一天喂两次猫。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "feed 是 food(食物)的动词亲戚,把食物递给动物就是喂养(过去式 fed)。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feed a pet",
+          "feed the animals"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-030",
+      "word": "hunt",
+      "phonetic": "/hʌnt/",
+      "pos": "v.",
+      "meaning": "捕猎；猎捕",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Cats hunt mice.",
+          "zh": "猫捕老鼠。"
+        },
+        {
+          "en": "Wolves hunt together.",
+          "zh": "狼群一起捕猎。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "hunt 谐音\"航特\"不对,记\"狠特\"——悄悄追、狠狠扑抓猎物就是捕猎。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "hunt for food",
+          "hunt in groups"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-031",
+      "word": "creature",
+      "phonetic": "/ˈkriːtʃə/",
+      "pos": "n.",
+      "meaning": "生物；动物",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sea is full of strange creatures.",
+          "zh": "大海里满是奇怪的生物。"
+        },
+        {
+          "en": "A frog is a small creature.",
+          "zh": "青蛙是一种小生物。"
+        }
+      ],
+      "synonyms": [
+        "animal",
+        "being"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "creat(创造,同 create)+ure,被大自然创造出来的活物就是生物。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a living creature",
+          "a sea creature"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-032",
+      "word": "farm",
+      "phonetic": "/fɑːm/",
+      "pos": "n.",
+      "meaning": "农场",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "There are cows and sheep on the farm.",
+          "zh": "农场里有奶牛和绵羊。"
+        },
+        {
+          "en": "My uncle works on a farm.",
+          "zh": "我叔叔在农场工作。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "farm 谐音\"发母\"不对,记\"翻\"——\"翻\"土种地、养鸡养牛的地方就是农场。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "on a farm",
+          "a farm animal"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-033",
+      "word": "feather",
+      "phonetic": "/ˈfeðə/",
+      "pos": "n.",
+      "meaning": "羽毛",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A white feather fell from the bird.",
+          "zh": "一根白羽毛从鸟身上落下。"
+        },
+        {
+          "en": "The peacock has beautiful feathers.",
+          "zh": "孔雀有美丽的羽毛。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "feather 谐音\"费惹\"不对,记\"飞热\"——轻飘飘、能助飞的就是羽毛。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a bird's feather",
+          "soft feathers"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-034",
+      "word": "tame",
+      "phonetic": "/teɪm/",
+      "pos": "adj.",
+      "meaning": "驯服的；温顺的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The horse is gentle and tame.",
+          "zh": "这匹马温顺又听话。"
+        },
+        {
+          "en": "Wild birds are not tame.",
+          "zh": "野鸟不温顺。"
+        }
+      ],
+      "synonyms": [
+        "gentle"
+      ],
+      "antonyms": [
+        "wild"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "tame 谐音\"太乖\"不对,记\"泰姆\"——被养熟、乖乖听话的就是驯服的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a tame animal",
+          "become tame"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-035",
+      "word": "claw",
+      "phonetic": "/klɔː/",
+      "pos": "n.",
+      "meaning": "爪子；爪",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The cat sharpened its claws.",
+          "zh": "猫磨了磨爪子。"
+        },
+        {
+          "en": "Eagles catch food with their claws.",
+          "zh": "鹰用爪子抓食物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "claw 谐音\"克劳\"——尖尖弯弯、一挠一抓的就是爪子。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "sharp claws",
+          "a cat's claws"
+        ]
+      }
+    },
+    {
+      "id": "pet-animals-036",
+      "word": "beak",
+      "phonetic": "/biːk/",
+      "pos": "n.",
+      "meaning": "鸟嘴；喙",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The bird held a worm in its beak.",
+          "zh": "鸟嘴里叼着一条虫。"
+        },
+        {
+          "en": "A parrot's beak is strong.",
+          "zh": "鹦鹉的喙很有力。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "animals"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "beak 谐音\"比克\"——鸟脸前面尖尖硬硬、啄食用的就是鸟嘴。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a bird's beak",
+          "a sharp beak"
+        ]
+      }
+    }
+  ]
+}

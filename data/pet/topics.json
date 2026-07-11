@@ -113,7 +113,7 @@
       "name": "Animals 动物",
       "icon": "🐘",
       "file": "pet-animals.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "city",
