@@ -99,7 +99,7 @@
       "name": "Clothes 服装",
       "icon": "👕",
       "file": "pet-clothes.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "hobbies",
