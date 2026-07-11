@@ -57,7 +57,7 @@
       "name": "Shopping 购物",
       "icon": "🛍️",
       "file": "pet-shopping.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "weather",
