@@ -29,7 +29,7 @@
       "name": "Work & Jobs 工作职业",
       "icon": "💼",
       "file": "pet-work.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "family",
