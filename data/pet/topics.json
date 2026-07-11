@@ -92,7 +92,7 @@
       "name": "House & Home 房屋居家",
       "icon": "🏠",
       "file": "pet-house.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "clothes",
