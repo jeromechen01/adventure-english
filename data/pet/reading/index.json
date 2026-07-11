@@ -3,6 +3,7 @@
   "note": "PET 阅读文件清单；后续任务 B 新增阅读文件时在此登记即可被前端加载",
   "files": [
     "pet-reading-1.json",
-    "pet-reading-2.json"
+    "pet-reading-2.json",
+    "pet-reading-3.json"
   ]
 }
