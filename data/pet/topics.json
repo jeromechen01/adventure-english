@@ -85,7 +85,7 @@
       "name": "Entertainment 娱乐休闲",
       "icon": "🎬",
       "file": "pet-entertainment.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "house",
