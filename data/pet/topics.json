@@ -134,7 +134,7 @@
       "name": "Money 金钱",
       "icon": "💰",
       "file": "pet-money.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "communication",
