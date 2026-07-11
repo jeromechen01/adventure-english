@@ -148,7 +148,7 @@
       "name": "Nature 大自然",
       "icon": "🌳",
       "file": "pet-nature.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "time",
