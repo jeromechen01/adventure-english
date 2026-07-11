@@ -30,16 +30,28 @@ function isBossLevel(lv) {
   return lv % 5 === 0;
 }
 
-export async function renderLevelMap(app) {
+// opts（可选，用于 PET 话题闯关复用）:
+//   words        直接给定单词数组（不再按年级加载文件）
+//   progressKey  进度存储键（如 'PET:food'），默认用 profile.grade
+//   title        顶部标题
+//   onBack       返回回调，默认回单词大冒险主页
+export async function renderLevelMap(app, opts = {}) {
   const profile = storage.getProfile();
-  const grade = profile.grade;
-  const data = await loadJSON(`data/words/grade${grade}.json`);
-  if (!data || !data.units) {
-    app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';
-    return;
-  }
+  const grade = opts.progressKey || profile.grade;
+  const backNav = opts.onBack || (() => window.__nav('words'));
+  const title = opts.title || '🗺️ 单词闯关';
 
-  const words = data.units.flatMap(u => u.words);
+  let words = opts.words;
+  if (!words) {
+    // PET 级别但没显式传词：回到 PET 话题列表，避免加载 gradePET.json 报错
+    if (profile.grade === 'PET') return window.__nav('words');
+    const data = await loadJSON(`data/words/grade${grade}.json`);
+    if (!data || !data.units) {
+      app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';
+      return;
+    }
+    words = data.units.flatMap(u => u.words);
+  }
   const numLevels = Math.max(1, Math.ceil(words.length / WORDS_PER_LEVEL));
 
   // 收集每关元信息
@@ -74,7 +86,7 @@ export async function renderLevelMap(app) {
   app.innerHTML = `
     <div class="flex items-center gap-2 mb-2">
       <button id="backBtn" class="text-2xl tap-bounce" style="min-width:44px">‹</button>
-      <h2 class="text-xl font-bold flex-1">🗺️ 单词闯关</h2>
+      <h2 class="text-xl font-bold flex-1 truncate">${title}</h2>
     </div>
     <div class="card-cartoon mb-3 py-3 bg-gradient-to-r from-orange-50 to-yellow-50">
       <div class="flex items-center justify-between text-sm font-bold">
@@ -86,7 +98,7 @@ export async function renderLevelMap(app) {
     <div id="mapWrap" class="level-map-wrap"></div>
   `;
 
-  app.querySelector('#backBtn').addEventListener('click', () => window.__nav('words'));
+  app.querySelector('#backBtn').addEventListener('click', backNav);
 
   const wrap = app.querySelector('#mapWrap');
 
@@ -105,7 +117,7 @@ export async function renderLevelMap(app) {
       region: regionOf(lv),
       words: levelWords,
       allWords: words,
-      onBack: () => renderLevelMap(app)
+      onBack: () => renderLevelMap(app, opts)
     });
   }
 

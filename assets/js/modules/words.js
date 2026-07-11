@@ -7,6 +7,7 @@ import { renderMatchGame } from '../games/match-game.js';
 import { renderShootGame } from '../games/shoot-game.js';
 import { renderPetGame } from '../games/pet-game.js';
 import { renderCardCollect } from '../games/card-collect.js';
+import { renderPetWordsHome } from './pet.js';
 
 // 趣味记忆类型标签（V0.2 模块3）
 const MNEMONIC_TYPES = {
@@ -26,6 +27,12 @@ export function mnemonicHtml(w) {
 
 export async function renderWordsPage(app, params) {
   const profile = storage.getProfile();
+
+  // PET 级别：走话题闯关分支
+  if (profile.grade === 'PET') {
+    return renderPetWordsHome(app);
+  }
+
   const data = await loadJSON(`data/words/grade${profile.grade}.json`);
   if (!data) {
     app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';

@@ -1,0 +1,259 @@
+{
+  "topic": "travel",
+  "topicName": "Travel 旅行交通",
+  "icon": "✈️",
+  "level": "B1",
+  "totalWords": 25,
+  "words": [
+    {
+      "id": "pet-travel-001", "word": "journey", "phonetic": "/ˈdʒɜːni/", "pos": "n.", "meaning": "旅程；行程", "level": "B1",
+      "examples": [
+        { "en": "The journey to the coast takes two hours.", "zh": "去海边的旅程要两小时。" },
+        { "en": "We had a long journey by train.", "zh": "我们坐火车走了很长的路程。" }
+      ],
+      "synonyms": ["trip"], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "jour 像 journal(日记)，一路走一路记就是旅程。" },
+      "petExam": { "frequency": "high", "collocations": ["a long journey", "go on a journey"] }
+    },
+    {
+      "id": "pet-travel-002", "word": "airport", "phonetic": "/ˈeəpɔːt/", "pos": "n.", "meaning": "机场", "level": "A2",
+      "examples": [
+        { "en": "We arrived at the airport early.", "zh": "我们很早就到了机场。" },
+        { "en": "The airport is far from the city.", "zh": "机场离城市很远。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "air(空中)+port(港口)，空中的港口就是机场。" },
+      "petExam": { "frequency": "high", "collocations": ["at the airport", "arrive at the airport"] }
+    },
+    {
+      "id": "pet-travel-003", "word": "luggage", "phonetic": "/ˈlʌɡɪdʒ/", "pos": "n.", "meaning": "行李", "level": "B1",
+      "examples": [
+        { "en": "Don't forget your luggage.", "zh": "别忘了你的行李。" },
+        { "en": "My luggage is very heavy.", "zh": "我的行李很重。" }
+      ],
+      "synonyms": ["baggage"], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"拉个纸\"太怪，记 lug(拖拽)+gage，要拖着走的就是行李。" },
+      "petExam": { "frequency": "high", "collocations": ["carry luggage", "hand luggage"] }
+    },
+    {
+      "id": "pet-travel-004", "word": "passport", "phonetic": "/ˈpɑːspɔːt/", "pos": "n.", "meaning": "护照", "level": "A2",
+      "examples": [
+        { "en": "Show your passport at the gate.", "zh": "在登机口出示你的护照。" },
+        { "en": "I lost my passport abroad.", "zh": "我在国外丢了护照。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "pass(通过)+port(港口/关口)，能通过海关的就是护照。" },
+      "petExam": { "frequency": "high", "collocations": ["show a passport", "a valid passport"] }
+    },
+    {
+      "id": "pet-travel-005", "word": "ticket", "phonetic": "/ˈtɪkɪt/", "pos": "n.", "meaning": "票；车票", "level": "A2",
+      "examples": [
+        { "en": "I bought two tickets for the train.", "zh": "我买了两张火车票。" },
+        { "en": "Keep your ticket safe.", "zh": "把你的票保管好。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["travel"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"提刻它\"，进站前要提前刻好(检)它。" },
+      "petExam": { "frequency": "high", "collocations": ["buy a ticket", "a return ticket"] }
+    },
+    {
+      "id": "pet-travel-006", "word": "abroad", "phonetic": "/əˈbrɔːd/", "pos": "adv.", "meaning": "在国外；到国外", "level": "B1",
+      "examples": [
+        { "en": "They travel abroad every summer.", "zh": "他们每年夏天都出国旅行。" },
+        { "en": "She studies abroad in France.", "zh": "她在法国留学。" }
+      ],
+      "synonyms": ["overseas"], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "a+broad(宽广)，走向更宽广的地方就是出国。" },
+      "petExam": { "frequency": "high", "collocations": ["go abroad", "travel abroad"] }
+    },
+    {
+      "id": "pet-travel-007", "word": "tourist", "phonetic": "/ˈtʊərɪst/", "pos": "n.", "meaning": "游客；旅游者", "level": "B1",
+      "examples": [
+        { "en": "Many tourists visit the old town.", "zh": "许多游客参观这座老城。" },
+        { "en": "The city is popular with tourists.", "zh": "这座城市很受游客欢迎。" }
+      ],
+      "synonyms": ["visitor"], "antonyms": [], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "tour(旅游)+ist(人)，旅游的人就是游客。" },
+      "petExam": { "frequency": "high", "collocations": ["a tourist attraction", "foreign tourists"] }
+    },
+    {
+      "id": "pet-travel-008", "word": "book", "phonetic": "/bʊk/", "pos": "v.", "meaning": "预订", "level": "A2",
+      "examples": [
+        { "en": "I booked a hotel room online.", "zh": "我在网上订了一间酒店房间。" },
+        { "en": "Please book two seats for us.", "zh": "请为我们订两个座位。" }
+      ],
+      "synonyms": ["reserve"], "antonyms": [], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "book 除了\"书\"，还有把名字\"记在本上\"即预订。" },
+      "petExam": { "frequency": "high", "collocations": ["book a room", "book a flight"] }
+    },
+    {
+      "id": "pet-travel-009", "word": "arrive", "phonetic": "/əˈraɪv/", "pos": "v.", "meaning": "到达；抵达", "level": "A2",
+      "examples": [
+        { "en": "We arrive in London at noon.", "zh": "我们中午到达伦敦。" },
+        { "en": "The train arrived on time.", "zh": "火车准时到达。" }
+      ],
+      "synonyms": ["reach"], "antonyms": ["leave"], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "ar-rive 像\"啊，到了(rive河边)\"，到达终点。" },
+      "petExam": { "frequency": "high", "collocations": ["arrive at", "arrive in"] }
+    },
+    {
+      "id": "pet-travel-010", "word": "departure", "phonetic": "/dɪˈpɑːtʃə/", "pos": "n.", "meaning": "出发；离开", "level": "B1",
+      "examples": [
+        { "en": "Our departure time is nine o'clock.", "zh": "我们的出发时间是九点。" },
+        { "en": "Check the departure board for your gate.", "zh": "查看出发信息牌找你的登机口。" }
+      ],
+      "synonyms": [], "antonyms": ["arrival"], "difficulty": 4, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "depart(离开)+ure，离开的动作/名词就是出发。" },
+      "petExam": { "frequency": "medium", "collocations": ["departure time", "the departure gate"] }
+    },
+    {
+      "id": "pet-travel-011", "word": "delay", "phonetic": "/dɪˈleɪ/", "pos": "n./v.", "meaning": "延误；耽搁", "level": "B1",
+      "examples": [
+        { "en": "The flight had a two-hour delay.", "zh": "航班延误了两小时。" },
+        { "en": "Bad weather delayed the train.", "zh": "坏天气使火车晚点。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"迪蕾\"不对，记 de-lay 像\"呆着躺(lay)一会儿\"就是延误。" },
+      "petExam": { "frequency": "medium", "collocations": ["a long delay", "delay a flight"] }
+    },
+    {
+      "id": "pet-travel-012", "word": "destination", "phonetic": "/ˌdestɪˈneɪʃn/", "pos": "n.", "meaning": "目的地", "level": "B1",
+      "examples": [
+        { "en": "Paris is a popular holiday destination.", "zh": "巴黎是热门的度假目的地。" },
+        { "en": "We reached our destination at last.", "zh": "我们终于到达了目的地。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "destiny(命运)的地方，命中注定要去的就是目的地。" },
+      "petExam": { "frequency": "medium", "collocations": ["a holiday destination", "reach a destination"] }
+    },
+    {
+      "id": "pet-travel-013", "word": "map", "phonetic": "/mæp/", "pos": "n.", "meaning": "地图", "level": "A2",
+      "examples": [
+        { "en": "Look at the map to find the road.", "zh": "看地图找路。" },
+        { "en": "This map shows all the bus stops.", "zh": "这张地图标出了所有公交站。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "map 三个字母像一张摊开的小纸，就是地图。" },
+      "petExam": { "frequency": "medium", "collocations": ["read a map", "on the map"] }
+    },
+    {
+      "id": "pet-travel-014", "word": "suitcase", "phonetic": "/ˈsuːtkeɪs/", "pos": "n.", "meaning": "手提箱；旅行箱", "level": "A2",
+      "examples": [
+        { "en": "She packed her suitcase last night.", "zh": "她昨晚收拾好了旅行箱。" },
+        { "en": "My suitcase is too full to close.", "zh": "我的箱子太满关不上了。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "suit(西装)+case(盒子)，装西装的盒子就是行李箱。" },
+      "petExam": { "frequency": "medium", "collocations": ["pack a suitcase", "a heavy suitcase"] }
+    },
+    {
+      "id": "pet-travel-015", "word": "flight", "phonetic": "/flaɪt/", "pos": "n.", "meaning": "航班；飞行", "level": "A2",
+      "examples": [
+        { "en": "Our flight leaves at eight.", "zh": "我们的航班八点起飞。" },
+        { "en": "The flight to Tokyo was smooth.", "zh": "去东京的航班很平稳。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "fly(飞)的名词形式 flight，就是航班。" },
+      "petExam": { "frequency": "high", "collocations": ["catch a flight", "a direct flight"] }
+    },
+    {
+      "id": "pet-travel-016", "word": "route", "phonetic": "/ruːt/", "pos": "n.", "meaning": "路线；路径", "level": "B1",
+      "examples": [
+        { "en": "This is the fastest route home.", "zh": "这是回家最快的路线。" },
+        { "en": "The bus takes a different route.", "zh": "这趟公交走另一条路线。" }
+      ],
+      "synonyms": ["way", "path"], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "route 和 root(根)音近，路线像树根一样延伸。" },
+      "petExam": { "frequency": "medium", "collocations": ["the best route", "a bus route"] }
+    },
+    {
+      "id": "pet-travel-017", "word": "reserve", "phonetic": "/rɪˈzɜːv/", "pos": "v.", "meaning": "预订；预留", "level": "B1",
+      "examples": [
+        { "en": "I reserved a table for four.", "zh": "我订了一张四人桌。" },
+        { "en": "Please reserve a seat by the window.", "zh": "请预留一个靠窗的座位。" }
+      ],
+      "synonyms": ["book"], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "re(预先)+serve(服务)，预先安排好服务就是预订。" },
+      "petExam": { "frequency": "medium", "collocations": ["reserve a table", "reserve a seat"] }
+    },
+    {
+      "id": "pet-travel-018", "word": "sightseeing", "phonetic": "/ˈsaɪtsiːɪŋ/", "pos": "n.", "meaning": "观光；游览", "level": "B1",
+      "examples": [
+        { "en": "We went sightseeing in Rome.", "zh": "我们在罗马观光游览。" },
+        { "en": "There is a lot of sightseeing to do here.", "zh": "这里有很多值得游览的地方。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "sight(景点)+seeing(看)，看景点就是观光。" },
+      "petExam": { "frequency": "medium", "collocations": ["go sightseeing", "a sightseeing tour"] }
+    },
+    {
+      "id": "pet-travel-019", "word": "guide", "phonetic": "/ɡaɪd/", "pos": "n./v.", "meaning": "导游；指南；引导", "level": "B1",
+      "examples": [
+        { "en": "Our guide told us the town's history.", "zh": "导游给我们讲了小镇的历史。" },
+        { "en": "This book is a guide to London.", "zh": "这本书是伦敦旅游指南。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"盖的\"不对，记 guide 像\"该到哪\"由他指引。" },
+      "petExam": { "frequency": "medium", "collocations": ["a tour guide", "a travel guide"] }
+    },
+    {
+      "id": "pet-travel-020", "word": "board", "phonetic": "/bɔːd/", "pos": "v.", "meaning": "登(机/车/船)", "level": "B1",
+      "examples": [
+        { "en": "Passengers can now board the plane.", "zh": "乘客现在可以登机了。" },
+        { "en": "We boarded the ferry at ten.", "zh": "我们十点登上了渡轮。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "board 是\"木板\"，踏上甲板/踏板上车上船就是登机。" },
+      "petExam": { "frequency": "medium", "collocations": ["board a plane", "a boarding pass"] }
+    },
+    {
+      "id": "pet-travel-021", "word": "accommodation", "phonetic": "/əˌkɒməˈdeɪʃn/", "pos": "n.", "meaning": "住宿；住所", "level": "B1",
+      "examples": [
+        { "en": "The hotel offers cheap accommodation.", "zh": "这家酒店提供便宜的住宿。" },
+        { "en": "We booked accommodation near the beach.", "zh": "我们订了海滩附近的住宿。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 5, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "记双写规律：两个 c 两个 m，像给客人两张床两个房，就是住宿。" },
+      "petExam": { "frequency": "medium", "collocations": ["book accommodation", "cheap accommodation"] }
+    },
+    {
+      "id": "pet-travel-022", "word": "return", "phonetic": "/rɪˈtɜːn/", "pos": "v./n.", "meaning": "返回；往返(票)", "level": "A2",
+      "examples": [
+        { "en": "We return home on Sunday.", "zh": "我们周日回家。" },
+        { "en": "I'd like a return ticket to York.", "zh": "我想要一张去约克的往返票。" }
+      ],
+      "synonyms": ["go back"], "antonyms": [], "difficulty": 2, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "re(再)+turn(转)，再转回来就是返回。" },
+      "petExam": { "frequency": "high", "collocations": ["a return ticket", "return home"] }
+    },
+    {
+      "id": "pet-travel-023", "word": "explore", "phonetic": "/ɪkˈsplɔː/", "pos": "v.", "meaning": "探索；勘察", "level": "B1",
+      "examples": [
+        { "en": "We explored the old streets on foot.", "zh": "我们步行探索那些老街。" },
+        { "en": "They love to explore new places.", "zh": "他们喜欢探索新地方。" }
+      ],
+      "synonyms": ["discover"], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "assoc", "tip": "ex(向外)+plore，向外走去发现就是探索。" },
+      "petExam": { "frequency": "medium", "collocations": ["explore a city", "explore new places"] }
+    },
+    {
+      "id": "pet-travel-024", "word": "passenger", "phonetic": "/ˈpæsɪndʒə/", "pos": "n.", "meaning": "乘客；旅客", "level": "B1",
+      "examples": [
+        { "en": "The bus was full of passengers.", "zh": "公交车上挤满了乘客。" },
+        { "en": "Passengers must wear seat belts.", "zh": "乘客必须系好安全带。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["travel"],
+      "mnemonic": { "type": "split", "tip": "pass(经过)+enger，被车带着经过的人就是乘客。" },
+      "petExam": { "frequency": "medium", "collocations": ["a passenger seat", "carry passengers"] }
+    },
+    {
+      "id": "pet-travel-025", "word": "souvenir", "phonetic": "/ˌsuːvəˈnɪə/", "pos": "n.", "meaning": "纪念品", "level": "B1",
+      "examples": [
+        { "en": "I bought a small souvenir for my mum.", "zh": "我给妈妈买了个小纪念品。" },
+        { "en": "This magnet is a souvenir from Italy.", "zh": "这块磁贴是从意大利带回的纪念品。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 5, "tags": ["travel"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"输了你儿\"太怪，记 souvenir 像\"素文你\"，留住旅途记忆的小物。" },
+      "petExam": { "frequency": "low", "collocations": ["buy a souvenir", "a souvenir shop"] }
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "topic": "food",
+  "topicName": "Food & Drink 食物饮食",
+  "icon": "🍔",
+  "level": "B1",
+  "totalWords": 25,
+  "words": [
+    {
+      "id": "pet-food-001", "word": "recipe", "phonetic": "/ˈresəpi/", "pos": "n.", "meaning": "食谱；烹饪法", "level": "B1",
+      "examples": [
+        { "en": "This recipe is easy to follow.", "zh": "这个食谱很容易照着做。" },
+        { "en": "Grandma taught me her cake recipe.", "zh": "奶奶教了我她的蛋糕食谱。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["food"],
+      "mnemonic": { "type": "split", "tip": "re(再)+cipe，想成\"照着单子再做一次\"就是食谱。" },
+      "petExam": { "frequency": "high", "collocations": ["follow a recipe", "a recipe for"] }
+    },
+    {
+      "id": "pet-food-002", "word": "vegetable", "phonetic": "/ˈvedʒtəbl/", "pos": "n.", "meaning": "蔬菜", "level": "B1",
+      "examples": [
+        { "en": "Eating vegetables keeps you healthy.", "zh": "吃蔬菜让你保持健康。" },
+        { "en": "We grow vegetables in our garden.", "zh": "我们在花园里种蔬菜。" }
+      ],
+      "synonyms": ["veggie"], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "veg 像\"菜地\"，table 是桌子，菜地到餐桌就是蔬菜。" },
+      "petExam": { "frequency": "high", "collocations": ["fresh vegetables", "green vegetables"] }
+    },
+    {
+      "id": "pet-food-003", "word": "delicious", "phonetic": "/dɪˈlɪʃəs/", "pos": "adj.", "meaning": "美味的；可口的", "level": "B1",
+      "examples": [
+        { "en": "The soup smells delicious.", "zh": "这汤闻起来很香。" },
+        { "en": "What a delicious meal!", "zh": "多美味的一餐啊！" }
+      ],
+      "synonyms": ["tasty", "yummy"], "antonyms": ["disgusting"], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "记 de-licious 像\"的确好吃\"，一尝就知道美味。" },
+      "petExam": { "frequency": "high", "collocations": ["taste delicious", "a delicious meal"] }
+    },
+    {
+      "id": "pet-food-004", "word": "breakfast", "phonetic": "/ˈbrekfəst/", "pos": "n.", "meaning": "早餐", "level": "A2",
+      "examples": [
+        { "en": "I have breakfast at seven.", "zh": "我七点吃早餐。" },
+        { "en": "Breakfast is the most important meal.", "zh": "早餐是最重要的一餐。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"],
+      "mnemonic": { "type": "split", "tip": "break(打破)+fast(禁食)，一夜没吃打破空腹就是早餐。" },
+      "petExam": { "frequency": "high", "collocations": ["have breakfast", "skip breakfast"] }
+    },
+    {
+      "id": "pet-food-005", "word": "restaurant", "phonetic": "/ˈrestrɒnt/", "pos": "n.", "meaning": "餐馆；饭店", "level": "A2",
+      "examples": [
+        { "en": "Let's eat at a Chinese restaurant.", "zh": "我们去中餐馆吃饭吧。" },
+        { "en": "This restaurant is always full.", "zh": "这家餐馆总是客满。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "rest(休息)+aurant，累了进去休息吃饭的地方。" },
+      "petExam": { "frequency": "high", "collocations": ["book a restaurant", "at a restaurant"] }
+    },
+    {
+      "id": "pet-food-006", "word": "menu", "phonetic": "/ˈmenjuː/", "pos": "n.", "meaning": "菜单", "level": "A2",
+      "examples": [
+        { "en": "Can I see the menu, please?", "zh": "请给我看一下菜单好吗？" },
+        { "en": "There are many dishes on the menu.", "zh": "菜单上有很多菜。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"没牛\"——看看菜单上有没有牛肉。" },
+      "petExam": { "frequency": "high", "collocations": ["on the menu", "look at the menu"] }
+    },
+    {
+      "id": "pet-food-007", "word": "dessert", "phonetic": "/dɪˈzɜːt/", "pos": "n.", "meaning": "甜点；饭后甜品", "level": "B1",
+      "examples": [
+        { "en": "Ice cream is my favourite dessert.", "zh": "冰淇淋是我最爱的甜点。" },
+        { "en": "We had cake for dessert.", "zh": "我们吃蛋糕作甜点。" }
+      ],
+      "synonyms": ["sweet"], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "split", "tip": "比 desert(沙漠) 多一个 s，甜点甜到要两份 s(sweet sweet)。" },
+      "petExam": { "frequency": "medium", "collocations": ["for dessert", "a rich dessert"] }
+    },
+    {
+      "id": "pet-food-008", "word": "flavour", "phonetic": "/ˈfleɪvə/", "pos": "n.", "meaning": "味道；风味", "level": "B1",
+      "examples": [
+        { "en": "This drink has a strawberry flavour.", "zh": "这饮料是草莓味的。" },
+        { "en": "I like the flavour of fresh mint.", "zh": "我喜欢新鲜薄荷的味道。" }
+      ],
+      "synonyms": ["taste"], "antonyms": [], "difficulty": 3, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "fla-vour 联想\"发味儿\"，散发出来的味道。" },
+      "petExam": { "frequency": "medium", "collocations": ["a strong flavour", "add flavour"] }
+    },
+    {
+      "id": "pet-food-009", "word": "snack", "phonetic": "/snæk/", "pos": "n.", "meaning": "零食；小吃", "level": "A2",
+      "examples": [
+        { "en": "I need a snack before dinner.", "zh": "晚饭前我想吃点零食。" },
+        { "en": "Fruit makes a healthy snack.", "zh": "水果是健康的零食。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"死奶克\"太怪，记 snack 像\"随手拿(snap)一口\"。" },
+      "petExam": { "frequency": "high", "collocations": ["a healthy snack", "have a snack"] }
+    },
+    {
+      "id": "pet-food-010", "word": "boil", "phonetic": "/bɔɪl/", "pos": "v.", "meaning": "煮沸；用水煮", "level": "B1",
+      "examples": [
+        { "en": "Boil the water before you cook.", "zh": "做饭前先把水烧开。" },
+        { "en": "She boiled two eggs for lunch.", "zh": "她煮了两个鸡蛋当午饭。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"泡油\"不对，记 boil 像\"波(bo)一路(il)翻滚\"就是沸腾。" },
+      "petExam": { "frequency": "medium", "collocations": ["boil the water", "a boiled egg"] }
+    },
+    {
+      "id": "pet-food-011", "word": "fry", "phonetic": "/fraɪ/", "pos": "v.", "meaning": "煎；炒；油炸", "level": "B1",
+      "examples": [
+        { "en": "Fry the onions until they are soft.", "zh": "把洋葱炒到变软。" },
+        { "en": "He fried an egg for breakfast.", "zh": "他煎了个鸡蛋当早餐。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "french fries(薯条)就是炸出来的，fry 就是炸。" },
+      "petExam": { "frequency": "medium", "collocations": ["fry an egg", "stir-fry vegetables"] }
+    },
+    {
+      "id": "pet-food-012", "word": "taste", "phonetic": "/teɪst/", "pos": "v./n.", "meaning": "品尝；味道", "level": "A2",
+      "examples": [
+        { "en": "Taste the soup and tell me.", "zh": "尝尝这汤然后告诉我。" },
+        { "en": "The cake tastes sweet.", "zh": "这蛋糕尝起来很甜。" }
+      ],
+      "synonyms": ["flavour"], "antonyms": [], "difficulty": 1, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "taste 里有 't-a-s-te'，尝一口\"它(ta)\"什么味。" },
+      "petExam": { "frequency": "high", "collocations": ["taste good", "have a taste"] }
+    },
+    {
+      "id": "pet-food-013", "word": "meal", "phonetic": "/miːl/", "pos": "n.", "meaning": "一餐；一顿饭", "level": "A2",
+      "examples": [
+        { "en": "We enjoy a big meal on Sundays.", "zh": "周日我们会享用一顿大餐。" },
+        { "en": "Dinner is my favourite meal.", "zh": "晚饭是我最爱的一餐。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "meal 和 eat 都有 'ea' 音，一顿要吃(eat)的饭。" },
+      "petExam": { "frequency": "high", "collocations": ["a healthy meal", "cook a meal"] }
+    },
+    {
+      "id": "pet-food-014", "word": "fresh", "phonetic": "/freʃ/", "pos": "adj.", "meaning": "新鲜的", "level": "A2",
+      "examples": [
+        { "en": "I bought some fresh bread.", "zh": "我买了些新鲜面包。" },
+        { "en": "Fresh fruit is good for you.", "zh": "新鲜水果对你有好处。" }
+      ],
+      "synonyms": [], "antonyms": ["stale"], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"腐来吸\"反着想，fresh 就是没腐坏、新鲜。" },
+      "petExam": { "frequency": "high", "collocations": ["fresh fruit", "fresh air"] }
+    },
+    {
+      "id": "pet-food-015", "word": "sugar", "phonetic": "/ˈʃʊɡə/", "pos": "n.", "meaning": "糖", "level": "A2",
+      "examples": [
+        { "en": "Do you take sugar in your tea?", "zh": "你的茶里加糖吗？" },
+        { "en": "Too much sugar is bad for teeth.", "zh": "糖吃太多对牙齿不好。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["food"],
+      "mnemonic": { "type": "sound", "tip": "sugar 读音像\"许ger\"，甜得让人忍不住许个愿。" },
+      "petExam": { "frequency": "medium", "collocations": ["add sugar", "too much sugar"] }
+    },
+    {
+      "id": "pet-food-016", "word": "plate", "phonetic": "/pleɪt/", "pos": "n.", "meaning": "盘子", "level": "A2",
+      "examples": [
+        { "en": "Put the food on a clean plate.", "zh": "把食物放在干净的盘子上。" },
+        { "en": "She washed all the plates.", "zh": "她洗了所有盘子。" }
+      ],
+      "synonyms": ["dish"], "antonyms": [], "difficulty": 1, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "plate 和 flat(平的) 音近，盘子是平的。" },
+      "petExam": { "frequency": "medium", "collocations": ["a plate of", "a clean plate"] }
+    },
+    {
+      "id": "pet-food-017", "word": "order", "phonetic": "/ˈɔːdə/", "pos": "v./n.", "meaning": "点菜；订购", "level": "B1",
+      "examples": [
+        { "en": "I'd like to order a pizza.", "zh": "我想点一个披萨。" },
+        { "en": "Are you ready to order?", "zh": "您准备好点餐了吗？" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "在餐厅按\"顺序(order)\"报菜名，就是点餐。" },
+      "petExam": { "frequency": "high", "collocations": ["order food", "take an order"] }
+    },
+    {
+      "id": "pet-food-018", "word": "healthy", "phonetic": "/ˈhelθi/", "pos": "adj.", "meaning": "健康的；有益健康的", "level": "A2",
+      "examples": [
+        { "en": "A healthy diet has lots of vegetables.", "zh": "健康饮食含有大量蔬菜。" },
+        { "en": "Running keeps me healthy.", "zh": "跑步让我保持健康。" }
+      ],
+      "synonyms": ["fit"], "antonyms": ["unhealthy"], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "split", "tip": "health(健康)+y，形容词就是健康的。" },
+      "petExam": { "frequency": "high", "collocations": ["a healthy diet", "stay healthy"] }
+    },
+    {
+      "id": "pet-food-019", "word": "bitter", "phonetic": "/ˈbɪtə/", "pos": "adj.", "meaning": "苦的", "level": "B1",
+      "examples": [
+        { "en": "Black coffee tastes bitter.", "zh": "黑咖啡尝起来很苦。" },
+        { "en": "The medicine was very bitter.", "zh": "这药非常苦。" }
+      ],
+      "synonyms": [], "antonyms": ["sweet"], "difficulty": 3, "tags": ["food"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"必他\"不对，记 bitter 像\"逼特\"，苦得让人皱眉。" },
+      "petExam": { "frequency": "low", "collocations": ["a bitter taste", "bitter chocolate"] }
+    },
+    {
+      "id": "pet-food-020", "word": "spicy", "phonetic": "/ˈspaɪsi/", "pos": "adj.", "meaning": "辣的；有香料味的", "level": "B1",
+      "examples": [
+        { "en": "I love spicy noodles.", "zh": "我喜欢辣的面条。" },
+        { "en": "This curry is too spicy for me.", "zh": "这咖喱对我来说太辣了。" }
+      ],
+      "synonyms": ["hot"], "antonyms": ["mild"], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "split", "tip": "spice(香料/辣料)+y，加了辣料就是 spicy。" },
+      "petExam": { "frequency": "medium", "collocations": ["spicy food", "a spicy sauce"] }
+    },
+    {
+      "id": "pet-food-021", "word": "bakery", "phonetic": "/ˈbeɪkəri/", "pos": "n.", "meaning": "面包店；烘焙店", "level": "B1",
+      "examples": [
+        { "en": "The bakery sells warm bread.", "zh": "这家面包店卖热乎乎的面包。" },
+        { "en": "I smell cake from the bakery.", "zh": "我闻到面包店飘来的蛋糕香。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["food"],
+      "mnemonic": { "type": "split", "tip": "bake(烘烤)+ry(地方)，烘烤的地方就是面包店。" },
+      "petExam": { "frequency": "low", "collocations": ["a local bakery", "at the bakery"] }
+    },
+    {
+      "id": "pet-food-022", "word": "diet", "phonetic": "/ˈdaɪət/", "pos": "n.", "meaning": "饮食；节食", "level": "B1",
+      "examples": [
+        { "en": "A balanced diet is important.", "zh": "均衡的饮食很重要。" },
+        { "en": "She is on a diet this month.", "zh": "她这个月在节食。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["food"],
+      "mnemonic": { "type": "sound", "tip": "谐音\"呆挨特\"，节食时呆呆地挨饿。" },
+      "petExam": { "frequency": "medium", "collocations": ["a balanced diet", "go on a diet"] }
+    },
+    {
+      "id": "pet-food-023", "word": "thirsty", "phonetic": "/ˈθɜːsti/", "pos": "adj.", "meaning": "口渴的", "level": "A2",
+      "examples": [
+        { "en": "I'm thirsty; can I have some water?", "zh": "我渴了，能喝点水吗？" },
+        { "en": "Running makes me thirsty.", "zh": "跑步让我口渴。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "split", "tip": "thirst(口渴)+y，形容词就是口渴的。" },
+      "petExam": { "frequency": "medium", "collocations": ["feel thirsty", "get thirsty"] }
+    },
+    {
+      "id": "pet-food-024", "word": "serve", "phonetic": "/sɜːv/", "pos": "v.", "meaning": "上菜；服务；供应", "level": "B1",
+      "examples": [
+        { "en": "They serve lunch at noon.", "zh": "他们中午供应午餐。" },
+        { "en": "The waiter served us quickly.", "zh": "服务员很快给我们上了菜。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "service(服务)的动词，上菜也是一种 serve。" },
+      "petExam": { "frequency": "medium", "collocations": ["serve a meal", "serve customers"] }
+    },
+    {
+      "id": "pet-food-025", "word": "ingredient", "phonetic": "/ɪnˈɡriːdiənt/", "pos": "n.", "meaning": "原料；配料；成分", "level": "B1",
+      "examples": [
+        { "en": "Flour is the main ingredient in bread.", "zh": "面粉是面包的主要原料。" },
+        { "en": "Mix all the ingredients together.", "zh": "把所有配料混合在一起。" }
+      ],
+      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["food"],
+      "mnemonic": { "type": "assoc", "tip": "in-gre-dient 联想\"进锅点\"，进锅的每一点都是配料。" },
+      "petExam": { "frequency": "medium", "collocations": ["the main ingredient", "fresh ingredients"] }
+    }
+  ]
+}

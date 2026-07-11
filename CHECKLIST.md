@@ -1,4 +1,29 @@
-# 功能完成清单 (V0.2 闯关趣味强化版)
+# 功能完成清单 (V0.3 PET 备考框架版)
+
+## 🆕 V0.3 新增 (任务 A：PET 框架 + 移动端字号/界面)
+
+### 🎓 剑桥 PET (B1) 备考模块框架
+- [x] 新增数据目录 `data/pet/{words,reading}/` + 话题清单 `data/pet/topics.json`
+- [x] 话题清单列出 22 个 PET 常考话题，前 2 个 status=ready，其余 pending（供任务 B 分批填）
+- [x] 示例词库 2 个话题：`pet-food.json` / `pet-travel.json`，各 25 个原创 B1 词
+- [x] 单词 schema 扩展 PET 字段：level / mnemonic 记忆法 / petExam.{frequency,collocations}
+- [x] 示例阅读 `pet-reading-1.json`：3 篇原创 B1 文章（notice/story/email）+ choice/truefalse 题
+- [x] 级别选择器新增「🎓 PET 剑桥备考」入口，profile.grade='PET'，顶部标签显示「PET 备考」
+- [x] storage 兼容字符串级别（进度按 `PET:话题id` 键隔离，不影响数字年级）
+- [x] PET 单词模块：话题列表卡片 → ready 可闯关，pending 优雅提示「敬请期待」
+- [x] 复用闯关系统：话题词按 8 词/关切分，renderLevelMap 泛化支持传入 words/progressKey/title/onBack
+- [x] PET「识词学习」卡片展示 mnemonic 记忆法 + petExam.collocations 常见搭配 + 频率标签
+- [x] PET 阅读复用点词查义/逐句跟读/背诵 LCS 打分；reading 引擎归一化支持 truefalse 题
+- [x] 点词查义、错题本均并入 PET 话题词（id/词形索引），PET 错词可显示
+- [x] 语法/写作在 PET 级别复用初中(junior)内容，不白屏不报错
+- [x] 路由兜底：PET 无 words 的 levels、无 topic 的 petlevels 均优雅回退，不加载不存在的 gradePET.json
+
+### ✏️ 移动端字号整体放大 + 界面优化
+- [x] 字号变量整体 +3 号：body 16→19 / title 22→25 / word 28→34 / meaning 18→21 / option 16→19 / btn→19 / small 13→15
+- [x] 手机 ≤640px Tailwind text-* 覆盖同步放大 (xs 13.5→15 / sm 15→17 / base 16.5→18.5 / lg→21 / xl→23 / 2xl→27)
+- [x] 长单词优雅换行 (overflow-wrap:break-word)，长英文单词/选项/词卡小屏不溢出
+- [x] PET 阅读长文章正文 ≥19px、行高 1.85、限宽舒适
+- [x] PET 话题列表卡片式网格 (2/3/4 列自适应) + 话题 emoji 图标 + 触控 ≥48px，卡通风格统一
 
 ## 🆕 V0.2 新增
 

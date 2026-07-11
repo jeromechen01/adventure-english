@@ -1,0 +1,161 @@
+{
+  "level": "B1",
+  "title": "剑桥 PET (B1) 话题词库",
+  "note": "按 PET 常考话题组织，ready 为已填充样例，pending 待后续分批补充",
+  "topics": [
+    {
+      "id": "food",
+      "name": "Food & Drink 食物饮食",
+      "icon": "🍔",
+      "file": "pet-food.json",
+      "status": "ready"
+    },
+    {
+      "id": "travel",
+      "name": "Travel 旅行交通",
+      "icon": "✈️",
+      "file": "pet-travel.json",
+      "status": "ready"
+    },
+    {
+      "id": "education",
+      "name": "Education 教育学习",
+      "icon": "📚",
+      "file": "pet-education.json",
+      "status": "ready"
+    },
+    {
+      "id": "work",
+      "name": "Work & Jobs 工作职业",
+      "icon": "💼",
+      "file": "pet-work.json",
+      "status": "pending"
+    },
+    {
+      "id": "family",
+      "name": "Family & Friends 家庭朋友",
+      "icon": "👨‍👩‍👧",
+      "file": "pet-family.json",
+      "status": "pending"
+    },
+    {
+      "id": "health",
+      "name": "Health 健康身体",
+      "icon": "🏥",
+      "file": "pet-health.json",
+      "status": "pending"
+    },
+    {
+      "id": "sport",
+      "name": "Sport 运动",
+      "icon": "⚽",
+      "file": "pet-sport.json",
+      "status": "pending"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping 购物",
+      "icon": "🛍️",
+      "file": "pet-shopping.json",
+      "status": "pending"
+    },
+    {
+      "id": "weather",
+      "name": "Weather 天气",
+      "icon": "🌦️",
+      "file": "pet-weather.json",
+      "status": "pending"
+    },
+    {
+      "id": "environment",
+      "name": "Environment 环境自然",
+      "icon": "🌍",
+      "file": "pet-environment.json",
+      "status": "pending"
+    },
+    {
+      "id": "technology",
+      "name": "Technology 科技电子",
+      "icon": "💻",
+      "file": "pet-technology.json",
+      "status": "pending"
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment 娱乐休闲",
+      "icon": "🎬",
+      "file": "pet-entertainment.json",
+      "status": "pending"
+    },
+    {
+      "id": "house",
+      "name": "House & Home 房屋居家",
+      "icon": "🏠",
+      "file": "pet-house.json",
+      "status": "pending"
+    },
+    {
+      "id": "clothes",
+      "name": "Clothes 服装",
+      "icon": "👕",
+      "file": "pet-clothes.json",
+      "status": "pending"
+    },
+    {
+      "id": "hobbies",
+      "name": "Hobbies 兴趣爱好",
+      "icon": "🎨",
+      "file": "pet-hobbies.json",
+      "status": "pending"
+    },
+    {
+      "id": "animals",
+      "name": "Animals 动物",
+      "icon": "🐘",
+      "file": "pet-animals.json",
+      "status": "pending"
+    },
+    {
+      "id": "city",
+      "name": "City & Places 城市地点",
+      "icon": "🏙️",
+      "file": "pet-city.json",
+      "status": "pending"
+    },
+    {
+      "id": "feelings",
+      "name": "Feelings 情感情绪",
+      "icon": "😊",
+      "file": "pet-feelings.json",
+      "status": "pending"
+    },
+    {
+      "id": "money",
+      "name": "Money 金钱",
+      "icon": "💰",
+      "file": "pet-money.json",
+      "status": "pending"
+    },
+    {
+      "id": "communication",
+      "name": "Communication 沟通交流",
+      "icon": "💬",
+      "file": "pet-communication.json",
+      "status": "pending"
+    },
+    {
+      "id": "nature",
+      "name": "Nature 大自然",
+      "icon": "🌳",
+      "file": "pet-nature.json",
+      "status": "pending"
+    },
+    {
+      "id": "time",
+      "name": "Time & Dates 时间日期",
+      "icon": "🕐",
+      "file": "pet-time.json",
+      "status": "pending"
+    }
+  ]
+}
