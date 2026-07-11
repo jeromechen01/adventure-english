@@ -1,0 +1,1346 @@
+{
+  "topic": "feelings",
+  "topicName": "Feelings 情感情绪",
+  "icon": "😊",
+  "level": "B1",
+  "totalWords": 36,
+  "words": [
+    {
+      "id": "pet-feelings-001",
+      "word": "happy",
+      "phonetic": "/ˈhæpi/",
+      "pos": "adj.",
+      "meaning": "高兴的；快乐的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She felt happy about the good news.",
+          "zh": "她为这个好消息感到高兴。"
+        },
+        {
+          "en": "We had a happy weekend together.",
+          "zh": "我们一起度过了快乐的周末。"
+        }
+      ],
+      "synonyms": [
+        "glad",
+        "cheerful"
+      ],
+      "antonyms": [
+        "sad"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "happy 谐音\"哈皮\"——乐得咧嘴\"哈哈\"、皮一下就是高兴。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "feel happy",
+          "happy about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-002",
+      "word": "sad",
+      "phonetic": "/sæd/",
+      "pos": "adj.",
+      "meaning": "伤心的；难过的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "He was sad to leave his friends.",
+          "zh": "离开朋友让他很难过。"
+        },
+        {
+          "en": "The film has a sad ending.",
+          "zh": "这部电影结局很伤感。"
+        }
+      ],
+      "synonyms": [
+        "unhappy"
+      ],
+      "antonyms": [
+        "happy"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "sad 谐音\"塞的\"——心里堵得慌、闷闷的就是难过。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "feel sad",
+          "sad about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-003",
+      "word": "angry",
+      "phonetic": "/ˈæŋɡri/",
+      "pos": "adj.",
+      "meaning": "生气的；愤怒的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Dad was angry about the mess.",
+          "zh": "爸爸对这乱糟糟的场面很生气。"
+        },
+        {
+          "en": "Don't be angry with me.",
+          "zh": "别生我的气。"
+        }
+      ],
+      "synonyms": [
+        "mad"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "angry 里有 anger(怒火),火气一上来就是 angry。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "angry with",
+          "angry about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-004",
+      "word": "afraid",
+      "phonetic": "/əˈfreɪd/",
+      "pos": "adj.",
+      "meaning": "害怕的；恐惧的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She is afraid of spiders.",
+          "zh": "她害怕蜘蛛。"
+        },
+        {
+          "en": "Don't be afraid to ask questions.",
+          "zh": "别害怕提问。"
+        }
+      ],
+      "synonyms": [
+        "scared"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "afraid 谐音\"饿弗类的\"不对,记\"啊,怕的\"——一\"啊\"就是被吓到、害怕。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "afraid of",
+          "afraid to do"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-005",
+      "word": "nervous",
+      "phonetic": "/ˈnɜːvəs/",
+      "pos": "adj.",
+      "meaning": "紧张的；焦虑的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I get nervous before exams.",
+          "zh": "考试前我会紧张。"
+        },
+        {
+          "en": "She felt nervous on stage.",
+          "zh": "在台上她感到紧张。"
+        }
+      ],
+      "synonyms": [
+        "anxious"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "nerve(神经)+ous,神经绷得紧紧的就是紧张。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "feel nervous",
+          "nervous about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-006",
+      "word": "excited",
+      "phonetic": "/ɪkˈsaɪtɪd/",
+      "pos": "adj.",
+      "meaning": "兴奋的；激动的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The kids are excited about the trip.",
+          "zh": "孩子们对这次旅行很兴奋。"
+        },
+        {
+          "en": "I'm so excited to see you!",
+          "zh": "见到你我太激动了！"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "bored"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "excite(使兴奋)+ed,人被激起兴致就是 excited。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "excited about",
+          "get excited"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-007",
+      "word": "worried",
+      "phonetic": "/ˈwʌrid/",
+      "pos": "adj.",
+      "meaning": "担心的；忧虑的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She is worried about her exam.",
+          "zh": "她担心她的考试。"
+        },
+        {
+          "en": "Don't look so worried.",
+          "zh": "别一副忧心忡忡的样子。"
+        }
+      ],
+      "synonyms": [
+        "anxious"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "worry(担心)+ied,心里挂着事、七上八下就是 worried。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "worried about",
+          "look worried"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-008",
+      "word": "bored",
+      "phonetic": "/bɔːd/",
+      "pos": "adj.",
+      "meaning": "厌烦的；感到无聊的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I'm bored with this game.",
+          "zh": "我玩这个游戏玩腻了。"
+        },
+        {
+          "en": "He looked bored during the lesson.",
+          "zh": "上课时他看起来很无聊。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "excited"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "bored 由 bore(使厌烦)来,被无聊\"钻\"得直打哈欠就是 bored;bored 指人,boring 指事物。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "bored with",
+          "get bored"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-009",
+      "word": "surprised",
+      "phonetic": "/səˈpraɪzd/",
+      "pos": "adj.",
+      "meaning": "惊讶的；吃惊的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I was surprised to see her there.",
+          "zh": "在那里见到她我很惊讶。"
+        },
+        {
+          "en": "He gave me a surprised look.",
+          "zh": "他惊讶地看了我一眼。"
+        }
+      ],
+      "synonyms": [
+        "amazed"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "sur(在上)+prise(抓,同 seize),冷不防被从上抓住、吓一跳就是惊讶。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "surprised at",
+          "surprised to do"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-010",
+      "word": "proud",
+      "phonetic": "/praʊd/",
+      "pos": "adj.",
+      "meaning": "自豪的；骄傲的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "His parents are proud of him.",
+          "zh": "他的父母为他感到骄傲。"
+        },
+        {
+          "en": "She felt proud of her work.",
+          "zh": "她为自己的作品感到自豪。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "ashamed"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "proud 谐音\"扑绕的\"不对,记\"炮的\"——挺起胸膛像放炮一样神气就是自豪。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "proud of",
+          "feel proud"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-011",
+      "word": "jealous",
+      "phonetic": "/ˈdʒeləs/",
+      "pos": "adj.",
+      "meaning": "嫉妒的；羡慕的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He was jealous of his brother's bike.",
+          "zh": "他嫉妒他哥哥的自行车。"
+        },
+        {
+          "en": "Don't be jealous of others.",
+          "zh": "别嫉妒别人。"
+        }
+      ],
+      "synonyms": [
+        "envious"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "jealous 谐音\"结落死\"不对,记\"接勒斯\"——看别人好,心里\"结\"个疙瘩就是嫉妒。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "jealous of",
+          "feel jealous"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-012",
+      "word": "lonely",
+      "phonetic": "/ˈləʊnli/",
+      "pos": "adj.",
+      "meaning": "孤独的；寂寞的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He felt lonely in the new city.",
+          "zh": "在这座新城市里他感到孤独。"
+        },
+        {
+          "en": "The old man lives a lonely life.",
+          "zh": "这位老人过着孤独的生活。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "lone(独自,同 alone)+ly,只有一个人、冷冷清清就是孤独。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel lonely",
+          "a lonely life"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-013",
+      "word": "cheerful",
+      "phonetic": "/ˈtʃɪəfl/",
+      "pos": "adj.",
+      "meaning": "快活的；兴高采烈的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She has a cheerful smile.",
+          "zh": "她有一张快活的笑脸。"
+        },
+        {
+          "en": "The music made everyone cheerful.",
+          "zh": "音乐让每个人都兴高采烈。"
+        }
+      ],
+      "synonyms": [
+        "happy"
+      ],
+      "antonyms": [
+        "gloomy"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "cheer(欢呼/加油)+ful(充满),满心欢呼、乐呵呵就是快活的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a cheerful smile",
+          "feel cheerful"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-014",
+      "word": "upset",
+      "phonetic": "/ʌpˈset/",
+      "pos": "adj.",
+      "meaning": "心烦的；难过的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was upset about the bad news.",
+          "zh": "这个坏消息让她很难过。"
+        },
+        {
+          "en": "Don't get upset over small things.",
+          "zh": "别为小事心烦。"
+        }
+      ],
+      "synonyms": [
+        "sad"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "up(向上)+set(放),心情被\"掀\"翻、七上八下就是心烦难过。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "upset about",
+          "get upset"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-015",
+      "word": "calm",
+      "phonetic": "/kɑːm/",
+      "pos": "adj.",
+      "meaning": "平静的；冷静的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Stay calm and don't panic.",
+          "zh": "保持冷静,别慌。"
+        },
+        {
+          "en": "The sea was calm this morning.",
+          "zh": "今天早上海面很平静。"
+        }
+      ],
+      "synonyms": [
+        "peaceful"
+      ],
+      "antonyms": [
+        "nervous"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "calm 谐音\"卡姆\"——l不发音;心如止水、稳稳当当就是冷静。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "stay calm",
+          "keep calm"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-016",
+      "word": "relaxed",
+      "phonetic": "/rɪˈlækst/",
+      "pos": "adj.",
+      "meaning": "放松的；轻松的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I feel relaxed on holiday.",
+          "zh": "度假时我感到很放松。"
+        },
+        {
+          "en": "He looked calm and relaxed.",
+          "zh": "他看起来平静又放松。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "stressed"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "relax(放松)+ed,绷紧的自己松了下来就是 relaxed。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel relaxed",
+          "look relaxed"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-017",
+      "word": "stressed",
+      "phonetic": "/strest/",
+      "pos": "adj.",
+      "meaning": "有压力的；紧张的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She feels stressed before a test.",
+          "zh": "考试前她感到压力很大。"
+        },
+        {
+          "en": "Too much work makes me stressed.",
+          "zh": "工作太多让我压力大。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "relaxed"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "stressed 由 stress(压力)来,被压力\"压\"得喘不过气就是 stressed。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel stressed",
+          "stressed out"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-018",
+      "word": "confident",
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "pos": "adj.",
+      "meaning": "自信的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She is confident about the future.",
+          "zh": "她对未来充满信心。"
+        },
+        {
+          "en": "Speak slowly and sound confident.",
+          "zh": "说慢一点,让自己听起来自信。"
+        }
+      ],
+      "synonyms": [
+        "sure"
+      ],
+      "antonyms": [
+        "shy"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "con(完全)+fid(信任,同 faith)+ent,完全信得过自己就是自信。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "confident about",
+          "feel confident"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-019",
+      "word": "shy",
+      "phonetic": "/ʃaɪ/",
+      "pos": "adj.",
+      "meaning": "害羞的；腼腆的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "He is too shy to speak in class.",
+          "zh": "他太害羞,不敢在课上发言。"
+        },
+        {
+          "en": "She gave a shy smile.",
+          "zh": "她腼腆地笑了笑。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "confident"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "shy 谐音\"晒\"不对,记\"孩\"——像小孩见生人躲起来一样就是害羞。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "too shy to",
+          "a shy smile"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-020",
+      "word": "curious",
+      "phonetic": "/ˈkjʊəriəs/",
+      "pos": "adj.",
+      "meaning": "好奇的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Children are curious about everything.",
+          "zh": "孩子们对一切都好奇。"
+        },
+        {
+          "en": "I'm curious to know what happened.",
+          "zh": "我很好奇发生了什么。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "curious 谐音\"克瑞额斯\"——像猫一样\"咦这是啥\"到处探头就是好奇。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "curious about",
+          "curious to know"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-021",
+      "word": "disappointed",
+      "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+      "pos": "adj.",
+      "meaning": "失望的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I was disappointed with the film.",
+          "zh": "这部电影让我失望。"
+        },
+        {
+          "en": "She looked disappointed at the result.",
+          "zh": "对这个结果她显得很失望。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "dis(不)+appoint(指定/约定)+ed,期待的事没兑现就是失望。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "disappointed with",
+          "disappointed about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-022",
+      "word": "embarrassed",
+      "phonetic": "/ɪmˈbærəst/",
+      "pos": "adj.",
+      "meaning": "尴尬的；难为情的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He was embarrassed when he fell.",
+          "zh": "摔倒时他很尴尬。"
+        },
+        {
+          "en": "I felt embarrassed about my mistake.",
+          "zh": "我为自己的错误感到难为情。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "embarrassed 谐音\"俺不摞死\"不对,记\"俺巴热死\"——脸\"巴\"地一下涨红、热得慌就是尴尬。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "embarrassed about",
+          "feel embarrassed"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-023",
+      "word": "grateful",
+      "phonetic": "/ˈɡreɪtfl/",
+      "pos": "adj.",
+      "meaning": "感激的；感谢的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I'm grateful for your help.",
+          "zh": "我很感激你的帮助。"
+        },
+        {
+          "en": "She felt grateful to her teacher.",
+          "zh": "她很感激她的老师。"
+        }
+      ],
+      "synonyms": [
+        "thankful"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "grateful 谐音\"贵too\"不对,记 great(伟大)+ful——把对方的好看得很\"great\"、满心感谢就是感激。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "grateful for",
+          "grateful to"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-024",
+      "word": "annoyed",
+      "phonetic": "/əˈnɔɪd/",
+      "pos": "adj.",
+      "meaning": "恼火的；烦恼的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was annoyed by the loud noise.",
+          "zh": "吵闹声让她很恼火。"
+        },
+        {
+          "en": "He got annoyed with his brother.",
+          "zh": "他对弟弟感到恼火。"
+        }
+      ],
+      "synonyms": [
+        "irritated"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "annoyed 谐音\"额闹的\"——被人\"闹\"得心烦、有点上火就是恼火。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "annoyed with",
+          "annoyed by"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-025",
+      "word": "confused",
+      "phonetic": "/kənˈfjuːzd/",
+      "pos": "adj.",
+      "meaning": "困惑的；糊涂的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I'm confused by these instructions.",
+          "zh": "这些说明让我摸不着头脑。"
+        },
+        {
+          "en": "She gave me a confused look.",
+          "zh": "她一脸困惑地看着我。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "con(一起)+fuse(倒/混,同 fuse熔合)+d,思绪全搅到一起、理不清就是困惑。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "confused about",
+          "get confused"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-026",
+      "word": "amazed",
+      "phonetic": "/əˈmeɪzd/",
+      "pos": "adj.",
+      "meaning": "惊奇的；惊叹的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We were amazed by the magic show.",
+          "zh": "魔术表演让我们惊叹不已。"
+        },
+        {
+          "en": "I'm amazed at how fast you learn.",
+          "zh": "你学得这么快真让我惊讶。"
+        }
+      ],
+      "synonyms": [
+        "astonished"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "amazed 里有 maze(迷宫),被神奇的事绕得目瞪口呆就是惊奇。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "amazed at",
+          "amazed by"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-027",
+      "word": "glad",
+      "phonetic": "/ɡlæd/",
+      "pos": "adj.",
+      "meaning": "高兴的；乐意的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I'm glad you came.",
+          "zh": "很高兴你来了。"
+        },
+        {
+          "en": "She was glad to help.",
+          "zh": "她乐意帮忙。"
+        }
+      ],
+      "synonyms": [
+        "happy"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "glad 谐音\"哥来的\"——听说\"哥来的\",心里一喜就是高兴。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "glad to do",
+          "glad about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-028",
+      "word": "frightened",
+      "phonetic": "/ˈfraɪtnd/",
+      "pos": "adj.",
+      "meaning": "受惊的；害怕的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The loud bang frightened the dog.",
+          "zh": "巨响吓到了那只狗。"
+        },
+        {
+          "en": "She was frightened of the dark.",
+          "zh": "她害怕黑暗。"
+        }
+      ],
+      "synonyms": [
+        "scared",
+        "afraid"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "frightened 由 fright(惊吓)来,被吓得心里发毛就是害怕。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "frightened of",
+          "look frightened"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-029",
+      "word": "delighted",
+      "phonetic": "/dɪˈlaɪtɪd/",
+      "pos": "adj.",
+      "meaning": "非常高兴的；欣喜的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was delighted with her present.",
+          "zh": "她对礼物欣喜不已。"
+        },
+        {
+          "en": "We're delighted to see you.",
+          "zh": "见到你我们非常高兴。"
+        }
+      ],
+      "synonyms": [
+        "very happy"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "delighted 里有 light(光),心里被点亮、喜上眉梢就是非常高兴。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "delighted with",
+          "delighted to do"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-030",
+      "word": "mood",
+      "phonetic": "/muːd/",
+      "pos": "n.",
+      "meaning": "心情；情绪",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She is in a good mood today.",
+          "zh": "她今天心情很好。"
+        },
+        {
+          "en": "The rain put me in a bad mood.",
+          "zh": "下雨让我心情不好。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "mood 谐音\"木的\"不对,记\"目的\"反着想——藏 mo+od,内心此刻的状态就是心情。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "in a good mood",
+          "a bad mood"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-031",
+      "word": "emotion",
+      "phonetic": "/ɪˈməʊʃn/",
+      "pos": "n.",
+      "meaning": "情感；情绪",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Music can show strong emotion.",
+          "zh": "音乐能表达强烈的情感。"
+        },
+        {
+          "en": "She couldn't hide her emotions.",
+          "zh": "她无法掩饰自己的情绪。"
+        }
+      ],
+      "synonyms": [
+        "feeling"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "e(向外)+mot(动,同 motion/move)+ion,心里\"动\"起来、涌出来的就是情感。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "show emotion",
+          "strong emotions"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-032",
+      "word": "laugh",
+      "phonetic": "/lɑːf/",
+      "pos": "v.",
+      "meaning": "笑；发笑",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The joke made everyone laugh.",
+          "zh": "这个笑话把大家都逗笑了。"
+        },
+        {
+          "en": "Don't laugh at other people.",
+          "zh": "别嘲笑别人。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "cry"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "laugh 谐音\"拉夫\"——gh不发音,\"哈哈\"出声地就是笑。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "laugh at",
+          "make someone laugh"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-033",
+      "word": "cry",
+      "phonetic": "/kraɪ/",
+      "pos": "v.",
+      "meaning": "哭；喊叫",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The baby cried all night.",
+          "zh": "宝宝哭了一整夜。"
+        },
+        {
+          "en": "She cried when she heard the news.",
+          "zh": "听到这个消息她哭了。"
+        }
+      ],
+      "synonyms": [
+        "weep"
+      ],
+      "antonyms": [
+        "laugh"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "cry 谐音\"块\"不对,记\"卡莱\"——\"哇\"地一声掉眼泪就是哭。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "cry loudly",
+          "start to cry"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-034",
+      "word": "smile",
+      "phonetic": "/smaɪl/",
+      "pos": "v./n.",
+      "meaning": "微笑",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She smiled at the little boy.",
+          "zh": "她冲小男孩微笑。"
+        },
+        {
+          "en": "He has a friendly smile.",
+          "zh": "他有一张友善的笑脸。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "smile 谐音\"斯迈欧\"——嘴角轻轻上扬、不出声地就是微笑。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "give a smile",
+          "smile at"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-035",
+      "word": "scared",
+      "phonetic": "/skeəd/",
+      "pos": "adj.",
+      "meaning": "害怕的；受惊的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I'm scared of the dark.",
+          "zh": "我怕黑。"
+        },
+        {
+          "en": "The thunder scared the children.",
+          "zh": "雷声吓到了孩子们。"
+        }
+      ],
+      "synonyms": [
+        "afraid",
+        "frightened"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "scared 由 scare(惊吓)来,被吓得心里\"咯噔\"一下就是害怕。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "scared of",
+          "feel scared"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-036",
+      "word": "feeling",
+      "phonetic": "/ˈfiːlɪŋ/",
+      "pos": "n.",
+      "meaning": "感觉；感受",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I had a strange feeling about it.",
+          "zh": "我对这事有种奇怪的感觉。"
+        },
+        {
+          "en": "Try to understand her feelings.",
+          "zh": "试着理解她的感受。"
+        }
+      ],
+      "synonyms": [
+        "emotion"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "feel(感觉)+ing,心里体会到的东西就是 feeling。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a strange feeling",
+          "hurt one's feelings"
+        ]
+      }
+    }
+  ]
+}

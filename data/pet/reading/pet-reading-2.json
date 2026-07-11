@@ -1,0 +1,192 @@
+{
+  "level": "B1",
+  "title": "PET 阅读 · 第二组",
+  "articles": [
+    {
+      "id": "pet-r-004",
+      "title": "Sports Club Notice",
+      "level": "B1",
+      "lexile": 680,
+      "wordCount": 96,
+      "category": "notice",
+      "content": "Attention all members! The swimming pool will be cleaned next Tuesday and Wednesday, so it will be closed on both days. During this time, members can use the gym and the tennis courts as usual. If you have booked a swimming lesson for those days, please talk to the front desk to change your time. We are also starting a new running group on Thursday evenings. Anyone over fourteen can join, and it is free for members. Wear comfortable shoes and bring a bottle of water. We hope to see you there!",
+      "translation": "全体会员请注意！游泳池将于下周二和周三清洗，因此这两天关闭。在此期间，会员可以照常使用健身房和网球场。如果你预约了这两天的游泳课，请到前台更改时间。我们还将在周四晚上开设一个新的跑步小组。十四岁以上的人都可以参加，会员免费。请穿舒适的鞋子并带一瓶水。我们希望在那里见到你！",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "Why will the swimming pool be closed?",
+          "options": ["Because it is a holiday", "Because it will be cleaned", "Because there are no members", "Because the gym is full"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "What should members do if they booked a swimming lesson on those days?",
+          "options": ["Use the tennis courts", "Talk to the front desk", "Join the running group", "Wait until next month"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "The new running group is free for members.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["member", "pool", "gym", "book", "join"],
+      "petSkills": ["scanning", "detail"]
+    },
+    {
+      "id": "pet-r-005",
+      "title": "An Email to a Friend",
+      "level": "B1",
+      "lexile": 720,
+      "wordCount": 110,
+      "category": "email",
+      "content": "Hi Ben, Thanks for your last message. I'm writing because I've just got a part-time job at a bookshop in town. I work there every Saturday, and I really enjoy it. My manager is friendly, and I've already learned how to use the computer at the checkout. The best part is that I get a discount on all the books! Next month I'm saving up to buy a new bike, so the money is really useful. Why don't you come and visit the shop one weekend? We could have lunch together afterwards. Let me know if you're free. Write back soon. Tom",
+      "translation": "嗨，本，谢谢你上次的消息。我写信是因为我刚在城里一家书店找到一份兼职。我每周六在那里工作，我真的很喜欢。我的经理很友好，我已经学会了怎么用收银台的电脑。最棒的是我买所有的书都能打折！下个月我在攒钱买一辆新自行车，所以这份钱真的很有用。你为什么不找个周末来店里看看呢？之后我们可以一起吃午饭。有空的话告诉我。快回信。汤姆",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "Where does Tom work?",
+          "options": ["At a café", "At a bookshop", "At a gym", "At a bank"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "What is Tom saving money for?",
+          "options": ["A new bike", "A holiday", "A computer", "Some books"],
+          "answer": 0
+        },
+        {
+          "type": "truefalse",
+          "q": "Tom gets a discount on the books at the shop.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["part-time", "manager", "checkout", "discount", "save"],
+      "petSkills": ["detail", "gist"]
+    },
+    {
+      "id": "pet-r-006",
+      "title": "The Robot Helper",
+      "level": "B1",
+      "lexile": 760,
+      "wordCount": 128,
+      "category": "article",
+      "content": "In some homes today, robots are becoming useful helpers. A small round robot can clean the floor while the family is out. It moves around the room by itself and finds its way back to charge when its battery is low. Some newer robots can even answer simple questions or play music when you ask them. Scientists say that in the future, robots may help older people who live alone. They could remind them to take their medicine or call for help in an emergency. However, some people worry that we will depend on machines too much. They believe it is still important for humans to talk to each other and do things by themselves.",
+      "translation": "如今在一些家庭里，机器人正成为有用的帮手。一个小圆机器人可以在家人外出时打扫地板。它自己在房间里移动，电量低时能找到回去充电的路。一些更新的机器人甚至能回答简单的问题，或在你要求时播放音乐。科学家说，未来机器人也许能帮助独居的老人。它们可以提醒老人吃药，或在紧急情况下呼救。然而，有些人担心我们会太依赖机器。他们认为，人与人交谈、自己动手做事仍然很重要。",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "What can the small round robot do?",
+          "options": ["Cook dinner", "Clean the floor", "Drive a car", "Read books"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "How might robots help older people in the future?",
+          "options": ["By reminding them to take medicine", "By paying their bills", "By teaching them English", "By driving them to hospital"],
+          "answer": 0
+        },
+        {
+          "type": "truefalse",
+          "q": "Some people worry that we will depend on machines too much.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["robot", "charge", "battery", "medicine", "depend"],
+      "petSkills": ["gist", "inference"]
+    },
+    {
+      "id": "pet-r-007",
+      "title": "Come to the Food Festival!",
+      "level": "B1",
+      "lexile": 700,
+      "wordCount": 102,
+      "category": "advert",
+      "content": "Are you hungry? Come to the City Food Festival this weekend! From Friday to Sunday, the park will be full of stalls selling delicious food from around the world. You can try spicy noodles, fresh fruit, sweet cakes and much more. Many dishes cost less than five pounds, so it is great value for money. There will also be live music every afternoon and free cooking lessons for children. The festival opens at ten in the morning and closes at eight in the evening. Tickets are cheaper if you buy them online before Friday. Don't miss this tasty weekend!",
+      "translation": "你饿了吗？这个周末来城市美食节吧！从周五到周日，公园里将摆满售卖世界各地美食的摊位。你可以品尝辣面、新鲜水果、甜蛋糕等等。许多菜不到五英镑，非常划算。每天下午还有现场音乐，以及为孩子们准备的免费烹饪课。美食节上午十点开门，晚上八点关门。周五前在网上买票会更便宜。别错过这个美味的周末！",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "How long does the food festival last?",
+          "options": ["One day", "Two days", "Three days", "A whole week"],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "q": "How can you get cheaper tickets?",
+          "options": ["Buy them at the gate", "Buy them online before Friday", "Come after eight o'clock", "Bring a child"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "There are free cooking lessons for children.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["festival", "stall", "delicious", "value", "ticket"],
+      "petSkills": ["scanning", "detail"]
+    },
+    {
+      "id": "pet-r-008",
+      "title": "Lucy's New Hobby",
+      "level": "B1",
+      "lexile": 730,
+      "wordCount": 118,
+      "category": "story",
+      "content": "Lucy had always thought that photography was only for adults with expensive cameras. Then, on her twelfth birthday, her aunt gave her a small, simple camera. At first Lucy just took pictures of her cat, but soon she began to notice beautiful things everywhere: the light through the trees, drops of rain on a window, and her little brother laughing. She joined a photography club at school, where an older student taught her how to take clearer photos. Last month, one of Lucy's pictures won second prize in a local competition. Now she dreams of becoming a real photographer one day. She says the best photos come from looking carefully at ordinary life.",
+      "translation": "露西一直以为摄影只属于那些拿着昂贵相机的大人。后来，在她十二岁生日时，姑姑送了她一台又小又简单的相机。起初露西只给她的猫拍照，但很快她开始注意到到处都有美丽的东西：穿过树林的光、窗上的雨滴、还有大笑的弟弟。她加入了学校的摄影社团，一位年长的同学教她怎么拍出更清晰的照片。上个月，露西的一张照片在当地比赛中获得了二等奖。现在她梦想有一天成为一名真正的摄影师。她说，最好的照片来自对平凡生活的仔细观察。",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "Who gave Lucy her first camera?",
+          "options": ["Her brother", "Her aunt", "Her teacher", "A friend"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "What did Lucy win in the competition?",
+          "options": ["First prize", "Second prize", "A new camera", "Nothing"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Lucy learned to take clearer photos at a photography club.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["photography", "camera", "club", "prize", "photographer"],
+      "petSkills": ["detail", "inference"]
+    },
+    {
+      "id": "pet-r-009",
+      "title": "Saving Water at Home",
+      "level": "B1",
+      "lexile": 690,
+      "wordCount": 106,
+      "category": "article",
+      "content": "Clean water is precious, but many people waste it without thinking. There are easy ways to save water at home. First, turn off the tap while you brush your teeth; this can save several litres each time. Second, take shorter showers instead of long baths. Third, only run the washing machine when it is full. Some families also collect rainwater in a barrel and use it for their garden. These small actions may not seem important, but if everybody does them, we can save a huge amount of water together. Looking after water today means there will be enough for the future.",
+      "translation": "干净的水很宝贵，但许多人不假思索地浪费它。在家里有一些省水的简单方法。首先，刷牙时关掉水龙头，这样每次能省下好几升水。其次，用较短的淋浴代替长时间泡澡。第三，只在洗衣机装满时才运行它。有些家庭还用桶收集雨水，用来浇花园。这些小举动看似不重要，但如果每个人都这样做，我们就能一起节省大量的水。今天爱护水，就意味着未来会有足够的水。",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "What does the writer suggest doing while brushing your teeth?",
+          "options": ["Take a bath", "Turn off the tap", "Run the washing machine", "Collect rainwater"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "When should you run the washing machine?",
+          "options": ["Every morning", "Only when it is full", "During the rain", "Twice a day"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Some families collect rainwater to use in the garden.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["waste", "tap", "shower", "rainwater", "save"],
+      "petSkills": ["gist", "detail"]
+    }
+  ]
+}

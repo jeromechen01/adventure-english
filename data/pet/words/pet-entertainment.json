@@ -1,0 +1,1365 @@
+{
+  "topic": "entertainment",
+  "topicName": "Entertainment 娱乐休闲",
+  "icon": "🎬",
+  "level": "B1",
+  "totalWords": 38,
+  "words": [
+    {
+      "id": "pet-entertainment-001",
+      "word": "cinema",
+      "phonetic": "/ˈsɪnəmə/",
+      "pos": "n.",
+      "meaning": "电影院",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We watched a film at the cinema.",
+          "zh": "我们在电影院看了场电影。"
+        },
+        {
+          "en": "The cinema is near my house.",
+          "zh": "电影院离我家很近。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "cinema 谐音\"戏呢嘛\"——问\"看戏呢嘛\",看戏的地方就是电影院。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "go to the cinema",
+          "at the cinema"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-002",
+      "word": "theatre",
+      "phonetic": "/ˈθɪətə/",
+      "pos": "n.",
+      "meaning": "剧院；戏院",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The play is on at the theatre.",
+          "zh": "这出戏正在剧院上演。"
+        },
+        {
+          "en": "We had good seats at the theatre.",
+          "zh": "我们在剧院有很好的座位。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "theatre 谐音\"西呀特\"——看现场舞台剧的大厅就是剧院(英式拼 -tre)。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "go to the theatre",
+          "a theatre ticket"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-003",
+      "word": "concert",
+      "phonetic": "/ˈkɒnsət/",
+      "pos": "n.",
+      "meaning": "音乐会；演唱会",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We went to a rock concert.",
+          "zh": "我们去看了一场摇滚演唱会。"
+        },
+        {
+          "en": "The concert starts at eight.",
+          "zh": "音乐会八点开始。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "con(共同)+cert(比赛/竞演,同 certain词根),众乐手一起演奏就是音乐会。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "go to a concert",
+          "a live concert"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-004",
+      "word": "museum",
+      "phonetic": "/mjuˈziːəm/",
+      "pos": "n.",
+      "meaning": "博物馆",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The museum has old paintings.",
+          "zh": "博物馆里有古老的画作。"
+        },
+        {
+          "en": "We spent a day at the museum.",
+          "zh": "我们在博物馆待了一天。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "museum 谐音\"谬贼恩\"不对,记\"缪日恩\"——收藏历史珍宝供人参观的地方就是博物馆。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "visit a museum",
+          "at the museum"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-005",
+      "word": "gallery",
+      "phonetic": "/ˈɡæləri/",
+      "pos": "n.",
+      "meaning": "美术馆；画廊",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The gallery shows modern art.",
+          "zh": "这家美术馆展出现代艺术。"
+        },
+        {
+          "en": "Her photos are in a gallery.",
+          "zh": "她的照片在一家画廊展出。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "gallery 谐音\"嘎乐瑞\"——一幅幅挂着画,让人赏心悦目的地方就是画廊。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an art gallery",
+          "visit a gallery"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-006",
+      "word": "exhibition",
+      "phonetic": "/ˌeksɪˈbɪʃn/",
+      "pos": "n.",
+      "meaning": "展览；展览会",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is an art exhibition this week.",
+          "zh": "这周有个艺术展。"
+        },
+        {
+          "en": "The exhibition was very popular.",
+          "zh": "这个展览很受欢迎。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "ex(向外)+hibit(拿/持,同 exhibit)+ion,把作品拿出来给大家看就是展览。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an art exhibition",
+          "hold an exhibition"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-007",
+      "word": "hobby",
+      "phonetic": "/ˈhɒbi/",
+      "pos": "n.",
+      "meaning": "爱好；业余爱好",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Painting is my favourite hobby.",
+          "zh": "画画是我最喜欢的爱好。"
+        },
+        {
+          "en": "What are your hobbies?",
+          "zh": "你有什么爱好？"
+        }
+      ],
+      "synonyms": [
+        "interest"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "hobby 谐音\"哈比\"——一玩起爱好就乐得像个开心的哈比人。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a favourite hobby",
+          "have a hobby"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-008",
+      "word": "audience",
+      "phonetic": "/ˈɔːdiəns/",
+      "pos": "n.",
+      "meaning": "观众；听众",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The audience clapped loudly.",
+          "zh": "观众大声鼓掌。"
+        },
+        {
+          "en": "A big audience watched the show.",
+          "zh": "很多观众观看了演出。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "audi(听,拉丁 audire,同 audio)+ence,坐着听和看的一群人就是观众。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a large audience",
+          "the audience claps"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-009",
+      "word": "performance",
+      "phonetic": "/pəˈfɔːməns/",
+      "pos": "n.",
+      "meaning": "演出；表演；表现",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The performance lasted two hours.",
+          "zh": "演出持续了两个小时。"
+        },
+        {
+          "en": "Her performance was amazing.",
+          "zh": "她的表演棒极了。"
+        }
+      ],
+      "synonyms": [
+        "show"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "perform(表演)+ance,表演这件事的名词就是 performance。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a live performance",
+          "give a performance"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-010",
+      "word": "actor",
+      "phonetic": "/ˈæktə/",
+      "pos": "n.",
+      "meaning": "演员(男)",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "He is a famous actor.",
+          "zh": "他是位著名演员。"
+        },
+        {
+          "en": "The actor played a king.",
+          "zh": "这位演员扮演了一位国王。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "act(表演)+or(人),在台上表演的人就是演员。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a famous actor",
+          "a film actor"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-011",
+      "word": "actress",
+      "phonetic": "/ˈæktrəs/",
+      "pos": "n.",
+      "meaning": "女演员",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She is a talented actress.",
+          "zh": "她是位有才华的女演员。"
+        },
+        {
+          "en": "The actress won a prize.",
+          "zh": "这位女演员获了奖。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "act(表演)+ress(女性后缀),表演的女性就是女演员。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a young actress",
+          "a film actress"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-012",
+      "word": "singer",
+      "phonetic": "/ˈsɪŋə/",
+      "pos": "n.",
+      "meaning": "歌手；歌唱者",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "My favourite singer is on TV.",
+          "zh": "我最喜欢的歌手上电视了。"
+        },
+        {
+          "en": "She wants to be a singer.",
+          "zh": "她想成为一名歌手。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "sing(唱)+er(人),唱歌的人就是歌手。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a pop singer",
+          "a famous singer"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-013",
+      "word": "stage",
+      "phonetic": "/steɪdʒ/",
+      "pos": "n.",
+      "meaning": "舞台；阶段",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The band walked onto the stage.",
+          "zh": "乐队走上了舞台。"
+        },
+        {
+          "en": "She sang on a big stage.",
+          "zh": "她在大舞台上唱歌。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "stage 谐音\"斯泰奇\"——高高一台、灯光聚焦、供人表演的地方就是舞台。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "on stage",
+          "a big stage"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-014",
+      "word": "comedy",
+      "phonetic": "/ˈkɒmədi/",
+      "pos": "n.",
+      "meaning": "喜剧",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We watched a funny comedy.",
+          "zh": "我们看了一部好笑的喜剧。"
+        },
+        {
+          "en": "He loves comedy films.",
+          "zh": "他喜欢喜剧电影。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "tragedy"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "comedy 谐音\"卡门地\"不对,记\"侃没底\"——一路逗你笑到没底就是喜剧。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a comedy film",
+          "a romantic comedy"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-015",
+      "word": "cartoon",
+      "phonetic": "/kɑːˈtuːn/",
+      "pos": "n.",
+      "meaning": "动画片；卡通",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Children love watching cartoons.",
+          "zh": "孩子们喜欢看动画片。"
+        },
+        {
+          "en": "This cartoon is very funny.",
+          "zh": "这部动画很搞笑。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "cartoon 谐音\"卡通\"——直接就是它的中文译名。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "watch cartoons",
+          "a cartoon character"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-016",
+      "word": "magazine",
+      "phonetic": "/ˌmæɡəˈziːn/",
+      "pos": "n.",
+      "meaning": "杂志",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She reads a fashion magazine.",
+          "zh": "她读一本时尚杂志。"
+        },
+        {
+          "en": "The magazine comes out monthly.",
+          "zh": "这本杂志每月出一期。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "magazine 谐音\"卖嘎境\"不对,记\"马嘎精\"——把各种精彩内容装订成册就是杂志。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "read a magazine",
+          "a fashion magazine"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-017",
+      "word": "novel",
+      "phonetic": "/ˈnɒvl/",
+      "pos": "n.",
+      "meaning": "小说",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She is writing a novel.",
+          "zh": "她正在写一部小说。"
+        },
+        {
+          "en": "This novel is about a young girl.",
+          "zh": "这部小说讲的是一个小女孩。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "novel 也有\"新奇的\"意思,一个个新奇故事写成长篇就是小说。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "read a novel",
+          "write a novel"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-018",
+      "word": "instrument",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "pos": "n.",
+      "meaning": "乐器；仪器",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The piano is my favourite instrument.",
+          "zh": "钢琴是我最喜欢的乐器。"
+        },
+        {
+          "en": "Can you play an instrument?",
+          "zh": "你会演奏乐器吗？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "in(在内)+stru(建造,同 structure)+ment,能\"造出\"音乐的器具就是乐器。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "play an instrument",
+          "a musical instrument"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-019",
+      "word": "guitar",
+      "phonetic": "/ɡɪˈtɑː/",
+      "pos": "n.",
+      "meaning": "吉他",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "He plays the guitar in a band.",
+          "zh": "他在一个乐队里弹吉他。"
+        },
+        {
+          "en": "She learned the guitar last year.",
+          "zh": "她去年学了吉他。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "guitar 谐音\"给他\"——把吉他\"给他\"弹一曲,六弦一拨就响。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "play the guitar",
+          "an electric guitar"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-020",
+      "word": "drum",
+      "phonetic": "/drʌm/",
+      "pos": "n.",
+      "meaning": "鼓",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He beats the drum in the band.",
+          "zh": "他在乐队里打鼓。"
+        },
+        {
+          "en": "The drums are very loud.",
+          "zh": "鼓声非常响。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "drum 谐音\"抓姆\"——\"咚咚咚\"敲起来的就是鼓。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "play the drums",
+          "beat a drum"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-021",
+      "word": "paint",
+      "phonetic": "/peɪnt/",
+      "pos": "v.",
+      "meaning": "画；油漆",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She likes to paint pictures.",
+          "zh": "她喜欢画画。"
+        },
+        {
+          "en": "They painted the wall blue.",
+          "zh": "他们把墙刷成了蓝色。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "paint 谐音\"喷它\"——拿刷子、颜料\"喷\"上色彩就是画/漆。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "paint a picture",
+          "paint a wall"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-022",
+      "word": "photography",
+      "phonetic": "/fəˈtɒɡrəfi/",
+      "pos": "n.",
+      "meaning": "摄影",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Photography is her hobby.",
+          "zh": "摄影是她的爱好。"
+        },
+        {
+          "en": "He studies photography at college.",
+          "zh": "他在大学学摄影。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "photo(光,希腊 phos)+graphy(记录,同 write),用光把画面记录下来就是摄影。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "study photography",
+          "wildlife photography"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-023",
+      "word": "collect",
+      "phonetic": "/kəˈlekt/",
+      "pos": "v.",
+      "meaning": "收集；收藏",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He collects old coins.",
+          "zh": "他收集旧硬币。"
+        },
+        {
+          "en": "She collects stamps as a hobby.",
+          "zh": "她把集邮当作爱好。"
+        }
+      ],
+      "synonyms": [
+        "gather"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "col(共同)+lect(挑选/收,同 select),把喜欢的一件件挑来聚一起就是收集。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "collect stamps",
+          "collect coins"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-024",
+      "word": "exciting",
+      "phonetic": "/ɪkˈsaɪtɪŋ/",
+      "pos": "adj.",
+      "meaning": "令人兴奋的；刺激的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The game was really exciting.",
+          "zh": "这场比赛真是激动人心。"
+        },
+        {
+          "en": "We had an exciting holiday.",
+          "zh": "我们度过了一个刺激的假期。"
+        }
+      ],
+      "synonyms": [
+        "thrilling"
+      ],
+      "antonyms": [
+        "boring"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "excite(使兴奋)+ing,让人心跳加速、兴奋起来的就是 exciting。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "an exciting film",
+          "exciting news"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-025",
+      "word": "boring",
+      "phonetic": "/ˈbɔːrɪŋ/",
+      "pos": "adj.",
+      "meaning": "无聊的；乏味的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The film was long and boring.",
+          "zh": "这部电影又长又无聊。"
+        },
+        {
+          "en": "I find this game boring.",
+          "zh": "我觉得这个游戏很无聊。"
+        }
+      ],
+      "synonyms": [
+        "dull"
+      ],
+      "antonyms": [
+        "exciting"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "boring 谐音\"抱铃\"不对,记\"波瑞\"——闷得让人直打哈欠就是 boring。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a boring film",
+          "so boring"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-026",
+      "word": "enjoy",
+      "phonetic": "/ɪnˈdʒɔɪ/",
+      "pos": "v.",
+      "meaning": "享受；喜爱",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I enjoy listening to music.",
+          "zh": "我喜欢听音乐。"
+        },
+        {
+          "en": "They enjoyed the party a lot.",
+          "zh": "他们非常享受这场聚会。"
+        }
+      ],
+      "synonyms": [
+        "like"
+      ],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "en(使)+joy(快乐),让自己进入快乐就是享受。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "enjoy doing",
+          "enjoy yourself"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-027",
+      "word": "festival",
+      "phonetic": "/ˈfestɪvl/",
+      "pos": "n.",
+      "meaning": "节日；音乐节",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The music festival lasts three days.",
+          "zh": "这个音乐节持续三天。"
+        },
+        {
+          "en": "Spring Festival is my favourite.",
+          "zh": "春节是我最喜欢的节日。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "fest(欢庆,同 feast盛宴)+ival,大家一起欢庆的日子就是节日。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a music festival",
+          "a film festival"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-028",
+      "word": "band",
+      "phonetic": "/bænd/",
+      "pos": "n.",
+      "meaning": "乐队；乐团",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The band played all night.",
+          "zh": "乐队演奏了一整晚。"
+        },
+        {
+          "en": "He started a rock band.",
+          "zh": "他组建了一支摇滚乐队。"
+        }
+      ],
+      "synonyms": [
+        "group"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "band 也指\"带子\",一群乐手被音乐这根带子\"绑\"在一起就是乐队。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a rock band",
+          "join a band"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-029",
+      "word": "star",
+      "phonetic": "/stɑː/",
+      "pos": "n.",
+      "meaning": "明星；星星",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She is a famous film star.",
+          "zh": "她是位著名影星。"
+        },
+        {
+          "en": "The pop star gave a concert.",
+          "zh": "这位流行歌星开了一场演唱会。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "star 本义\"星星\",像星星一样闪耀受人追捧的人就是明星。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a film star",
+          "a pop star"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-030",
+      "word": "dance",
+      "phonetic": "/dɑːns/",
+      "pos": "v./n.",
+      "meaning": "跳舞；舞蹈",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "They danced at the party.",
+          "zh": "他们在聚会上跳舞。"
+        },
+        {
+          "en": "She teaches dance to children.",
+          "zh": "她教孩子们跳舞。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "dance 谐音\"当死\"不对,记\"丹斯\"——踏着节拍摆动身体就是跳舞。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "dance to music",
+          "go dancing"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-031",
+      "word": "ticket",
+      "phonetic": "/ˈtɪkɪt/",
+      "pos": "n.",
+      "meaning": "票；入场券",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I bought two tickets for the show.",
+          "zh": "我买了两张演出的票。"
+        },
+        {
+          "en": "The concert ticket was expensive.",
+          "zh": "演唱会门票很贵。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "进场要检的小纸片,\"提\"前买好\"刻\"上座位就是 ticket。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "buy a ticket",
+          "a concert ticket"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-032",
+      "word": "fun",
+      "phonetic": "/fʌn/",
+      "pos": "n./adj.",
+      "meaning": "乐趣；有趣的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We had a lot of fun at the fair.",
+          "zh": "我们在游乐会上玩得很开心。"
+        },
+        {
+          "en": "The game is really fun.",
+          "zh": "这个游戏真好玩。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "fun 谐音\"饭\"不对,记\"放\"——玩得开心\"放\"松身心就是 fun。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "have fun",
+          "a fun game"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-033",
+      "word": "entertainment",
+      "phonetic": "/ˌentəˈteɪnmənt/",
+      "pos": "n.",
+      "meaning": "娱乐；消遣",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The park offers lots of entertainment.",
+          "zh": "这个公园提供很多娱乐活动。"
+        },
+        {
+          "en": "Music is a great form of entertainment.",
+          "zh": "音乐是一种很棒的娱乐。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "enter(在其中)+tain(保持,同 maintain)+ment,让大家沉浸其中开心的活动就是娱乐。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "live entertainment",
+          "a form of entertainment"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-034",
+      "word": "interesting",
+      "phonetic": "/ˈɪntrəstɪŋ/",
+      "pos": "adj.",
+      "meaning": "有趣的；有意思的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "That's an interesting story.",
+          "zh": "那是个有趣的故事。"
+        },
+        {
+          "en": "The museum was very interesting.",
+          "zh": "这座博物馆很有意思。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "boring"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "interest(兴趣)+ing,勾起你兴趣的就是有趣的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "an interesting book",
+          "sounds interesting"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-035",
+      "word": "review",
+      "phonetic": "/rɪˈvjuː/",
+      "pos": "n.",
+      "meaning": "评论；影评",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The film got good reviews.",
+          "zh": "这部电影获得了好评。"
+        },
+        {
+          "en": "I read a review of the book.",
+          "zh": "我读了这本书的一篇评论。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "re(再)+view(看),看完再回头评说一番就是评论。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a film review",
+          "a good review"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-036",
+      "word": "amusing",
+      "phonetic": "/əˈmjuːzɪŋ/",
+      "pos": "adj.",
+      "meaning": "好笑的；逗趣的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He told an amusing story.",
+          "zh": "他讲了个逗趣的故事。"
+        },
+        {
+          "en": "The show was light and amusing.",
+          "zh": "这场演出轻松又好笑。"
+        }
+      ],
+      "synonyms": [
+        "funny"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "amuse(逗乐)+ing,把人逗得直乐的就是 amusing;amusement park=游乐园。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an amusing story",
+          "quite amusing"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-037",
+      "word": "adventure",
+      "phonetic": "/ədˈventʃə/",
+      "pos": "n.",
+      "meaning": "冒险；奇遇",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The book is full of adventure.",
+          "zh": "这本书充满冒险。"
+        },
+        {
+          "en": "We had a great adventure in the woods.",
+          "zh": "我们在林中经历了一场精彩的冒险。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "ad(朝向)+vent(来,同 event)+ure,朝着未知走去、迎接意外就是冒险。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an exciting adventure",
+          "an adventure story"
+        ]
+      }
+    },
+    {
+      "id": "pet-entertainment-038",
+      "word": "relax",
+      "phonetic": "/rɪˈlæks/",
+      "pos": "v.",
+      "meaning": "放松；休闲",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I relax by watching films.",
+          "zh": "我靠看电影放松。"
+        },
+        {
+          "en": "We relaxed on the beach all day.",
+          "zh": "我们在沙滩上放松了一整天。"
+        }
+      ],
+      "synonyms": [
+        "rest"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "entertainment"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "re(重新)+lax(松弛),把绷紧的自己重新松开就是放松。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "relax at home",
+          "sit back and relax"
+        ]
+      }
+    }
+  ]
+}
