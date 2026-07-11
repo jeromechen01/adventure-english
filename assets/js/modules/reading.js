@@ -24,14 +24,33 @@ async function buildWordIndex() {
   return wordIndex;
 }
 
+// PET 阅读内容会随任务持续增补。Service Worker 采用 cache-first，若沿用普通
+// loadJSON，老浏览器会一直命中早期缓存里的旧 index.json（只列了第一组），导致
+// 新增文章不显示。这里改用带版本号 query 的 fetch 绕过陈旧缓存，保证新文章立即
+// 出现；离线或请求失败时回退到无 query 的地址（可命中 SW 预缓存，离线仍可用）。
+// 新增/修改阅读文件后，请把此版本号 +1（与 sw.js 的 CACHE_VERSION 保持同步递增）。
+const PET_READING_VERSION = '0.3.4';
+
+async function fetchPetReadingJSON(path) {
+  try {
+    const res = await fetch(`${path}?v=${PET_READING_VERSION}`, { cache: 'no-cache' });
+    if (res.ok) return await res.json();
+  } catch (e) { /* 网络失败/离线，走回退 */ }
+  try {
+    const res = await fetch(path); // 回退：命中 SW 预缓存，保证离线可用
+    if (res.ok) return await res.json();
+  } catch (e) { /* ignore */ }
+  return null;
+}
+
 // 载入并合并所有 PET 阅读文件（按 index.json 清单；缺失则回退到第一组）
 async function loadPetReading() {
   let files = ['pet-reading-1.json'];
-  const idx = await loadJSON('data/pet/reading/index.json');
+  const idx = await fetchPetReadingJSON('data/pet/reading/index.json');
   if (idx && Array.isArray(idx.files) && idx.files.length) files = idx.files;
   const articles = [];
   for (const f of files) {
-    const d = await loadJSON(`data/pet/reading/${f}`);
+    const d = await fetchPetReadingJSON(`data/pet/reading/${f}`);
     if (d && Array.isArray(d.articles)) articles.push(...d.articles);
   }
   return { level: 'B1', articles };
