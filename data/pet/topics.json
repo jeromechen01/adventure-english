@@ -120,7 +120,7 @@
       "name": "City & Places 城市地点",
       "icon": "🏙️",
       "file": "pet-city.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "feelings",

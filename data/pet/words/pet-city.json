@@ -1,0 +1,1295 @@
+{
+  "topic": "city",
+  "topicName": "City & Places 城市地点",
+  "icon": "🏙️",
+  "level": "B1",
+  "totalWords": 36,
+  "words": [
+    {
+      "id": "pet-city-001",
+      "word": "capital",
+      "phonetic": "/ˈkæpɪtl/",
+      "pos": "n.",
+      "meaning": "首都；省会",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "London is the capital of England.",
+          "zh": "伦敦是英格兰的首都。"
+        },
+        {
+          "en": "The capital is a very busy city.",
+          "zh": "首都是一座非常繁忙的城市。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "capit(头,拉丁 caput,同 captain)+al,一个国家的\"头\"号城市就是首都。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "the capital city",
+          "the capital of"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-002",
+      "word": "village",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "pos": "n.",
+      "meaning": "村庄；乡村",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "They live in a small village.",
+          "zh": "他们住在一个小村庄里。"
+        },
+        {
+          "en": "The village has only one shop.",
+          "zh": "这个村子只有一家店。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "city"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "village 谐音\"维里几\"——几户人家聚在一起的小地方就是村庄。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a small village",
+          "a fishing village"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-003",
+      "word": "town",
+      "phonetic": "/taʊn/",
+      "pos": "n.",
+      "meaning": "城镇；市镇",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We went into town to shop.",
+          "zh": "我们进城购物。"
+        },
+        {
+          "en": "This town is famous for its castle.",
+          "zh": "这座小镇以它的城堡闻名。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "town 谐音\"淘\"——比村大、比城小,可以逛街\"淘\"东西的地方就是城镇。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "go into town",
+          "a small town"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-004",
+      "word": "neighbourhood",
+      "phonetic": "/ˈneɪbəhʊd/",
+      "pos": "n.",
+      "meaning": "街区；社区",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "It's a quiet neighbourhood.",
+          "zh": "这是个安静的社区。"
+        },
+        {
+          "en": "There's a park in our neighbourhood.",
+          "zh": "我们社区里有个公园。"
+        }
+      ],
+      "synonyms": [
+        "area"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "neighbour(邻居)+hood(区域),邻居们住的一片地方就是社区。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a quiet neighbourhood",
+          "in the neighbourhood"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-005",
+      "word": "street",
+      "phonetic": "/striːt/",
+      "pos": "n.",
+      "meaning": "街道",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "There are many shops on this street.",
+          "zh": "这条街上有很多商店。"
+        },
+        {
+          "en": "Cross the street at the lights.",
+          "zh": "在红绿灯处过马路。"
+        }
+      ],
+      "synonyms": [
+        "road"
+      ],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "street 谐音\"斯锥特\"——两旁排着房子、车来人往的就是街道。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "on the street",
+          "cross the street"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-006",
+      "word": "square",
+      "phonetic": "/skweə/",
+      "pos": "n.",
+      "meaning": "广场；正方形",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "People gathered in the town square.",
+          "zh": "人们聚集在镇中心广场。"
+        },
+        {
+          "en": "The square is full of pigeons.",
+          "zh": "广场上满是鸽子。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "square 本义\"正方形\",城市中央那块方方正正的开阔地就是广场。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "the town square",
+          "in the square"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-007",
+      "word": "bridge",
+      "phonetic": "/brɪdʒ/",
+      "pos": "n.",
+      "meaning": "桥",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We walked across the old bridge.",
+          "zh": "我们走过那座古老的桥。"
+        },
+        {
+          "en": "The bridge goes over the river.",
+          "zh": "这座桥横跨河面。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "bridge 谐音\"不日几\"不对,记\"布日之\"——横在河上让人过河的就是桥。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "cross a bridge",
+          "over the bridge"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-008",
+      "word": "tower",
+      "phonetic": "/ˈtaʊə/",
+      "pos": "n.",
+      "meaning": "塔；高楼",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The clock tower is very old.",
+          "zh": "这座钟塔很古老。"
+        },
+        {
+          "en": "You can see the whole city from the tower.",
+          "zh": "从塔上能看到整座城市。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "tower 谐音\"套儿\"不对,记\"陶尔\"——又高又直、直插云霄的就是塔。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a clock tower",
+          "a tall tower"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-009",
+      "word": "castle",
+      "phonetic": "/ˈkɑːsl/",
+      "pos": "n.",
+      "meaning": "城堡",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The old castle stands on a hill.",
+          "zh": "古老的城堡矗立在山上。"
+        },
+        {
+          "en": "We visited a famous castle.",
+          "zh": "我们参观了一座著名的城堡。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "castle 谐音\"卡手\"不对,记\"卡搜\"——t不发音;高墙厚壁、住着国王的就是城堡。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an old castle",
+          "visit a castle"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-010",
+      "word": "palace",
+      "phonetic": "/ˈpæləs/",
+      "pos": "n.",
+      "meaning": "宫殿；王宫",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The queen lives in a palace.",
+          "zh": "女王住在宫殿里。"
+        },
+        {
+          "en": "The palace has beautiful gardens.",
+          "zh": "这座宫殿有美丽的花园。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "palace 谐音\"怕勒死\"不对,记\"帕乐斯\"——金碧辉煌、住着王室的大宅就是宫殿。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a royal palace",
+          "live in a palace"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-011",
+      "word": "statue",
+      "phonetic": "/ˈstætʃuː/",
+      "pos": "n.",
+      "meaning": "雕像；塑像",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is a statue in the park.",
+          "zh": "公园里有一座雕像。"
+        },
+        {
+          "en": "The statue is made of stone.",
+          "zh": "这座雕像是石头做的。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "statue 谐音\"斯泰去\"——站着(stat同 stand)不动、纪念名人的塑像就是雕像。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a stone statue",
+          "a statue of"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-012",
+      "word": "fountain",
+      "phonetic": "/ˈfaʊntən/",
+      "pos": "n.",
+      "meaning": "喷泉",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Children played by the fountain.",
+          "zh": "孩子们在喷泉边玩耍。"
+        },
+        {
+          "en": "The fountain lights up at night.",
+          "zh": "喷泉在夜里会亮灯。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "fountain 谐音\"饭疼\"不对,记\"方疼\"——水柱\"哗\"地喷向天的就是喷泉(found=泉源)。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a water fountain",
+          "by the fountain"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-013",
+      "word": "station",
+      "phonetic": "/ˈsteɪʃn/",
+      "pos": "n.",
+      "meaning": "车站；站",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The train leaves from platform two at the station.",
+          "zh": "火车从车站的二号站台发车。"
+        },
+        {
+          "en": "The bus station is next to the bank.",
+          "zh": "汽车站在银行旁边。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "stat(站立,同 stand/static)+ion,车停下让人上下的地方就是车站。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a train station",
+          "a bus station"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-014",
+      "word": "harbour",
+      "phonetic": "/ˈhɑːbə/",
+      "pos": "n.",
+      "meaning": "港口；海港",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The boats stayed in the harbour.",
+          "zh": "船只停在港口里。"
+        },
+        {
+          "en": "We walked along the harbour.",
+          "zh": "我们沿着海港散步。"
+        }
+      ],
+      "synonyms": [
+        "port"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "harbour 谐音\"哈勃\"——船只躲风浪、停靠装卸的水湾就是港口(英式拼 -our)。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "in the harbour",
+          "a busy harbour"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-015",
+      "word": "bank",
+      "phonetic": "/bæŋk/",
+      "pos": "n.",
+      "meaning": "银行；河岸",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I put my money in the bank.",
+          "zh": "我把钱存进银行。"
+        },
+        {
+          "en": "We sat on the river bank.",
+          "zh": "我们坐在河岸上。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "bank 一词两义:存钱的\"银行\"和河边的\"河岸\",靠上下文区分。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "at the bank",
+          "a river bank"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-016",
+      "word": "hospital",
+      "phonetic": "/ˈhɒspɪtl/",
+      "pos": "n.",
+      "meaning": "医院",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She works at the city hospital.",
+          "zh": "她在市医院工作。"
+        },
+        {
+          "en": "He was taken to hospital.",
+          "zh": "他被送进了医院。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "hospit(款待,同 hospitality)+al,收留照护病人的地方就是医院。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "go to hospital",
+          "a city hospital"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-017",
+      "word": "hotel",
+      "phonetic": "/həʊˈtel/",
+      "pos": "n.",
+      "meaning": "旅馆；酒店",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We stayed at a nice hotel.",
+          "zh": "我们住在一家不错的酒店。"
+        },
+        {
+          "en": "The hotel is near the beach.",
+          "zh": "这家酒店离海滩很近。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "hotel 谐音\"红太\"不对,记\"齁太欧\"——出门在外供人住宿的地方就是酒店。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "stay at a hotel",
+          "book a hotel"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-018",
+      "word": "mall",
+      "phonetic": "/mɔːl/",
+      "pos": "n.",
+      "meaning": "购物中心；商场",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We spent the day at the mall.",
+          "zh": "我们在商场逛了一天。"
+        },
+        {
+          "en": "The new mall has a cinema.",
+          "zh": "新商场里有一家电影院。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "mall 谐音\"摩\"不对,记\"猫\"——各种店铺聚在一起的大商场就是 mall。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a shopping mall",
+          "at the mall"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-019",
+      "word": "park",
+      "phonetic": "/pɑːk/",
+      "pos": "n.",
+      "meaning": "公园",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We had a picnic in the park.",
+          "zh": "我们在公园里野餐。"
+        },
+        {
+          "en": "The park is green and quiet.",
+          "zh": "公园又绿又安静。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "park 也作动词\"停车\";城里那片绿地、供人休闲的就是公园。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in the park",
+          "a city park"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-020",
+      "word": "playground",
+      "phonetic": "/ˈpleɪɡraʊnd/",
+      "pos": "n.",
+      "meaning": "操场；游乐场",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Children ran around the playground.",
+          "zh": "孩子们在操场上跑来跑去。"
+        },
+        {
+          "en": "The playground has swings and slides.",
+          "zh": "游乐场里有秋千和滑梯。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "play(玩)+ground(场地),供人玩耍的场地就是操场/游乐场。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "in the playground",
+          "a school playground"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-021",
+      "word": "traffic",
+      "phonetic": "/ˈtræfɪk/",
+      "pos": "n.",
+      "meaning": "交通；车流",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is heavy traffic in the morning.",
+          "zh": "早上交通很拥堵。"
+        },
+        {
+          "en": "We were late because of the traffic.",
+          "zh": "因为堵车我们迟到了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "traffic 谐音\"拽废客\"不对,记\"拽飞克\"——路上来来往往的车流就是交通。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "heavy traffic",
+          "a traffic jam"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-022",
+      "word": "crossroads",
+      "phonetic": "/ˈkrɒsrəʊdz/",
+      "pos": "n.",
+      "meaning": "十字路口",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Turn left at the crossroads.",
+          "zh": "在十字路口向左转。"
+        },
+        {
+          "en": "There are traffic lights at the crossroads.",
+          "zh": "十字路口有红绿灯。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "cross(交叉)+roads(道路),两条路交叉的地方就是十字路口。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "at the crossroads",
+          "turn at the crossroads"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-023",
+      "word": "pavement",
+      "phonetic": "/ˈpeɪvmənt/",
+      "pos": "n.",
+      "meaning": "人行道",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Walk on the pavement, not the road.",
+          "zh": "在人行道上走,别走机动车道。"
+        },
+        {
+          "en": "The pavement was wet after the rain.",
+          "zh": "雨后人行道湿了。"
+        }
+      ],
+      "synonyms": [
+        "sidewalk"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "pave(铺路)+ment,路边铺好给人走的那条就是人行道(英式;美式 sidewalk)。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "on the pavement",
+          "walk on the pavement"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-024",
+      "word": "corner",
+      "phonetic": "/ˈkɔːnə/",
+      "pos": "n.",
+      "meaning": "拐角；角落",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The shop is on the corner.",
+          "zh": "那家店在拐角处。"
+        },
+        {
+          "en": "Turn right at the next corner.",
+          "zh": "在下一个拐角右转。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "corner 谐音\"扣呢\"不对,记\"考呢\"——两条边相交、拐弯的地方就是拐角。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "on the corner",
+          "turn the corner"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-025",
+      "word": "crowded",
+      "phonetic": "/ˈkraʊdɪd/",
+      "pos": "adj.",
+      "meaning": "拥挤的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The bus was very crowded.",
+          "zh": "公交车非常挤。"
+        },
+        {
+          "en": "The market gets crowded at weekends.",
+          "zh": "市场周末会很拥挤。"
+        }
+      ],
+      "synonyms": [
+        "packed"
+      ],
+      "antonyms": [
+        "empty"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "crowd(人群)+ed,挤满一大群人就是拥挤的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a crowded street",
+          "get crowded"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-026",
+      "word": "modern",
+      "phonetic": "/ˈmɒdn/",
+      "pos": "adj.",
+      "meaning": "现代的；新式的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "They live in a modern flat.",
+          "zh": "他们住在一套现代化的公寓里。"
+        },
+        {
+          "en": "The city has many modern buildings.",
+          "zh": "这座城市有许多现代建筑。"
+        }
+      ],
+      "synonyms": [
+        "new"
+      ],
+      "antonyms": [
+        "ancient"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "modern 谐音\"骂等\"不对,记\"莫等\"——紧跟当下、别落后于时代的就是现代的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a modern city",
+          "modern buildings"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-027",
+      "word": "ancient",
+      "phonetic": "/ˈeɪnʃənt/",
+      "pos": "adj.",
+      "meaning": "古代的；古老的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This is an ancient city.",
+          "zh": "这是一座古城。"
+        },
+        {
+          "en": "We saw ancient buildings there.",
+          "zh": "我们在那里看到了古建筑。"
+        }
+      ],
+      "synonyms": [
+        "old"
+      ],
+      "antonyms": [
+        "modern"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "ancient 谐音\"安神特\"——年代久远、历经沧桑的就是古老的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an ancient city",
+          "ancient buildings"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-028",
+      "word": "local",
+      "phonetic": "/ˈləʊkl/",
+      "pos": "adj.",
+      "meaning": "当地的；本地的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We ate at a local restaurant.",
+          "zh": "我们在一家当地餐馆吃饭。"
+        },
+        {
+          "en": "The local people are very friendly.",
+          "zh": "当地人非常友好。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "loc(地方,同 location/locate)+al,属于本地方的就是当地的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "local people",
+          "a local shop"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-029",
+      "word": "building",
+      "phonetic": "/ˈbɪldɪŋ/",
+      "pos": "n.",
+      "meaning": "建筑物；楼房",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "That building is very tall.",
+          "zh": "那栋楼非常高。"
+        },
+        {
+          "en": "The old building was knocked down.",
+          "zh": "那座旧楼被拆掉了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "build(建造)+ing,建造出来的房子就是建筑物。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a tall building",
+          "an office building"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-030",
+      "word": "monument",
+      "phonetic": "/ˈmɒnjumənt/",
+      "pos": "n.",
+      "meaning": "纪念碑；历史遗迹",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The monument stands in the square.",
+          "zh": "纪念碑矗立在广场上。"
+        },
+        {
+          "en": "We visited a famous monument.",
+          "zh": "我们参观了一处著名的纪念碑。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "mon(提醒,同 remind)+ument,让人记住某人某事而立的碑就是纪念碑。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a famous monument",
+          "an ancient monument"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-031",
+      "word": "downtown",
+      "phonetic": "/ˌdaʊnˈtaʊn/",
+      "pos": "n.",
+      "meaning": "市中心；商业区",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She works downtown.",
+          "zh": "她在市中心上班。"
+        },
+        {
+          "en": "Downtown is busy at night.",
+          "zh": "市中心夜里很热闹。"
+        }
+      ],
+      "synonyms": [
+        "city centre"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "down(向下/核心)+town(城),城里最热闹的核心区就是市中心。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "go downtown",
+          "downtown area"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-032",
+      "word": "suburb",
+      "phonetic": "/ˈsʌbɜːb/",
+      "pos": "n.",
+      "meaning": "郊区",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "They moved to the suburbs.",
+          "zh": "他们搬到了郊区。"
+        },
+        {
+          "en": "The suburb is quieter than the city.",
+          "zh": "郊区比市里安静。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "sub(在...下面/附近)+urb(城,拉丁 urbs),城市边上的一圈就是郊区。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "in the suburbs",
+          "a quiet suburb"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-033",
+      "word": "cathedral",
+      "phonetic": "/kəˈθiːdrəl/",
+      "pos": "n.",
+      "meaning": "大教堂",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The cathedral is hundreds of years old.",
+          "zh": "这座大教堂有几百年历史。"
+        },
+        {
+          "en": "Tourists visit the old cathedral.",
+          "zh": "游客参观这座古老的大教堂。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "cathedral 谐音\"卡西着扰\"不对,记\"卡瑟准\"——城里最大最气派的教堂就是大教堂。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an old cathedral",
+          "visit the cathedral"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-034",
+      "word": "public",
+      "phonetic": "/ˈpʌblɪk/",
+      "pos": "adj.",
+      "meaning": "公共的；公众的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is a public library nearby.",
+          "zh": "附近有一座公共图书馆。"
+        },
+        {
+          "en": "Public transport is cheap here.",
+          "zh": "这里的公共交通很便宜。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "private"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "public 谐音\"扒不理克\"不对,记\"帕布利克\"——大家都能用的、属于公众的就是公共的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "public transport",
+          "a public place"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-035",
+      "word": "crowd",
+      "phonetic": "/kraʊd/",
+      "pos": "n.",
+      "meaning": "人群；群众",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A large crowd gathered in the square.",
+          "zh": "一大群人聚集在广场上。"
+        },
+        {
+          "en": "She got lost in the crowd.",
+          "zh": "她在人群中走散了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "crowd 谐音\"烤肉的\"不对,记\"克劳德\"——黑压压挤在一起的一大群人就是人群。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a large crowd",
+          "in the crowd"
+        ]
+      }
+    },
+    {
+      "id": "pet-city-036",
+      "word": "sign",
+      "phonetic": "/saɪn/",
+      "pos": "n.",
+      "meaning": "标志；牌子；指示牌",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The sign says 'No Parking'.",
+          "zh": "牌子上写着\"禁止停车\"。"
+        },
+        {
+          "en": "Follow the signs to the station.",
+          "zh": "顺着指示牌走到车站。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "city"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "sign 谐音\"赛恩\"——g不发音;街上指路、警示的牌子就是 sign。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a road sign",
+          "follow the signs"
+        ]
+      }
+    }
+  ]
+}
