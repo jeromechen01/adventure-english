@@ -1,0 +1,99 @@
+{
+  "level": "B1",
+  "title": "PET 阅读 · 第一组",
+  "articles": [
+    {
+      "id": "pet-r-001",
+      "title": "A Note from the Library",
+      "level": "B1",
+      "lexile": 650,
+      "wordCount": 92,
+      "category": "notice",
+      "content": "Dear students, the school library will close early this Friday. We are moving the books to bigger shelves, so the reading room will not be open in the afternoon. If you want to borrow books for the weekend, please come before twelve o'clock. Students who already have books at home can return them next Monday. The computers will still work in the morning. We are sorry for any trouble, and we hope you enjoy the new library soon. Thank you for your help. The Library Team",
+      "translation": "亲爱的同学们，学校图书馆本周五将提前关闭。我们要把书搬到更大的书架上，所以阅览室下午不开放。如果你想借书过周末，请在十二点之前过来。已经把书借回家的同学可以下周一再归还。上午电脑仍然可以使用。给大家带来的不便，我们深表歉意，希望你们很快就能享受新图书馆。谢谢你们的配合。图书馆团队",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "Why will the library close early on Friday?",
+          "options": ["Because the computers are broken", "Because the books are being moved", "Because it is a holiday", "Because there are too many students"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "What should students do if they want weekend books?",
+          "options": ["Come after twelve o'clock", "Wait until Monday", "Come before twelve o'clock", "Use the computers"],
+          "answer": 2
+        },
+        {
+          "type": "truefalse",
+          "q": "The computers can be used in the morning.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["library", "borrow", "return", "shelves"],
+      "petSkills": ["detail", "gist"]
+    },
+    {
+      "id": "pet-r-002",
+      "title": "My First Cooking Class",
+      "level": "B1",
+      "lexile": 700,
+      "wordCount": 108,
+      "category": "story",
+      "content": "Last Saturday I went to my first cooking class. I was a little nervous because I had never used a real kitchen before. Our teacher, Mr Lee, was very friendly. He showed us how to follow a simple recipe for vegetable soup. First, we cut the fresh vegetables into small pieces. Then we boiled them in water for twenty minutes. The soup smelled delicious, and everyone was proud of it. Mr Lee told us that cooking at home is often healthier than eating out. Now I make soup for my family every week, and they say it tastes wonderful.",
+      "translation": "上周六我去上了第一节烹饪课。我有点紧张，因为我以前从没用过真正的厨房。我们的老师李先生非常友善。他教我们按照一个简单的蔬菜汤食谱做菜。首先，我们把新鲜蔬菜切成小块。然后在水里煮二十分钟。汤闻起来很香，大家都为它感到自豪。李先生告诉我们，在家做饭通常比在外面吃更健康。现在我每周都为家人做汤，他们说味道好极了。",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "How did the writer feel at the start of the class?",
+          "options": ["Bored", "Nervous", "Angry", "Sleepy"],
+          "answer": 1
+        },
+        {
+          "type": "choice",
+          "q": "What did they cook in the class?",
+          "options": ["Vegetable soup", "Fried eggs", "A birthday cake", "Spicy noodles"],
+          "answer": 0
+        },
+        {
+          "type": "truefalse",
+          "q": "The writer now cooks soup for the family every week.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["recipe", "boil", "fresh", "healthy", "delicious"],
+      "petSkills": ["detail", "inference"]
+    },
+    {
+      "id": "pet-r-003",
+      "title": "A Trip to the Mountains",
+      "level": "B1",
+      "lexile": 760,
+      "wordCount": 115,
+      "category": "email",
+      "content": "Hi Sam, I hope you are well. Last week my family took a journey to the mountains, and it was amazing. We arrived at a small village after a three-hour bus ride. Our accommodation was a wooden house near a river. Every morning we went sightseeing with a local guide, who showed us hidden paths and told us funny stories. One day it rained, so we stayed inside and played games. Before we left, I bought a tiny souvenir for you at a shop by the station. I can't wait to explore more places with you next summer. Write back soon! Your friend, Emma",
+      "translation": "嗨，山姆，希望你一切都好。上周我家去山里旅行了一趟，非常棒。坐了三小时的巴士后，我们到达了一个小村庄。我们的住处是河边的一间木屋。每天早晨我们都和当地导游一起观光，他带我们走那些隐秘的小路，还讲有趣的故事。有一天下雨，我们就待在屋里玩游戏。离开前，我在车站旁的一家小店给你买了个小纪念品。我等不及明年夏天和你一起探索更多地方了。快回信！你的朋友，艾玛",
+      "questions": [
+        {
+          "type": "choice",
+          "q": "How long was the bus ride to the village?",
+          "options": ["One hour", "Two hours", "Three hours", "Four hours"],
+          "answer": 2
+        },
+        {
+          "type": "choice",
+          "q": "What did Emma do on the rainy day?",
+          "options": ["Went sightseeing", "Stayed inside and played games", "Bought a souvenir", "Walked by the river"],
+          "answer": 1
+        },
+        {
+          "type": "truefalse",
+          "q": "Emma bought a souvenir for Sam.",
+          "answer": true
+        }
+      ],
+      "keyWords": ["journey", "accommodation", "sightseeing", "guide", "souvenir", "explore"],
+      "petSkills": ["detail", "gist"]
+    }
+  ]
+}

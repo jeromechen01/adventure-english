@@ -3,6 +3,7 @@ import { loadJSON, toast } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound, recognize, similarity, isSpeechRecognitionSupported, stopSpeaking } from '../speech.js';
 import { renderRecite } from './recite.js';
+import { collectPetWordsForIndex } from './pet.js';
 
 // 缓存所有单词的本地词库 (用于点词查义)
 let wordIndex = null;
@@ -18,13 +19,26 @@ async function buildWordIndex() {
       if (!wordIndex[key]) wordIndex[key] = w;
     }));
   }
+  // PET 话题词也并入索引（供点词查义）
+  await collectPetWordsForIndex(wordIndex);
   return wordIndex;
+}
+
+// 归一化题目：把 truefalse 题转成两个选项的选择题，复用现有做题引擎
+function normalizeQuestions(article) {
+  return (article.questions || []).map(q => {
+    if (q.type === 'truefalse' && !Array.isArray(q.options)) {
+      return { ...q, options: ['正确 (True)', '错误 (False)'], answer: (q.answer === true || q.answer === 0) ? 0 : 1 };
+    }
+    return q;
+  });
 }
 
 export async function renderReadingPage(app, params) {
   const profile = storage.getProfile();
-  const level = profile.grade <= 2 ? 'kindergarten' : profile.grade <= 6 ? 'primary' : 'junior';
-  const data = await loadJSON(`data/reading/${level}.json`);
+  const isPet = profile.grade === 'PET';
+  const level = isPet ? 'pet' : (profile.grade <= 2 ? 'kindergarten' : profile.grade <= 6 ? 'primary' : 'junior');
+  const data = await loadJSON(isPet ? 'data/pet/reading/pet-reading-1.json' : `data/reading/${level}.json`);
   if (!data) {
     app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';
     return;
@@ -39,7 +53,7 @@ export async function renderReadingPage(app, params) {
       <button id="backBtn" class="text-2xl">‹</button>
       <h2 class="text-xl font-bold">📖 阅读乐园</h2>
     </div>
-    <div class="text-xs text-gray-500 mb-3">${level === 'kindergarten' ? '启蒙阅读' : level === 'primary' ? '小学' : '初中'}阅读 · 共 ${data.articles.length} 篇</div>
+    <div class="text-xs text-gray-500 mb-3">${level === 'kindergarten' ? '启蒙阅读' : level === 'primary' ? '小学阅读' : level === 'pet' ? 'PET (B1) 阅读' : '初中阅读'} · 共 ${data.articles.length} 篇</div>
 
     <div class="space-y-2">
       ${data.articles.map(a => {
@@ -77,6 +91,7 @@ async function renderArticle(app, data, articleId) {
   }
 
   await buildWordIndex();
+  const quizQuestions = normalizeQuestions(article); // 归一化(支持 truefalse)
   let showTranslation = false;
   let mode = 'read'; // read | quiz
 
@@ -112,7 +127,7 @@ async function renderArticle(app, data, articleId) {
         <button id="reciteBtn" class="btn-cartoon text-sm">🎤 跟读背诵</button>
       </div>
 
-      <button id="quizBtn" class="w-full btn-cartoon">📝 完成阅读后做题 (${article.questions.length} 题)</button>
+      <button id="quizBtn" class="w-full btn-cartoon">📝 完成阅读后做题 (${quizQuestions.length} 题)</button>
     `;
 
     app.querySelector('#backBtn').addEventListener('click', () => { stopSpeaking(); window.__nav('reading'); });
@@ -182,7 +197,7 @@ async function renderArticle(app, data, articleId) {
   }
 
   function renderQuiz() {
-    let answers = new Array(article.questions.length).fill(null);
+    let answers = new Array(quizQuestions.length).fill(null);
     let submitted = false;
 
     function paint() {
@@ -193,7 +208,7 @@ async function renderArticle(app, data, articleId) {
         </div>
 
         <div class="space-y-3">
-          ${article.questions.map((q, qi) => `
+          ${quizQuestions.map((q, qi) => `
             <div class="card-cartoon">
               <div class="text-xs text-gray-400 mb-1">第 ${qi+1} 题</div>
               <div class="font-en mb-3">${q.q}</div>
@@ -234,12 +249,12 @@ async function renderArticle(app, data, articleId) {
           }
           submitted = true;
           // 计分
-          const correct = answers.filter((a, i) => a === article.questions[i].answer).length;
+          const correct = answers.filter((a, i) => a === quizQuestions[i].answer).length;
           const reward = correct * 5;
           storage.addCoins(reward);
           storage.progressDailyTask('reading1', 1);
-          playSound(correct === article.questions.length ? 'levelup' : 'correct');
-          toast(`答对 ${correct}/${article.questions.length} 题，+${reward}🪙`, 'success');
+          playSound(correct === quizQuestions.length ? 'levelup' : 'correct');
+          toast(`答对 ${correct}/${quizQuestions.length} 题，+${reward}🪙`, 'success');
           paint();
         });
       } else {

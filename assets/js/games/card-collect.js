@@ -40,10 +40,10 @@ export function renderCardCollect(app) {
     </div>
 
     ${cards.length === 0 ? `
-      <div class="card-cartoon text-center py-12">
-        <div class="text-5xl mb-3">📭</div>
-        <div class="font-bold mb-1">还没有卡牌</div>
-        <div class="text-sm text-gray-500">完成单词学习单元有机会抽到卡牌</div>
+      <div class="card-cartoon empty-state">
+        <span class="empty-emoji">🃏✨</span>
+        <div class="empty-text">还没有卡牌哦</div>
+        <div class="empty-sub">完成单词学习单元，就有机会抽到稀有卡牌！</div>
       </div>
     ` : `
       <div class="grid grid-cols-2 gap-3">

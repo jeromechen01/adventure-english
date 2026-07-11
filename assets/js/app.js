@@ -8,6 +8,7 @@ import { renderReinforce } from './modules/reinforce.js';
 import { renderGrammarPage } from './modules/grammar.js';
 import { renderReadingPage } from './modules/reading.js';
 import { renderWritingPage } from './modules/writing.js';
+import { renderPetTopicMap, collectPetWordsById } from './modules/pet.js';
 
 // 全局状态
 const state = {
@@ -89,6 +90,7 @@ function updateTopNav() {
 }
 
 function gradeLabel(g) {
+  if (g === 'PET') return 'PET 备考';
   const map = { 1: '一年级', 2: '二年级', 3: '三年级', 4: '四年级', 5: '五年级', 6: '六年级', 7: '七年级', 8: '八年级', 9: '九年级' };
   return map[g] || `${g}年级`;
 }
@@ -123,6 +125,7 @@ async function navigate(page, params = {}) {
     case 'grammar':    await renderGrammarPage(app, params); break;
     case 'reading':    await renderReadingPage(app, params); break;
     case 'writing':    await renderWritingPage(app, params); break;
+    case 'petlevels':  await renderPetTopicMap(app, params.topic); break;
     default:           await renderHome(app);
   }
 
@@ -283,10 +286,10 @@ async function renderMistakes(app) {
   if (mistakes.length === 0) {
     app.innerHTML = `
       <h2 class="text-xl font-bold mb-4">📝 错题本</h2>
-      <div class="card-cartoon text-center py-12">
-        <div class="text-5xl mb-3">🎉</div>
-        <div class="font-bold mb-1">还没有错题哦！</div>
-        <div class="text-sm text-gray-500">继续保持，加油！</div>
+      <div class="card-cartoon empty-state">
+        <span class="empty-emoji">🦊🎉</span>
+        <div class="empty-text">太棒啦，一道错题都没有！</div>
+        <div class="empty-sub">继续保持，你超厉害的，加油！💪</div>
       </div>
     `;
     return;
@@ -299,6 +302,8 @@ async function renderMistakes(app) {
     if (!data) continue;
     data.units.forEach(u => u.words.forEach(w => { wordMap[w.id] = { ...w, grade: g }; }));
   }
+  // PET 话题词也纳入，错词本才能显示 PET 单词
+  await collectPetWordsById(wordMap);
 
   const items = mistakes.map(id => wordMap[id]).filter(Boolean);
 
@@ -313,7 +318,7 @@ async function renderMistakes(app) {
           <div class="flex-1">
             <div class="font-bold font-en">${w.word} <span class="text-xs text-gray-400 font-sans">${w.phonetic}</span></div>
             <div class="text-sm text-gray-600">${w.pos} ${w.meaning}</div>
-            <div class="text-xs text-gray-400 mt-0.5">${gradeLabel(w.grade)}</div>
+            <div class="text-xs text-gray-400 mt-0.5">${w.petTopic ? 'PET · ' + w.petTopic : gradeLabel(w.grade)}</div>
           </div>
           <button data-act="speak" class="p-2 text-primary text-2xl">🔊</button>
           <button data-act="remove" class="p-2 text-green-500 text-xl">✓</button>
@@ -445,7 +450,7 @@ function renderMe(app) {
     </div>
 
     <div class="text-center text-xs text-gray-400 mt-6">
-      英语奇遇记 v0.2 · 闯关趣味强化版<br>
+      英语奇遇记 v0.3 · PET 备考框架版<br>
       数据全部保存在本机，不上传任何信息
     </div>
   `;
@@ -539,15 +544,25 @@ function showGradePicker() {
           `;
         }).join('')}
       </div>
+      <button data-grade="PET" class="w-full card-cartoon tap-bounce mt-3 flex items-center gap-3 text-left ${profile.grade==='PET'?'ring-2 ring-primary':''}"
+        style="padding:12px 14px;background:linear-gradient(135deg,#FFE3C2,#FFD0E0)">
+        <div class="text-3xl">🎓</div>
+        <div class="flex-1">
+          <div class="font-bold text-sm">PET 剑桥备考</div>
+          <div class="text-[11px] text-gray-500">B1 话题词汇 + 阅读，进阶挑战</div>
+        </div>
+      </button>
     </div>
   `);
   document.querySelectorAll('[data-grade]').forEach(btn => {
     btn.addEventListener('click', () => {
-      const g = parseInt(btn.dataset.grade);
+      const raw = btn.dataset.grade;
+      const g = raw === 'PET' ? 'PET' : parseInt(raw);
       storage.setGrade(g);
       closeModal();
       updateTopNav();
-      navigate(state.page);
+      // PET 与数字年级页面结构不同，切换后统一回单词主页，避免停留在不兼容的子页
+      navigate(g === 'PET' ? 'words' : state.page);
       toast(`已切换至 ${gradeLabel(g)}`, 'success');
     });
   });
@@ -593,7 +608,7 @@ function showFirstLaunchWelcome() {
       <div class="text-6xl mb-3">🦊</div>
       <h3 class="font-bold text-xl mb-2">欢迎来到英语奇遇记！</h3>
       <p class="text-sm text-gray-600 mb-4">先告诉我你在读几年级，我会帮你匹配最合适的内容</p>
-      <div class="grid grid-cols-3 gap-2 mb-4">
+      <div class="grid grid-cols-3 gap-2 mb-2">
         ${[1,2,3,4,5,6,7,8,9].map(g => {
           const icon = g <= 2 ? '🌱' : g <= 6 ? '📗' : '📘';
           return `
@@ -604,12 +619,17 @@ function showFirstLaunchWelcome() {
           `;
         }).join('')}
       </div>
+      <button data-grade="PET" class="w-full card-cartoon tap-bounce mb-4 flex items-center gap-2 text-left" style="padding:10px 12px;background:linear-gradient(135deg,#FFE3C2,#FFD0E0)">
+        <div class="text-2xl">🎓</div>
+        <div class="font-bold text-xs flex-1">PET 剑桥备考 (B1)</div>
+      </button>
       <p class="text-xs text-gray-400">之后可以在右上角随时切换</p>
     </div>
   `, { closeOnBackdrop: false });
   document.querySelectorAll('[data-grade]').forEach(btn => {
     btn.addEventListener('click', () => {
-      storage.setGrade(parseInt(btn.dataset.grade));
+      const raw = btn.dataset.grade;
+      storage.setGrade(raw === 'PET' ? 'PET' : parseInt(raw));
       closeModal();
       updateTopNav();
       navigate('home');

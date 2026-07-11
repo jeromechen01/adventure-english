@@ -10,7 +10,7 @@ export function renderMatchGame(app, data, grade) {
   const playable = allWords.filter(w => /^[a-zA-Z]+$/.test(w.word) && w.word.length <= 10);
 
   if (playable.length === 0) {
-    app.innerHTML = '<div class="text-center py-12 text-gray-400">暂无可玩单词</div>';
+    app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">🦊📚</span><div class="empty-text">这里还没有可玩的单词</div><div class="empty-sub">先去学习几个新单词再来挑战吧！</div></div>';
     return;
   }
 
