@@ -1,0 +1,1465 @@
+{
+  "topic": "family",
+  "topicName": "Family & Friends 家庭朋友",
+  "icon": "👨‍👩‍👧",
+  "level": "B1",
+  "totalWords": 40,
+  "words": [
+    {
+      "id": "pet-family-001",
+      "word": "relative",
+      "phonetic": "/ˈrelətɪv/",
+      "pos": "n.",
+      "meaning": "亲戚",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "All my relatives came to the party.",
+          "zh": "我所有的亲戚都来参加聚会了。"
+        },
+        {
+          "en": "She has relatives in Canada.",
+          "zh": "她在加拿大有亲戚。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "relate(有关联)+ive(人),和你血缘相关联的人就是亲戚。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "close relatives",
+          "a distant relative"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-002",
+      "word": "cousin",
+      "phonetic": "/ˈkʌzn/",
+      "pos": "n.",
+      "meaning": "表(堂)兄弟姐妹",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "My cousin is the same age as me.",
+          "zh": "我表弟和我同岁。"
+        },
+        {
+          "en": "I have five cousins.",
+          "zh": "我有五个表兄弟姐妹。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "cousin 谐音\"卡怎\"不对,记\"咳怎\"——过年见到表亲,咳一声\"你咋长这么高了\"。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a close cousin",
+          "my cousin"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-003",
+      "word": "aunt",
+      "phonetic": "/ɑːnt/",
+      "pos": "n.",
+      "meaning": "姑姑；阿姨；姨母",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "My aunt lives next door.",
+          "zh": "我姑姑住在隔壁。"
+        },
+        {
+          "en": "Aunt Mary bakes wonderful cakes.",
+          "zh": "玛丽姑姑烤的蛋糕很好吃。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "uncle"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "aunt 谐音\"安特\"——阿姨总是安慰你、特别疼你。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "my aunt",
+          "Aunt Mary"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-004",
+      "word": "uncle",
+      "phonetic": "/ˈʌŋkl/",
+      "pos": "n.",
+      "meaning": "叔叔；舅舅；姑父",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "My uncle is a doctor.",
+          "zh": "我叔叔是医生。"
+        },
+        {
+          "en": "We visited Uncle Tom last week.",
+          "zh": "上周我们去看了汤姆叔叔。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "aunt"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "uncle 谐音\"昂口\"——叔叔总是昂着头,张口逗你笑。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "my uncle",
+          "Uncle Tom"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-005",
+      "word": "grandparent",
+      "phonetic": "/ˈɡrænpeərənt/",
+      "pos": "n.",
+      "meaning": "祖父母；外祖父母",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "My grandparents live in the countryside.",
+          "zh": "我的祖父母住在乡下。"
+        },
+        {
+          "en": "I visit my grandparents every summer.",
+          "zh": "我每年夏天都去看祖父母。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "grandchild"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "grand(大的/尊长的)+parent(父母),父母上头的长辈就是祖父母。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "visit grandparents",
+          "my grandparents"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-006",
+      "word": "husband",
+      "phonetic": "/ˈhʌzbənd/",
+      "pos": "n.",
+      "meaning": "丈夫",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Her husband works abroad.",
+          "zh": "她丈夫在国外工作。"
+        },
+        {
+          "en": "He is a good husband and father.",
+          "zh": "他是个好丈夫、好父亲。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "wife"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "house(房子)+band(带子),用心把一个家绑在一起的男人就是丈夫。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "my husband",
+          "a good husband"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-007",
+      "word": "wife",
+      "phonetic": "/waɪf/",
+      "pos": "n.",
+      "meaning": "妻子",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "His wife is a teacher.",
+          "zh": "他妻子是老师。"
+        },
+        {
+          "en": "They have been husband and wife for ten years.",
+          "zh": "他们做了十年的夫妻。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "husband"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "wife 复数变 wives(f变v),记住这个特殊变化;妻子是家中的\"生活(life)\"担当。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "my wife",
+          "his wife"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-008",
+      "word": "couple",
+      "phonetic": "/ˈkʌpl/",
+      "pos": "n.",
+      "meaning": "夫妇；一对；几个",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The young couple bought a new house.",
+          "zh": "这对年轻夫妇买了新房。"
+        },
+        {
+          "en": "I'll be back in a couple of days.",
+          "zh": "我过几天就回来。"
+        }
+      ],
+      "synonyms": [
+        "pair"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "coup(连接,同 couple/coupling)+le,连在一起的两个就是一对/夫妇。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a married couple",
+          "a couple of"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-009",
+      "word": "marriage",
+      "phonetic": "/ˈmærɪdʒ/",
+      "pos": "n.",
+      "meaning": "婚姻；结婚",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Their marriage is very happy.",
+          "zh": "他们的婚姻很幸福。"
+        },
+        {
+          "en": "The marriage took place in spring.",
+          "zh": "婚礼在春天举行。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "marry(结婚)+age,结婚这件事和之后的状态就是 marriage。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a happy marriage",
+          "marriage certificate"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-010",
+      "word": "wedding",
+      "phonetic": "/ˈwedɪŋ/",
+      "pos": "n.",
+      "meaning": "婚礼",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We danced all night at the wedding.",
+          "zh": "婚礼上我们跳了一整晚舞。"
+        },
+        {
+          "en": "She wore a white dress at her wedding.",
+          "zh": "她在婚礼上穿了白色的礼服。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "wedding 谐音\"喂丁\"——婚礼上新人互相\"喂\"喜糖,人丁兴旺。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a wedding party",
+          "at the wedding"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-011",
+      "word": "neighbour",
+      "phonetic": "/ˈneɪbə/",
+      "pos": "n.",
+      "meaning": "邻居",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Our neighbours are very kind.",
+          "zh": "我们的邻居很友善。"
+        },
+        {
+          "en": "The neighbour lent us some milk.",
+          "zh": "邻居借给我们一些牛奶。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "nigh(近,古语)+bour(住户),住得近的人家就是邻居。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a next-door neighbour",
+          "friendly neighbours"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-012",
+      "word": "friendship",
+      "phonetic": "/ˈfrendʃɪp/",
+      "pos": "n.",
+      "meaning": "友谊；友情",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Their friendship lasted many years.",
+          "zh": "他们的友谊持续了很多年。"
+        },
+        {
+          "en": "Friendship is more important than money.",
+          "zh": "友谊比金钱更重要。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "friend(朋友)+ship(状态/关系),朋友之间的关系就是友谊。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a close friendship",
+          "make friends"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-013",
+      "word": "relationship",
+      "phonetic": "/rɪˈleɪʃnʃɪp/",
+      "pos": "n.",
+      "meaning": "关系；感情",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "They have a close relationship.",
+          "zh": "他们关系很亲密。"
+        },
+        {
+          "en": "A good relationship needs trust.",
+          "zh": "好的关系需要信任。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "relation(关联)+ship(状态),人与人关联的状态就是关系。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a close relationship",
+          "a good relationship"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-014",
+      "word": "partner",
+      "phonetic": "/ˈpɑːtnə/",
+      "pos": "n.",
+      "meaning": "伴侣；搭档；合伙人",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She dances with her partner.",
+          "zh": "她和舞伴一起跳舞。"
+        },
+        {
+          "en": "They are business partners.",
+          "zh": "他们是生意上的合伙人。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "part(部分)+ner(人),和你分担一部分的人就是搭档/伴侣。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a business partner",
+          "a dance partner"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-015",
+      "word": "twin",
+      "phonetic": "/twɪn/",
+      "pos": "n.",
+      "meaning": "双胞胎之一",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She has a twin sister.",
+          "zh": "她有一个双胞胎姐妹。"
+        },
+        {
+          "en": "The twins look exactly the same.",
+          "zh": "这对双胞胎长得一模一样。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "twin 里的 tw 像 two(二),一次生俩就是双胞胎。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a twin brother",
+          "identical twins"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-016",
+      "word": "married",
+      "phonetic": "/ˈmærid/",
+      "pos": "adj.",
+      "meaning": "已婚的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "They have been married for five years.",
+          "zh": "他们结婚五年了。"
+        },
+        {
+          "en": "Is your sister married?",
+          "zh": "你姐姐结婚了吗？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "single"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "marry(结婚)+ed,处于结了婚的状态就是 married。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "get married",
+          "a married couple"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-017",
+      "word": "single",
+      "phonetic": "/ˈsɪŋɡl/",
+      "pos": "adj.",
+      "meaning": "单身的；单一的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "He is still single.",
+          "zh": "他还是单身。"
+        },
+        {
+          "en": "I'd like a single room.",
+          "zh": "我想要一间单人房。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "married"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "sing(单个,同 single的sin)+le,一个人、单独就是 single。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a single room",
+          "stay single"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-018",
+      "word": "generation",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "pos": "n.",
+      "meaning": "一代人；一辈",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Three generations live in this house.",
+          "zh": "三代人住在这栋房子里。"
+        },
+        {
+          "en": "Young generations love the internet.",
+          "zh": "年轻一代喜欢网络。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "gener(产生,同 generate)+ation,一批一同出生长大的人就是一代。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "the younger generation",
+          "generation gap"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-019",
+      "word": "adult",
+      "phonetic": "/ˈædʌlt/",
+      "pos": "n.",
+      "meaning": "成年人",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Tickets are cheaper for adults.",
+          "zh": "成人票更便宜。"
+        },
+        {
+          "en": "An adult should look after the children.",
+          "zh": "应该有成年人照看孩子。"
+        }
+      ],
+      "synonyms": [
+        "grown-up"
+      ],
+      "antonyms": [
+        "child"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "ad(向)+ult(长大,同 adolescent),长大成人就是 adult。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an adult ticket",
+          "young adults"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-020",
+      "word": "teenager",
+      "phonetic": "/ˈtiːneɪdʒə/",
+      "pos": "n.",
+      "meaning": "青少年(13-19岁)",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Teenagers often use social media.",
+          "zh": "青少年常常使用社交媒体。"
+        },
+        {
+          "en": "As a teenager, she loved music.",
+          "zh": "十几岁时她很喜欢音乐。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "teen(词尾-teen的13至19)+ager,年龄带 teen 的人就是青少年。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a young teenager",
+          "most teenagers"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-021",
+      "word": "childhood",
+      "phonetic": "/ˈtʃaɪldhʊd/",
+      "pos": "n.",
+      "meaning": "童年",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She had a happy childhood.",
+          "zh": "她有一个快乐的童年。"
+        },
+        {
+          "en": "This song reminds me of my childhood.",
+          "zh": "这首歌让我想起童年。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "child(孩子)+hood(时期/状态),做孩子的那段时期就是童年。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a happy childhood",
+          "in my childhood"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-022",
+      "word": "elderly",
+      "phonetic": "/ˈeldəli/",
+      "pos": "adj.",
+      "meaning": "年长的；上了年纪的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We should help elderly people.",
+          "zh": "我们应该帮助老年人。"
+        },
+        {
+          "en": "An elderly man sat by the door.",
+          "zh": "一位老人坐在门边。"
+        }
+      ],
+      "synonyms": [
+        "old"
+      ],
+      "antonyms": [
+        "young"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "elder(年长者)+ly,比 old 更客气地形容上了年纪的人。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "elderly people",
+          "an elderly couple"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-023",
+      "word": "look after",
+      "phonetic": "/lʊk ˈɑːftə/",
+      "pos": "phr.",
+      "meaning": "照顾；照料",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She looks after her little brother.",
+          "zh": "她照顾弟弟。"
+        },
+        {
+          "en": "Can you look after my cat this weekend?",
+          "zh": "这周末你能帮我照看猫吗？"
+        }
+      ],
+      "synonyms": [
+        "take care of"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "look(看)+after(在...之后),寸步不离跟在后面看着=照顾。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "look after children",
+          "look after a pet"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-024",
+      "word": "get on",
+      "phonetic": "/ɡet ɒn/",
+      "pos": "phr.",
+      "meaning": "和睦相处；进展",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I get on well with my sister.",
+          "zh": "我和姐姐相处得很好。"
+        },
+        {
+          "en": "How are you getting on at school?",
+          "zh": "你在学校过得怎么样？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "两人能一起\"get on\"(上同一辆车)不吵架,就是相处融洽。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "get on with",
+          "get on well"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-025",
+      "word": "argue",
+      "phonetic": "/ˈɑːɡjuː/",
+      "pos": "v.",
+      "meaning": "争吵；争论",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "They often argue about money.",
+          "zh": "他们经常为钱争吵。"
+        },
+        {
+          "en": "Don't argue with your mother.",
+          "zh": "别和你妈妈顶嘴。"
+        }
+      ],
+      "synonyms": [
+        "quarrel"
+      ],
+      "antonyms": [
+        "agree"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "argue 谐音\"啊Q\"——一言不合就啊啊地争起来。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "argue about",
+          "argue with"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-026",
+      "word": "trust",
+      "phonetic": "/trʌst/",
+      "pos": "v./n.",
+      "meaning": "信任；信赖",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I trust my best friend.",
+          "zh": "我信任我最好的朋友。"
+        },
+        {
+          "en": "Trust is the base of friendship.",
+          "zh": "信任是友谊的基础。"
+        }
+      ],
+      "synonyms": [
+        "believe in"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "trust 谐音\"抓死他\"不对,记\"踏实\"——信任让人心里踏实。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "trust someone",
+          "build trust"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-027",
+      "word": "support",
+      "phonetic": "/səˈpɔːt/",
+      "pos": "v./n.",
+      "meaning": "支持；支撑",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My family always supports me.",
+          "zh": "我的家人总是支持我。"
+        },
+        {
+          "en": "Thank you for your support.",
+          "zh": "谢谢你的支持。"
+        }
+      ],
+      "synonyms": [
+        "help"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "sup(在下面)+port(拿/搬),从底下托住你就是支持。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "support a family",
+          "give support"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-028",
+      "word": "promise",
+      "phonetic": "/ˈprɒmɪs/",
+      "pos": "v./n.",
+      "meaning": "承诺；答应",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "He promised to help me.",
+          "zh": "他答应帮我。"
+        },
+        {
+          "en": "Always keep your promise.",
+          "zh": "一定要信守诺言。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "pro(向前)+mise(送,同 mission的mis),把话提前送出去=承诺。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "make a promise",
+          "keep a promise"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-029",
+      "word": "invite",
+      "phonetic": "/ɪnˈvaɪt/",
+      "pos": "v.",
+      "meaning": "邀请",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "They invited us to dinner.",
+          "zh": "他们邀请我们共进晚餐。"
+        },
+        {
+          "en": "She invited ten friends to her party.",
+          "zh": "她邀请了十个朋友参加聚会。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "in(进入)+vite(生命/邀,同 invitation),请人进入你的生活场合=邀请。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "invite to a party",
+          "invite someone"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-030",
+      "word": "guest",
+      "phonetic": "/ɡest/",
+      "pos": "n.",
+      "meaning": "客人；宾客",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We have guests for dinner tonight.",
+          "zh": "今晚我们有客人来吃饭。"
+        },
+        {
+          "en": "The hotel welcomes its guests warmly.",
+          "zh": "酒店热情欢迎客人。"
+        }
+      ],
+      "synonyms": [
+        "visitor"
+      ],
+      "antonyms": [
+        "host"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "guest 谐音\"给死它\"不对,记\"盖斯特\"——来做客的贵斯特(客人)要好好招待。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a special guest",
+          "welcome guests"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-031",
+      "word": "host",
+      "phonetic": "/həʊst/",
+      "pos": "n./v.",
+      "meaning": "主人；主办",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The host welcomed everyone.",
+          "zh": "主人欢迎每一个人。"
+        },
+        {
+          "en": "They hosted a big party.",
+          "zh": "他们举办了一场大型聚会。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "guest"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "host 和 hotel 开头都是 host/hos,招待客人的那位主人就是 host。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a party host",
+          "host a dinner"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-032",
+      "word": "gather",
+      "phonetic": "/ˈɡæðə/",
+      "pos": "v.",
+      "meaning": "聚集；收集",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The family gathers at Christmas.",
+          "zh": "圣诞节全家团聚。"
+        },
+        {
+          "en": "People gathered in the square.",
+          "zh": "人们聚集在广场上。"
+        }
+      ],
+      "synonyms": [
+        "collect"
+      ],
+      "antonyms": [
+        "scatter"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "gather 里有 together(一起)的影子,大家聚到一起就是 gather。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "gather together",
+          "gather information"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-033",
+      "word": "celebrate",
+      "phonetic": "/ˈselɪbreɪt/",
+      "pos": "v.",
+      "meaning": "庆祝",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We celebrate my birthday every year.",
+          "zh": "我们每年都庆祝我的生日。"
+        },
+        {
+          "en": "They celebrated their success.",
+          "zh": "他们庆祝了他们的成功。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "celebrate 谐音\"塞了不累\"——好日子塞满欢乐,再累也值,一起庆祝。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "celebrate a birthday",
+          "celebrate together"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-034",
+      "word": "together",
+      "phonetic": "/təˈɡeðə/",
+      "pos": "adv.",
+      "meaning": "一起；共同",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We do homework together.",
+          "zh": "我们一起做作业。"
+        },
+        {
+          "en": "The whole family eats dinner together.",
+          "zh": "全家人一起吃晚饭。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "apart"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "拆解",
+        "tip": "to+gether(聚集,同 gather),聚到一处就是一起。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "get together",
+          "work together"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-035",
+      "word": "close",
+      "phonetic": "/kləʊs/",
+      "pos": "adj.",
+      "meaning": "亲密的；近的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She is a close friend of mine.",
+          "zh": "她是我的一个密友。"
+        },
+        {
+          "en": "Our family is very close.",
+          "zh": "我们一家人非常亲密。"
+        }
+      ],
+      "synonyms": [
+        "near"
+      ],
+      "antonyms": [
+        "distant"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "联想",
+        "tip": "close 本义\"靠近\",关系靠得近就是亲密(注意这里读 /kləʊs/)。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a close friend",
+          "close to"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-036",
+      "word": "care",
+      "phonetic": "/keə/",
+      "pos": "v./n.",
+      "meaning": "关心；在乎；照料",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "She cares about her friends.",
+          "zh": "她关心她的朋友。"
+        },
+        {
+          "en": "Take care of yourself.",
+          "zh": "照顾好你自己。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "care 谐音\"开呀\"——真心关心一个人,巴不得对他敞开心。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "care about",
+          "take care of"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-037",
+      "word": "share",
+      "phonetic": "/ʃeə/",
+      "pos": "v.",
+      "meaning": "分享；分担",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The sisters share a bedroom.",
+          "zh": "姐妹俩共用一间卧室。"
+        },
+        {
+          "en": "She shared her sweets with us.",
+          "zh": "她把糖果分给了我们。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "share 谐音\"晒儿\"——把好东西\"晒\"出来给大家一份就是分享。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "share with",
+          "share a room"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-038",
+      "word": "respect",
+      "phonetic": "/rɪˈspekt/",
+      "pos": "v./n.",
+      "meaning": "尊重；尊敬",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Children should respect their parents.",
+          "zh": "孩子应该尊重父母。"
+        },
+        {
+          "en": "I have great respect for my teacher.",
+          "zh": "我非常敬重我的老师。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "词根词缀",
+        "tip": "re(再)+spect(看,同 inspect),值得你一再回头看的人=令你尊重的人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "respect others",
+          "show respect"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-039",
+      "word": "quarrel",
+      "phonetic": "/ˈkwɒrəl/",
+      "pos": "v./n.",
+      "meaning": "争吵；吵架",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The brothers quarrelled over a toy.",
+          "zh": "兄弟俩为一个玩具吵架。"
+        },
+        {
+          "en": "They soon made up after the quarrel.",
+          "zh": "吵架后他们很快就和好了。"
+        }
+      ],
+      "synonyms": [
+        "argue"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "谐音",
+        "tip": "quarrel 谐音\"扩肉\"不对,记\"夸肉\"——为谁吃的肉多而吵起来。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "have a quarrel",
+          "quarrel with"
+        ]
+      }
+    },
+    {
+      "id": "pet-family-040",
+      "word": "raise",
+      "phonetic": "/reɪz/",
+      "pos": "v.",
+      "meaning": "抚养；举起；提高",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My parents raised three children.",
+          "zh": "我父母养大了三个孩子。"
+        },
+        {
+          "en": "Please raise your hand to answer.",
+          "zh": "回答问题请举手。"
+        }
+      ],
+      "synonyms": [
+        "bring up"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "family"
+      ],
+      "mnemonic": {
+        "type": "场景",
+        "tip": "raise 本义\"举起、使升高\",把孩子一点点\"托举\"长大就是抚养。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "raise children",
+          "raise your hand"
+        ]
+      }
+    }
+  ]
+}

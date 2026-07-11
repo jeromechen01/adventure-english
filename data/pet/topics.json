@@ -36,7 +36,7 @@
       "name": "Family & Friends 家庭朋友",
       "icon": "👨‍👩‍👧",
       "file": "pet-family.json",
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "health",
