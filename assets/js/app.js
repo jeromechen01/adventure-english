@@ -283,10 +283,10 @@ async function renderMistakes(app) {
   if (mistakes.length === 0) {
     app.innerHTML = `
       <h2 class="text-xl font-bold mb-4">📝 错题本</h2>
-      <div class="card-cartoon text-center py-12">
-        <div class="text-5xl mb-3">🎉</div>
-        <div class="font-bold mb-1">还没有错题哦！</div>
-        <div class="text-sm text-gray-500">继续保持，加油！</div>
+      <div class="card-cartoon empty-state">
+        <span class="empty-emoji">🦊🎉</span>
+        <div class="empty-text">太棒啦，一道错题都没有！</div>
+        <div class="empty-sub">继续保持，你超厉害的，加油！💪</div>
       </div>
     `;
     return;

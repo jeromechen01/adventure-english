@@ -115,6 +115,29 @@
 - 伪 AI 批改的语法检查比较基础，对复杂句式判断不够准确
 - 排行榜为虚拟数据 (无服务器无法做真实跨用户排行)
 
+## 🆕 V0.3 移动端自适应 + 卡通化视觉升级 (纯样式层，未改业务逻辑)
+
+### 移动端可读性 / 自适应
+- [x] clamp() 响应式字号系统 (--fs-body/title/word/meaning/option/btn/small)，正文最小 16px 起
+- [x] 手机 ≤640px 放大偏小文字 (text-xs 12→13.5 / text-sm 14→15 / text-[10px]→12)，输入框统一 ≥16px 防 iOS 缩放
+- [x] 三档断点：手机单列大字 / 平板舒展放大 / 桌面居中限宽 1100px
+- [x] 触控目标 ≥48px (按钮/导航/选项)
+
+### 卡通化视觉
+- [x] 配色扩展：在橙色主题上增加柠檬黄/粉红/天蓝/葡萄紫马卡龙点缀色，正文改深棕 #5A4A42
+- [x] 圆润形状：卡片圆角 26px + 柔和彩色投影，按钮全圆角胶囊 + 立体厚度阴影
+- [x] 圆体字体：中文 PingFang/鸿蒙圆体优先，英文 Google Fonts Baloo 2/Fredoka (CDN，失败自动降级系统字体)
+- [x] 底部导航选中态图标放大弹跳高亮，进度条发光，顶部栏柔和投影
+- [x] 空状态可爱化 (错题本🦊🎉 / 卡牌🃏✨ / 消消乐🦊📚 浮动大 emoji + 鼓励语)
+- [x] breathe 呼吸微动效 + 尊重 prefers-reduced-motion 无障碍
+- [x] PWA 字体 CDN 已加入 sw.js 离线缓存，缓存版本 → ea-v0.3.0
+
+### 自检
+- [x] git 已备份 (commit「视觉升级前备份」)
+- [x] 18 个 JS 全部 node --check 通过；18 个 JSON 全部有效；style.css 括号平衡 (216/216)
+- [x] npx http-server 后台起服务，index/css/manifest/sw/icon/js/json 全部 200，新 CSS/字体已确认生效
+- [x] 现有功能逻辑零改动 (仅改 CSS + 三处空状态模板 + 字体 link)
+
 ## 📊 统计
 
 - 新增文件: levels.js / level-play.js / reinforce.js / recite.js
