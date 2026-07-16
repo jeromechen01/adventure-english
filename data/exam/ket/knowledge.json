@@ -1,0 +1,39 @@
+{
+  "level": "KET",
+  "note": "全部原创讲解卡。拼读规则卡为原创编写，不摘抄任何教材。",
+  "phonics": {
+    "title": "自然拼读速修（W1-W2 每天 10 分钟）",
+    "why": "拼读不牢会同时卡住听力和背词，是回报最高的一格：听力 Part 2 要求把听到的词拼对，背单词靠拼读省一半力气。",
+    "howto": "每天 2 张卡：先读规则，再把例词读 3 遍，最后合上卡默拼 2 个词。",
+    "cards": [
+      { "id": "ph-01", "rule": "短元音 a /æ/", "tip": "嘴巴咧开像被吓一跳：a 在闭音节里读 /æ/", "examples": ["cat", "bag", "hand", "happy"] },
+      { "id": "ph-02", "rule": "短元音 e /e/", "tip": "微笑着轻轻说：e 在闭音节里读 /e/", "examples": ["bed", "ten", "help", "letter"] },
+      { "id": "ph-03", "rule": "短元音 i /ɪ/", "tip": "短促的一声：i 在闭音节里读 /ɪ/", "examples": ["sit", "big", "milk", "little"] },
+      { "id": "ph-04", "rule": "短元音 o /ɒ/", "tip": "嘴巴张圆：o 在闭音节里读 /ɒ/", "examples": ["dog", "hot", "shop", "sorry"] },
+      { "id": "ph-05", "rule": "短元音 u /ʌ/", "tip": "肚子被轻轻打了一下的声音：u 在闭音节里读 /ʌ/", "examples": ["cup", "sun", "lunch", "mother 里的 o 也读它"] },
+      { "id": "ph-06", "rule": "神奇 e（a_e / i_e / o_e / u_e）", "tip": "词尾的 e 不发音，但它让前面的元音读自己的名字", "examples": ["cake", "time", "home", "cute"] },
+      { "id": "ph-07", "rule": "ee / ea 读长音 /iː/", "tip": "两个元音手拉手，第一个说话读长音", "examples": ["see", "tree", "eat", "teacher"] },
+      { "id": "ph-08", "rule": "ai / ay 读 /eɪ/", "tip": "ai 在词中，ay 在词尾，读音一样", "examples": ["rain", "train", "play", "Sunday"] },
+      { "id": "ph-09", "rule": "oa / ow 读 /əʊ/", "tip": "oa 在词中，ow 常在词尾", "examples": ["boat", "coat", "show", "window"] },
+      { "id": "ph-10", "rule": "sh / ch / th", "tip": "sh 嘘——安静；ch 像打喷嚏；th 咬住舌尖吹气", "examples": ["shop", "fish", "chair", "lunch", "think", "mother"] },
+      { "id": "ph-11", "rule": "ar / or / er", "tip": "ar 张大嘴 /ɑː/；or 圆嘴 /ɔː/；er 词尾轻轻的 /ə/", "examples": ["car", "park", "sport", "morning", "sister", "water"] },
+      { "id": "ph-12", "rule": "oo 两兄弟", "tip": "长 oo /uː/（food）短 oo /ʊ/（book），遇到先试长音", "examples": ["food", "school", "book", "look"] },
+      { "id": "ph-13", "rule": "igh / y 读 /aɪ/", "tip": "igh 里 gh 不发音；词尾 y 在单音节词里也读 /aɪ/", "examples": ["night", "right", "my", "fly"] },
+      { "id": "ph-14", "rule": "-tion 读 /ʃən/", "tip": "遇到 -tion 一律读「申」，重音在它前一个音节", "examples": ["station", "question", "information"] }
+    ]
+  },
+  "listeningSteps": {
+    "title": "听力三步法（每天 20-30 分钟）",
+    "steps": [
+      "① 盲听：不看文字听一遍，抓大意，别怕听不懂",
+      "② 对答案 + 看原文：找出没听出来的词，是词不认识还是音没反应过来？",
+      "③ 跟读：跟着读 2-3 遍，让耳朵和嘴巴都记住"
+    ],
+    "note": "真考每段录音放两遍，练习时也按两遍来"
+  },
+  "speakingTopics": {
+    "title": "口语 Part 1 常见话题（练习别背套话）",
+    "topics": ["住哪（Where do you live?）", "学什么（What subjects do you study?）", "家庭（Tell me about your family）", "学校（What do you like about your school?）", "家乡（What can you do in your town?）", "课余活动（What do you do after school?）", "喜好（What music do you like? Why?）"],
+    "tip": "万能思路：答案 + because + 一个细节。例：I like music because I play the violin in an orchestra."
+  }
+}
