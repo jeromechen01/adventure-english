@@ -1,0 +1,103 @@
+{
+  "level": "KET",
+  "whyCard": {
+    "title": "为什么先攻写作",
+    "lines": [
+      "Part 6+7 只需写 60 个词，却占 30/60 分——全卷性价比最高的地方。",
+      "你的中文结构感已经很好（作文有「细节描写很精彩」「描写优美含蓄耐人寻味」的评语）——缺的是词，不是能力。"
+    ]
+  },
+  "part6": {
+    "name": "Part 6 · 短邮件/便条",
+    "rule": "25 词以上，15 分。题目给三个要点，必须全部回应（Content 维度）。",
+    "template": {
+      "title": "原创结构模板",
+      "steps": [
+        "① 称呼：Hi + 名字,（别忘逗号）",
+        "② 回应要点 1（一句）",
+        "③ 回应要点 2（一句，试着用 because 给个理由）",
+        "④ 回应要点 3（一句，可用 then / and 连接）",
+        "⑤ 结尾：See you! / Love, + 你的名字"
+      ],
+      "connectors": "连接词优先 because / then——一个 because 就能把 Organisation 分抬起来"
+    },
+    "tips": [
+      "三个要点缺一个，Content 直接掉档——写完数一遍",
+      "25 词是下限不是目标，写到 30-40 词最稳",
+      "不确定的词换成会拼的词：拼错不如换词"
+    ],
+    "tasks": []
+  },
+  "part7": {
+    "name": "Part 7 · 三幅图写故事",
+    "rule": "35 词以上，15 分。据三幅图写一个完整小故事。",
+    "template": {
+      "title": "一图一句起步法",
+      "steps": [
+        "① 先定调：故事发生在过去 → 每个动词都盖过去戳",
+        "② 图 1 一句：谁 + 在哪 + 做什么（One day, ...）",
+        "③ 图 2 一到两句：发生了什么变化（Then / Suddenly, ...）",
+        "④ 图 3 一到两句：结果怎样（Finally / At last, ...）",
+        "⑤ 写完自查：把每个动词圈出来，问「它是过去形状吗」"
+      ],
+      "connectors": "One day → Then / Suddenly → Finally，三个时间词就是故事骨架"
+    },
+    "tips": [
+      "时态一致是命门——中途转调（过去→现在）是红区错误",
+      "人物起个名字（Tom, Lily），代词就不会乱",
+      "35 词下限 ≈ 5-6 句短句，别憋长句"
+    ],
+    "tasks": []
+  },
+  "scoring": {
+    "title": "评分三维（要点转述，非官方原文）",
+    "dims": [
+      { "name": "Content 内容", "max": 5, "desc": "要点是否全回应（P6 三个要点 / P7 三幅图都讲到）" },
+      { "name": "Organisation 组织", "max": 5, "desc": "句子是否连起来（连接词 because / then / and 的作用就在这）" },
+      { "name": "Language 语言", "max": 5, "desc": "词汇语法是否够用。满分档允许错误明显，只要意思仍可判断" }
+    ],
+    "bandNote": "★ 事实卡：Band 5（满分档）允许错误明显、意思清楚。目标不是零错误，是不写「挡住意思」的错误。"
+  },
+  "checklist": {
+    "title": "写完自评清单（原创改写版）",
+    "items": [
+      "字数够了吗？（P6 ≥25 词，P7 ≥35 词）",
+      "P6：三个要点都回应了吗？",
+      "P7：三幅图都写到了吗？",
+      "有称呼和结尾吗？（P6）",
+      "动词时态从头到尾一个调吗？（P7 命门）",
+      "be 动词都在吗？（I am happy，不是 I happy）",
+      "用了至少一个连接词吗？（because / then / and / but）",
+      "拼写检查过一遍吗？"
+    ]
+  },
+  "wi": {
+    "title": "一键批改：Write & Improve",
+    "url": "https://writeandimprove.com/",
+    "blurb": "剑桥官方免费在线写作批改，作文打上去几秒出反馈 + CEFR 等级 + 语法错误直接标出。家长不用会判英文作文，机器判得比大多数家长准。"
+  },
+  "speaking": {
+    "title": "口语练习角（隔日 15 分钟）",
+    "note": "官方提示：不要背套话——背出来不自然，而且答不到被问的具体问题。练思路：答案 + because + 一个细节。",
+    "part1Questions": [
+      { "q": "What's your name? How do you spell it?", "hint": "练拼自己的名字，考试第一题就是它" },
+      { "q": "Where do you live?", "hint": "I live in … + 一个细节（with my family / near a park）" },
+      { "q": "What subjects do you study at school?", "hint": "说两三科 + I like … best because …" },
+      { "q": "Tell me something about your family.", "hint": "长回答题：说 2-3 句，人数 + 谁 + 一件小事" },
+      { "q": "What do you do after school?", "hint": "练习乐器的事随时可说：I practise the violin…" },
+      { "q": "What music do you like? Why?", "hint": "because it makes me happy / I play it in the orchestra" },
+      { "q": "Tell me something about your best friend.", "hint": "名字 + 认识多久 + 一起做什么" },
+      { "q": "What did you do last weekend?", "hint": "注意全用过去式——考官在听时态" }
+    ],
+    "part2Practice": {
+      "desc": "Part 2 是看图讨论喜好：练「五样东西说喜欢/不喜欢 + 理由」",
+      "topics": [
+        "五种运动（swimming / football / running / ping-pong / skating）：Do you like…? Why?",
+        "五种食物（noodles / pizza / fish / ice cream / vegetables）",
+        "五个地方（park / cinema / library / zoo / beach）",
+        "五种课余活动（reading / drawing / playing music / computer games / cooking）"
+      ],
+      "frame": "I like … because … / I don't like … because … / What about you?（把球传给对方也算分——Interactive Communication）"
+    }
+  }
+}
