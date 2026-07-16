@@ -1,0 +1,82 @@
+{
+  "id": "mock-03",
+  "name": "原创全真卷 03（成果盘点 · 略难）",
+  "difficulty": "hard",
+  "note": "结构与真考一致：7 部分 32 题，Q1-30 各 1 分，Q31/Q32 各 15 分，原始分 60，限时 60 分钟。",
+  "parts": {
+    "part1": {
+      "id": "m3-p1", "topic": "告示与短信",
+      "items": [
+        { "context": "电梯旁的告示", "text": "LIFT NOT WORKING\nPlease use the stairs next to the café. We are sorry — it will be ready by Friday.", "q": "What does the notice mean?", "options": ["The café is closed until Friday.", "People must take the stairs for now.", "The stairs are next to the lift."], "answer": 1, "explain": "电梯坏了，暂时走咖啡馆旁边的楼梯。" },
+        { "context": "教练发来的短信", "text": "Team! Saturday's match starts at 9, not 10. The bus leaves school at 8. Don't forget your water bottle — it will be hot. Coach Lee", "q": "What time should players be at school?", "options": ["By 8 o'clock.", "By 9 o'clock.", "By 10 o'clock."], "answer": 0, "explain": "大巴 8 点从学校出发，所以 8 点前要到校。" },
+        { "context": "图书馆里的标志", "text": "QUIET ROOM\nFor reading only.\nPlease take phone calls outside and leave bags at the front desk.", "q": "What can you do in this room?", "options": ["Talk on the phone quietly.", "Read books.", "Keep your bag with you."], "answer": 1, "explain": "For reading only；打电话去外面，包存前台。" },
+        { "context": "阿姨发来的短信", "text": "Mia, your cousin's plane lands at 5, so we'll be at your house about 6.30. Could you tell your mum not to cook — we're bringing dinner! Aunt Jo", "q": "Why did Aunt Jo write to Mia?", "options": ["To ask Mia's mum to cook dinner.", "To say they will arrive about 6.30.", "To ask Mia to meet the plane."], "answer": 1, "explain": "核心信息是到达时间约 6:30，且晚饭他们带。" },
+        { "context": "泳池更衣室的告示", "text": "SWIMMERS\nShower before you enter the pool.\nLessons finish 10 minutes early today for pool cleaning.", "q": "What is different today?", "options": ["There are no lessons.", "Lessons end earlier than usual.", "The showers are closed."], "answer": 1, "explain": "finish 10 minutes early = 提前 10 分钟结束。" },
+        { "context": "班级群里的通知", "text": "Class 6: Bring your recorder AND music book on Thursday. Students without both cannot join the practice for next month's concert.", "q": "What happens if you forget your music book?", "options": ["You cannot take part in the practice.", "You must buy a new one.", "You can share with a friend."], "answer": 0, "explain": "without both cannot join —— 两样缺一不可。" }
+      ]
+    },
+    "part2": {
+      "id": "m3-p2", "topic": "三个课外俱乐部",
+      "profiles": [
+        { "label": "A", "title": "Science Stars", "text": "We meet on Tuesdays in Room 12. Every month we do a big experiment — last time we made a small volcano! New members should ask Mr Chen first. Bring an old shirt because things get dirty." },
+        { "label": "B", "title": "Book Friends", "text": "We read one book each month and talk about it on Friday afternoons in the library. Juice and biscuits are free. This term we are reading stories from different countries. Everyone is welcome — just come!" },
+        { "label": "C", "title": "Young Cooks", "text": "We cook a new dish every Wednesday. You pay two pounds each week for the food, and you take home what you make! Places are only for ten students, so put your name on the list early." }
+      ],
+      "questions": [
+        { "q": "Which club costs money every week?", "options": ["Science Stars", "Book Friends", "Young Cooks"], "answer": 2, "explain": "pay two pounds each week。" },
+        { "q": "Which club gives free food and drink?", "options": ["Science Stars", "Book Friends", "Young Cooks"], "answer": 1, "explain": "Juice and biscuits are free。" },
+        { "q": "Which club has only a small number of places?", "options": ["Science Stars", "Book Friends", "Young Cooks"], "answer": 2, "explain": "only for ten students。" },
+        { "q": "For which club should you speak to a teacher before joining?", "options": ["Science Stars", "Book Friends", "Young Cooks"], "answer": 0, "explain": "ask Mr Chen first。" },
+        { "q": "Which club tells you to wear old clothes?", "options": ["Science Stars", "Book Friends", "Young Cooks"], "answer": 0, "explain": "Bring an old shirt because things get dirty。" },
+        { "q": "Which club meets at the end of the school week?", "options": ["Science Stars", "Book Friends", "Young Cooks"], "answer": 1, "explain": "Friday afternoons。" },
+        { "q": "In which club can you take something home?", "options": ["Science Stars", "Book Friends", "Young Cooks"], "answer": 2, "explain": "take home what you make。" }
+      ]
+    },
+    "part3": {
+      "id": "m3-p3", "topic": "长文阅读",
+      "title": "The Best Mistake",
+      "passage": "Rosa loved painting, but she never showed her pictures to anyone. She thought they were not good enough. One rainy Tuesday, she left her painting of the sea on the school bus by mistake.\nThe next morning, the bus driver, Mr Ford, put the painting on the wall of the bus with a note: \"Whose beautiful sea is this?\" All week, children asked about it. Some said it looked like a real photo. Rosa was too shy to say anything.\nOn Friday, her best friend Nina saw Rosa's paint box and understood everything. \"You must tell them,\" Nina said, \"or I will!\" So Rosa stood up on the bus and said quietly, \"It's mine.\" Everyone clapped.\nNow Rosa's paintings hang in the school hall, and she is making a new one — a picture of a yellow school bus.",
+      "questions": [
+        { "q": "Why did Rosa keep her paintings secret?", "options": ["She thought they were not good enough.", "Her friends did not like art.", "She had no place to show them."], "answer": 0, "explain": "she thought they were not good enough。" },
+        { "q": "How did the painting get on the bus wall?", "options": ["Rosa put it there.", "The driver put it there.", "Nina put it there."], "answer": 1, "explain": "Mr Ford put the painting on the wall。" },
+        { "q": "What did some children think about the painting?", "options": ["It was like a photograph.", "It was too small.", "It needed more colour."], "answer": 0, "explain": "looked like a real photo。" },
+        { "q": "How did Nina know the painting was Rosa's?", "options": ["Rosa told her.", "She saw Rosa painting it.", "She saw Rosa's paint box."], "answer": 2, "explain": "saw Rosa's paint box and understood。" },
+        { "q": "What is the story mainly about?", "options": ["A girl who learns to share her art.", "A bus driver who paints.", "A school that needs pictures."], "answer": 0, "explain": "主旨：罗莎从不敢展示到全校展出。" }
+      ]
+    },
+    "part4": {
+      "id": "m3-p4", "topic": "多选完形",
+      "title": "Sleep",
+      "passage": "Everyone needs sleep, but children need more than adults. When you sleep, your body (1) ___ and your brain puts the day's new information away, like books on a (2) ___. Children of eleven should sleep about ten hours every (3) ___. It is hard to fall asleep if you (4) ___ computer games late at night, because your brain stays busy. A warm shower, a dark room and a good book (5) ___ much better. If you sleep well, you will (6) ___ new things faster the next day.",
+      "gaps": [
+        { "options": ["rests", "runs", "eats"], "answer": 0, "explain": "睡觉时身体休息 → rests。" },
+        { "options": ["table", "shelf", "door"], "answer": 1, "explain": "像把书放上书架 → shelf。" },
+        { "options": ["night", "meal", "lesson"], "answer": 0, "explain": "每晚约 10 小时 → every night。" },
+        { "options": ["play", "watch", "make"], "answer": 0, "explain": "play computer games 玩游戏。" },
+        { "options": ["work", "sleep", "read"], "answer": 0, "explain": "这些办法更有效 → work much better。" },
+        { "options": ["forget", "learn", "teach"], "answer": 1, "explain": "睡得好学得快 → learn faster。" }
+      ]
+    },
+    "part5": {
+      "id": "m3-p5", "topic": "开放完形",
+      "passage": "Dear Grandpa,\nI have exciting news! Our orchestra is going to play (1) ___ the city concert hall next month. We practised hard (2) ___ three months, and last week our teacher chose me to sit in the first row! Mum says she (3) ___ buy me a new white shirt for the big night. There will be more (4) ___ five hundred people there. Are you free (5) ___ the fifteenth of May? I really hope you can come and listen (6) ___ us play.\nWith love, Siyu",
+      "gaps": [
+        { "answer": "at", "alt": ["in"], "category": "介词(地点)", "shape": "演出地点 → at/in", "explain": "play at the concert hall（in 也通）。" },
+        { "answer": "for", "category": "介词(时间段)", "shape": "一段时间前面 → for", "explain": "for three months 练了三个月。" },
+        { "answer": "will", "category": "助动词(将来)", "shape": "说的是将要发生的事 → will", "explain": "she will buy me… 将来时。" },
+        { "answer": "than", "category": "比较", "shape": "more 后面 → than", "explain": "more than five hundred 超过五百。" },
+        { "answer": "on", "category": "介词(时间)", "shape": "具体日期前面 → on", "explain": "on the fifteenth of May 具体某天。" },
+        { "answer": "to", "category": "介词(搭配)", "shape": "listen 后面 → to", "explain": "listen to us play。" }
+      ]
+    },
+    "p6": {
+      "id": "m3-p6", "topic": "帮忙照看猫",
+      "prompt": "Read the email from your English friend Ruby.\n\nMy family is going away next weekend and my cat needs help! Can you feed her on Saturday and Sunday? What time can you come? Do you want anything for helping?\nRuby",
+      "points": ["能不能喂猫", "什么时间来", "要不要报酬(或想要什么感谢)"]
+    },
+    "p7": {
+      "id": "m3-p7", "topic": "三图故事",
+      "scenes": ["夜里停电了，一家人坐在黑暗的客厅里，爸爸点起蜡烛", "妈妈拿出旧吉他，一家人围着蜡烛唱歌，影子映在墙上", "灯突然亮了，大家却把灯又关掉，继续在烛光里唱歌"]
+    }
+  }
+}

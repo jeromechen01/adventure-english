@@ -1,0 +1,82 @@
+{
+  "id": "mock-01",
+  "name": "原创全真卷 01（基线 · 略易）",
+  "difficulty": "easy",
+  "note": "结构与真考一致：7 部分 32 题，Q1-30 各 1 分，Q31/Q32 各 15 分，原始分 60，限时 60 分钟。",
+  "parts": {
+    "part1": {
+      "id": "m1-p1", "topic": "告示与短信",
+      "items": [
+        { "context": "学校门口的告示", "text": "SCHOOL LIBRARY\nClosed on Friday afternoon.\nOpen again on Monday, 8.30 am.", "q": "What does the notice say?", "options": ["The library is open on Friday afternoon.", "You cannot use the library on Friday afternoon.", "The library opens at 8.30 on Friday."], "answer": 1, "explain": "Closed on Friday afternoon = 周五下午不开。" },
+        { "context": "妈妈发来的短信", "text": "Sam, I'm still at work. Please cook the rice before I get home. Grandma will bring the vegetables at six. Mum", "q": "What must Sam do?", "options": ["Cook the rice.", "Buy some vegetables.", "Come home at six."], "answer": 0, "explain": "Please cook the rice —— 蒸米饭是萨姆的任务；菜是奶奶带来。" },
+        { "context": "游泳馆的标志", "text": "SWIMMING POOL\nChildren under 8 must come with an adult.\nNo food in the pool area.", "q": "Who needs an adult with them?", "options": ["All children.", "Children younger than eight.", "People with food."], "answer": 1, "explain": "under 8 = 8 岁以下。" },
+        { "context": "朋友发来的短信", "text": "Hi Anna! The film starts at 4.30, not 5.00. Meet me at the bus stop at 4.00, OK? Kate", "q": "Why did Kate send this message?", "options": ["The film time changed to earlier.", "She cannot go to the film.", "She wants to meet at 5.00."], "answer": 0, "explain": "4.30 not 5.00 → 电影提前了，所以 4 点碰头。" },
+        { "context": "教室墙上的通知", "text": "ART CLUB\nWednesday 3.30-4.30\nBring your own pencils. Paper is free.", "q": "What do students need to bring?", "options": ["Paper.", "Pencils.", "Nothing."], "answer": 1, "explain": "Bring your own pencils；纸是免费提供的。" },
+        { "context": "商店橱窗的告示", "text": "GREEN'S FRUIT SHOP\nToday only: bananas half price!\nOpen 9 am - 7 pm", "q": "What is special today?", "options": ["The shop opens longer.", "All fruit is half price.", "Bananas cost less than usual."], "answer": 2, "explain": "只有香蕉半价，不是全部水果。" }
+      ]
+    },
+    "part2": {
+      "id": "m1-p2", "topic": "三个孩子的周末",
+      "profiles": [
+        { "label": "A", "title": "Mike", "text": "On Saturday I played football with my brother in the park. It rained in the afternoon, so we watched a film at home. I love films about animals." },
+        { "label": "B", "title": "Jenny", "text": "I visited my grandma on Saturday. We made dumplings together and she told me stories. On Sunday I did my homework and drew a picture of her house." },
+        { "label": "C", "title": "Paul", "text": "I went swimming on Saturday morning and won a small prize! On Sunday my family ate lunch at a new restaurant near the river. The fish was great." }
+      ],
+      "questions": [
+        { "q": "Who cooked food with a family member?", "options": ["Mike", "Jenny", "Paul"], "answer": 1, "explain": "Jenny 和奶奶一起包饺子（made dumplings）。" },
+        { "q": "Who got a prize?", "options": ["Mike", "Jenny", "Paul"], "answer": 2, "explain": "Paul won a small prize。" },
+        { "q": "Who stayed at home because of the weather?", "options": ["Mike", "Jenny", "Paul"], "answer": 0, "explain": "It rained… so we watched a film at home。" },
+        { "q": "Who ate at a restaurant?", "options": ["Mike", "Jenny", "Paul"], "answer": 2, "explain": "Paul 一家在河边新餐厅吃午饭。" },
+        { "q": "Who did some drawing?", "options": ["Mike", "Jenny", "Paul"], "answer": 1, "explain": "Jenny drew a picture of her house。" },
+        { "q": "Who watched something about animals?", "options": ["Mike", "Jenny", "Paul"], "answer": 0, "explain": "Mike 爱看动物电影。" },
+        { "q": "Who did sport with water?", "options": ["Mike", "Jenny", "Paul"], "answer": 2, "explain": "Paul went swimming。" }
+      ]
+    },
+    "part3": {
+      "id": "m1-p3", "topic": "长文阅读",
+      "title": "My Dog Coco",
+      "passage": "My name is Ella and I have a dog called Coco. She is three years old and she is brown and white. Coco came to our family when she was a baby. My uncle's dog had four puppies, and he gave one to us.\nEvery morning, Coco wakes me up at seven o'clock. She jumps on my bed and makes funny sounds. After school, I take her to the park near our house. She loves running after her red ball, but she never brings it back! My dad says Coco thinks the ball is her baby.\nLast month, Coco was ill and did not eat for two days. We took her to the animal doctor. Now she is well again and eats a lot. My mum says she eats more than me!",
+      "questions": [
+        { "q": "Where did Coco come from?", "options": ["A pet shop.", "Ella's uncle.", "The park."], "answer": 1, "explain": "叔叔家的狗生了四只小狗，送了一只。" },
+        { "q": "What does Coco do every morning?", "options": ["She brings Ella a ball.", "She wakes Ella up.", "She runs in the park."], "answer": 1, "explain": "wakes me up at seven o'clock。" },
+        { "q": "What is funny about Coco and the ball?", "options": ["She does not bring it back.", "She cannot find it.", "She eats it."], "answer": 0, "explain": "she never brings it back。" },
+        { "q": "What happened last month?", "options": ["Coco had puppies.", "Coco was ill.", "Coco got a new ball."], "answer": 1, "explain": "Coco was ill and did not eat for two days。" },
+        { "q": "What is the best name for this story?", "options": ["A day at the animal doctor.", "My funny pet.", "How to teach a dog."], "answer": 1, "explain": "全文围绕「我可爱又好笑的宠物」——主旨题。" }
+      ]
+    },
+    "part4": {
+      "id": "m1-p4", "topic": "多选完形",
+      "title": "Pandas",
+      "passage": "Pandas are big black and white animals. They (1) ___ in the mountains of China. A panda (2) ___ most of its day eating bamboo. Baby pandas are very (3) ___ — a new baby is smaller than your hand! Pandas can (4) ___ trees very well. Many people visit zoos to (5) ___ pandas. We must look after the mountains, because pandas need a safe (6) ___ to live.",
+      "gaps": [
+        { "options": ["live", "sleep", "cook"], "answer": 0, "explain": "住在山里 → live in。" },
+        { "options": ["takes", "spends", "gives"], "answer": 1, "explain": "spend time doing 花时间做某事。" },
+        { "options": ["small", "tall", "old"], "answer": 0, "explain": "比手还小 → very small。" },
+        { "options": ["climb", "drive", "draw"], "answer": 0, "explain": "爬树 → climb trees。" },
+        { "options": ["hear", "see", "buy"], "answer": 1, "explain": "去动物园看熊猫 → see。" },
+        { "options": ["food", "game", "place"], "answer": 2, "explain": "a safe place to live 安全的住处。" }
+      ]
+    },
+    "part5": {
+      "id": "m1-p5", "topic": "开放完形",
+      "passage": "Hi Nina,\nHow are you? I want to tell you about (1) ___ new hobby. Every Tuesday I go (2) ___ a cooking class with my mum. Last week we made noodles and they (3) ___ delicious! The teacher is kind and she gives (4) ___ a new recipe every time. (5) ___ you like cooking too? Maybe you can come with us (6) ___ Tuesday!\nLove, Su",
+      "gaps": [
+        { "answer": "my", "category": "限定词(物主)", "shape": "空格后是名词 → 限定词", "explain": "「我的」新爱好 → my new hobby。" },
+        { "answer": "to", "category": "介词(方向)", "shape": "go 后面接地方 → to", "explain": "go to a cooking class。" },
+        { "answer": "were", "category": "be 动词(过去复数)", "shape": "last week + they → 过去的等号", "explain": "they were delicious：they 配 were。" },
+        { "answer": "us", "alt": ["me"], "category": "代词(宾格)", "shape": "动词 gives 后面 → 宾格", "explain": "gives us a recipe 给我们（me 也通）。" },
+        { "answer": "do", "category": "助动词", "shape": "句首 + 问号 → 助动词", "explain": "Do you like cooking? 问句请 do 举手。" },
+        { "answer": "on", "category": "介词(时间)", "shape": "星期几前面 → on", "explain": "on Tuesday。" }
+      ]
+    },
+    "p6": {
+      "id": "m1-p6", "topic": "给朋友的回信",
+      "prompt": "Read the email from your English friend Alex.\n\nHi! My family is coming to your city next month! What is the best place to visit? What food should we try? Can you meet us one day?\nAlex",
+      "points": ["推荐一个游玩的地方", "推荐一种食物", "能不能见面"]
+    },
+    "p7": {
+      "id": "m1-p7", "topic": "三图故事",
+      "scenes": ["一个男孩在家门口发现信箱里有一个小包裹", "他打开包裹，里面是一顶蓝色帽子和一张卡片", "男孩戴着帽子站在镜子前笑，卡片放在桌上写着 Happy Birthday"]
+    }
+  }
+}

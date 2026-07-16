@@ -1,0 +1,82 @@
+{
+  "id": "mock-02",
+  "name": "原创全真卷 02（中期校准 · 标准）",
+  "difficulty": "standard",
+  "note": "结构与真考一致：7 部分 32 题，Q1-30 各 1 分，Q31/Q32 各 15 分，原始分 60，限时 60 分钟。",
+  "parts": {
+    "part1": {
+      "id": "m2-p1", "topic": "告示与短信",
+      "items": [
+        { "context": "火车站的告示", "text": "TICKET OFFICE\nBuy tickets here or use the machines by Door B. Machines take cards only.", "q": "What does the notice say?", "options": ["You can only buy tickets at the office.", "The machines do not take money notes.", "Door B is closed today."], "answer": 1, "explain": "cards only = 机器只收卡，不收现金纸币。" },
+        { "context": "同学发来的短信", "text": "Ben, I can't find my maths book. Did I leave it at your house yesterday? If yes, can you bring it to school tomorrow? Carl", "q": "What does Carl want Ben to do?", "options": ["Look for the book and bring it to school.", "Buy him a new maths book.", "Help him with maths homework."], "answer": 0, "explain": "问书在不在他家 + 带来学校。" },
+        { "context": "博物馆里的标志", "text": "MUSEUM SHOP\nStudents get 10% off with a school card.", "q": "How can students pay less?", "options": ["By coming early.", "By showing a school card.", "By buying two things."], "answer": 1, "explain": "with a school card → 出示学生卡打九折。" },
+        { "context": "音乐教室门上的通知", "text": "ORCHESTRA PRACTICE\nMoved from Tuesday to Thursday this week.\nSame time, same room.", "q": "What has changed about the practice?", "options": ["The day.", "The time.", "The room."], "answer": 0, "explain": "从周二改到周四——只有日期变了。" },
+        { "context": "爸爸留在桌上的便条", "text": "Amy — Gone to the airport to meet Uncle Joe. Dinner is in the fridge. Please feed the fish! Dad", "q": "What must Amy do?", "options": ["Cook the dinner.", "Give food to the fish.", "Go to the airport."], "answer": 1, "explain": "feed the fish = 喂鱼；晚饭已在冰箱。" },
+        { "context": "公园门口的告示", "text": "CITY PARK\nBikes are welcome on the red path only. Please walk them near the lake.", "q": "Where can people ride bikes?", "options": ["Everywhere in the park.", "On the red path.", "Near the lake."], "answer": 1, "explain": "on the red path only；湖边要推行。" }
+      ]
+    },
+    "part2": {
+      "id": "m2-p2", "topic": "三家餐厅",
+      "profiles": [
+        { "label": "A", "title": "The Garden", "text": "The Garden is open every day from 11 am. You can sit outside under the trees. It is famous for vegetable soup and fresh bread. Children get a free fruit juice at lunch time." },
+        { "label": "B", "title": "Blue Sea", "text": "Blue Sea is a fish restaurant by the river. It opens only in the evening. You can watch the boats while you eat. Booking a table is a good idea at weekends because it is small." },
+        { "label": "C", "title": "Pepe's", "text": "Pepe's makes the best pizza in town, and you can watch the cooks make it! It is closed on Mondays. There is a big table for birthday parties, and the music is fun and loud." }
+      ],
+      "questions": [
+        { "q": "Which restaurant is good for a birthday party?", "options": ["The Garden", "Blue Sea", "Pepe's"], "answer": 2, "explain": "a big table for birthday parties。" },
+        { "q": "Which restaurant is NOT open at lunch time?", "options": ["The Garden", "Blue Sea", "Pepe's"], "answer": 1, "explain": "Blue Sea opens only in the evening。" },
+        { "q": "Where can children get a free drink?", "options": ["The Garden", "Blue Sea", "Pepe's"], "answer": 0, "explain": "a free fruit juice at lunch time。" },
+        { "q": "Where can you see people cooking?", "options": ["The Garden", "Blue Sea", "Pepe's"], "answer": 2, "explain": "watch the cooks make it。" },
+        { "q": "Where should you book at the weekend?", "options": ["The Garden", "Blue Sea", "Pepe's"], "answer": 1, "explain": "Booking… at weekends because it is small。" },
+        { "q": "Where can you eat outside?", "options": ["The Garden", "Blue Sea", "Pepe's"], "answer": 0, "explain": "sit outside under the trees。" },
+        { "q": "Which restaurant closes one day every week?", "options": ["The Garden", "Blue Sea", "Pepe's"], "answer": 2, "explain": "closed on Mondays。" }
+      ]
+    },
+    "part3": {
+      "id": "m2-p3", "topic": "长文阅读",
+      "title": "A Letter from Camp",
+      "passage": "Dear Mum and Dad,\nI am having a great time at summer camp! There are twenty children here and I share a room with two boys, Max and Ali. Max snores at night, but I don't mind because I am always tired after the day's activities.\nEvery morning we swim in the lake before breakfast. The water is cold at first, but you get used to it. In the afternoon we choose an activity. On Monday I tried climbing, and yesterday I learned to cook eggs on a fire! The teacher said mine were the best.\nThe food here is OK, but not as good as yours, Mum. Please don't tell Dad, but I miss his funny songs too. Only five days until I come home. Can we have noodles on my first night back?\nLove, Jin",
+      "questions": [
+        { "q": "How does Jin feel about Max snoring?", "options": ["It is not a problem for him.", "It makes him angry.", "It keeps him awake."], "answer": 0, "explain": "I don't mind because I am always tired。" },
+        { "q": "When do the children swim?", "options": ["After breakfast.", "Before breakfast.", "In the afternoon."], "answer": 1, "explain": "swim in the lake before breakfast。" },
+        { "q": "What did Jin do yesterday?", "options": ["He went climbing.", "He cooked on a fire.", "He sang funny songs."], "answer": 1, "explain": "yesterday I learned to cook eggs on a fire。" },
+        { "q": "What does Jin say about the camp food?", "options": ["It is better than his mum's.", "It is very bad.", "His mum's food is nicer."], "answer": 2, "explain": "not as good as yours, Mum。" },
+        { "q": "What does Jin want to do when he gets home?", "options": ["Eat noodles.", "Go swimming.", "Learn a song."], "answer": 0, "explain": "Can we have noodles on my first night back?" }
+      ]
+    },
+    "part4": {
+      "id": "m2-p4", "topic": "多选完形",
+      "title": "The Violin",
+      "passage": "The violin is a beautiful (1) ___. It is small and light, so children can (2) ___ it to school easily. To play it, you hold it under your chin and (3) ___ a bow across the strings. Learning the violin is not (4) ___ at first — the sound can be funny! But if you (5) ___ every day, you will get better. Many people say its sound is the closest to a human (6) ___.",
+      "gaps": [
+        { "options": ["instrument", "animal", "sport"], "answer": 0, "explain": "小提琴是乐器 → instrument。" },
+        { "options": ["carry", "throw", "drive"], "answer": 0, "explain": "带去学校 → carry it to school。" },
+        { "options": ["kick", "pull", "cut"], "answer": 1, "explain": "拉弓 → pull a bow across the strings。" },
+        { "options": ["easy", "heavy", "cheap"], "answer": 0, "explain": "一开始不容易 → not easy at first。" },
+        { "options": ["sleep", "practise", "wait"], "answer": 1, "explain": "每天练习 → practise every day。" },
+        { "options": ["hand", "foot", "voice"], "answer": 2, "explain": "最接近人声 → human voice。" }
+      ]
+    },
+    "part5": {
+      "id": "m2-p5", "topic": "开放完形",
+      "passage": "Dear Rosa,\nThank you for your letter! You asked about my town, so here (1) ___ some photos. I live in a small town near the mountains. In winter we (2) ___ ski after school — the ski hill is only ten minutes from my house! My favourite place is (3) ___ old bridge over the river. My friends and I fish there (4) ___ summer. Next year my family will move to the city. I am excited but I will miss (5) ___ friends a lot. Please write (6) ___ me again soon!\nFrom, Nick",
+      "gaps": [
+        { "answer": "are", "category": "be 动词", "shape": "here + 复数名词 → 复数等号", "explain": "here are some photos：photos 是复数。" },
+        { "answer": "can", "category": "助动词(情态)", "shape": "主语后、动词原形前 → 情态动词", "explain": "we can ski 我们能滑雪。" },
+        { "answer": "an", "category": "限定词", "shape": "空格后是元音开头的名词 → an", "explain": "an old bridge：old 元音开头。" },
+        { "answer": "in", "category": "介词(时间)", "shape": "季节前面 → in", "explain": "in summer 季节是大盒子。" },
+        { "answer": "my", "category": "限定词(物主)", "shape": "空格后是名词 → 物主限定词", "explain": "miss my friends 想念我的朋友们。" },
+        { "answer": "to", "category": "介词", "shape": "write 后接人 → to", "explain": "write to me 给我写信。" }
+      ]
+    },
+    "p6": {
+      "id": "m2-p6", "topic": "运动会邀请",
+      "prompt": "Read the email from your English friend Holly.\n\nOur school sports day is next Saturday and parents and friends can come! Do you want to come and watch me? How will you get to my school? Shall we have ice cream after?\nHolly",
+      "points": ["要不要去看", "怎么去她学校", "结束后要不要吃冰淇淋"]
+    },
+    "p7": {
+      "id": "m2-p7", "topic": "三图故事",
+      "scenes": ["一个女孩在窗台上种下一颗种子，旁边放着水壶", "她每天浇水，小芽长出来了，太阳照进窗户", "几周后窗台上开了一朵大红花，女孩把它送给微笑的老师"]
+    }
+  }
+}
