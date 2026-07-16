@@ -25,7 +25,366 @@
   "part5": {
    "name": "Part 5 · 开放完形（语法小词，6 分可速成）",
    "desc": "一封 A2 邮件 6 空，每空填一词无选项，答案全是 1-3 个字母的小词，拼写必须正确",
-   "sets": []
+   "sets": [
+    {
+     "id": "p5-01",
+     "topic": "周末去公园",
+     "passage": "Hi Anna,\nAre you free (1) ___ Saturday? My mum can take (2) ___ to the new park near the river. There is (3) ___ big lake and we can feed the ducks. My brother wants to come, too. We will have a lot (4) ___ food for a picnic. (5) ___ you like sandwiches? Please write back (6) ___ me soon.\nLove, Mei",
+     "gaps": [
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "星期几用 on：on Saturday。"
+      },
+      {
+       "answer": "us",
+       "category": "代词(宾格)",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "动词 take 后面用宾格：妈妈带「我们」→ us。"
+      },
+      {
+       "answer": "a",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到的可数单数 → a big lake。"
+      },
+      {
+       "answer": "of",
+       "category": "量词搭配",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "a lot of 固定搭配。"
+      },
+      {
+       "answer": "do",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词",
+       "explain": "句首+问号+动词 like → Do you like…?"
+      },
+      {
+       "answer": "to",
+       "category": "介词",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "write back to me 给我回信。"
+      }
+     ]
+    },
+    {
+     "id": "p5-02",
+     "topic": "谢谢生日礼物",
+     "passage": "Dear Ben,\nThank you (1) ___ the football shirt! It (2) ___ my favourite colour, blue. I wore it (3) ___ school yesterday and all my friends liked it. My old shirt was too small for (4) ___. Next week we have a big match. (5) ___ you come and watch it? The game starts (6) ___ four o'clock.\nFrom, Leo",
+     "gaps": [
+      {
+       "answer": "for",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "thank you for… 为…而感谢。"
+      },
+      {
+       "answer": "is",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "句子缺等号：It is my favourite colour。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(方向)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "wore it to school 穿去学校。"
+      },
+      {
+       "answer": "me",
+       "category": "代词(宾格)",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "for 后面用宾格 me。"
+      },
+      {
+       "answer": "can",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词",
+       "explain": "句首+问号 → Can you come…? 发出邀请。"
+      },
+      {
+       "answer": "at",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "几点钟是时间的「点」→ at four o'clock。"
+      }
+     ]
+    },
+    {
+     "id": "p5-03",
+     "topic": "邀请来我家",
+     "passage": "Hi Tom,\nWould you like to come to (1) ___ house on Sunday? We can play (2) ___ new computer game. My dad will make pizza (3) ___ lunch. You can bring your dog if you want — (4) ___ loves playing in our garden! We live next (5) ___ the bookshop. Please ask (6) ___ mum first.\nSee you, Jack",
+     "gaps": [
+      {
+       "answer": "my",
+       "alt": [
+        "our"
+       ],
+       "category": "限定词(物主)",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "来「我家」→ my house（our 也通）。"
+      },
+      {
+       "answer": "a",
+       "alt": [
+        "my",
+        "the"
+       ],
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到的游戏 → a new computer game。"
+      },
+      {
+       "answer": "for",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "make pizza for lunch 当午饭。"
+      },
+      {
+       "answer": "it",
+       "alt": [
+        "he",
+        "she"
+       ],
+       "category": "代词",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "指代前面的 your dog → it（he/she 也通）。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "next to 挨着，固定搭配。"
+      },
+      {
+       "answer": "your",
+       "category": "限定词(物主)",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "问「你的」妈妈 → your mum。"
+      }
+     ]
+    },
+    {
+     "id": "p5-04",
+     "topic": "学校音乐会",
+     "passage": "Dear Grandma,\nOur school concert is (1) ___ Friday evening. I am going to play (2) ___ violin! We practised a (3) ___ of songs this month. The concert is in the school hall and it is free, so you (4) ___ not need a ticket. Mum and Dad (5) ___ coming too. I hope you can come and listen (6) ___ us.\nLove, Yuan",
+     "gaps": [
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "具体某天(晚) → on Friday evening。"
+      },
+      {
+       "answer": "the",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "play the violin 演奏乐器加 the。"
+      },
+      {
+       "answer": "lot",
+       "category": "量词",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "a lot of songs 很多歌。"
+      },
+      {
+       "answer": "do",
+       "category": "助动词",
+       "shape": "否定句里动词前缺帮手 → do",
+       "explain": "you do not need… 否定要请 do。"
+      },
+      {
+       "answer": "are",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "进行时两件套：are coming。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "listen to us 听我们(演奏)。"
+      }
+     ]
+    },
+    {
+     "id": "p5-05",
+     "topic": "海边度假明信片",
+     "passage": "Hi Amy,\nWe are (1) ___ holiday in Hainan! Our hotel is near the sea and I swim every day. Yesterday we went (2) ___ a small island by boat. I saw (3) ___ old fisherman and lots of white birds. The food is great and I eat a (4) ___ of fruit. I bought a present (5) ___ you. See you (6) ___ Monday!\nFrom, Lily",
+     "gaps": [
+      {
+       "answer": "on",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "on holiday 在度假，整块背。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(方向)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "went to a small island 去了小岛。"
+      },
+      {
+       "answer": "an",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your），注意元音开头",
+       "explain": "old 元音开头 → an old fisherman。"
+      },
+      {
+       "answer": "lot",
+       "category": "量词",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "a lot of fruit。"
+      },
+      {
+       "answer": "for",
+       "category": "介词",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "a present for you 给你的礼物。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "星期几 → on Monday。"
+      }
+     ]
+    },
+    {
+     "id": "p5-06",
+     "topic": "我的新宠物",
+     "passage": "Dear Sam,\nGuess what! I have (1) ___ new pet cat. Her name is Snow because she (2) ___ white. She likes sleeping (3) ___ my bed and playing with paper balls. Every morning she wakes me (4) ___ at six o'clock! (5) ___ your dog like cats? Maybe they can (6) ___ friends one day.\nFrom, Kiki",
+     "gaps": [
+      {
+       "answer": "a",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到 → a new pet cat。"
+      },
+      {
+       "answer": "is",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "she is white 缺等号。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(地点)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "睡在床「面」上 → on my bed。"
+      },
+      {
+       "answer": "up",
+       "category": "介词(短语)",
+       "shape": "动词后面的小尾巴 → 短语动词",
+       "explain": "wake me up 把我叫醒，整块背。"
+      },
+      {
+       "answer": "does",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词，主语是第三人称单数",
+       "explain": "句首+问号+your dog(单数) → Does。"
+      },
+      {
+       "answer": "be",
+       "category": "be 动词(原形)",
+       "shape": "can 后面要动词原形",
+       "explain": "can be friends：can 后用原形 be。"
+      }
+     ]
+    },
+    {
+     "id": "p5-07",
+     "topic": "搬家转学",
+     "passage": "Hi Emma,\nWe moved to Beijing last month and I go to (1) ___ new school now. It is very big and I like (2) ___ a lot. My classroom is (3) ___ the third floor. I made two new friends and they help (4) ___ with my homework. I can practise the violin (5) ___ school after class. (6) ___ you want to visit me in the holidays?\nWrite soon, Mia",
+     "gaps": [
+      {
+       "answer": "a",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到的学校 → a new school。"
+      },
+      {
+       "answer": "it",
+       "category": "代词",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "指代前面的 school → I like it。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(地点)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "楼层用 on：on the third floor。"
+      },
+      {
+       "answer": "me",
+       "category": "代词(宾格)",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "help me 帮我。"
+      },
+      {
+       "answer": "at",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "at school 在学校，整块背。"
+      },
+      {
+       "answer": "do",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词",
+       "explain": "句首+问号+want → Do you want…?"
+      }
+     ]
+    },
+    {
+     "id": "p5-08",
+     "topic": "运动会",
+     "passage": "Dear Uncle Wang,\nNext Thursday is our school sports day and I (1) ___ going to run in two races. Last year I (2) ___ second in the long race. This year I will try (3) ___ best! We do not have lessons (4) ___ that day. Mum will bring water and snacks for all (5) ___ us. Can you come (6) ___ watch me run?\nLove, Dong",
+     "gaps": [
+      {
+       "answer": "am",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "I am going to… 将要做，缺等号 am。"
+      },
+      {
+       "answer": "was",
+       "category": "be 动词(过去)",
+       "shape": "last year → 过去的等号",
+       "explain": "Last year I was second 去年得第二。"
+      },
+      {
+       "answer": "my",
+       "category": "限定词(物主)",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "try my best 尽我全力，整块背。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "具体某一天 → on that day。"
+      },
+      {
+       "answer": "of",
+       "category": "量词搭配",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "all of us 我们所有人。"
+      },
+      {
+       "answer": "and",
+       "alt": [
+        "to"
+       ],
+       "category": "连接词",
+       "shape": "两个动作手拉手 → and（to 也通）",
+       "explain": "come and watch / come to watch 都对。"
+      }
+     ]
+    }
+   ]
   }
  }
 }
