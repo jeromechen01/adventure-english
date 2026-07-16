@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>思蒝 · KET 语法课件（第二级 · 第 5–8 课）</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F1E7;--paper-2:#EFE8D8;--ink:#2B2723;--ink-soft:#5D5449;--ink-faint:#8B8172;
+    --gold:#A9863C;--gold-deep:#856421;--red:#AC3F2E;--red-soft:#F3E3DD;
+    --jade:#3C6E5B;--jade-soft:#E1EAE2;--blue:#3A5A78;--blue-soft:#E3EAF0;
+    --board:#2C3A33;
+    --line:rgba(43,39,35,.14);
+    --serif:"Noto Serif SC",STSong,"Songti SC",SimSun,serif;
+    --sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+    --en:Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.85;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 30px;}
+  .masthead{padding:60px 0 22px;border-bottom:2px solid var(--ink);}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin-bottom:16px;}
+  h1{font-size:44px;line-height:1.16;font-weight:900;margin:0;}
+  h1 .sub{display:block;font-size:19px;font-weight:500;color:var(--ink-soft);margin-top:12px;}
+  .byline{font-family:var(--sans);font-size:13px;color:var(--ink-faint);display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:20px;}
+  .byline b{color:var(--ink-soft);font-weight:500;}
+
+  .spine{margin:34px 0 10px;padding:26px 32px;background:var(--board);color:#EDE8DC;border-radius:3px;}
+  .spine .lab{font-family:var(--sans);font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:12px;}
+  .spine h3{font-size:22px;font-weight:900;margin:0 0 10px;color:#fff;border:none;padding:0;}
+  .spine p{margin:8px 0;font-size:15px;line-height:1.8;color:#DDD6C6;}
+  .spine b{color:var(--gold);}
+
+  .lesson{margin:44px 0 0;border-top:3px solid var(--ink);padding-top:26px;}
+  .lhead{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;}
+  .lno{font-family:var(--sans);font-size:11.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;}
+  h2{font-size:31px;font-weight:900;margin:4px 0 6px;line-height:1.26;}
+  h2 .en{font-family:var(--en);font-weight:400;color:var(--ink-faint);font-size:20px;}
+  .meta{font-family:var(--sans);font-size:12px;color:var(--ink-soft);text-align:right;line-height:1.9;white-space:nowrap;}
+  .meta b{color:var(--gold-deep);}
+  .meta .star{color:var(--gold);letter-spacing:1px;}
+
+  .fixerr{background:var(--red-soft);border-left:5px solid var(--red);border-radius:2px;padding:14px 18px;margin:16px 0;font-size:14.5px;line-height:1.8;}
+  .fixerr .t{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:6px;}
+  .bad{color:var(--red);font-family:var(--en);text-decoration:line-through;text-decoration-thickness:1px;}
+  .good{color:var(--jade);font-family:var(--en);font-weight:700;}
+  .enx{font-family:var(--en);}
+
+  .tb{margin:22px 0;border:1px solid var(--line);border-radius:3px;overflow:hidden;}
+  .tb-h{display:flex;align-items:center;gap:12px;padding:9px 16px;background:var(--paper-2);border-bottom:1px solid var(--line);}
+  .tb-h .clock{font-family:var(--sans);font-size:11.5px;font-weight:700;letter-spacing:.06em;color:#fff;background:var(--gold);padding:2px 9px;border-radius:2px;white-space:nowrap;}
+  .tb-h .name{font-family:var(--sans);font-size:14px;font-weight:700;color:var(--ink);}
+  .tb-h .kind{font-family:var(--sans);font-size:11px;color:var(--ink-faint);margin-left:auto;letter-spacing:.1em;}
+  .tb-b{padding:16px 20px;font-size:15px;line-height:1.82;}
+  .tb-b p{margin:9px 0;}.tb-b p:first-child{margin-top:0;}.tb-b p:last-child{margin-bottom:0;}
+  .tb.hook .tb-h{background:#FDF3E8;} .tb.hook .clock{background:var(--gold-deep);}
+  .tb.story .tb-h{background:var(--blue-soft);} .tb.story .clock{background:var(--blue);}
+  .tb.core .tb-h{background:var(--jade-soft);} .tb.core .clock{background:var(--jade);}
+  .tb.out .tb-h{background:var(--red-soft);} .tb.out .clock{background:var(--red);}
+
+  .script{background:#FCFBF7;border:1px dashed var(--gold);border-radius:3px;padding:14px 18px;margin:14px 0;}
+  .script .sl{font-family:var(--sans);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--gold-deep);margin-bottom:8px;}
+  .script p{margin:7px 0;font-size:14.5px;line-height:1.8;}
+  .script .say::before{content:"「";color:var(--gold);font-weight:700;}
+  .script .say::after{content:"」";color:var(--gold);font-weight:700;}
+  .script .do{font-family:var(--sans);font-size:12.5px;color:var(--ink-faint);font-style:italic;}
+
+  .board{background:var(--board);color:#EDE8DC;border-radius:3px;padding:18px 22px;margin:16px 0;font-family:var(--en);font-size:15px;line-height:1.95;}
+  .board .bl{font-family:var(--sans);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:10px;}
+  .board b{color:#fff;}
+  .board .hl{color:var(--gold);font-weight:700;}
+  .board .x{color:#D98679;}
+  .board .cn{font-family:var(--sans);font-size:13px;color:#B8B0A2;}
+  .board hr{border:none;border-top:1px solid rgba(255,255,255,.16);margin:12px 0;}
+
+  /* 3D preposition diagram */
+  .dims{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0;}
+  .dim{background:#FCFBF7;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:3px;padding:14px;text-align:center;}
+  .dim svg{width:100%;height:78px;display:block;margin-bottom:8px;}
+  .dim .w{font-family:var(--en);font-size:22px;font-weight:700;color:var(--gold-deep);}
+  .dim .d{font-family:var(--sans);font-size:11.5px;color:var(--ink-faint);letter-spacing:.06em;margin-bottom:6px;}
+  .dim .ex{font-family:var(--en);font-size:12px;color:var(--ink-soft);line-height:1.6;}
+
+  .mne{background:linear-gradient(0deg,var(--paper-2),#FFF9EE);border:1px solid var(--gold);border-radius:3px;padding:16px 20px;margin:16px 0;text-align:center;}
+  .mne .ml{font-family:var(--sans);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin-bottom:8px;}
+  .mne .mt{font-family:var(--serif);font-size:19px;font-weight:900;line-height:1.8;color:var(--ink);}
+  .mne .mn{font-family:var(--sans);font-size:12.5px;color:var(--ink-soft);margin-top:8px;}
+
+  .tbl{width:100%;border-collapse:collapse;margin:14px 0;font-size:13px;font-family:var(--sans);}
+  .tbl th{background:var(--ink);color:var(--paper);text-align:left;padding:8px 10px;font-weight:700;font-size:11px;}
+  .tbl td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.6;}
+  .tbl tr:nth-child(even) td{background:rgba(169,134,60,.05);}
+  .tbl .en{font-family:var(--en);}
+  .tbl .k{font-weight:700;color:var(--gold-deep);}
+
+  .call{border-radius:2px;padding:16px 20px;margin:16px 0;font-size:14.5px;line-height:1.8;}
+  .call .tag{font-family:var(--sans);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;display:block;margin-bottom:7px;}
+  .call.gold{background:var(--paper-2);border-left:5px solid var(--gold);}.call.gold .tag{color:var(--gold-deep);}
+  .call.jade{background:var(--jade-soft);border-left:5px solid var(--jade);}.call.jade .tag{color:var(--jade);}
+  .call.red{background:var(--red-soft);border-left:5px solid var(--red);}.call.red .tag{color:var(--red);}
+  .call p{margin:6px 0;}.call p:first-child{margin-top:0;}.call p:last-child{margin-bottom:0;}
+
+  .check{background:var(--jade-soft);border-left:5px solid var(--jade);border-radius:2px;padding:13px 18px;margin:16px 0;font-size:14px;}
+  .check .cl{font-family:var(--sans);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--jade);margin-bottom:6px;}
+
+  footer{padding:38px 0 64px;font-family:var(--sans);font-size:12.5px;color:var(--ink-faint);line-height:1.7;margin-top:40px;border-top:1px solid var(--line);}
+  footer .rule{width:56px;height:3px;background:var(--gold);margin-bottom:18px;}
+  footer b{color:var(--ink-soft);}
+
+  @media (max-width:640px){
+    .wrap{padding:0 18px;}h1{font-size:30px;}h2{font-size:23px;}
+    .meta{text-align:left;}.tbl{font-size:11.5px;}.board{font-size:13.5px;}.dims{grid-template-columns:1fr;}
+  }
+  @media print{
+    body{background:#fff;}.lesson{page-break-before:always;}
+    .tb,.board,.script,.mne,.dims{page-break-inside:avoid;}
+    .board,.spine{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="kicker">KET 语法课件 · 第二级</div>
+    <h1>小词，大分<span class="sub">陈思蒝 · 第 5–8 课 · 每课 40–50 分钟</span></h1>
+    <div class="byline">
+      <span><b>适用</b>　第一级四课已完成 · 开学后进行</span>
+      <span><b>目标</b>　拿下 Part 5 那 6 分纯语法题</span>
+    </div>
+  </header>
+
+  <div class="spine">
+    <div class="lab">这四课为什么值得上</div>
+    <h3>它们不挡意思，但它们直接是分数</h3>
+    <p>第一级那四课打的是"会让人读不懂"的错。这四课不一样——<b>介词用错、冠词丢了、代词格错，英国人照样读得懂你。</b>那为什么还要练？</p>
+    <p>因为 <b>Part 5 那 6 分，全部从这里出</b>。看官方样卷的六个答案：<b>your／the</b>（限定词）、<b>Is</b>（助动词）、<b>lot</b>（量词）、<b>on</b>（介词）、<b>they</b>（代词）、<b>to</b>（不定式标记）——<b>全是 1 到 3 个字母的小词。</b></p>
+    <p>所以这四课的练法和第一级完全不同：<b>第一级要"懂"，第二级只要"熟"。</b>不需要她讲得出道理，只需要她看到空格就知道填什么。<em>这是可以速成的 6 分。</em></p>
+  </div>
+
+  <!-- ================= LESSON 5 ================= -->
+  <div class="lesson">
+    <div class="lhead">
+      <div>
+        <div class="lno">Lesson 05 · 第二级</div>
+        <h2>空间的形状<br><span class="en">Prepositions</span></h2>
+      </div>
+      <div class="meta">
+        时长　<b>50 分钟</b><br>
+        优先级　<span class="star">★★</span><br>
+        Part 5 直接考　<b>是</b>
+      </div>
+    </div>
+
+    <div class="fixerr">
+      <div class="t">本课要消灭的错</div>
+      <span class="bad">in Saturday</span>　→　<span class="good">on Saturday</span>　　
+      <span class="bad">with bus</span>　→　<span class="good">by bus</span>　　
+      <span class="bad">in TV</span>　→　<span class="good">on TV</span>
+    </div>
+
+    <div class="tb hook">
+      <div class="tb-h"><span class="clock">00:00 – 05:00</span><span class="name">导入 · 一个没人答得对的问题</span><span class="kind">Hook</span></div>
+      <div class="tb-b">
+        <div class="script">
+          <div class="sl">家长话术</div>
+          <p class="say">我问你：<b>坐小汽车</b>，英文是 <b>in</b> a car 还是 <b>on</b> a car？<br><b>坐公交车</b>呢，<b>in</b> a bus 还是 <b>on</b> a bus？</p>
+          <p class="do">她大概率会觉得两个应该一样。答案是：<b>in a car</b>，但 <b>on a bus</b>。</p>
+          <p class="say">都是坐车，凭什么一个 in 一个 on？<br>——今天这节课讲完，你就再也不用背了，<b>你会自己看出来</b>。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb story">
+      <div class="tb-h"><span class="clock">05:00 – 14:00</span><span class="name">背景 · 为什么介词是全世界公认最难的</span><span class="kind">Background</span></div>
+      <div class="tb-b">
+        <div class="script">
+          <div class="sl">家长话术</div>
+          <p class="say">先给你一个安慰：<b>介词是英语里最难的东西，没有之一。</b>很多在英国生活二十年的人，介词还会用错。</p>
+          <p class="say">为什么这么难？因为<b>每种语言切分空间的方式不一样，而且这种切法是"任性"的。</b><br>
+          中文说"在桌子<b>上</b>"、"在盒子<b>里</b>"——你注意到没有，中文的方位词是<b>跟在后面</b>的；英文的介词是<b>放在前面</b>的：<b>on</b> the table、<b>in</b> the box。<br>位置就先反了。</p>
+          <p class="say">但英文有一个中文没有的东西：<b>它的介词是有形状的。</b>——这是今天的钥匙。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb core">
+      <div class="tb-h"><span class="clock">14:00 – 34:00</span><span class="name">核心 · 点、面、盒子</span><span class="kind">Core</span></div>
+      <div class="tb-b">
+        <p><strong>这是本课唯一要记的东西。她数学好，这个图她一看就懂：</strong></p>
+
+        <div class="dims">
+          <div class="dim">
+            <svg viewBox="0 0 120 78" xmlns="http://www.w3.org/2000/svg">
+              <line x1="8" y1="52" x2="112" y2="52" stroke="#8B8172" stroke-width="1.5"/>
+              <circle cx="60" cy="52" r="7" fill="#A9863C"/>
+              <line x1="60" y1="30" x2="60" y2="41" stroke="#A9863C" stroke-width="1.5"/>
+              <text x="60" y="24" font-family="Georgia" font-size="11" fill="#5D5449" text-anchor="middle">一个点</text>
+            </svg>
+            <div class="d">零维 · 缩成一个点</div>
+            <div class="w">at</div>
+            <div class="ex">at 7 o'clock<br>at home　at the door<br>at the bus stop</div>
+          </div>
+          <div class="dim">
+            <svg viewBox="0 0 120 78" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 58 L74 58 L102 40 L46 40 Z" fill="none" stroke="#8B8172" stroke-width="1.5"/>
+              <rect x="52" y="26" width="20" height="14" fill="#A9863C"/>
+              <line x1="52" y1="40" x2="72" y2="40" stroke="#856421" stroke-width="2"/>
+              <text x="60" y="18" font-family="Georgia" font-size="11" fill="#5D5449" text-anchor="middle">贴着一个面</text>
+            </svg>
+            <div class="d">二维 · 接触到面</div>
+            <div class="w">on</div>
+            <div class="ex">on the table　on the wall<br>on Monday<br>on TV　on the bus</div>
+          </div>
+          <div class="dim">
+            <svg viewBox="0 0 120 78" xmlns="http://www.w3.org/2000/svg">
+              <path d="M30 26 L74 26 L96 14 L52 14 Z" fill="none" stroke="#8B8172" stroke-width="1.5"/>
+              <path d="M30 26 L30 60 L74 60 L74 26" fill="none" stroke="#8B8172" stroke-width="1.5"/>
+              <path d="M74 60 L96 48 L96 14" fill="none" stroke="#8B8172" stroke-width="1.5"/>
+              <circle cx="52" cy="44" r="8" fill="#A9863C"/>
+              <text x="60" y="74" font-family="Georgia" font-size="11" fill="#5D5449" text-anchor="middle">被盒子装着</text>
+            </svg>
+            <div class="d">三维 · 在容器里</div>
+            <div class="w">in</div>
+            <div class="ex">in the box　in a car<br>in July　in 2026<br>in the morning</div>
+          </div>
+        </div>
+
+        <div class="script">
+          <div class="sl">家长话术 · 讲这一段就够本了</div>
+          <p class="say">你看——<b>at、on、in 不是三个随机的单词，它们是三个形状：</b><br>
+          <b>at</b> ＝ 一个<b>点</b>。缩到最小，没有大小。<br>
+          <b>on</b> ＝ 一个<b>面</b>。贴着，接触着。<br>
+          <b>in</b> ＝ 一个<b>盒子</b>。被包住了，在里面。</p>
+          <p class="say">现在回到开头那个问题——<br>
+          <b>小汽车</b>：你得钻进去、坐下、动不了。那是个<b>盒子</b>。所以 <b>in a car</b>。<br>
+          <b>公交车</b>：你能站起来、能走动，脚踩着地板那个<b>面</b>。所以 <b>on a bus</b>。<br>
+          火车、飞机、轮船，都能走动 → 全是 <b>on</b>。出租车跟小汽车一样要钻进去 → <b>in a taxi</b>。</p>
+          <p class="do">让她自己判断几个：on a plane? in a lift? on a ship? （答案：on / in / on）</p>
+        </div>
+
+        <p style="margin-top:18px;"><strong>第二步：把这三个形状搬到时间上——这是最漂亮的一步</strong></p>
+        <div class="board">
+          <div class="bl">板书 · 时间也有形状</div>
+          <span class="cn">英语人的脑子里，<b>时间也是一条线、一张纸、一个盒子</b>。</span>
+          <hr>
+          <b><span class="hl">at</span> 7 o'clock</b>　　<span class="cn">时间轴上的一个<b>点</b>——七点整，没有宽度</span><br>
+          <b><span class="hl">on</span> Monday</b>　　<span class="cn">一天像一张<b>纸</b>，你站在这一天上面</span><br>
+          <b><span class="hl">in</span> July</b>　　　<span class="cn">一个月像一个<b>盒子</b>，你被这三十天装在里面</span>
+          <hr>
+          <span class="cn">所以规律是：<b>时间段越长，越"能装人"，就越往 in 走。</b></span><br>
+          <b><span class="hl">at</span></b> 7 o'clock / noon / midnight　<span class="cn">→ 点</span><br>
+          <b><span class="hl">on</span></b> Monday / my birthday / 5 May　<span class="cn">→ 一天（纸）</span><br>
+          <b><span class="hl">in</span></b> July / winter / 2026 / the morning　<span class="cn">→ 一段（盒子）</span>
+        </div>
+
+        <div class="call red">
+          <span class="tag">诚实的例外（一定要告诉她，别让她以为自己错了）</span>
+          <p>按上面的逻辑，"在晚上"应该是 <em class="enx">in the night</em>——但英语说 <strong class="enx">at night</strong>。</p>
+          <p>为什么？<em>因为这是个几百年的老词组，在"形状"这套逻辑成型之前就已经固定了。</em>语言不是数学，它有历史的疤。</p>
+          <p><strong>处理办法：把 <span class="enx">at night</span> 单独拎出来背，就当它是个特例。</strong>——告诉她"英语也有偷懒和不讲理的时候"，比让她怀疑自己理解错了要好得多。<em>规律负责 90%，剩下 10% 靠背，这是学语言的常态。</em></p>
+        </div>
+
+        <p style="margin-top:16px;"><strong>第三步：by ＝ 靠什么（工具）</strong></p>
+        <div class="board">
+          <div class="bl">板书 · by 的一个意思就够</div>
+          <span class="cn"><b>by ＝ 靠……／通过……</b>（不管形状，只管"用什么办法"）</span>
+          <hr>
+          <b>by bus　by bike　by train　by car</b>　<span class="cn">靠什么去的</span><br>
+          <b>by hand</b>　<span class="cn">用手做的</span>
+          <hr>
+          <span class="x">with bus</span>　<span class="cn">✗ with 是"拿着某样东西"——你没法"拿着一辆公交车"</span><br>
+          <b>with a pen</b>　<span class="cn">✓ 这个可以拿在手上</span>
+        </div>
+
+        <div class="mne">
+          <div class="ml">本课口诀</div>
+          <div class="mt">at 是点，on 是面，<br>in 是盒子把你关；<br>钻进去的用 in，<br>站得起的用 on，<br>靠它去的就用 by。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb out">
+      <div class="tb-h"><span class="clock">34:00 – 50:00</span><span class="name">练习 + 输出</span><span class="kind">Drill &amp; Output</span></div>
+      <div class="tb-b">
+        <p>做练习册 <strong>Week 5 全部三部分</strong>。C 部分（固定搭配）<strong>不要讲道理，直接背</strong>——<em class="enx">on TV / on holiday / good at / interested in</em> 这些没有形状可讲，它们就是词组。</p>
+        <div class="script">
+          <div class="sl">输出 · 家长话术</div>
+          <p class="say">用英文说三句话，一句带 <b>at</b>，一句带 <b>on</b>，一句带 <b>in</b>。说的时候，<b>先在心里画一下形状</b>——是点、是面、还是盒子？</p>
+        </div>
+        <div class="check">
+          <div class="cl">本课验收</div>
+          做 Part 5 格式的填空时，<strong>介词类全对</strong>；且能自己解释为什么是 on a bus 而不是 in a bus。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= LESSON 6 ================= -->
+  <div class="lesson">
+    <div class="lhead">
+      <div>
+        <div class="lno">Lesson 06 · 第二级</div>
+        <h2>新朋友和老朋友<br><span class="en">Pronouns &amp; determiners</span></h2>
+      </div>
+      <div class="meta">
+        时长　<b>50 分钟</b><br>
+        优先级　<span class="star">★★</span><br>
+        Part 5 直接考　<b>是</b>
+      </div>
+    </div>
+
+    <div class="fixerr">
+      <div class="t">本课要消灭的错</div>
+      <span class="bad">Me and Tom went…</span>　→　<span class="good">Tom and I went…</span><br>
+      <span class="bad">I have book.</span>　→　<span class="good">I have a book.</span>
+    </div>
+
+    <div class="tb hook">
+      <div class="tb-h"><span class="clock">00:00 – 05:00</span><span class="name">导入 · 中文里没有的那两个字</span><span class="kind">Hook</span></div>
+      <div class="tb-b">
+        <div class="script">
+          <div class="sl">家长话术</div>
+          <p class="say">我说一句中文，你翻译：<b>"我有书。"</b></p>
+          <p class="do">她会说 I have book. —— 这正是我们要的。</p>
+          <p class="say">英国人听到这句，会愣一下。因为英文必须说 <b>I have a book</b>。<br>那个 <b>a</b>，中文里根本没有。<b>中文一整套语言，就没有"冠词"这个东西。</b></p>
+          <p class="say">所以这不是你的错——<b>这是你的母语里缺的一个零件。</b>今天就把这个零件装上。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb story">
+      <div class="tb-h"><span class="clock">05:00 – 16:00</span><span class="name">背景 · a 和 the 的真身</span><span class="kind">Background</span></div>
+      <div class="tb-b">
+        <p><strong>这一段是本课的杀手锏。讲完她就再也不会瞎猜 a 还是 the。</strong></p>
+        <div class="script">
+          <div class="sl">家长话术 · 慢慢揭晓</div>
+          <p class="say">我告诉你一个秘密：<b>a 和 the 不是凭空冒出来的，它们各自都有前世。</b></p>
+          <p class="say"><b>a</b> 的前世是 —— <b>one</b>（一）。<br>一千年前的英语里，"a" 就是 "one" 这个词，说着说着音变懒了、变短了，最后缩成了一个字母 <b>a</b>。</p>
+          <p class="say"><b>the</b> 的前世是 —— <b>that</b>（那）。<br>它原本就是"那个"的意思，也是说着说着磨短了，变成了 <b>the</b>。</p>
+          <p class="say">所以你翻译的时候可以直接这样想：<br>
+          <b>a book ＝ 一本书</b>（听的人不知道是哪本）<br>
+          <b>the book ＝ 那本书</b>（听的人知道是哪本）</p>
+          <p class="say">而中文里，"一"和"那"是<b>可以省的</b>——"我有书"、"书在桌上"，都行。<br><b>英文不能省。</b>这就是全部的区别。</p>
+        </div>
+        <div class="call jade">
+          <span class="tag">为什么这个讲法能救命</span>
+          <p>大多数孩子学冠词，学的是"泛指用 a、特指用 the"——<em>这两个词她根本没有感觉，等于没学。</em></p>
+          <p>但"<strong>a 就是「一」，the 就是「那」</strong>"她立刻有感觉，因为<em>中文里她天天在用"一"和"那"</em>。她只是不知道英文要求必须说出来而已。<strong>这不是学新东西，是把她已有的东西翻译过去。</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb core">
+      <div class="tb-h"><span class="clock">16:00 – 36:00</span><span class="name">核心 · 新朋友 → 老朋友</span><span class="kind">Core</span></div>
+      <div class="tb-b">
+        <div class="board">
+          <div class="bl">板书 · 一条规律吃遍冠词</div>
+          <b><span class="hl">a</span> ＝ 新朋友</b>　<span class="cn">第一次提到，我给你介绍一下</span><br>
+          <b><span class="hl">the</span> ＝ 老朋友</b>　<span class="cn">刚才说过了，你已经认识了</span>
+          <hr>
+          <span class="cn">看这个故事，注意 a 和 the 是怎么换班的：</span><br>
+          Once upon a time there was <span class="hl">a</span> king.　<span class="cn">← 新朋友登场</span><br>
+          <span class="hl">The</span> king had <span class="hl">a</span> daughter.　<span class="cn">← 国王变老朋友了；女儿是新朋友</span><br>
+          <span class="hl">The</span> daughter loved <span class="hl">a</span> violin.　<span class="cn">← 女儿变老朋友；小提琴是新朋友</span><br>
+          She played <span class="hl">the</span> violin every day.　<span class="cn">← 小提琴也变老朋友了</span>
+          <hr>
+          <span class="cn"><b>规律：所有东西第一次出场用 a，第二次开始用 the。</b><br>就像介绍朋友——第一次说"这是我一个同学"，第二次就说"那个同学"。</span>
+        </div>
+        <div class="script">
+          <div class="sl">家长话术 · 让她自己念一遍</div>
+          <p class="do">把上面那个故事写出来，把 a 和 the 挖空，让她填。填完问她：</p>
+          <p class="say">为什么第一次是 a king，第二次就变成 the king 了？</p>
+          <p class="do">她答得出"因为已经说过了"，这一课就成了。<b>不需要她背规则，她已经懂了。</b></p>
+        </div>
+
+        <div class="call gold">
+          <span class="tag">两条补丁（讲完就够，不深挖）</span>
+          <p><strong>① 双方都心里有数的，也用 the。</strong>你在家说 <em class="enx">Close the door</em>——虽然没提过门，但你俩都知道是哪扇门。<em>"老朋友"不一定要在上文出现过，只要双方都知道是哪个。</em></p>
+          <p><strong>② 有些地方不用冠词。</strong><em class="enx">go to school</em>（去上学，不是去某栋楼）、<em class="enx">have lunch</em>、<em class="enx">by bus</em>、<em class="enx">I like music</em>（泛指所有音乐）。<br><em>这一条别讲道理，直接背几个词组就行——它是 KET 的边缘考点。</em></p>
+        </div>
+
+        <p style="margin-top:18px;"><strong>第二半：代词三格（20 分钟）</strong></p>
+        <div class="script">
+          <div class="sl">家长话术 · 用乐团讲</div>
+          <p class="say">中文的"我"永远是"我"——我打他、他打我、我的琴，三个"我"长得一模一样。<br>
+          英文不行。英文的"我"有<b>三张脸</b>：<b>I / me / my</b>。</p>
+          <p class="say">用乐团来分：<br>
+          <b>I ＝ 演奏的人</b>（谁在动手）→ <b>I play the violin.</b><br>
+          <b>me ＝ 被点到的人</b>（动作打在谁身上）→ <b>The teacher chose me.</b><br>
+          <b>my ＝ 谁的乐器</b>（所有权）→ <b>my violin</b></p>
+        </div>
+        <div class="board">
+          <div class="bl">板书 · 三格表（这张表她必须背到不用想）</div>
+          <table style="width:100%;border-collapse:collapse;font-family:var(--en);font-size:14px;">
+            <tr style="color:#B8B0A2;font-family:var(--sans);font-size:11.5px;">
+              <td style="padding:4px 8px;">主格（谁在动手）</td><td style="padding:4px 8px;">宾格（动作打到谁）</td><td style="padding:4px 8px;">物主（谁的）</td></tr>
+            <tr><td style="padding:4px 8px;"><b>I</b></td><td style="padding:4px 8px;"><span class="hl">me</span></td><td style="padding:4px 8px;"><span class="hl">my</span></td></tr>
+            <tr><td style="padding:4px 8px;"><b>you</b></td><td style="padding:4px 8px;"><span class="hl">you</span></td><td style="padding:4px 8px;"><span class="hl">your</span></td></tr>
+            <tr><td style="padding:4px 8px;"><b>he</b></td><td style="padding:4px 8px;"><span class="hl">him</span></td><td style="padding:4px 8px;"><span class="hl">his</span></td></tr>
+            <tr><td style="padding:4px 8px;"><b>she</b></td><td style="padding:4px 8px;"><span class="hl">her</span></td><td style="padding:4px 8px;"><span class="hl">her</span></td></tr>
+            <tr><td style="padding:4px 8px;"><b>it</b></td><td style="padding:4px 8px;"><span class="hl">it</span></td><td style="padding:4px 8px;"><span class="hl">its</span></td></tr>
+            <tr><td style="padding:4px 8px;"><b>we</b></td><td style="padding:4px 8px;"><span class="hl">us</span></td><td style="padding:4px 8px;"><span class="hl">our</span></td></tr>
+            <tr><td style="padding:4px 8px;"><b>they</b></td><td style="padding:4px 8px;"><span class="hl">them</span></td><td style="padding:4px 8px;"><span class="hl">their</span></td></tr>
+          </table>
+          <hr>
+          <span class="cn"><b>位置口诀：动词<u>前面</u>用主格，动词和介词<u>后面</u>用宾格。</b></span>
+        </div>
+        <div class="call gold">
+          <span class="tag">Me and Tom 的那个坑</span>
+          <p>她会写 <span class="bad">Me and Tom went to the concert.</span> —— <em>因为中文说"我和汤姆"，"我"永远在前面且永远是"我"。</em></p>
+          <p><strong>教她一个一秒钟自检法：把 Tom 拿掉，只留自己念一遍。</strong><br>
+          <em class="enx">Me went to the concert.</em> → 一听就不对 → 所以是 <strong class="enx">I</strong>。<br>
+          <em class="enx">The teacher chose me.</em> → 拿掉别人也顺 → 所以 <strong class="enx">me</strong> 是对的。</p>
+          <p><em>顺便：英文的礼貌习惯是把自己放最后——<strong class="enx">Tom and I</strong>，不是 <span class="enx">I and Tom</span>。这一点和中文正相反。</em></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb out">
+      <div class="tb-h"><span class="clock">36:00 – 50:00</span><span class="name">练习 + 输出</span><span class="kind">Drill &amp; Output</span></div>
+      <div class="tb-b">
+        <p>练习册 <strong>Week 6 全部四部分</strong>。A（三格表）要<strong>默写到全对</strong>。</p>
+        <div class="script">
+          <div class="sl">输出 · 家长话术</div>
+          <p class="say">用英文讲一个三句话的小故事，<b>要求：每样东西第一次出现用 a，第二次用 the。</b></p>
+          <p class="do">比如：I saw <b>a</b> dog. <b>The</b> dog was very small. I gave <b>the</b> dog some food.</p>
+        </div>
+        <div class="check">
+          <div class="cl">本课验收</div>
+          三格表默写全对；Part 5 格式填空里，<strong>代词和限定词类全对</strong>。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= LESSON 7 ================= -->
+  <div class="lesson">
+    <div class="lhead">
+      <div>
+        <div class="lno">Lesson 07 · 第二级</div>
+        <h2>连奏线<br><span class="en">Connectives</span></h2>
+      </div>
+      <div class="meta">
+        时长　<b>40 分钟</b><br>
+        优先级　<span class="star">★★</span><br>
+        一举两得　<b>是</b>
+      </div>
+    </div>
+
+    <div class="call jade">
+      <span class="tag">这一课是八课里最轻松的，也是最划算的</span>
+      <p><strong>KET 只考 7 个连接词：<span class="enx">and, but, or / when, where, because, if</span>。就这些，没了。</strong></p>
+      <p>而它一举两得：既能填 Part 5，<strong>又能给写作的 Organisation 维度直接加分</strong>——官方满分档要求"使用基础连接词"，那篇 15/15 的范文用的就是 <em class="enx">because</em> 和 <em class="enx">then</em>。<em>一个 because，同时在两处挣钱。</em></p>
+    </div>
+
+    <div class="tb hook">
+      <div class="tb-h"><span class="clock">00:00 – 06:00</span><span class="name">导入 · 用她自己的作文</span><span class="kind">Hook</span></div>
+      <div class="tb-b">
+        <div class="script">
+          <div class="sl">家长话术 · 这段一定要说</div>
+          <p class="say">我念一段你自己写的东西：<br>
+          <b>"看着忙碌的蜜蜂，我就会想起街道上穿梭的橙色身影。"</b></p>
+          <p class="say">你有没有意识到，你在这一句里做了一件很厉害的事？——<b>你把两个完全不相干的东西连起来了。</b>蜜蜂和环卫工人，本来没关系，是你用"就会想起"这四个字把它们接上的。</p>
+          <p class="say">这个本事，英文里叫 <b>connectives</b>——连接词。<b>你早就会了，你只是不知道英文那几个词长什么样。</b></p>
+          <p class="say">今天这节课，只有 7 个词。四十分钟，够了。</p>
+        </div>
+        <p><em>为什么这样开场：<strong>这一课的真正目的不是教 7 个单词，是让她相信"我在中文里会的东西，英文里也算数"。</strong>她的作文能力是她最大的资产——但她自己不知道它能迁移。<em>说破这一层，比教十个单词管用。</em></em></p>
+      </div>
+    </div>
+
+    <div class="tb core">
+      <div class="tb-h"><span class="clock">06:00 – 24:00</span><span class="name">核心 · 七个词，六种关系</span><span class="kind">Core</span></div>
+      <div class="tb-b">
+        <div class="script">
+          <div class="sl">家长话术 · 乐团比喻</div>
+          <p class="say">你拉琴的时候，谱子上有一种记号叫<b>连奏线</b>——一道弧线，把几个音连起来，让它们连成一句，而不是一个一个蹦出来。</p>
+          <p class="say">没有连奏线，音是断的，像机器人在弹。<b>有了连奏线，才有"句子"。</b></p>
+          <p class="say">英文的连接词，就是句子的连奏线。</p>
+        </div>
+
+        <div class="board">
+          <div class="bl">板书 · 七个词 · 六种关系</div>
+          <b><span class="hl">and</span></b>　<span class="cn">加　＝ 而且、然后</span>　　I had lunch <b>and</b> then I went out.<br>
+          <b><span class="hl">but</span></b>　<span class="cn">转　＝ 但是</span>　　　I like the violin <b>but</b> I don't like the piano.<br>
+          <b><span class="hl">or</span></b>　　<span class="cn">选　＝ 或者</span>　　　Tea <b>or</b> coffee?<br>
+          <hr>
+          <b><span class="hl">because</span></b>　<span class="cn">因　＝ 因为</span>　　I was late <b>because</b> I missed the bus.<br>
+          <b><span class="hl">so</span></b>　　　<span class="cn">果　＝ 所以</span>　　I was tired, <b>so</b> I went to bed.<br>
+          <b><span class="hl">when</span></b>　<span class="cn">时　＝ 当……的时候</span>　I'll call you <b>when</b> I get home.<br>
+          <b><span class="hl">if</span></b>　　　<span class="cn">条件　＝ 如果</span>　　<b>If</b> you come early, we can practise.<br>
+          <b><span class="hl">where</span></b>　<span class="cn">地　＝ 在……的地方</span>　（用得最少，认识就行）
+          <hr>
+          <span class="cn"><b>because 和 so 是一对镜子：</b><br>
+          I was late <b>because</b> I missed the bus.　＝　I missed the bus, <b>so</b> I was late.<br>
+          <b>同一件事，谁在前面就用谁。</b>——这一条讲清楚，她两个都会用了。</span>
+        </div>
+
+        <div class="call gold">
+          <span class="tag">写作专用：再送她三个词</span>
+          <p>严格说 <em class="enx">then / first / next</em> 不算连接词（它们是副词），但<strong>官方满分范文里就用了 then</strong>，而且 Organisation 维度明确要求"basic linking words and a limited number of cohesive devices"。</p>
+          <p>所以写故事时，给她三个免费的加分词：<strong class="enx">First… Then… Finally…</strong><br><em>这三个词往 Part 7 的三幅图上一放，结构分立刻就有了——因为三幅图正好对应三个阶段。</em></p>
+        </div>
+
+        <div class="mne">
+          <div class="ml">本课口诀</div>
+          <div class="mt">加 and、转 but、选 or，<br>因 because、果 so，<br>时 when、若 if。<br><b>写故事：First、Then、Finally。</b></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb out">
+      <div class="tb-h"><span class="clock">24:00 – 40:00</span><span class="name">练习 + 输出</span><span class="kind">Drill &amp; Output</span></div>
+      <div class="tb-b">
+        <p>练习册 <strong>Week 7</strong>。B 部分（把两个短句连成一句）是本课核心——<strong>那就是写作提分的动作</strong>。</p>
+        <div class="script">
+          <div class="sl">输出 · 一个很有效的小任务</div>
+          <p class="do">拿出她 Day 6 写的第一篇 25 词作文（那篇全是短句）。</p>
+          <p class="say">现在用今天学的词，<b>把这篇改写一遍——把断掉的句子连起来。</b></p>
+          <p class="do">改完前后一对比，她会自己看出差别。<b>这比你说十句"要用连接词"有用。</b></p>
+        </div>
+        <div class="check">
+          <div class="cl">本课验收</div>
+          写作里能<strong>自然用出 because 和 then</strong>（不是硬塞）；Part 7 能用 First / Then / Finally 撑起三幅图。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= LESSON 8 ================= -->
+  <div class="lesson">
+    <div class="lhead">
+      <div>
+        <div class="lno">Lesson 08 · 第二级</div>
+        <h2>数得清和数不清<br><span class="en">Quantifiers &amp; comparatives</span></h2>
+      </div>
+      <div class="meta">
+        时长　<b>45 分钟</b><br>
+        优先级　<span class="star">★★</span><br>
+        Part 5 考 <b>a lot of</b>
+      </div>
+    </div>
+
+    <div class="fixerr">
+      <div class="t">本课要消灭的错</div>
+      <span class="bad">many water</span>　→　<span class="good">much water</span>　　
+      <span class="bad">beautifuler</span>　→　<span class="good">more beautiful</span>
+    </div>
+
+    <div class="tb hook">
+      <div class="tb-h"><span class="clock">00:00 – 06:00</span><span class="name">导入 · 中文的一个惊人事实</span><span class="kind">Hook</span></div>
+      <div class="tb-b">
+        <div class="script">
+          <div class="sl">家长话术 · 这个发现她会觉得很酷</div>
+          <p class="say">你说说看：一___书？一___纸？一___水？一___鹿？</p>
+          <p class="do">她会说：一<b>本</b>书、一<b>张</b>纸、一<b>杯</b>水、一<b>只</b>鹿。</p>
+          <p class="say">现在我问你一个问题——<b>你能说"一书"吗？"一纸"呢？</b></p>
+          <p class="do">她会说：不能，很奇怪。</p>
+          <p class="say">对。<b>中文里，所有东西都不能直接数。</b>不管是书、纸、水还是鹿，中间都必须垫一个量词。<br>
+          换句话说：<b>在中文的眼里，万物都是"数不清"的。</b></p>
+          <p class="say">但英文不一样。英文把东西分成了<b>两拨</b>：一拨可以直接数（<b>two books</b>，不用垫任何东西），另一拨不行（不能说 two waters，得说 two <b>glasses of</b> water）。</p>
+          <p class="say">所以"可数不可数"这个概念，<b>对你来说是全新的——因为中文根本没有这个分类。</b>你觉得难，是正常的。</p>
+        </div>
+        <div class="call jade">
+          <span class="tag">为什么这个导入重要</span>
+          <p>中国孩子学"可数/不可数"总觉得别扭，<strong>根源是中文是一门"全员需要量词"的语言</strong>——中文的立场是"万物皆不可数"。英文的立场是"一半一半"。</p>
+          <p><em>把这层说破，她就不会觉得是自己笨——她只是在学一个母语里压根不存在的分类法。</em>而且她会发现：<strong>英文的"不可数名词"，恰好就是中文里要用"杯、片、块"这类量词的那些东西。</strong>——两边其实对得上，只是英文只对了一半。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb core">
+      <div class="tb-h"><span class="clock">06:00 – 24:00</span><span class="name">核心 A · many / much / a lot of</span><span class="kind">Core</span></div>
+      <div class="tb-b">
+        <div class="board">
+          <div class="bl">板书 · 谁配谁</div>
+          <span class="cn"><b>可数</b>（能直接数，有复数）</span>　books　students　apples　people<br>
+          <span class="cn"><b>不可数</b>（要借容器，没有复数）</span>　water　time　music　money　homework
+          <hr>
+          <b><span class="hl">many</span></b> ＋ <span class="cn">可数</span>　　　How <b>many</b> students?　<span class="cn">✓</span><br>
+          <b><span class="hl">much</span></b> ＋ <span class="cn">不可数</span>　　How <b>much</b> water?　<span class="cn">✓</span><br>
+          <span class="x">many water</span>　<span class="cn">✗</span>
+          <hr>
+          <b><span class="hl">a lot of</span></b>　<span class="cn">＝ <b>通吃</b>！可数不可数都能配</span><br>
+          <b>a lot of students</b>　<span class="cn">✓</span>　　<b>a lot of water</b>　<span class="cn">✓</span>
+        </div>
+        <div class="call red">
+          <span class="tag">重点：a lot of 是 Part 5 的常客</span>
+          <p>官方样卷 Part 5 第 27 题：<em class="enx">"I heard that a ______ of Canadians speak two languages."</em>　答案：<strong class="enx">lot</strong>。</p>
+          <p><strong>看到空格后面跟着 <span class="enx">of</span>，前面又是 <span class="enx">a</span>——十有八九填 <span class="enx">lot</span>。</strong>这是形状题，不是理解题。</p>
+        </div>
+        <div class="script">
+          <div class="sl">家长话术 · 一个偷懒技巧</div>
+          <p class="say">告诉你一个实话：<b>如果你实在拿不准是 many 还是 much，就用 a lot of。</b>它两边都能用，永远不会错。</p>
+          <p class="say">但有个例外：<b>疑问句和否定句里，英国人还是习惯用 many / much。</b>所以 <b>How many / How much</b> 这两个组合要单独背熟——它们出现频率极高。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb core">
+      <div class="tb-h"><span class="clock">24:00 – 38:00</span><span class="name">核心 B · 比较级：语言是懒的</span><span class="kind">Core</span></div>
+      <div class="tb-b">
+        <div class="script">
+          <div class="sl">家长话术 · 让她自己念一遍就懂了</div>
+          <p class="say">你念念这个词：<b>beautifuler</b>。</p>
+          <p class="do">让她真的念出来。她会念得很别扭，还会笑。</p>
+          <p class="say">难念吧？——<b>这就是全部的原因。</b><br>英语的规矩是：<b>短词加尾巴，长词请帮手。</b><br>
+          old 只有一个音节，加个 -er 毫不费力 → <b>older</b>。<br>
+          beautiful 有三个音节，再加尾巴，嘴巴受不了 → 就派个帮手站前面 → <b>more beautiful</b>。</p>
+          <p class="say">语言这东西，说到底是<b>偷懒</b>偷出来的。哪个省力用哪个。</p>
+        </div>
+        <div class="board">
+          <div class="bl">板书 · 比较级的两条路</div>
+          <b>短词（1 个音节）→ 加尾巴 -er / -est</b><br>
+          <span class="cn">old → older → the oldest　　tall → taller → the tallest　　fast → faster → the fastest</span>
+          <hr>
+          <b>长词（3 个音节以上）→ 请帮手 more / most</b><br>
+          <span class="cn">difficult → more difficult → the most difficult<br>interesting → more interesting → the most interesting<br>beautiful → more beautiful → the most beautiful</span>
+          <hr>
+          <b>两个音节的：看它顺不顺口</b>　<span class="cn">happy → happier（y 结尾的改 i 加 er）；careful → more careful</span>
+          <hr>
+          <b class="hl">四个不讲理的（必须死记）</b><br>
+          <span class="cn">good / well → <b>better</b> → <b>the best</b><br>
+          bad → <b>worse</b> → <b>the worst</b><br>
+          many / much → <b>more</b> → <b>the most</b><br>
+          little → <b>less</b> → <b>the least</b></span>
+        </div>
+        <div class="call gold">
+          <span class="tag">第 1 课那条规律，第三次出现</span>
+          <p><strong>越常用的词，越不规则。</strong>——good、bad、many、little 是英语里用得最多的四个形容词，所以它们四个也最乱。</p>
+          <p><em>这条规律在这套课件里出现了三次：be（第 1 课）、不规则动词（第 3 课）、现在是比较级。<strong>请每次都指出来</strong>——当她发现"这不是一堆乱七八糟的例外，而是同一条规律在反复出现"，整个语言在她眼里就变得有秩序了。</em>那种感觉，比多做二十道题珍贵。</p>
+        </div>
+        <div class="board">
+          <div class="bl">板书 · 比较句的骨架</div>
+          <b>A ＋ be ＋ 比较级 ＋ <span class="hl">than</span> ＋ B</b><br>
+          <span class="cn">My violin is older <b>than</b> yours.</span>
+          <hr>
+          <b>A ＋ be ＋ <span class="hl">the</span> ＋ 最高级 ＋ 范围</b><br>
+          <span class="cn">She is <b>the</b> tallest girl <b>in</b> our class.</span>
+          <hr>
+          <span class="cn"><b>两个必记的小词：</b>比较级后面跟 <b>than</b>；最高级前面必须有 <b>the</b>。<br>——这两个都是 Part 5 会挖的空。</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tb out">
+      <div class="tb-h"><span class="clock">38:00 – 45:00</span><span class="name">练习 + 输出</span><span class="kind">Drill &amp; Output</span></div>
+      <div class="tb-b">
+        <p>练习册 <strong>Week 8</strong> 的 C、D 两部分。</p>
+        <div class="script">
+          <div class="sl">输出</div>
+          <p class="say">用英文比较三样东西：<b>你的小提琴和同学的、语文和数学、今天和昨天。</b>每样说一句。</p>
+        </div>
+        <div class="check">
+          <div class="cl">本课验收 · 也是全八课的总验收</div>
+          Part 5 格式的开放完形，<strong>做到 5/6 以上</strong>。<br>
+          做到了，就意味着——<em>那 6 分从"全丢"变成了"基本全拿"。</em>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 收束 -->
+  <div class="call jade" style="margin-top:44px;">
+    <span class="tag">八课上完之后</span>
+    <p><strong>把这张地图给她看一遍</strong>——让她知道自己走完了什么：</p>
+    <p><b>第一级（1–4 课）</b>：她学会了把句子<em>搭起来</em>——那根等号、那个起拍手势、动词的时间戳、别在半路转调。<em>从此她写的东西，别人读得懂。</em><br>
+    <b>第二级（5–8 课）</b>：她学会了那些<em>小零件</em>——空间的形状、新朋友老朋友、连奏线、数得清和数不清。<em>从此 Part 5 那 6 分是她的。</em></p>
+    <p>但最要紧的还是那句老话：<strong>剑桥的满分范文里躺着 <em class="enx">to going</em> 这种错，照样 15/15。</strong>八课上完，她仍然会犯错——<em>那是正常的，那是被允许的，那甚至是官方明文写进评分标准的。</em></p>
+    <p><b>她需要的不是完美的英语，是敢开口、写得出、别人读得懂的英语。</b>这八课给的就是这个。</p>
+  </div>
+
+  <footer>
+    <div class="rule"></div>
+    <p><b>本文件定位</b>　《KET 语法补习总攻略》的课件化实现，第二级（第 5–8 课）。第一级（第 1–4 课：be 动词、疑问句、时态、时态一致）见配套文件。配合《思蒝KET语法练习册》Week 5–8 与《原创全真模拟卷 01》Part 5 使用。</p>
+    <p><b>四课主线复述</b>　⑤ at 是点、on 是面、in 是盒子——空间的形状搬到时间上照样成立；⑥ a 的前世是 one、the 的前世是 that，所以 a ＝ 新朋友、the ＝ 老朋友；⑦ 连接词只有 7 个，而她在中文作文里早就会连了；⑧ 中文认为万物不可数（所以全要量词），英文只认一半——难是因为母语里没这个分类，不是因为她笨。</p>
+    <p><b>教法口径</b>　语法内容依据剑桥 A2 Key for Schools 官方语言规范（教师手册第 55–57 页）；Part 5 考点说明与样卷答案引自同一手册。词源部分（a ← one、the ← that）与空间隐喻（点／面／容器）为语言学界通行结论与通行教学模型，用于讲解记忆，不属考点；at night 等固定搭配为历史遗留，已在课中如实说明。</p>
+    <p><b>给家长最后一句</b>　这套课件最大的设计意图，其实不在语法：<b>是让她在每一课里都发现"我的中文能力是资产，不是障碍"。</b>她写得出"我轻轻抚摸小鹿被晒得暖洋洋的耳朵"——<em>那份对语言的感觉，换成英文一样管用，只是零件还没配齐。八节课，就是配零件。</em></p>
+  </footer>
+
+</div>
+</body>
+</html>

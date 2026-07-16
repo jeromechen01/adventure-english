@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陈思蒝 · KET / PET 通关总方案</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F6F1E7;--paper-2:#EFE8D8;--ink:#2B2723;--ink-soft:#5D5449;--ink-faint:#8B8172;
+    --gold:#A9863C;--gold-deep:#856421;--red:#AC3F2E;--red-soft:#F3E3DD;--jade:#3C6E5B;--jade-soft:#E1EAE2;
+    --line:rgba(43,39,35,.14);
+    --serif:"Noto Serif SC",STSong,"Songti SC",SimSun,serif;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.8;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:900px;margin:0 auto;padding:0 30px;}
+  a{color:var(--gold-deep);word-break:break-all;}
+  .masthead{padding:60px 0 22px;border-bottom:2px solid var(--ink);}
+  .kicker{font-family:var(--sans);font-size:12px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;margin-bottom:16px;}
+  h1{font-size:44px;line-height:1.16;font-weight:900;margin:0;}
+  h1 .sub{display:block;font-size:19px;font-weight:500;color:var(--ink-soft);margin-top:12px;}
+  .byline{font-family:var(--sans);font-size:13px;color:var(--ink-faint);display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:20px;}
+  .byline b{color:var(--ink-soft);font-weight:500;}
+  .toc{margin:32px 0 8px;padding:24px 28px;background:var(--paper-2);border-left:5px solid var(--gold);border-radius:2px;font-family:var(--sans);}
+  .toc h4{margin:0 0 12px;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-deep);}
+  .toc ol{margin:0;padding-left:20px;font-size:14.5px;line-height:1.95;}
+  .toc a{color:var(--ink);text-decoration:none;}
+  section{padding:46px 0;border-bottom:1px solid var(--line);}
+  .eyebrow{font-family:var(--sans);font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-deep);font-weight:700;display:flex;align-items:center;gap:14px;margin-bottom:8px;}
+  .eyebrow .num{font-size:27px;font-family:var(--serif);font-weight:900;color:var(--ink);line-height:1;}
+  h2{font-size:29px;font-weight:900;margin:6px 0 12px;line-height:1.3;}
+  h3{font-size:19px;font-weight:700;margin:30px 0 6px;padding-left:14px;border-left:4px solid var(--gold);}
+  h4{font-size:15.5px;font-family:var(--sans);font-weight:700;margin:20px 0 6px;color:var(--gold-deep);}
+  p{margin:11px 0;}.lede{font-size:17px;color:var(--ink-soft);}
+  strong{font-weight:700;}em{font-style:normal;color:var(--gold-deep);font-weight:600;}
+  .call{border-radius:2px;padding:20px 24px;margin:22px 0;font-size:15px;line-height:1.76;}
+  .call .tag{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;display:block;margin-bottom:8px;}
+  .call.red{background:var(--red-soft);border-left:5px solid var(--red);}.call.red .tag{color:var(--red);}
+  .call.jade{background:var(--jade-soft);border-left:5px solid var(--jade);}.call.jade .tag{color:var(--jade);}
+  .call.gold{background:var(--paper-2);border-left:5px solid var(--gold);}.call.gold .tag{color:var(--gold-deep);}
+  .call p{margin:7px 0;}.call p:first-of-type{margin-top:0;}.call p:last-child{margin-bottom:0;}
+  .tbl{width:100%;border-collapse:collapse;margin:16px 0;font-size:12.5px;font-family:var(--sans);}
+  .tbl th{background:var(--ink);color:var(--paper);text-align:left;padding:9px 9px;font-weight:700;font-size:11px;vertical-align:top;}
+  .tbl td{padding:8px 9px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5;}
+  .tbl tr:nth-child(even) td{background:rgba(169,134,60,.055);}
+  .tbl .yes{color:var(--jade);font-weight:700;}.tbl .no{color:var(--red);font-weight:700;}.tbl .mid{color:var(--gold-deep);font-weight:700;}
+  .tbl .p{font-weight:900;color:var(--gold-deep);font-family:var(--serif);font-size:13.5px;white-space:nowrap;}
+  .tbl .d{font-weight:900;color:var(--gold-deep);font-family:var(--serif);font-size:14px;white-space:nowrap;}
+  .wk td{background:var(--ink)!important;color:var(--paper);font-weight:700;font-size:11.5px;letter-spacing:.1em;}
+  .hd td{background:var(--gold)!important;color:#fff;font-weight:700;font-size:12px;letter-spacing:.12em;}
+  ul.clean{margin:14px 0;padding-left:0;list-style:none;}
+  ul.clean li{position:relative;padding:7px 0 7px 24px;font-size:15px;line-height:1.68;border-bottom:1px dotted var(--line);}
+  ul.clean li:last-child{border-bottom:none;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:16px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+  ul.clean li b{color:var(--ink);}
+  ol.steps{counter-reset:s;padding-left:0;list-style:none;margin:16px 0;}
+  ol.steps li{position:relative;padding:10px 0 10px 44px;font-size:15px;line-height:1.66;border-bottom:1px dotted var(--line);counter-increment:s;}
+  ol.steps li:last-child{border-bottom:none;}
+  ol.steps li::before{content:counter(s);position:absolute;left:0;top:9px;width:28px;height:28px;background:var(--gold);color:#fff;border-radius:50%;font-family:var(--sans);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;}
+  ol.steps li b{color:var(--ink);}
+  .gap{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0;}
+  .gapbox{border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:2px;padding:16px 18px;background:#fff9ee;text-align:center;}
+  .gapbox.now{border-top-color:var(--jade);}.gapbox.ket{border-top-color:var(--gold);}.gapbox.pet{border-top-color:var(--red);}
+  .gapbox .lab{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);font-weight:700;}
+  .gapbox .num{font-size:34px;font-weight:900;line-height:1.2;margin:4px 0;}
+  .gapbox.now .num{color:var(--jade);}.gapbox.ket .num{color:var(--gold-deep);}.gapbox.pet .num{color:var(--red);}
+  .gapbox .note{font-family:var(--sans);font-size:11.5px;color:var(--ink-soft);line-height:1.5;}
+  .dl{border:1px solid var(--line);border-left:4px solid var(--jade);border-radius:2px;padding:14px 18px;margin:12px 0;background:#F3F7F4;}
+  .dl h5{font-family:var(--sans);font-size:13.5px;font-weight:700;margin:0 0 8px;color:var(--jade);}
+  .dl ul{margin:0;padding-left:18px;font-size:13px;line-height:1.85;font-family:var(--sans);}
+  .dl ul li{margin-bottom:2px;}
+  .dl .must{background:var(--gold);color:#fff;font-size:9.5px;font-weight:700;padding:1px 6px;border-radius:2px;margin-right:6px;letter-spacing:.08em;}
+  .backtop{font-family:var(--sans);font-size:11px;color:var(--ink-faint);text-decoration:none;float:right;margin-top:6px;}
+  footer{padding:38px 0 64px;font-family:var(--sans);font-size:12.5px;color:var(--ink-faint);line-height:1.7;}
+  footer .rule{width:56px;height:3px;background:var(--gold);margin-bottom:18px;}
+  footer b{color:var(--ink-soft);}
+  @media (max-width:640px){.wrap{padding:0 18px;}h1{font-size:30px;}h2{font-size:22px;}.tbl{font-size:11px;}.tbl th,.tbl td{padding:6px 5px;}.gap{grid-template-columns:1fr;}}
+  @media print{body{background:#fff;}section{page-break-inside:avoid;}.tbl th{background:#333!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}.toc{background:#f2f2f2;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead" id="top">
+    <div class="kicker">剑桥通用五级 · 通关总方案</div>
+    <h1>KET / PET 通关总方案<span class="sub">陈思蒝 · 从 800 词到 B1 的完整路线</span></h1>
+    <div class="byline">
+      <span><b>起点</b>　词汇约 800 · 校内五年级 · 无额外培训 · 听说为短板</span>
+      <span><b>版本</b>　2026 年 7 月 15 日 · 第三版</span>
+      <span><b>数据源</b>　剑桥英语官网 cambridgeenglish.org</span>
+    </div>
+  </header>
+
+  <div class="toc">
+    <h4>目录</h4>
+    <ol>
+      <li><a href="#s1">800 词的新账：时间表往前挪了</a></li>
+      <li><a href="#s2">整体攻略：三阶段路线图</a></li>
+      <li><a href="#s3">KET 三张卷 · 题型全解</a></li>
+      <li><a href="#s4">PET 四张卷 · 题型全解</a></li>
+      <li><a href="#s5">官方免费资源 · 全部直链与打印清单</a></li>
+      <li><a href="#s6">一个更正：剑桥其实公开了分数换算表</a></li>
+      <li><a href="#s7">30 天恶补计划 · 逐日表</a></li>
+      <li><a href="#s8">四项技能打法</a></li>
+      <li><a href="#s9">模考与决策系统</a></li>
+      <li><a href="#s10">报名操作全流程</a></li>
+    </ol>
+  </div>
+
+  <!-- 1 -->
+  <section id="s1">
+    <div class="eyebrow"><span class="num">01</span>起点更新<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>800 词：时间表可以往前挪了</h2>
+
+    <div class="gap">
+      <div class="gapbox now"><div class="lab">思蒝现在</div><div class="num">≈800</div><div class="note">比上次估计多 300<br>这 300 词很值钱</div></div>
+      <div class="gapbox ket"><div class="lab">KET / A2</div><div class="num">1500–2000</div><div class="note">缺口 <b>700–1200</b><br><span style="color:var(--jade);font-weight:700;">30 天可补平</span></div></div>
+      <div class="gapbox pet"><div class="lab">PET / B1</div><div class="num">≈3500</div><div class="note">缺口 <b>约 2700</b><br>12–18 个月工程</div></div>
+    </div>
+
+    <div class="call jade">
+      <span class="tag">这 300 词把结论改了</span>
+      <p>按 30 天 × 每天 30 个新词（且真的记住）＝ 加约 900 词 → <strong>总量约 1700 词。这一次，是真的能摸到并跨过 KET 的词汇门槛。</strong></p>
+      <p>上一版我按 500 词算，结论是"30 天只够站到起跑线、KET 要等到 2027 年春"。现在 800 词的起点让 <em>KET 从"够呛"变成"打得下来"</em>——<strong>2026 年 12 月考 KET 是一个现实目标</strong>，不必等到明年春天。</p>
+    </div>
+
+    <div class="call red">
+      <span class="tag">但 PET 仍然要老实排队</span>
+      <p>缺口还有约 2700 词，而且 PET 不只是"词更多"——它要读长文推断作者态度、要做句子还原、要写两篇各约 100 词、口语要独白 1 分钟还要协商达成一致。<strong>KET → PET 业内公认要 8–15 个月</strong>，这是换层级，不是加量。</p>
+      <p>诚实的排期：<strong>PET 在 2027 年下半年</strong>。硬往前提，只会用一次失败换一个教训。</p>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="s2">
+    <div class="eyebrow"><span class="num">02</span>整体攻略<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>三阶段路线图</h2>
+    <p class="lede">目标单一而清晰：<strong>先把 KET 拿下（争取 A 等），再用一年爬到 PET。</strong></p>
+
+    <table class="tbl">
+      <tr><th style="width:12%">阶段</th><th style="width:16%">时间</th><th style="width:16%">词汇</th><th style="width:20%">里程碑</th><th>重心</th></tr>
+      <tr>
+        <td class="p">阶段一<br>恶补</td><td class="d">2026.07–08<br><span style="font-weight:400;">（30 天暑假）</span></td>
+        <td>800 → <b>约 1700</b></td>
+        <td class="mid">跨过 KET 词汇线<br>三张卷题型全通</td>
+        <td class="no">听说为主战场；拼读补底；每天约 150 分钟</td>
+      </tr>
+      <tr>
+        <td class="p">阶段二<br>拿证</td><td class="d">2026.09–12</td>
+        <td>1700 → <b>约 2300</b></td>
+        <td class="yes"><b>★ 2026 年 12 月考 KET</b><br>目标：140+（A 等）</td>
+        <td>开学后降到每天 60–80 分钟；真题精练 + 提速 + 口语不断</td>
+      </tr>
+      <tr>
+        <td class="p">阶段三<br>进阶</td><td class="d">2027 全年</td>
+        <td>2300 → <b>3500</b></td>
+        <td class="mid"><b>★ 2027 下半年考 PET</b><br>目标：153+（Merit）</td>
+        <td>换教材换层级：长文推断、100 词写作、独白与讨论</td>
+      </tr>
+    </table>
+
+    <div class="call gold">
+      <span class="tag">一条能省一整年的捷径</span>
+      <p><strong>KET 考到 140–150 分，剑桥直接认定她已达 B1</strong>——也就是说，<em>用 KET 的卷子拿到 PET 的等级认定。</em></p>
+      <p>这条为什么重要：KET 的题比 PET 简单得多（写作只要 25+35 词，口语只要谈喜好给理由），但只要考到 A 等，证书上写的就是"已达 B1 水平"。<strong>对一个 12 月刚够 KET 词汇线的孩子，冲 KET 的 A，比硬考 PET 的 C 划算得多，也人道得多。</strong>这是阶段二把目标定在 140+ 而不是"及格 120"的全部理由。</p>
+    </div>
+  </section>
+
+  <!-- 3 KET题型 -->
+  <section id="s3">
+    <div class="eyebrow"><span class="num">03</span>KET 题型全解<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>A2 Key for Schools · 三张卷</h2>
+    <p class="lede">KET 是<strong>三张卷</strong>（四张是 PET）。以下结构直接来自剑桥官网，<strong>纸考与机考格式完全相同</strong>。</p>
+
+    <table class="tbl">
+      <tr><th style="width:26%">卷</th><th style="width:22%">构成</th><th style="width:12%">占比</th><th>考什么</th></tr>
+      <tr><td class="p">阅读与写作<br><span style="font-weight:400;color:var(--ink-faint)">1 小时</span></td><td><b>7 部分 / 32 题</b></td><td class="mid"><b>50%</b></td><td>看懂标识、宣传册、报纸杂志等简单书面信息</td></tr>
+      <tr><td class="p">听力<br><span style="font-weight:400;color:var(--ink-faint)">30 分钟（含 6 分钟誊写）</span></td><td><b>5 部分 / 25 题</b></td><td>25%</td><td>听懂语速较慢的通知与口语材料。<b>每段录音放两遍</b></td></tr>
+      <tr><td class="p">口语<br><span style="font-weight:400;color:var(--ink-faint)">每两名考生 8–10 分钟</span></td><td><b>2 部分</b></td><td>25%</td><td>参与对话、回答与提问。<b>与 1–2 名考生同场，两名考官</b>（一名对话、一名旁听，都给分）</td></tr>
+    </table>
+
+    <h4>阅读与写作 · 七部分（P1–5 阅读，P6–7 写作）</h4>
+    <table class="tbl">
+      <tr><th style="width:11%">Part</th><th style="width:19%">题型</th><th style="width:8%">题数</th><th>要做什么</th><th style="width:13%">分值</th></tr>
+      <tr><td class="p">Part 1</td><td>多项选择</td><td><b>6</b></td><td>读 6 篇简短真实场景文本，抓<b>主旨信息</b></td><td>每题 1 分</td></tr>
+      <tr><td class="p">Part 2</td><td>多项匹配</td><td><b>7</b></td><td>读 7 个问题 + 3 篇同主题短文，匹配</td><td>每题 1 分</td></tr>
+      <tr><td class="p">Part 3</td><td>多项选择</td><td><b>5</b></td><td>读<b>一篇长文</b>，考细节理解与主旨</td><td>每题 1 分</td></tr>
+      <tr><td class="p">Part 4</td><td>多选完形</td><td><b>6</b></td><td>说明性文本，<b>选正确词汇</b>填空</td><td>每题 1 分</td></tr>
+      <tr><td class="p">Part 5</td><td>开放完形</td><td><b>6</b></td><td>邮件（有时含回信）中<b>每空填一词</b>，无选项</td><td>每题 1 分</td></tr>
+      <tr><td class="p">Part 6</td><td class="mid">指导性写作</td><td><b>1</b></td><td>写短邮件或便条，<b>25 词以上</b></td><td class="mid"><b>15 分</b></td></tr>
+      <tr><td class="p">Part 7</td><td class="mid">看图写故事</td><td><b>1</b></td><td>据<b>三幅图</b>写短故事，<b>35 词以上</b></td><td class="mid"><b>15 分</b></td></tr>
+    </table>
+    <p style="font-size:13.5px;color:var(--ink-soft);margin-top:6px;">官方计分口径：<strong>第 1–30 题各 1 分，第 31、32 题各 15 分</strong>（即 Part 6 = Q31，Part 7 = Q32）。全卷原始分 60。</p>
+
+    <div class="call jade">
+      <span class="tag">给思蒝的战术提示</span>
+      <p>看清楚：<strong>Part 6 只要 25 词、Part 7 只要 35 词——加起来 60 个词，却占全卷 30/60 的原始分。</strong>而她的中文作文已经能写出"我轻轻抚摸小鹿被晒得暖洋洋的耳朵"这种句子。<em>写作是她投入产出比最高的一格：结构感她早就有了，缺的只是英文的词。</em></p>
+      <p>另一条要知道的：A2 Key（成人版）纸考在 2026 年 6 月最后一场之后停考、只保留机考；但<strong>思蒝考的 A2 Key for Schools，纸考与机考都保留</strong>。两种都能选——建议机考，出分快。</p>
+    </div>
+
+    <h4>听力 · 五部分（每段放两遍）</h4>
+    <table class="tbl">
+      <tr><th style="width:11%">Part</th><th style="width:19%">题型</th><th style="width:8%">题数</th><th>要做什么</th></tr>
+      <tr><td class="p">Part 1</td><td>多项选择</td><td><b>5</b></td><td>听 5 段<b>短对话</b>，抓关键信息，<b>选正确图片</b></td></tr>
+      <tr><td class="p">Part 2</td><td>填空</td><td><b>5</b></td><td>听<b>独白</b>，补全笔记页上的空</td></tr>
+      <tr><td class="p">Part 3</td><td>多项选择</td><td><b>5</b></td><td>听<b>对话</b>抓关键信息，5 道<b>三选一</b></td></tr>
+      <tr><td class="p">Part 4</td><td>多项选择</td><td><b>5</b></td><td>听 5 段短独白/对话，判断<b>主旨、信息、大意或话题</b></td></tr>
+      <tr><td class="p">Part 5</td><td>匹配</td><td><b>5</b></td><td>听对话，<b>匹配 5 个项目</b></td></tr>
+    </table>
+
+    <h4>口语 · 两部分</h4>
+    <table class="tbl">
+      <tr><th style="width:11%">Part</th><th style="width:19%">题型</th><th style="width:16%">时长</th><th>要做什么</th></tr>
+      <tr><td class="p">Part 1</td><td>面谈</td><td><b>3–4 分钟</b></td><td>回答问题，提供<b>事实性或个人信息</b></td></tr>
+      <tr><td class="p">Part 2</td><td>讨论</td><td><b>5–6 分钟</b></td><td>讨论<b>喜好与厌恶，并给出理由</b></td></tr>
+    </table>
+    <div class="call gold">
+      <span class="tag">口语的关键情报</span>
+      <p>KET 口语只有两部分、8–10 分钟，考的就是"<strong>说出喜好 + 给出理由</strong>"。<em>句型高度可预测——这对 800 词是好消息</em>：不需要自由表达，把 <b>I like… because… / My favourite… is… because…</b> 练成肌肉记忆就能拿分。</p>
+    </div>
+  </section>
+
+  <!-- 4 PET题型 -->
+  <section id="s4">
+    <div class="eyebrow"><span class="num">04</span>PET 题型全解<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>B1 Preliminary for Schools · 四张卷</h2>
+    <p class="lede">全卷约 2 小时 20 分钟，<strong>四项各占 25%</strong>。这是阶段三的目标，现在看一眼，是为了知道要爬多高。</p>
+
+    <table class="tbl">
+      <tr><th style="width:26%">卷</th><th style="width:22%">构成</th><th style="width:12%">占比</th><th>考什么</th></tr>
+      <tr><td class="p">阅读<br><span style="font-weight:400;color:var(--ink-faint)">45 分钟</span></td><td><b>6 部分 / 32 题</b>（各 1 分）</td><td>25%</td><td>读懂标识、报纸杂志的要点</td></tr>
+      <tr><td class="p">写作<br><span style="font-weight:400;color:var(--ink-faint)">45 分钟</span></td><td><b>2 部分 / 2 题</b></td><td>25%</td><td>正确使用词汇与结构</td></tr>
+      <tr><td class="p">听力<br><span style="font-weight:400;color:var(--ink-faint)">30 分钟（含 6 分钟誊写）</span></td><td><b>4 部分 / 25 题</b></td><td>25%</td><td>跟上通知、日常讨论。<b>每段放两遍</b></td></tr>
+      <tr><td class="p">口语<br><span style="font-weight:400;color:var(--ink-faint)">每两名考生 10–12 分钟</span></td><td><b>4 部分</b></td><td>25%</td><td>参与对话、问答、谈喜好</td></tr>
+    </table>
+
+    <h4>阅读 · 六部分</h4>
+    <table class="tbl">
+      <tr><th style="width:11%">Part</th><th style="width:19%">题型</th><th style="width:8%">题数</th><th>要做什么</th></tr>
+      <tr><td class="p">Part 1</td><td>多项选择</td><td>5</td><td>读 5 则真实告示、留言等短文，抓主旨</td></tr>
+      <tr><td class="p">Part 2</td><td>匹配</td><td>5</td><td>把 <b>5 个人物描述</b>匹配到 <b>8 篇</b>同主题短文</td></tr>
+      <tr><td class="p">Part 3</td><td class="mid">多项选择</td><td>5</td><td>长文：细节、大意、<b>推断</b>、整体含义，以及<b>作者的态度与观点</b></td></tr>
+      <tr><td class="p">Part 4</td><td class="mid">句子还原</td><td>5</td><td>长文抽走 5 句，还原回去（考<b>篇章连贯与结构</b>）</td></tr>
+      <tr><td class="p">Part 5</td><td>多选完形</td><td>6</td><td>短文选词填空</td></tr>
+      <tr><td class="p">Part 6</td><td>开放完形</td><td>6</td><td>短文每空填一词，无选项</td></tr>
+    </table>
+
+    <h4>写作 · 两部分</h4>
+    <table class="tbl">
+      <tr><th style="width:11%">Part</th><th style="width:24%">题型</th><th>要做什么</th><th style="width:13%">分值</th></tr>
+      <tr><td class="p">Part 1</td><td>写邮件</td><td>约 <b>100 词</b>，回复所给邮件及笔记</td><td class="mid"><b>20 分</b></td></tr>
+      <tr><td class="p">Part 2</td><td>文章或故事（二选一）</td><td>约 <b>100 词</b>，两题中选一题</td><td class="mid"><b>20 分</b></td></tr>
+    </table>
+
+    <h4>听力 · 四部分</h4>
+    <table class="tbl">
+      <tr><th style="width:11%">Part</th><th style="width:19%">题型</th><th style="width:8%">题数</th><th>要做什么</th></tr>
+      <tr><td class="p">Part 1</td><td>多项选择</td><td>7</td><td>听 7 段短独白/对话，选正确图片</td></tr>
+      <tr><td class="p">Part 2</td><td>多项选择</td><td>6</td><td>听 6 段短对话，理解<b>大意</b></td></tr>
+      <tr><td class="p">Part 3</td><td>填空</td><td>6</td><td>听独白，补 6 个空</td></tr>
+      <tr><td class="p">Part 4</td><td class="mid">多项选择</td><td>6</td><td>听<b>访谈</b>，理解细节并<b>识别态度与观点</b></td></tr>
+    </table>
+
+    <h4>口语 · 四部分</h4>
+    <table class="tbl">
+      <tr><th style="width:11%">Part</th><th style="width:21%">题型</th><th style="width:14%">时长</th><th>要做什么</th></tr>
+      <tr><td class="p">Part 1</td><td>面谈</td><td>2 分钟</td><td>回答问题，提供事实性或个人信息</td></tr>
+      <tr><td class="p">Part 2</td><td class="mid">长回合独白</td><td>3 分钟</td><td><b>描述一张彩色照片，独白约 1 分钟</b></td></tr>
+      <tr><td class="p">Part 3</td><td class="mid">讨论</td><td>4 分钟</td><td>提出与回应建议、讨论备选方案、<b>协商达成一致</b></td></tr>
+      <tr><td class="p">Part 4</td><td>综合对话</td><td>3 分钟</td><td>讨论喜好、经历、观点、习惯</td></tr>
+    </table>
+
+    <div class="call gold">
+      <span class="tag">对比一眼，跨度就清楚了</span>
+      <p>KET 口语 2 部分 vs PET <strong>4 部分，还要独白 1 分钟、还要协商达成一致</strong>；KET 写作 25+35 词 vs PET <strong>两篇各约 100 词</strong>；KET 阅读没有句子还原、没有作者态度题，PET <strong>两样都有</strong>。<em>这就是"换层级"的具体含义。</em></p>
+    </div>
+  </section>
+
+  <!-- 5 资源 -->
+  <section id="s5">
+    <div class="eyebrow"><span class="num">05</span>官方免费资源<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>全部直链 + 打印清单</h2>
+
+    <div class="call red">
+      <span class="tag">先说清楚一件事</span>
+      <p>剑桥的真题受版权保护，<strong>我不能把试卷内容复制进文档里</strong>。但这个需求有更好的解法，而且是双份的：</p>
+      <p><strong>① 官方免费样卷</strong>——剑桥官网公开提供，含听力音频、答案、听力原文。下面是直链，<em>下载即打印，完全合法、完全是真卷</em>。<br>
+      <strong>② 我为思蒝原创的全真模拟卷</strong>——按官方题型结构一题一题写的（题型/题数/分值/时长与真考一致，话题贴着她的音乐与乐团），另见文件《思蒝KET原创全真模拟卷01》，<b>打印出来直接开考</b>。</p>
+      <p><strong>用法：原创卷练手感（可反复练），官方样卷定水平（要留着当模考）。</strong>另外提醒一句：网上有些站点挂着剑桥真题的 PDF，那些是盗版，别用——官方免费的已经足够，且干净。</p>
+    </div>
+
+    <h3>KET · A2 Key for Schools</h3>
+
+    <div class="dl">
+      <h5>◆ 必下 · 试卷与音频（这一组就是"能直接考"的全套）</h5>
+      <ul>
+        <li><span class="must">必下</span><b>纸质样卷全套（ZIP）</b>：<a href="https://www.cambridgeenglish.org/Images/504343-a2-key-for-schools-sample-tests.zip">504343-a2-key-for-schools-sample-tests.zip</a><br><span style="color:var(--ink-soft);font-size:12px;">↳ 含阅读与写作、听力、口语样卷。<b>解压后直接打印。</b></span></li>
+        <li><span class="must">必下</span><b>教师手册（含完整样题与听力）</b>：<a href="https://www.cambridgeenglish.org/Images/168174-cambridge-english-key-for-schools-handbook-for-teachers.pdf">168174-cambridge-english-key-for-schools-handbook-for-teachers.pdf</a></li>
+        <li><span class="must">必下</span><b>教师手册配套听力音频（MP3）</b>：<a href="https://www.cambridgeenglish.org/Images/506891-a2-key-for-schools-handbook-for-teachers-listening-audio-files.mp3">506891-…-listening-audio-files.mp3</a><br><span style="color:var(--ink-soft);font-size:12px;">↳ <b>这是听力模考的音源，一定要下。</b></span></li>
+      </ul>
+    </div>
+
+    <div class="dl">
+      <h5>◆ 答案与听力原文</h5>
+      <ul>
+        <li>听力样卷 1 答案：<a href="https://www.cambridgeenglish.org/Images/697382-a2-key-for-schools-listening-sample-1-answer-key.pdf">697382-…-listening-sample-1-answer-key.pdf</a></li>
+        <li>听力样卷 1 原文（tapescript）：<a href="https://www.cambridgeenglish.org/Images/697383-a2-key-for-schools-listening-sample-1-tapescript.pdf">697383-…-listening-sample-1-tapescript.pdf</a><br><span style="color:var(--ink-soft);font-size:12px;">↳ <b>三步法第②步"对答案+看原文"就靠它。</b></span></li>
+        <li>阅读样卷 1 答案：<a href="https://www.cambridgeenglish.org/Images/697384-a2-key-for-schools-reading-sample-1-answer-key.pdf">697384-…-reading-sample-1-answer-key.pdf</a></li>
+      </ul>
+    </div>
+
+    <div class="dl">
+      <h5>◆ 词汇表（30 天的唯一主线，别用杂牌词书）</h5>
+      <ul>
+        <li><span class="must">必下</span><b>A2 Key / A2 Key for Schools 官方词汇表</b>：<a href="https://www.cambridgeenglish.org/Images/506886-a2-key-2020-vocabulary-list.pdf">506886-a2-key-2020-vocabulary-list.pdf</a></li>
+      </ul>
+    </div>
+
+    <div class="dl">
+      <h5>◆ 写作评分（家长判作文全靠这两份）</h5>
+      <ul>
+        <li><span class="must">必下</span><b>写作评分清单 Writing checklist</b>：<a href="https://www.cambridgeenglish.org/Images/652767-a2-key-for-schools-writing-checklist-for-teachers.pdf">652767-…-writing-checklist-for-teachers.pdf</a></li>
+        <li>写作评分标准详解：<a href="https://www.cambridgeenglish.org/Images/600973-teacher-guide-for-writing-a2-key-for-schools.pdf">600973-teacher-guide-for-writing-a2-key-for-schools.pdf</a></li>
+        <li>口语评分标准详解：<a href="https://www.cambridgeenglish.org/Images/735386-a2-key-teacher-guide-assessing-speaking.pdf">735386-a2-key-teacher-guide-assessing-speaking.pdf</a></li>
+      </ul>
+    </div>
+
+    <div class="dl">
+      <h5>◆ 口语真人示范（先让她看真人怎么考，消除陌生感）</h5>
+      <ul>
+        <li>Heidi & Iris 口语实录 → <a href="https://www.youtube.com/watch?v=sXCpPoiM7tc">视频</a>　考官点评：<a href="https://www.cambridgeenglish.org/Images/710708-a2-key-for-schools-examiner-comments-heidi-and-iris.pdf">PDF</a></li>
+        <li>Humay, Noah & Lucas（三人组）→ <a href="https://www.youtube.com/watch?v=6RA2YQI4gJU">视频</a>　点评：<a href="https://www.cambridgeenglish.org/Images/710709-a2-key-for-schools-examiner-comments-humay-noah-and-lucas.pdf">PDF</a></li>
+        <li>Wensley & Janson → <a href="https://www.youtube.com/watch?v=WaN6uQpzx0o">视频</a>　点评：<a href="https://www.cambridgeenglish.org/Images/710710-a2-key-for-schools-examiner-comments-wensley-and-janson.pdf">PDF</a></li>
+      </ul>
+    </div>
+
+    <div class="dl">
+      <h5>◆ 四项技能自学方案（剑桥自己写的，免费）</h5>
+      <ul>
+        <li>听力自学方案：<a href="https://www.cambridgeenglish.org/Images/595572-a2-key-for-schools-listening-self-access-plan.pdf">595572-…-listening-self-access-plan.pdf</a></li>
+        <li>阅读自学方案：<a href="https://www.cambridgeenglish.org/Images/595573-a2-key-for-schools-reading-self-access-plan.pdf">595573-…-reading-self-access-plan.pdf</a></li>
+        <li>口语自学方案：<a href="https://www.cambridgeenglish.org/Images/595574-a2-key-for-schools-speaking-self-access-plan.pdf">595574-…-speaking-self-access-plan.pdf</a></li>
+        <li>写作自学方案：<a href="https://www.cambridgeenglish.org/Images/595575-a2-key-for-schools-writing-self-access-plan.pdf">595575-…-writing-self-access-plan.pdf</a></li>
+      </ul>
+    </div>
+
+    <div class="dl">
+      <h5>◆ 考生须知与考场</h5>
+      <ul>
+        <li>考生须知（家长必读）：<a href="https://www.cambridgeenglish.org/Images/557750-a2-key-for-schools-information-for-candidates.pdf">557750-…-information-for-candidates.pdf</a></li>
+        <li>考试当天 10 条提示（视频）：<a href="https://www.youtube.com/watch?v=S7s6rOT818o">youtube.com/watch?v=S7s6rOT818o</a></li>
+        <li>机考操作教程（视频）：<a href="https://www.youtube.com/watch?v=vWeDWCNWFaw">youtube.com/watch?v=vWeDWCNWFaw</a></li>
+        <li>数字样卷 · 听力：<a href="https://ceq.inspera.com/player/?assessmentRunId=146724576&context=exam">在线作答</a>　｜　数字样卷 · 阅读与写作：<a href="https://ceq.inspera.com/player/?assessmentRunId=146724783&context=exam">在线作答</a><br><span style="color:var(--ink-soft);font-size:12px;">↳ 若决定考机考，<b>考前务必用这两个链接跑一遍</b>，熟悉界面。</span></li>
+      </ul>
+    </div>
+
+    <h3>PET · B1 Preliminary for Schools（阶段三用）</h3>
+    <div class="dl">
+      <h5>◆ 试卷 · 词表 · 音频</h5>
+      <ul>
+        <li><b>纸质样卷全套（ZIP）</b>：<a href="https://www.cambridgeenglish.org/Images/565480-b1-preliminary-schools-2020-sample-tests.zip">565480-b1-preliminary-schools-2020-sample-tests.zip</a></li>
+        <li><b>官方词汇表（2025 年 8 月版，约 53 页）</b>：<a href="https://www.cambridgeenglish.org/Images/506887-b1-preliminary-vocabulary-list.pdf">506887-b1-preliminary-vocabulary-list.pdf</a><br><span style="color:var(--ink-soft);font-size:12px;">↳ 这就是那"3500 词"的官方版本。<b>阶段三的主线。</b></span></li>
+        <li>教师手册：<a href="https://www.cambridgeenglish.org/Images/168143-cambridge-english-preliminary-for-schools-teachers-handbook.pdf">168143-…-preliminary-for-schools-teachers-handbook.pdf</a></li>
+        <li>教师手册听力音频（MP3）：<a href="https://www.cambridgeenglish.org/Images/709695-b1-preliminary-for-schools-handbook-for-teachers-listening-audio-files.mp3">709695-…-listening-audio-files.mp3</a></li>
+        <li>词汇活动手册（10 个练词活动）：<a href="https://www.cambridgeenglish.org/Images/648172-b1-preliminary-for-schools-vocabulary-booklet.pdf">648172-b1-preliminary-for-schools-vocabulary-booklet.pdf</a></li>
+      </ul>
+    </div>
+    <div class="dl">
+      <h5>◆ 答案 · 评分 · 口语示范</h5>
+      <ul>
+        <li>听力样卷 1 答案：<a href="https://www.cambridgeenglish.org/Images/697391-b1-preliminary-for-schools-listening-sample-1-answer-key.pdf">697391-…-answer-key.pdf</a>　｜　原文：<a href="https://www.cambridgeenglish.org/Images/697390-b1-preliminary-for-schools-listening-sample-test-1-tapescript.pdf">697390-…-tapescript.pdf</a></li>
+        <li>阅读样卷 1 答案：<a href="https://www.cambridgeenglish.org/Images/697392-b1-preliminary-for-schools-reading-sample-test-1-answer-key.pdf">697392-…-answer-key.pdf</a><br><span style="color:var(--ink-soft);font-size:12px;">↳ 注意：<b>写作样卷没有标准答案</b>（主观题），要用下面的评分清单判。</span></li>
+        <li>写作评分清单：<a href="https://www.cambridgeenglish.org/Images/652769-b1-preliminary-for-schools-writing-checklist-for-teachers.pdf">652769-…-writing-checklist-for-teachers.pdf</a></li>
+        <li>口语评分标准：<a href="https://www.cambridgeenglish.org/Images/735390-b1-preliminary-teacher-guide-assessing-speaking.pdf">735390-…-teacher-guide-assessing-speaking.pdf</a></li>
+        <li>口语实录 Cristina & Andrea → <a href="https://www.youtube.com/watch?v=KDCK-3gsxLY">视频</a>　点评：<a href="https://www.cambridgeenglish.org/Images/710711-b1-preliminary-for-schools-examiner-comments-cristina-and-andrea.pdf">PDF</a></li>
+        <li>口语实录 Laura & Claudia → <a href="https://www.youtube.com/watch?v=SKwkmh8qExc">视频</a>　点评：<a href="https://www.cambridgeenglish.org/Images/710712-b1-preliminary-for-schools-examiner-comments-laura-and-claudia.pdf">PDF</a></li>
+        <li>考生须知：<a href="https://www.cambridgeenglish.org/Images/557771-b1-preliminary-for-schools-information-for-candidates.pdf">557771-…-information-for-candidates.pdf</a></li>
+      </ul>
+    </div>
+
+    <h3>两个免费在线工具（这两个能顶半个老师）</h3>
+    <div class="call jade">
+      <span class="tag">强烈建议用起来</span>
+      <p><strong>① Write & Improve</strong>　<a href="https://writeandimprove.com/">writeandimprove.com</a><br>
+      剑桥官方免费在线写作批改：把作文打上去，几秒给反馈和 CEFR 等级。<em>你不用会判英文作文，机器替你判，而且比大多数家长准。</em>——这是整个方案里性价比最高的一个工具。</p>
+      <p><strong>② 免费阅读听力练习</strong>　<a href="https://voila.cambridgeone.org/mosaic/welcome">voila.cambridgeone.org</a><br>
+      注册即用，每次几分钟，会告诉她<b>为什么对、为什么错</b>——比单纯刷题有用。</p>
+    </div>
+
+    <h4>打印清单（照着打，一次打完）</h4>
+    <table class="tbl">
+      <tr><th style="width:34%">打什么</th><th style="width:12%">份数</th><th>怎么用</th></tr>
+      <tr><td class="mid"><b>原创模拟卷 01</b>（另附文件）</td><td>2</td><td>Day 1 一份、Day 15 一份。答案页裁下由家长保管</td></tr>
+      <tr><td class="mid"><b>KET 官方纸质样卷</b>（ZIP 解压后）</td><td>1</td><td class="no"><b>留到 Day 29 当决策模考</b>——这是最准的一把尺，别提前用掉</td></tr>
+      <tr><td>官方词汇表</td><td>1</td><td>装订成册，30 天的主线</td></tr>
+      <tr><td>写作评分清单</td><td>1</td><td>家长每次判作文时对照</td></tr>
+      <tr><td>听力原文 tapescript</td><td>1</td><td>三步法第②步用</td></tr>
+      <tr><td>考生须知</td><td>1</td><td>家长读一遍就懂考什么</td></tr>
+    </table>
+  </section>
+
+  <!-- 6 更正 -->
+  <section id="s6">
+    <div class="eyebrow"><span class="num">06</span>一个更正<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>剑桥其实公开了分数换算表</h2>
+    <div class="call red">
+      <span class="tag">我上一版说错了，这里更正</span>
+      <p>上一版我写"剑桥不公开原始分到量表分的精确换算表，所以在家只能用正确率"。<strong>这是错的。</strong>剑桥官网公开了一份教师指南《Converting practice test scores to Cambridge English Scale scores》，专门用来把练习卷的原始分换算成剑桥量表分。</p>
+      <p><a href="https://www.cambridgeenglish.org/Images/210434-converting-practice-test-scores-to-cambridge-english-scale-scores.pdf">210434-converting-practice-test-scores-to-cambridge-english-scale-scores.pdf</a></p>
+      <p>这份文件对你很有用：<strong>模考完可以直接估出她的量表分</strong>，而不是只看一个正确率。对照关键线——<em>120 = A2 及格；140+ = 已达 B1</em>（也就是那条"用 KET 拿 B1"的捷径线）——决策会清楚得多。</p>
+      <p>注意：换算是<b>估算</b>，正式成绩以真考为准。但作为家里的决策依据，它比正确率精确得多。抱歉上一版给了你错的信息。</p>
+    </div>
+  </section>
+
+  <!-- 7 30天 -->
+  <section id="s7">
+    <div class="eyebrow"><span class="num">07</span>30 天恶补<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>逐日表 · 800 词起点</h2>
+    <p class="lede">按 <strong>7 月 20 日起跑、8 月 18 日收官</strong>排（可整体平移）。核心指标：<strong>词汇 800 → 约 1700</strong>（每天 30 新词 + 60 复现）；<strong>听力从三步法建立</strong>；<strong>口语从句型模板起步</strong>。每周第 7 天半休。</p>
+
+    <table class="tbl">
+      <tr><th style="width:8%">Day</th><th style="width:22%">主线</th><th style="width:35%">精练</th><th style="width:35%">输出（必须交付）</th></tr>
+
+      <tr class="wk"><td colspan="4">第 1 周 · 拼读打底 + 词汇启动 + 见识 KET 长什么样</td></tr>
+      <tr><td class="d">D1</td><td class="mid"><b>模考 1（基线）</b></td><td><b>用原创模拟卷 01</b>：阅读与写作 60′（听力用官方样卷音频 30′）</td><td>记三项正确率。<b>事先告诉她：这次是量身高，不是打分数</b></td></tr>
+      <tr><td class="d">D2</td><td>拼读 + 词汇</td><td>自然拼读复习（元音组合）；官方词表 D1（30 词）</td><td>把 30 词按拼读规则读出来，录音</td></tr>
+      <tr><td class="d">D3</td><td>拼读 + 阅读 P1</td><td>拼读；词表 D2；阅读 Part 1（标识短文）</td><td>读物 1 本（蓝思 300–400L）</td></tr>
+      <tr><td class="d">D4</td><td class="no">听力 P1（短板启动）</td><td>词表 D3；听力 Part 1 选图片，<b>三步法：盲听→对答案+看原文→跟读</b></td><td>跟读录音 1 段</td></tr>
+      <tr><td class="d">D5</td><td>阅读 P2</td><td>词表 D4；阅读 Part 2 匹配题</td><td>读物 1 本；口语句型：I like… because…</td></tr>
+      <tr><td class="d">D6</td><td class="mid">写作首篇</td><td>词表 D5；看官方口语/写作范例，拆 <b>Part 6（25 词便条）</b>结构</td><td><b>写第 1 篇（25 词）</b>→ 打进 Write & Improve 看反馈。<b>留着，Day 30 要用</b></td></tr>
+      <tr><td class="d">D7</td><td>半休 + 复盘</td><td>本周 150 词复现测</td><td>录 1 分钟自我介绍（基线）；<b>看一段官方口语实录视频</b></td></tr>
+
+      <tr class="wk"><td colspan="4">第 2 周 · 听力建立 + 词汇加速</td></tr>
+      <tr><td class="d">D8</td><td>听力 P2</td><td>词表 D6；听力 Part 2 填空（听独白补笔记）</td><td>听写 5 个含数字/时间的句子</td></tr>
+      <tr><td class="d">D9</td><td>阅读 P3</td><td>词表 D7；阅读 Part 3 长文理解</td><td>读物 1 本（升到 400L）</td></tr>
+      <tr><td class="d">D10</td><td>听力 P3</td><td>词表 D8；听力 Part 3（对话三选一）</td><td>跟读 + 用中文复述录音大意</td></tr>
+      <tr><td class="d">D11</td><td>语法补丁</td><td>词表 D9；补 KET 核心时态（一般现在/过去/将来 + 现在进行）</td><td>每个时态造 3 句</td></tr>
+      <tr><td class="d">D12</td><td>阅读 P4</td><td>词表 D10；阅读 Part 4 多选完形</td><td>写第 2 篇（25 词）→ Write & Improve</td></tr>
+      <tr><td class="d">D13</td><td class="no">口语 P1</td><td>词表 D11；KET 口语 Part 1：个人信息问答句型</td><td>家长当考官问 8 个问题，录音</td></tr>
+      <tr><td class="d">D14</td><td>半休 + 复盘</td><td>本周词汇复现测（累计约 330 新词 → 约 1130）</td><td>错题本整理</td></tr>
+
+      <tr class="wk"><td colspan="4">第 3 周 · 听说主攻（短板周）</td></tr>
+      <tr><td class="d">D15</td><td class="mid"><b>模考 2（中期）</b></td><td><b>原创模拟卷 01 重做</b>（或官方 handbook 内样题）：阅读写作 + 听力</td><td><b>与 D1 对比三项正确率</b>。没动就要立刻调方法</td></tr>
+      <tr><td class="d">D16</td><td>听力 P4–P5</td><td>词表 D12；听力 Part 4（主旨）+ Part 5（匹配）</td><td>三步法完整走一遍</td></tr>
+      <tr><td class="d">D17</td><td class="no"><b>口语 P2 核心</b></td><td>词表 D13；<b>KET 口语 Part 2：谈喜好 + 给理由</b>（口语的分数大头）</td><td>就 3 个话题各说 1 分钟</td></tr>
+      <tr><td class="d">D18</td><td>口语话题库</td><td>词表 D14；建"银帆话题库"：练了几年、什么声部、印象最深的演出</td><td class="yes">录 2 分钟——<b>这是她最有内容可说的题目</b></td></tr>
+      <tr><td class="d">D19</td><td>阅读 P5</td><td>词表 D15；阅读 Part 5 开放完形（无选项填词）</td><td>读物 1 本（400–500L）</td></tr>
+      <tr><td class="d">D20</td><td class="mid">写作 Part 7</td><td>词表 D16；<b>看图写故事（35 词）</b>——三幅图的叙事套路</td><td><b>写第 3 篇</b>：可写小鹿存钱罐的英文版 → Write & Improve</td></tr>
+      <tr><td class="d">D21</td><td>半休 + 复盘</td><td>词汇复现（累计约 480 新词 → 约 1280）</td><td>重录自我介绍，<b>和 D7 那段比</b></td></tr>
+
+      <tr class="wk"><td colspan="4">第 4 周 · 全卷合练 + 提速</td></tr>
+      <tr><td class="d">D22</td><td>阅读全卷</td><td>词表 D17；阅读 Part 1–5 连做，<b>开始计时</b></td><td>记录用时与正确率</td></tr>
+      <tr><td class="d">D23</td><td>听力全卷</td><td>词表 D18；听力 5 部分连做</td><td>错题归因（听不懂 / 词不认识 / 没跟上）</td></tr>
+      <tr><td class="d">D24</td><td>写作限时</td><td>词表 D19；Part 6 + Part 7 限时合练</td><td><b>写第 4、5 篇</b> → Write & Improve</td></tr>
+      <tr><td class="d">D25</td><td>弱项攻坚</td><td>词表 D20；打 D22–23 暴露的最弱一项</td><td>该项正确率要提高</td></tr>
+      <tr><td class="d">D26</td><td>口语总练</td><td>词表 D21；KET 口语两部分完整走；<b>看完三段官方口语实录</b></td><td>录完整口语，对照官方评分标准粗判</td></tr>
+      <tr><td class="d">D27</td><td>查漏</td><td>词表 D22；错题本重做一遍</td><td>整理"考前必看 1 页纸"</td></tr>
+      <tr><td class="d">D28</td><td>半休</td><td>全月词汇总复现（约 660 新词 → <b>约 1460</b>）</td><td>把没记住的单独建清单</td></tr>
+
+      <tr class="hd"><td colspan="4">收官 · 决策</td></tr>
+      <tr><td class="d">D29</td><td class="no"><b>★ 模考 3（决策）</b></td><td><b>用剑桥官方纸质样卷</b>（这把尺最准，一直留到今天）：三张卷完整，含口语</td><td class="no"><b>按第 9 节矩阵定报考；用官方换算表估量表分；联系考点锁考位</b></td></tr>
+      <tr><td class="d">D30</td><td class="mid">成果盘点</td><td>把 5 篇作文、3 段录音、3 次模考排成一条线</td><td class="yes"><b>和她一起看这条线</b>——这是 9 月还能不能跑下去的燃料</td></tr>
+    </table>
+
+    <div class="call jade">
+      <span class="tag">护栏（"恶补"也要守住这条）</span>
+      <p>每天约 <strong>150 分钟，分两段（上午 90 + 下午 60），每周半休一天</strong>。这是 11 岁孩子在暑假的合理上限。</p>
+      <p>再往上加，三件事会同时发生：<em>记忆效率下降、对英语产生抵触、暑假被榨干</em>。而这是一场打到 2027 年的仗——<strong>9 月还愿意学的孩子，比 8 月被榨干的孩子值钱得多。</strong>乐团练习、每天户外、充足睡眠，一样都别砍。</p>
+    </div>
+
+    <h4>每日 150 分钟怎么排</h4>
+    <table class="tbl">
+      <tr><th style="width:14%">时段</th><th style="width:20%">内容</th><th style="width:10%">时长</th><th>要点</th></tr>
+      <tr><td class="p">上午 ①</td><td class="mid"><b>词汇</b></td><td>40′</td><td class="yes">30 新词 + 60 复现。<b>用你自己的"英语奇遇记"App</b>——PET 模块的词库完整覆盖 KET 词表，现成工具</td></tr>
+      <tr><td class="p">上午 ②</td><td>自然拼读（前两周）</td><td>15′</td><td>拼读不牢会同时卡住听力和背词，这一格回报最高</td></tr>
+      <tr><td class="p">上午 ③</td><td>题型精练</td><td>35′</td><td>先做后讲。讲的重点是"为什么错"，不是"答案是什么"</td></tr>
+      <tr><td class="p">下午 ④</td><td class="mid"><b>听力</b></td><td>30′</td><td class="no"><b>短板，不可省。</b>必做三步：盲听 → 对答案+看原文 → 跟读</td></tr>
+      <tr><td class="p">下午 ⑤</td><td class="mid"><b>口语 / 写作</b>（隔日）</td><td>20′</td><td class="no"><b>短板，不可省。</b>口语用句型模板起步，写作用 Write & Improve 批改</td></tr>
+      <tr><td class="p">睡前 ⑥</td><td>分级读物 + 复盘</td><td>10′</td><td>读物"几乎不查词"才有效（蓝思 300–500L）；错题每天只记 3 条</td></tr>
+    </table>
+  </section>
+
+  <!-- 8 技能 -->
+  <section id="s8">
+    <div class="eyebrow"><span class="num">08</span>四项技能<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>每一项具体怎么练</h2>
+
+    <h3>词汇 · 回报最高的一项</h3>
+    <ul class="clean">
+      <li><b>官方词表是唯一主线。</b>考什么背什么。杂牌"高频 3000"是噪音。</li>
+      <li><b>分"能认"与"能用"两栏。</b>阅读听力只需能认；写作口语必须能用。每天从新词挑 5 个进"能用"栏并造句。</li>
+      <li><b>复现优先于新增。</b>宁可 30 个记牢，不要 60 个过眼。节奏：当天 → 隔天 → 第 4 天 → 第 7 天。</li>
+      <li class="yes"><b>直接用你的 App。</b>"英语奇遇记"PET 模块约 3500 词，<em>完整覆盖 KET 的 1500–2000 词</em>——阶段一到阶段三都能用同一个工具，边做数据边给她用。</li>
+    </ul>
+
+    <h3>听力 · 从"听不懂"到"听得懂"只有一条路</h3>
+    <ul class="clean">
+      <li><b>三步法，每天必做，不许跳步。</b>①<b>盲听</b>（不看原文做题）→ ②<b>对答案 + 看 tapescript</b>（找出为什么没听出来）→ ③<b>跟读</b>。<em>第③步是绝大多数家庭省掉的，也正是它决定成败——耳朵只能听懂嘴能说出的东西。</em></li>
+      <li><b>先攻 Part 1（听短对话选图片）</b>，最简单、最有成就感，适合从零建立。别一上来啃 Part 4 的主旨题。</li>
+      <li><b>专抓四类信息</b>：数字、时间、地点、价格。这是 KET 听力最集中的失分点，也最容易速成。</li>
+      <li><b>录音放两遍</b>是官方规则——教她第一遍抓大意、第二遍补细节，而不是两遍都慌。</li>
+      <li>背景输入（吃饭时放英文）可以做，但<b>不算训练时长</b>，别自欺。</li>
+    </ul>
+
+    <h3>口语 · 800 词不追求自由表达，追求句型肌肉记忆</h3>
+    <ul class="clean">
+      <li><b>关键认知</b>：以她的词汇量，"自由对话"不现实，硬练只会挫败。<em>但 KET 口语考的恰恰是高度可预测的东西——个人信息问答 + 谈喜好给理由。</em>句型成条件反射即可拿分。</li>
+      <li><b>核心句型库（练到不用想）</b>：<br>
+        · My name is… / I'm eleven years old. / I live in Beijing.<br>
+        · I like… because… ／ I don't like… because…<br>
+        · My favourite… is… because…<br>
+        · I play the… in my school orchestra.<br>
+        · Yes, I do. Because… ／ No, I don't. Because…</li>
+      <li><b>练"多说两句"</b>：中国孩子最典型的失分是问什么答什么、只答一个词。练成 <em>答案 + 理由</em> 两段式，KET 就够用（PET 才需要加"例子"）。</li>
+      <li class="yes"><b>乐团是她的口语金矿。</b>练了几年、什么声部、印象最深的一次演出、乐团教会她什么——<b>这是她唯一能真正讲出内容的话题</b>，比背模板生动十倍。KET 口语 Part 2 正好考"谈喜好并给理由"。</li>
+      <li><b>先看官方口语实录视频</b>（第 5 节有三段），让她看见真人怎么考——陌生感消掉一半。</li>
+      <li><b>每周录一次音，只跟自己比。</b>Day 7 / 21 / 30 三段录音的对比，是她坚持下去最实在的燃料。</li>
+    </ul>
+
+    <h3>写作 · 她的潜在强项</h3>
+    <ul class="clean">
+      <li><b>允许先用中文列提纲再写英文。</b>她的结构感已经很好，先把这个优势迁移过来。</li>
+      <li><b>Part 6 三个要点一个都不能漏</b>——这是内地孩子最常见的失分点，<em>不是语法问题，是漏答</em>。写之前先把三条 bullet 划出来。</li>
+      <li><b>字数够就行，别堆。</b>Part 6 ≥25 词、Part 7 ≥35 词。低于字数扣分，写超很多也不加分。</li>
+      <li><b>A2 允许有错。</b>只要意思清楚、句子连得起来就合格。<b>不要用"零错误"要求她</b>——那是 B2 的标准，用错了会把她的表达欲掐死。</li>
+      <li class="yes"><b>用 Write & Improve 批改</b>（writeandimprove.com）：免费、几秒出反馈和 CEFR 等级。你不用会判作文。</li>
+      <li>全月至少 <b>5 篇成品</b>，第 1 篇一定要留着——Day 30 拿出来对比，是最好的信心来源。</li>
+    </ul>
+  </section>
+
+  <!-- 9 模考 -->
+  <section id="s9">
+    <div class="eyebrow"><span class="num">09</span>模考与决策<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>用数据定报考</h2>
+
+    <table class="tbl">
+      <tr><th style="width:12%">编号</th><th style="width:12%">时点</th><th style="width:24%">用什么卷</th><th>用途</th></tr>
+      <tr><td class="d">模考 1</td><td><b>Day 1</b></td><td class="mid">原创模拟卷 01</td><td><b>基线，不是审判。</b>严格计时、独立完成。<em>800 词第一次做 KET 卷，正确率 40–50% 很正常</em>——这句话要说在前面</td></tr>
+      <tr><td class="d">模考 2</td><td><b>Day 15</b></td><td>原创模拟卷重做 / handbook 样题</td><td>中期校准。看两周补的词有没有变成分数。没动就立刻调方法</td></tr>
+      <tr><td class="d">模考 3</td><td><b>Day 29</b></td><td class="no"><b>剑桥官方纸质样卷</b></td><td class="no"><b>★ 决策依据。</b>三张卷完整含口语；用官方换算表估量表分</td></tr>
+    </table>
+
+    <div class="call gold">
+      <span class="tag">为什么官方样卷要留到最后</span>
+      <p>官方样卷是<strong>最准的一把尺，而且免费的只有那么几套</strong>。提前用掉，Day 29 就没有干净的卷子做决策了（重做过的卷子有记忆效应，分数会虚高）。<em>原创卷练手感、可反复用；官方卷定水平、一次性。</em></p>
+    </div>
+
+    <h3>报考决策矩阵（以模考 3 为准）</h3>
+    <table class="tbl">
+      <tr><th style="width:16%">估算量表分</th><th style="width:16%">判断</th><th style="width:30%">报考动作</th><th>理由</th></tr>
+      <tr><td class="d">&lt; 110</td><td class="no">尚未到位</td><td><b>不报 2026 年 12 月</b><br>目标 2027 年春 KET</td><td>此时报名等于花钱买挫败。9–12 月继续补词汇与听力</td></tr>
+      <tr><td class="d">110–119</td><td class="mid">接近及格</td><td><b>报 2026 年 12 月 KET</b><br>（争 120+）</td><td>还有 4 个月，从 110 推到 120+ 完全够；开学后维持节奏即可</td></tr>
+      <tr><td class="d">120–133</td><td class="yes">已过 A2 线</td><td><b>报 12 月 KET，目标冲 B 等（133+）</b></td><td>稳拿证；有余力就往 140 推</td></tr>
+      <tr><td class="d">≥ 134</td><td class="yes">超预期</td><td class="yes"><b>报 12 月 KET 并冲 A（140+）</b></td><td class="yes"><b>140+ 即认定已达 B1</b>——用 KET 的卷子拿 PET 的等级，省一整年</td></tr>
+      <tr><td colspan="4" style="background:var(--red-soft)!important;color:var(--red);font-weight:700;">PET：2026 年内一律不考虑。缺口约 2700 词，硬报只会浪费报名费和她的信心。排到 2027 年下半年。</td></tr>
+    </table>
+    <p style="font-size:13px;color:var(--ink-soft);">量表分用剑桥官方换算表估（第 6 节链接）。若懒得换算，用正确率也行：<b>约 60% ≈ 及格线附近，约 85% ≈ A 等区间</b>——但换算表更准。</p>
+  </section>
+
+  <!-- 10 报名 -->
+  <section id="s10">
+    <div class="eyebrow"><span class="num">10</span>报名操作<a href="#top" class="backtop">↑ 目录</a></div>
+    <h2>渠道已经变了，这节必看</h2>
+
+    <div class="call red">
+      <span class="tag">两个关键变化</span>
+      <p>① <strong>教育部考试中心已不再承办剑桥通用五级考试（MSE）</strong>，原 neea 通道作废；<br>
+      ② <strong>自 2025 年起，剑桥官网关闭了个人在线报名通道</strong>，报名改由各城市考点负责。<br>
+      所以<em>不能"上官网自己报"，必须联系考点</em>。</p>
+    </div>
+
+    <h4>报名七步</h4>
+    <ol class="steps">
+      <li>进 <a href="https://www.cambridgeenglish.cn/">cambridgeenglish.cn</a>，找"<b>找考点 / Find a centre</b>"（校园版考点页：<a href="https://www.cambridgeenglish.cn/find-a-centre/find-a-schools-centre/">find-a-schools-centre</a>）。</li>
+      <li>选"考试"→"青少年英语"→ <b>A2 Key for Schools（KET）</b>。</li>
+      <li>按 <b>国家 → 省份 → 城市（北京）→ 考试项目</b> 逐级下拉。</li>
+      <li>等约 1 分钟，出现"<b>考场</b>"与"<b>联系人</b>"，点击就近考场的联系人。</li>
+      <li>与考点直接联系，确定<b>考期、费用、纸考还是机考</b>。参考价：KET 约 500 元、PET 约 600 元，以考点为准。</li>
+      <li>提交信息与照片、缴费。<b>姓名与证件信息必须完全一致</b>，照片不合规会审核失败。</li>
+      <li>准考证<b>考前两周</b>发到报名邮箱，需自行下载。</li>
+    </ol>
+
+    <h4>会咬人的几条规则</h4>
+    <table class="tbl">
+      <tr><th style="width:16%">事项</th><th style="width:36%">规则</th><th>含义</th></tr>
+      <tr><td><b>报名节奏</b></td><td>通常考前 3 个月开放、<b>考前 2 个月截止</b></td><td class="no">要考 12 月，<b>9 月就得盯着报名开放</b>；本周先打电话问清考期表</td></tr>
+      <tr><td><b>考位</b></td><td>北京考位常年紧张，热门场次开放即秒空</td><td class="no">别等模考出分再报。<b>先占位，级别可后调</b></td></tr>
+      <tr><td><b>转考 / 退费</b></td><td>截止前转考加收 20% 手续费；<b>截止后不接受转考及退费</b>；缴费后无法退费</td><td class="mid">这就是"先占位"的成本上限——约百元级，值</td></tr>
+      <tr><td><b>证件</b></td><td>中国大陆考生须用<b>二代居民身份证原件</b></td><td>提前确认她的身份证在有效期内，且姓名与报名信息一致</td></tr>
+      <tr><td><b>考试安排</b></td><td>笔试与口语在周六日两天内随机安排，<b>可能不在同一天</b></td><td>整个周末都要留出来</td></tr>
+      <tr><td><b>出分</b></td><td>机考较快（约 1–3 周）；纸考约 4–6 周</td><td class="yes"><b>选机考</b>——出分快，且 A2 Key for Schools 两种都保留</td></tr>
+    </table>
+
+    <div class="call jade">
+      <span class="tag">本周就做的一件事</span>
+      <p><strong>打电话给考点</strong>，问三件事：<b>2026 年 12 月和 2027 年春各有哪些 KET 考期？什么时候开放报名？机考还是纸考？</b><em>把日历摸清楚，Day 29 出决策时才有得选。</em>考位是这条路上唯一花钱也未必买得到的东西。</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="rule"></div>
+    <p><b>本方案定位</b>　KET/PET 通关总方案（第三版）。配套文件：《思蒝KET原创全真模拟卷01·阅读与写作》（可打印直接开考，含答案与评分）、《思蒝30天英语打卡表》（孩子用，可打印）。可一并导入 Obsidian。</p>
+    <p><b>四条主线复述</b>　① 800 词让 KET 从"够呛"变成"打得下来"——目标 2026 年 12 月，冲 140+（即认定 B1）；② PET 排到 2027 下半年，不硬提；③ 时间重心压在听说，因为那是短板也是分数；④ 官方免费资源已够用——原创卷练手感，官方卷定水平，Write & Improve 替家长判作文。</p>
+    <p><b>数据口径</b>　KET/PET 题型、题数、分值、时长、计分口径均直接引自剑桥英语官网（cambridgeenglish.org）2026 年 7 月版本。词汇量对应关系为业内通行参考值。考期、考位、费用与报名规则以考点最新公告为准。所有下载链接均为剑桥官方公开资源。</p>
+    <p><b>下一步可做</b>　Day 1 模考出分后，可据三项正确率产出：精确到周的词汇进度表、KET 口语句型库（完整版）、以及原创模拟卷 02。</p>
+  </footer>
+
+</div>
+</body>
+</html>

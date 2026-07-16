@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>思蒝 · KET 语法练习册（原创 · 可打印）</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1F1D1B;--ink-soft:#5A544C;--ink-faint:#8E8579;
+    --gold:#A9863C;--gold-deep:#856421;--red:#AC3F2E;--jade:#3C6E5B;
+    --line:#CFC7B8;--rule:#E6DFD1;
+    --serif:"Noto Serif SC",Georgia,serif;
+    --sans:"Noto Sans SC","Helvetica Neue",Arial,sans-serif;
+    --en:Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#EDE8DC;color:var(--ink);font-family:var(--sans);line-height:1.6;}
+  .page{max-width:820px;margin:0 auto 18px;background:#fff;padding:40px 50px 50px;box-shadow:0 2px 14px rgba(0,0,0,.08);}
+
+  .cover{text-align:center;border-bottom:3px double var(--gold);padding-bottom:20px;margin-bottom:20px;}
+  .cover .k{font-size:11px;letter-spacing:.36em;color:var(--gold-deep);font-weight:700;text-transform:uppercase;}
+  .cover h1{font-family:var(--serif);font-size:32px;font-weight:900;margin:10px 0 4px;}
+  .cover .s{font-size:13px;color:var(--ink-faint);}
+
+  .howto{background:#FAF7F0;border-left:4px solid var(--gold);padding:14px 18px;margin:0 0 20px;font-size:12.5px;line-height:1.8;border-radius:2px;}
+  .howto b{color:var(--gold-deep);}
+
+  .wk-head{background:var(--ink);color:#fff;padding:10px 16px;border-radius:2px;margin:0 0 4px;
+           display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;}
+  .wk-head .n{font-family:var(--serif);font-weight:900;font-size:17px;}
+  .wk-head .t{font-size:12px;opacity:.85;}
+  .wk-head.t1{background:var(--red);}
+  .wk-head.t2{background:var(--gold-deep);}
+  .wk-head.t3{background:var(--jade);}
+
+  .target{font-size:12px;color:var(--ink-soft);background:#FCFBF7;border:1px solid var(--line);
+          border-radius:2px;padding:9px 14px;margin:0 0 14px;line-height:1.7;}
+  .target b{color:var(--ink);}
+  .target .err{color:var(--red);text-decoration:line-through;font-family:var(--en);}
+  .target .ok{color:var(--jade);font-weight:700;font-family:var(--en);}
+
+  .ex{margin:0 0 22px;page-break-inside:avoid;}
+  .ex h4{font-size:13px;font-weight:700;color:var(--gold-deep);margin:0 0 4px;letter-spacing:.04em;}
+  .ex .rub{font-size:12px;color:var(--ink-soft);font-style:italic;margin:0 0 10px;}
+  ol.items{margin:0;padding-left:0;list-style:none;counter-reset:i;}
+  ol.items li{counter-increment:i;position:relative;padding:6px 0 6px 30px;font-family:var(--en);
+              font-size:13.5px;line-height:1.75;border-bottom:1px dotted var(--rule);}
+  ol.items li:last-child{border-bottom:none;}
+  ol.items li::before{content:counter(i);position:absolute;left:0;top:6px;width:21px;height:21px;
+      background:var(--gold);color:#fff;border-radius:50%;text-align:center;line-height:21px;
+      font-size:11px;font-weight:700;font-family:var(--sans);}
+  ol.items li .cn{font-family:var(--sans);font-size:11.5px;color:var(--ink-faint);}
+  .bl{display:inline-block;min-width:70px;border-bottom:1.3px solid var(--ink-soft);height:15px;vertical-align:baseline;}
+  .bl.s{min-width:44px;}
+  .bl.l{min-width:150px;}
+  .bank{background:#FAF7F0;border:1px dashed var(--line);border-radius:2px;padding:9px 14px;margin:0 0 12px;
+        font-family:var(--en);font-size:13px;text-align:center;letter-spacing:.02em;}
+  .bank b{font-family:var(--sans);font-size:11px;color:var(--gold-deep);letter-spacing:.1em;}
+
+  .cloze{border:1px solid var(--line);border-radius:2px;padding:16px 18px;margin:0 0 12px;background:#FCFBF7;
+         font-family:var(--en);font-size:13.5px;line-height:2.1;}
+  .cloze h5{font-family:var(--serif);font-size:15px;font-weight:900;margin:0 0 10px;text-align:center;}
+  .gn{display:inline-block;min-width:20px;height:19px;background:var(--gold);color:#fff;border-radius:3px;
+      text-align:center;line-height:19px;font-size:10.5px;font-weight:700;font-family:var(--sans);vertical-align:middle;}
+
+  .fix{border:1px solid var(--line);border-left:4px solid var(--red);border-radius:2px;padding:14px 18px;
+       margin:0 0 12px;background:#FDF7F5;}
+  .fix .lb{font-size:11px;letter-spacing:.16em;color:var(--red);font-weight:700;text-transform:uppercase;margin-bottom:8px;}
+
+  /* answers */
+  .anspage{border-top:3px double var(--red);}
+  .ansbadge{background:var(--red);color:#fff;display:inline-block;padding:4px 12px;border-radius:2px;
+            font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;margin-bottom:10px;}
+  table.ans{width:100%;border-collapse:collapse;font-size:12px;margin:8px 0 16px;}
+  table.ans th{background:var(--ink);color:#fff;padding:6px 8px;text-align:left;font-size:10.5px;letter-spacing:.06em;}
+  table.ans td{border:1px solid var(--line);padding:5px 8px;vertical-align:top;}
+  table.ans td.k{font-family:var(--en);font-weight:700;color:var(--gold-deep);}
+  table.ans td.q{font-weight:700;width:34px;text-align:center;font-family:var(--serif);}
+  table.ans tr:nth-child(even) td{background:#FAF7F0;}
+  .note-cn{font-family:var(--serif);font-size:12.5px;line-height:1.8;color:var(--ink-soft);
+           background:#FAF7F0;border-left:4px solid var(--gold);padding:12px 16px;margin:14px 0;border-radius:2px;}
+  .note-cn b{color:var(--ink);}
+
+  @media print{
+    body{background:#fff;}
+    .page{box-shadow:none;margin:0;max-width:none;padding:15mm 14mm;page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+    .wk-head{background:#1F1D1B!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .wk-head.t1{background:#AC3F2E!important;}
+    .wk-head.t2{background:#856421!important;}
+    .wk-head.t3{background:#3C6E5B!important;}
+    ol.items li::before,.gn{background:#A9863C!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    table.ans th{background:#1F1D1B!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .ansbadge{background:#AC3F2E!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .ex,.cloze,.fix{page-break-inside:avoid;}
+  }
+  @media (max-width:640px){.page{padding:20px 16px;}}
+</style>
+</head>
+<body>
+
+<!-- COVER + W1 -->
+<div class="page">
+  <div class="cover">
+    <div class="k">A2 Key for Schools · Grammar</div>
+    <h1>KET 语法练习册</h1>
+    <div class="s">原创 · 8 周逐周练习 · 按剑桥官方 A2 语言规范编写</div>
+  </div>
+
+  <div class="howto">
+    <b>怎么用</b>　① 每周只打一个考点，<b>一天 15–20 分钟</b>，不要跳周。<br>
+    ② 每周的练习<b>做两遍</b>：第一遍学，隔三天再做一遍——第二遍还错的，才是真没会。<br>
+    ③ <b>做完必须"用出来"</b>：练完 be 动词，当天口语就用；练完过去时，当天写一个过去的故事。只做题不输出＝没学。<br>
+    ④ 答案在最后一页，<b>裁下来由家长保管</b>。
+  </div>
+
+  <div class="wk-head t1"><span class="n">Week 1　be 动词</span><span class="t">第一级 · 会挡住意思的错</span></div>
+  <div class="target">
+    <b>要消灭的中式错误</b>：中文说"我很高兴"不需要系动词，所以会写成 <span class="err">I very happy.</span> → <span class="ok">I am very happy.</span>　
+    <b>验收</b>：10 个中文句子全部译对，一个 be 都不丢。
+  </div>
+
+  <div class="ex">
+    <h4>A · 填入 am / is / are</h4>
+    <p class="rub">Write am, is or are.</p>
+    <ol class="items">
+      <li>I <span class="bl s"></span> eleven years old.</li>
+      <li>My sister <span class="bl s"></span> in the school orchestra.</li>
+      <li>We <span class="bl s"></span> very tired after the concert.</li>
+      <li>The violin <span class="bl s"></span> on the table.</li>
+      <li>My parents <span class="bl s"></span> at work today.</li>
+      <li>There <span class="bl s"></span> thirty students in my class.</li>
+      <li>There <span class="bl s"></span> a new music room upstairs.</li>
+      <li>You <span class="bl s"></span> a very good singer!</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>B · 填入 was / were</h4>
+    <p class="rub">Write was or were.</p>
+    <ol class="items">
+      <li>Yesterday I <span class="bl s"></span> at the library.</li>
+      <li>The tickets <span class="bl s"></span> very cheap last year.</li>
+      <li>My grandmother <span class="bl s"></span> a music teacher.</li>
+      <li>We <span class="bl s"></span> late for practice this morning.</li>
+      <li>There <span class="bl s"></span> a lot of people at the concert.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>C · 改成否定句</h4>
+    <p class="rub">Make these sentences negative.</p>
+    <ol class="items">
+      <li>She is my best friend. → <span class="bl l"></span></li>
+      <li>They are in the same class. → <span class="bl l"></span></li>
+      <li>I was at home yesterday. → <span class="bl l"></span></li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>D · 中译英（这一项最关键）</h4>
+    <p class="rub">把中文译成英文，注意别丢 be 动词。</p>
+    <ol class="items">
+      <li><span class="cn">我很累。</span><br><span class="bl l"></span></li>
+      <li><span class="cn">她是我的音乐老师。</span><br><span class="bl l"></span></li>
+      <li><span class="cn">这本书很有意思。</span><br><span class="bl l"></span></li>
+      <li><span class="cn">我们昨天在公园。</span><br><span class="bl l"></span></li>
+      <li><span class="cn">桌子上有一把小提琴。</span><br><span class="bl l"></span></li>
+    </ol>
+  </div>
+</div>
+
+<!-- W2 -->
+<div class="page">
+  <div class="wk-head t1"><span class="n">Week 2　疑问句与否定句</span><span class="t">第一级 · Part 5 直接考</span></div>
+  <div class="target">
+    <b>要消灭的中式错误</b>：中文靠句尾"吗"提问、语序不变，所以会写成 <span class="err">You like music?</span> / <span class="err">What you want?</span> → <span class="ok">Do you like music?</span> / <span class="ok">What do you want?</span><br>
+    <b>验收</b>：任给一个陈述句，<b>3 秒内</b>改成疑问句和否定句。<b>这一周最重要——官方样卷 Part 5 第 26 题的答案就是 Is。</b>
+  </div>
+
+  <div class="ex">
+    <h4>A · 填入 do / does / did</h4>
+    <p class="rub">Write do, does or did.</p>
+    <ol class="items">
+      <li><span class="bl s"></span> you play the violin?</li>
+      <li><span class="bl s"></span> she like classical music?</li>
+      <li><span class="bl s"></span> they go to the concert last night?</li>
+      <li>What time <span class="bl s"></span> the lesson start?</li>
+      <li>Where <span class="bl s"></span> your brother live?</li>
+      <li>Why <span class="bl s"></span> you leave early yesterday?</li>
+      <li>How often <span class="bl s"></span> your orchestra practise?</li>
+      <li>I <span class="bl s"></span> not want to go.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>B · 改成疑问句</h4>
+    <p class="rub">Make these into questions.</p>
+    <ol class="items">
+      <li>You like reading. → <span class="bl l"></span></li>
+      <li>She plays in the orchestra. → <span class="bl l"></span></li>
+      <li>They went to the park. → <span class="bl l"></span></li>
+      <li>He is your teacher. → <span class="bl l"></span></li>
+      <li>It was very cold. → <span class="bl l"></span></li>
+      <li>You can swim. → <span class="bl l"></span></li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>C · 填入疑问词</h4>
+    <div class="bank"><b>词库 ·</b>　What　Where　When　Who　Whose　Which　Why　How much　How many　How often　How long</div>
+    <ol class="items">
+      <li><span class="bl s"></span> is your name?</li>
+      <li><span class="bl s"></span> do you live?</li>
+      <li><span class="bl s"></span> book is this? — It's mine.</li>
+      <li><span class="bl s"></span> is the ticket? — Five pounds.</li>
+      <li><span class="bl s"></span> students are in your class?</li>
+      <li><span class="bl s"></span> do you practise? — Twice a week.</li>
+      <li><span class="bl s"></span> did you go home early? — Because I was ill.</li>
+      <li><span class="bl s"></span> is your teacher? — Mr Chen.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>D · 简短回答</h4>
+    <p class="rub">Answer with a short answer.</p>
+    <ol class="items">
+      <li>Do you like music? — Yes, <span class="bl s"></span> <span class="bl s"></span>.</li>
+      <li>Does she play the piano? — No, <span class="bl s"></span> <span class="bl s"></span>.</li>
+      <li>Did they win? — Yes, <span class="bl s"></span> <span class="bl s"></span>.</li>
+      <li>Are you tired? — No, <span class="bl s"></span> <span class="bl s"></span>.</li>
+      <li>Can he sing? — Yes, <span class="bl s"></span> <span class="bl s"></span>.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- W3 -->
+<div class="page">
+  <div class="wk-head t1"><span class="n">Week 3　一般现在 vs 一般过去</span><span class="t">第一级 · Part 7 必用</span></div>
+  <div class="target">
+    <b>要消灭的中式错误</b>：中文动词不变形，靠"了／过"和时间词表时态，所以会写成 <span class="err">Yesterday I go to school.</span> → <span class="ok">Yesterday I went to school.</span><br>
+    <b>验收</b>：看到时间词就能选对时态。
+  </div>
+
+  <div class="ex">
+    <h4>A · 40 个高频不规则动词过去式（先背这些）</h4>
+    <p class="rub">写出过去式。这 40 个覆盖 KET 绝大部分叙事需求。</p>
+    <ol class="items" style="columns:2;column-gap:26px;">
+      <li>go → <span class="bl s"></span></li><li>come → <span class="bl s"></span></li>
+      <li>see → <span class="bl s"></span></li><li>get → <span class="bl s"></span></li>
+      <li>take → <span class="bl s"></span></li><li>make → <span class="bl s"></span></li>
+      <li>eat → <span class="bl s"></span></li><li>drink → <span class="bl s"></span></li>
+      <li>run → <span class="bl s"></span></li><li>swim → <span class="bl s"></span></li>
+      <li>buy → <span class="bl s"></span></li><li>bring → <span class="bl s"></span></li>
+      <li>find → <span class="bl s"></span></li><li>give → <span class="bl s"></span></li>
+      <li>have → <span class="bl s"></span></li><li>do → <span class="bl s"></span></li>
+      <li>say → <span class="bl s"></span></li><li>tell → <span class="bl s"></span></li>
+      <li>write → <span class="bl s"></span></li><li>read → <span class="bl s"></span></li>
+      <li>sing → <span class="bl s"></span></li><li>put → <span class="bl s"></span></li>
+      <li>sit → <span class="bl s"></span></li><li>stand → <span class="bl s"></span></li>
+      <li>sleep → <span class="bl s"></span></li><li>leave → <span class="bl s"></span></li>
+      <li>meet → <span class="bl s"></span></li><li>feel → <span class="bl s"></span></li>
+      <li>think → <span class="bl s"></span></li><li>know → <span class="bl s"></span></li>
+      <li>begin → <span class="bl s"></span></li><li>win → <span class="bl s"></span></li>
+      <li>lose → <span class="bl s"></span></li><li>send → <span class="bl s"></span></li>
+      <li>speak → <span class="bl s"></span></li><li>teach → <span class="bl s"></span></li>
+      <li>catch → <span class="bl s"></span></li><li>fall → <span class="bl s"></span></li>
+      <li>hear → <span class="bl s"></span></li><li>wear → <span class="bl s"></span></li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>B · 用括号里动词的正确形式填空</h4>
+    <ol class="items">
+      <li>Every morning I <span class="bl s"></span> (practise) the violin for half an hour.</li>
+      <li>Last Saturday we <span class="bl s"></span> (go) to a concert.</li>
+      <li>She usually <span class="bl s"></span> (walk) to school, but yesterday she <span class="bl s"></span> (take) the bus.</li>
+      <li>My brother <span class="bl s"></span> (not like) vegetables.</li>
+      <li>They <span class="bl s"></span> (win) the competition two years ago.</li>
+      <li>I <span class="bl s"></span> (read) that book last month. It <span class="bl s"></span> (be) brilliant.</li>
+      <li>We <span class="bl s"></span> (have) music lessons on Wednesdays.</li>
+      <li>He <span class="bl s"></span> (buy) a new guitar last week.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>C · 时间词决定时态 —— 圈出正确的</h4>
+    <ol class="items">
+      <li><b>Every day</b> she ( plays / played ) the piano.</li>
+      <li><b>Last night</b> I ( watch / watched ) a film.</li>
+      <li><b>Yesterday</b> we ( go / went ) swimming.</li>
+      <li>My mother ( cooks / cooked ) dinner <b>every evening</b>.</li>
+      <li><b>Two years ago</b> he ( starts / started ) learning the cello.</li>
+      <li>I ( get / got ) up at seven <b>every morning</b>.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- W4 -->
+<div class="page">
+  <div class="wk-head t1"><span class="n">Week 4　现在进行时 + 叙事时态一致</span><span class="t">第一级 · 最要命的一类</span></div>
+  <div class="target">
+    <b>要消灭的中式错误</b>：讲故事讲到一半跳时态 —— <span class="err">When they are in the lake they ate some food…</span><br>
+    <b>为什么最要命</b>：官方样卷里有个孩子内容和结构都拿了 4 分，<b>就因为时态跳来跳去，Language 掉到 3 分</b>。考官原话：这种跳跃"可能阻碍读者理解"。<br>
+    <b>验收</b>：看三幅图讲完一个故事，<b>时态一次都不跳</b>。
+  </div>
+
+  <div class="ex">
+    <h4>A · 现在进行时：be + V-ing</h4>
+    <ol class="items">
+      <li>Look! She <span class="bl s"></span> <span class="bl s"></span> (play) the violin.</li>
+      <li>I <span class="bl s"></span> <span class="bl s"></span> (do) my homework now.</li>
+      <li>They <span class="bl s"></span> <span class="bl s"></span> (not listen) to the teacher.</li>
+      <li>What <span class="bl s"></span> you <span class="bl s"></span> (read)?</li>
+      <li>My parents <span class="bl s"></span> <span class="bl s"></span> (watch) TV in the living room.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>B · 一般现在 vs 现在进行 —— 圈出正确的</h4>
+    <ol class="items">
+      <li>I ( play / am playing ) the violin <b>every day</b>.</li>
+      <li>Be quiet! The baby ( sleeps / is sleeping ).</li>
+      <li>She ( goes / is going ) to school by bike <b>every morning</b>.</li>
+      <li>Look — it ( rains / is raining )!</li>
+      <li>We ( have / are having ) lunch at twelve o'clock <b>every day</b>.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>C · 把这个故事改成全过去时（时态一致训练）</h4>
+    <p class="rub">下面这段全用了现在时。把所有动词改成过去时，重写在下方。</p>
+    <div class="cloze" style="line-height:1.8;">
+      Last Saturday Lily <b>sees</b> a poster for a talent show at school. She <b>wants</b> to enter, so she <b>goes</b> home and <b>practises</b> her violin every evening. Her mother <b>helps</b> her choose a piece. On the day of the show she <b>feels</b> very nervous, but when she <b>starts</b> to play she <b>forgets</b> everything else. At the end everybody <b>claps</b> and her teacher <b>says</b> she <b>is</b> brilliant.
+    </div>
+    <div style="border:1px solid var(--line);border-radius:2px;padding:8px 12px;">
+      <div style="border-bottom:1px solid var(--rule);height:24px;"></div>
+      <div style="border-bottom:1px solid var(--rule);height:24px;"></div>
+      <div style="border-bottom:1px solid var(--rule);height:24px;"></div>
+      <div style="border-bottom:1px solid var(--rule);height:24px;"></div>
+      <div style="border-bottom:1px solid var(--rule);height:24px;"></div>
+      <div style="border-bottom:1px solid var(--rule);height:24px;"></div>
+      <div style="border-bottom:1px solid var(--rule);height:24px;"></div>
+    </div>
+  </div>
+
+  <div class="fix">
+    <div class="lb">时态陷阱 · 找出跳时态的地方</div>
+    <p style="font-family:var(--en);font-size:13px;margin:0 0 8px;line-height:1.9;">
+      Last summer my family <u>went</u> to the beach. We <u>take</u> a lot of food with us. When we <u>arrived</u>, the sun <u>is</u> shining. My brother and I <u>swim</u> in the sea and then we <u>ate</u> our sandwiches. It <u>was</u> a wonderful day.
+    </p>
+    <p style="font-size:12px;color:var(--ink-soft);margin:0;">画线的动词里有 <b>4 个</b>时态错了。圈出来并改对。</p>
+  </div>
+</div>
+
+<!-- W5 -->
+<div class="page">
+  <div class="wk-head t2"><span class="n">Week 5　介词</span><span class="t">第二级 · Part 5 直接考</span></div>
+  <div class="target">
+    <b>要消灭的中式错误</b>：<span class="err">in Saturday</span> → <span class="ok">on Saturday</span>　·　<span class="err">with bus</span> → <span class="ok">by bus</span><br>
+    <b>记住三条口诀</b>：<b>at</b> 点（at 7 o'clock / at home）　<b>on</b> 天与面（on Monday / on the table / on TV）　<b>in</b> 里与大时段（in the box / in July / in 2026）
+  </div>
+
+  <div class="ex">
+    <h4>A · 时间介词：at / on / in</h4>
+    <ol class="items" style="columns:2;column-gap:26px;">
+      <li><span class="bl s"></span> Monday</li><li><span class="bl s"></span> 7 o'clock</li>
+      <li><span class="bl s"></span> July</li><li><span class="bl s"></span> the morning</li>
+      <li><span class="bl s"></span> night</li><li><span class="bl s"></span> 2026</li>
+      <li><span class="bl s"></span> the weekend</li><li><span class="bl s"></span> my birthday</li>
+      <li><span class="bl s"></span> winter</li><li><span class="bl s"></span> half past three</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>B · 地点与方向介词</h4>
+    <div class="bank"><b>词库 ·</b>　at　on　in　to　into　out of　from　next to　in front of　at the end of</div>
+    <ol class="items">
+      <li>The violin is <span class="bl s"></span> the table.</li>
+      <li>My books are <span class="bl s"></span> my bag.</li>
+      <li>I go <span class="bl s"></span> school by bike.</li>
+      <li>She's <span class="bl s"></span> home today.</li>
+      <li>The music room is <span class="bl s"></span> the library.</li>
+      <li>He came <span class="bl s"></span> the room and sat down.</li>
+      <li>Take the books <span class="bl s"></span> the box.</li>
+      <li>My house is <span class="bl s"></span> the street.</li>
+      <li>There's a big tree <span class="bl s"></span> our school.</li>
+      <li>This letter is <span class="bl s"></span> my grandmother.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>C · 固定搭配（背下来，不要讲道理）</h4>
+    <ol class="items">
+      <li>I go to school <span class="bl s"></span> bus.　<span class="cn">（坐公交）</span></li>
+      <li>We watched it <span class="bl s"></span> TV.　<span class="cn">（在电视上）</span></li>
+      <li>They're <span class="bl s"></span> holiday in Spain.　<span class="cn">（在度假）</span></li>
+      <li>Thank you <span class="bl s"></span> your email.　<span class="cn">（谢谢你的邮件）</span></li>
+      <li>I'm good <span class="bl s"></span> maths.　<span class="cn">（擅长）</span></li>
+      <li>She's interested <span class="bl s"></span> music.　<span class="cn">（对……感兴趣）</span></li>
+      <li>Listen <span class="bl s"></span> me!　<span class="cn">（听我说）</span></li>
+      <li>I'm waiting <span class="bl s"></span> my friend.　<span class="cn">（等某人）</span></li>
+    </ol>
+  </div>
+</div>
+
+<!-- W6 -->
+<div class="page">
+  <div class="wk-head t2"><span class="n">Week 6　代词 + 限定词</span><span class="t">第二级 · Part 5 直接考</span></div>
+  <div class="target">
+    <b>要消灭的中式错误</b>：<span class="err">Me and Tom went…</span> → <span class="ok">Tom and I went…</span>　·　<span class="err">I have book.</span> → <span class="ok">I have a book.</span><br>
+    <b>官方样卷 Part 5 第 25 题答案是 your／the，第 29 题答案是 they</b> —— 这一周直接对着分数练。
+  </div>
+
+  <div class="ex">
+    <h4>A · 代词三栏表（先填满这张表）</h4>
+    <table style="width:100%;border-collapse:collapse;font-family:var(--en);font-size:13px;">
+      <tr style="background:var(--ink);color:#fff;">
+        <th style="padding:6px 8px;text-align:left;font-family:var(--sans);font-size:11px;">主格 Subject</th>
+        <th style="padding:6px 8px;text-align:left;font-family:var(--sans);font-size:11px;">宾格 Object</th>
+        <th style="padding:6px 8px;text-align:left;font-family:var(--sans);font-size:11px;">物主 Possessive</th>
+      </tr>
+      <tr><td style="border:1px solid var(--line);padding:6px 8px;">I</td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td></tr>
+      <tr><td style="border:1px solid var(--line);padding:6px 8px;">you</td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td></tr>
+      <tr><td style="border:1px solid var(--line);padding:6px 8px;">he</td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td></tr>
+      <tr><td style="border:1px solid var(--line);padding:6px 8px;">she</td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td></tr>
+      <tr><td style="border:1px solid var(--line);padding:6px 8px;">it</td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td></tr>
+      <tr><td style="border:1px solid var(--line);padding:6px 8px;">we</td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td></tr>
+      <tr><td style="border:1px solid var(--line);padding:6px 8px;">they</td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td><td style="border:1px solid var(--line);padding:6px 8px;"><span class="bl s"></span></td></tr>
+    </table>
+  </div>
+
+  <div class="ex">
+    <h4>B · 填入正确的代词</h4>
+    <ol class="items">
+      <li>This is my sister. <span class="bl s"></span> plays the flute.</li>
+      <li>I like Tom. I often play with <span class="bl s"></span>.</li>
+      <li>Is this <span class="bl s"></span> book? — Yes, it's mine.</li>
+      <li>My friends are nice. Are <span class="bl s"></span> in your class too?</li>
+      <li>Tom and <span class="bl s"></span> went to the concert together.</li>
+      <li>The teacher gave <span class="bl s"></span> a lot of homework.　<span class="cn">（给我们）</span></li>
+      <li>Where's my violin? I can't find <span class="bl s"></span>.</li>
+      <li>She's my friend. <span class="bl s"></span> name is Lily.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>C · a / an / the / 不填</h4>
+    <p class="rub">若不需要冠词，画 ×。</p>
+    <ol class="items">
+      <li>I have <span class="bl s"></span> violin.</li>
+      <li>She is <span class="bl s"></span> excellent student.</li>
+      <li>I go to <span class="bl s"></span> school by bus.</li>
+      <li><span class="bl s"></span> book on the table is mine.</li>
+      <li>My father is <span class="bl s"></span> teacher.</li>
+      <li>We had <span class="bl s"></span> lunch at twelve.</li>
+      <li>Can you close <span class="bl s"></span> door, please?</li>
+      <li>I like <span class="bl s"></span> music.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>D · some / any</h4>
+    <ol class="items">
+      <li>I have <span class="bl s"></span> books about music.</li>
+      <li>Do you have <span class="bl s"></span> questions?</li>
+      <li>There isn't <span class="bl s"></span> milk in the fridge.</li>
+      <li>Would you like <span class="bl s"></span> tea?</li>
+      <li>She didn't buy <span class="bl s"></span> new clothes.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- W7 + W8 -->
+<div class="page">
+  <div class="wk-head t2"><span class="n">Week 7　连接词</span><span class="t">第二级 · 一举两得</span></div>
+  <div class="target">
+    <b>KET 只考 7 个连接词</b>：and, but, or ／ when, where, because, if　<b>就这些，没了。</b><br>
+    <b>为什么一举两得</b>：连接词既能进 Part 5，<b>又能给写作的 Organisation 维度加分</b>——官方满分范文用的就是 <span class="ok">because</span> 和 <span class="ok">then</span>。
+  </div>
+
+  <div class="ex">
+    <h4>A · 填入 and / but / or / because / when / if / so</h4>
+    <ol class="items">
+      <li>I like the violin <span class="bl s"></span> I don't like the piano.</li>
+      <li>She was tired <span class="bl s"></span> she practised for three hours.</li>
+      <li>I'll call you <span class="bl s"></span> I get home.</li>
+      <li>Would you like tea <span class="bl s"></span> coffee?</li>
+      <li>It was raining, <span class="bl s"></span> we stayed at home.</li>
+      <li><span class="bl s"></span> you come early, we can practise together.</li>
+      <li>We had lunch <span class="bl s"></span> then we went to the park.</li>
+      <li>I was late <span class="bl s"></span> I missed the bus.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>B · 把两个短句连成一句（写作提分练习）</h4>
+    <ol class="items">
+      <li>I was tired. I went to bed early.　<span class="cn">（用 so）</span><br><span class="bl l"></span></li>
+      <li>I like reading. I don't like writing.　<span class="cn">（用 but）</span><br><span class="bl l"></span></li>
+      <li>She didn't come. She was ill.　<span class="cn">（用 because）</span><br><span class="bl l"></span></li>
+      <li>The concert finished. We went home.　<span class="cn">（用 when）</span><br><span class="bl l"></span></li>
+    </ol>
+  </div>
+
+  <div class="wk-head t3" style="margin-top:26px;"><span class="n">Week 8　量词 + 比较级</span><span class="t">第二／三级</span></div>
+  <div class="target">
+    <b>要消灭的中式错误</b>：<span class="err">many water</span> → <span class="ok">much water</span>　·　<b>官方样卷 Part 5 第 27 题答案是 lot</b>（a lot of）。
+  </div>
+
+  <div class="ex">
+    <h4>C · many / much / a lot of / a few</h4>
+    <ol class="items">
+      <li>How <span class="bl s"></span> students are in your class?</li>
+      <li>How <span class="bl s"></span> water do you drink every day?</li>
+      <li>There are <span class="bl s"></span> <span class="bl s"></span> <span class="bl s"></span> people at the concert.　<span class="cn">（很多）</span></li>
+      <li>I have <span class="bl s"></span> <span class="bl s"></span> friends in the orchestra.　<span class="cn">（几个）</span></li>
+      <li>She doesn't have <span class="bl s"></span> time.</li>
+    </ol>
+  </div>
+
+  <div class="ex">
+    <h4>D · 比较级与最高级</h4>
+    <ol class="items">
+      <li>My violin is <span class="bl s"></span> (old) than yours.</li>
+      <li>This is the <span class="bl s"></span> (good) concert of the year.</li>
+      <li>Maths is <span class="bl s"></span> (difficult) than English.　<span class="cn">（注意长词用 more）</span></li>
+      <li>She is the <span class="bl s"></span> (tall) girl in our class.</li>
+      <li>Today is <span class="bl s"></span> (bad) than yesterday.</li>
+      <li>This book is <span class="bl s"></span> (interesting) than that one.</li>
+    </ol>
+  </div>
+</div>
+
+<!-- PART 5 SPECIAL -->
+<div class="page">
+  <div class="wk-head t2"><span class="n">Part 5 专项　开放完形 ×2</span><span class="t">纯语法 · 6 分送分题</span></div>
+  <div class="target">
+    <b>规则</b>：每空<b>只填一个词</b>，<b>拼写必须正确</b>（官方原文：Spelling must be correct）。<br>
+    <b>四步法</b>：① 先通读 → ② 看空格前后两个词判断缺哪类小词 → ③ 填完读一遍整句 → ④ <b>检查拼写</b>。
+  </div>
+
+  <div class="ex">
+    <h4>Test A</h4>
+    <p class="rub">For each question, write the correct answer. Write ONE word for each gap.</p>
+    <div class="cloze">
+      <p style="margin:0;font-size:12px;font-family:var(--sans);color:var(--ink-faint);">From: Lily　To: Emma</p>
+      <p style="margin:8px 0 0;">Thanks <span class="gn">0</span> <u style="font-family:var(--en);color:var(--gold-deep);font-weight:700;">for</u> your message!</p>
+      <p style="margin:8px 0 0;">I'm really excited about the concert. What time <span class="gn">1</span> <span class="bl"></span> it start? My mum says she can drive us, <span class="gn">2</span> <span class="bl"></span> she has to work until six.</p>
+      <p style="margin:8px 0 0;">I've never been <span class="gn">3</span> <span class="bl"></span> that hall before. Is it far? We could go <span class="gn">4</span> <span class="bl"></span> bus if it isn't.</p>
+      <p style="margin:8px 0 0;">Are your parents coming too? I hope <span class="gn">5</span> <span class="bl"></span> can come — my grandmother would love to meet them.</p>
+      <p style="margin:8px 0 0;">I've got <span class="gn">6</span> <span class="bl"></span> practise now. See you on Saturday!</p>
+      <p style="margin:8px 0 0;">Lily</p>
+    </div>
+  </div>
+
+  <div class="ex">
+    <h4>Test B</h4>
+    <p class="rub">For each question, write the correct answer. Write ONE word for each gap.</p>
+    <div class="cloze">
+      <p style="margin:0;font-size:12px;font-family:var(--sans);color:var(--ink-faint);">From: Tom　To: Ben</p>
+      <p style="margin:8px 0 0;">Hi Ben,</p>
+      <p style="margin:8px 0 0;">How are you? I'm writing <span class="gn">1</span> <span class="bl"></span> tell you about my new school. It's much bigger <span class="gn">2</span> <span class="bl"></span> my old one!</p>
+      <p style="margin:8px 0 0;">There are <span class="gn">3</span> <span class="bl"></span> lot of clubs here. I joined the orchestra <span class="gn">4</span> <span class="bl"></span> I love music. We practise <span class="gn">5</span> <span class="bl"></span> Wednesdays after school.</p>
+      <p style="margin:8px 0 0;">My teacher is very kind. <span class="gn">6</span> <span class="bl"></span> name is Mrs Lee and she helps me a lot.</p>
+      <p style="margin:8px 0 0;">Write soon!<br>Tom</p>
+    </div>
+  </div>
+
+  <div class="fix">
+    <div class="lb">中式错误改错 · 找出并改正</div>
+    <p style="font-size:12px;color:var(--ink-soft);margin:0 0 10px;">每句有一个错。<b>这 10 句是中国孩子最常犯的。</b></p>
+    <ol class="items" style="counter-reset:i;">
+      <li>I very like music.　<span class="bl l"></span></li>
+      <li>She a good student.　<span class="bl l"></span></li>
+      <li>You like reading?　<span class="bl l"></span></li>
+      <li>What you did yesterday?　<span class="bl l"></span></li>
+      <li>Yesterday I go to the library.　<span class="bl l"></span></li>
+      <li>I have three book.　<span class="bl l"></span></li>
+      <li>He go to school by bike.　<span class="bl l"></span></li>
+      <li>Me and my sister play the violin.　<span class="bl l"></span></li>
+      <li>I will meet you in Saturday.　<span class="bl l"></span></li>
+      <li>There is many people here.　<span class="bl l"></span></li>
+    </ol>
+  </div>
+</div>
+
+<!-- ANSWERS -->
+<div class="page anspage">
+  <div class="ansbadge">Answer Key · 家长保管</div>
+  <h2 style="font-family:var(--serif);font-size:23px;font-weight:900;margin:6px 0 14px;">答案</h2>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 1 · be 动词</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">1 am　2 is　3 are　4 is　5 are　6 are　7 is　8 are</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 was　2 were　3 was　4 were　5 were</td></tr>
+    <tr><td class="q">C</td><td class="k" colspan="3">1 She is not (isn't) my best friend.　2 They are not (aren't) in the same class.　3 I was not (wasn't) at home yesterday.</td></tr>
+    <tr><td class="q">D</td><td class="k" colspan="3">1 I am tired.　2 She is my music teacher.　3 This book is interesting.　4 We were in the park yesterday.　5 There is a violin on the table.</td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 2 · 疑问句与否定句</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">1 Do　2 Does　3 Did　4 does　5 does　6 did　7 does　8 do</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 Do you like reading?　2 Does she play in the orchestra?　3 Did they go to the park?　4 Is he your teacher?　5 Was it very cold?　6 Can you swim?</td></tr>
+    <tr><td class="q">C</td><td class="k" colspan="3">1 What　2 Where　3 Whose　4 How much　5 How many　6 How often　7 Why　8 Who</td></tr>
+    <tr><td class="q">D</td><td class="k" colspan="3">1 I do　2 she doesn't　3 they did　4 I'm not　5 he can</td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 3 · 一般现在 vs 一般过去</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">went, came, saw, got, took, made, ate, drank, ran, swam, bought, brought, found, gave, had, did, said, told, wrote, read（读音变 /red/，拼写不变）, sang, put（不变）, sat, stood, slept, left, met, felt, thought, knew, began, won, lost, sent, spoke, taught, caught, fell, heard, wore</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 practise　2 went　3 walks / took　4 doesn't like　5 won　6 read / was　7 have　8 bought</td></tr>
+    <tr><td class="q">C</td><td class="k" colspan="3">1 plays　2 watched　3 went　4 cooks　5 started　6 get</td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 4 · 现在进行时 + 时态一致</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">1 is playing　2 am doing　3 are not listening　4 are … reading　5 are watching</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 play　2 is sleeping　3 goes　4 is raining　5 have</td></tr>
+    <tr><td class="q">C</td><td class="k" colspan="3">saw / wanted / went / practised / helped / felt / started / forgot / clapped / said / was</td></tr>
+    <tr><td class="q">陷阱</td><td class="k" colspan="3">4 个错：<b>take → took</b>　·　<b>is shining → was shining</b>　·　<b>swim → swam</b>　·　（第四处：全段应统一过去时，<b>is</b> 是最明显的一处）<br><span style="font-family:var(--sans);color:var(--ink-soft);font-weight:400;">正确版：Last summer my family went to the beach. We <b>took</b> a lot of food with us. When we arrived, the sun <b>was</b> shining. My brother and I <b>swam</b> in the sea and then we ate our sandwiches. It was a wonderful day.</span></td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 5 · 介词</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">on Monday　at 7 o'clock　in July　in the morning　at night　in 2026　at the weekend　on my birthday　in winter　at half past three</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 on　2 in　3 to　4 at　5 next to　6 into　7 out of　8 at the end of　9 in front of　10 from</td></tr>
+    <tr><td class="q">C</td><td class="k" colspan="3">1 by　2 on　3 on　4 for　5 at　6 in　7 to　8 for</td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 6 · 代词 + 限定词</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">I–me–my　you–you–your　he–him–his　she–her–her　it–it–its　we–us–our　they–them–their</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 She　2 him　3 your　4 they　5 I　6 us　7 it　8 Her</td></tr>
+    <tr><td class="q">C</td><td class="k" colspan="3">1 a　2 an　3 ×　4 The　5 a　6 ×　7 the　8 ×</td></tr>
+    <tr><td class="q">D</td><td class="k" colspan="3">1 some　2 any　3 any　4 some（表建议/邀请用 some）　5 any</td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 7 · 连接词</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">1 but　2 because　3 when　4 or　5 so　6 If　7 and　8 because</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 I was tired, so I went to bed early.　2 I like reading but I don't like writing.　3 She didn't come because she was ill.　4 When the concert finished, we went home.</td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Week 8 · 量词 + 比较级</th></tr>
+    <tr><td class="q">C</td><td class="k" colspan="3">1 many　2 much　3 a lot of　4 a few　5 much</td></tr>
+    <tr><td class="q">D</td><td class="k" colspan="3">1 older　2 best　3 more difficult　4 tallest　5 worse　6 more interesting</td></tr>
+  </table>
+
+  <table class="ans">
+    <tr><th colspan="4">Part 5 专项</th></tr>
+    <tr><td class="q">A</td><td class="k" colspan="3">1 does　2 but　3 to　4 by　5 they　6 to</td></tr>
+    <tr><td class="q">B</td><td class="k" colspan="3">1 to　2 than　3 a　4 because　5 on　6 Her</td></tr>
+    <tr><td class="q">改错</td><td class="k" colspan="3">
+      1 I <b>like music very much.</b>（very like 是典型中式）<br>
+      2 She <b>is</b> a good student.<br>
+      3 <b>Do</b> you like reading?<br>
+      4 What <b>did</b> you <b>do</b> yesterday?<br>
+      5 Yesterday I <b>went</b> to the library.<br>
+      6 I have three <b>books</b>.<br>
+      7 He <b>goes</b> to school by bike.<br>
+      8 <b>My sister and I</b> play the violin.<br>
+      9 I will meet you <b>on</b> Saturday.<br>
+      10 There <b>are</b> many people here.
+    </td></tr>
+  </table>
+
+  <div class="note-cn">
+    <b>给家长的三条判卷提醒</b><br>
+    ① <b>改错题第 1、2、3、4、5 题是"会挡住意思"的一类</b>——这些必须改到条件反射。<b>第 6、7 题（单复数、第三人称 -s）不挡意思</b>，错了记下来就行，<em>不要当场反复纠正她</em>。<br>
+    ② Week 4 那道时态陷阱题最重要。官方样卷里有个孩子内容和结构都不错，<b>就因为时态跳，Language 掉了 2 分</b>。<br>
+    ③ 每周练完，<b>当天必须用出来</b>：练完介词，让她说三句带 on/at/in 的话；练完连接词，让她写一句带 because 的句子。<em>只做题不输出＝没学。</em>
+  </div>
+
+  <p style="text-align:center;font-family:var(--serif);font-size:12.5px;color:var(--ink-soft);
+            border-top:1px solid var(--rule);padding-top:14px;margin-top:20px;line-height:1.85;">
+    本练习册按剑桥 A2 Key for Schools 官方语言规范（教师手册第 55–57 页）原创编写。<br>
+    <b style="color:var(--gold-deep);">练完之后，请去做官方样卷的 Part 5——原创题练手感，官方题定水平。</b>
+  </p>
+</div>
+
+</body>
+</html>
