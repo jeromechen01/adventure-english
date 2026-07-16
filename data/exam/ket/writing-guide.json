@@ -216,7 +216,138 @@
    "人物起个名字（Tom, Lily），代词就不会乱",
    "35 词下限 ≈ 5-6 句短句，别憋长句"
   ],
-  "tasks": []
+  "tasks": [
+   {
+    "id": "p7-01",
+    "topic": "丢失的小狗",
+    "scenes": [
+     "一个男孩在公园里发现一只独自坐着的小狗，狗脖子上有项圈",
+     "男孩看项圈上的电话号码，用妈妈的手机打电话",
+     "一位老奶奶跑来抱起小狗，男孩和妈妈在旁边笑"
+    ],
+    "sample": {
+     "text": "One day, Tom saw a little dog in the park. It was alone and sad. Tom looked at its collar and found a phone number. He called it with his mum's phone. Soon an old woman ran to them. She was very happy and thanked Tom.",
+     "note": "48 词。全程过去调：saw / was / looked / found / called / ran / thanked——一个动词都没跳。"
+    }
+   },
+   {
+    "id": "p7-02",
+    "topic": "下雨的放学路",
+    "scenes": [
+     "放学时突然下大雨，一个女孩没带伞站在校门口",
+     "同学撑伞走过来，招手让她一起走",
+     "两人共撑一把伞开心地走回家，地上有水花"
+    ],
+    "sample": {
+     "text": "After school, it rained very hard. Lily stood at the school gate because she did not have an umbrella. Then her friend Anna came with a big blue umbrella. \"Let's go together!\" she said. They walked home under one umbrella and laughed all the way.",
+     "note": "46 词。直接引语一句话让故事活起来，考纲内完全允许。"
+    }
+   },
+   {
+    "id": "p7-03",
+    "topic": "烤蛋糕",
+    "scenes": [
+     "女孩和爸爸在厨房准备做蛋糕，桌上有面粉鸡蛋",
+     "烤箱冒烟了，两人吃惊地看着烤糊的蛋糕",
+     "妈妈回家，三人笑着吃盘子里歪歪扭扭的第二个蛋糕"
+    ],
+    "sample": {
+     "text": "On Sunday, Amy and her dad made a cake. They put flour and eggs on the table and worked hard. But the first cake burned in the oven! Dad opened the window quickly. They made a second cake. When Mum came home, they ate it together. It was ugly but sweet!",
+     "note": "52 词。But / When 连接词把三幅图缝成一个故事。"
+    }
+   },
+   {
+    "id": "p7-04",
+    "topic": "足球比赛",
+    "scenes": [
+     "学校操场足球赛，一个男孩摔倒了，球滚到一边",
+     "对方球队的一个男孩停下来，伸手拉他起来",
+     "比赛结束两队握手，摔倒的男孩和帮他的男孩交换了球衣"
+    ],
+    "sample": {
+     "text": "Last Friday, our class had a football match. Ben fell down and the ball rolled away. A boy from the other team stopped and helped him up. Everyone clapped. After the match, the two boys shook hands and became good friends.",
+     "note": "42 词。fell / rolled / stopped / helped / clapped / shook / became——不规则动词都盖了过去戳。"
+    }
+   },
+   {
+    "id": "p7-05",
+    "topic": "公交车上的座位",
+    "scenes": [
+     "一个女孩背着书包坐在满员的公交车上",
+     "一位抱着很多袋子的老爷爷上车，没有座位",
+     "女孩站起来让座，老爷爷微笑道谢，乘客们点头"
+    ],
+    "sample": {
+     "text": "Yesterday Mia took the bus to school. The bus was full. At the next stop, an old man got on with many heavy bags. Nobody moved. Then Mia stood up and gave him her seat. The old man smiled and said thank you. Mia felt warm inside.",
+     "note": "48 词。Then 推动情节，最后一句写感受收尾。"
+    }
+   },
+   {
+    "id": "p7-06",
+    "topic": "风筝卡在树上",
+    "scenes": [
+     "两个孩子在草地上放风筝，风很大",
+     "风筝挂在了高高的树上，两人着急地往上看",
+     "一位叔叔用长竹竿把风筝取下来，孩子们跳起来欢呼"
+    ],
+    "sample": {
+     "text": "One windy day, Sam and his sister flew a kite on the grass. Suddenly the wind blew it into a tall tree. They could not reach it and felt worried. Then a man came with a long stick. He got the kite down. The children jumped and cheered!",
+     "note": "49 词。Suddenly / Then：时间词就是故事骨架。"
+    }
+   },
+   {
+    "id": "p7-07",
+    "topic": "忘带午餐盒",
+    "scenes": [
+     "男孩到学校打开书包，发现午餐盒忘在家里了",
+     "午餐时间同学们把自己的食物分给他一点",
+     "男孩的桌上摆满了小食物，大家围着他笑"
+    ],
+    "sample": {
+     "text": "One morning, Leo opened his school bag and found no lunch box. He left it at home! At lunch time, his friends saw his empty desk. Everyone gave him some food — bread, an apple and a small cake. Leo's desk was full of food. He had the best lunch ever!",
+     "note": "52 词。破折号列举食物，词不难但画面全出来了。"
+    }
+   },
+   {
+    "id": "p7-08",
+    "topic": "第一次上台演奏",
+    "scenes": [
+     "女孩在后台抱着小提琴，看起来很紧张",
+     "她在台上演奏，聚光灯下拉琴，台下观众安静听",
+     "演出结束观众起立鼓掌，女孩抱着琴鞠躬微笑"
+    ],
+    "sample": {
+     "text": "Last month, Yuan waited behind the stage with her violin. Her hands were cold because she was nervous. Then she walked to the light and started to play. The music was beautiful and everyone listened quietly. When she finished, people stood up and clapped. She smiled and felt proud.",
+     "note": "50 词。乐团题材写自己最熟的事，细节自然就多。"
+    }
+   },
+   {
+    "id": "p7-09",
+    "topic": "雪人",
+    "scenes": [
+     "冬天早晨，孩子推开窗看到外面全是雪",
+     "兄妹俩在院子里堆雪人，给它戴帽子插胡萝卜鼻子",
+     "晚上雪人戴着围巾立在院子里，兄妹在窗边喝热牛奶看它"
+    ],
+    "sample": {
+     "text": "One winter morning, Ken opened the window and saw snow everywhere! He and his little sister ran into the garden. They made a big snowman with a hat and a carrot nose. At night, they drank hot milk by the window and watched their snowman. It was a happy day.",
+     "note": "50 词。开头 One winter morning 一句定调，后面全程过去时。"
+    }
+   },
+   {
+    "id": "p7-10",
+    "topic": "图书馆的惊喜",
+    "scenes": [
+     "女孩在图书馆书架间找书，找到一本旧故事书",
+     "打开书，里面夹着一张多年前小朋友画的画",
+     "她把画贴在图书馆留言板上，很多孩子围观微笑"
+    ],
+    "sample": {
+     "text": "On Saturday, Mia looked for a storybook in the library. She took an old book from the shelf and opened it. Inside there was a small picture — a child drew it many years ago! Mia put the picture on the library board. Many children came to see it and smiled.",
+     "note": "51 词。there was / drew / put / came：过去调稳稳到底。"
+    }
+   }
+  ]
  },
  "scoring": {
   "title": "评分三维（要点转述，非官方原文）",
