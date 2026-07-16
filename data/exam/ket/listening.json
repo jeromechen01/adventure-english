@@ -2,5 +2,906 @@
  "level": "KET",
  "title": "KET 听力训练(原创文本, Web Speech 朗读)",
  "note": "每段两遍",
- "sets": []
+ "sets": [
+  {
+   "id": "lis-01",
+   "name": "基础套",
+   "parts": [
+    {
+     "part": 1,
+     "name": "Part 1 · 听对话选图",
+     "questions": [
+      {
+       "script": "Boy: What time does the film start, Mum? Woman: At half past four, so we must leave home at four.",
+       "q": "What time does the film start?",
+       "options": [
+        "A clock showing 4.00",
+        "A clock showing 4.30",
+        "A clock showing 5.00"
+       ],
+       "answer": 1,
+       "explain": "half past four = 4:30；4 点是出门时间。"
+      },
+      {
+       "script": "Girl: Did you buy apples, Dad? Man: They had no good apples, so I got bananas and some grapes instead.",
+       "q": "What fruit did Dad buy?",
+       "options": [
+        "Apples and grapes",
+        "Bananas and grapes",
+        "Only bananas"
+       ],
+       "answer": 1,
+       "explain": "没买苹果，买了香蕉和葡萄。"
+      },
+      {
+       "script": "Woman: How did you get to school today, Ben? The buses weren't running. Boy: Dad wanted to drive me, but I rode my bike.",
+       "q": "How did Ben get to school?",
+       "options": [
+        "By bus",
+        "By car",
+        "By bike"
+       ],
+       "answer": 2,
+       "explain": "I rode my bike。"
+      },
+      {
+       "script": "Boy: Is your violin lesson on Tuesday? Girl: It was, but my teacher moved it to Thursday this term.",
+       "q": "When is the girl's violin lesson now?",
+       "options": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+       ],
+       "answer": 2,
+       "explain": "moved it to Thursday。"
+      },
+      {
+       "script": "Man: The pet shop has rabbits and birds. Girl: I know, but I want a fish, Dad. A little orange one!",
+       "q": "Which pet does the girl want?",
+       "options": [
+        "A rabbit",
+        "A bird",
+        "A fish"
+       ],
+       "answer": 2,
+       "explain": "I want a fish。"
+      }
+     ]
+    },
+    {
+     "part": 2,
+     "name": "Part 2 · 听独白填空（拼写要对）",
+     "script": "Hello everyone! Here is the information about our school trip to the city zoo. We will go on Friday, the twelfth of May. The bus leaves at eight fifteen, so please don't be late. A ticket costs six pounds fifty. Bring a hat because it will be sunny. If you have questions, call Miss Green on 07700 900 312.",
+     "questions": [
+      {
+       "q": "笔记：Trip day: Friday, the ___ of May（写数字，如 12）",
+       "answer": "12",
+       "alt": [
+        "twelfth",
+        "12th"
+       ],
+       "explain": "the twelfth of May → 12 号。"
+      },
+      {
+       "q": "笔记：Bus leaves at ___（如 8.15）",
+       "answer": "8.15",
+       "alt": [
+        "815",
+        "8:15"
+       ],
+       "explain": "eight fifteen = 8.15。"
+      },
+      {
+       "q": "笔记：Ticket costs £ ___（如 6.50）",
+       "answer": "6.50",
+       "alt": [
+        "6.5",
+        "650"
+       ],
+       "explain": "six pounds fifty = £6.50。"
+      },
+      {
+       "q": "笔记：Must bring a ___",
+       "answer": "hat",
+       "explain": "Bring a hat because it will be sunny。拼写 h-a-t。"
+      },
+      {
+       "q": "笔记：Phone: 07700 900 ___（三位数字）",
+       "answer": "312",
+       "explain": "电话尾号 312。"
+      }
+     ]
+    },
+    {
+     "part": 3,
+     "name": "Part 3 · 对话三选一",
+     "questions": [
+      {
+       "script": "Girl: Hi Sam! Was the maths test hard? Boy: Not really. The English one last week was much harder. Girl: Really? I loved that one!",
+       "q": "What does Sam think about the maths test?",
+       "options": [
+        "It was quite easy.",
+        "It was very hard.",
+        "He loved it."
+       ],
+       "answer": 0,
+       "explain": "Not really (hard) = 不算难。"
+      },
+      {
+       "script": "Boy: Are you coming to football practice? Girl: I can't. My grandma is arriving from the airport and we're making a big dinner for her.",
+       "q": "Why can't the girl go to practice?",
+       "options": [
+        "She is flying somewhere.",
+        "Her grandma is visiting.",
+        "She doesn't like football."
+       ],
+       "answer": 1,
+       "explain": "奶奶要来，家里做大餐。"
+      },
+      {
+       "script": "Woman: Would you like chicken or fish, dear? Boy: Hmm, I had fish yesterday... chicken please, with rice not chips.",
+       "q": "What will the boy eat?",
+       "options": [
+        "Fish with chips",
+        "Chicken with rice",
+        "Chicken with chips"
+       ],
+       "answer": 1,
+       "explain": "chicken please, with rice。"
+      },
+      {
+       "script": "Girl: Your new schoolbag is cool! Was it expensive? Boy: The blue ones were thirty pounds, but mine was twenty because it's green — nobody wanted green!",
+       "q": "How much was the boy's bag?",
+       "options": [
+        "£30",
+        "£20",
+        "£13"
+       ],
+       "answer": 1,
+       "explain": "mine was twenty。"
+      },
+      {
+       "script": "Boy: Shall we do our project on pandas? Girl: Everyone does pandas! Let's choose whales — they sing, you know. Boy: OK, you win.",
+       "q": "What will they do their project about?",
+       "options": [
+        "Pandas",
+        "Whales",
+        "Songs"
+       ],
+       "answer": 1,
+       "explain": "Let's choose whales… OK, you win。"
+      }
+     ]
+    },
+    {
+     "part": 4,
+     "name": "Part 4 · 判断主旨大意",
+     "questions": [
+      {
+       "script": "Attention shoppers! Today only, all children's books on the second floor are half price. The children's floor closes at seven tonight.",
+       "q": "Where can you hear this?",
+       "options": [
+        "In a school",
+        "In a bookshop",
+        "In a library"
+       ],
+       "answer": 1,
+       "explain": "shoppers + half price → 书店促销广播。"
+      },
+      {
+       "script": "Boy: And then the little dragon found his fire! The end. Girl: Read it again! Boy: Again?! That was the third time!",
+       "q": "What is the boy doing?",
+       "options": [
+        "Reading a story to a child",
+        "Watching a film",
+        "Doing homework"
+       ],
+       "answer": 0,
+       "explain": "给小孩读故事，都读第三遍了。"
+      },
+      {
+       "script": "Woman: Remember: warm up first, drink water often, and stop if your legs hurt. See you all at the race on Sunday!",
+       "q": "Who is speaking?",
+       "options": [
+        "A doctor",
+        "A sports coach",
+        "A bus driver"
+       ],
+       "answer": 1,
+       "explain": "热身、喝水、周日比赛 → 教练。"
+      },
+      {
+       "script": "Man: Good morning! Single to Green Park? That's two pounds. The next one leaves from stop C in five minutes.",
+       "q": "Who is the man?",
+       "options": [
+        "A ticket seller",
+        "A teacher",
+        "A waiter"
+       ],
+       "answer": 0,
+       "explain": "卖票+站台信息。"
+      },
+      {
+       "script": "Girl: Mum, I can't find my music book anywhere, and my lesson is in half an hour! Woman: Did you look under your bed? Girl: ...Found it!",
+       "q": "What was the girl's problem?",
+       "options": [
+        "She lost a book.",
+        "She was late for school.",
+        "Her bed was broken."
+       ],
+       "answer": 0,
+       "explain": "找不到乐谱书。"
+      }
+     ]
+    },
+    {
+     "part": 5,
+     "name": "Part 5 · 匹配（听人物与物品）",
+     "script": "Listen to Anna telling her mum what her friends want to drink at her party. Ben wants apple juice — he drinks it every day. Carla asked for milk, warm milk! Dan said just water, he is very sporty. Emma would like orange juice. And Fred wants lemonade — but only if it's cold!",
+     "questions": [
+      {
+       "q": "What does Ben want?",
+       "options": [
+        "Apple juice",
+        "Milk",
+        "Water",
+        "Orange juice",
+        "Lemonade"
+       ],
+       "answer": 0,
+       "explain": "Ben wants apple juice。"
+      },
+      {
+       "q": "What does Carla want?",
+       "options": [
+        "Apple juice",
+        "Milk",
+        "Water",
+        "Orange juice",
+        "Lemonade"
+       ],
+       "answer": 1,
+       "explain": "Carla asked for warm milk。"
+      },
+      {
+       "q": "What does Dan want?",
+       "options": [
+        "Apple juice",
+        "Milk",
+        "Water",
+        "Orange juice",
+        "Lemonade"
+       ],
+       "answer": 2,
+       "explain": "just water。"
+      },
+      {
+       "q": "What does Emma want?",
+       "options": [
+        "Apple juice",
+        "Milk",
+        "Water",
+        "Orange juice",
+        "Lemonade"
+       ],
+       "answer": 3,
+       "explain": "orange juice。"
+      },
+      {
+       "q": "What does Fred want?",
+       "options": [
+        "Apple juice",
+        "Milk",
+        "Water",
+        "Orange juice",
+        "Lemonade"
+       ],
+       "answer": 4,
+       "explain": "lemonade, cold。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lis-02",
+   "name": "标准套",
+   "parts": [
+    {
+     "part": 1,
+     "name": "Part 1 · 听对话选图",
+     "questions": [
+      {
+       "script": "Woman: Does the football club meet on Monday? Boy: It did last year. Now it's Wednesday, right after school.",
+       "q": "When does the football club meet now?",
+       "options": [
+        "Monday",
+        "Wednesday",
+        "Saturday"
+       ],
+       "answer": 1,
+       "explain": "Now it's Wednesday。"
+      },
+      {
+       "script": "Girl: I'd like a sandwich, please. Man: Cheese or chicken? Girl: Cheese please — oh wait, egg! Egg, please.",
+       "q": "Which sandwich does the girl buy?",
+       "options": [
+        "Cheese",
+        "Chicken",
+        "Egg"
+       ],
+       "answer": 2,
+       "explain": "最后改成了 egg。"
+      },
+      {
+       "script": "Boy: Wow, is that your new violin? Girl: It's my sister's. Mine is the small brown one by the piano.",
+       "q": "Which violin is the girl's?",
+       "options": [
+        "The new one",
+        "The small brown one",
+        "Her sister's one"
+       ],
+       "answer": 1,
+       "explain": "Mine is the small brown one。"
+      },
+      {
+       "script": "Man: The weather says rain in the morning, but sunny for your picnic after lunch. Girl: Perfect!",
+       "q": "What will the weather be like at picnic time?",
+       "options": [
+        "Rainy",
+        "Sunny",
+        "Snowy"
+       ],
+       "answer": 1,
+       "explain": "野餐在午后，sunny。"
+      },
+      {
+       "script": "Woman: Your room, Jake! Boy: I cleaned the desk and the floor, Mum. Woman: And the clothes on the chair? Boy: ...Doing it now.",
+       "q": "What must Jake clean now?",
+       "options": [
+        "The desk",
+        "The floor",
+        "The chair with clothes"
+       ],
+       "answer": 2,
+       "explain": "桌子地板已打扫，剩椅子上的衣服。"
+      }
+     ]
+    },
+    {
+     "part": 2,
+     "name": "Part 2 · 听独白填空（拼写要对）",
+     "script": "Welcome to the Star Swimming Pool! Here is our new information. The pool opens every day at nine, but on Sundays we open at ten. A children's ticket is now three pounds twenty. Our new teacher is called Mr Reed — that's R-E-E-D. He teaches beginners on Tuesday afternoons at five o'clock. Don't forget to bring a towel!",
+     "questions": [
+      {
+       "q": "笔记：On Sundays the pool opens at ___（写数字）",
+       "answer": "10",
+       "alt": [
+        "ten",
+        "10.00"
+       ],
+       "explain": "on Sundays we open at ten。"
+      },
+      {
+       "q": "笔记：Children's ticket: £ ___（如 3.20）",
+       "answer": "3.20",
+       "alt": [
+        "3.2"
+       ],
+       "explain": "three pounds twenty。"
+      },
+      {
+       "q": "笔记：New teacher's name: Mr ___（听拼读）",
+       "answer": "Reed",
+       "alt": [
+        "reed"
+       ],
+       "explain": "R-E-E-D → Reed，拼写题。"
+      },
+      {
+       "q": "笔记：Beginner lessons: ___ afternoons（星期几）",
+       "answer": "Tuesday",
+       "alt": [
+        "tuesday"
+       ],
+       "explain": "Tuesday afternoons，注意 Tuesday 拼写。"
+      },
+      {
+       "q": "笔记：Must bring a ___",
+       "answer": "towel",
+       "explain": "bring a towel 毛巾，t-o-w-e-l。"
+      }
+     ]
+    },
+    {
+     "part": 3,
+     "name": "Part 3 · 对话三选一",
+     "questions": [
+      {
+       "script": "Boy: How was the school play? Girl: The story was a bit boring, but the music was wonderful — I want the songs on my phone!",
+       "q": "What did the girl like about the play?",
+       "options": [
+        "The story",
+        "The music",
+        "The phones"
+       ],
+       "answer": 1,
+       "explain": "the music was wonderful。"
+      },
+      {
+       "script": "Girl: Are you still reading that space book? Boy: I finished it in two days! Now I'm on a book about the sea. It's even better.",
+       "q": "What is the boy reading now?",
+       "options": [
+        "A space book",
+        "A sea book",
+        "Nothing"
+       ],
+       "answer": 1,
+       "explain": "now I'm on a book about the sea。"
+      },
+      {
+       "script": "Woman: Tickets, please. Boy: Two children to Mill Road... Oh no, I left my money in my other coat! Woman: You can pay me on the way back, I know your mum.",
+       "q": "What is the boy's problem?",
+       "options": [
+        "He is on the wrong bus.",
+        "He forgot his money.",
+        "He lost his coat."
+       ],
+       "answer": 1,
+       "explain": "left my money in my other coat。"
+      },
+      {
+       "script": "Boy: Let's meet at three to practise our song. Girl: My piano lesson finishes at three thirty. Four o'clock at my house? Boy: See you then!",
+       "q": "What time will they meet?",
+       "options": [
+        "3.00",
+        "3.30",
+        "4.00"
+       ],
+       "answer": 2,
+       "explain": "Four o'clock at my house? See you then!"
+      },
+      {
+       "script": "Girl: Dad, can Milo sleep in my room tonight? Man: The cat sleeps in the kitchen, you know that. Girl: But it's cold! Man: ...One night. Only one!",
+       "q": "Where will the cat sleep tonight?",
+       "options": [
+        "In the kitchen",
+        "In the girl's room",
+        "Outside"
+       ],
+       "answer": 1,
+       "explain": "爸爸最后松口 One night → 睡女孩房间。"
+      }
+     ]
+    },
+    {
+     "part": 4,
+     "name": "Part 4 · 判断主旨大意",
+     "questions": [
+      {
+       "script": "Man: Please open your books at page forty. Today we're learning about rivers. Ana, can you read the first line for us?",
+       "q": "Where can you hear this?",
+       "options": [
+        "In a classroom",
+        "In a swimming pool",
+        "At a river"
+       ],
+       "answer": 0,
+       "explain": "翻书、点名朗读 → 课堂。"
+      },
+      {
+       "script": "Girl: I water it every morning, and look — the first tomato! It's tiny and green, but it's mine!",
+       "q": "What is the girl talking about?",
+       "options": [
+        "Her breakfast",
+        "Her plant",
+        "Her painting"
+       ],
+       "answer": 1,
+       "explain": "每天浇水长出第一个番茄 → 植物。"
+      },
+      {
+       "script": "Woman: The number seven is late again! I've waited twenty minutes. I'll walk — it's only two stops.",
+       "q": "What will the woman do?",
+       "options": [
+        "Wait longer",
+        "Walk",
+        "Take a taxi"
+       ],
+       "answer": 1,
+       "explain": "I'll walk。"
+      },
+      {
+       "script": "Boy: First you need two eggs. Mix them with the milk — slowly! Then a little sugar. My grandma taught me this.",
+       "q": "What is the boy doing?",
+       "options": [
+        "Teaching cooking",
+        "Feeding a pet",
+        "Doing a science test"
+       ],
+       "answer": 0,
+       "explain": "鸡蛋牛奶糖 → 教做食物。"
+      },
+      {
+       "script": "Man: Quiet everyone... three, two, one... Happy birthday, Maya! Come in! Girl: Oh!! You were all hiding!",
+       "q": "What kind of party is it?",
+       "options": [
+        "A surprise party",
+        "A school party",
+        "A garden party"
+       ],
+       "answer": 0,
+       "explain": "大家藏起来 → 惊喜派对。"
+      }
+     ]
+    },
+    {
+     "part": 5,
+     "name": "Part 5 · 匹配（听人物与地点）",
+     "script": "Mr Kim is telling the class where everyone will help on Open Day. Paul, you are strong — you will help in the gym. Rosa, you speak clearly, so you will stand at the front door and say hello. Tim, you will show visitors the art room, since your pictures are on the wall there. Amy, the library needs a quiet helper — that's you. And Leo, you will help in the music room. You can play something!",
+     "questions": [
+      {
+       "q": "Where will Paul help?",
+       "options": [
+        "Gym",
+        "Front door",
+        "Art room",
+        "Library",
+        "Music room"
+       ],
+       "answer": 0,
+       "explain": "strong → gym。"
+      },
+      {
+       "q": "Where will Rosa help?",
+       "options": [
+        "Gym",
+        "Front door",
+        "Art room",
+        "Library",
+        "Music room"
+       ],
+       "answer": 1,
+       "explain": "说话清楚 → 门口迎宾。"
+      },
+      {
+       "q": "Where will Tim help?",
+       "options": [
+        "Gym",
+        "Front door",
+        "Art room",
+        "Library",
+        "Music room"
+       ],
+       "answer": 2,
+       "explain": "他的画挂在美术教室。"
+      },
+      {
+       "q": "Where will Amy help?",
+       "options": [
+        "Gym",
+        "Front door",
+        "Art room",
+        "Library",
+        "Music room"
+       ],
+       "answer": 3,
+       "explain": "图书馆需要安静的帮手。"
+      },
+      {
+       "q": "Where will Leo help?",
+       "options": [
+        "Gym",
+        "Front door",
+        "Art room",
+        "Library",
+        "Music room"
+       ],
+       "answer": 4,
+       "explain": "会演奏 → 音乐教室。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lis-03",
+   "name": "进阶套",
+   "parts": [
+    {
+     "part": 1,
+     "name": "Part 1 · 听对话选图",
+     "questions": [
+      {
+       "script": "Girl: Did you see my glasses? Not the reading ones — my sunglasses. Boy: On your head, sis. Girl: ...Don't laugh!",
+       "q": "Where are the girl's sunglasses?",
+       "options": [
+        "On the table",
+        "On her head",
+        "In her bag"
+       ],
+       "answer": 1,
+       "explain": "On your head。"
+      },
+      {
+       "script": "Man: The doctor can see you at nine tomorrow. Woman: I take my son to school then. Anything later? Man: Eleven thirty? Woman: Perfect.",
+       "q": "What time is the woman's doctor visit?",
+       "options": [
+        "9.00",
+        "11.30",
+        "12.30"
+       ],
+       "answer": 1,
+       "explain": "9 点不行，改 11:30。"
+      },
+      {
+       "script": "Boy: Three tickets please — my parents and me. Woman: Children pay half, so that's two adults and one half... twenty-five pounds.",
+       "q": "How many people are going in?",
+       "options": [
+        "Two",
+        "Three",
+        "Five"
+       ],
+       "answer": 1,
+       "explain": "父母+男孩 = 三个人。"
+      },
+      {
+       "script": "Girl: I wanted the red trainers but they only had size thirty-eight. Woman: And? Girl: I got the same ones in white. They had my size.",
+       "q": "Which trainers did the girl buy?",
+       "options": [
+        "Red ones",
+        "White ones",
+        "None"
+       ],
+       "answer": 1,
+       "explain": "the same ones in white。"
+      },
+      {
+       "script": "Boy: It says cloudy for the match tomorrow. Girl: Better than last week! We played in the rain and I couldn't see the ball.",
+       "q": "What was the weather at last week's match?",
+       "options": [
+        "Cloudy",
+        "Rainy",
+        "Sunny"
+       ],
+       "answer": 1,
+       "explain": "We played in the rain。"
+      }
+     ]
+    },
+    {
+     "part": 2,
+     "name": "Part 2 · 听独白填空（拼写要对）",
+     "script": "Hi, this is a message for Katya about Saturday's orchestra day. We will practise in the Town Hall, not at school. Please arrive at nine forty-five. Bring your music stand and a pencil for writing notes. Lunch is free, but bring two pounds for the afternoon drink. My new phone number is 07700 900 578. See you Saturday!",
+     "questions": [
+      {
+       "q": "笔记：Practice place: the Town ___",
+       "answer": "Hall",
+       "alt": [
+        "hall"
+       ],
+       "explain": "Town Hall 市政厅，不在学校。"
+      },
+      {
+       "q": "笔记：Arrive at ___（如 9.45）",
+       "answer": "9.45",
+       "alt": [
+        "945",
+        "9:45"
+       ],
+       "explain": "nine forty-five。"
+      },
+      {
+       "q": "笔记：Bring: music stand and a ___",
+       "answer": "pencil",
+       "explain": "a pencil for writing notes，p-e-n-c-i-l。"
+      },
+      {
+       "q": "笔记：Bring £ ___ for a drink（写数字）",
+       "answer": "2",
+       "alt": [
+        "two",
+        "2.00"
+       ],
+       "explain": "two pounds for the afternoon drink；午餐免费。"
+      },
+      {
+       "q": "笔记：New phone: 07700 900 ___（三位数字）",
+       "answer": "578",
+       "explain": "尾号 578。"
+      }
+     ]
+    },
+    {
+     "part": 3,
+     "name": "Part 3 · 对话三选一",
+     "questions": [
+      {
+       "script": "Boy: Can we watch the football at seven? Girl: My cooking show is at seven! Boy: Your show repeats at ten... Girl: Fine. But you owe me.",
+       "q": "What will they watch at seven?",
+       "options": [
+        "The football",
+        "The cooking show",
+        "Nothing"
+       ],
+       "answer": 0,
+       "explain": "女孩让步，因为她的节目十点重播。"
+      },
+      {
+       "script": "Woman: How's the new flat, Leo? Boy: My room is smaller, but I can see the whole park from my window. I don't miss the old one at all.",
+       "q": "How does Leo feel about the new flat?",
+       "options": [
+        "He misses the old flat.",
+        "He likes it because of the view.",
+        "He wants a bigger room."
+       ],
+       "answer": 1,
+       "explain": "房间小但能看到公园，一点不想念旧家。"
+      },
+      {
+       "script": "Girl: Did you finish the story for homework? Boy: Almost. I wrote the beginning and the middle, but I can't think of a good end. Girl: Make the dog the hero! Boy: ...That's actually great.",
+       "q": "What part of the story is difficult for the boy?",
+       "options": [
+        "The beginning",
+        "The middle",
+        "The end"
+       ],
+       "answer": 2,
+       "explain": "can't think of a good end。"
+      },
+      {
+       "script": "Boy: Mum, the class trip costs fifteen pounds. Woman: Didn't the letter say twelve? Boy: That was without the museum. Everyone's doing the museum. Woman: All right, fifteen.",
+       "q": "How much will the mum pay?",
+       "options": [
+        "£12",
+        "£15",
+        "£27"
+       ],
+       "answer": 1,
+       "explain": "含博物馆 15 镑。"
+      },
+      {
+       "script": "Girl: You look tired. Boy: I got up at five to watch the tennis from Australia. Girl: Was it good? Boy: I fell asleep in the second game!",
+       "q": "Why is the boy tired?",
+       "options": [
+        "He played tennis.",
+        "He woke up very early.",
+        "He went to Australia."
+       ],
+       "answer": 1,
+       "explain": "got up at five 看澳网直播。"
+      }
+     ]
+    },
+    {
+     "part": 4,
+     "name": "Part 4 · 判断主旨大意",
+     "questions": [
+      {
+       "script": "Woman: This one is two hundred years old. Please don't touch the glass, children — but you can draw it if you like! Picture paper is by the door.",
+       "q": "Who is speaking?",
+       "options": [
+        "A museum guide",
+        "An art teacher",
+        "A shop worker"
+       ],
+       "answer": 0,
+       "explain": "200 年历史+别碰玻璃 → 博物馆讲解员。"
+      },
+      {
+       "script": "Boy: The strings were too high at first, and my fingers hurt every day. Now, after a year, I can play three whole songs — it was worth it.",
+       "q": "What is the boy talking about?",
+       "options": [
+        "Learning an instrument",
+        "A finger doctor",
+        "A singing test"
+       ],
+       "answer": 0,
+       "explain": "琴弦、手指疼、能弹三首曲子 → 学乐器。"
+      },
+      {
+       "script": "Woman: Don't put so much water on it! Little and often, that's the way. And move it near the window — it wants light, not shadow.",
+       "q": "What is the woman explaining?",
+       "options": [
+        "How to care for a plant",
+        "How to wash clothes",
+        "How to paint a window"
+       ],
+       "answer": 0,
+       "explain": "少量多次浇水+要光照 → 养植物。"
+      },
+      {
+       "script": "Man: Platform two, not platform five — they changed it a minute ago. Run, you have three minutes! The next one is in two hours.",
+       "q": "What should the listener do?",
+       "options": [
+        "Hurry to platform two",
+        "Wait two hours",
+        "Go to platform five"
+       ],
+       "answer": 0,
+       "explain": "站台改到 2 号，只剩 3 分钟。"
+      },
+      {
+       "script": "Girl: I did all the easy questions first, then went back to the hard ones. I checked my spelling twice. I think... I think it went well!",
+       "q": "What is the girl talking about?",
+       "options": [
+        "A test she took",
+        "Her homework plan",
+        "A spelling game"
+       ],
+       "answer": 0,
+       "explain": "先易后难+检查拼写 → 刚考完试。"
+      }
+     ]
+    },
+    {
+     "part": 5,
+     "name": "Part 5 · 匹配（听人物与礼物）",
+     "script": "Grandma is telling Grandpa what she bought for the grandchildren. For little Anya, I got the picture book about the moon. Boris gets the blue football — his old one is flat. For Clara, the paint box, because she draws all day. Dima asked for the game of chess, imagine that! And for baby Elsa, the soft toy rabbit, of course.",
+     "questions": [
+      {
+       "q": "What does Anya get?",
+       "options": [
+        "A picture book",
+        "A football",
+        "A paint box",
+        "A chess game",
+        "A toy rabbit"
+       ],
+       "answer": 0,
+       "explain": "the picture book about the moon。"
+      },
+      {
+       "q": "What does Boris get?",
+       "options": [
+        "A picture book",
+        "A football",
+        "A paint box",
+        "A chess game",
+        "A toy rabbit"
+       ],
+       "answer": 1,
+       "explain": "the blue football。"
+      },
+      {
+       "q": "What does Clara get?",
+       "options": [
+        "A picture book",
+        "A football",
+        "A paint box",
+        "A chess game",
+        "A toy rabbit"
+       ],
+       "answer": 2,
+       "explain": "the paint box，因为她整天画画。"
+      },
+      {
+       "q": "What does Dima get?",
+       "options": [
+        "A picture book",
+        "A football",
+        "A paint box",
+        "A chess game",
+        "A toy rabbit"
+       ],
+       "answer": 3,
+       "explain": "the game of chess。"
+      },
+      {
+       "q": "What does Elsa get?",
+       "options": [
+        "A picture book",
+        "A football",
+        "A paint box",
+        "A chess game",
+        "A toy rabbit"
+       ],
+       "answer": 4,
+       "explain": "the soft toy rabbit。"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
