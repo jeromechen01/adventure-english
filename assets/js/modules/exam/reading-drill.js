@@ -277,7 +277,7 @@ async function renderListening(app, level, params) {
   const sets = (data && data.sets) || [];
   if (params.set) {
     const s = sets.find(x => x.id === params.set);
-    if (s) return renderListeningSet(app, level, s);
+    if (s) return runListeningSet(app, level, s, () => renderListening(app, level, {}));
   }
   const results = storage.getDrillResults(level);
   app.innerHTML = `
@@ -309,7 +309,8 @@ async function renderListening(app, level, params) {
   });
 }
 
-function renderListeningSet(app, level, set) {
+// 听力套题运行器（导出供模考复用）：onFinish(correct,total) 提供时接管结算
+export function runListeningSet(app, level, set, onBackFn, onFinish) {
   // 展平：每部分的题目带上 script
   const flat = [];
   set.parts.forEach(p => p.questions.forEach(q => flat.push({ ...q, partNo: p.part, partName: p.name, script: q.script || p.script })));
@@ -346,7 +347,7 @@ function renderListeningSet(app, level, set) {
       <div id="feedback"></div>
     `;
     bindBack(app, 'exam-reading');
-    app.querySelector('#examBackBtn').onclick = () => { stopSpeaking(); renderListening(app, level, {}); };
+    app.querySelector('#examBackBtn').onclick = () => { stopSpeaking(); onBackFn(); };
     app.querySelector('#playBtn').addEventListener('click', () => playTwice(it.script));
 
     function judge(user) {
@@ -384,6 +385,7 @@ function renderListeningSet(app, level, set) {
   function done() {
     const pct = Math.round(correct / flat.length * 100);
     storage.saveDrillResult(level, set.id, pct);
+    if (onFinish) return onFinish(correct, flat.length);
     app.innerHTML = `
       ${headerHtml('听力结果')}
       <div class="card-cartoon text-center mb-4 ${pct >= 60 ? 'bg-green-50' : 'bg-yellow-50'}">
@@ -394,8 +396,8 @@ function renderListeningSet(app, level, set) {
       <button id="backBtn2" class="w-full btn-cartoon">返回听力列表</button>
     `;
     bindBack(app, 'exam-reading');
-    app.querySelector('#examBackBtn').onclick = () => renderListening(app, level, {});
-    app.querySelector('#backBtn2').addEventListener('click', () => renderListening(app, level, {}));
+    app.querySelector('#examBackBtn').onclick = onBackFn;
+    app.querySelector('#backBtn2').addEventListener('click', onBackFn);
   }
 
   draw();

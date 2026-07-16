@@ -1,0 +1,56 @@
+{
+  "level": "KET",
+  "explainCard": [
+    "官方样卷是最准的尺，而且免费的只有那么几套。提前用掉，到关键节点就没有干净的卷子做决策了（重做过的卷有记忆效应，分数虚高）。",
+    "原创卷练手感、可反复用；官方卷定水平、一次性。"
+  ],
+  "scoring": "结构与真考一致：7 部分 32 题；Q1-30 各 1 分 + Q31/Q32 各 15 分 = 原始分 60；限时 60 分钟。",
+  "estimateNote": "量表分为粗估：约 60% ≈ 及格线附近，约 85% ≈ A 等区间。精确换算请用资源页的官方分数换算指南。",
+  "mocks": [
+    {
+      "id": "mock-01",
+      "name": "模考 1 · 基线",
+      "when": "Day 1",
+      "file": "data/exam/ket/mocks/mock-01.json",
+      "listeningSet": "lis-01",
+      "difficulty": "略易",
+      "preNote": "这是基线，不是审判。800 词第一次做 KET，正确率 40-50% 完全正常——今天的分数只是起点坐标。"
+    },
+    {
+      "id": "mock-02",
+      "name": "模考 2 · 中期校准",
+      "when": "Day 23",
+      "file": "data/exam/ket/mocks/mock-02.json",
+      "listeningSet": "lis-02",
+      "difficulty": "标准",
+      "preNote": "和模考 1 对比三项正确率。哪项没动，说明那项的方法要调，立刻调。"
+    },
+    {
+      "id": "mock-03",
+      "name": "模考 3 · 成果盘点",
+      "when": "Day 43",
+      "file": "data/exam/ket/mocks/mock-03.json",
+      "listeningSet": "lis-03",
+      "difficulty": "略难",
+      "preNote": "45 天成果验收。做完自动按决策矩阵给出 2027 春报考建议。"
+    },
+    {
+      "id": "mock-04",
+      "name": "模考 4 · 官方样卷定水平",
+      "when": "考前 8 周",
+      "external": true,
+      "url": "https://www.cambridgeenglish.org/Images/504343-a2-key-for-schools-sample-tests.zip",
+      "preNote": "★ 用剑桥官方样卷（外链下载，app 内不放）。三张卷完整做，含口语。这是最准的尺，只用一次。"
+    }
+  ],
+  "decisionMatrix": {
+    "title": "报考决策矩阵（模考 3 后自动给建议，目标 2027 春）",
+    "rows": [
+      { "range": "< 110", "verdict": "尚未到位", "action": "延后，先补基本盘，考虑 2027 秋" },
+      { "range": "110-119", "verdict": "接近及格", "action": "报 2027 春，争 120+" },
+      { "range": "120-133", "verdict": "已过 A2 线", "action": "报 2027 春，冲 B（133+）" },
+      { "range": "≥ 134", "verdict": "超预期", "action": "报 2027 春并冲 A（140+）→ 认定 B1", "highlight": true }
+    ],
+    "petNote": "PET：排在 KET 拿证之后"
+  }
+}
