@@ -1,0 +1,134 @@
+{
+  "note": "⚠️ 全部外链跳转，app 内不存放任何官方文件。URL 一字不差录自剑桥官网公开页面。",
+  "groups": [
+    {
+      "id": "ket-must",
+      "name": "KET · 必下（五星）",
+      "icon": "⭐",
+      "items": [
+        { "id": "ket-sample-zip", "star": 5, "name": "纸质样卷全套 ZIP", "why": "最准的尺——考前 8 周模考4 用它定水平，提前别浪费", "url": "https://www.cambridgeenglish.org/Images/504343-a2-key-for-schools-sample-tests.zip" },
+        { "id": "ket-handbook", "star": 5, "name": "教师手册", "why": "语言规范在 55-57 页，KET 到底考哪些语法和词一目了然", "url": "https://www.cambridgeenglish.org/Images/168174-cambridge-english-key-for-schools-handbook-for-teachers.pdf" },
+        { "id": "ket-audio", "star": 5, "name": "听力音频 MP3", "why": "配合样卷做完整听力模考", "url": "https://www.cambridgeenglish.org/Images/506891-a2-key-for-schools-handbook-for-teachers-listening-audio-files.mp3" },
+        { "id": "ket-vocab", "star": 5, "name": "官方词汇表", "why": "KET 全部考试词汇的官方清单，背词范围以它为准", "url": "https://www.cambridgeenglish.org/Images/506886-a2-key-2020-vocabulary-list.pdf" },
+        { "id": "ket-convert", "star": 5, "name": "★ 分数换算指南", "why": "把练习卷正确率换算成剑桥量表分，模考估分靠它", "url": "https://www.cambridgeenglish.org/Images/210434-converting-practice-test-scores-to-cambridge-english-scale-scores.pdf" }
+      ]
+    },
+    {
+      "id": "ket-answers",
+      "name": "KET · 答案与原文",
+      "icon": "🔑",
+      "items": [
+        { "id": "ket-lis-key", "name": "听力样卷1答案", "why": "对答案用", "url": "https://www.cambridgeenglish.org/Images/697382-a2-key-for-schools-listening-sample-1-answer-key.pdf" },
+        { "id": "ket-lis-script", "name": "听力样卷1 tapescript", "why": "听力三步法第二步「看原文」用", "url": "https://www.cambridgeenglish.org/Images/697383-a2-key-for-schools-listening-sample-1-tapescript.pdf" },
+        { "id": "ket-read-key", "name": "阅读样卷1答案", "why": "对答案用", "url": "https://www.cambridgeenglish.org/Images/697384-a2-key-for-schools-reading-sample-1-answer-key.pdf" }
+      ]
+    },
+    {
+      "id": "ket-marking",
+      "name": "KET · 评分（家长判卷靠这些）",
+      "icon": "📏",
+      "items": [
+        { "id": "ket-wr-checklist", "name": "写作评分清单", "why": "家长照着清单逐项打勾就能判作文", "url": "https://www.cambridgeenglish.org/Images/652767-a2-key-for-schools-writing-checklist-for-teachers.pdf" },
+        { "id": "ket-wr-guide", "name": "写作评分标准详解（含范文+考官评语）", "why": "看懂 Band 5 允许有错的官方依据", "url": "https://www.cambridgeenglish.org/Images/600973-teacher-guide-for-writing-a2-key-for-schools.pdf" },
+        { "id": "ket-sp-guide", "name": "口语评分标准", "why": "口语四维怎么打分", "url": "https://www.cambridgeenglish.org/Images/735386-a2-key-teacher-guide-assessing-speaking.pdf" }
+      ]
+    },
+    {
+      "id": "ket-speaking-video",
+      "name": "KET · 口语真人示范",
+      "icon": "🎬",
+      "items": [
+        { "id": "ket-v1", "name": "Heidi & Iris 口语实录", "why": "看真实考生什么水平能过", "url": "https://www.youtube.com/watch?v=sXCpPoiM7tc" },
+        { "id": "ket-v1c", "name": "Heidi & Iris 考官点评", "why": "配合视频看考官怎么评", "url": "https://www.cambridgeenglish.org/Images/710708-a2-key-for-schools-examiner-comments-heidi-and-iris.pdf" },
+        { "id": "ket-v2", "name": "Humay, Noah & Lucas 口语实录", "why": "三人组的流程长这样", "url": "https://www.youtube.com/watch?v=6RA2YQI4gJU" },
+        { "id": "ket-v2c", "name": "Humay, Noah & Lucas 考官点评", "why": "配合视频看考官怎么评", "url": "https://www.cambridgeenglish.org/Images/710709-a2-key-for-schools-examiner-comments-humay-noah-and-lucas.pdf" },
+        { "id": "ket-v3", "name": "Wensley & Janson 口语实录", "why": "多看一组心里更有数", "url": "https://www.youtube.com/watch?v=WaN6uQpzx0o" },
+        { "id": "ket-v3c", "name": "Wensley & Janson 考官点评", "why": "配合视频看考官怎么评", "url": "https://www.cambridgeenglish.org/Images/710710-a2-key-for-schools-examiner-comments-wensley-and-janson.pdf" }
+      ]
+    },
+    {
+      "id": "ket-selfaccess",
+      "name": "KET · 四技能自学方案（剑桥自己写的）",
+      "icon": "🧭",
+      "items": [
+        { "id": "ket-sa-lis", "name": "听力自学方案", "why": "官方的听力自学路线图", "url": "https://www.cambridgeenglish.org/Images/595572-a2-key-for-schools-listening-self-access-plan.pdf" },
+        { "id": "ket-sa-read", "name": "阅读自学方案", "why": "官方的阅读自学路线图", "url": "https://www.cambridgeenglish.org/Images/595573-a2-key-for-schools-reading-self-access-plan.pdf" },
+        { "id": "ket-sa-speak", "name": "口语自学方案", "why": "官方的口语自学路线图", "url": "https://www.cambridgeenglish.org/Images/595574-a2-key-for-schools-speaking-self-access-plan.pdf" },
+        { "id": "ket-sa-write", "name": "写作自学方案", "why": "官方的写作自学路线图", "url": "https://www.cambridgeenglish.org/Images/595575-a2-key-for-schools-writing-self-access-plan.pdf" }
+      ]
+    },
+    {
+      "id": "ket-candidate",
+      "name": "KET · 考生须知与机考",
+      "icon": "🪪",
+      "items": [
+        { "id": "ket-info", "name": "考生须知", "why": "考试当天流程与规则", "url": "https://www.cambridgeenglish.org/Images/557750-a2-key-for-schools-information-for-candidates.pdf" },
+        { "id": "ket-tips10", "name": "考试当天 10 条提示（视频）", "why": "考前一周和孩子一起看", "url": "https://www.youtube.com/watch?v=S7s6rOT818o" },
+        { "id": "ket-cb-tut", "name": "机考操作教程（视频）", "why": "选机考的话必看，出分快 3 周", "url": "https://www.youtube.com/watch?v=vWeDWCNWFaw" },
+        { "id": "ket-cb-lis", "name": "数字样卷 · 听力", "why": "在线体验机考界面", "url": "https://ceq.inspera.com/player/?assessmentRunId=146724576&context=exam" },
+        { "id": "ket-cb-rw", "name": "数字样卷 · 阅读写作", "why": "在线体验机考界面", "url": "https://ceq.inspera.com/player/?assessmentRunId=146724783&context=exam" }
+      ]
+    },
+    {
+      "id": "pet-later",
+      "name": "PET（后期用）",
+      "icon": "🎓",
+      "items": [
+        { "id": "pet-sample-zip", "name": "纸质样卷 ZIP", "why": "KET 拿证后再动它", "url": "https://www.cambridgeenglish.org/Images/565480-b1-preliminary-schools-2020-sample-tests.zip" },
+        { "id": "pet-vocab", "name": "官方词汇表（2025.08 版，即「3500 词」）", "why": "PET 阶段的背词范围", "url": "https://www.cambridgeenglish.org/Images/506887-b1-preliminary-vocabulary-list.pdf" },
+        { "id": "pet-vocab-booklet", "name": "词汇活动手册", "why": "官方配套的词汇练习", "url": "https://www.cambridgeenglish.org/Images/648172-b1-preliminary-for-schools-vocabulary-booklet.pdf" },
+        { "id": "pet-handbook", "name": "教师手册", "why": "PET 考什么以它为准", "url": "https://www.cambridgeenglish.org/Images/168143-cambridge-english-preliminary-for-schools-teachers-handbook.pdf" },
+        { "id": "pet-audio", "name": "听力音频", "why": "配合样卷做听力", "url": "https://www.cambridgeenglish.org/Images/709695-b1-preliminary-for-schools-handbook-for-teachers-listening-audio-files.mp3" },
+        { "id": "pet-lis-key", "name": "听力答案", "why": "对答案用", "url": "https://www.cambridgeenglish.org/Images/697391-b1-preliminary-for-schools-listening-sample-1-answer-key.pdf" },
+        { "id": "pet-lis-script", "name": "听力原文", "why": "精听对照用", "url": "https://www.cambridgeenglish.org/Images/697390-b1-preliminary-for-schools-listening-sample-test-1-tapescript.pdf" },
+        { "id": "pet-read-key", "name": "阅读答案", "why": "对答案用", "url": "https://www.cambridgeenglish.org/Images/697392-b1-preliminary-for-schools-reading-sample-test-1-answer-key.pdf" },
+        { "id": "pet-wr-checklist", "name": "写作评分清单", "why": "家长判卷用", "url": "https://www.cambridgeenglish.org/Images/652769-b1-preliminary-for-schools-writing-checklist-for-teachers.pdf" },
+        { "id": "pet-sp-guide", "name": "口语评分标准", "why": "口语怎么打分", "url": "https://www.cambridgeenglish.org/Images/735390-b1-preliminary-teacher-guide-assessing-speaking.pdf" },
+        { "id": "pet-v1", "name": "口语实录 Cristina & Andrea", "why": "PET 口语长这样", "url": "https://www.youtube.com/watch?v=KDCK-3gsxLY" },
+        { "id": "pet-v2", "name": "口语实录 Laura & Claudia", "why": "多看一组", "url": "https://www.youtube.com/watch?v=SKwkmh8qExc" },
+        { "id": "pet-info", "name": "考生须知", "why": "考试当天流程与规则", "url": "https://www.cambridgeenglish.org/Images/557771-b1-preliminary-for-schools-information-for-candidates.pdf" }
+      ]
+    },
+    {
+      "id": "free-tools",
+      "name": "两个免费工具",
+      "icon": "🛠️",
+      "items": [
+        { "id": "tool-wi", "star": 5, "name": "★ Write & Improve", "why": "剑桥官方免费在线写作批改，几秒出反馈 + CEFR 等级 + 语法错误直接标出。家长不用会判英文作文，机器判得比大多数家长准。全方案性价比最高", "url": "https://writeandimprove.com/" },
+        { "id": "tool-mosaic", "name": "免费读听练习（会讲为什么错）", "why": "剑桥出的免费读听练习平台，错了有讲解", "url": "https://voila.cambridgeone.org/mosaic/welcome" }
+      ]
+    }
+  ],
+  "registration": {
+    "title": "报名操作（分步引导）",
+    "warnings": [
+      "① 教育部考试中心已不再承办 MSE，原 neea 通道作废",
+      "② 自 2025 年起剑桥官网关闭个人在线报名通道，改由各城市考点负责 → 不能自己上官网报，必须联系考点"
+    ],
+    "steps": [
+      "进 https://www.cambridgeenglish.cn/ → Find a centre（校园版 https://www.cambridgeenglish.cn/find-a-centre/find-a-schools-centre/ ）",
+      "选「考试」→「青少年英语」→ A2 Key for Schools",
+      "按 国家 → 省份 → 城市（北京）→ 考试项目 逐级下拉",
+      "等约 1 分钟，出现「考场」与「联系人」，点击就近考场联系人",
+      "联系考点，确定考期、费用、纸考/机考（参考价：KET ~500 元，PET ~600 元）",
+      "提交信息与照片、缴费。姓名与证件信息必须完全一致",
+      "准考证考前两周发到报名邮箱，自行下载"
+    ],
+    "bitingRules": [
+      { "item": "报名节奏", "rule": "考前 3 个月开放、考前 2 个月截止", "meaning": "目标 2027 春季（3-4 月）→ 2026 年 12 月起就要联系考点问考期" },
+      { "item": "考位", "rule": "北京常年紧张，热门场次秒空", "meaning": "先占位，级别后调" },
+      { "item": "转考/退费", "rule": "截止前转考 +20% 手续费；截止后不接受转考及退费；缴费后无法退费", "meaning": "占位成本上限约百元级，值" },
+      { "item": "证件", "rule": "大陆考生须用二代居民身份证原件", "meaning": "提前确认有效期" },
+      { "item": "考试安排", "rule": "笔试与口语在周六日随机，可能不同天", "meaning": "整个周末留出" },
+      { "item": "出分", "rule": "机考约 1-3 周；纸考约 4-6 周", "meaning": "选机考" }
+    ],
+    "compliance": {
+      "title": "合规提示（双减）",
+      "lines": [
+        "国家及北京规定，校外培训机构不得占用法定节假日、休息日及寒暑假组织学科类培训；2026 年 7 月官方暑期提示进一步明确，暑假期间任何机构或个人面向中小学生的学科类培训——含以「一对一」「住家教师」「托管自习」「思维素养」「夏令营」等名义变相开展的隐形变异培训——均属违规（三重风险：场所安全 / 师资未审 / 资金无监管）。英语属学科类，孩子属义务教育阶段 → 寒暑假只能走自学路线（本方案即按此设计）。",
+        "开学后合规窗口：非节假日、非休息日、非寒暑假；线下不晚于 20:30，线上不晚于 21:00 且每课时 ≤30 分钟、间隔 ≥10 分钟；学科类培训人员必须具备教师资格并公示；严禁聘请在境外的外籍人员；收费不得一次性收超 3 个月或 60 课时、单次 ≤5000 元。",
+        "选机构四步：查全国校外教育培训监管与服务综合平台白名单 → 查《办学许可证》+营业执照/民非登记证且一址一证 → 用「一码通」或「校外培训家长端 APP」缴费坚决不转个人账户 → 优先「先学后付」（一课一结，机构不得拒绝）。"
+      ]
+    }
+  }
+}
