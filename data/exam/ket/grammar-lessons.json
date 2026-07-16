@@ -1,246 +1,1429 @@
 {
-  "level": "KET",
-  "title": "语法八课 · 英语句子 = 一支乐队",
-  "bandIntro": {
-    "title": "🎼 主线比喻：英语句子 = 一支乐队",
-    "note": "你是乐团团员，乐队的逻辑你身体里已经有了。你不需要记语法术语，只需要认出乐队里的角色。",
-    "roles": [
-      { "role": "主语", "band": "主奏——谁在演奏", "lesson": "—" },
-      { "role": "动词", "band": "节拍——自带时间戳", "lesson": "L3" },
-      { "role": "be 动词", "band": "连接线 / 等号", "lesson": "L1" },
-      { "role": "do / does / did", "band": "指挥的起拍手势——不发声，但全团知道要开始了", "lesson": "L2" },
-      { "role": "时态", "band": "曲子的调——定了调不能中途转", "lesson": "L3, L4" },
-      { "role": "介词 / 冠词", "band": "谱面记号——小，但少一个就走样", "lesson": "L5, L6" },
-      { "role": "连接词", "band": "连奏线", "lesson": "L7" }
-    ]
-  },
-  "hiddenLineText": "「越常用的词，越不规则」——当你发现这不是一堆乱七八糟的例外，而是同一条规律在反复出现，整个英语就变得有秩序了。",
-  "lessons": [
-    {
-      "id": "L1",
-      "title": "be 动词：英语的等号",
-      "minutes": 45,
-      "hiddenLine": true,
-      "hiddenLineNote": "be 是英语里最常用的动词，所以它最不规则：am / is / are / was / were 长得完全不像一家人——它是几个古老词根缝起来的「缝合怪」。越常用，越不规则，这是第一次遇见这条规律。",
-      "sections": [
-        { "h": "等号没了会怎样", "text": "中文说「我很开心」，不需要「是」。英文必须写 I am happy——be 就是英语的等号。想想数学：写「3+2 5」谁看得懂？等号没了，句子就断了。英文里 I very happy 就是「3+2 5」。" },
-        { "h": "等号的三副面孔（现在）", "text": "am 只跟 I；is 跟一个人/一件东西（he, she, it, my dog）；are 跟你和一群（you, we, they, my friends）。" },
-        { "h": "等号的两副面孔（过去）", "text": "was = am/is 的过去；were = are 的过去。讲昨天的事，等号也要换成昨天的。" },
-        { "h": "什么时候必须有等号", "text": "后面是「什么样 / 是什么 / 在哪里」的时候：I am eleven. She is a violinist. They are in the music room. 后面是动作（play, run, eat）就不用 be——动作自己会当节拍。" }
-      ],
-      "examples": [
-        { "en": "I am in the school orchestra.", "zh": "我在学校乐团。", "note": "在哪里 → 要等号" },
-        { "en": "My violin is old but beautiful.", "zh": "我的小提琴旧但很美。", "note": "什么样 → 要等号" },
-        { "en": "We were tired after the concert.", "zh": "音乐会后我们很累。", "note": "昨天的事 → was/were" },
-        { "en": "I play the violin every day.", "zh": "我每天拉小提琴。", "note": "有动作 play → 不用 be" }
-      ],
-      "accept": "验收：给 6 个中文句子口头翻译，「等号句」全都带上 am/is/are/was/were，「动作句」全都不多加 be。",
-      "parentScript": "家长话术：不用讲语法。她说出 I very happy 时，只重复一遍正确的 I am very happy 让她跟读，不解释为什么。一天抓三次就够。",
-      "exercises": [
-        { "type": "choice", "q": "I ___ eleven years old.", "options": ["am", "is", "are"], "answer": "am", "explain": "I 只配 am。" },
-        { "type": "choice", "q": "My best friend ___ good at drawing.", "options": ["am", "is", "are"], "answer": "is", "explain": "一个人 → is。" },
-        { "type": "choice", "q": "We ___ at the concert last night.", "options": ["are", "was", "were"], "answer": "were", "explain": "last night 是过去，we → were。" },
-        { "type": "fix", "q": "改错：I very hungry now.", "answer": "I am very hungry now.", "explain": "「什么样」的句子必须有等号 am。" },
-        { "type": "fix", "q": "改错：She is play the piano every day.", "answer": "She plays the piano every day.", "explain": "有动作 play 就不要 be——等号和节拍不能同时抢一个位置。" },
-        { "type": "choice", "q": "The books ___ on the desk yesterday.", "options": ["is", "was", "were"], "answer": "were", "explain": "books 是复数 + yesterday → were。" }
-      ]
-    },
-    {
-      "id": "L2",
-      "title": "疑问句与助动词：指挥的起拍手势",
-      "minutes": 60,
-      "hiddenLine": false,
-      "sections": [
-        { "h": "do 是唯一没有意思的词", "text": "do/does/did 自己没有任何意思，它只负责举手——像指挥的起拍手势：不发声，但全团知道要开始了。问句把它举到句首，全世界就知道你在提问。" },
-        { "h": "四百年前的英国人也说 Like you music?", "text": "莎士比亚时代的英语真的把动词直接搬到句首提问。后来英语改了规矩：动词不许动，派 do 去句首站岗。所以 You like music? 不是错得离谱，是晚了四百年。" },
-        { "h": "时态只标一次", "text": "did 已经举了「过去」的牌子，后面动词就回到原形：Did you watch...? 不是 Did you watched。一支乐队只需要一个指挥。" },
-        { "h": "be 动词的句子不用请 do", "text": "be 自己就是等号，自己会走到句首：Are you ready? Was she late? 只有动作句才需要 do 来帮忙。" }
-      ],
-      "examples": [
-        { "en": "Do you like pop music?", "zh": "你喜欢流行音乐吗？", "note": "do 举手，like 不变" },
-        { "en": "Does your brother play football?", "zh": "你哥哥踢足球吗？", "note": "he/she → does，play 保持原形" },
-        { "en": "Did you practise the violin yesterday?", "zh": "你昨天练小提琴了吗？", "note": "did 标过去，practise 回原形" },
-        { "en": "Are you in Grade 6?", "zh": "你在六年级吗？", "note": "be 句自己上，不请 do" }
-      ],
-      "accept": "验收：任给陈述句，3 秒内改成疑问句和否定句。如 She likes cats. → Does she like cats? / She doesn't like cats.",
-      "parentScript": "家长话术：玩「快问快答」——你说中文问题（你喜欢…吗？），她 3 秒内说英文问句。她漏了 Do，你只把 Do 补在句首重复一遍。",
-      "exercises": [
-        { "type": "transform", "q": "把陈述句改成疑问句：You like ice cream.", "answer": "Do you like ice cream?", "explain": "请 do 到句首举手。" },
-        { "type": "transform", "q": "改成疑问句：She plays tennis on Sundays.", "answer": "Does she play tennis on Sundays?", "explain": "does 举手后 plays 变回 play——时态只标一次。" },
-        { "type": "transform", "q": "改成否定句：They went to the zoo.", "answer": "They didn't go to the zoo.", "explain": "did 标了过去，went 回原形 go。" },
-        { "type": "fix", "q": "改错：You like music?（书面）", "answer": "Do you like music?", "explain": "8 类错误第 1 类：问句缺助动词，会挡意思。" },
-        { "type": "fix", "q": "改错：Did you watched the film?", "answer": "Did you watch the film?", "explain": "时态只标一次：did 举了牌，watch 回原形。" },
-        { "type": "choice", "q": "___ your sister at home now?", "options": ["Do", "Does", "Is"], "answer": "Is", "explain": "at home 是「在哪里」的 be 句，be 自己上。" }
-      ]
-    },
-    {
-      "id": "L3",
-      "title": "一般现在 vs 过去：动词自带时间戳",
-      "minutes": 60,
-      "hiddenLine": true,
-      "hiddenLineNote": "went 原本是另一个动词 wend 的过去式，被 go 借来就没还——最常用的 go 连过去式都是借的。又一次：越常用的词，越不规则。40 个不规则动词之所以不规则，恰恰因为它们是英语里最有用的 40 个。",
-      "sections": [
-        { "h": "中文动词 vs 英文动词", "text": "中文动词像一张没有日期的照片，时间写在便签上（昨天/明天/正在）。英文动词自带日期戳：play 是今天的，played 是昨天的——动词自己变形来报时。" },
-        { "h": "一般现在：习惯与事实", "text": "每天都发生、一直是真的 → 用原形（he/she/it 加 -s）：I practise every day. The sun rises in the east." },
-        { "h": "一般过去：讲完的事", "text": "昨天、上周、去年发生完的 → 动词盖过去戳：规则的加 -ed（played, watched），不规则的换形状（go→went, eat→ate）——40 个常用的要专门背（见不规则动词闯关）。" },
-        { "h": "信号词", "text": "every day / usually / often → 现在；yesterday / last week / ago → 过去。看到信号词先定调，再选动词形状。" }
-      ],
-      "examples": [
-        { "en": "I practise the violin every evening.", "zh": "我每天晚上练小提琴。", "note": "习惯 → 现在" },
-        { "en": "Last Saturday we visited my grandma.", "zh": "上周六我们看望了奶奶。", "note": "last Saturday → 过去，visit+ed" },
-        { "en": "She goes to school by bike.", "zh": "她骑车上学。", "note": "she → goes 加 s" },
-        { "en": "We ate noodles and then went home.", "zh": "我们吃了面然后回家了。", "note": "两个动作都盖过去戳" }
-      ],
-      "accept": "验收：给一组带信号词的句子，10 题里 8 题以上能选对现在/过去，并把不规则动词写对。",
-      "parentScript": "家长话术：晚饭时玩「昨天今天」：她说一件今天常做的事（英文），再把同一件事说成昨天做过的。只听动词有没有变形。",
-      "exercises": [
-        { "type": "choice", "q": "I ___ my homework at seven every day.", "options": ["do", "did", "does"], "answer": "do", "explain": "every day → 现在，I → 原形 do。" },
-        { "type": "choice", "q": "We ___ a bird show at the zoo last Sunday.", "options": ["watch", "watched", "watches"], "answer": "watched", "explain": "last Sunday → 过去戳 -ed。" },
-        { "type": "choice", "q": "Tom ___ to music club on Fridays.", "options": ["go", "goes", "went"], "answer": "goes", "explain": "习惯 + he → goes。" },
-        { "type": "fill", "q": "Yesterday I ___ (eat) two eggs for breakfast.", "answer": "ate", "explain": "eat 是不规则动词，过去式 ate。" },
-        { "type": "fill", "q": "She ___ (buy) a new dress last week.", "answer": "bought", "explain": "-ought 家族：buy→bought。" },
-        { "type": "fix", "q": "改错：I go to the beach last summer.", "answer": "I went to the beach last summer.", "explain": "last summer 要过去戳：go→went（借来不还的那个）。" }
-      ]
-    },
-    {
-      "id": "L4",
-      "title": "现在进行 + 时态一致：别在半路转调",
-      "minutes": 50,
-      "hiddenLine": false,
-      "sections": [
-        { "h": "现在进行：正在发生", "text": "此刻正在做 → be + 动词-ing：I am doing my homework now. 注意两件套缺一不可——没有 be 的 I doing 和没有 -ing 的 I am do 都不成立。" },
-        { "h": "时态 = 曲子的调", "text": "拉琴时 G 大调拉到一半突然转降 E，全场都会皱眉。写故事也一样：开头用了过去时，整个故事就是过去调，中途不能跳回现在。" },
-        { "h": "Part 7 的命门", "text": "看图写故事最容易犯：When they are in the lake they ate...（前半现在、后半过去）。写之前先默念：这个故事发生在过去 → 每个动词都盖过去戳。" },
-        { "h": "自查法", "text": "写完只检查一件事：把每个动词圈出来，问「它是过去形状吗」。一个不是，改成是。" }
-      ],
-      "examples": [
-        { "en": "Look! The cat is sleeping on my violin case.", "zh": "看！猫正睡在我的琴盒上。", "note": "正在 → be+ing" },
-        { "en": "One sunny morning, Lily walked to the park. She saw a small dog and gave it some bread.", "zh": "一个晴朗的早晨，莉莉走去公园。她看见一只小狗，喂了它一些面包。", "note": "全程过去调，没有转调" },
-        { "en": "While we were playing, it started to rain.", "zh": "我们玩着玩着开始下雨了。", "note": "过去进行 + 一般过去，仍是过去调" }
-      ],
-      "accept": "验收：看三幅图口头讲一个 5 句的故事，时态从头到尾不跳。",
-      "parentScript": "家长话术：她讲英文小故事时，你不用懂内容，只数动词——听到 is/am/are 混进过去故事里就轻敲一下桌子当「转调提醒」。",
-      "exercises": [
-        { "type": "choice", "q": "Listen! Someone ___ the piano.", "options": ["plays", "is playing", "played"], "answer": "is playing", "explain": "Listen! → 此刻正在 → be+ing。" },
-        { "type": "choice", "q": "Last night, Mia ___ a picture and hung it on the wall.", "options": ["draws", "drew", "is drawing"], "answer": "drew", "explain": "last night 定了过去调。draw→drew。" },
-        { "type": "fix", "q": "改错：Yesterday Tom went to the river and swims with his friends.", "answer": "Yesterday Tom went to the river and swam with his friends.", "explain": "故事已定过去调，swims 是半路转调。swim→swam。" },
-        { "type": "fix", "q": "改错：She is do her homework now.", "answer": "She is doing her homework now.", "explain": "进行时两件套：be + -ing，缺一不可。" },
-        { "type": "choice", "q": "When I saw him, he ___ under a big tree.", "options": ["sits", "was sitting", "is sitting"], "answer": "was sitting", "explain": "过去的正在进行 → was/were + -ing。" },
-        { "type": "transform", "q": "把句子改成正在进行：They play basketball.", "answer": "They are playing basketball.", "explain": "be(are) + playing。" }
-      ]
-    },
-    {
-      "id": "L5",
-      "title": "介词：at 是点，on 是面，in 是盒子",
-      "minutes": 50,
-      "hiddenLine": false,
-      "sections": [
-        { "h": "空间的三个维度", "text": "at = 0 维的点（at the bus stop 站在那个点上）；on = 2 维的面（on the table 贴在面上）；in = 3 维的盒子（in the box 装在里面）。" },
-        { "h": "时间也有形状", "text": "时刻是点 → at seven, at noon；日期那天是面 → on Monday, on May 1st；月份年份季节是大盒子 → in June, in 2027, in winter。" },
-        { "h": "Part 5 最爱考它", "text": "in Saturday 是黄区错误：不挡意思，但 Part 5 直接扣分。星期几永远 on。" },
-        { "h": "搭配整块背", "text": "by car / by bus（乘车）、on holiday（度假）、at school（在学校）——这些当一个词背，不拆开想。" }
-      ],
-      "examples": [
-        { "en": "The concert starts at seven on Friday evening.", "zh": "音乐会周五晚上七点开始。", "note": "时刻 at + 具体某天晚上 on" },
-        { "en": "My cat likes sleeping in a shoe box.", "zh": "我的猫喜欢睡在鞋盒里。", "note": "盒子 → in" },
-        { "en": "Your keys are on the piano.", "zh": "你的钥匙在钢琴上。", "note": "贴着面 → on" },
-        { "en": "We go to school by bus.", "zh": "我们坐公交上学。", "note": "搭配整块背" }
-      ],
-      "accept": "验收：Part 5 格式的介词填空 4/6 以上。",
-      "parentScript": "家长话术：家里随手指东西问「点、面、还是盒子？」——钥匙在桌上（面 on）、袜子在抽屉里（盒 in）、约定七点（点 at）。中文就能玩。",
-      "exercises": [
-        { "type": "fill", "q": "My birthday is ___ October.", "answer": "in", "explain": "月份是大盒子 → in。" },
-        { "type": "fill", "q": "See you ___ six o'clock!", "answer": "at", "explain": "时刻是点 → at。" },
-        { "type": "fill", "q": "We play football ___ Saturdays.", "answer": "on", "explain": "星期几永远 on（in Saturday 是 Part 5 最爱抓的错）。" },
-        { "type": "fill", "q": "There is a map ___ the wall.", "answer": "on", "explain": "贴在墙面上 → on。" },
-        { "type": "fill", "q": "We went to Shanghai ___ train.", "answer": "by", "explain": "交通方式搭配 by train，整块背。" },
-        { "type": "fill", "q": "The pencils are ___ my school bag.", "answer": "in", "explain": "书包是盒子 → in。" }
-      ]
-    },
-    {
-      "id": "L6",
-      "title": "代词 + 限定词：a 是新朋友，the 是老朋友",
-      "minutes": 50,
-      "hiddenLine": false,
-      "sections": [
-        { "h": "a 的前世是 one，the 的前世是 that", "text": "a 从 one 磨损而来——「某一个、第一次提到」；the 从 that 磨损而来——「就是那个、你知道的那个」。所以：第一次出现用 a（新朋友），再次提到用 the（老朋友）：I saw a dog. The dog was hungry." },
-        { "h": "KET 只考两条", "text": "考纲限定词只有两个用法：a + 可数单数；the + 可数/不可数。不用背复杂规则。" },
-        { "h": "代词的两副面孔", "text": "做主奏用 I / he / she / we / they；站在动词后面挨「打击」用 me / him / her / us / them：He helped me.（不是 He helped I）。" },
-        { "h": "Me and Tom 的坑", "text": "口语常听到，但书面要写 Tom and I（做主语时）。Part 5 黄区考点。" }
-      ],
-      "examples": [
-        { "en": "I bought a book. The book is about space.", "zh": "我买了一本书。这本书讲太空。", "note": "新朋友 a → 老朋友 the" },
-        { "en": "Tom and I are in the same class.", "zh": "汤姆和我同班。", "note": "做主语用 I" },
-        { "en": "Miss Lee teaches us music.", "zh": "李老师教我们音乐。", "note": "动词后面用 us" },
-        { "en": "Can you pass me the salt?", "zh": "把盐递给我好吗？", "note": "你知道的那瓶盐 → the" }
-      ],
-      "accept": "验收：Part 5 格式的冠词/代词填空 4/6 以上。",
-      "parentScript": "家长话术：读英文小故事时让她圈 a 和 the，每圈一个说「新朋友还是老朋友？」。玩三次就有感觉。",
-      "exercises": [
-        { "type": "fill", "q": "There is ___ orange on the plate. (a/an/the)", "answer": "an", "explain": "第一次提到 + 元音开头 → an。" },
-        { "type": "fill", "q": "I have a cat. ___ cat is black and white. (a/the)", "answer": "The", "explain": "第二次提到，老朋友 → the。" },
-        { "type": "choice", "q": "My grandpa often tells ___ funny stories.", "options": ["we", "us", "our"], "answer": "us", "explain": "动词后面 → 宾格 us。" },
-        { "type": "choice", "q": "___ and I went fishing yesterday.", "options": ["Me", "Tom", "Him"], "answer": "Tom", "explain": "主语位置：Tom and I（不是 Me and Tom）。" },
-        { "type": "fill", "q": "Is this ___ pen or mine? (your/you)", "answer": "your", "explain": "名词前用物主代词 your。" },
-        { "type": "fix", "q": "改错：I have book.", "answer": "I have a book.", "explain": "可数单数第一次提到要 a——黄区错误，Part 5 直接考。" }
-      ]
-    },
-    {
-      "id": "L7",
-      "title": "连接词：连奏线",
-      "minutes": 40,
-      "hiddenLine": false,
-      "sections": [
-        { "h": "只有 7 个", "text": "KET 考纲连接词只有 7 个：and, but, or / when, where, because, if。像连奏线把两个音连成一句，让句子不再一个个蹦。" },
-        { "h": "前三个：并排连", "text": "and 加一句、but 转折、or 二选一：I like apples and bananas. I can sing but I can't dance." },
-        { "h": "后四个：挂一句", "text": "when 什么时候、where 什么地方、because 为什么、if 如果：I was happy because we won." },
-        { "h": "一举两得", "text": "连接词不光 Part 5 考，还直接抬高写作的 Organisation 维度分——25 词的小作文里放一个 because 和一个 then，就从「蹦豆子」变成「有线条」。" }
-      ],
-      "examples": [
-        { "en": "I practised hard, and I passed the test.", "zh": "我努力练习，然后通过了考试。", "note": "and 并排连" },
-        { "en": "I like music because it makes me happy.", "zh": "我喜欢音乐，因为它让我开心。", "note": "口语写作万能句型" },
-        { "en": "Call me when you get home.", "zh": "到家时给我打电话。", "note": "when 挂时间" },
-        { "en": "If it rains, we will stay at home.", "zh": "如果下雨我们就待在家。", "note": "if 挂条件" }
-      ],
-      "accept": "验收：用 because / but / when 各口头造一句，25 词小作文里自然用上 2 个连接词。",
-      "parentScript": "家长话术：她说任何一句英文后，你问一声 Why?，引导她加 because…。这是最便宜的写作提分动作。",
-      "exercises": [
-        { "type": "choice", "q": "I wanted to go out, ___ it was raining.", "options": ["and", "but", "or"], "answer": "but", "explain": "想出门 ↔ 下雨，转折 → but。" },
-        { "type": "choice", "q": "Do you want tea ___ juice?", "options": ["and", "but", "or"], "answer": "or", "explain": "二选一 → or。" },
-        { "type": "choice", "q": "I was late ___ I missed the bus.", "options": ["because", "if", "where"], "answer": "because", "explain": "说原因 → because。" },
-        { "type": "choice", "q": "___ you are free tomorrow, let's play chess.", "options": ["Because", "If", "But"], "answer": "If", "explain": "如果 → if。" },
-        { "type": "fill", "q": "I lived in a town ___ there was a big lake. (when/where)", "answer": "where", "explain": "挂地方 → where。" },
-        { "type": "transform", "q": "用 because 把两句连成一句：I like winter. I can skate.", "answer": "I like winter because I can skate.", "explain": "连奏线 because 连接结果和原因。" }
-      ]
-    },
-    {
-      "id": "L8",
-      "title": "量词 + 比较级：中文认为万物不可数",
-      "minutes": 45,
-      "hiddenLine": true,
-      "hiddenLineNote": "good→better→best、bad→worse→worst——最常用的形容词，比较级最不规则。第三次遇见同一条规律：越常用的词，越不规则。现在你可以确认：这不是巧合，是英语的秩序。",
-      "sections": [
-        { "h": "中文 vs 英文的数数观", "text": "中文认为万物不可数，所以全要量词：一「本」书、一「条」鱼、一「杯」水。英文只认一半：书鱼苹果自己能数（two books），水面包米不能数，要借杯子袋子（a glass of water, a piece of bread）。" },
-        { "h": "many / much / a lot of", "text": "能数的用 many（many books），不能数的用 much（much water），a lot of 两边通吃——不确定就用它。" },
-        { "h": "比较级：为什么是 -er", "text": "短词加 -er（taller, faster）；长词前面放 more（more beautiful）。为什么？你念念 beautifuler——念不出来吧？语言是懒的，怎么顺口怎么来。" },
-        { "h": "比一比要有 than", "text": "A 比 B → A is taller than B。最高级前面要 the：the tallest in our class。" }
-      ],
-      "examples": [
-        { "en": "How many eggs do we need?", "zh": "我们需要几个鸡蛋？", "note": "eggs 可数 → many" },
-        { "en": "There isn't much milk in the fridge.", "zh": "冰箱里没多少牛奶了。", "note": "milk 不可数 → much" },
-        { "en": "A violin is smaller than a cello.", "zh": "小提琴比大提琴小。", "note": "短词 -er + than" },
-        { "en": "This is the most interesting book in our library.", "zh": "这是我们图书馆最有趣的书。", "note": "长词 → the most" }
-      ],
-      "accept": "验收：可数/不可数分类 10 词对 8 个；用比较级和最高级各口头造一句。",
-      "parentScript": "家长话术：超市里玩分类——「这个英语里能直接数吗？」苹果能、大米不能。判断错了不纠正，回家查了明天再问一次。",
-      "exercises": [
-        { "type": "choice", "q": "How ___ water do you drink every day?", "options": ["many", "much", "a"], "answer": "much", "explain": "water 不可数 → much。" },
-        { "type": "choice", "q": "There are ___ birds in the park in spring.", "options": ["much", "a lot of", "a"], "answer": "a lot of", "explain": "birds 可数复数，a lot of 通吃。" },
-        { "type": "fill", "q": "An elephant is ___ (big) than a horse.", "answer": "bigger", "explain": "短词 -er，注意双写 g。" },
-        { "type": "fill", "q": "This film is ___ (interesting) than that one. (用 more…)", "answer": "more interesting", "explain": "长词前放 more——beautifuler 念不出来，语言是懒的。" },
-        { "type": "fill", "q": "Winter is the ___ (cold) season of the year.", "answer": "coldest", "explain": "最高级 the + -est。" },
-        { "type": "fix", "q": "改错：I ate three bread this morning.", "answer": "I ate three pieces of bread this morning.", "explain": "bread 不可数，要借「片」：pieces of。" }
-      ]
-    }
+ "level": "KET",
+ "title": "语法八课 · 英语句子 = 一支乐队",
+ "bandIntro": {
+  "title": "🎼 主线比喻：英语句子 = 一支乐队",
+  "note": "你是乐团团员，乐队的逻辑你身体里已经有了。你不需要记语法术语，只需要认出乐队里的角色。",
+  "roles": [
+   {
+    "role": "主语",
+    "band": "主奏——谁在演奏",
+    "lesson": "—"
+   },
+   {
+    "role": "动词",
+    "band": "节拍——自带时间戳",
+    "lesson": "L3"
+   },
+   {
+    "role": "be 动词",
+    "band": "连接线 / 等号",
+    "lesson": "L1"
+   },
+   {
+    "role": "do / does / did",
+    "band": "指挥的起拍手势——不发声，但全团知道要开始了",
+    "lesson": "L2"
+   },
+   {
+    "role": "时态",
+    "band": "曲子的调——定了调不能中途转",
+    "lesson": "L3, L4"
+   },
+   {
+    "role": "介词 / 冠词",
+    "band": "谱面记号——小，但少一个就走样",
+    "lesson": "L5, L6"
+   },
+   {
+    "role": "连接词",
+    "band": "连奏线",
+    "lesson": "L7"
+   }
   ]
+ },
+ "hiddenLineText": "「越常用的词，越不规则」——当你发现这不是一堆乱七八糟的例外，而是同一条规律在反复出现，整个英语就变得有秩序了。",
+ "lessons": [
+  {
+   "id": "L1",
+   "title": "be 动词：英语的等号",
+   "minutes": 45,
+   "hiddenLine": true,
+   "hiddenLineNote": "be 是英语里最常用的动词，所以它最不规则：am / is / are / was / were 长得完全不像一家人——它是几个古老词根缝起来的「缝合怪」。越常用，越不规则，这是第一次遇见这条规律。",
+   "sections": [
+    {
+     "h": "等号没了会怎样",
+     "text": "中文说「我很开心」，不需要「是」。英文必须写 I am happy——be 就是英语的等号。想想数学：写「3+2 5」谁看得懂？等号没了，句子就断了。英文里 I very happy 就是「3+2 5」。"
+    },
+    {
+     "h": "等号的三副面孔（现在）",
+     "text": "am 只跟 I；is 跟一个人/一件东西（he, she, it, my dog）；are 跟你和一群（you, we, they, my friends）。"
+    },
+    {
+     "h": "等号的两副面孔（过去）",
+     "text": "was = am/is 的过去；were = are 的过去。讲昨天的事，等号也要换成昨天的。"
+    },
+    {
+     "h": "什么时候必须有等号",
+     "text": "后面是「什么样 / 是什么 / 在哪里」的时候：I am eleven. She is a violinist. They are in the music room. 后面是动作（play, run, eat）就不用 be——动作自己会当节拍。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am in the school orchestra.",
+     "zh": "我在学校乐团。",
+     "note": "在哪里 → 要等号"
+    },
+    {
+     "en": "My violin is old but beautiful.",
+     "zh": "我的小提琴旧但很美。",
+     "note": "什么样 → 要等号"
+    },
+    {
+     "en": "We were tired after the concert.",
+     "zh": "音乐会后我们很累。",
+     "note": "昨天的事 → was/were"
+    },
+    {
+     "en": "I play the violin every day.",
+     "zh": "我每天拉小提琴。",
+     "note": "有动作 play → 不用 be"
+    }
+   ],
+   "accept": "验收：给 6 个中文句子口头翻译，「等号句」全都带上 am/is/are/was/were，「动作句」全都不多加 be。",
+   "parentScript": "家长话术：不用讲语法。她说出 I very happy 时，只重复一遍正确的 I am very happy 让她跟读，不解释为什么。一天抓三次就够。",
+   "exercises": [
+    {
+     "type": "choice",
+     "q": "I ___ eleven years old.",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": "am",
+     "explain": "I 只配 am。"
+    },
+    {
+     "type": "choice",
+     "q": "My best friend ___ good at drawing.",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": "is",
+     "explain": "一个人 → is。"
+    },
+    {
+     "type": "choice",
+     "q": "We ___ at the concert last night.",
+     "options": [
+      "are",
+      "was",
+      "were"
+     ],
+     "answer": "were",
+     "explain": "last night 是过去，we → were。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I very hungry now.",
+     "answer": "I am very hungry now.",
+     "explain": "「什么样」的句子必须有等号 am。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：She is play the piano every day.",
+     "answer": "She plays the piano every day.",
+     "explain": "有动作 play 就不要 be——等号和节拍不能同时抢一个位置。"
+    },
+    {
+     "type": "choice",
+     "q": "The books ___ on the desk yesterday.",
+     "options": [
+      "is",
+      "was",
+      "were"
+     ],
+     "answer": "were",
+     "explain": "books 是复数 + yesterday → were。"
+    },
+    {
+     "type": "choice",
+     "q": "The music room ___ next to the library.",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "answer": "is",
+     "explain": "一间教室 → is。"
+    },
+    {
+     "type": "choice",
+     "q": "My shoes ___ wet because of the rain.",
+     "options": [
+      "is",
+      "was",
+      "are"
+     ],
+     "answer": "are",
+     "explain": "shoes 复数 + 现在 → are。"
+    },
+    {
+     "type": "choice",
+     "q": "I ___ at my grandma's house last weekend.",
+     "options": [
+      "am",
+      "was",
+      "were"
+     ],
+     "answer": "was",
+     "explain": "last weekend + I → was。"
+    },
+    {
+     "type": "fill",
+     "q": "Look! The baby pandas ___ so cute!",
+     "answer": "are",
+     "explain": "复数 + 现在 → are。"
+    },
+    {
+     "type": "fill",
+     "q": "My father ___ a doctor. He works at the city hospital.",
+     "answer": "is",
+     "explain": "「是什么」→ 等号 is。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：She very tall.",
+     "answer": "She is very tall.",
+     "explain": "红区错误2：「什么样」的句子缺等号。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：They was late for school yesterday.",
+     "answer": "They were late for school yesterday.",
+     "explain": "they 配 were。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I am agree with you.",
+     "answer": "I agree with you.",
+     "explain": "agree 是动作，动作句不要多加 be——等号和节拍不同时上。"
+    },
+    {
+     "type": "transform",
+     "q": "把句子变成过去（昨天）：I am at the music club.",
+     "answer": "I was at the music club.",
+     "explain": "am 的昨天形状是 was。"
+    },
+    {
+     "type": "transform",
+     "q": "口头验收：翻译成英文——我的书包很重。",
+     "answer": "My school bag is very heavy.",
+     "explain": "验收题：等号句必须带 is。"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "疑问句与助动词：指挥的起拍手势",
+   "minutes": 60,
+   "hiddenLine": false,
+   "sections": [
+    {
+     "h": "do 是唯一没有意思的词",
+     "text": "do/does/did 自己没有任何意思，它只负责举手——像指挥的起拍手势：不发声，但全团知道要开始了。问句把它举到句首，全世界就知道你在提问。"
+    },
+    {
+     "h": "四百年前的英国人也说 Like you music?",
+     "text": "莎士比亚时代的英语真的把动词直接搬到句首提问。后来英语改了规矩：动词不许动，派 do 去句首站岗。所以 You like music? 不是错得离谱，是晚了四百年。"
+    },
+    {
+     "h": "时态只标一次",
+     "text": "did 已经举了「过去」的牌子，后面动词就回到原形：Did you watch...? 不是 Did you watched。一支乐队只需要一个指挥。"
+    },
+    {
+     "h": "be 动词的句子不用请 do",
+     "text": "be 自己就是等号，自己会走到句首：Are you ready? Was she late? 只有动作句才需要 do 来帮忙。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you like pop music?",
+     "zh": "你喜欢流行音乐吗？",
+     "note": "do 举手，like 不变"
+    },
+    {
+     "en": "Does your brother play football?",
+     "zh": "你哥哥踢足球吗？",
+     "note": "he/she → does，play 保持原形"
+    },
+    {
+     "en": "Did you practise the violin yesterday?",
+     "zh": "你昨天练小提琴了吗？",
+     "note": "did 标过去，practise 回原形"
+    },
+    {
+     "en": "Are you in Grade 6?",
+     "zh": "你在六年级吗？",
+     "note": "be 句自己上，不请 do"
+    }
+   ],
+   "accept": "验收：任给陈述句，3 秒内改成疑问句和否定句。如 She likes cats. → Does she like cats? / She doesn't like cats.",
+   "parentScript": "家长话术：玩「快问快答」——你说中文问题（你喜欢…吗？），她 3 秒内说英文问句。她漏了 Do，你只把 Do 补在句首重复一遍。",
+   "exercises": [
+    {
+     "type": "transform",
+     "q": "把陈述句改成疑问句：You like ice cream.",
+     "answer": "Do you like ice cream?",
+     "explain": "请 do 到句首举手。"
+    },
+    {
+     "type": "transform",
+     "q": "改成疑问句：She plays tennis on Sundays.",
+     "answer": "Does she play tennis on Sundays?",
+     "explain": "does 举手后 plays 变回 play——时态只标一次。"
+    },
+    {
+     "type": "transform",
+     "q": "改成否定句：They went to the zoo.",
+     "answer": "They didn't go to the zoo.",
+     "explain": "did 标了过去，went 回原形 go。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：You like music?（书面）",
+     "answer": "Do you like music?",
+     "explain": "8 类错误第 1 类：问句缺助动词，会挡意思。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：Did you watched the film?",
+     "answer": "Did you watch the film?",
+     "explain": "时态只标一次：did 举了牌，watch 回原形。"
+    },
+    {
+     "type": "choice",
+     "q": "___ your sister at home now?",
+     "options": [
+      "Do",
+      "Does",
+      "Is"
+     ],
+     "answer": "Is",
+     "explain": "at home 是「在哪里」的 be 句，be 自己上。"
+    },
+    {
+     "type": "transform",
+     "q": "改成疑问句：Your sister likes drawing.",
+     "answer": "Does your sister like drawing?",
+     "explain": "she → does，likes 变回 like。"
+    },
+    {
+     "type": "transform",
+     "q": "改成疑问句：They watched a film last night.",
+     "answer": "Did they watch a film last night?",
+     "explain": "did 标过去，watch 回原形。"
+    },
+    {
+     "type": "transform",
+     "q": "改成否定句：I like carrots.",
+     "answer": "I don't like carrots.",
+     "explain": "否定也要请 do：do not / don't。"
+    },
+    {
+     "type": "transform",
+     "q": "改成否定句：He went to the party.",
+     "answer": "He didn't go to the party.",
+     "explain": "didn't + go（原形）。"
+    },
+    {
+     "type": "choice",
+     "q": "___ your grandpa drink tea every morning?",
+     "options": [
+      "Do",
+      "Does",
+      "Is"
+     ],
+     "answer": "Does",
+     "explain": "第三人称单数 → Does。"
+    },
+    {
+     "type": "choice",
+     "q": "___ you at school yesterday?",
+     "options": [
+      "Did",
+      "Were",
+      "Do"
+     ],
+     "answer": "Were",
+     "explain": "at school 是 be 句，be 自己上：Were you…?"
+    },
+    {
+     "type": "choice",
+     "q": "What time ___ the shop open on Sundays?",
+     "options": [
+      "do",
+      "does",
+      "is"
+     ],
+     "answer": "does",
+     "explain": "the shop 单数 → does。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：Does she likes music?",
+     "answer": "Does she like music?",
+     "explain": "时态和人称只标一次：does 举了牌，like 回原形。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：You went where yesterday?（书面）",
+     "answer": "Where did you go yesterday?",
+     "explain": "疑问词到句首 + did 举手 + go 原形。"
+    },
+    {
+     "type": "transform",
+     "q": "3 秒验收：改成疑问句——She plays chess.",
+     "answer": "Does she play chess?",
+     "explain": "验收标准：3 秒内完成这个变形。"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "一般现在 vs 过去：动词自带时间戳",
+   "minutes": 60,
+   "hiddenLine": true,
+   "hiddenLineNote": "went 原本是另一个动词 wend 的过去式，被 go 借来就没还——最常用的 go 连过去式都是借的。又一次：越常用的词，越不规则。40 个不规则动词之所以不规则，恰恰因为它们是英语里最有用的 40 个。",
+   "sections": [
+    {
+     "h": "中文动词 vs 英文动词",
+     "text": "中文动词像一张没有日期的照片，时间写在便签上（昨天/明天/正在）。英文动词自带日期戳：play 是今天的，played 是昨天的——动词自己变形来报时。"
+    },
+    {
+     "h": "一般现在：习惯与事实",
+     "text": "每天都发生、一直是真的 → 用原形（he/she/it 加 -s）：I practise every day. The sun rises in the east."
+    },
+    {
+     "h": "一般过去：讲完的事",
+     "text": "昨天、上周、去年发生完的 → 动词盖过去戳：规则的加 -ed（played, watched），不规则的换形状（go→went, eat→ate）——40 个常用的要专门背（见不规则动词闯关）。"
+    },
+    {
+     "h": "信号词",
+     "text": "every day / usually / often → 现在；yesterday / last week / ago → 过去。看到信号词先定调，再选动词形状。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I practise the violin every evening.",
+     "zh": "我每天晚上练小提琴。",
+     "note": "习惯 → 现在"
+    },
+    {
+     "en": "Last Saturday we visited my grandma.",
+     "zh": "上周六我们看望了奶奶。",
+     "note": "last Saturday → 过去，visit+ed"
+    },
+    {
+     "en": "She goes to school by bike.",
+     "zh": "她骑车上学。",
+     "note": "she → goes 加 s"
+    },
+    {
+     "en": "We ate noodles and then went home.",
+     "zh": "我们吃了面然后回家了。",
+     "note": "两个动作都盖过去戳"
+    }
+   ],
+   "accept": "验收：给一组带信号词的句子，10 题里 8 题以上能选对现在/过去，并把不规则动词写对。",
+   "parentScript": "家长话术：晚饭时玩「昨天今天」：她说一件今天常做的事（英文），再把同一件事说成昨天做过的。只听动词有没有变形。",
+   "exercises": [
+    {
+     "type": "choice",
+     "q": "I ___ my homework at seven every day.",
+     "options": [
+      "do",
+      "did",
+      "does"
+     ],
+     "answer": "do",
+     "explain": "every day → 现在，I → 原形 do。"
+    },
+    {
+     "type": "choice",
+     "q": "We ___ a bird show at the zoo last Sunday.",
+     "options": [
+      "watch",
+      "watched",
+      "watches"
+     ],
+     "answer": "watched",
+     "explain": "last Sunday → 过去戳 -ed。"
+    },
+    {
+     "type": "choice",
+     "q": "Tom ___ to music club on Fridays.",
+     "options": [
+      "go",
+      "goes",
+      "went"
+     ],
+     "answer": "goes",
+     "explain": "习惯 + he → goes。"
+    },
+    {
+     "type": "fill",
+     "q": "Yesterday I ___ (eat) two eggs for breakfast.",
+     "answer": "ate",
+     "explain": "eat 是不规则动词，过去式 ate。"
+    },
+    {
+     "type": "fill",
+     "q": "She ___ (buy) a new dress last week.",
+     "answer": "bought",
+     "explain": "-ought 家族：buy→bought。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I go to the beach last summer.",
+     "answer": "I went to the beach last summer.",
+     "explain": "last summer 要过去戳：go→went（借来不还的那个）。"
+    },
+    {
+     "type": "choice",
+     "q": "My grandma ___ me a story every night when I was small.",
+     "options": [
+      "tells",
+      "told",
+      "tell"
+     ],
+     "answer": "told",
+     "explain": "when I was small → 过去，tell→told。"
+    },
+    {
+     "type": "choice",
+     "q": "Water ___ at 100 degrees.",
+     "options": [
+      "boils",
+      "boiled",
+      "boil"
+     ],
+     "answer": "boils",
+     "explain": "事实永远为真 → 一般现在，water 三单加 s。"
+    },
+    {
+     "type": "fill",
+     "q": "Last night I ___ (sleep) for ten hours!",
+     "answer": "slept",
+     "explain": "尾巴变 t 家族：sleep→slept。"
+    },
+    {
+     "type": "fill",
+     "q": "She usually ___ (go) home by bus.",
+     "answer": "goes",
+     "explain": "usually → 现在，she → goes。"
+    },
+    {
+     "type": "fill",
+     "q": "We ___ (see) a rainbow on the way home yesterday.",
+     "answer": "saw",
+     "explain": "独行侠：see→saw。"
+    },
+    {
+     "type": "fill",
+     "q": "My little brother ___ (draw) a cat on my homework last night!",
+     "answer": "drew",
+     "explain": "-ew 家族：draw→drew。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I eat two eggs this morning.（现在是晚上）",
+     "answer": "I ate two eggs this morning.",
+     "explain": "今天早上已过去 → ate。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：He runed to school because he was late.",
+     "answer": "He ran to school because he was late.",
+     "explain": "run 是不规则动词：run→ran，不加 -ed。"
+    },
+    {
+     "type": "transform",
+     "q": "把句子说成昨天：I sing in the music room.",
+     "answer": "I sang in the music room.",
+     "explain": "i→a 家族：sing→sang。"
+    },
+    {
+     "type": "transform",
+     "q": "验收：把这句说成习惯（every day）：I drank milk yesterday.",
+     "answer": "I drink milk every day.",
+     "explain": "过去戳换回现在形状。"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "现在进行 + 时态一致：别在半路转调",
+   "minutes": 50,
+   "hiddenLine": false,
+   "sections": [
+    {
+     "h": "现在进行：正在发生",
+     "text": "此刻正在做 → be + 动词-ing：I am doing my homework now. 注意两件套缺一不可——没有 be 的 I doing 和没有 -ing 的 I am do 都不成立。"
+    },
+    {
+     "h": "时态 = 曲子的调",
+     "text": "拉琴时 G 大调拉到一半突然转降 E，全场都会皱眉。写故事也一样：开头用了过去时，整个故事就是过去调，中途不能跳回现在。"
+    },
+    {
+     "h": "Part 7 的命门",
+     "text": "看图写故事最容易犯：When they are in the lake they ate...（前半现在、后半过去）。写之前先默念：这个故事发生在过去 → 每个动词都盖过去戳。"
+    },
+    {
+     "h": "自查法",
+     "text": "写完只检查一件事：把每个动词圈出来，问「它是过去形状吗」。一个不是，改成是。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Look! The cat is sleeping on my violin case.",
+     "zh": "看！猫正睡在我的琴盒上。",
+     "note": "正在 → be+ing"
+    },
+    {
+     "en": "One sunny morning, Lily walked to the park. She saw a small dog and gave it some bread.",
+     "zh": "一个晴朗的早晨，莉莉走去公园。她看见一只小狗，喂了它一些面包。",
+     "note": "全程过去调，没有转调"
+    },
+    {
+     "en": "While we were playing, it started to rain.",
+     "zh": "我们玩着玩着开始下雨了。",
+     "note": "过去进行 + 一般过去，仍是过去调"
+    }
+   ],
+   "accept": "验收：看三幅图口头讲一个 5 句的故事，时态从头到尾不跳。",
+   "parentScript": "家长话术：她讲英文小故事时，你不用懂内容，只数动词——听到 is/am/are 混进过去故事里就轻敲一下桌子当「转调提醒」。",
+   "exercises": [
+    {
+     "type": "choice",
+     "q": "Listen! Someone ___ the piano.",
+     "options": [
+      "plays",
+      "is playing",
+      "played"
+     ],
+     "answer": "is playing",
+     "explain": "Listen! → 此刻正在 → be+ing。"
+    },
+    {
+     "type": "choice",
+     "q": "Last night, Mia ___ a picture and hung it on the wall.",
+     "options": [
+      "draws",
+      "drew",
+      "is drawing"
+     ],
+     "answer": "drew",
+     "explain": "last night 定了过去调。draw→drew。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：Yesterday Tom went to the river and swims with his friends.",
+     "answer": "Yesterday Tom went to the river and swam with his friends.",
+     "explain": "故事已定过去调，swims 是半路转调。swim→swam。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：She is do her homework now.",
+     "answer": "She is doing her homework now.",
+     "explain": "进行时两件套：be + -ing，缺一不可。"
+    },
+    {
+     "type": "choice",
+     "q": "When I saw him, he ___ under a big tree.",
+     "options": [
+      "sits",
+      "was sitting",
+      "is sitting"
+     ],
+     "answer": "was sitting",
+     "explain": "过去的正在进行 → was/were + -ing。"
+    },
+    {
+     "type": "transform",
+     "q": "把句子改成正在进行：They play basketball.",
+     "answer": "They are playing basketball.",
+     "explain": "be(are) + playing。"
+    },
+    {
+     "type": "choice",
+     "q": "Be quiet! The baby ___.",
+     "options": [
+      "sleeps",
+      "is sleeping",
+      "slept"
+     ],
+     "answer": "is sleeping",
+     "explain": "此刻正在 → is sleeping。"
+    },
+    {
+     "type": "choice",
+     "q": "Yesterday at eight, we ___ dinner with Grandpa.",
+     "options": [
+      "are having",
+      "were having",
+      "have"
+     ],
+     "answer": "were having",
+     "explain": "过去某一刻正在 → were having。"
+    },
+    {
+     "type": "choice",
+     "q": "She ___ TV when the phone rang.",
+     "options": [
+      "watches",
+      "was watching",
+      "is watching"
+     ],
+     "answer": "was watching",
+     "explain": "过去进行 + 一般过去：正在看时电话响了。"
+    },
+    {
+     "type": "fill",
+     "q": "Look out of the window! It ___ (snow)!",
+     "answer": "is snowing",
+     "explain": "Look! → 正在下雪。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：Last Sunday we go to the zoo and saw pandas.",
+     "answer": "Last Sunday we went to the zoo and saw pandas.",
+     "explain": "红区错误3：故事定了过去调，go 是半路转调。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：When I opened the door, the cat is sitting on my bed.",
+     "answer": "When I opened the door, the cat was sitting on my bed.",
+     "explain": "过去的故事里 is → was。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：They are play football now.",
+     "answer": "They are playing football now.",
+     "explain": "两件套：are + playing。"
+    },
+    {
+     "type": "transform",
+     "q": "连成一句故事(全过去)：图1 Tom 在跑步 / 图2 他摔倒了",
+     "answer": "Tom was running and he fell down.",
+     "explain": "过去进行 + fell（fall→fell），全程过去调。"
+    },
+    {
+     "type": "transform",
+     "q": "把句子改成正在进行：She reads a book.",
+     "answer": "She is reading a book.",
+     "explain": "is + reading。"
+    },
+    {
+     "type": "transform",
+     "q": "验收：看图讲故事第一句(过去调)——一个女孩在公园放风筝",
+     "answer": "One day, a girl was flying a kite in the park.",
+     "explain": "开头定调：One day + 过去形状。（意思对即可）"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "介词：at 是点，on 是面，in 是盒子",
+   "minutes": 50,
+   "hiddenLine": false,
+   "sections": [
+    {
+     "h": "空间的三个维度",
+     "text": "at = 0 维的点（at the bus stop 站在那个点上）；on = 2 维的面（on the table 贴在面上）；in = 3 维的盒子（in the box 装在里面）。"
+    },
+    {
+     "h": "时间也有形状",
+     "text": "时刻是点 → at seven, at noon；日期那天是面 → on Monday, on May 1st；月份年份季节是大盒子 → in June, in 2027, in winter。"
+    },
+    {
+     "h": "Part 5 最爱考它",
+     "text": "in Saturday 是黄区错误：不挡意思，但 Part 5 直接扣分。星期几永远 on。"
+    },
+    {
+     "h": "搭配整块背",
+     "text": "by car / by bus（乘车）、on holiday（度假）、at school（在学校）——这些当一个词背，不拆开想。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "The concert starts at seven on Friday evening.",
+     "zh": "音乐会周五晚上七点开始。",
+     "note": "时刻 at + 具体某天晚上 on"
+    },
+    {
+     "en": "My cat likes sleeping in a shoe box.",
+     "zh": "我的猫喜欢睡在鞋盒里。",
+     "note": "盒子 → in"
+    },
+    {
+     "en": "Your keys are on the piano.",
+     "zh": "你的钥匙在钢琴上。",
+     "note": "贴着面 → on"
+    },
+    {
+     "en": "We go to school by bus.",
+     "zh": "我们坐公交上学。",
+     "note": "搭配整块背"
+    }
+   ],
+   "accept": "验收：Part 5 格式的介词填空 4/6 以上。",
+   "parentScript": "家长话术：家里随手指东西问「点、面、还是盒子？」——钥匙在桌上（面 on）、袜子在抽屉里（盒 in）、约定七点（点 at）。中文就能玩。",
+   "exercises": [
+    {
+     "type": "fill",
+     "q": "My birthday is ___ October.",
+     "answer": "in",
+     "explain": "月份是大盒子 → in。"
+    },
+    {
+     "type": "fill",
+     "q": "See you ___ six o'clock!",
+     "answer": "at",
+     "explain": "时刻是点 → at。"
+    },
+    {
+     "type": "fill",
+     "q": "We play football ___ Saturdays.",
+     "answer": "on",
+     "explain": "星期几永远 on（in Saturday 是 Part 5 最爱抓的错）。"
+    },
+    {
+     "type": "fill",
+     "q": "There is a map ___ the wall.",
+     "answer": "on",
+     "explain": "贴在墙面上 → on。"
+    },
+    {
+     "type": "fill",
+     "q": "We went to Shanghai ___ train.",
+     "answer": "by",
+     "explain": "交通方式搭配 by train，整块背。"
+    },
+    {
+     "type": "fill",
+     "q": "The pencils are ___ my school bag.",
+     "answer": "in",
+     "explain": "书包是盒子 → in。"
+    },
+    {
+     "type": "fill",
+     "q": "School starts ___ eight o'clock.",
+     "answer": "at",
+     "explain": "时刻是点 → at。"
+    },
+    {
+     "type": "fill",
+     "q": "We visit Grandma ___ Spring Festival.",
+     "answer": "at",
+     "explain": "节日整体常用 at：at Spring Festival。"
+    },
+    {
+     "type": "fill",
+     "q": "My birthday is ___ the fifth of June.",
+     "answer": "on",
+     "explain": "具体日期 → on。"
+    },
+    {
+     "type": "fill",
+     "q": "It often snows here ___ winter.",
+     "answer": "in",
+     "explain": "季节是大盒子 → in。"
+    },
+    {
+     "type": "fill",
+     "q": "The cat is sleeping ___ the piano.（在钢琴上面）",
+     "answer": "on",
+     "explain": "贴着面 → on。"
+    },
+    {
+     "type": "fill",
+     "q": "Your socks are ___ the washing machine.",
+     "answer": "in",
+     "explain": "洗衣机是盒子 → in。"
+    },
+    {
+     "type": "fill",
+     "q": "I cut the paper ___ scissors.",
+     "answer": "with",
+     "explain": "用工具 → with scissors。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：See you in Monday morning!",
+     "answer": "See you on Monday morning!",
+     "explain": "具体某天(早上) → on。黄区错误4。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：We went to Shanghai with train.",
+     "answer": "We went to Shanghai by train.",
+     "explain": "交通方式 → by train，整块背。"
+    },
+    {
+     "type": "choice",
+     "q": "验收（Part 5 形状）：The concert is ___ Saturday evening.",
+     "options": [
+      "at",
+      "on",
+      "in"
+     ],
+     "answer": "on",
+     "explain": "具体某天的晚上 → on Saturday evening。"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "代词 + 限定词：a 是新朋友，the 是老朋友",
+   "minutes": 50,
+   "hiddenLine": false,
+   "sections": [
+    {
+     "h": "a 的前世是 one，the 的前世是 that",
+     "text": "a 从 one 磨损而来——「某一个、第一次提到」；the 从 that 磨损而来——「就是那个、你知道的那个」。所以：第一次出现用 a（新朋友），再次提到用 the（老朋友）：I saw a dog. The dog was hungry."
+    },
+    {
+     "h": "KET 只考两条",
+     "text": "考纲限定词只有两个用法：a + 可数单数；the + 可数/不可数。不用背复杂规则。"
+    },
+    {
+     "h": "代词的两副面孔",
+     "text": "做主奏用 I / he / she / we / they；站在动词后面挨「打击」用 me / him / her / us / them：He helped me.（不是 He helped I）。"
+    },
+    {
+     "h": "Me and Tom 的坑",
+     "text": "口语常听到，但书面要写 Tom and I（做主语时）。Part 5 黄区考点。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I bought a book. The book is about space.",
+     "zh": "我买了一本书。这本书讲太空。",
+     "note": "新朋友 a → 老朋友 the"
+    },
+    {
+     "en": "Tom and I are in the same class.",
+     "zh": "汤姆和我同班。",
+     "note": "做主语用 I"
+    },
+    {
+     "en": "Miss Lee teaches us music.",
+     "zh": "李老师教我们音乐。",
+     "note": "动词后面用 us"
+    },
+    {
+     "en": "Can you pass me the salt?",
+     "zh": "把盐递给我好吗？",
+     "note": "你知道的那瓶盐 → the"
+    }
+   ],
+   "accept": "验收：Part 5 格式的冠词/代词填空 4/6 以上。",
+   "parentScript": "家长话术：读英文小故事时让她圈 a 和 the，每圈一个说「新朋友还是老朋友？」。玩三次就有感觉。",
+   "exercises": [
+    {
+     "type": "fill",
+     "q": "There is ___ orange on the plate. (a/an/the)",
+     "answer": "an",
+     "explain": "第一次提到 + 元音开头 → an。"
+    },
+    {
+     "type": "fill",
+     "q": "I have a cat. ___ cat is black and white. (a/the)",
+     "answer": "The",
+     "explain": "第二次提到，老朋友 → the。"
+    },
+    {
+     "type": "choice",
+     "q": "My grandpa often tells ___ funny stories.",
+     "options": [
+      "we",
+      "us",
+      "our"
+     ],
+     "answer": "us",
+     "explain": "动词后面 → 宾格 us。"
+    },
+    {
+     "type": "choice",
+     "q": "___ and I went fishing yesterday.",
+     "options": [
+      "Me",
+      "Tom",
+      "Him"
+     ],
+     "answer": "Tom",
+     "explain": "主语位置：Tom and I（不是 Me and Tom）。"
+    },
+    {
+     "type": "fill",
+     "q": "Is this ___ pen or mine? (your/you)",
+     "answer": "your",
+     "explain": "名词前用物主代词 your。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I have book.",
+     "answer": "I have a book.",
+     "explain": "可数单数第一次提到要 a——黄区错误，Part 5 直接考。"
+    },
+    {
+     "type": "fill",
+     "q": "I saw a bird. ___ bird was drinking water. (a/the)",
+     "answer": "The",
+     "explain": "第二次出现 → 老朋友 the。"
+    },
+    {
+     "type": "fill",
+     "q": "Do you want ___ apple? (a/an)",
+     "answer": "an",
+     "explain": "元音开头 → an。"
+    },
+    {
+     "type": "choice",
+     "q": "This is not my pen. It's ___.",
+     "options": [
+      "her",
+      "hers",
+      "she"
+     ],
+     "answer": "hers",
+     "explain": "句尾单独用 → hers（她的东西）。"
+    },
+    {
+     "type": "choice",
+     "q": "Our teacher gave ___ a lot of homework.",
+     "options": [
+      "we",
+      "us",
+      "our"
+     ],
+     "answer": "us",
+     "explain": "动词后 → 宾格 us。"
+    },
+    {
+     "type": "choice",
+     "q": "___ bag is this? — It's Tom's.",
+     "options": [
+      "Who",
+      "Whose",
+      "Which"
+     ],
+     "answer": "Whose",
+     "explain": "问「谁的」→ Whose。"
+    },
+    {
+     "type": "choice",
+     "q": "Look at ___! He can dance!",
+     "options": [
+      "he",
+      "his",
+      "him"
+     ],
+     "answer": "him",
+     "explain": "介词 at 后 → 宾格 him。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：Me and Lily are in the same class.",
+     "answer": "Lily and I are in the same class.",
+     "explain": "黄区错误5：主语位置用 I，且先说别人。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：She is an university student.",
+     "answer": "She is a university student.",
+     "explain": "university 读音以 /j/ 开头（you），用 a 不用 an——看读音不看字母。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I have dog. Dog is very cute.",
+     "answer": "I have a dog. The dog is very cute.",
+     "explain": "第一次 a（新朋友），第二次 the（老朋友）。"
+    },
+    {
+     "type": "transform",
+     "q": "验收（Part 5 形状）：填一词——Where is ___ nearest bus stop?",
+     "answer": "the",
+     "explain": "最高级前面 → the。"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "连接词：连奏线",
+   "minutes": 40,
+   "hiddenLine": false,
+   "sections": [
+    {
+     "h": "只有 7 个",
+     "text": "KET 考纲连接词只有 7 个：and, but, or / when, where, because, if。像连奏线把两个音连成一句，让句子不再一个个蹦。"
+    },
+    {
+     "h": "前三个：并排连",
+     "text": "and 加一句、but 转折、or 二选一：I like apples and bananas. I can sing but I can't dance."
+    },
+    {
+     "h": "后四个：挂一句",
+     "text": "when 什么时候、where 什么地方、because 为什么、if 如果：I was happy because we won."
+    },
+    {
+     "h": "一举两得",
+     "text": "连接词不光 Part 5 考，还直接抬高写作的 Organisation 维度分——25 词的小作文里放一个 because 和一个 then，就从「蹦豆子」变成「有线条」。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I practised hard, and I passed the test.",
+     "zh": "我努力练习，然后通过了考试。",
+     "note": "and 并排连"
+    },
+    {
+     "en": "I like music because it makes me happy.",
+     "zh": "我喜欢音乐，因为它让我开心。",
+     "note": "口语写作万能句型"
+    },
+    {
+     "en": "Call me when you get home.",
+     "zh": "到家时给我打电话。",
+     "note": "when 挂时间"
+    },
+    {
+     "en": "If it rains, we will stay at home.",
+     "zh": "如果下雨我们就待在家。",
+     "note": "if 挂条件"
+    }
+   ],
+   "accept": "验收：用 because / but / when 各口头造一句，25 词小作文里自然用上 2 个连接词。",
+   "parentScript": "家长话术：她说任何一句英文后，你问一声 Why?，引导她加 because…。这是最便宜的写作提分动作。",
+   "exercises": [
+    {
+     "type": "choice",
+     "q": "I wanted to go out, ___ it was raining.",
+     "options": [
+      "and",
+      "but",
+      "or"
+     ],
+     "answer": "but",
+     "explain": "想出门 ↔ 下雨，转折 → but。"
+    },
+    {
+     "type": "choice",
+     "q": "Do you want tea ___ juice?",
+     "options": [
+      "and",
+      "but",
+      "or"
+     ],
+     "answer": "or",
+     "explain": "二选一 → or。"
+    },
+    {
+     "type": "choice",
+     "q": "I was late ___ I missed the bus.",
+     "options": [
+      "because",
+      "if",
+      "where"
+     ],
+     "answer": "because",
+     "explain": "说原因 → because。"
+    },
+    {
+     "type": "choice",
+     "q": "___ you are free tomorrow, let's play chess.",
+     "options": [
+      "Because",
+      "If",
+      "But"
+     ],
+     "answer": "If",
+     "explain": "如果 → if。"
+    },
+    {
+     "type": "fill",
+     "q": "I lived in a town ___ there was a big lake. (when/where)",
+     "answer": "where",
+     "explain": "挂地方 → where。"
+    },
+    {
+     "type": "transform",
+     "q": "用 because 把两句连成一句：I like winter. I can skate.",
+     "answer": "I like winter because I can skate.",
+     "explain": "连奏线 because 连接结果和原因。"
+    },
+    {
+     "type": "choice",
+     "q": "Hurry up, ___ we will miss the train!",
+     "options": [
+      "and",
+      "or",
+      "but"
+     ],
+     "answer": "or",
+     "explain": "「否则」→ or。"
+    },
+    {
+     "type": "choice",
+     "q": "I was tired, ___ I finished my homework.",
+     "options": [
+      "but",
+      "or",
+      "if"
+     ],
+     "answer": "but",
+     "explain": "累 ↔ 仍完成，转折 → but。"
+    },
+    {
+     "type": "choice",
+     "q": "We can't play outside ___ it is raining.",
+     "options": [
+      "where",
+      "because",
+      "or"
+     ],
+     "answer": "because",
+     "explain": "给原因 → because。"
+    },
+    {
+     "type": "choice",
+     "q": "I was doing homework ___ you called me.",
+     "options": [
+      "when",
+      "because",
+      "or"
+     ],
+     "answer": "when",
+     "explain": "「…的时候」→ when。"
+    },
+    {
+     "type": "fill",
+     "q": "This is the shop ___ I bought my violin strings. (when/where)",
+     "answer": "where",
+     "explain": "挂地方 → where。"
+    },
+    {
+     "type": "fill",
+     "q": "___ you finish early, we can play chess. (If/But)",
+     "answer": "If",
+     "explain": "条件 → If。"
+    },
+    {
+     "type": "transform",
+     "q": "用 but 连成一句：I can swim. I can't dive.",
+     "answer": "I can swim but I can't dive.",
+     "explain": "转折用 but。"
+    },
+    {
+     "type": "transform",
+     "q": "用 when 连成一句：I was five. I started school.",
+     "answer": "When I was five, I started school.",
+     "explain": "when 挂时间。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I like music. Because it makes me happy.（两句合一）",
+     "answer": "I like music because it makes me happy.",
+     "explain": "because 把原因挂在主句后面，不单独成句。"
+    },
+    {
+     "type": "transform",
+     "q": "验收：用 because 口头说一句你喜欢的东西和理由",
+     "answer": "I like winter because I can skate.",
+     "explain": "意思通顺即可——写作口语都靠这个句型。"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "量词 + 比较级：中文认为万物不可数",
+   "minutes": 45,
+   "hiddenLine": true,
+   "hiddenLineNote": "good→better→best、bad→worse→worst——最常用的形容词，比较级最不规则。第三次遇见同一条规律：越常用的词，越不规则。现在你可以确认：这不是巧合，是英语的秩序。",
+   "sections": [
+    {
+     "h": "中文 vs 英文的数数观",
+     "text": "中文认为万物不可数，所以全要量词：一「本」书、一「条」鱼、一「杯」水。英文只认一半：书鱼苹果自己能数（two books），水面包米不能数，要借杯子袋子（a glass of water, a piece of bread）。"
+    },
+    {
+     "h": "many / much / a lot of",
+     "text": "能数的用 many（many books），不能数的用 much（much water），a lot of 两边通吃——不确定就用它。"
+    },
+    {
+     "h": "比较级：为什么是 -er",
+     "text": "短词加 -er（taller, faster）；长词前面放 more（more beautiful）。为什么？你念念 beautifuler——念不出来吧？语言是懒的，怎么顺口怎么来。"
+    },
+    {
+     "h": "比一比要有 than",
+     "text": "A 比 B → A is taller than B。最高级前面要 the：the tallest in our class。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "How many eggs do we need?",
+     "zh": "我们需要几个鸡蛋？",
+     "note": "eggs 可数 → many"
+    },
+    {
+     "en": "There isn't much milk in the fridge.",
+     "zh": "冰箱里没多少牛奶了。",
+     "note": "milk 不可数 → much"
+    },
+    {
+     "en": "A violin is smaller than a cello.",
+     "zh": "小提琴比大提琴小。",
+     "note": "短词 -er + than"
+    },
+    {
+     "en": "This is the most interesting book in our library.",
+     "zh": "这是我们图书馆最有趣的书。",
+     "note": "长词 → the most"
+    }
+   ],
+   "accept": "验收：可数/不可数分类 10 词对 8 个；用比较级和最高级各口头造一句。",
+   "parentScript": "家长话术：超市里玩分类——「这个英语里能直接数吗？」苹果能、大米不能。判断错了不纠正，回家查了明天再问一次。",
+   "exercises": [
+    {
+     "type": "choice",
+     "q": "How ___ water do you drink every day?",
+     "options": [
+      "many",
+      "much",
+      "a"
+     ],
+     "answer": "much",
+     "explain": "water 不可数 → much。"
+    },
+    {
+     "type": "choice",
+     "q": "There are ___ birds in the park in spring.",
+     "options": [
+      "much",
+      "a lot of",
+      "a"
+     ],
+     "answer": "a lot of",
+     "explain": "birds 可数复数，a lot of 通吃。"
+    },
+    {
+     "type": "fill",
+     "q": "An elephant is ___ (big) than a horse.",
+     "answer": "bigger",
+     "explain": "短词 -er，注意双写 g。"
+    },
+    {
+     "type": "fill",
+     "q": "This film is ___ (interesting) than that one. (用 more…)",
+     "answer": "more interesting",
+     "explain": "长词前放 more——beautifuler 念不出来，语言是懒的。"
+    },
+    {
+     "type": "fill",
+     "q": "Winter is the ___ (cold) season of the year.",
+     "answer": "coldest",
+     "explain": "最高级 the + -est。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I ate three bread this morning.",
+     "answer": "I ate three pieces of bread this morning.",
+     "explain": "bread 不可数，要借「片」：pieces of。"
+    },
+    {
+     "type": "choice",
+     "q": "How ___ brothers do you have?",
+     "options": [
+      "much",
+      "many",
+      "a lot"
+     ],
+     "answer": "many",
+     "explain": "brothers 可数 → many。"
+    },
+    {
+     "type": "choice",
+     "q": "There isn't ___ juice left in the bottle.",
+     "options": [
+      "many",
+      "much",
+      "a"
+     ],
+     "answer": "much",
+     "explain": "juice 不可数 → much。"
+    },
+    {
+     "type": "choice",
+     "q": "Can I have a ___ of water?",
+     "options": [
+      "glass",
+      "pair",
+      "piece"
+     ],
+     "answer": "glass",
+     "explain": "水借杯子数 → a glass of water。"
+    },
+    {
+     "type": "fill",
+     "q": "Today is ___ (hot) than yesterday.",
+     "answer": "hotter",
+     "explain": "短词 -er，双写 t。"
+    },
+    {
+     "type": "fill",
+     "q": "This is the ___ (good) noodle shop in our town!",
+     "answer": "best",
+     "explain": "暗线第三站：good→better→best，最常用最不规则。"
+    },
+    {
+     "type": "fill",
+     "q": "My bag is heavy, but yours is ___ (heavy).",
+     "answer": "heavier",
+     "explain": "y 变 i 加 -er。"
+    },
+    {
+     "type": "choice",
+     "q": "Maths is ___ than English for me.",
+     "options": [
+      "difficult",
+      "more difficult",
+      "difficulter"
+     ],
+     "answer": "more difficult",
+     "explain": "长词前放 more——difficulter 念不出来。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：I drank two milks this morning.",
+     "answer": "I drank two glasses of milk this morning.",
+     "explain": "牛奶不可数，要借杯子。"
+    },
+    {
+     "type": "fix",
+     "q": "改错：She is taller then me.",
+     "answer": "She is taller than me.",
+     "explain": "比较用 than，不是 then（然后）——拼写陷阱。"
+    },
+    {
+     "type": "transform",
+     "q": "验收：用最高级说一句你们班/乐团里的事",
+     "answer": "Lily is the youngest player in our orchestra.",
+     "explain": "the + -est + in 范围。（意思对即可）"
+    }
+   ]
+  }
+ ]
 }
