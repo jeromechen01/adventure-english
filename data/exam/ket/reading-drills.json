@@ -872,12 +872,614 @@
   "part3": {
    "name": "Part 3 · 长文理解",
    "desc": "一篇 150-200 词长文 + 5 题三选一（细节与主旨）",
-   "sets": []
+   "sets": [
+    {
+     "id": "rp3-01",
+     "topic": "长文 · 爷爷的菜园",
+     "title": "Grandpa's Garden",
+     "passage": "My grandpa has a small garden behind his house, and he says it is his best friend. Every morning before breakfast, he walks between the plants and talks to them! Mum laughs at him, but Grandpa says plants grow better when they hear a kind voice.\nIn spring, I help him plant tomatoes and beans. He never uses gloves because he likes to feel the earth. \"Soft hands, soft heart,\" he always says. I don't really know what it means, but I like it.\nThe best time is summer. We pick tomatoes together, still warm from the sun, and eat them right there in the garden. They taste better than any tomatoes from a shop.\nLast winter, Grandpa was ill for a month and could not go outside. I visited every weekend and watered everything for him. When he got better and saw his garden green and healthy, he didn't say anything. He just held my hand. Soft hands, I thought.",
+     "questions": [
+      {
+       "q": "What does Grandpa do every morning?",
+       "options": [
+        "He eats tomatoes.",
+        "He speaks to his plants.",
+        "He laughs with Mum."
+       ],
+       "answer": 1,
+       "explain": "walks between the plants and talks to them。"
+      },
+      {
+       "q": "Why does Grandpa work without gloves?",
+       "options": [
+        "He cannot find them.",
+        "He wants to touch the earth.",
+        "His hands are too big."
+       ],
+       "answer": 1,
+       "explain": "he likes to feel the earth。"
+      },
+      {
+       "q": "Why do the summer tomatoes taste special?",
+       "options": [
+        "They come from a good shop.",
+        "They are eaten fresh in the garden.",
+        "Grandpa cooks them well."
+       ],
+       "answer": 1,
+       "explain": "刚摘的、带着太阳温度、当场吃。"
+      },
+      {
+       "q": "What happened last winter?",
+       "options": [
+        "The garden died.",
+        "Grandpa could not leave the house.",
+        "The writer was ill."
+       ],
+       "answer": 1,
+       "explain": "ill for a month and could not go outside。"
+      },
+      {
+       "q": "How did Grandpa feel at the end?",
+       "options": [
+        "Thankful but quiet.",
+        "Angry about the garden.",
+        "Sad about his hands."
+       ],
+       "answer": 0,
+       "explain": "没说话只是握手——无声的感谢。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-02",
+     "topic": "长文 · 夜市",
+     "title": "The Night Market",
+     "passage": "Once a month in summer, our town has a night market by the river. It opens when the sky gets dark and the street lights come on. My parents let me stay up late for it — it is the only night I go to bed after ten!\nYou can smell the market before you see it: sweet corn, fried noodles, and hot sugar. My favourite stand sells little fish-shaped cakes with chocolate inside. The man there knows me now and always gives me one extra.\nThere is music too. Students from the university play guitars near the bridge, and people put coins in their guitar case. Last time, my little brother danced in front of everyone, and a woman gave him a coin too! He wants to go back every night now.\nMum buys vegetables and cheap bowls; Dad just eats. Me? I like walking slowly through the lights and sounds, holding my warm fish cake. The market closes at midnight, but I never see it close — I am always asleep in the car long before that.",
+     "questions": [
+      {
+       "q": "How often is the night market?",
+       "options": [
+        "Every night in summer.",
+        "One time each month in summer.",
+        "Only once a year."
+       ],
+       "answer": 1,
+       "explain": "Once a month in summer。"
+      },
+      {
+       "q": "What is special about the writer's favourite food?",
+       "options": [
+        "It looks like a fish.",
+        "It is made of fish.",
+        "It is very big."
+       ],
+       "answer": 0,
+       "explain": "fish-shaped cakes 鱼形小蛋糕，巧克力馅。"
+      },
+      {
+       "q": "Why did a woman give the brother a coin?",
+       "options": [
+        "He played the guitar.",
+        "He danced in front of people.",
+        "He sold her a bowl."
+       ],
+       "answer": 1,
+       "explain": "danced in front of everyone。"
+      },
+      {
+       "q": "What does Dad do at the market?",
+       "options": [
+        "He buys bowls.",
+        "He eats food.",
+        "He plays music."
+       ],
+       "answer": 1,
+       "explain": "Dad just eats。"
+      },
+      {
+       "q": "Why does the writer never see the market close?",
+       "options": [
+        "It never closes.",
+        "The writer falls asleep before midnight.",
+        "The family leaves at ten."
+       ],
+       "answer": 1,
+       "explain": "always asleep in the car long before that。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-03",
+     "topic": "长文 · 双胞胎",
+     "title": "Twins",
+     "passage": "Ada and Ida are twins in my class, and for two years I could not tell them apart. Same brown eyes, same short hair, same way of laughing with their heads back. Even our teacher sometimes called Ada \"Ida\" and Ida \"Ada\". The twins never got angry; they just answered to both names.\nBut this year I learned their secret differences. Ada writes with her left hand and always has ink on her little finger. Ida draws tiny stars in the corner of her notebooks. Ada is afraid of dogs but loves thunder; Ida is the opposite — she runs to the window when a dog walks by, and hides under the desk in a storm.\nLast week, a new boy joined our class and asked me, \"How do you know who is who?\" I told him: \"You don't have to know. Just be their friend, and one day you will see two different people.\" He looked at me strangely. But he will understand, like I did.",
+     "questions": [
+      {
+       "q": "For a long time, how did the writer feel about the twins?",
+       "options": [
+        "They were impossible to tell apart.",
+        "They were not friendly.",
+        "They laughed too much."
+       ],
+       "answer": 0,
+       "explain": "could not tell them apart。"
+      },
+      {
+       "q": "What did the twins do when people mixed their names?",
+       "options": [
+        "They got angry.",
+        "They answered anyway.",
+        "They corrected the teacher."
+       ],
+       "answer": 1,
+       "explain": "just answered to both names。"
+      },
+      {
+       "q": "How can you know Ada by looking at her hand?",
+       "options": [
+        "She has ink on a finger.",
+        "She draws stars on it.",
+        "She hides it in storms."
+       ],
+       "answer": 0,
+       "explain": "左手写字，小指沾墨水。"
+      },
+      {
+       "q": "What does Ida do when there is thunder?",
+       "options": [
+        "She runs to the window.",
+        "She goes under the desk.",
+        "She laughs with her head back."
+       ],
+       "answer": 1,
+       "explain": "hides under the desk in a storm。"
+      },
+      {
+       "q": "What is the writer's advice to the new boy?",
+       "options": [
+        "Ask the teacher for help.",
+        "Become their friend first.",
+        "Look at their notebooks."
+       ],
+       "answer": 1,
+       "explain": "Just be their friend…。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-04",
+     "topic": "长文 · 我们的乐团去比赛",
+     "title": "The Big Competition",
+     "passage": "Last month, our school orchestra travelled to the city for a young musicians' competition. Forty children, twelve violins, one very heavy drum kit and Mr Tan, our conductor, all went in one bus. Mr Tan sang funny songs the whole way, maybe because he was more nervous than us.\nThe concert hall was the biggest room I have ever seen. Our shoes made little squeaky sounds on the shiny floor. When the team before us finished, everyone clapped for a long time, and my hands went cold. \"They are so good,\" whispered my friend Yu.\nThen something surprising happened. Mr Tan gathered us in a circle and said, \"Forget the prize. Play for the bus ride home — let's make it a happy one.\" So we did. We played our three songs and I made one small mistake, but nobody stopped, and the last note filled the hall like warm water.\nWe came second. On the bus home, we sang all the way — and this time, Mr Tan just listened, smiling with his eyes closed.",
+     "questions": [
+      {
+       "q": "Why did Mr Tan probably sing on the way there?",
+       "options": [
+        "He was feeling nervous.",
+        "The children asked him to.",
+        "He wanted to practise."
+       ],
+       "answer": 0,
+       "explain": "maybe because he was more nervous than us。"
+      },
+      {
+       "q": "How did the writer feel after hearing the team before them?",
+       "options": [
+        "Worried.",
+        "Bored.",
+        "Angry."
+       ],
+       "answer": 0,
+       "explain": "鼓掌很久+手发凉 → 紧张担心。"
+      },
+      {
+       "q": "What did Mr Tan tell the orchestra to do?",
+       "options": [
+        "Win the first prize.",
+        "Play to make themselves happy.",
+        "Play without mistakes."
+       ],
+       "answer": 1,
+       "explain": "Forget the prize… make it a happy one。"
+      },
+      {
+       "q": "What happened when the writer made a mistake?",
+       "options": [
+        "The music went on.",
+        "Mr Tan stopped the song.",
+        "The hall went quiet."
+       ],
+       "answer": 0,
+       "explain": "nobody stopped。"
+      },
+      {
+       "q": "What is the best title idea for the last part?",
+       "options": [
+        "A sad ride home.",
+        "Second place, first happiness.",
+        "Mr Tan's new song."
+       ],
+       "answer": 1,
+       "explain": "得了第二名，却收获了最快乐的归程。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-05",
+     "topic": "长文 · 街角书店",
+     "title": "The Corner Bookshop",
+     "passage": "There is a little bookshop on the corner of our street, between the bank and the flower shop. It is easy to walk past it — but don't, because inside it is bigger than it looks, with stairs going down to a room full of children's books.\nThe owner, Mrs Petrova, remembers what every child likes. When I was eight, she gave me my first mystery book. \"Careful,\" she said, \"mysteries eat your sleep.\" She was right. I read it under my blanket with a torch.\nThe shop has one strange rule: if you finish a book and bring it back with a short letter about it, you get half your money back for the next book. The wall behind Mrs Petrova is covered with hundreds of these letters, some from children who are now grown up with children of their own.\nLast Saturday, I added my ninth letter to the wall. Mrs Petrova read it, smiled, and said, \"One more, and you get a special prize.\" I already know what I want: the big blue book of sea stories in the window. Five more days of reading. I had better start tonight.",
+     "questions": [
+      {
+       "q": "What is surprising about the shop?",
+       "options": [
+        "It has no children's books.",
+        "It is larger inside than it looks.",
+        "It is inside a bank."
+       ],
+       "answer": 1,
+       "explain": "bigger than it looks + 地下室。"
+      },
+      {
+       "q": "What did Mrs Petrova mean by \"mysteries eat your sleep\"?",
+       "options": [
+        "Mystery books are scary.",
+        "You will read instead of sleeping.",
+        "The books are too long."
+       ],
+       "answer": 1,
+       "explain": "看得停不下来，睡觉时间都被吃掉——作者果然打着手电看。"
+      },
+      {
+       "q": "How can children pay less for their next book?",
+       "options": [
+        "By writing about the last book.",
+        "By buying two books.",
+        "By coming on Saturdays."
+       ],
+       "answer": 0,
+       "explain": "带书回来+写一封短信 → 半价。"
+      },
+      {
+       "q": "What do the letters on the wall show?",
+       "options": [
+        "The shop is very old and loved.",
+        "The books are expensive.",
+        "Mrs Petrova writes many letters."
+       ],
+       "answer": 0,
+       "explain": "几百封信，有的作者已长大成家——老店与爱。"
+      },
+      {
+       "q": "What will the writer probably do tonight?",
+       "options": [
+        "Buy the blue book.",
+        "Start reading a book.",
+        "Write the tenth letter."
+       ],
+       "answer": 1,
+       "explain": "I had better start tonight = 今晚开始读。"
+      }
+     ]
+    }
+   ]
   },
   "part4": {
    "name": "Part 4 · 多选完形",
    "desc": "一篇说明文 + 6 空三选一，以词汇为主",
-   "sets": []
+   "sets": [
+    {
+     "id": "rp4-01",
+     "topic": "完形 · 蜜蜂",
+     "title": "Busy Bees",
+     "passage": "Bees are small but very important. They fly from flower to flower and (1) ___ sweet honey for us. One bee family can be very big — up to sixty thousand bees (2) ___ together in one home! Every bee has a job. Some look for food, some clean, and some (3) ___ the baby bees. When a bee finds good flowers, it does a little (4) ___ to tell the others where to go. Bees work all summer to (5) ___ food for the cold months. Without bees, we would have much (6) ___ fruit to eat, so we should be kind to them.",
+     "gaps": [
+      {
+       "options": [
+        "make",
+        "draw",
+        "wash"
+       ],
+       "answer": 0,
+       "explain": "make honey 酿蜜。"
+      },
+      {
+       "options": [
+        "sleep",
+        "live",
+        "shop"
+       ],
+       "answer": 1,
+       "explain": "住在一起 → live together。"
+      },
+      {
+       "options": [
+        "look after",
+        "look for",
+        "look at"
+       ],
+       "answer": 0,
+       "explain": "照顾幼蜂 → look after。"
+      },
+      {
+       "options": [
+        "song",
+        "dance",
+        "picture"
+       ],
+       "answer": 1,
+       "explain": "蜜蜂用「舞蹈」传递方向。"
+      },
+      {
+       "options": [
+        "keep",
+        "lose",
+        "sell"
+       ],
+       "answer": 0,
+       "explain": "为冬天存粮 → keep food。"
+      },
+      {
+       "options": [
+        "more",
+        "less",
+        "better"
+       ],
+       "answer": 1,
+       "explain": "没有蜜蜂水果会少得多 → much less。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-02",
+     "topic": "完形 · 自行车的历史",
+     "title": "Two Wheels",
+     "passage": "The first bicycles were very (1) ___ from the bikes we ride today. They were made of wood and had no pedals — riders pushed the ground with their (2) ___! Later, bikes got one huge front wheel. They were fast but not (3) ___, and riders often fell. About one hundred and forty years ago, bikes with two same-size wheels arrived, and soon everybody wanted one. Today, millions of people (4) ___ their bikes to school or work. Riding is cheap, quiet and good for your (5) ___. In some cities you can even (6) ___ a city bike with a phone and leave it anywhere.",
+     "gaps": [
+      {
+       "options": [
+        "different",
+        "far",
+        "heavy"
+       ],
+       "answer": 0,
+       "explain": "different from 与…不同。"
+      },
+      {
+       "options": [
+        "hands",
+        "feet",
+        "eyes"
+       ],
+       "answer": 1,
+       "explain": "没有脚踏板，用脚蹬地。"
+      },
+      {
+       "options": [
+        "cheap",
+        "safe",
+        "tall"
+       ],
+       "answer": 1,
+       "explain": "快但不安全，常摔倒。"
+      },
+      {
+       "options": [
+        "ride",
+        "drive",
+        "carry"
+       ],
+       "answer": 0,
+       "explain": "ride a bike 骑车。"
+      },
+      {
+       "options": [
+        "health",
+        "money",
+        "school"
+       ],
+       "answer": 0,
+       "explain": "good for your health。"
+      },
+      {
+       "options": [
+        "sell",
+        "break",
+        "take"
+       ],
+       "answer": 2,
+       "explain": "用手机取用共享单车 → take。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-03",
+     "topic": "完形 · 图书馆的一天",
+     "title": "A Day at the Library",
+     "passage": "Our town library is not just a place for books. In the morning, little children come with their parents to (1) ___ to story time. At lunch, students sit in the quiet room and (2) ___ their homework. There is a computer room where old people learn to send emails to their grandchildren — the young librarian (3) ___ them patiently. On Friday afternoons there is a chess club, and you can (4) ___ the games even if you don't play. Best of all, everything is (5) ___ — you never pay. You only need a library card, and you can get one in five (6) ___.",
+     "gaps": [
+      {
+       "options": [
+        "listen",
+        "watch",
+        "read"
+       ],
+       "answer": 0,
+       "explain": "listen to story time 听故事会。"
+      },
+      {
+       "options": [
+        "make",
+        "do",
+        "give"
+       ],
+       "answer": 1,
+       "explain": "do homework 固定搭配。"
+      },
+      {
+       "options": [
+        "helps",
+        "asks",
+        "pays"
+       ],
+       "answer": 0,
+       "explain": "图书管理员耐心帮助他们。"
+      },
+      {
+       "options": [
+        "play",
+        "watch",
+        "win"
+       ],
+       "answer": 1,
+       "explain": "不下棋也可以看 → watch the games。"
+      },
+      {
+       "options": [
+        "free",
+        "new",
+        "open"
+       ],
+       "answer": 0,
+       "explain": "全部免费 → everything is free。"
+      },
+      {
+       "options": [
+        "days",
+        "hours",
+        "minutes"
+       ],
+       "answer": 2,
+       "explain": "五分钟就能办卡。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-04",
+     "topic": "完形 · 声音与音乐",
+     "title": "What Is Sound?",
+     "passage": "Put your hand on your throat and say \"aaah\". Can you feel it moving? Sound is made when something moves very fast, again and again. Musicians use this idea every (1) ___. When you pull a guitar string, it moves and makes the air (2) ___ it move too. The moving air travels to your (3) ___ like small waves on water. Big, slow waves make (4) ___ sounds, like a drum. Small, fast waves make high sounds, like a little (5) ___. In space there is no air, so there are no waves and no sound at all. That is why films about space should really be (6) ___!",
+     "gaps": [
+      {
+       "options": [
+        "day",
+        "sound",
+        "string"
+       ],
+       "answer": 0,
+       "explain": "every day 每天都在用这个原理。"
+      },
+      {
+       "options": [
+        "under",
+        "around",
+        "after"
+       ],
+       "answer": 1,
+       "explain": "琴弦让周围的空气也动起来。"
+      },
+      {
+       "options": [
+        "ears",
+        "hands",
+        "mouth"
+       ],
+       "answer": 0,
+       "explain": "声波传到耳朵。"
+      },
+      {
+       "options": [
+        "high",
+        "low",
+        "sweet"
+       ],
+       "answer": 1,
+       "explain": "大而慢的波 → 低音（鼓）。"
+      },
+      {
+       "options": [
+        "bird",
+        "lion",
+        "fish"
+       ],
+       "answer": 0,
+       "explain": "高音像小鸟叫。"
+      },
+      {
+       "options": [
+        "loud",
+        "quiet",
+        "long"
+       ],
+       "answer": 1,
+       "explain": "太空没有声音，电影本该是安静的。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-05",
+     "topic": "完形 · 早餐",
+     "title": "The First Meal",
+     "passage": "Many doctors say breakfast is the most important (1) ___ of the day. After a long night, your body is like a car with an empty tank — it needs something before it can (2) ___ well. Children who eat a good breakfast often (3) ___ better marks at school because it is easier for them to think. A good breakfast does not need to be big. An egg, some bread and a (4) ___ of milk are enough. Try not to eat too many sweet things in the morning: they wake you up fast, but soon you feel (5) ___ again. And here is a nice idea: get everything ready the night (6) ___, and you can sleep ten more minutes!",
+     "gaps": [
+      {
+       "options": [
+        "meal",
+        "lesson",
+        "game"
+       ],
+       "answer": 0,
+       "explain": "一天中最重要的一餐 → meal。"
+      },
+      {
+       "options": [
+        "sleep",
+        "work",
+        "stop"
+       ],
+       "answer": 1,
+       "explain": "身体需要能量才能好好运转 → work well。"
+      },
+      {
+       "options": [
+        "take",
+        "give",
+        "get"
+       ],
+       "answer": 2,
+       "explain": "get better marks 取得更好成绩。"
+      },
+      {
+       "options": [
+        "glass",
+        "piece",
+        "pair"
+       ],
+       "answer": 0,
+       "explain": "一杯牛奶 → a glass of milk。"
+      },
+      {
+       "options": [
+        "happy",
+        "tired",
+        "tall"
+       ],
+       "answer": 1,
+       "explain": "糖分让你快醒也快累 → tired。"
+      },
+      {
+       "options": [
+        "after",
+        "ago",
+        "before"
+       ],
+       "answer": 2,
+       "explain": "the night before 前一天晚上。"
+      }
+     ]
+    }
+   ]
   },
   "part5": {
    "name": "Part 5 · 开放完形（语法小词，6 分可速成）",
