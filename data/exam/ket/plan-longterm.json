@@ -1,0 +1,84 @@
+{
+  "level": "KET",
+  "title": "长期弧线：从 800 词到 KET 拿证，再到 PET",
+  "phases": [
+    {
+      "id": "core",
+      "name": "核心期",
+      "icon": "🔥",
+      "trigger": "随时启动",
+      "daily": "90 分钟 × 45 天",
+      "vocab": "800 → 约 1700",
+      "milestone": "跨 KET 词汇线、三张卷题型全通",
+      "color": "orange"
+    },
+    {
+      "id": "consolidate",
+      "name": "巩固期",
+      "icon": "🧱",
+      "trigger": "45 天完成后",
+      "daily": "60 分钟",
+      "vocab": "1700 → 约 2300",
+      "milestone": "真题精练、提速、口语常态化",
+      "color": "cyan"
+    },
+    {
+      "id": "register",
+      "name": "报名窗口",
+      "icon": "📮",
+      "trigger": "考前 3 个月开放 / 2 个月截止",
+      "daily": "—",
+      "vocab": "—",
+      "milestone": "★ 2026 年 12 月起联系考点问考期，先占位",
+      "color": "yellow",
+      "highlight": true
+    },
+    {
+      "id": "sprint",
+      "name": "冲刺期",
+      "icon": "🚀",
+      "trigger": "考前 8 周",
+      "daily": "60-90 分钟",
+      "vocab": "2300+",
+      "milestone": "全卷限时、口语突击、模考4 用官方样卷定水平",
+      "color": "pink"
+    },
+    {
+      "id": "exam",
+      "name": "考试",
+      "icon": "🏁",
+      "trigger": "2027 春季（约 3-4 月）",
+      "daily": "—",
+      "vocab": "—",
+      "milestone": "★ KET 目标量表分 140+（Grade A = 证书认定 B1）",
+      "color": "gold",
+      "highlight": true
+    },
+    {
+      "id": "after",
+      "name": "考后",
+      "icon": "🌱",
+      "trigger": "2027 下半年起",
+      "daily": "—",
+      "vocab": "→ 3500",
+      "milestone": "转 PET，目标 153+",
+      "color": "green"
+    }
+  ],
+  "shortcutCard": {
+    "title": "🏅 全案最有价值的一条捷径",
+    "lines": [
+      "KET 考到 140-150 → 剑桥直接认定已达 B1。",
+      "KET 的题比 PET 简单得多（写作只要 25+35 词，口语只考「谈喜好给理由」），但拿到 A 等，证书上写的就是 B1 水平。",
+      "冲 KET 的 A，比硬考 PET 的 C 划算得多，也人道得多。"
+    ]
+  },
+  "excludeCard": {
+    "title": "⛔ 排除项：PET 不提前",
+    "lines": [
+      "PET 排在 KET 拿证之后（2027 下半年起）。",
+      "缺口约 2700 词 + 换层级，业内公认需 8-15 个月。",
+      "硬提前只会浪费报名费和信心。"
+    ]
+  }
+}
