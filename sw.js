@@ -1,7 +1,7 @@
 // sw.js — 英语奇遇记 Service Worker（离线缓存）
 // 注意：所有路径用相对路径，兼容 GitHub Pages 子目录部署。
 // 更新内容时，修改下面的版本号即可触发缓存刷新。
-const CACHE_VERSION = 'ea-v0.3.4';
+const CACHE_VERSION = 'ea-v0.4.0'; // V0.4 剑桥备考中心：版本必须 +1，否则前端永远拿旧缓存
 const CACHE_NAME = `english-adventure-${CACHE_VERSION}`;
 
 // 预缓存的核心文件（相对于 sw.js 所在目录，即项目根）
@@ -75,6 +75,39 @@ const PRECACHE_URLS = [
   './data/pet/reading/pet-reading-1.json',
   './data/pet/reading/pet-reading-2.json',
   './data/pet/reading/pet-reading-3.json',
+  // === V0.4 剑桥备考中心 ===
+  './assets/js/modules/exam/exam-common.js',
+  './assets/js/modules/exam/exam-hub.js',
+  './assets/js/modules/exam/plan.js',
+  './assets/js/modules/exam/knowledge.js',
+  './assets/js/modules/exam/grammar-course.js',
+  './assets/js/modules/exam/reading-drill.js',
+  './assets/js/modules/exam/writing-lab.js',
+  './assets/js/modules/exam/mock-exam.js',
+  './assets/js/modules/exam/checkin.js',
+  './assets/js/modules/exam/resources.js',
+  './assets/js/modules/exam/report.js',
+  './data/exam/index.json',
+  './data/exam/ket/facts.json',
+  './data/exam/ket/plan-45day.json',
+  './data/exam/ket/plan-longterm.json',
+  './data/exam/ket/knowledge.json',
+  './data/exam/ket/grammar-lessons.json',
+  './data/exam/ket/grammar-inventory.json',
+  './data/exam/ket/grammar-errors.json',
+  './data/exam/ket/irregular-verbs.json',
+  './data/exam/ket/reading-drills.json',
+  './data/exam/ket/readers.json',
+  './data/exam/ket/writing-guide.json',
+  './data/exam/ket/listening.json',
+  './data/exam/ket/mocks/index.json',
+  './data/exam/ket/mocks/mock-01.json',
+  './data/exam/ket/mocks/mock-02.json',
+  './data/exam/ket/mocks/mock-03.json',
+  './data/exam/ket/resources.json',
+  './data/exam/pet/facts.json',
+  './data/exam/pet/mocks/index.json',
+  './data/exam/pet/mocks/mock-01.json',
 ];
 
 // install：预缓存核心文件。单个文件失败不应让整体 install 失败，逐个容错。
