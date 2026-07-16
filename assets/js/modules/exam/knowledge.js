@@ -8,7 +8,7 @@ export async function renderKnowledge(app, params = {}) {
   const dir = level.toLowerCase();
   const [facts, know] = await Promise.all([
     loadJSON(`data/exam/${dir}/facts.json`),
-    loadJSON(`data/exam/${dir}/knowledge.json`)
+    level === 'KET' ? loadJSON(`data/exam/${dir}/knowledge.json`) : Promise.resolve(null) // PET 无拼读/听说卡
   ]);
   if (!facts) {
     app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">💡</span><div class="empty-text">知识点数据加载失败</div></div>';
@@ -64,12 +64,20 @@ export async function renderKnowledge(app, params = {}) {
       <div class="text-xs text-gray-500 mt-2">${facts.scale.note}</div>
     </div>
 
+    ${facts.grammarDiff ? `
+    <div class="card-cartoon mb-4">
+      <h3 class="font-bold mb-2">🎼 ${facts.grammarDiff.title}</h3>
+      ${facts.grammarDiff.items.map(i => `<p class="text-sm text-gray-700 mb-1">· ${i}</p>`).join('')}
+    </div>` : ''}
+
+    ${facts.roi && facts.roi.length ? `
     <!-- 2.4 投入产出比策略卡 -->
     <div class="card-cartoon mb-4 border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-yellow-50">
       <h3 class="font-bold mb-2">💰 投入产出比策略</h3>
       ${facts.roi.map(r => `<p class="text-sm text-gray-700 mb-1.5">· ${r}</p>`).join('')}
-    </div>
+    </div>` : ''}
 
+    ${know ? `
     <!-- 2.5 自然拼读入口 -->
     <button id="phonicsBtn" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-br from-cyan-50 to-blue-50 mb-3">
       <div class="text-4xl">🔤</div>
@@ -78,7 +86,7 @@ export async function renderKnowledge(app, params = {}) {
         <div class="text-xs text-gray-500">W1-W2 每天 10 分钟 · 回报最高的一格</div>
       </div>
       <div class="text-2xl text-gray-300">›</div>
-    </button>
+    </button>` : ''}
 
     ${know ? `
     <div class="card-cartoon mb-3">

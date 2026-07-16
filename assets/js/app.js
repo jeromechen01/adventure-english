@@ -120,6 +120,9 @@ async function navigate(page, params = {}) {
   if (profile.grade === 'KET') {
     const map = { learn: 'exam-hub', grammar: 'exam-grammar', reading: 'exam-reading', writing: 'exam-writing' };
     if (map[page]) page = map[page];
+  } else if (profile.grade === 'PET' && page === 'learn') {
+    // PET：学习页进备考中心（轻量版）；词库闯关/阅读等原有入口不变
+    page = 'exam-hub';
   }
 
   // 备考中心模块：动态加载 exam 目录下的模块

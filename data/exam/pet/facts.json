@@ -1,0 +1,51 @@
+{
+  "level": "PET",
+  "fullName": "B1 Preliminary for Schools",
+  "note": "考试事实可呈现；全部为要点转述。PET 排在 KET 拿证之后（2027 下半年起）。",
+  "overview": {
+    "papers": 4,
+    "totalTime": "全程约 2 小时 20 分钟",
+    "listeningTwice": "听力每段录音放两遍",
+    "speakingExaminers": "口语两名考官，四部分",
+    "paperVsComputer": "纸考与机考均有"
+  },
+  "papers": [
+    { "id": "reading", "name": "阅读", "time": "45 分钟", "structure": "6 部分 / 32 题", "weight": "25%", "scoring": "每题 1 分", "timing": "新增句子还原与作者态度题", "parts": [] },
+    { "id": "writing", "name": "写作", "time": "45 分钟", "structure": "2 部分（邮件 + 文章/故事二选一）", "weight": "25%", "scoring": "各 20 分", "timing": "两篇各约 100 词", "parts": [] },
+    { "id": "listening", "name": "听力", "time": "约 30 分钟（含 6 分钟誊写）", "structure": "4 部分 / 25 题", "weight": "25%", "scoring": "每题 1 分", "timing": "每段两遍", "parts": [] },
+    { "id": "speaking", "name": "口语", "time": "每两名考生 10-12 分钟", "structure": "4 部分（含 1 分钟独白 + 协商讨论）", "weight": "25%", "scoring": "四维度", "timing": "两名考官", "parts": [] }
+  ],
+  "scale": {
+    "name": "剑桥量表 120-170（PET 区间）",
+    "rows": [
+      { "range": "160-170", "grade": "Grade A", "cert": "证明已达 Level B2", "highlight": true },
+      { "range": "153-159", "grade": "Grade B", "cert": "Pass with Merit（B1）" },
+      { "range": "140-152", "grade": "Grade C", "cert": "Pass（B1）" },
+      { "range": "120-139", "grade": "—", "cert": "Level A2" }
+    ],
+    "note": "总分 = 四项技能量表分的平均值。目标 153+（B 等及以上）。"
+  },
+  "gapCard": {
+    "title": "KET → PET 跨度说明（为什么要 8-15 个月）",
+    "rows": [
+      { "item": "写作", "ket": "25+35 词两小篇", "pet": "两篇各约 100 词" },
+      { "item": "口语", "ket": "2 部分，谈喜好给理由", "pet": "4 部分，含 1 分钟独白 + 与搭档协商达成一致" },
+      { "item": "阅读", "ket": "7 部分基础题型", "pet": "新增句子还原题与作者态度/观点题" },
+      { "item": "词汇", "ket": "约 1500-2000", "pet": "约 3500" }
+    ],
+    "conclusion": "缺口约 2700 词 + 换层级 → 业内公认需 8-15 个月。KET 拿证之后再启动，不提前。"
+  },
+  "grammarDiff": {
+    "title": "语法差异要点（相对 KET 新增）",
+    "items": [
+      "现在完成的完整用法（不再只限 7 个搭配词）",
+      "过去完成（had done）初步",
+      "被动语态扩展到更多时态",
+      "间接引语（say/tell + that 从句的时态后移）",
+      "第一、二条件句（If I have… / If I had…）",
+      "关系从句的更完整用法",
+      "used to 表过去习惯"
+    ]
+  },
+  "roi": []
+}

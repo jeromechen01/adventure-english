@@ -1,0 +1,35 @@
+{
+  "id": "mock-01",
+  "name": "PET 体验卷 01（缩量原创）",
+  "difficulty": "B1",
+  "note": "缩量体验：阅读 3 部分样题 + 写作 1 题。感受 KET→PET 的跨度用，不作正式评估。",
+  "parts": {
+    "part1": {
+      "id": "pm1-p1", "topic": "标志与短消息（B1）",
+      "items": [
+        { "context": "健身房门口", "text": "Members may bring one guest per visit at no extra cost, but guests must sign in at reception and stay with the member at all times.", "q": "What does the notice say about guests?", "options": ["They must pay a small fee.", "They need to stay with the member.", "They can visit alone after signing in."], "answer": 1, "explain": "must stay with the member at all times。" },
+        { "context": "班级群消息", "text": "Ms Lam here. Those who missed Friday's history test because of the sports competition should see me before Wednesday to arrange another time — after that, the mark will stay empty.", "q": "Why should some students see Ms Lam?", "options": ["To join the sports competition.", "To fix a new time for a test.", "To check their history marks."], "answer": 1, "explain": "arrange another time = 约补考时间，周三前。" },
+        { "context": "车站广播文字版", "text": "The 15.40 to Riverside is delayed by approximately 20 minutes. Passengers for Mill Lane may prefer the 15.55 bus from outside the station, which arrives earlier.", "q": "What are Mill Lane passengers advised to do?", "options": ["Wait for the delayed train.", "Consider taking the bus instead.", "Go to Riverside first."], "answer": 1, "explain": "may prefer the 15.55 bus… arrives earlier。" },
+        { "context": "咖啡店柜台", "text": "Loyalty cards: buy nine hot drinks and your tenth is free. Cards cannot be used with any other offer.", "q": "What is true about the loyalty card?", "options": ["Every ninth drink is free.", "It cannot be combined with other offers.", "It works for cold drinks too."], "answer": 1, "explain": "cannot be used with any other offer；免费的是第十杯热饮。" },
+        { "context": "朋友的语音转文字", "text": "Change of plan — Dad can't drive us on Saturday, so unless it rains we're cycling to the lake instead. Bring a helmet and something for the picnic. Still meeting at nine!", "q": "What has changed about Saturday?", "options": ["The meeting time.", "How they will travel.", "The place they will go."], "answer": 1, "explain": "开车改骑车；时间地点未变。" }
+      ]
+    },
+    "part5": {
+      "id": "pm1-p5", "topic": "开放完形（B1：动词形式也考）",
+      "passage": "Dear Marta,\nI'm sorry I haven't written (1) ___ such a long time — this term has been so busy! Our orchestra (2) ___ chosen to play at the regional festival, so we have practised twice a week (3) ___ September. I have never worked so hard, but I love it. The festival takes place next month, and if we play well, we (4) ___ go to the national round in the capital. My violin teacher says I should not worry so much, (5) ___ worrying is what I do best! I'll tell you everything (6) ___ soon as it's over.\nLove, Siyu",
+      "gaps": [
+        { "answer": "for", "category": "介词(时间段)", "shape": "一段时间 → for", "explain": "for such a long time。" },
+        { "answer": "was", "alt": ["got", "has"], "category": "被动/完成", "shape": "乐团「被」选中", "explain": "was chosen 被动语态（has been chosen 亦通，此处填一词 was/got）。" },
+        { "answer": "since", "category": "介词(起点)", "shape": "从某时间点开始 → since", "explain": "since September 自九月以来（配合完成时）。" },
+        { "answer": "will", "alt": ["can", "may"], "category": "情态/将来", "shape": "条件句主句 → will", "explain": "第一条件句：if we play well, we will go。" },
+        { "answer": "but", "category": "连接词", "shape": "转折 → but", "explain": "老师让别担心，「但」担心是我的强项——自嘲转折。" },
+        { "answer": "as", "category": "连接词(搭配)", "shape": "as ___ as 结构", "explain": "as soon as 一…就…。" }
+      ]
+    },
+    "p6": {
+      "id": "pm1-w1", "topic": "PET 写作体验（约 100 词邮件）",
+      "prompt": "Read this email from your English-speaking friend Robin.\n\nMy cousin is coming to stay and she plays music like you! What instrument do you think she should try in our school band? How long does it take to get good? And is it expensive to start?\nRobin\n\nWrite your email to Robin using all the notes.（体验 B1 写作量：约 100 词）",
+      "points": ["建议尝试什么乐器并给理由", "说说需要练多久", "谈谈起步花费"]
+    }
+  }
+}

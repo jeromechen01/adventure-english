@@ -1,0 +1,29 @@
+{
+  "level": "PET",
+  "explainCard": [
+    "这是 PET 体验卷（缩量版），用来在 KET 拿证后感受 PET 的题型跨度。",
+    "完整备考请等 KET 结束后再启动——硬提前只会浪费报名费和信心。"
+  ],
+  "scoring": "体验卷：阅读缩量样题 + 写作一题。不计入 KET 报考决策。",
+  "estimateNote": "PET 量表区间 120-170：153+ ≈ B 等（Pass with Merit）。",
+  "mocks": [
+    {
+      "id": "mock-01",
+      "name": "PET 体验卷 01（缩量）",
+      "when": "KET 拿证后",
+      "file": "data/exam/pet/mocks/mock-01.json",
+      "listeningSet": null,
+      "difficulty": "B1 体验",
+      "preNote": "感受一下 B1 的难度差——读不懂很正常，这正是「需要 8-15 个月」的原因。"
+    }
+  ],
+  "decisionMatrix": {
+    "title": "PET 报考参考（KET 拿证后使用）",
+    "rows": [
+      { "range": "< 140", "verdict": "继续积累", "action": "按巩固期节奏补词汇到 3000+" },
+      { "range": "140-152", "verdict": "可过线", "action": "报名冲 C（Pass）" },
+      { "range": "≥ 153", "verdict": "状态很好", "action": "报名冲 B/A", "highlight": true }
+    ],
+    "petNote": "以上为体验参考，正式决策用官方样卷。"
+  }
+}

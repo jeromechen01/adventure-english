@@ -13,6 +13,9 @@ export async function renderExamHub(app) {
   const level = examLevel();
   const ep = storage.getExamProfile();
 
+  // PET：轻量 Dashboard（跨度说明 + 入口），完整备考中心是 KET 的
+  if (level === 'PET') return renderPetHub(app);
+
   // 首次进入：设考试目标日 + 点「开始第 1 天」（不设起始日期——Day N 由完成度推进）
   if (!ep.started) return renderSetup(app, level, ep);
 
@@ -143,6 +146,46 @@ export async function renderExamHub(app) {
   // 修改考试目标日
   const dateBtn = app.querySelector('#editDateBtn');
   if (dateBtn) dateBtn.addEventListener('click', () => showDatePicker(app, level));
+}
+
+// PET 轻量 Dashboard：跨度说明卡 + 现有词库/阅读入口 + 体验卷/资源
+async function renderPetHub(app) {
+  const { loadJSON } = await import('../../app.js');
+  const facts = await loadJSON('data/exam/pet/facts.json');
+  const gap = facts && facts.gapCard;
+  app.innerHTML = `
+    <div class="card-cartoon mb-4 text-center bg-gradient-to-br from-orange-50 to-pink-50">
+      <div class="text-5xl mb-2">🎓</div>
+      <h2 class="text-xl font-bold">PET (B1 Preliminary)</h2>
+      <p class="text-xs text-gray-500 mt-1">排在 KET 拿证之后（2027 下半年起）——现在的任务是攒词汇</p>
+    </div>
+    ${gap ? `
+    <div class="card-cartoon mb-4 border-2 border-red-300 bg-red-50">
+      <div class="font-bold text-sm mb-2">📏 ${gap.title}</div>
+      ${gap.rows.map(r => `
+        <div class="flex gap-2 text-xs py-1.5 border-b border-red-100 last:border-0">
+          <span class="font-bold" style="min-width:44px">${r.item}</span>
+          <span class="text-gray-600 flex-1">KET: ${r.ket}</span>
+          <span class="text-gray-800 flex-1">PET: ${r.pet}</span>
+        </div>`).join('')}
+      <div class="text-xs text-red-600 mt-2">${gap.conclusion}</div>
+    </div>` : ''}
+    <div class="space-y-2">
+      ${[
+        ['words', '🚀', 'PET 话题词库闯关', '22 个话题，主线任务'],
+        ['reading', '📖', 'PET 阅读', '15 篇 B1 阅读'],
+        ['exam-knowledge', '💡', 'PET 考试知识点', '4 张卷 / 量表 153+ 目标'],
+        ['exam-mock', '📝', 'PET 体验卷', '感受 B1 跨度（KET 后再正式练）'],
+        ['exam-resources', '🔗', '官方资源', 'PET 样卷/词表/评分标准外链']
+      ].map(([page, icon, name, desc]) => `
+        <button data-nav="${page}" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left" style="padding:12px 14px">
+          <span class="text-3xl">${icon}</span>
+          <div class="flex-1"><div class="font-bold text-sm">${name}</div><div class="text-xs text-gray-500">${desc}</div></div>
+          <span class="text-xl text-gray-300">›</span>
+        </button>`).join('')}
+    </div>
+  `;
+  app.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => window.__nav(b.dataset.nav)));
 }
 
 // 首次进入的起始设置
