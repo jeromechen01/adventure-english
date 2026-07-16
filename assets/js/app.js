@@ -9,6 +9,7 @@ import { renderGrammarPage } from './modules/grammar.js';
 import { renderReadingPage } from './modules/reading.js';
 import { renderWritingPage } from './modules/writing.js';
 import { renderPetTopicMap, collectPetWordsById } from './modules/pet.js';
+// V0.4 剑桥备考中心：模块按需动态 import（减小首屏体积），路由见 navigate()
 
 // 全局状态
 const state = {
@@ -91,6 +92,7 @@ function updateTopNav() {
 
 function gradeLabel(g) {
   if (g === 'PET') return 'PET 备考';
+  if (g === 'KET') return 'KET 备考';
   const map = { 1: '一年级', 2: '二年级', 3: '三年级', 4: '四年级', 5: '五年级', 6: '六年级', 7: '七年级', 8: '八年级', 9: '九年级' };
   return map[g] || `${g}年级`;
 }
@@ -113,6 +115,27 @@ async function navigate(page, params = {}) {
   const app = document.getElementById('app');
   app.className = 'max-w-3xl mx-auto px-4 py-4 fade-in';
 
+  // V0.4：KET 级别时，学习/语法/阅读/写作入口统一映射到备考中心对应模块
+  const profile = storage.getProfile();
+  if (profile.grade === 'KET') {
+    const map = { learn: 'exam-hub', grammar: 'exam-grammar', reading: 'exam-reading', writing: 'exam-writing' };
+    if (map[page]) page = map[page];
+  }
+
+  // 备考中心模块：动态加载 exam 目录下的模块
+  if (page.startsWith('exam-')) {
+    state.page = page;
+    try {
+      const mod = await examModule(page);
+      await mod(app, params);
+    } catch (e) {
+      console.error('备考模块加载失败:', page, e);
+      app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">😣</span><div class="empty-text">模块加载失败</div><div class="empty-sub">请刷新重试</div></div>';
+    }
+    updateTopNav();
+    return;
+  }
+
   switch (page) {
     case 'home':       await renderHome(app); break;
     case 'learn':      renderLearn(app); break;
@@ -134,6 +157,23 @@ async function navigate(page, params = {}) {
 
 // 暴露给其他模块
 window.__nav = navigate;
+
+// V0.4：备考中心路由表（页面名 → 动态 import 后的渲染函数）
+async function examModule(page) {
+  switch (page) {
+    case 'exam-hub':       return (await import('./modules/exam/exam-hub.js')).renderExamHub;
+    case 'exam-plan':      return (await import('./modules/exam/plan.js')).renderPlan;
+    case 'exam-knowledge': return (await import('./modules/exam/knowledge.js')).renderKnowledge;
+    case 'exam-grammar':   return (await import('./modules/exam/grammar-course.js')).renderGrammarCourse;
+    case 'exam-reading':   return (await import('./modules/exam/reading-drill.js')).renderReadingDrill;
+    case 'exam-writing':   return (await import('./modules/exam/writing-lab.js')).renderWritingLab;
+    case 'exam-mock':      return (await import('./modules/exam/mock-exam.js')).renderMockExam;
+    case 'exam-checkin':   return (await import('./modules/exam/checkin.js')).renderCheckin;
+    case 'exam-resources': return (await import('./modules/exam/resources.js')).renderResources;
+    case 'exam-report':    return (await import('./modules/exam/report.js')).renderReport;
+    default: throw new Error('未知备考模块: ' + page);
+  }
+}
 
 // === 首页 ===
 async function renderHome(app) {
@@ -544,12 +584,21 @@ function showGradePicker() {
           `;
         }).join('')}
       </div>
-      <button data-grade="PET" class="w-full card-cartoon tap-bounce mt-3 flex items-center gap-3 text-left ${profile.grade==='PET'?'ring-2 ring-primary':''}"
+      <div class="mt-4 mb-1 text-xs font-bold text-gray-400">🎓 剑桥备考</div>
+      <button data-grade="KET" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left ${profile.grade==='KET'?'ring-2 ring-primary':''}"
+        style="padding:12px 14px;background:linear-gradient(135deg,#FFF3C2,#FFE0B0)">
+        <div class="text-3xl">🗝️</div>
+        <div class="flex-1">
+          <div class="font-bold text-sm">KET (A2 Key for Schools)</div>
+          <div class="text-[11px] text-gray-500">45 天备考中心 · 目标 2027 春季 140+</div>
+        </div>
+      </button>
+      <button data-grade="PET" class="w-full card-cartoon tap-bounce mt-2 flex items-center gap-3 text-left ${profile.grade==='PET'?'ring-2 ring-primary':''}"
         style="padding:12px 14px;background:linear-gradient(135deg,#FFE3C2,#FFD0E0)">
         <div class="text-3xl">🎓</div>
         <div class="flex-1">
-          <div class="font-bold text-sm">PET 剑桥备考</div>
-          <div class="text-[11px] text-gray-500">B1 话题词汇 + 阅读，进阶挑战</div>
+          <div class="font-bold text-sm">PET (B1 Preliminary)</div>
+          <div class="text-[11px] text-gray-500">B1 话题词汇 + 阅读，KET 拿证后再来</div>
         </div>
       </button>
     </div>
@@ -557,12 +606,14 @@ function showGradePicker() {
   document.querySelectorAll('[data-grade]').forEach(btn => {
     btn.addEventListener('click', () => {
       const raw = btn.dataset.grade;
-      const g = raw === 'PET' ? 'PET' : parseInt(raw);
+      const g = (raw === 'PET' || raw === 'KET') ? raw : parseInt(raw);
       storage.setGrade(g);
       closeModal();
       updateTopNav();
-      // PET 与数字年级页面结构不同，切换后统一回单词主页，避免停留在不兼容的子页
-      navigate(g === 'PET' ? 'words' : state.page);
+      // 备考级别与数字年级页面结构不同，切换后回各自主页，避免停留在不兼容的子页
+      if (g === 'KET') navigate('exam-hub');
+      else if (g === 'PET') navigate('words');
+      else navigate(state.page.startsWith('exam-') ? 'home' : state.page);
       toast(`已切换至 ${gradeLabel(g)}`, 'success');
     });
   });
@@ -619,6 +670,10 @@ function showFirstLaunchWelcome() {
           `;
         }).join('')}
       </div>
+      <button data-grade="KET" class="w-full card-cartoon tap-bounce mb-2 flex items-center gap-2 text-left" style="padding:10px 12px;background:linear-gradient(135deg,#FFF3C2,#FFE0B0)">
+        <div class="text-2xl">🗝️</div>
+        <div class="font-bold text-xs flex-1">KET 剑桥备考 (A2 Key for Schools)</div>
+      </button>
       <button data-grade="PET" class="w-full card-cartoon tap-bounce mb-4 flex items-center gap-2 text-left" style="padding:10px 12px;background:linear-gradient(135deg,#FFE3C2,#FFD0E0)">
         <div class="text-2xl">🎓</div>
         <div class="font-bold text-xs flex-1">PET 剑桥备考 (B1)</div>
@@ -629,10 +684,10 @@ function showFirstLaunchWelcome() {
   document.querySelectorAll('[data-grade]').forEach(btn => {
     btn.addEventListener('click', () => {
       const raw = btn.dataset.grade;
-      storage.setGrade(raw === 'PET' ? 'PET' : parseInt(raw));
+      storage.setGrade((raw === 'PET' || raw === 'KET') ? raw : parseInt(raw));
       closeModal();
       updateTopNav();
-      navigate('home');
+      navigate(raw === 'KET' ? 'exam-hub' : 'home');
       toast('🎉 欢迎，开始你的英语奇遇吧！', 'success');
     });
   });

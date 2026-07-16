@@ -28,8 +28,8 @@ export function mnemonicHtml(w) {
 export async function renderWordsPage(app, params) {
   const profile = storage.getProfile();
 
-  // PET 级别：走话题闯关分支
-  if (profile.grade === 'PET') {
+  // PET/KET 级别：走剑桥话题闯关分支（KET 备考期共用话题词库积累词汇量）
+  if (profile.grade === 'PET' || profile.grade === 'KET') {
     return renderPetWordsHome(app);
   }
 

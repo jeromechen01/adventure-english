@@ -20,7 +20,17 @@ const KEYS = {
   WORD_DEX: 'wordDex',        // 单词图鉴 { [grade]: [wordId,...] }
   DAILY_FIRST_CLEAR: 'dailyFirstClear', // 每日首关加成 { date }
   STATS: 'stats',             // 杂项统计 { bossKills, threeStars, comboMax, regionClears, reinforceGrads }
-  RECITATION: 'recitation'    // 背诵成绩 { [articleId]: bestScore }
+  RECITATION: 'recitation',   // 背诵成绩 { [articleId]: bestScore }
+  // === V0.4 剑桥备考中心 ===
+  EXAM_PROFILE: 'examProfile',   // { level:'KET'|'PET', examDate:'2027-04-15', started:true }
+  EXAM_PLAN: 'examPlan',         // { [level]: { day:N, slots:{ [day]:{ [slotId]:true } } } }
+  EXAM_CHECKIN: 'examCheckin',   // { [level]: { [dateISO]: doneSlotCount } }  真实日期热力图
+  EXAM_MINUTES: 'examMinutes',   // { [level]: { [dateISO]: minutes } }  健康护栏用
+  EXAM_LESSONS: 'examLessons',   // { [level]: { [lessonId]: 'learning'|'done' } }
+  EXAM_MOCKS: 'examMocks',       // { [level]: { [mockId]: {reading,writing,listening,scaled,date} } }
+  EXAM_WRITING: 'examWriting',   // { [level]: { [taskId]: { text, updatedAt } } }
+  EXAM_RESOURCES: 'examResources', // [resourceId,...] 已访问资源
+  EXAM_DRILLS: 'examDrills'      // { [level]: { [drillId]: { best, tries } } } 专项练习成绩
 };
 
 // 通用读写
@@ -66,7 +76,15 @@ export function setProfile(profile) {
 export function setGrade(grade) {
   const p = getProfile();
   p.grade = grade;
-  return setProfile(p);
+  // V0.4：剑桥备考级别与数字年级并存，examLevel 冗余记录方便备考模块读取
+  p.examLevel = (grade === 'KET' || grade === 'PET') ? grade : null;
+  const ok = setProfile(p);
+  if (p.examLevel) {
+    const ep = getExamProfile();
+    ep.level = p.examLevel;
+    setExamProfile(ep);
+  }
+  return ok;
 }
 
 // === 进度: 已学单词 ===
@@ -482,6 +500,204 @@ export function saveRecitationScore(articleId, score) {
   all[articleId] = Math.max(all[articleId] || 0, score); // 取最高分
   set(KEYS.RECITATION, all);
   return all[articleId];
+}
+
+// ============================================================
+// === V0.4 剑桥备考中心 ===
+// ★★ 核心设计：两个时钟解耦 ★★
+//   计划进度 Day N —— 只由「完成度」驱动（advancePlanDay 时才 +1），
+//                     绝不用日期差计算；跳过一天进度原地等，不惩罚不欠账。
+//   考试倒计时 D-XXX —— 由「日历」驱动（examDate - 今天）。
+//   打卡日历 —— 记录「真实日期」，哪天学了哪天没学如实显示。
+// ============================================================
+
+const PLAN_MAX_DAY = 45; // 45 天核心期
+
+// 备考档案：级别 + 考试目标日（注意：没有 planStartDate，进度不靠日期）
+export function getExamProfile() {
+  return get(KEYS.EXAM_PROFILE, { level: null, examDate: '2027-04-15', started: false });
+}
+
+export function setExamProfile(p) {
+  return set(KEYS.EXAM_PROFILE, p);
+}
+
+// 内部：取某级别的计划状态（默认 Day 1，全部未完成）
+function getExamPlanState(level) {
+  const all = get(KEYS.EXAM_PLAN, {}) || {};
+  return all[level] || { day: 1, slots: {} };
+}
+
+function setExamPlanState(level, state) {
+  const all = get(KEYS.EXAM_PLAN, {}) || {};
+  all[level] = state;
+  return set(KEYS.EXAM_PLAN, all);
+}
+
+// 当前 Day N（完成度驱动，1-45，默认 1）
+export function getPlanDay(level) {
+  const s = getExamPlanState(level);
+  return Math.min(Math.max(s.day || 1, 1), PLAN_MAX_DAY);
+}
+
+// 完成一天 → Day +1（封顶 45）。这是 Day N 前进的唯一途径。
+export function advancePlanDay(level) {
+  const s = getExamPlanState(level);
+  s.day = Math.min((s.day || 1) + 1, PLAN_MAX_DAY);
+  setExamPlanState(level, s);
+  return s.day;
+}
+
+// 某一天六格的勾选状态 { slotId: true }
+export function getPlanTaskState(level, day) {
+  const s = getExamPlanState(level);
+  return (s.slots && s.slots[day]) || {};
+}
+
+// 勾选/取消某格；完成时顺带写入真实日期打卡
+export function markPlanTask(level, day, slotId, done) {
+  const s = getExamPlanState(level);
+  if (!s.slots) s.slots = {};
+  if (!s.slots[day]) s.slots[day] = {};
+  if (done) s.slots[day][slotId] = true;
+  else delete s.slots[day][slotId];
+  setExamPlanState(level, s);
+  return s.slots[day];
+}
+
+// === 打卡（真实日期，热力图用）===
+function todayISO() {
+  const d = new Date();
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  const dd = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${mm}-${dd}`;
+}
+
+// 记录某真实日期完成的格数（取当日最大值）
+export function recordCheckin(level, dateISO, slotCount) {
+  const all = get(KEYS.EXAM_CHECKIN, {}) || {};
+  if (!all[level]) all[level] = {};
+  const day = dateISO || todayISO();
+  all[level][day] = Math.max(all[level][day] || 0, slotCount);
+  return set(KEYS.EXAM_CHECKIN, all);
+}
+
+// 热力图数据：{ dateISO: doneSlotCount }
+export function getCheckinCalendar(level) {
+  const all = get(KEYS.EXAM_CHECKIN, {}) || {};
+  return all[level] || {};
+}
+
+// 本周学习天数（周一为一周起点）——替代 streak，不做断签焦虑
+export function getWeekStudyDays(level) {
+  const cal = getCheckinCalendar(level);
+  const now = new Date();
+  const monday = new Date(now);
+  const wd = (now.getDay() + 6) % 7; // 周一=0
+  monday.setDate(now.getDate() - wd);
+  monday.setHours(0, 0, 0, 0);
+  let n = 0;
+  Object.keys(cal).forEach(dateISO => {
+    const d = new Date(dateISO + 'T00:00:00');
+    if (d >= monday && d <= now && cal[dateISO] > 0) n++;
+  });
+  return n;
+}
+
+// === 学习时长（健康护栏：单日超 120 分钟温和劝停）===
+export function getDailyMinutes(level, dateISO) {
+  const all = get(KEYS.EXAM_MINUTES, {}) || {};
+  return (all[level] && all[level][dateISO || todayISO()]) || 0;
+}
+
+export function addDailyMinutes(level, minutes) {
+  const all = get(KEYS.EXAM_MINUTES, {}) || {};
+  if (!all[level]) all[level] = {};
+  const day = todayISO();
+  all[level][day] = (all[level][day] || 0) + minutes;
+  set(KEYS.EXAM_MINUTES, all);
+  return all[level][day];
+}
+
+// === 语法课进度（三态：未学(无记录) / learning / done）===
+export function getLessonProgress(level) {
+  const all = get(KEYS.EXAM_LESSONS, {}) || {};
+  return all[level] || {};
+}
+
+export function markLessonDone(level, lessonId, status = 'done') {
+  const all = get(KEYS.EXAM_LESSONS, {}) || {};
+  if (!all[level]) all[level] = {};
+  all[level][lessonId] = status;
+  return set(KEYS.EXAM_LESSONS, all);
+}
+
+// === 模考成绩 ===
+export function saveMockResult(level, mockId, result) {
+  const all = get(KEYS.EXAM_MOCKS, {}) || {};
+  if (!all[level]) all[level] = {};
+  all[level][mockId] = { ...result, date: todayISO() };
+  return set(KEYS.EXAM_MOCKS, all);
+}
+
+export function getMockResults(level) {
+  const all = get(KEYS.EXAM_MOCKS, {}) || {};
+  return all[level] || {};
+}
+
+// 报考决策：按最近一次模考的估算量表分给建议（目标 2027 春）
+export function getExamDecision(level) {
+  const mocks = getMockResults(level);
+  const list = Object.entries(mocks).sort((a, b) => (a[1].date || '').localeCompare(b[1].date || ''));
+  if (!list.length) return null;
+  const last = list[list.length - 1][1];
+  const scaled = last.scaled || 0;
+  if (scaled >= 134) return { scaled, verdict: '超预期', action: '报 2027 春并冲 A（140+）→ 证书直接认定 B1！' };
+  if (scaled >= 120) return { scaled, verdict: '已过 A2 线', action: '报 2027 春，冲 B（133+）' };
+  if (scaled >= 110) return { scaled, verdict: '接近及格', action: '报 2027 春，争 120+' };
+  return { scaled, verdict: '尚未到位', action: '延后，先补基本盘，考虑 2027 秋' };
+}
+
+// === 写作草稿 ===
+export function saveWritingDraft(level, taskId, text) {
+  const all = get(KEYS.EXAM_WRITING, {}) || {};
+  if (!all[level]) all[level] = {};
+  all[level][taskId] = { text, updatedAt: Date.now() };
+  return set(KEYS.EXAM_WRITING, all);
+}
+
+export function getWritingDrafts(level) {
+  const all = get(KEYS.EXAM_WRITING, {}) || {};
+  return all[level] || {};
+}
+
+// === 资源已访问标记 ===
+export function markResourceVisited(id) {
+  const list = get(KEYS.EXAM_RESOURCES, []) || [];
+  if (!list.includes(id)) {
+    list.push(id);
+    set(KEYS.EXAM_RESOURCES, list);
+  }
+}
+
+export function getVisitedResources() {
+  return get(KEYS.EXAM_RESOURCES, []) || [];
+}
+
+// === 专项练习成绩（阅读/听力 drill）===
+export function saveDrillResult(level, drillId, score) {
+  const all = get(KEYS.EXAM_DRILLS, {}) || {};
+  if (!all[level]) all[level] = {};
+  const rec = all[level][drillId] || { best: 0, tries: 0 };
+  rec.best = Math.max(rec.best, score);
+  rec.tries++;
+  all[level][drillId] = rec;
+  return set(KEYS.EXAM_DRILLS, all);
+}
+
+export function getDrillResults(level) {
+  const all = get(KEYS.EXAM_DRILLS, {}) || {};
+  return all[level] || {};
 }
 
 // === 数据导入导出 ===

@@ -1,0 +1,67 @@
+{
+  "version": "0.4.0",
+  "note": "剑桥备考中心数据清单。levels 列出各级别可用模块与数据文件；files 供 sw.js 预缓存登记核对。所有练习内容 100% 原创，官方资源只做外链。",
+  "levels": [
+    {
+      "id": "KET",
+      "name": "A2 Key for Schools",
+      "shortName": "KET",
+      "icon": "🗝️",
+      "targetSeason": "2027 春季",
+      "defaultExamDate": "2027-04-15",
+      "modules": {
+        "plan": true,
+        "knowledge": true,
+        "grammar": true,
+        "reading": true,
+        "writing": true,
+        "mock": true,
+        "checkin": true,
+        "resources": true,
+        "report": true
+      },
+      "files": [
+        "data/exam/ket/facts.json",
+        "data/exam/ket/plan-45day.json",
+        "data/exam/ket/plan-longterm.json",
+        "data/exam/ket/knowledge.json",
+        "data/exam/ket/grammar-lessons.json",
+        "data/exam/ket/grammar-inventory.json",
+        "data/exam/ket/grammar-errors.json",
+        "data/exam/ket/irregular-verbs.json",
+        "data/exam/ket/reading-drills.json",
+        "data/exam/ket/readers.json",
+        "data/exam/ket/writing-guide.json",
+        "data/exam/ket/listening.json",
+        "data/exam/ket/mocks/index.json",
+        "data/exam/ket/mocks/mock-01.json",
+        "data/exam/ket/mocks/mock-02.json",
+        "data/exam/ket/mocks/mock-03.json",
+        "data/exam/ket/resources.json"
+      ]
+    },
+    {
+      "id": "PET",
+      "name": "B1 Preliminary for Schools",
+      "shortName": "PET",
+      "icon": "🎓",
+      "targetSeason": "2027 下半年起（KET 拿证之后）",
+      "defaultExamDate": null,
+      "modules": {
+        "plan": false,
+        "knowledge": true,
+        "grammar": false,
+        "reading": false,
+        "writing": false,
+        "mock": true,
+        "checkin": false,
+        "resources": true,
+        "report": false
+      },
+      "files": [
+        "data/exam/pet/facts.json",
+        "data/exam/pet/mocks/mock-01.json"
+      ]
+    }
+  ]
+}
