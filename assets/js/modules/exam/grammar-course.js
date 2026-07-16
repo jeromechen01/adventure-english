@@ -1,0 +1,378 @@
+// modules/exam/grammar-course.js —— 模块 3：语法八课（乐队比喻）
+// 视图：主页(课程树+错误分区+考纲+动词闯关入口) / 课程详情(讲解+例句+练习) / 不规则动词(接入闯关)
+import { loadJSON, toast } from '../../app.js';
+import * as storage from '../../storage.js';
+import { renderLevelMap } from '../levels.js';
+import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
+
+const ZONE_STYLE = {
+  red: { badge: '🔴', cls: 'border-red-300 bg-red-50' },
+  yellow: { badge: '🟡', cls: 'border-yellow-300 bg-yellow-50' },
+  gray: { badge: '⚪', cls: 'border-gray-200 bg-gray-50' },
+  none: { badge: '🚫', cls: 'border-gray-200 bg-gray-50' }
+};
+
+export async function renderGrammarCourse(app, params = {}) {
+  const level = examLevel();
+  const dir = level.toLowerCase();
+  const [lessons, inventory, errors, verbs] = await Promise.all([
+    loadJSON(`data/exam/${dir}/grammar-lessons.json`),
+    loadJSON(`data/exam/${dir}/grammar-inventory.json`),
+    loadJSON(`data/exam/${dir}/grammar-errors.json`),
+    loadJSON(`data/exam/${dir}/irregular-verbs.json`)
+  ]);
+  if (!lessons) {
+    app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">🎼</span><div class="empty-text">语法数据加载失败</div></div>';
+    return;
+  }
+
+  if (params.lesson) {
+    const l = lessons.lessons.find(x => x.id === params.lesson);
+    if (l) return renderLesson(app, level, lessons, l);
+  }
+  if (params.view === 'verbs' && verbs) return renderVerbs(app, level, verbs);
+  if (params.view === 'errors' && errors) return renderErrors(app, errors);
+  if (params.view === 'inventory' && inventory) return renderInventory(app, inventory);
+
+  // === 主页 ===
+  const prog = storage.getLessonProgress(level);
+  const doneN = lessons.lessons.filter(l => prog[l.id] === 'done').length;
+
+  app.innerHTML = `
+    ${headerHtml('🎼 语法学院 · 乐队八课')}
+
+    <!-- 乐队比喻总卡 -->
+    <div class="card-cartoon mb-4 bg-gradient-to-br from-indigo-50 to-purple-50">
+      <h3 class="font-bold mb-1">${lessons.bandIntro.title}</h3>
+      <p class="text-xs text-gray-600 mb-2">${lessons.bandIntro.note}</p>
+      <div class="space-y-1">
+        ${lessons.bandIntro.roles.map(r => `
+          <div class="flex gap-2 text-xs">
+            <span class="font-bold" style="min-width:88px">${r.role}</span>
+            <span class="text-gray-600 flex-1">${r.band}</span>
+            <span class="text-gray-400">${r.lesson}</span>
+          </div>`).join('')}
+      </div>
+    </div>
+
+    <!-- 八课知识树 -->
+    <div class="flex items-center justify-between mb-2">
+      <h3 class="font-bold">📚 八课（${doneN}/8 已掌握）</h3>
+    </div>
+    <div class="space-y-2 mb-4">
+      ${lessons.lessons.map(l => {
+        const st = prog[l.id];
+        const badge = st === 'done' ? '✅ 已掌握' : st === 'learning' ? '📖 学习中' : '⬜ 未学';
+        return `
+        <button data-lesson="${l.id}" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left" style="padding:12px 14px">
+          <span class="font-black text-primary" style="min-width:36px">${l.id}</span>
+          <div class="flex-1">
+            <div class="font-bold text-sm">${l.title}${l.hiddenLine ? ' <span title="暗线">🧵</span>' : ''}</div>
+            <div class="text-xs text-gray-500">${l.minutes}′ · ${badge}</div>
+          </div>
+          <span class="text-xl text-gray-300">›</span>
+        </button>`;
+      }).join('')}
+    </div>
+    <div class="text-xs text-gray-400 mb-4">🧵 = 暗线出现处：「越常用的词，越不规则」在 L1 / L3 / L8 各出现一次</div>
+
+    <!-- 功能入口 -->
+    <div class="grid grid-cols-1 gap-2 mb-4">
+      <button data-view="verbs" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-orange-50 to-amber-50">
+        <span class="text-3xl">🔁</span>
+        <div class="flex-1"><div class="font-bold text-sm">40 个不规则动词 · 六组闯关</div><div class="text-xs text-gray-500">一天一组，六天背完，第七天混查</div></div>
+        <span class="text-xl text-gray-300">›</span>
+      </button>
+      <button data-view="errors" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-red-50 to-pink-50">
+        <span class="text-3xl">🚦</span>
+        <div class="flex-1"><div class="font-bold text-sm">8 类中式错误 · 三色分区</div><div class="text-xs text-gray-500">只有红区会挡意思，只打红区</div></div>
+        <span class="text-xl text-gray-300">›</span>
+      </button>
+      <button data-view="inventory" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-cyan-50 to-blue-50">
+        <span class="text-3xl">📜</span>
+        <div class="flex-1"><div class="font-bold text-sm">考纲语法项 + Part 5 速成 + 满分档事实</div><div class="text-xs text-gray-500">语法值多少分，一张表看清</div></div>
+        <span class="text-xl text-gray-300">›</span>
+      </button>
+    </div>
+  `;
+  bindBack(app);
+  app.querySelectorAll('[data-lesson]').forEach(b => b.addEventListener('click', () => renderGrammarCourse(app, { lesson: b.dataset.lesson })));
+  app.querySelectorAll('[data-view]').forEach(b => b.addEventListener('click', () => renderGrammarCourse(app, { view: b.dataset.view })));
+}
+
+// === 课程详情 ===
+function renderLesson(app, level, lessonsData, l) {
+  // 进入即标记「学习中」（若未掌握）
+  const prog = storage.getLessonProgress(level);
+  if (!prog[l.id]) storage.markLessonDone(level, l.id, 'learning');
+
+  let exIdx = 0, correctN = 0, answered = false;
+
+  function drawIntro() {
+    app.innerHTML = `
+      ${headerHtml(`${l.id} · ${l.title}`)}
+      ${l.sections.map(s => `
+        <div class="card-cartoon mb-3">
+          <div class="font-bold text-sm mb-1">🎵 ${s.h}</div>
+          <p class="text-sm text-gray-700">${s.text}</p>
+        </div>`).join('')}
+
+      <div class="card-cartoon mb-3 bg-gradient-to-br from-green-50 to-emerald-50">
+        <div class="font-bold text-sm mb-2">📖 原创例句</div>
+        ${l.examples.map(e => `
+          <div class="mb-2 pb-2 border-b border-green-100 last:border-0">
+            <div class="font-en text-sm font-bold">${e.en}</div>
+            <div class="text-xs text-gray-600">${e.zh} <span class="text-green-600">· ${e.note}</span></div>
+          </div>`).join('')}
+      </div>
+
+      ${l.hiddenLine ? `
+      <div class="card-cartoon mb-3 border-2 border-purple-300 bg-purple-50">
+        <div class="font-bold text-sm mb-1">🧵 暗线时刻</div>
+        <p class="text-sm text-gray-700">${l.hiddenLineNote}</p>
+        <p class="text-xs text-purple-500 mt-2">${lessonsData.hiddenLineText}</p>
+      </div>` : ''}
+
+      <div class="card-cartoon mb-3 bg-blue-50">
+        <div class="font-bold text-sm mb-1">🎯 ${l.accept.startsWith('验收') ? '' : '验收：'}${l.accept}</div>
+      </div>
+      <div class="card-cartoon mb-4 bg-amber-50">
+        <p class="text-xs text-gray-700">👪 ${l.parentScript}</p>
+      </div>
+
+      <button id="startExBtn" class="w-full btn-cartoon">✏️ 开始练习（${l.exercises.length} 题）</button>
+    `;
+    bindBack(app, 'exam-grammar');
+    app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
+    app.querySelector('#startExBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; drawExercise(); });
+  }
+
+  function drawExercise() {
+    if (exIdx >= l.exercises.length) return drawResult();
+    const ex = l.exercises[exIdx];
+    answered = false;
+    const typeLabel = { choice: '选择', fill: '填空', fix: '改错', transform: '句型转换' }[ex.type] || '练习';
+
+    app.innerHTML = `
+      ${headerHtml(`${l.id} 练习 ${exIdx + 1}/${l.exercises.length}`)}
+      <div class="progress-bar mb-4"><div class="progress-bar-fill" style="width:${exIdx / l.exercises.length * 100}%"></div></div>
+      <div class="card-cartoon mb-4">
+        <div class="text-xs text-gray-400 mb-2">${typeLabel}</div>
+        <div class="text-base font-bold mb-3">${esc(ex.q)}</div>
+        ${ex.type === 'choice' ? `
+          <div class="space-y-2">
+            ${ex.options.map(o => `<button data-opt="${esc(o)}" class="opt-btn w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-left font-en tap-bounce" style="min-height:48px">${esc(o)}</button>`).join('')}
+          </div>` : `
+          <input id="ansInput" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base" placeholder="${ex.type === 'fill' ? '填一个词/短语' : '写出正确的整句'}" autocomplete="off" />
+          <button id="submitBtn" class="w-full btn-cartoon mt-3">提交</button>`}
+      </div>
+      <div id="feedback"></div>
+    `;
+    bindBack(app, 'exam-grammar');
+    app.querySelector('#examBackBtn').onclick = () => drawIntro();
+
+    function judge(userRaw) {
+      if (answered) return;
+      answered = true;
+      const norm = s => String(s).trim().toLowerCase().replace(/\s+/g, ' ').replace(/[.!?]$/, '');
+      const ok = norm(userRaw) === norm(ex.answer);
+      if (ok) correctN++;
+      const fb = app.querySelector('#feedback');
+      fb.innerHTML = `
+        <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
+          <div class="font-bold text-sm mb-1">${ok ? '✅ 对啦！' : '❌ 再看看'}</div>
+          ${ok ? '' : `<div class="text-sm font-en mb-1">正确答案：<b>${esc(ex.answer)}</b></div>`}
+          <div class="text-xs text-gray-600">${esc(ex.explain)}</div>
+        </div>
+        <button id="nextBtn" class="w-full btn-cartoon">${exIdx + 1 >= l.exercises.length ? '看结果' : '下一题 ›'}</button>`;
+      fb.querySelector('#nextBtn').addEventListener('click', () => { exIdx++; drawExercise(); });
+    }
+
+    app.querySelectorAll('[data-opt]').forEach(b => b.addEventListener('click', () => {
+      b.classList.add('ring-2', 'ring-primary');
+      judge(b.dataset.opt);
+    }));
+    const sub = app.querySelector('#submitBtn');
+    if (sub) sub.addEventListener('click', () => judge(app.querySelector('#ansInput').value));
+  }
+
+  function drawResult() {
+    const total = l.exercises.length;
+    const pass = correctN / total >= 0.7;
+    if (pass) storage.markLessonDone(level, l.id, 'done');
+    app.innerHTML = `
+      ${headerHtml(`${l.id} · 练习结果`)}
+      <div class="card-cartoon text-center mb-4 ${pass ? 'bg-green-50' : 'bg-yellow-50'}">
+        <div class="text-6xl mb-2">${pass ? '🎉' : '💪'}</div>
+        <div class="text-2xl font-black">${correctN} / ${total}</div>
+        <p class="text-sm text-gray-600 mt-2">${pass ? '这课掌握了！记得今天把它「用出来」——只做题不输出＝没学。' : '没关系，回讲解再看一遍，明天再来一次。'}</p>
+      </div>
+      <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3">再练一遍</button>
+      <button id="homeBtn" class="w-full btn-cartoon">回语法学院</button>
+    `;
+    bindBack(app, 'exam-grammar');
+    app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
+    app.querySelector('#againBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; drawExercise(); });
+    app.querySelector('#homeBtn').addEventListener('click', () => renderGrammarCourse(app, {}));
+  }
+
+  drawIntro();
+}
+
+// === 不规则动词 · 六组闯关（复用现有 levels 闯关系统）===
+function renderVerbs(app, level, verbs) {
+  app.innerHTML = `
+    ${headerHtml('🔁 40 个不规则动词')}
+    <div class="card-cartoon mb-3 border-2 border-purple-300 bg-purple-50">
+      <div class="font-bold text-sm mb-1">🧵 为什么它们不规则？</div>
+      <p class="text-sm text-gray-700">${verbs.hiddenLine}</p>
+    </div>
+    <div class="text-xs text-gray-500 mb-3">📅 ${verbs.method}</div>
+    <div class="space-y-2 mb-4">
+      ${verbs.groups.map((g, i) => `
+        <button data-group="${g.id}" class="w-full card-cartoon tap-bounce text-left" style="padding:12px 14px">
+          <div class="flex items-center gap-2">
+            <span class="text-2xl">${g.icon}</span>
+            <div class="flex-1">
+              <div class="font-bold text-sm">第${i + 1}组 · ${g.name} <span class="text-xs font-normal text-gray-400">${g.verbs.length} 个</span></div>
+              <div class="text-xs text-gray-500">${g.shape}</div>
+            </div>
+            <span class="text-xl text-gray-300">›</span>
+          </div>
+          <div class="flex flex-wrap gap-1 mt-2">
+            ${g.verbs.slice(0, 8).map(v => `<span class="text-[11px] bg-gray-100 rounded-full px-2 py-0.5 font-en">${v.base}→${v.past}</span>`).join('')}${g.verbs.length > 8 ? `<span class="text-[11px] text-gray-400">+${g.verbs.length - 8}</span>` : ''}
+          </div>
+        </button>`).join('')}
+    </div>
+    <button id="mixBtn" class="w-full btn-cartoon">🎲 第七天 · 混合抽查闯关</button>
+  `;
+  bindBack(app, 'exam-grammar');
+  app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
+
+  // 把动词组转成闯关用的"单词"对象（word=原形，meaning=中文+过去式，考记忆配对）
+  const toWords = (g) => g.verbs.map(v => ({
+    id: `irr-${v.base}`,
+    word: `${v.base} → ${v.past}`,
+    phonetic: '',
+    pos: 'v.',
+    meaning: v.zh,
+    examples: []
+  }));
+
+  verbs.groups.forEach(g => {
+    app.querySelector(`[data-group="${g.id}"]`).addEventListener('click', () => {
+      renderLevelMap(app, {
+        words: toWords(g),
+        progressKey: `${level}:irr-${g.id}`,
+        title: `🔁 ${g.name}`,
+        onBack: () => renderVerbs(app, level, verbs)
+      });
+    });
+  });
+  app.querySelector('#mixBtn').addEventListener('click', () => {
+    const all = verbs.groups.flatMap(toWords);
+    // 混查：打乱顺序
+    for (let i = all.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [all[i], all[j]] = [all[j], all[i]]; }
+    renderLevelMap(app, {
+      words: all,
+      progressKey: `${level}:irr-mix`,
+      title: '🎲 不规则动词混查',
+      onBack: () => renderVerbs(app, level, verbs)
+    });
+  });
+}
+
+// === 8 类中式错误 · 三色分区 ===
+function renderErrors(app, errors) {
+  app.innerHTML = `
+    ${headerHtml('🚦 8 类中式错误 · 三色分区')}
+    <div class="card-cartoon mb-4 border-2 border-amber-300 bg-amber-50">
+      <div class="font-bold text-sm mb-2">读表关键</div>
+      ${errors.readingKey.map(k => `<p class="text-sm text-gray-700 mb-1.5">· ${k}</p>`).join('')}
+    </div>
+    <div class="space-y-2 mb-4">
+      ${errors.errors.map(e => {
+        const z = ZONE_STYLE[e.zone];
+        return `
+        <div class="card-cartoon border-2 ${z.cls}" style="padding:12px 14px">
+          <div class="flex items-center gap-2 mb-1">
+            <span>${z.badge}</span>
+            <span class="font-bold text-sm flex-1">${e.no}. ${e.name}</span>
+            <span class="text-[11px] text-gray-500">挡意思：${e.impedes}</span>
+          </div>
+          <div class="text-sm font-en"><s class="text-red-400">${e.wrong}</s> → <b class="text-green-600">${e.right}</b></div>
+          <div class="text-[11px] text-gray-400 mt-1">在哪考：${e.where}</div>
+        </div>`;
+      }).join('')}
+    </div>
+    <h3 class="font-bold mb-2">🪜 三级优先级</h3>
+    <div class="space-y-2 mb-4">
+      ${errors.priorities.map(p => `
+        <div class="card-cartoon" style="padding:12px 14px">
+          <div class="font-bold text-sm mb-1">${p.level}</div>
+          <div class="text-sm text-gray-700">${p.items}</div>
+          ${p.accept ? `<div class="text-xs text-blue-600 mt-1">${p.accept}</div>` : ''}
+        </div>`).join('')}
+    </div>
+    <div class="card-cartoon bg-amber-50">
+      <div class="font-bold text-sm mb-2">👪 ${errors.parentGuide.title}</div>
+      ${errors.parentGuide.rules.map(r => `<p class="text-sm text-gray-700 mb-1.5">${r}</p>`).join('')}
+    </div>
+  `;
+  bindBack(app, 'exam-grammar');
+  app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
+}
+
+// === 考纲清单 + Part5 速成 + 满分档事实卡 ===
+function renderInventory(app, inv) {
+  app.innerHTML = `
+    ${headerHtml('📜 考纲语法项与分值')}
+
+    <!-- 满分档事实卡 -->
+    <div class="card-cartoon mb-4 border-2 border-green-300 bg-green-50">
+      <div class="font-bold text-sm mb-2">${inv.bandFact.title}</div>
+      ${inv.bandFact.points.map(p => `<p class="text-sm text-gray-700 mb-1.5">${p}</p>`).join('')}
+      <div class="mt-2 bg-white rounded-2xl p-3">
+        <div class="text-xs text-gray-500 mb-1">${inv.bandFact.originalExample.intro}</div>
+        <p class="font-en text-sm mb-1">${inv.bandFact.originalExample.text}</p>
+        <div class="text-[11px] text-gray-400">${inv.bandFact.originalExample.note}</div>
+      </div>
+    </div>
+
+    <!-- 语法值多少分 -->
+    <div class="card-cartoon mb-4">
+      <div class="font-bold text-sm mb-2">💰 ${inv.scoreTable.title}</div>
+      ${inv.scoreTable.rows.map(r => `
+        <div class="flex gap-2 py-2 border-b border-gray-50 last:border-0 text-sm ${r.highlight ? 'bg-amber-50 rounded-xl px-2' : ''}">
+          <span class="font-bold" style="min-width:96px">${r.where}</span>
+          <span style="min-width:80px">${r.score}</span>
+          <span class="text-xs text-gray-500 flex-1">${r.note}</span>
+        </div>`).join('')}
+    </div>
+
+    <!-- Part 5 速成 -->
+    <div class="card-cartoon mb-4 bg-gradient-to-br from-cyan-50 to-blue-50">
+      <div class="font-bold text-sm mb-2">⚡ ${inv.part5Method.title}</div>
+      <div class="flex flex-wrap gap-1.5 mb-2">${inv.part5Method.steps.map(s => `<span class="text-xs bg-white rounded-full px-3 py-1">${s}</span>`).join('')}</div>
+      ${inv.part5Method.shapes.map(s => `
+        <div class="flex gap-2 py-1.5 border-b border-cyan-100 last:border-0 text-sm">
+          <span class="text-gray-600 flex-1">${s.shape}</span>
+          <span class="font-bold text-primary">${s.fill}</span>
+        </div>`).join('')}
+    </div>
+
+    <!-- 考纲清单 -->
+    <div class="card-cartoon mb-2">
+      <div class="font-bold text-sm mb-2">📜 ${inv.title}</div>
+      <p class="text-xs text-blue-600 mb-3">${inv.lowLevelNote}</p>
+      ${inv.groups.map(g => `
+        <div class="mb-3 ${g.highlight ? 'bg-amber-50 rounded-2xl p-2' : ''}">
+          <div class="font-bold text-xs mb-1">${g.highlight ? '★ ' : ''}${g.name}</div>
+          <div class="flex flex-wrap gap-1">${g.items.map(i => `<span class="text-[11px] bg-gray-100 rounded-full px-2 py-0.5">${i}</span>`).join('')}</div>
+        </div>`).join('')}
+      <div class="text-[11px] text-gray-400">${inv.note}</div>
+    </div>
+  `;
+  bindBack(app, 'exam-grammar');
+  app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
+}

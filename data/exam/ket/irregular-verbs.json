@@ -1,0 +1,94 @@
+{
+  "level": "KET",
+  "title": "40 个不规则动词 · 按形状分组",
+  "method": "一天一组，六天背完，第七天混起来抽查。",
+  "hiddenLine": "那 40 个不规则动词之所以不规则，恰恰因为它们是英语里最有用的 40 个。越常用的词，越不规则——这不是一堆例外，是同一条规律。",
+  "groups": [
+    {
+      "id": "g1", "name": "完全不变 A→A", "icon": "🪨",
+      "shape": "过去式和原形一模一样，最省心的一组",
+      "verbs": [
+        { "base": "put", "past": "put", "zh": "放" },
+        { "base": "cut", "past": "cut", "zh": "切；剪" },
+        { "base": "read", "past": "read", "zh": "读（过去式读音变 /red/）" },
+        { "base": "let", "past": "let", "zh": "让" },
+        { "base": "hurt", "past": "hurt", "zh": "受伤；疼" }
+      ]
+    },
+    {
+      "id": "g2", "name": "换元音 i→a", "icon": "🔄",
+      "shape": "肚子里的 i 变成 a，读起来嘴巴张大一点",
+      "verbs": [
+        { "base": "sing", "past": "sang", "zh": "唱" },
+        { "base": "swim", "past": "swam", "zh": "游泳" },
+        { "base": "begin", "past": "began", "zh": "开始" },
+        { "base": "drink", "past": "drank", "zh": "喝" },
+        { "base": "run", "past": "ran", "zh": "跑" },
+        { "base": "sit", "past": "sat", "zh": "坐" },
+        { "base": "give", "past": "gave", "zh": "给" }
+      ]
+    },
+    {
+      "id": "g3", "name": "-ought / -aught", "icon": "🎣",
+      "shape": "尾巴全变成「奥特」音，长得像一家人",
+      "verbs": [
+        { "base": "buy", "past": "bought", "zh": "买" },
+        { "base": "bring", "past": "brought", "zh": "带来" },
+        { "base": "think", "past": "thought", "zh": "想" },
+        { "base": "teach", "past": "taught", "zh": "教" },
+        { "base": "catch", "past": "caught", "zh": "抓住" }
+      ]
+    },
+    {
+      "id": "g4", "name": "尾巴变 t", "icon": "✂️",
+      "shape": "词尾干脆利落收个 t，有的还把长元音剪短",
+      "verbs": [
+        { "base": "sleep", "past": "slept", "zh": "睡" },
+        { "base": "keep", "past": "kept", "zh": "保持" },
+        { "base": "feel", "past": "felt", "zh": "感觉" },
+        { "base": "leave", "past": "left", "zh": "离开" },
+        { "base": "meet", "past": "met", "zh": "遇见" },
+        { "base": "lose", "past": "lost", "zh": "丢失" },
+        { "base": "send", "past": "sent", "zh": "寄；发送" },
+        { "base": "build", "past": "built", "zh": "建造" }
+      ]
+    },
+    {
+      "id": "g5", "name": "-ew / -ow", "icon": "🌬️",
+      "shape": "尾巴变成 ew，读「油」，风一吹全变了",
+      "verbs": [
+        { "base": "know", "past": "knew", "zh": "知道" },
+        { "base": "grow", "past": "grew", "zh": "生长" },
+        { "base": "throw", "past": "threw", "zh": "扔" },
+        { "base": "fly", "past": "flew", "zh": "飞" },
+        { "base": "draw", "past": "drew", "zh": "画" }
+      ]
+    },
+    {
+      "id": "g6", "name": "独行侠", "icon": "🤠",
+      "shape": "各走各的路——但它们恰恰是英语里最常用的动词",
+      "verbs": [
+        { "base": "go", "past": "went", "zh": "去（went 原是 wend 的过去式，借来不还）" },
+        { "base": "be", "past": "was / were", "zh": "是" },
+        { "base": "have", "past": "had", "zh": "有" },
+        { "base": "do", "past": "did", "zh": "做" },
+        { "base": "see", "past": "saw", "zh": "看见" },
+        { "base": "take", "past": "took", "zh": "拿" },
+        { "base": "make", "past": "made", "zh": "制作" },
+        { "base": "eat", "past": "ate", "zh": "吃" },
+        { "base": "come", "past": "came", "zh": "来" },
+        { "base": "get", "past": "got", "zh": "得到" },
+        { "base": "say", "past": "said", "zh": "说" },
+        { "base": "tell", "past": "told", "zh": "告诉" },
+        { "base": "write", "past": "wrote", "zh": "写" },
+        { "base": "stand", "past": "stood", "zh": "站" },
+        { "base": "speak", "past": "spoke", "zh": "说话" },
+        { "base": "win", "past": "won", "zh": "赢" },
+        { "base": "fall", "past": "fell", "zh": "落下" },
+        { "base": "hear", "past": "heard", "zh": "听见" },
+        { "base": "wear", "past": "wore", "zh": "穿" },
+        { "base": "find", "past": "found", "zh": "找到" }
+      ]
+    }
+  ]
+}
