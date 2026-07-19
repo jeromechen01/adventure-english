@@ -1,0 +1,152 @@
+{
+  "level": "A2",
+  "title": "剑桥 KET (A2) 话题词库",
+  "note": "按 KET 常考话题组织，全部释义/例句/记忆法原创，ready 为已填充",
+  "targetTotal": 1500,
+  "topics": [
+    {
+      "id": "personal",
+      "name": "Personal & Family 个人信息与家庭",
+      "icon": "👨‍👩‍👧",
+      "file": "ket-personal.json",
+      "target": 90,
+      "status": "ready"
+    },
+    {
+      "id": "home",
+      "name": "Home & House 住房与家居",
+      "icon": "🏠",
+      "file": "ket-home.json",
+      "target": 90,
+      "status": "ready"
+    },
+    {
+      "id": "school",
+      "name": "School & Study 学校与学习",
+      "icon": "🏫",
+      "file": "ket-school.json",
+      "target": 100,
+      "status": "ready"
+    },
+    {
+      "id": "food",
+      "name": "Food & Drink 食物与饮食",
+      "icon": "🍎",
+      "file": "ket-food.json",
+      "target": 100,
+      "status": "pending"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping & Money 购物与钱",
+      "icon": "🛒",
+      "file": "ket-shopping.json",
+      "target": 90,
+      "status": "pending"
+    },
+    {
+      "id": "clothes",
+      "name": "Clothes 衣着",
+      "icon": "👕",
+      "file": "ket-clothes.json",
+      "target": 70,
+      "status": "pending"
+    },
+    {
+      "id": "body-health",
+      "name": "Body & Health 身体与健康",
+      "icon": "💪",
+      "file": "ket-body-health.json",
+      "target": 90,
+      "status": "pending"
+    },
+    {
+      "id": "daily",
+      "name": "Daily Life 日常活动与作息",
+      "icon": "⏰",
+      "file": "ket-daily.json",
+      "target": 100,
+      "status": "pending"
+    },
+    {
+      "id": "freetime",
+      "name": "Free Time 休闲娱乐爱好",
+      "icon": "🎮",
+      "file": "ket-freetime.json",
+      "target": 100,
+      "status": "pending"
+    },
+    {
+      "id": "travel",
+      "name": "Travel & Transport 交通与旅行",
+      "icon": "🚌",
+      "file": "ket-travel.json",
+      "target": 100,
+      "status": "pending"
+    },
+    {
+      "id": "places",
+      "name": "Places & Directions 地点与方位",
+      "icon": "🗺️",
+      "file": "ket-places.json",
+      "target": 90,
+      "status": "pending"
+    },
+    {
+      "id": "weather-nature",
+      "name": "Weather & Nature 天气与自然",
+      "icon": "🌤️",
+      "file": "ket-weather-nature.json",
+      "target": 80,
+      "status": "pending"
+    },
+    {
+      "id": "animals",
+      "name": "Animals 动物",
+      "icon": "🐾",
+      "file": "ket-animals.json",
+      "target": 70,
+      "status": "pending"
+    },
+    {
+      "id": "people-feelings",
+      "name": "People & Feelings 人物描述与情感",
+      "icon": "😊",
+      "file": "ket-people-feelings.json",
+      "target": 90,
+      "status": "pending"
+    },
+    {
+      "id": "time-dates",
+      "name": "Time & Numbers 时间日期数字",
+      "icon": "📅",
+      "file": "ket-time-dates.json",
+      "target": 70,
+      "status": "pending"
+    },
+    {
+      "id": "communication",
+      "name": "Communication & Tech 沟通与科技",
+      "icon": "📱",
+      "file": "ket-communication.json",
+      "target": 80,
+      "status": "pending"
+    },
+    {
+      "id": "verbs-core",
+      "name": "Core Verbs 高频动词",
+      "icon": "⚡",
+      "file": "ket-verbs-core.json",
+      "target": 110,
+      "status": "pending"
+    },
+    {
+      "id": "adj-adv",
+      "name": "Adjectives & Adverbs 高频形容词副词",
+      "icon": "✨",
+      "file": "ket-adj-adv.json",
+      "target": 90,
+      "status": "pending"
+    }
+  ]
+}
