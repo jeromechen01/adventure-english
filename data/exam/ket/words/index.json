@@ -129,16 +129,16 @@
       "name": "Communication & Tech 沟通与科技",
       "icon": "📱",
       "file": "ket-communication.json",
-      "target": 80,
-      "status": "pending"
+      "target": 42,
+      "status": "ready"
     },
     {
       "id": "verbs-core",
       "name": "Core Verbs 高频动词",
       "icon": "⚡",
       "file": "ket-verbs-core.json",
-      "target": 115,
-      "status": "pending"
+      "target": 58,
+      "status": "ready"
     },
     {
       "id": "adj-adv",
