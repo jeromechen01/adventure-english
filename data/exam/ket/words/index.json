@@ -89,24 +89,24 @@
       "name": "Places & Directions 地点与方位",
       "icon": "🗺️",
       "file": "ket-places.json",
-      "target": 90,
-      "status": "pending"
+      "target": 57,
+      "status": "ready"
     },
     {
       "id": "weather-nature",
       "name": "Weather & Nature 天气与自然",
       "icon": "🌤️",
       "file": "ket-weather-nature.json",
-      "target": 80,
-      "status": "pending"
+      "target": 55,
+      "status": "ready"
     },
     {
       "id": "animals",
       "name": "Animals 动物",
       "icon": "🐾",
       "file": "ket-animals.json",
-      "target": 70,
-      "status": "pending"
+      "target": 43,
+      "status": "ready"
     },
     {
       "id": "people-feelings",
