@@ -147,6 +147,14 @@
       "file": "ket-adj-adv.json",
       "target": 50,
       "status": "ready"
+    },
+    {
+      "id": "basics",
+      "name": "Basics 交际用语与功能词",
+      "icon": "🧩",
+      "file": "ket-basics.json",
+      "target": 99,
+      "status": "ready"
     }
   ]
 }

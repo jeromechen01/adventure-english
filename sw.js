@@ -124,6 +124,8 @@ const PRECACHE_URLS = [
   './data/exam/ket/words/ket-communication.json',
   './data/exam/ket/words/ket-verbs-core.json',
   './data/exam/ket/words/ket-adj-adv.json',
+  './data/exam/ket/words/ket-basics.json',
+  './data/exam/shared-a2-words.json',
   './data/exam/pet/facts.json',
   './data/exam/pet/mocks/index.json',
   './data/exam/pet/mocks/mock-01.json',
