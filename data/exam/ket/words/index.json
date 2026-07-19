@@ -57,16 +57,16 @@
       "name": "Body & Health 身体与健康",
       "icon": "💪",
       "file": "ket-body-health.json",
-      "target": 90,
-      "status": "pending"
+      "target": 60,
+      "status": "ready"
     },
     {
       "id": "daily",
       "name": "Daily Life 日常活动与作息",
       "icon": "⏰",
       "file": "ket-daily.json",
-      "target": 110,
-      "status": "pending"
+      "target": 27,
+      "status": "ready"
     },
     {
       "id": "freetime",
