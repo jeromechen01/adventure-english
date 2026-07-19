@@ -113,16 +113,16 @@
       "name": "People & Feelings 人物描述与情感",
       "icon": "😊",
       "file": "ket-people-feelings.json",
-      "target": 95,
-      "status": "pending"
+      "target": 55,
+      "status": "ready"
     },
     {
       "id": "time-dates",
       "name": "Time & Numbers 时间日期数字",
       "icon": "📅",
       "file": "ket-time-dates.json",
-      "target": 70,
-      "status": "pending"
+      "target": 57,
+      "status": "ready"
     },
     {
       "id": "communication",
