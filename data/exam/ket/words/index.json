@@ -81,8 +81,8 @@
       "name": "Travel & Transport 交通与旅行",
       "icon": "🚌",
       "file": "ket-travel.json",
-      "target": 100,
-      "status": "pending"
+      "target": 64,
+      "status": "ready"
     },
     {
       "id": "places",
