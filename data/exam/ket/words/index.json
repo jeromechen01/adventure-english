@@ -34,23 +34,23 @@
       "icon": "🍎",
       "file": "ket-food.json",
       "target": 100,
-      "status": "pending"
+      "status": "ready"
     },
     {
       "id": "shopping",
       "name": "Shopping & Money 购物与钱",
       "icon": "🛒",
       "file": "ket-shopping.json",
-      "target": 90,
-      "status": "pending"
+      "target": 65,
+      "status": "ready"
     },
     {
       "id": "clothes",
       "name": "Clothes 衣着",
       "icon": "👕",
       "file": "ket-clothes.json",
-      "target": 70,
-      "status": "pending"
+      "target": 66,
+      "status": "ready"
     },
     {
       "id": "body-health",
@@ -65,7 +65,7 @@
       "name": "Daily Life 日常活动与作息",
       "icon": "⏰",
       "file": "ket-daily.json",
-      "target": 100,
+      "target": 110,
       "status": "pending"
     },
     {
@@ -73,7 +73,7 @@
       "name": "Free Time 休闲娱乐爱好",
       "icon": "🎮",
       "file": "ket-freetime.json",
-      "target": 100,
+      "target": 105,
       "status": "pending"
     },
     {
@@ -113,7 +113,7 @@
       "name": "People & Feelings 人物描述与情感",
       "icon": "😊",
       "file": "ket-people-feelings.json",
-      "target": 90,
+      "target": 95,
       "status": "pending"
     },
     {
@@ -137,7 +137,7 @@
       "name": "Core Verbs 高频动词",
       "icon": "⚡",
       "file": "ket-verbs-core.json",
-      "target": 110,
+      "target": 115,
       "status": "pending"
     },
     {
@@ -145,7 +145,7 @@
       "name": "Adjectives & Adverbs 高频形容词副词",
       "icon": "✨",
       "file": "ket-adj-adv.json",
-      "target": 90,
+      "target": 95,
       "status": "pending"
     }
   ]
