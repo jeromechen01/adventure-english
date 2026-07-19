@@ -145,8 +145,8 @@
       "name": "Adjectives & Adverbs 高频形容词副词",
       "icon": "✨",
       "file": "ket-adj-adv.json",
-      "target": 95,
-      "status": "pending"
+      "target": 50,
+      "status": "ready"
     }
   ]
 }

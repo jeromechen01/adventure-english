@@ -123,6 +123,7 @@ const PRECACHE_URLS = [
   './data/exam/ket/words/ket-time-dates.json',
   './data/exam/ket/words/ket-communication.json',
   './data/exam/ket/words/ket-verbs-core.json',
+  './data/exam/ket/words/ket-adj-adv.json',
   './data/exam/pet/facts.json',
   './data/exam/pet/mocks/index.json',
   './data/exam/pet/mocks/mock-01.json',
