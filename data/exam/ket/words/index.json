@@ -73,8 +73,8 @@
       "name": "Free Time 休闲娱乐爱好",
       "icon": "🎮",
       "file": "ket-freetime.json",
-      "target": 105,
-      "status": "pending"
+      "target": 88,
+      "status": "ready"
     },
     {
       "id": "travel",
