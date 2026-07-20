@@ -3,387 +3,101 @@
   "topicName": "Sport 运动",
   "icon": "⚽",
   "level": "B1",
-  "totalWords": 38,
+  "totalWords": 94,
   "words": [
-    {
-      "id": "pet-sport-001", "word": "team", "phonetic": "/tiːm/", "pos": "n.", "meaning": "队；团队", "level": "A2",
-      "examples": [
-        { "en": "Our team won the game.", "zh": "我们队赢了比赛。" },
-        { "en": "He plays for the school team.", "zh": "他为校队效力。" }
-      ],
-      "synonyms": ["side"], "antonyms": [], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "team 谐音\"梯姆\"——一队人像搭梯子一样彼此配合、齐心协力。" },
-      "petExam": { "frequency": "high", "collocations": ["a football team", "join a team"] }
-    },
-    {
-      "id": "pet-sport-002", "word": "match", "phonetic": "/mætʃ/", "pos": "n.", "meaning": "比赛；火柴；相配", "level": "A2",
-      "examples": [
-        { "en": "We watched a tennis match.", "zh": "我们看了一场网球比赛。" },
-        { "en": "The match ended in a draw.", "zh": "比赛以平局告终。" }
-      ],
-      "synonyms": ["game"], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "match 有\"相配\"义,两支势均力敌的队配到一起较量就是一场 match。" },
-      "petExam": { "frequency": "high", "collocations": ["a football match", "win a match"] }
-    },
-    {
-      "id": "pet-sport-003", "word": "score", "phonetic": "/skɔː/", "pos": "n./v.", "meaning": "得分；比分", "level": "B1",
-      "examples": [
-        { "en": "The final score was 2-1.", "zh": "最终比分是2比1。" },
-        { "en": "He scored the winning goal.", "zh": "他打进了制胜一球。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "score 谐音\"斯扣儿\"——每进一球就在记分牌上\"扣\"上一分。" },
-      "petExam": { "frequency": "high", "collocations": ["the final score", "score a goal"] }
-    },
-    {
-      "id": "pet-sport-004", "word": "goal", "phonetic": "/ɡəʊl/", "pos": "n.", "meaning": "进球；球门；目标", "level": "A2",
-      "examples": [
-        { "en": "He scored two goals today.", "zh": "他今天打进两球。" },
-        { "en": "My goal is to run faster.", "zh": "我的目标是跑得更快。" }
-      ],
-      "synonyms": ["aim"], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "球踢进 goal(球门)就得分,人生也要瞄准自己的 goal(目标)。" },
-      "petExam": { "frequency": "high", "collocations": ["score a goal", "reach a goal"] }
-    },
-    {
-      "id": "pet-sport-005", "word": "player", "phonetic": "/ˈpleɪə/", "pos": "n.", "meaning": "运动员；选手", "level": "A2",
-      "examples": [
-        { "en": "She is the best player on the team.", "zh": "她是队里最好的球员。" },
-        { "en": "Each team has eleven players.", "zh": "每队有十一名球员。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "split", "tip": "play(玩/打球)+er(人),下场打球的人就是球员。" },
-      "petExam": { "frequency": "high", "collocations": ["a football player", "the best player"] }
-    },
-    {
-      "id": "pet-sport-006", "word": "coach", "phonetic": "/kəʊtʃ/", "pos": "n.", "meaning": "教练；长途客车", "level": "B1",
-      "examples": [
-        { "en": "The coach trains the team every day.", "zh": "教练每天训练球队。" },
-        { "en": "We took a coach to the city.", "zh": "我们坐长途客车去了城里。" }
-      ],
-      "synonyms": ["trainer"], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "coach 既是\"教练\"又是\"长途车\"——教练像车一样把队员\"载\"向胜利。" },
-      "petExam": { "frequency": "medium", "collocations": ["a football coach", "a team coach"] }
-    },
-    {
-      "id": "pet-sport-007", "word": "referee", "phonetic": "/ˌrefəˈriː/", "pos": "n.", "meaning": "裁判", "level": "B1",
-      "examples": [
-        { "en": "The referee blew his whistle.", "zh": "裁判吹响了哨子。" },
-        { "en": "The referee gave a red card.", "zh": "裁判出示了一张红牌。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "root", "tip": "refer(参照/裁定)+ee(人),球场上说了算、做裁定的人就是裁判。" },
-      "petExam": { "frequency": "low", "collocations": ["the referee blows the whistle", "a football referee"] }
-    },
-    {
-      "id": "pet-sport-008", "word": "champion", "phonetic": "/ˈtʃæmpiən/", "pos": "n.", "meaning": "冠军", "level": "B1",
-      "examples": [
-        { "en": "She is the world champion.", "zh": "她是世界冠军。" },
-        { "en": "Our team became champions.", "zh": "我们队夺得了冠军。" }
-      ],
-      "synonyms": ["winner"], "antonyms": [], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "champion 谐音\"掌拼\"——凭真本事掌握全场、拼到第一就是冠军。" },
-      "petExam": { "frequency": "medium", "collocations": ["a world champion", "become a champion"] }
-    },
-    {
-      "id": "pet-sport-009", "word": "competition", "phonetic": "/ˌkɒmpəˈtɪʃn/", "pos": "n.", "meaning": "比赛；竞争", "level": "B1",
-      "examples": [
-        { "en": "She won first place in the competition.", "zh": "她在比赛中得了第一名。" },
-        { "en": "There is strong competition for the job.", "zh": "这份工作竞争激烈。" }
-      ],
-      "synonyms": ["contest"], "antonyms": [], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "root", "tip": "com(共同)+pet(追求,同 petition)+ition,大家一起追同一个目标就是竞争/比赛。" },
-      "petExam": { "frequency": "high", "collocations": ["win a competition", "enter a competition"] }
-    },
-    {
-      "id": "pet-sport-010", "word": "race", "phonetic": "/reɪs/", "pos": "n./v.", "meaning": "赛跑；比赛", "level": "A2",
-      "examples": [
-        { "en": "He won the 100-metre race.", "zh": "他赢了百米赛跑。" },
-        { "en": "The two boys raced to the gate.", "zh": "两个男孩赛跑到大门口。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "race 谐音\"瑞斯\"不如记\"来死\"反着想——赛跑拼到底,谁快谁赢。" },
-      "petExam": { "frequency": "medium", "collocations": ["win a race", "a running race"] }
-    },
-    {
-      "id": "pet-sport-011", "word": "beat", "phonetic": "/biːt/", "pos": "v.", "meaning": "击败；打", "level": "B1",
-      "examples": [
-        { "en": "Our team beat theirs 3-0.", "zh": "我们队以3比0击败对方。" },
-        { "en": "Nobody can beat him at chess.", "zh": "下棋没人赢得了他。" }
-      ],
-      "synonyms": ["defeat"], "antonyms": ["lose to"], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "beat 本义\"敲打\",把对手打得抬不起头就是击败(过去式还是 beat)。" },
-      "petExam": { "frequency": "medium", "collocations": ["beat a team", "beat the record"] }
-    },
-    {
-      "id": "pet-sport-012", "word": "defeat", "phonetic": "/dɪˈfiːt/", "pos": "v./n.", "meaning": "击败；失败", "level": "B1",
-      "examples": [
-        { "en": "They defeated the strongest team.", "zh": "他们击败了最强的队伍。" },
-        { "en": "The team suffered a defeat.", "zh": "这支队伍遭遇了一场失败。" }
-      ],
-      "synonyms": ["beat"], "antonyms": ["win"], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "root", "tip": "de(向下)+feat(做/成就),把对方的气势\"往下\"打压就是击败。" },
-      "petExam": { "frequency": "medium", "collocations": ["defeat an opponent", "admit defeat"] }
-    },
-    {
-      "id": "pet-sport-013", "word": "train", "phonetic": "/treɪn/", "pos": "v.", "meaning": "训练；培养", "level": "B1",
-      "examples": [
-        { "en": "The players train every morning.", "zh": "球员们每天早上训练。" },
-        { "en": "She trains hard for the race.", "zh": "她为赛跑刻苦训练。" }
-      ],
-      "synonyms": ["practise"], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "train 也是\"火车\",训练就像开火车,一节节反复地把本领拉起来。" },
-      "petExam": { "frequency": "medium", "collocations": ["train hard", "train for a match"] }
-    },
-    {
-      "id": "pet-sport-014", "word": "gym", "phonetic": "/dʒɪm/", "pos": "n.", "meaning": "健身房；体育馆", "level": "A2",
-      "examples": [
-        { "en": "I go to the gym three times a week.", "zh": "我一周去三次健身房。" },
-        { "en": "We play basketball in the gym.", "zh": "我们在体育馆打篮球。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "split", "tip": "gym 是 gymnasium 的缩写,举铁流汗练身材的地方。" },
-      "petExam": { "frequency": "medium", "collocations": ["go to the gym", "a gym class"] }
-    },
-    {
-      "id": "pet-sport-015", "word": "stadium", "phonetic": "/ˈsteɪdiəm/", "pos": "n.", "meaning": "体育场；运动场", "level": "B1",
-      "examples": [
-        { "en": "The stadium holds fifty thousand people.", "zh": "这座体育场能容纳五万人。" },
-        { "en": "Fans filled the stadium.", "zh": "球迷挤满了体育场。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "stadium 谐音\"斯泰迪姆\"——万人\"堆\"在一起看比赛的大场子。" },
-      "petExam": { "frequency": "low", "collocations": ["a football stadium", "fill the stadium"] }
-    },
-    {
-      "id": "pet-sport-016", "word": "medal", "phonetic": "/ˈmedl/", "pos": "n.", "meaning": "奖牌", "level": "B1",
-      "examples": [
-        { "en": "She won a gold medal.", "zh": "她赢得了一枚金牌。" },
-        { "en": "He proudly showed his medal.", "zh": "他自豪地展示奖牌。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "medal 谐音\"美倒\"——一枚奖牌美得让人倾倒。" },
-      "petExam": { "frequency": "medium", "collocations": ["a gold medal", "win a medal"] }
-    },
-    {
-      "id": "pet-sport-017", "word": "prize", "phonetic": "/praɪz/", "pos": "n.", "meaning": "奖品；奖金", "level": "A2",
-      "examples": [
-        { "en": "The winner got a big prize.", "zh": "获胜者得到了一份大奖。" },
-        { "en": "First prize is a new bike.", "zh": "一等奖是一辆新自行车。" }
-      ],
-      "synonyms": ["award"], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "prize 谐音\"派子\"——赢了就给你派个奖。" },
-      "petExam": { "frequency": "medium", "collocations": ["win a prize", "first prize"] }
-    },
-    {
-      "id": "pet-sport-018", "word": "fan", "phonetic": "/fæn/", "pos": "n.", "meaning": "球迷；粉丝；风扇", "level": "A2",
-      "examples": [
-        { "en": "He is a big football fan.", "zh": "他是个铁杆足球迷。" },
-        { "en": "The fans cheered loudly.", "zh": "球迷们大声欢呼。" }
-      ],
-      "synonyms": ["supporter"], "antonyms": [], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "fan 是\"风扇\",球迷为主队摇旗呐喊,像风扇一样呼呼扇起气氛。" },
-      "petExam": { "frequency": "medium", "collocations": ["a football fan", "a big fan"] }
-    },
-    {
-      "id": "pet-sport-019", "word": "kick", "phonetic": "/kɪk/", "pos": "v.", "meaning": "踢", "level": "A2",
-      "examples": [
-        { "en": "He kicked the ball into the net.", "zh": "他把球踢进了网。" },
-        { "en": "Don't kick the door!", "zh": "别踢门！" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "kick 谐音\"凯克\"——起脚就是\"咔\"地一\"踢\"。" },
-      "petExam": { "frequency": "medium", "collocations": ["kick a ball", "kick off"] }
-    },
-    {
-      "id": "pet-sport-020", "word": "throw", "phonetic": "/θrəʊ/", "pos": "v.", "meaning": "投；扔", "level": "A2",
-      "examples": [
-        { "en": "Throw the ball to me.", "zh": "把球扔给我。" },
-        { "en": "She threw the ball over the wall.", "zh": "她把球扔过了墙。" }
-      ],
-      "synonyms": ["toss"], "antonyms": ["catch"], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "assoc", "tip": "throw 里有 row(划),手臂像划桨一样甩出去就是投掷(过去式 threw)。" },
-      "petExam": { "frequency": "medium", "collocations": ["throw a ball", "throw away"] }
-    },
-    {
-      "id": "pet-sport-021", "word": "catch", "phonetic": "/kætʃ/", "pos": "v.", "meaning": "接住；抓住", "level": "A2",
-      "examples": [
-        { "en": "Can you catch the ball?", "zh": "你能接住球吗？" },
-        { "en": "The dog caught the stick.", "zh": "狗接住了木棍。" }
-      ],
-      "synonyms": [], "antonyms": ["throw"], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "catch 谐音\"卡吃\"——球飞来\"卡\"进手心,一把\"吃\"下就是接住。" },
-      "petExam": { "frequency": "high", "collocations": ["catch a ball", "catch up"] }
-    },
-    {
-      "id": "pet-sport-022", "word": "jump", "phonetic": "/dʒʌmp/", "pos": "v.", "meaning": "跳；跳跃", "level": "A2",
-      "examples": [
-        { "en": "He can jump very high.", "zh": "他能跳得很高。" },
-        { "en": "The cat jumped onto the table.", "zh": "猫跳到了桌子上。" }
-      ],
-      "synonyms": ["leap"], "antonyms": [], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "assoc", "tip": "jump 的 j 像人屈膝、mp 像双脚蹬地弹起,一看就是跳。" },
-      "petExam": { "frequency": "medium", "collocations": ["jump high", "jump over"] }
-    },
-    {
-      "id": "pet-sport-023", "word": "cycle", "phonetic": "/ˈsaɪkl/", "pos": "v.", "meaning": "骑自行车", "level": "B1",
-      "examples": [
-        { "en": "I cycle to school every day.", "zh": "我每天骑车上学。" },
-        { "en": "They cycled around the lake.", "zh": "他们绕着湖骑车。" }
-      ],
-      "synonyms": ["bike"], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "root", "tip": "cycl(圈,同 circle)+e,车轮转圈前进就是骑车。" },
-      "petExam": { "frequency": "medium", "collocations": ["cycle to work", "go cycling"] }
-    },
-    {
-      "id": "pet-sport-024", "word": "jog", "phonetic": "/dʒɒɡ/", "pos": "v.", "meaning": "慢跑", "level": "B1",
-      "examples": [
-        { "en": "She jogs in the park each morning.", "zh": "她每天早上在公园慢跑。" },
-        { "en": "Jogging is good for your heart.", "zh": "慢跑对心脏有益。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "jog 谐音\"轧\"——脚步不紧不慢地\"轧\"过地面就是慢跑。" },
-      "petExam": { "frequency": "low", "collocations": ["go jogging", "jog in the park"] }
-    },
-    {
-      "id": "pet-sport-025", "word": "skate", "phonetic": "/skeɪt/", "pos": "v.", "meaning": "滑冰；溜冰", "level": "B1",
-      "examples": [
-        { "en": "We skate on the frozen lake.", "zh": "我们在结冰的湖面上滑冰。" },
-        { "en": "He learned to skate at six.", "zh": "他六岁学会了滑冰。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "skate 谐音\"斯给它\"——冰刀\"嘶\"地划过冰面就是滑冰。" },
-      "petExam": { "frequency": "low", "collocations": ["go skating", "ice skate"] }
-    },
-    {
-      "id": "pet-sport-026", "word": "ski", "phonetic": "/skiː/", "pos": "v.", "meaning": "滑雪", "level": "B1",
-      "examples": [
-        { "en": "They ski in the mountains in winter.", "zh": "冬天他们在山里滑雪。" },
-        { "en": "I want to learn to ski.", "zh": "我想学滑雪。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "assoc", "tip": "ski 长得像两根雪橇板,踩上去从雪坡\"嘶\"地滑下来。" },
-      "petExam": { "frequency": "low", "collocations": ["go skiing", "learn to ski"] }
-    },
-    {
-      "id": "pet-sport-027", "word": "swim", "phonetic": "/swɪm/", "pos": "v.", "meaning": "游泳", "level": "A2",
-      "examples": [
-        { "en": "Can you swim across the pool?", "zh": "你能游到泳池对岸吗？" },
-        { "en": "We swim in the sea in summer.", "zh": "夏天我们在海里游泳。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "assoc", "tip": "swim 里的 w 像水波,身体在水波里划动就是游泳(过去式 swam)。" },
-      "petExam": { "frequency": "medium", "collocations": ["go swimming", "swim in the sea"] }
-    },
-    {
-      "id": "pet-sport-028", "word": "tennis", "phonetic": "/ˈtenɪs/", "pos": "n.", "meaning": "网球", "level": "A2",
-      "examples": [
-        { "en": "They play tennis on Sundays.", "zh": "他们周日打网球。" },
-        { "en": "She is good at tennis.", "zh": "她网球打得好。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "tennis 谐音\"太累事\"——追着小球满场跑,确实是件累人的运动。" },
-      "petExam": { "frequency": "medium", "collocations": ["play tennis", "a tennis court"] }
-    },
-    {
-      "id": "pet-sport-029", "word": "volleyball", "phonetic": "/ˈvɒlibɔːl/", "pos": "n.", "meaning": "排球", "level": "B1",
-      "examples": [
-        { "en": "We play volleyball on the beach.", "zh": "我们在沙滩上打排球。" },
-        { "en": "Volleyball needs six players.", "zh": "排球需要六名队员。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "split", "tip": "volley(凌空击球)+ball(球),球不落地凌空对打就是排球。" },
-      "petExam": { "frequency": "low", "collocations": ["play volleyball", "a volleyball team"] }
-    },
-    {
-      "id": "pet-sport-030", "word": "opponent", "phonetic": "/əˈpəʊnənt/", "pos": "n.", "meaning": "对手", "level": "B1",
-      "examples": [
-        { "en": "Our opponent is a strong team.", "zh": "我们的对手是支强队。" },
-        { "en": "He shook hands with his opponent.", "zh": "他和对手握了手。" }
-      ],
-      "synonyms": ["rival"], "antonyms": ["partner"], "difficulty": 4, "tags": ["sport"],
-      "mnemonic": { "type": "root", "tip": "op(相对)+pon(放,同 position的pon)+ent,站在你对面的人就是对手。" },
-      "petExam": { "frequency": "low", "collocations": ["a strong opponent", "beat an opponent"] }
-    },
-    {
-      "id": "pet-sport-031", "word": "whistle", "phonetic": "/ˈwɪsl/", "pos": "n./v.", "meaning": "哨子；吹口哨", "level": "B1",
-      "examples": [
-        { "en": "The referee blew the whistle.", "zh": "裁判吹响了哨子。" },
-        { "en": "He whistled a happy tune.", "zh": "他吹着欢快的口哨。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "assoc", "tip": "whistle 里的 whis 像\"嘘\"的气声,t 不发音,吹出\"嘘——\"就是哨声。" },
-      "petExam": { "frequency": "low", "collocations": ["blow the whistle", "a loud whistle"] }
-    },
-    {
-      "id": "pet-sport-032", "word": "warm up", "phonetic": "/wɔːm ʌp/", "pos": "phr.", "meaning": "热身；做准备活动", "level": "B1",
-      "examples": [
-        { "en": "Always warm up before you run.", "zh": "跑步前一定要热身。" },
-        { "en": "The players warmed up on the field.", "zh": "球员们在场上热身。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "warm(变暖)+up,运动前先把身体活动\"热\"起来就是热身。" },
-      "petExam": { "frequency": "medium", "collocations": ["warm up before exercise", "a warm-up"] }
-    },
-    {
-      "id": "pet-sport-033", "word": "strength", "phonetic": "/streŋθ/", "pos": "n.", "meaning": "力量；力气", "level": "B1",
-      "examples": [
-        { "en": "Lifting weights builds strength.", "zh": "举重能增强力量。" },
-        { "en": "He pushed the door with all his strength.", "zh": "他用尽全力推门。" }
-      ],
-      "synonyms": ["power"], "antonyms": ["weakness"], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "split", "tip": "strong(强壮)的名词形式 strength,强壮带来的就是力量。" },
-      "petExam": { "frequency": "low", "collocations": ["build strength", "with all one's strength"] }
-    },
-    {
-      "id": "pet-sport-034", "word": "win", "phonetic": "/wɪn/", "pos": "v.", "meaning": "赢；获胜", "level": "A2",
-      "examples": [
-        { "en": "I hope we win the game.", "zh": "我希望我们赢下比赛。" },
-        { "en": "She won the first prize.", "zh": "她赢得了一等奖。" }
-      ],
-      "synonyms": [], "antonyms": ["lose"], "difficulty": 1, "tags": ["sport"],
-      "mnemonic": { "type": "assoc", "tip": "win 里有 W,像举起双臂庆祝胜利的手势。" },
-      "petExam": { "frequency": "high", "collocations": ["win a game", "win a prize"] }
-    },
-    {
-      "id": "pet-sport-035", "word": "lose", "phonetic": "/luːz/", "pos": "v.", "meaning": "输；丢失", "level": "A2",
-      "examples": [
-        { "en": "Nobody likes to lose.", "zh": "没人喜欢输。" },
-        { "en": "Don't lose your ticket.", "zh": "别把票弄丢了。" }
-      ],
-      "synonyms": [], "antonyms": ["win"], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "assoc", "tip": "lose(输/丢)只有一个 o,loose(松的)有两个 o,别把它\"丢\"错。" },
-      "petExam": { "frequency": "high", "collocations": ["lose a game", "lose weight"] }
-    },
-    {
-      "id": "pet-sport-036", "word": "athlete", "phonetic": "/ˈæθliːt/", "pos": "n.", "meaning": "运动员；田径选手", "level": "B1",
-      "examples": [
-        { "en": "The athlete ran very fast.", "zh": "这名运动员跑得非常快。" },
-        { "en": "Athletes need to train hard.", "zh": "运动员需要刻苦训练。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "athlete 谐音\"爱思利特\"——运动员爱思考、身手利落又特别能拼。" },
-      "petExam": { "frequency": "low", "collocations": ["a top athlete", "a professional athlete"] }
-    },
-    {
-      "id": "pet-sport-037", "word": "court", "phonetic": "/kɔːt/", "pos": "n.", "meaning": "球场(网球/篮球)", "level": "B1",
-      "examples": [
-        { "en": "They booked a tennis court.", "zh": "他们订了一个网球场。" },
-        { "en": "The players ran onto the court.", "zh": "球员们跑进了球场。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "image", "tip": "court 也指\"法庭\",网球场和法庭一样都有清楚的界线规则。" },
-      "petExam": { "frequency": "medium", "collocations": ["a tennis court", "a basketball court"] }
-    },
-    {
-      "id": "pet-sport-038", "word": "exhausted", "phonetic": "/ɪɡˈzɔːstɪd/", "pos": "adj.", "meaning": "筋疲力尽的", "level": "B1",
-      "examples": [
-        { "en": "After the match he was exhausted.", "zh": "比赛后他筋疲力尽。" },
-        { "en": "I feel exhausted after training.", "zh": "训练后我累坏了。" }
-      ],
-      "synonyms": ["very tired"], "antonyms": [], "difficulty": 4, "tags": ["sport"],
-      "mnemonic": { "type": "root", "tip": "ex(向外)+haust(汲取,同 exhaust),体力被全部抽干就是筋疲力尽。" },
-      "petExam": { "frequency": "low", "collocations": ["feel exhausted", "completely exhausted"] }
-    }
+    {"id":"pet-sport-001","word":"team","phonetic":"/tiːm/","pos":"n.","meaning":"队；团队","level":"A2","examples":[{"en":"Our team won the game.","zh":"我们队赢了比赛。"},{"en":"He plays for the school team.","zh":"他为校队效力。"}],"synonyms":["side"],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"sound","tip":"team 谐音\"梯姆\"——一队人像搭梯子一样彼此配合、齐心协力。"},"petExam":{"frequency":"high","collocations":["a football team","join a team"]},"inKet":true},
+    {"id":"pet-sport-002","word":"match","phonetic":"/mætʃ/","pos":"n.","meaning":"比赛；火柴；相配","level":"A2","examples":[{"en":"We watched a tennis match.","zh":"我们看了一场网球比赛。"},{"en":"The match ended in a draw.","zh":"比赛以平局告终。"}],"synonyms":["game"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"match 有\"相配\"义,两支势均力敌的队配到一起较量就是一场 match。"},"petExam":{"frequency":"high","collocations":["a football match","win a match"]},"inKet":true},
+    {"id":"pet-sport-003","word":"score","phonetic":"/skɔː/","pos":"n./v.","meaning":"得分；比分","level":"B1","examples":[{"en":"The final score was 2-1.","zh":"最终比分是2比1。"},{"en":"He scored the winning goal.","zh":"他打进了制胜一球。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"score 谐音\"斯扣儿\"——每进一球就在记分牌上\"扣\"上一分。"},"petExam":{"frequency":"high","collocations":["the final score","score a goal"]},"inKet":true},
+    {"id":"pet-sport-004","word":"goal","phonetic":"/ɡəʊl/","pos":"n.","meaning":"进球；球门；目标","level":"A2","examples":[{"en":"He scored two goals today.","zh":"他今天打进两球。"},{"en":"My goal is to run faster.","zh":"我的目标是跑得更快。"}],"synonyms":["aim"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"球踢进 goal(球门)就得分,人生也要瞄准自己的 goal(目标)。"},"petExam":{"frequency":"high","collocations":["score a goal","reach a goal"]},"inKet":true},
+    {"id":"pet-sport-005","word":"player","phonetic":"/ˈpleɪə/","pos":"n.","meaning":"运动员；选手","level":"A2","examples":[{"en":"She is the best player on the team.","zh":"她是队里最好的球员。"},{"en":"Each team has eleven players.","zh":"每队有十一名球员。"}],"synonyms":[],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"split","tip":"play(玩/打球)+er(人),下场打球的人就是球员。"},"petExam":{"frequency":"high","collocations":["a football player","the best player"]},"inKet":true},
+    {"id":"pet-sport-006","word":"coach","phonetic":"/kəʊtʃ/","pos":"n.","meaning":"教练；长途客车","level":"B1","examples":[{"en":"The coach trains the team every day.","zh":"教练每天训练球队。"},{"en":"We took a coach to the city.","zh":"我们坐长途客车去了城里。"}],"synonyms":["trainer"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"coach 既是\"教练\"又是\"长途车\"——教练像车一样把队员\"载\"向胜利。"},"petExam":{"frequency":"medium","collocations":["a football coach","a team coach"]},"inKet":true},
+    {"id":"pet-sport-007","word":"referee","phonetic":"/ˌrefəˈriː/","pos":"n.","meaning":"裁判","level":"B1","examples":[{"en":"The referee blew his whistle.","zh":"裁判吹响了哨子。"},{"en":"The referee gave a red card.","zh":"裁判出示了一张红牌。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"refer(参照/裁定)+ee(人),球场上说了算、做裁定的人就是裁判。"},"petExam":{"frequency":"low","collocations":["the referee blows the whistle","a football referee"]}},
+    {"id":"pet-sport-008","word":"champion","phonetic":"/ˈtʃæmpiən/","pos":"n.","meaning":"冠军","level":"B1","examples":[{"en":"She is the world champion.","zh":"她是世界冠军。"},{"en":"Our team became champions.","zh":"我们队夺得了冠军。"}],"synonyms":["winner"],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"sound","tip":"champion 谐音\"掌拼\"——凭真本事掌握全场、拼到第一就是冠军。"},"petExam":{"frequency":"medium","collocations":["a world champion","become a champion"]}},
+    {"id":"pet-sport-009","word":"competition","phonetic":"/ˌkɒmpəˈtɪʃn/","pos":"n.","meaning":"比赛；竞争","level":"B1","examples":[{"en":"She won first place in the competition.","zh":"她在比赛中得了第一名。"},{"en":"There is strong competition for the job.","zh":"这份工作竞争激烈。"}],"synonyms":["contest"],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"com(共同)+pet(追求,同 petition)+ition,大家一起追同一个目标就是竞争/比赛。"},"petExam":{"frequency":"high","collocations":["win a competition","enter a competition"]},"inKet":true},
+    {"id":"pet-sport-010","word":"race","phonetic":"/reɪs/","pos":"n./v.","meaning":"赛跑；比赛","level":"A2","examples":[{"en":"He won the 100-metre race.","zh":"他赢了百米赛跑。"},{"en":"The two boys raced to the gate.","zh":"两个男孩赛跑到大门口。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"race 谐音\"瑞斯\"不如记\"来死\"反着想——赛跑拼到底,谁快谁赢。"},"petExam":{"frequency":"medium","collocations":["win a race","a running race"]},"inKet":true},
+    {"id":"pet-sport-011","word":"beat","phonetic":"/biːt/","pos":"v.","meaning":"击败；打","level":"B1","examples":[{"en":"Our team beat theirs 3-0.","zh":"我们队以3比0击败对方。"},{"en":"Nobody can beat him at chess.","zh":"下棋没人赢得了他。"}],"synonyms":["defeat"],"antonyms":["lose to"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"beat 本义\"敲打\",把对手打得抬不起头就是击败(过去式还是 beat)。"},"petExam":{"frequency":"medium","collocations":["beat a team","beat the record"]}},
+    {"id":"pet-sport-012","word":"defeat","phonetic":"/dɪˈfiːt/","pos":"v./n.","meaning":"击败；失败","level":"B1","examples":[{"en":"They defeated the strongest team.","zh":"他们击败了最强的队伍。"},{"en":"The team suffered a defeat.","zh":"这支队伍遭遇了一场失败。"}],"synonyms":["beat"],"antonyms":["win"],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"de(向下)+feat(做/成就),把对方的气势\"往下\"打压就是击败。"},"petExam":{"frequency":"medium","collocations":["defeat an opponent","admit defeat"]}},
+    {"id":"pet-sport-013","word":"train","phonetic":"/treɪn/","pos":"v.","meaning":"训练；培养","level":"B1","examples":[{"en":"The players train every morning.","zh":"球员们每天早上训练。"},{"en":"She trains hard for the race.","zh":"她为赛跑刻苦训练。"}],"synonyms":["practise"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"train 也是\"火车\",训练就像开火车,一节节反复地把本领拉起来。"},"petExam":{"frequency":"medium","collocations":["train hard","train for a match"]},"inKet":true},
+    {"id":"pet-sport-014","word":"gym","phonetic":"/dʒɪm/","pos":"n.","meaning":"健身房；体育馆","level":"A2","examples":[{"en":"I go to the gym three times a week.","zh":"我一周去三次健身房。"},{"en":"We play basketball in the gym.","zh":"我们在体育馆打篮球。"}],"synonyms":[],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"split","tip":"gym 是 gymnasium 的缩写,举铁流汗练身材的地方。"},"petExam":{"frequency":"medium","collocations":["go to the gym","a gym class"]},"inKet":true},
+    {"id":"pet-sport-015","word":"stadium","phonetic":"/ˈsteɪdiəm/","pos":"n.","meaning":"体育场；运动场","level":"B1","examples":[{"en":"The stadium holds fifty thousand people.","zh":"这座体育场能容纳五万人。"},{"en":"Fans filled the stadium.","zh":"球迷挤满了体育场。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"sound","tip":"stadium 谐音\"斯泰迪姆\"——万人\"堆\"在一起看比赛的大场子。"},"petExam":{"frequency":"low","collocations":["a football stadium","fill the stadium"]},"inKet":true},
+    {"id":"pet-sport-016","word":"medal","phonetic":"/ˈmedl/","pos":"n.","meaning":"奖牌","level":"B1","examples":[{"en":"She won a gold medal.","zh":"她赢得了一枚金牌。"},{"en":"He proudly showed his medal.","zh":"他自豪地展示奖牌。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"medal 谐音\"美倒\"——一枚奖牌美得让人倾倒。"},"petExam":{"frequency":"medium","collocations":["a gold medal","win a medal"]},"inKet":true},
+    {"id":"pet-sport-017","word":"prize","phonetic":"/praɪz/","pos":"n.","meaning":"奖品；奖金","level":"A2","examples":[{"en":"The winner got a big prize.","zh":"获胜者得到了一份大奖。"},{"en":"First prize is a new bike.","zh":"一等奖是一辆新自行车。"}],"synonyms":["award"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"prize 谐音\"派子\"——赢了就给你派个奖。"},"petExam":{"frequency":"medium","collocations":["win a prize","first prize"]},"inKet":true},
+    {"id":"pet-sport-018","word":"fan","phonetic":"/fæn/","pos":"n.","meaning":"球迷；粉丝；风扇","level":"A2","examples":[{"en":"He is a big football fan.","zh":"他是个铁杆足球迷。"},{"en":"The fans cheered loudly.","zh":"球迷们大声欢呼。"}],"synonyms":["supporter"],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"image","tip":"fan 是\"风扇\",球迷为主队摇旗呐喊,像风扇一样呼呼扇起气氛。"},"petExam":{"frequency":"medium","collocations":["a football fan","a big fan"]},"inKet":true},
+    {"id":"pet-sport-019","word":"kick","phonetic":"/kɪk/","pos":"v.","meaning":"踢","level":"A2","examples":[{"en":"He kicked the ball into the net.","zh":"他把球踢进了网。"},{"en":"Don't kick the door!","zh":"别踢门！"}],"synonyms":[],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"sound","tip":"kick 谐音\"凯克\"——起脚就是\"咔\"地一\"踢\"。"},"petExam":{"frequency":"medium","collocations":["kick a ball","kick off"]},"inKet":true},
+    {"id":"pet-sport-020","word":"throw","phonetic":"/θrəʊ/","pos":"v.","meaning":"投；扔","level":"A2","examples":[{"en":"Throw the ball to me.","zh":"把球扔给我。"},{"en":"She threw the ball over the wall.","zh":"她把球扔过了墙。"}],"synonyms":["toss"],"antonyms":["catch"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"throw 里有 row(划),手臂像划桨一样甩出去就是投掷(过去式 threw)。"},"petExam":{"frequency":"medium","collocations":["throw a ball","throw away"]},"inKet":true},
+    {"id":"pet-sport-021","word":"catch","phonetic":"/kætʃ/","pos":"v.","meaning":"接住；抓住","level":"A2","examples":[{"en":"Can you catch the ball?","zh":"你能接住球吗？"},{"en":"The dog caught the stick.","zh":"狗接住了木棍。"}],"synonyms":[],"antonyms":["throw"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"catch 谐音\"卡吃\"——球飞来\"卡\"进手心,一把\"吃\"下就是接住。"},"petExam":{"frequency":"high","collocations":["catch a ball","catch up"]},"inKet":true},
+    {"id":"pet-sport-022","word":"jump","phonetic":"/dʒʌmp/","pos":"v.","meaning":"跳；跳跃","level":"A2","examples":[{"en":"He can jump very high.","zh":"他能跳得很高。"},{"en":"The cat jumped onto the table.","zh":"猫跳到了桌子上。"}],"synonyms":["leap"],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"jump 的 j 像人屈膝、mp 像双脚蹬地弹起,一看就是跳。"},"petExam":{"frequency":"medium","collocations":["jump high","jump over"]},"inKet":true},
+    {"id":"pet-sport-023","word":"cycle","phonetic":"/ˈsaɪkl/","pos":"v.","meaning":"骑自行车","level":"B1","examples":[{"en":"I cycle to school every day.","zh":"我每天骑车上学。"},{"en":"They cycled around the lake.","zh":"他们绕着湖骑车。"}],"synonyms":["bike"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"cycl(圈,同 circle)+e,车轮转圈前进就是骑车。"},"petExam":{"frequency":"medium","collocations":["cycle to work","go cycling"]}},
+    {"id":"pet-sport-024","word":"jog","phonetic":"/dʒɒɡ/","pos":"v.","meaning":"慢跑","level":"B1","examples":[{"en":"She jogs in the park each morning.","zh":"她每天早上在公园慢跑。"},{"en":"Jogging is good for your heart.","zh":"慢跑对心脏有益。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"jog 谐音\"轧\"——脚步不紧不慢地\"轧\"过地面就是慢跑。"},"petExam":{"frequency":"low","collocations":["go jogging","jog in the park"]}},
+    {"id":"pet-sport-025","word":"skate","phonetic":"/skeɪt/","pos":"v.","meaning":"滑冰；溜冰","level":"B1","examples":[{"en":"We skate on the frozen lake.","zh":"我们在结冰的湖面上滑冰。"},{"en":"He learned to skate at six.","zh":"他六岁学会了滑冰。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"skate 谐音\"斯给它\"——冰刀\"嘶\"地划过冰面就是滑冰。"},"petExam":{"frequency":"low","collocations":["go skating","ice skate"]},"inKet":true},
+    {"id":"pet-sport-026","word":"ski","phonetic":"/skiː/","pos":"v.","meaning":"滑雪","level":"B1","examples":[{"en":"They ski in the mountains in winter.","zh":"冬天他们在山里滑雪。"},{"en":"I want to learn to ski.","zh":"我想学滑雪。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"ski 长得像两根雪橇板,踩上去从雪坡\"嘶\"地滑下来。"},"petExam":{"frequency":"low","collocations":["go skiing","learn to ski"]},"inKet":true},
+    {"id":"pet-sport-027","word":"swim","phonetic":"/swɪm/","pos":"v.","meaning":"游泳","level":"A2","examples":[{"en":"Can you swim across the pool?","zh":"你能游到泳池对岸吗？"},{"en":"We swim in the sea in summer.","zh":"夏天我们在海里游泳。"}],"synonyms":[],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"swim 里的 w 像水波,身体在水波里划动就是游泳(过去式 swam)。"},"petExam":{"frequency":"medium","collocations":["go swimming","swim in the sea"]},"inKet":true},
+    {"id":"pet-sport-028","word":"tennis","phonetic":"/ˈtenɪs/","pos":"n.","meaning":"网球","level":"A2","examples":[{"en":"They play tennis on Sundays.","zh":"他们周日打网球。"},{"en":"She is good at tennis.","zh":"她网球打得好。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"tennis 谐音\"太累事\"——追着小球满场跑,确实是件累人的运动。"},"petExam":{"frequency":"medium","collocations":["play tennis","a tennis court"]},"inKet":true},
+    {"id":"pet-sport-029","word":"volleyball","phonetic":"/ˈvɒlibɔːl/","pos":"n.","meaning":"排球","level":"B1","examples":[{"en":"We play volleyball on the beach.","zh":"我们在沙滩上打排球。"},{"en":"Volleyball needs six players.","zh":"排球需要六名队员。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"split","tip":"volley(凌空击球)+ball(球),球不落地凌空对打就是排球。"},"petExam":{"frequency":"low","collocations":["play volleyball","a volleyball team"]},"inKet":true},
+    {"id":"pet-sport-030","word":"opponent","phonetic":"/əˈpəʊnənt/","pos":"n.","meaning":"对手","level":"B1","examples":[{"en":"Our opponent is a strong team.","zh":"我们的对手是支强队。"},{"en":"He shook hands with his opponent.","zh":"他和对手握了手。"}],"synonyms":["rival"],"antonyms":["partner"],"difficulty":4,"tags":["sport"],"mnemonic":{"type":"root","tip":"op(相对)+pon(放,同 position的pon)+ent,站在你对面的人就是对手。"},"petExam":{"frequency":"low","collocations":["a strong opponent","beat an opponent"]}},
+    {"id":"pet-sport-031","word":"whistle","phonetic":"/ˈwɪsl/","pos":"n./v.","meaning":"哨子；吹口哨","level":"B1","examples":[{"en":"The referee blew the whistle.","zh":"裁判吹响了哨子。"},{"en":"He whistled a happy tune.","zh":"他吹着欢快的口哨。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"whistle 里的 whis 像\"嘘\"的气声,t 不发音,吹出\"嘘——\"就是哨声。"},"petExam":{"frequency":"low","collocations":["blow the whistle","a loud whistle"]}},
+    {"id":"pet-sport-032","word":"warm up","phonetic":"/wɔːm ʌp/","pos":"phr.","meaning":"热身；做准备活动","level":"B1","examples":[{"en":"Always warm up before you run.","zh":"跑步前一定要热身。"},{"en":"The players warmed up on the field.","zh":"球员们在场上热身。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"warm(变暖)+up,运动前先把身体活动\"热\"起来就是热身。"},"petExam":{"frequency":"medium","collocations":["warm up before exercise","a warm-up"]}},
+    {"id":"pet-sport-033","word":"strength","phonetic":"/streŋθ/","pos":"n.","meaning":"力量；力气","level":"B1","examples":[{"en":"Lifting weights builds strength.","zh":"举重能增强力量。"},{"en":"He pushed the door with all his strength.","zh":"他用尽全力推门。"}],"synonyms":["power"],"antonyms":["weakness"],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"split","tip":"strong(强壮)的名词形式 strength,强壮带来的就是力量。"},"petExam":{"frequency":"low","collocations":["build strength","with all one's strength"]}},
+    {"id":"pet-sport-034","word":"win","phonetic":"/wɪn/","pos":"v.","meaning":"赢；获胜","level":"A2","examples":[{"en":"I hope we win the game.","zh":"我希望我们赢下比赛。"},{"en":"She won the first prize.","zh":"她赢得了一等奖。"}],"synonyms":[],"antonyms":["lose"],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"win 里有 W,像举起双臂庆祝胜利的手势。"},"petExam":{"frequency":"high","collocations":["win a game","win a prize"]},"inKet":true},
+    {"id":"pet-sport-035","word":"lose","phonetic":"/luːz/","pos":"v.","meaning":"输；丢失","level":"A2","examples":[{"en":"Nobody likes to lose.","zh":"没人喜欢输。"},{"en":"Don't lose your ticket.","zh":"别把票弄丢了。"}],"synonyms":[],"antonyms":["win"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"lose(输/丢)只有一个 o,loose(松的)有两个 o,别把它\"丢\"错。"},"petExam":{"frequency":"high","collocations":["lose a game","lose weight"]},"inKet":true},
+    {"id":"pet-sport-036","word":"athlete","phonetic":"/ˈæθliːt/","pos":"n.","meaning":"运动员；田径选手","level":"B1","examples":[{"en":"The athlete ran very fast.","zh":"这名运动员跑得非常快。"},{"en":"Athletes need to train hard.","zh":"运动员需要刻苦训练。"}],"synonyms":[],"antonyms":[],"difficulty":4,"tags":["sport"],"mnemonic":{"type":"sound","tip":"athlete 谐音\"爱思利特\"——运动员爱思考、身手利落又特别能拼。"},"petExam":{"frequency":"low","collocations":["a top athlete","a professional athlete"]}},
+    {"id":"pet-sport-037","word":"court","phonetic":"/kɔːt/","pos":"n.","meaning":"球场(网球/篮球)","level":"B1","examples":[{"en":"They booked a tennis court.","zh":"他们订了一个网球场。"},{"en":"The players ran onto the court.","zh":"球员们跑进了球场。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"court 也指\"法庭\",网球场和法庭一样都有清楚的界线规则。"},"petExam":{"frequency":"medium","collocations":["a tennis court","a basketball court"]}},
+    {"id":"pet-sport-038","word":"exhausted","phonetic":"/ɪɡˈzɔːstɪd/","pos":"adj.","meaning":"筋疲力尽的","level":"B1","examples":[{"en":"After the match he was exhausted.","zh":"比赛后他筋疲力尽。"},{"en":"I feel exhausted after training.","zh":"训练后我累坏了。"}],"synonyms":["very tired"],"antonyms":[],"difficulty":4,"tags":["sport"],"mnemonic":{"type":"root","tip":"ex(向外)+haust(汲取,同 exhaust),体力被全部抽干就是筋疲力尽。"},"petExam":{"frequency":"low","collocations":["feel exhausted","completely exhausted"]}},
+    {"id":"pet-sport-039","word":"badminton","phonetic":"/ˈbædmɪntən/","pos":"n.","meaning":"羽毛球（运动）","level":"B1","examples":[{"en":"We play badminton in the park on Sundays.","zh":"我们周日在公园打羽毛球。"},{"en":"Badminton is very popular in China.","zh":"羽毛球在中国很流行。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"得名于英国 Badminton 庄园——在那里第一次流行起来。"},"petExam":{"frequency":"high","collocations":["play badminton"]},"inKet":true},
+    {"id":"pet-sport-040","word":"baseball","phonetic":"/ˈbeɪsbɔːl/","pos":"n.","meaning":"棒球","level":"B1","examples":[{"en":"Baseball is the national sport of Japan and the USA.","zh":"棒球是日本和美国的国民运动。"},{"en":"He wears his baseball cap everywhere.","zh":"他到哪儿都戴着棒球帽。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"base(垒)+ball(球)→绕着垒跑的球类→棒球。"},"petExam":{"frequency":"medium","collocations":["a baseball cap"]},"inKet":true},
+    {"id":"pet-sport-041","word":"golf","phonetic":"/ɡɒlf/","pos":"n.","meaning":"高尔夫球","level":"B1","examples":[{"en":"Grandpa plays golf every Saturday morning.","zh":"爷爷每周六上午打高尔夫。"},{"en":"A golf ball is small and hard.","zh":"高尔夫球又小又硬。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"golf 谐音\"高尔夫\"——音译词。"},"petExam":{"frequency":"medium","collocations":["play golf","a golf course"]},"inKet":true},
+    {"id":"pet-sport-042","word":"rugby","phonetic":"/ˈrʌɡbi/","pos":"n.","meaning":"橄榄球（英式）","level":"B1","examples":[{"en":"Rugby players pass the ball backwards.","zh":"橄榄球运动员向后传球。"},{"en":"He broke his nose playing rugby.","zh":"他打橄榄球摔断了鼻梁。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"得名于英国 Rugby 学校——一个学生抱起足球跑，新运动诞生。"},"petExam":{"frequency":"medium","collocations":["play rugby"]}},
+    {"id":"pet-sport-043","word":"cricket","phonetic":"/ˈkrɪkɪt/","pos":"n.","meaning":"板球；蟋蟀","level":"B1","examples":[{"en":"Cricket matches can last a whole day.","zh":"板球比赛能打一整天。"},{"en":"We heard crickets singing in the grass.","zh":"我们听见草丛里蟋蟀在叫。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"一词两义：英国人的 cricket 板球，草丛里的 cricket 蟋蟀。"},"petExam":{"frequency":"medium","collocations":["play cricket"]}},
+    {"id":"pet-sport-044","word":"hockey","phonetic":"/ˈhɒki/","pos":"n.","meaning":"曲棍球","level":"B1","examples":[{"en":"Ice hockey is fast and exciting.","zh":"冰球比赛节奏快又刺激。"},{"en":"She plays hockey for the school team.","zh":"她代表校队打曲棍球。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"hockey 谐音\"呼气\"——满场跑得直呼气。"},"petExam":{"frequency":"medium","collocations":["ice hockey"]},"inKet":true},
+    {"id":"pet-sport-045","word":"boxing","phonetic":"/ˈbɒksɪŋ/","pos":"n.","meaning":"拳击","level":"B1","examples":[{"en":"Boxing needs quick hands and quick feet.","zh":"拳击需要快手快脚。"},{"en":"The boxing match ended in the third round.","zh":"拳击赛在第三回合结束。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"box(击打)+ing→用拳头打的运动→拳击。"},"petExam":{"frequency":"medium","collocations":["a boxing match"]}},
+    {"id":"pet-sport-046","word":"gymnastics","phonetic":"/dʒɪmˈnæstɪks/","pos":"n.","meaning":"体操","level":"B1","examples":[{"en":"She practises gymnastics three times a week.","zh":"她每周练三次体操。"},{"en":"Gymnastics makes your body strong and flexible.","zh":"体操让身体强壮又柔韧。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"gym(体育馆)+nastics→在体育馆里练的技巧运动→体操。"},"petExam":{"frequency":"medium","collocations":["do gymnastics"]}},
+    {"id":"pet-sport-047","word":"athletics","phonetic":"/æθˈletɪks/","pos":"n.","meaning":"田径","level":"B1","examples":[{"en":"The school athletics day is in May.","zh":"学校田径运动会在五月。"},{"en":"Running and jumping are athletics events.","zh":"跑和跳都是田径项目。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"athlete(运动员)+ics→运动员的基本功——田径。"},"petExam":{"frequency":"medium","collocations":["an athletics meeting"]}},
+    {"id":"pet-sport-048","word":"marathon","phonetic":"/ˈmærəθən/","pos":"n.","meaning":"马拉松","level":"B1","examples":[{"en":"Thousands of runners joined the city marathon.","zh":"数千名跑者参加了城市马拉松。"},{"en":"Finishing a marathon takes months of training.","zh":"跑完马拉松需要数月训练。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"源自希腊 Marathon 平原——士兵跑回雅典报捷的距离。"},"petExam":{"frequency":"medium","collocations":["run a marathon"]}},
+    {"id":"pet-sport-049","word":"surfing","phonetic":"/ˈsɜːfɪŋ/","pos":"n.","meaning":"冲浪","level":"B1","examples":[{"en":"He goes surfing whenever the waves are good.","zh":"浪好的时候他就去冲浪。"},{"en":"Surfing looks easy but is hard to learn.","zh":"冲浪看着容易学着难。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"surf(浪)+ing→踩着浪走→冲浪；上网也叫 surf the Internet。"},"petExam":{"frequency":"medium","collocations":["go surfing"]}},
+    {"id":"pet-sport-050","word":"diving","phonetic":"/ˈdaɪvɪŋ/","pos":"n.","meaning":"跳水；潜水","level":"B1","examples":[{"en":"China wins many gold medals in diving.","zh":"中国在跳水项目上拿了很多金牌。"},{"en":"We tried diving to see the fish under the sea.","zh":"我们尝试潜水看海底的鱼。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"dive(跳入水)+ing→跳水/潜水。"},"petExam":{"frequency":"medium","collocations":["go diving"]}},
+    {"id":"pet-sport-051","word":"rowing","phonetic":"/ˈrəʊɪŋ/","pos":"n.","meaning":"划船（赛艇）","level":"B1","examples":[{"en":"Rowing uses almost every muscle in your body.","zh":"划船几乎用到全身肌肉。"},{"en":"The rowing team trains on the river at dawn.","zh":"赛艇队清晨在河上训练。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"row(划)+ing——注意读 /rəʊ/，与 row(一排)同形。"},"petExam":{"frequency":"low","collocations":["a rowing boat"]}},
+    {"id":"pet-sport-052","word":"climbing","phonetic":"/ˈklaɪmɪŋ/","pos":"n.","meaning":"攀岩，登山","level":"B1","examples":[{"en":"Rock climbing tests both strength and courage.","zh":"攀岩考验力量和勇气。"},{"en":"They went climbing in the mountains last summer.","zh":"去年夏天他们去山里登山了。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"climb(爬)+ing→攀爬运动；b 不发音。"},"petExam":{"frequency":"medium","collocations":["rock climbing"]}},
+    {"id":"pet-sport-053","word":"table tennis","phonetic":"/ˈteɪbl tenɪs/","pos":"n.","meaning":"乒乓球","level":"B1","examples":[{"en":"Table tennis is China’s strongest sport.","zh":"乒乓球是中国最强的运动项目。"},{"en":"They played table tennis after dinner.","zh":"晚饭后他们打了乒乓球。"}],"synonyms":["ping-pong"],"antonyms":[],"difficulty":1,"tags":["sport"],"mnemonic":{"type":"root","tip":"table(桌)+tennis(网球)→桌上的网球→乒乓球。"},"petExam":{"frequency":"high","collocations":["play table tennis"]},"inKet":true},
+    {"id":"pet-sport-054","word":"yoga","phonetic":"/ˈjəʊɡə/","pos":"n.","meaning":"瑜伽","level":"B1","examples":[{"en":"Mum does yoga to relax before bed.","zh":"妈妈睡前做瑜伽放松。"},{"en":"Yoga improves your balance and breathing.","zh":"瑜伽能改善平衡和呼吸。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"yoga 音译\"瑜伽\"——来自印度的古老运动。"},"petExam":{"frequency":"medium","collocations":["do yoga"]}},
+    {"id":"pet-sport-055","word":"pitch","phonetic":"/pɪtʃ/","pos":"n.","meaning":"球场（足球等）","level":"B1","examples":[{"en":"The players ran onto the pitch.","zh":"球员们跑上球场。"},{"en":"The football pitch was muddy after the rain.","zh":"雨后足球场满是泥。"}],"synonyms":["field"],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"英式足球场叫 pitch，网球篮球场叫 court。"},"petExam":{"frequency":"medium","collocations":["a football pitch"]}},
+    {"id":"pet-sport-056","word":"track","phonetic":"/træk/","pos":"n.","meaning":"跑道；轨道","level":"B1","examples":[{"en":"The runners lined up on the track.","zh":"赛跑选手在跑道上列队。"},{"en":"The train left the track in the film.","zh":"电影里火车脱轨了。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"田径场一圈圈的 track 跑道；track and field 田径。"},"petExam":{"frequency":"medium","collocations":["a running track"]}},
+    {"id":"pet-sport-057","word":"glove","phonetic":"/ɡlʌv/","pos":"n.","meaning":"手套","level":"B1","examples":[{"en":"The goalkeeper wears special gloves.","zh":"守门员戴专用手套。"},{"en":"Put on gloves; it is freezing outside.","zh":"戴上手套，外面冷极了。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"g+love：把爱(love)戴在手上——手套。"},"petExam":{"frequency":"medium","collocations":["a pair of gloves"]},"inKet":true},
+    {"id":"pet-sport-058","word":"kit","phonetic":"/kɪt/","pos":"n.","meaning":"全套装备；队服","level":"B1","examples":[{"en":"Don’t forget your PE kit tomorrow.","zh":"明天别忘了带体育服。"},{"en":"The team’s new kit is red and white.","zh":"球队的新队服是红白色的。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"英式说法：PE kit 体育课装备，football kit 球衣套装。"},"petExam":{"frequency":"medium","collocations":["a PE kit"]}},
+    {"id":"pet-sport-059","word":"scoreboard","phonetic":"/ˈskɔːbɔːd/","pos":"n.","meaning":"记分牌","level":"B1","examples":[{"en":"The scoreboard showed 3–2 at half-time.","zh":"中场时记分牌显示3比2。"},{"en":"All eyes turned to the scoreboard.","zh":"所有目光都投向记分牌。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"score(比分)+board(牌)→显示比分的牌。"},"petExam":{"frequency":"low","collocations":["look at the scoreboard"]}},
+    {"id":"pet-sport-060","word":"goalkeeper","phonetic":"/ˈɡəʊlkiːpə(r)/","pos":"n.","meaning":"守门员","level":"B1","examples":[{"en":"The goalkeeper saved a penalty in the last minute.","zh":"守门员在最后一分钟扑出点球。"},{"en":"A goalkeeper must stay calm under pressure.","zh":"守门员要在压力下保持冷静。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"goal(球门)+keeper(看守者)→守住球门的人。"},"petExam":{"frequency":"medium","collocations":["a great goalkeeper"]}},
+    {"id":"pet-sport-061","word":"tournament","phonetic":"/ˈtʊənəmənt/","pos":"n.","meaning":"锦标赛","level":"B1","examples":[{"en":"Thirty-two teams entered the tournament.","zh":"三十二支队伍参加了锦标赛。"},{"en":"She won her first tennis tournament at fifteen.","zh":"她十五岁赢得首个网球锦标赛。"}],"synonyms":["competition"],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"中世纪骑士的比武大会就叫 tournament——轮番上阵。"},"petExam":{"frequency":"medium","collocations":["a tennis tournament"]}},
+    {"id":"pet-sport-062","word":"league","phonetic":"/liːɡ/","pos":"n.","meaning":"联赛；联盟","level":"B1","examples":[{"en":"Our school team plays in the city league.","zh":"我们校队参加市联赛。"},{"en":"The team is top of the league this season.","zh":"这支球队本赛季联赛排名第一。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"sound","tip":"league 谐音\"力搿\"——各队合力搿在一起打联赛。"},"petExam":{"frequency":"medium","collocations":["top of the league"]}},
+    {"id":"pet-sport-063","word":"final","phonetic":"/ˈfaɪnl/","pos":"n.","meaning":"决赛","level":"B1","examples":[{"en":"They reached the final for the first time.","zh":"他们首次打进决赛。"},{"en":"The final will be played on Saturday.","zh":"决赛周六举行。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"fin(结束)+al→最后一场→决赛；finish 同根。"},"petExam":{"frequency":"high","collocations":["reach the final","the cup final"]}},
+    {"id":"pet-sport-064","word":"championship","phonetic":"/ˈtʃæmpiənʃɪp/","pos":"n.","meaning":"锦标赛，冠军赛","level":"B1","examples":[{"en":"The swimming championship is held every year.","zh":"游泳锦标赛每年举行。"},{"en":"They won the national championship twice.","zh":"他们两次夺得全国冠军。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"champion(冠军)+ship→争夺冠军的比赛。"},"petExam":{"frequency":"medium","collocations":["the world championship"]}},
+    {"id":"pet-sport-065","word":"victory","phonetic":"/ˈvɪktəri/","pos":"n.","meaning":"胜利","level":"B1","examples":[{"en":"The fans celebrated the victory all night.","zh":"球迷们彻夜庆祝胜利。"},{"en":"It was an easy victory for the home team.","zh":"主队轻松取胜。"}],"synonyms":["win"],"antonyms":["defeat"],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"V 字手势就是 victory——胜利的 V。"},"petExam":{"frequency":"high","collocations":["celebrate a victory"]}},
+    {"id":"pet-sport-066","word":"record","phonetic":"/ˈrekɔːd/","pos":"n.","meaning":"纪录","level":"B1","examples":[{"en":"She broke the school record for the 100 metres.","zh":"她打破了学校百米纪录。"},{"en":"The world record is hard to beat.","zh":"世界纪录很难打破。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"break a record 破纪录——record 名词重音在前，动词在后。"},"petExam":{"frequency":"high","collocations":["break a record","set a record"]}},
+    {"id":"pet-sport-067","word":"event","phonetic":"/ɪˈvent/","pos":"n.","meaning":"比赛项目；大事","level":"B1","examples":[{"en":"The long jump is my favourite event.","zh":"跳远是我最喜欢的项目。"},{"en":"The school sports day is a big event.","zh":"校运会是件大事。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"e(出)+vent(来)→发生出来的事→事件/项目。"},"petExam":{"frequency":"high","collocations":["a sports event"]}},
+    {"id":"pet-sport-068","word":"teammate","phonetic":"/ˈtiːmmeɪt/","pos":"n.","meaning":"队友","level":"B1","examples":[{"en":"Pass the ball to your teammates.","zh":"把球传给队友。"},{"en":"She gets on well with all her teammates.","zh":"她和所有队友都相处融洽。"}],"synonyms":[],"antonyms":["opponent"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"team(队)+mate(伙伴)→同队的伙伴→队友。"},"petExam":{"frequency":"high","collocations":["trust your teammates"]}},
+    {"id":"pet-sport-069","word":"supporter","phonetic":"/səˈpɔːtə(r)/","pos":"n.","meaning":"支持者，球迷","level":"B1","examples":[{"en":"Thousands of supporters travelled to the away game.","zh":"数千名球迷远赴客场。"},{"en":"The supporters sang for the whole match.","zh":"球迷们唱了整场比赛。"}],"synonyms":["fan"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"support(支持)+er(人)→支持球队的人。"},"petExam":{"frequency":"medium","collocations":["football supporters"]}},
+    {"id":"pet-sport-070","word":"spectator","phonetic":"/spekˈteɪtə(r)/","pos":"n.","meaning":"观众（现场）","level":"B1","examples":[{"en":"Fifty thousand spectators filled the stadium.","zh":"五万名观众坐满体育场。"},{"en":"Spectators must stay behind the line.","zh":"观众必须待在线后。"}],"synonyms":["audience"],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"spect(看)+ator(人)→到场观看的人。"},"petExam":{"frequency":"medium","collocations":["thousands of spectators"]}},
+    {"id":"pet-sport-071","word":"cheer","phonetic":"/tʃɪə(r)/","pos":"v.","meaning":"欢呼，加油","level":"B1","examples":[{"en":"The crowd cheered when she crossed the line.","zh":"她冲线时人群欢呼起来。"},{"en":"We went to cheer for our class team.","zh":"我们去为班队加油。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"cheer 谐音\"切尔\"——切尔西球迷最会 cheer。"},"petExam":{"frequency":"high","collocations":["cheer for","cheer sb on"]}},
+    {"id":"pet-sport-072","word":"penalty","phonetic":"/ˈpenəlti/","pos":"n.","meaning":"点球；处罚","level":"B1","examples":[{"en":"The referee gave a penalty in the last minute.","zh":"裁判在最后一分钟判了点球。"},{"en":"There is a penalty for handball.","zh":"手球要受罚。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"penal(惩罚)+ty→犯规的代价→点球/处罚。"},"petExam":{"frequency":"medium","collocations":["score a penalty"]}},
+    {"id":"pet-sport-073","word":"foul","phonetic":"/faʊl/","pos":"n.","meaning":"犯规","level":"B1","examples":[{"en":"That push was clearly a foul.","zh":"那一推明显犯规。"},{"en":"He was sent off after his fifth foul.","zh":"第五次犯规后他被罚下场。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"foul 与 fool(傻瓜)音近——傻傻犯规就丢分。"},"petExam":{"frequency":"medium","collocations":["commit a foul"]}},
+    {"id":"pet-sport-074","word":"draw","phonetic":"/drɔː/","pos":"n.","meaning":"平局","level":"B1","examples":[{"en":"The match ended in a two-all draw.","zh":"比赛以二比二平局结束。"},{"en":"A draw felt like a defeat for the stronger team.","zh":"对更强的一方来说，平局如同失利。"}],"synonyms":["tie"],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"一词多义：draw 画画、平局、抽签——比分拉平叫 draw。"},"petExam":{"frequency":"medium","collocations":["end in a draw"]},"inKet":true},
+    {"id":"pet-sport-075","word":"loser","phonetic":"/ˈluːzə(r)/","pos":"n.","meaning":"失败者","level":"B1","examples":[{"en":"A good loser congratulates the winner.","zh":"输得起的人会祝贺胜者。"},{"en":"There are no losers when you try your best.","zh":"尽了全力就没有失败者。"}],"synonyms":[],"antonyms":["winner"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"lose(输)+er(人)→输的一方。"},"petExam":{"frequency":"medium","collocations":["a good loser"]}},
+    {"id":"pet-sport-076","word":"compete","phonetic":"/kəmˈpiːt/","pos":"v.","meaning":"竞争，比赛","level":"B1","examples":[{"en":"Teams from ten schools competed in the relay.","zh":"十所学校的队伍参加了接力赛。"},{"en":"She will compete against last year’s champion.","zh":"她将对阵去年的冠军。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"com(共同)+pete(追求)→一起争夺→竞争；名词 competition。"},"petExam":{"frequency":"high","collocations":["compete in","compete against"]}},
+    {"id":"pet-sport-077","word":"bounce","phonetic":"/baʊns/","pos":"v.","meaning":"弹跳","level":"B1","examples":[{"en":"The ball bounced twice before the net.","zh":"球在网前弹了两下。"},{"en":"Children love bouncing on the trampoline.","zh":"孩子们爱在蹦床上蹦跳。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"bounce 谐音\"棒次\"——球棒一击，球嘭嘭弹起。"},"petExam":{"frequency":"medium","collocations":["bounce a ball"]}},
+    {"id":"pet-sport-078","word":"dive","phonetic":"/daɪv/","pos":"v.","meaning":"跳水；扑救","level":"B1","examples":[{"en":"She dived into the pool without a splash.","zh":"她入水时几乎没有水花。"},{"en":"The keeper dived to save the shot.","zh":"门将飞身扑救射门。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"image","tip":"dive 的 d 像人弯腰俯冲的侧影——头朝下扎进水里。"},"petExam":{"frequency":"medium","collocations":["dive into the water"]}},
+    {"id":"pet-sport-079","word":"stretch","phonetic":"/stretʃ/","pos":"v.","meaning":"伸展，拉伸","level":"B1","examples":[{"en":"Always stretch before you run.","zh":"跑步前一定要拉伸。"},{"en":"The cat stretched and went back to sleep.","zh":"猫伸了个懒腰又睡了。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"stretch 音里带\"拉扯\"感——s-t-r 一路拉长。"},"petExam":{"frequency":"high","collocations":["stretch your legs"]}},
+    {"id":"pet-sport-080","word":"shoot","phonetic":"/ʃuːt/","pos":"v.","meaning":"射门，投篮","level":"B1","examples":[{"en":"He shot from outside the box and scored.","zh":"他禁区外远射得分。"},{"en":"Shoot when you see the chance!","zh":"看到机会就出手！"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"射门、投篮、拍照都是 shoot——瞄准目标出手。"},"petExam":{"frequency":"high","collocations":["shoot at goal"]}},
+    {"id":"pet-sport-081","word":"defend","phonetic":"/dɪˈfend/","pos":"v.","meaning":"防守；保卫","level":"B1","examples":[{"en":"The whole team ran back to defend.","zh":"全队回撤防守。"},{"en":"The champion will defend her title next month.","zh":"冠军下月将卫冕。"}],"synonyms":[],"antonyms":["attack"],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"de(去)+fend(打击)→挡开打击→防守。"},"petExam":{"frequency":"medium","collocations":["defend the goal"]}},
+    {"id":"pet-sport-082","word":"attack","phonetic":"/əˈtæk/","pos":"v.","meaning":"进攻","level":"B1","examples":[{"en":"The team attacked from the first minute.","zh":"球队从第一分钟就发起进攻。"},{"en":"They attacked down the left side.","zh":"他们从左路进攻。"}],"synonyms":[],"antonyms":["defend"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"attack 谐音\"啊他磕\"——冲上去跟对手硬磕→进攻。"},"petExam":{"frequency":"high","collocations":["attack the goal"]}},
+    {"id":"pet-sport-083","word":"chase","phonetic":"/tʃeɪs/","pos":"v.","meaning":"追赶","level":"B1","examples":[{"en":"The defender chased the striker all the way back.","zh":"后卫一路回追前锋。"},{"en":"The dog loves chasing the ball.","zh":"这只狗最爱追球。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"chase 谐音\"追死\"——追到底不放弃。"},"petExam":{"frequency":"medium","collocations":["chase after"]}},
+    {"id":"pet-sport-084","word":"slip","phonetic":"/slɪp/","pos":"v.","meaning":"滑倒；溜走","level":"B1","examples":[{"en":"He slipped on the wet floor and fell.","zh":"他在湿地板上滑倒了。"},{"en":"The ball slipped out of the keeper’s hands.","zh":"球从门将手中滑脱。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"sound","tip":"slip 音轻脚滑——\"哧溜\"一下就滑倒。"},"petExam":{"frequency":"medium","collocations":["slip on the ice"]}},
+    {"id":"pet-sport-085","word":"sweat","phonetic":"/swet/","pos":"n.","meaning":"汗水；出汗","level":"B1","examples":[{"en":"His shirt was wet with sweat after the game.","zh":"赛后他的球衣被汗湿透。"},{"en":"No sweat, no success.","zh":"不流汗就没有成功。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"sweat 与 sweet 一字之差——汗水是甜的果实。"},"petExam":{"frequency":"medium","collocations":["covered in sweat"]}},
+    {"id":"pet-sport-086","word":"breath","phonetic":"/breθ/","pos":"n.","meaning":"呼吸，气息","level":"B1","examples":[{"en":"Take a deep breath before the race.","zh":"比赛前深吸一口气。"},{"en":"He was out of breath after the sprint.","zh":"冲刺后他上气不接下气。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"breath 名词，breathe 动词——多个 e 才能\"呼\"出来。"},"petExam":{"frequency":"high","collocations":["out of breath","take a deep breath"]}},
+    {"id":"pet-sport-087","word":"speed","phonetic":"/spiːd/","pos":"n.","meaning":"速度","level":"B1","examples":[{"en":"The cheetah runs at an amazing speed.","zh":"猎豹的奔跑速度惊人。"},{"en":"Slow down—watch your speed on the hill.","zh":"慢点——下坡注意速度。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"speed up 加速，at full speed 全速——速度就是 speed。"},"petExam":{"frequency":"high","collocations":["at full speed","speed up"]}},
+    {"id":"pet-sport-088","word":"bronze","phonetic":"/brɒnz/","pos":"n.","meaning":"铜牌；青铜","level":"B1","examples":[{"en":"She won bronze in the 200 metres.","zh":"她在200米比赛中获得铜牌。"},{"en":"The statue is made of bronze.","zh":"这座雕像是青铜做的。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"奖牌三色：gold 金、silver 银、bronze 铜。"},"petExam":{"frequency":"medium","collocations":["win bronze","a bronze medal"]}},
+    {"id":"pet-sport-089","word":"active","phonetic":"/ˈæktɪv/","pos":"adj.","meaning":"活跃的，好动的","level":"B1","examples":[{"en":"Grandma is still very active at eighty.","zh":"奶奶八十岁了还很活跃。"},{"en":"Try to stay active every day.","zh":"尽量每天保持运动。"}],"synonyms":[],"antonyms":["lazy"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"act(行动)+ive→爱行动的→活跃的。"},"petExam":{"frequency":"high","collocations":["stay active","an active life"]}},
+    {"id":"pet-sport-090","word":"energetic","phonetic":"/ˌenəˈdʒetɪk/","pos":"adj.","meaning":"精力充沛的","level":"B1","examples":[{"en":"The puppy is playful and energetic.","zh":"小狗又爱玩又精力充沛。"},{"en":"You need to be energetic to keep up with the class.","zh":"要精力充沛才能跟上大家的节奏。"}],"synonyms":[],"antonyms":["tired"],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"energy(能量)+etic→充满能量的。"},"petExam":{"frequency":"medium","collocations":["an energetic child"]}},
+    {"id":"pet-sport-091","word":"fair","phonetic":"/feə(r)/","pos":"adj.","meaning":"公平的","level":"B1","examples":[{"en":"A fair game needs a good referee.","zh":"公平的比赛需要好裁判。"},{"en":"It’s not fair to change the rules now.","zh":"现在改规则不公平。"}],"synonyms":[],"antonyms":["unfair"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"assoc","tip":"fair play 公平竞赛——fair 也指集市、金发。"},"petExam":{"frequency":"high","collocations":["fair play","a fair decision"]},"inKet":true},
+    {"id":"pet-sport-092","word":"unfair","phonetic":"/ˌʌnˈfeə(r)/","pos":"adj.","meaning":"不公平的","level":"B1","examples":[{"en":"The penalty decision felt unfair to the visitors.","zh":"这个点球判罚对客队来说不公平。"},{"en":"It is unfair to blame one player for the loss.","zh":"把失利怪到一名球员头上不公平。"}],"synonyms":[],"antonyms":["fair"],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"un(不)+fair(公平)→不公平的。"},"petExam":{"frequency":"medium","collocations":["an unfair decision"]}},
+    {"id":"pet-sport-093","word":"sporty","phonetic":"/ˈspɔːti/","pos":"adj.","meaning":"爱运动的","level":"B1","examples":[{"en":"My sister is the sporty one in our family.","zh":"我姐姐是我们家最爱运动的。"},{"en":"He looks sporty in his running clothes.","zh":"他穿着跑步装显得很有运动范儿。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["sport"],"mnemonic":{"type":"root","tip":"sport(运动)+y→运动型的。"},"petExam":{"frequency":"medium","collocations":["a sporty girl"]}},
+    {"id":"pet-sport-094","word":"regular","phonetic":"/ˈreɡjələ(r)/","pos":"adj.","meaning":"定期的，规律的","level":"B1","examples":[{"en":"Regular exercise keeps your heart healthy.","zh":"规律运动让心脏健康。"},{"en":"He is a regular player in the first team.","zh":"他是一队的常规主力。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["sport"],"mnemonic":{"type":"root","tip":"regul(规则)+ar→按规则来的→规律的。"},"petExam":{"frequency":"high","collocations":["regular exercise"]}}
   ]
 }
