@@ -32,7 +32,7 @@
         { "en": "My luggage is very heavy.", "zh": "我的行李很重。" }
       ],
       "synonyms": ["baggage"], "antonyms": [], "difficulty": 3, "tags": ["travel"],
-      "mnemonic": { "type": "sound", "tip": "谐音\"拉个纸\"太怪，记 lug(拖拽)+gage，要拖着走的就是行李。" },
+      "mnemonic": { "type": "sound", "tip": "lug(拖拽)+gage——要拖着走的东西就是行李。" },
       "petExam": { "frequency": "high", "collocations": ["carry luggage", "hand luggage"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "This magnet is a souvenir from Italy.", "zh": "这块磁贴是从意大利带回的纪念品。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 5, "tags": ["travel"],
-      "mnemonic": { "type": "sound", "tip": "谐音\"输了你儿\"太怪，记 souvenir 像\"素文你\"，留住旅途记忆的小物。" },
+      "mnemonic": { "type": "sound", "tip": "sou+venir：法语\"来到\"——旅途来过的证明，留作纪念的小物。" },
       "petExam": { "frequency": "low", "collocations": ["buy a souvenir", "a souvenir shop"] }
     }
   ]
