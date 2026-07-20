@@ -1966,6 +1966,716 @@
      "answer": "I drink milk every day.",
      "explain": "过去戳换回现在形状。"
     }
+   ],
+   "teaching": {
+    "essence": "英文动词自带时间戳：play 是今天的，played 是昨天的——动词自己变形来报时。",
+    "why": "中文动词像一张没有日期的照片，时间写在旁边的便签上：「我昨天吃面」「我明天吃面」——「吃」永远不变。英文反过来：时间戳直接刻在动词身上（eat → ate），便签（yesterday）反而可以不要。所以中国孩子讲故事最容易「便签写了昨天，照片却盖着今天的戳」——这就是最扣分的时态跳。",
+    "rules": [
+     {
+      "point": "一般现在：习惯与事实",
+      "detail": "每天都发生、一直是真的 → 用原形；主语是 he/she/it（三单）时动词加 -s。",
+      "examples": [
+       {
+        "en": "I practise the violin every evening.",
+        "zh": "我每天晚上练小提琴。"
+       },
+       {
+        "en": "She goes to school by bike.",
+        "zh": "她骑车上学。（she → goes）"
+       },
+       {
+        "en": "The sun rises in the east.",
+        "zh": "太阳从东边升起。（永远的事实）"
+       }
+      ]
+     },
+     {
+      "point": "一般过去：讲完的事",
+      "detail": "昨天、上周、去年发生完的 → 动词盖过去戳：规则的加 -ed（played / watched），不规则的换形状（go→went, eat→ate），40 个常用的要专门背。",
+      "examples": [
+       {
+        "en": "Last Saturday we visited my grandma.",
+        "zh": "上周六我们看望了奶奶。"
+       },
+       {
+        "en": "We ate noodles and then went home.",
+        "zh": "我们吃了面然后回家了。（两个动作都盖过去戳）"
+       }
+      ]
+     },
+     {
+      "point": "信号词先定调",
+      "detail": "every day / usually / often / always → 现在；yesterday / last week / two days ago / in 2020 → 过去。看到信号词先定调，再选动词形状——像先看谱号再读谱。",
+      "examples": [
+       {
+        "en": "He usually walks to school, but yesterday he took the bus.",
+        "zh": "他平时走路上学，但昨天坐了公交。（同一句里两个信号词、两种时态）"
+       }
+      ]
+     },
+     {
+      "point": "讲故事全程一个调：时态一致",
+      "detail": "一段话讲过去的事，里面每一个动词都要盖过去戳，不能一句 was 一句 is。定了调不能中途转——这是 KET Part 7 看图写故事的第一评分点。",
+      "examples": [
+       {
+        "en": "When they were in the lake, they ate some bread.",
+        "zh": "他们在湖里的时候吃了些面包。（were 和 ate 同一个调）"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "疑问/否定交给 did 之后，动词回到原形：Did you go…? / I didn't go. 时间戳只盖一次（L2 学过）。",
+     "规则动词 -ed 的三种读音：/t/（watched）、/d/（played）、/ɪd/（wanted）。读出来帮助记住写法。",
+     "拼写小规则：以 e 结尾只加 d（liked）；辅音+y 变 i 加 ed（study→studied）；短元音+单辅音双写（stop→stopped）。",
+     "「现在」不等于「此刻正在做」：I play the violin 说的是习惯（我会拉/我常拉），「此刻正在拉」要用 L4 的现在进行时。"
+    ],
+    "commonErrors": [
+     {
+      "wrong": "When they are in the lake, they ate some bread.",
+      "right": "When they were in the lake, they ate some bread.",
+      "why": "中文动词不变形，所以讲故事时最容易前半句忘盖过去戳。这是 8 类中式错误的 3 号「叙事时态跳」（红区），Part 7 直接扣分。",
+      "impedes": true,
+      "ketPart": "Part 7 + 写作",
+      "zone": "red"
+     },
+     {
+      "wrong": "Yesterday I go to the park.",
+      "right": "Yesterday I went to the park.",
+      "why": "便签写了 yesterday，照片却盖着今天的戳。看到过去信号词，动词必须变形。",
+      "impedes": true,
+      "ketPart": "写作 + 口语",
+      "zone": "red"
+     },
+     {
+      "wrong": "He go to school by bus.",
+      "right": "He goes to school by bus.",
+      "why": "三单加 -s。中文完全没有这个规则，所以最容易漏——但它几乎不挡意思（灰区 7 号），考前再抠，平时别反复纠。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "gray"
+     },
+     {
+      "wrong": "I goed home at five.",
+      "right": "I went home at five.",
+      "why": "把规则套在不规则动词上。go 的过去式是借来的 went——最常用的 40 个动词都不规则，要专门背。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "She didn't went to school.",
+      "right": "She didn't go to school.",
+      "why": "did 已经盖了过去戳，went 要变回 go。时间戳只盖一次。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     }
+    ],
+    "parentTip": "晚饭时玩「昨天今天」：她说一件今天常做的事（英文），再把同一件事说成昨天做过的。只听动词有没有变形，变了就过，不用讲为什么。",
+    "darkline": "went 原本是另一个动词 wend 的过去式，被 go 借来就没还——最常用的 go 连过去式都是借的。又一次：越常用的词，越不规则。40 个不规则动词之所以不规则，恰恰因为它们是英语里最有用的 40 个。"
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I play the piano every day.",
+       "answer": true,
+       "explain": "对。every day 习惯 → 现在，play 原形。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ Yesterday I play football.",
+       "answer": false,
+       "explain": "错。yesterday 是过去的便签，动词要盖过去戳：played。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ Last week we visited the zoo.",
+       "answer": true,
+       "explain": "对。last week 过去 → visit + ed。"
+      },
+      {
+       "type": "choice",
+       "q": "「每天」的信号词 every day 配哪种动词？",
+       "options": [
+        "现在（原形/-s）",
+        "过去（-ed）"
+       ],
+       "answer": 0,
+       "explain": "every day / usually / often → 一般现在。"
+      },
+      {
+       "type": "choice",
+       "q": "「上周」的信号词 last week 配哪种动词？",
+       "options": [
+        "过去（-ed/变形）",
+        "现在（原形）"
+       ],
+       "answer": 0,
+       "explain": "yesterday / last… / ago → 一般过去。"
+      },
+      {
+       "type": "choice",
+       "q": "I ___ my grandma every Sunday.",
+       "options": [
+        "visit",
+        "visited"
+       ],
+       "answer": 0,
+       "explain": "every Sunday 习惯 → 现在 visit。"
+      },
+      {
+       "type": "choice",
+       "q": "I ___ my grandma last Sunday.",
+       "options": [
+        "visited",
+        "visit"
+       ],
+       "answer": 0,
+       "explain": "last Sunday 过去 → visited。和上一题只差一个信号词。"
+      },
+      {
+       "type": "choice",
+       "q": "She ___ to school by bike.（平时习惯）",
+       "options": [
+        "goes",
+        "go"
+       ],
+       "answer": 0,
+       "explain": "she 三单 → go 加 es：goes。"
+      },
+      {
+       "type": "choice",
+       "q": "go 的过去式是？",
+       "options": [
+        "went",
+        "goed"
+       ],
+       "answer": 0,
+       "explain": "go 不规则，过去式是借来的 went。goed 不存在。"
+      },
+      {
+       "type": "choice",
+       "q": "eat 的过去式是？",
+       "options": [
+        "ate",
+        "eated"
+       ],
+       "answer": 0,
+       "explain": "eat → ate，不规则动词要专门背。"
+      },
+      {
+       "type": "fill",
+       "q": "watch 的过去式是 ___。",
+       "hint": "提示：规则动词加 -ed",
+       "answer": "watched",
+       "explain": "规则动词直接加 -ed：watched，读 /t/。"
+      },
+      {
+       "type": "fill",
+       "q": "We ___ (play) games at the party yesterday.",
+       "hint": "提示：yesterday",
+       "answer": "played",
+       "explain": "yesterday → played。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ The sun rises in the east.",
+       "answer": true,
+       "explain": "对。永远的事实用一般现在；the sun 三单 → rises。"
+      },
+      {
+       "type": "choice",
+       "q": "They ___ noodles for lunch and then went home.",
+       "options": [
+        "ate",
+        "eat"
+       ],
+       "answer": 0,
+       "explain": "后半句 went 已定过去调，前面动作也要过去：ate。"
+      },
+      {
+       "type": "fill",
+       "q": "have 的过去式是 ___。",
+       "hint": "提示：不规则",
+       "answer": "had",
+       "explain": "have → had，最常用所以不规则。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ Two days ago we watch a film.",
+       "answer": false,
+       "explain": "错。ago 是过去信号词 → watched。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "My father ___ coffee every morning.",
+       "options": [
+        "drinks",
+        "drink",
+        "drank",
+        "drinking"
+       ],
+       "answer": 0,
+       "explain": "every morning 习惯 + my father 三单 → drinks。"
+      },
+      {
+       "type": "choice",
+       "q": "I ___ up at six yesterday morning.",
+       "options": [
+        "got",
+        "get",
+        "gets",
+        "getted"
+       ],
+       "answer": 0,
+       "explain": "yesterday → 过去；get 不规则 → got。"
+      },
+      {
+       "type": "choice",
+       "q": "We ___ to music together every weekend.",
+       "options": [
+        "listen",
+        "listened",
+        "listens",
+        "listening"
+       ],
+       "answer": 0,
+       "explain": "every weekend 习惯 + we → 原形 listen。"
+      },
+      {
+       "type": "choice",
+       "q": "Look at the photo! We ___ this photo in Qingdao last summer.",
+       "options": [
+        "took",
+        "take",
+        "takes",
+        "taked"
+       ],
+       "answer": 0,
+       "explain": "last summer 过去；take 不规则 → took。"
+      },
+      {
+       "type": "choice",
+       "q": "My best friend ___ two cats and a dog.",
+       "options": [
+        "has",
+        "have",
+        "had",
+        "haves"
+       ],
+       "answer": 0,
+       "explain": "现在的事实 + 三单 → has（have 的三单是 has）。"
+      },
+      {
+       "type": "choice",
+       "q": "She ___ her homework at nine last night.",
+       "options": [
+        "finished",
+        "finishes",
+        "finish",
+        "finishing"
+       ],
+       "answer": 0,
+       "explain": "last night → finished。"
+      },
+      {
+       "type": "choice",
+       "q": "The concert ___ at 7:30 every Friday evening.",
+       "options": [
+        "starts",
+        "start",
+        "started",
+        "starting"
+       ],
+       "answer": 0,
+       "explain": "时刻表/固定安排 + the concert 三单 → starts。"
+      },
+      {
+       "type": "choice",
+       "q": "I ___ a beautiful bird in the park two hours ago.",
+       "options": [
+        "saw",
+        "see",
+        "sees",
+        "seed"
+       ],
+       "answer": 0,
+       "explain": "ago → 过去；see 不规则 → saw。"
+      },
+      {
+       "type": "choice",
+       "q": "My grandparents ___ in a small town when they were young.",
+       "options": [
+        "lived",
+        "live",
+        "lives",
+        "living"
+       ],
+       "answer": 0,
+       "explain": "后半句 were 定了过去调 → lived。"
+      },
+      {
+       "type": "choice",
+       "q": "Water ___ at 100 degrees.",
+       "options": [
+        "boils",
+        "boil",
+        "boiled",
+        "boiling"
+       ],
+       "answer": 0,
+       "explain": "科学事实 → 一般现在；water 三单 → boils。"
+      },
+      {
+       "type": "choice",
+       "q": "study 的过去式是？",
+       "options": [
+        "studied",
+        "studyed",
+        "studys",
+        "studied's"
+       ],
+       "answer": 0,
+       "explain": "辅音+y → 变 i 加 ed：studied。"
+      },
+      {
+       "type": "choice",
+       "q": "stop 的过去式是？",
+       "options": [
+        "stopped",
+        "stoped",
+        "stopt",
+        "stops"
+       ],
+       "answer": 0,
+       "explain": "短元音+单辅音 → 双写再加 ed：stopped。"
+      },
+      {
+       "type": "fill",
+       "q": "She usually ___ (read) books before bed.",
+       "answer": "reads",
+       "explain": "usually 习惯 + she 三单 → reads。"
+      },
+      {
+       "type": "fill",
+       "q": "Last night I ___ (write) a letter to my pen friend.",
+       "answer": "wrote",
+       "explain": "write 不规则 → wrote。"
+      },
+      {
+       "type": "fill",
+       "q": "We ___ (buy) some fruit at the market yesterday.",
+       "answer": "bought",
+       "explain": "buy 不规则 → bought。"
+      },
+      {
+       "type": "fill",
+       "q": "My mother ___ (teach) maths at a middle school.（现在的工作）",
+       "answer": "teaches",
+       "explain": "现在的事实 + 三单 → teach + es：teaches。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "Yesterday I go to the park with my friends.",
+       "answer": "Yesterday I went to the park with my friends.",
+       "explain": "便签写了 yesterday，动词就要盖过去戳：went。红区错误。"
+      },
+      {
+       "type": "correct",
+       "wrong": "When they are in the lake, they ate some bread.",
+       "answer": "When they were in the lake, they ate some bread.",
+       "explain": "3 号中式错误「叙事时态跳」：后半句 ate 是过去，前半句也要 were。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I goed home at five o'clock.",
+       "answer": "I went home at five o'clock.",
+       "explain": "go 不规则，不能加 -ed：went。"
+      },
+      {
+       "type": "correct",
+       "wrong": "She didn't went to school last Friday.",
+       "answer": "She didn't go to school last Friday.",
+       "explain": "didn't 已盖过去戳，went 变回 go。时间戳只盖一次。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Last Sunday we go to the cinema and watched a film.",
+       "answer": "Last Sunday we went to the cinema and watched a film.",
+       "explain": "同一句里 watched 已经是过去，go 也要变 went——全程一个调。"
+      },
+      {
+       "type": "correct",
+       "wrong": "He get up at seven every day.",
+       "answer": "He gets up at seven every day.",
+       "explain": "三单加 -s：gets。灰区错误，不挡意思，但写作检查时顺手改掉。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I am watch TV every evening.",
+       "answer": "I watch TV every evening.",
+       "explain": "习惯动作直接用动词原形，不加 be——一句话一个动词（复习 L1）。"
+      },
+      {
+       "type": "correct",
+       "wrong": "They eated all the cakes at the party.",
+       "answer": "They ate all the cakes at the party.",
+       "explain": "eat 不规则 → ate。把 -ed 套在不规则动词上是最常见的「过度规则化」。"
+      },
+      {
+       "type": "transform",
+       "from": "I walk to school.（改成昨天）",
+       "to_type": "过去式",
+       "answer": "I walked to school yesterday.",
+       "alt": [
+        "Yesterday I walked to school.",
+        "I walked to school."
+       ],
+       "explain": "walk 规则 → walked。"
+      },
+      {
+       "type": "transform",
+       "from": "She has a piano lesson.（改成上周六）",
+       "to_type": "过去式",
+       "answer": "She had a piano lesson last Saturday.",
+       "alt": [
+        "Last Saturday she had a piano lesson.",
+        "She had a piano lesson."
+       ],
+       "explain": "has 的过去式是 had。"
+      },
+      {
+       "type": "transform",
+       "from": "We went to the beach.（改成疑问句）",
+       "to_type": "疑问句",
+       "answer": "Did we go to the beach?",
+       "alt": [
+        "Did you go to the beach?"
+       ],
+       "explain": "Did 举过去的牌，went 回原形 go。"
+      },
+      {
+       "type": "transform",
+       "from": "He drinks milk every day.（改成否定句）",
+       "to_type": "否定句",
+       "answer": "He doesn't drink milk every day.",
+       "alt": [
+        "He does not drink milk every day."
+       ],
+       "explain": "三单否定 → doesn't + 原形 drink。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：He usually ___ to school, but yesterday he ___ the bus.",
+       "options": [
+        "walks / took",
+        "walks / takes",
+        "walked / took",
+        "walk / took"
+       ],
+       "answer": 0,
+       "explain": "一句里两个信号词各管半句：usually → walks（三单），yesterday → took。"
+      },
+      {
+       "type": "choice",
+       "q": "哪一句时态是错的？",
+       "options": [
+        "I saw a film last night.",
+        "She works in a hospital.",
+        "We visit the museum two weeks ago.",
+        "They played chess after dinner yesterday."
+       ],
+       "answer": 2,
+       "explain": "C 有 ago 却用了现在式 visit → 应为 visited。"
+      },
+      {
+       "type": "choice",
+       "q": "讲故事开头是 Last summer, I…，下面哪句能接？",
+       "options": [
+        "I stayed with my aunt in Shanghai.",
+        "I stay with my aunt in Shanghai.",
+        "I am stay with my aunt.",
+        "I stays with my aunt."
+       ],
+       "answer": 0,
+       "explain": "Last summer 定了过去调，全文动词都盖过去戳：stayed。"
+      },
+      {
+       "type": "choice",
+       "q": "选出全对的一句：",
+       "options": [
+        "Tom studied hard and passed the test.",
+        "Tom studyed hard and passed the test.",
+        "Tom studied hard and pass the test.",
+        "Tom studies hard and passed the test."
+       ],
+       "answer": 0,
+       "explain": "study→studied（变 i 加 ed），pass→passed，两个动作同调。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Last weekend my family ___ (drive) to the mountains.",
+       "answer": "drove",
+       "explain": "last weekend → 过去；drive 不规则 → drove。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：We ___ (see) lots of sheep on the way.",
+       "answer": "saw",
+       "explain": "整段讲上周末 → 保持过去调：saw。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My school ___ (begin) at eight o'clock every morning.",
+       "answer": "begins",
+       "explain": "every morning + my school 三单 → begins。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Dear Anna, I ___ (get) your postcard two days ago. Thank you!",
+       "answer": "got",
+       "explain": "ago → 过去：got。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My cousin ___ (come) to my house every Spring Festival.",
+       "answer": "comes",
+       "explain": "每年的习惯 + 三单 → comes。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Yesterday it ___ (rain) all day, so we stayed at home.",
+       "answer": "rained",
+       "explain": "yesterday + 后半句 stayed 同调 → rained。"
+      },
+      {
+       "type": "choice",
+       "q": "KET Part 7 看图写故事，第一句是 One day, Ben and his dog went to the river. 第二句选哪个？",
+       "options": [
+        "The dog jumped into the water.",
+        "The dog jumps into the water.",
+        "The dog is jump into the water.",
+        "The dog jump into the water."
+       ],
+       "answer": 0,
+       "explain": "第一句 went 定了过去调，全文跟着盖过去戳：jumped。这正是 Part 7 的评分点。"
+      },
+      {
+       "type": "choice",
+       "q": "故事接龙：…Ben was afraid. He ___ for help.",
+       "options": [
+        "shouted",
+        "shouts",
+        "shout",
+        "is shouting"
+       ],
+       "answer": 0,
+       "explain": "前句 was 过去调 → shouted。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语 Part 1：What did you do last weekend? 最好的回答：",
+       "options": [
+        "I visited my grandparents and we made dumplings.",
+        "I visit my grandparents and we make dumplings.",
+        "I am visit my grandparents.",
+        "I visited my grandparents and we make dumplings."
+       ],
+       "answer": 0,
+       "explain": "问的是 last weekend → 回答里每个动词都要过去式：visited、made。D 前半对后半跳回现在，正是「时态跳」。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语 Part 1：What do you usually do after school? 最好的回答：",
+       "options": [
+        "I usually do my homework and practise the violin.",
+        "I usually did my homework and practised the violin.",
+        "Usually I doing homework.",
+        "I am usually do my homework."
+       ],
+       "answer": 0,
+       "explain": "问的是 usually 习惯 → 一般现在。对比上一题：先听清问句的时态，用同一个调回答。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Last Sunday I get up late, ate a big breakfast and went to the park.",
+       "answer": "Last Sunday I got up late, ate a big breakfast and went to the park.",
+       "explain": "三个动作两个已盖戳（ate/went），get 也要变 got——写作最后要逐个动词检查。"
+      },
+      {
+       "type": "correct",
+       "wrong": "My father is a driver. He drive a bus in our city.",
+       "answer": "My father is a driver. He drives a bus in our city.",
+       "explain": "介绍职业用一般现在，三单 → drives。"
+      },
+      {
+       "type": "transform",
+       "from": "They have a picnic by the lake.（改成上周日的事）",
+       "to_type": "过去式",
+       "answer": "They had a picnic by the lake last Sunday.",
+       "alt": [
+        "Last Sunday they had a picnic by the lake.",
+        "They had a picnic by the lake."
+       ],
+       "explain": "have → had。"
+      },
+      {
+       "type": "transform",
+       "from": "I took many photos at the zoo.（改成疑问句问对方）",
+       "to_type": "疑问句",
+       "answer": "Did you take many photos at the zoo?",
+       "explain": "Did 举牌，took 回原形 take，主语换成 you。"
+      },
+      {
+       "type": "fill",
+       "q": "综合：Every day I ___ (practise) for half an hour, but last night I ___ (practise) for two hours.（第二空）",
+       "answer": "practised",
+       "alt": [
+        "practiced"
+       ],
+       "explain": "同一动词两个时态：every day → practise，last night → practised。"
+      },
+      {
+       "type": "choice",
+       "q": "综合辨析：哪句的时态全对？",
+       "options": [
+        "When I was little, I liked drawing, and now I like taking photos.",
+        "When I was little, I like drawing, and now I like taking photos.",
+        "When I am little, I liked drawing.",
+        "When I was little, I liked drawing, and now I liked taking photos."
+       ],
+       "answer": 0,
+       "explain": "过去的事 was/liked 一个调，现在的事 like 另一个调——两个调分段用，段内不换调。"
+      }
+     ]
+    }
    ]
   },
   {
