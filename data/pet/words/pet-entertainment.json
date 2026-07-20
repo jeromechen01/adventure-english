@@ -29,7 +29,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "cinema 谐音\"戏呢嘛\"——问\"看戏呢嘛\",看戏的地方就是电影院。"
       },
       "petExam": {
@@ -64,7 +64,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "theatre 谐音\"西呀特\"——看现场舞台剧的大厅就是剧院(英式拼 -tre)。"
       },
       "petExam": {
@@ -99,7 +99,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "con(共同)+cert(比赛/竞演,同 certain词根),众乐手一起演奏就是音乐会。"
       },
       "petExam": {
@@ -134,7 +134,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "museum 谐音\"谬贼恩\"不对,记\"缪日恩\"——收藏历史珍宝供人参观的地方就是博物馆。"
       },
       "petExam": {
@@ -169,7 +169,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "gallery 谐音\"嘎乐瑞\"——一幅幅挂着画,让人赏心悦目的地方就是画廊。"
       },
       "petExam": {
@@ -204,7 +204,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "ex(向外)+hibit(拿/持,同 exhibit)+ion,把作品拿出来给大家看就是展览。"
       },
       "petExam": {
@@ -241,7 +241,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "hobby 谐音\"哈比\"——一玩起爱好就乐得像个开心的哈比人。"
       },
       "petExam": {
@@ -276,7 +276,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "audi(听,拉丁 audire,同 audio)+ence,坐着听和看的一群人就是观众。"
       },
       "petExam": {
@@ -313,7 +313,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "perform(表演)+ance,表演这件事的名词就是 performance。"
       },
       "petExam": {
@@ -348,7 +348,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "act(表演)+or(人),在台上表演的人就是演员。"
       },
       "petExam": {
@@ -383,7 +383,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "act(表演)+ress(女性后缀),表演的女性就是女演员。"
       },
       "petExam": {
@@ -418,7 +418,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "sing(唱)+er(人),唱歌的人就是歌手。"
       },
       "petExam": {
@@ -453,7 +453,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "stage 谐音\"斯泰奇\"——高高一台、灯光聚焦、供人表演的地方就是舞台。"
       },
       "petExam": {
@@ -490,7 +490,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "comedy 谐音\"卡门地\"不对,记\"侃没底\"——一路逗你笑到没底就是喜剧。"
       },
       "petExam": {
@@ -525,7 +525,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "cartoon 谐音\"卡通\"——直接就是它的中文译名。"
       },
       "petExam": {
@@ -560,7 +560,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "magazine 谐音\"卖嘎境\"不对,记\"马嘎精\"——把各种精彩内容装订成册就是杂志。"
       },
       "petExam": {
@@ -595,7 +595,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "novel 也有\"新奇的\"意思,一个个新奇故事写成长篇就是小说。"
       },
       "petExam": {
@@ -630,7 +630,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "in(在内)+stru(建造,同 structure)+ment,能\"造出\"音乐的器具就是乐器。"
       },
       "petExam": {
@@ -665,7 +665,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "guitar 谐音\"给他\"——把吉他\"给他\"弹一曲,六弦一拨就响。"
       },
       "petExam": {
@@ -700,7 +700,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "drum 谐音\"抓姆\"——\"咚咚咚\"敲起来的就是鼓。"
       },
       "petExam": {
@@ -735,7 +735,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "paint 谐音\"喷它\"——拿刷子、颜料\"喷\"上色彩就是画/漆。"
       },
       "petExam": {
@@ -770,7 +770,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "photo(光,希腊 phos)+graphy(记录,同 write),用光把画面记录下来就是摄影。"
       },
       "petExam": {
@@ -807,7 +807,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "col(共同)+lect(挑选/收,同 select),把喜欢的一件件挑来聚一起就是收集。"
       },
       "petExam": {
@@ -846,7 +846,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "excite(使兴奋)+ing,让人心跳加速、兴奋起来的就是 exciting。"
       },
       "petExam": {
@@ -885,7 +885,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "boring 谐音\"抱铃\"不对,记\"波瑞\"——闷得让人直打哈欠就是 boring。"
       },
       "petExam": {
@@ -922,7 +922,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "en(使)+joy(快乐),让自己进入快乐就是享受。"
       },
       "petExam": {
@@ -957,7 +957,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "fest(欢庆,同 feast盛宴)+ival,大家一起欢庆的日子就是节日。"
       },
       "petExam": {
@@ -994,7 +994,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "band 也指\"带子\",一群乐手被音乐这根带子\"绑\"在一起就是乐队。"
       },
       "petExam": {
@@ -1029,7 +1029,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "star 本义\"星星\",像星星一样闪耀受人追捧的人就是明星。"
       },
       "petExam": {
@@ -1064,7 +1064,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "dance 谐音\"当死\"不对,记\"丹斯\"——踏着节拍摆动身体就是跳舞。"
       },
       "petExam": {
@@ -1099,7 +1099,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "进场要检的小纸片,\"提\"前买好\"刻\"上座位就是 ticket。"
       },
       "petExam": {
@@ -1134,7 +1134,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "fun 谐音\"饭\"不对,记\"放\"——玩得开心\"放\"松身心就是 fun。"
       },
       "petExam": {
@@ -1169,7 +1169,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "enter(在其中)+tain(保持,同 maintain)+ment,让大家沉浸其中开心的活动就是娱乐。"
       },
       "petExam": {
@@ -1206,7 +1206,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "interest(兴趣)+ing,勾起你兴趣的就是有趣的。"
       },
       "petExam": {
@@ -1241,7 +1241,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "re(再)+view(看),看完再回头评说一番就是评论。"
       },
       "petExam": {
@@ -1278,7 +1278,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "amuse(逗乐)+ing,把人逗得直乐的就是 amusing;amusement park=游乐园。"
       },
       "petExam": {
@@ -1313,7 +1313,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "ad(朝向)+vent(来,同 event)+ure,朝着未知走去、迎接意外就是冒险。"
       },
       "petExam": {
@@ -1350,7 +1350,7 @@
         "entertainment"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "re(重新)+lax(松弛),把绷紧的自己重新松开就是放松。"
       },
       "petExam": {

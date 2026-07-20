@@ -29,7 +29,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "capit(头,拉丁 caput,同 captain)+al,一个国家的\"头\"号城市就是首都。"
       },
       "petExam": {
@@ -66,7 +66,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "village 谐音\"维里几\"——几户人家聚在一起的小地方就是村庄。"
       },
       "petExam": {
@@ -101,7 +101,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "town 谐音\"淘\"——比村大、比城小,可以逛街\"淘\"东西的地方就是城镇。"
       },
       "petExam": {
@@ -138,7 +138,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "neighbour(邻居)+hood(区域),邻居们住的一片地方就是社区。"
       },
       "petExam": {
@@ -175,7 +175,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "street 谐音\"斯锥特\"——两旁排着房子、车来人往的就是街道。"
       },
       "petExam": {
@@ -210,7 +210,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "square 本义\"正方形\",城市中央那块方方正正的开阔地就是广场。"
       },
       "petExam": {
@@ -245,7 +245,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "bridge 谐音\"不日几\"不对,记\"布日之\"——横在河上让人过河的就是桥。"
       },
       "petExam": {
@@ -280,7 +280,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "tower 谐音\"套儿\"不对,记\"陶尔\"——又高又直、直插云霄的就是塔。"
       },
       "petExam": {
@@ -315,7 +315,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "castle 谐音\"卡手\"不对,记\"卡搜\"——t不发音;高墙厚壁、住着国王的就是城堡。"
       },
       "petExam": {
@@ -350,7 +350,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "palace 谐音\"怕勒死\"不对,记\"帕乐斯\"——金碧辉煌、住着王室的大宅就是宫殿。"
       },
       "petExam": {
@@ -385,7 +385,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "statue 谐音\"斯泰去\"——站着(stat同 stand)不动、纪念名人的塑像就是雕像。"
       },
       "petExam": {
@@ -420,7 +420,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "fountain 谐音\"饭疼\"不对,记\"方疼\"——水柱\"哗\"地喷向天的就是喷泉(found=泉源)。"
       },
       "petExam": {
@@ -455,7 +455,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "stat(站立,同 stand/static)+ion,车停下让人上下的地方就是车站。"
       },
       "petExam": {
@@ -492,7 +492,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "harbour 谐音\"哈勃\"——船只躲风浪、停靠装卸的水湾就是港口(英式拼 -our)。"
       },
       "petExam": {
@@ -527,7 +527,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "bank 一词两义:存钱的\"银行\"和河边的\"河岸\",靠上下文区分。"
       },
       "petExam": {
@@ -562,7 +562,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "hospit(款待,同 hospitality)+al,收留照护病人的地方就是医院。"
       },
       "petExam": {
@@ -597,7 +597,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "hotel 谐音\"红太\"不对,记\"齁太欧\"——出门在外供人住宿的地方就是酒店。"
       },
       "petExam": {
@@ -632,7 +632,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "mall 谐音\"摩\"不对,记\"猫\"——各种店铺聚在一起的大商场就是 mall。"
       },
       "petExam": {
@@ -667,7 +667,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "park 也作动词\"停车\";城里那片绿地、供人休闲的就是公园。"
       },
       "petExam": {
@@ -702,7 +702,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "play(玩)+ground(场地),供人玩耍的场地就是操场/游乐场。"
       },
       "petExam": {
@@ -737,7 +737,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "traffic 谐音\"拽废客\"不对,记\"拽飞克\"——路上来来往往的车流就是交通。"
       },
       "petExam": {
@@ -772,7 +772,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "cross(交叉)+roads(道路),两条路交叉的地方就是十字路口。"
       },
       "petExam": {
@@ -809,7 +809,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "pave(铺路)+ment,路边铺好给人走的那条就是人行道(英式;美式 sidewalk)。"
       },
       "petExam": {
@@ -844,7 +844,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "corner 谐音\"扣呢\"不对,记\"考呢\"——两条边相交、拐弯的地方就是拐角。"
       },
       "petExam": {
@@ -883,7 +883,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "crowd(人群)+ed,挤满一大群人就是拥挤的。"
       },
       "petExam": {
@@ -922,7 +922,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "modern 谐音\"骂等\"不对,记\"莫等\"——紧跟当下、别落后于时代的就是现代的。"
       },
       "petExam": {
@@ -961,7 +961,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "ancient 谐音\"安神特\"——年代久远、历经沧桑的就是古老的。"
       },
       "petExam": {
@@ -996,7 +996,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "loc(地方,同 location/locate)+al,属于本地方的就是当地的。"
       },
       "petExam": {
@@ -1031,7 +1031,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "build(建造)+ing,建造出来的房子就是建筑物。"
       },
       "petExam": {
@@ -1066,7 +1066,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "mon(提醒,同 remind)+ument,让人记住某人某事而立的碑就是纪念碑。"
       },
       "petExam": {
@@ -1103,7 +1103,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "down(向下/核心)+town(城),城里最热闹的核心区就是市中心。"
       },
       "petExam": {
@@ -1138,7 +1138,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "sub(在...下面/附近)+urb(城,拉丁 urbs),城市边上的一圈就是郊区。"
       },
       "petExam": {
@@ -1173,7 +1173,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "cathedral 谐音\"卡西着扰\"不对,记\"卡瑟准\"——城里最大最气派的教堂就是大教堂。"
       },
       "petExam": {
@@ -1210,7 +1210,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "public 谐音\"扒不理克\"不对,记\"帕布利克\"——大家都能用的、属于公众的就是公共的。"
       },
       "petExam": {
@@ -1245,7 +1245,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "crowd 谐音\"烤肉的\"不对,记\"克劳德\"——黑压压挤在一起的一大群人就是人群。"
       },
       "petExam": {
@@ -1280,7 +1280,7 @@
         "city"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "sign 谐音\"赛恩\"——g不发音;街上指路、警示的牌子就是 sign。"
       },
       "petExam": {

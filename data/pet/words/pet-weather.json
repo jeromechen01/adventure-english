@@ -12,7 +12,7 @@
         { "en": "We had sunny weather all week.", "zh": "我们整周都是晴天。" }
       ],
       "synonyms": [], "antonyms": ["cloudy"], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "sun(太阳)+ny,满是太阳的天气就是晴天。" },
+      "mnemonic": { "type": "split", "tip": "sun(太阳)+ny,满是太阳的天气就是晴天。" },
       "petExam": { "frequency": "high", "collocations": ["a sunny day", "sunny weather"] }
     },
     {
@@ -22,7 +22,7 @@
         { "en": "It may rain because it's so cloudy.", "zh": "天这么阴,可能要下雨。" }
       ],
       "synonyms": ["overcast"], "antonyms": ["sunny"], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "cloud(云)+y,满天是云就是多云。" },
+      "mnemonic": { "type": "split", "tip": "cloud(云)+y,满天是云就是多云。" },
       "petExam": { "frequency": "high", "collocations": ["a cloudy sky", "cloudy weather"] }
     },
     {
@@ -32,7 +32,7 @@
         { "en": "A windy day blew my hat off.", "zh": "刮风的天把我帽子吹跑了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "wind(风)+y,风呼呼地刮就是 windy。" },
+      "mnemonic": { "type": "split", "tip": "wind(风)+y,风呼呼地刮就是 windy。" },
       "petExam": { "frequency": "medium", "collocations": ["a windy day", "windy weather"] }
     },
     {
@@ -42,7 +42,7 @@
         { "en": "The mountains look beautiful and snowy.", "zh": "白雪覆盖的群山很美。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "snow(雪)+y,到处是雪就是 snowy。" },
+      "mnemonic": { "type": "split", "tip": "snow(雪)+y,到处是雪就是 snowy。" },
       "petExam": { "frequency": "medium", "collocations": ["a snowy day", "snowy mountains"] }
     },
     {
@@ -52,7 +52,7 @@
         { "en": "Drive slowly on foggy roads.", "zh": "在有雾的路上慢点开。" }
       ],
       "synonyms": ["misty"], "antonyms": [], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "fog(雾)+g+y,一团雾罩着就是 foggy。" },
+      "mnemonic": { "type": "split", "tip": "fog(雾)+g+y,一团雾罩着就是 foggy。" },
       "petExam": { "frequency": "low", "collocations": ["a foggy morning", "foggy weather"] }
     },
     {
@@ -62,7 +62,7 @@
         { "en": "We stayed inside on the stormy night.", "zh": "暴风雨的夜里我们待在屋内。" }
       ],
       "synonyms": [], "antonyms": ["calm"], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "storm(暴风雨)+y,狂风暴雨的天气就是 stormy。" },
+      "mnemonic": { "type": "split", "tip": "storm(暴风雨)+y,狂风暴雨的天气就是 stormy。" },
       "petExam": { "frequency": "low", "collocations": ["a stormy night", "stormy weather"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "What's the temperature today?", "zh": "今天气温多少度？" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "词根词缀", "tip": "temper(调和/冷热)+ature,天气冷热的度数就是温度。" },
+      "mnemonic": { "type": "root", "tip": "temper(调和/冷热)+ature,天气冷热的度数就是温度。" },
       "petExam": { "frequency": "medium", "collocations": ["the temperature drops", "a high temperature"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "Check the forecast before you go.", "zh": "出门前看看预报。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "词根词缀", "tip": "fore(预先)+cast(投掷/抛),提前把天气\"抛\"出来告诉你就是预报。" },
+      "mnemonic": { "type": "root", "tip": "fore(预先)+cast(投掷/抛),提前把天气\"抛\"出来告诉你就是预报。" },
       "petExam": { "frequency": "medium", "collocations": ["a weather forecast", "the forecast says"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "The climate is changing.", "zh": "气候正在改变。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "场景", "tip": "weather 是某天的天气,climate 是一地长年的\"大天气\"=气候。" },
+      "mnemonic": { "type": "image", "tip": "weather 是某天的天气,climate 是一地长年的\"大天气\"=气候。" },
       "petExam": { "frequency": "medium", "collocations": ["a warm climate", "climate change"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "We heard thunder in the distance.", "zh": "我们听到远处的雷声。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "thunder 谐音\"三的\"不对,记\"闪的\"——先闪电后\"轰\"的一声雷。" },
+      "mnemonic": { "type": "sound", "tip": "thunder 谐音\"三的\"不对,记\"闪的\"——先闪电后\"轰\"的一声雷。" },
       "petExam": { "frequency": "low", "collocations": ["thunder and lightning", "hear thunder"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "Don't stand under a tree in lightning.", "zh": "打闪时别站在树下。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "light(光)+ning,天上突然亮起的强光就是闪电。" },
+      "mnemonic": { "type": "split", "tip": "light(光)+ning,天上突然亮起的强光就是闪电。" },
       "petExam": { "frequency": "low", "collocations": ["a flash of lightning", "thunder and lightning"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "I take a shower every morning.", "zh": "我每天早上淋浴。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "场景", "tip": "shower 既是\"淋浴\"又是\"阵雨\"——天空像开了淋浴,下一阵就停。" },
+      "mnemonic": { "type": "image", "tip": "shower 既是\"淋浴\"又是\"阵雨\"——天空像开了淋浴,下一阵就停。" },
       "petExam": { "frequency": "medium", "collocations": ["a heavy shower", "a light shower"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "The breeze moved the curtains.", "zh": "微风吹动了窗帘。" }
       ],
       "synonyms": [], "antonyms": ["gale"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "breeze 谐音\"不理死\"不对,记\"卜瑞子\"——轻轻的\"呼~\"一阵就是微风。" },
+      "mnemonic": { "type": "sound", "tip": "breeze 谐音\"不理死\"不对,记\"卜瑞子\"——轻轻的\"呼~\"一阵就是微风。" },
       "petExam": { "frequency": "low", "collocations": ["a gentle breeze", "a cool breeze"] }
     },
     {
@@ -142,7 +142,7 @@
         { "en": "The frost killed the flowers.", "zh": "霜冻冻死了花。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "联想", "tip": "frost 里有 fro(冷,同 freeze/frozen),冷到地面结的白结晶就是霜。" },
+      "mnemonic": { "type": "assoc", "tip": "frost 里有 fro(冷,同 freeze/frozen),冷到地面结的白结晶就是霜。" },
       "petExam": { "frequency": "low", "collocations": ["a heavy frost", "frost on the ground"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "My hands froze in the cold.", "zh": "我的手冻僵了。" }
       ],
       "synonyms": [], "antonyms": ["melt"], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "freeze 谐音\"腐立死\"不对,记\"福瑞子\"——冷到\"哆嗦\"结成冰(过去式 froze)。" },
+      "mnemonic": { "type": "sound", "tip": "freeze 谐音\"腐立死\"不对,记\"福瑞子\"——冷到\"哆嗦\"结成冰(过去式 froze)。" },
       "petExam": { "frequency": "low", "collocations": ["freeze over", "the lake freezes"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "The ice cream melted quickly.", "zh": "冰淇淋很快就化了。" }
       ],
       "synonyms": [], "antonyms": ["freeze"], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "melt 谐音\"没了它\"——太阳一晒,雪化了\"没了它\"就是融化。" },
+      "mnemonic": { "type": "sound", "tip": "melt 谐音\"没了它\"——太阳一晒,雪化了\"没了它\"就是融化。" },
       "petExam": { "frequency": "low", "collocations": ["the snow melts", "melt away"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "The air felt humid before the rain.", "zh": "下雨前空气很潮湿。" }
       ],
       "synonyms": ["damp"], "antonyms": ["dry"], "difficulty": 4, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "humid 谐音\"回米的\"——梅雨天潮得连米都\"回潮\",就是潮湿。" },
+      "mnemonic": { "type": "sound", "tip": "humid 谐音\"回米的\"——梅雨天潮得连米都\"回潮\",就是潮湿。" },
       "petExam": { "frequency": "low", "collocations": ["hot and humid", "humid air"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "Keep the clothes in a dry place.", "zh": "把衣服放在干燥的地方。" }
       ],
       "synonyms": [], "antonyms": ["wet"], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "dry 谐音\"拽\"——太干了嗓子发\"拽\"、皮肤发紧就是干燥。" },
+      "mnemonic": { "type": "sound", "tip": "dry 谐音\"拽\"——太干了嗓子发\"拽\"、皮肤发紧就是干燥。" },
       "petExam": { "frequency": "medium", "collocations": ["dry weather", "a dry season"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "Take an umbrella; it's wet outside.", "zh": "带把伞,外面在下雨。" }
       ],
       "synonyms": [], "antonyms": ["dry"], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "wet 谐音\"喂它\"不对,记\"喂特\"——被雨\"喂\"了一身水就是湿。" },
+      "mnemonic": { "type": "sound", "tip": "wet 谐音\"喂它\"不对,记\"喂特\"——被雨\"喂\"了一身水就是湿。" },
       "petExam": { "frequency": "medium", "collocations": ["get wet", "wet weather"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "Wear a coat; it's chilly today.", "zh": "穿件外套,今天有点冷。" }
       ],
       "synonyms": ["cold"], "antonyms": ["warm"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "chilly 谐音\"痴离\"不对,记\"齐力\"——冷得直打\"激灵\",微冷就是 chilly。" },
+      "mnemonic": { "type": "sound", "tip": "chilly 谐音\"痴离\"不对,记\"齐力\"——冷得直打\"激灵\",微冷就是 chilly。" },
       "petExam": { "frequency": "low", "collocations": ["a chilly morning", "feel chilly"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "We enjoyed the mild spring weather.", "zh": "我们享受着温和的春日天气。" }
       ],
       "synonyms": ["gentle"], "antonyms": ["harsh"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "mild 谐音\"卖的\"不对,记\"迈欧德\"——不冷不热、温温和和就是 mild。" },
+      "mnemonic": { "type": "sound", "tip": "mild 谐音\"卖的\"不对,记\"迈欧德\"——不冷不热、温温和和就是 mild。" },
       "petExam": { "frequency": "low", "collocations": ["a mild winter", "mild weather"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "My feet are freezing.", "zh": "我的脚冻僵了。" }
       ],
       "synonyms": ["very cold"], "antonyms": ["boiling"], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "freeze(结冰)+ing,冷到能把人冻成冰就是 freezing。" },
+      "mnemonic": { "type": "split", "tip": "freeze(结冰)+ing,冷到能把人冻成冰就是 freezing。" },
       "petExam": { "frequency": "medium", "collocations": ["freezing cold", "a freezing night"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "The beach is boiling in July.", "zh": "七月的海滩热极了。" }
       ],
       "synonyms": ["very hot"], "antonyms": ["freezing"], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "boil(煮沸)+ing,热到像开水一样就是酷热。" },
+      "mnemonic": { "type": "split", "tip": "boil(煮沸)+ing,热到像开水一样就是酷热。" },
       "petExam": { "frequency": "low", "collocations": ["boiling hot", "a boiling day"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "The rainbow has seven colours.", "zh": "彩虹有七种颜色。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "rain(雨)+bow(弓/弧),雨后天上的一道彩色弧就是彩虹。" },
+      "mnemonic": { "type": "split", "tip": "rain(雨)+bow(弓/弧),雨后天上的一道彩色弧就是彩虹。" },
       "petExam": { "frequency": "low", "collocations": ["see a rainbow", "a colourful rainbow"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "The wind broke my umbrella.", "zh": "风把我的伞刮坏了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "umbrella 谐音\"俺不理啦\"——撑起伞,下再大的雨\"俺也不理啦\"。" },
+      "mnemonic": { "type": "sound", "tip": "umbrella 谐音\"俺不理啦\"——撑起伞,下再大的雨\"俺也不理啦\"。" },
       "petExam": { "frequency": "medium", "collocations": ["take an umbrella", "open an umbrella"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "Many homes were lost in the flood.", "zh": "许多房屋在洪水中被毁。" }
       ],
       "synonyms": [], "antonyms": ["drought"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "flood 谐音\"服了的\"不对,记\"福辣的\"——水漫上来\"哗哗\"淹一片就是洪水(oo读/ʌ/)。" },
+      "mnemonic": { "type": "sound", "tip": "flood 谐音\"服了的\"不对,记\"福辣的\"——水漫上来\"哗哗\"淹一片就是洪水(oo读/ʌ/)。" },
       "petExam": { "frequency": "low", "collocations": ["cause a flood", "a serious flood"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "Crops die in a long drought.", "zh": "长期干旱会使庄稼枯死。" }
       ],
       "synonyms": [], "antonyms": ["flood"], "difficulty": 4, "tags": ["weather"],
-      "mnemonic": { "type": "联想", "tip": "drought 里藏着 dry(干),长期没雨、大地干裂就是干旱(gh不发音)。" },
+      "mnemonic": { "type": "assoc", "tip": "drought 里藏着 dry(干),长期没雨、大地干裂就是干旱(gh不发音)。" },
       "petExam": { "frequency": "low", "collocations": ["a long drought", "cause a drought"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "There are four seasons in a year.", "zh": "一年有四个季节。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "season 谐音\"细怎\"不对,记\"西子\"——春夏秋冬各有\"姿\"色,四时轮转就是季节。" },
+      "mnemonic": { "type": "sound", "tip": "season 谐音\"细怎\"不对,记\"西子\"——春夏秋冬各有\"姿\"色,四时轮转就是季节。" },
       "petExam": { "frequency": "medium", "collocations": ["the rainy season", "four seasons"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "The temperature fell below zero degrees.", "zh": "气温降到了零度以下。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "场景", "tip": "温度计上一格一格(de-gree像\"低-阶\")的刻度就是\"度\"。" },
+      "mnemonic": { "type": "image", "tip": "温度计上一格一格(de-gree像\"低-阶\")的刻度就是\"度\"。" },
       "petExam": { "frequency": "medium", "collocations": ["thirty degrees", "below zero degrees"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "People stayed indoors during the heatwave.", "zh": "酷暑期间人们待在室内。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "heat(热)+wave(浪),一波接一波的高温就是热浪。" },
+      "mnemonic": { "type": "split", "tip": "heat(热)+wave(浪),一波接一波的高温就是热浪。" },
       "petExam": { "frequency": "low", "collocations": ["a heatwave hits", "during the heatwave"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "Dark clouds filled the sky.", "zh": "乌云布满了天空。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "谐音", "tip": "sky 谐音\"死盖\"不对,记\"斯盖\"——罩在头顶上的大盖子就是天空。" },
+      "mnemonic": { "type": "sound", "tip": "sky 谐音\"死盖\"不对,记\"斯盖\"——罩在头顶上的大盖子就是天空。" },
       "petExam": { "frequency": "medium", "collocations": ["a clear sky", "in the sky"] }
     },
     {
@@ -322,7 +322,7 @@
         { "en": "Weather forecasters study the clouds.", "zh": "天气预报员研究云层。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "拆解", "tip": "forecast(预报)+er(人),做天气预报的人就是预报员。" },
+      "mnemonic": { "type": "split", "tip": "forecast(预报)+er(人),做天气预报的人就是预报员。" },
       "petExam": { "frequency": "low", "collocations": ["a weather forecaster", "the forecaster says"] }
     }
   ]

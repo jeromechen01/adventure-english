@@ -29,7 +29,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "hour 的 h 不发音,读音像 our(我们的);60 分钟凑成的一段就是小时。"
       },
       "petExam": {
@@ -64,7 +64,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "minute 谐音\"觅你特\"——分秒必争地\"觅\"你,60 秒就是一分钟。"
       },
       "petExam": {
@@ -99,7 +99,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "second 既是\"秒\"又是\"第二\"——时间里最小、走在分钟后面的第二级就是秒。"
       },
       "petExam": {
@@ -136,7 +136,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "mo(动,同 move/motion)+ment,动一下的工夫、极短的一刻就是片刻。"
       },
       "petExam": {
@@ -171,7 +171,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "week 谐音\"喂克\"——和 weak(虚弱)同音;七天为一\"周\"。"
       },
       "petExam": {
@@ -206,7 +206,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "month 里藏着 moon(月亮),月亮圆缺一轮就是一个月。"
       },
       "petExam": {
@@ -241,7 +241,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "year 谐音\"椰\"不对,记\"意尔\"——地球绕太阳一圈、十二个月就是一年。"
       },
       "petExam": {
@@ -276,7 +276,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "cent(百,拉丁 centum,同 percent)+ury,一百年就是一个世纪。"
       },
       "petExam": {
@@ -313,7 +313,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "morning 里有 morn(黎明,古语),天刚亮的那段就是早晨。"
       },
       "petExam": {
@@ -348,7 +348,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "after(在...之后)+noon(中午),中午之后的那段就是下午。"
       },
       "petExam": {
@@ -385,7 +385,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "evening 里有 eve(前夕),太阳下山、夜幕前的那段就是傍晚。"
       },
       "petExam": {
@@ -422,7 +422,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "mid(中间)+night(夜),夜的正中间十二点就是午夜。"
       },
       "petExam": {
@@ -461,7 +461,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "noon 两个 o 像正午头顶的太阳和它的影子,十二点就是中午。"
       },
       "petExam": {
@@ -500,7 +500,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "dawn 谐音\"当\"——天\"当\"地一下亮了、太阳快出来的那刻就是黎明。"
       },
       "petExam": {
@@ -535,7 +535,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "to+day(日),说的就是眼下这一\"日\"——今天。"
       },
       "petExam": {
@@ -572,7 +572,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "tomorrow 谐音\"图猫肉\"——今天的下一天就是明天(注意 m 单 r 双)。"
       },
       "petExam": {
@@ -609,7 +609,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "yester(昨,古语)+day(日),过去的那一日就是昨天。"
       },
       "petExam": {
@@ -646,7 +646,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "week(周)+end(末尾),一周末尾的休息日就是周末。"
       },
       "petExam": {
@@ -683,7 +683,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "week(周)+day(日),周一到周五要上班上学的日子就是工作日。"
       },
       "petExam": {
@@ -718,7 +718,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "date 谐音\"呆特\"——写在日历上的年月日就是日期;也指男女\"约会\"。"
       },
       "petExam": {
@@ -753,7 +753,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "calendar 谐音\"卡林德\"——一张张标着日期、供查日子的表就是日历。"
       },
       "petExam": {
@@ -788,7 +788,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "clock 谐音\"克劳克\"——\"滴答滴答\"走、报时的挂钟就是 clock。"
       },
       "petExam": {
@@ -823,7 +823,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "alarm 谐音\"啊懒\"——闹钟一响\"啊\"地把懒觉叫醒;也指\"警报\"。"
       },
       "petExam": {
@@ -860,7 +860,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "early 谐音\"厄立\"不对,记\"耳立\"——鸡叫头遍就竖起耳朵起床,那就是早。"
       },
       "petExam": {
@@ -897,7 +897,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "late 谐音\"累特\"——磨蹭到最后、累得赶不上就是迟到。"
       },
       "petExam": {
@@ -932,7 +932,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "soon 谐音\"孙\"不对,记\"苏恩\"——两个 o 像连着的一小段,时间上很快就到。"
       },
       "petExam": {
@@ -969,7 +969,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "recent(近来的)+ly,不久前发生的就是最近。"
       },
       "petExam": {
@@ -1004,7 +1004,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "all(全)+ready(准备好),全都准备妥当、事情早办完了就是已经。"
       },
       "petExam": {
@@ -1041,7 +1041,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "usual(通常的)+ly,按老习惯、一般情况下就是通常。"
       },
       "petExam": {
@@ -1080,7 +1080,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "some(一些)+times(次数),只在一些时候发生就是有时。"
       },
       "petExam": {
@@ -1117,7 +1117,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "future 谐音\"飞出车\"不对,记\"缪彻\"——还没到、往前望去的日子就是未来。"
       },
       "petExam": {
@@ -1154,7 +1154,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "past 和 pass(经过)同源,已经\"过\"去了的时光就是过去。"
       },
       "petExam": {
@@ -1189,7 +1189,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "period 谐音\"劈瑞额的\"——被划成一段一段的时间就是时期。"
       },
       "petExam": {
@@ -1224,7 +1224,7 @@
         "time"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "ago 放在时间后面表\"...以前\"(如 long ago 很久以前),往回数的时间点。"
       },
       "petExam": {

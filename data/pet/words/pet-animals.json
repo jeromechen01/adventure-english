@@ -29,7 +29,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "pet 也作动词\"轻抚\",在家里逗着抚摸的小动物就是宠物。"
       },
       "petExam": {
@@ -66,7 +66,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "wild 谐音\"歪偶的\"不对,记\"外的\"——在野外自由生长、没被驯的就是野生的。"
       },
       "petExam": {
@@ -101,7 +101,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "zoo 谐音\"租\"不对,记\"入\"——两个 o 像两只圆眼睛,进去看动物的地方就是动物园。"
       },
       "petExam": {
@@ -136,7 +136,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "cage 谐音\"could\"不对,记\"凯奇\"——一根根栏杆围成、关动物的就是笼子。"
       },
       "petExam": {
@@ -171,7 +171,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "wing 谐音\"翁\"不对,记\"文\"——扇动起来\"呼呼\"的、能飞的就是翅膀。"
       },
       "petExam": {
@@ -206,7 +206,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "tail 谐音\"忒欧\"不对,记\"泰欧\"——和 tale(故事)同音,长在动物屁股后头的就是尾巴。"
       },
       "petExam": {
@@ -241,7 +241,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "fur 谐音\"服\"——毛茸茸像给动物穿了件\"服\"就是皮毛。"
       },
       "petExam": {
@@ -276,7 +276,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "in(进入)+sect(切,同 section),身体被\"切\"成一节节的小虫就是昆虫。"
       },
       "petExam": {
@@ -311,7 +311,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "bee 谐音\"必\"不对,记拟声\"嗡\"——\"嗡嗡\"采蜜的就是蜜蜂。"
       },
       "petExam": {
@@ -346,7 +346,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "butter(黄油)+fly(飞),像一小片黄油翩翩飞舞的就是蝴蝶。"
       },
       "petExam": {
@@ -381,7 +381,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "spider 谐音\"死掰的\"不对,记\"斯派德\"——八条腿结网抓虫的就是蜘蛛。"
       },
       "petExam": {
@@ -416,7 +416,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "snake 谐音\"斯内克\"——s 的形状像蛇身弯弯扭扭,\"嘶\"地吐信就是蛇。"
       },
       "petExam": {
@@ -451,7 +451,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "frog 谐音\"服了个\"不对,记拟声\"呱\"——\"呱呱\"叫、蹦蹦跳的就是青蛙。"
       },
       "petExam": {
@@ -486,7 +486,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "rabbit 谐音\"来必特\"不对,记\"拉比特\"——长耳朵、蹦蹦跳的就是兔子。"
       },
       "petExam": {
@@ -521,7 +521,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "mouse 谐音\"骂死\"不对,记\"毛斯\"——复数是 mice;电脑上那个也叫 mouse(鼠标)。"
       },
       "petExam": {
@@ -556,7 +556,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "wolf 谐音\"乌夫\"——复数 wolves,月夜\"嗷呜\"长嚎的就是狼。"
       },
       "petExam": {
@@ -591,7 +591,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "fox 谐音\"发克斯\"——尖脸大尾、机灵狡猾的就是狐狸。"
       },
       "petExam": {
@@ -626,7 +626,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "bear 谐音\"贝尔\"——大块头、毛乎乎、力气大的就是熊(也作动词\"忍受\")。"
       },
       "petExam": {
@@ -661,7 +661,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "lion 谐音\"赖恩\"——一头金色鬃毛、\"嗷\"地一吼的就是狮子。"
       },
       "petExam": {
@@ -696,7 +696,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "tiger 谐音\"太哥\"——山中\"大哥\",带条纹、威风凛凛的就是老虎。"
       },
       "petExam": {
@@ -731,7 +731,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "elephant 谐音\"爱了饭特\"不对,记\"艾勒粪特\"——长鼻大耳、体型巨大的就是大象。"
       },
       "petExam": {
@@ -766,7 +766,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "monkey 谐音\"忙key\"——上蹿下跳、拿着\"钥匙(key)\"般灵巧的就是猴子。"
       },
       "petExam": {
@@ -801,7 +801,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "giraffe 谐音\"计惹夫\"不对,记\"吉拉夫\"——脖子老长、够得着高处树叶的就是长颈鹿。"
       },
       "petExam": {
@@ -836,7 +836,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "dolphin 谐音\"逗腓\"不对,记\"多芬\"——在海里跃出水面、聪明友好的就是海豚。"
       },
       "petExam": {
@@ -871,7 +871,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "shark 谐音\"傻克\"不对,记\"沙克\"——里面藏 sharp(锋利),满口尖牙的就是鲨鱼。"
       },
       "petExam": {
@@ -906,7 +906,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "eagle 谐音\"衣狗\"不对,记\"伊狗\"——展翅高飞、目光如炬的就是鹰。"
       },
       "petExam": {
@@ -941,7 +941,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "owl 谐音\"傲\"——大眼圆睁、夜里\"咕咕\"叫、一脸高冷的就是猫头鹰。"
       },
       "petExam": {
@@ -976,7 +976,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "parrot 谐音\"怕肉\"不对,记\"派若特\"——会学人说话、羽毛鲜艳的就是鹦鹉。"
       },
       "petExam": {
@@ -1011,7 +1011,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "feed 是 food(食物)的动词亲戚,把食物递给动物就是喂养(过去式 fed)。"
       },
       "petExam": {
@@ -1046,7 +1046,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "hunt 谐音\"航特\"不对,记\"狠特\"——悄悄追、狠狠扑抓猎物就是捕猎。"
       },
       "petExam": {
@@ -1084,7 +1084,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "creat(创造,同 create)+ure,被大自然创造出来的活物就是生物。"
       },
       "petExam": {
@@ -1119,7 +1119,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "farm 谐音\"发母\"不对,记\"翻\"——\"翻\"土种地、养鸡养牛的地方就是农场。"
       },
       "petExam": {
@@ -1154,7 +1154,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "feather 谐音\"费惹\"不对,记\"飞热\"——轻飘飘、能助飞的就是羽毛。"
       },
       "petExam": {
@@ -1193,7 +1193,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "tame 谐音\"太乖\"不对,记\"泰姆\"——被养熟、乖乖听话的就是驯服的。"
       },
       "petExam": {
@@ -1228,7 +1228,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "claw 谐音\"克劳\"——尖尖弯弯、一挠一抓的就是爪子。"
       },
       "petExam": {
@@ -1263,7 +1263,7 @@
         "animals"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "beak 谐音\"比克\"——鸟脸前面尖尖硬硬、啄食用的就是鸟嘴。"
       },
       "petExam": {

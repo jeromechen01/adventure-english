@@ -12,7 +12,7 @@
         { "en": "She recovered from a serious illness.", "zh": "她从一场重病中康复了。" }
       ],
       "synonyms": ["disease", "sickness"], "antonyms": ["health"], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "ill(生病的)+ness(状态),处于生病的状态就是疾病。" },
+      "mnemonic": { "type": "split", "tip": "ill(生病的)+ness(状态),处于生病的状态就是疾病。" },
       "petExam": { "frequency": "medium", "collocations": ["a serious illness", "recover from illness"] }
     },
     {
@@ -22,7 +22,7 @@
         { "en": "She studies medicine at university.", "zh": "她在大学学医。" }
       ],
       "synonyms": ["drug"], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "medi(治疗,同 medical)+cine,用来治病的东西就是药。" },
+      "mnemonic": { "type": "root", "tip": "medi(治疗,同 medical)+cine,用来治病的东西就是药。" },
       "petExam": { "frequency": "high", "collocations": ["take medicine", "cough medicine"] }
     },
     {
@@ -32,7 +32,7 @@
         { "en": "Please be patient and wait.", "zh": "请耐心等待。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "场景", "tip": "看病要排队,能忍着痛\"耐心\"等的人就是 patient(病人),一词两义。" },
+      "mnemonic": { "type": "image", "tip": "看病要排队,能忍着痛\"耐心\"等的人就是 patient(病人),一词两义。" },
       "petExam": { "frequency": "medium", "collocations": ["a hospital patient", "be patient"] }
     },
     {
@@ -42,7 +42,7 @@
         { "en": "Too much screen time gives me a headache.", "zh": "看屏幕太久会让我头痛。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "head(头)+ache(疼),头疼就是 headache;同理 toothache 牙疼。" },
+      "mnemonic": { "type": "split", "tip": "head(头)+ache(疼),头疼就是 headache;同理 toothache 牙疼。" },
       "petExam": { "frequency": "medium", "collocations": ["have a headache", "a bad headache"] }
     },
     {
@@ -52,7 +52,7 @@
         { "en": "A stomachache kept her awake.", "zh": "肚子痛让她睡不着。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "stomach(胃)+ache(疼),胃疼就是 stomachache。" },
+      "mnemonic": { "type": "split", "tip": "stomach(胃)+ache(疼),胃疼就是 stomachache。" },
       "petExam": { "frequency": "medium", "collocations": ["have a stomachache", "a bad stomachache"] }
     },
     {
@@ -62,7 +62,7 @@
         { "en": "The medicine took away the pain.", "zh": "药止住了疼痛。" }
       ],
       "synonyms": ["ache"], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "pain 谐音\"疼\"——发音就带着疼劲儿。" },
+      "mnemonic": { "type": "sound", "tip": "pain 谐音\"疼\"——发音就带着疼劲儿。" },
       "petExam": { "frequency": "medium", "collocations": ["feel pain", "a sharp pain"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "The child's fever went down at night.", "zh": "孩子的烧到晚上退了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "fever 谐音\"废物\"不对,记\"发我\"——发烧时全身滚烫\"发\"着热。" },
+      "mnemonic": { "type": "sound", "tip": "fever 谐音\"废物\"不对,记\"发我\"——发烧时全身滚烫\"发\"着热。" },
       "petExam": { "frequency": "medium", "collocations": ["have a fever", "a high fever"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "I have a bad cough.", "zh": "我咳嗽得厉害。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "cough 谐音\"咳夫\"——发音本身就像\"咳\"的一声。" },
+      "mnemonic": { "type": "sound", "tip": "cough 谐音\"咳夫\"——发音本身就像\"咳\"的一声。" },
       "petExam": { "frequency": "medium", "collocations": ["have a cough", "cough medicine"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "Stay warm so you don't get a cold.", "zh": "注意保暖以免感冒。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["health"],
-      "mnemonic": { "type": "场景", "tip": "cold 本义\"冷\",受了凉就 catch a cold(感冒)。" },
+      "mnemonic": { "type": "image", "tip": "cold 本义\"冷\",受了凉就 catch a cold(感冒)。" },
       "petExam": { "frequency": "high", "collocations": ["catch a cold", "have a cold"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "The flu made him stay in bed.", "zh": "流感让他卧床不起。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "flu 是 influenza 的缩写,比普通感冒(cold)更凶的流行性感冒。" },
+      "mnemonic": { "type": "split", "tip": "flu 是 influenza 的缩写,比普通感冒(cold)更凶的流行性感冒。" },
       "petExam": { "frequency": "low", "collocations": ["catch the flu", "have the flu"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "Wear a helmet to avoid injury.", "zh": "戴上头盔以免受伤。" }
       ],
       "synonyms": ["wound"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "in(不)+jur(公正,同 justice)+y,被不公正地伤了身=受伤。" },
+      "mnemonic": { "type": "root", "tip": "in(不)+jur(公正,同 justice)+y,被不公正地伤了身=受伤。" },
       "petExam": { "frequency": "medium", "collocations": ["a serious injury", "avoid injury"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "He wore a bandage for a week.", "zh": "他绑了一周绷带。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "band(带子)+age,缠伤口的带子就是绷带。" },
+      "mnemonic": { "type": "split", "tip": "band(带子)+age,缠伤口的带子就是绷带。" },
       "petExam": { "frequency": "low", "collocations": ["put on a bandage", "a clean bandage"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "She received treatment at the hospital.", "zh": "她在医院接受了治疗。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "treat(治疗/对待)+ment,治病的过程就是 treatment。" },
+      "mnemonic": { "type": "split", "tip": "treat(治疗/对待)+ment,治病的过程就是 treatment。" },
       "petExam": { "frequency": "medium", "collocations": ["medical treatment", "receive treatment"] }
     },
     {
@@ -142,7 +142,7 @@
         { "en": "There is no cure for a cold.", "zh": "感冒没有特效药。" }
       ],
       "synonyms": ["heal"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "cure 谐音\"克尔\"——把病\"克\"掉就是治愈。" },
+      "mnemonic": { "type": "sound", "tip": "cure 谐音\"克尔\"——把病\"克\"掉就是治愈。" },
       "petExam": { "frequency": "medium", "collocations": ["cure a disease", "a cure for"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "She recovered quickly after resting.", "zh": "休息后她很快就好了。" }
       ],
       "synonyms": ["get better"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "re(重新)+cover(覆盖/盖上),重新把健康\"盖\"回身上就是康复。" },
+      "mnemonic": { "type": "root", "tip": "re(重新)+cover(覆盖/盖上),重新把健康\"盖\"回身上就是康复。" },
       "petExam": { "frequency": "medium", "collocations": ["recover from", "recover quickly"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "She goes to a fitness centre.", "zh": "她去健身中心。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "fit(健康的/合身的)+ness(状态),身体处于\"fit\"的状态就是健康。" },
+      "mnemonic": { "type": "split", "tip": "fit(健康的/合身的)+ness(状态),身体处于\"fit\"的状态就是健康。" },
       "petExam": { "frequency": "medium", "collocations": ["a fitness centre", "physical fitness"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "The doctor checked my weight.", "zh": "医生量了我的体重。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "联想", "tip": "weight 里有 weigh(称重),称出来的数就是重量/体重。" },
+      "mnemonic": { "type": "assoc", "tip": "weight 里有 weigh(称重),称出来的数就是重量/体重。" },
       "petExam": { "frequency": "medium", "collocations": ["lose weight", "put on weight"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "The dentist checked my teeth.", "zh": "牙医检查了我的牙齿。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "dent(牙,拉丁 dent)+ist(人),管牙的人就是牙医。" },
+      "mnemonic": { "type": "root", "tip": "dent(牙,拉丁 dent)+ist(人),管牙的人就是牙医。" },
       "petExam": { "frequency": "medium", "collocations": ["go to the dentist", "see a dentist"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "The chemist is open until nine.", "zh": "药店营业到九点。" }
       ],
       "synonyms": ["pharmacy"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "联想", "tip": "chemist 里有 chem(化学),懂药物化学、卖药配药的人/店就是 chemist。" },
+      "mnemonic": { "type": "assoc", "tip": "chemist 里有 chem(化学),懂药物化学、卖药配药的人/店就是 chemist。" },
       "petExam": { "frequency": "low", "collocations": ["at the chemist", "a local chemist"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "You need a prescription for this medicine.", "zh": "这种药需要处方。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "pre(预先)+script(写,同 script)+ion,医生预先写好的用药单就是处方。" },
+      "mnemonic": { "type": "root", "tip": "pre(预先)+script(写,同 script)+ion,医生预先写好的用药单就是处方。" },
       "petExam": { "frequency": "low", "collocations": ["write a prescription", "a doctor's prescription"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "Tell the doctor your symptoms.", "zh": "把你的症状告诉医生。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "symptom 谐音\"婶疼\"——身体这儿疼那儿疼,就是显出了症状。" },
+      "mnemonic": { "type": "sound", "tip": "symptom 谐音\"婶疼\"——身体这儿疼那儿疼,就是显出了症状。" },
       "petExam": { "frequency": "low", "collocations": ["a common symptom", "show symptoms"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "The operation was a success.", "zh": "手术很成功。" }
       ],
       "synonyms": ["surgery"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "oper(工作/操作,同 operate)+ation,医生在身体上\"动手操作\"就是手术。" },
+      "mnemonic": { "type": "root", "tip": "oper(工作/操作,同 operate)+ation,医生在身体上\"动手操作\"就是手术。" },
       "petExam": { "frequency": "medium", "collocations": ["have an operation", "a heart operation"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "The ambulance arrived in five minutes.", "zh": "救护车五分钟就到了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "ambulance 谐音\"俺不能死\"——躺上救护车心里喊着\"俺不能死\",赶紧送医。" },
+      "mnemonic": { "type": "sound", "tip": "ambulance 谐音\"俺不能死\"——躺上救护车心里喊着\"俺不能死\",赶紧送医。" },
       "petExam": { "frequency": "low", "collocations": ["call an ambulance", "an ambulance arrives"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "Please make an appointment first.", "zh": "请先预约。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "ap(朝向)+point(指定)+ment,双方指定好一个时间点见面=预约。" },
+      "mnemonic": { "type": "root", "tip": "ap(朝向)+point(指定)+ment,双方指定好一个时间点见面=预约。" },
       "petExam": { "frequency": "medium", "collocations": ["make an appointment", "a doctor's appointment"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "My legs are sore after running.", "zh": "跑完步我的腿很酸。" }
       ],
       "synonyms": ["painful"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "sore 谐音\"搜\"——哪儿一碰就\"嗖\"地一阵酸痛。" },
+      "mnemonic": { "type": "sound", "tip": "sore 谐音\"搜\"——哪儿一碰就\"嗖\"地一阵酸痛。" },
       "petExam": { "frequency": "medium", "collocations": ["a sore throat", "feel sore"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "Standing up too fast makes me dizzy.", "zh": "站起来太快会让我头晕。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "dizzy 谐音\"地字\"——晕的时候连地上的字都转成一团。" },
+      "mnemonic": { "type": "sound", "tip": "dizzy 谐音\"地字\"——晕的时候连地上的字都转成一团。" },
       "petExam": { "frequency": "low", "collocations": ["feel dizzy", "a dizzy spell"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "It's hard to breathe in thick smoke.", "zh": "在浓烟里很难呼吸。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "联想", "tip": "动词 breathe 带 e(读 /ð/),名词 breath(呼吸)不带 e;呼吸要\"深\"一点。" },
+      "mnemonic": { "type": "assoc", "tip": "动词 breathe 带 e(读 /ð/),名词 breath(呼吸)不带 e;呼吸要\"深\"一点。" },
       "petExam": { "frequency": "medium", "collocations": ["breathe in", "breathe deeply"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "My heart beats fast when I run.", "zh": "跑步时我心跳很快。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "heart 里藏着 ear(耳)和 art(艺术),但记 heart=心脏,爱心❤就是它。" },
+      "mnemonic": { "type": "split", "tip": "heart 里藏着 ear(耳)和 art(艺术),但记 heart=心脏,爱心❤就是它。" },
       "petExam": { "frequency": "medium", "collocations": ["a healthy heart", "heart rate"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "Milk helps build strong bones.", "zh": "牛奶有助于强壮骨骼。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "bone 谐音\"波恩\"不对,记\"崩\"——骨头断了\"崩\"的一声。" },
+      "mnemonic": { "type": "sound", "tip": "bone 谐音\"波恩\"不对,记\"崩\"——骨头断了\"崩\"的一声。" },
       "petExam": { "frequency": "low", "collocations": ["break a bone", "strong bones"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "He pulled a muscle in his leg.", "zh": "他腿部肌肉拉伤了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "muscle 谐音\"马嗖\"——肌肉一使劲,像马一样嗖地爆发力量(c不发音)。" },
+      "mnemonic": { "type": "sound", "tip": "muscle 谐音\"马嗖\"——肌肉一使劲,像马一样嗖地爆发力量(c不发音)。" },
       "petExam": { "frequency": "low", "collocations": ["build muscle", "a strong muscle"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "There was blood on his knee.", "zh": "他膝盖上有血。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "blood 谐音\"不辣的\"不对,记\"卜辣\"——血是红的,读音短促带 oo 读 /ʌ/。" },
+      "mnemonic": { "type": "sound", "tip": "blood 谐音\"不辣的\"不对,记\"卜辣\"——血是红的,读音短促带 oo 读 /ʌ/。" },
       "petExam": { "frequency": "low", "collocations": ["blood pressure", "give blood"] }
     },
     {
@@ -322,7 +322,7 @@
         { "en": "He looks strong and healthy.", "zh": "他看起来强壮又健康。" }
       ],
       "synonyms": ["fit"], "antonyms": ["unhealthy"], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "拆解", "tip": "health(健康)+y,形容词就是健康的。" },
+      "mnemonic": { "type": "split", "tip": "health(健康)+y,形容词就是健康的。" },
       "petExam": { "frequency": "high", "collocations": ["stay healthy", "a healthy lifestyle"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "You should exercise more often.", "zh": "你应该多运动。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "ex(向外)+erc(约束/驱动)+ise,把身体的能量向外练出来就是锻炼。" },
+      "mnemonic": { "type": "root", "tip": "ex(向外)+erc(约束/驱动)+ise,把身体的能量向外练出来就是锻炼。" },
       "petExam": { "frequency": "high", "collocations": ["do exercise", "take exercise"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "Have a good rest this weekend.", "zh": "这周末好好休息。" }
       ],
       "synonyms": ["relax"], "antonyms": [], "difficulty": 1, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "rest 谐音\"瑞斯特\"不如记\"累死\"反着想——累了就该 rest 休息。" },
+      "mnemonic": { "type": "sound", "tip": "rest 谐音\"瑞斯特\"不如记\"累死\"反着想——累了就该 rest 休息。" },
       "petExam": { "frequency": "high", "collocations": ["have a rest", "get some rest"] }
     },
     {
@@ -352,7 +352,7 @@
         { "en": "He was too ill to go to work.", "zh": "他病得太重没法上班。" }
       ],
       "synonyms": ["sick"], "antonyms": ["well"], "difficulty": 1, "tags": ["health"],
-      "mnemonic": { "type": "联想", "tip": "ill 两根竖线像躺在床上的病人,病恹恹的就是 ill。" },
+      "mnemonic": { "type": "assoc", "tip": "ill 两根竖线像躺在床上的病人,病恹恹的就是 ill。" },
       "petExam": { "frequency": "high", "collocations": ["feel ill", "fall ill"] }
     },
     {
@@ -362,7 +362,7 @@
         { "en": "Cover your mouth when you sneeze.", "zh": "打喷嚏时捂住嘴。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "sneeze 谐音\"斯尼兹\"——\"阿嚏\"一声就是打喷嚏。" },
+      "mnemonic": { "type": "sound", "tip": "sneeze 谐音\"斯尼兹\"——\"阿嚏\"一声就是打喷嚏。" },
       "petExam": { "frequency": "low", "collocations": ["sneeze loudly", "a sudden sneeze"] }
     },
     {
@@ -372,7 +372,7 @@
         { "en": "The wound healed in a week.", "zh": "伤口一周就愈合了。" }
       ],
       "synonyms": ["injury"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "谐音", "tip": "wound 谐音\"闻的\"不对,记读音\"乌恩德\"——伤口一疼就\"呜\"地叫。" },
+      "mnemonic": { "type": "sound", "tip": "wound 谐音\"闻的\"不对,记读音\"乌恩德\"——伤口一疼就\"呜\"地叫。" },
       "petExam": { "frequency": "low", "collocations": ["clean a wound", "a deep wound"] }
     },
     {
@@ -382,7 +382,7 @@
         { "en": "Heart disease is quite serious.", "zh": "心脏病相当严重。" }
       ],
       "synonyms": ["illness"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "dis(不)+ease(舒适),身体不舒适、失去安宁就是疾病。" },
+      "mnemonic": { "type": "root", "tip": "dis(不)+ease(舒适),身体不舒适、失去安宁就是疾病。" },
       "petExam": { "frequency": "medium", "collocations": ["a serious disease", "heart disease"] }
     },
     {
@@ -392,7 +392,7 @@
         { "en": "He is doing medical research.", "zh": "他在做医学研究。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "medi(治疗)+cal,和治病有关的就是 medical。" },
+      "mnemonic": { "type": "root", "tip": "medi(治疗)+cal,和治病有关的就是 medical。" },
       "petExam": { "frequency": "medium", "collocations": ["medical help", "medical care"] }
     },
     {
@@ -402,7 +402,7 @@
         { "en": "Relax and take a deep breath.", "zh": "放松,深呼吸一下。" }
       ],
       "synonyms": ["rest"], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "词根词缀", "tip": "re(重新)+lax(松弛,同 lazy的松),把绷紧的神经重新松开就是放松。" },
+      "mnemonic": { "type": "root", "tip": "re(重新)+lax(松弛,同 lazy的松),把绷紧的神经重新松开就是放松。" },
       "petExam": { "frequency": "high", "collocations": ["relax at home", "help you relax"] }
     }
   ]

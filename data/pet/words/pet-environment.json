@@ -12,7 +12,7 @@
         { "en": "Plastic harms the environment.", "zh": "塑料危害环境。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "en(使)+viron(围绕,同 环绕)+ment,围绕我们四周的一切就是环境。" },
+      "mnemonic": { "type": "root", "tip": "en(使)+viron(围绕,同 环绕)+ment,围绕我们四周的一切就是环境。" },
       "petExam": { "frequency": "high", "collocations": ["protect the environment", "harm the environment"] }
     },
     {
@@ -22,7 +22,7 @@
         { "en": "Cars cause a lot of pollution.", "zh": "汽车造成很多污染。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "pollute(弄脏)+ion,把环境弄脏的结果就是污染。" },
+      "mnemonic": { "type": "root", "tip": "pollute(弄脏)+ion,把环境弄脏的结果就是污染。" },
       "petExam": { "frequency": "high", "collocations": ["air pollution", "cause pollution"] }
     },
     {
@@ -32,7 +32,7 @@
         { "en": "Don't pollute the sea with plastic.", "zh": "别用塑料污染海洋。" }
       ],
       "synonyms": ["contaminate"], "antonyms": ["clean"], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "pollute 谐音\"破路的\"——把干净的水土\"破\"坏弄脏就是污染。" },
+      "mnemonic": { "type": "sound", "tip": "pollute 谐音\"破路的\"——把干净的水土\"破\"坏弄脏就是污染。" },
       "petExam": { "frequency": "medium", "collocations": ["pollute the air", "pollute the water"] }
     },
     {
@@ -42,7 +42,7 @@
         { "en": "Please recycle your rubbish.", "zh": "请把垃圾回收利用。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "re(再)+cycle(循环),让废物再转一圈重新用就是回收。" },
+      "mnemonic": { "type": "root", "tip": "re(再)+cycle(循环),让废物再转一圈重新用就是回收。" },
       "petExam": { "frequency": "high", "collocations": ["recycle paper", "recycle waste"] }
     },
     {
@@ -52,7 +52,7 @@
         { "en": "The city produces a lot of waste.", "zh": "这座城市产生大量废物。" }
       ],
       "synonyms": [], "antonyms": ["save"], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "waste 谐音\"喂死它\"不对,记\"位斯特\"——东西没用完就扔=浪费。" },
+      "mnemonic": { "type": "sound", "tip": "waste 谐音\"喂死它\"不对,记\"位斯特\"——东西没用完就扔=浪费。" },
       "petExam": { "frequency": "high", "collocations": ["waste water", "waste time"] }
     },
     {
@@ -62,7 +62,7 @@
         { "en": "The street was full of rubbish.", "zh": "街上到处是垃圾。" }
       ],
       "synonyms": ["trash", "litter"], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "rubbish 谐音\"拉不细\"不对,记\"拉比虚\"——不要的破烂就是垃圾。" },
+      "mnemonic": { "type": "sound", "tip": "rubbish 谐音\"拉不细\"不对,记\"拉比虚\"——不要的破烂就是垃圾。" },
       "petExam": { "frequency": "medium", "collocations": ["throw away rubbish", "a rubbish bin"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "Try to use less plastic.", "zh": "尽量少用塑料。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "plastic 谐音\"扑拉死鸡\"——塑料难分解,常缠住小动物,记住少用它。" },
+      "mnemonic": { "type": "sound", "tip": "plastic 谐音\"扑拉死鸡\"——塑料难分解,常缠住小动物,记住少用它。" },
       "petExam": { "frequency": "high", "collocations": ["a plastic bag", "single-use plastic"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "The beach was covered in litter.", "zh": "海滩上满是垃圾。" }
       ],
       "synonyms": ["rubbish"], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "litter 谐音\"李特\"不对,记\"利特\"——随手\"撂\"下的垃圾就是 litter。" },
+      "mnemonic": { "type": "sound", "tip": "litter 谐音\"李特\"不对,记\"利特\"——随手\"撂\"下的垃圾就是 litter。" },
       "petExam": { "frequency": "medium", "collocations": ["drop litter", "pick up litter"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "Trees protect the soil.", "zh": "树木保护土壤。" }
       ],
       "synonyms": ["guard"], "antonyms": ["harm"], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "pro(在前面)+tect(覆盖,同 detect的tect),在前面挡着盖住就是保护。" },
+      "mnemonic": { "type": "root", "tip": "pro(在前面)+tect(覆盖,同 detect的tect),在前面挡着盖住就是保护。" },
       "petExam": { "frequency": "high", "collocations": ["protect the environment", "protect nature"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "This law is for the protection of forests.", "zh": "这条法律是为了保护森林。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "protect(保护)+ion,保护这件事的名词就是 protection。" },
+      "mnemonic": { "type": "split", "tip": "protect(保护)+ion,保护这件事的名词就是 protection。" },
       "petExam": { "frequency": "medium", "collocations": ["environmental protection", "need protection"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "The storm caused a lot of damage.", "zh": "暴风雨造成了很大破坏。" }
       ],
       "synonyms": ["harm"], "antonyms": ["repair"], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "damage 谐音\"打卖具\"不对,记\"打没纪\"——一打就坏、损失惨重就是损害。" },
+      "mnemonic": { "type": "sound", "tip": "damage 谐音\"打卖具\"不对,记\"打没纪\"——一打就坏、损失惨重就是损害。" },
       "petExam": { "frequency": "medium", "collocations": ["cause damage", "damage the environment"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "Litter can harm sea animals.", "zh": "垃圾会危害海洋动物。" }
       ],
       "synonyms": ["damage"], "antonyms": ["protect"], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "harm 谐音\"害姆\"——\"害\"就是 harm,伤害、危害。" },
+      "mnemonic": { "type": "sound", "tip": "harm 谐音\"害姆\"——\"害\"就是 harm,伤害、危害。" },
       "petExam": { "frequency": "medium", "collocations": ["do harm to", "harm the environment"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "Nature gives us clean air.", "zh": "大自然给我们干净的空气。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "nat(出生,同 native/nation)+ure,天生天长、非人造的一切就是大自然。" },
+      "mnemonic": { "type": "root", "tip": "nat(出生,同 native/nation)+ure,天生天长、非人造的一切就是大自然。" },
       "petExam": { "frequency": "high", "collocations": ["in nature", "the natural world"] }
     },
     {
@@ -142,7 +142,7 @@
         { "en": "Wind is a natural power.", "zh": "风是一种自然的力量。" }
       ],
       "synonyms": [], "antonyms": ["artificial"], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "nature(自然)+al,和自然有关、非人造的就是 natural。" },
+      "mnemonic": { "type": "split", "tip": "nature(自然)+al,和自然有关、非人造的就是 natural。" },
       "petExam": { "frequency": "high", "collocations": ["natural resources", "a natural park"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "We should not waste natural resources.", "zh": "我们不该浪费自然资源。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "re(再)+source(源头),能一再取用的源头就是资源。" },
+      "mnemonic": { "type": "root", "tip": "re(再)+source(源头),能一再取用的源头就是资源。" },
       "petExam": { "frequency": "medium", "collocations": ["natural resources", "save resources"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "Save energy by turning off lights.", "zh": "关灯节约能源。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "energy 谐音\"哎呢急\"不对,记\"能挤\"——能\"挤\"出来干活的力量就是能量/能源。" },
+      "mnemonic": { "type": "sound", "tip": "energy 谐音\"哎呢急\"不对,记\"能挤\"——能\"挤\"出来干活的力量就是能量/能源。" },
       "petExam": { "frequency": "high", "collocations": ["save energy", "solar energy"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "Cycling reduces air pollution.", "zh": "骑车能减少空气污染。" }
       ],
       "synonyms": ["cut down"], "antonyms": ["increase"], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "re(往回)+duce(引导,同 conduct),把数量往回带、拉下来就是减少。" },
+      "mnemonic": { "type": "root", "tip": "re(往回)+duce(引导,同 conduct),把数量往回带、拉下来就是减少。" },
       "petExam": { "frequency": "high", "collocations": ["reduce waste", "reduce pollution"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "We can reuse old jars for storage.", "zh": "我们可以重复利用旧罐子来收纳。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "re(再)+use(用),再用一次就是重复使用。" },
+      "mnemonic": { "type": "root", "tip": "re(再)+use(用),再用一次就是重复使用。" },
       "petExam": { "frequency": "medium", "collocations": ["reuse bags", "reduce and reuse"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "The forest is home to rare birds.", "zh": "这片森林是稀有鸟类的家园。" }
       ],
       "synonyms": ["wood"], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "forest 谐音\"父入死它\"不对,记\"佛瑞斯\"——for+rest(休息),动物歇脚的大片树林就是森林。" },
+      "mnemonic": { "type": "sound", "tip": "forest 谐音\"父入死它\"不对,记\"佛瑞斯\"——for+rest(休息),动物歇脚的大片树林就是森林。" },
       "petExam": { "frequency": "medium", "collocations": ["a thick forest", "cut down a forest"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "Pollution threatens wildlife.", "zh": "污染威胁着野生动植物。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "wild(野生的)+life(生命),野外自然生长的生命就是 wildlife。" },
+      "mnemonic": { "type": "split", "tip": "wild(野生的)+life(生命),野外自然生长的生命就是 wildlife。" },
       "petExam": { "frequency": "medium", "collocations": ["protect wildlife", "wildlife park"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "Many species are in danger.", "zh": "许多物种处于危险中。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "species 谐音\"斯批需\"不对,记\"死劈许\"——单复数同形,一\"种\"生物就是一个 species。" },
+      "mnemonic": { "type": "sound", "tip": "species 谐音\"斯批需\"不对,记\"死劈许\"——单复数同形,一\"种\"生物就是一个 species。" },
       "petExam": { "frequency": "low", "collocations": ["a rare species", "endangered species"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "We must save endangered species.", "zh": "我们必须拯救濒危物种。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "en(使)+danger(危险)+ed,被置于危险中、快没了就是濒危。" },
+      "mnemonic": { "type": "root", "tip": "en(使)+danger(危险)+ed,被置于危险中、快没了就是濒危。" },
       "petExam": { "frequency": "low", "collocations": ["endangered species", "endangered animals"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "Some fish may become extinct.", "zh": "有些鱼可能会灭绝。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "ex(向外/出)+tinct(熄灭,同 distinct的tinct),彻底\"熄灭\"、一个不剩就是灭绝。" },
+      "mnemonic": { "type": "root", "tip": "ex(向外/出)+tinct(熄灭,同 distinct的tinct),彻底\"熄灭\"、一个不剩就是灭绝。" },
       "petExam": { "frequency": "low", "collocations": ["become extinct", "an extinct species"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "Earth is the only planet with life.", "zh": "地球是唯一有生命的行星。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "planet 谐音\"扑来捏它\"不对,记\"普来呢\"——像 plane(飞机)绕圈,行星绕太阳转。" },
+      "mnemonic": { "type": "sound", "tip": "planet 谐音\"扑来捏它\"不对,记\"普来呢\"——像 plane(飞机)绕圈,行星绕太阳转。" },
       "petExam": { "frequency": "medium", "collocations": ["save the planet", "our planet"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "Plants grow in the earth.", "zh": "植物长在泥土里。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "earth 谐音\"厄斯\"——脚下这颗\"饿\"了要爱护的星球就是地球。" },
+      "mnemonic": { "type": "sound", "tip": "earth 谐音\"厄斯\"——脚下这颗\"饿\"了要爱护的星球就是地球。" },
       "petExam": { "frequency": "medium", "collocations": ["the earth", "on earth"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "Plastic pollutes the ocean.", "zh": "塑料污染海洋。" }
       ],
       "synonyms": ["sea"], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "ocean 谐音\"欧神\"——广阔无边、深不可测的大海就是海洋。" },
+      "mnemonic": { "type": "sound", "tip": "ocean 谐音\"欧神\"——广阔无边、深不可测的大海就是海洋。" },
       "petExam": { "frequency": "medium", "collocations": ["the deep ocean", "protect the ocean"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "The desert is hot in the day and cold at night.", "zh": "沙漠白天热、夜里冷。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "联想", "tip": "desert(沙漠)只有一个 s,dessert(甜点)有两个 s;沙漠里\"水少\"所以 s 少。" },
+      "mnemonic": { "type": "assoc", "tip": "desert(沙漠)只有一个 s,dessert(甜点)有两个 s;沙漠里\"水少\"所以 s 少。" },
       "petExam": { "frequency": "low", "collocations": ["a hot desert", "cross the desert"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "Please clean the river banks.", "zh": "请清理河岸。" }
       ],
       "synonyms": [], "antonyms": ["dirty"], "difficulty": 1, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "clean 谐音\"可林\"——清清爽爽像森林一样干净就是 clean。" },
+      "mnemonic": { "type": "sound", "tip": "clean 谐音\"可林\"——清清爽爽像森林一样干净就是 clean。" },
       "petExam": { "frequency": "high", "collocations": ["clean air", "keep clean"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "Wash your dirty hands.", "zh": "把你脏手洗干净。" }
       ],
       "synonyms": [], "antonyms": ["clean"], "difficulty": 1, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "dirt(泥土/尘垢)+y,沾满尘垢就是肮脏的。" },
+      "mnemonic": { "type": "split", "tip": "dirt(泥土/尘垢)+y,沾满尘垢就是肮脏的。" },
       "petExam": { "frequency": "medium", "collocations": ["dirty water", "get dirty"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "Thick smoke filled the air.", "zh": "浓烟弥漫在空气中。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "smoke 谐音\"死摸克\"不对,记\"斯莫克\"——火一烧就\"呼\"地冒烟。" },
+      "mnemonic": { "type": "sound", "tip": "smoke 谐音\"死摸克\"不对,记\"斯莫克\"——火一烧就\"呼\"地冒烟。" },
       "petExam": { "frequency": "medium", "collocations": ["thick smoke", "cigarette smoke"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "Solar power is clean and free.", "zh": "太阳能清洁又免费。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "sol(太阳,拉丁 sol)+ar,和太阳有关的就是 solar。" },
+      "mnemonic": { "type": "root", "tip": "sol(太阳,拉丁 sol)+ar,和太阳有关的就是 solar。" },
       "petExam": { "frequency": "low", "collocations": ["solar power", "solar energy"] }
     },
     {
@@ -322,7 +322,7 @@
         { "en": "We need more renewable power.", "zh": "我们需要更多可再生能源。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "词根词缀", "tip": "re(再)+new(新)+able(能),能一再变新、用不完的就是可再生的。" },
+      "mnemonic": { "type": "root", "tip": "re(再)+new(新)+able(能),能一再变新、用不完的就是可再生的。" },
       "petExam": { "frequency": "low", "collocations": ["renewable energy", "renewable resources"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "We can all help fight climate change.", "zh": "我们都能出力应对气候变化。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "climate(气候)+change(变化),全球气候的长期改变就是气候变化。" },
+      "mnemonic": { "type": "split", "tip": "climate(气候)+change(变化),全球气候的长期改变就是气候变化。" },
       "petExam": { "frequency": "medium", "collocations": ["fight climate change", "cause climate change"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "We can save the planet together.", "zh": "我们能一起拯救地球。" }
       ],
       "synonyms": ["protect"], "antonyms": ["waste"], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "场景", "tip": "save 既是\"节约\"又是\"拯救\"——省下资源就是在拯救地球。" },
+      "mnemonic": { "type": "image", "tip": "save 既是\"节约\"又是\"拯救\"——省下资源就是在拯救地球。" },
       "petExam": { "frequency": "high", "collocations": ["save water", "save the planet"] }
     },
     {
@@ -352,7 +352,7 @@
         { "en": "The bin is full.", "zh": "垃圾桶满了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "谐音", "tip": "bin 谐音\"病\"不对,记\"缤\"——各种\"缤纷\"垃圾都往里扔的桶就是 bin。" },
+      "mnemonic": { "type": "sound", "tip": "bin 谐音\"病\"不对,记\"缤\"——各种\"缤纷\"垃圾都往里扔的桶就是 bin。" },
       "petExam": { "frequency": "medium", "collocations": ["a rubbish bin", "throw in the bin"] }
     },
     {
@@ -362,7 +362,7 @@
         { "en": "Cars add to global warming.", "zh": "汽车加剧了全球变暖。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "global(全球的)+warming(变暖),整个地球在升温就是全球变暖。" },
+      "mnemonic": { "type": "split", "tip": "global(全球的)+warming(变暖),整个地球在升温就是全球变暖。" },
       "petExam": { "frequency": "medium", "collocations": ["cause global warming", "stop global warming"] }
     },
     {
@@ -372,7 +372,7 @@
         { "en": "Sort your rubbish before the waste bin.", "zh": "扔进垃圾箱前先分类。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "waste(废物)+bin(桶),装废物的桶就是垃圾箱。" },
+      "mnemonic": { "type": "split", "tip": "waste(废物)+bin(桶),装废物的桶就是垃圾箱。" },
       "petExam": { "frequency": "low", "collocations": ["a waste bin", "use the waste bin"] }
     },
     {
@@ -382,7 +382,7 @@
         { "en": "Plastic is a big environmental problem.", "zh": "塑料是个大的环境问题。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "拆解", "tip": "environment(环境)+al,和环境有关的就是 environmental。" },
+      "mnemonic": { "type": "split", "tip": "environment(环境)+al,和环境有关的就是 environmental。" },
       "petExam": { "frequency": "medium", "collocations": ["environmental problems", "environmental protection"] }
     }
   ]

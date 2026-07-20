@@ -12,7 +12,7 @@
         { "en": "I keep coins in a small box.", "zh": "我把硬币放在一个小盒子里。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "coin 谐音\"扣硬\"——圆圆一枚、硬邦邦的金属钱就是硬币。" },
+      "mnemonic": { "type": "sound", "tip": "coin 谐音\"扣硬\"——圆圆一枚、硬邦邦的金属钱就是硬币。" },
       "petExam": { "frequency": "medium", "collocations": ["a gold coin", "drop a coin"] }
     },
     {
@@ -22,7 +22,7 @@
         { "en": "I have no small notes.", "zh": "我没有小面额的钞票。" }
       ],
       "synonyms": ["bill"], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "场景", "tip": "note 除了\"便条\",也指纸做的钞票;英式纸币叫 note,美式叫 bill。" },
+      "mnemonic": { "type": "image", "tip": "note 除了\"便条\",也指纸做的钞票;英式纸币叫 note,美式叫 bill。" },
       "petExam": { "frequency": "medium", "collocations": ["a ten-pound note", "a bank note"] }
     },
     {
@@ -32,7 +32,7 @@
         { "en": "My purse is in my bag.", "zh": "我的钱包在包里。" }
       ],
       "synonyms": ["wallet"], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "purse 谐音\"泼死\"不对,记\"破斯\"——装零钱的小袋子就是钱包。" },
+      "mnemonic": { "type": "sound", "tip": "purse 谐音\"泼死\"不对,记\"破斯\"——装零钱的小袋子就是钱包。" },
       "petExam": { "frequency": "low", "collocations": ["open a purse", "money in a purse"] }
     },
     {
@@ -42,7 +42,7 @@
         { "en": "There is little money in my account.", "zh": "我账户里没多少钱。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "词根词缀", "tip": "ac(朝向)+count(数/算),银行里帮你\"算钱\"记账的就是账户。" },
+      "mnemonic": { "type": "root", "tip": "ac(朝向)+count(数/算),银行里帮你\"算钱\"记账的就是账户。" },
       "petExam": { "frequency": "medium", "collocations": ["a bank account", "open an account"] }
     },
     {
@@ -52,7 +52,7 @@
         { "en": "She borrowed a book from the library.", "zh": "她从图书馆借了本书。" }
       ],
       "synonyms": [], "antonyms": ["lend"], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "场景", "tip": "borrow 是\"借进来\"(我向你借);lend 是\"借出去\"(你借给我),方向相反别混。" },
+      "mnemonic": { "type": "image", "tip": "borrow 是\"借进来\"(我向你借);lend 是\"借出去\"(你借给我),方向相反别混。" },
       "petExam": { "frequency": "high", "collocations": ["borrow money", "borrow from"] }
     },
     {
@@ -62,7 +62,7 @@
         { "en": "The bank lends money to people.", "zh": "银行把钱借给人们。" }
       ],
       "synonyms": [], "antonyms": ["borrow"], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "场景", "tip": "lend 里有 end(给出去),把东西递到别人手\"端\"就是借出(过去式 lent)。" },
+      "mnemonic": { "type": "image", "tip": "lend 里有 end(给出去),把东西递到别人手\"端\"就是借出(过去式 lent)。" },
       "petExam": { "frequency": "medium", "collocations": ["lend money", "lend someone something"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "He owes money to the bank.", "zh": "他欠银行的钱。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "owe 读音同 oh(/əʊ/)——一想起还没还钱就\"哦\"地一声,那是欠着债呢。" },
+      "mnemonic": { "type": "sound", "tip": "owe 读音同 oh(/əʊ/)——一想起还没还钱就\"哦\"地一声,那是欠着债呢。" },
       "petExam": { "frequency": "low", "collocations": ["owe money", "owe someone"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "Try to stay within your budget.", "zh": "尽量别超出你的预算。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "budget 谐音\"爸计\"——像老爸精打细算,给每笔钱都计划好就是预算。" },
+      "mnemonic": { "type": "sound", "tip": "budget 谐音\"爸计\"——像老爸精打细算,给每笔钱都计划好就是预算。" },
       "petExam": { "frequency": "medium", "collocations": ["a tight budget", "on a budget"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "Most of our income comes from the shop.", "zh": "我们的大部分收入来自这家店。" }
       ],
       "synonyms": [], "antonyms": ["expense"], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "拆解", "tip": "in(进来)+come(来),进到口袋里来的钱就是收入。" },
+      "mnemonic": { "type": "split", "tip": "in(进来)+come(来),进到口袋里来的钱就是收入。" },
       "petExam": { "frequency": "medium", "collocations": ["a high income", "monthly income"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "We try to cut our expenses.", "zh": "我们尽量削减开支。" }
       ],
       "synonyms": ["cost"], "antonyms": ["income"], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "词根词缀", "tip": "ex(向外)+pense(花费/称量,同 spend),往外花出去的钱就是开支。" },
+      "mnemonic": { "type": "root", "tip": "ex(向外)+pense(花费/称量,同 spend),往外花出去的钱就是开支。" },
       "petExam": { "frequency": "medium", "collocations": ["living expenses", "cut expenses"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "The club fee is paid every year.", "zh": "俱乐部会费每年缴一次。" }
       ],
       "synonyms": ["charge"], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "fee 谐音\"费\"——发音就是中文\"费\",专指服务/入场等费用。" },
+      "mnemonic": { "type": "sound", "tip": "fee 谐音\"费\"——发音就是中文\"费\",专指服务/入场等费用。" },
       "petExam": { "frequency": "medium", "collocations": ["an entrance fee", "pay a fee"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "The price includes tax.", "zh": "这个价格含税。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "tax 谐音\"太可死\"不对,记\"泰克斯\"——交给国家的那份钱就是税。" },
+      "mnemonic": { "type": "sound", "tip": "tax 谐音\"太可死\"不对,记\"泰克斯\"——交给国家的那份钱就是税。" },
       "petExam": { "frequency": "low", "collocations": ["pay tax", "income tax"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "The library charges a fine for late books.", "zh": "图书馆对逾期还书收罚款。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "场景", "tip": "fine 常见义是\"好的\",但作名词是\"罚款\"——违规了就得掏这笔钱。" },
+      "mnemonic": { "type": "image", "tip": "fine 常见义是\"好的\",但作名词是\"罚款\"——违规了就得掏这笔钱。" },
       "petExam": { "frequency": "low", "collocations": ["pay a fine", "get a fine"] }
     },
     {
@@ -142,7 +142,7 @@
         { "en": "She paid back the loan in a year.", "zh": "她一年就还清了贷款。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "联想", "tip": "loan 和 lend(借出)同源,银行\"借\"给你、要还的一大笔钱就是贷款。" },
+      "mnemonic": { "type": "assoc", "tip": "loan 和 lend(借出)同源,银行\"借\"给你、要还的一大笔钱就是贷款。" },
       "petExam": { "frequency": "low", "collocations": ["take out a loan", "pay back a loan"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "You pay interest on a loan.", "zh": "贷款要付利息。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "场景", "tip": "interest 除了\"兴趣\",在钱上指\"利息\"——钱生出来的那一点额外钱。" },
+      "mnemonic": { "type": "image", "tip": "interest 除了\"兴趣\",在钱上指\"利息\"——钱生出来的那一点额外钱。" },
       "petExam": { "frequency": "low", "collocations": ["pay interest", "earn interest"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "The country is rich in oil.", "zh": "这个国家石油资源丰富。" }
       ],
       "synonyms": ["wealthy"], "antonyms": ["poor"], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "rich 谐音\"锐吃\"——想吃啥吃啥、不差钱就是富有的。" },
+      "mnemonic": { "type": "sound", "tip": "rich 谐音\"锐吃\"——想吃啥吃啥、不差钱就是富有的。" },
       "petExam": { "frequency": "medium", "collocations": ["a rich man", "get rich"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "We should help poor people.", "zh": "我们应该帮助穷人。" }
       ],
       "synonyms": [], "antonyms": ["rich"], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "poor 谐音\"扑\"——口袋空空、扑倒在地没钱花就是贫穷的。" },
+      "mnemonic": { "type": "sound", "tip": "poor 谐音\"扑\"——口袋空空、扑倒在地没钱花就是贫穷的。" },
       "petExam": { "frequency": "medium", "collocations": ["poor people", "a poor family"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "She comes from a wealthy family.", "zh": "她出身富裕家庭。" }
       ],
       "synonyms": ["rich"], "antonyms": ["poor"], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "拆解", "tip": "wealth(财富)+y,拥有财富的就是富裕的。" },
+      "mnemonic": { "type": "split", "tip": "wealth(财富)+y,拥有财富的就是富裕的。" },
       "petExam": { "frequency": "low", "collocations": ["a wealthy family", "wealthy people"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "The film is worth watching.", "zh": "这部电影值得一看。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "worth 谐音\"我死\"不对,记\"沃斯\"——值多少钱、值不值得的\"值\"就是 worth。" },
+      "mnemonic": { "type": "sound", "tip": "worth 谐音\"我死\"不对,记\"沃斯\"——值多少钱、值不值得的\"值\"就是 worth。" },
       "petExam": { "frequency": "medium", "collocations": ["worth doing", "be worth"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "He earns a good salary.", "zh": "他薪水不错。" }
       ],
       "synonyms": ["pay"], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "场景", "tip": "古罗马用盐(sal)发军饷,salary 就是按月领的\"买盐钱\"=月薪。" },
+      "mnemonic": { "type": "image", "tip": "古罗马用盐(sal)发军饷,salary 就是按月领的\"买盐钱\"=月薪。" },
       "petExam": { "frequency": "medium", "collocations": ["a high salary", "earn a salary"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "She saves her pocket money.", "zh": "她把零花钱存起来。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "拆解", "tip": "pocket(口袋)+money(钱),放口袋里随便花的小钱就是零花钱。" },
+      "mnemonic": { "type": "split", "tip": "pocket(口袋)+money(钱),放口袋里随便花的小钱就是零花钱。" },
       "petExam": { "frequency": "medium", "collocations": ["give pocket money", "save pocket money"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "Please donate old clothes.", "zh": "请捐出旧衣服。" }
       ],
       "synonyms": ["give"], "antonyms": [], "difficulty": 4, "tags": ["money"],
-      "mnemonic": { "type": "词根词缀", "tip": "don(给,拉丁 donare,同 donor)+ate,无偿把钱物\"给\"出去就是捐赠。" },
+      "mnemonic": { "type": "root", "tip": "don(给,拉丁 donare,同 donor)+ate,无偿把钱物\"给\"出去就是捐赠。" },
       "petExam": { "frequency": "low", "collocations": ["donate money", "donate to charity"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "She works for a children's charity.", "zh": "她在一家儿童慈善机构工作。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "charity 谐音\"differ\"不对,记\"茶瑞题\"——出于爱心帮助他人就是慈善。" },
+      "mnemonic": { "type": "sound", "tip": "charity 谐音\"differ\"不对,记\"茶瑞题\"——出于爱心帮助他人就是慈善。" },
       "petExam": { "frequency": "low", "collocations": ["give to charity", "a charity event"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "You can change currency at the bank.", "zh": "你可以在银行兑换货币。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["money"],
-      "mnemonic": { "type": "词根词缀", "tip": "curr(流动,同 current水流)+ency,在市面上\"流通\"的钱就是货币。" },
+      "mnemonic": { "type": "root", "tip": "curr(流动,同 current水流)+ency,在市面上\"流通\"的钱就是货币。" },
       "petExam": { "frequency": "low", "collocations": ["foreign currency", "change currency"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "She changed pounds into dollars.", "zh": "她把英镑换成了美元。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "dollar 谐音\"刀勒\"——美元俗称\"刀\",符号是 $。" },
+      "mnemonic": { "type": "sound", "tip": "dollar 谐音\"刀勒\"——美元俗称\"刀\",符号是 $。" },
       "petExam": { "frequency": "medium", "collocations": ["ten dollars", "a dollar bill"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "The bag weighs two pounds.", "zh": "这个包重两磅。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "pound 谐音\"胖的\"——英国的钱叫英镑(符号 £),也作重量单位\"磅\"。" },
+      "mnemonic": { "type": "sound", "tip": "pound 谐音\"胖的\"——英国的钱叫英镑(符号 £),也作重量单位\"磅\"。" },
       "petExam": { "frequency": "medium", "collocations": ["ten pounds", "a pound coin"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "I found a cheap hotel.", "zh": "我找到一家便宜的旅馆。" }
       ],
       "synonyms": [], "antonyms": ["expensive"], "difficulty": 1, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "cheap 谐音\"欺谱\"——便宜得有点\"离谱\",记住它是\"便宜\"。" },
+      "mnemonic": { "type": "sound", "tip": "cheap 谐音\"欺谱\"——便宜得有点\"离谱\",记住它是\"便宜\"。" },
       "petExam": { "frequency": "high", "collocations": ["a cheap ticket", "quite cheap"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "Can you afford the rent?", "zh": "你付得起房租吗？" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "afford 谐音\"我付得\"——钱够、付得起就是 afford。" },
+      "mnemonic": { "type": "sound", "tip": "afford 谐音\"我付得\"——钱够、付得起就是 afford。" },
       "petExam": { "frequency": "medium", "collocations": ["can't afford", "afford to buy"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "The millionaire gave money to charity.", "zh": "这位百万富翁向慈善机构捐款。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["money"],
-      "mnemonic": { "type": "拆解", "tip": "million(百万)+aire(人),拥有百万财产的人就是百万富翁。" },
+      "mnemonic": { "type": "split", "tip": "million(百万)+aire(人),拥有百万财产的人就是百万富翁。" },
       "petExam": { "frequency": "low", "collocations": ["become a millionaire", "a young millionaire"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "There is a cashpoint outside the bank.", "zh": "银行外面有一台取款机。" }
       ],
       "synonyms": ["ATM"], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "拆解", "tip": "cash(现金)+point(点),取现金的那个点就是取款机(英式;也叫 ATM)。" },
+      "mnemonic": { "type": "split", "tip": "cash(现金)+point(点),取现金的那个点就是取款机(英式;也叫 ATM)。" },
       "petExam": { "frequency": "low", "collocations": ["use a cashpoint", "at the cashpoint"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "They saved up for a holiday.", "zh": "他们攒钱去度假。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "场景", "tip": "save(存)+up(累积),一点点往上堆着存就是攒钱。" },
+      "mnemonic": { "type": "image", "tip": "save(存)+up(累积),一点点往上堆着存就是攒钱。" },
       "petExam": { "frequency": "medium", "collocations": ["save up for", "save up money"] }
     },
     {
@@ -322,7 +322,7 @@
         { "en": "He spends too much on games.", "zh": "他在游戏上花太多钱。" }
       ],
       "synonyms": [], "antonyms": ["save"], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "spend 谐音\"撒盆\"——钱像撒出去一盆水一样花掉。" },
+      "mnemonic": { "type": "sound", "tip": "spend 谐音\"撒盆\"——钱像撒出去一盆水一样花掉。" },
       "petExam": { "frequency": "high", "collocations": ["spend money on", "spend too much"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "How much do you earn a month?", "zh": "你一个月挣多少？" }
       ],
       "synonyms": ["make"], "antonyms": ["spend"], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "earn 谐音\"俺\"——\"俺\"靠双手挣钱,踏实。" },
+      "mnemonic": { "type": "sound", "tip": "earn 谐音\"俺\"——\"俺\"靠双手挣钱,踏实。" },
       "petExam": { "frequency": "high", "collocations": ["earn money", "earn a living"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "The bike cost me a lot.", "zh": "这辆车花了我不少钱。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "谐音", "tip": "cost 谐音\"扣死他\"——花钱就是从钱包里\"扣\"掉(过去式还是 cost)。" },
+      "mnemonic": { "type": "sound", "tip": "cost 谐音\"扣死他\"——花钱就是从钱包里\"扣\"掉(过去式还是 cost)。" },
       "petExam": { "frequency": "high", "collocations": ["cost money", "how much does it cost"] }
     },
     {
@@ -352,7 +352,7 @@
         { "en": "Books can be expensive.", "zh": "书有时挺贵。" }
       ],
       "synonyms": ["dear"], "antonyms": ["cheap"], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "词根词缀", "tip": "expense(花费)+ive,让你大把花钱的就是昂贵的。" },
+      "mnemonic": { "type": "root", "tip": "expense(花费)+ive,让你大把花钱的就是昂贵的。" },
       "petExam": { "frequency": "high", "collocations": ["too expensive", "an expensive gift"] }
     },
     {
@@ -362,7 +362,7 @@
         { "en": "She gave me some valuable advice.", "zh": "她给了我一些宝贵的建议。" }
       ],
       "synonyms": [], "antonyms": ["worthless"], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "词根词缀", "tip": "value(价值)+able(能),很有价值的就是贵重的。" },
+      "mnemonic": { "type": "root", "tip": "value(价值)+able(能),很有价值的就是贵重的。" },
       "petExam": { "frequency": "medium", "collocations": ["a valuable ring", "valuable advice"] }
     }
   ]

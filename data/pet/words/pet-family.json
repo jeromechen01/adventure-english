@@ -29,7 +29,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "relate(有关联)+ive(人),和你血缘相关联的人就是亲戚。"
       },
       "petExam": {
@@ -64,7 +64,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "cousin 谐音\"卡怎\"不对,记\"咳怎\"——过年见到表亲,咳一声\"你咋长这么高了\"。"
       },
       "petExam": {
@@ -101,7 +101,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "aunt 谐音\"安特\"——阿姨总是安慰你、特别疼你。"
       },
       "petExam": {
@@ -138,7 +138,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "uncle 谐音\"昂口\"——叔叔总是昂着头,张口逗你笑。"
       },
       "petExam": {
@@ -175,7 +175,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "grand(大的/尊长的)+parent(父母),父母上头的长辈就是祖父母。"
       },
       "petExam": {
@@ -212,7 +212,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "house(房子)+band(带子),用心把一个家绑在一起的男人就是丈夫。"
       },
       "petExam": {
@@ -249,7 +249,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "wife 复数变 wives(f变v),记住这个特殊变化;妻子是家中的\"生活(life)\"担当。"
       },
       "petExam": {
@@ -286,7 +286,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "coup(连接,同 couple/coupling)+le,连在一起的两个就是一对/夫妇。"
       },
       "petExam": {
@@ -321,7 +321,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "marry(结婚)+age,结婚这件事和之后的状态就是 marriage。"
       },
       "petExam": {
@@ -356,7 +356,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "wedding 谐音\"喂丁\"——婚礼上新人互相\"喂\"喜糖,人丁兴旺。"
       },
       "petExam": {
@@ -391,7 +391,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "nigh(近,古语)+bour(住户),住得近的人家就是邻居。"
       },
       "petExam": {
@@ -426,7 +426,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "friend(朋友)+ship(状态/关系),朋友之间的关系就是友谊。"
       },
       "petExam": {
@@ -461,7 +461,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "relation(关联)+ship(状态),人与人关联的状态就是关系。"
       },
       "petExam": {
@@ -496,7 +496,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "part(部分)+ner(人),和你分担一部分的人就是搭档/伴侣。"
       },
       "petExam": {
@@ -531,7 +531,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "twin 里的 tw 像 two(二),一次生俩就是双胞胎。"
       },
       "petExam": {
@@ -568,7 +568,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "marry(结婚)+ed,处于结了婚的状态就是 married。"
       },
       "petExam": {
@@ -605,7 +605,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "sing(单个,同 single的sin)+le,一个人、单独就是 single。"
       },
       "petExam": {
@@ -640,7 +640,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "gener(产生,同 generate)+ation,一批一同出生长大的人就是一代。"
       },
       "petExam": {
@@ -679,7 +679,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "ad(向)+ult(长大,同 adolescent),长大成人就是 adult。"
       },
       "petExam": {
@@ -714,7 +714,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "teen(词尾-teen的13至19)+ager,年龄带 teen 的人就是青少年。"
       },
       "petExam": {
@@ -749,7 +749,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "child(孩子)+hood(时期/状态),做孩子的那段时期就是童年。"
       },
       "petExam": {
@@ -788,7 +788,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "elder(年长者)+ly,比 old 更客气地形容上了年纪的人。"
       },
       "petExam": {
@@ -825,7 +825,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "look(看)+after(在...之后),寸步不离跟在后面看着=照顾。"
       },
       "petExam": {
@@ -860,7 +860,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "两人能一起\"get on\"(上同一辆车)不吵架,就是相处融洽。"
       },
       "petExam": {
@@ -899,7 +899,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "argue 谐音\"啊Q\"——一言不合就啊啊地争起来。"
       },
       "petExam": {
@@ -938,7 +938,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "trust 谐音\"抓死他\"不对,记\"踏实\"——信任让人心里踏实。"
       },
       "petExam": {
@@ -975,7 +975,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "sup(在下面)+port(拿/搬),从底下托住你就是支持。"
       },
       "petExam": {
@@ -1010,7 +1010,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "pro(向前)+mise(送,同 mission的mis),把话提前送出去=承诺。"
       },
       "petExam": {
@@ -1045,7 +1045,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "in(进入)+vite(生命/邀,同 invitation),请人进入你的生活场合=邀请。"
       },
       "petExam": {
@@ -1084,7 +1084,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "guest 谐音\"给死它\"不对,记\"盖斯特\"——来做客的贵斯特(客人)要好好招待。"
       },
       "petExam": {
@@ -1121,7 +1121,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "host 和 hotel 开头都是 host/hos,招待客人的那位主人就是 host。"
       },
       "petExam": {
@@ -1160,7 +1160,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "gather 里有 together(一起)的影子,大家聚到一起就是 gather。"
       },
       "petExam": {
@@ -1195,7 +1195,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "celebrate 谐音\"塞了不累\"——好日子塞满欢乐,再累也值,一起庆祝。"
       },
       "petExam": {
@@ -1232,7 +1232,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "to+gether(聚集,同 gather),聚到一处就是一起。"
       },
       "petExam": {
@@ -1271,7 +1271,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "close 本义\"靠近\",关系靠得近就是亲密(注意这里读 /kləʊs/)。"
       },
       "petExam": {
@@ -1306,7 +1306,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "care 谐音\"开呀\"——真心关心一个人,巴不得对他敞开心。"
       },
       "petExam": {
@@ -1341,7 +1341,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "share 谐音\"晒儿\"——把好东西\"晒\"出来给大家一份就是分享。"
       },
       "petExam": {
@@ -1376,7 +1376,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "re(再)+spect(看,同 inspect),值得你一再回头看的人=令你尊重的人。"
       },
       "petExam": {
@@ -1413,7 +1413,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "quarrel 谐音\"扩肉\"不对,记\"夸肉\"——为谁吃的肉多而吵起来。"
       },
       "petExam": {
@@ -1450,7 +1450,7 @@
         "family"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "raise 本义\"举起、使升高\",把孩子一点点\"托举\"长大就是抚养。"
       },
       "petExam": {

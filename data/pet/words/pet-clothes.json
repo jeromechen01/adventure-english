@@ -29,7 +29,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "shirt 谐音\"社\"不对,记\"绍特\"——上身穿的、带领子扣扣子的就是衬衫。"
       },
       "petExam": {
@@ -66,7 +66,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "trousers 谐音\"抓着子\"——两条裤腿总成对,永远用复数(a pair of)。"
       },
       "petExam": {
@@ -101,7 +101,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "jeans 谐音\"进死\"不对,记\"记恩子\"——耐磨的蓝布裤子就是牛仔裤(总用复数)。"
       },
       "petExam": {
@@ -136,7 +136,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "dress 谐音\"追死\"不对,记\"抓死\"——上下连体的裙子就是 dress;动词是\"穿衣\"。"
       },
       "petExam": {
@@ -171,7 +171,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "skirt 谐音\"死盖它\"不对,记\"斯克特\"——只围下半身的就是半身裙(区别 dress 连衣裙)。"
       },
       "petExam": {
@@ -206,7 +206,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "jacket 谐音\"夹克特\"——短款的上身外套就是夹克。"
       },
       "petExam": {
@@ -241,7 +241,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "coat 谐音\"扣它\"——套在最外面、扣起来御寒的长外套就是大衣。"
       },
       "petExam": {
@@ -278,7 +278,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "sweater 里有 sweat(出汗),穿上厚毛衣暖得直冒汗,就是毛衣。"
       },
       "petExam": {
@@ -313,7 +313,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "suit 谐音\"苏特\"——上下配套、正式的一身就是西装;动词义\"适合\"。"
       },
       "petExam": {
@@ -348,7 +348,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "tie 本义\"系/打结\",在脖子上打个结的布条就是领带。"
       },
       "petExam": {
@@ -383,7 +383,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "scarf 谐音\"死尬夫\"不对,记\"斯卡夫\"——绕在脖子上保暖的就是围巾。"
       },
       "petExam": {
@@ -418,7 +418,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "glove 谐音\"割乱夫\"不对,记\"格拉夫\"——里面藏 love,像双手被温暖\"爱\"着的就是手套。"
       },
       "petExam": {
@@ -453,7 +453,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "hat 谐音\"嗨\"——扣在头(head)上、打招呼\"嗨\"一下抬手碰的就是帽子。"
       },
       "petExam": {
@@ -488,7 +488,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "cap 是前面带檐、无边的软帽,和 hat(有整圈檐)区分开。"
       },
       "petExam": {
@@ -523,7 +523,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "socks 谐音\"扫克斯\"——套在脚上的短筒就是袜子(成对用复数)。"
       },
       "petExam": {
@@ -558,7 +558,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "boots 谐音\"不次\"不对,记\"布次\"——包住脚踝、高帮的鞋就是靴子。"
       },
       "petExam": {
@@ -595,7 +595,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "train(训练/运动)+ers,运动训练时穿的鞋就是 trainers(英式;美式 sneakers)。"
       },
       "petExam": {
@@ -630,7 +630,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "belt 谐音\"绷它\"——把裤子在腰上\"绷\"住的带子就是腰带。"
       },
       "petExam": {
@@ -665,7 +665,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "pocket 谐音\"抛开它\"不对,记\"泡克特\"——衣服上装小东西的袋子就是口袋。"
       },
       "petExam": {
@@ -700,7 +700,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "button 谐音\"巴顿\"——扣衣服的小圆片就是纽扣;机器上按的也叫 button。"
       },
       "petExam": {
@@ -735,7 +735,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "zip 谐音\"日\"不对,记拟声\"滋~\"——拉上时\"滋\"一声的就是拉链。"
       },
       "petExam": {
@@ -770,7 +770,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "sleeve 谐音\"斯利夫\"——手臂伸进去的那截布筒就是袖子。"
       },
       "petExam": {
@@ -805,7 +805,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "uni(单一/统一)+form(形式),大家穿成统一样式就是制服。"
       },
       "petExam": {
@@ -842,7 +842,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "fashion 谐音\"发神\"——一到换季就发神经般追新款就是时尚。"
       },
       "petExam": {
@@ -877,7 +877,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "style 谐音\"斯代欧\"——穿衣打扮的独特\"派头\"就是风格。"
       },
       "petExam": {
@@ -912,7 +912,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "wear 表\"穿着的状态\"(过去式 wore);put on 才是\"穿上\"的动作。"
       },
       "petExam": {
@@ -947,7 +947,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "dress(穿衣)+up(向上/更盛),把自己打扮得更隆重就是盛装打扮。"
       },
       "petExam": {
@@ -982,7 +982,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "fit 也指\"健康的\",衣服像贴身一样\"正合适\"就是合身。"
       },
       "petExam": {
@@ -1019,7 +1019,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "loose(松)有两个 o,像松松垮垮的两个圈;lose(丢)只有一个 o,别搞混。"
       },
       "petExam": {
@@ -1056,7 +1056,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "tight 谐音\"太的\"——紧得\"太\"贴身、勒得慌就是 tight。"
       },
       "petExam": {
@@ -1091,7 +1091,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "cotton 谐音\"扣疼\"不对,记\"卡疼\"——棉花做的、软软透气的布料就是棉。"
       },
       "petExam": {
@@ -1126,7 +1126,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "wool 谐音\"乌\"不对,记\"呜\"——绵羊身上\"咩\"下的暖毛就是羊毛。"
       },
       "petExam": {
@@ -1161,7 +1161,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "leather 谐音\"雷惹\"不对,记\"莱泽\"——动物皮鞣制成的料子就是皮革。"
       },
       "petExam": {
@@ -1196,7 +1196,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "changing(更换)+room(房间),换衣服的小房间就是试衣间。"
       },
       "petExam": {
@@ -1231,7 +1231,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "rain(雨)+coat(外套),挡雨的外套就是雨衣。"
       },
       "petExam": {
@@ -1270,7 +1270,7 @@
         "clothes"
       ],
       "mnemonic": {
-        "type": "场景",
+        "type": "image",
         "tip": "smart 除了\"聪明\",还形容穿着\"利落体面\"——打扮得精神就是 smart。"
       },
       "petExam": {

@@ -34,7 +34,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "happy 谐音\"哈皮\"——乐得咧嘴\"哈哈\"、皮一下就是高兴。"
       },
       "petExam": {
@@ -73,7 +73,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "sad 谐音\"塞的\"——心里堵得慌、闷闷的就是难过。"
       },
       "petExam": {
@@ -112,7 +112,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "angry 里有 anger(怒火),火气一上来就是 angry。"
       },
       "petExam": {
@@ -149,7 +149,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "afraid 谐音\"饿弗类的\"不对,记\"啊,怕的\"——一\"啊\"就是被吓到、害怕。"
       },
       "petExam": {
@@ -188,7 +188,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "nerve(神经)+ous,神经绷得紧紧的就是紧张。"
       },
       "petExam": {
@@ -225,7 +225,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "excite(使兴奋)+ed,人被激起兴致就是 excited。"
       },
       "petExam": {
@@ -262,7 +262,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "worry(担心)+ied,心里挂着事、七上八下就是 worried。"
       },
       "petExam": {
@@ -299,7 +299,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "bored 由 bore(使厌烦)来,被无聊\"钻\"得直打哈欠就是 bored;bored 指人,boring 指事物。"
       },
       "petExam": {
@@ -336,7 +336,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "sur(在上)+prise(抓,同 seize),冷不防被从上抓住、吓一跳就是惊讶。"
       },
       "petExam": {
@@ -373,7 +373,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "proud 谐音\"扑绕的\"不对,记\"炮的\"——挺起胸膛像放炮一样神气就是自豪。"
       },
       "petExam": {
@@ -410,7 +410,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "jealous 谐音\"结落死\"不对,记\"接勒斯\"——看别人好,心里\"结\"个疙瘩就是嫉妒。"
       },
       "petExam": {
@@ -445,7 +445,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "lone(独自,同 alone)+ly,只有一个人、冷冷清清就是孤独。"
       },
       "petExam": {
@@ -484,7 +484,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "cheer(欢呼/加油)+ful(充满),满心欢呼、乐呵呵就是快活的。"
       },
       "petExam": {
@@ -521,7 +521,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "up(向上)+set(放),心情被\"掀\"翻、七上八下就是心烦难过。"
       },
       "petExam": {
@@ -560,7 +560,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "calm 谐音\"卡姆\"——l不发音;心如止水、稳稳当当就是冷静。"
       },
       "petExam": {
@@ -597,7 +597,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "relax(放松)+ed,绷紧的自己松了下来就是 relaxed。"
       },
       "petExam": {
@@ -634,7 +634,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "stressed 由 stress(压力)来,被压力\"压\"得喘不过气就是 stressed。"
       },
       "petExam": {
@@ -673,7 +673,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "con(完全)+fid(信任,同 faith)+ent,完全信得过自己就是自信。"
       },
       "petExam": {
@@ -710,7 +710,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "shy 谐音\"晒\"不对,记\"孩\"——像小孩见生人躲起来一样就是害羞。"
       },
       "petExam": {
@@ -745,7 +745,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "curious 谐音\"克瑞额斯\"——像猫一样\"咦这是啥\"到处探头就是好奇。"
       },
       "petExam": {
@@ -780,7 +780,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "dis(不)+appoint(指定/约定)+ed,期待的事没兑现就是失望。"
       },
       "petExam": {
@@ -815,7 +815,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "embarrassed 谐音\"俺不摞死\"不对,记\"俺巴热死\"——脸\"巴\"地一下涨红、热得慌就是尴尬。"
       },
       "petExam": {
@@ -852,7 +852,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "grateful 谐音\"贵too\"不对,记 great(伟大)+ful——把对方的好看得很\"great\"、满心感谢就是感激。"
       },
       "petExam": {
@@ -889,7 +889,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "annoyed 谐音\"额闹的\"——被人\"闹\"得心烦、有点上火就是恼火。"
       },
       "petExam": {
@@ -924,7 +924,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "con(一起)+fuse(倒/混,同 fuse熔合)+d,思绪全搅到一起、理不清就是困惑。"
       },
       "petExam": {
@@ -961,7 +961,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "amazed 里有 maze(迷宫),被神奇的事绕得目瞪口呆就是惊奇。"
       },
       "petExam": {
@@ -998,7 +998,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "glad 谐音\"哥来的\"——听说\"哥来的\",心里一喜就是高兴。"
       },
       "petExam": {
@@ -1036,7 +1036,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "frightened 由 fright(惊吓)来,被吓得心里发毛就是害怕。"
       },
       "petExam": {
@@ -1073,7 +1073,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "delighted 里有 light(光),心里被点亮、喜上眉梢就是非常高兴。"
       },
       "petExam": {
@@ -1108,7 +1108,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "mood 谐音\"木的\"不对,记\"目的\"反着想——藏 mo+od,内心此刻的状态就是心情。"
       },
       "petExam": {
@@ -1145,7 +1145,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "词根词缀",
+        "type": "root",
         "tip": "e(向外)+mot(动,同 motion/move)+ion,心里\"动\"起来、涌出来的就是情感。"
       },
       "petExam": {
@@ -1182,7 +1182,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "laugh 谐音\"拉夫\"——gh不发音,\"哈哈\"出声地就是笑。"
       },
       "petExam": {
@@ -1221,7 +1221,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "cry 谐音\"块\"不对,记\"卡莱\"——\"哇\"地一声掉眼泪就是哭。"
       },
       "petExam": {
@@ -1256,7 +1256,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "谐音",
+        "type": "sound",
         "tip": "smile 谐音\"斯迈欧\"——嘴角轻轻上扬、不出声地就是微笑。"
       },
       "petExam": {
@@ -1294,7 +1294,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "联想",
+        "type": "assoc",
         "tip": "scared 由 scare(惊吓)来,被吓得心里\"咯噔\"一下就是害怕。"
       },
       "petExam": {
@@ -1331,7 +1331,7 @@
         "feelings"
       ],
       "mnemonic": {
-        "type": "拆解",
+        "type": "split",
         "tip": "feel(感觉)+ing,心里体会到的东西就是 feeling。"
       },
       "petExam": {

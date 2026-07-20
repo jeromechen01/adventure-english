@@ -12,7 +12,7 @@
         { "en": "Snow covers the mountain in winter.", "zh": "冬天雪覆盖着山顶。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "词根词缀", "tip": "mount(登/升,同 amount)+ain,高高隆起要往上爬的就是山。" },
+      "mnemonic": { "type": "root", "tip": "mount(登/升,同 amount)+ain,高高隆起要往上爬的就是山。" },
       "petExam": { "frequency": "medium", "collocations": ["climb a mountain", "a mountain top"] }
     },
     {
@@ -22,7 +22,7 @@
         { "en": "We rolled down the grassy hill.", "zh": "我们从草坡上滚下来。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "hill 谐音\"稀\"不对,记\"希欧\"——比 mountain 矮一截的小土包就是山丘。" },
+      "mnemonic": { "type": "sound", "tip": "hill 谐音\"稀\"不对,记\"希欧\"——比 mountain 矮一截的小土包就是山丘。" },
       "petExam": { "frequency": "medium", "collocations": ["a small hill", "on the hill"] }
     },
     {
@@ -32,7 +32,7 @@
         { "en": "The village lies in a green valley.", "zh": "村庄坐落在一个绿色山谷里。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "valley 谐音\"歪利\"——两山之间\"V\"形的低洼地就是山谷(V 就像山谷的形状)。" },
+      "mnemonic": { "type": "sound", "tip": "valley 谐音\"歪利\"——两山之间\"V\"形的低洼地就是山谷(V 就像山谷的形状)。" },
       "petExam": { "frequency": "low", "collocations": ["a green valley", "in the valley"] }
     },
     {
@@ -42,7 +42,7 @@
         { "en": "We swam in the river.", "zh": "我们在河里游泳。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "river 谐音\"日我\"不对,记\"瑞我\"——弯弯曲曲、日夜流淌的大水道就是河。" },
+      "mnemonic": { "type": "sound", "tip": "river 谐音\"日我\"不对,记\"瑞我\"——弯弯曲曲、日夜流淌的大水道就是河。" },
       "petExam": { "frequency": "medium", "collocations": ["a long river", "by the river"] }
     },
     {
@@ -52,7 +52,7 @@
         { "en": "The lake is calm and clear.", "zh": "湖面平静而清澈。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "lake 谐音\"雷克\"——四面被陆地围着的一大片水就是湖。" },
+      "mnemonic": { "type": "sound", "tip": "lake 谐音\"雷克\"——四面被陆地围着的一大片水就是湖。" },
       "petExam": { "frequency": "medium", "collocations": ["a big lake", "on the lake"] }
     },
     {
@@ -62,7 +62,7 @@
         { "en": "We heard the roar of the waterfall.", "zh": "我们听到瀑布的轰鸣声。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "拆解", "tip": "water(水)+fall(落下),水从高处飞泻而下就是瀑布。" },
+      "mnemonic": { "type": "split", "tip": "water(水)+fall(落下),水从高处飞泻而下就是瀑布。" },
       "petExam": { "frequency": "low", "collocations": ["a high waterfall", "a beautiful waterfall"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "The table is made of wood.", "zh": "这张桌子是木头做的。" }
       ],
       "synonyms": ["forest"], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "场景", "tip": "wood 是\"木头\",一大片树聚成的\"树林\"也叫 wood(常用 woods)。" },
+      "mnemonic": { "type": "image", "tip": "wood 是\"木头\",一大片树聚成的\"树林\"也叫 wood(常用 woods)。" },
       "petExam": { "frequency": "medium", "collocations": ["in the woods", "made of wood"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "We planted a tree in the garden.", "zh": "我们在花园里种了一棵树。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "tree 谐音\"追\"不对,记\"缀\"——枝叶点\"缀\"、拔地而起的就是树。" },
+      "mnemonic": { "type": "sound", "tip": "tree 谐音\"追\"不对,记\"缀\"——枝叶点\"缀\"、拔地而起的就是树。" },
       "petExam": { "frequency": "medium", "collocations": ["a tall tree", "climb a tree"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "The leaves turn red in autumn.", "zh": "叶子在秋天变红。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "联想", "tip": "leaf 复数是 leaves(f变v),长在树枝上的绿片就是叶子。" },
+      "mnemonic": { "type": "assoc", "tip": "leaf 复数是 leaves(f变v),长在树枝上的绿片就是叶子。" },
       "petExam": { "frequency": "low", "collocations": ["a green leaf", "fallen leaves"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "The tree has many branches.", "zh": "这棵树有很多枝丫。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "branch 谐音\"不软吃\"不对,记\"布兰奇\"——从树干分叉伸出的就是树枝。" },
+      "mnemonic": { "type": "sound", "tip": "branch 谐音\"不软吃\"不对,记\"布兰奇\"——从树干分叉伸出的就是树枝。" },
       "petExam": { "frequency": "low", "collocations": ["a tree branch", "on the branch"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "Roots take water from the soil.", "zh": "根从土壤里吸水。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "root 谐音\"入他\"不对,记\"入土\"——扎进土里、吸水固定树木的就是根。" },
+      "mnemonic": { "type": "sound", "tip": "root 谐音\"入他\"不对,记\"入土\"——扎进土里、吸水固定树木的就是根。" },
       "petExam": { "frequency": "low", "collocations": ["deep roots", "a tree's roots"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "Please keep off the grass.", "zh": "请勿践踏草坪。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "grass 谐音\"歌拉死\"不对,记\"格拉斯\"——绿油油铺满地面的就是草。" },
+      "mnemonic": { "type": "sound", "tip": "grass 谐音\"歌拉死\"不对,记\"格拉斯\"——绿油油铺满地面的就是草。" },
       "petExam": { "frequency": "medium", "collocations": ["green grass", "on the grass"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "The flowers smell sweet.", "zh": "这些花闻起来很香。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "联想", "tip": "flower 里有 flow(流动),花香随风\"流\"淌四溢的就是花。" },
+      "mnemonic": { "type": "assoc", "tip": "flower 里有 flow(流动),花香随风\"流\"淌四溢的就是花。" },
       "petExam": { "frequency": "medium", "collocations": ["pick flowers", "a wild flower"] }
     },
     {
@@ -142,7 +142,7 @@
         { "en": "This plant needs a lot of sun.", "zh": "这种植物需要充足阳光。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "场景", "tip": "plant 也作动词\"种植\";凡是种在土里、会长的绿色生命就是植物。" },
+      "mnemonic": { "type": "image", "tip": "plant 也作动词\"种植\";凡是种在土里、会长的绿色生命就是植物。" },
       "petExam": { "frequency": "medium", "collocations": ["water a plant", "a green plant"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "A big tree grows from a tiny seed.", "zh": "参天大树由小小的种子长成。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "seed 谐音\"细的\"不对,记\"斯依德\"——埋下去能长成植物的小粒就是种子。" },
+      "mnemonic": { "type": "sound", "tip": "seed 谐音\"细的\"不对,记\"斯依德\"——埋下去能长成植物的小粒就是种子。" },
       "petExam": { "frequency": "low", "collocations": ["plant a seed", "a flower seed"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "The field is full of yellow flowers.", "zh": "田野里开满了黄花。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "field 谐音\"飞欧的\"不对,记\"飞尔德\"——一大片平坦的种植地就是田野。" },
+      "mnemonic": { "type": "sound", "tip": "field 谐音\"飞欧的\"不对,记\"飞尔德\"——一大片平坦的种植地就是田野。" },
       "petExam": { "frequency": "medium", "collocations": ["in the field", "a green field"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "The beach was crowded in summer.", "zh": "夏天海滩上很拥挤。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "beach 谐音\"必吃\"不对,记\"比取\"——海边铺满沙子的地带就是海滩。" },
+      "mnemonic": { "type": "sound", "tip": "beach 谐音\"必吃\"不对,记\"比取\"——海边铺满沙子的地带就是海滩。" },
       "petExam": { "frequency": "medium", "collocations": ["on the beach", "a sandy beach"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "We drove along the coast.", "zh": "我们沿着海岸开车。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "coast 谐音\"扣死他\"不对,记\"扣斯特\"——陆地和海相接的边缘就是海岸。" },
+      "mnemonic": { "type": "sound", "tip": "coast 谐音\"扣死他\"不对,记\"扣斯特\"——陆地和海相接的边缘就是海岸。" },
       "petExam": { "frequency": "low", "collocations": ["on the coast", "the south coast"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "Don't stand too near the cliff.", "zh": "别站得离悬崖太近。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "cliff 谐音\"克里夫\"——陡直如刀削、临海临谷的峭壁就是悬崖。" },
+      "mnemonic": { "type": "sound", "tip": "cliff 谐音\"克里夫\"——陡直如刀削、临海临谷的峭壁就是悬崖。" },
       "petExam": { "frequency": "low", "collocations": ["on a cliff", "a high cliff"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "We explored a large cave.", "zh": "我们探索了一个大山洞。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "cave 谐音\"凯夫\"——山里空空的大洞就是洞穴(concave凹的也含 cave)。" },
+      "mnemonic": { "type": "sound", "tip": "cave 谐音\"凯夫\"——山里空空的大洞就是洞穴(concave凹的也含 cave)。" },
       "petExam": { "frequency": "low", "collocations": ["a dark cave", "explore a cave"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "You can reach the island by boat.", "zh": "你可以坐船到岛上。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "联想", "tip": "island 里藏个 is+land(是陆地),s 不发音;四面环水的陆地就是岛。" },
+      "mnemonic": { "type": "assoc", "tip": "island 里藏个 is+land(是陆地),s 不发音;四面环水的陆地就是岛。" },
       "petExam": { "frequency": "medium", "collocations": ["a small island", "on the island"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "The path was covered with rocks.", "zh": "小路上满是石头。" }
       ],
       "synonyms": ["stone"], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "rock 谐音\"落\"不对,记\"若克\"——山上硬邦邦的大石块就是岩石。" },
+      "mnemonic": { "type": "sound", "tip": "rock 谐音\"落\"不对,记\"若克\"——山上硬邦邦的大石块就是岩石。" },
       "petExam": { "frequency": "medium", "collocations": ["a big rock", "on the rocks"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "Warm sand felt nice on my feet.", "zh": "温暖的沙子踩上去很舒服。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "sand 谐音\"三的\"不对,记\"散的\"——海边一粒粒松散的就是沙子。" },
+      "mnemonic": { "type": "sound", "tip": "sand 谐音\"三的\"不对,记\"散的\"——海边一粒粒松散的就是沙子。" },
       "petExam": { "frequency": "low", "collocations": ["play in the sand", "soft sand"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "The soil here is dry.", "zh": "这里的土很干。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "soil 谐音\"扫哦\"不对,记\"搔哦\"——能种庄稼、埋种子的泥就是土壤。" },
+      "mnemonic": { "type": "sound", "tip": "soil 谐音\"扫哦\"不对,记\"搔哦\"——能种庄稼、埋种子的泥就是土壤。" },
       "petExam": { "frequency": "low", "collocations": ["rich soil", "dry soil"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "We drank from the mountain stream.", "zh": "我们喝了山间小溪的水。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "stream 谐音\"斯锥姆\"——比河窄、\"潺潺\"流的小水道就是小溪。" },
+      "mnemonic": { "type": "sound", "tip": "stream 谐音\"斯锥姆\"——比河窄、\"潺潺\"流的小水道就是小溪。" },
       "petExam": { "frequency": "low", "collocations": ["a small stream", "a mountain stream"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "Frogs jumped into the pond.", "zh": "青蛙跳进了池塘。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "pond 谐音\"胖的\"——比湖小、养鱼养荷的一小汪水就是池塘。" },
+      "mnemonic": { "type": "sound", "tip": "pond 谐音\"胖的\"——比湖小、养鱼养荷的一小汪水就是池塘。" },
       "petExam": { "frequency": "low", "collocations": ["a small pond", "in the pond"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "The sunrise was beautiful this morning.", "zh": "今早的日出很美。" }
       ],
       "synonyms": [], "antonyms": ["sunset"], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "拆解", "tip": "sun(太阳)+rise(升起),太阳升起就是日出。" },
+      "mnemonic": { "type": "split", "tip": "sun(太阳)+rise(升起),太阳升起就是日出。" },
       "petExam": { "frequency": "low", "collocations": ["watch the sunrise", "at sunrise"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "We took photos of the sunset.", "zh": "我们拍了日落的照片。" }
       ],
       "synonyms": [], "antonyms": ["sunrise"], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "拆解", "tip": "sun(太阳)+set(落下),太阳落下就是日落。" },
+      "mnemonic": { "type": "split", "tip": "sun(太阳)+set(落下),太阳落下就是日落。" },
       "petExam": { "frequency": "low", "collocations": ["at sunset", "a beautiful sunset"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "A full moon rose over the sea.", "zh": "一轮满月从海上升起。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "moon 谐音\"母嗯\"不对,记\"目\"——两个 o 像夜空中圆圆的月亮。" },
+      "mnemonic": { "type": "sound", "tip": "moon 谐音\"母嗯\"不对,记\"目\"——两个 o 像夜空中圆圆的月亮。" },
       "petExam": { "frequency": "low", "collocations": ["a full moon", "under the moon"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "Children jumped over the small waves.", "zh": "孩子们跳过小浪花。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "场景", "tip": "wave 也是\"挥手\"，海面一起一伏、像招手一样的就是波浪。" },
+      "mnemonic": { "type": "image", "tip": "wave 也是\"挥手\"，海面一起一伏、像招手一样的就是波浪。" },
       "petExam": { "frequency": "low", "collocations": ["big waves", "a wave breaks"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "There is a lovely view from the top.", "zh": "从顶上看风景很美。" }
       ],
       "synonyms": ["scene"], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "词根词缀", "tip": "vi(看,拉丁 videre,同 vision)+ew,眼睛看到的一片景象就是景色。" },
+      "mnemonic": { "type": "root", "tip": "vi(看,拉丁 videre,同 vision)+ew,眼睛看到的一片景象就是景色。" },
       "petExam": { "frequency": "medium", "collocations": ["a sea view", "a beautiful view"] }
     },
     {
@@ -322,7 +322,7 @@
         { "en": "We enjoyed the beautiful scenery.", "zh": "我们欣赏着美丽的风景。" }
       ],
       "synonyms": ["view"], "antonyms": [], "difficulty": 4, "tags": ["nature"],
-      "mnemonic": { "type": "词根词缀", "tip": "scene(景/场景)+ry,一大片自然景致的总称就是风景(不可数)。" },
+      "mnemonic": { "type": "root", "tip": "scene(景/场景)+ry,一大片自然景致的总称就是风景(不可数)。" },
       "petExam": { "frequency": "low", "collocations": ["beautiful scenery", "mountain scenery"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "Follow the path through the woods.", "zh": "沿着这条小路穿过树林。" }
       ],
       "synonyms": ["trail"], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "path 谐音\"怕死\"不对,记\"帕斯\"——林间田野踩出来的窄窄一条就是小路。" },
+      "mnemonic": { "type": "sound", "tip": "path 谐音\"怕死\"不对,记\"帕斯\"——林间田野踩出来的窄窄一条就是小路。" },
       "petExam": { "frequency": "medium", "collocations": ["a narrow path", "follow the path"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "We saw wild horses in the hills.", "zh": "我们在山里看到了野马。" }
       ],
       "synonyms": [], "antonyms": ["tame"], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "谐音", "tip": "wild 谐音\"外的\"——在野外自由生长、没被人管的就是野生的。" },
+      "mnemonic": { "type": "sound", "tip": "wild 谐音\"外的\"——在野外自由生长、没被人管的就是野生的。" },
       "petExam": { "frequency": "medium", "collocations": ["wild flowers", "in the wild"] }
     },
     {
@@ -352,7 +352,7 @@
         { "en": "A rainbow is a natural wonder.", "zh": "彩虹是一种自然奇观。" }
       ],
       "synonyms": [], "antonyms": ["artificial"], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "拆解", "tip": "nature(自然)+al,和大自然有关、非人造的就是自然的。" },
+      "mnemonic": { "type": "split", "tip": "nature(自然)+al,和大自然有关、非人造的就是自然的。" },
       "petExam": { "frequency": "high", "collocations": ["natural beauty", "a natural wonder"] }
     },
     {
@@ -362,7 +362,7 @@
         { "en": "The mountain air is fresh and clean.", "zh": "山里的空气清新洁净。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "拆解", "tip": "fresh(新鲜的)+air(空气),郊外清新的空气就是 fresh air。" },
+      "mnemonic": { "type": "split", "tip": "fresh(新鲜的)+air(空气),郊外清新的空气就是 fresh air。" },
       "petExam": { "frequency": "medium", "collocations": ["get some fresh air", "breathe fresh air"] }
     }
   ]

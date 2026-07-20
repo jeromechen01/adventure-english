@@ -12,7 +12,7 @@
         { "en": "Do you have any hobbies?", "zh": "你有什么爱好吗？" }
       ],
       "synonyms": ["interest", "pastime"], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "hobby 谐音\"哈比\"——一玩起爱好就乐得像个开心的哈比人。" },
+      "mnemonic": { "type": "sound", "tip": "hobby 谐音\"哈比\"——一玩起爱好就乐得像个开心的哈比人。" },
       "petExam": { "frequency": "high", "collocations": ["a favourite hobby", "take up a hobby"] }
     },
     {
@@ -22,7 +22,7 @@
         { "en": "Sports and reading are his main interests.", "zh": "运动和阅读是他的主要爱好。" }
       ],
       "synonyms": ["hobby"], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "场景", "tip": "inter(在...之间)+est,心思一头扎进某件事里就是兴趣。" },
+      "mnemonic": { "type": "image", "tip": "inter(在...之间)+est,心思一头扎进某件事里就是兴趣。" },
       "petExam": { "frequency": "high", "collocations": ["an interest in", "take an interest"] }
     },
     {
@@ -32,7 +32,7 @@
         { "en": "She collects postcards from every city.", "zh": "她收集每个城市的明信片。" }
       ],
       "synonyms": ["gather"], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "col(共同)+lect(挑选,同 select),把喜欢的一件件挑来聚一起就是收集。" },
+      "mnemonic": { "type": "root", "tip": "col(共同)+lect(挑选,同 select),把喜欢的一件件挑来聚一起就是收集。" },
       "petExam": { "frequency": "medium", "collocations": ["collect stamps", "collect coins"] }
     },
     {
@@ -42,7 +42,7 @@
         { "en": "He showed me his coin collection.", "zh": "他给我看了他的硬币收藏。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "collect(收集)+ion,收集起来的一堆东西就是收藏品。" },
+      "mnemonic": { "type": "split", "tip": "collect(收集)+ion,收集起来的一堆东西就是收藏品。" },
       "petExam": { "frequency": "medium", "collocations": ["a stamp collection", "a large collection"] }
     },
     {
@@ -52,7 +52,7 @@
         { "en": "She is learning to knit a hat.", "zh": "她正在学织帽子。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "knit 谐音\"逆\"不对,记\"你特\"——k不发音,一针一线\"你来我往\"绕线就是编织。" },
+      "mnemonic": { "type": "sound", "tip": "knit 谐音\"逆\"不对,记\"你特\"——k不发音,一针一线\"你来我往\"绕线就是编织。" },
       "petExam": { "frequency": "low", "collocations": ["knit a scarf", "knit a sweater"] }
     },
     {
@@ -62,7 +62,7 @@
         { "en": "He can sew his own clothes.", "zh": "他会自己缝衣服。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "sew 读音同 so(/səʊ/),别读成\"锯\";拿针线一\"缝\"到底就是 sew。" },
+      "mnemonic": { "type": "sound", "tip": "sew 读音同 so(/səʊ/),别读成\"锯\";拿针线一\"缝\"到底就是 sew。" },
       "petExam": { "frequency": "low", "collocations": ["sew a button", "sew clothes"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "She enjoys gardening at weekends.", "zh": "她喜欢在周末侍弄花草。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "garden(花园)+ing,在花园里种花锄草的活动就是园艺。" },
+      "mnemonic": { "type": "split", "tip": "garden(花园)+ing,在花园里种花锄草的活动就是园艺。" },
       "petExam": { "frequency": "low", "collocations": ["do gardening", "enjoy gardening"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "Fishing is a quiet, relaxing hobby.", "zh": "钓鱼是一种安静放松的爱好。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "fish(鱼)+ing,拿着鱼竿等鱼上钩的活动就是钓鱼。" },
+      "mnemonic": { "type": "split", "tip": "fish(鱼)+ing,拿着鱼竿等鱼上钩的活动就是钓鱼。" },
       "petExam": { "frequency": "medium", "collocations": ["go fishing", "a fishing trip"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "Camping is fun in summer.", "zh": "夏天露营很有趣。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "camp(扎营)+ing,支起帐篷在野外过夜就是露营。" },
+      "mnemonic": { "type": "split", "tip": "camp(扎营)+ing,支起帐篷在野外过夜就是露营。" },
       "petExam": { "frequency": "medium", "collocations": ["go camping", "a camping trip"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "The kitchen smells of fresh baking.", "zh": "厨房里飘着新烤糕点的香味。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "bake(烘烤)+ing,把面糊送进烤箱做点心的活动就是烘焙。" },
+      "mnemonic": { "type": "split", "tip": "bake(烘烤)+ing,把面糊送进烤箱做点心的活动就是烘焙。" },
       "petExam": { "frequency": "low", "collocations": ["enjoy baking", "baking a cake"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "Her painting won a prize.", "zh": "她的画得了奖。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "paint(画)+ing,拿画笔上色的活动、或画出来的作品就是 painting。" },
+      "mnemonic": { "type": "split", "tip": "paint(画)+ing,拿画笔上色的活动、或画出来的作品就是 painting。" },
       "petExam": { "frequency": "medium", "collocations": ["do painting", "an oil painting"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "This drawing looks very real.", "zh": "这幅素描看起来很逼真。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "draw(画线条)+ing,用笔勾线条(多指铅笔画)就是 drawing。" },
+      "mnemonic": { "type": "split", "tip": "draw(画线条)+ing,用笔勾线条(多指铅笔画)就是 drawing。" },
       "petExam": { "frequency": "medium", "collocations": ["a pencil drawing", "do a drawing"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "He spends weekends on photography.", "zh": "他周末都在搞摄影。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "photo(光)+graphy(记录),用光把画面记录下来就是摄影。" },
+      "mnemonic": { "type": "root", "tip": "photo(光)+graphy(记录),用光把画面记录下来就是摄影。" },
       "petExam": { "frequency": "low", "collocations": ["enjoy photography", "nature photography"] }
     },
     {
@@ -142,7 +142,7 @@
         { "en": "Chess makes you think hard.", "zh": "下棋让你动脑筋。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "chess 谐音\"切死\"——棋盘上你来我往、把对方将死的就是国际象棋。" },
+      "mnemonic": { "type": "sound", "tip": "chess 谐音\"切死\"——棋盘上你来我往、把对方将死的就是国际象棋。" },
       "petExam": { "frequency": "medium", "collocations": ["play chess", "a game of chess"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "This puzzle is hard to solve.", "zh": "这道谜题很难解。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "puzzle 谐音\"扑捉哦\"不对,记\"扒揍\"——一块块拼、绞尽脑汁的就是拼图/谜题。" },
+      "mnemonic": { "type": "sound", "tip": "puzzle 谐音\"扑捉哦\"不对,记\"扒揍\"——一块块拼、绞尽脑汁的就是拼图/谜题。" },
       "petExam": { "frequency": "low", "collocations": ["do a puzzle", "solve a puzzle"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "Keeping a diary is a good habit.", "zh": "写日记是个好习惯。" }
       ],
       "synonyms": ["journal"], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "di(天,拉丁 dies,同 daily)+ary,记录每天的本子就是日记。" },
+      "mnemonic": { "type": "root", "tip": "di(天,拉丁 dies,同 daily)+ary,记录每天的本子就是日记。" },
       "petExam": { "frequency": "low", "collocations": ["keep a diary", "write a diary"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "She can play three instruments.", "zh": "她会演奏三种乐器。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "in(在内)+stru(建造,同 structure)+ment,能\"造出\"音乐的器具就是乐器。" },
+      "mnemonic": { "type": "root", "tip": "in(在内)+stru(建造,同 structure)+ment,能\"造出\"音乐的器具就是乐器。" },
       "petExam": { "frequency": "medium", "collocations": ["play an instrument", "a musical instrument"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "You must practise to get better.", "zh": "想进步就得练习。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "场景", "tip": "practise 像\"扑来磕死\"——反复扑上去磕,练到熟为止(英式动词拼 -ise)。" },
+      "mnemonic": { "type": "image", "tip": "practise 像\"扑来磕死\"——反复扑上去磕,练到熟为止(英式动词拼 -ise)。" },
       "petExam": { "frequency": "high", "collocations": ["practise the piano", "practise hard"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "She has many creative ideas.", "zh": "她有很多有创意的想法。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "create(创造)+ive,能创造出新东西的就是有创意的。" },
+      "mnemonic": { "type": "root", "tip": "create(创造)+ive,能创造出新东西的就是有创意的。" },
       "petExam": { "frequency": "medium", "collocations": ["a creative idea", "be creative"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "He showed great talent in art.", "zh": "他在艺术上展现出极大的才能。" }
       ],
       "synonyms": ["gift"], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "talent 谐音\"泰伦特\"——生来就特别擅长某事的本领就是天赋。" },
+      "mnemonic": { "type": "sound", "tip": "talent 谐音\"泰伦特\"——生来就特别擅长某事的本领就是天赋。" },
       "petExam": { "frequency": "medium", "collocations": ["a talent for", "show talent"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "It takes years to master this skill.", "zh": "掌握这门技巧要好几年。" }
       ],
       "synonyms": ["ability"], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "skill 谐音\"死磕\"——一门技能都是死磕练出来的。" },
+      "mnemonic": { "type": "sound", "tip": "skill 谐音\"死磕\"——一门技能都是死磕练出来的。" },
       "petExam": { "frequency": "high", "collocations": ["a useful skill", "learn a skill"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "She joined a dance group.", "zh": "她加入了一个舞蹈团。" }
       ],
       "synonyms": [], "antonyms": ["leave"], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "join 谐音\"揪因\"不对,记\"救\"——把自己\"接\"进一个圈子就是加入。" },
+      "mnemonic": { "type": "sound", "tip": "join 谐音\"揪因\"不对,记\"救\"——把自己\"接\"进一个圈子就是加入。" },
       "petExam": { "frequency": "high", "collocations": ["join a club", "join a team"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "The book club meets on Fridays.", "zh": "读书会每周五聚会。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "club 谐音\"克拉布\"——志趣相投的人聚一块儿的团体就是俱乐部。" },
+      "mnemonic": { "type": "sound", "tip": "club 谐音\"克拉布\"——志趣相投的人聚一块儿的团体就是俱乐部。" },
       "petExam": { "frequency": "high", "collocations": ["a sports club", "join a club"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "Club members pay a small fee.", "zh": "俱乐部会员付一点会费。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "member 谐音\"么脖\"不对,记\"闷波\"——团体里的一个个人就是成员。" },
+      "mnemonic": { "type": "sound", "tip": "member 谐音\"么脖\"不对,记\"闷波\"——团体里的一个个人就是成员。" },
       "petExam": { "frequency": "medium", "collocations": ["a club member", "become a member"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "She learns coding in her spare time.", "zh": "她在业余时间学编程。" }
       ],
       "synonyms": ["free time"], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "spare(多余的)+time(时间),忙完正事剩下的时间就是空闲时间。" },
+      "mnemonic": { "type": "split", "tip": "spare(多余的)+time(时间),忙完正事剩下的时间就是空闲时间。" },
       "petExam": { "frequency": "high", "collocations": ["in one's spare time", "spend spare time"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "They enjoyed the whole trip.", "zh": "他们享受了整个旅程。" }
       ],
       "synonyms": ["like"], "antonyms": [], "difficulty": 1, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "en(使)+joy(快乐),让自己进入快乐就是享受。" },
+      "mnemonic": { "type": "root", "tip": "en(使)+joy(快乐),让自己进入快乐就是享受。" },
       "petExam": { "frequency": "high", "collocations": ["enjoy doing", "enjoy a hobby"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "Soft music is very relaxing.", "zh": "柔和的音乐很让人放松。" }
       ],
       "synonyms": [], "antonyms": ["stressful"], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "relax(放松)+ing,让人松弛下来的就是 relaxing。" },
+      "mnemonic": { "type": "split", "tip": "relax(放松)+ing,让人松弛下来的就是 relaxing。" },
       "petExam": { "frequency": "medium", "collocations": ["a relaxing hobby", "very relaxing"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "He loves outdoor sports.", "zh": "他喜欢户外运动。" }
       ],
       "synonyms": [], "antonyms": ["indoor"], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "out(外)+door(门),门外进行的就是户外的。" },
+      "mnemonic": { "type": "split", "tip": "out(外)+door(门),门外进行的就是户外的。" },
       "petExam": { "frequency": "medium", "collocations": ["outdoor activities", "an outdoor hobby"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "We play indoor sports in winter.", "zh": "冬天我们进行室内运动。" }
       ],
       "synonyms": [], "antonyms": ["outdoor"], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "in(里)+door(门),门里进行的就是室内的。" },
+      "mnemonic": { "type": "split", "tip": "in(里)+door(门),门里进行的就是室内的。" },
       "petExam": { "frequency": "low", "collocations": ["an indoor game", "indoor activities"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "The club offers many activities.", "zh": "这个俱乐部提供许多活动。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "act(行动)+ivity,动起来做的事就是活动。" },
+      "mnemonic": { "type": "root", "tip": "act(行动)+ivity,动起来做的事就是活动。" },
       "petExam": { "frequency": "high", "collocations": ["an outdoor activity", "take part in an activity"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "This board game is for four players.", "zh": "这款桌游供四人玩。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "拆解", "tip": "board(板)+game(游戏),在棋盘上玩的游戏就是桌游。" },
+      "mnemonic": { "type": "split", "tip": "board(板)+game(游戏),在棋盘上玩的游戏就是桌游。" },
       "petExam": { "frequency": "low", "collocations": ["play a board game", "a fun board game"] }
     },
     {
@@ -322,7 +322,7 @@
         { "en": "He made a bowl in pottery class.", "zh": "他在陶艺课上做了个碗。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "pot(罐/锅)+tery,用泥捏罐子碗盆的手艺就是陶艺。" },
+      "mnemonic": { "type": "root", "tip": "pot(罐/锅)+tery,用泥捏罐子碗盆的手艺就是陶艺。" },
       "petExam": { "frequency": "low", "collocations": ["a pottery class", "make pottery"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "The children love magic shows.", "zh": "孩子们喜欢魔术表演。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "magic 谐音\"妈计\"不对,记\"马杰克\"——变出让人惊叹的戏法就是魔术。" },
+      "mnemonic": { "type": "sound", "tip": "magic 谐音\"妈计\"不对,记\"马杰克\"——变出让人惊叹的戏法就是魔术。" },
       "petExam": { "frequency": "low", "collocations": ["a magic trick", "a magic show"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "This is a model of the ship.", "zh": "这是那艘船的模型。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "model 谐音\"模斗\"不对,记\"莫都\"——照真物按比例做的小样就是模型。" },
+      "mnemonic": { "type": "sound", "tip": "model 谐音\"模斗\"不对,记\"莫都\"——照真物按比例做的小样就是模型。" },
       "petExam": { "frequency": "medium", "collocations": ["a model plane", "build a model"] }
     },
     {
@@ -352,7 +352,7 @@
         { "en": "The team is made up of amateurs.", "zh": "这支队伍由业余爱好者组成。" }
       ],
       "synonyms": [], "antonyms": ["professional"], "difficulty": 4, "tags": ["hobbies"],
-      "mnemonic": { "type": "词根词缀", "tip": "amat(爱,拉丁 amare,同 amateur)+eur,纯因\"热爱\"而玩、非职业的人就是业余爱好者。" },
+      "mnemonic": { "type": "root", "tip": "amat(爱,拉丁 amare,同 amateur)+eur,纯因\"热爱\"而玩、非职业的人就是业余爱好者。" },
       "petExam": { "frequency": "low", "collocations": ["an amateur photographer", "amateur sports"] }
     },
     {
@@ -362,7 +362,7 @@
         { "en": "He is a keen reader.", "zh": "他是个热心的读者。" }
       ],
       "synonyms": ["eager"], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "谐音", "tip": "keen 谐音\"劲\"——对某爱好特别有\"劲\"头、热衷就是 keen。" },
+      "mnemonic": { "type": "sound", "tip": "keen 谐音\"劲\"——对某爱好特别有\"劲\"头、热衷就是 keen。" },
       "petExam": { "frequency": "medium", "collocations": ["keen on", "a keen interest"] }
     }
   ]
