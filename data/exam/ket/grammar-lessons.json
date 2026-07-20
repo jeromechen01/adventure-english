@@ -224,6 +224,693 @@
      "answer": "My school bag is very heavy.",
      "explain": "验收题：等号句必须带 is。"
     }
+   ],
+   "teaching": {
+    "essence": "be 动词就是英语的等号：把「谁」和「是什么 / 怎么样 / 在哪里」连起来。",
+    "why": "中文说「我很开心」，三个字直接连——「很」悄悄占了动词的位置，所以你感觉不到少了什么。但英语有条铁规矩：每句话必须有一个动词。句子里没有动作时，be 就顶上来当那个动词。省了它，句子就像「3+2 5」——少了等号，谁也看不懂。",
+    "rules": [
+     {
+      "point": "现在的三副面孔：am / is / are",
+      "detail": "am 只跟 I；is 跟一个人或一件东西（he / she / it / my dog）；are 跟 you 和一群（we / they / my friends）。",
+      "examples": [
+       {
+        "en": "I am a violinist.",
+        "zh": "我是小提琴手。"
+       },
+       {
+        "en": "She is my best friend.",
+        "zh": "她是我最好的朋友。"
+       },
+       {
+        "en": "They are in the same class.",
+        "zh": "他们在同一个班。"
+       }
+      ]
+     },
+     {
+      "point": "过去的两副面孔：was / were",
+      "detail": "was 是 am/is 的过去；were 是 are 的过去。讲昨天的事，等号也要换成昨天的。",
+      "examples": [
+       {
+        "en": "I was tired after the rehearsal.",
+        "zh": "排练后我很累。"
+       },
+       {
+        "en": "We were at the concert last night.",
+        "zh": "我们昨晚在音乐会。"
+       }
+      ]
+     },
+     {
+      "point": "什么时候必须有等号",
+      "detail": "后面是「什么样 / 是什么 / 在哪里」时必须用 be；后面是动作（play / like / run）时不用 be——动词自己上场。",
+      "examples": [
+       {
+        "en": "My violin is old but beautiful.",
+        "zh": "我的小提琴旧但很美。"
+       },
+       {
+        "en": "I play the violin every day.",
+        "zh": "我每天拉小提琴。（动作句，不加 be）"
+       }
+      ]
+     },
+     {
+      "point": "否定和疑问，be 自己搞定",
+      "detail": "be 是全班唯一不用请 do 帮忙的动词：否定直接在后面加 not；提问直接把 be 搬到句子最前面。",
+      "examples": [
+       {
+        "en": "She is not at home.",
+        "zh": "她不在家。"
+       },
+       {
+        "en": "Are you ready?",
+        "zh": "你准备好了吗？"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "「有动作就别加 be」：× I am like music → ✓ I like music。学会 be 之后最常见的新错误反而是到处乱加 be。",
+     "中文的「很」不等于 very：「我很开心」里的「很」只是占位，I am happy 已经完整，不是非要 I am very happy。",
+     "表示「某处有什么」用 There is / There are，后面跟单数用 is、复数用 are。",
+     "年龄、位置、身份都走 be：I am eleven. / He is at school. / She is a doctor.——中文这三种都可以不用动词，英文一个都不能省。"
+    ],
+    "commonErrors": [
+     {
+      "wrong": "I very happy.",
+      "right": "I am very happy.",
+      "why": "中文「我很开心」没有动词，「很」占了动词的位置，所以中国孩子最爱漏 be。这是 8 类中式错误的 2 号（红区）。",
+      "impedes": true,
+      "ketPart": "写作 + 口语",
+      "zone": "red"
+     },
+     {
+      "wrong": "She not at home.",
+      "right": "She is not at home.",
+      "why": "否定句也要先有等号才能否定——not 只能挂在 be 后面，不能自己站着。",
+      "impedes": true,
+      "ketPart": "写作 + 口语",
+      "zone": "red"
+     },
+     {
+      "wrong": "They is my friends.",
+      "right": "They are my friends.",
+      "why": "中文的「是」永远一个样，英语的等号要跟主语换面孔：they 配 are。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "Yesterday I am at school.",
+      "right": "Yesterday I was at school.",
+      "why": "中文说昨天的事动词不变（「我昨天在学校」），英语的等号要跟着时间变成 was/were。接 3 号错误「叙事时态跳」（红区）。",
+      "impedes": true,
+      "ketPart": "Part 7 + 写作",
+      "zone": "red"
+     },
+     {
+      "wrong": "I am like playing the violin.",
+      "right": "I like playing the violin.",
+      "why": "矫枉过正：怕漏 be 就到处塞 be。记住一句话只要一个动词——有 like 这个动作，be 就得下场。",
+      "impedes": true,
+      "ketPart": "写作 + 口语",
+      "zone": "red"
+     }
+    ],
+    "parentTip": "不用讲语法。她说出 I very happy 时，只重复一遍正确的 I am very happy 让她跟读，不解释为什么；让她把句子读出来，漏了 am/is/are 会觉得「缺了一个音」，比讲规则管用。",
+    "darkline": "be 是英语里最常用的动词，所以它最不规则：am / is / are / was / were 长得完全不像一家人——它是几个古老词根缝起来的「缝合怪」。越常用，越不规则，这是你第一次遇见这条规律。"
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I am eleven.",
+       "answer": true,
+       "explain": "对。I 配 am，「我 11 岁」的等号在。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I very happy.",
+       "answer": false,
+       "explain": "错。少了等号 am：I am very happy. 中文「我很开心」没动词，英文必须有。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ She is my friend.",
+       "answer": true,
+       "explain": "对。she 是一个人，配 is。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ They is happy.",
+       "answer": false,
+       "explain": "错。they 是一群人，要配 are：They are happy."
+      },
+      {
+       "type": "choice",
+       "q": "I ___ a student.",
+       "options": [
+        "am",
+        "is"
+       ],
+       "answer": 0,
+       "explain": "am 只跟 I，这是它俩的专属搭配。"
+      },
+      {
+       "type": "choice",
+       "q": "He ___ tall.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": 0,
+       "explain": "he 是一个人 → is。"
+      },
+      {
+       "type": "choice",
+       "q": "You ___ my best friend.",
+       "options": [
+        "are",
+        "is"
+       ],
+       "answer": 0,
+       "explain": "you 永远配 are（哪怕只指一个人）。"
+      },
+      {
+       "type": "choice",
+       "q": "My dog ___ cute.",
+       "options": [
+        "is",
+        "are"
+       ],
+       "answer": 0,
+       "explain": "my dog 是一只（相当于 it）→ is。"
+      },
+      {
+       "type": "fill",
+       "q": "We ___ in the music room.",
+       "hint": "提示：we / you / they 用同一个",
+       "answer": "are",
+       "explain": "we 是一群人 → are。"
+      },
+      {
+       "type": "fill",
+       "q": "It ___ a sunny day.",
+       "hint": "提示：一件事物",
+       "answer": "is",
+       "explain": "it → is。天气、日期常用 It is…开头。"
+      },
+      {
+       "type": "choice",
+       "q": "Yesterday I ___ tired.",
+       "options": [
+        "was",
+        "am"
+       ],
+       "answer": 0,
+       "explain": "yesterday 是过去 → 等号换成过去的 was。"
+      },
+      {
+       "type": "choice",
+       "q": "They ___ at the concert last night.",
+       "options": [
+        "were",
+        "are"
+       ],
+       "answer": 0,
+       "explain": "last night 是过去，they → were。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I am play the piano.",
+       "answer": false,
+       "explain": "错。play 是动作，动作句不用 be：I play the piano. 一句话只要一个动词。"
+      },
+      {
+       "type": "choice",
+       "q": "My shoes ___ new.",
+       "options": [
+        "are",
+        "is"
+       ],
+       "answer": 0,
+       "explain": "shoes 是两只、复数 → are。"
+      },
+      {
+       "type": "fill",
+       "q": "I ___ eleven years old.",
+       "hint": "提示：只跟 I 的那个",
+       "answer": "am",
+       "explain": "说年龄用 be：I am eleven (years old)."
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ The apples were sweet.",
+       "answer": true,
+       "explain": "对。apples 复数、讲过去 → were，完全正确。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "My mother ___ a teacher.",
+       "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "my mother 是一个人 → is。be 原形不能直接放在这里。"
+      },
+      {
+       "type": "choice",
+       "q": "I ___ in Grade Five.",
+       "options": [
+        "am",
+        "is",
+        "are",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "I 只配 am。说「在几年级」也是位置/身份 → 用 be。"
+      },
+      {
+       "type": "choice",
+       "q": "Tom and I ___ good friends.",
+       "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "Tom and I 是两个人 = we → are。"
+      },
+      {
+       "type": "choice",
+       "q": "The weather ___ cold today.",
+       "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "weather 是一件事物、today 是现在 → is。"
+      },
+      {
+       "type": "choice",
+       "q": "___ you ready?",
+       "options": [
+        "Are",
+        "Is",
+        "Am",
+        "Be"
+       ],
+       "answer": 0,
+       "explain": "问句直接把 be 搬到最前面：You are ready. → Are you ready?"
+      },
+      {
+       "type": "choice",
+       "q": "My parents ___ at work now.",
+       "options": [
+        "are",
+        "is",
+        "was",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "parents 爸爸妈妈两个人 → are；now 是现在，不用过去式。"
+      },
+      {
+       "type": "choice",
+       "q": "There ___ a violin on the chair.",
+       "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "There is/are 表「有」：后面 a violin 是单数 → is。"
+      },
+      {
+       "type": "choice",
+       "q": "There ___ two cakes on the table.",
+       "options": [
+        "are",
+        "is",
+        "was",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "two cakes 复数 → are。There is/are 看后面的东西是几个。"
+      },
+      {
+       "type": "choice",
+       "q": "Last year she ___ in Class One.",
+       "options": [
+        "was",
+        "is",
+        "were",
+        "are"
+       ],
+       "answer": 0,
+       "explain": "last year 过去 + she 单数 → was。"
+      },
+      {
+       "type": "choice",
+       "q": "We ___ late for school yesterday.",
+       "options": [
+        "were",
+        "are",
+        "was",
+        "is"
+       ],
+       "answer": 0,
+       "explain": "yesterday 过去 + we 复数 → were。"
+      },
+      {
+       "type": "choice",
+       "q": "Look! The babies ___ so cute.",
+       "options": [
+        "are",
+        "is",
+        "were",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "babies 复数、眼前的事是现在 → are。"
+      },
+      {
+       "type": "choice",
+       "q": "My favourite subject ___ music.",
+       "options": [
+        "is",
+        "are",
+        "am",
+        "were"
+       ],
+       "answer": 0,
+       "explain": "主语是 my favourite subject（一件事）→ is，别被后面的词带偏。"
+      },
+      {
+       "type": "fill",
+       "q": "The concert ___ wonderful last night.",
+       "answer": "was",
+       "explain": "last night 过去 + the concert 单数 → was。"
+      },
+      {
+       "type": "fill",
+       "q": "I ___ not afraid of dogs.",
+       "answer": "am",
+       "explain": "否定句也要先有等号：I am not…，not 挂在 am 后面。"
+      },
+      {
+       "type": "fill",
+       "q": "Where ___ my keys? I can't find them.",
+       "answer": "are",
+       "explain": "keys 复数 → are。问「在哪里」就是问位置 → 用 be。"
+      },
+      {
+       "type": "fill",
+       "q": "Miss Li and Mr Wang ___ our music teachers.",
+       "answer": "are",
+       "explain": "两位老师 = they → are。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "I very happy today.",
+       "answer": "I am very happy today.",
+       "explain": "2 号中式错误（红区）：中文「我很开心」没动词，英文必须补上等号 am。"
+      },
+      {
+       "type": "correct",
+       "wrong": "She not at home.",
+       "answer": "She is not at home.",
+       "explain": "not 不能自己站着，必须挂在 be 后面：is not。"
+      },
+      {
+       "type": "correct",
+       "wrong": "They is in the same class.",
+       "answer": "They are in the same class.",
+       "explain": "they 配 are。中文「是」永远一个样，英语等号要换面孔。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Yesterday I am at my grandma's house.",
+       "answer": "Yesterday I was at my grandma's house.",
+       "explain": "时间是昨天，等号也要变成昨天的：am → was。这就是「叙事时态跳」（红区 3 号）。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I am agree with you.",
+       "answer": "I agree with you.",
+       "explain": "agree 本身就是动词，一句话只要一个动词，be 得下场。"
+      },
+      {
+       "type": "correct",
+       "wrong": "My brother are a doctor.",
+       "answer": "My brother is a doctor.",
+       "explain": "my brother 一个人 → is。"
+      },
+      {
+       "type": "correct",
+       "wrong": "We was tired after the trip.",
+       "answer": "We were tired after the trip.",
+       "explain": "we 复数，过去用 were 不用 was。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I am like playing the violin.",
+       "answer": "I like playing the violin.",
+       "explain": "矫枉过正型错误：有动作 like 就不要 be。"
+      },
+      {
+       "type": "transform",
+       "from": "She is a nurse.",
+       "to_type": "疑问句",
+       "answer": "Is she a nurse?",
+       "explain": "be 句子提问不请外援：把 is 直接搬到最前面。"
+      },
+      {
+       "type": "transform",
+       "from": "They are in the library.",
+       "to_type": "否定句",
+       "answer": "They are not in the library.",
+       "alt": [
+        "They aren't in the library."
+       ],
+       "explain": "否定：not 挂在 are 后面。"
+      },
+      {
+       "type": "transform",
+       "from": "You are ready.",
+       "to_type": "疑问句",
+       "answer": "Are you ready?",
+       "explain": "are 搬家到句首，句号换问号。"
+      },
+      {
+       "type": "transform",
+       "from": "He was at school yesterday.",
+       "to_type": "疑问句",
+       "answer": "Was he at school yesterday?",
+       "explain": "过去式一样搬家：was 提到最前面。"
+      },
+      {
+       "type": "transform",
+       "from": "I am good at maths.",
+       "to_type": "否定句",
+       "answer": "I am not good at maths.",
+       "alt": [
+        "I'm not good at maths."
+       ],
+       "explain": "not 挂在 am 后面。注意 am not 没有缩写 amn't。"
+      },
+      {
+       "type": "choice",
+       "q": "下面哪一句是对的？",
+       "options": [
+        "I am tired.",
+        "I am like cats.",
+        "He very tall.",
+        "They is happy."
+       ],
+       "answer": 0,
+       "explain": "I am tired 状态句用 be ✓。B 多了 be，C 少了 be，D 配错了 be。"
+      },
+      {
+       "type": "choice",
+       "q": "下面哪一句是错的？",
+       "options": [
+        "She is a violinist.",
+        "I am in the orchestra.",
+        "We are play games.",
+        "It was cold yesterday."
+       ],
+       "answer": 2,
+       "explain": "play 是动作，不能 be+动作原形连用：We play games. 其余三句都对。"
+      },
+      {
+       "type": "choice",
+       "q": "选出正确的疑问句：",
+       "options": [
+        "Are they your friends?",
+        "They are your friends?",
+        "Is they your friends?",
+        "Be they your friends?"
+       ],
+       "answer": 0,
+       "explain": "疑问句要把 be 搬到句首，且 they 配 are。B 没搬家（口语能懂但考试算错），C 配错，D 用了原形。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Hi Anna! I ___ in London with my family this week.",
+       "answer": "am",
+       "explain": "「在哪里」→ be；I → am。Part 5 每空只填一个词。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My hotel room ___ very big and clean.",
+       "answer": "is",
+       "explain": "房间是一件东西、说的是现在 → is。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：There ___ lots of interesting shops near our hotel.",
+       "answer": "are",
+       "explain": "lots of shops 复数 → There are。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：The people here ___ very friendly.",
+       "answer": "are",
+       "explain": "陷阱：people 看着没有 s，其实是复数（很多人）→ are。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Yesterday we ___ at the science museum all day.",
+       "answer": "were",
+       "explain": "yesterday + we → were。看到时间词先定时态再选 be。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：It ___ my birthday last Sunday.",
+       "answer": "was",
+       "explain": "last Sunday 过去 + it → was。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：We had a party, and my favourite present ___ a new schoolbag.",
+       "answer": "was",
+       "explain": "整段讲过去的生日 → 时态要一致，用 was。这是 Part 7 写作最容易跳时态的地方。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Dear Tom, thank you for your letter. I ___ very happy to hear from you.",
+       "answer": "am",
+       "explain": "写信开头说「现在的心情」→ I am。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 写作想说「音乐会太棒了」，哪句能拿分？",
+       "options": [
+        "The concert was great.",
+        "The concert very great.",
+        "The concert is great yesterday.",
+        "Concert great."
+       ],
+       "answer": 0,
+       "explain": "过去的事 → was。B 缺 be（红区错误），C 时态和 yesterday 打架，D 缺冠词又缺 be。"
+      },
+      {
+       "type": "choice",
+       "q": "朋友发消息问 Where are you? 哪个回答语法正确？",
+       "options": [
+        "I am at the bus stop.",
+        "I at the bus stop.",
+        "Me at the bus stop.",
+        "I am at the bus stop yesterday."
+       ],
+       "answer": 0,
+       "explain": "位置 → be。B 缺 am，C 主语用错格，D 现在的问题不能配 yesterday。"
+      },
+      {
+       "type": "choice",
+       "q": "看图写句：图里两只猫在椅子上。哪句对？",
+       "options": [
+        "There are two cats on the chair.",
+        "There is two cats on the chair.",
+        "There are two cat on the chair.",
+        "Have two cats on the chair."
+       ],
+       "answer": 0,
+       "explain": "two cats 复数 → are + cats。中文「有两只猫」的「有」在这里是 There are，不是 have。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语 Part 1 考官问 How old are you? 最好的回答是：",
+       "options": [
+        "I am eleven.",
+        "I eleven.",
+        "Eleven years am I.",
+        "I have eleven years."
+       ],
+       "answer": 0,
+       "explain": "年龄用 be：I am eleven (years old). B 漏 be；D 是法语/西语的说法，英语不用 have 说年龄。"
+      },
+      {
+       "type": "correct",
+       "wrong": "My school are big and beautiful.",
+       "answer": "My school is big and beautiful.",
+       "explain": "写作自查题：my school 是一个地方 → is。写完作文回头专查 be 配没配对。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Last weekend we are at the beach with our cousins.",
+       "answer": "Last weekend we were at the beach with our cousins.",
+       "explain": "Part 7 高频考点：时间词 last weekend 一出现，整句动词都要过去式。"
+      },
+      {
+       "type": "transform",
+       "from": "The film was interesting.",
+       "to_type": "疑问句",
+       "answer": "Was the film interesting?",
+       "explain": "口语 Part 2 常要互相提问：was 搬到句首即可。"
+      },
+      {
+       "type": "fill",
+       "q": "综合：My sister and I ___ members of the school orchestra.",
+       "answer": "are",
+       "explain": "my sister and I = we → are。说「是……的成员」身份 → be。"
+      }
+     ]
+    }
    ]
   },
   {
