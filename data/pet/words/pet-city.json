@@ -246,7 +246,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "bridge 谐音\"不日几\"不对,记\"布日之\"——横在河上让人过河的就是桥。"
+        "tip": "bridge 谐音\"布日之\"——横在河上让人过河的就是桥。"
       },
       "petExam": {
         "frequency": "medium",
@@ -281,7 +281,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "tower 谐音\"套儿\"不对,记\"陶尔\"——又高又直、直插云霄的就是塔。"
+        "tip": "tower 谐音\"陶尔\"——又高又直、直插云霄的就是塔。"
       },
       "petExam": {
         "frequency": "low",
@@ -316,7 +316,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "castle 谐音\"卡手\"不对,记\"卡搜\"——t不发音;高墙厚壁、住着国王的就是城堡。"
+        "tip": "castle 谐音\"卡搜\"——t不发音;高墙厚壁、住着国王的就是城堡。"
       },
       "petExam": {
         "frequency": "low",
@@ -351,7 +351,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "palace 谐音\"怕勒死\"不对,记\"帕乐斯\"——金碧辉煌、住着王室的大宅就是宫殿。"
+        "tip": "palace 谐音\"帕乐斯\"——金碧辉煌、住着王室的大宅就是宫殿。"
       },
       "petExam": {
         "frequency": "low",
@@ -421,7 +421,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "fountain 谐音\"饭疼\"不对,记\"方疼\"——水柱\"哗\"地喷向天的就是喷泉(found=泉源)。"
+        "tip": "fountain 谐音\"方疼\"——水柱\"哗\"地喷向天的就是喷泉(found=泉源)。"
       },
       "petExam": {
         "frequency": "low",
@@ -598,7 +598,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "hotel 谐音\"红太\"不对,记\"齁太欧\"——出门在外供人住宿的地方就是酒店。"
+        "tip": "hotel 谐音\"齁太欧\"——出门在外供人住宿的地方就是酒店。"
       },
       "petExam": {
         "frequency": "high",
@@ -633,7 +633,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "mall 谐音\"摩\"不对,记\"猫\"——各种店铺聚在一起的大商场就是 mall。"
+        "tip": "mall 谐音\"猫\"——各种店铺聚在一起的大商场就是 mall。"
       },
       "petExam": {
         "frequency": "medium",
@@ -738,7 +738,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "traffic 谐音\"拽废客\"不对,记\"拽飞克\"——路上来来往往的车流就是交通。"
+        "tip": "traffic 谐音\"拽飞克\"——路上来来往往的车流就是交通。"
       },
       "petExam": {
         "frequency": "high",
@@ -845,7 +845,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "corner 谐音\"扣呢\"不对,记\"考呢\"——两条边相交、拐弯的地方就是拐角。"
+        "tip": "corner 谐音\"考呢\"——两条边相交、拐弯的地方就是拐角。"
       },
       "petExam": {
         "frequency": "medium",
@@ -923,7 +923,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "modern 谐音\"骂等\"不对,记\"莫等\"——紧跟当下、别落后于时代的就是现代的。"
+        "tip": "modern 谐音\"莫等\"——紧跟当下、别落后于时代的就是现代的。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1174,7 +1174,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "cathedral 谐音\"卡西着扰\"不对,记\"卡瑟准\"——城里最大最气派的教堂就是大教堂。"
+        "tip": "cathedral 谐音\"卡瑟准\"——城里最大最气派的教堂就是大教堂。"
       },
       "petExam": {
         "frequency": "low",
@@ -1211,7 +1211,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "public 谐音\"扒不理克\"不对,记\"帕布利克\"——大家都能用的、属于公众的就是公共的。"
+        "tip": "public 谐音\"帕布利克\"——大家都能用的、属于公众的就是公共的。"
       },
       "petExam": {
         "frequency": "high",
@@ -1246,7 +1246,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "crowd 谐音\"烤肉的\"不对,记\"克劳德\"——黑压压挤在一起的一大群人就是人群。"
+        "tip": "crowd 谐音\"克劳德\"——黑压压挤在一起的一大群人就是人群。"
       },
       "petExam": {
         "frequency": "medium",

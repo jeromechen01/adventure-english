@@ -30,7 +30,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "shirt 谐音\"社\"不对,记\"绍特\"——上身穿的、带领子扣扣子的就是衬衫。"
+        "tip": "shirt 谐音\"绍特\"——上身穿的、带领子扣扣子的就是衬衫。"
       },
       "petExam": {
         "frequency": "medium",
@@ -102,7 +102,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "jeans 谐音\"进死\"不对,记\"记恩子\"——耐磨的蓝布裤子就是牛仔裤(总用复数)。"
+        "tip": "jeans 谐音\"记恩子\"——耐磨的蓝布裤子就是牛仔裤(总用复数)。"
       },
       "petExam": {
         "frequency": "medium",
@@ -137,7 +137,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "dress 谐音\"追死\"不对,记\"抓死\"——上下连体的裙子就是 dress;动词是\"穿衣\"。"
+        "tip": "dress 谐音\"抓死\"——上下连体的裙子就是 dress;动词是\"穿衣\"。"
       },
       "petExam": {
         "frequency": "medium",
@@ -172,7 +172,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "skirt 谐音\"死盖它\"不对,记\"斯克特\"——只围下半身的就是半身裙(区别 dress 连衣裙)。"
+        "tip": "skirt 谐音\"斯克特\"——只围下半身的就是半身裙(区别 dress 连衣裙)。"
       },
       "petExam": {
         "frequency": "medium",
@@ -384,7 +384,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "scarf 谐音\"死尬夫\"不对,记\"斯卡夫\"——绕在脖子上保暖的就是围巾。"
+        "tip": "scarf 谐音\"斯卡夫\"——绕在脖子上保暖的就是围巾。"
       },
       "petExam": {
         "frequency": "low",
@@ -419,7 +419,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "glove 谐音\"割乱夫\"不对,记\"格拉夫\"——里面藏 love,像双手被温暖\"爱\"着的就是手套。"
+        "tip": "glove 谐音\"格拉夫\"——里面藏 love,像双手被温暖\"爱\"着的就是手套。"
       },
       "petExam": {
         "frequency": "low",
@@ -559,7 +559,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "boots 谐音\"不次\"不对,记\"布次\"——包住脚踝、高帮的鞋就是靴子。"
+        "tip": "boots 谐音\"布次\"——包住脚踝、高帮的鞋就是靴子。"
       },
       "petExam": {
         "frequency": "low",
@@ -666,7 +666,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "pocket 谐音\"抛开它\"不对,记\"泡克特\"——衣服上装小东西的袋子就是口袋。"
+        "tip": "pocket 谐音\"泡克特\"——衣服上装小东西的袋子就是口袋。"
       },
       "petExam": {
         "frequency": "medium",
@@ -736,7 +736,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "zip 谐音\"日\"不对,记拟声\"滋~\"——拉上时\"滋\"一声的就是拉链。"
+        "tip": "zip 拟声\"滋~\"——拉上时\"滋\"一声的就是拉链。"
       },
       "petExam": {
         "frequency": "low",
@@ -1092,7 +1092,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "cotton 谐音\"扣疼\"不对,记\"卡疼\"——棉花做的、软软透气的布料就是棉。"
+        "tip": "cotton 谐音\"卡疼\"——棉花做的、软软透气的布料就是棉。"
       },
       "petExam": {
         "frequency": "low",
@@ -1127,7 +1127,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "wool 谐音\"乌\"不对,记\"呜\"——绵羊身上\"咩\"下的暖毛就是羊毛。"
+        "tip": "wool 谐音\"呜\"——绵羊身上\"咩\"下的暖毛就是羊毛。"
       },
       "petExam": {
         "frequency": "low",
@@ -1162,7 +1162,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "leather 谐音\"雷惹\"不对,记\"莱泽\"——动物皮鞣制成的料子就是皮革。"
+        "tip": "leather 谐音\"莱泽\"——动物皮鞣制成的料子就是皮革。"
       },
       "petExam": {
         "frequency": "low",

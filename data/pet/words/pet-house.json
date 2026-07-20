@@ -32,7 +32,7 @@
         { "en": "The roof leaks when it rains.", "zh": "下雨时屋顶会漏。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "roof 谐音\"入夫\"不对,记\"路夫\"——两个 o 像屋顶两片瓦,盖在房子最上面。" },
+      "mnemonic": { "type": "sound", "tip": "roof 谐音\"路夫\"——两个 o 像屋顶两片瓦,盖在房子最上面。" },
       "petExam": { "frequency": "medium", "collocations": ["on the roof", "a flat roof"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "He fixed his bike in the garage.", "zh": "他在车库里修自行车。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "garage 谐音\"嘎拉纸\"不对,记\"嘎拉日\"——停车、放杂物的房间就是车库。" },
+      "mnemonic": { "type": "sound", "tip": "garage 谐音\"嘎拉日\"——停车、放杂物的房间就是车库。" },
       "petExam": { "frequency": "low", "collocations": ["in the garage", "a car garage"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "The cat jumped over the fence.", "zh": "猫跳过了栅栏。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "fence 谐音\"防死\"不对,记\"翻死\"——围起来\"防\"人翻进来的就是栅栏。" },
+      "mnemonic": { "type": "sound", "tip": "fence 谐音\"翻死\"——围起来\"防\"人翻进来的就是栅栏。" },
       "petExam": { "frequency": "low", "collocations": ["a wooden fence", "over the fence"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "The room has little furniture.", "zh": "这个房间家具很少。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "furniture 谐音\"发你车\"不对,记\"佛尼车\"——桌椅床柜等摆设的总称就是家具(不可数)。" },
+      "mnemonic": { "type": "sound", "tip": "furniture 谐音\"佛尼车\"——桌椅床柜等摆设的总称就是家具(不可数)。" },
       "petExam": { "frequency": "medium", "collocations": ["buy furniture", "a piece of furniture"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "The sofa has soft cushions.", "zh": "沙发上有柔软的靠垫。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "cushion 谐音\"库审\"不对,记\"酷神\"——软软一垫,坐得舒服就是靠垫。" },
+      "mnemonic": { "type": "sound", "tip": "cushion 谐音\"酷神\"——软软一垫,坐得舒服就是靠垫。" },
       "petExam": { "frequency": "low", "collocations": ["a soft cushion", "a sofa cushion"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "Put the cups on the top shelf.", "zh": "把杯子放到上层架子。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "shelf 谐音\"晒夫\"不对,记\"谢尔夫\"——复数变 shelves,墙上放东西的板就是架子。" },
+      "mnemonic": { "type": "sound", "tip": "shelf 谐音\"谢尔夫\"——复数变 shelves,墙上放东西的板就是架子。" },
       "petExam": { "frequency": "medium", "collocations": ["on the shelf", "a book shelf"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "The kettle is boiling.", "zh": "水壶开了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "kettle 谐音\"客头\"不对,记\"开头\"——烧开水时\"咕嘟\"响的壶就是水壶。" },
+      "mnemonic": { "type": "sound", "tip": "kettle 谐音\"开头\"——烧开水时\"咕嘟\"响的壶就是水壶。" },
       "petExam": { "frequency": "low", "collocations": ["boil the kettle", "put the kettle on"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "She put her head on the pillow.", "zh": "她把头靠在枕头上。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "pillow 谐音\"批漏\"不对,记\"皮漏\"——软软垫在头下睡觉的就是枕头。" },
+      "mnemonic": { "type": "sound", "tip": "pillow 谐音\"皮漏\"——软软垫在头下睡觉的就是枕头。" },
       "petExam": { "frequency": "low", "collocations": ["a soft pillow", "on the pillow"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "It's cold, so use two blankets.", "zh": "天冷,盖两条毯子吧。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "blanket 谐音\"不烂客特\"不对,记\"布软克\"——一块厚布盖着暖身就是毯子。" },
+      "mnemonic": { "type": "sound", "tip": "blanket 谐音\"布软克\"——一块厚布盖着暖身就是毯子。" },
       "petExam": { "frequency": "low", "collocations": ["a warm blanket", "under a blanket"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "There is a mirror on the wall.", "zh": "墙上有一面镜子。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "mirror 谐音\"密热\"不对,记\"米若\"——照出你模样的就是镜子。" },
+      "mnemonic": { "type": "sound", "tip": "mirror 谐音\"米若\"——照出你模样的就是镜子。" },
       "petExam": { "frequency": "medium", "collocations": ["look in the mirror", "a wall mirror"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "There is a lamp beside the bed.", "zh": "床边有一盏灯。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "lamp 谐音\"栏普\"不对,记\"蓝普\"——一按就亮的灯就是 lamp。" },
+      "mnemonic": { "type": "sound", "tip": "lamp 谐音\"蓝普\"——一按就亮的灯就是 lamp。" },
       "petExam": { "frequency": "medium", "collocations": ["turn on the lamp", "a desk lamp"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "The rent is quite high here.", "zh": "这里的租金相当高。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "rent 谐音\"人特\"不对,记\"润\"——每月付钱\"润\"手让你住,就是租。" },
+      "mnemonic": { "type": "sound", "tip": "rent 谐音\"润\"——每月付钱\"润\"手让你住,就是租。" },
       "petExam": { "frequency": "medium", "collocations": ["pay the rent", "rent a flat"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "Help me move the sofa.", "zh": "帮我搬一下沙发。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "move 谐音\"木富\"不对,记\"姆夫\"——把家当搬到新地方就是 move(house)。" },
+      "mnemonic": { "type": "sound", "tip": "move 谐音\"姆夫\"——把家当搬到新地方就是 move(house)。" },
       "petExam": { "frequency": "high", "collocations": ["move house", "move in"] }
     },
     {
@@ -352,7 +352,7 @@
         { "en": "Please tidy up your desk.", "zh": "请收拾一下你的书桌。" }
       ],
       "synonyms": ["neat"], "antonyms": ["messy"], "difficulty": 2, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "tidy 谐音\"太底\"不对,记\"泰迪\"——像泰迪熊摆得整整齐齐就是整洁。" },
+      "mnemonic": { "type": "sound", "tip": "tidy 谐音\"泰迪\"——像泰迪熊摆得整整齐齐就是整洁。" },
       "petExam": { "frequency": "medium", "collocations": ["a tidy room", "tidy up"] }
     },
     {
@@ -382,7 +382,7 @@
         { "en": "We sat by the cosy fire.", "zh": "我们坐在温暖舒适的炉火边。" }
       ],
       "synonyms": ["comfortable"], "antonyms": [], "difficulty": 3, "tags": ["house"],
-      "mnemonic": { "type": "sound", "tip": "cosy 谐音\"抠日\"不对,记\"扣子\"——小而暖、窝着像扣进被窝一样舒服就是 cosy。" },
+      "mnemonic": { "type": "sound", "tip": "cosy 谐音\"扣子\"——小而暖、窝着像扣进被窝一样舒服就是 cosy。" },
       "petExam": { "frequency": "low", "collocations": ["a cosy room", "warm and cosy"] }
     }
   ]

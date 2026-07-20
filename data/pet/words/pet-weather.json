@@ -102,7 +102,7 @@
         { "en": "We heard thunder in the distance.", "zh": "我们听到远处的雷声。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "thunder 谐音\"三的\"不对,记\"闪的\"——先闪电后\"轰\"的一声雷。" },
+      "mnemonic": { "type": "sound", "tip": "thunder 谐音\"闪的\"——先闪电后\"轰\"的一声雷。" },
       "petExam": { "frequency": "low", "collocations": ["thunder and lightning", "hear thunder"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "The breeze moved the curtains.", "zh": "微风吹动了窗帘。" }
       ],
       "synonyms": [], "antonyms": ["gale"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "breeze 谐音\"不理死\"不对,记\"卜瑞子\"——轻轻的\"呼~\"一阵就是微风。" },
+      "mnemonic": { "type": "sound", "tip": "breeze 谐音\"卜瑞子\"——轻轻的\"呼~\"一阵就是微风。" },
       "petExam": { "frequency": "low", "collocations": ["a gentle breeze", "a cool breeze"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "My hands froze in the cold.", "zh": "我的手冻僵了。" }
       ],
       "synonyms": [], "antonyms": ["melt"], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "freeze 谐音\"腐立死\"不对,记\"福瑞子\"——冷到\"哆嗦\"结成冰(过去式 froze)。" },
+      "mnemonic": { "type": "sound", "tip": "freeze 谐音\"福瑞子\"——冷到\"哆嗦\"结成冰(过去式 froze)。" },
       "petExam": { "frequency": "low", "collocations": ["freeze over", "the lake freezes"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "Take an umbrella; it's wet outside.", "zh": "带把伞,外面在下雨。" }
       ],
       "synonyms": [], "antonyms": ["dry"], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "wet 谐音\"喂它\"不对,记\"喂特\"——被雨\"喂\"了一身水就是湿。" },
+      "mnemonic": { "type": "sound", "tip": "wet 谐音\"喂特\"——被雨\"喂\"了一身水就是湿。" },
       "petExam": { "frequency": "medium", "collocations": ["get wet", "wet weather"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "Wear a coat; it's chilly today.", "zh": "穿件外套,今天有点冷。" }
       ],
       "synonyms": ["cold"], "antonyms": ["warm"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "chilly 谐音\"痴离\"不对,记\"齐力\"——冷得直打\"激灵\",微冷就是 chilly。" },
+      "mnemonic": { "type": "sound", "tip": "chilly 谐音\"齐力\"——冷得直打\"激灵\",微冷就是 chilly。" },
       "petExam": { "frequency": "low", "collocations": ["a chilly morning", "feel chilly"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "We enjoyed the mild spring weather.", "zh": "我们享受着温和的春日天气。" }
       ],
       "synonyms": ["gentle"], "antonyms": ["harsh"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "mild 谐音\"卖的\"不对,记\"迈欧德\"——不冷不热、温温和和就是 mild。" },
+      "mnemonic": { "type": "sound", "tip": "mild 谐音\"迈欧德\"——不冷不热、温温和和就是 mild。" },
       "petExam": { "frequency": "low", "collocations": ["a mild winter", "mild weather"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "Many homes were lost in the flood.", "zh": "许多房屋在洪水中被毁。" }
       ],
       "synonyms": [], "antonyms": ["drought"], "difficulty": 3, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "flood 谐音\"服了的\"不对,记\"福辣的\"——水漫上来\"哗哗\"淹一片就是洪水(oo读/ʌ/)。" },
+      "mnemonic": { "type": "sound", "tip": "flood 谐音\"福辣的\"——水漫上来\"哗哗\"淹一片就是洪水(oo读/ʌ/)。" },
       "petExam": { "frequency": "low", "collocations": ["cause a flood", "a serious flood"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "There are four seasons in a year.", "zh": "一年有四个季节。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "season 谐音\"细怎\"不对,记\"西子\"——春夏秋冬各有\"姿\"色,四时轮转就是季节。" },
+      "mnemonic": { "type": "sound", "tip": "season 谐音\"西子\"——春夏秋冬各有\"姿\"色,四时轮转就是季节。" },
       "petExam": { "frequency": "medium", "collocations": ["the rainy season", "four seasons"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "Dark clouds filled the sky.", "zh": "乌云布满了天空。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["weather"],
-      "mnemonic": { "type": "sound", "tip": "sky 谐音\"死盖\"不对,记\"斯盖\"——罩在头顶上的大盖子就是天空。" },
+      "mnemonic": { "type": "sound", "tip": "sky 谐音\"斯盖\"——罩在头顶上的大盖子就是天空。" },
       "petExam": { "frequency": "medium", "collocations": ["a clear sky", "in the sky"] }
     },
     {

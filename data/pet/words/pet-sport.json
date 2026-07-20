@@ -82,7 +82,7 @@
         { "en": "Our team became champions.", "zh": "我们队夺得了冠军。" }
       ],
       "synonyms": ["winner"], "antonyms": [], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "champion 谐音\"蒋扁\"不对,记\"掌拼\"——凭真本事掌握全场、拼到第一就是冠军。" },
+      "mnemonic": { "type": "sound", "tip": "champion 谐音\"掌拼\"——凭真本事掌握全场、拼到第一就是冠军。" },
       "petExam": { "frequency": "medium", "collocations": ["a world champion", "become a champion"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "Fans filled the stadium.", "zh": "球迷挤满了体育场。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "stadium 谐音\"死堆姆\"不对,记\"斯泰迪姆\"——万人\"堆\"在一起看比赛的大场子。" },
+      "mnemonic": { "type": "sound", "tip": "stadium 谐音\"斯泰迪姆\"——万人\"堆\"在一起看比赛的大场子。" },
       "petExam": { "frequency": "low", "collocations": ["a football stadium", "fill the stadium"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "He proudly showed his medal.", "zh": "他自豪地展示奖牌。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "medal 谐音\"没打\"不对,记\"美倒\"——一枚奖牌美得让人倾倒。" },
+      "mnemonic": { "type": "sound", "tip": "medal 谐音\"美倒\"——一枚奖牌美得让人倾倒。" },
       "petExam": { "frequency": "medium", "collocations": ["a gold medal", "win a medal"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "First prize is a new bike.", "zh": "一等奖是一辆新自行车。" }
       ],
       "synonyms": ["award"], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "prize 谐音\"扑来死\"不对,记\"派子\"——赢了就给你派个奖。" },
+      "mnemonic": { "type": "sound", "tip": "prize 谐音\"派子\"——赢了就给你派个奖。" },
       "petExam": { "frequency": "medium", "collocations": ["win a prize", "first prize"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "Jogging is good for your heart.", "zh": "慢跑对心脏有益。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "jog 谐音\"焦割\"不对,记\"轧\"——脚步不紧不慢地\"轧\"过地面就是慢跑。" },
+      "mnemonic": { "type": "sound", "tip": "jog 谐音\"轧\"——脚步不紧不慢地\"轧\"过地面就是慢跑。" },
       "petExam": { "frequency": "low", "collocations": ["go jogging", "jog in the park"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "He learned to skate at six.", "zh": "他六岁学会了滑冰。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["sport"],
-      "mnemonic": { "type": "sound", "tip": "skate 谐音\"死盖它\"不对,记\"斯给它\"——冰刀\"嘶\"地划过冰面就是滑冰。" },
+      "mnemonic": { "type": "sound", "tip": "skate 谐音\"斯给它\"——冰刀\"嘶\"地划过冰面就是滑冰。" },
       "petExam": { "frequency": "low", "collocations": ["go skating", "ice skate"] }
     },
     {

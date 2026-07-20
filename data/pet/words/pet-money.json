@@ -32,7 +32,7 @@
         { "en": "My purse is in my bag.", "zh": "我的钱包在包里。" }
       ],
       "synonyms": ["wallet"], "antonyms": [], "difficulty": 2, "tags": ["money"],
-      "mnemonic": { "type": "sound", "tip": "purse 谐音\"泼死\"不对,记\"破斯\"——装零钱的小袋子就是钱包。" },
+      "mnemonic": { "type": "sound", "tip": "purse 谐音\"破斯\"——装零钱的小袋子就是钱包。" },
       "petExam": { "frequency": "low", "collocations": ["open a purse", "money in a purse"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "The price includes tax.", "zh": "这个价格含税。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "sound", "tip": "tax 谐音\"太可死\"不对,记\"泰克斯\"——交给国家的那份钱就是税。" },
+      "mnemonic": { "type": "sound", "tip": "tax 谐音\"泰克斯\"——交给国家的那份钱就是税。" },
       "petExam": { "frequency": "low", "collocations": ["pay tax", "income tax"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "The film is worth watching.", "zh": "这部电影值得一看。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["money"],
-      "mnemonic": { "type": "sound", "tip": "worth 谐音\"我死\"不对,记\"沃斯\"——值多少钱、值不值得的\"值\"就是 worth。" },
+      "mnemonic": { "type": "sound", "tip": "worth 谐音\"沃斯\"——值多少钱、值不值得的\"值\"就是 worth。" },
       "petExam": { "frequency": "medium", "collocations": ["worth doing", "be worth"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "She works for a children's charity.", "zh": "她在一家儿童慈善机构工作。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["money"],
-      "mnemonic": { "type": "sound", "tip": "charity 谐音\"differ\"不对,记\"茶瑞题\"——出于爱心帮助他人就是慈善。" },
+      "mnemonic": { "type": "sound", "tip": "charity 谐音\"茶瑞题\"——出于爱心帮助他人就是慈善。" },
       "petExam": { "frequency": "low", "collocations": ["give to charity", "a charity event"] }
     },
     {

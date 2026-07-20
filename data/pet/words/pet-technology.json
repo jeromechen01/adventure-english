@@ -82,7 +82,7 @@
         { "en": "The phone has a large screen.", "zh": "这部手机屏幕很大。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["technology"],
-      "mnemonic": { "type": "sound", "tip": "screen 谐音\"死珂林\"不对,记\"斯克林\"——发光显示画面的那块板就是屏幕。" },
+      "mnemonic": { "type": "sound", "tip": "screen 谐音\"斯克林\"——发光显示画面的那块板就是屏幕。" },
       "petExam": { "frequency": "high", "collocations": ["a phone screen", "screen time"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "I saved the file on my laptop.", "zh": "我把文件存在笔记本电脑上。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["technology"],
-      "mnemonic": { "type": "sound", "tip": "file 谐音\"发儿\"不对,记\"废\"反着想——电脑里一份份有用的资料就是文件。" },
+      "mnemonic": { "type": "sound", "tip": "file 谐音\"废\"反着想——电脑里一份份有用的资料就是文件。" },
       "petExam": { "frequency": "medium", "collocations": ["open a file", "save a file"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "I searched everywhere for my keys.", "zh": "我到处找我的钥匙。" }
       ],
       "synonyms": ["look for"], "antonyms": [], "difficulty": 2, "tags": ["technology"],
-      "mnemonic": { "type": "sound", "tip": "search 谐音\"色曲\"不对,记\"设尺\"——在信息海里\"设\"个关键词去查找就是搜索。" },
+      "mnemonic": { "type": "sound", "tip": "search 谐音\"设尺\"——在信息海里\"设\"个关键词去查找就是搜索。" },
       "petExam": { "frequency": "high", "collocations": ["search for", "a search engine"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "They chatted about the film.", "zh": "他们聊起了那部电影。" }
       ],
       "synonyms": ["talk"], "antonyms": [], "difficulty": 1, "tags": ["technology"],
-      "mnemonic": { "type": "sound", "tip": "chat 谐音\"掐它\"不对,记\"恰\"——三两句\"恰\"上话就是聊天。" },
+      "mnemonic": { "type": "sound", "tip": "chat 谐音\"恰\"——三两句\"恰\"上话就是聊天。" },
       "petExam": { "frequency": "medium", "collocations": ["chat online", "a chat with"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "Turn off your devices at night.", "zh": "晚上关掉你的电子设备。" }
       ],
       "synonyms": ["gadget"], "antonyms": [], "difficulty": 3, "tags": ["technology"],
-      "mnemonic": { "type": "sound", "tip": "device 谐音\"低歪死\"不对,记\"地歪斯\"——一件件精巧的机器装置就是设备。" },
+      "mnemonic": { "type": "sound", "tip": "device 谐音\"地歪斯\"——一件件精巧的机器装置就是设备。" },
       "petExam": { "frequency": "medium", "collocations": ["an electronic device", "a mobile device"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "Robots help build cars.", "zh": "机器人帮助造汽车。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["technology"],
-      "mnemonic": { "type": "sound", "tip": "robot 谐音\"肉包特\"不对,记\"若薄特\"——会干活的机器\"人\"就是 robot。" },
+      "mnemonic": { "type": "sound", "tip": "robot 谐音\"若薄特\"——会干活的机器\"人\"就是 robot。" },
       "petExam": { "frequency": "medium", "collocations": ["a cleaning robot", "build a robot"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "She deleted the message by mistake.", "zh": "她不小心删了那条消息。" }
       ],
       "synonyms": ["remove"], "antonyms": [], "difficulty": 3, "tags": ["technology"],
-      "mnemonic": { "type": "sound", "tip": "delete 谐音\"地里它\"不对,记\"抵离它\"——把它从设备里\"清\"走就是删除。" },
+      "mnemonic": { "type": "sound", "tip": "delete 谐音\"抵离它\"——把它从设备里\"清\"走就是删除。" },
       "petExam": { "frequency": "medium", "collocations": ["delete a file", "delete a message"] }
     },
     {

@@ -22,7 +22,7 @@
         { "en": "We rolled down the grassy hill.", "zh": "我们从草坡上滚下来。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "hill 谐音\"稀\"不对,记\"希欧\"——比 mountain 矮一截的小土包就是山丘。" },
+      "mnemonic": { "type": "sound", "tip": "hill 谐音\"希欧\"——比 mountain 矮一截的小土包就是山丘。" },
       "petExam": { "frequency": "medium", "collocations": ["a small hill", "on the hill"] }
     },
     {
@@ -42,7 +42,7 @@
         { "en": "We swam in the river.", "zh": "我们在河里游泳。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "river 谐音\"日我\"不对,记\"瑞我\"——弯弯曲曲、日夜流淌的大水道就是河。" },
+      "mnemonic": { "type": "sound", "tip": "river 谐音\"瑞我\"——弯弯曲曲、日夜流淌的大水道就是河。" },
       "petExam": { "frequency": "medium", "collocations": ["a long river", "by the river"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "We planted a tree in the garden.", "zh": "我们在花园里种了一棵树。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "tree 谐音\"追\"不对,记\"缀\"——枝叶点\"缀\"、拔地而起的就是树。" },
+      "mnemonic": { "type": "sound", "tip": "tree 谐音\"缀\"——枝叶点\"缀\"、拔地而起的就是树。" },
       "petExam": { "frequency": "medium", "collocations": ["a tall tree", "climb a tree"] }
     },
     {
@@ -102,7 +102,7 @@
         { "en": "The tree has many branches.", "zh": "这棵树有很多枝丫。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "branch 谐音\"不软吃\"不对,记\"布兰奇\"——从树干分叉伸出的就是树枝。" },
+      "mnemonic": { "type": "sound", "tip": "branch 谐音\"布兰奇\"——从树干分叉伸出的就是树枝。" },
       "petExam": { "frequency": "low", "collocations": ["a tree branch", "on the branch"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "Roots take water from the soil.", "zh": "根从土壤里吸水。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "root 谐音\"入他\"不对,记\"入土\"——扎进土里、吸水固定树木的就是根。" },
+      "mnemonic": { "type": "sound", "tip": "root 谐音\"入土\"——扎进土里、吸水固定树木的就是根。" },
       "petExam": { "frequency": "low", "collocations": ["deep roots", "a tree's roots"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "Please keep off the grass.", "zh": "请勿践踏草坪。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "grass 谐音\"歌拉死\"不对,记\"格拉斯\"——绿油油铺满地面的就是草。" },
+      "mnemonic": { "type": "sound", "tip": "grass 谐音\"格拉斯\"——绿油油铺满地面的就是草。" },
       "petExam": { "frequency": "medium", "collocations": ["green grass", "on the grass"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "A big tree grows from a tiny seed.", "zh": "参天大树由小小的种子长成。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "seed 谐音\"细的\"不对,记\"斯依德\"——埋下去能长成植物的小粒就是种子。" },
+      "mnemonic": { "type": "sound", "tip": "seed 谐音\"斯依德\"——埋下去能长成植物的小粒就是种子。" },
       "petExam": { "frequency": "low", "collocations": ["plant a seed", "a flower seed"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "The field is full of yellow flowers.", "zh": "田野里开满了黄花。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "field 谐音\"飞欧的\"不对,记\"飞尔德\"——一大片平坦的种植地就是田野。" },
+      "mnemonic": { "type": "sound", "tip": "field 谐音\"飞尔德\"——一大片平坦的种植地就是田野。" },
       "petExam": { "frequency": "medium", "collocations": ["in the field", "a green field"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "The beach was crowded in summer.", "zh": "夏天海滩上很拥挤。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "beach 谐音\"必吃\"不对,记\"比取\"——海边铺满沙子的地带就是海滩。" },
+      "mnemonic": { "type": "sound", "tip": "beach 谐音\"比取\"——海边铺满沙子的地带就是海滩。" },
       "petExam": { "frequency": "medium", "collocations": ["on the beach", "a sandy beach"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "We drove along the coast.", "zh": "我们沿着海岸开车。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "coast 谐音\"扣死他\"不对,记\"扣斯特\"——陆地和海相接的边缘就是海岸。" },
+      "mnemonic": { "type": "sound", "tip": "coast 谐音\"扣斯特\"——陆地和海相接的边缘就是海岸。" },
       "petExam": { "frequency": "low", "collocations": ["on the coast", "the south coast"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "The path was covered with rocks.", "zh": "小路上满是石头。" }
       ],
       "synonyms": ["stone"], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "rock 谐音\"落\"不对,记\"若克\"——山上硬邦邦的大石块就是岩石。" },
+      "mnemonic": { "type": "sound", "tip": "rock 谐音\"若克\"——山上硬邦邦的大石块就是岩石。" },
       "petExam": { "frequency": "medium", "collocations": ["a big rock", "on the rocks"] }
     },
     {
@@ -232,7 +232,7 @@
         { "en": "Warm sand felt nice on my feet.", "zh": "温暖的沙子踩上去很舒服。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "sand 谐音\"三的\"不对,记\"散的\"——海边一粒粒松散的就是沙子。" },
+      "mnemonic": { "type": "sound", "tip": "sand 谐音\"散的\"——海边一粒粒松散的就是沙子。" },
       "petExam": { "frequency": "low", "collocations": ["play in the sand", "soft sand"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "The soil here is dry.", "zh": "这里的土很干。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "soil 谐音\"扫哦\"不对,记\"搔哦\"——能种庄稼、埋种子的泥就是土壤。" },
+      "mnemonic": { "type": "sound", "tip": "soil 谐音\"搔哦\"——能种庄稼、埋种子的泥就是土壤。" },
       "petExam": { "frequency": "low", "collocations": ["rich soil", "dry soil"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "A full moon rose over the sea.", "zh": "一轮满月从海上升起。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "moon 谐音\"母嗯\"不对,记\"目\"——两个 o 像夜空中圆圆的月亮。" },
+      "mnemonic": { "type": "sound", "tip": "moon 谐音\"目\"——两个 o 像夜空中圆圆的月亮。" },
       "petExam": { "frequency": "low", "collocations": ["a full moon", "under the moon"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "Follow the path through the woods.", "zh": "沿着这条小路穿过树林。" }
       ],
       "synonyms": ["trail"], "antonyms": [], "difficulty": 2, "tags": ["nature"],
-      "mnemonic": { "type": "sound", "tip": "path 谐音\"怕死\"不对,记\"帕斯\"——林间田野踩出来的窄窄一条就是小路。" },
+      "mnemonic": { "type": "sound", "tip": "path 谐音\"帕斯\"——林间田野踩出来的窄窄一条就是小路。" },
       "petExam": { "frequency": "medium", "collocations": ["a narrow path", "follow the path"] }
     },
     {

@@ -42,7 +42,7 @@
         { "en": "She called for help.", "zh": "她大声呼救。" }
       ],
       "synonyms": ["phone", "ring"], "antonyms": [], "difficulty": 1, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "call 谐音\"考\"不对,记\"扣\"——一\"扣\"号码就接通、喊人就是 call。" },
+      "mnemonic": { "type": "sound", "tip": "call 谐音\"扣\"——一\"扣\"号码就接通、喊人就是 call。" },
       "petExam": { "frequency": "high", "collocations": ["call someone", "make a call"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "No one answered the phone.", "zh": "没人接电话。" }
       ],
       "synonyms": ["reply"], "antonyms": ["ask"], "difficulty": 1, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "answer 谐音\"俺涩\"不对,记\"安色\"——w不发音;别人一问就作声回应就是回答。" },
+      "mnemonic": { "type": "sound", "tip": "answer 谐音\"安色\"——w不发音;别人一问就作声回应就是回答。" },
       "petExam": { "frequency": "high", "collocations": ["answer a question", "answer the phone"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "He didn't mention the problem.", "zh": "他没提这个问题。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "mention 谐音\"闷神\"不对,记\"面神\"——把某事在嘴边\"面\"上带一句就是提到。" },
+      "mnemonic": { "type": "sound", "tip": "mention 谐音\"面神\"——把某事在嘴边\"面\"上带一句就是提到。" },
       "petExam": { "frequency": "medium", "collocations": ["mention something", "as mentioned"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "She complained to the manager.", "zh": "她向经理投诉。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "complain 谐音\"抠不赖\"不对,记\"抠不烂\"——翻来覆去挑毛病、发牢骚就是抱怨。" },
+      "mnemonic": { "type": "sound", "tip": "complain 谐音\"抠不烂\"——翻来覆去挑毛病、发牢骚就是抱怨。" },
       "petExam": { "frequency": "medium", "collocations": ["complain about", "complain to"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "They agreed to meet on Friday.", "zh": "他们约定周五见面。" }
       ],
       "synonyms": [], "antonyms": ["disagree"], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "agree 谐音\"额鬼\"不对,记\"我给\"——点头\"我给\"你面子、赞成就是同意。" },
+      "mnemonic": { "type": "sound", "tip": "agree 谐音\"我给\"——点头\"我给\"你面子、赞成就是同意。" },
       "petExam": { "frequency": "high", "collocations": ["agree with", "agree to"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "He greeted his guests at the door.", "zh": "他在门口迎接客人。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "greet 谐音\"哥入特\"不对,记\"格瑞特\"——一见面就\"嗨\"一声打招呼就是问候。" },
+      "mnemonic": { "type": "sound", "tip": "greet 谐音\"格瑞特\"——一见面就\"嗨\"一声打招呼就是问候。" },
       "petExam": { "frequency": "low", "collocations": ["greet someone", "greet warmly"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "He collects stamps from many countries.", "zh": "他收集许多国家的邮票。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "stamp 谐音\"死担扑\"不对,记\"斯坦普\"——一\"戳\"盖上、贴信寄出的小纸片就是邮票。" },
+      "mnemonic": { "type": "sound", "tip": "stamp 谐音\"斯坦普\"——一\"戳\"盖上、贴信寄出的小纸片就是邮票。" },
       "petExam": { "frequency": "low", "collocations": ["stick a stamp", "a postage stamp"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "Please lower your voice.", "zh": "请小声点。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "voice 谐音\"我死\"不对,记\"沃伊斯\"——从嗓子里发出、说话唱歌的声就是嗓音。" },
+      "mnemonic": { "type": "sound", "tip": "voice 谐音\"沃伊斯\"——从嗓子里发出、说话唱歌的声就是嗓音。" },
       "petExam": { "frequency": "medium", "collocations": ["a loud voice", "lower your voice"] }
     },
     {

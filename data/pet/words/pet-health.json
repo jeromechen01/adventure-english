@@ -72,7 +72,7 @@
         { "en": "The child's fever went down at night.", "zh": "孩子的烧到晚上退了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "fever 谐音\"废物\"不对,记\"发我\"——发烧时全身滚烫\"发\"着热。" },
+      "mnemonic": { "type": "sound", "tip": "fever 谐音\"发我\"——发烧时全身滚烫\"发\"着热。" },
       "petExam": { "frequency": "medium", "collocations": ["have a fever", "a high fever"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "Milk helps build strong bones.", "zh": "牛奶有助于强壮骨骼。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "bone 谐音\"波恩\"不对,记\"崩\"——骨头断了\"崩\"的一声。" },
+      "mnemonic": { "type": "sound", "tip": "bone 谐音\"崩\"——骨头断了\"崩\"的一声。" },
       "petExam": { "frequency": "low", "collocations": ["break a bone", "strong bones"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "There was blood on his knee.", "zh": "他膝盖上有血。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "blood 谐音\"不辣的\"不对,记\"卜辣\"——血是红的,读音短促带 oo 读 /ʌ/。" },
+      "mnemonic": { "type": "sound", "tip": "blood 谐音\"卜辣\"——血是红的,读音短促带 oo 读 /ʌ/。" },
       "petExam": { "frequency": "low", "collocations": ["blood pressure", "give blood"] }
     },
     {
@@ -372,7 +372,7 @@
         { "en": "The wound healed in a week.", "zh": "伤口一周就愈合了。" }
       ],
       "synonyms": ["injury"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "wound 谐音\"闻的\"不对,记读音\"乌恩德\"——伤口一疼就\"呜\"地叫。" },
+      "mnemonic": { "type": "sound", "tip": "wound 读音像\"乌恩德\"——伤口一疼就\"呜\"地叫。" },
       "petExam": { "frequency": "low", "collocations": ["clean a wound", "a deep wound"] }
     },
     {

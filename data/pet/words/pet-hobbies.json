@@ -52,7 +52,7 @@
         { "en": "She is learning to knit a hat.", "zh": "她正在学织帽子。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "sound", "tip": "knit 谐音\"逆\"不对,记\"你特\"——k不发音,一针一线\"你来我往\"绕线就是编织。" },
+      "mnemonic": { "type": "sound", "tip": "knit 谐音\"你特\"——k不发音,一针一线\"你来我往\"绕线就是编织。" },
       "petExam": { "frequency": "low", "collocations": ["knit a scarf", "knit a sweater"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "This puzzle is hard to solve.", "zh": "这道谜题很难解。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["hobbies"],
-      "mnemonic": { "type": "sound", "tip": "puzzle 谐音\"扑捉哦\"不对,记\"扒揍\"——一块块拼、绞尽脑汁的就是拼图/谜题。" },
+      "mnemonic": { "type": "sound", "tip": "puzzle 谐音\"扒揍\"——一块块拼、绞尽脑汁的就是拼图/谜题。" },
       "petExam": { "frequency": "low", "collocations": ["do a puzzle", "solve a puzzle"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "She joined a dance group.", "zh": "她加入了一个舞蹈团。" }
       ],
       "synonyms": [], "antonyms": ["leave"], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "sound", "tip": "join 谐音\"揪因\"不对,记\"救\"——把自己\"接\"进一个圈子就是加入。" },
+      "mnemonic": { "type": "sound", "tip": "join 谐音\"救\"——把自己\"接\"进一个圈子就是加入。" },
       "petExam": { "frequency": "high", "collocations": ["join a club", "join a team"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "Club members pay a small fee.", "zh": "俱乐部会员付一点会费。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "sound", "tip": "member 谐音\"么脖\"不对,记\"闷波\"——团体里的一个个人就是成员。" },
+      "mnemonic": { "type": "sound", "tip": "member 谐音\"闷波\"——团体里的一个个人就是成员。" },
       "petExam": { "frequency": "medium", "collocations": ["a club member", "become a member"] }
     },
     {
@@ -332,7 +332,7 @@
         { "en": "The children love magic shows.", "zh": "孩子们喜欢魔术表演。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "sound", "tip": "magic 谐音\"妈计\"不对,记\"马杰克\"——变出让人惊叹的戏法就是魔术。" },
+      "mnemonic": { "type": "sound", "tip": "magic 谐音\"马杰克\"——变出让人惊叹的戏法就是魔术。" },
       "petExam": { "frequency": "low", "collocations": ["a magic trick", "a magic show"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "This is a model of the ship.", "zh": "这是那艘船的模型。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["hobbies"],
-      "mnemonic": { "type": "sound", "tip": "model 谐音\"模斗\"不对,记\"莫都\"——照真物按比例做的小样就是模型。" },
+      "mnemonic": { "type": "sound", "tip": "model 谐音\"莫都\"——照真物按比例做的小样就是模型。" },
       "petExam": { "frequency": "medium", "collocations": ["a model plane", "build a model"] }
     },
     {

@@ -52,7 +52,7 @@
         { "en": "The city produces a lot of waste.", "zh": "这座城市产生大量废物。" }
       ],
       "synonyms": [], "antonyms": ["save"], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "waste 谐音\"喂死它\"不对,记\"位斯特\"——东西没用完就扔=浪费。" },
+      "mnemonic": { "type": "sound", "tip": "waste 谐音\"位斯特\"——东西没用完就扔=浪费。" },
       "petExam": { "frequency": "high", "collocations": ["waste water", "waste time"] }
     },
     {
@@ -62,7 +62,7 @@
         { "en": "The street was full of rubbish.", "zh": "街上到处是垃圾。" }
       ],
       "synonyms": ["trash", "litter"], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "rubbish 谐音\"拉不细\"不对,记\"拉比虚\"——不要的破烂就是垃圾。" },
+      "mnemonic": { "type": "sound", "tip": "rubbish 谐音\"拉比虚\"——不要的破烂就是垃圾。" },
       "petExam": { "frequency": "medium", "collocations": ["throw away rubbish", "a rubbish bin"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "The beach was covered in litter.", "zh": "海滩上满是垃圾。" }
       ],
       "synonyms": ["rubbish"], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "litter 谐音\"李特\"不对,记\"利特\"——随手\"撂\"下的垃圾就是 litter。" },
+      "mnemonic": { "type": "sound", "tip": "litter 谐音\"利特\"——随手\"撂\"下的垃圾就是 litter。" },
       "petExam": { "frequency": "medium", "collocations": ["drop litter", "pick up litter"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "The storm caused a lot of damage.", "zh": "暴风雨造成了很大破坏。" }
       ],
       "synonyms": ["harm"], "antonyms": ["repair"], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "damage 谐音\"打卖具\"不对,记\"打没纪\"——一打就坏、损失惨重就是损害。" },
+      "mnemonic": { "type": "sound", "tip": "damage 谐音\"打没纪\"——一打就坏、损失惨重就是损害。" },
       "petExam": { "frequency": "medium", "collocations": ["cause damage", "damage the environment"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "Save energy by turning off lights.", "zh": "关灯节约能源。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "energy 谐音\"哎呢急\"不对,记\"能挤\"——能\"挤\"出来干活的力量就是能量/能源。" },
+      "mnemonic": { "type": "sound", "tip": "energy 谐音\"能挤\"——能\"挤\"出来干活的力量就是能量/能源。" },
       "petExam": { "frequency": "high", "collocations": ["save energy", "solar energy"] }
     },
     {
@@ -192,7 +192,7 @@
         { "en": "The forest is home to rare birds.", "zh": "这片森林是稀有鸟类的家园。" }
       ],
       "synonyms": ["wood"], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "forest 谐音\"父入死它\"不对,记\"佛瑞斯\"——for+rest(休息),动物歇脚的大片树林就是森林。" },
+      "mnemonic": { "type": "sound", "tip": "forest 谐音\"佛瑞斯\"——for+rest(休息),动物歇脚的大片树林就是森林。" },
       "petExam": { "frequency": "medium", "collocations": ["a thick forest", "cut down a forest"] }
     },
     {
@@ -212,7 +212,7 @@
         { "en": "Many species are in danger.", "zh": "许多物种处于危险中。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "species 谐音\"斯批需\"不对,记\"死劈许\"——单复数同形,一\"种\"生物就是一个 species。" },
+      "mnemonic": { "type": "sound", "tip": "species 谐音\"死劈许\"——单复数同形,一\"种\"生物就是一个 species。" },
       "petExam": { "frequency": "low", "collocations": ["a rare species", "endangered species"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "Earth is the only planet with life.", "zh": "地球是唯一有生命的行星。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "planet 谐音\"扑来捏它\"不对,记\"普来呢\"——像 plane(飞机)绕圈,行星绕太阳转。" },
+      "mnemonic": { "type": "sound", "tip": "planet 谐音\"普来呢\"——像 plane(飞机)绕圈,行星绕太阳转。" },
       "petExam": { "frequency": "medium", "collocations": ["save the planet", "our planet"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "Thick smoke filled the air.", "zh": "浓烟弥漫在空气中。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "smoke 谐音\"死摸克\"不对,记\"斯莫克\"——火一烧就\"呼\"地冒烟。" },
+      "mnemonic": { "type": "sound", "tip": "smoke 谐音\"斯莫克\"——火一烧就\"呼\"地冒烟。" },
       "petExam": { "frequency": "medium", "collocations": ["thick smoke", "cigarette smoke"] }
     },
     {
@@ -352,7 +352,7 @@
         { "en": "The bin is full.", "zh": "垃圾桶满了。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["environment"],
-      "mnemonic": { "type": "sound", "tip": "bin 谐音\"病\"不对,记\"缤\"——各种\"缤纷\"垃圾都往里扔的桶就是 bin。" },
+      "mnemonic": { "type": "sound", "tip": "bin 谐音\"缤\"——各种\"缤纷\"垃圾都往里扔的桶就是 bin。" },
       "petExam": { "frequency": "medium", "collocations": ["a rubbish bin", "throw in the bin"] }
     },
     {

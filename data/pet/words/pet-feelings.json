@@ -150,7 +150,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "afraid 谐音\"饿弗类的\"不对,记\"啊,怕的\"——一\"啊\"就是被吓到、害怕。"
+        "tip": "afraid 谐音\"啊,怕的\"——一\"啊\"就是被吓到、害怕。"
       },
       "petExam": {
         "frequency": "high",
@@ -374,7 +374,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "proud 谐音\"扑绕的\"不对,记\"炮的\"——挺起胸膛像放炮一样神气就是自豪。"
+        "tip": "proud 谐音\"炮的\"——挺起胸膛像放炮一样神气就是自豪。"
       },
       "petExam": {
         "frequency": "medium",
@@ -411,7 +411,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "jealous 谐音\"结落死\"不对,记\"接勒斯\"——看别人好,心里\"结\"个疙瘩就是嫉妒。"
+        "tip": "jealous 谐音\"接勒斯\"——看别人好,心里\"结\"个疙瘩就是嫉妒。"
       },
       "petExam": {
         "frequency": "low",
@@ -711,7 +711,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "shy 谐音\"晒\"不对,记\"孩\"——像小孩见生人躲起来一样就是害羞。"
+        "tip": "shy 谐音\"孩\"——像小孩见生人躲起来一样就是害羞。"
       },
       "petExam": {
         "frequency": "medium",
@@ -816,7 +816,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "embarrassed 谐音\"俺不摞死\"不对,记\"俺巴热死\"——脸\"巴\"地一下涨红、热得慌就是尴尬。"
+        "tip": "embarrassed 谐音\"俺巴热死\"——脸\"巴\"地一下涨红、热得慌就是尴尬。"
       },
       "petExam": {
         "frequency": "low",
@@ -853,7 +853,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "grateful 谐音\"贵too\"不对,记 great(伟大)+ful——把对方的好看得很\"great\"、满心感谢就是感激。"
+        "tip": "great(伟大)+ful——把对方的好看得很大，满心感谢就是感激。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1109,7 +1109,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "mood 谐音\"木的\"不对,记\"目的\"反着想——藏 mo+od,内心此刻的状态就是心情。"
+        "tip": "mood 谐音\"目的\"反着想——藏 mo+od,内心此刻的状态就是心情。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1222,7 +1222,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "cry 谐音\"块\"不对,记\"卡莱\"——\"哇\"地一声掉眼泪就是哭。"
+        "tip": "cry 谐音\"卡莱\"——\"哇\"地一声掉眼泪就是哭。"
       },
       "petExam": {
         "frequency": "medium",

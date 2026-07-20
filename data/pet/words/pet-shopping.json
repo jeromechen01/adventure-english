@@ -72,7 +72,7 @@
         { "en": "What is the price of this bag?", "zh": "这个包多少钱？" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "price 谐音\"扑来死\"不对,记\"派斯\"——标签上派给商品的那个数就是价格。" },
+      "mnemonic": { "type": "sound", "tip": "price 谐音\"派斯\"——标签上派给商品的那个数就是价格。" },
       "petExam": { "frequency": "high", "collocations": ["a high price", "the price of"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "The trip cost a lot of money.", "zh": "这次旅行花了很多钱。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "cost 谐音\"靠死他\"不对,记\"扣死他\"——花钱就是从钱包里\"扣\"掉。" },
+      "mnemonic": { "type": "sound", "tip": "cost 谐音\"扣死他\"——花钱就是从钱包里\"扣\"掉。" },
       "petExam": { "frequency": "high", "collocations": ["cost money", "how much does it cost"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "Take a basket at the entrance.", "zh": "在入口处拿个购物篮。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "basket 谐音\"爸死盖它\"不对,记\"斑丝克\"——篮球 basketball 就是投进 basket(篮)。" },
+      "mnemonic": { "type": "sound", "tip": "basket 谐音\"斑丝克\"——篮球 basketball 就是投进 basket(篮)。" },
       "petExam": { "frequency": "medium", "collocations": ["a shopping basket", "a basket of fruit"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "Which brand do you like best?", "zh": "你最喜欢哪个牌子？" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "brand 谐音\"不然的\"不对,记\"扮的\"——名牌一穿把人\"扮\"得体面,牌子就是 brand。" },
+      "mnemonic": { "type": "sound", "tip": "brand 谐音\"扮的\"——名牌一穿把人\"扮\"得体面,牌子就是 brand。" },
       "petExam": { "frequency": "medium", "collocations": ["a famous brand", "a top brand"] }
     },
     {
@@ -242,7 +242,7 @@
         { "en": "They can't afford to travel this year.", "zh": "他们今年负担不起旅行。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "afford 谐音\"饿佛的\"不对,记\"我付得\"——钱够、付得起就是 afford。" },
+      "mnemonic": { "type": "sound", "tip": "afford 谐音\"我付得\"——钱够、付得起就是 afford。" },
       "petExam": { "frequency": "medium", "collocations": ["can't afford", "afford to buy"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "Don't spend too much on clothes.", "zh": "别在衣服上花太多。" }
       ],
       "synonyms": [], "antonyms": ["save"], "difficulty": 2, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "spend 谐音\"死盆的\"不对,记\"撒盆\"——钱像撒出去一盆水一样花掉。" },
+      "mnemonic": { "type": "sound", "tip": "spend 谐音\"撒盆\"——钱像撒出去一盆水一样花掉。" },
       "petExam": { "frequency": "high", "collocations": ["spend money on", "spend time"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "Buy now and save five pounds.", "zh": "现在买省五英镑。" }
       ],
       "synonyms": [], "antonyms": ["spend"], "difficulty": 2, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "save 谐音\"赛夫\"不对,记\"塞\"——把钱一点点\"塞\"进存钱罐就是储蓄。" },
+      "mnemonic": { "type": "sound", "tip": "save 谐音\"塞\"——把钱一点点\"塞\"进存钱罐就是储蓄。" },
       "petExam": { "frequency": "high", "collocations": ["save money", "save up"] }
     },
     {
@@ -292,7 +292,7 @@
         { "en": "Keep the receipt of your purchase.", "zh": "保留好购物凭证。" }
       ],
       "synonyms": ["buy"], "antonyms": ["sell"], "difficulty": 4, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "purchase 谐音\"破切死\"不对,记\"泼切斯\"——比 buy 更正式的\"购买\"。" },
+      "mnemonic": { "type": "sound", "tip": "purchase 谐音\"泼切斯\"——比 buy 更正式的\"购买\"。" },
       "petExam": { "frequency": "low", "collocations": ["make a purchase", "purchase online"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "I paid by card.", "zh": "我用卡付的款。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["shopping"],
-      "mnemonic": { "type": "sound", "tip": "pay 谐音\"呸\"不对,记\"配\"——一手交钱一手交货,钱货相\"配\"就是付款。" },
+      "mnemonic": { "type": "sound", "tip": "pay 谐音\"配\"——一手交钱一手交货,钱货相\"配\"就是付款。" },
       "petExam": { "frequency": "high", "collocations": ["pay for", "pay by card"] }
     },
     {

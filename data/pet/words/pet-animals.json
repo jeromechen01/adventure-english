@@ -67,7 +67,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "wild 谐音\"歪偶的\"不对,记\"外的\"——在野外自由生长、没被驯的就是野生的。"
+        "tip": "wild 谐音\"外的\"——在野外自由生长、没被驯的就是野生的。"
       },
       "petExam": {
         "frequency": "medium",
@@ -102,7 +102,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "zoo 谐音\"租\"不对,记\"入\"——两个 o 像两只圆眼睛,进去看动物的地方就是动物园。"
+        "tip": "zoo 谐音\"入\"——两个 o 像两只圆眼睛,进去看动物的地方就是动物园。"
       },
       "petExam": {
         "frequency": "medium",
@@ -137,7 +137,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "cage 谐音\"could\"不对,记\"凯奇\"——一根根栏杆围成、关动物的就是笼子。"
+        "tip": "cage 谐音\"凯奇\"——一根根栏杆围成、关动物的就是笼子。"
       },
       "petExam": {
         "frequency": "low",
@@ -172,7 +172,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "wing 谐音\"翁\"不对,记\"文\"——扇动起来\"呼呼\"的、能飞的就是翅膀。"
+        "tip": "wing 谐音\"文\"——扇动起来\"呼呼\"的、能飞的就是翅膀。"
       },
       "petExam": {
         "frequency": "low",
@@ -207,7 +207,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "tail 谐音\"忒欧\"不对,记\"泰欧\"——和 tale(故事)同音,长在动物屁股后头的就是尾巴。"
+        "tip": "tail 谐音\"泰欧\"——和 tale(故事)同音,长在动物屁股后头的就是尾巴。"
       },
       "petExam": {
         "frequency": "low",
@@ -312,7 +312,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "bee 谐音\"必\"不对,记拟声\"嗡\"——\"嗡嗡\"采蜜的就是蜜蜂。"
+        "tip": "bee 拟声\"嗡\"——\"嗡嗡\"采蜜的就是蜜蜂。"
       },
       "petExam": {
         "frequency": "low",
@@ -382,7 +382,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "spider 谐音\"死掰的\"不对,记\"斯派德\"——八条腿结网抓虫的就是蜘蛛。"
+        "tip": "spider 谐音\"斯派德\"——八条腿结网抓虫的就是蜘蛛。"
       },
       "petExam": {
         "frequency": "low",
@@ -452,7 +452,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "frog 谐音\"服了个\"不对,记拟声\"呱\"——\"呱呱\"叫、蹦蹦跳的就是青蛙。"
+        "tip": "frog 拟声\"呱\"——\"呱呱\"叫、蹦蹦跳的就是青蛙。"
       },
       "petExam": {
         "frequency": "low",
@@ -487,7 +487,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "rabbit 谐音\"来必特\"不对,记\"拉比特\"——长耳朵、蹦蹦跳的就是兔子。"
+        "tip": "rabbit 谐音\"拉比特\"——长耳朵、蹦蹦跳的就是兔子。"
       },
       "petExam": {
         "frequency": "low",
@@ -522,7 +522,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "mouse 谐音\"骂死\"不对,记\"毛斯\"——复数是 mice;电脑上那个也叫 mouse(鼠标)。"
+        "tip": "mouse 谐音\"毛斯\"——复数是 mice;电脑上那个也叫 mouse(鼠标)。"
       },
       "petExam": {
         "frequency": "low",
@@ -732,7 +732,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "elephant 谐音\"爱了饭特\"不对,记\"艾勒粪特\"——长鼻大耳、体型巨大的就是大象。"
+        "tip": "elephant 谐音\"艾勒粪特\"——长鼻大耳、体型巨大的就是大象。"
       },
       "petExam": {
         "frequency": "low",
@@ -767,7 +767,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "monkey 谐音\"忙key\"——上蹿下跳、拿着\"钥匙(key)\"般灵巧的就是猴子。"
+        "tip": "monkey 谐音\"忙奇\"——上蹿下跳、拿着\"钥匙(key)\"般灵巧的就是猴子。"
       },
       "petExam": {
         "frequency": "low",
@@ -802,7 +802,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "giraffe 谐音\"计惹夫\"不对,记\"吉拉夫\"——脖子老长、够得着高处树叶的就是长颈鹿。"
+        "tip": "giraffe 谐音\"吉拉夫\"——脖子老长、够得着高处树叶的就是长颈鹿。"
       },
       "petExam": {
         "frequency": "low",
@@ -837,7 +837,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "dolphin 谐音\"逗腓\"不对,记\"多芬\"——在海里跃出水面、聪明友好的就是海豚。"
+        "tip": "dolphin 谐音\"多芬\"——在海里跃出水面、聪明友好的就是海豚。"
       },
       "petExam": {
         "frequency": "low",
@@ -872,7 +872,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "shark 谐音\"傻克\"不对,记\"沙克\"——里面藏 sharp(锋利),满口尖牙的就是鲨鱼。"
+        "tip": "shark 谐音\"沙克\"——里面藏 sharp(锋利),满口尖牙的就是鲨鱼。"
       },
       "petExam": {
         "frequency": "low",
@@ -907,7 +907,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "eagle 谐音\"衣狗\"不对,记\"伊狗\"——展翅高飞、目光如炬的就是鹰。"
+        "tip": "eagle 谐音\"伊狗\"——展翅高飞、目光如炬的就是鹰。"
       },
       "petExam": {
         "frequency": "low",
@@ -977,7 +977,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "parrot 谐音\"怕肉\"不对,记\"派若特\"——会学人说话、羽毛鲜艳的就是鹦鹉。"
+        "tip": "parrot 谐音\"派若特\"——会学人说话、羽毛鲜艳的就是鹦鹉。"
       },
       "petExam": {
         "frequency": "low",
@@ -1047,7 +1047,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "hunt 谐音\"航特\"不对,记\"狠特\"——悄悄追、狠狠扑抓猎物就是捕猎。"
+        "tip": "hunt 谐音\"狠特\"——悄悄追、狠狠扑抓猎物就是捕猎。"
       },
       "petExam": {
         "frequency": "low",
@@ -1120,7 +1120,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "farm 谐音\"发母\"不对,记\"翻\"——\"翻\"土种地、养鸡养牛的地方就是农场。"
+        "tip": "farm 谐音\"翻\"——\"翻\"土种地、养鸡养牛的地方就是农场。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1155,7 +1155,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "feather 谐音\"费惹\"不对,记\"飞热\"——轻飘飘、能助飞的就是羽毛。"
+        "tip": "feather 谐音\"飞热\"——轻飘飘、能助飞的就是羽毛。"
       },
       "petExam": {
         "frequency": "low",
@@ -1194,7 +1194,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "tame 谐音\"太乖\"不对,记\"泰姆\"——被养熟、乖乖听话的就是驯服的。"
+        "tip": "tame 谐音\"泰姆\"——被养熟、乖乖听话的就是驯服的。"
       },
       "petExam": {
         "frequency": "low",
