@@ -6995,12 +6995,11 @@
        "type": "transform",
        "from": "My room is small. Her room is smaller.（用 than 连成一句）",
        "to_type": "合并",
-       "answer": "My room is smaller than hers.",
+       "answer": "Her room is smaller than mine.",
        "alt": [
-        "Her room is smaller than mine.",
         "My room is bigger than hers."
        ],
-       "explain": "她的房间更小 → Her room is smaller than mine（或反过来说 My room is bigger than hers）。注意比较方向。"
+       "explain": "她的房间更小 → Her room is smaller than mine.（或反过来：My room is bigger than hers.）注意比较方向别写反。"
       },
       {
        "type": "transform",
