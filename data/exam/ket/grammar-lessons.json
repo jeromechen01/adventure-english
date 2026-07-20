@@ -2844,6 +2844,716 @@
      "answer": "One day, a girl was flying a kite in the park.",
      "explain": "开头定调：One day + 过去形状。（意思对即可）"
     }
+   ],
+   "teaching": {
+    "essence": "现在进行 = be + 动词-ing，专拍「此刻正在发生」的直播画面；时态是曲子的调——定了调，整首曲子不能中途转。",
+    "why": "中文说「正在」只加一个词：「我正在写作业」，动词「写」不变。英文要动两处：be 举牌（现在直播中）+ 动词穿 -ing 的演出服，两件套缺一不可。没有 be 的 I doing 和没有 -ing 的 I am do 都不成立。而「调」的问题更隐蔽：中文动词永远不变形，所以中文故事随便讲；英文故事开头定了过去调，后面每个动词都得跟着，一跳调阅卷老师立刻皱眉——就像 G 大调拉到一半突然转降 E。",
+    "rules": [
+     {
+      "point": "现在进行的两件套：be + -ing",
+      "detail": "此刻正在做 → am/is/are + 动词-ing。be 跟主语换面孔（L1 的规矩），动词穿 -ing 演出服。信号词：now / look! / listen!",
+      "examples": [
+       {
+        "en": "Look! The cat is sleeping on my violin case.",
+        "zh": "看！猫正睡在我的琴盒上。"
+       },
+       {
+        "en": "I am doing my homework now.",
+        "zh": "我现在正在写作业。"
+       },
+       {
+        "en": "They are playing basketball in the playground.",
+        "zh": "他们正在操场打篮球。"
+       }
+      ]
+     },
+     {
+      "point": "-ing 的拼写小规则",
+      "detail": "一般直接加 ing（playing）；哑音 e 去掉再加（write→writing, make→making）；短元音+单辅音双写（run→running, swim→swimming, sit→sitting）。",
+      "examples": [
+       {
+        "en": "She is writing a postcard.",
+        "zh": "她正在写明信片。（write 去 e）"
+       },
+       {
+        "en": "The boys are running to the bus stop.",
+        "zh": "男孩们正跑向公交站。（run 双写 n）"
+       }
+      ]
+     },
+     {
+      "point": "一般现在 vs 现在进行：习惯 vs 直播",
+      "detail": "I play the violin = 我会拉/常拉（习惯，随时为真）；I am playing the violin = 我此刻正在拉（直播画面）。问「平时」用一般现在，问「现在这一刻」用进行。",
+      "examples": [
+       {
+        "en": "She plays the piano every day, but now she is playing the drums.",
+        "zh": "她每天弹钢琴，但此刻正在打鼓。"
+       }
+      ]
+     },
+     {
+      "point": "时态一致：故事从头到尾一个调",
+      "detail": "故事开头定了过去调，后面每个动词都盖过去戳；「当时正在做」用过去进行 was/were + -ing——它还是过去调，不算转调。写完自查：把每个动词圈出来，问「它是过去形状吗」。",
+      "examples": [
+       {
+        "en": "One sunny morning, Lily walked to the park. She saw a small dog and gave it some bread.",
+        "zh": "一个晴朗的早晨，莉莉走去公园，看见一只小狗，喂了它面包。（全程过去调）"
+       },
+       {
+        "en": "While we were playing, it started to rain.",
+        "zh": "我们玩着玩着开始下雨了。（过去进行+一般过去，仍是过去调）"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "有些动词几乎不穿 -ing 演出服：like / love / want / know / have（拥有）表示状态而非动作——说 I like music，不说 I am liking music。",
+     "Look! / Listen! 开头的句子九成是现在进行——这两个词就是「直播开始」的提示音。",
+     "现在进行也能说不满：He is always losing his keys!（总是丢钥匙，带抱怨语气）——KET 不考，听到能懂即可。",
+     "判断该用哪个时态的口诀：先找时间词（now? every day? yesterday?），没有时间词就看上下文的调。"
+    ],
+    "commonErrors": [
+     {
+      "wrong": "I doing my homework.",
+      "right": "I am doing my homework.",
+      "why": "两件套丢了 be。中文「我正在写」没有等号，所以 be 最容易丢——本质还是 2 号错误「be 缺失」（红区）。",
+      "impedes": true,
+      "ketPart": "写作 + 口语",
+      "zone": "red"
+     },
+     {
+      "wrong": "Look! She dances on the stage.",
+      "right": "Look! She is dancing on the stage.",
+      "why": "Look! 是直播提示音，此刻正在发生 → 要两件套。用一般现在成了「她（平时）在台上跳舞」。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "When they are in the lake, they ate some bread.",
+      "right": "When they were in the lake, they ate some bread.",
+      "why": "3 号错误「叙事时态跳」（红区）：故事是过去调，前半句却跳回现在。Part 7 看图写故事的命门。",
+      "impedes": true,
+      "ketPart": "Part 7",
+      "zone": "red"
+     },
+     {
+      "wrong": "She is runing in the park.",
+      "right": "She is running in the park.",
+      "why": "run 短元音+单辅音要双写 n 再加 ing。拼写错在 KET 写作会被扣分但不挡意思。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "gray"
+     },
+     {
+      "wrong": "I am liking this song very much.",
+      "right": "I like this song very much.",
+      "why": "like 是状态动词，不穿 -ing 演出服。状态一直在，不是一场直播。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "gray"
+     }
+    ],
+    "parentTip": "她讲英文小故事时，你不用懂内容，只数动词——听到 is/am/are 混进过去的故事里，就轻敲一下桌子当「转调提醒」，让她自己找哪里跳了调。",
+    "darkline": ""
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I am doing my homework now.",
+       "answer": true,
+       "explain": "对。两件套齐全：am + doing。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I doing my homework now.",
+       "answer": false,
+       "explain": "错。丢了 be：I am doing。两件套缺一不可。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ She is watching TV.",
+       "answer": true,
+       "explain": "对。is + watching，两件套齐。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ They are play football now.",
+       "answer": false,
+       "explain": "错。丢了 -ing：They are playing。"
+      },
+      {
+       "type": "choice",
+       "q": "Look! The baby ___ .",
+       "options": [
+        "is crying",
+        "cries"
+       ],
+       "answer": 0,
+       "explain": "Look! 是直播提示音 → 现在进行 is crying。"
+      },
+      {
+       "type": "choice",
+       "q": "I ___ a book now.",
+       "options": [
+        "am reading",
+        "read"
+       ],
+       "answer": 0,
+       "explain": "now → 正在 → am reading。"
+      },
+      {
+       "type": "choice",
+       "q": "We ___ to music at the moment.",
+       "options": [
+        "are listening",
+        "listen"
+       ],
+       "answer": 0,
+       "explain": "at the moment = 此刻 → are listening。"
+      },
+      {
+       "type": "choice",
+       "q": "write 穿上 -ing 演出服是？",
+       "options": [
+        "writing",
+        "writeing"
+       ],
+       "answer": 0,
+       "explain": "哑音 e 去掉再加 ing：writing。"
+      },
+      {
+       "type": "choice",
+       "q": "run 穿上 -ing 演出服是？",
+       "options": [
+        "running",
+        "runing"
+       ],
+       "answer": 0,
+       "explain": "短元音+单辅音 → 双写 n：running。"
+      },
+      {
+       "type": "fill",
+       "q": "Listen! Someone ___ (sing) in the next room.",
+       "hint": "提示：两件套 is + -ing",
+       "answer": "is singing",
+       "explain": "Listen! → 现在进行：is singing。"
+      },
+      {
+       "type": "fill",
+       "q": "The children ___ (swim) in the pool now.",
+       "hint": "提示：swim 要双写 m",
+       "answer": "are swimming",
+       "explain": "children 复数 → are；swim → swimming。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I am liking this song.",
+       "answer": false,
+       "explain": "错。like 是状态动词，不穿 -ing：I like this song."
+      },
+      {
+       "type": "choice",
+       "q": "「她每天弹钢琴」用哪种时态？",
+       "options": [
+        "一般现在（She plays…）",
+        "现在进行（She is playing…）"
+       ],
+       "answer": 0,
+       "explain": "every day 是习惯 → 一般现在。进行时只拍「此刻」。"
+      },
+      {
+       "type": "choice",
+       "q": "「她此刻正在弹钢琴」用哪种时态？",
+       "options": [
+        "现在进行（She is playing…）",
+        "一般现在（She plays…）"
+       ],
+       "answer": 0,
+       "explain": "此刻直播 → is playing。和上一题对比记。"
+      },
+      {
+       "type": "tf",
+       "q": "故事开头是 Last Sunday…，后面动词都要用过去式。这个说法对吗？",
+       "answer": true,
+       "explain": "对。开头定了过去调，整个故事不能中途转调。"
+      },
+      {
+       "type": "choice",
+       "q": "make 穿上 -ing 演出服是？",
+       "options": [
+        "making",
+        "makeing"
+       ],
+       "answer": 0,
+       "explain": "哑音 e 去掉：making。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "Look out of the window! It ___ .",
+       "options": [
+        "is raining",
+        "rains",
+        "rained",
+        "rain"
+       ],
+       "answer": 0,
+       "explain": "Look! 直播提示音 → is raining。"
+      },
+      {
+       "type": "choice",
+       "q": "My mother ___ dinner in the kitchen now.",
+       "options": [
+        "is cooking",
+        "cooks",
+        "cooked",
+        "cooking"
+       ],
+       "answer": 0,
+       "explain": "now → is cooking。只有 D 缺 be，别选。"
+      },
+      {
+       "type": "choice",
+       "q": "The students ___ to the teacher carefully now.",
+       "options": [
+        "are listening",
+        "listen",
+        "listens",
+        "listening"
+       ],
+       "answer": 0,
+       "explain": "students 复数 → are + listening。"
+      },
+      {
+       "type": "choice",
+       "q": "I can't answer the phone. I ___ a shower.",
+       "options": [
+        "am having",
+        "have",
+        "had",
+        "having"
+       ],
+       "answer": 0,
+       "explain": "正在洗澡走不开 → am having。这里 have 是「洗（澡）」的动作，能穿 -ing。"
+      },
+      {
+       "type": "choice",
+       "q": "She usually ___ tea, but today she ___ coffee.",
+       "options": [
+        "drinks / is drinking",
+        "drinks / drinks",
+        "is drinking / drinks",
+        "drink / is drinking"
+       ],
+       "answer": 0,
+       "explain": "usually 习惯 → drinks；today（此刻例外）→ is drinking。"
+      },
+      {
+       "type": "choice",
+       "q": "Where is Tom? — He ___ computer games in his room.",
+       "options": [
+        "is playing",
+        "plays",
+        "played",
+        "play"
+       ],
+       "answer": 0,
+       "explain": "问「人现在在哪/在干嘛」→ 现在进行。"
+      },
+      {
+       "type": "choice",
+       "q": "The bus ___ ! Run!",
+       "options": [
+        "is coming",
+        "comes",
+        "came",
+        "come"
+       ],
+       "answer": 0,
+       "explain": "眼看着车来了 → is coming。"
+      },
+      {
+       "type": "choice",
+       "q": "sit 的 -ing 形式是？",
+       "options": [
+        "sitting",
+        "siting",
+        "siteing",
+        "sits"
+       ],
+       "answer": 0,
+       "explain": "短元音+单辅音 → 双写 t：sitting。"
+      },
+      {
+       "type": "choice",
+       "q": "dance 的 -ing 形式是？",
+       "options": [
+        "dancing",
+        "danceing",
+        "dancying",
+        "dances"
+       ],
+       "answer": 0,
+       "explain": "哑音 e 去掉：dancing。"
+      },
+      {
+       "type": "choice",
+       "q": "My brother ___ TV every evening.",
+       "options": [
+        "watches",
+        "is watching",
+        "watch",
+        "watching"
+       ],
+       "answer": 0,
+       "explain": "every evening 习惯 → 一般现在，三单 watches。别看到「电视」就上进行时。"
+      },
+      {
+       "type": "choice",
+       "q": "Be quiet! The baby ___ .",
+       "options": [
+        "is sleeping",
+        "sleeps",
+        "slept",
+        "sleep"
+       ],
+       "answer": 0,
+       "explain": "让人安静是因为「此刻」宝宝在睡 → is sleeping。"
+      },
+      {
+       "type": "choice",
+       "q": "We ___ for the school concert at the moment.",
+       "options": [
+        "are practising",
+        "practise",
+        "practised",
+        "practises"
+       ],
+       "answer": 0,
+       "explain": "at the moment → are practising。"
+      },
+      {
+       "type": "fill",
+       "q": "Look! The dog ___ (run) after a cat.",
+       "answer": "is running",
+       "explain": "Look! → is running，双写 n。"
+      },
+      {
+       "type": "fill",
+       "q": "I ___ (write) a letter to my pen friend now.",
+       "answer": "am writing",
+       "explain": "now + I → am writing，write 去 e。"
+      },
+      {
+       "type": "fill",
+       "q": "They ___ (make) a cake for Mum's birthday right now.",
+       "answer": "are making",
+       "explain": "right now → are making。"
+      },
+      {
+       "type": "fill",
+       "q": "She ___ (sit) next to the window at the moment.",
+       "answer": "is sitting",
+       "explain": "sit → sitting 双写 t；she → is。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "I doing my homework now.",
+       "answer": "I am doing my homework now.",
+       "explain": "两件套丢了 be——中文「正在」没有等号，最容易丢 am。"
+      },
+      {
+       "type": "correct",
+       "wrong": "She is dance on the stage now.",
+       "answer": "She is dancing on the stage now.",
+       "explain": "两件套丢了 -ing：dancing（去 e 加 ing）。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Look! The boys swimming in the river.",
+       "answer": "Look! The boys are swimming in the river.",
+       "explain": "丢了 are。boys 复数 → are swimming。"
+      },
+      {
+       "type": "correct",
+       "wrong": "He is runing to school because he is late.",
+       "answer": "He is running to school because he is late.",
+       "explain": "拼写：run 双写 n 再加 ing。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I am wanting a new schoolbag.",
+       "answer": "I want a new schoolbag.",
+       "explain": "want 是状态动词，不穿 -ing。想要不是一场直播。"
+      },
+      {
+       "type": "correct",
+       "wrong": "When they are in the lake, they ate some bread.",
+       "answer": "When they were in the lake, they ate some bread.",
+       "explain": "时态跳（红区 3 号）：故事过去调，are 要变 were。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Yesterday Lily walked to the park and sees a small dog.",
+       "answer": "Yesterday Lily walked to the park and saw a small dog.",
+       "explain": "前半 walked 过去调，后半 sees 跳回现在 → saw。"
+      },
+      {
+       "type": "correct",
+       "wrong": "While we played, it was starting to rain.（表达「玩着玩着开始下雨」）",
+       "answer": "While we were playing, it started to rain.",
+       "explain": "while 引导的背景动作用过去进行 were playing，突然发生的事用一般过去 started——位置放反了。"
+      },
+      {
+       "type": "transform",
+       "from": "She reads a book.（改成此刻正在）",
+       "to_type": "现在进行",
+       "answer": "She is reading a book now.",
+       "alt": [
+        "She is reading a book."
+       ],
+       "explain": "加两件套：is + reading。"
+      },
+      {
+       "type": "transform",
+       "from": "They are playing chess.（改成疑问句）",
+       "to_type": "疑问句",
+       "answer": "Are they playing chess?",
+       "explain": "有 be 就让 be 搬家：Are they playing…?（不请 do）"
+      },
+      {
+       "type": "transform",
+       "from": "He is listening to music.（改成否定句）",
+       "to_type": "否定句",
+       "answer": "He is not listening to music.",
+       "alt": [
+        "He isn't listening to music."
+       ],
+       "explain": "not 挂在 is 后面。"
+      },
+      {
+       "type": "transform",
+       "from": "I am drawing a picture.（改成疑问句问对方）",
+       "to_type": "疑问句",
+       "answer": "Are you drawing a picture?",
+       "explain": "主语 I 换 you，be 也要跟着换：am → are，再搬到句首。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：下面哪句是对的？",
+       "options": [
+        "Listen! Someone is knocking at the door.",
+        "Listen! Someone knocks at the door.",
+        "Listen! Someone knocking at the door.",
+        "Listen! Someone is knock at the door."
+       ],
+       "answer": 0,
+       "explain": "Listen! → 现在进行两件套 is knocking。B 时态不对，C 缺 be，D 缺 -ing。"
+      },
+      {
+       "type": "choice",
+       "q": "哪句的时态是错的？",
+       "options": [
+        "I am knowing the answer.",
+        "She is brushing her teeth.",
+        "We are waiting for the bus.",
+        "He is flying a kite."
+       ],
+       "answer": 0,
+       "explain": "know 是状态动词，不用进行时：I know the answer."
+      },
+      {
+       "type": "choice",
+       "q": "故事片段：Last night I was doing my homework when the lights ___ out.",
+       "options": [
+        "went",
+        "go",
+        "are going",
+        "goes"
+       ],
+       "answer": 0,
+       "explain": "背景 was doing（正做着），突发事件用一般过去 went。全句仍是过去调。"
+      },
+      {
+       "type": "choice",
+       "q": "选出时态从头到尾不跳的一句：",
+       "options": [
+        "She opened the box and found a little kitten inside.",
+        "She opened the box and finds a little kitten inside.",
+        "She opens the box and found a little kitten inside.",
+        "She opened the box and is finding a little kitten inside."
+       ],
+       "answer": 0,
+       "explain": "opened + found 同为过去调 ✓。其余都在半路转调。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I can't come out now. I ___ (help) my mum in the kitchen.",
+       "answer": "am helping",
+       "explain": "now + 说不能出来 → 正在帮忙：am helping。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Look at the photo! My little sister ___ (wear) my hat. So funny!",
+       "answer": "is wearing",
+       "explain": "描述照片里正在发生的画面 → is wearing。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Sorry, Dad can't answer the phone. He ___ (drive) now.",
+       "answer": "is driving",
+       "explain": "正在开车 → is driving，drive 去 e。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：It's 8 p.m. and we ___ (watch) a film together.",
+       "answer": "are watching",
+       "explain": "此刻 8 点正在看 → are watching。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语 Part 2 描述图片：图里一家人在野餐。哪句最好？",
+       "options": [
+        "They are having a picnic in the park.",
+        "They have a picnic in the park.",
+        "They having a picnic in the park.",
+        "They are have a picnic in the park."
+       ],
+       "answer": 0,
+       "explain": "描述图片一律用现在进行（画面就是直播）：are having。这是口语描述图片的万能时态。"
+      },
+      {
+       "type": "choice",
+       "q": "描述图片：图里一个男孩在骑车。哪句最好？",
+       "options": [
+        "A boy is riding a bike.",
+        "A boy rides a bike.",
+        "A boy is ride a bike.",
+        "A boy riding a bike."
+       ],
+       "answer": 0,
+       "explain": "看图说话 → is riding。ride 去 e 加 ing。"
+      },
+      {
+       "type": "choice",
+       "q": "KET Part 7 写故事第一句：One day, Tom and Anna ___ to the beach.",
+       "options": [
+        "went",
+        "go",
+        "are going",
+        "goes"
+       ],
+       "answer": 0,
+       "explain": "One day 开头的故事 = 过去调 → went。第一句就把调定好。"
+      },
+      {
+       "type": "choice",
+       "q": "故事接龙：While they ___ sandcastles, a big wave came.",
+       "options": [
+        "were building",
+        "are building",
+        "built",
+        "build"
+       ],
+       "answer": 0,
+       "explain": "背景动作（正搭着）→ 过去进行 were building；a big wave came 是突发事件。"
+      },
+      {
+       "type": "choice",
+       "q": "故事结尾选哪句（保持过去调）？",
+       "options": [
+        "Everyone laughed and went home happily.",
+        "Everyone laughs and goes home happily.",
+        "Everyone is laughing and going home.",
+        "Everyone laughed and go home happily."
+       ],
+       "answer": 0,
+       "explain": "结尾也要过去调：laughed + went。D 后半跳调了。"
+      },
+      {
+       "type": "correct",
+       "wrong": "看图写故事（图为过去的事）：Last Sunday, Ben played in the garden. Suddenly he sees a bird on the tree.",
+       "answer": "Last Sunday, Ben played in the garden. Suddenly he saw a bird on the tree.",
+       "explain": "Part 7 命门：suddenly 后最容易跳调，sees → saw。"
+      },
+      {
+       "type": "correct",
+       "wrong": "My friends are play basketball on the playground now.",
+       "answer": "My friends are playing basketball on the playground now.",
+       "explain": "两件套第二件：-ing 不能丢。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Dear Anna, I write this letter in the garden now. The birds are singing.",
+       "answer": "Dear Anna, I am writing this letter in the garden now. The birds are singing.",
+       "explain": "写信描述「此刻」→ am writing。后半句 are singing 已经给了提示。"
+      },
+      {
+       "type": "transform",
+       "from": "The girl waters the flowers.（描述眼前图片）",
+       "to_type": "现在进行",
+       "answer": "The girl is watering the flowers.",
+       "explain": "看图描述 → is watering。"
+      },
+      {
+       "type": "transform",
+       "from": "They are cleaning the classroom.（改成疑问句）",
+       "to_type": "疑问句",
+       "answer": "Are they cleaning the classroom?",
+       "explain": "be 搬家到句首。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：口语考官问 What is your friend doing now? 最好的回答：",
+       "options": [
+        "She is probably doing her homework at home.",
+        "She does her homework at home.",
+        "She doing her homework.",
+        "She is do her homework."
+       ],
+       "answer": 0,
+       "explain": "问 now → 用进行时回答：is doing。"
+      },
+      {
+       "type": "choice",
+       "q": "综合辨析：哪句全对？",
+       "options": [
+        "I usually walk to school, but today I am taking the bus because it is raining.",
+        "I usually walking to school, but today I take the bus because it rains.",
+        "I usually walk to school, but today I take the bus because it is raining.",
+        "I am usually walking to school, but today I am taking the bus."
+       ],
+       "answer": 0,
+       "explain": "习惯 walk（一般现在）+ 今天例外 am taking + 正在下雨 is raining——三个时态各就各位。"
+      }
+     ]
+    }
    ]
   },
   {
