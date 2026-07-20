@@ -100,6 +100,15 @@ export async function renderExamHub(app) {
       <div class="text-sm">🗓️ 本周学习 <b class="text-primary">${weekDays}</b> 天</div>
     </div>
 
+    <!-- 词汇主线入口 -->
+    <button data-nav="words" class="w-full card-cartoon tap-bounce text-left mb-4 relative overflow-hidden"
+      style="background:linear-gradient(135deg,#FFE3C2,#FFD0E0);padding:18px">
+      <div class="absolute right-3 top-3 text-5xl opacity-30">🚀</div>
+      <div class="text-xs font-bold text-orange-600 mb-1">🔥 主线任务</div>
+      <div class="text-xl font-extrabold mb-1">KET 单词闯关</div>
+      <div class="text-xs text-gray-600">20 个话题 · 1416 词 · 识词 + 闯关 + 错词突击</div>
+    </button>
+
     <!-- 九宫格入口 -->
     <div class="grid grid-cols-3 gap-3">
       ${[

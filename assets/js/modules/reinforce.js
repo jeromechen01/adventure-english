@@ -4,6 +4,7 @@ import { loadJSON, toast } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
 import { checkBadges } from '../gamification.js';
+import { collectPetWordsById } from './pet.js';
 
 let wordIndexCache = null;
 async function buildWordIndex() {
@@ -14,6 +15,8 @@ async function buildWordIndex() {
     if (!data) continue;
     data.units.forEach(u => u.words.forEach(w => { idx[w.id] = w; }));
   }
+  // KET/PET 话题词也纳入，备考档的错词才能进突击队列
+  await collectPetWordsById(idx);
   wordIndexCache = idx;
   return idx;
 }

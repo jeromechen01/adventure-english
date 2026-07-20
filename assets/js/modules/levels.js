@@ -43,8 +43,8 @@ export async function renderLevelMap(app, opts = {}) {
 
   let words = opts.words;
   if (!words) {
-    // PET 级别但没显式传词：回到 PET 话题列表，避免加载 gradePET.json 报错
-    if (profile.grade === 'PET') return window.__nav('words');
+    // PET/KET 级别但没显式传词：回到话题列表，避免加载 gradePET/gradeKET.json 报错
+    if (profile.grade === 'PET' || profile.grade === 'KET') return window.__nav('words');
     const data = await loadJSON(`data/words/grade${grade}.json`);
     if (!data || !data.units) {
       app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';

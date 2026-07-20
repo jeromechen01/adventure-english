@@ -28,7 +28,7 @@ export function mnemonicHtml(w) {
 export async function renderWordsPage(app, params) {
   const profile = storage.getProfile();
 
-  // PET/KET 级别：走剑桥话题闯关分支（KET 备考期共用话题词库积累词汇量）
+  // PET/KET 级别：走剑桥话题闯关分支（pet.js 按档位选 KET A2 / PET B1 词库来源）
   if (profile.grade === 'PET' || profile.grade === 'KET') {
     return renderPetWordsHome(app);
   }

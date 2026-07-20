@@ -361,7 +361,7 @@ async function renderMistakes(app) {
           <div class="flex-1">
             <div class="font-bold font-en">${w.word} <span class="text-xs text-gray-400 font-sans">${w.phonetic}</span></div>
             <div class="text-sm text-gray-600">${w.pos} ${w.meaning}</div>
-            <div class="text-xs text-gray-400 mt-0.5">${w.petTopic ? 'PET · ' + w.petTopic : gradeLabel(w.grade)}</div>
+            <div class="text-xs text-gray-400 mt-0.5">${w.petTopic ? 'PET · ' + w.petTopic : w.ketTopic ? 'KET · ' + w.ketTopic : gradeLabel(w.grade)}</div>
           </div>
           <button data-act="speak" class="p-2 text-primary text-2xl">🔊</button>
           <button data-act="remove" class="p-2 text-green-500 text-xl">✓</button>
