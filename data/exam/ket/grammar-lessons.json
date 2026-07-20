@@ -1077,6 +1077,723 @@
      "answer": "Does she play chess?",
      "explain": "验收标准：3 秒内完成这个变形。"
     }
+   ],
+   "teaching": {
+    "essence": "do / does / did 是指挥的起拍手势——自己没有意思，只负责举手告诉全世界：这是个问句（或否定句）。",
+    "why": "中文提问只要在句尾加「吗」：「你喜欢音乐吗？」句子其他部分一个字不动。所以中国孩子最自然的英语问句是 You like music?——这不是瞎错，四百年前的英国人真的这么说（莎士比亚时代把动词搬到句首提问）。后来英语改了规矩：动词不许动，派一个没有意思的 do 去句首站岗。你要做的只是把「吗」翻译成句首的 Do。",
+    "rules": [
+     {
+      "point": "动作句提问：句首举 do / does / did",
+      "detail": "一般问句 = Do/Does/Did + 主语 + 动词原形。do 配 I/you/we/they；does 配 he/she/it；did 配所有人的过去。",
+      "examples": [
+       {
+        "en": "Do you like pop music?",
+        "zh": "你喜欢流行音乐吗？"
+       },
+       {
+        "en": "Does your brother play football?",
+        "zh": "你哥哥踢足球吗？"
+       },
+       {
+        "en": "Did you practise the violin yesterday?",
+        "zh": "你昨天练小提琴了吗？"
+       }
+      ]
+     },
+     {
+      "point": "时态只标一次：does/did 举了牌，动词回原形",
+      "detail": "一支乐队只需要一个指挥。does 已经带了「三单」的信息，did 已经带了「过去」的信息，后面的动词必须脱掉标记回到原形。",
+      "examples": [
+       {
+        "en": "Did you watch the film? (不是 Did you watched)",
+        "zh": "你看那部电影了吗？"
+       },
+       {
+        "en": "Does she like cats? (不是 Does she likes)",
+        "zh": "她喜欢猫吗？"
+       }
+      ]
+     },
+     {
+      "point": "否定句：do + not 站在动词前面",
+      "detail": "否定 = 主语 + don't / doesn't / didn't + 动词原形。同样，时态标在 do 身上，动词回原形。",
+      "examples": [
+       {
+        "en": "I don't eat meat.",
+        "zh": "我不吃肉。"
+       },
+       {
+        "en": "She doesn't play the piano.",
+        "zh": "她不弹钢琴。"
+       },
+       {
+        "en": "We didn't go to school yesterday.",
+        "zh": "我们昨天没上学。"
+       }
+      ]
+     },
+     {
+      "point": "be 动词的句子不请 do",
+      "detail": "be 自己就是等号，自己会走到句首、自己会带 not。只有动作句才需要 do 帮忙。判断方法：句子里有没有 am/is/are/was/were？有就让它自己上。",
+      "examples": [
+       {
+        "en": "Are you in Grade 6?",
+        "zh": "你在六年级吗？"
+       },
+       {
+        "en": "Was she late this morning?",
+        "zh": "她今天早上迟到了吗？"
+       }
+      ]
+     },
+     {
+      "point": "特殊疑问词站最前面",
+      "detail": "What / Where / When / Who / Why / How 先站句首，后面照旧接 do 问句或 be 问句：疑问词 + do/does/did/be + 主语…",
+      "examples": [
+       {
+        "en": "Where do you live?",
+        "zh": "你住在哪里？"
+       },
+       {
+        "en": "What is your favourite subject?",
+        "zh": "你最喜欢的科目是什么？"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "先看句子里有没有 be（am/is/are/was/were）：有 be → be 自己搬家；没 be → 请 do 家族。两条路永远不会同时走。",
+     "do 也能当普通动词「做」：Do you do your homework? 第一个 Do 是举手的，第二个 do 才是「做」。",
+     "回答问句用同一家人：Do you…? → Yes, I do. / Are you…? → Yes, I am. 用什么问就用什么答。",
+     "否定缩写口语最常用：don't / doesn't / didn't。KET 听力里几乎只出现缩写形式，要听得出来。"
+    ],
+    "commonErrors": [
+     {
+      "wrong": "You like music?",
+      "right": "Do you like music?",
+      "why": "中文只在句尾加「吗」，句子不动，所以最容易整句照搬只改语调。这是 8 类中式错误的 1 号（红区）——口语里对方可能当成陈述句。",
+      "impedes": true,
+      "ketPart": "Part 5 + 口语 + 写作",
+      "zone": "red"
+     },
+     {
+      "wrong": "Did you watched the film?",
+      "right": "Did you watch the film?",
+      "why": "时态标了两次。did 已经举了「过去」的牌子，动词必须回原形——一支乐队只要一个指挥。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "Does she likes cats?",
+      "right": "Does she like cats?",
+      "why": "同样是双重标记：does 已经带了三单信息，likes 的 s 要脱掉。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "I not like coffee.",
+      "right": "I don't like coffee.",
+      "why": "中文「我不喜欢」直接加「不」，英文的 not 不能自己站在动作前，要 do 陪着：don't like。",
+      "impedes": true,
+      "ketPart": "口语 + 写作",
+      "zone": "red"
+     },
+     {
+      "wrong": "Do you are a student?",
+      "right": "Are you a student?",
+      "why": "两条路挤到一条道上了：句子里有 are（be 句），be 自己搬家就行，不请 do。",
+      "impedes": true,
+      "ketPart": "口语",
+      "zone": "red"
+     }
+    ],
+    "parentTip": "玩「快问快答」：你说中文问题（你喜欢…吗？），她 3 秒内说英文问句。她漏了 Do，你只把 Do 补在句首重复一遍让她跟读，不解释。",
+    "darkline": ""
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "tf",
+       "q": "这个问句对吗？→ Do you like music?",
+       "answer": true,
+       "explain": "对。动作句提问，句首举 Do。"
+      },
+      {
+       "type": "tf",
+       "q": "这个问句对吗？→ You like music?",
+       "answer": false,
+       "explain": "错（考试里）。中文加个「吗」就行，英文必须请 Do 到句首：Do you like music?"
+      },
+      {
+       "type": "tf",
+       "q": "这个问句对吗？→ Are you ready?",
+       "answer": true,
+       "explain": "对。有 are 的句子，be 自己搬到句首，不请 do。"
+      },
+      {
+       "type": "tf",
+       "q": "这个问句对吗？→ Do you are happy?",
+       "answer": false,
+       "explain": "错。句子里有 are → be 句，自己搬家：Are you happy? do 和 be 不同台。"
+      },
+      {
+       "type": "choice",
+       "q": "「你喜欢猫吗？」句首应该举谁？___ you like cats?",
+       "options": [
+        "Do",
+        "Is"
+       ],
+       "answer": 0,
+       "explain": "like 是动作 → 请 do 家族；you 配 do。"
+      },
+      {
+       "type": "choice",
+       "q": "___ she play the piano?",
+       "options": [
+        "Does",
+        "Do"
+       ],
+       "answer": 0,
+       "explain": "she 是三单 → does。"
+      },
+      {
+       "type": "choice",
+       "q": "___ they live in Beijing?",
+       "options": [
+        "Do",
+        "Does"
+       ],
+       "answer": 0,
+       "explain": "they → do。"
+      },
+      {
+       "type": "choice",
+       "q": "___ your father drink tea?",
+       "options": [
+        "Does",
+        "Do"
+       ],
+       "answer": 0,
+       "explain": "your father 是一个人（= he）→ does。"
+      },
+      {
+       "type": "choice",
+       "q": "昨天的事怎么问？___ you sleep well last night?",
+       "options": [
+        "Did",
+        "Do"
+       ],
+       "answer": 0,
+       "explain": "last night 过去 → did。did 对所有主语通用。"
+      },
+      {
+       "type": "tf",
+       "q": "这个否定句对吗？→ I don't like coffee.",
+       "answer": true,
+       "explain": "对。否定 = don't + 动词原形。"
+      },
+      {
+       "type": "tf",
+       "q": "这个否定句对吗？→ I not like coffee.",
+       "answer": false,
+       "explain": "错。not 不能自己站在动作前面，要 do 陪着：I don't like coffee."
+      },
+      {
+       "type": "choice",
+       "q": "She ___ eat fish.（她不吃鱼）",
+       "options": [
+        "doesn't",
+        "don't"
+       ],
+       "answer": 0,
+       "explain": "she 三单 → doesn't。"
+      },
+      {
+       "type": "fill",
+       "q": "___ you have a pet?",
+       "hint": "提示：you + 动作句",
+       "answer": "do",
+       "explain": "动作句 + you → Do。"
+      },
+      {
+       "type": "fill",
+       "q": "___ it rain yesterday?",
+       "hint": "提示：昨天",
+       "answer": "did",
+       "explain": "过去的事 → Did，对所有主语都一样。"
+      },
+      {
+       "type": "choice",
+       "q": "哪个是正确的回答？— Do you like dogs? — Yes, ___",
+       "options": [
+        "I do.",
+        "I like."
+       ],
+       "answer": 0,
+       "explain": "用什么问就用什么答：Do 问 → do 答。Yes, I do."
+      },
+      {
+       "type": "tf",
+       "q": "这个问句对吗？→ Where do you live?",
+       "answer": true,
+       "explain": "对。疑问词 Where 站最前，后面照旧 do + 主语 + 动词原形。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "___ your friends like playing games?",
+       "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+       ],
+       "answer": 0,
+       "explain": "friends 复数 → do；like 是动作句，不用 be。"
+      },
+      {
+       "type": "choice",
+       "q": "___ your sister go to school by bus?",
+       "options": [
+        "Does",
+        "Do",
+        "Is",
+        "Did"
+       ],
+       "answer": 0,
+       "explain": "your sister = she → does；说的是平时习惯，用现在。"
+      },
+      {
+       "type": "choice",
+       "q": "___ you at home last night?",
+       "options": [
+        "Were",
+        "Did",
+        "Are",
+        "Do"
+       ],
+       "answer": 0,
+       "explain": "句子没有动作、说「在家」是位置 → be 句；last night 过去 + you → Were。"
+      },
+      {
+       "type": "choice",
+       "q": "___ you watch TV last night?",
+       "options": [
+        "Did",
+        "Do",
+        "Were",
+        "Does"
+       ],
+       "answer": 0,
+       "explain": "watch 是动作 + last night 过去 → Did。上一题对比：有动作请 did，没动作用 were。"
+      },
+      {
+       "type": "choice",
+       "q": "He ___ like vegetables.",
+       "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+       ],
+       "answer": 0,
+       "explain": "he 三单 + 动作 like → doesn't + 原形。"
+      },
+      {
+       "type": "choice",
+       "q": "We ___ go to the park yesterday because of the rain.",
+       "options": [
+        "didn't",
+        "don't",
+        "aren't",
+        "weren't"
+       ],
+       "answer": 0,
+       "explain": "go 是动作 + yesterday 过去 → didn't + go 原形。"
+      },
+      {
+       "type": "choice",
+       "q": "Does she ___ English every day?",
+       "options": [
+        "study",
+        "studies",
+        "studied",
+        "studying"
+       ],
+       "answer": 0,
+       "explain": "does 已经举了三单的牌子，动词回原形 study。"
+      },
+      {
+       "type": "choice",
+       "q": "Did you ___ the concert last week?",
+       "options": [
+        "enjoy",
+        "enjoyed",
+        "enjoys",
+        "enjoying"
+       ],
+       "answer": 0,
+       "explain": "did 已经标了过去，enjoy 回原形。"
+      },
+      {
+       "type": "choice",
+       "q": "What ___ your mother do at weekends?",
+       "options": [
+        "does",
+        "do",
+        "is",
+        "did"
+       ],
+       "answer": 0,
+       "explain": "疑问词 What 在前，your mother 三单 → does。"
+      },
+      {
+       "type": "choice",
+       "q": "Where ___ you buy that hat?",
+       "options": [
+        "did",
+        "do",
+        "were",
+        "does"
+       ],
+       "answer": 0,
+       "explain": "「那顶帽子」已经买了 → 过去 → did。"
+      },
+      {
+       "type": "choice",
+       "q": "— Does Tom play basketball? — Yes, he ___.",
+       "options": [
+        "does",
+        "do",
+        "plays",
+        "is"
+       ],
+       "answer": 0,
+       "explain": "用什么问用什么答：Does 问 → does 答。"
+      },
+      {
+       "type": "choice",
+       "q": "— Are you eleven? — Yes, ___.",
+       "options": [
+        "I am",
+        "I do",
+        "I are",
+        "you are"
+       ],
+       "answer": 0,
+       "explain": "be 问 → be 答，回答时换回自己：I am。"
+      },
+      {
+       "type": "fill",
+       "q": "I ___ not understand this question.（填缩写）",
+       "answer": "do",
+       "alt": [
+        "don't"
+       ],
+       "explain": "I + 动作句否定 → do not（don't）。"
+      },
+      {
+       "type": "fill",
+       "q": "___ your parents work on Saturdays?",
+       "answer": "do",
+       "explain": "parents 复数 → Do。"
+      },
+      {
+       "type": "fill",
+       "q": "She ___ not go to the party last Sunday.",
+       "answer": "did",
+       "explain": "last Sunday 过去 → did not（didn't），动词 go 保持原形。"
+      },
+      {
+       "type": "fill",
+       "q": "What time ___ the film start tonight?",
+       "answer": "does",
+       "explain": "the film = it 三单 → does。疑问词组 What time 站最前。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "You like music?",
+       "answer": "Do you like music?",
+       "explain": "1 号中式错误（红区）：中文句尾加「吗」，英文句首举 Do。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Did you watched the film?",
+       "answer": "Did you watch the film?",
+       "explain": "时态标两次了：did 举过牌，watched 要回原形 watch。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Does she likes cats?",
+       "answer": "Does she like cats?",
+       "explain": "does 已带三单信息，likes 的 s 脱掉。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I not like coffee.",
+       "answer": "I don't like coffee.",
+       "alt": [
+        "I do not like coffee."
+       ],
+       "explain": "not 不能自己站着，请 do 陪同：don't like。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Do you are a student?",
+       "answer": "Are you a student?",
+       "explain": "有 are 的是 be 句，be 自己搬家，不请 do。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Where you did go last weekend?",
+       "answer": "Where did you go last weekend?",
+       "explain": "语序：疑问词 + did + 主语 + 动词原形。did 要站在 you 前面。"
+      },
+      {
+       "type": "correct",
+       "wrong": "He doesn't plays football.",
+       "answer": "He doesn't play football.",
+       "explain": "doesn't 已带三单，plays 回原形 play。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Why you are late?",
+       "answer": "Why are you late?",
+       "explain": "疑问词后面 be 也要搬到主语前：Why are you…?"
+      },
+      {
+       "type": "transform",
+       "from": "She likes cats.",
+       "to_type": "疑问句",
+       "answer": "Does she like cats?",
+       "explain": "she 三单 → Does 举手，likes 脱掉 s 回原形。"
+      },
+      {
+       "type": "transform",
+       "from": "They went to the zoo.",
+       "to_type": "疑问句",
+       "answer": "Did they go to the zoo?",
+       "explain": "went 是过去 → Did 举「过去」的牌，went 变回 go。"
+      },
+      {
+       "type": "transform",
+       "from": "He plays the drums.",
+       "to_type": "否定句",
+       "answer": "He doesn't play the drums.",
+       "alt": [
+        "He does not play the drums."
+       ],
+       "explain": "三单否定 → doesn't + 原形 play。"
+      },
+      {
+       "type": "transform",
+       "from": "I watched TV last night.",
+       "to_type": "否定句",
+       "answer": "I didn't watch TV last night.",
+       "alt": [
+        "I did not watch TV last night."
+       ],
+       "explain": "过去否定 → didn't + 原形 watch。"
+      },
+      {
+       "type": "transform",
+       "from": "She is a doctor.",
+       "to_type": "疑问句",
+       "answer": "Is she a doctor?",
+       "explain": "有 is → be 句自己搬家。别惯性加 Do。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：哪句需要请 do 帮忙变问句？",
+       "options": [
+        "You play chess.",
+        "You are tired.",
+        "She was late.",
+        "They are at home."
+       ],
+       "answer": 0,
+       "explain": "只有 A 是动作句（play）→ Do you play chess? 其余都有 be，自己搬家。"
+      },
+      {
+       "type": "choice",
+       "q": "哪一句是错的？",
+       "options": [
+        "Did she dance at the party?",
+        "Does he do his homework?",
+        "Do they like art?",
+        "Did you went home early?"
+       ],
+       "answer": 3,
+       "explain": "D 双重过去：did + went。应为 Did you go home early? B 里第二个 do 是动词「做」，没错。"
+      },
+      {
+       "type": "choice",
+       "q": "哪一句是对的？",
+       "options": [
+        "What does your father do?",
+        "What does your father does?",
+        "What do your father do?",
+        "What your father does?"
+       ],
+       "answer": 0,
+       "explain": "问职业的固定句式：What does he/she do? 第一个 does 举手，第二个 do 是动词「做（什么工作）」。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：___ you want to come to my party on Saturday?",
+       "answer": "do",
+       "explain": "动作句问句 + you → Do。信件里邀请常用这个句式。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：What time ___ the museum open at the weekend?",
+       "answer": "does",
+       "explain": "the museum = it → does。问营业时间是 KET 高频场景。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I'm sorry I ___ not reply to your message yesterday.",
+       "answer": "did",
+       "explain": "yesterday → did not（didn't）。reply 保持原形。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My little brother ___ not like getting up early.",
+       "answer": "does",
+       "explain": "my brother 三单 → does not（doesn't）。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Where ___ you usually do your homework?",
+       "answer": "do",
+       "explain": "usually 平时的习惯 → 现在；you → do。第二个 do 是动词「做」。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：___ your school have a music club?",
+       "answer": "does",
+       "explain": "your school = it 三单 → Does。have 保持原形。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语 Part 2 要你问同伴关于运动的问题，哪个问句正确？",
+       "options": [
+        "Do you like swimming?",
+        "You like swimming?",
+        "Do you like swim?",
+        "Does you like swimming?"
+       ],
+       "answer": 0,
+       "explain": "Do + you + like + 名词/动名词。B 没举手（口语大忌），C 里 like 后要 swimming，D 配错 does。"
+      },
+      {
+       "type": "choice",
+       "q": "朋友问 Did you enjoy the film? 你没看成电影，怎么答？",
+       "options": [
+        "No, I didn't see it.",
+        "No, I didn't saw it.",
+        "No, I not see it.",
+        "No, I don't saw it."
+       ],
+       "answer": 0,
+       "explain": "didn't + 原形 see。B/D 双重标记，C 缺 do。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 听力常出现缩写，Which is correct? — She ___ come to school yesterday because she was ill.",
+       "options": [
+        "didn't",
+        "doesn't",
+        "don't",
+        "isn't"
+       ],
+       "answer": 0,
+       "explain": "yesterday → didn't。听力里要能分辨 didn't / doesn't 的读音。"
+      },
+      {
+       "type": "choice",
+       "q": "写作情境：想写「我妹妹不喜欢蜘蛛」，哪句能拿分？",
+       "options": [
+        "My sister doesn't like spiders.",
+        "My sister don't like spiders.",
+        "My sister not like spiders.",
+        "My sister doesn't likes spiders."
+       ],
+       "answer": 0,
+       "explain": "三单 → doesn't + 原形 like。B 配错、C 缺 do、D 双重标记。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Dear Sam, do you free this weekend?",
+       "answer": "Dear Sam, are you free this weekend?",
+       "explain": "写信高频错误：「有空」是状态（free 是形容词）→ be 句：Are you free? 不请 do。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Why you didn't come to the rehearsal?",
+       "answer": "Why didn't you come to the rehearsal?",
+       "explain": "疑问词后要倒装：didn't 站在 you 前面。"
+      },
+      {
+       "type": "transform",
+       "from": "Your friend has lunch at school.（问你的同伴）",
+       "to_type": "疑问句",
+       "answer": "Do you have lunch at school?",
+       "explain": "口语 Part 2 真实任务：把提示卡的第三人称转成问对方的 you 问句。"
+      },
+      {
+       "type": "transform",
+       "from": "She got up at seven this morning.",
+       "to_type": "疑问句",
+       "answer": "Did she get up at seven this morning?",
+       "explain": "got 是过去 → Did + get 原形。"
+      },
+      {
+       "type": "choice",
+       "q": "综合辨析：四句里哪句语法全对？",
+       "options": [
+        "Where did you go on holiday?",
+        "Where you went on holiday?",
+        "Where did you went on holiday?",
+        "Where do you went on holiday?"
+       ],
+       "answer": 0,
+       "explain": "疑问词 + did + 主语 + 原形 go。B 缺 did，C/D 双重标记。"
+      },
+      {
+       "type": "fill",
+       "q": "综合：— ___ your grandparents visit you often? — Yes, they do.",
+       "answer": "do",
+       "explain": "答句 they do 反推问句用 Do；grandparents 复数。"
+      }
+     ]
+    }
    ]
   },
   {
