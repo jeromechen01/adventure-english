@@ -3,407 +3,139 @@
   "topicName": "Work & Jobs 工作职业",
   "icon": "💼",
   "level": "B1",
-  "totalWords": 40,
+  "totalWords": 132,
   "words": [
-    {
-      "id": "pet-work-001", "word": "job", "phonetic": "/dʒɒb/", "pos": "n.", "meaning": "工作；职业", "level": "A2",
-      "examples": [
-        { "en": "She is looking for a new job.", "zh": "她在找一份新工作。" },
-        { "en": "He has a part-time job at a café.", "zh": "他在一家咖啡馆做兼职。" }
-      ],
-      "synonyms": ["work"], "antonyms": [], "difficulty": 1, "tags": ["work"],
-      "mnemonic": { "type": "image", "tip": "job 三个字母像流水线：进(j)、干(o)、出(b)，一份活儿就是 job。" },
-      "petExam": { "frequency": "high", "collocations": ["get a job", "a part-time job", "look for a job"] }
-    },
-    {
-      "id": "pet-work-002", "word": "career", "phonetic": "/kəˈrɪə/", "pos": "n.", "meaning": "职业生涯；事业", "level": "B1",
-      "examples": [
-        { "en": "He wants a career in music.", "zh": "他想从事音乐事业。" },
-        { "en": "Teaching is a rewarding career.", "zh": "教书是一份有意义的职业。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "career 谐音\"科瑞儿\"——一路进取(care about)才能拼出一番事业。" },
-      "petExam": { "frequency": "medium", "collocations": ["a career in", "start a career"] }
-    },
-    {
-      "id": "pet-work-003", "word": "office", "phonetic": "/ˈɒfɪs/", "pos": "n.", "meaning": "办公室", "level": "A2",
-      "examples": [
-        { "en": "My father works in an office.", "zh": "我爸爸在办公室工作。" },
-        { "en": "The office is on the third floor.", "zh": "办公室在三楼。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "office 谐音\"凹费事\"——办公室里坐一天,凹在椅子上费事又费神。" },
-      "petExam": { "frequency": "high", "collocations": ["at the office", "an office worker"] }
-    },
-    {
-      "id": "pet-work-004", "word": "manager", "phonetic": "/ˈmænɪdʒə/", "pos": "n.", "meaning": "经理；管理人", "level": "B1",
-      "examples": [
-        { "en": "The manager gave us new tasks.", "zh": "经理给我们分配了新任务。" },
-        { "en": "She became a manager last year.", "zh": "她去年当上了经理。" }
-      ],
-      "synonyms": ["boss"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "manage(管理)+er(人),负责管理的人就是经理。" },
-      "petExam": { "frequency": "high", "collocations": ["a sales manager", "the general manager"] }
-    },
-    {
-      "id": "pet-work-005", "word": "employee", "phonetic": "/ɪmˈplɔɪiː/", "pos": "n.", "meaning": "雇员；员工", "level": "B1",
-      "examples": [
-        { "en": "The company has fifty employees.", "zh": "这家公司有五十名员工。" },
-        { "en": "Every employee gets a free lunch.", "zh": "每位员工都能享用免费午餐。" }
-      ],
-      "synonyms": ["worker", "staff"], "antonyms": ["employer"], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "employ(雇用)+ee(被...的人),被雇用的人就是员工;对比 employer(雇主)。" },
-      "petExam": { "frequency": "medium", "collocations": ["a full-time employee", "a new employee"] }
-    },
-    {
-      "id": "pet-work-006", "word": "colleague", "phonetic": "/ˈkɒliːɡ/", "pos": "n.", "meaning": "同事", "level": "B1",
-      "examples": [
-        { "en": "My colleagues are very friendly.", "zh": "我的同事都很友好。" },
-        { "en": "I had lunch with a colleague.", "zh": "我和一位同事一起吃了午饭。" }
-      ],
-      "synonyms": ["workmate"], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "col(共同)+league(联盟),同一个联盟里并肩干活的人就是同事。" },
-      "petExam": { "frequency": "medium", "collocations": ["a close colleague", "work with colleagues"] }
-    },
-    {
-      "id": "pet-work-007", "word": "salary", "phonetic": "/ˈsæləri/", "pos": "n.", "meaning": "薪水；工资", "level": "B1",
-      "examples": [
-        { "en": "He earns a good salary.", "zh": "他薪水不错。" },
-        { "en": "My salary is paid every month.", "zh": "我的工资按月发放。" }
-      ],
-      "synonyms": ["pay", "wage"], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "image", "tip": "古罗马士兵曾用盐(sal,拉丁语盐)当军饷,salary 就是\"买盐的钱\"=薪水。" },
-      "petExam": { "frequency": "medium", "collocations": ["a high salary", "earn a salary"] }
-    },
-    {
-      "id": "pet-work-008", "word": "interview", "phonetic": "/ˈɪntəvjuː/", "pos": "n./v.", "meaning": "面试；采访", "level": "B1",
-      "examples": [
-        { "en": "I have a job interview tomorrow.", "zh": "我明天有一场求职面试。" },
-        { "en": "The reporter interviewed the singer.", "zh": "记者采访了那位歌手。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "inter(在...之间)+view(看),两人面对面互相打量就是面试。" },
-      "petExam": { "frequency": "high", "collocations": ["a job interview", "go for an interview"] }
-    },
-    {
-      "id": "pet-work-009", "word": "apply", "phonetic": "/əˈplaɪ/", "pos": "v.", "meaning": "申请；应用", "level": "B1",
-      "examples": [
-        { "en": "She applied for the manager job.", "zh": "她申请了那个经理职位。" },
-        { "en": "You can apply online.", "zh": "你可以在网上申请。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "ap(朝向)+ply(折叠/贴),把材料递贴到对方面前=申请。" },
-      "petExam": { "frequency": "high", "collocations": ["apply for a job", "apply online"] }
-    },
-    {
-      "id": "pet-work-010", "word": "business", "phonetic": "/ˈbɪznəs/", "pos": "n.", "meaning": "生意；商业；企业", "level": "B1",
-      "examples": [
-        { "en": "They run a small business.", "zh": "他们经营一家小企业。" },
-        { "en": "He is away on business.", "zh": "他出差去了。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "busy(忙)+ness,忙忙碌碌张罗的事就是生意。" },
-      "petExam": { "frequency": "high", "collocations": ["run a business", "on business"] }
-    },
-    {
-      "id": "pet-work-011", "word": "company", "phonetic": "/ˈkʌmpəni/", "pos": "n.", "meaning": "公司；陪伴", "level": "A2",
-      "examples": [
-        { "en": "She works for a big company.", "zh": "她在一家大公司工作。" },
-        { "en": "I enjoy your company.", "zh": "我喜欢有你作伴。" }
-      ],
-      "synonyms": ["firm"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "com(共同)+pan(面包,拉丁 panis),一起分面包吃的一群人=公司/伙伴。" },
-      "petExam": { "frequency": "high", "collocations": ["work for a company", "a large company"] }
-    },
-    {
-      "id": "pet-work-012", "word": "factory", "phonetic": "/ˈfæktri/", "pos": "n.", "meaning": "工厂", "level": "A2",
-      "examples": [
-        { "en": "The factory makes cars.", "zh": "这家工厂生产汽车。" },
-        { "en": "Many people work in that factory.", "zh": "很多人在那家工厂上班。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "fact(做,拉丁 facere)+ory(地方),大批\"制造\"东西的地方就是工厂。" },
-      "petExam": { "frequency": "medium", "collocations": ["a car factory", "work in a factory"] }
-    },
-    {
-      "id": "pet-work-013", "word": "staff", "phonetic": "/stɑːf/", "pos": "n.", "meaning": "全体员工；职员", "level": "B1",
-      "examples": [
-        { "en": "The hotel staff are very helpful.", "zh": "这家酒店的员工很乐于助人。" },
-        { "en": "Our school has thirty staff.", "zh": "我们学校有三十名教职工。" }
-      ],
-      "synonyms": ["employees"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "assoc", "tip": "staff 也指\"拐杖\",一群员工是撑起公司的一根根支柱。" },
-      "petExam": { "frequency": "medium", "collocations": ["a member of staff", "hotel staff"] }
-    },
-    {
-      "id": "pet-work-014", "word": "customer", "phonetic": "/ˈkʌstəmə/", "pos": "n.", "meaning": "顾客；客户", "level": "A2",
-      "examples": [
-        { "en": "The shop was full of customers.", "zh": "商店里挤满了顾客。" },
-        { "en": "We treat every customer well.", "zh": "我们善待每一位顾客。" }
-      ],
-      "synonyms": ["client"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "custom(习惯/惠顾)+er(人),习惯常来光顾的人就是顾客。" },
-      "petExam": { "frequency": "high", "collocations": ["a regular customer", "serve customers"] }
-    },
-    {
-      "id": "pet-work-015", "word": "meeting", "phonetic": "/ˈmiːtɪŋ/", "pos": "n.", "meaning": "会议；会面", "level": "A2",
-      "examples": [
-        { "en": "We have a meeting at ten.", "zh": "我们十点开会。" },
-        { "en": "The meeting lasted an hour.", "zh": "会议持续了一个小时。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "meet(见面)+ing,大家聚到一起见面就是会议。" },
-      "petExam": { "frequency": "high", "collocations": ["have a meeting", "attend a meeting"] }
-    },
-    {
-      "id": "pet-work-016", "word": "task", "phonetic": "/tɑːsk/", "pos": "n.", "meaning": "任务；工作", "level": "B1",
-      "examples": [
-        { "en": "This task is not easy.", "zh": "这个任务不容易。" },
-        { "en": "She finished the task on time.", "zh": "她按时完成了任务。" }
-      ],
-      "synonyms": ["job"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "task 谐音\"太苦\"——一个个任务压下来,确实太苦了。" },
-      "petExam": { "frequency": "medium", "collocations": ["a difficult task", "finish a task"] }
-    },
-    {
-      "id": "pet-work-017", "word": "skill", "phonetic": "/skɪl/", "pos": "n.", "meaning": "技能；技巧", "level": "B1",
-      "examples": [
-        { "en": "Cooking is a useful skill.", "zh": "做饭是一项有用的技能。" },
-        { "en": "He has good computer skills.", "zh": "他电脑技能很好。" }
-      ],
-      "synonyms": ["ability"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "skill 谐音\"死磕\"——一门技能都是死磕练出来的。" },
-      "petExam": { "frequency": "high", "collocations": ["a useful skill", "language skills"] }
-    },
-    {
-      "id": "pet-work-018", "word": "experience", "phonetic": "/ɪkˈspɪəriəns/", "pos": "n.", "meaning": "经验；经历", "level": "B1",
-      "examples": [
-        { "en": "She has years of work experience.", "zh": "她有多年的工作经验。" },
-        { "en": "Travelling is a great experience.", "zh": "旅行是一段很棒的经历。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "ex(向外)+peri(尝试,同 experiment)+ence,一次次向外尝试攒下来的就是经验。" },
-      "petExam": { "frequency": "high", "collocations": ["work experience", "gain experience"] }
-    },
-    {
-      "id": "pet-work-019", "word": "employ", "phonetic": "/ɪmˈplɔɪ/", "pos": "v.", "meaning": "雇用；聘用", "level": "B1",
-      "examples": [
-        { "en": "The shop employs ten people.", "zh": "这家店雇了十个人。" },
-        { "en": "They employed her as a nurse.", "zh": "他们聘她当护士。" }
-      ],
-      "synonyms": ["hire"], "antonyms": ["fire"], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "em(使)+ploy(投入,同 deploy),让人投入岗位干活就是雇用。" },
-      "petExam": { "frequency": "medium", "collocations": ["employ staff", "be employed as"] }
-    },
-    {
-      "id": "pet-work-020", "word": "retire", "phonetic": "/rɪˈtaɪə/", "pos": "v.", "meaning": "退休", "level": "B1",
-      "examples": [
-        { "en": "My grandfather retired at sixty.", "zh": "我爷爷六十岁退休了。" },
-        { "en": "She plans to retire next year.", "zh": "她打算明年退休。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "re(往回)+tire(累),干到累了就往回退、歇下来=退休。" },
-      "petExam": { "frequency": "medium", "collocations": ["retire from", "retire early"] }
-    },
-    {
-      "id": "pet-work-021", "word": "shift", "phonetic": "/ʃɪft/", "pos": "n.", "meaning": "轮班；班次", "level": "B1",
-      "examples": [
-        { "en": "She works the night shift.", "zh": "她上夜班。" },
-        { "en": "My shift starts at eight.", "zh": "我的班八点开始。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "assoc", "tip": "shift 本义\"移动/换\",一班人换下一班人就是轮班。" },
-      "petExam": { "frequency": "low", "collocations": ["the night shift", "work in shifts"] }
-    },
-    {
-      "id": "pet-work-022", "word": "profit", "phonetic": "/ˈprɒfɪt/", "pos": "n.", "meaning": "利润；盈利", "level": "B1",
-      "examples": [
-        { "en": "The shop made a big profit.", "zh": "这家店赚了一大笔利润。" },
-        { "en": "They sell the cakes at a profit.", "zh": "他们卖蛋糕是赚钱的。" }
-      ],
-      "synonyms": ["gain"], "antonyms": ["loss"], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "pro(向前)+fit(做/成,同 profit的拉丁根),生意往前做、多出来的钱就是利润。" },
-      "petExam": { "frequency": "medium", "collocations": ["make a profit", "at a profit"] }
-    },
-    {
-      "id": "pet-work-023", "word": "product", "phonetic": "/ˈprɒdʌkt/", "pos": "n.", "meaning": "产品；产物", "level": "B1",
-      "examples": [
-        { "en": "This product sells very well.", "zh": "这款产品卖得非常好。" },
-        { "en": "The company makes cleaning products.", "zh": "这家公司生产清洁用品。" }
-      ],
-      "synonyms": ["goods"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "pro(向前)+duct(引导/带出,同 conduct),被生产\"带出来\"的东西就是产品。" },
-      "petExam": { "frequency": "medium", "collocations": ["a new product", "sell a product"] }
-    },
-    {
-      "id": "pet-work-024", "word": "service", "phonetic": "/ˈsɜːvɪs/", "pos": "n.", "meaning": "服务", "level": "B1",
-      "examples": [
-        { "en": "The service in this hotel is excellent.", "zh": "这家酒店的服务很棒。" },
-        { "en": "They offer a fast delivery service.", "zh": "他们提供快速送货服务。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "serv(服侍,同 serve)+ice,为别人服侍就是服务。" },
-      "petExam": { "frequency": "high", "collocations": ["good service", "customer service"] }
-    },
-    {
-      "id": "pet-work-025", "word": "offer", "phonetic": "/ˈɒfə/", "pos": "v./n.", "meaning": "提供；提议；(工作)录用", "level": "B1",
-      "examples": [
-        { "en": "They offered me a job.", "zh": "他们给了我一份工作。" },
-        { "en": "Can I offer you some help?", "zh": "我能帮你点什么吗？" }
-      ],
-      "synonyms": ["provide"], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "of(向)+fer(拿来,同 transfer的fer),把东西向你递过来就是提供。" },
-      "petExam": { "frequency": "high", "collocations": ["offer a job", "a special offer"] }
-    },
-    {
-      "id": "pet-work-026", "word": "promotion", "phonetic": "/prəˈməʊʃn/", "pos": "n.", "meaning": "晋升；促销", "level": "B1",
-      "examples": [
-        { "en": "She got a promotion at work.", "zh": "她在工作上得到了晋升。" },
-        { "en": "There is a promotion on shoes today.", "zh": "今天鞋子有促销活动。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "pro(向前/向上)+mot(移动,同 move/motion)+ion,被往上推一格就是晋升。" },
-      "petExam": { "frequency": "low", "collocations": ["get a promotion", "a sales promotion"] }
-    },
-    {
-      "id": "pet-work-027", "word": "contract", "phonetic": "/ˈkɒntrækt/", "pos": "n.", "meaning": "合同；合约", "level": "B1",
-      "examples": [
-        { "en": "He signed a one-year contract.", "zh": "他签了一份为期一年的合同。" },
-        { "en": "Please read the contract carefully.", "zh": "请仔细阅读合同。" }
-      ],
-      "synonyms": ["agreement"], "antonyms": [], "difficulty": 4, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "con(共同)+tract(拉,同 attract),双方拉到一起、白纸黑字定下来就是合同。" },
-      "petExam": { "frequency": "low", "collocations": ["sign a contract", "a work contract"] }
-    },
-    {
-      "id": "pet-work-028", "word": "earn", "phonetic": "/ɜːn/", "pos": "v.", "meaning": "赚得；挣(钱)", "level": "A2",
-      "examples": [
-        { "en": "He earns money by teaching.", "zh": "他靠教书挣钱。" },
-        { "en": "She earns enough to travel.", "zh": "她挣的钱足够去旅行。" }
-      ],
-      "synonyms": ["make"], "antonyms": ["spend"], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "earn 谐音\"俺\"——\"俺\"靠双手挣钱,踏实。" },
-      "petExam": { "frequency": "high", "collocations": ["earn money", "earn a living"] }
-    },
-    {
-      "id": "pet-work-029", "word": "busy", "phonetic": "/ˈbɪzi/", "pos": "adj.", "meaning": "忙碌的", "level": "A2",
-      "examples": [
-        { "en": "I'm very busy this week.", "zh": "我这周非常忙。" },
-        { "en": "The office is busy on Mondays.", "zh": "办公室周一很忙。" }
-      ],
-      "synonyms": [], "antonyms": ["free"], "difficulty": 1, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "busy 谐音\"必死\"太夸张,记\"比赛\"——忙起来像比赛一样连轴转。" },
-      "petExam": { "frequency": "high", "collocations": ["a busy day", "be busy with"] }
-    },
-    {
-      "id": "pet-work-030", "word": "boss", "phonetic": "/bɒs/", "pos": "n.", "meaning": "老板；上司", "level": "A2",
-      "examples": [
-        { "en": "My boss is very kind.", "zh": "我老板人很好。" },
-        { "en": "The boss asked us to work faster.", "zh": "老板要我们干得快一点。" }
-      ],
-      "synonyms": ["manager"], "antonyms": [], "difficulty": 1, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "boss 谐音\"薄丝\"不对,记\"波士\"——发号施令的那位大人物。" },
-      "petExam": { "frequency": "high", "collocations": ["my boss", "the big boss"] }
-    },
-    {
-      "id": "pet-work-031", "word": "engineer", "phonetic": "/ˌendʒɪˈnɪə/", "pos": "n.", "meaning": "工程师", "level": "B1",
-      "examples": [
-        { "en": "My uncle is a software engineer.", "zh": "我叔叔是一名软件工程师。" },
-        { "en": "The engineer fixed the machine.", "zh": "工程师修好了机器。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "engine(发动机/引擎)+er(人),玩转引擎和机器的人就是工程师。" },
-      "petExam": { "frequency": "medium", "collocations": ["a software engineer", "work as an engineer"] }
-    },
-    {
-      "id": "pet-work-032", "word": "nurse", "phonetic": "/nɜːs/", "pos": "n.", "meaning": "护士", "level": "A2",
-      "examples": [
-        { "en": "The nurse looked after the sick man.", "zh": "护士照顾那位病人。" },
-        { "en": "She wants to be a nurse.", "zh": "她想当护士。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "sound", "tip": "nurse 谐音\"呢死\"不吉利,记\"暖厮\"——给人温暖照料的人就是护士。" },
-      "petExam": { "frequency": "medium", "collocations": ["a school nurse", "work as a nurse"] }
-    },
-    {
-      "id": "pet-work-033", "word": "customer service", "phonetic": "/ˈkʌstəmə ˈsɜːvɪs/", "pos": "n.", "meaning": "客户服务", "level": "B1",
-      "examples": [
-        { "en": "Call customer service for help.", "zh": "打客服电话寻求帮助。" },
-        { "en": "Their customer service is fast.", "zh": "他们的客户服务很快。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "image", "tip": "customer(顾客)+service(服务),专门为顾客服务的岗位就是客服。" },
-      "petExam": { "frequency": "medium", "collocations": ["call customer service", "good customer service"] }
-    },
-    {
-      "id": "pet-work-034", "word": "wage", "phonetic": "/weɪdʒ/", "pos": "n.", "meaning": "工资(按周/时计)", "level": "B1",
-      "examples": [
-        { "en": "Workers get their wages every Friday.", "zh": "工人们每周五领工资。" },
-        { "en": "The wage is paid by the hour.", "zh": "工资按小时计算。" }
-      ],
-      "synonyms": ["pay"], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "assoc", "tip": "wage 和 week(周)开头都像,按周结的钱就是 wage;月薪才叫 salary。" },
-      "petExam": { "frequency": "low", "collocations": ["a weekly wage", "the minimum wage"] }
-    },
-    {
-      "id": "pet-work-035", "word": "workplace", "phonetic": "/ˈwɜːkpleɪs/", "pos": "n.", "meaning": "工作场所", "level": "B1",
-      "examples": [
-        { "en": "Safety is important in the workplace.", "zh": "工作场所的安全很重要。" },
-        { "en": "The workplace has a small kitchen.", "zh": "工作场所有一个小厨房。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "work(工作)+place(地方),干活的地方就是工作场所。" },
-      "petExam": { "frequency": "low", "collocations": ["in the workplace", "a safe workplace"] }
-    },
-    {
-      "id": "pet-work-036", "word": "part-time", "phonetic": "/ˌpɑːt ˈtaɪm/", "pos": "adj./adv.", "meaning": "兼职的", "level": "B1",
-      "examples": [
-        { "en": "He has a part-time job on weekends.", "zh": "他周末做兼职。" },
-        { "en": "She works part-time at a shop.", "zh": "她在一家店做兼职。" }
-      ],
-      "synonyms": [], "antonyms": ["full-time"], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "part(部分)+time(时间),只占一部分时间的工作就是兼职。" },
-      "petExam": { "frequency": "medium", "collocations": ["a part-time job", "work part-time"] }
-    },
-    {
-      "id": "pet-work-037", "word": "full-time", "phonetic": "/ˌfʊl ˈtaɪm/", "pos": "adj./adv.", "meaning": "全职的", "level": "B1",
-      "examples": [
-        { "en": "She got a full-time job at a bank.", "zh": "她在银行找到一份全职工作。" },
-        { "en": "He works full-time now.", "zh": "他现在全职工作。" }
-      ],
-      "synonyms": [], "antonyms": ["part-time"], "difficulty": 2, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "full(满)+time(时间),占满工作时间就是全职。" },
-      "petExam": { "frequency": "medium", "collocations": ["a full-time job", "work full-time"] }
-    },
-    {
-      "id": "pet-work-038", "word": "deadline", "phonetic": "/ˈdedlaɪn/", "pos": "n.", "meaning": "截止日期；最后期限", "level": "B1",
-      "examples": [
-        { "en": "The deadline is next Friday.", "zh": "截止日期是下周五。" },
-        { "en": "We must meet the deadline.", "zh": "我们必须赶上截止期限。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "split", "tip": "dead(死)+line(线),过了这条线任务就\"死\"了=最后期限。" },
-      "petExam": { "frequency": "medium", "collocations": ["meet a deadline", "miss the deadline"] }
-    },
-    {
-      "id": "pet-work-039", "word": "unemployed", "phonetic": "/ˌʌnɪmˈplɔɪd/", "pos": "adj.", "meaning": "失业的", "level": "B1",
-      "examples": [
-        { "en": "He has been unemployed for a month.", "zh": "他已经失业一个月了。" },
-        { "en": "Many young people are unemployed.", "zh": "许多年轻人失业。" }
-      ],
-      "synonyms": [], "antonyms": ["employed"], "difficulty": 4, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "un(不)+employed(被雇的),没被雇用就是失业。" },
-      "petExam": { "frequency": "low", "collocations": ["become unemployed", "the unemployed"] }
-    },
-    {
-      "id": "pet-work-040", "word": "manage", "phonetic": "/ˈmænɪdʒ/", "pos": "v.", "meaning": "管理；设法做到", "level": "B1",
-      "examples": [
-        { "en": "She manages a team of ten.", "zh": "她管理一个十人的团队。" },
-        { "en": "I managed to finish the work in time.", "zh": "我设法及时完成了工作。" }
-      ],
-      "synonyms": ["run"], "antonyms": [], "difficulty": 3, "tags": ["work"],
-      "mnemonic": { "type": "root", "tip": "man(手,拉丁 manus)+age,用手一件件安排妥当就是管理。" },
-      "petExam": { "frequency": "high", "collocations": ["manage a team", "manage to do"] }
-    }
+    {"id":"pet-work-001","word":"job","phonetic":"/dʒɒb/","pos":"n.","meaning":"工作；职业","level":"A2","examples":[{"en":"She is looking for a new job.","zh":"她在找一份新工作。"},{"en":"He has a part-time job at a café.","zh":"他在一家咖啡馆做兼职。"}],"synonyms":["work"],"antonyms":[],"difficulty":1,"tags":["work"],"mnemonic":{"type":"image","tip":"job 三个字母像流水线：进(j)、干(o)、出(b)，一份活儿就是 job。"},"petExam":{"frequency":"high","collocations":["get a job","a part-time job","look for a job"]},"inKet":true},
+    {"id":"pet-work-002","word":"career","phonetic":"/kəˈrɪə/","pos":"n.","meaning":"职业生涯；事业","level":"B1","examples":[{"en":"He wants a career in music.","zh":"他想从事音乐事业。"},{"en":"Teaching is a rewarding career.","zh":"教书是一份有意义的职业。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"sound","tip":"career 谐音\"科瑞儿\"——一路进取(care about)才能拼出一番事业。"},"petExam":{"frequency":"medium","collocations":["a career in","start a career"]}},
+    {"id":"pet-work-003","word":"office","phonetic":"/ˈɒfɪs/","pos":"n.","meaning":"办公室","level":"A2","examples":[{"en":"My father works in an office.","zh":"我爸爸在办公室工作。"},{"en":"The office is on the third floor.","zh":"办公室在三楼。"}],"synonyms":[],"antonyms":[],"difficulty":1,"tags":["work"],"mnemonic":{"type":"sound","tip":"office 谐音\"凹费事\"——办公室里坐一天,凹在椅子上费事又费神。"},"petExam":{"frequency":"high","collocations":["at the office","an office worker"]},"inKet":true},
+    {"id":"pet-work-004","word":"manager","phonetic":"/ˈmænɪdʒə/","pos":"n.","meaning":"经理；管理人","level":"B1","examples":[{"en":"The manager gave us new tasks.","zh":"经理给我们分配了新任务。"},{"en":"She became a manager last year.","zh":"她去年当上了经理。"}],"synonyms":["boss"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"manage(管理)+er(人),负责管理的人就是经理。"},"petExam":{"frequency":"high","collocations":["a sales manager","the general manager"]},"inKet":true},
+    {"id":"pet-work-005","word":"employee","phonetic":"/ɪmˈplɔɪiː/","pos":"n.","meaning":"雇员；员工","level":"B1","examples":[{"en":"The company has fifty employees.","zh":"这家公司有五十名员工。"},{"en":"Every employee gets a free lunch.","zh":"每位员工都能享用免费午餐。"}],"synonyms":["worker","staff"],"antonyms":["employer"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"employ(雇用)+ee(被...的人),被雇用的人就是员工;对比 employer(雇主)。"},"petExam":{"frequency":"medium","collocations":["a full-time employee","a new employee"]}},
+    {"id":"pet-work-006","word":"colleague","phonetic":"/ˈkɒliːɡ/","pos":"n.","meaning":"同事","level":"B1","examples":[{"en":"My colleagues are very friendly.","zh":"我的同事都很友好。"},{"en":"I had lunch with a colleague.","zh":"我和一位同事一起吃了午饭。"}],"synonyms":["workmate"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"col(共同)+league(联盟),同一个联盟里并肩干活的人就是同事。"},"petExam":{"frequency":"medium","collocations":["a close colleague","work with colleagues"]}},
+    {"id":"pet-work-007","word":"salary","phonetic":"/ˈsæləri/","pos":"n.","meaning":"薪水；工资","level":"B1","examples":[{"en":"He earns a good salary.","zh":"他薪水不错。"},{"en":"My salary is paid every month.","zh":"我的工资按月发放。"}],"synonyms":["pay","wage"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"image","tip":"古罗马士兵曾用盐(sal,拉丁语盐)当军饷,salary 就是\"买盐的钱\"=薪水。"},"petExam":{"frequency":"medium","collocations":["a high salary","earn a salary"]}},
+    {"id":"pet-work-008","word":"interview","phonetic":"/ˈɪntəvjuː/","pos":"n./v.","meaning":"面试；采访","level":"B1","examples":[{"en":"I have a job interview tomorrow.","zh":"我明天有一场求职面试。"},{"en":"The reporter interviewed the singer.","zh":"记者采访了那位歌手。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"inter(在...之间)+view(看),两人面对面互相打量就是面试。"},"petExam":{"frequency":"high","collocations":["a job interview","go for an interview"]}},
+    {"id":"pet-work-009","word":"apply","phonetic":"/əˈplaɪ/","pos":"v.","meaning":"申请；应用","level":"B1","examples":[{"en":"She applied for the manager job.","zh":"她申请了那个经理职位。"},{"en":"You can apply online.","zh":"你可以在网上申请。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"ap(朝向)+ply(折叠/贴),把材料递贴到对方面前=申请。"},"petExam":{"frequency":"high","collocations":["apply for a job","apply online"]}},
+    {"id":"pet-work-010","word":"business","phonetic":"/ˈbɪznəs/","pos":"n.","meaning":"生意；商业；企业","level":"B1","examples":[{"en":"They run a small business.","zh":"他们经营一家小企业。"},{"en":"He is away on business.","zh":"他出差去了。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"split","tip":"busy(忙)+ness,忙忙碌碌张罗的事就是生意。"},"petExam":{"frequency":"high","collocations":["run a business","on business"]}},
+    {"id":"pet-work-011","word":"company","phonetic":"/ˈkʌmpəni/","pos":"n.","meaning":"公司；陪伴","level":"A2","examples":[{"en":"She works for a big company.","zh":"她在一家大公司工作。"},{"en":"I enjoy your company.","zh":"我喜欢有你作伴。"}],"synonyms":["firm"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"com(共同)+pan(面包,拉丁 panis),一起分面包吃的一群人=公司/伙伴。"},"petExam":{"frequency":"high","collocations":["work for a company","a large company"]}},
+    {"id":"pet-work-012","word":"factory","phonetic":"/ˈfæktri/","pos":"n.","meaning":"工厂","level":"A2","examples":[{"en":"The factory makes cars.","zh":"这家工厂生产汽车。"},{"en":"Many people work in that factory.","zh":"很多人在那家工厂上班。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"fact(做,拉丁 facere)+ory(地方),大批\"制造\"东西的地方就是工厂。"},"petExam":{"frequency":"medium","collocations":["a car factory","work in a factory"]},"inKet":true},
+    {"id":"pet-work-013","word":"staff","phonetic":"/stɑːf/","pos":"n.","meaning":"全体员工；职员","level":"B1","examples":[{"en":"The hotel staff are very helpful.","zh":"这家酒店的员工很乐于助人。"},{"en":"Our school has thirty staff.","zh":"我们学校有三十名教职工。"}],"synonyms":["employees"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"assoc","tip":"staff 也指\"拐杖\",一群员工是撑起公司的一根根支柱。"},"petExam":{"frequency":"medium","collocations":["a member of staff","hotel staff"]}},
+    {"id":"pet-work-014","word":"customer","phonetic":"/ˈkʌstəmə/","pos":"n.","meaning":"顾客；客户","level":"A2","examples":[{"en":"The shop was full of customers.","zh":"商店里挤满了顾客。"},{"en":"We treat every customer well.","zh":"我们善待每一位顾客。"}],"synonyms":["client"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"custom(习惯/惠顾)+er(人),习惯常来光顾的人就是顾客。"},"petExam":{"frequency":"high","collocations":["a regular customer","serve customers"]},"inKet":true},
+    {"id":"pet-work-015","word":"meeting","phonetic":"/ˈmiːtɪŋ/","pos":"n.","meaning":"会议；会面","level":"A2","examples":[{"en":"We have a meeting at ten.","zh":"我们十点开会。"},{"en":"The meeting lasted an hour.","zh":"会议持续了一个小时。"}],"synonyms":[],"antonyms":[],"difficulty":1,"tags":["work"],"mnemonic":{"type":"split","tip":"meet(见面)+ing,大家聚到一起见面就是会议。"},"petExam":{"frequency":"high","collocations":["have a meeting","attend a meeting"]},"inKet":true},
+    {"id":"pet-work-016","word":"task","phonetic":"/tɑːsk/","pos":"n.","meaning":"任务；工作","level":"B1","examples":[{"en":"This task is not easy.","zh":"这个任务不容易。"},{"en":"She finished the task on time.","zh":"她按时完成了任务。"}],"synonyms":["job"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"sound","tip":"task 谐音\"太苦\"——一个个任务压下来,确实太苦了。"},"petExam":{"frequency":"medium","collocations":["a difficult task","finish a task"]}},
+    {"id":"pet-work-017","word":"skill","phonetic":"/skɪl/","pos":"n.","meaning":"技能；技巧","level":"B1","examples":[{"en":"Cooking is a useful skill.","zh":"做饭是一项有用的技能。"},{"en":"He has good computer skills.","zh":"他电脑技能很好。"}],"synonyms":["ability"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"sound","tip":"skill 谐音\"死磕\"——一门技能都是死磕练出来的。"},"petExam":{"frequency":"high","collocations":["a useful skill","language skills"]}},
+    {"id":"pet-work-018","word":"experience","phonetic":"/ɪkˈspɪəriəns/","pos":"n.","meaning":"经验；经历","level":"B1","examples":[{"en":"She has years of work experience.","zh":"她有多年的工作经验。"},{"en":"Travelling is a great experience.","zh":"旅行是一段很棒的经历。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"ex(向外)+peri(尝试,同 experiment)+ence,一次次向外尝试攒下来的就是经验。"},"petExam":{"frequency":"high","collocations":["work experience","gain experience"]}},
+    {"id":"pet-work-019","word":"employ","phonetic":"/ɪmˈplɔɪ/","pos":"v.","meaning":"雇用；聘用","level":"B1","examples":[{"en":"The shop employs ten people.","zh":"这家店雇了十个人。"},{"en":"They employed her as a nurse.","zh":"他们聘她当护士。"}],"synonyms":["hire"],"antonyms":["fire"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"split","tip":"em(使)+ploy(投入,同 deploy),让人投入岗位干活就是雇用。"},"petExam":{"frequency":"medium","collocations":["employ staff","be employed as"]}},
+    {"id":"pet-work-020","word":"retire","phonetic":"/rɪˈtaɪə/","pos":"v.","meaning":"退休","level":"B1","examples":[{"en":"My grandfather retired at sixty.","zh":"我爷爷六十岁退休了。"},{"en":"She plans to retire next year.","zh":"她打算明年退休。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"split","tip":"re(往回)+tire(累),干到累了就往回退、歇下来=退休。"},"petExam":{"frequency":"medium","collocations":["retire from","retire early"]}},
+    {"id":"pet-work-021","word":"shift","phonetic":"/ʃɪft/","pos":"n.","meaning":"轮班；班次","level":"B1","examples":[{"en":"She works the night shift.","zh":"她上夜班。"},{"en":"My shift starts at eight.","zh":"我的班八点开始。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"shift 本义\"移动/换\",一班人换下一班人就是轮班。"},"petExam":{"frequency":"low","collocations":["the night shift","work in shifts"]}},
+    {"id":"pet-work-022","word":"profit","phonetic":"/ˈprɒfɪt/","pos":"n.","meaning":"利润；盈利","level":"B1","examples":[{"en":"The shop made a big profit.","zh":"这家店赚了一大笔利润。"},{"en":"They sell the cakes at a profit.","zh":"他们卖蛋糕是赚钱的。"}],"synonyms":["gain"],"antonyms":["loss"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"pro(向前)+fit(做/成,同 profit的拉丁根),生意往前做、多出来的钱就是利润。"},"petExam":{"frequency":"medium","collocations":["make a profit","at a profit"]}},
+    {"id":"pet-work-023","word":"product","phonetic":"/ˈprɒdʌkt/","pos":"n.","meaning":"产品；产物","level":"B1","examples":[{"en":"This product sells very well.","zh":"这款产品卖得非常好。"},{"en":"The company makes cleaning products.","zh":"这家公司生产清洁用品。"}],"synonyms":["goods"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"pro(向前)+duct(引导/带出,同 conduct),被生产\"带出来\"的东西就是产品。"},"petExam":{"frequency":"medium","collocations":["a new product","sell a product"]}},
+    {"id":"pet-work-024","word":"service","phonetic":"/ˈsɜːvɪs/","pos":"n.","meaning":"服务","level":"B1","examples":[{"en":"The service in this hotel is excellent.","zh":"这家酒店的服务很棒。"},{"en":"They offer a fast delivery service.","zh":"他们提供快速送货服务。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"serv(服侍,同 serve)+ice,为别人服侍就是服务。"},"petExam":{"frequency":"high","collocations":["good service","customer service"]}},
+    {"id":"pet-work-025","word":"offer","phonetic":"/ˈɒfə/","pos":"v./n.","meaning":"提供；提议；(工作)录用","level":"B1","examples":[{"en":"They offered me a job.","zh":"他们给了我一份工作。"},{"en":"Can I offer you some help?","zh":"我能帮你点什么吗？"}],"synonyms":["provide"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"of(向)+fer(拿来,同 transfer的fer),把东西向你递过来就是提供。"},"petExam":{"frequency":"high","collocations":["offer a job","a special offer"]}},
+    {"id":"pet-work-026","word":"promotion","phonetic":"/prəˈməʊʃn/","pos":"n.","meaning":"晋升；促销","level":"B1","examples":[{"en":"She got a promotion at work.","zh":"她在工作上得到了晋升。"},{"en":"There is a promotion on shoes today.","zh":"今天鞋子有促销活动。"}],"synonyms":[],"antonyms":[],"difficulty":4,"tags":["work"],"mnemonic":{"type":"root","tip":"pro(向前/向上)+mot(移动,同 move/motion)+ion,被往上推一格就是晋升。"},"petExam":{"frequency":"low","collocations":["get a promotion","a sales promotion"]}},
+    {"id":"pet-work-027","word":"contract","phonetic":"/ˈkɒntrækt/","pos":"n.","meaning":"合同；合约","level":"B1","examples":[{"en":"He signed a one-year contract.","zh":"他签了一份为期一年的合同。"},{"en":"Please read the contract carefully.","zh":"请仔细阅读合同。"}],"synonyms":["agreement"],"antonyms":[],"difficulty":4,"tags":["work"],"mnemonic":{"type":"root","tip":"con(共同)+tract(拉,同 attract),双方拉到一起、白纸黑字定下来就是合同。"},"petExam":{"frequency":"low","collocations":["sign a contract","a work contract"]}},
+    {"id":"pet-work-028","word":"earn","phonetic":"/ɜːn/","pos":"v.","meaning":"赚得；挣(钱)","level":"A2","examples":[{"en":"He earns money by teaching.","zh":"他靠教书挣钱。"},{"en":"She earns enough to travel.","zh":"她挣的钱足够去旅行。"}],"synonyms":["make"],"antonyms":["spend"],"difficulty":2,"tags":["work"],"mnemonic":{"type":"sound","tip":"earn 谐音\"俺\"——\"俺\"靠双手挣钱,踏实。"},"petExam":{"frequency":"high","collocations":["earn money","earn a living"]}},
+    {"id":"pet-work-029","word":"busy","phonetic":"/ˈbɪzi/","pos":"adj.","meaning":"忙碌的","level":"A2","examples":[{"en":"I'm very busy this week.","zh":"我这周非常忙。"},{"en":"The office is busy on Mondays.","zh":"办公室周一很忙。"}],"synonyms":[],"antonyms":["free"],"difficulty":1,"tags":["work"],"mnemonic":{"type":"sound","tip":"busy 谐音\"必死\"太夸张,记\"比赛\"——忙起来像比赛一样连轴转。"},"petExam":{"frequency":"high","collocations":["a busy day","be busy with"]},"inKet":true},
+    {"id":"pet-work-030","word":"boss","phonetic":"/bɒs/","pos":"n.","meaning":"老板；上司","level":"A2","examples":[{"en":"My boss is very kind.","zh":"我老板人很好。"},{"en":"The boss asked us to work faster.","zh":"老板要我们干得快一点。"}],"synonyms":["manager"],"antonyms":[],"difficulty":1,"tags":["work"],"mnemonic":{"type":"sound","tip":"boss 谐音\"薄丝\"不对,记\"波士\"——发号施令的那位大人物。"},"petExam":{"frequency":"high","collocations":["my boss","the big boss"]},"inKet":true},
+    {"id":"pet-work-031","word":"engineer","phonetic":"/ˌendʒɪˈnɪə/","pos":"n.","meaning":"工程师","level":"B1","examples":[{"en":"My uncle is a software engineer.","zh":"我叔叔是一名软件工程师。"},{"en":"The engineer fixed the machine.","zh":"工程师修好了机器。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"engine(发动机/引擎)+er(人),玩转引擎和机器的人就是工程师。"},"petExam":{"frequency":"medium","collocations":["a software engineer","work as an engineer"]},"inKet":true},
+    {"id":"pet-work-032","word":"nurse","phonetic":"/nɜːs/","pos":"n.","meaning":"护士","level":"A2","examples":[{"en":"The nurse looked after the sick man.","zh":"护士照顾那位病人。"},{"en":"She wants to be a nurse.","zh":"她想当护士。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"sound","tip":"nurse 谐音\"呢死\"不吉利,记\"暖厮\"——给人温暖照料的人就是护士。"},"petExam":{"frequency":"medium","collocations":["a school nurse","work as a nurse"]},"inKet":true},
+    {"id":"pet-work-033","word":"customer service","phonetic":"/ˈkʌstəmə ˈsɜːvɪs/","pos":"n.","meaning":"客户服务","level":"B1","examples":[{"en":"Call customer service for help.","zh":"打客服电话寻求帮助。"},{"en":"Their customer service is fast.","zh":"他们的客户服务很快。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"image","tip":"customer(顾客)+service(服务),专门为顾客服务的岗位就是客服。"},"petExam":{"frequency":"medium","collocations":["call customer service","good customer service"]}},
+    {"id":"pet-work-034","word":"wage","phonetic":"/weɪdʒ/","pos":"n.","meaning":"工资(按周/时计)","level":"B1","examples":[{"en":"Workers get their wages every Friday.","zh":"工人们每周五领工资。"},{"en":"The wage is paid by the hour.","zh":"工资按小时计算。"}],"synonyms":["pay"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"wage 和 week(周)开头都像,按周结的钱就是 wage;月薪才叫 salary。"},"petExam":{"frequency":"low","collocations":["a weekly wage","the minimum wage"]}},
+    {"id":"pet-work-035","word":"workplace","phonetic":"/ˈwɜːkpleɪs/","pos":"n.","meaning":"工作场所","level":"B1","examples":[{"en":"Safety is important in the workplace.","zh":"工作场所的安全很重要。"},{"en":"The workplace has a small kitchen.","zh":"工作场所有一个小厨房。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"split","tip":"work(工作)+place(地方),干活的地方就是工作场所。"},"petExam":{"frequency":"low","collocations":["in the workplace","a safe workplace"]}},
+    {"id":"pet-work-036","word":"part-time","phonetic":"/ˌpɑːt ˈtaɪm/","pos":"adj./adv.","meaning":"兼职的","level":"B1","examples":[{"en":"He has a part-time job on weekends.","zh":"他周末做兼职。"},{"en":"She works part-time at a shop.","zh":"她在一家店做兼职。"}],"synonyms":[],"antonyms":["full-time"],"difficulty":2,"tags":["work"],"mnemonic":{"type":"split","tip":"part(部分)+time(时间),只占一部分时间的工作就是兼职。"},"petExam":{"frequency":"medium","collocations":["a part-time job","work part-time"]}},
+    {"id":"pet-work-037","word":"full-time","phonetic":"/ˌfʊl ˈtaɪm/","pos":"adj./adv.","meaning":"全职的","level":"B1","examples":[{"en":"She got a full-time job at a bank.","zh":"她在银行找到一份全职工作。"},{"en":"He works full-time now.","zh":"他现在全职工作。"}],"synonyms":[],"antonyms":["part-time"],"difficulty":2,"tags":["work"],"mnemonic":{"type":"split","tip":"full(满)+time(时间),占满工作时间就是全职。"},"petExam":{"frequency":"medium","collocations":["a full-time job","work full-time"]}},
+    {"id":"pet-work-038","word":"deadline","phonetic":"/ˈdedlaɪn/","pos":"n.","meaning":"截止日期；最后期限","level":"B1","examples":[{"en":"The deadline is next Friday.","zh":"截止日期是下周五。"},{"en":"We must meet the deadline.","zh":"我们必须赶上截止期限。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"split","tip":"dead(死)+line(线),过了这条线任务就\"死\"了=最后期限。"},"petExam":{"frequency":"medium","collocations":["meet a deadline","miss the deadline"]}},
+    {"id":"pet-work-039","word":"unemployed","phonetic":"/ˌʌnɪmˈplɔɪd/","pos":"adj.","meaning":"失业的","level":"B1","examples":[{"en":"He has been unemployed for a month.","zh":"他已经失业一个月了。"},{"en":"Many young people are unemployed.","zh":"许多年轻人失业。"}],"synonyms":[],"antonyms":["employed"],"difficulty":4,"tags":["work"],"mnemonic":{"type":"root","tip":"un(不)+employed(被雇的),没被雇用就是失业。"},"petExam":{"frequency":"low","collocations":["become unemployed","the unemployed"]}},
+    {"id":"pet-work-040","word":"manage","phonetic":"/ˈmænɪdʒ/","pos":"v.","meaning":"管理；设法做到","level":"B1","examples":[{"en":"She manages a team of ten.","zh":"她管理一个十人的团队。"},{"en":"I managed to finish the work in time.","zh":"我设法及时完成了工作。"}],"synonyms":["run"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"man(手,拉丁 manus)+age,用手一件件安排妥当就是管理。"},"petExam":{"frequency":"high","collocations":["manage a team","manage to do"]}},
+    {"id":"pet-work-041","word":"hairdresser","phonetic":"/ˈheədresə(r)/","pos":"n.","meaning":"理发师","level":"B1","examples":[{"en":"The hairdresser gave her a lovely new style.","zh":"理发师给她做了个漂亮的新发型。"},{"en":"I have an appointment at the hairdresser’s tomorrow.","zh":"我明天约了理发。"}],"synonyms":["barber"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"hair(头发)+dresser(打理者)→打理头发的人。"},"petExam":{"frequency":"medium","collocations":["go to the hairdresser’s"]},"inKet":true},
+    {"id":"pet-work-042","word":"assistant","phonetic":"/əˈsɪstənt/","pos":"n.","meaning":"助手；店员","level":"B1","examples":[{"en":"The shop assistant helped me find my size.","zh":"店员帮我找到了合适的尺码。"},{"en":"She works as an assistant to the manager.","zh":"她担任经理助理。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"assist(协助)+ant(人)→协助别人的人。"},"petExam":{"frequency":"high","collocations":["a shop assistant"]},"inKet":true},
+    {"id":"pet-work-043","word":"accountant","phonetic":"/əˈkaʊntənt/","pos":"n.","meaning":"会计","level":"B1","examples":[{"en":"The accountant checks the company’s money.","zh":"会计核对公司的账目。"},{"en":"My aunt trained for years to become an accountant.","zh":"我姑姑培训多年才当上会计。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"account(账目)+ant(人)→管账的人。"},"petExam":{"frequency":"medium","collocations":["a company accountant"]}},
+    {"id":"pet-work-044","word":"architect","phonetic":"/ˈɑːkɪtekt/","pos":"n.","meaning":"建筑师","level":"B1","examples":[{"en":"The architect designed a bridge of glass.","zh":"建筑师设计了一座玻璃桥。"},{"en":"An architect must think about beauty and safety.","zh":"建筑师必须兼顾美观和安全。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"archi(主)+tect(建造)→主持建造的人→建筑师。"},"petExam":{"frequency":"medium","collocations":["a famous architect"]}},
+    {"id":"pet-work-045","word":"lawyer","phonetic":"/ˈlɔːjə(r)/","pos":"n.","meaning":"律师","level":"B1","examples":[{"en":"The lawyer explained the law to us in simple words.","zh":"律师用简单的话给我们讲解法律。"},{"en":"She wants to be a lawyer and help people.","zh":"她想当律师帮助别人。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"law(法律)+yer(人)→靠法律工作的人。"},"petExam":{"frequency":"high","collocations":["see a lawyer"]}},
+    {"id":"pet-work-046","word":"journalist","phonetic":"/ˈdʒɜːnəlɪst/","pos":"n.","meaning":"记者","level":"B1","examples":[{"en":"The journalist wrote a report about the flood.","zh":"记者写了洪水的报道。"},{"en":"Journalists ask questions for a living.","zh":"记者以提问为生。"}],"synonyms":["reporter"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"journal(日报)+ist(人)→给报刊写稿的人。"},"petExam":{"frequency":"medium","collocations":["a sports journalist"]}},
+    {"id":"pet-work-047","word":"librarian","phonetic":"/laɪˈbreəriən/","pos":"n.","meaning":"图书管理员","level":"B1","examples":[{"en":"The librarian helped me find the book.","zh":"图书管理员帮我找到了那本书。"},{"en":"Ask the librarian if you can borrow it.","zh":"问问管理员这本书能不能借。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"library(图书馆)+an(人)→图书馆工作的人。"},"petExam":{"frequency":"medium","collocations":["ask the librarian"]}},
+    {"id":"pet-work-048","word":"mechanic","phonetic":"/məˈkænɪk/","pos":"n.","meaning":"机械修理工","level":"B1","examples":[{"en":"The mechanic fixed our car in an hour.","zh":"修理工一小时修好了我们的车。"},{"en":"A good mechanic can find the problem by listening.","zh":"好的修理工听声音就能找出毛病。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"machine(机器)的近亲——修 machine 的人。"},"petExam":{"frequency":"medium","collocations":["a car mechanic"]}},
+    {"id":"pet-work-049","word":"electrician","phonetic":"/ɪˌlekˈtrɪʃn/","pos":"n.","meaning":"电工","level":"B1","examples":[{"en":"The electrician repaired the broken lights.","zh":"电工修好了坏掉的灯。"},{"en":"Never touch the wires—call an electrician.","zh":"千万别碰电线——打电话叫电工。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"electric(电的)+ian(人)→跟电打交道的人。"},"petExam":{"frequency":"low","collocations":["call an electrician"]}},
+    {"id":"pet-work-050","word":"plumber","phonetic":"/ˈplʌmə(r)/","pos":"n.","meaning":"水管工","level":"B1","examples":[{"en":"The plumber stopped the water leak in the kitchen.","zh":"水管工修好了厨房漏水。"},{"en":"The plumber carried his heavy tools upstairs.","zh":"水管工扛着沉重的工具上了楼。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"plumber 的 b 不发音——拉丁语\"铅\"，古时水管是铅做的。"},"petExam":{"frequency":"low","collocations":["call a plumber"]}},
+    {"id":"pet-work-051","word":"carpenter","phonetic":"/ˈkɑːpəntə(r)/","pos":"n.","meaning":"木匠","level":"B1","examples":[{"en":"The carpenter made a bookshelf for my room.","zh":"木匠给我的房间做了个书架。"},{"en":"A carpenter works with wood all day.","zh":"木匠整天和木头打交道。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"sound","tip":"carpenter 谐音\"卡盆特\"——木匠做的木盆卡得特别严实。"},"petExam":{"frequency":"low","collocations":["a skilled carpenter"]}},
+    {"id":"pet-work-052","word":"surgeon","phonetic":"/ˈsɜːdʒən/","pos":"n.","meaning":"外科医生","level":"B1","examples":[{"en":"The surgeon operated on his broken leg.","zh":"外科医生给他的断腿做了手术。"},{"en":"Surgeons must have steady hands.","zh":"外科医生的手必须稳。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"surgery(手术)+on→做 surgery 的医生。"},"petExam":{"frequency":"medium","collocations":["a heart surgeon"]}},
+    {"id":"pet-work-053","word":"designer","phonetic":"/dɪˈzaɪnə(r)/","pos":"n.","meaning":"设计师","level":"B1","examples":[{"en":"The designer drew plans for the new playground.","zh":"设计师画了新操场的图纸。"},{"en":"She dreams of becoming a fashion designer.","zh":"她梦想成为时装设计师。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"design(设计)+er(人)→做设计的人。"},"petExam":{"frequency":"high","collocations":["a fashion designer"]}},
+    {"id":"pet-work-054","word":"programmer","phonetic":"/ˈprəʊɡræmə(r)/","pos":"n.","meaning":"程序员","level":"B1","examples":[{"en":"The programmer wrote the game in two months.","zh":"程序员用两个月写出了这个游戏。"},{"en":"Programmers tell computers what to do.","zh":"程序员告诉电脑做什么。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"programme(程序)+er(人)→写程序的人。"},"petExam":{"frequency":"medium","collocations":["a computer programmer"]}},
+    {"id":"pet-work-055","word":"scientist","phonetic":"/ˈsaɪəntɪst/","pos":"n.","meaning":"科学家","level":"B1","examples":[{"en":"The scientists are studying the melting ice.","zh":"科学家们在研究融化的冰川。"},{"en":"A scientist asks questions about everything.","zh":"科学家对一切都要问个为什么。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"science(科学)+ist(人)→做科学研究的人。"},"petExam":{"frequency":"high","collocations":["a famous scientist"]}},
+    {"id":"pet-work-056","word":"guard","phonetic":"/ɡɑːd/","pos":"n.","meaning":"警卫，看守","level":"B1","examples":[{"en":"A guard stands at the museum door all day.","zh":"警卫整天守在博物馆门口。"},{"en":"The night guard checks every room.","zh":"夜班警卫检查每个房间。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"assoc","tip":"bodyguard(保镖)里的 guard——守卫安全的人。"},"petExam":{"frequency":"medium","collocations":["a security guard"]}},
+    {"id":"pet-work-057","word":"soldier","phonetic":"/ˈsəʊldʒə(r)/","pos":"n.","meaning":"士兵","level":"B1","examples":[{"en":"The soldiers helped people after the earthquake.","zh":"地震后士兵们帮助民众。"},{"en":"His grandfather was a soldier in the war.","zh":"他爷爷战时当过兵。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"sound","tip":"soldier 谐音\"扫剿\"——士兵负责扫剿敌人。"},"petExam":{"frequency":"medium","collocations":["a brave soldier"]}},
+    {"id":"pet-work-058","word":"officer","phonetic":"/ˈɒfɪsə(r)/","pos":"n.","meaning":"警官；军官；官员","level":"B1","examples":[{"en":"The police officer helped the lost child.","zh":"警官帮助了走失的孩子。"},{"en":"The officer checked our passports.","zh":"官员检查了我们的护照。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"office(官职)+er(人)→担任官职的人。"},"petExam":{"frequency":"high","collocations":["a police officer"]}},
+    {"id":"pet-work-059","word":"politician","phonetic":"/ˌpɒləˈtɪʃn/","pos":"n.","meaning":"政治家，从政者","level":"B1","examples":[{"en":"Politicians make decisions for the country.","zh":"从政者为国家做决策。"},{"en":"The politician promised to build more schools.","zh":"这位政治家承诺多建学校。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"politics(政治)+ian(人)→搞政治的人。"},"petExam":{"frequency":"low","collocations":["a local politician"]}},
+    {"id":"pet-work-060","word":"fisherman","phonetic":"/ˈfɪʃəmən/","pos":"n.","meaning":"渔民","level":"B1","examples":[{"en":"The fishermen set out to sea before dawn.","zh":"渔民天不亮就出海了。"},{"en":"The old fisherman knows every rock on the coast.","zh":"老渔民熟悉海岸的每块礁石。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"fisher(捕鱼者)+man(人)→打鱼的人。"},"petExam":{"frequency":"low","collocations":["a fishing village fisherman"]}},
+    {"id":"pet-work-061","word":"detective","phonetic":"/dɪˈtektɪv/","pos":"n.","meaning":"侦探","level":"B1","examples":[{"en":"The detective found an important clue.","zh":"侦探发现了重要线索。"},{"en":"Sherlock Holmes is the most famous detective in books.","zh":"福尔摩斯是书中最有名的侦探。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"detect(侦查)+ive→做侦查工作的人。"},"petExam":{"frequency":"medium","collocations":["a detective story"]}},
+    {"id":"pet-work-062","word":"astronaut","phonetic":"/ˈæstrənɔːt/","pos":"n.","meaning":"宇航员","level":"B1","examples":[{"en":"The astronaut floated inside the space station.","zh":"宇航员在空间站里飘浮。"},{"en":"She trained for years to become an astronaut.","zh":"她训练多年成为宇航员。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"astro(星)+naut(航行者)→在星际航行的人。"},"petExam":{"frequency":"medium","collocations":["a Chinese astronaut"]}},
+    {"id":"pet-work-063","word":"director","phonetic":"/dəˈrektə(r)/","pos":"n.","meaning":"主管；导演","level":"B1","examples":[{"en":"The director of the company gave a speech.","zh":"公司主管发表了讲话。"},{"en":"The film director shouted “Action!”","zh":"电影导演喊了声\"开拍！\""}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"direct(指导)+or(人)→指挥方向的人→主管/导演。"},"petExam":{"frequency":"medium","collocations":["a film director"]}},
+    {"id":"pet-work-064","word":"researcher","phonetic":"/rɪˈsɜːtʃə(r)/","pos":"n.","meaning":"研究员","level":"B1","examples":[{"en":"The researchers tested the new medicine.","zh":"研究员们测试了新药。"},{"en":"She works as a researcher at the university.","zh":"她在大学做研究员。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"research(研究)+er(人)→做研究的人。"},"petExam":{"frequency":"medium","collocations":["a medical researcher"]}},
+    {"id":"pet-work-065","word":"builder","phonetic":"/ˈbɪldə(r)/","pos":"n.","meaning":"建筑工人","level":"B1","examples":[{"en":"The builders finished the house in six months.","zh":"建筑工人六个月盖好了房子。"},{"en":"The builder wore a yellow helmet.","zh":"建筑工人戴着黄色安全帽。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"build(建造)+er(人)→盖房子的人。"},"petExam":{"frequency":"medium","collocations":["a team of builders"]}},
+    {"id":"pet-work-066","word":"employer","phonetic":"/ɪmˈplɔɪə(r)/","pos":"n.","meaning":"雇主","level":"B1","examples":[{"en":"Her employer gave her a pay rise.","zh":"雇主给她涨了工资。"},{"en":"A good employer cares about the workers.","zh":"好雇主关心员工。"}],"synonyms":[],"antonyms":["employee"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"employ(雇用)+er(施动者)→雇人的人；employee 被雇的人。"},"petExam":{"frequency":"high","collocations":["a good employer"]}},
+    {"id":"pet-work-067","word":"employment","phonetic":"/ɪmˈplɔɪmənt/","pos":"n.","meaning":"就业，工作","level":"B1","examples":[{"en":"The new factory will bring employment to the town.","zh":"新工厂会给小镇带来就业。"},{"en":"He is looking for full-time employment.","zh":"他在找全职工作。"}],"synonyms":[],"antonyms":["unemployment"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"employ(雇用)+ment→被雇用的状态→就业。"},"petExam":{"frequency":"medium","collocations":["find employment"]}},
+    {"id":"pet-work-068","word":"unemployment","phonetic":"/ˌʌnɪmˈplɔɪmənt/","pos":"n.","meaning":"失业","level":"B1","examples":[{"en":"Unemployment rose during the hard years.","zh":"困难年月失业率上升。"},{"en":"The government is trying to reduce unemployment.","zh":"政府在努力减少失业。"}],"synonyms":[],"antonyms":["employment"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"un(无)+employment(就业)→没有工作→失业。"},"petExam":{"frequency":"medium","collocations":["high unemployment"]}},
+    {"id":"pet-work-069","word":"occupation","phonetic":"/ˌɒkjuˈpeɪʃn/","pos":"n.","meaning":"职业","level":"B1","examples":[{"en":"Please write your name and occupation on the form.","zh":"请在表格上填写姓名和职业。"},{"en":"Teaching is a rewarding occupation.","zh":"教书是很有意义的职业。"}],"synonyms":["job","profession"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"occupy(占据)+ation→占据你大部分时间的事→职业。"},"petExam":{"frequency":"medium","collocations":["name and occupation"]}},
+    {"id":"pet-work-070","word":"profession","phonetic":"/prəˈfeʃn/","pos":"n.","meaning":"（专业）职业","level":"B1","examples":[{"en":"Medicine is a caring profession.","zh":"医学是充满关怀的职业。"},{"en":"She is a nurse by profession.","zh":"她的职业是护士。"}],"synonyms":["occupation"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"profess(公开声称)+ion→需要公开资质的职业。"},"petExam":{"frequency":"medium","collocations":["by profession"]}},
+    {"id":"pet-work-071","word":"industry","phonetic":"/ˈɪndəstri/","pos":"n.","meaning":"工业，行业","level":"B1","examples":[{"en":"The car industry employs thousands of people.","zh":"汽车工业雇用成千上万的人。"},{"en":"Tourism is the main industry of the island.","zh":"旅游业是这个岛的主要产业。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"industrious 是\"勤劳的\"——industry 本义就是勤劳，后指工业。"},"petExam":{"frequency":"high","collocations":["the film industry"]}},
+    {"id":"pet-work-072","word":"trade","phonetic":"/treɪd/","pos":"n.","meaning":"贸易；行业","level":"B1","examples":[{"en":"The two countries do a lot of trade with each other.","zh":"两国之间贸易往来很多。"},{"en":"He learned the trade of shoemaking from his father.","zh":"他跟父亲学了制鞋这一行。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"trade 一手交钱一手交货——买卖往来就是贸易。"},"petExam":{"frequency":"medium","collocations":["international trade"]}},
+    {"id":"pet-work-073","word":"overtime","phonetic":"/ˈəʊvətaɪm/","pos":"n.","meaning":"加班","level":"B1","examples":[{"en":"Dad worked overtime to finish the project.","zh":"爸爸加班赶完项目。"},{"en":"She gets extra pay for overtime.","zh":"她加班有加班费。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"over(超过)+time(时间)→超过正常时间的工作→加班。"},"petExam":{"frequency":"medium","collocations":["work overtime"]}},
+    {"id":"pet-work-074","word":"workshop","phonetic":"/ˈwɜːkʃɒp/","pos":"n.","meaning":"车间；工作坊","level":"B1","examples":[{"en":"The carpenter’s workshop smells of fresh wood.","zh":"木匠的车间里满是新木头的味道。"},{"en":"We joined a writing workshop at the library.","zh":"我们参加了图书馆的写作工作坊。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"work(工作)+shop(坊)→干活的小屋→车间/工作坊。"},"petExam":{"frequency":"medium","collocations":["a writing workshop"]}},
+    {"id":"pet-work-075","word":"warehouse","phonetic":"/ˈweəhaʊs/","pos":"n.","meaning":"仓库","level":"B1","examples":[{"en":"The goods are kept in a big warehouse.","zh":"货物存放在大仓库里。"},{"en":"He drives a forklift in the warehouse.","zh":"他在仓库里开叉车。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"ware(货物)+house(房子)→放货物的房子→仓库。"},"petExam":{"frequency":"low","collocations":["a warehouse worker"]}},
+    {"id":"pet-work-076","word":"firm","phonetic":"/fɜːm/","pos":"n.","meaning":"公司；坚定的","level":"B1","examples":[{"en":"She works for a law firm in the city.","zh":"她在市里一家律师事务所工作。"},{"en":"Be firm when you say no.","zh":"拒绝时要态度坚定。"}],"synonyms":["company"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"一词两义：a law firm 律所；a firm answer 坚定的回答。"},"petExam":{"frequency":"medium","collocations":["a law firm"]}},
+    {"id":"pet-work-077","word":"organisation","phonetic":"/ˌɔːɡənaɪˈzeɪʃn/","pos":"n.","meaning":"组织，机构","level":"B1","examples":[{"en":"The organisation helps children learn to read.","zh":"这个组织帮助孩子学习阅读。"},{"en":"Good organisation makes work easier.","zh":"良好的组织安排让工作更轻松。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"organise(组织)+ation→组织起来的机构。"},"petExam":{"frequency":"medium","collocations":["an international organisation"]}},
+    {"id":"pet-work-078","word":"teamwork","phonetic":"/ˈtiːmwɜːk/","pos":"n.","meaning":"团队合作","level":"B1","examples":[{"en":"Good teamwork won us the match.","zh":"好的团队合作让我们赢了比赛。"},{"en":"The project needs teamwork, not heroes.","zh":"这个项目需要团队合作，不是个人英雄。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"team(团队)+work(工作)→一起干活→团队合作。"},"petExam":{"frequency":"high","collocations":["good teamwork"]}},
+    {"id":"pet-work-079","word":"leadership","phonetic":"/ˈliːdəʃɪp/","pos":"n.","meaning":"领导力","level":"B1","examples":[{"en":"The captain showed great leadership in the storm.","zh":"风暴中船长展现了出色的领导力。"},{"en":"Leadership means listening as well as deciding.","zh":"领导力既是决断也是倾听。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"leader(领导者)+ship(才能)→领导的才能。"},"petExam":{"frequency":"medium","collocations":["leadership skills"]}},
+    {"id":"pet-work-080","word":"training","phonetic":"/ˈtreɪnɪŋ/","pos":"n.","meaning":"培训，训练","level":"B1","examples":[{"en":"New workers get two weeks of training.","zh":"新员工有两周培训。"},{"en":"She is in training for the marathon.","zh":"她在为马拉松训练。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"train(训练)+ing→训练这件事。"},"petExam":{"frequency":"high","collocations":["job training","in training"]}},
+    {"id":"pet-work-081","word":"retirement","phonetic":"/rɪˈtaɪəmənt/","pos":"n.","meaning":"退休","level":"B1","examples":[{"en":"Grandpa enjoys gardening in his retirement.","zh":"爷爷退休后喜欢侍弄花园。"},{"en":"She is saving money for retirement.","zh":"她在为退休攒钱。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"retire(退休)+ment→退休生活/状态。"},"petExam":{"frequency":"medium","collocations":["after retirement"]}},
+    {"id":"pet-work-082","word":"pension","phonetic":"/ˈpenʃn/","pos":"n.","meaning":"养老金","level":"B1","examples":[{"en":"Grandma lives on her pension.","zh":"奶奶靠养老金生活。"},{"en":"Workers pay into a pension every month.","zh":"工人们每月缴纳养老金。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"sound","tip":"pension 谐音\"盼身\"——盼着老了身有所养。"},"petExam":{"frequency":"low","collocations":["live on a pension"]}},
+    {"id":"pet-work-083","word":"CV","phonetic":"/ˌsiː ˈviː/","pos":"n.","meaning":"简历（英）","level":"B1","examples":[{"en":"Send your CV with the application letter.","zh":"把简历和求职信一起寄出。"},{"en":"Her CV lists all her skills and experience.","zh":"她的简历列出了全部技能和经验。"}],"synonyms":["resume"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"assoc","tip":"CV = 拉丁语 curriculum vitae\"人生履历\"的缩写。"},"petExam":{"frequency":"high","collocations":["send a CV"]}},
+    {"id":"pet-work-084","word":"application","phonetic":"/ˌæplɪˈkeɪʃn/","pos":"n.","meaning":"申请；应用","level":"B1","examples":[{"en":"The company received fifty applications for the job.","zh":"公司收到五十份求职申请。"},{"en":"Fill in the application form in black pen.","zh":"用黑笔填写申请表。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"apply(申请)+cation→申请这件事；an application form 申请表。"},"petExam":{"frequency":"high","collocations":["an application form"]}},
+    {"id":"pet-work-085","word":"applicant","phonetic":"/ˈæplɪkənt/","pos":"n.","meaning":"申请人","level":"B1","examples":[{"en":"Each applicant has a ten-minute interview.","zh":"每位申请人有十分钟面试。"},{"en":"The best applicant will get the job.","zh":"最优秀的申请人将得到这份工作。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"apply(申请)+ant(人)→提出申请的人。"},"petExam":{"frequency":"medium","collocations":["a job applicant"]}},
+    {"id":"pet-work-086","word":"trainee","phonetic":"/ˌtreɪˈniː/","pos":"n.","meaning":"实习生，受训者","level":"B1","examples":[{"en":"The trainee follows the doctor around the hospital.","zh":"实习生跟着医生在医院各处学习。"},{"en":"Trainees earn less but learn a lot.","zh":"实习生挣得少但学得多。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"train(培训)+ee(被…的人)→被培训的人；对比 trainer。"},"petExam":{"frequency":"low","collocations":["a trainee nurse"]}},
+    {"id":"pet-work-087","word":"volunteer","phonetic":"/ˌvɒlənˈtɪə(r)/","pos":"n.","meaning":"志愿者","level":"B1","examples":[{"en":"Volunteers cleaned up the beach on Sunday.","zh":"志愿者周日清理了海滩。"},{"en":"She works as a volunteer at the animal shelter.","zh":"她在动物收容所做志愿者。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"volunt(自愿)+eer(人)→自愿做事的人。"},"petExam":{"frequency":"high","collocations":["work as a volunteer"]}},
+    {"id":"pet-work-088","word":"responsibility","phonetic":"/rɪˌspɒnsəˈbɪləti/","pos":"n.","meaning":"责任","level":"B1","examples":[{"en":"Feeding the dog is my responsibility.","zh":"喂狗是我的责任。"},{"en":"With a bigger job comes bigger responsibility.","zh":"职位越高责任越大。"}],"synonyms":["duty"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"responsible(负责的)+ity→负责的事→责任。"},"petExam":{"frequency":"high","collocations":["take responsibility for"]}},
+    {"id":"pet-work-089","word":"duty","phonetic":"/ˈdjuːti/","pos":"n.","meaning":"职责；值班","level":"B1","examples":[{"en":"It is a nurse’s duty to care for patients.","zh":"照顾病人是护士的职责。"},{"en":"Which doctor is on duty tonight?","zh":"今晚哪位医生值班？"}],"synonyms":["responsibility"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"on duty 在值班，off duty 下班——duty 是分内之事。"},"petExam":{"frequency":"high","collocations":["on duty","do your duty"]}},
+    {"id":"pet-work-090","word":"bonus","phonetic":"/ˈbəʊnəs/","pos":"n.","meaning":"奖金","level":"B1","examples":[{"en":"Everyone got a bonus at the end of the year.","zh":"年底人人都拿到了奖金。"},{"en":"The team was promised a bonus for finishing early.","zh":"提前完工团队可获奖金。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"拉丁语 bonus=好——干得好的\"好处费\"→奖金。"},"petExam":{"frequency":"medium","collocations":["a year-end bonus"]}},
+    {"id":"pet-work-091","word":"client","phonetic":"/ˈklaɪənt/","pos":"n.","meaning":"客户","level":"B1","examples":[{"en":"The lawyer met her client at nine.","zh":"律师九点会见客户。"},{"en":"The designer showed the plans to the client.","zh":"设计师把方案给客户看。"}],"synonyms":["customer"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"customer 买商品，client 买服务——律师、设计师的顾客叫 client。"},"petExam":{"frequency":"medium","collocations":["meet a client"]}},
+    {"id":"pet-work-092","word":"target","phonetic":"/ˈtɑːɡɪt/","pos":"n.","meaning":"目标，指标","level":"B1","examples":[{"en":"Our target is to sell one hundred tickets.","zh":"我们的目标是卖出一百张票。"},{"en":"She set herself a target of thirty new words a week.","zh":"她给自己定了每周三十个新词的目标。"}],"synonyms":["goal","aim"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"assoc","tip":"射击的靶子就是 target——对着目标打。"},"petExam":{"frequency":"high","collocations":["set a target","reach a target"]}},
+    {"id":"pet-work-093","word":"quality","phonetic":"/ˈkwɒləti/","pos":"n.","meaning":"质量；品质","level":"B1","examples":[{"en":"The factory checks the quality of every toy.","zh":"工厂检查每件玩具的质量。"},{"en":"Honesty is her best quality.","zh":"诚实是她最好的品质。"}],"synonyms":[],"antonyms":["quantity"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"qual(性质)+ity→东西的性质好坏→质量。"},"petExam":{"frequency":"high","collocations":["high quality","good quality"]}},
+    {"id":"pet-work-094","word":"quantity","phonetic":"/ˈkwɒntəti/","pos":"n.","meaning":"数量","level":"B1","examples":[{"en":"Buy a large quantity and you get a discount.","zh":"大量购买有折扣。"},{"en":"Quality matters more than quantity.","zh":"质量比数量重要。"}],"synonyms":[],"antonyms":["quality"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"quant(多少)+ity→有多少→数量。"},"petExam":{"frequency":"medium","collocations":["a large quantity of"]}},
+    {"id":"pet-work-095","word":"standard","phonetic":"/ˈstændəd/","pos":"n.","meaning":"标准，水平","level":"B1","examples":[{"en":"The hotel keeps a high standard of service.","zh":"这家酒店保持高水准的服务。"},{"en":"Her English is above the standard for her age.","zh":"她的英语超过了同龄人的水平。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"stand(立)+ard→立在那里的一把尺→标准。"},"petExam":{"frequency":"high","collocations":["a high standard","up to standard"]}},
+    {"id":"pet-work-096","word":"position","phonetic":"/pəˈzɪʃn/","pos":"n.","meaning":"职位；位置","level":"B1","examples":[{"en":"She applied for the position of head nurse.","zh":"她申请了护士长的职位。"},{"en":"Move the desk to a better position.","zh":"把桌子挪到更合适的位置。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"posit(放)+ion→被放的地方→位置/职位。"},"petExam":{"frequency":"high","collocations":["apply for a position"]}},
+    {"id":"pet-work-097","word":"role","phonetic":"/rəʊl/","pos":"n.","meaning":"角色，作用","level":"B1","examples":[{"en":"Parents play an important role in a child’s learning.","zh":"父母在孩子的学习中扮演重要角色。"},{"en":"What is your role in the team?","zh":"你在团队里担任什么角色？"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"assoc","tip":"演戏的角色、工作的分工都是 role——play a role。"},"petExam":{"frequency":"high","collocations":["play a role in"]}},
+    {"id":"pet-work-098","word":"condition","phonetic":"/kənˈdɪʃn/","pos":"n.","meaning":"条件；状况","level":"B1","examples":[{"en":"The workers asked for better working conditions.","zh":"工人们要求改善工作条件。"},{"en":"The old bike is still in good condition.","zh":"这辆旧自行车状况还很好。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"con+dit(说定)+ion→事先说定的东西→条件。"},"petExam":{"frequency":"high","collocations":["working conditions","in good condition"]}},
+    {"id":"pet-work-099","word":"situation","phonetic":"/ˌsɪtʃuˈeɪʃn/","pos":"n.","meaning":"情况，形势","level":"B1","examples":[{"en":"Stay calm in a difficult situation.","zh":"在困境中保持冷静。"},{"en":"The situation at work has improved.","zh":"工作上的情况好转了。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"situ(位置)+ation→所处的位置→处境/情况。"},"petExam":{"frequency":"high","collocations":["in a difficult situation"]}},
+    {"id":"pet-work-100","word":"decision","phonetic":"/dɪˈsɪʒn/","pos":"n.","meaning":"决定","level":"B1","examples":[{"en":"Think carefully before you make a decision.","zh":"做决定前要仔细想。"},{"en":"The manager’s decision surprised everyone.","zh":"经理的决定让大家很意外。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"decide(决定)+sion→决定下来的事。"},"petExam":{"frequency":"high","collocations":["make a decision"]}},
+    {"id":"pet-work-101","word":"suggestion","phonetic":"/səˈdʒestʃən/","pos":"n.","meaning":"建议","level":"B1","examples":[{"en":"Can I make a suggestion about the plan?","zh":"我能对这个计划提个建议吗？"},{"en":"Her suggestion saved us a lot of time.","zh":"她的建议帮我们省了很多时间。"}],"synonyms":["advice"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"suggest(建议)+ion→提出来的想法。"},"petExam":{"frequency":"high","collocations":["make a suggestion"]}},
+    {"id":"pet-work-102","word":"agreement","phonetic":"/əˈɡriːmənt/","pos":"n.","meaning":"协议；一致","level":"B1","examples":[{"en":"The two companies signed an agreement.","zh":"两家公司签了协议。"},{"en":"We are all in agreement about the date.","zh":"日期我们意见一致。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"agree(同意)+ment→同意后写下的东西→协议。"},"petExam":{"frequency":"medium","collocations":["sign an agreement","in agreement"]}},
+    {"id":"pet-work-103","word":"permission","phonetic":"/pəˈmɪʃn/","pos":"n.","meaning":"许可","level":"B1","examples":[{"en":"You need the manager’s permission to leave early.","zh":"早退需要经理许可。"},{"en":"She took the photo with the artist’s permission.","zh":"她经艺术家许可拍了照片。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"permit(允许)+sion→被允许→许可。"},"petExam":{"frequency":"medium","collocations":["ask for permission","without permission"]}},
+    {"id":"pet-work-104","word":"report","phonetic":"/rɪˈpɔːt/","pos":"n.","meaning":"报告","level":"B1","examples":[{"en":"Write a short report about the meeting.","zh":"写一份会议简报。"},{"en":"The news report was about the new bridge.","zh":"新闻报道讲的是新桥。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"re(回)+port(带)→把情况带回来→报告。"},"petExam":{"frequency":"high","collocations":["write a report","a news report"]},"inKet":true},
+    {"id":"pet-work-105","word":"hire","phonetic":"/ˈhaɪə(r)/","pos":"v.","meaning":"雇用；租用","level":"B1","examples":[{"en":"The shop hires extra staff at Christmas.","zh":"这家店圣诞节增雇人手。"},{"en":"We hired bikes to ride around the lake.","zh":"我们租了自行车环湖骑行。"}],"synonyms":["employ"],"antonyms":["fire"],"difficulty":2,"tags":["work"],"mnemonic":{"type":"assoc","tip":"hire 雇人也租物——花钱请来用一段时间。"},"petExam":{"frequency":"high","collocations":["hire staff","hire a bike"]}},
+    {"id":"pet-work-106","word":"fire","phonetic":"/ˈfaɪə(r)/","pos":"v.","meaning":"解雇","level":"B1","examples":[{"en":"He was fired for always being late.","zh":"他因总迟到被解雇。"},{"en":"The boss fired two workers last month.","zh":"老板上个月解雇了两名工人。"}],"synonyms":[],"antonyms":["hire"],"difficulty":2,"tags":["work"],"mnemonic":{"type":"assoc","tip":"被 fire 就是被\"点了火\"赶走——解雇。"},"petExam":{"frequency":"medium","collocations":["be fired from a job"]},"inKet":true},
+    {"id":"pet-work-107","word":"quit","phonetic":"/kwɪt/","pos":"v.","meaning":"辞职；放弃","level":"B1","examples":[{"en":"She quit her job to travel the world.","zh":"她辞职去环游世界。"},{"en":"Never quit when things get hard.","zh":"遇到困难也绝不放弃。"}],"synonyms":["give up"],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"sound","tip":"quit 谐音\"快忒\"——快撤，不干了。"},"petExam":{"frequency":"high","collocations":["quit a job"]}},
+    {"id":"pet-work-108","word":"resign","phonetic":"/rɪˈzaɪn/","pos":"v.","meaning":"辞职","level":"B1","examples":[{"en":"The manager resigned after ten years.","zh":"经理干了十年后辞职了。"},{"en":"She resigned from the club committee.","zh":"她辞去了俱乐部委员职务。"}],"synonyms":["quit"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"re(反)+sign(签)→签字把职务\"退签\"回去→辞职。"},"petExam":{"frequency":"medium","collocations":["resign from a job"]}},
+    {"id":"pet-work-109","word":"promote","phonetic":"/prəˈməʊt/","pos":"v.","meaning":"晋升；推广","level":"B1","examples":[{"en":"She was promoted to head of the team.","zh":"她被提升为组长。"},{"en":"The poster promotes the school concert.","zh":"海报在宣传学校音乐会。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"pro(向前)+mote(移动)→往前挪→晋升/推广。"},"petExam":{"frequency":"medium","collocations":["be promoted to"]}},
+    {"id":"pet-work-110","word":"cooperate","phonetic":"/kəʊˈɒpəreɪt/","pos":"v.","meaning":"合作","level":"B1","examples":[{"en":"The two schools cooperated on the project.","zh":"两校合作完成了这个项目。"},{"en":"Thank you for cooperating with us.","zh":"感谢你们与我们合作。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"co(共同)+operate(操作)→一起干→合作。"},"petExam":{"frequency":"medium","collocations":["cooperate with"]}},
+    {"id":"pet-work-111","word":"produce","phonetic":"/prəˈdjuːs/","pos":"v.","meaning":"生产，产出","level":"B1","examples":[{"en":"The factory produces a thousand bikes a day.","zh":"这家工厂每天生产一千辆自行车。"},{"en":"Bees produce honey from flowers.","zh":"蜜蜂用花酿蜜。"}],"synonyms":["make"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"pro(向前)+duce(引出)→引出成果→生产。"},"petExam":{"frequency":"high","collocations":["produce goods"]}},
+    {"id":"pet-work-112","word":"export","phonetic":"/ɪkˈspɔːt/","pos":"v.","meaning":"出口","level":"B1","examples":[{"en":"The country exports tea all over the world.","zh":"这个国家向全世界出口茶叶。"},{"en":"Most of the toys are exported to Europe.","zh":"大部分玩具出口到欧洲。"}],"synonyms":[],"antonyms":["import"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"ex(向外)+port(运)→运出去→出口。"},"petExam":{"frequency":"medium","collocations":["export goods to"]}},
+    {"id":"pet-work-113","word":"import","phonetic":"/ɪmˈpɔːt/","pos":"v.","meaning":"进口","level":"B1","examples":[{"en":"We import coffee from South America.","zh":"我们从南美进口咖啡。"},{"en":"The shop sells imported cheese.","zh":"这家店卖进口奶酪。"}],"synonyms":[],"antonyms":["export"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"im(向内)+port(运)→运进来→进口。"},"petExam":{"frequency":"medium","collocations":["import from"]}},
+    {"id":"pet-work-114","word":"advertise","phonetic":"/ˈædvətaɪz/","pos":"v.","meaning":"登广告","level":"B1","examples":[{"en":"The company advertised the job in the newspaper.","zh":"公司在报上登了招聘广告。"},{"en":"They advertise the new phone everywhere.","zh":"他们到处给新手机打广告。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"ad(向)+vert(转)+ise→把大家的目光转过来→打广告。"},"petExam":{"frequency":"medium","collocations":["advertise a job","advertise for"]}},
+    {"id":"pet-work-115","word":"refuse","phonetic":"/rɪˈfjuːz/","pos":"v.","meaning":"拒绝","level":"B1","examples":[{"en":"He refused the offer politely.","zh":"他礼貌地拒绝了提议。"},{"en":"She refuses to give up her dream.","zh":"她拒绝放弃梦想。"}],"synonyms":[],"antonyms":["accept"],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"re(回)+fuse(倒)→把递来的东西倒回去→拒绝。"},"petExam":{"frequency":"high","collocations":["refuse to do sth","refuse an offer"]}},
+    {"id":"pet-work-116","word":"accept","phonetic":"/əkˈsept/","pos":"v.","meaning":"接受","level":"B1","examples":[{"en":"She accepted the job with a smile.","zh":"她微笑着接受了这份工作。"},{"en":"Please accept my apology.","zh":"请接受我的道歉。"}],"synonyms":[],"antonyms":["refuse"],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"ac(向)+cept(拿)→伸手拿过来→接受。"},"petExam":{"frequency":"high","collocations":["accept an offer","accept an apology"]}},
+    {"id":"pet-work-117","word":"confirm","phonetic":"/kənˈfɜːm/","pos":"v.","meaning":"确认","level":"B1","examples":[{"en":"Please confirm the meeting time by email.","zh":"请用邮件确认会议时间。"},{"en":"The hotel confirmed our booking.","zh":"酒店确认了我们的预订。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"con(加强)+firm(坚固)→把事情敲定→确认。"},"petExam":{"frequency":"high","collocations":["confirm a booking"]}},
+    {"id":"pet-work-118","word":"respond","phonetic":"/rɪˈspɒnd/","pos":"v.","meaning":"回应，答复","level":"B1","examples":[{"en":"The company responded to my email quickly.","zh":"公司很快回复了我的邮件。"},{"en":"How did she respond to the news?","zh":"她对这个消息作何反应？"}],"synonyms":["reply"],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"re(回)+spond(承诺)→给出回话→回应。"},"petExam":{"frequency":"medium","collocations":["respond to"]}},
+    {"id":"pet-work-119","word":"professional","phonetic":"/prəˈfeʃənl/","pos":"adj.","meaning":"专业的；职业的","level":"B1","examples":[{"en":"The report looks very professional.","zh":"这份报告看起来很专业。"},{"en":"He is a professional footballer.","zh":"他是职业足球运动员。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"profession(职业)+al→职业水准的→专业的。"},"petExam":{"frequency":"high","collocations":["professional advice"]}},
+    {"id":"pet-work-120","word":"skilled","phonetic":"/skɪld/","pos":"adj.","meaning":"熟练的，有技能的","level":"B1","examples":[{"en":"Skilled workers earn higher wages.","zh":"技术工人工资更高。"},{"en":"She is skilled at fixing computers.","zh":"她修电脑很在行。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"skill(技能)+ed→有技能的。"},"petExam":{"frequency":"medium","collocations":["skilled workers","skilled at"]}},
+    {"id":"pet-work-121","word":"experienced","phonetic":"/ɪkˈspɪəriənst/","pos":"adj.","meaning":"有经验的","level":"B1","examples":[{"en":"An experienced guide led us up the mountain.","zh":"一位经验丰富的向导带我们上山。"},{"en":"She is experienced in teaching young children.","zh":"她在幼儿教学方面很有经验。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"experience(经验)+d→带着经验的。"},"petExam":{"frequency":"high","collocations":["an experienced teacher"]}},
+    {"id":"pet-work-122","word":"responsible","phonetic":"/rɪˈspɒnsəbl/","pos":"adj.","meaning":"负责的","level":"B1","examples":[{"en":"She is responsible for the class library.","zh":"她负责班级图书角。"},{"en":"Be responsible and finish what you start.","zh":"要有责任心，善始善终。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"respond(回应)+ible→能对结果作出回应的→负责的。"},"petExam":{"frequency":"high","collocations":["be responsible for"]}},
+    {"id":"pet-work-123","word":"reliable","phonetic":"/rɪˈlaɪəbl/","pos":"adj.","meaning":"可靠的","level":"B1","examples":[{"en":"A reliable worker always keeps his word.","zh":"可靠的员工说到做到。"},{"en":"Is this information reliable?","zh":"这个信息可靠吗？"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"rely(依靠)+able(可…的)→可以依靠的。"},"petExam":{"frequency":"high","collocations":["a reliable friend"]}},
+    {"id":"pet-work-124","word":"efficient","phonetic":"/ɪˈfɪʃnt/","pos":"adj.","meaning":"高效的","level":"B1","examples":[{"en":"The new system is fast and efficient.","zh":"新系统又快又高效。"},{"en":"She is efficient and never wastes time.","zh":"她做事高效，从不浪费时间。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"ef+fic(做)+ient→做得又快又好的→高效的。"},"petExam":{"frequency":"medium","collocations":["an efficient way"]}},
+    {"id":"pet-work-125","word":"ambitious","phonetic":"/æmˈbɪʃəs/","pos":"adj.","meaning":"有抱负的","level":"B1","examples":[{"en":"The ambitious young cook wants his own restaurant.","zh":"这位有抱负的年轻厨师想开自己的餐厅。"},{"en":"It is an ambitious plan, but we can do it.","zh":"这个计划很宏大，但我们能做到。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"ambition(抱负)+ous→怀着抱负的。"},"petExam":{"frequency":"medium","collocations":["an ambitious plan"]}},
+    {"id":"pet-work-126","word":"stressful","phonetic":"/ˈstresfl/","pos":"adj.","meaning":"压力大的","level":"B1","examples":[{"en":"Being a doctor is a stressful job.","zh":"当医生是压力很大的工作。"},{"en":"Exams are a stressful time for students.","zh":"考试期对学生来说压力很大。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"stress(压力)+ful(充满)→充满压力的。"},"petExam":{"frequency":"medium","collocations":["a stressful job"]}},
+    {"id":"pet-work-127","word":"well-paid","phonetic":"/ˌwel ˈpeɪd/","pos":"adj.","meaning":"薪水高的","level":"B1","examples":[{"en":"Engineers are usually well-paid.","zh":"工程师薪水通常不错。"},{"en":"She found a well-paid job in the city.","zh":"她在城里找到一份高薪工作。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["work"],"mnemonic":{"type":"root","tip":"well(好)+paid(付薪)→薪水给得好的。"},"petExam":{"frequency":"medium","collocations":["a well-paid job"]}},
+    {"id":"pet-work-128","word":"self-employed","phonetic":"/ˌself ɪmˈplɔɪd/","pos":"adj.","meaning":"自雇的，个体经营的","level":"B1","examples":[{"en":"My uncle is self-employed; he runs a small shop.","zh":"我叔叔自己当老板，开了家小店。"},{"en":"Self-employed people plan their own time.","zh":"个体经营者自己安排时间。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"self(自己)+employed(受雇)→受雇于自己→自雇。"},"petExam":{"frequency":"low","collocations":["a self-employed painter"]}},
+    {"id":"pet-work-129","word":"formal","phonetic":"/ˈfɔːml/","pos":"adj.","meaning":"正式的","level":"B1","examples":[{"en":"Wear formal clothes to the interview.","zh":"面试要穿正装。"},{"en":"She wrote a formal letter to the company.","zh":"她给公司写了一封正式信函。"}],"synonyms":[],"antonyms":["informal"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"form(形式)+al→讲形式的→正式的。"},"petExam":{"frequency":"high","collocations":["formal clothes","a formal letter"]}},
+    {"id":"pet-work-130","word":"informal","phonetic":"/ɪnˈfɔːml/","pos":"adj.","meaning":"非正式的","level":"B1","examples":[{"en":"The meeting was friendly and informal.","zh":"会议轻松而非正式。"},{"en":"Use informal language when texting friends.","zh":"给朋友发消息用随意的语言。"}],"synonyms":[],"antonyms":["formal"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"in(不)+formal(正式)→不拘形式的。"},"petExam":{"frequency":"medium","collocations":["informal language"]}},
+    {"id":"pet-work-131","word":"temporary","phonetic":"/ˈtemprəri/","pos":"adj.","meaning":"临时的","level":"B1","examples":[{"en":"He took a temporary job for the summer.","zh":"他找了份暑期临时工。"},{"en":"The bridge closure is only temporary.","zh":"大桥封闭只是暂时的。"}],"synonyms":[],"antonyms":["permanent"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"tempor(时间)+ary→只在一段时间内的→临时的。"},"petExam":{"frequency":"medium","collocations":["a temporary job"]}},
+    {"id":"pet-work-132","word":"permanent","phonetic":"/ˈpɜːmənənt/","pos":"adj.","meaning":"永久的，固定的","level":"B1","examples":[{"en":"She was happy to get a permanent position.","zh":"她很高兴得到固定职位。"},{"en":"The accident left a permanent mark on the car.","zh":"事故在车上留下了永久的痕迹。"}],"synonyms":[],"antonyms":["temporary"],"difficulty":3,"tags":["work"],"mnemonic":{"type":"root","tip":"per(始终)+man(保持)+ent→一直保持的→永久的。"},"petExam":{"frequency":"medium","collocations":["a permanent job"]}}
   ]
 }
