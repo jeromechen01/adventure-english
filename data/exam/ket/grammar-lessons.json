@@ -4610,6 +4610,736 @@
      "answer": "the",
      "explain": "最高级前面 → the。"
     }
+   ],
+   "teaching": {
+    "essence": "a 是新朋友（第一次提到的某一个），the 是老朋友（你我都知道的那个）；代词有两副面孔——做主奏用 I/he/she，站在动词后面用 me/him/her。",
+    "why": "a 从 one 磨损而来，the 从 that 磨损而来。所以 a book 骨子里是「（随便）一本书」，the book 骨子里是「那本书（你知道的）」。中文靠上下文就能分清，不用小词，所以中国孩子要么全漏（I have book）要么乱加。记住讲故事的节奏就够了：第一次出场 a（新朋友进门），再次提到 the（老朋友回来）。代词的两副面孔中文也没有——「我」永远是「我」，英文却分「我做事」（I）和「事落到我身上」（me）。",
+    "rules": [
+     {
+      "point": "a 新朋友 → the 老朋友",
+      "detail": "第一次提到用 a（某一个）；再次提到、或你我都知道是哪个，用 the。KET 只考两条：a + 可数单数；the + 可数/不可数都行。",
+      "examples": [
+       {
+        "en": "I saw a dog in the park. The dog was very hungry.",
+        "zh": "我在公园看见一只狗。那只狗很饿。（新朋友→老朋友）"
+       },
+       {
+        "en": "Can you close the door?",
+        "zh": "把门关上好吗？（你知道是哪扇门）"
+       }
+      ]
+     },
+     {
+      "point": "a 还是 an：听声音",
+      "detail": "后面的词以元音「音」开头用 an：an apple / an egg / an hour（h 不发音）；注意看的是声音不是字母：a university（读 /ju/，辅音音）。",
+      "examples": [
+       {
+        "en": "She eats an egg and a banana every morning.",
+        "zh": "她每天早上吃一个鸡蛋和一根香蕉。"
+       },
+       {
+        "en": "It took us an hour to get there.",
+        "zh": "我们花了一小时到那里。（hour 的 h 不发音）"
+       }
+      ]
+     },
+     {
+      "point": "代词的两副面孔",
+      "detail": "做主奏（动词前）用 I / he / she / we / they；站在动词或介词后面用 me / him / her / us / them。判断法：看它在动词的前面还是后面。",
+      "examples": [
+       {
+        "en": "He helped me with my homework.",
+        "zh": "他帮我做作业。（动词后 → me）"
+       },
+       {
+        "en": "Miss Lee teaches us music.",
+        "zh": "李老师教我们音乐。（动词后 → us）"
+       },
+       {
+        "en": "Come with us!",
+        "zh": "跟我们一起来！（介词后 → us）"
+       }
+      ]
+     },
+     {
+      "point": "「谁的」：形容词性 vs 名词性",
+      "detail": "my/your/his/her/our/their 后面必须跟名词（my violin）；mine/yours/his/hers/ours/theirs 单独站（The violin is mine）。",
+      "examples": [
+       {
+        "en": "This is my seat, and that one is yours.",
+        "zh": "这是我的座位，那个是你的。"
+       },
+       {
+        "en": "Her bag is red. Mine is blue.",
+        "zh": "她的包是红色的，我的是蓝色的。"
+       }
+      ]
+     },
+     {
+      "point": "Tom and I：书面的规矩",
+      "detail": "口语里常听到 Me and Tom…，但书面做主语要写 Tom and I（把别人放前面，自己用 I）。做宾语时才是 Tom and me。",
+      "examples": [
+       {
+        "en": "Tom and I are in the same class.",
+        "zh": "汤姆和我同班。（做主语）"
+       },
+       {
+        "en": "The teacher praised Tom and me.",
+        "zh": "老师表扬了汤姆和我。（动词后）"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "快速自测「a 还是 the」：能在心里补出「随便哪个都行」→ a；能补出「就是那个」→ the。",
+     "不用冠词的情况：人名地名（Beijing）、语言学科（English, maths）、三餐（have breakfast）、by + 交通工具（by bus）、复数泛指（I like dogs 不是 the dogs）。",
+     "it 和 they 也有宾格：it 不变（still it），they → them：I like them.",
+     "「it 的」是 its，没有撇号——it's 是 it is 的缩写，两个长得像但完全不同。"
+    ],
+    "commonErrors": [
+     {
+      "wrong": "I have book.",
+      "right": "I have a book.",
+      "why": "中文说「我有书」，没有冠词这种东西，所以最容易整个漏掉。可数单数名词前面必须有 a/an/the/my 之类的「帽子」。8 类错误 6 号（黄区）。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "Me and Tom are good friends.",
+      "right": "Tom and I are good friends.",
+      "why": "口语顺口但书面算错：做主语用 I，而且礼貌上把别人放前面。8 类错误 5 号（黄区）。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "The teacher praised I.",
+      "right": "The teacher praised me.",
+      "why": "中文「我」不分格，英文动词后面要换成 me。判断法：它在动词后面 → 用宾格。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "This is a apple.",
+      "right": "This is an apple.",
+      "why": "apple 以元音音开头 → an。连读起来才顺口——an apple 本来就是为了好念才存在的。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "I like the music very much.（泛指喜欢音乐）",
+      "right": "I like music very much.",
+      "why": "泛指「音乐这种东西」不加 the；加了 the 变成「那段音乐」。中文两种说法都是「我喜欢音乐」，所以容易多加。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "gray"
+     }
+    ],
+    "parentTip": "读英文小故事时让她圈 a 和 the，每圈一个问一声「新朋友还是老朋友？」。玩三次就有感觉，不用讲规则。",
+    "darkline": ""
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "第一次提到一只狗：I saw ___ dog in the park.",
+       "options": [
+        "a",
+        "the"
+       ],
+       "answer": 0,
+       "explain": "新朋友第一次出场 → a。"
+      },
+      {
+       "type": "choice",
+       "q": "接着再说它：___ dog was very hungry.",
+       "options": [
+        "The",
+        "A"
+       ],
+       "answer": 0,
+       "explain": "老朋友回来了 → The dog。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I have book.",
+       "answer": false,
+       "explain": "错。可数单数前要戴帽子：I have a book."
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ This is an apple.",
+       "answer": true,
+       "explain": "对。apple 元音音开头 → an。"
+      },
+      {
+       "type": "choice",
+       "q": "She ate ___ egg for breakfast.",
+       "options": [
+        "an",
+        "a"
+       ],
+       "answer": 0,
+       "explain": "egg 元音音开头 → an egg。"
+      },
+      {
+       "type": "choice",
+       "q": "He is ___ good student.",
+       "options": [
+        "a",
+        "an"
+       ],
+       "answer": 0,
+       "explain": "good 辅音音开头 → a。"
+      },
+      {
+       "type": "choice",
+       "q": "「他帮了我」：He helped ___.",
+       "options": [
+        "me",
+        "I"
+       ],
+       "answer": 0,
+       "explain": "动词后面 → me。He helped I 是典型错。"
+      },
+      {
+       "type": "choice",
+       "q": "「我们喜欢她」：We like ___.",
+       "options": [
+        "her",
+        "she"
+       ],
+       "answer": 0,
+       "explain": "动词后面 → her。"
+      },
+      {
+       "type": "choice",
+       "q": "「跟我们来」：Come with ___.",
+       "options": [
+        "us",
+        "we"
+       ],
+       "answer": 0,
+       "explain": "介词 with 后面 → us。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ Tom and I are in the same class.",
+       "answer": true,
+       "explain": "对。做主语用 I，别人放前面。"
+      },
+      {
+       "type": "tf",
+       "q": "书面写作里这句对吗？→ Me and Tom are good friends.",
+       "answer": false,
+       "explain": "错（书面）。做主语 → Tom and I。"
+      },
+      {
+       "type": "choice",
+       "q": "「这是我的琴」：This is ___ violin.",
+       "options": [
+        "my",
+        "mine"
+       ],
+       "answer": 0,
+       "explain": "后面有名词 violin → my。mine 要单独站。"
+      },
+      {
+       "type": "choice",
+       "q": "「这把琴是我的」：This violin is ___.",
+       "options": [
+        "mine",
+        "my"
+       ],
+       "answer": 0,
+       "explain": "后面没有名词 → mine 单独站。"
+      },
+      {
+       "type": "fill",
+       "q": "I like ___ (they). They are funny.",
+       "hint": "提示：动词后面换面孔",
+       "answer": "them",
+       "explain": "like 后面 → them。"
+      },
+      {
+       "type": "choice",
+       "q": "Can you pass ___ the salt?",
+       "options": [
+        "me",
+        "I"
+       ],
+       "answer": 0,
+       "explain": "pass 后面 → me：把盐递给我。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ Please close the door.",
+       "answer": true,
+       "explain": "对。你我都知道是哪扇门 → the。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "My uncle is ___ engineer.",
+       "options": [
+        "an",
+        "a",
+        "the",
+        "不填"
+       ],
+       "answer": 0,
+       "explain": "engineer 元音音开头 → an。说职业要带冠词：He is an engineer."
+      },
+      {
+       "type": "choice",
+       "q": "I go to school ___ bus.",
+       "options": [
+        "by",
+        "by a",
+        "by the",
+        "on a"
+       ],
+       "answer": 0,
+       "explain": "by + 交通工具不戴帽子：by bus。"
+      },
+      {
+       "type": "choice",
+       "q": "We had ___ lunch at school today.",
+       "options": [
+        "不填",
+        "a",
+        "an",
+        "the"
+       ],
+       "answer": 0,
+       "explain": "三餐前不加冠词：have lunch / have breakfast。"
+      },
+      {
+       "type": "choice",
+       "q": "___ sun rises in the east.",
+       "options": [
+        "The",
+        "A",
+        "An",
+        "不填"
+       ],
+       "answer": 0,
+       "explain": "独一无二的东西 → the sun / the moon / the sky。"
+      },
+      {
+       "type": "choice",
+       "q": "She plays ___ piano every day.",
+       "options": [
+        "the",
+        "a",
+        "an",
+        "不填"
+       ],
+       "answer": 0,
+       "explain": "弹奏乐器习惯加 the：play the piano / the violin。（运动不加：play football）"
+      },
+      {
+       "type": "choice",
+       "q": "My cousin lives in ___ Beijing.",
+       "options": [
+        "不填",
+        "the",
+        "a",
+        "an"
+       ],
+       "answer": 0,
+       "explain": "城市名前不加冠词。"
+      },
+      {
+       "type": "choice",
+       "q": "This is Lily. ___ is my best friend.",
+       "options": [
+        "She",
+        "Her",
+        "Hers",
+        "He"
+       ],
+       "answer": 0,
+       "explain": "做主语 → She。"
+      },
+      {
+       "type": "choice",
+       "q": "Where is my pen? I can't find ___.",
+       "options": [
+        "it",
+        "its",
+        "them",
+        "him"
+       ],
+       "answer": 0,
+       "explain": "一支笔 → it；动词后 it 不变形。"
+      },
+      {
+       "type": "choice",
+       "q": "These are my parents. I love ___ very much.",
+       "options": [
+        "them",
+        "they",
+        "their",
+        "theirs"
+       ],
+       "answer": 0,
+       "explain": "动词后 → them。"
+      },
+      {
+       "type": "choice",
+       "q": "Is this ___ schoolbag? — No, it's his.",
+       "options": [
+        "your",
+        "you",
+        "yours",
+        "him"
+       ],
+       "answer": 0,
+       "explain": "后面有名词 schoolbag → your。答句 his 单独站，没错。"
+      },
+      {
+       "type": "choice",
+       "q": "The dog wagged ___ tail happily.",
+       "options": [
+        "its",
+        "it's",
+        "it",
+        "his"
+       ],
+       "answer": 0,
+       "explain": "「它的」是 its，没有撇号。it's = it is。"
+      },
+      {
+       "type": "choice",
+       "q": "Our classroom is big, but ___ is bigger.",
+       "options": [
+        "theirs",
+        "their",
+        "them",
+        "they"
+       ],
+       "answer": 0,
+       "explain": "单独站表示「他们的（教室）」→ theirs。"
+      },
+      {
+       "type": "fill",
+       "q": "I waited ___ (he) at the gate for ten minutes.",
+       "answer": "him",
+       "explain": "介词/动词后 → him：waited for him。"
+      },
+      {
+       "type": "fill",
+       "q": "Look at that bird! ___ (it) wings are blue.",
+       "answer": "its",
+       "explain": "「它的」翅膀 → its，不带撇号。"
+      },
+      {
+       "type": "fill",
+       "q": "My aunt gave ___ (we) some mooncakes.",
+       "answer": "us",
+       "explain": "gave 后面 → us。"
+      },
+      {
+       "type": "fill",
+       "q": "There is ___ old piano in the music room.（a/an/the）",
+       "answer": "an",
+       "explain": "old 元音音开头 → an old piano。第一次提到。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "I have book about space.",
+       "answer": "I have a book about space.",
+       "explain": "6 号中式错误（黄区）：可数单数要戴帽子 → a book。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Me and Anna went shopping yesterday.",
+       "answer": "Anna and I went shopping yesterday.",
+       "explain": "5 号中式错误（黄区）：做主语用 I，别人放前面。"
+      },
+      {
+       "type": "correct",
+       "wrong": "The teacher asked I a question.",
+       "answer": "The teacher asked me a question.",
+       "explain": "动词后换面孔：asked me。"
+      },
+      {
+       "type": "correct",
+       "wrong": "This is a interesting film.",
+       "answer": "This is an interesting film.",
+       "explain": "interesting 元音音开头 → an。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I bought a book and a pen. A book was expensive.",
+       "answer": "I bought a book and a pen. The book was expensive.",
+       "explain": "第二次提到那本书 → 老朋友 the。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Her is my little sister.",
+       "answer": "She is my little sister.",
+       "explain": "做主语 → She。her 只能站在动词后或名词前。"
+      },
+      {
+       "type": "correct",
+       "wrong": "This is you seat. My is over there.",
+       "answer": "This is your seat. Mine is over there.",
+       "explain": "名词前用 your；单独站用 mine。两处都要改。"
+      },
+      {
+       "type": "correct",
+       "wrong": "We visited the Beijing last summer.",
+       "answer": "We visited Beijing last summer.",
+       "explain": "城市名前不加 the。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：I like ___ music.（泛指喜欢音乐）",
+       "options": [
+        "不填",
+        "the",
+        "a",
+        "an"
+       ],
+       "answer": 0,
+       "explain": "泛指「音乐这种东西」不加 the。加 the 就变成特指某段音乐。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：___ film we saw last night was great.",
+       "options": [
+        "The",
+        "A",
+        "不填",
+        "An"
+       ],
+       "answer": 0,
+       "explain": "「我们昨晚看的那部」已经锁定是哪部 → The。"
+      },
+      {
+       "type": "choice",
+       "q": "哪句是错的？",
+       "options": [
+        "She goes to school on foot.",
+        "He is reading an interesting story.",
+        "Give the book to she.",
+        "Their house is next to ours."
+       ],
+       "answer": 2,
+       "explain": "to 后面要宾格：to her。"
+      },
+      {
+       "type": "choice",
+       "q": "哪句全对？",
+       "options": [
+        "My brother and I made a cake for our mother.",
+        "Me and my brother made a cake for our mother.",
+        "My brother and me made a cake for we mother.",
+        "I and my brother made a cake for ours mother."
+       ],
+       "answer": 0,
+       "explain": "主语 My brother and I + 名词前 our。"
+      },
+      {
+       "type": "transform",
+       "from": "Tom helped Lucy.（用代词替换两个名字）",
+       "to_type": "代词替换",
+       "answer": "He helped her.",
+       "explain": "Tom 做主语 → He；Lucy 在动词后 → her。"
+      },
+      {
+       "type": "transform",
+       "from": "This is my violin.（用 mine 改写）",
+       "to_type": "改写",
+       "answer": "This violin is mine.",
+       "explain": "my + 名词 = 名词 + is mine。"
+      },
+      {
+       "type": "choice",
+       "q": "It's 和 its：___ raining, and the dog is shaking ___ wet fur.",
+       "options": [
+        "It's / its",
+        "Its / it's",
+        "It's / it's",
+        "Its / its"
+       ],
+       "answer": 0,
+       "explain": "It's = It is（正在下雨）；its = 它的（毛）。"
+      },
+      {
+       "type": "choice",
+       "q": "一段话综合：I met ___ old man at the bus stop. ___ man smiled at ___.",
+       "options": [
+        "an / The / me",
+        "a / The / me",
+        "an / A / I",
+        "the / The / me"
+       ],
+       "answer": 0,
+       "explain": "an old man（元音音+第一次）→ The man（老朋友）→ smiled at me（介词后）。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I got ___ new bike for my birthday. It's red.",
+       "answer": "a",
+       "explain": "第一次提到 + new 辅音音开头 → a。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：We watched a film last night. ___ film was about a lost cat.",
+       "answer": "the",
+       "explain": "第二次提到 → The film。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My father is ___ artist. He paints animals.",
+       "answer": "an",
+       "explain": "职业 + artist 元音音开头 → an artist。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Lucy is my best friend. I sit next to ___ in class.",
+       "answer": "her",
+       "explain": "介词 to 后面 → her。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My grandparents have a farm. I visit ___ every summer.",
+       "answer": "them",
+       "explain": "爷爷奶奶两个人，动词后 → them。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Is this ___ first visit to London?（你的）",
+       "answer": "your",
+       "explain": "名词 visit 前 → your。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 写作：想写「我和妹妹给妈妈做了张卡片」，哪句能拿分？",
+       "options": [
+        "My sister and I made a card for our mum.",
+        "Me and my sister made a card for our mum.",
+        "My sister and me made a card for us mum.",
+        "I and my sister made a card for we mum."
+       ],
+       "answer": 0,
+       "explain": "主语 My sister and I；「我们的妈妈」→ our mum。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语 Part 1：Who do you live with? 最自然的回答：",
+       "options": [
+        "I live with my parents. They are very kind to me.",
+        "I live with my parents. Them are very kind to I.",
+        "I live with me parents. They are very kind.",
+        "I live with my parents. They is very kind to me."
+       ],
+       "answer": 0,
+       "explain": "主语 They + 动词后 me + 名词前 my，三副面孔各就各位。"
+      },
+      {
+       "type": "choice",
+       "q": "读朋友的消息：My cat is lost! I can't find ___ anywhere. 填什么？",
+       "options": [
+        "it",
+        "its",
+        "him it",
+        "they"
+       ],
+       "answer": 0,
+       "explain": "一只猫 → it（不知公母时用 it 最safe——此处答案 it）。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 阅读理解：Sam borrowed Ben's bike because his was broken. 句里的 his 指谁的车？",
+       "options": [
+        "Sam 的车",
+        "Ben 的车"
+       ],
+       "answer": 0,
+       "explain": "Sam 借 Ben 的车，正是因为 Sam 自己的车坏了——his 单独站，回文里找主人。阅读题常这样考代词。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：I love my school. A school has a big library.",
+       "answer": "I love my school. The school has a big library.",
+       "explain": "第二句说的还是「我的学校」→ 老朋友 The school（或 It）。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：My friend and me often play chess after class.",
+       "answer": "My friend and I often play chess after class.",
+       "explain": "做主语 → My friend and I。"
+      },
+      {
+       "type": "transform",
+       "from": "The teacher gave the students some homework.（把 the students 换成代词）",
+       "to_type": "代词替换",
+       "answer": "The teacher gave them some homework.",
+       "explain": "gave 后面 → them。"
+      },
+      {
+       "type": "fill",
+       "q": "综合：Whose eraser is this? — It's not ___ (I). Ask Tom.",
+       "answer": "mine",
+       "explain": "单独站表示「我的（橡皮）」→ mine。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：___ moon looks very big tonight.",
+       "options": [
+        "The",
+        "A",
+        "An",
+        "不填"
+       ],
+       "answer": 0,
+       "explain": "独一无二 → the moon。"
+      },
+      {
+       "type": "choice",
+       "q": "综合辨析：哪句有错？",
+       "options": [
+        "English is my favourite subject.",
+        "We have breakfast at seven.",
+        "She plays the violin in an orchestra.",
+        "I saw the elephant at a zoo yesterday, and a elephant was huge."
+       ],
+       "answer": 3,
+       "explain": "D 两处错：第一次提到应是 an elephant，第二次应是 the elephant——顺序全反了。"
+      }
+     ]
+    }
    ]
   },
   {
