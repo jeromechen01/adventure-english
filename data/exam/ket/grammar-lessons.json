@@ -6434,6 +6434,761 @@
      "answer": "Lily is the youngest player in our orchestra.",
      "explain": "the + -est + in 范围。（意思对即可）"
     }
+   ],
+   "teaching": {
+    "essence": "中文认为万物不可数（所以全要量词），英文只认一半：书和苹果自己能数，水和面包要借杯子袋子；比一比：短词加 -er，长词请 more，比较后面挂 than。",
+    "why": "中文说一「本」书、一「条」鱼、一「杯」水——所有名词都要量词，因为中文把万物都当「不可数的材料」。英文把名词分成两队：可数队自己带复数（two books），不可数队没有复数、不能加 a（water / bread / rice），要说数量就借容器（a glass of water）。比较级也讲道理：taller 顺口就加 -er，beautifuler 念不出来就请 more 帮忙——语言是懒的，怎么顺口怎么来。",
+    "rules": [
+     {
+      "point": "可数 vs 不可数：先分队",
+      "detail": "能一个一个数的 → 可数（book, egg, apple）；像材料一样一团的 → 不可数（water, milk, bread, rice, money, homework）。不可数没有复数、前面不能放 a。",
+      "examples": [
+       {
+        "en": "Two eggs and some milk, please.",
+        "zh": "两个鸡蛋和一些牛奶。（egg 可数，milk 不可数）"
+       },
+       {
+        "en": "I have a lot of homework today.",
+        "zh": "我今天作业很多。（homework 不可数，没有 s）"
+       }
+      ]
+     },
+     {
+      "point": "不可数的借容器",
+      "detail": "要数不可数名词，借个容器或单位：a glass of water / a cup of tea / a piece of bread / a bowl of rice。数字变大变容器：two glasses of water。",
+      "examples": [
+       {
+        "en": "Would you like a cup of tea?",
+        "zh": "来杯茶吗？"
+       },
+       {
+        "en": "He ate three pieces of bread.",
+        "zh": "他吃了三片面包。（pieces 变复数，bread 不变）"
+       }
+      ]
+     },
+     {
+      "point": "many / much / a lot of / some",
+      "detail": "可数用 many（how many books），不可数用 much（how much water）；a lot of 两边通吃——不确定就用它；some 也两边通吃（some apples / some milk）。",
+      "examples": [
+       {
+        "en": "How many eggs do we need?",
+        "zh": "我们需要几个鸡蛋？"
+       },
+       {
+        "en": "There isn't much milk in the fridge.",
+        "zh": "冰箱里没多少牛奶了。"
+       },
+       {
+        "en": "She has a lot of friends.",
+        "zh": "她有很多朋友。"
+       }
+      ]
+     },
+     {
+      "point": "比较级：短词 -er，长词 more",
+      "detail": "短词加 -er（taller / faster / smaller）；长词前放 more（more beautiful / more interesting）。比较的对象用 than 挂上：A is taller than B。",
+      "examples": [
+       {
+        "en": "A violin is smaller than a cello.",
+        "zh": "小提琴比大提琴小。"
+       },
+       {
+        "en": "This song is more beautiful than that one.",
+        "zh": "这首曲子比那首更美。"
+       }
+      ]
+     },
+     {
+      "point": "最高级：the + -est / most",
+      "detail": "三个以上比出冠军 → 最高级，前面必须有 the：the tallest in our class / the most interesting book。常跟 in/of 短语画出比较范围。",
+      "examples": [
+       {
+        "en": "Lily is the tallest girl in our class.",
+        "zh": "莉莉是我们班最高的女生。"
+       },
+       {
+        "en": "This is the most interesting book in the library.",
+        "zh": "这是图书馆最有趣的书。"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "拼写小规则：big→bigger（双写 g）、happy→happier（y 变 i）、nice→nicer（只加 r）。",
+     "people / children 天生就是复数：many people（不是 many peoples）。",
+     "money 不可数（钱是材料，硬币纸币才可数）：How much money…？time 表「时间」不可数，表「次数」可数（three times）。",
+     "「比……多得多」加 much：much taller（这里 much 是「得多」，不是量词）。"
+    ],
+    "commonErrors": [
+     {
+      "wrong": "I bought three book.",
+      "right": "I bought three books.",
+      "why": "中文数完就完（三本书），英文名词自己还要变复数。8 类错误 8 号（灰区）——几乎不挡意思，写作检查时顺手加 s。",
+      "impedes": false,
+      "ketPart": "Part 5 偶尔",
+      "zone": "gray"
+     },
+     {
+      "wrong": "How many money do you have?",
+      "right": "How much money do you have?",
+      "why": "钱看着能数，其实 money 是「材料」不可数 → much。能数的是 coins（硬币）。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "She is taller than I am tall.",
+      "right": "She is taller than me.",
+      "why": "中文「她比我高」逐字翻会重复。than 后面挂个 me（或 I am）就结束。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "gray"
+     },
+     {
+      "wrong": "This film is more better than that one.",
+      "right": "This film is better than that one.",
+      "why": "better 已经是比较级了，再加 more 就是双重比较。good→better 不规则，专门背。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "Lily is tallest girl in our class.",
+      "right": "Lily is the tallest girl in our class.",
+      "why": "最高级是「唯一的冠军」→ 必须戴 the。中文没有这顶帽子所以最容易漏。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     }
+    ],
+    "parentTip": "超市里玩分类——「这个英语里能直接数吗？」苹果能、大米不能。判断错了不当场纠正，回家查了明天再问一次。",
+    "darkline": "good→better→best、bad→worse→worst——最常用的形容词，比较级最不规则。第三次遇见同一条规律：越常用的词，越不规则。现在你可以确认：这不是巧合，是英语的秩序。"
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "book（书）能一本一本数吗？",
+       "options": [
+        "可数",
+        "不可数"
+       ],
+       "answer": 0,
+       "explain": "书能数 → two books。"
+      },
+      {
+       "type": "choice",
+       "q": "water（水）能一个一个数吗？",
+       "options": [
+        "不可数",
+        "可数"
+       ],
+       "answer": 0,
+       "explain": "水是材料，不可数，要借杯子：a glass of water。"
+      },
+      {
+       "type": "choice",
+       "q": "rice（米）是？",
+       "options": [
+        "不可数",
+        "可数"
+       ],
+       "answer": 0,
+       "explain": "米粒太多数不过来，英文当材料 → 不可数。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I bought three books.",
+       "answer": true,
+       "explain": "对。三本 → books 加 s。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I drank two waters.",
+       "answer": false,
+       "explain": "错。water 不可数不能加 s → two glasses of water。"
+      },
+      {
+       "type": "choice",
+       "q": "How ___ eggs do we need?",
+       "options": [
+        "many",
+        "much"
+       ],
+       "answer": 0,
+       "explain": "eggs 可数 → many。"
+      },
+      {
+       "type": "choice",
+       "q": "How ___ milk is there in the fridge?",
+       "options": [
+        "much",
+        "many"
+       ],
+       "answer": 0,
+       "explain": "milk 不可数 → much。"
+      },
+      {
+       "type": "choice",
+       "q": "一杯茶：a ___ of tea",
+       "options": [
+        "cup",
+        "piece"
+       ],
+       "answer": 0,
+       "explain": "茶借杯子 → a cup of tea。"
+      },
+      {
+       "type": "choice",
+       "q": "一片面包：a ___ of bread",
+       "options": [
+        "piece",
+        "glass"
+       ],
+       "answer": 0,
+       "explain": "面包切片 → a piece of bread。"
+      },
+      {
+       "type": "choice",
+       "q": "tall 的比较级是？",
+       "options": [
+        "taller",
+        "more tall"
+       ],
+       "answer": 0,
+       "explain": "短词加 -er → taller。"
+      },
+      {
+       "type": "choice",
+       "q": "beautiful 的比较级是？",
+       "options": [
+        "more beautiful",
+        "beautifuler"
+       ],
+       "answer": 0,
+       "explain": "长词念不动 -er → 请 more 帮忙。"
+      },
+      {
+       "type": "fill",
+       "q": "My brother is taller ___ me.",
+       "hint": "提示：「比」字翻成它",
+       "answer": "than",
+       "explain": "比较对象用 than 挂上。"
+      },
+      {
+       "type": "choice",
+       "q": "good 的比较级是？",
+       "options": [
+        "better",
+        "gooder"
+       ],
+       "answer": 0,
+       "explain": "不规则：good→better→best。最常用所以最不规则（暗线第三次出现！）。"
+      },
+      {
+       "type": "choice",
+       "q": "Lily is ___ tallest girl in our class.",
+       "options": [
+        "the",
+        "a"
+       ],
+       "answer": 0,
+       "explain": "最高级冠军戴 the：the tallest。"
+      },
+      {
+       "type": "fill",
+       "q": "big 的比较级是 ___。",
+       "hint": "提示：双写最后一个字母",
+       "answer": "bigger",
+       "explain": "短元音+单辅音 → 双写 g：bigger。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ She has a lot of friends.",
+       "answer": true,
+       "explain": "对。a lot of 两边通吃，可数不可数都能用。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "There are ___ apples in the basket.",
+       "options": [
+        "some",
+        "much",
+        "a piece of",
+        "a"
+       ],
+       "answer": 0,
+       "explain": "apples 复数 → some（some 两边通吃）。"
+      },
+      {
+       "type": "choice",
+       "q": "I don't have ___ time today.",
+       "options": [
+        "much",
+        "many",
+        "a",
+        "two"
+       ],
+       "answer": 0,
+       "explain": "time（时间）不可数 → much。"
+      },
+      {
+       "type": "choice",
+       "q": "How ___ people are there in your family?",
+       "options": [
+        "many",
+        "much",
+        "a lot",
+        "some"
+       ],
+       "answer": 0,
+       "explain": "people 天生复数、可数 → many people。"
+      },
+      {
+       "type": "choice",
+       "q": "Would you like ___ bread?",
+       "options": [
+        "some",
+        "a",
+        "many",
+        "two"
+       ],
+       "answer": 0,
+       "explain": "bread 不可数 → some bread，不能 a bread。"
+      },
+      {
+       "type": "choice",
+       "q": "He drank three ___ of orange juice.",
+       "options": [
+        "glasses",
+        "glass",
+        "pieces",
+        "cup"
+       ],
+       "answer": 0,
+       "explain": "数字变大变容器：three glasses of juice。"
+      },
+      {
+       "type": "choice",
+       "q": "My homework is ___ than yours.（作业更多用 more）",
+       "options": [
+        "more",
+        "many",
+        "much",
+        "most"
+       ],
+       "answer": 0,
+       "explain": "more = much/many 的比较级：作业比你的多。"
+      },
+      {
+       "type": "choice",
+       "q": "An elephant is ___ than a horse.",
+       "options": [
+        "heavier",
+        "heavyer",
+        "more heavy",
+        "heavy"
+       ],
+       "answer": 0,
+       "explain": "heavy → y 变 i 加 er：heavier。"
+      },
+      {
+       "type": "choice",
+       "q": "This maths problem is ___ than that one.",
+       "options": [
+        "more difficult",
+        "difficulter",
+        "difficult",
+        "the most difficult"
+       ],
+       "answer": 0,
+       "explain": "difficult 长词 → more difficult；比较两个用比较级不用最高级。"
+      },
+      {
+       "type": "choice",
+       "q": "Summer is ___ season of the year in our city.",
+       "options": [
+        "the hottest",
+        "hotter",
+        "the hotter",
+        "hottest"
+       ],
+       "answer": 0,
+       "explain": "一年四季比出冠军 → the hottest（双写 t）。"
+      },
+      {
+       "type": "choice",
+       "q": "My violin is old, but hers is ___.",
+       "options": [
+        "older",
+        "the oldest",
+        "more old",
+        "old"
+       ],
+       "answer": 0,
+       "explain": "两把琴比 → 比较级 older。"
+      },
+      {
+       "type": "choice",
+       "q": "Today is ___ than yesterday. Let's go out!",
+       "options": [
+        "warmer",
+        "warm",
+        "the warmest",
+        "more warm"
+       ],
+       "answer": 0,
+       "explain": "今天和昨天比 → warmer。"
+      },
+      {
+       "type": "choice",
+       "q": "Who is ___ student in your class?",
+       "options": [
+        "the best",
+        "better",
+        "good",
+        "the better"
+       ],
+       "answer": 0,
+       "explain": "全班比冠军 → the best（good 的最高级）。"
+      },
+      {
+       "type": "fill",
+       "q": "There isn't ___ juice left. Shall I buy some?（much/many）",
+       "answer": "much",
+       "explain": "juice 不可数 → much。"
+      },
+      {
+       "type": "fill",
+       "q": "A cello is ___ (big) than a violin.",
+       "answer": "bigger",
+       "explain": "双写 g：bigger than。"
+      },
+      {
+       "type": "fill",
+       "q": "This is ___ (interesting) film of the year.（最高级）",
+       "answer": "the most interesting",
+       "explain": "长词最高级 → the most interesting。"
+      },
+      {
+       "type": "fill",
+       "q": "I'm ___ (happy) today than yesterday.",
+       "answer": "happier",
+       "explain": "y 变 i：happier。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "I bought three book yesterday.",
+       "answer": "I bought three books yesterday.",
+       "explain": "8 号中式错误（灰区）：数字后名词也要变复数 → books。"
+      },
+      {
+       "type": "correct",
+       "wrong": "How many money do you have?",
+       "answer": "How much money do you have?",
+       "explain": "money 是「材料」不可数 → much。"
+      },
+      {
+       "type": "correct",
+       "wrong": "She drank a water and ate two breads.",
+       "answer": "She drank a glass of water and ate two pieces of bread.",
+       "explain": "不可数借容器：a glass of water / two pieces of bread。"
+      },
+      {
+       "type": "correct",
+       "wrong": "This film is more better than that one.",
+       "answer": "This film is better than that one.",
+       "explain": "better 已是比较级，more 多余——双重比较。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Lily is tallest girl in our class.",
+       "answer": "Lily is the tallest girl in our class.",
+       "explain": "最高级冠军必须戴 the。"
+      },
+      {
+       "type": "correct",
+       "wrong": "My bag is heavier than you.",
+       "answer": "My bag is heavier than yours.",
+       "explain": "包和「你的包」比，不是和「你」比 → than yours。中文省略害的。"
+      },
+      {
+       "type": "correct",
+       "wrong": "There are many peoples in the park.",
+       "answer": "There are many people in the park.",
+       "explain": "people 天生复数，不加 s。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Maths is difficulter than English for me.",
+       "answer": "Maths is more difficult than English for me.",
+       "explain": "difficult 长词，念不动 -er → more difficult。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：much 的两副面孔：She is ___ taller than her sister.",
+       "options": [
+        "much",
+        "many",
+        "more",
+        "very"
+       ],
+       "answer": 0,
+       "explain": "这里 much = 「高得多」，加强比较级。very 不能配比较级（very taller 错）。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：homework 怎么数？",
+       "options": [
+        "I have a lot of homework.",
+        "I have many homeworks.",
+        "I have three homeworks.",
+        "I have a homework."
+       ],
+       "answer": 0,
+       "explain": "homework 不可数：没有复数、不能加 a → a lot of homework。"
+      },
+      {
+       "type": "choice",
+       "q": "哪句是错的？",
+       "options": [
+        "Winter is colder than autumn.",
+        "He is the fastest runner in our school.",
+        "I have less homework than you.",
+        "She is more taller than me."
+       ],
+       "answer": 3,
+       "explain": "D 双重比较：taller 前不能再加 more。"
+      },
+      {
+       "type": "choice",
+       "q": "两个人比还是三个人比？Tom is ___ of the two boys.",
+       "options": [
+        "the taller",
+        "the tallest",
+        "taller",
+        "tallest"
+       ],
+       "answer": 0,
+       "explain": "两个人比用比较级，锁定其中一个加 the：the taller of the two。（KET 读懂即可）"
+      },
+      {
+       "type": "transform",
+       "from": "My room is small. Her room is smaller.（用 than 连成一句）",
+       "to_type": "合并",
+       "answer": "My room is smaller than hers.",
+       "alt": [
+        "Her room is smaller than mine.",
+        "My room is bigger than hers."
+       ],
+       "explain": "她的房间更小 → Her room is smaller than mine（或反过来说 My room is bigger than hers）。注意比较方向。"
+      },
+      {
+       "type": "transform",
+       "from": "bad 的比较级和最高级？（用空格隔开写两个词）",
+       "to_type": "变形",
+       "answer": "worse worst",
+       "alt": [
+        "worse, worst"
+       ],
+       "explain": "bad→worse→worst，和 good→better→best 一样不规则——越常用越不规则。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：___ students in our class like music, but not ___ of them play an instrument.",
+       "options": [
+        "Many / many",
+        "Much / much",
+        "Many / much",
+        "Much / many"
+       ],
+       "answer": 0,
+       "explain": "students 可数 → 两处都用 many。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：选出全对的一句：",
+       "options": [
+        "Can I have two cups of tea and some biscuits?",
+        "Can I have two cup of teas and some biscuit?",
+        "Can I have two cups of teas and many biscuit?",
+        "Can I have two tea and biscuits some?"
+       ],
+       "answer": 0,
+       "explain": "数字变容器（cups），tea 不变，biscuits 可数加 s。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：How ___ does this T-shirt cost?",
+       "answer": "much",
+       "explain": "问价钱固定用 How much。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：There were ___ of people at the concert.（很多）",
+       "answer": "lots",
+       "alt": [
+        "a lot"
+       ],
+       "explain": "lots of / a lot of people。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Can I have a ___ of water, please?",
+       "answer": "glass",
+       "alt": [
+        "cup",
+        "bottle"
+       ],
+       "explain": "水借容器：a glass/bottle of water。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My new school is much ___ (big) than my old one.",
+       "answer": "bigger",
+       "explain": "much + 比较级：bigger（双写 g）。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I think English is ___ (easy) than maths.",
+       "answer": "easier",
+       "explain": "y 变 i：easier than。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Yesterday was ___ (hot) day of the summer.",
+       "answer": "the hottest",
+       "explain": "整个夏天比冠军 → the hottest（双写 t）。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 写作：想写「我的新学校比旧学校大，老师也更友好」：",
+       "options": [
+        "My new school is bigger than my old one, and the teachers are friendlier.",
+        "My new school is more big than my old one, and the teachers are more friendly.",
+        "My new school is bigger than my old one, and the teachers are friendlier than.",
+        "My new school is biggest, and teachers friendliest."
+       ],
+       "answer": 0,
+       "explain": "bigger + friendlier（y 变 i）。C 的 than 后面空着不行，要么删 than 要么补对象。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语：Which do you like better, summer or winter? 高分回答：",
+       "options": [
+        "I like summer better because the days are longer and I can swim.",
+        "Summer. Winter cold.",
+        "I like summer more better.",
+        "Both is good."
+       ],
+       "answer": 0,
+       "explain": "better + because + 比较级 longer——把 L7 和 L8 连起来用就是高分。"
+      },
+      {
+       "type": "choice",
+       "q": "购物场景（KET 听力常考）：How much are the apples? 正确的回答：",
+       "options": [
+        "Three yuan a kilo.",
+        "Three apples.",
+        "Many apples.",
+        "A lot."
+       ],
+       "answer": 0,
+       "explain": "How much 问价钱 → 回答价格。别听成 how many（问几个）。"
+      },
+      {
+       "type": "choice",
+       "q": "菜单点餐：想要「一碗米饭和一些鸡肉」：",
+       "options": [
+        "A bowl of rice and some chicken, please.",
+        "A rice and some chickens, please.",
+        "One rice and many chicken, please.",
+        "Bowl rice and chicken some, please."
+       ],
+       "answer": 0,
+       "explain": "rice 借碗（a bowl of），chicken 当肉讲不可数 → some chicken。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：I have much friends at my new school.",
+       "answer": "I have many friends at my new school.",
+       "alt": [
+        "I have a lot of friends at my new school."
+       ],
+       "explain": "friends 可数 → many（或 a lot of）。much 只配不可数。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：Beijing is one of the bigger city in China.",
+       "answer": "Beijing is one of the biggest cities in China.",
+       "explain": "「最大的城市之一」→ one of the + 最高级 + 复数：the biggest cities。"
+      },
+      {
+       "type": "transform",
+       "from": "The red bag costs 50 yuan. The blue bag costs 30 yuan.（用 expensive 的比较级说红包更贵）",
+       "to_type": "合并",
+       "answer": "The red bag is more expensive than the blue one.",
+       "alt": [
+        "The red bag is more expensive than the blue bag."
+       ],
+       "explain": "expensive 长词 → more expensive than。"
+      },
+      {
+       "type": "transform",
+       "from": "No student in our class is taller than Ben.（用最高级改写）",
+       "to_type": "改写",
+       "answer": "Ben is the tallest student in our class.",
+       "alt": [
+        "Ben is the tallest in our class."
+       ],
+       "explain": "没有人比 Ben 高 = Ben 是最高的 → the tallest。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：读天气预报比较：Today is 28°C, yesterday was 31°C. 哪句对？",
+       "options": [
+        "Today is cooler than yesterday.",
+        "Today is hotter than yesterday.",
+        "Today is the coolest than yesterday.",
+        "Today is more cool than yesterday."
+       ],
+       "answer": 0,
+       "explain": "28 比 31 低 → cooler。C 最高级不配 than，D 短词不用 more。"
+      },
+      {
+       "type": "fill",
+       "q": "综合：Of all the instruments, I think the violin has ___ (beautiful) sound.",
+       "answer": "the most beautiful",
+       "explain": "所有乐器里比冠军 → the most beautiful。"
+      }
+     ]
+    }
    ]
   }
  ]
