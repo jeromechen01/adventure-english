@@ -1,7 +1,7 @@
 // sw.js — 英语奇遇记 Service Worker（离线缓存）
 // 注意：所有路径用相对路径，兼容 GitHub Pages 子目录部署。
 // 更新内容时，修改下面的版本号即可触发缓存刷新。
-const CACHE_VERSION = 'ea-v0.4.0'; // V0.4 剑桥备考中心：版本必须 +1，否则前端永远拿旧缓存
+const CACHE_VERSION = 'ea-v0.6.0'; // V0.6 语法增强（讲解7段+四环节练习）：版本必须 +1，否则前端永远拿旧缓存
 const CACHE_NAME = `english-adventure-${CACHE_VERSION}`;
 
 // 预缓存的核心文件（相对于 sw.js 所在目录，即项目根）

@@ -106,6 +106,11 @@ function renderLesson(app, level, lessonsData, l) {
   const prog = storage.getLessonProgress(level);
   if (!prog[l.id]) storage.markLessonDone(level, l.id, 'learning');
 
+  // V0.6：有增强讲解+四环节的课走新渲染；老数据兜底走原流程
+  if (l.teaching && Array.isArray(l.stages) && l.stages.length) {
+    return renderLessonV2(app, level, lessonsData, l);
+  }
+
   let exIdx = 0, correctN = 0, answered = false;
 
   function drawIntro() {
@@ -214,6 +219,279 @@ function renderLesson(app, level, lessonsData, l) {
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
     app.querySelector('#againBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; drawExercise(); });
     app.querySelector('#homeBtn').addEventListener('click', () => renderGrammarCourse(app, {}));
+  }
+
+  drawIntro();
+}
+
+// === V0.6 课程详情（增强讲解 + 四环节练习）===
+const STAGE_PASS = 0.7; // 环节通过线
+
+function stageKey(lessonId, stage) { return `grammar-${lessonId}-s${stage}`; }
+
+function renderLessonV2(app, level, lessonsData, l) {
+  const t = l.teaching;
+
+  function stageBest(stage) {
+    const rec = storage.getDrillResults(level)[stageKey(l.id, stage)];
+    return rec ? rec.best : null;
+  }
+  function stagePassed(stage) {
+    const s = l.stages.find(x => x.stage === stage);
+    const best = stageBest(stage);
+    return best !== null && s && best / s.questions.length >= STAGE_PASS;
+  }
+
+  // --- 讲解页 ---
+  function drawIntro() {
+    app.innerHTML = `
+      ${headerHtml(`${l.id} · ${l.title}`)}
+
+      <!-- 一句话抓住本质 -->
+      <div class="card-cartoon mb-3 bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200">
+        <div class="font-bold text-sm mb-1">🎼 一句话抓住本质</div>
+        <p class="text-sm text-gray-800 font-bold">${t.essence}</p>
+      </div>
+
+      <!-- 为什么 -->
+      <div class="card-cartoon mb-3">
+        <div class="font-bold text-sm mb-1">🤔 为什么是这样</div>
+        <p class="text-sm text-gray-700">${t.why}</p>
+      </div>
+
+      <!-- 规则拆解 -->
+      ${t.rules.map((r, i) => `
+        <div class="card-cartoon mb-3">
+          <div class="font-bold text-sm mb-1">🎵 规则 ${i + 1} · ${r.point}</div>
+          ${r.detail ? `<p class="text-sm text-gray-700 mb-2">${r.detail}</p>` : ''}
+          ${(r.examples || []).map(e => `
+            <div class="mb-1.5 pb-1.5 border-b border-gray-50 last:border-0">
+              <div class="font-en text-sm font-bold">${e.en}</div>
+              <div class="text-xs text-gray-600">${e.zh}</div>
+            </div>`).join('')}
+        </div>`).join('')}
+
+      <!-- 注意事项 -->
+      <div class="card-cartoon mb-3 bg-amber-50 border-2 border-amber-300">
+        <div class="font-bold text-sm mb-2">⚠️ 注意事项</div>
+        ${t.notes.map(n => `<p class="text-sm text-gray-700 mb-1.5">· ${n}</p>`).join('')}
+      </div>
+
+      <!-- 易错点红黑榜 -->
+      <div class="card-cartoon mb-3 border-2 border-red-300">
+        <div class="font-bold text-sm mb-2">🚦 易错点红黑榜</div>
+        ${t.commonErrors.map(e => {
+          const z = ZONE_STYLE[e.zone] || ZONE_STYLE.gray;
+          return `
+          <div class="mb-3 pb-3 border-b border-gray-100 last:border-0 last:mb-0 last:pb-0">
+            <div class="text-sm font-en mb-1">❌ <s class="text-red-400">${esc(e.wrong)}</s></div>
+            <div class="text-sm font-en mb-1">✅ <b class="text-green-600">${esc(e.right)}</b></div>
+            <p class="text-xs text-gray-600 mb-1">${e.why}</p>
+            <div class="flex flex-wrap gap-1.5 text-[11px]">
+              <span class="rounded-full px-2 py-0.5 border ${z.cls}">${z.badge} ${e.zone === 'red' ? '红区' : e.zone === 'yellow' ? '黄区' : '灰区'}</span>
+              <span class="rounded-full px-2 py-0.5 bg-gray-100">挡意思：${e.impedes ? '会' : '通常不会'}</span>
+              <span class="rounded-full px-2 py-0.5 bg-gray-100">考点：${e.ketPart}</span>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>
+
+      <!-- 家长话术 -->
+      <div class="card-cartoon mb-3 bg-amber-50">
+        <p class="text-xs text-gray-700">👪 家长话术：${t.parentTip}</p>
+      </div>
+
+      <!-- 暗线 -->
+      ${t.darkline ? `
+      <div class="card-cartoon mb-3 border-2 border-purple-300 bg-purple-50">
+        <div class="font-bold text-sm mb-1">🧵 暗线时刻</div>
+        <p class="text-sm text-gray-700">${t.darkline}</p>
+        <p class="text-xs text-purple-500 mt-2">${lessonsData.hiddenLineText}</p>
+      </div>` : ''}
+
+      ${l.accept ? `
+      <div class="card-cartoon mb-4 bg-blue-50">
+        <div class="text-sm text-gray-700">🎯 ${l.accept}</div>
+      </div>` : ''}
+
+      <button id="toStagesBtn" class="w-full btn-cartoon">✏️ 四环节闯练（${l.stages.length} 环节 × 16 题）</button>
+    `;
+    bindBack(app, 'exam-grammar');
+    app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
+    app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
+  }
+
+  // --- 环节选择页 ---
+  function drawStageSelect() {
+    const passedAll = l.stages.every(s => stagePassed(s.stage));
+    app.innerHTML = `
+      ${headerHtml(`${l.id} · 练习环节`)}
+      <p class="text-xs text-gray-500 mb-3">每环节 16 题，答对 70% 通过并解锁下一环节。做完当天记得把这课「用出来」。</p>
+      <div class="space-y-2 mb-4">
+        ${l.stages.map((s, i) => {
+          const best = stageBest(s.stage);
+          const passed = stagePassed(s.stage);
+          const locked = i > 0 && !stagePassed(l.stages[i - 1].stage);
+          const stars = '★'.repeat(s.difficulty) + '<span class="text-gray-300">' + '★'.repeat(4 - s.difficulty) + '</span>';
+          return `
+          <button data-stage="${s.stage}" ${locked ? 'data-locked="1"' : ''} class="w-full card-cartoon tap-bounce text-left ${locked ? 'opacity-50' : ''} ${passed ? 'border-2 border-green-300 bg-green-50' : ''}" style="padding:14px;min-height:48px">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">${locked ? '🔒' : passed ? '✅' : ['🌱', '🎯', '⚔️', '🏆'][i] || '📝'}</span>
+              <div class="flex-1">
+                <div class="font-bold text-sm">环节 ${s.stage} · ${s.name} <span class="text-amber-500">${stars}</span></div>
+                <div class="text-xs text-gray-500">${best !== null ? `最好成绩 ${best}/${s.questions.length}${passed ? ' · 已通过' : ''}` : locked ? '先通过上一环节解锁' : '16 题 · 未挑战'}</div>
+              </div>
+              <span class="text-xl text-gray-300">›</span>
+            </div>
+          </button>`;
+        }).join('')}
+      </div>
+      ${passedAll ? `<div class="card-cartoon mb-3 bg-green-50 border-2 border-green-300 text-center"><p class="text-sm font-bold">🎉 四个环节全部通过，这课真的掌握了！</p></div>` : ''}
+      <button id="backIntroBtn" class="w-full btn-cartoon btn-cartoon-secondary">📖 回看讲解</button>
+    `;
+    bindBack(app, 'exam-grammar');
+    app.querySelector('#examBackBtn').onclick = drawIntro;
+    app.querySelector('#backIntroBtn').addEventListener('click', drawIntro);
+    app.querySelectorAll('[data-stage]').forEach(b => b.addEventListener('click', () => {
+      if (b.dataset.locked) { toast('先通过上一环节（答对 70%）再来挑战这关！'); return; }
+      const s = l.stages.find(x => x.stage === Number(b.dataset.stage));
+      runQuiz(s, s.questions, false);
+    }));
+  }
+
+  // --- 练习引擎（支持 choice / tf / fill / correct / transform）---
+  function runQuiz(s, questions, isRetry) {
+    let idx = 0, correctN = 0, answered = false;
+    const wrongList = [];
+
+    function norm(x) {
+      return String(x).trim().toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ').replace(/[.!?。！？]+$/, '');
+    }
+
+    function draw() {
+      if (idx >= questions.length) return drawQuizResult();
+      const q = questions[idx];
+      answered = false;
+      const typeLabel = { choice: '选择', tf: '判断对错', fill: '填空', correct: '改错', transform: '句型转换' }[q.type] || '练习';
+      const stars = '★'.repeat(s.difficulty);
+
+      let body = '';
+      if (q.type === 'choice') {
+        // 洗牌选项，记录原始下标
+        const order = q.options.map((_, i) => i);
+        for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+        body = `<div class="text-base font-bold mb-3">${esc(q.q)}</div>
+          <div class="space-y-2">
+            ${order.map(oi => `<button data-oi="${oi}" class="opt-btn w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-left font-en tap-bounce" style="min-height:48px">${esc(q.options[oi])}</button>`).join('')}
+          </div>`;
+      } else if (q.type === 'tf') {
+        body = `<div class="text-base font-bold mb-3">${esc(q.q)}</div>
+          <div class="grid grid-cols-2 gap-2">
+            <button data-tf="true" class="border-2 border-gray-200 rounded-2xl px-4 py-3 font-bold tap-bounce" style="min-height:56px">⭕ 对</button>
+            <button data-tf="false" class="border-2 border-gray-200 rounded-2xl px-4 py-3 font-bold tap-bounce" style="min-height:56px">❌ 错</button>
+          </div>`;
+      } else if (q.type === 'correct') {
+        body = `<div class="text-xs text-gray-500 mb-1">下面这句有错，写出正确的整句：</div>
+          <div class="text-base font-bold font-en mb-3">❌ ${esc(q.wrong)}</div>
+          <input id="ansInput" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base" placeholder="写出正确的整句" autocomplete="off" autocapitalize="off" />
+          <button id="submitBtn" class="w-full btn-cartoon mt-3" style="min-height:48px">提交</button>`;
+      } else if (q.type === 'transform') {
+        body = `<div class="text-xs text-gray-500 mb-1">把下面的句子改成【${esc(q.to_type)}】：</div>
+          <div class="text-base font-bold font-en mb-3">${esc(q.from)}</div>
+          <input id="ansInput" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base" placeholder="写出改好的整句" autocomplete="off" autocapitalize="off" />
+          <button id="submitBtn" class="w-full btn-cartoon mt-3" style="min-height:48px">提交</button>`;
+      } else { // fill
+        body = `<div class="text-base font-bold font-en mb-1">${esc(q.q)}</div>
+          ${q.hint ? `<div class="text-xs text-blue-500 mb-2">${esc(q.hint)}</div>` : ''}
+          <input id="ansInput" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base" placeholder="填一个词/短语" autocomplete="off" autocapitalize="off" />
+          <button id="submitBtn" class="w-full btn-cartoon mt-3" style="min-height:48px">提交</button>`;
+      }
+
+      app.innerHTML = `
+        ${headerHtml(`${isRetry ? '错题重练' : `环节 ${s.stage} · ${s.name}`} ${idx + 1}/${questions.length}`)}
+        <div class="progress-bar mb-4"><div class="progress-bar-fill" style="width:${idx / questions.length * 100}%"></div></div>
+        <div class="card-cartoon mb-4">
+          <div class="text-xs text-gray-400 mb-2">${typeLabel} · <span class="text-amber-500">${stars}</span></div>
+          ${body}
+        </div>
+        <div id="feedback"></div>
+      `;
+      bindBack(app, 'exam-grammar');
+      app.querySelector('#examBackBtn').onclick = drawStageSelect;
+
+      function finish(ok, correctShown) {
+        if (answered) return;
+        answered = true;
+        if (ok) correctN++; else wrongList.push(q);
+        const fb = app.querySelector('#feedback');
+        fb.innerHTML = `
+          <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
+            <div class="font-bold text-sm mb-1">${ok ? '✅ 对啦！' : '❌ 再看看'}</div>
+            ${ok ? '' : `<div class="text-sm font-en mb-1">正确答案：<b>${esc(correctShown)}</b></div>`}
+            <div class="text-xs text-gray-600">${esc(q.explain || '')}</div>
+          </div>
+          <button id="nextBtn" class="w-full btn-cartoon" style="min-height:48px">${idx + 1 >= questions.length ? '看结果' : '下一题 ›'}</button>`;
+        fb.querySelector('#nextBtn').addEventListener('click', () => { idx++; draw(); });
+        fb.querySelector('#nextBtn').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      if (q.type === 'choice') {
+        app.querySelectorAll('[data-oi]').forEach(b => b.addEventListener('click', () => {
+          b.classList.add('ring-2', 'ring-primary');
+          finish(Number(b.dataset.oi) === q.answer, q.options[q.answer]);
+        }));
+      } else if (q.type === 'tf') {
+        app.querySelectorAll('[data-tf]').forEach(b => b.addEventListener('click', () => {
+          b.classList.add('ring-2', 'ring-primary');
+          finish((b.dataset.tf === 'true') === q.answer, q.answer ? '对' : '错');
+        }));
+      } else {
+        const judgeText = () => {
+          const user = app.querySelector('#ansInput').value;
+          if (!user.trim()) { toast('先写一写再提交哦'); answered = false; return; }
+          const cands = [q.answer].concat(q.alt || []);
+          finish(cands.some(c => norm(c) === norm(user)), q.answer);
+        };
+        app.querySelector('#submitBtn').addEventListener('click', judgeText);
+        app.querySelector('#ansInput').addEventListener('keydown', e => { if (e.key === 'Enter') judgeText(); });
+      }
+    }
+
+    function drawQuizResult() {
+      const total = questions.length;
+      const pass = correctN / total >= STAGE_PASS;
+      let unlockedMsg = '';
+      if (!isRetry) {
+        storage.saveDrillResult(level, stageKey(l.id, s.stage), correctN);
+        if (pass) {
+          const i = l.stages.findIndex(x => x.stage === s.stage);
+          if (i >= 0 && i < l.stages.length - 1) unlockedMsg = `环节 ${l.stages[i + 1].stage} · ${l.stages[i + 1].name} 已解锁！`;
+          if (l.stages.every(x => stagePassed(x.stage))) {
+            storage.markLessonDone(level, l.id, 'done');
+            unlockedMsg = '四环节全部通过，这课标记为已掌握！';
+          }
+        }
+      }
+      app.innerHTML = `
+        ${headerHtml(`${isRetry ? '错题重练' : `环节 ${s.stage}`} · 结果`)}
+        <div class="card-cartoon text-center mb-4 ${pass ? 'bg-green-50' : 'bg-yellow-50'}">
+          <div class="text-6xl mb-2">${pass ? '🎉' : '💪'}</div>
+          <div class="text-2xl font-black">${correctN} / ${total}</div>
+          <p class="text-sm text-gray-600 mt-2">${pass ? (unlockedMsg || '通过！记得今天把它「用出来」——只做题不输出＝没学。') : '差一点点，看看下面的错题，重练一遍就能过。'}</p>
+        </div>
+        ${wrongList.length ? `<button id="retryWrongBtn" class="w-full btn-cartoon mb-3" style="min-height:48px">🔁 错题重练（${wrongList.length} 题）</button>` : ''}
+        <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">再练整个环节</button>
+        <button id="stagesBtn" class="w-full btn-cartoon" style="min-height:48px">回环节列表</button>
+      `;
+      bindBack(app, 'exam-grammar');
+      app.querySelector('#examBackBtn').onclick = drawStageSelect;
+      const rw = app.querySelector('#retryWrongBtn');
+      if (rw) rw.addEventListener('click', () => runQuiz(s, wrongList.slice(), true));
+      app.querySelector('#againBtn').addEventListener('click', () => runQuiz(s, s.questions, false));
+      app.querySelector('#stagesBtn').addEventListener('click', drawStageSelect);
+    }
+
+    draw();
   }
 
   drawIntro();
