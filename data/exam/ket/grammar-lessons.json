@@ -5526,6 +5526,737 @@
      "answer": "I like winter because I can skate.",
      "explain": "意思通顺即可——写作口语都靠这个句型。"
     }
+   ],
+   "teaching": {
+    "essence": "连接词是连奏线——把两个音连成一句，让句子不再一个个蹦。KET 只考 7 个：and / but / or + when / where / because / if。",
+    "why": "中文很爱「蹦句子」：「我喜欢音乐。它让我开心。」两个短句并排放，中间连「因为」都可以省。英文短句太多会被当成「不会组织」——KET 写作专门有一个 Organisation 维度看你会不会连线。好消息：只要 7 个词。25 词的小作文里放一个 because 和一个 and，就从「蹦豆子」变成「有线条」，这是最便宜的提分动作。",
+    "rules": [
+     {
+      "point": "并排连三兄弟：and / but / or",
+      "detail": "and 加一句（而且）、but 转折（但是）、or 二选一（或者/否则）。连接的两边分量相等，像两个音符并排。",
+      "examples": [
+       {
+        "en": "I like apples and bananas.",
+        "zh": "我喜欢苹果和香蕉。"
+       },
+       {
+        "en": "I can sing but I can't dance.",
+        "zh": "我会唱歌但不会跳舞。"
+       },
+       {
+        "en": "Do you want tea or juice?",
+        "zh": "你要茶还是果汁？"
+       }
+      ]
+     },
+     {
+      "point": "挂一句四兄弟：when / where / because / if",
+      "detail": "把一个短句「挂」到主句上：when 挂时间、where 挂地点、because 挂原因、if 挂条件。挂的那半句不能单独存在。",
+      "examples": [
+       {
+        "en": "Call me when you get home.",
+        "zh": "到家时给我打电话。"
+       },
+       {
+        "en": "I like music because it makes me happy.",
+        "zh": "我喜欢音乐，因为它让我开心。（口语写作万能句型）"
+       },
+       {
+        "en": "If it rains, we will stay at home.",
+        "zh": "如果下雨，我们就待在家。"
+       }
+      ]
+     },
+     {
+      "point": "because 和 so 只能上一个",
+      "detail": "中文习惯「因为……所以……」成对出现，英文一句话里只能请一个：Because it rained, we stayed home. 或 It rained, so we stayed home. 两个都上就是双指挥。",
+      "examples": [
+       {
+        "en": "It was cold, so I wore a coat.",
+        "zh": "天冷，所以我穿了外套。"
+       },
+       {
+        "en": "Because it was cold, I wore a coat.",
+        "zh": "因为天冷，我穿了外套。（两句意思一样，各用一个词）"
+       }
+      ]
+     },
+     {
+      "point": "if 句的小机关",
+      "detail": "if 挂的半句用一般现在，主句用 will：If it rains, we will stay at home.（不是 If it will rain）。条件还没发生，但 if 半句里不放 will。",
+      "examples": [
+       {
+        "en": "If you practise every day, you will pass the exam.",
+        "zh": "如果你每天练习，就会通过考试。"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "写作顺序词也算连线：First… Then… After that… Finally…——看图写故事按这个骨架写，Organisation 分稳了。",
+     "because 后面挂的是「原因句」，答 Why 的提问必用它：Why do you like…? — Because…",
+     "when 挂过去的事：When I was five, I started playing the violin.——这是自我介绍的高分句。",
+     "and 连三个以上：A, B and C（最后一个前放 and）：I bought apples, eggs and milk."
+    ],
+    "commonErrors": [
+     {
+      "wrong": "Because it rained, so we stayed at home.",
+      "right": "It rained, so we stayed at home.",
+      "why": "中文「因为……所以……」成对，英文只能请一个。because 和 so 同台 = 双指挥，必删一个。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "I like dogs. Because they are cute.",
+      "right": "I like dogs because they are cute.",
+      "why": "because 挂的半句不能单独成句（句号一隔它就孤零零了）。口语答 Why 时单说 Because… 可以，写作里要连在主句上。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "If it will rain tomorrow, we will stay at home.",
+      "right": "If it rains tomorrow, we will stay at home.",
+      "why": "if 半句里不放 will——条件用现在式表达，主句才用 will。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "I was tired. I went to bed early.（两句蹦豆子）",
+      "right": "I was tired, so I went to bed early.",
+      "why": "不算语法错，但 KET 写作 Organisation 维度会压分——句子之间没有线。加一个 so/and/because 就是分。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "gray"
+     },
+     {
+      "wrong": "I like both apples and also bananas.",
+      "right": "I like apples and bananas.",
+      "why": "中文「既……也……」翻译过度，堆了 both/also 一堆词。and 一个词就够。",
+      "impedes": false,
+      "ketPart": "写作",
+      "zone": "gray"
+     }
+    ],
+    "parentTip": "她说任何一句英文后，你问一声 Why?，引导她加 because…。这是最便宜的写作提分动作，一天两次就够。",
+    "darkline": ""
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "I like apples ___ bananas.（而且）",
+       "options": [
+        "and",
+        "but"
+       ],
+       "answer": 0,
+       "explain": "加一句 → and。"
+      },
+      {
+       "type": "choice",
+       "q": "I can sing ___ I can't dance.（但是）",
+       "options": [
+        "but",
+        "and"
+       ],
+       "answer": 0,
+       "explain": "前后转折 → but。"
+      },
+      {
+       "type": "choice",
+       "q": "Do you want tea ___ juice?（还是）",
+       "options": [
+        "or",
+        "and"
+       ],
+       "answer": 0,
+       "explain": "二选一 → or。"
+      },
+      {
+       "type": "choice",
+       "q": "I like music ___ it makes me happy.（因为）",
+       "options": [
+        "because",
+        "but"
+       ],
+       "answer": 0,
+       "explain": "挂原因 → because。"
+      },
+      {
+       "type": "choice",
+       "q": "___ it rains, we will stay at home.（如果）",
+       "options": [
+        "If",
+        "Or"
+       ],
+       "answer": 0,
+       "explain": "挂条件 → If。"
+      },
+      {
+       "type": "choice",
+       "q": "Call me ___ you get home.（……的时候）",
+       "options": [
+        "when",
+        "or"
+       ],
+       "answer": 0,
+       "explain": "挂时间 → when。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ It was cold, so I wore a coat.",
+       "answer": true,
+       "explain": "对。so = 所以，一句里只有它一个指挥。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ Because it rained, so we stayed at home.",
+       "answer": false,
+       "explain": "错。because 和 so 是双指挥，只能留一个。"
+      },
+      {
+       "type": "choice",
+       "q": "Hurry up, ___ you will be late!（否则）",
+       "options": [
+        "or",
+        "and"
+       ],
+       "answer": 0,
+       "explain": "or 还能表「否则」：快点，否则要迟到。"
+      },
+      {
+       "type": "choice",
+       "q": "She is only five, ___ she can play the piano.（却）",
+       "options": [
+        "but",
+        "or"
+       ],
+       "answer": 0,
+       "explain": "年纪小「却」会弹琴 → but。"
+      },
+      {
+       "type": "fill",
+       "q": "I was hungry, ___ I ate two eggs.（所以）",
+       "hint": "提示：两个字母",
+       "answer": "so",
+       "explain": "结果 → so。"
+      },
+      {
+       "type": "fill",
+       "q": "Why do you like summer? — ___ I can swim!",
+       "hint": "提示：答 Why 必用它",
+       "answer": "because",
+       "explain": "答 Why → Because。口语这样单用可以。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ I bought apples, eggs and milk.",
+       "answer": true,
+       "explain": "对。三个并列，最后一个前放 and。"
+      },
+      {
+       "type": "choice",
+       "q": "___ I was five, I started playing the violin.",
+       "options": [
+        "When",
+        "If"
+       ],
+       "answer": 0,
+       "explain": "「五岁的时候」是时间 → When。自我介绍高分句。"
+      },
+      {
+       "type": "choice",
+       "q": "This is the school ___ my mother works.（地点）",
+       "options": [
+        "where",
+        "when"
+       ],
+       "answer": 0,
+       "explain": "挂地点 → where。"
+      },
+      {
+       "type": "tf",
+       "q": "「因为……所以……」翻成英文时，because 和 so 都要写出来。这个说法对吗？",
+       "answer": false,
+       "explain": "错。英文一句只请一个：要么 because，要么 so。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "I wanted to buy the book, ___ I didn't have enough money.",
+       "options": [
+        "but",
+        "and",
+        "or",
+        "so"
+       ],
+       "answer": 0,
+       "explain": "想买「但」钱不够 → but。"
+      },
+      {
+       "type": "choice",
+       "q": "Put on your coat, ___ you will catch a cold.",
+       "options": [
+        "or",
+        "and",
+        "but",
+        "because"
+       ],
+       "answer": 0,
+       "explain": "穿上外套，「否则」感冒 → or。"
+      },
+      {
+       "type": "choice",
+       "q": "We stayed at home ___ it was raining hard.",
+       "options": [
+        "because",
+        "so",
+        "or",
+        "if"
+       ],
+       "answer": 0,
+       "explain": "空格后是原因 → because。"
+      },
+      {
+       "type": "choice",
+       "q": "It was raining hard, ___ we stayed at home.",
+       "options": [
+        "so",
+        "because",
+        "or",
+        "if"
+       ],
+       "answer": 0,
+       "explain": "空格后是结果 → so。和上一题正好互为镜像。"
+      },
+      {
+       "type": "choice",
+       "q": "___ you mix blue and yellow, you get green.",
+       "options": [
+        "If",
+        "But",
+        "Or",
+        "So"
+       ],
+       "answer": 0,
+       "explain": "条件 → If。"
+      },
+      {
+       "type": "choice",
+       "q": "I'll show you the photos ___ I see you.",
+       "options": [
+        "when",
+        "where",
+        "or",
+        "but"
+       ],
+       "answer": 0,
+       "explain": "见到你「的时候」→ when。"
+      },
+      {
+       "type": "choice",
+       "q": "Which do you like better, spring ___ autumn?",
+       "options": [
+        "or",
+        "and",
+        "but",
+        "so"
+       ],
+       "answer": 0,
+       "explain": "二选一的提问 → or。"
+      },
+      {
+       "type": "choice",
+       "q": "My brother likes sports, ___ I like reading.",
+       "options": [
+        "but",
+        "or",
+        "if",
+        "because"
+       ],
+       "answer": 0,
+       "explain": "两人爱好相反 → but。"
+      },
+      {
+       "type": "choice",
+       "q": "Wash your hands ___ you eat.",
+       "options": [
+        "before",
+        "if",
+        "or",
+        "so"
+       ],
+       "answer": 0,
+       "explain": "before 也是挂时间的词：吃饭「之前」洗手。"
+      },
+      {
+       "type": "choice",
+       "q": "First we did our homework, ___ we played chess.",
+       "options": [
+        "then",
+        "because",
+        "or",
+        "if"
+       ],
+       "answer": 0,
+       "explain": "顺序词 then：先……然后……。写故事的骨架。"
+      },
+      {
+       "type": "choice",
+       "q": "If you practise every day, you ___ pass the exam.",
+       "options": [
+        "will",
+        "won't",
+        "did",
+        "were"
+       ],
+       "answer": 0,
+       "explain": "if 句的主句用 will：就会通过。"
+      },
+      {
+       "type": "choice",
+       "q": "If it ___ sunny tomorrow, we will have a picnic.",
+       "options": [
+        "is",
+        "will be",
+        "was",
+        "be"
+       ],
+       "answer": 0,
+       "explain": "if 半句不放 will → 用一般现在 is。"
+      },
+      {
+       "type": "fill",
+       "q": "I like winter ___ I can make snowmen.",
+       "answer": "because",
+       "explain": "后面是原因 → because。"
+      },
+      {
+       "type": "fill",
+       "q": "Shall we go swimming ___ play football this afternoon?",
+       "answer": "or",
+       "explain": "二选一 → or。"
+      },
+      {
+       "type": "fill",
+       "q": "The film was long, ___ it was very interesting.（但是）",
+       "answer": "but",
+       "explain": "转折 → but。"
+      },
+      {
+       "type": "fill",
+       "q": "___ I grow up, I want to be a music teacher.",
+       "answer": "when",
+       "explain": "「长大的时候」→ When I grow up——KET 口语高频句。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "Because it was late, so we went home.",
+       "answer": "It was late, so we went home.",
+       "alt": [
+        "Because it was late, we went home."
+       ],
+       "explain": "双指挥：because 和 so 删一个，两种改法都对。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I like my school. Because the teachers are kind.",
+       "answer": "I like my school because the teachers are kind.",
+       "explain": "because 半句不能被句号隔开单独站，连回主句。"
+      },
+      {
+       "type": "correct",
+       "wrong": "If it will snow tomorrow, we will make a snowman.",
+       "answer": "If it snows tomorrow, we will make a snowman.",
+       "explain": "if 半句里不放 will：If it snows…"
+      },
+      {
+       "type": "correct",
+       "wrong": "I was tired but I went to bed early.",
+       "answer": "I was tired, so I went to bed early.",
+       "explain": "「累了→早睡」是因果不是转折：so。选连接词先想两句是什么关系。"
+      },
+      {
+       "type": "correct",
+       "wrong": "Hurry up, and you will miss the bus!",
+       "answer": "Hurry up, or you will miss the bus!",
+       "explain": "「否则会误车」→ or。and 变成「快点就会误车」，意思反了。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I like both singing and also dancing.",
+       "answer": "I like singing and dancing.",
+       "explain": "中文「既……也……」直译堆词。and 一个就够。"
+      },
+      {
+       "type": "correct",
+       "wrong": "When I will finish my homework, I will call you.",
+       "answer": "When I finish my homework, I will call you.",
+       "explain": "和 if 一样：when 挂的半句也用现在式，不放 will。"
+      },
+      {
+       "type": "correct",
+       "wrong": "She was ill, because she didn't come to school.",
+       "answer": "She was ill, so she didn't come to school.",
+       "explain": "因果放反了：生病是原因，没来是结果 → so。（或改成 Because she was ill, she didn't come.）"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：两句关系是什么？I practised hard, ___ I still lost the game.",
+       "options": [
+        "but",
+        "so",
+        "because",
+        "or"
+       ],
+       "answer": 0,
+       "explain": "努力了「却」输了——转折 → but。so 就变成「所以输了」，不合逻辑。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：___ you are free this Sunday, come to my birthday party!",
+       "options": [
+        "If",
+        "Because",
+        "But",
+        "So"
+       ],
+       "answer": 0,
+       "explain": "「如果你有空」是条件 → If。邀请信常用。"
+      },
+      {
+       "type": "choice",
+       "q": "哪句是错的？",
+       "options": [
+        "I'll wait here until you come back.",
+        "If you will come tomorrow, we can play together.",
+        "She smiled when she saw the present.",
+        "We can walk or take the bus."
+       ],
+       "answer": 1,
+       "explain": "B 的 if 半句放了 will → If you come tomorrow…"
+      },
+      {
+       "type": "choice",
+       "q": "哪句连接词用得最好？",
+       "options": [
+        "I love the sea, so we often go to the beach in summer.",
+        "I love the sea, but we often go to the beach in summer.",
+        "I love the sea, or we often go to the beach in summer.",
+        "I love the sea because we often go to the beach in summer."
+       ],
+       "answer": 0,
+       "explain": "爱大海（原因）→ 常去海边（结果）：so。D 把因果说反了。"
+      },
+      {
+       "type": "transform",
+       "from": "It was cold. I wore a coat.（用 so 连成一句）",
+       "to_type": "合并",
+       "answer": "It was cold, so I wore a coat.",
+       "explain": "原因在前结果在后 → so。"
+      },
+      {
+       "type": "transform",
+       "from": "It was cold. I wore a coat.（用 because 连成一句）",
+       "to_type": "合并",
+       "answer": "I wore a coat because it was cold.",
+       "alt": [
+        "Because it was cold, I wore a coat."
+       ],
+       "explain": "同样两句换 because：原因挂在 because 后面。"
+      },
+      {
+       "type": "transform",
+       "from": "You press this button. The door opens.（用 if 连成一句）",
+       "to_type": "合并",
+       "answer": "If you press this button, the door opens.",
+       "alt": [
+        "If you press this button, the door will open."
+       ],
+       "explain": "条件挂 if；主句用现在或 will 都通。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：选出逻辑通顺的一句：",
+       "options": [
+        "I didn't go out because I had a lot of homework.",
+        "I didn't go out so I had a lot of homework.",
+        "I didn't go out or I had a lot of homework.",
+        "I didn't go out and because I had a lot of homework."
+       ],
+       "answer": 0,
+       "explain": "没出门的原因是作业多 → because。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I want to learn the guitar, ___ I don't have time.",
+       "answer": "but",
+       "explain": "想学「但」没时间 → but。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：You can come by bus ___ by bike.",
+       "answer": "or",
+       "explain": "两种方式选一 → or。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I love this song ___ the words are beautiful.",
+       "answer": "because",
+       "explain": "后面是原因 → because。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Bring an umbrella ___ it rains.",
+       "answer": "if",
+       "alt": [
+        "in case"
+       ],
+       "explain": "「以防下雨/如果下雨」→ if。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I was doing my homework ___ the phone rang.",
+       "answer": "when",
+       "explain": "正做作业「这时」电话响了 → when。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My sister likes dancing, ___ I like singing. We both love music!",
+       "answer": "and",
+       "alt": [
+        "but"
+       ],
+       "explain": "并列陈述两人爱好 → and（转折 but 也讲得通，首选 and 因为下句说 both love music）。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 写作（25词小作文）：哪句能同时拿 Organisation 分？",
+       "options": [
+        "I like the park because I can play football there with my friends.",
+        "I like the park. I can play football. I have friends.",
+        "I like the park, football, friends.",
+        "Park is good. Football is good."
+       ],
+       "answer": 0,
+       "explain": "A 用 because 把三个信息连成一条线；B 是蹦豆子，C/D 连句子都不完整。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语：Why do you like your best friend? 最好的回答：",
+       "options": [
+        "Because she is funny and she always helps me.",
+        "She is funny. Helps me.",
+        "Because of funny.",
+        "Yes, I like her."
+       ],
+       "answer": 0,
+       "explain": "Because + 两个原因用 and 连——口语高分模板。D 答非所问。"
+      },
+      {
+       "type": "choice",
+       "q": "看图写故事：想说「他跑得很快，但还是没赶上公交」：",
+       "options": [
+        "He ran fast, but he missed the bus.",
+        "He ran fast, so he missed the bus.",
+        "He ran fast, and he missed the bus.",
+        "He ran fast because he missed the bus."
+       ],
+       "answer": 0,
+       "explain": "快跑「却」没赶上 → but。这一句是 Part 7 三图故事的经典中间句。"
+      },
+      {
+       "type": "choice",
+       "q": "故事结尾：___ they got home, Mum made them hot tea.",
+       "options": [
+        "When",
+        "If",
+        "Or",
+        "Because"
+       ],
+       "answer": 0,
+       "explain": "到家「的时候」→ When。故事里 when 挂过去的时间点。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：I like summer holidays. Because I can visit my grandparents. And swim every day.",
+       "answer": "I like summer holidays because I can visit my grandparents and swim every day.",
+       "explain": "三个碎片连成一句：because 挂原因，and 连两个活动。25 词作文最需要这种整合。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：If you will come to my party, we will have a great time.",
+       "answer": "If you come to my party, we will have a great time.",
+       "explain": "邀请信高频句：if 半句去掉 will。"
+      },
+      {
+       "type": "transform",
+       "from": "I stayed at home. It was raining.（用 because 连成一句）",
+       "to_type": "合并",
+       "answer": "I stayed at home because it was raining.",
+       "alt": [
+        "Because it was raining, I stayed at home."
+       ],
+       "explain": "原因挂在 because 后。"
+      },
+      {
+       "type": "transform",
+       "from": "Finish your homework. Then you can watch TV.（用 if 连成一句）",
+       "to_type": "合并",
+       "answer": "If you finish your homework, you can watch TV.",
+       "explain": "条件句改写：先做完作业（条件）→ 才能看电视（结果）。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：给故事选最佳骨架词：___, we packed our bags. ___, we took a taxi to the station. ___, the train left at nine.",
+       "options": [
+        "First / Then / Finally",
+        "But / Or / So",
+        "Because / If / When",
+        "And / And / And"
+       ],
+       "answer": 0,
+       "explain": "First… Then… Finally… 是叙事顺序骨架，Organisation 稳拿。"
+      },
+      {
+       "type": "fill",
+       "q": "综合：We can't play outside now ___ it's too dark.",
+       "answer": "because",
+       "alt": [
+        "as",
+        "since"
+       ],
+       "explain": "原因 → because（as/since 也通，KET 会 because 就够）。"
+      }
+     ]
+    }
    ]
   },
   {
