@@ -4259,7 +4259,10 @@
        "answer": "Let's meet at ten o'clock on Sunday morning at the cinema.",
        "alt": [
         "We will meet at ten on Sunday morning at the cinema.",
-        "Let's meet at ten on Sunday morning at the cinema."
+        "Let's meet at ten on Sunday morning at the cinema.",
+        "Let's meet at the cinema at ten o'clock on Sunday morning.",
+        "Let's meet at the cinema at ten on Sunday morning.",
+        "We meet at ten o'clock on Sunday morning at the cinema."
        ],
        "explain": "三个介词各就各位：at ten（点）、on Sunday morning（那天的早上）、at the cinema（约定的点）。"
       },
