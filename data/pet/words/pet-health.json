@@ -3,407 +3,117 @@
   "topicName": "Health 健康身体",
   "icon": "🏥",
   "level": "B1",
-  "totalWords": 40,
+  "totalWords": 110,
   "words": [
-    {
-      "id": "pet-health-001", "word": "illness", "phonetic": "/ˈɪlnəs/", "pos": "n.", "meaning": "疾病；生病", "level": "B1",
-      "examples": [
-        { "en": "He missed school because of illness.", "zh": "他因病没能上学。" },
-        { "en": "She recovered from a serious illness.", "zh": "她从一场重病中康复了。" }
-      ],
-      "synonyms": ["disease", "sickness"], "antonyms": ["health"], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "ill(生病的)+ness(状态),处于生病的状态就是疾病。" },
-      "petExam": { "frequency": "medium", "collocations": ["a serious illness", "recover from illness"] }
-    },
-    {
-      "id": "pet-health-002", "word": "medicine", "phonetic": "/ˈmedsn/", "pos": "n.", "meaning": "药；医学", "level": "A2",
-      "examples": [
-        { "en": "Take this medicine twice a day.", "zh": "这药每天吃两次。" },
-        { "en": "She studies medicine at university.", "zh": "她在大学学医。" }
-      ],
-      "synonyms": ["drug"], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "medi(治疗,同 medical)+cine,用来治病的东西就是药。" },
-      "petExam": { "frequency": "high", "collocations": ["take medicine", "cough medicine"] }
-    },
-    {
-      "id": "pet-health-003", "word": "patient", "phonetic": "/ˈpeɪʃnt/", "pos": "n./adj.", "meaning": "病人；有耐心的", "level": "B1",
-      "examples": [
-        { "en": "The doctor saw ten patients today.", "zh": "医生今天看了十位病人。" },
-        { "en": "Please be patient and wait.", "zh": "请耐心等待。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "image", "tip": "看病要排队,能忍着痛\"耐心\"等的人就是 patient(病人),一词两义。" },
-      "petExam": { "frequency": "medium", "collocations": ["a hospital patient", "be patient"] }
-    },
-    {
-      "id": "pet-health-004", "word": "headache", "phonetic": "/ˈhedeɪk/", "pos": "n.", "meaning": "头痛", "level": "A2",
-      "examples": [
-        { "en": "I have a bad headache today.", "zh": "我今天头痛得厉害。" },
-        { "en": "Too much screen time gives me a headache.", "zh": "看屏幕太久会让我头痛。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "head(头)+ache(疼),头疼就是 headache;同理 toothache 牙疼。" },
-      "petExam": { "frequency": "medium", "collocations": ["have a headache", "a bad headache"] }
-    },
-    {
-      "id": "pet-health-005", "word": "stomachache", "phonetic": "/ˈstʌməkeɪk/", "pos": "n.", "meaning": "胃痛；肚子痛", "level": "A2",
-      "examples": [
-        { "en": "I ate too much and got a stomachache.", "zh": "我吃太多,肚子痛了。" },
-        { "en": "A stomachache kept her awake.", "zh": "肚子痛让她睡不着。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "stomach(胃)+ache(疼),胃疼就是 stomachache。" },
-      "petExam": { "frequency": "medium", "collocations": ["have a stomachache", "a bad stomachache"] }
-    },
-    {
-      "id": "pet-health-006", "word": "pain", "phonetic": "/peɪn/", "pos": "n.", "meaning": "疼痛", "level": "B1",
-      "examples": [
-        { "en": "I feel a sharp pain in my leg.", "zh": "我腿上感到一阵剧痛。" },
-        { "en": "The medicine took away the pain.", "zh": "药止住了疼痛。" }
-      ],
-      "synonyms": ["ache"], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "pain 谐音\"疼\"——发音就带着疼劲儿。" },
-      "petExam": { "frequency": "medium", "collocations": ["feel pain", "a sharp pain"] }
-    },
-    {
-      "id": "pet-health-007", "word": "fever", "phonetic": "/ˈfiːvə/", "pos": "n.", "meaning": "发烧；发热", "level": "A2",
-      "examples": [
-        { "en": "She has a high fever.", "zh": "她发高烧。" },
-        { "en": "The child's fever went down at night.", "zh": "孩子的烧到晚上退了。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "fever 谐音\"发我\"——发烧时全身滚烫\"发\"着热。" },
-      "petExam": { "frequency": "medium", "collocations": ["have a fever", "a high fever"] }
-    },
-    {
-      "id": "pet-health-008", "word": "cough", "phonetic": "/kɒf/", "pos": "v./n.", "meaning": "咳嗽", "level": "A2",
-      "examples": [
-        { "en": "He coughed all night.", "zh": "他咳了一整夜。" },
-        { "en": "I have a bad cough.", "zh": "我咳嗽得厉害。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "cough 谐音\"咳夫\"——发音本身就像\"咳\"的一声。" },
-      "petExam": { "frequency": "medium", "collocations": ["have a cough", "cough medicine"] }
-    },
-    {
-      "id": "pet-health-009", "word": "cold", "phonetic": "/kəʊld/", "pos": "n.", "meaning": "感冒", "level": "A2",
-      "examples": [
-        { "en": "I caught a cold last week.", "zh": "我上周感冒了。" },
-        { "en": "Stay warm so you don't get a cold.", "zh": "注意保暖以免感冒。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 1, "tags": ["health"],
-      "mnemonic": { "type": "image", "tip": "cold 本义\"冷\",受了凉就 catch a cold(感冒)。" },
-      "petExam": { "frequency": "high", "collocations": ["catch a cold", "have a cold"] }
-    },
-    {
-      "id": "pet-health-010", "word": "flu", "phonetic": "/fluː/", "pos": "n.", "meaning": "流感", "level": "B1",
-      "examples": [
-        { "en": "Many students had the flu this winter.", "zh": "这个冬天很多学生得了流感。" },
-        { "en": "The flu made him stay in bed.", "zh": "流感让他卧床不起。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "flu 是 influenza 的缩写,比普通感冒(cold)更凶的流行性感冒。" },
-      "petExam": { "frequency": "low", "collocations": ["catch the flu", "have the flu"] }
-    },
-    {
-      "id": "pet-health-011", "word": "injury", "phonetic": "/ˈɪndʒəri/", "pos": "n.", "meaning": "受伤；伤害", "level": "B1",
-      "examples": [
-        { "en": "He has a knee injury from football.", "zh": "他踢球时膝盖受了伤。" },
-        { "en": "Wear a helmet to avoid injury.", "zh": "戴上头盔以免受伤。" }
-      ],
-      "synonyms": ["wound"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "in(不)+jur(公正,同 justice)+y,被不公正地伤了身=受伤。" },
-      "petExam": { "frequency": "medium", "collocations": ["a serious injury", "avoid injury"] }
-    },
-    {
-      "id": "pet-health-012", "word": "bandage", "phonetic": "/ˈbændɪdʒ/", "pos": "n.", "meaning": "绷带", "level": "B1",
-      "examples": [
-        { "en": "The nurse put a bandage on my arm.", "zh": "护士在我手臂上缠了绷带。" },
-        { "en": "He wore a bandage for a week.", "zh": "他绑了一周绷带。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "band(带子)+age,缠伤口的带子就是绷带。" },
-      "petExam": { "frequency": "low", "collocations": ["put on a bandage", "a clean bandage"] }
-    },
-    {
-      "id": "pet-health-013", "word": "treatment", "phonetic": "/ˈtriːtmənt/", "pos": "n.", "meaning": "治疗；对待", "level": "B1",
-      "examples": [
-        { "en": "The treatment lasted two weeks.", "zh": "治疗持续了两周。" },
-        { "en": "She received treatment at the hospital.", "zh": "她在医院接受了治疗。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "treat(治疗/对待)+ment,治病的过程就是 treatment。" },
-      "petExam": { "frequency": "medium", "collocations": ["medical treatment", "receive treatment"] }
-    },
-    {
-      "id": "pet-health-014", "word": "cure", "phonetic": "/kjʊə/", "pos": "v./n.", "meaning": "治愈；治好", "level": "B1",
-      "examples": [
-        { "en": "This medicine can cure the illness.", "zh": "这药能治好这种病。" },
-        { "en": "There is no cure for a cold.", "zh": "感冒没有特效药。" }
-      ],
-      "synonyms": ["heal"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "cure 谐音\"克尔\"——把病\"克\"掉就是治愈。" },
-      "petExam": { "frequency": "medium", "collocations": ["cure a disease", "a cure for"] }
-    },
-    {
-      "id": "pet-health-015", "word": "recover", "phonetic": "/rɪˈkʌvə/", "pos": "v.", "meaning": "康复；恢复", "level": "B1",
-      "examples": [
-        { "en": "He is recovering from an operation.", "zh": "他正在手术后康复。" },
-        { "en": "She recovered quickly after resting.", "zh": "休息后她很快就好了。" }
-      ],
-      "synonyms": ["get better"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "re(重新)+cover(覆盖/盖上),重新把健康\"盖\"回身上就是康复。" },
-      "petExam": { "frequency": "medium", "collocations": ["recover from", "recover quickly"] }
-    },
-    {
-      "id": "pet-health-016", "word": "fitness", "phonetic": "/ˈfɪtnəs/", "pos": "n.", "meaning": "健康；健身", "level": "B1",
-      "examples": [
-        { "en": "Running improves your fitness.", "zh": "跑步能增强你的体质。" },
-        { "en": "She goes to a fitness centre.", "zh": "她去健身中心。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "fit(健康的/合身的)+ness(状态),身体处于\"fit\"的状态就是健康。" },
-      "petExam": { "frequency": "medium", "collocations": ["a fitness centre", "physical fitness"] }
-    },
-    {
-      "id": "pet-health-017", "word": "weight", "phonetic": "/weɪt/", "pos": "n.", "meaning": "体重；重量", "level": "B1",
-      "examples": [
-        { "en": "I want to lose some weight.", "zh": "我想减掉一些体重。" },
-        { "en": "The doctor checked my weight.", "zh": "医生量了我的体重。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "assoc", "tip": "weight 里有 weigh(称重),称出来的数就是重量/体重。" },
-      "petExam": { "frequency": "medium", "collocations": ["lose weight", "put on weight"] }
-    },
-    {
-      "id": "pet-health-018", "word": "dentist", "phonetic": "/ˈdentɪst/", "pos": "n.", "meaning": "牙医", "level": "A2",
-      "examples": [
-        { "en": "Go to the dentist twice a year.", "zh": "一年看两次牙医。" },
-        { "en": "The dentist checked my teeth.", "zh": "牙医检查了我的牙齿。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "dent(牙,拉丁 dent)+ist(人),管牙的人就是牙医。" },
-      "petExam": { "frequency": "medium", "collocations": ["go to the dentist", "see a dentist"] }
-    },
-    {
-      "id": "pet-health-019", "word": "chemist", "phonetic": "/ˈkemɪst/", "pos": "n.", "meaning": "药剂师；药店", "level": "B1",
-      "examples": [
-        { "en": "Buy the medicine at the chemist.", "zh": "在药店买这个药。" },
-        { "en": "The chemist is open until nine.", "zh": "药店营业到九点。" }
-      ],
-      "synonyms": ["pharmacy"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "assoc", "tip": "chemist 里有 chem(化学),懂药物化学、卖药配药的人/店就是 chemist。" },
-      "petExam": { "frequency": "low", "collocations": ["at the chemist", "a local chemist"] }
-    },
-    {
-      "id": "pet-health-020", "word": "prescription", "phonetic": "/prɪˈskrɪpʃn/", "pos": "n.", "meaning": "处方；药方", "level": "B1",
-      "examples": [
-        { "en": "The doctor wrote a prescription.", "zh": "医生开了张处方。" },
-        { "en": "You need a prescription for this medicine.", "zh": "这种药需要处方。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "pre(预先)+script(写,同 script)+ion,医生预先写好的用药单就是处方。" },
-      "petExam": { "frequency": "low", "collocations": ["write a prescription", "a doctor's prescription"] }
-    },
-    {
-      "id": "pet-health-021", "word": "symptom", "phonetic": "/ˈsɪmptəm/", "pos": "n.", "meaning": "症状", "level": "B1",
-      "examples": [
-        { "en": "A cough is a symptom of a cold.", "zh": "咳嗽是感冒的一种症状。" },
-        { "en": "Tell the doctor your symptoms.", "zh": "把你的症状告诉医生。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "symptom 谐音\"婶疼\"——身体这儿疼那儿疼,就是显出了症状。" },
-      "petExam": { "frequency": "low", "collocations": ["a common symptom", "show symptoms"] }
-    },
-    {
-      "id": "pet-health-022", "word": "operation", "phonetic": "/ˌɒpəˈreɪʃn/", "pos": "n.", "meaning": "手术；操作", "level": "B1",
-      "examples": [
-        { "en": "He had an operation on his knee.", "zh": "他的膝盖做了手术。" },
-        { "en": "The operation was a success.", "zh": "手术很成功。" }
-      ],
-      "synonyms": ["surgery"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "oper(工作/操作,同 operate)+ation,医生在身体上\"动手操作\"就是手术。" },
-      "petExam": { "frequency": "medium", "collocations": ["have an operation", "a heart operation"] }
-    },
-    {
-      "id": "pet-health-023", "word": "ambulance", "phonetic": "/ˈæmbjələns/", "pos": "n.", "meaning": "救护车", "level": "B1",
-      "examples": [
-        { "en": "Call an ambulance quickly!", "zh": "快叫救护车！" },
-        { "en": "The ambulance arrived in five minutes.", "zh": "救护车五分钟就到了。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "ambulance 谐音\"俺不能死\"——躺上救护车心里喊着\"俺不能死\",赶紧送医。" },
-      "petExam": { "frequency": "low", "collocations": ["call an ambulance", "an ambulance arrives"] }
-    },
-    {
-      "id": "pet-health-024", "word": "appointment", "phonetic": "/əˈpɔɪntmənt/", "pos": "n.", "meaning": "预约；约会", "level": "B1",
-      "examples": [
-        { "en": "I have a doctor's appointment at three.", "zh": "我三点约了医生。" },
-        { "en": "Please make an appointment first.", "zh": "请先预约。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "ap(朝向)+point(指定)+ment,双方指定好一个时间点见面=预约。" },
-      "petExam": { "frequency": "medium", "collocations": ["make an appointment", "a doctor's appointment"] }
-    },
-    {
-      "id": "pet-health-025", "word": "sore", "phonetic": "/sɔː/", "pos": "adj.", "meaning": "疼痛的；酸痛的", "level": "B1",
-      "examples": [
-        { "en": "I have a sore throat.", "zh": "我喉咙痛。" },
-        { "en": "My legs are sore after running.", "zh": "跑完步我的腿很酸。" }
-      ],
-      "synonyms": ["painful"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "sore 谐音\"搜\"——哪儿一碰就\"嗖\"地一阵酸痛。" },
-      "petExam": { "frequency": "medium", "collocations": ["a sore throat", "feel sore"] }
-    },
-    {
-      "id": "pet-health-026", "word": "dizzy", "phonetic": "/ˈdɪzi/", "pos": "adj.", "meaning": "头晕的；眩晕的", "level": "B1",
-      "examples": [
-        { "en": "I felt dizzy on the boat.", "zh": "在船上我感到头晕。" },
-        { "en": "Standing up too fast makes me dizzy.", "zh": "站起来太快会让我头晕。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "dizzy 谐音\"地字\"——晕的时候连地上的字都转成一团。" },
-      "petExam": { "frequency": "low", "collocations": ["feel dizzy", "a dizzy spell"] }
-    },
-    {
-      "id": "pet-health-027", "word": "breathe", "phonetic": "/briːð/", "pos": "v.", "meaning": "呼吸", "level": "B1",
-      "examples": [
-        { "en": "Breathe in slowly and relax.", "zh": "慢慢吸气,放松。" },
-        { "en": "It's hard to breathe in thick smoke.", "zh": "在浓烟里很难呼吸。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "assoc", "tip": "动词 breathe 带 e(读 /ð/),名词 breath(呼吸)不带 e;呼吸要\"深\"一点。" },
-      "petExam": { "frequency": "medium", "collocations": ["breathe in", "breathe deeply"] }
-    },
-    {
-      "id": "pet-health-028", "word": "heart", "phonetic": "/hɑːt/", "pos": "n.", "meaning": "心脏；内心", "level": "A2",
-      "examples": [
-        { "en": "Exercise is good for your heart.", "zh": "运动对心脏有益。" },
-        { "en": "My heart beats fast when I run.", "zh": "跑步时我心跳很快。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "heart 里藏着 ear(耳)和 art(艺术),但记 heart=心脏,爱心❤就是它。" },
-      "petExam": { "frequency": "medium", "collocations": ["a healthy heart", "heart rate"] }
-    },
-    {
-      "id": "pet-health-029", "word": "bone", "phonetic": "/bəʊn/", "pos": "n.", "meaning": "骨头；骨骼", "level": "A2",
-      "examples": [
-        { "en": "He broke a bone in his arm.", "zh": "他手臂骨折了。" },
-        { "en": "Milk helps build strong bones.", "zh": "牛奶有助于强壮骨骼。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "bone 谐音\"崩\"——骨头断了\"崩\"的一声。" },
-      "petExam": { "frequency": "low", "collocations": ["break a bone", "strong bones"] }
-    },
-    {
-      "id": "pet-health-030", "word": "muscle", "phonetic": "/ˈmʌsl/", "pos": "n.", "meaning": "肌肉", "level": "B1",
-      "examples": [
-        { "en": "Lifting weights builds muscle.", "zh": "举重能长肌肉。" },
-        { "en": "He pulled a muscle in his leg.", "zh": "他腿部肌肉拉伤了。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "muscle 谐音\"马嗖\"——肌肉一使劲,像马一样嗖地爆发力量(c不发音)。" },
-      "petExam": { "frequency": "low", "collocations": ["build muscle", "a strong muscle"] }
-    },
-    {
-      "id": "pet-health-031", "word": "blood", "phonetic": "/blʌd/", "pos": "n.", "meaning": "血；血液", "level": "A2",
-      "examples": [
-        { "en": "The nurse took a little blood.", "zh": "护士抽了一点血。" },
-        { "en": "There was blood on his knee.", "zh": "他膝盖上有血。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "blood 谐音\"卜辣\"——血是红的,读音短促带 oo 读 /ʌ/。" },
-      "petExam": { "frequency": "low", "collocations": ["blood pressure", "give blood"] }
-    },
-    {
-      "id": "pet-health-032", "word": "healthy", "phonetic": "/ˈhelθi/", "pos": "adj.", "meaning": "健康的", "level": "A2",
-      "examples": [
-        { "en": "Eating fruit keeps you healthy.", "zh": "吃水果让你保持健康。" },
-        { "en": "He looks strong and healthy.", "zh": "他看起来强壮又健康。" }
-      ],
-      "synonyms": ["fit"], "antonyms": ["unhealthy"], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "split", "tip": "health(健康)+y,形容词就是健康的。" },
-      "petExam": { "frequency": "high", "collocations": ["stay healthy", "a healthy lifestyle"] }
-    },
-    {
-      "id": "pet-health-033", "word": "exercise", "phonetic": "/ˈeksəsaɪz/", "pos": "n./v.", "meaning": "锻炼；运动；练习", "level": "A2",
-      "examples": [
-        { "en": "Daily exercise keeps me fit.", "zh": "每天锻炼让我保持健康。" },
-        { "en": "You should exercise more often.", "zh": "你应该多运动。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "ex(向外)+erc(约束/驱动)+ise,把身体的能量向外练出来就是锻炼。" },
-      "petExam": { "frequency": "high", "collocations": ["do exercise", "take exercise"] }
-    },
-    {
-      "id": "pet-health-034", "word": "rest", "phonetic": "/rest/", "pos": "v./n.", "meaning": "休息", "level": "A2",
-      "examples": [
-        { "en": "You need to rest when you're ill.", "zh": "生病时你需要休息。" },
-        { "en": "Have a good rest this weekend.", "zh": "这周末好好休息。" }
-      ],
-      "synonyms": ["relax"], "antonyms": [], "difficulty": 1, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "rest 谐音\"瑞斯特\"不如记\"累死\"反着想——累了就该 rest 休息。" },
-      "petExam": { "frequency": "high", "collocations": ["have a rest", "get some rest"] }
-    },
-    {
-      "id": "pet-health-035", "word": "ill", "phonetic": "/ɪl/", "pos": "adj.", "meaning": "生病的；不舒服的", "level": "A2",
-      "examples": [
-        { "en": "She felt ill after lunch.", "zh": "午饭后她感到不舒服。" },
-        { "en": "He was too ill to go to work.", "zh": "他病得太重没法上班。" }
-      ],
-      "synonyms": ["sick"], "antonyms": ["well"], "difficulty": 1, "tags": ["health"],
-      "mnemonic": { "type": "assoc", "tip": "ill 两根竖线像躺在床上的病人,病恹恹的就是 ill。" },
-      "petExam": { "frequency": "high", "collocations": ["feel ill", "fall ill"] }
-    },
-    {
-      "id": "pet-health-036", "word": "sneeze", "phonetic": "/sniːz/", "pos": "v./n.", "meaning": "打喷嚏", "level": "B1",
-      "examples": [
-        { "en": "The dust made me sneeze.", "zh": "灰尘让我打喷嚏。" },
-        { "en": "Cover your mouth when you sneeze.", "zh": "打喷嚏时捂住嘴。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "sneeze 谐音\"斯尼兹\"——\"阿嚏\"一声就是打喷嚏。" },
-      "petExam": { "frequency": "low", "collocations": ["sneeze loudly", "a sudden sneeze"] }
-    },
-    {
-      "id": "pet-health-037", "word": "wound", "phonetic": "/wuːnd/", "pos": "n.", "meaning": "伤口；创伤", "level": "B1",
-      "examples": [
-        { "en": "Clean the wound before covering it.", "zh": "包扎前先清理伤口。" },
-        { "en": "The wound healed in a week.", "zh": "伤口一周就愈合了。" }
-      ],
-      "synonyms": ["injury"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "sound", "tip": "wound 读音像\"乌恩德\"——伤口一疼就\"呜\"地叫。" },
-      "petExam": { "frequency": "low", "collocations": ["clean a wound", "a deep wound"] }
-    },
-    {
-      "id": "pet-health-038", "word": "disease", "phonetic": "/dɪˈziːz/", "pos": "n.", "meaning": "疾病(多指具体病症)", "level": "B1",
-      "examples": [
-        { "en": "Washing hands prevents disease.", "zh": "洗手能预防疾病。" },
-        { "en": "Heart disease is quite serious.", "zh": "心脏病相当严重。" }
-      ],
-      "synonyms": ["illness"], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "dis(不)+ease(舒适),身体不舒适、失去安宁就是疾病。" },
-      "petExam": { "frequency": "medium", "collocations": ["a serious disease", "heart disease"] }
-    },
-    {
-      "id": "pet-health-039", "word": "medical", "phonetic": "/ˈmedɪkl/", "pos": "adj.", "meaning": "医疗的；医学的", "level": "B1",
-      "examples": [
-        { "en": "She needs medical help.", "zh": "她需要医疗救助。" },
-        { "en": "He is doing medical research.", "zh": "他在做医学研究。" }
-      ],
-      "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "medi(治疗)+cal,和治病有关的就是 medical。" },
-      "petExam": { "frequency": "medium", "collocations": ["medical help", "medical care"] }
-    },
-    {
-      "id": "pet-health-040", "word": "relax", "phonetic": "/rɪˈlæks/", "pos": "v.", "meaning": "放松；休息", "level": "A2",
-      "examples": [
-        { "en": "Music helps me relax.", "zh": "音乐帮助我放松。" },
-        { "en": "Relax and take a deep breath.", "zh": "放松,深呼吸一下。" }
-      ],
-      "synonyms": ["rest"], "antonyms": [], "difficulty": 2, "tags": ["health"],
-      "mnemonic": { "type": "root", "tip": "re(重新)+lax(松弛,同 lazy的松),把绷紧的神经重新松开就是放松。" },
-      "petExam": { "frequency": "high", "collocations": ["relax at home", "help you relax"] }
-    }
+    {"id":"pet-health-001","word":"illness","phonetic":"/ˈɪlnəs/","pos":"n.","meaning":"疾病；生病","level":"B1","examples":[{"en":"He missed school because of illness.","zh":"他因病没能上学。"},{"en":"She recovered from a serious illness.","zh":"她从一场重病中康复了。"}],"synonyms":["disease","sickness"],"antonyms":["health"],"difficulty":3,"tags":["health"],"mnemonic":{"type":"split","tip":"ill(生病的)+ness(状态),处于生病的状态就是疾病。"},"petExam":{"frequency":"medium","collocations":["a serious illness","recover from illness"]}},
+    {"id":"pet-health-002","word":"medicine","phonetic":"/ˈmedsn/","pos":"n.","meaning":"药；医学","level":"A2","examples":[{"en":"Take this medicine twice a day.","zh":"这药每天吃两次。"},{"en":"She studies medicine at university.","zh":"她在大学学医。"}],"synonyms":["drug"],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"medi(治疗,同 medical)+cine,用来治病的东西就是药。"},"petExam":{"frequency":"high","collocations":["take medicine","cough medicine"]},"inKet":true},
+    {"id":"pet-health-003","word":"patient","phonetic":"/ˈpeɪʃnt/","pos":"n./adj.","meaning":"病人；有耐心的","level":"B1","examples":[{"en":"The doctor saw ten patients today.","zh":"医生今天看了十位病人。"},{"en":"Please be patient and wait.","zh":"请耐心等待。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"image","tip":"看病要排队,能忍着痛\"耐心\"等的人就是 patient(病人),一词两义。"},"petExam":{"frequency":"medium","collocations":["a hospital patient","be patient"]}},
+    {"id":"pet-health-004","word":"headache","phonetic":"/ˈhedeɪk/","pos":"n.","meaning":"头痛","level":"A2","examples":[{"en":"I have a bad headache today.","zh":"我今天头痛得厉害。"},{"en":"Too much screen time gives me a headache.","zh":"看屏幕太久会让我头痛。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"split","tip":"head(头)+ache(疼),头疼就是 headache;同理 toothache 牙疼。"},"petExam":{"frequency":"medium","collocations":["have a headache","a bad headache"]},"inKet":true},
+    {"id":"pet-health-005","word":"stomachache","phonetic":"/ˈstʌməkeɪk/","pos":"n.","meaning":"胃痛；肚子痛","level":"A2","examples":[{"en":"I ate too much and got a stomachache.","zh":"我吃太多,肚子痛了。"},{"en":"A stomachache kept her awake.","zh":"肚子痛让她睡不着。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"split","tip":"stomach(胃)+ache(疼),胃疼就是 stomachache。"},"petExam":{"frequency":"medium","collocations":["have a stomachache","a bad stomachache"]}},
+    {"id":"pet-health-006","word":"pain","phonetic":"/peɪn/","pos":"n.","meaning":"疼痛","level":"B1","examples":[{"en":"I feel a sharp pain in my leg.","zh":"我腿上感到一阵剧痛。"},{"en":"The medicine took away the pain.","zh":"药止住了疼痛。"}],"synonyms":["ache"],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"pain 谐音\"疼\"——发音就带着疼劲儿。"},"petExam":{"frequency":"medium","collocations":["feel pain","a sharp pain"]},"inKet":true},
+    {"id":"pet-health-007","word":"fever","phonetic":"/ˈfiːvə/","pos":"n.","meaning":"发烧；发热","level":"A2","examples":[{"en":"She has a high fever.","zh":"她发高烧。"},{"en":"The child's fever went down at night.","zh":"孩子的烧到晚上退了。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"fever 谐音\"发我\"——发烧时全身滚烫\"发\"着热。"},"petExam":{"frequency":"medium","collocations":["have a fever","a high fever"]}},
+    {"id":"pet-health-008","word":"cough","phonetic":"/kɒf/","pos":"v./n.","meaning":"咳嗽","level":"A2","examples":[{"en":"He coughed all night.","zh":"他咳了一整夜。"},{"en":"I have a bad cough.","zh":"我咳嗽得厉害。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"cough 谐音\"咳夫\"——发音本身就像\"咳\"的一声。"},"petExam":{"frequency":"medium","collocations":["have a cough","cough medicine"]},"inKet":true},
+    {"id":"pet-health-009","word":"cold","phonetic":"/kəʊld/","pos":"n.","meaning":"感冒","level":"A2","examples":[{"en":"I caught a cold last week.","zh":"我上周感冒了。"},{"en":"Stay warm so you don't get a cold.","zh":"注意保暖以免感冒。"}],"synonyms":[],"antonyms":[],"difficulty":1,"tags":["health"],"mnemonic":{"type":"image","tip":"cold 本义\"冷\",受了凉就 catch a cold(感冒)。"},"petExam":{"frequency":"high","collocations":["catch a cold","have a cold"]},"inKet":true},
+    {"id":"pet-health-010","word":"flu","phonetic":"/fluː/","pos":"n.","meaning":"流感","level":"B1","examples":[{"en":"Many students had the flu this winter.","zh":"这个冬天很多学生得了流感。"},{"en":"The flu made him stay in bed.","zh":"流感让他卧床不起。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"split","tip":"flu 是 influenza 的缩写,比普通感冒(cold)更凶的流行性感冒。"},"petExam":{"frequency":"low","collocations":["catch the flu","have the flu"]},"inKet":true},
+    {"id":"pet-health-011","word":"injury","phonetic":"/ˈɪndʒəri/","pos":"n.","meaning":"受伤；伤害","level":"B1","examples":[{"en":"He has a knee injury from football.","zh":"他踢球时膝盖受了伤。"},{"en":"Wear a helmet to avoid injury.","zh":"戴上头盔以免受伤。"}],"synonyms":["wound"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"in(不)+jur(公正,同 justice)+y,被不公正地伤了身=受伤。"},"petExam":{"frequency":"medium","collocations":["a serious injury","avoid injury"]}},
+    {"id":"pet-health-012","word":"bandage","phonetic":"/ˈbændɪdʒ/","pos":"n.","meaning":"绷带","level":"B1","examples":[{"en":"The nurse put a bandage on my arm.","zh":"护士在我手臂上缠了绷带。"},{"en":"He wore a bandage for a week.","zh":"他绑了一周绷带。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"split","tip":"band(带子)+age,缠伤口的带子就是绷带。"},"petExam":{"frequency":"low","collocations":["put on a bandage","a clean bandage"]}},
+    {"id":"pet-health-013","word":"treatment","phonetic":"/ˈtriːtmənt/","pos":"n.","meaning":"治疗；对待","level":"B1","examples":[{"en":"The treatment lasted two weeks.","zh":"治疗持续了两周。"},{"en":"She received treatment at the hospital.","zh":"她在医院接受了治疗。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"split","tip":"treat(治疗/对待)+ment,治病的过程就是 treatment。"},"petExam":{"frequency":"medium","collocations":["medical treatment","receive treatment"]}},
+    {"id":"pet-health-014","word":"cure","phonetic":"/kjʊə/","pos":"v./n.","meaning":"治愈；治好","level":"B1","examples":[{"en":"This medicine can cure the illness.","zh":"这药能治好这种病。"},{"en":"There is no cure for a cold.","zh":"感冒没有特效药。"}],"synonyms":["heal"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"cure 谐音\"克尔\"——把病\"克\"掉就是治愈。"},"petExam":{"frequency":"medium","collocations":["cure a disease","a cure for"]}},
+    {"id":"pet-health-015","word":"recover","phonetic":"/rɪˈkʌvə/","pos":"v.","meaning":"康复；恢复","level":"B1","examples":[{"en":"He is recovering from an operation.","zh":"他正在手术后康复。"},{"en":"She recovered quickly after resting.","zh":"休息后她很快就好了。"}],"synonyms":["get better"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"re(重新)+cover(覆盖/盖上),重新把健康\"盖\"回身上就是康复。"},"petExam":{"frequency":"medium","collocations":["recover from","recover quickly"]}},
+    {"id":"pet-health-016","word":"fitness","phonetic":"/ˈfɪtnəs/","pos":"n.","meaning":"健康；健身","level":"B1","examples":[{"en":"Running improves your fitness.","zh":"跑步能增强你的体质。"},{"en":"She goes to a fitness centre.","zh":"她去健身中心。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"split","tip":"fit(健康的/合身的)+ness(状态),身体处于\"fit\"的状态就是健康。"},"petExam":{"frequency":"medium","collocations":["a fitness centre","physical fitness"]}},
+    {"id":"pet-health-017","word":"weight","phonetic":"/weɪt/","pos":"n.","meaning":"体重；重量","level":"B1","examples":[{"en":"I want to lose some weight.","zh":"我想减掉一些体重。"},{"en":"The doctor checked my weight.","zh":"医生量了我的体重。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"weight 里有 weigh(称重),称出来的数就是重量/体重。"},"petExam":{"frequency":"medium","collocations":["lose weight","put on weight"]}},
+    {"id":"pet-health-018","word":"dentist","phonetic":"/ˈdentɪst/","pos":"n.","meaning":"牙医","level":"A2","examples":[{"en":"Go to the dentist twice a year.","zh":"一年看两次牙医。"},{"en":"The dentist checked my teeth.","zh":"牙医检查了我的牙齿。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"dent(牙,拉丁 dent)+ist(人),管牙的人就是牙医。"},"petExam":{"frequency":"medium","collocations":["go to the dentist","see a dentist"]},"inKet":true},
+    {"id":"pet-health-019","word":"chemist","phonetic":"/ˈkemɪst/","pos":"n.","meaning":"药剂师；药店","level":"B1","examples":[{"en":"Buy the medicine at the chemist.","zh":"在药店买这个药。"},{"en":"The chemist is open until nine.","zh":"药店营业到九点。"}],"synonyms":["pharmacy"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"chemist 里有 chem(化学),懂药物化学、卖药配药的人/店就是 chemist。"},"petExam":{"frequency":"low","collocations":["at the chemist","a local chemist"]},"inKet":true},
+    {"id":"pet-health-020","word":"prescription","phonetic":"/prɪˈskrɪpʃn/","pos":"n.","meaning":"处方；药方","level":"B1","examples":[{"en":"The doctor wrote a prescription.","zh":"医生开了张处方。"},{"en":"You need a prescription for this medicine.","zh":"这种药需要处方。"}],"synonyms":[],"antonyms":[],"difficulty":4,"tags":["health"],"mnemonic":{"type":"root","tip":"pre(预先)+script(写,同 script)+ion,医生预先写好的用药单就是处方。"},"petExam":{"frequency":"low","collocations":["write a prescription","a doctor's prescription"]}},
+    {"id":"pet-health-021","word":"symptom","phonetic":"/ˈsɪmptəm/","pos":"n.","meaning":"症状","level":"B1","examples":[{"en":"A cough is a symptom of a cold.","zh":"咳嗽是感冒的一种症状。"},{"en":"Tell the doctor your symptoms.","zh":"把你的症状告诉医生。"}],"synonyms":[],"antonyms":[],"difficulty":4,"tags":["health"],"mnemonic":{"type":"sound","tip":"symptom 谐音\"婶疼\"——身体这儿疼那儿疼,就是显出了症状。"},"petExam":{"frequency":"low","collocations":["a common symptom","show symptoms"]}},
+    {"id":"pet-health-022","word":"operation","phonetic":"/ˌɒpəˈreɪʃn/","pos":"n.","meaning":"手术；操作","level":"B1","examples":[{"en":"He had an operation on his knee.","zh":"他的膝盖做了手术。"},{"en":"The operation was a success.","zh":"手术很成功。"}],"synonyms":["surgery"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"oper(工作/操作,同 operate)+ation,医生在身体上\"动手操作\"就是手术。"},"petExam":{"frequency":"medium","collocations":["have an operation","a heart operation"]}},
+    {"id":"pet-health-023","word":"ambulance","phonetic":"/ˈæmbjələns/","pos":"n.","meaning":"救护车","level":"B1","examples":[{"en":"Call an ambulance quickly!","zh":"快叫救护车！"},{"en":"The ambulance arrived in five minutes.","zh":"救护车五分钟就到了。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"ambulance 谐音\"俺不能死\"——躺上救护车心里喊着\"俺不能死\",赶紧送医。"},"petExam":{"frequency":"low","collocations":["call an ambulance","an ambulance arrives"]},"inKet":true},
+    {"id":"pet-health-024","word":"appointment","phonetic":"/əˈpɔɪntmənt/","pos":"n.","meaning":"预约；约会","level":"B1","examples":[{"en":"I have a doctor's appointment at three.","zh":"我三点约了医生。"},{"en":"Please make an appointment first.","zh":"请先预约。"}],"synonyms":[],"antonyms":[],"difficulty":4,"tags":["health"],"mnemonic":{"type":"root","tip":"ap(朝向)+point(指定)+ment,双方指定好一个时间点见面=预约。"},"petExam":{"frequency":"medium","collocations":["make an appointment","a doctor's appointment"]}},
+    {"id":"pet-health-025","word":"sore","phonetic":"/sɔː/","pos":"adj.","meaning":"疼痛的；酸痛的","level":"B1","examples":[{"en":"I have a sore throat.","zh":"我喉咙痛。"},{"en":"My legs are sore after running.","zh":"跑完步我的腿很酸。"}],"synonyms":["painful"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"sore 谐音\"搜\"——哪儿一碰就\"嗖\"地一阵酸痛。"},"petExam":{"frequency":"medium","collocations":["a sore throat","feel sore"]},"inKet":true},
+    {"id":"pet-health-026","word":"dizzy","phonetic":"/ˈdɪzi/","pos":"adj.","meaning":"头晕的；眩晕的","level":"B1","examples":[{"en":"I felt dizzy on the boat.","zh":"在船上我感到头晕。"},{"en":"Standing up too fast makes me dizzy.","zh":"站起来太快会让我头晕。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"dizzy 谐音\"地字\"——晕的时候连地上的字都转成一团。"},"petExam":{"frequency":"low","collocations":["feel dizzy","a dizzy spell"]}},
+    {"id":"pet-health-027","word":"breathe","phonetic":"/briːð/","pos":"v.","meaning":"呼吸","level":"B1","examples":[{"en":"Breathe in slowly and relax.","zh":"慢慢吸气,放松。"},{"en":"It's hard to breathe in thick smoke.","zh":"在浓烟里很难呼吸。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"动词 breathe 带 e(读 /ð/),名词 breath(呼吸)不带 e;呼吸要\"深\"一点。"},"petExam":{"frequency":"medium","collocations":["breathe in","breathe deeply"]}},
+    {"id":"pet-health-028","word":"heart","phonetic":"/hɑːt/","pos":"n.","meaning":"心脏；内心","level":"A2","examples":[{"en":"Exercise is good for your heart.","zh":"运动对心脏有益。"},{"en":"My heart beats fast when I run.","zh":"跑步时我心跳很快。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"split","tip":"heart 里藏着 ear(耳)和 art(艺术),但记 heart=心脏,爱心❤就是它。"},"petExam":{"frequency":"medium","collocations":["a healthy heart","heart rate"]},"inKet":true},
+    {"id":"pet-health-029","word":"bone","phonetic":"/bəʊn/","pos":"n.","meaning":"骨头；骨骼","level":"A2","examples":[{"en":"He broke a bone in his arm.","zh":"他手臂骨折了。"},{"en":"Milk helps build strong bones.","zh":"牛奶有助于强壮骨骼。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"bone 谐音\"崩\"——骨头断了\"崩\"的一声。"},"petExam":{"frequency":"low","collocations":["break a bone","strong bones"]},"inKet":true},
+    {"id":"pet-health-030","word":"muscle","phonetic":"/ˈmʌsl/","pos":"n.","meaning":"肌肉","level":"B1","examples":[{"en":"Lifting weights builds muscle.","zh":"举重能长肌肉。"},{"en":"He pulled a muscle in his leg.","zh":"他腿部肌肉拉伤了。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"muscle 谐音\"马嗖\"——肌肉一使劲,像马一样嗖地爆发力量(c不发音)。"},"petExam":{"frequency":"low","collocations":["build muscle","a strong muscle"]}},
+    {"id":"pet-health-031","word":"blood","phonetic":"/blʌd/","pos":"n.","meaning":"血；血液","level":"A2","examples":[{"en":"The nurse took a little blood.","zh":"护士抽了一点血。"},{"en":"There was blood on his knee.","zh":"他膝盖上有血。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"blood 谐音\"卜辣\"——血是红的,读音短促带 oo 读 /ʌ/。"},"petExam":{"frequency":"low","collocations":["blood pressure","give blood"]},"inKet":true},
+    {"id":"pet-health-032","word":"healthy","phonetic":"/ˈhelθi/","pos":"adj.","meaning":"健康的","level":"A2","examples":[{"en":"Eating fruit keeps you healthy.","zh":"吃水果让你保持健康。"},{"en":"He looks strong and healthy.","zh":"他看起来强壮又健康。"}],"synonyms":["fit"],"antonyms":["unhealthy"],"difficulty":2,"tags":["health"],"mnemonic":{"type":"split","tip":"health(健康)+y,形容词就是健康的。"},"petExam":{"frequency":"high","collocations":["stay healthy","a healthy lifestyle"]},"inKet":true},
+    {"id":"pet-health-033","word":"exercise","phonetic":"/ˈeksəsaɪz/","pos":"n./v.","meaning":"锻炼；运动；练习","level":"A2","examples":[{"en":"Daily exercise keeps me fit.","zh":"每天锻炼让我保持健康。"},{"en":"You should exercise more often.","zh":"你应该多运动。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"ex(向外)+erc(约束/驱动)+ise,把身体的能量向外练出来就是锻炼。"},"petExam":{"frequency":"high","collocations":["do exercise","take exercise"]},"inKet":true},
+    {"id":"pet-health-034","word":"rest","phonetic":"/rest/","pos":"v./n.","meaning":"休息","level":"A2","examples":[{"en":"You need to rest when you're ill.","zh":"生病时你需要休息。"},{"en":"Have a good rest this weekend.","zh":"这周末好好休息。"}],"synonyms":["relax"],"antonyms":[],"difficulty":1,"tags":["health"],"mnemonic":{"type":"sound","tip":"rest 谐音\"瑞斯特\"不如记\"累死\"反着想——累了就该 rest 休息。"},"petExam":{"frequency":"high","collocations":["have a rest","get some rest"]},"inKet":true},
+    {"id":"pet-health-035","word":"ill","phonetic":"/ɪl/","pos":"adj.","meaning":"生病的；不舒服的","level":"A2","examples":[{"en":"She felt ill after lunch.","zh":"午饭后她感到不舒服。"},{"en":"He was too ill to go to work.","zh":"他病得太重没法上班。"}],"synonyms":["sick"],"antonyms":["well"],"difficulty":1,"tags":["health"],"mnemonic":{"type":"assoc","tip":"ill 两根竖线像躺在床上的病人,病恹恹的就是 ill。"},"petExam":{"frequency":"high","collocations":["feel ill","fall ill"]},"inKet":true},
+    {"id":"pet-health-036","word":"sneeze","phonetic":"/sniːz/","pos":"v./n.","meaning":"打喷嚏","level":"B1","examples":[{"en":"The dust made me sneeze.","zh":"灰尘让我打喷嚏。"},{"en":"Cover your mouth when you sneeze.","zh":"打喷嚏时捂住嘴。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"sneeze 谐音\"斯尼兹\"——\"阿嚏\"一声就是打喷嚏。"},"petExam":{"frequency":"low","collocations":["sneeze loudly","a sudden sneeze"]}},
+    {"id":"pet-health-037","word":"wound","phonetic":"/wuːnd/","pos":"n.","meaning":"伤口；创伤","level":"B1","examples":[{"en":"Clean the wound before covering it.","zh":"包扎前先清理伤口。"},{"en":"The wound healed in a week.","zh":"伤口一周就愈合了。"}],"synonyms":["injury"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"wound 读音像\"乌恩德\"——伤口一疼就\"呜\"地叫。"},"petExam":{"frequency":"low","collocations":["clean a wound","a deep wound"]}},
+    {"id":"pet-health-038","word":"disease","phonetic":"/dɪˈziːz/","pos":"n.","meaning":"疾病(多指具体病症)","level":"B1","examples":[{"en":"Washing hands prevents disease.","zh":"洗手能预防疾病。"},{"en":"Heart disease is quite serious.","zh":"心脏病相当严重。"}],"synonyms":["illness"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"dis(不)+ease(舒适),身体不舒适、失去安宁就是疾病。"},"petExam":{"frequency":"medium","collocations":["a serious disease","heart disease"]}},
+    {"id":"pet-health-039","word":"medical","phonetic":"/ˈmedɪkl/","pos":"adj.","meaning":"医疗的；医学的","level":"B1","examples":[{"en":"She needs medical help.","zh":"她需要医疗救助。"},{"en":"He is doing medical research.","zh":"他在做医学研究。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"medi(治疗)+cal,和治病有关的就是 medical。"},"petExam":{"frequency":"medium","collocations":["medical help","medical care"]}},
+    {"id":"pet-health-040","word":"relax","phonetic":"/rɪˈlæks/","pos":"v.","meaning":"放松；休息","level":"A2","examples":[{"en":"Music helps me relax.","zh":"音乐帮助我放松。"},{"en":"Relax and take a deep breath.","zh":"放松,深呼吸一下。"}],"synonyms":["rest"],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"re(重新)+lax(松弛,同 lazy的松),把绷紧的神经重新松开就是放松。"},"petExam":{"frequency":"high","collocations":["relax at home","help you relax"]},"inKet":true},
+    {"id":"pet-health-041","word":"brain","phonetic":"/breɪn/","pos":"n.","meaning":"大脑","level":"B1","examples":[{"en":"Your brain needs sleep to work well.","zh":"大脑需要睡眠才能运转良好。"},{"en":"Reading is exercise for the brain.","zh":"阅读是大脑的锻炼。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"brain 里有 rain——脑子灵光如雨点般冒想法。"},"petExam":{"frequency":"high","collocations":["use your brain"]}},
+    {"id":"pet-health-042","word":"skin","phonetic":"/skɪn/","pos":"n.","meaning":"皮肤","level":"B1","examples":[{"en":"Wear sunscreen to protect your skin.","zh":"涂防晒霜保护皮肤。"},{"en":"Babies have very soft skin.","zh":"婴儿的皮肤非常柔嫩。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"skin 也指果皮——banana skin 香蕉皮。"},"petExam":{"frequency":"high","collocations":["dry skin","banana skin"]}},
+    {"id":"pet-health-043","word":"throat","phonetic":"/θrəʊt/","pos":"n.","meaning":"喉咙","level":"B1","examples":[{"en":"My throat hurts when I swallow.","zh":"我吞咽时喉咙疼。"},{"en":"Warm water is good for a sore throat.","zh":"温水对嗓子疼有好处。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"a sore throat 嗓子疼——感冒最常见的抱怨。"},"petExam":{"frequency":"high","collocations":["a sore throat"]},"inKet":true},
+    {"id":"pet-health-044","word":"chest","phonetic":"/tʃest/","pos":"n.","meaning":"胸口，胸腔","level":"B1","examples":[{"en":"He felt a pain in his chest after running.","zh":"跑完步他觉得胸口疼。"},{"en":"The doctor listened to her chest.","zh":"医生听了她的胸腔。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"chest 也是大箱子——胸腔就是装心肺的\"箱子\"。"},"petExam":{"frequency":"medium","collocations":["chest pain"]}},
+    {"id":"pet-health-045","word":"elbow","phonetic":"/ˈelbəʊ/","pos":"n.","meaning":"肘部","level":"B1","examples":[{"en":"She hurt her elbow when she fell off the bike.","zh":"她从自行车上摔下来伤了肘部。"},{"en":"Don’t put your elbows on the table.","zh":"吃饭别把胳膊肘放桌上。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"L 形的 bow(弯)——手臂弯成 L 的地方是肘。"},"petExam":{"frequency":"medium","collocations":["bend your elbow"]}},
+    {"id":"pet-health-046","word":"ankle","phonetic":"/ˈæŋkl/","pos":"n.","meaning":"脚踝","level":"B1","examples":[{"en":"He twisted his ankle playing basketball.","zh":"他打篮球扭了脚踝。"},{"en":"The water only came up to my ankles.","zh":"水只到我的脚踝。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"ankle 与 angle(角度)像——脚踝正是脚转角度的地方。"},"petExam":{"frequency":"medium","collocations":["twist an ankle"]}},
+    {"id":"pet-health-047","word":"wrist","phonetic":"/rɪst/","pos":"n.","meaning":"手腕","level":"B1","examples":[{"en":"She wears a watch on her left wrist.","zh":"她左手腕戴着手表。"},{"en":"The goalkeeper hurt his wrist saving the ball.","zh":"守门员扑球时伤了手腕。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"wrist 的 w 不发音——write(写字)全靠 wrist 转动。"},"petExam":{"frequency":"medium","collocations":["a watch on the wrist"]}},
+    {"id":"pet-health-048","word":"thumb","phonetic":"/θʌm/","pos":"n.","meaning":"大拇指","level":"B1","examples":[{"en":"He gave me a thumbs up after the show.","zh":"演出结束后他向我竖起大拇指。"},{"en":"The baby likes sucking her thumb.","zh":"宝宝爱吮大拇指。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"thumb 的 b 不发音；thumbs up 点赞。"},"petExam":{"frequency":"medium","collocations":["thumbs up"]}},
+    {"id":"pet-health-049","word":"chin","phonetic":"/tʃɪn/","pos":"n.","meaning":"下巴","level":"B1","examples":[{"en":"The ball hit him right on the chin.","zh":"球正好打在他下巴上。"},{"en":"She rested her chin on her hands, thinking.","zh":"她双手托着下巴思考。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"chin 谐音\"亲\"——亲亲长在下巴上。"},"petExam":{"frequency":"low","collocations":["on the chin"]}},
+    {"id":"pet-health-050","word":"cheek","phonetic":"/tʃiːk/","pos":"n.","meaning":"脸颊","level":"B1","examples":[{"en":"The cold wind made her cheeks red.","zh":"冷风吹红了她的脸颊。"},{"en":"Grandma kissed him on the cheek.","zh":"奶奶亲了亲他的脸颊。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"cheek 谐音\"气克\"——生气时鼓起的就是脸颊。"},"petExam":{"frequency":"medium","collocations":["rosy cheeks"]}},
+    {"id":"pet-health-051","word":"forehead","phonetic":"/ˈfɔːhed/","pos":"n.","meaning":"额头","level":"B1","examples":[{"en":"Mum touched my forehead to check for a fever.","zh":"妈妈摸摸我的额头看有没有发烧。"},{"en":"Sweat ran down his forehead.","zh":"汗水从他额头流下。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"fore(前)+head(头)→头的前面→额头。"},"petExam":{"frequency":"medium","collocations":["touch your forehead"]}},
+    {"id":"pet-health-052","word":"tongue","phonetic":"/tʌŋ/","pos":"n.","meaning":"舌头；语言","level":"B1","examples":[{"en":"The doctor asked to see my tongue.","zh":"医生让我伸出舌头看看。"},{"en":"English is not her mother tongue.","zh":"英语不是她的母语。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"mother tongue 母语——舌头也管说话。"},"petExam":{"frequency":"medium","collocations":["mother tongue","stick out your tongue"]},"inKet":true},
+    {"id":"pet-health-053","word":"lip","phonetic":"/lɪp/","pos":"n.","meaning":"嘴唇","level":"B1","examples":[{"en":"Her lips were blue with cold.","zh":"她的嘴唇冻得发紫。"},{"en":"He read the words silently, moving his lips.","zh":"他动着嘴唇默读。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"lip 谐音\"唇\"的轻读——上唇下唇一碰就读出 lip。"},"petExam":{"frequency":"medium","collocations":["bite your lip"]}},
+    {"id":"pet-health-054","word":"nail","phonetic":"/neɪl/","pos":"n.","meaning":"指甲；钉子","level":"B1","examples":[{"en":"Cut your nails before the match.","zh":"比赛前把指甲剪了。"},{"en":"He hit the nail with a hammer.","zh":"他用锤子敲钉子。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"一词两义：手上的 nail 指甲，墙上的 nail 钉子。"},"petExam":{"frequency":"medium","collocations":["cut your nails"]}},
+    {"id":"pet-health-055","word":"waist","phonetic":"/weɪst/","pos":"n.","meaning":"腰","level":"B1","examples":[{"en":"The water was up to my waist.","zh":"水没到我的腰。"},{"en":"She tied a belt around her waist.","zh":"她在腰上系了条腰带。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"waist 与 waste(浪费)同音——腰粗了才知浪费吃多了。"},"petExam":{"frequency":"low","collocations":["around the waist"]}},
+    {"id":"pet-health-056","word":"lung","phonetic":"/lʌŋ/","pos":"n.","meaning":"肺","level":"B1","examples":[{"en":"Smoking damages your lungs.","zh":"吸烟伤肺。"},{"en":"Take a deep breath and fill your lungs.","zh":"深吸一口气，让肺装满空气。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"lung 谐音\"隆\"——胸腔隆起处装着肺。"},"petExam":{"frequency":"medium","collocations":["healthy lungs"]}},
+    {"id":"pet-health-057","word":"toothache","phonetic":"/ˈtuːθeɪk/","pos":"n.","meaning":"牙疼","level":"B1","examples":[{"en":"Too many sweets gave him toothache.","zh":"糖吃多了，他牙疼了。"},{"en":"She saw the dentist about her toothache.","zh":"她因牙疼去看了牙医。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"tooth(牙)+ache(疼)→牙疼；同族 headache。"},"petExam":{"frequency":"medium","collocations":["have toothache"]},"inKet":true},
+    {"id":"pet-health-058","word":"earache","phonetic":"/ˈɪəreɪk/","pos":"n.","meaning":"耳朵疼","level":"B1","examples":[{"en":"The little boy cried because of his earache.","zh":"小男孩因耳朵疼哭了。"},{"en":"Swimming in cold water gave me earache.","zh":"在冷水里游泳游得我耳朵疼。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"ear(耳)+ache(疼)→耳朵疼。"},"petExam":{"frequency":"low","collocations":["have earache"]}},
+    {"id":"pet-health-059","word":"backache","phonetic":"/ˈbækeɪk/","pos":"n.","meaning":"背疼，腰疼","level":"B1","examples":[{"en":"Sitting all day gives Dad backache.","zh":"整天坐着让爸爸腰酸背痛。"},{"en":"A hard bed sometimes helps backache.","zh":"硬板床有时对背疼有帮助。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"back(背)+ache(疼)→背疼。"},"petExam":{"frequency":"low","collocations":["suffer from backache"]}},
+    {"id":"pet-health-060","word":"infection","phonetic":"/ɪnˈfekʃn/","pos":"n.","meaning":"感染","level":"B1","examples":[{"en":"Wash the cut well to prevent infection.","zh":"把伤口洗干净以防感染。"},{"en":"She is taking medicine for an ear infection.","zh":"她在吃治耳部感染的药。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"infect(感染)+ion→被病菌入侵→感染。"},"petExam":{"frequency":"medium","collocations":["an ear infection"]}},
+    {"id":"pet-health-061","word":"germ","phonetic":"/dʒɜːm/","pos":"n.","meaning":"细菌，病菌","level":"B1","examples":[{"en":"Wash your hands to get rid of germs.","zh":"洗手去除病菌。"},{"en":"Coughing spreads germs.","zh":"咳嗽会传播病菌。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"germ 谐音\"揪母\"——揪出生病的\"母\"源就是病菌。"},"petExam":{"frequency":"medium","collocations":["spread germs"]}},
+    {"id":"pet-health-062","word":"rash","phonetic":"/ræʃ/","pos":"n.","meaning":"皮疹","level":"B1","examples":[{"en":"The strawberries gave her a rash.","zh":"吃草莓让她起了皮疹。"},{"en":"A red rash appeared on his arm.","zh":"他手臂上出现了红疹。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"rash 谐音\"拉屑\"——皮肤上拉起一片小屑点→皮疹。"},"petExam":{"frequency":"low","collocations":["come out in a rash"]}},
+    {"id":"pet-health-063","word":"bruise","phonetic":"/bruːz/","pos":"n.","meaning":"淤青","level":"B1","examples":[{"en":"He got a big bruise on his knee from the fall.","zh":"他摔了一跤，膝盖上一大块淤青。"},{"en":"The bruise turned purple the next day.","zh":"第二天淤青变成了紫色。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"bruise 谐音\"不如死\"——磕出淤青疼得直喊。"},"petExam":{"frequency":"low","collocations":["a nasty bruise"]}},
+    {"id":"pet-health-064","word":"swollen","phonetic":"/ˈswəʊlən/","pos":"adj.","meaning":"肿胀的","level":"B1","examples":[{"en":"Her ankle was swollen after the fall.","zh":"摔倒后她的脚踝肿了。"},{"en":"His eyes were swollen from crying.","zh":"他哭得眼睛都肿了。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"swell(肿胀)的过去分词——肿起来的。"},"petExam":{"frequency":"medium","collocations":["a swollen ankle"]}},
+    {"id":"pet-health-065","word":"faint","phonetic":"/feɪnt/","pos":"v.","meaning":"晕倒；微弱的","level":"B1","examples":[{"en":"She fainted in the hot sun.","zh":"她在烈日下晕倒了。"},{"en":"We heard a faint cry from far away.","zh":"我们听到远处微弱的呼喊。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"一词两义：faint 晕倒；a faint sound 微弱的声音。"},"petExam":{"frequency":"medium","collocations":["faint from hunger"]}},
+    {"id":"pet-health-066","word":"stress","phonetic":"/stres/","pos":"n.","meaning":"压力，紧张","level":"B1","examples":[{"en":"Too much stress is bad for your health.","zh":"压力过大有害健康。"},{"en":"Exercise is a good way to deal with stress.","zh":"运动是缓解压力的好办法。"}],"synonyms":["pressure"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"stress 重压之下——press(压)藏在里面。"},"petExam":{"frequency":"high","collocations":["under stress","reduce stress"]}},
+    {"id":"pet-health-067","word":"surgery","phonetic":"/ˈsɜːdʒəri/","pos":"n.","meaning":"手术；诊所","level":"B1","examples":[{"en":"He needs surgery on his knee.","zh":"他的膝盖需要做手术。"},{"en":"The doctor’s surgery opens at eight.","zh":"诊所八点开门。"}],"synonyms":["operation"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"英式 surgery 也指诊所——doctor’s surgery。"},"petExam":{"frequency":"medium","collocations":["have surgery"]}},
+    {"id":"pet-health-068","word":"clinic","phonetic":"/ˈklɪnɪk/","pos":"n.","meaning":"诊所","level":"B1","examples":[{"en":"The village clinic treats small illnesses.","zh":"村诊所治小病。"},{"en":"She took the baby to the clinic for a check.","zh":"她带宝宝去诊所检查。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"clinic 谐音\"可里尼克\"——小病去诊所，大病去 hospital。"},"petExam":{"frequency":"medium","collocations":["a health clinic"]}},
+    {"id":"pet-health-069","word":"ward","phonetic":"/wɔːd/","pos":"n.","meaning":"病房","level":"B1","examples":[{"en":"Grandpa is in the ward on the third floor.","zh":"爷爷住在三楼病房。"},{"en":"The children’s ward is bright and colourful.","zh":"儿童病房明亮多彩。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"ward 像 warm(温暖)少个 m——病房应是温暖的地方。"},"petExam":{"frequency":"low","collocations":["a hospital ward"]}},
+    {"id":"pet-health-070","word":"pharmacy","phonetic":"/ˈfɑːməsi/","pos":"n.","meaning":"药店","level":"B1","examples":[{"en":"You can buy the medicine at any pharmacy.","zh":"这种药任何药店都能买到。"},{"en":"The pharmacy is next to the clinic.","zh":"药店在诊所隔壁。"}],"synonyms":["chemist"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"pharmac(药)+y(店)→卖药的店；英式常说 chemist。"},"petExam":{"frequency":"medium","collocations":["at the pharmacy"]}},
+    {"id":"pet-health-071","word":"pill","phonetic":"/pɪl/","pos":"n.","meaning":"药丸","level":"B1","examples":[{"en":"Take one pill after each meal.","zh":"每顿饭后吃一粒药。"},{"en":"The pill was too big to swallow easily.","zh":"药丸太大，不好吞。"}],"synonyms":["tablet"],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"pill 谐音\"呸儿\"——药丸苦得想吐。"},"petExam":{"frequency":"medium","collocations":["take a pill"]},"inKet":true},
+    {"id":"pet-health-072","word":"drug","phonetic":"/drʌɡ/","pos":"n.","meaning":"药物；毒品","level":"B1","examples":[{"en":"The new drug helps people with heart disease.","zh":"新药帮助心脏病患者。"},{"en":"Say no to drugs.","zh":"拒绝毒品。"}],"synonyms":["medicine"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"一词两义：治病的 drug 药物，害人的 drugs 毒品。"},"petExam":{"frequency":"medium","collocations":["a new drug"]}},
+    {"id":"pet-health-073","word":"injection","phonetic":"/ɪnˈdʒekʃn/","pos":"n.","meaning":"注射，打针","level":"B1","examples":[{"en":"The nurse gave me an injection in the arm.","zh":"护士在我手臂上打了一针。"},{"en":"The injection didn’t hurt at all.","zh":"打针一点也不疼。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"in(进)+ject(射)+ion→把药射进身体→注射。"},"petExam":{"frequency":"medium","collocations":["give an injection"]}},
+    {"id":"pet-health-074","word":"plaster","phonetic":"/ˈplɑːstə(r)/","pos":"n.","meaning":"创可贴；石膏","level":"B1","examples":[{"en":"She put a plaster on the small cut.","zh":"她在小伤口上贴了创可贴。"},{"en":"His broken arm is in plaster.","zh":"他骨折的手臂打了石膏。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"小伤贴 plaster 创可贴，骨折上 plaster 石膏。"},"petExam":{"frequency":"medium","collocations":["put on a plaster"]}},
+    {"id":"pet-health-075","word":"thermometer","phonetic":"/θəˈmɒmɪtə(r)/","pos":"n.","meaning":"体温计，温度计","level":"B1","examples":[{"en":"The thermometer showed 39 degrees.","zh":"体温计显示39度。"},{"en":"Put the thermometer under your tongue.","zh":"把体温计放在舌下。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"thermo(热)+meter(计量)→量热度的仪器。"},"petExam":{"frequency":"low","collocations":["read the thermometer"]}},
+    {"id":"pet-health-076","word":"X-ray","phonetic":"/ˈeks reɪ/","pos":"n.","meaning":"X光（检查）","level":"B1","examples":[{"en":"The X-ray showed a broken bone.","zh":"X光显示骨折了。"},{"en":"The dentist took an X-ray of my teeth.","zh":"牙医给我的牙拍了X光。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"X 射线——伦琴发现时不知是什么，就叫它 X。"},"petExam":{"frequency":"medium","collocations":["take an X-ray"]}},
+    {"id":"pet-health-077","word":"first aid","phonetic":"/ˌfɜːst ˈeɪd/","pos":"n.","meaning":"急救","level":"B1","examples":[{"en":"Every teacher should learn basic first aid.","zh":"每位老师都该学基本急救。"},{"en":"The first aid box is on the wall.","zh":"急救箱挂在墙上。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"first(第一时间)+aid(援助)→第一时间的救助→急救。"},"petExam":{"frequency":"medium","collocations":["a first aid kit"]}},
+    {"id":"pet-health-078","word":"check-up","phonetic":"/ˈtʃek ʌp/","pos":"n.","meaning":"体检","level":"B1","examples":[{"en":"Grandpa has a check-up every six months.","zh":"爷爷每半年体检一次。"},{"en":"The dentist says I need a check-up.","zh":"牙医说我需要做个检查。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"check(检查)+up→从头到脚查一遍→体检。"},"petExam":{"frequency":"medium","collocations":["have a check-up"]}},
+    {"id":"pet-health-079","word":"emergency","phonetic":"/ɪˈmɜːdʒənsi/","pos":"n.","meaning":"紧急情况","level":"B1","examples":[{"en":"Call 120 in a medical emergency.","zh":"遇到医疗紧急情况拨打120。"},{"en":"The emergency exit must never be locked.","zh":"紧急出口绝不能上锁。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"emerge(突然冒出)+ncy→突然冒出来的状况→紧急情况。"},"petExam":{"frequency":"high","collocations":["in an emergency","an emergency exit"]}},
+    {"id":"pet-health-080","word":"specialist","phonetic":"/ˈspeʃəlɪst/","pos":"n.","meaning":"专科医生，专家","level":"B1","examples":[{"en":"The doctor sent her to a heart specialist.","zh":"医生把她转给心脏专科医生。"},{"en":"A specialist knows one field very deeply.","zh":"专家对一个领域了解很深。"}],"synonyms":["expert"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"special(专门)+ist(人)→专门研究某领域的人。"},"petExam":{"frequency":"medium","collocations":["see a specialist"]}},
+    {"id":"pet-health-081","word":"ache","phonetic":"/eɪk/","pos":"v.","meaning":"疼痛","level":"B1","examples":[{"en":"My legs ached after the long climb.","zh":"爬了很久的山，我的腿酸疼。"},{"en":"His head was aching, so he went to bed.","zh":"他头疼，就睡下了。"}],"synonyms":["hurt"],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"headache/toothache 的 ache——持续隐隐地疼。"},"petExam":{"frequency":"high","collocations":["my head aches"]}},
+    {"id":"pet-health-082","word":"suffer","phonetic":"/ˈsʌfə(r)/","pos":"v.","meaning":"受苦；患病","level":"B1","examples":[{"en":"She suffers from bad headaches.","zh":"她饱受头疼之苦。"},{"en":"The team suffered a heavy defeat.","zh":"球队遭受惨败。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"suf(在下)+fer(承受)→在重压下承受→受苦。"},"petExam":{"frequency":"high","collocations":["suffer from"]}},
+    {"id":"pet-health-083","word":"bleed","phonetic":"/bliːd/","pos":"v.","meaning":"流血","level":"B1","examples":[{"en":"His nose was bleeding after the ball hit him.","zh":"球打到他后鼻子流血了。"},{"en":"Press the cut to stop it bleeding.","zh":"按住伤口止血。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"blood(血)的动词兄弟——blood 名词，bleed 流血。"},"petExam":{"frequency":"medium","collocations":["a bleeding nose"]}},
+    {"id":"pet-health-084","word":"swell","phonetic":"/swel/","pos":"v.","meaning":"肿胀","level":"B1","examples":[{"en":"Her finger began to swell after the bee sting.","zh":"被蜜蜂蜇后她的手指肿了起来。"},{"en":"The river swelled after days of rain.","zh":"连日降雨后河水上涨。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"swell 像吹气球——越吹越大就是肿。过去分词 swollen。"},"petExam":{"frequency":"medium","collocations":["begin to swell"]}},
+    {"id":"pet-health-085","word":"heal","phonetic":"/hiːl/","pos":"v.","meaning":"愈合，治愈","level":"B1","examples":[{"en":"The cut healed in a week.","zh":"伤口一周就愈合了。"},{"en":"Time heals most wounds.","zh":"时间能治愈大多数伤痛。"}],"synonyms":["cure"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"heal 与 health 同根——恢复健康就是愈合。"},"petExam":{"frequency":"medium","collocations":["heal quickly"]}},
+    {"id":"pet-health-086","word":"injure","phonetic":"/ˈɪndʒə(r)/","pos":"v.","meaning":"使受伤","level":"B1","examples":[{"en":"He injured his shoulder in the match.","zh":"他在比赛中伤了肩膀。"},{"en":"Luckily, no one was injured in the accident.","zh":"幸运的是事故中没人受伤。"}],"synonyms":["hurt"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"injury(伤)的动词——in+jur(不公)→意外带来的伤。"},"petExam":{"frequency":"high","collocations":["be seriously injured"]}},
+    {"id":"pet-health-087","word":"examine","phonetic":"/ɪɡˈzæmɪn/","pos":"v.","meaning":"检查；诊察","level":"B1","examples":[{"en":"The doctor examined her throat carefully.","zh":"医生仔细检查了她的喉咙。"},{"en":"Scientists examined the water for germs.","zh":"科学家检验水里有没有细菌。"}],"synonyms":["check"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"exam(考试)的动词兄弟——医生给身体\"考试\"→检查。"},"petExam":{"frequency":"medium","collocations":["examine a patient"]}},
+    {"id":"pet-health-088","word":"operate","phonetic":"/ˈɒpəreɪt/","pos":"v.","meaning":"动手术；操作","level":"B1","examples":[{"en":"The doctors operated on his broken leg at once.","zh":"医生立即给他的断腿做了手术。"},{"en":"Do you know how to operate this machine?","zh":"你会操作这台机器吗？"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"oper(工作)+ate→动手做→手术/操作；名词 operation。"},"petExam":{"frequency":"medium","collocations":["operate on sb"]}},
+    {"id":"pet-health-089","word":"prevent","phonetic":"/prɪˈvent/","pos":"v.","meaning":"预防，阻止","level":"B1","examples":[{"en":"Washing hands prevents many illnesses.","zh":"洗手能预防很多疾病。"},{"en":"The heavy rain prevented us from going out.","zh":"大雨让我们没法出门。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"pre(提前)+vent(来)→赶在问题来之前→预防。"},"petExam":{"frequency":"high","collocations":["prevent sb from doing"]}},
+    {"id":"pet-health-090","word":"habit","phonetic":"/ˈhæbɪt/","pos":"n.","meaning":"习惯","level":"B1","examples":[{"en":"Eating breakfast is a good habit.","zh":"吃早餐是好习惯。"},{"en":"He has a habit of biting his nails.","zh":"他有咬指甲的习惯。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"habit 谐音\"哈比特\"——霍比特人天天准点吃饭，习惯极好。"},"petExam":{"frequency":"high","collocations":["a good habit","get into the habit of"]}},
+    {"id":"pet-health-091","word":"lifestyle","phonetic":"/ˈlaɪfstaɪl/","pos":"n.","meaning":"生活方式","level":"B1","examples":[{"en":"A healthy lifestyle includes exercise and good sleep.","zh":"健康的生活方式包括运动和良好睡眠。"},{"en":"City and country lifestyles are very different.","zh":"城市和乡村的生活方式很不同。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"life(生活)+style(风格)→生活的风格→生活方式。"},"petExam":{"frequency":"high","collocations":["a healthy lifestyle"]}},
+    {"id":"pet-health-092","word":"nap","phonetic":"/næp/","pos":"n.","meaning":"小睡，午睡","level":"B1","examples":[{"en":"A short nap after lunch helps you learn better.","zh":"午饭后小睡一会儿有助学习。"},{"en":"Grandpa takes a nap every afternoon.","zh":"爷爷每天下午都要打个盹。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"nap 谐音\"眯\"的感觉——眯一小觉。"},"petExam":{"frequency":"medium","collocations":["take a nap"]}},
+    {"id":"pet-health-093","word":"balance","phonetic":"/ˈbæləns/","pos":"n.","meaning":"平衡","level":"B1","examples":[{"en":"A good diet keeps a balance of different foods.","zh":"好的饮食讲究食物搭配平衡。"},{"en":"He lost his balance and fell off the wall.","zh":"他失去平衡从墙上摔了下来。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"ba(双)+lance(秤盘)→两个秤盘一样重→平衡。"},"petExam":{"frequency":"high","collocations":["keep your balance","a balanced diet"]}},
+    {"id":"pet-health-094","word":"recovery","phonetic":"/rɪˈkʌvəri/","pos":"n.","meaning":"康复，恢复","level":"B1","examples":[{"en":"The doctor was pleased with her quick recovery.","zh":"医生对她的快速康复很满意。"},{"en":"Rest is important for a full recovery.","zh":"休息对完全康复很重要。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"recover(恢复)+y→恢复的过程→康复。"},"petExam":{"frequency":"medium","collocations":["make a full recovery"]}},
+    {"id":"pet-health-095","word":"safety","phonetic":"/ˈseɪfti/","pos":"n.","meaning":"安全","level":"B1","examples":[{"en":"Wear a helmet for safety.","zh":"为了安全要戴头盔。"},{"en":"The lifeguard is responsible for the safety of swimmers.","zh":"救生员负责游泳者的安全。"}],"synonyms":[],"antonyms":["danger"],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"safe(安全的)+ty→安全这件事。"},"petExam":{"frequency":"high","collocations":["road safety","for safety"]}},
+    {"id":"pet-health-096","word":"risk","phonetic":"/rɪsk/","pos":"n.","meaning":"风险","level":"B1","examples":[{"en":"Smoking increases the risk of heart disease.","zh":"吸烟增加心脏病风险。"},{"en":"Never take risks near deep water.","zh":"在深水边千万不要冒险。"}],"synonyms":["danger"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"sound","tip":"risk 谐音\"锐斯克\"——刀锋(锐)上行走就是冒险。"},"petExam":{"frequency":"high","collocations":["take a risk","at risk"]}},
+    {"id":"pet-health-097","word":"weak","phonetic":"/wiːk/","pos":"adj.","meaning":"虚弱的","level":"B1","examples":[{"en":"She felt weak after the long illness.","zh":"久病之后她感到虚弱。"},{"en":"The tea is too weak for Grandpa.","zh":"这茶对爷爷来说太淡了。"}],"synonyms":[],"antonyms":["strong"],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"weak 与 week 同音——病了一 week，人就 weak 了。"},"petExam":{"frequency":"high","collocations":["feel weak"]},"inKet":true},
+    {"id":"pet-health-098","word":"pale","phonetic":"/peɪl/","pos":"adj.","meaning":"苍白的","level":"B1","examples":[{"en":"You look pale—are you feeling all right?","zh":"你脸色苍白——还好吗？"},{"en":"Her face went pale at the bad news.","zh":"听到坏消息她脸色发白。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"sound","tip":"pale 谐音\"白哦\"——脸色白得吓人。"},"petExam":{"frequency":"medium","collocations":["look pale","go pale"]}},
+    {"id":"pet-health-099","word":"painful","phonetic":"/ˈpeɪnfl/","pos":"adj.","meaning":"疼痛的","level":"B1","examples":[{"en":"The injection was quick but painful.","zh":"打针很快但很疼。"},{"en":"Walking was painful after the fall.","zh":"摔倒后走路都疼。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"pain(疼)+ful(充满)→充满疼痛的。"},"petExam":{"frequency":"high","collocations":["a painful injury"]}},
+    {"id":"pet-health-100","word":"unhealthy","phonetic":"/ʌnˈhelθi/","pos":"adj.","meaning":"不健康的","level":"B1","examples":[{"en":"Eating too late at night is unhealthy.","zh":"深夜进食不健康。"},{"en":"An unhealthy diet causes many problems.","zh":"不健康的饮食引发很多问题。"}],"synonyms":[],"antonyms":["healthy"],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"un(不)+healthy(健康)→不健康的。"},"petExam":{"frequency":"high","collocations":["unhealthy food"]}},
+    {"id":"pet-health-101","word":"deaf","phonetic":"/def/","pos":"adj.","meaning":"失聪的","level":"B1","examples":[{"en":"My grandfather is a little deaf in one ear.","zh":"我爷爷一只耳朵有点背。"},{"en":"The deaf girl reads lips very well.","zh":"这个失聪女孩很会读唇。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"deaf 读 /def/——ea 发短 e，别读成\"迪夫\"。"},"petExam":{"frequency":"medium","collocations":["deaf in one ear"]}},
+    {"id":"pet-health-102","word":"blind","phonetic":"/blaɪnd/","pos":"adj.","meaning":"失明的","level":"B1","examples":[{"en":"The blind man crosses the road with a guide dog.","zh":"盲人靠导盲犬过马路。"},{"en":"She has been blind since birth.","zh":"她生来失明。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"blind 里有 blink(眨眼)的影子——眼睛看不见了。"},"petExam":{"frequency":"medium","collocations":["a blind person","go blind"]}},
+    {"id":"pet-health-103","word":"disabled","phonetic":"/dɪsˈeɪbld/","pos":"adj.","meaning":"残疾的","level":"B1","examples":[{"en":"The building has lifts for disabled visitors.","zh":"大楼为残障访客设有电梯。"},{"en":"Disabled athletes compete in the Paralympics.","zh":"残疾运动员参加残奥会。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"dis(不)+abled(有能力)→身体部分功能受限的。"},"petExam":{"frequency":"medium","collocations":["disabled people"]}},
+    {"id":"pet-health-104","word":"allergic","phonetic":"/əˈlɜːdʒɪk/","pos":"adj.","meaning":"过敏的","level":"B1","examples":[{"en":"He is allergic to cats.","zh":"他对猫过敏。"},{"en":"Tell the doctor if you are allergic to any medicine.","zh":"如果对药物过敏要告诉医生。"}],"synonyms":[],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"allergy(过敏)+ic→过敏的；be allergic to。"},"petExam":{"frequency":"medium","collocations":["be allergic to"]}},
+    {"id":"pet-health-105","word":"mental","phonetic":"/ˈmentl/","pos":"adj.","meaning":"心理的，精神的","level":"B1","examples":[{"en":"Mental health is as important as physical health.","zh":"心理健康和身体健康同样重要。"},{"en":"Chess is good mental exercise.","zh":"下棋是很好的脑力锻炼。"}],"synonyms":[],"antonyms":["physical"],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"ment(思维)+al→与头脑有关的→心理的。"},"petExam":{"frequency":"medium","collocations":["mental health"]}},
+    {"id":"pet-health-106","word":"physical","phonetic":"/ˈfɪzɪkl/","pos":"adj.","meaning":"身体的","level":"B1","examples":[{"en":"Physical exercise keeps your heart strong.","zh":"体育锻炼让心脏强健。"},{"en":"The job needs a lot of physical strength.","zh":"这工作很需要体力。"}],"synonyms":[],"antonyms":["mental"],"difficulty":3,"tags":["health"],"mnemonic":{"type":"root","tip":"physic(身体/自然)+al→身体的；physics 物理同根。"},"petExam":{"frequency":"high","collocations":["physical exercise"]}},
+    {"id":"pet-health-107","word":"overweight","phonetic":"/ˌəʊvəˈweɪt/","pos":"adj.","meaning":"超重的","level":"B1","examples":[{"en":"The doctor says the dog is overweight.","zh":"兽医说这只狗超重了。"},{"en":"Being overweight puts stress on your heart.","zh":"超重会给心脏增加负担。"}],"synonyms":[],"antonyms":["slim"],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"over(超过)+weight(体重)→超过正常体重的。"},"petExam":{"frequency":"medium","collocations":["a little overweight"]}},
+    {"id":"pet-health-108","word":"slim","phonetic":"/slɪm/","pos":"adj.","meaning":"苗条的","level":"B1","examples":[{"en":"She stays slim by swimming every day.","zh":"她靠每天游泳保持苗条。"},{"en":"He is tall and slim like his father.","zh":"他像爸爸一样又高又瘦。"}],"synonyms":["thin"],"antonyms":["overweight"],"difficulty":2,"tags":["health"],"mnemonic":{"type":"assoc","tip":"sl- 词族都细长：slim 苗条、slender 修长、slice 薄片。"},"petExam":{"frequency":"medium","collocations":["stay slim"]}},
+    {"id":"pet-health-109","word":"sight","phonetic":"/saɪt/","pos":"n.","meaning":"视力；景象","level":"B1","examples":[{"en":"Carrots are said to be good for your sight.","zh":"据说胡萝卜对视力好。"},{"en":"The sunrise over the sea is a beautiful sight.","zh":"海上日出是美丽的景象。"}],"synonyms":["eyesight"],"antonyms":[],"difficulty":3,"tags":["health"],"mnemonic":{"type":"assoc","tip":"see(看)的名词亲戚——sight 看的能力和看到的景象。"},"petExam":{"frequency":"medium","collocations":["lose your sight","a beautiful sight"]}},
+    {"id":"pet-health-110","word":"hearing","phonetic":"/ˈhɪərɪŋ/","pos":"n.","meaning":"听力","level":"B1","examples":[{"en":"Loud music can damage your hearing.","zh":"大音量音乐会损伤听力。"},{"en":"Dogs have much better hearing than people.","zh":"狗的听力比人好得多。"}],"synonyms":[],"antonyms":[],"difficulty":2,"tags":["health"],"mnemonic":{"type":"root","tip":"hear(听)+ing→听的能力→听力。"},"petExam":{"frequency":"medium","collocations":["good hearing"]}}
   ]
 }
