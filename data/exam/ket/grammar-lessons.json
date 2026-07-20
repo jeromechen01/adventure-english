@@ -1497,11 +1497,8 @@
       },
       {
        "type": "fill",
-       "q": "I ___ not understand this question.（填缩写）",
+       "q": "I ___ not understand this question.",
        "answer": "do",
-       "alt": [
-        "don't"
-       ],
        "explain": "I + 动作句否定 → do not（don't）。"
       },
       {
