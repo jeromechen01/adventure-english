@@ -3705,6 +3705,732 @@
      "answer": "on",
      "explain": "具体某天的晚上 → on Saturday evening。"
     }
+   ],
+   "teaching": {
+    "essence": "介词是谱面记号——小，但少一个就走样。空间三兄弟：at 是点，on 是面，in 是盒子；时间也长同样的形状。",
+    "why": "中文的方位靠「在……上/里/旁」这些字挂在名词后面，而且很多时候干脆省掉（「我周六去」）。英文把这些小词提到名词前面，而且几乎不能省。好消息是英文介词不是乱选的——它们有几何形状：0 维的点用 at，2 维的面用 on，3 维的盒子用 in。把时间也想象成有形状的东西，一套逻辑管两边。",
+    "rules": [
+     {
+      "point": "空间：at 点 / on 面 / in 盒子",
+      "detail": "at = 站在一个点上（at the bus stop / at the door）；on = 贴在一个面上（on the table / on the wall）；in = 装进一个盒子（in the box / in my bag / in the room）。",
+      "examples": [
+       {
+        "en": "Your keys are on the piano.",
+        "zh": "你的钥匙在钢琴上。（贴着面）"
+       },
+       {
+        "en": "My cat likes sleeping in a shoe box.",
+        "zh": "我的猫喜欢睡在鞋盒里。（盒子）"
+       },
+       {
+        "en": "I'll wait for you at the school gate.",
+        "zh": "我在校门口等你。（一个点）"
+       }
+      ]
+     },
+     {
+      "point": "时间：同一套形状",
+      "detail": "时刻是点 → at seven / at noon / at night；具体某一天是面 → on Monday / on May 1st / on Friday evening；月、年、季节是大盒子 → in June / in 2027 / in winter / in the morning。",
+      "examples": [
+       {
+        "en": "The concert starts at seven on Friday evening.",
+        "zh": "音乐会周五晚上七点开始。"
+       },
+       {
+        "en": "We have a long holiday in summer.",
+        "zh": "我们夏天有长假。"
+       },
+       {
+        "en": "My birthday is on the 3rd of March.",
+        "zh": "我的生日是 3 月 3 日。"
+       }
+      ]
+     },
+     {
+      "point": "方向和移动：to / from / into / out of",
+      "detail": "to 指向目的地（go to school）；from 从哪来（from Beijing）；into 进盒子（jump into the pool）；out of 出盒子。注意 go home / come here 不加 to。",
+      "examples": [
+       {
+        "en": "We walked from the hotel to the beach.",
+        "zh": "我们从酒店走到海滩。"
+       },
+       {
+        "en": "The frog jumped into the water.",
+        "zh": "青蛙跳进了水里。"
+       }
+      ]
+     },
+     {
+      "point": "固定搭配整块背",
+      "detail": "有些搭配不讲几何，当一个词背：by bus / by car / by bike（乘车）、on foot（步行）、at school / at home（在校/在家）、on holiday（度假）、on TV（在电视上）、listen to / look at / wait for。",
+      "examples": [
+       {
+        "en": "We go to school by bus, but Dad goes to work on foot.",
+        "zh": "我们坐公交上学，爸爸步行上班。"
+       },
+       {
+        "en": "I saw the singer on TV last night.",
+        "zh": "我昨晚在电视上看到那个歌手。"
+       }
+      ]
+     }
+    ],
+    "notes": [
+     "三个「晚上」：in the evening（傍晚，盒子）、at night（深夜，习惯用 at）、on Friday evening（具体某天的晚上，跟着那天用 on）——最后这个是 Part 5 陷阱王。",
+     "next / last / this / every + 时间词前不加介词：I'll see you next week（不是 in next week）。",
+     "中文「在」不总是 in：「在公交站」是 at（点），「在墙上」是 on（面）。先想形状再选词。",
+     "arrive 的搭配：arrive at 小地方（车站、学校），arrive in 大地方（城市、国家）——小地方是点，大地方是盒子，还是同一套几何。"
+    ],
+    "commonErrors": [
+     {
+      "wrong": "See you in Saturday!",
+      "right": "See you on Saturday!",
+      "why": "中文「在周六」只有一个「在」，英文按形状分：星期几是「那一天的面」→ 永远用 on。这是 8 类中式错误的 4 号（黄区）：不挡意思，但 Part 5 直接考。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "The meeting starts on 3 o'clock.",
+      "right": "The meeting starts at 3 o'clock.",
+      "why": "时刻是 0 维的点 → at。凡是「几点钟」一律 at。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "We went to there by taxi.",
+      "right": "We went there by taxi.",
+      "why": "there / here / home 自带方向，不再加 to。中文「去那里」有「去」有「那里」，容易照搬成 go to there。",
+      "impedes": false,
+      "ketPart": "写作 + 口语",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "I listened music all evening.",
+      "right": "I listened to music all evening.",
+      "why": "listen to 是整块搭配，to 不能丢——中文「听音乐」没有那个小词，所以最容易漏。",
+      "impedes": false,
+      "ketPart": "Part 5 + 写作",
+      "zone": "yellow"
+     },
+     {
+      "wrong": "My mother goes to work by her car.",
+      "right": "My mother goes to work by car.",
+      "why": "by + 交通工具是整块搭配，中间什么都不加（不加 a/the/my）。要说「她的车」就换说法：in her car。",
+      "impedes": false,
+      "ketPart": "Part 5",
+      "zone": "yellow"
+     }
+    ],
+    "parentTip": "家里随手指东西问「点、面、还是盒子？」——钥匙在桌上（面 on）、袜子在抽屉里（盒 in）、约定七点（点 at）。中文就能玩，玩熟了她自己会选词。",
+    "darkline": ""
+   },
+   "stages": [
+    {
+     "stage": 1,
+     "name": "入门",
+     "difficulty": 1,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "「在桌子上」——桌面是什么形状？The book is ___ the table.",
+       "options": [
+        "on",
+        "in"
+       ],
+       "answer": 0,
+       "explain": "贴着面 → on。"
+      },
+      {
+       "type": "choice",
+       "q": "「在书包里」——书包是什么形状？The pencil is ___ my bag.",
+       "options": [
+        "in",
+        "on"
+       ],
+       "answer": 0,
+       "explain": "装进盒子 → in。"
+      },
+      {
+       "type": "choice",
+       "q": "「在公交站」——站台是一个点。I'm waiting ___ the bus stop.",
+       "options": [
+        "at",
+        "in"
+       ],
+       "answer": 0,
+       "explain": "一个点 → at。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ My birthday is on May 2nd.",
+       "answer": true,
+       "explain": "对。具体某一天 → on。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ See you in Saturday!",
+       "answer": false,
+       "explain": "错。星期几永远 on：on Saturday。Part 5 最爱考这个。"
+      },
+      {
+       "type": "choice",
+       "q": "The film starts ___ seven o'clock.",
+       "options": [
+        "at",
+        "on"
+       ],
+       "answer": 0,
+       "explain": "时刻是点 → at seven。"
+      },
+      {
+       "type": "choice",
+       "q": "We go swimming ___ summer.",
+       "options": [
+        "in",
+        "on"
+       ],
+       "answer": 0,
+       "explain": "季节是大盒子 → in summer。"
+      },
+      {
+       "type": "choice",
+       "q": "I was born ___ 2015.",
+       "options": [
+        "in",
+        "at"
+       ],
+       "answer": 0,
+       "explain": "年份是大盒子 → in 2015。"
+      },
+      {
+       "type": "choice",
+       "q": "There is a picture ___ the wall.",
+       "options": [
+        "on",
+        "in"
+       ],
+       "answer": 0,
+       "explain": "墙是竖着的面，贴在上面 → on。"
+      },
+      {
+       "type": "choice",
+       "q": "We go to school ___ bus.",
+       "options": [
+        "by",
+        "on"
+       ],
+       "answer": 0,
+       "explain": "by + 交通工具，整块背：by bus。"
+      },
+      {
+       "type": "fill",
+       "q": "My grandma lives ___ Shanghai.",
+       "hint": "提示：城市是个大盒子",
+       "answer": "in",
+       "explain": "城市 → in Shanghai。"
+      },
+      {
+       "type": "fill",
+       "q": "Let's meet ___ the school gate.",
+       "hint": "提示：门口是一个点",
+       "answer": "at",
+       "explain": "校门口是约定的点 → at。"
+      },
+      {
+       "type": "choice",
+       "q": "I do my homework ___ the evening.",
+       "options": [
+        "in",
+        "at"
+       ],
+       "answer": 0,
+       "explain": "傍晚是盒子 → in the evening。"
+      },
+      {
+       "type": "choice",
+       "q": "The stars come out ___ night.",
+       "options": [
+        "at",
+        "in"
+       ],
+       "answer": 0,
+       "explain": "深夜习惯用 at night，整块背。"
+      },
+      {
+       "type": "fill",
+       "q": "We walked ___ the park to the library.",
+       "hint": "提示：从……",
+       "answer": "from",
+       "explain": "from A to B：从公园到图书馆。"
+      },
+      {
+       "type": "tf",
+       "q": "这句话对吗？→ The frog jumped into the water.",
+       "answer": true,
+       "explain": "对。跳「进」水里 → into（进盒子）。"
+      }
+     ]
+    },
+    {
+     "stage": 2,
+     "name": "基础",
+     "difficulty": 2,
+     "questions": [
+      {
+       "type": "choice",
+       "q": "My piano lesson is ___ four o'clock ___ Friday.",
+       "options": [
+        "at / on",
+        "on / at",
+        "in / on",
+        "at / in"
+       ],
+       "answer": 0,
+       "explain": "时刻 at four + 星期几 on Friday。"
+      },
+      {
+       "type": "choice",
+       "q": "We visited my aunt ___ the Spring Festival.",
+       "options": [
+        "at",
+        "on",
+        "in",
+        "by"
+       ],
+       "answer": 0,
+       "explain": "节日期间习惯用 at：at the Spring Festival / at Christmas。"
+      },
+      {
+       "type": "choice",
+       "q": "The cat is hiding ___ the sofa.",
+       "options": [
+        "under",
+        "on",
+        "at",
+        "to"
+       ],
+       "answer": 0,
+       "explain": "藏在沙发「下面」→ under。"
+      },
+      {
+       "type": "choice",
+       "q": "The library is ___ the cinema and the bank.",
+       "options": [
+        "between",
+        "in",
+        "under",
+        "at"
+       ],
+       "answer": 0,
+       "explain": "在两者「之间」→ between A and B。"
+      },
+      {
+       "type": "choice",
+       "q": "My school is ___ to the park.",
+       "options": [
+        "next",
+        "near",
+        "between",
+        "behind"
+       ],
+       "answer": 0,
+       "explain": "next to = 紧挨着，整块搭配。near 后面不加 to。"
+      },
+      {
+       "type": "choice",
+       "q": "The dog is sleeping ___ the tree.",
+       "options": [
+        "under",
+        "in",
+        "at",
+        "into"
+       ],
+       "answer": 0,
+       "explain": "在树「下」→ under the tree。"
+      },
+      {
+       "type": "choice",
+       "q": "I usually get up ___ 6:30 ___ the morning.",
+       "options": [
+        "at / in",
+        "in / at",
+        "on / in",
+        "at / on"
+       ],
+       "answer": 0,
+       "explain": "时刻 at 6:30；早上这个时间段 in the morning。"
+      },
+      {
+       "type": "choice",
+       "q": "She has been ill ___ Monday.（听懂即可）",
+       "options": [
+        "since",
+        "at",
+        "on",
+        "in"
+       ],
+       "answer": 0,
+       "explain": "since + 起点 = 从周一到现在。KET 读到能懂即可。"
+      },
+      {
+       "type": "choice",
+       "q": "Look! Your photo is ___ the newspaper!",
+       "options": [
+        "in",
+        "on",
+        "at",
+        "by"
+       ],
+       "answer": 0,
+       "explain": "报纸内容算「在里面」→ in the newspaper。但「在电视上」是 on TV，整块背。"
+      },
+      {
+       "type": "choice",
+       "q": "Dad goes to work ___ foot.",
+       "options": [
+        "on",
+        "by",
+        "in",
+        "at"
+       ],
+       "answer": 0,
+       "explain": "步行是 on foot，唯一不用 by 的交通方式。"
+      },
+      {
+       "type": "choice",
+       "q": "The plane flew ___ the mountains.",
+       "options": [
+        "over",
+        "on",
+        "in",
+        "under"
+       ],
+       "answer": 0,
+       "explain": "从上方飞「越过」→ over。on 是贴着，over 是悬空在上。"
+      },
+      {
+       "type": "choice",
+       "q": "Please listen ___ the teacher carefully.",
+       "options": [
+        "to",
+        "at",
+        "for",
+        "on"
+       ],
+       "answer": 0,
+       "explain": "listen to 整块搭配。"
+      },
+      {
+       "type": "fill",
+       "q": "We are waiting ___ the bus.",
+       "answer": "for",
+       "explain": "wait for 整块搭配：等某人/某物。"
+      },
+      {
+       "type": "fill",
+       "q": "Look ___ the blackboard, please.",
+       "answer": "at",
+       "explain": "look at 整块搭配：看向一个点。"
+      },
+      {
+       "type": "fill",
+       "q": "My cousin comes ___ Canada. She speaks English and French.",
+       "answer": "from",
+       "explain": "come from = 来自。"
+      },
+      {
+       "type": "fill",
+       "q": "There is a bridge ___ the river.",
+       "answer": "over",
+       "alt": [
+        "across"
+       ],
+       "explain": "桥横跨河「上方」→ over/across the river。"
+      }
+     ]
+    },
+    {
+     "stage": 3,
+     "name": "进阶",
+     "difficulty": 3,
+     "questions": [
+      {
+       "type": "correct",
+       "wrong": "See you in Saturday morning!",
+       "answer": "See you on Saturday morning!",
+       "explain": "4 号中式错误（黄区）：具体某天的早上跟着那天走 → on Saturday morning。"
+      },
+      {
+       "type": "correct",
+       "wrong": "The train leaves on 8 o'clock.",
+       "answer": "The train leaves at 8 o'clock.",
+       "explain": "时刻是点 → at 8 o'clock。"
+      },
+      {
+       "type": "correct",
+       "wrong": "We went to there by taxi.",
+       "answer": "We went there by taxi.",
+       "explain": "there 自带方向，不加 to。同理：go home / come here。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I listened music before bed.",
+       "answer": "I listened to music before bed.",
+       "explain": "listen to 的 to 不能丢——中文「听音乐」没有小词，最容易漏。"
+      },
+      {
+       "type": "correct",
+       "wrong": "She goes to school by her bike.",
+       "answer": "She goes to school by bike.",
+       "explain": "by + 交通工具中间什么都不加。要强调她的车可说 on her bike。"
+      },
+      {
+       "type": "correct",
+       "wrong": "My birthday is in the 5th of July.",
+       "answer": "My birthday is on the 5th of July.",
+       "explain": "具体日期是「那一天的面」→ on。月份才用 in（in July）。"
+      },
+      {
+       "type": "correct",
+       "wrong": "I'll visit my grandparents in next week.",
+       "answer": "I'll visit my grandparents next week.",
+       "explain": "next / last / this / every + 时间词，前面不加介词。"
+      },
+      {
+       "type": "correct",
+       "wrong": "The bird flew out the window into the garden.",
+       "answer": "The bird flew out of the window into the garden.",
+       "explain": "出盒子是 out of，两个词都要：out of the window。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：「书在桌上」vs「苹果在树上」——The apples are ___ the tree.",
+       "options": [
+        "on",
+        "in",
+        "at",
+        "over"
+       ],
+       "answer": 0,
+       "explain": "苹果长在树上，贴着树 → on the tree。（外来挂上去的鸟也是 in the tree？——鸟藏在枝叶「里」用 in，长在树上的果实用 on。）"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：arrive ___ Beijing / arrive ___ the station",
+       "options": [
+        "in / at",
+        "at / in",
+        "in / in",
+        "at / at"
+       ],
+       "answer": 0,
+       "explain": "大地方是盒子 → arrive in Beijing；小地方是点 → arrive at the station。"
+      },
+      {
+       "type": "choice",
+       "q": "辨析：哪句是对的？",
+       "options": [
+        "I watched a great film on TV at night.",
+        "I watched a great film in TV at night.",
+        "I watched a great film on TV in night.",
+        "I watched a great film at TV on night."
+       ],
+       "answer": 0,
+       "explain": "on TV + at night，两个都是整块搭配。"
+      },
+      {
+       "type": "choice",
+       "q": "哪句是错的？",
+       "options": [
+        "He is good at maths.",
+        "She is afraid of dogs.",
+        "We are late of school.",
+        "I am interested in music."
+       ],
+       "answer": 2,
+       "explain": "late for school 才对。good at / afraid of / interested in / late for——形容词的搭配也整块背。"
+      },
+      {
+       "type": "transform",
+       "from": "中译英：我们周日早上十点在电影院门口见。（用 meet, cinema）",
+       "to_type": "翻译",
+       "answer": "Let's meet at ten o'clock on Sunday morning at the cinema.",
+       "alt": [
+        "We will meet at ten on Sunday morning at the cinema.",
+        "Let's meet at ten on Sunday morning at the cinema."
+       ],
+       "explain": "三个介词各就各位：at ten（点）、on Sunday morning（那天的早上）、at the cinema（约定的点）。"
+      },
+      {
+       "type": "choice",
+       "q": "一句里三个空：My aunt lives ___ a small town ___ the south ___ China.",
+       "options": [
+        "in / in / of",
+        "at / in / of",
+        "in / on / of",
+        "in / in / in"
+       ],
+       "answer": 0,
+       "explain": "in a town（盒子）+ in the south（方位在内部）+ of China（属于）。"
+      },
+      {
+       "type": "choice",
+       "q": "「墙上有个洞」怎么说？",
+       "options": [
+        "There is a hole in the wall.",
+        "There is a hole on the wall.",
+        "There is a hole at the wall.",
+        "There is a hole by the wall."
+       ],
+       "answer": 0,
+       "explain": "洞是「陷进墙里」的 → in the wall；画是「贴在墙面」的 → on the wall。看东西是嵌进去还是贴上去。"
+      },
+      {
+       "type": "correct",
+       "wrong": "We arrived to the airport at six.",
+       "answer": "We arrived at the airport at six.",
+       "explain": "arrive 不搭 to：小地方 arrive at，大地方 arrive in。"
+      }
+     ]
+    },
+    {
+     "stage": 4,
+     "name": "实战",
+     "difficulty": 4,
+     "questions": [
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：My swimming lesson is ___ Tuesday afternoon.",
+       "answer": "on",
+       "explain": "具体某天的下午 → on Tuesday afternoon。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：School starts ___ half past eight.",
+       "answer": "at",
+       "explain": "时刻 → at half past eight。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：We are going to Hainan ___ the winter holiday.",
+       "answer": "in",
+       "alt": [
+        "during"
+       ],
+       "explain": "假期是一段时间的盒子 → in/during the winter holiday。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：You can put your coat ___ my bed.",
+       "answer": "on",
+       "explain": "放在床「上」贴着面 → on。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I got a letter ___ my pen friend in London.",
+       "answer": "from",
+       "explain": "来自朋友 → from。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Let's go ___ the museum ___ bike.（第二空）",
+       "answer": "by",
+       "explain": "to the museum + by bike。by + 交通工具。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 写作邀请信：「周六下午三点在公园门口见」哪句全对？",
+       "options": [
+        "Let's meet at 3 p.m. on Saturday at the park gate.",
+        "Let's meet on 3 p.m. in Saturday at the park gate.",
+        "Let's meet at 3 p.m. in Saturday on the park gate.",
+        "Let's meet in 3 p.m. on Saturday in the park gate."
+       ],
+       "answer": 0,
+       "explain": "at 时刻 / on 星期 / at 地点（约定的点）。写邀请信必用句式。"
+      },
+      {
+       "type": "choice",
+       "q": "KET 口语描述图片：一只猫在椅子下面睡觉。哪句对？",
+       "options": [
+        "A cat is sleeping under the chair.",
+        "A cat is sleeping in the chair.",
+        "A cat is sleeping down the chair.",
+        "A cat is sleeping at the chair."
+       ],
+       "answer": 0,
+       "explain": "在……下面 → under。"
+      },
+      {
+       "type": "choice",
+       "q": "读懂指路（KET 阅读常见）：The bank is ___ the supermarket, so they share a wall.",
+       "options": [
+        "next to",
+        "far from",
+        "between",
+        "over"
+       ],
+       "answer": 0,
+       "explain": "共用一面墙说明紧挨着 → next to。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：Thank you ___ your birthday present!",
+       "answer": "for",
+       "explain": "thank you for… 整块搭配。写感谢信第一句就用。"
+      },
+      {
+       "type": "fill",
+       "q": "KET Part 5 式填空：I'm really good ___ swimming, but bad at running.",
+       "answer": "at",
+       "explain": "good at / bad at，后半句已给提示。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：I waited you at the bus stop for an hour!",
+       "answer": "I waited for you at the bus stop for an hour!",
+       "explain": "wait for 的 for 不能丢。"
+      },
+      {
+       "type": "correct",
+       "wrong": "写作自查：My father works in a hospital on the centre of the city.",
+       "answer": "My father works in a hospital in the centre of the city.",
+       "explain": "in the centre of… 中心在城市「内部」→ in。"
+      },
+      {
+       "type": "choice",
+       "q": "综合：Peter goes ___ school ___ foot, but ___ rainy days he takes the bus.",
+       "options": [
+        "to / on / on",
+        "to / by / in",
+        "to / on / in",
+        "at / on / on"
+       ],
+       "answer": 0,
+       "explain": "go to school + on foot + on rainy days（具体的那些天 → on）。"
+      },
+      {
+       "type": "choice",
+       "q": "综合辨析：哪句有介词错误？",
+       "options": [
+        "We arrived in London at night.",
+        "She jumped into the pool.",
+        "The cinema is between the two shops.",
+        "I'll see you in next Monday."
+       ],
+       "answer": 3,
+       "explain": "next Monday 前不加介词。其余全对。"
+      },
+      {
+       "type": "fill",
+       "q": "综合：The mouse ran ___ of the box and hid under the bed.",
+       "answer": "out",
+       "explain": "出盒子 → out of。"
+      }
+     ]
+    }
    ]
   },
   {
