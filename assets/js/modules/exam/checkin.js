@@ -58,7 +58,7 @@ export async function renderCheckin(app) {
           </div>`;
         }).join('')}
       </div>
-      <div class="text-xs text-gray-400 mt-2">今日已投入约 ${todayMin} 分钟${todayMin > 120 ? ' · 今天已经够了，明天再来 💪' : ''}</div>
+      <div class="text-xs text-gray-400 mt-2">今日已投入约 ${Math.max(todayMin, storage.getStudyTodayMinutes())} 分钟${Math.max(todayMin, storage.getStudyTodayMinutes()) > 120 ? ' · 今天已经够了，明天再来 💪' : ''} · <button id="toTimeStatsBtn" class="underline">查看时长分布</button></div>
     </div>
 
     <!-- 热力图日历（真实日期，如实显示） -->
@@ -94,6 +94,8 @@ export async function renderCheckin(app) {
   `;
 
   app.querySelector('#examBackBtn').addEventListener('click', () => window.__nav('exam-hub'));
+  const tsBtn = app.querySelector('#toTimeStatsBtn');
+  if (tsBtn) tsBtn.addEventListener('click', () => window.__nav('timestats'));
   dayData.slots.forEach(s => {
     const go = app.querySelector(`[data-goto="${s.id}"]`);
     if (go) go.addEventListener('click', () => window.__nav(s.nav, s.params || {}));
