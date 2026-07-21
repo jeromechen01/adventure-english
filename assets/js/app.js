@@ -9,6 +9,7 @@ import { renderGrammarPage } from './modules/grammar.js';
 import { renderReadingPage } from './modules/reading.js';
 import { renderWritingPage } from './modules/writing.js';
 import { renderPetTopicMap, collectPetWordsById } from './modules/pet.js';
+import { trackPage } from './study-time.js'; // V0.7 学习时长计时（前台停留，路由打点）
 // V0.4 剑桥备考中心：模块按需动态 import（减小首屏体积），路由见 navigate()
 
 // 全局状态
@@ -124,6 +125,9 @@ async function navigate(page, params = {}) {
     // PET：学习页进备考中心（轻量版）；词库闯关/阅读等原有入口不变
     page = 'exam-hub';
   }
+
+  // V0.7：学习时长打点（按最终页面归类到大模块；非学习页自动暂停计时）
+  trackPage(page, profile.grade);
 
   // 备考中心模块：动态加载 exam 目录下的模块
   if (page.startsWith('exam-')) {
