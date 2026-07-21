@@ -30,7 +30,9 @@ const KEYS = {
   EXAM_MOCKS: 'examMocks',       // { [level]: { [mockId]: {reading,writing,listening,scaled,date} } }
   EXAM_WRITING: 'examWriting',   // { [level]: { [taskId]: { text, updatedAt } } }
   EXAM_RESOURCES: 'examResources', // [resourceId,...] 已访问资源
-  EXAM_DRILLS: 'examDrills'      // { [level]: { [drillId]: { best, tries } } } 专项练习成绩
+  EXAM_DRILLS: 'examDrills',     // { [level]: { [drillId]: { best, tries } } } 专项练习成绩
+  // === V0.7 学习时长统计 ===
+  STUDY_TIME: 'studyTime'        // { [dateISO]: { [moduleId]: seconds } } 前台停留秒数，按天按模块
 };
 
 // 通用读写
@@ -617,6 +619,64 @@ export function addDailyMinutes(level, minutes) {
   all[level][day] = (all[level][day] || 0) + minutes;
   set(KEYS.EXAM_MINUTES, all);
   return all[level][day];
+}
+
+// === V0.7 学习时长统计（前台停留秒数，按天按模块；只存本地）===
+// 定位：给家长看时间分布和趋势的中性工具，与 120 分钟护栏一条心，绝不做攀比/刷时长激励。
+const STUDY_KEEP_DAYS = 90; // 只保留近 90 天，防止 localStorage 无限增长
+
+export function recordStudyTime(dateISO, moduleId, seconds) {
+  if (!dateISO || !moduleId || !(seconds > 0)) return;
+  const all = get(KEYS.STUDY_TIME, {}) || {};
+  if (!all[dateISO]) all[dateISO] = {};
+  all[dateISO][moduleId] = (all[dateISO][moduleId] || 0) + Math.round(seconds);
+  // 偶发清理：天数过多时删掉 90 天前的
+  const keys = Object.keys(all);
+  if (keys.length > STUDY_KEEP_DAYS + 30) {
+    const cutoff = new Date(Date.now() - STUDY_KEEP_DAYS * 86400000).toISOString().slice(0, 10);
+    keys.forEach(k => { if (k < cutoff) delete all[k]; });
+  }
+  set(KEYS.STUDY_TIME, all);
+}
+
+export function getDailyByModule(dateISO) {
+  const all = get(KEYS.STUDY_TIME, {}) || {};
+  return all[dateISO || todayISO()] || {};
+}
+
+export function getDailyTotal(dateISO) {
+  const day = getDailyByModule(dateISO);
+  return Object.values(day).reduce((a, b) => a + b, 0);
+}
+
+// 近 7 天每天总秒数（含今天），返回 [{ date, seconds }] 旧→新
+export function getWeekTotals() {
+  const out = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(Date.now() - i * 86400000);
+    const iso = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    out.push({ date: iso, seconds: getDailyTotal(iso) });
+  }
+  return out;
+}
+
+// 近 N 天各模块累计秒数 { moduleId: seconds }
+export function getModuleTotals(rangeDays = 30) {
+  const all = get(KEYS.STUDY_TIME, {}) || {};
+  const cutoff = new Date(Date.now() - (rangeDays - 1) * 86400000);
+  const cutoffISO = `${cutoff.getFullYear()}-${String(cutoff.getMonth() + 1).padStart(2, '0')}-${String(cutoff.getDate()).padStart(2, '0')}`;
+  const totals = {};
+  Object.keys(all).forEach(dateISO => {
+    if (dateISO >= cutoffISO) {
+      Object.entries(all[dateISO]).forEach(([m, s]) => { totals[m] = (totals[m] || 0) + s; });
+    }
+  });
+  return totals;
+}
+
+// 今天的前台停留分钟数（护栏联动用）
+export function getStudyTodayMinutes() {
+  return Math.round(getDailyTotal(todayISO()) / 60);
 }
 
 // === 语法课进度（三态：未学(无记录) / learning / done）===
