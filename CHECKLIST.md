@@ -1,6 +1,6 @@
 # 功能完成清单 · 英语奇遇记
 
-> 逐项功能明细（按 V0.1 → V0.2 → V0.3 → V0.4 时间线）。高层进度速览见 [progress.md](./progress.md)。
+> 逐项功能明细（按 V0.1 → V0.7 时间线）。高层进度速览见 [progress.md](./progress.md)。
 
 ---
 
@@ -137,6 +137,46 @@
 - [x] 最终自检：65 JSON 全效 / 全部 JS `node --check` 过 / 无西里尔与替换符乱码 / 94 个题库 id 全局唯一 / 相对 import 路径全部有效 / 16 端点冒烟全 200（后台起服务测完即停）
 - [x] 版权红线：git 零 pdf/zip/mp3 跟踪（本地官方参考资料已 gitignore）；全部练习内容原创；官方资源只外链；评分描述只做要点转述 + 原创示例
 
+## 🔄 V0.5 — KET/PET 双词库扩充（进行中，KET 已完成）
+
+### ① KET 词库（已完成）
+- [x] KET 彻底完成：**1416 词 / 1410 唯一 / 20 话题**（含 ket-extra 补遗 150 词），index + sw 已登记
+- [x] shared-a2-words.json 清单更新至 1410
+- [x] KET 前端联动：pet.js 泛化双源（KET A2 / PET B1）+ 备考中心词汇主线入口 + 错词本/错词突击/点词查义纳入 KET 词 + levels.js KET 守卫
+
+### ② PET 词库扩充（17/22 话题已扩，批 12–28）
+- [x] 已扩 17 话题至 ~100–150 词/话题，现 **2143 词**：food 152 / travel 145 / education 142 / work 132 / environment·shopping·technology 112–113 / entertainment 111 / house·health 110 / family 109 / city 106 / clothes·hobbies·animals 105 / weather 102 / sport 94
+- [x] 数据质量清理：165 条弱记忆法自动重写 + mnemonic type 归一化 742 条（中文→英文，修复前端标签降级）+ inKet 交叉标记
+- [ ] 剩余 5 话题待扩至 ~105：feelings 36 / money 36 / communication 36 / nature 36 / time 34（预计 +340 → ~2480）
+- [ ] 新增 6–7 个 B1 话题（abstract-concepts/society/science-tech/arts-culture/media/law-rules 等，各 ~130 词）冲 ~3400，新文件登记 sw.js PRECACHE + topics.json
+- [ ] 收尾：sw 缓存版本 +1 → 后台冒烟 → 回归 → 总报告
+
+---
+
+## ✅ V0.6 — KET 语法增强（缓存 `ea-v0.6.0`）
+
+### 数据层（data/exam/ket/grammar-lessons.json）
+- [x] 8 课新讲解各 **7 段结构**：本质比喻 / 为什么学 / 规则 / 注意事项 / 红黑榜 / 家长话术 / 🧵 暗线
+- [x] 8 课 × 4 环节 × 16 题 = **512 题**（基础选择 / 判断题 / 改错 / 句型转换），每题含解析
+- [x] 3 轮质检修正（L2 题干歧义 / L5 翻译备选答案 / L8 比较方向颠倒）
+
+### 前端（grammar-course.js）
+- [x] 新讲解七段式渲染；四环节闯练：洗牌选项 + 判断题 + 改错 + 转换 + 错题重练 + 环节解锁
+- [x] sw 缓存版本 v0.4.0 → **ea-v0.6.0**
+
+---
+
+## ✅ V0.7 — 学习时长统计（缓存 `ea-v0.7.0`）
+
+- [x] ① storage 时长 API：recordStudyTime / 按天按模块记录 / 周趋势 / 30 天累计 / 今日分钟，90 天自动清理
+- [x] ② 计时器 `study-time.js`：visibilitychange 暂停 + 15s 心跳 + 单次跳变上限 45s（防挂机虚计），路由打点归类 12 大模块，挂入 navigate
+- [x] ③ 学习时长页 `study-stats.js`：今日时长 + 120 分钟健康护栏状态 / 模块分布 / 7 天趋势 / 30 天累计 / 统计盲区提示 / 诚实声明（只测在页时长）
+- [x] ④ 我的页入口 + checkin 护栏对齐（取实测与六格估算的较大值，劝停口径一致）
+- [x] ⑤ sw 登记 study-time.js + study-stats.js，缓存版本 → **ea-v0.7.0**
+- [x] 自检：31 JS `node --check` 全过 / 87 JSON 全有效 / 后台冒烟核心端点全 200（测完即停）
+
+---
+
 ## 🔴 内容版权红线
 
 - [x] PET 词汇释义/例句/记忆法/阅读文章 100% 原创，未碰任何官方词表/真题/样题原文
@@ -151,9 +191,9 @@
 
 ## 📊 统计
 
-- JS 模块：**28 个**（assets/js，含 exam/ 11 个，全部 `node --check` 通过）+ `sw.js`
-- 数据文件：**65 个 JSON**（含 KET 备考 17 + PET 镜像 3 + exam 清单）
-- PET 词库：**792 词 / 22 话题全 ready**；PET 阅读：**15 篇**
-- KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 128 题
-- 勋章：20 个；Service Worker 缓存版本：**ea-v0.4.0**
+- JS 模块：**30 个**（assets/js，含 exam/ 11 个，全部 `node --check` 通过）+ `sw.js`
+- 数据文件：**87 个 JSON**（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强）
+- KET 词库：**1416 词 / 20 话题**；PET 词库：**2143 词 / 22 话题**（V0.5 扩充中）；PET 阅读：**15 篇**
+- KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v0.7.0**
 - 完整离线可用（除 CDN 资源）；目标加载 < 3 秒
