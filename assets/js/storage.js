@@ -32,7 +32,9 @@ const KEYS = {
   EXAM_RESOURCES: 'examResources', // [resourceId,...] 已访问资源
   EXAM_DRILLS: 'examDrills',     // { [level]: { [drillId]: { best, tries } } } 专项练习成绩
   // === V0.7 学习时长统计 ===
-  STUDY_TIME: 'studyTime'        // { [dateISO]: { [moduleId]: seconds } } 前台停留秒数，按天按模块
+  STUDY_TIME: 'studyTime',       // { [dateISO]: { [moduleId]: seconds } } 前台停留秒数，按天按模块
+  // === V0.8 题目级作答统计（错题加权抽题用）===
+  QUIZ_STATS: 'quizStats'        // { [qKey]: { r:对, w:错, lw:最近一次是否错, t:最后作答时间 } }
 };
 
 // 通用读写
@@ -758,6 +760,29 @@ export function saveDrillResult(level, drillId, score) {
 export function getDrillResults(level) {
   const all = get(KEYS.EXAM_DRILLS, {}) || {};
   return all[level] || {};
+}
+
+// === V0.8 题目级作答统计（供 utils/shuffle.js 的 pickQuiz 加权抽题）===
+const QUIZ_STATS_MAX = 4000; // 防 localStorage 膨胀：超上限删最旧一批
+
+export function getQuizStats() {
+  return get(KEYS.QUIZ_STATS, {}) || {};
+}
+
+export function recordQuizAnswer(qKey, correct) {
+  if (!qKey) return;
+  const all = getQuizStats();
+  const s = all[qKey] || { r: 0, w: 0, lw: false, t: 0 };
+  if (correct) { s.r++; s.lw = false; } else { s.w++; s.lw = true; }
+  s.t = Date.now();
+  all[qKey] = s;
+  const keys = Object.keys(all);
+  if (keys.length > QUIZ_STATS_MAX) {
+    keys.sort((a, b) => (all[a].t || 0) - (all[b].t || 0))
+      .slice(0, 1000)
+      .forEach(k => delete all[k]);
+  }
+  set(KEYS.QUIZ_STATS, all);
 }
 
 // === 数据导入导出 ===
