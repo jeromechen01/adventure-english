@@ -196,6 +196,7 @@
 ### 收尾
 - [x] sw 登记 utils/shuffle.js，缓存版本 → **ea-v0.8.0**
 - [x] 自检：全部 JS `node --check` 过 / 全部 JSON 有效 / 洗牌测试全过 / 后台冒烟核心端点全 200（测完即停）
+- [x] **V0.8.1 热修**：grammar-course.js 特殊词表「练这组」绑定漏一个右括号 → 线上 `SyntaxError: missing ) after argument list`、语法模块打不开，已修复。教训：`node --check` 对 ESM 检查不完整（本错未拦住），自检升级为 `tools/check-esm.mjs`（vm.SourceTextModule 逐文件 ESM 完整解析 + 全图 link 校验 import 路径与具名导出，不执行副作用），以后 JS 自检一律用它
 ---
 
 ## 🔴 内容版权红线

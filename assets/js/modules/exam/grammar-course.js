@@ -401,7 +401,7 @@ function renderLessonV2(app, level, lessonsData, l) {
         title: `⚡ ${sw[gi].groupName}`,
         onBack: drawSpecialWords
       });
-    });
+    }));
   }
 
   // --- 环节选择页 ---
