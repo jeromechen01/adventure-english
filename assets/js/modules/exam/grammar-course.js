@@ -3,6 +3,7 @@
 import { loadJSON, toast } from '../../app.js';
 import * as storage from '../../storage.js';
 import { renderLevelMap } from '../levels.js';
+import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
 import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
 
 const ZONE_STYLE = {
@@ -112,6 +113,10 @@ function renderLesson(app, level, lessonsData, l) {
   }
 
   let exIdx = 0, correctN = 0, answered = false;
+  let exercises = l.exercises; // V0.8：开始练习时洗牌（题序+选项；老题型按文本判分，选项直接洗）
+  function reshuffleExercises() {
+    exercises = shuffle(l.exercises).map(e => e.type === 'choice' && !e.noShuffle ? { ...e, options: shuffle(e.options) } : e);
+  }
 
   function drawIntro() {
     app.innerHTML = `
@@ -149,18 +154,18 @@ function renderLesson(app, level, lessonsData, l) {
     `;
     bindBack(app, 'exam-grammar');
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
-    app.querySelector('#startExBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; drawExercise(); });
+    app.querySelector('#startExBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; reshuffleExercises(); drawExercise(); });
   }
 
   function drawExercise() {
-    if (exIdx >= l.exercises.length) return drawResult();
-    const ex = l.exercises[exIdx];
+    if (exIdx >= exercises.length) return drawResult();
+    const ex = exercises[exIdx];
     answered = false;
     const typeLabel = { choice: '选择', fill: '填空', fix: '改错', transform: '句型转换' }[ex.type] || '练习';
 
     app.innerHTML = `
-      ${headerHtml(`${l.id} 练习 ${exIdx + 1}/${l.exercises.length}`)}
-      <div class="progress-bar mb-4"><div class="progress-bar-fill" style="width:${exIdx / l.exercises.length * 100}%"></div></div>
+      ${headerHtml(`${l.id} 练习 ${exIdx + 1}/${exercises.length}`)}
+      <div class="progress-bar mb-4"><div class="progress-bar-fill" style="width:${exIdx / exercises.length * 100}%"></div></div>
       <div class="card-cartoon mb-4">
         <div class="text-xs text-gray-400 mb-2">${typeLabel}</div>
         <div class="text-base font-bold mb-3">${esc(ex.q)}</div>
@@ -189,7 +194,7 @@ function renderLesson(app, level, lessonsData, l) {
           ${ok ? '' : `<div class="text-sm font-en mb-1">正确答案：<b>${esc(ex.answer)}</b></div>`}
           <div class="text-xs text-gray-600">${esc(ex.explain)}</div>
         </div>
-        <button id="nextBtn" class="w-full btn-cartoon">${exIdx + 1 >= l.exercises.length ? '看结果' : '下一题 ›'}</button>`;
+        <button id="nextBtn" class="w-full btn-cartoon">${exIdx + 1 >= exercises.length ? '看结果' : '下一题 ›'}</button>`;
       fb.querySelector('#nextBtn').addEventListener('click', () => { exIdx++; drawExercise(); });
     }
 
@@ -202,7 +207,7 @@ function renderLesson(app, level, lessonsData, l) {
   }
 
   function drawResult() {
-    const total = l.exercises.length;
+    const total = exercises.length;
     const pass = correctN / total >= 0.7;
     if (pass) storage.markLessonDone(level, l.id, 'done');
     app.innerHTML = `
@@ -217,7 +222,7 @@ function renderLesson(app, level, lessonsData, l) {
     `;
     bindBack(app, 'exam-grammar');
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
-    app.querySelector('#againBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; drawExercise(); });
+    app.querySelector('#againBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; reshuffleExercises(); drawExercise(); });
     app.querySelector('#homeBtn').addEventListener('click', () => renderGrammarCourse(app, {}));
   }
 
@@ -226,6 +231,7 @@ function renderLesson(app, level, lessonsData, l) {
 
 // === V0.6 课程详情（增强讲解 + 四环节练习）===
 const STAGE_PASS = 0.7; // 环节通过线
+const STAGE_TAKE = 16;  // 每次实际做的题数（题库超量时随机抽这么多，预留扩容空间）
 
 function stageKey(lessonId, stage) { return `grammar-${lessonId}-s${stage}`; }
 
@@ -239,7 +245,8 @@ function renderLessonV2(app, level, lessonsData, l) {
   function stagePassed(stage) {
     const s = l.stages.find(x => x.stage === stage);
     const best = stageBest(stage);
-    return best !== null && s && best / s.questions.length >= STAGE_PASS;
+    // 分母用单次实际做的题数（题库可能超量），而不是题库总量
+    return best !== null && s && best / Math.min(STAGE_TAKE, s.questions.length) >= STAGE_PASS;
   }
 
   // --- 讲解页 ---
@@ -339,7 +346,7 @@ function renderLessonV2(app, level, lessonsData, l) {
               <span class="text-2xl">${locked ? '🔒' : passed ? '✅' : ['🌱', '🎯', '⚔️', '🏆'][i] || '📝'}</span>
               <div class="flex-1">
                 <div class="font-bold text-sm">环节 ${s.stage} · ${s.name} <span class="text-amber-500">${stars}</span></div>
-                <div class="text-xs text-gray-500">${best !== null ? `最好成绩 ${best}/${s.questions.length}${passed ? ' · 已通过' : ''}` : locked ? '先通过上一环节解锁' : '16 题 · 未挑战'}</div>
+                <div class="text-xs text-gray-500">${best !== null ? `最好成绩 ${best}/${Math.min(STAGE_TAKE, s.questions.length)}${passed ? ' · 已通过' : ''}` : locked ? '先通过上一环节解锁' : `${Math.min(STAGE_TAKE, s.questions.length)} 题 · 未挑战`}</div>
               </div>
               <span class="text-xl text-gray-300">›</span>
             </div>
@@ -360,7 +367,18 @@ function renderLessonV2(app, level, lessonsData, l) {
   }
 
   // --- 练习引擎（支持 choice / tf / fill / correct / transform）---
-  function runQuiz(s, questions, isRetry) {
+  // V0.8：每次进入重新洗牌——题池抽样(错题加权) + 题序打乱 + 选项洗牌(answer 同步重算)。
+  // 同一次作答过程中顺序固定（进场时一次性生成展示副本）。
+  function runQuiz(s, srcQuestions, isRetry) {
+    const scope = `${level}:${l.id}:s${s.stage}`;
+    let questions;
+    if (isRetry) {
+      questions = shuffle(srcQuestions).map(q => presentQuestion(scope, q));
+    } else {
+      const picked = pickQuiz(scope, srcQuestions, STAGE_TAKE, storage.getQuizStats());
+      questions = picked.questions.map(q => presentQuestion(scope, q));
+      if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+    }
     let idx = 0, correctN = 0, answered = false;
     const wrongList = [];
 
@@ -377,12 +395,10 @@ function renderLessonV2(app, level, lessonsData, l) {
 
       let body = '';
       if (q.type === 'choice') {
-        // 洗牌选项，记录原始下标
-        const order = q.options.map((_, i) => i);
-        for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+        // 选项已在 presentQuestion 时洗好（answer 同步重算），这里按序渲染即可
         body = `<div class="text-base font-bold mb-3">${esc(q.q)}</div>
           <div class="space-y-2">
-            ${order.map(oi => `<button data-oi="${oi}" class="opt-btn w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-left font-en tap-bounce" style="min-height:48px">${esc(q.options[oi])}</button>`).join('')}
+            ${q.options.map((o, oi) => `<button data-oi="${oi}" class="opt-btn w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-left font-en tap-bounce" style="min-height:48px">${esc(o)}</button>`).join('')}
           </div>`;
       } else if (q.type === 'tf') {
         body = `<div class="text-base font-bold mb-3">${esc(q.q)}</div>
@@ -422,6 +438,7 @@ function renderLessonV2(app, level, lessonsData, l) {
       function finish(ok, correctShown) {
         if (answered) return;
         answered = true;
+        storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先
         if (ok) correctN++; else wrongList.push(q);
         const fb = app.querySelector('#feedback');
         fb.innerHTML = `
@@ -480,7 +497,7 @@ function renderLessonV2(app, level, lessonsData, l) {
           <p class="text-sm text-gray-600 mt-2">${pass ? (unlockedMsg || '通过！记得今天把它「用出来」——只做题不输出＝没学。') : '差一点点，看看下面的错题，重练一遍就能过。'}</p>
         </div>
         ${wrongList.length ? `<button id="retryWrongBtn" class="w-full btn-cartoon mb-3" style="min-height:48px">🔁 错题重练（${wrongList.length} 题）</button>` : ''}
-        <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">再练整个环节</button>
+        <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🎲 换一批重做（题目会变）</button>
         <button id="stagesBtn" class="w-full btn-cartoon" style="min-height:48px">回环节列表</button>
       `;
       bindBack(app, 'exam-grammar');

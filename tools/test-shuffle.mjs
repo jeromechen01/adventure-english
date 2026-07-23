@@ -81,6 +81,10 @@ for (let round = 0; round < 50; round++) {
   const a = presentQuestion('s', q), b = presentQuestion('s', q);
   check('指纹稳定', a.__qk === b.__qk && a.__qk.startsWith('s#'));
   check('present answer 正确', a.options[a.answer] === 'y');
+  // 对已洗过的副本再 present（错题重练场景）：指纹不变、answer 仍指向同一文本
+  const c = presentQuestion('s', a);
+  check('二次 present 指纹不变', c.__qk === a.__qk);
+  check('二次 present answer 正确', c.options[c.answer] === 'y');
 }
 
 // ④ 真实题库全量验证：所有带 options+数字 answer 的题洗 20 轮

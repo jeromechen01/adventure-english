@@ -25,7 +25,7 @@ function hashText(s) {
 export function questionKey(scope, q) {
   const parts = [
     q.q || q.question || q.wrong || q.from || '',
-    Array.isArray(q.options) ? q.options.join('~') : '',
+    Array.isArray(q.options) ? [...q.options].sort().join('~') : '', // 排序后哈希：指纹与选项当前顺序无关
     typeof q.answer === 'string' ? q.answer : (typeof q.answer === 'boolean' ? String(q.answer) : '')
   ];
   return scope + '#' + hashText(parts.join('|'));
@@ -74,7 +74,7 @@ export function pickQuiz(scope, questions, count, stats = {}) {
 // 便捷：把一题变成"进场即洗好选项"的展示副本，并带上稳定指纹 __qk（供记错题统计）。
 // 同一次作答过程中用这个副本，顺序就固定了；下次进入重新调用即重新洗。
 export function presentQuestion(scope, q) {
-  const key = questionKey(scope, q);
+  const key = q.__qk || questionKey(scope, q);
   const v = shuffleOptions(q);
   return { ...q, options: v.options, answer: v.answer, __qk: key };
 }
