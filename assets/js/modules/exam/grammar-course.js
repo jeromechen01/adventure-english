@@ -4,6 +4,7 @@ import { loadJSON, toast } from '../../app.js';
 import * as storage from '../../storage.js';
 import { renderLevelMap } from '../levels.js';
 import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
+import { speak } from '../../speech.js';
 import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
 
 const ZONE_STYLE = {
@@ -321,11 +322,86 @@ function renderLessonV2(app, level, lessonsData, l) {
         <div class="text-sm text-gray-700">🎯 ${l.accept}</div>
       </div>` : ''}
 
+      ${Array.isArray(l.specialWords) && l.specialWords.length ? `
+      <button id="specialWordsBtn" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left mb-3 bg-gradient-to-r from-yellow-50 to-amber-50 border-2 border-amber-200" style="min-height:56px">
+        <span class="text-3xl">⚡</span>
+        <div class="flex-1"><div class="font-bold text-sm">特殊单词表（${l.specialWords.length} 组）</div><div class="text-xs text-gray-500">本课的不规则/特殊变化词，按规律分组集中记 · 可闯关</div></div>
+        <span class="text-xl text-gray-300">›</span>
+      </button>` : ''}
+
       <button id="toStagesBtn" class="w-full btn-cartoon">✏️ 四环节闯练（${l.stages.length} 环节 × 16 题）</button>
     `;
     bindBack(app, 'exam-grammar');
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
     app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
+    const swBtn = app.querySelector('#specialWordsBtn');
+    if (swBtn) swBtn.addEventListener('click', drawSpecialWords);
+  }
+
+  // --- ⚡ 特殊单词表（V0.8）：分组卡片 + 点击朗读 + 一键闯关 ---
+  function drawSpecialWords() {
+    const sw = l.specialWords || [];
+    const totalWords = sw.reduce((a, g) => a + g.words.length, 0);
+    // 特殊词 → 闯关用词对象（word 显示"原形 → 变化形"，meaning 用中文）
+    const toWords = (gi, g) => g.words.map((w, wi) => ({
+      id: `sp-${l.id}-${gi}-${wi}`,
+      word: w.base === w.form ? w.form : `${w.base} → ${w.form}`,
+      phonetic: w.phonetic || '',
+      pos: '',
+      meaning: w.zh,
+      examples: w.ex ? [{ en: w.ex, zh: '' }] : []
+    }));
+
+    app.innerHTML = `
+      ${headerHtml(`⚡ ${l.id} 特殊单词表`)}
+      <p class="text-xs text-gray-500 mb-3">按变化规律分组 · <span class="text-amber-500">★</span> = KET 高频 · 点任意一行可朗读</p>
+      <button id="spMixBtn" class="w-full btn-cartoon mb-4" style="min-height:48px">🎯 全部混合闯关（${totalWords} 词）</button>
+      ${sw.map((g, gi) => `
+        <div class="card-cartoon mb-3">
+          <div class="font-bold text-sm mb-1">${esc(g.groupName)}</div>
+          ${g.rule ? `<p class="text-xs text-gray-600 mb-2">${esc(g.rule)}</p>` : ''}
+          <div class="space-y-1 mb-2">
+            ${g.words.map((w, wi) => `
+              <button data-sp="${gi}-${wi}" class="w-full text-left rounded-xl px-3 py-2 tap-bounce ${w.high ? 'bg-amber-50' : 'bg-gray-50'}" style="min-height:48px">
+                <div class="flex items-center gap-1.5">
+                  <span class="font-en text-sm flex-1" style="word-break:break-word">${w.base === w.form ? `<b>${esc(w.form)}</b>` : `${esc(w.base)} <span class="text-gray-400">→</span> <b class="text-primary">${esc(w.form)}</b>`}</span>
+                  ${w.high ? '<span class="text-amber-500 text-sm">★</span>' : ''}
+                  <span class="text-base">🔊</span>
+                </div>
+                <div class="text-xs text-gray-500 mt-0.5">${w.phonetic ? `<span class="font-en">${esc(w.phonetic)}</span> · ` : ''}${esc(w.zh)}</div>
+                ${w.ex ? `<div class="text-[11px] text-gray-400 mt-0.5 font-en">${esc(w.ex)}</div>` : ''}
+              </button>`).join('')}
+          </div>
+          ${g.words.length >= 4 ? `<button data-spgroup="${gi}" class="w-full btn-cartoon btn-cartoon-secondary" style="min-height:48px">🎯 练这组（${g.words.length} 词）</button>` : ''}
+        </div>`).join('')}
+    `;
+    bindBack(app, 'exam-grammar');
+    app.querySelector('#examBackBtn').onclick = drawIntro;
+
+    // 点行朗读（读变化形；斜杠读成停顿）
+    app.querySelectorAll('[data-sp]').forEach(b => b.addEventListener('click', () => {
+      const [gi, wi] = b.dataset.sp.split('-').map(Number);
+      const w = sw[gi].words[wi];
+      speak(String(w.form).replace(/\s*[/→]\s*/g, ', '));
+    }));
+    // 一键闯关：全部混合 / 单组
+    app.querySelector('#spMixBtn').addEventListener('click', () => {
+      renderLevelMap(app, {
+        words: shuffle(sw.flatMap((g, gi) => toWords(gi, g))),
+        progressKey: `${level}:sp-${l.id}`,
+        title: `⚡ ${l.id} 特殊词混合闯关`,
+        onBack: drawSpecialWords
+      });
+    });
+    app.querySelectorAll('[data-spgroup]').forEach(b => b.addEventListener('click', () => {
+      const gi = Number(b.dataset.spgroup);
+      renderLevelMap(app, {
+        words: toWords(gi, sw[gi]),
+        progressKey: `${level}:sp-${l.id}-g${gi}`,
+        title: `⚡ ${sw[gi].groupName}`,
+        onBack: drawSpecialWords
+      });
+    });
   }
 
   // --- 环节选择页 ---
