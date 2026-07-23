@@ -196,7 +196,7 @@
 ### 收尾
 - [x] sw 登记 utils/shuffle.js，缓存版本 → **ea-v0.8.0**
 - [x] 自检：全部 JS `node --check` 过 / 全部 JSON 有效 / 洗牌测试全过 / 后台冒烟核心端点全 200（测完即停）
-- [x] **V0.8.1 热修**：grammar-course.js 特殊词表「练这组」绑定漏一个右括号 → 线上 `SyntaxError: missing ) after argument list`、语法模块打不开，已修复。教训：`node --check` 对 ESM 检查不完整（本错未拦住），自检升级为 `tools/check-esm.mjs`（vm.SourceTextModule 逐文件 ESM 完整解析 + 全图 link 校验 import 路径与具名导出，不执行副作用），以后 JS 自检一律用它
+- [x] **V0.8.1 热修**：grammar-course.js 特殊词表「练这组」绑定漏一个右括号 → 线上 `SyntaxError: missing ) after argument list`、语法模块打不开，已修复。教训：`node --check` 对 ESM 检查不完整（本错未拦住），自检升级为 `tools/check-esm.mjs`（vm.SourceTextModule 逐文件 ESM 完整解析 + 全图 link 校验 import 路径与具名导出，不执行副作用），以后 JS 自检一律用它；缓存版本 → **ea-v0.8.1**（坏文件已被 v0.8.0 缓存，必须 bump 才能刷掉）
 ---
 
 ## 🔴 内容版权红线
@@ -217,5 +217,5 @@
 - 数据文件：**87 个 JSON**（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2143 词 / 22 话题**（V0.5 扩充中）；PET 阅读：**15 篇**
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v0.8.0**
+- 勋章：20 个；Service Worker 缓存版本：**ea-v0.8.1**
 - 完整离线可用（除 CDN 资源）；目标加载 < 3 秒
