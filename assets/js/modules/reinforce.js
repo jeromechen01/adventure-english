@@ -5,6 +5,7 @@ import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
 import { checkBadges } from '../gamification.js';
 import { collectPetWordsById } from './pet.js';
+import { shuffle } from '../utils/shuffle.js';
 
 let wordIndexCache = null;
 async function buildWordIndex() {
@@ -19,15 +20,6 @@ async function buildWordIndex() {
   await collectPetWordsById(idx);
   wordIndexCache = idx;
   return idx;
-}
-
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
 }
 
 export async function renderReinforce(app) {

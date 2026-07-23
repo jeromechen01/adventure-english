@@ -5,18 +5,11 @@ import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
 import { toast } from '../app.js';
 import { rollCardRarity, checkBadges } from '../gamification.js';
+import { shuffle } from '../utils/shuffle.js';
 
 const PET_STAGES = ['🥚', '🐣', '🐤', '🦊', '🦁'];
 
 // ---------- 通用小工具 ----------
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 const speechOK = typeof window !== 'undefined' && 'speechSynthesis' in window;
 
 // ============================================================
@@ -593,7 +586,7 @@ export function startLevel(app, opts) {
         <div id="chestSlot" class="mb-3"></div>
         <div id="badgeSlot" class="mb-3"></div>
         <div class="flex gap-3 mt-2">
-          <button id="retryBtn" class="flex-1 btn-cartoon btn-cartoon-secondary">再玩一次</button>
+          <button id="retryBtn" class="flex-1 btn-cartoon btn-cartoon-secondary">🎲 换一批再玩</button>
           <button id="mapBtn" class="flex-1 btn-cartoon">🗺️ 回地图</button>
         </div>
       </div>
@@ -710,7 +703,7 @@ export function startLevel(app, opts) {
         </div>
         <div class="text-sm text-gray-500 mb-5">再试一次说不定就过了！</div>
         <div class="flex gap-3">
-          <button id="retryBtn" class="flex-1 btn-cartoon">🔄 重新挑战</button>
+          <button id="retryBtn" class="flex-1 btn-cartoon">🔄 重新挑战（题目会变）</button>
           <button id="mapBtn" class="flex-1 btn-cartoon btn-cartoon-secondary">回地图</button>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { loadJSON, toast } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound, recognize, similarity, isSpeechRecognitionSupported, stopSpeaking } from '../speech.js';
 import { renderRecite } from './recite.js';
+import { pickQuiz, presentQuestion } from '../utils/shuffle.js';
 import { collectPetWordsForIndex } from './pet.js';
 
 // 缓存所有单词的本地词库 (用于点词查义)
@@ -60,7 +61,8 @@ async function loadPetReading() {
 function normalizeQuestions(article) {
   return (article.questions || []).map(q => {
     if (q.type === 'truefalse' && !Array.isArray(q.options)) {
-      return { ...q, options: ['正确 (True)', '错误 (False)'], answer: (q.answer === true || q.answer === 0) ? 0 : 1 };
+      // noShuffle：对/错的展示顺序固定，洗了反而添乱
+      return { ...q, options: ['正确 (True)', '错误 (False)'], answer: (q.answer === true || q.answer === 0) ? 0 : 1, noShuffle: true };
     }
     return q;
   });
@@ -234,7 +236,12 @@ async function renderArticle(app, data, articleId) {
   }
 
   function renderQuiz() {
-    let answers = new Array(quizQuestions.length).fill(null);
+    // V0.8 每次进入重新洗牌：题序打乱+错题加权+选项洗牌(answer 同步重算)；作答过程中固定
+    const scope = `read:${article.id}`;
+    const picked = pickQuiz(scope, quizQuestions, quizQuestions.length, storage.getQuizStats());
+    const qs = picked.questions.map(q => presentQuestion(scope, q));
+    if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+    let answers = new Array(qs.length).fill(null);
     let submitted = false;
 
     function paint() {
@@ -245,7 +252,7 @@ async function renderArticle(app, data, articleId) {
         </div>
 
         <div class="space-y-3">
-          ${quizQuestions.map((q, qi) => `
+          ${qs.map((q, qi) => `
             <div class="card-cartoon">
               <div class="text-xs text-gray-400 mb-1">第 ${qi+1} 题</div>
               <div class="font-en mb-3">${q.q}</div>
@@ -285,13 +292,14 @@ async function renderArticle(app, data, articleId) {
             return;
           }
           submitted = true;
-          // 计分
-          const correct = answers.filter((a, i) => a === quizQuestions[i].answer).length;
+          // 计分 + 题目级统计（错题下次优先出）
+          const correct = answers.filter((a, i) => a === qs[i].answer).length;
+          qs.forEach((q, i) => storage.recordQuizAnswer(q.__qk, answers[i] === q.answer));
           const reward = correct * 5;
           storage.addCoins(reward);
           storage.progressDailyTask('reading1', 1);
-          playSound(correct === quizQuestions.length ? 'levelup' : 'correct');
-          toast(`答对 ${correct}/${quizQuestions.length} 题，+${reward}🪙`, 'success');
+          playSound(correct === qs.length ? 'levelup' : 'correct');
+          toast(`答对 ${correct}/${qs.length} 题，+${reward}🪙`, 'success');
           paint();
         });
       } else {

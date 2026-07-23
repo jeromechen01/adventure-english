@@ -2,6 +2,7 @@
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
 import { toast } from '../app.js';
+import { shuffle } from '../utils/shuffle.js';
 
 export function renderMatchGame(app, data, grade) {
   // 把所有单词扁平化
@@ -19,14 +20,6 @@ export function renderMatchGame(app, data, grade) {
   let score = 0;
   let combo = 0;
 
-  function shuffle(arr) {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
 
   function renderRound() {
     if (idx >= queue.length) return renderEnd();

@@ -565,9 +565,7 @@ function renderVerbs(app, level, verbs) {
     });
   });
   app.querySelector('#mixBtn').addEventListener('click', () => {
-    const all = verbs.groups.flatMap(toWords);
-    // 混查：打乱顺序
-    for (let i = all.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [all[i], all[j]] = [all[j], all[i]]; }
+    const all = shuffle(verbs.groups.flatMap(toWords));
     renderLevelMap(app, {
       words: all,
       progressKey: `${level}:irr-mix`,

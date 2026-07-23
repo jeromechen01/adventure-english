@@ -4,6 +4,7 @@ import { loadJSON, toast } from '../../app.js';
 import * as storage from '../../storage.js';
 import { speak, stopSpeaking } from '../../speech.js';
 import { renderRecite } from '../recite.js';
+import { pickQuiz, presentQuestion } from '../../utils/shuffle.js';
 import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
 
 let timedTimer = null; // 限时模式计时器（离开页面要清）
@@ -109,6 +110,18 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish) {
   else if (partKey === 'part3' || partKey === 'part4') items = set.questions || set.gaps;
   else items = set.gaps;
 
+  // V0.8 每次进入重新洗牌：
+  // - Part 4/5 的空格按文章顺序编号（第 N 空对应文中第 N 个空），题序不能乱，只洗选项
+  // - 其余 Part 题序打乱 + 错题加权；选项洗牌 answer 同步重算（presentQuestion 一次生成，作答中固定）
+  const scope = `drill:${set.id}`;
+  const positional = partKey === 'part4' || partKey === 'part5';
+  if (!positional) {
+    const picked = pickQuiz(scope, items, items.length, storage.getQuizStats());
+    items = picked.questions;
+    if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+  }
+  items = items.map(it => presentQuestion(scope, it));
+
   let idx = 0, correct = 0;
   const total = items.length;
 
@@ -164,6 +177,7 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish) {
       } else {
         ok = Number(user) === it.answer;
       }
+      storage.recordQuizAnswer(it.__qk, ok);
       if (ok) correct++;
       const fb = app.querySelector('#feedback');
       fb.innerHTML = `
@@ -197,10 +211,12 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish) {
         <div class="text-3xl font-black">${correct} / ${total}</div>
         <div class="text-sm text-gray-600 mt-1">正确率 ${pct}%${partKey === 'part5' ? '（验收线：4/6 以上）' : ''}</div>
       </div>
+      <button id="redoBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-2">🎲 换一批重做（题目会变）</button>
       <button id="backBtn2" class="w-full btn-cartoon">返回题目列表</button>
     `;
     bindBack(app, 'exam-reading');
     app.querySelector('#examBackBtn').onclick = onBack;
+    app.querySelector('#redoBtn').addEventListener('click', () => runDrillSet(app, level, partKey, set, onBack, onFinish));
     app.querySelector('#backBtn2').addEventListener('click', onBack);
   }
 
@@ -312,8 +328,10 @@ async function renderListening(app, level, params) {
 // 听力套题运行器（导出供模考复用）：onFinish(correct,total) 提供时接管结算
 export function runListeningSet(app, level, set, onBackFn, onFinish) {
   // 展平：每部分的题目带上 script
+  // V0.8：听力题序跟录音脚本顺序走（不能乱），只洗每题选项（answer 同步重算）
+  const lisScope = `lis:${set.id}`;
   const flat = [];
-  set.parts.forEach(p => p.questions.forEach(q => flat.push({ ...q, partNo: p.part, partName: p.name, script: q.script || p.script })));
+  set.parts.forEach(p => p.questions.forEach(q => flat.push(presentQuestion(lisScope, { ...q, partNo: p.part, partName: p.name, script: q.script || p.script }))));
   let idx = 0, correct = 0;
 
   function playTwice(text) {
@@ -360,6 +378,7 @@ export function runListeningSet(app, level, set, onBackFn, onFinish) {
         const norm = s => String(s).trim().toLowerCase().replace(/[.\s]+/g, '');
         ok = [it.answer].concat(it.alt || []).map(norm).includes(norm(user));
       }
+      storage.recordQuizAnswer(it.__qk, ok);
       if (ok) correct++;
       const fb = app.querySelector('#feedback');
       fb.innerHTML = `

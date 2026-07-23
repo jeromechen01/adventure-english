@@ -1,6 +1,7 @@
 // games/shoot-game.js - 单词打地鼠 (限时 60 秒)
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
+import { shuffle } from '../utils/shuffle.js';
 
 export function renderShootGame(app, data, grade) {
   const allWords = data.units.flatMap(u => u.words);
@@ -19,14 +20,6 @@ export function renderShootGame(app, data, grade) {
   let activeMoles = []; // 当前在屏幕上的字
   let isStarted = false;
 
-  function shuffle(arr) {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
 
   function pickNewTarget() {
     const others = shuffle(allWords).slice(0, 5);

@@ -1,7 +1,8 @@
 // modules/grammar.js - 语法学院
-import { loadJSON } from '../app.js';
+import { loadJSON, toast } from '../app.js';
 import * as storage from '../storage.js';
 import { playSound } from '../speech.js';
+import { pickQuiz, presentQuestion } from '../utils/shuffle.js';
 
 export async function renderGrammarPage(app, params) {
   const profile = storage.getProfile();
@@ -53,6 +54,15 @@ function renderTopic(app, data, topicId) {
   let mode = 'study'; // study | quiz
   let qIdx = 0;
   let qScore = 0;
+  let quizList = topic.quiz;
+
+  // V0.8 每次开始练习重新洗牌：题序打乱+错题加权抽样+选项洗牌(answer 同步重算)
+  function prepareQuiz() {
+    const scope = `g19:${topicId}`;
+    const picked = pickQuiz(scope, topic.quiz, topic.quiz.length, storage.getQuizStats());
+    quizList = picked.questions.map(q => presentQuestion(scope, q));
+    if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+  }
 
   function render() {
     if (mode === 'study') renderStudy();
@@ -93,25 +103,26 @@ function renderTopic(app, data, topicId) {
     app.querySelector('#backBtn').addEventListener('click', () => window.__nav('grammar'));
     app.querySelector('#quizBtn').addEventListener('click', () => {
       mode = 'quiz'; qIdx = 0; qScore = 0;
+      prepareQuiz();
       render();
     });
   }
 
   function renderQuiz() {
-    if (qIdx >= topic.quiz.length) return renderQuizResult();
+    if (qIdx >= quizList.length) return renderQuizResult();
 
-    const q = topic.quiz[qIdx];
+    const q = quizList[qIdx];
     let answered = false;
 
     app.innerHTML = `
       <div class="flex items-center gap-2 mb-3">
         <button id="backBtn" class="text-2xl">‹</button>
         <h2 class="text-base font-bold">${topic.title}</h2>
-        <span class="ml-auto text-sm text-gray-500">${qIdx + 1}/${topic.quiz.length}</span>
+        <span class="ml-auto text-sm text-gray-500">${qIdx + 1}/${quizList.length}</span>
       </div>
 
       <div class="progress-bar mb-4">
-        <div class="progress-bar-fill" style="width:${(qIdx / topic.quiz.length) * 100}%"></div>
+        <div class="progress-bar-fill" style="width:${(qIdx / quizList.length) * 100}%"></div>
       </div>
 
       <div class="card-cartoon mb-4">
@@ -146,6 +157,7 @@ function renderTopic(app, data, topicId) {
           }
         });
 
+        storage.recordQuizAnswer(q.__qk, correct);
         playSound(correct ? 'correct' : 'wrong');
         if (correct) {
           qScore++;
@@ -158,7 +170,7 @@ function renderTopic(app, data, topicId) {
           <div class="card-cartoon ${correct ? 'bg-green-50' : 'bg-red-50'} fade-in">
             <div class="font-bold mb-1">${correct ? '✅ 答对了！' : '❌ 答错了'}</div>
             <div class="text-sm">${q.explanation}</div>
-            <button id="nextBtn" class="btn-cartoon mt-3 w-full">${qIdx + 1 >= topic.quiz.length ? '查看结果' : '下一题 →'}</button>
+            <button id="nextBtn" class="btn-cartoon mt-3 w-full">${qIdx + 1 >= quizList.length ? '查看结果' : '下一题 →'}</button>
           </div>
         `;
         app.querySelector('#nextBtn').addEventListener('click', () => {
@@ -170,7 +182,7 @@ function renderTopic(app, data, topicId) {
   }
 
   function renderQuizResult() {
-    const total = topic.quiz.length;
+    const total = quizList.length;
     const percent = Math.round((qScore / total) * 100);
 
     app.innerHTML = `
@@ -182,12 +194,14 @@ function renderTopic(app, data, topicId) {
           <div class="text-4xl font-bold text-primary my-2">${qScore} / ${total}</div>
           <div class="text-sm">${percent === 100 ? '满分！知识点掌握得很扎实' : percent >= 60 ? '通过了，再练几遍会更好' : '建议再回去复习一下规则'}</div>
         </div>
-        <div class="flex gap-3 mt-6">
+        <button id="redoBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-6">🎲 换一批重做（题目会变）</button>
+        <div class="flex gap-3 mt-3">
           <button id="reviewBtn" class="flex-1 btn-cartoon btn-cartoon-secondary">回顾规则</button>
           <button id="doneBtn" class="flex-1 btn-cartoon">完成</button>
         </div>
       </div>
     `;
+    app.querySelector('#redoBtn').addEventListener('click', () => { mode = 'quiz'; qIdx = 0; qScore = 0; prepareQuiz(); render(); });
     app.querySelector('#reviewBtn').addEventListener('click', () => { mode = 'study'; render(); });
     app.querySelector('#doneBtn').addEventListener('click', () => window.__nav('grammar'));
     if (percent === 100) playSound('levelup');
