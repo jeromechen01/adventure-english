@@ -42,6 +42,17 @@
       "file": "./data/grammar/g03.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G04",
+      "tier": "基石",
+      "title": "be 动词",
+      "metaphor": "be = 英语的等号",
+      "ketRelevance": 2,
+      "ketLessonMap": ["L1"],
+      "file": "./data/grammar/g04.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

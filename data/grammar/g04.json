@@ -1,0 +1,318 @@
+{
+  "$comment": "语法大厅 G04（V0.9 P1b）。比喻与 KET 八课 L1 字面一致：be 动词就是英语的等号。暗线主打：be 的多词根缝合。全部内容原创。",
+  "id": "G04",
+  "tier": "基石",
+  "title": "be 动词",
+  "metaphor": "be = 英语的等号",
+  "ketRelevance": 2,
+  "ketLessonMap": ["L1"],
+  "ketNote": "漏 be（I very happy）是 KET 写作黄区常客；be 的形态配对是 Part 5 送分空。八课里的亲戚是 L1。",
+  "source": "original",
+  "sections": {
+    "essence": "be 动词就是英语的等号：把「谁」和「是什么、怎么样、在哪里」连起来。",
+    "why": "中文说「我很开心」，三个字直接相连——「很」悄悄占了动词的位置，所以你感觉不到句子里少了什么。但英语有条铁规矩：每句话必须有一个动词。句子里没有动作（不跑不跳不吃不唱）的时候，be 就顶上来当那个动词，像数学里的等号：I = happy 写成 I am happy。省掉它，句子就像「3 + 2　5」——少了等号，谁也看不懂两边是什么关系。这个等号还挑人：我配 am，单数的他她它配 is，你和复数的大家配 are；说昨天的事，等号换成 was 和 were。",
+    "metaphorStory": "开演前的点名时间，报幕员逐个介绍：「我=队长」「她=长笛手」「我们=银帆乐团」。每句话里都藏着一个看不见的等号。英语把这个等号真的写了出来：I am the leader. She is a flute player. We are Yinfan Band. 等号左边站谁，等号就换形状：I 专用 am；一个人一件东西用 is；you 和一群人用 are。回忆昨天的演出，等号也要穿昨天的衣服：The concert was wonderful. We were so happy. 记住：没有动作的句子不是不需要动词——是需要一个等号，而 be 就是那个等号。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "现在的三个等号：am / is / are",
+          "detail": "I 配 am；he / she / it 和单数名词配 is；you / we / they 和复数配 are。",
+          "example": "I am ten. / She is tall. / They are twins."
+        },
+        {
+          "rule": "昨天的两个等号：was / were",
+          "detail": "am 和 is 的昨天都是 was；are 的昨天是 were。",
+          "example": "I was at home. / You were late yesterday."
+        },
+        {
+          "rule": "等号右边接三样东西",
+          "detail": "是什么（名词）、怎么样（形容词）、在哪里（地点）。",
+          "example": "He is a singer. / He is happy. / He is in the hall."
+        },
+        {
+          "rule": "否定：be 后面直接加 not",
+          "detail": "isn't / aren't / wasn't / weren't；注意 am not 没有缩写。",
+          "example": "She isn't here. / I'm not afraid."
+        },
+        {
+          "rule": "提问：be 自己搬到句首",
+          "detail": "be 自己就是动词，不用请 do 帮忙——这是它的特权。",
+          "example": "Are you ready? — Yes, I am.（句尾不缩写）"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I am a student.", "cn": "我是一名学生。（我=学生）" },
+          { "en": "She is my music teacher.", "cn": "她是我的音乐老师。" },
+          { "en": "We are good friends.", "cn": "我们是好朋友。" },
+          { "en": "The drum is big.", "cn": "这面鼓很大。（鼓=大）" },
+          { "en": "My parents are at work.", "cn": "我爸妈在上班。（爸妈=在单位）" }
+        ],
+        "mid": [
+          { "en": "The weather is nice today.", "cn": "今天天气很好。（中文说「天气很好」没动词，英语要等号）" },
+          { "en": "Are you ready for the concert?", "cn": "你准备好演出了吗？" },
+          { "en": "I was at the music room an hour ago.", "cn": "一小时前我在音乐教室。" },
+          { "en": "The twins were born in Beijing.", "cn": "双胞胎出生在北京。" },
+          { "en": "She isn't afraid of the dark.", "cn": "她不怕黑。" }
+        ],
+        "trap": [
+          { "en": "I am very happy today.", "cn": "我今天很开心。", "note": "中文的「很」占了动词位，英语的 very 占不了——等号 am 必须在。" },
+          { "en": "— Are you a new student? — Yes, I am.", "cn": "——你是新生吗？——是的。", "note": "简答句尾的 be 不能缩写：不说 Yes, I'm。" },
+          { "en": "I'm not tired at all.", "cn": "我一点也不累。", "note": "am not 没有缩写形式——没有 amn't 这个词。" },
+          { "en": "Ten yuan is enough for the ticket.", "cn": "十块钱买票够了。", "note": "钱数、时间段当一个整体看，用 is 不用 are。" },
+          { "en": "Were you at school yesterday?", "cn": "你昨天在学校吗？", "note": "you 的等号永远是 are/were，哪怕只问一个人。" },
+          { "en": "There is no rehearsal today, so everyone is free.", "cn": "今天不排练，所以大家都有空。", "note": "everyone 看着是「大家」，语法上算单数——配 is。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "She is play the piano.",
+        "good": "She plays the piano. / She is playing the piano.",
+        "zone": "blocks",
+        "why": "be 和动词原形叠在一起，听的人分不清你说「她会弹」还是「她正在弹」——两个意思打架。"
+      },
+      {
+        "bad": "I was go to the concert yesterday.",
+        "good": "I went to the concert yesterday.",
+        "zone": "blocks",
+        "why": "was 和 go 撞车，到底去没去成说不清——有动作的句子不需要等号，动词自己变过去式。"
+      },
+      {
+        "bad": "I very happy.",
+        "good": "I am very happy.",
+        "zone": "tested",
+        "why": "中文「很」占动词位的惯性——英语每句必须有动词，这里缺等号 am。"
+      },
+      {
+        "bad": "He am my best friend.",
+        "good": "He is my best friend.",
+        "zone": "tested",
+        "why": "am 是 I 的专用等号，he 要配 is。"
+      },
+      {
+        "bad": "You is a good singer.",
+        "good": "You are a good singer.",
+        "zone": "tested",
+        "why": "you 永远配 are，单数复数都一样。"
+      },
+      {
+        "bad": "They was at home last night.",
+        "good": "They were at home last night.",
+        "zone": "tested",
+        "why": "they 的昨天等号是 were。"
+      },
+      {
+        "bad": "She not happy now.",
+        "good": "She is not happy now.",
+        "zone": "tested",
+        "why": "not 不能自己站，要挂在等号后面：is not / isn't。"
+      },
+      {
+        "bad": "Is they in the same class?",
+        "good": "Are they in the same class?",
+        "zone": "tested",
+        "why": "提问时等号搬家，但形状不变——they 配 are。"
+      },
+      {
+        "bad": "The shoes is new.",
+        "good": "The shoes are new.",
+        "zone": "tested",
+        "why": "shoes 是复数，等号用 are——左边站谁，等号听谁的。"
+      },
+      {
+        "bad": "— Are you ready? — Yes, I'm.",
+        "good": "— Are you ready? — Yes, I am.",
+        "zone": "tested",
+        "why": "简答句尾的 be 不能缩写。"
+      },
+      {
+        "bad": "I amn't hungry.",
+        "good": "I'm not hungry.",
+        "zone": "minor",
+        "why": "amn't 不存在，但听的人明白你的意思——顺手改成 I'm not 就好，KET 也很少设这个坑。"
+      },
+      {
+        "bad": "It's me who am wrong.",
+        "good": "It's me who is wrong. / I am wrong.",
+        "zone": "minor",
+        "why": "这种从句里的 be 连母语者都吵——不挡意思不考，简单句说清楚更好。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我很开心。（「很」顶着，没动词也通顺）",
+        "en": "I am very happy.（am 不能省）",
+        "diff": "中文允许没有动词的句子；英语每句必须有动词，没动作就用等号 be。"
+      },
+      {
+        "cn": "「是」只有一个：我是、你是、他是",
+        "en": "am / is / are / was / were 五个",
+        "diff": "中文的「是」从不变形；英语的等号看人称、看时间换形状。"
+      },
+      {
+        "cn": "他在教室。（「在」是动词）",
+        "en": "He is in the classroom.（is + 地点）",
+        "diff": "中文用「在」当动词；英语用等号接地点，介词 in 只管方位。"
+      },
+      {
+        "cn": "昨天天气很好。（句子和今天一个样）",
+        "en": "The weather was nice yesterday.",
+        "diff": "中文时间放句首就够；英语的等号自己变成 was 来报时。"
+      },
+      {
+        "cn": "你是学生吗？（加「吗」就是问句）",
+        "en": "Are you a student?（等号搬到句首）",
+        "diff": "中文句尾加字；英语把 be 搬家——be 自己当指挥，不请 do。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "句子没动作？先补等号；左边站谁，等号听谁的",
+      "steps": [
+        "读一遍句子：有没有动作动词（跑、吃、唱……）？有就不用 be。",
+        "没有动作 → 必须放等号 be，连接「谁」和「是什么／怎么样／在哪里」。",
+        "选形状：I → am；单数他她它 → is；you 和复数 → are。",
+        "说昨天：am/is → was，are → were。",
+        "否定把 not 挂等号后；提问把等号搬句首；简答句尾不缩写（Yes, I am）。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语有条规矩：每句话都要有一个动词。像『我很开心』这种没有动作的句子，英语要放一个『等号』进去——I am happy，就是『我=开心』。你来当小老师：我说一句中文，你告诉我它有没有动作，没有动作的话等号该放哪儿——比如『妹妹很高』『我们在家』『他是医生』。」不用懂英语，判断「这句话里有没有人在做动作」就行。她说对了让她再挑等号的形状：说「我」用 am，说一个人用 is，说很多人用 are。",
+      "questions": [
+        "「我很开心」翻成英语为什么不能直接说 I very happy？少了什么？",
+        "am、is、are 都是等号，什么时候用哪个？",
+        "「你准备好了吗？」英语怎么问——等号要搬到哪里去？"
+      ]
+    },
+    "echo": "be 是一只缝合怪：am 来自一个古老词根（es-，「存在」），was 和 were 来自另一个（wes-，「居住」），be 和 been 又来自第三个（bheu-，「生长」）。三个不相干的古动词，被一千年的高频使用焊成了一个词的五副面孔——这就是为什么它是英语里最不规则的动词。越常用的词，越不规则：你天天用它，旧形态来不及被规则化，就又被用了一遍。全英语没有第二个动词像 be 这样，由三个祖先拼成。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G04 · be 动词</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>be = 英语的等号：谁 = 是什么 / 怎么样 / 在哪里</text><rect x='36' y='116' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>现在的三个等号</text><text x='170' y='196' text-anchor='middle' font-size='19' fill='#5A4A42'>I am ten.</text><text x='360' y='196' text-anchor='middle' font-size='19' fill='#5A4A42'>She is tall.</text><text x='560' y='196' text-anchor='middle' font-size='19' fill='#5A4A42'>They are twins.</text><text x='170' y='232' text-anchor='middle' font-size='16' fill='#8A7568'>I 专用 am</text><text x='360' y='232' text-anchor='middle' font-size='16' fill='#8A7568'>单数 he/she/it 用 is</text><text x='560' y='232' text-anchor='middle' font-size='16' fill='#8A7568'>you 和复数用 are</text><rect x='36' y='286' width='316' height='120' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='194' y='322' text-anchor='middle' font-size='19' font-weight='bold' fill='#E76F33'>🕰️ 昨天的等号</text><text x='194' y='356' text-anchor='middle' font-size='17' fill='#5A4A42'>am / is → was</text><text x='194' y='386' text-anchor='middle' font-size='17' fill='#5A4A42'>are → were</text><rect x='368' y='286' width='316' height='120' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='526' y='322' text-anchor='middle' font-size='19' font-weight='bold' fill='#9B59B6'>❓ 否定与提问</text><text x='526' y='356' text-anchor='middle' font-size='17' fill='#5A4A42'>isn't · aren't（am not 无缩写）</text><text x='526' y='386' text-anchor='middle' font-size='17' fill='#5A4A42'>Are you...? — Yes, I am.</text><rect x='36' y='430' width='648' height='60' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='468' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ 没动作才用等号：She is play ✗ · I very happy ✗（缺 am）</text><text x='360' y='522' text-anchor='middle' font-size='15' fill='#B8A79B'>暗线：be 由三个古词根缝成——越常用的词，越不规则 · 英语奇遇记 🦊 G04</text></svg>",
+    "alt": "G04 记忆卡：be 是英语的等号；现在三形 am/is/are 按人称配对，昨天 was/were，否定与简答规则，警示 She is play 与 I very happy 两个典型错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 配对等号",
+        "questions": [
+          { "q": "I ___ 配哪个等号？（现在）", "options": ["am", "is", "are"], "answer": 0, "explain": "am 是 I 的专用等号。", "level": 1 },
+          { "q": "She ___ 配哪个等号？（现在）", "options": ["is", "am", "are"], "answer": 0, "explain": "单数的她——is。", "level": 1 },
+          { "q": "They ___ 配哪个等号？（现在）", "options": ["are", "is", "was"], "answer": 0, "explain": "复数的他们——are。", "level": 1 },
+          { "q": "You ___ 配哪个等号？（现在）", "options": ["are", "is", "am"], "answer": 0, "explain": "you 永远配 are，问一个人也一样。", "level": 1 },
+          { "q": "He ___ 配哪个等号？（现在）", "options": ["is", "are", "am"], "answer": 0, "explain": "单数的他——is。", "level": 1 },
+          { "q": "We ___ 配哪个等号？（现在）", "options": ["are", "is", "am"], "answer": 0, "explain": "复数的我们——are。", "level": 1 },
+          { "q": "It ___ 配哪个等号？（现在）", "options": ["is", "are", "am"], "answer": 0, "explain": "单数的它——is。", "level": 1 },
+          { "q": "My mother ___ 配哪个等号？（现在）", "options": ["is", "are", "am"], "answer": 0, "explain": "妈妈是一个人，单数——is。", "level": 1 },
+          { "q": "Tom and I ___ 配哪个等号？（现在）", "options": ["are", "is", "am"], "answer": 0, "explain": "汤姆和我=两个人，复数——are。", "level": 1 },
+          { "q": "The boys ___ 配哪个等号？（现在）", "options": ["are", "is", "was"], "answer": 0, "explain": "boys 复数——are。", "level": 1 },
+          { "q": "昨天：I ___ 配哪个等号？", "options": ["was", "were", "am"], "answer": 0, "explain": "am 的昨天是 was。", "level": 1 },
+          { "q": "昨天：they ___ 配哪个等号？", "options": ["were", "was", "are"], "answer": 0, "explain": "are 的昨天是 were。", "level": 1 },
+          { "q": "昨天：he ___ 配哪个等号？", "options": ["was", "were", "is"], "answer": 0, "explain": "is 的昨天是 was。", "level": 1 },
+          { "q": "昨天：you ___ 配哪个等号？", "options": ["were", "was", "are"], "answer": 0, "explain": "you 的昨天等号是 were。", "level": 1 },
+          { "q": "The weather ___ 配哪个等号？（现在）", "options": ["is", "are", "were"], "answer": 0, "explain": "weather 单数（还是不可数）——is。", "level": 1 },
+          { "q": "His parents ___ 配哪个等号？（现在）", "options": ["are", "is", "was"], "answer": 0, "explain": "parents 父母俩，复数——are。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 放对等号",
+        "questions": [
+          { "q": "The weather ___ nice today.", "options": ["is", "are", "am"], "answer": 0, "explain": "中文「天气很好」没动词，英语要等号 is。", "level": 2 },
+          { "q": "My parents ___ teachers.", "options": ["are", "is", "am"], "answer": 0, "explain": "parents 复数——are。", "level": 2 },
+          { "q": "___ you ready?", "options": ["Are", "Is", "Am"], "answer": 0, "explain": "you 配 are；提问时等号搬到句首。", "level": 2 },
+          { "q": "I ___ not afraid of dogs.", "options": ["am", "is", "are"], "answer": 0, "explain": "I 的等号是 am，否定把 not 挂在它后面。", "level": 2 },
+          { "q": "Lily and Lucy ___ twins.", "options": ["are", "is", "was"], "answer": 0, "explain": "两个人——are。", "level": 2 },
+          { "q": "The music ___ beautiful.", "options": ["is", "are", "am"], "answer": 0, "explain": "music 不可数当单数看——is。", "level": 2 },
+          { "q": "He ___ ten years old.", "options": ["is", "are", "am"], "answer": 0, "explain": "说年龄用等号：他=十岁。", "level": 2 },
+          { "q": "We ___ at school yesterday.", "options": ["were", "was", "are"], "answer": 0, "explain": "昨天+复数——were。", "level": 2 },
+          { "q": "She ___ ill last week.", "options": ["was", "were", "is"], "answer": 0, "explain": "上周的事，单数——was。", "level": 2 },
+          { "q": "___ your father a doctor?", "options": ["Is", "Are", "Am"], "answer": 0, "explain": "爸爸单数——Is 搬到句首提问。", "level": 2 },
+          { "q": "The children ___ in the hall now.", "options": ["are", "is", "was"], "answer": 0, "explain": "children 是复数——are。", "level": 2 },
+          { "q": "It ___ Monday today.", "options": ["is", "are", "were"], "answer": 0, "explain": "说日期用 it 加等号 is。", "level": 2 },
+          { "q": "You ___ late again!", "options": ["are", "is", "am"], "answer": 0, "explain": "you 配 are。", "level": 2 },
+          { "q": "The keys ___ on the table.", "options": ["are", "is", "am"], "answer": 0, "explain": "keys 复数；等号+地点=「在哪里」。", "level": 2 },
+          { "q": "I ___ in Grade Four last year.", "options": ["was", "were", "am"], "answer": 0, "explain": "去年的事——am 变 was。", "level": 2 },
+          { "q": "The concert ___ wonderful last night.", "options": ["was", "were", "is"], "answer": 0, "explain": "昨晚+单数——was。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 火眼金睛",
+        "questions": [
+          { "q": "哪一句的等号是健康的？（很累）", "options": ["I am very tired.", "I very tired.", "I is very tired."], "answer": 0, "explain": "「很」占不了动词位——必须有 am。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（他是朋友）", "options": ["He is my best friend.", "He am my best friend.", "He are my best friend."], "answer": 0, "explain": "单数的他配 is。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（你唱得好）", "options": ["You are a good singer.", "You is a good singer.", "You am a good singer."], "answer": 0, "explain": "you 永远配 are。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（她现在不开心）", "options": ["She is not happy now.", "She not happy now.", "She is no happy now."], "answer": 0, "explain": "not 要挂在等号后面：is not / isn't。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（昨晚他们在家）", "options": ["They were at home last night.", "They was at home last night.", "They are at home last night."], "answer": 0, "explain": "they 的昨天等号是 were。", "level": 3 },
+          { "q": "哪一句的提问是健康的？（同班吗）", "options": ["Are they in the same class?", "Is they in the same class?", "Do they in the same class?"], "answer": 0, "explain": "they 配 are；be 提问不请 do。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（鞋是新的）", "options": ["The shoes are new.", "The shoes is new.", "The shoes am new."], "answer": 0, "explain": "shoes 复数——are。", "level": 3 },
+          { "q": "— Are you a new student? — ___", "options": ["Yes, I am.", "Yes, I'm.", "Yes, I are."], "answer": 0, "explain": "简答句尾的 be 不能缩写。", "level": 3 },
+          { "q": "哪一句是健康的？（她在弹琴/她会弹琴，选没毛病的）", "options": ["She is playing the piano.", "She is play the piano.", "She be play the piano."], "answer": 0, "explain": "be 后面不能跟动词原形——要么 plays，要么 is playing。", "level": 3 },
+          { "q": "「我不饿」怎么说才健康？", "options": ["I'm not hungry.", "I amn't hungry.", "I not hungry."], "answer": 0, "explain": "am not 没有缩写 amn't；not 也不能自己站。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（昨天你在哪）", "options": ["Where were you yesterday?", "Where was you yesterday?", "Where are you yesterday?"], "answer": 0, "explain": "you 的昨天等号是 were。", "level": 3 },
+          { "q": "哪一句是健康的？（昨天去了音乐会）", "options": ["I went to the concert yesterday.", "I was go to the concert yesterday.", "I am went to the concert yesterday."], "answer": 0, "explain": "有动作动词就不要等号——go 自己变 went。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（书包在椅子下）", "options": ["The schoolbag is under the chair.", "The schoolbag are under the chair.", "The schoolbag under the chair."], "answer": 0, "explain": "「在哪里」也要等号：is + 地点。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（我和Lily是同学）", "options": ["Lily and I are classmates.", "Lily and I is classmates.", "Lily and I am classmates."], "answer": 0, "explain": "两个人——are。", "level": 3 },
+          { "q": "「他不在教室」怎么说才健康？", "options": ["He isn't in the classroom.", "He not in the classroom.", "He don't in the classroom."], "answer": 0, "explain": "be 的否定自己加 not，不请 don't。", "level": 3 },
+          { "q": "哪一句的等号是健康的？（天气昨天冷）", "options": ["It was cold yesterday.", "It is cold yesterday.", "It were cold yesterday."], "answer": 0, "explain": "yesterday 要配昨天的等号 was。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 上场演出",
+        "questions": [
+          { "q": "My shoes ___ old, but my coat ___ new.", "options": ["are / is", "is / are", "are / are"], "answer": 0, "explain": "shoes 复数配 are；coat 单数配 is——一句里两个等号各配各的。", "level": 4 },
+          { "q": "— ___ the twins at the concert last night? — Yes, they ___.", "options": ["Were / were", "Was / was", "Are / were"], "answer": 0, "explain": "昨晚+复数——Were；简答重复 were。", "level": 4 },
+          { "q": "Ten yuan ___ enough for the ticket.", "options": ["is", "are", "were"], "answer": 0, "explain": "钱数当一个整体——is。", "level": 4 },
+          { "q": "Maths ___ my favourite subject.", "options": ["is", "are", "am"], "answer": 0, "explain": "Maths 看着有 s，其实是一门课，单数——is。", "level": 4 },
+          { "q": "Everyone ___ here. Let's start.", "options": ["is", "are", "be"], "answer": 0, "explain": "everyone 语法上算单数——is。", "level": 4 },
+          { "q": "I ___ born in Beijing in 2015.", "options": ["was", "am", "were"], "answer": 0, "explain": "出生是过去的事：was born。", "level": 4 },
+          { "q": "There ___ a lot of people at the show yesterday.", "options": ["were", "was", "are"], "answer": 0, "explain": "people 复数+昨天——were。", "level": 4 },
+          { "q": "— Where ___ you an hour ago? — I ___ in the library.", "options": ["were / was", "was / were", "are / am"], "answer": 0, "explain": "you 配 were；I 配 was——同一场对话两个等号。", "level": 4 },
+          { "q": "The news ___ good today.（联动 G01）", "options": ["is", "are", "were"], "answer": 0, "explain": "news 是不可数单数——is。它尾巴上的 s 是历史遗迹。", "level": 4 },
+          { "q": "Two hours ___ a long time for a child.", "options": ["is", "are", "was"], "answer": 0, "explain": "时间段当一个整体——is。", "level": 4 },
+          { "q": "My family ___ big. There ___ six people in it.", "options": ["is / are", "are / is", "is / is"], "answer": 0, "explain": "family 当一个整体是单数；six people 复数配 are。", "level": 4 },
+          { "q": "— ___ it cold outside? — No, it ___.", "options": ["Is / isn't", "Are / aren't", "Is / not"], "answer": 0, "explain": "it 配 is；否定简答 it isn't。", "level": 4 },
+          { "q": "The singer and dancer ___ my cousin.（一个人身兼两职）", "options": ["is", "are", "were"], "answer": 0, "explain": "「歌手兼舞者」是同一个人——is。看意思，不数名词。", "level": 4 },
+          { "q": "Ann and her dog ___ in the park. The dog ___ very happy.", "options": ["are / is", "is / are", "are / are"], "answer": 0, "explain": "安和狗=两位，are；狗自己单数，is。", "level": 4 },
+          { "q": "组合大考：I ___ eleven now. Last year I ___ ten.", "options": ["am / was", "am / were", "is / was"], "answer": 0, "explain": "现在 I am；去年 am 换成 was。", "level": 4 },
+          { "q": "Here ___ your tickets, and here ___ your seat.", "options": ["are / is", "is / are", "are / are"], "answer": 0, "explain": "tickets 复数配 are，seat 单数配 is——倒装也不换等号。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I very tired today.",
+      "fixed": "I am very tired today.",
+      "clue": "句子里没有动词——中文的「很」占不了动词位，要补等号 am。"
+    },
+    {
+      "sentence": "He am my best friend.",
+      "fixed": "He is my best friend.",
+      "clue": "am 是 I 的专用等号，he 要配 is。"
+    },
+    {
+      "sentence": "You is a good singer.",
+      "fixed": "You are a good singer.",
+      "clue": "you 永远配 are，哪怕说的只是一个人。"
+    },
+    {
+      "sentence": "They was at home yesterday.",
+      "fixed": "They were at home yesterday.",
+      "clue": "they 的昨天等号是 were。"
+    },
+    {
+      "sentence": "She not happy now.",
+      "fixed": "She is not happy now.",
+      "clue": "not 不能自己站，要挂在等号 is 后面。"
+    },
+    {
+      "sentence": "Is they in the same band?",
+      "fixed": "Are they in the same band?",
+      "clue": "提问时等号搬家但不变形——they 配 are。"
+    },
+    {
+      "sentence": "The story are very interesting.",
+      "fixed": "The story is very interesting.",
+      "clue": "story 是单数，等号用 is——左边站谁，等号听谁的。"
+    }
+  ]
+}
