@@ -1,0 +1,318 @@
+{
+  "$comment": "语法大厅 G03（V0.9 P1b）。锚点：谁在台上、谁的乐器。「两副面孔——做主奏用 I/he/she，站在动词后面用 me/him/her」与 KET 八课 L6 措辞字面一致。全部内容原创。",
+  "id": "G03",
+  "tier": "基石",
+  "title": "代词全表",
+  "metaphor": "谁在台上、谁的乐器",
+  "ketRelevance": 2,
+  "ketLessonMap": ["L6"],
+  "ketNote": "KET 阅读 Part 5 常挖代词空；写作里 he/she 混用是老师一眼就看到的伤。八课里的亲戚是 L6。",
+  "source": "original",
+  "sections": {
+    "essence": "代词两副面孔：台上主奏用 I/he/she，动词后面换 me/him/her。",
+    "why": "中文的「我」走到哪儿都是「我」：我帮他、他帮我，字形一动不动。英语的代词看位置换面孔——做主奏（动词前）用 I / he / she / we / they；站在动词或介词后面就换成 me / him / her / us / them；要说「谁的乐器」再换一副：my / his / her / our / their。还有个中文没有的坑：he 和 she 在中文口语里同音（都读 tā），所以孩子最容易说「我妹妹……他很高」。听的人靠 he/she 认人，一错，故事里就凭空多出一个人。",
+    "metaphorStory": "舞台上谁在主奏，报的是台上的名字：I、you、he、she、we、they——这是第一副面孔。一曲终了，指挥说「把话筒递给他」，此刻他不在主奏位，是被递的对象，名字换成 him——这是第二副面孔。后台的乐器架上还贴着第三副：标签写着「谁的」——my violin（我的小提琴）、her flute（她的长笛）、their drums（他们的鼓）。同一位团员，三个位置三个名字：台上 He plays（他主奏），台下 watch him（看他），乐器上 his drum（他的鼓）。要是标签只写「我的」不写乐器名，就用 mine：This violin is mine（这把是我的）。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "第一副面孔：主格（台上主奏，动词前）",
+          "detail": "I / you / he / she / it / we / they。",
+          "example": "She plays the flute. / They are in a band."
+        },
+        {
+          "rule": "第二副面孔：宾格（动词、介词后面）",
+          "detail": "me / you / him / her / it / us / them。",
+          "example": "Help me! / Look at him. / Miss Wang teaches us."
+        },
+        {
+          "rule": "第三副面孔：形容词性物主（谁的 + 乐器）",
+          "detail": "my / your / his / her / its / our / their，后面必须跟名词。",
+          "example": "my violin / her flute / their drums"
+        },
+        {
+          "rule": "单独站的「谁的」：名词性物主",
+          "detail": "mine / yours / his / hers / ours / theirs，后面不带名词，自己顶一个名词。",
+          "example": "This violin is mine. / The red bag is hers."
+        },
+        {
+          "rule": "he 她 / she 他？——中文口语不分，英语必须分",
+          "detail": "中文的他/她同音，英语的 he/she 是两个人。说话前先在心里问一句：男的还是女的？",
+          "example": "My sister is tall. She plays basketball."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I am a student.", "cn": "我是一名学生。" },
+          { "en": "She plays the flute very well.", "cn": "她长笛吹得很好。" },
+          { "en": "This is my schoolbag.", "cn": "这是我的书包。" },
+          { "en": "We are in the same band.", "cn": "我们在同一个乐团。" },
+          { "en": "Look at him! He is dancing.", "cn": "看他！他在跳舞。" }
+        ],
+        "mid": [
+          { "en": "Miss Wang teaches us English.", "cn": "王老师教我们英语。" },
+          { "en": "Please give her the flute.", "cn": "请把长笛递给她。" },
+          { "en": "Their band is bigger than ours.", "cn": "他们的乐团比我们的大。" },
+          { "en": "Tom and I are good friends. I often help him.", "cn": "我和汤姆是好朋友，我常帮他。" },
+          { "en": "This isn't my drum. Mine is over there.", "cn": "这不是我的鼓，我的在那边。" }
+        ],
+        "trap": [
+          { "en": "Tom and I are in the same class.", "cn": "汤姆和我在同一个班。", "note": "并列做主语要用 I 不用 me，而且礼貌顺序把自己放后面：Tom and I。" },
+          { "en": "My brother is ten. He likes music.", "cn": "我弟弟十岁，他喜欢音乐。", "note": "中文他/她同音，英语必须分——弟弟是 he，妹妹才是 she。" },
+          { "en": "Whose flute is this? It's hers.", "cn": "这是谁的长笛？是她的。", "note": "单独站、后面不带名词——用 hers 不用 her。" },
+          { "en": "The cat is washing its face.", "cn": "猫在洗它的脸。", "note": "its 是「它的」；it's 是 it is 的缩写——一撇之差，两个词。" },
+          { "en": "Let me help you with the boxes.", "cn": "让我帮你搬箱子。", "note": "Let 后面的人站在动词后面——用 me 不用 I。" },
+          { "en": "Our teacher tells us stories about her band.", "cn": "老师给我们讲她乐团的故事。", "note": "一句话三副面孔：our（我们的）、us（动词后）、her（她的）——逐个看位置。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "My sister is tall. He plays basketball.",
+        "good": "My sister is tall. She plays basketball.",
+        "zone": "blocks",
+        "why": "妹妹说成 he，听的人以为故事里又来了个男生——中文他/她同音的坑，最挡意思。"
+      },
+      {
+        "bad": "This is my brother. Her name is Jack.",
+        "good": "This is my brother. His name is Jack.",
+        "zone": "blocks",
+        "why": "brother 配 her，听的人不知道 Jack 到底是谁——性别面孔配错，人物立刻错乱。"
+      },
+      {
+        "bad": "Me and Tom are good friends.",
+        "good": "Tom and I are good friends.",
+        "zone": "tested",
+        "why": "做主语用主格 I，并且礼貌顺序把自己放后面。"
+      },
+      {
+        "bad": "Him is our drummer.",
+        "good": "He is our drummer.",
+        "zone": "tested",
+        "why": "台上主奏位要用第一副面孔 he。"
+      },
+      {
+        "bad": "I like she very much.",
+        "good": "I like her very much.",
+        "zone": "tested",
+        "why": "站在动词后面要换第二副面孔 her。"
+      },
+      {
+        "bad": "This is she bag.",
+        "good": "This is her bag.",
+        "zone": "tested",
+        "why": "「谁的+名词」用物主 her，不用主格 she。"
+      },
+      {
+        "bad": "The red schoolbag is my.",
+        "good": "The red schoolbag is mine.",
+        "zone": "tested",
+        "why": "单独站、后面没有名词——用 mine。my 后面必须跟名词。"
+      },
+      {
+        "bad": "Give I the drum, please.",
+        "good": "Give me the drum, please.",
+        "zone": "tested",
+        "why": "动词后面用宾格 me。"
+      },
+      {
+        "bad": "Miss Li teaches we English.",
+        "good": "Miss Li teaches us English.",
+        "zone": "tested",
+        "why": "动词后面的「我们」换成 us。"
+      },
+      {
+        "bad": "The dog is playing with it's ball.",
+        "good": "The dog is playing with its ball.",
+        "zone": "tested",
+        "why": "「它的」是 its；it's 是 it is 的缩写——KET 拼写题的常客。"
+      },
+      {
+        "bad": "It is me.",
+        "good": "It is I. / It's me.",
+        "zone": "minor",
+        "why": "语法书说该用 I，但全世界口语都说 It's me——不挡意思，KET 不考这种较真。"
+      },
+      {
+        "bad": "Everyone should bring their book.",
+        "good": "Everyone should bring his or her book. / their book.",
+        "zone": "minor",
+        "why": "everyone 配 their 如今连词典都接受——不挡意思也不扣分，放心用。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "「我」永远是「我」：我帮他 / 他帮我",
+        "en": "I help him. / He helps me.",
+        "diff": "中文代词不变形；英语看位置换面孔——动词前 I/he，动词后 me/him。"
+      },
+      {
+        "cn": "他、她口语里同音（都是 tā）",
+        "en": "he / she 读音完全不同",
+        "diff": "中文靠字形分性别，说话不用分；英语一开口就要分——口语最大的坑。"
+      },
+      {
+        "cn": "你的书 = 你 + 的 + 书",
+        "en": "your book（一个词管「你的」）",
+        "diff": "中文用「的」组装；英语直接换一副物主面孔。"
+      },
+      {
+        "cn": "这本书是我的。（「的」收尾）",
+        "en": "This book is mine.",
+        "diff": "中文「我的」通吃；英语单独站要用 mine，带名词才用 my。"
+      },
+      {
+        "cn": "它的（动物、东西通用）",
+        "en": "its（注意不是 it's）",
+        "diff": "英语的「它的」不带撇号；it's 是 it is——写错不算物主。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先找位置：动词前主格，动词后宾格，名词前 my 类，单独站 mine 类",
+      "steps": [
+        "找到代词的位置：它在动词前面（台上）还是后面（台下）？",
+        "台上主奏 → I / he / she / we / they。",
+        "动词或介词后面 → me / him / her / us / them。",
+        "后面跟着名词 →「谁的」用 my / his / her / our / their。",
+        "后面什么都没有、单独站 → mine / his / hers / ours / theirs。最后检查：说的是男是女？he/she 别配反。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语的『我』有好几副面孔：在台上表演时叫 I，被别人帮忙时叫 me，说『我的』乐器时叫 my。咱们玩换面孔游戏：我说一句中文，你告诉我里面的『我』『他』『她』该用哪副面孔——比如『我帮他』，『我』在台上，『他』在台下。」不用懂英语，判断「谁在做动作、谁在挨动作」就够。她答错时问她：这个人是在主动做事，还是被别人指着？另外多留意一件事：说到家里人时问一句「是 he 还是 she？」——中文说话不分他她，英语要分。",
+      "questions": [
+        "「我帮他」和「他帮我」——两个「我」用的是同一个词吗？为什么？",
+        "「这是我的鼓」和「这面鼓是我的」——英语里两个「我的」一样吗？",
+        "说你妹妹的时候用 he 还是 she？说你爸爸呢？"
+      ]
+    },
+    "echo": "一千年前的古英语里，每个名词都像今天的代词这样随位置换面孔（书做主语一个样、做宾语另一个样），后来全被磨平了——名词都躺平了，只有代词还站着岗，保留着完整的变格。为什么偏偏是代词？因为它们是全语言使用频率最高的词，天天被说，旧规矩来不及被抹掉就又被用了一遍。越常用的词，越保得住老规矩——这条暗线，后面还会一再遇到。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G03 · 代词的面孔</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>谁在台上、谁的乐器——位置定面孔</text><rect x='36' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='139' y='152' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🎤 台上主奏</text><text x='139' y='182' text-anchor='middle' font-size='15' fill='#8A7568'>（动词前）</text><text x='139' y='218' text-anchor='middle' font-size='18' fill='#5A4A42'>I · you · he</text><text x='139' y='248' text-anchor='middle' font-size='18' fill='#5A4A42'>she · it</text><text x='139' y='278' text-anchor='middle' font-size='18' fill='#5A4A42'>we · they</text><text x='139' y='310' text-anchor='middle' font-size='15' fill='#38B2AC'>He plays.</text><rect x='257' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='360' y='152' text-anchor='middle' font-size='19' font-weight='bold' fill='#E76F33'>👇 动词后面</text><text x='360' y='182' text-anchor='middle' font-size='15' fill='#8A7568'>（被看、被帮）</text><text x='360' y='218' text-anchor='middle' font-size='18' fill='#5A4A42'>me · you · him</text><text x='360' y='248' text-anchor='middle' font-size='18' fill='#5A4A42'>her · it</text><text x='360' y='278' text-anchor='middle' font-size='18' fill='#5A4A42'>us · them</text><text x='360' y='310' text-anchor='middle' font-size='15' fill='#E76F33'>Watch him.</text><rect x='478' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='581' y='152' text-anchor='middle' font-size='19' font-weight='bold' fill='#9B59B6'>🏷️ 谁的乐器</text><text x='581' y='182' text-anchor='middle' font-size='15' fill='#8A7568'>（+名词 / 单独站）</text><text x='581' y='218' text-anchor='middle' font-size='17' fill='#5A4A42'>my → mine</text><text x='581' y='248' text-anchor='middle' font-size='17' fill='#5A4A42'>her → hers</text><text x='581' y='278' text-anchor='middle' font-size='17' fill='#5A4A42'>our → ours</text><text x='581' y='310' text-anchor='middle' font-size='15' fill='#9B59B6'>his drum · It's mine.</text><rect x='36' y='352' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='384' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>⚠️ 中文他/她同音，英语必须分：妹妹 she · 弟弟 he</text><text x='360' y='414' text-anchor='middle' font-size='17' fill='#5A4A42'>its = 它的 · it's = it is（一撇之差，两个词）</text><text x='360' y='476' text-anchor='middle' font-size='16' fill='#8A7568'>口诀：动词前主格，动词后宾格，名词前 my 类，单独站 mine 类</text><text x='360' y='526' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G03</text></svg>",
+    "alt": "G03 记忆卡：三列面孔——台上主奏 I/he/she（动词前）、动词后面 me/him/her、谁的乐器 my/mine 类；底部提醒中文他她同音而英语必须分，its 与 it's 的区别。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 三副面孔",
+        "questions": [
+          { "q": "「I」是哪副面孔？", "options": ["主格（台上主奏）", "宾格（动词后面）", "物主（谁的）"], "answer": 0, "explain": "I 只能站在动词前当主奏。", "level": 1 },
+          { "q": "「me」是哪副面孔？", "options": ["宾格（动词后面）", "主格（台上主奏）", "物主（谁的）"], "answer": 0, "explain": "me 站在动词或介词后面：help me、for me。", "level": 1 },
+          { "q": "「my」是哪副面孔？", "options": ["物主（谁的）", "主格（台上主奏)", "宾格（动词后面）"], "answer": 0, "explain": "my 是「我的」，后面必须跟名词：my flute。", "level": 1 },
+          { "q": "「he」是哪副面孔？", "options": ["主格（台上主奏）", "宾格（动词后面）", "物主（谁的）"], "answer": 0, "explain": "he 是台上的「他」：He sings.", "level": 1 },
+          { "q": "「him」是哪副面孔？", "options": ["宾格（动词后面）", "主格（台上主奏）", "物主（谁的）"], "answer": 0, "explain": "him 是动词后面的「他」：watch him。", "level": 1 },
+          { "q": "「his」是哪副面孔？", "options": ["物主（谁的）", "主格（台上主奏）", "宾格（动词后面）"], "answer": 0, "explain": "his 是「他的」——特殊在带名词、单独站都是它：his drum / It's his.", "level": 1 },
+          { "q": "「we」是哪副面孔？", "options": ["主格（台上主奏）", "宾格（动词后面）", "物主（谁的）"], "answer": 0, "explain": "we 是台上的「我们」：We are a band.", "level": 1 },
+          { "q": "「us」是哪副面孔？", "options": ["宾格（动词后面）", "主格（台上主奏）", "物主（谁的）"], "answer": 0, "explain": "us 是动词后面的「我们」：teach us。", "level": 1 },
+          { "q": "「our」是哪副面孔？", "options": ["物主（谁的）", "主格（台上主奏）", "宾格（动词后面）"], "answer": 0, "explain": "our 是「我们的」，后面跟名词：our band。", "level": 1 },
+          { "q": "「they」是哪副面孔？", "options": ["主格（台上主奏）", "宾格（动词后面）", "物主（谁的）"], "answer": 0, "explain": "they 是台上的「他们」：They play drums.", "level": 1 },
+          { "q": "「them」是哪副面孔？", "options": ["宾格（动词后面）", "主格（台上主奏）", "物主（谁的）"], "answer": 0, "explain": "them 是动词后面的「他们」：listen to them。", "level": 1 },
+          { "q": "「their」是哪副面孔？", "options": ["物主（谁的）", "主格（台上主奏）", "宾格（动词后面）"], "answer": 0, "explain": "their 是「他们的」，后面跟名词：their music。", "level": 1 },
+          { "q": "「she」是哪副面孔？", "options": ["主格（台上主奏）", "宾格（动词后面）", "物主（谁的）"], "answer": 0, "explain": "she 是台上的「她」：She dances.", "level": 1 },
+          { "q": "「mine」是哪副面孔？", "options": ["物主（单独站，不带名词）", "主格（台上主奏）", "宾格（动词后面）"], "answer": 0, "explain": "mine 单独站，自己顶一个名词：The violin is mine.", "level": 1 },
+          { "q": "「your」是哪副面孔？", "options": ["物主（谁的，带名词）", "主格（台上主奏）", "宾格（动词后面）"], "answer": 0, "explain": "your 是「你的」，后面跟名词：your book；单独站要用 yours。", "level": 1 },
+          { "q": "「yours」是哪副面孔？", "options": ["物主（单独站，不带名词）", "主格（台上主奏）", "宾格（动词后面）"], "answer": 0, "explain": "yours 单独站：Is this schoolbag yours?", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 站对位置",
+        "questions": [
+          { "q": "___ am a student.", "options": ["I", "Me", "My"], "answer": 0, "explain": "动词前的主奏位——I。", "level": 2 },
+          { "q": "This is ___ flute.", "options": ["my", "me", "I"], "answer": 0, "explain": "后面跟名词 flute——用「我的」my。", "level": 2 },
+          { "q": "Give ___ the drum, please.", "options": ["me", "I", "my"], "answer": 0, "explain": "动词 give 后面——宾格 me。", "level": 2 },
+          { "q": "___ is my music teacher.", "options": ["She", "Her", "Hers"], "answer": 0, "explain": "台上主奏位——She。", "level": 2 },
+          { "q": "I like ___ very much.（她）", "options": ["her", "she", "hers"], "answer": 0, "explain": "动词 like 后面——宾格 her。", "level": 2 },
+          { "q": "___ are in the same band.", "options": ["We", "Us", "Our"], "answer": 0, "explain": "主奏位的「我们」——We。", "level": 2 },
+          { "q": "The teacher told ___ a story.", "options": ["us", "we", "our"], "answer": 0, "explain": "动词 told 后面——宾格 us。", "level": 2 },
+          { "q": "Is this schoolbag ___?（你的）", "options": ["yours", "your", "you"], "answer": 0, "explain": "单独站、不带名词——yours。", "level": 2 },
+          { "q": "___ dog is very cute.（他们的）", "options": ["Their", "Them", "They"], "answer": 0, "explain": "后面跟名词 dog——their。", "level": 2 },
+          { "q": "I can't find ___ pencil.（我的）", "options": ["my", "mine", "me"], "answer": 0, "explain": "后面跟名词 pencil——my。", "level": 2 },
+          { "q": "This pencil isn't yours. It's ___.（我的）", "options": ["mine", "my", "me"], "answer": 0, "explain": "单独站——mine。", "level": 2 },
+          { "q": "Look at ___! He is dancing.", "options": ["him", "he", "his"], "answer": 0, "explain": "介词 at 后面——宾格 him。", "level": 2 },
+          { "q": "___ name is Lily.（她的）", "options": ["Her", "She", "Hers"], "answer": 0, "explain": "后面跟名词 name——her。", "level": 2 },
+          { "q": "Tom and ___ are good friends.", "options": ["I", "me", "my"], "answer": 0, "explain": "并列做主语用主格 I，自己放后面。", "level": 2 },
+          { "q": "Miss Wang teaches ___ English.", "options": ["us", "we", "our"], "answer": 0, "explain": "动词 teaches 后面——宾格 us。", "level": 2 },
+          { "q": "The little cat hurt ___ leg.", "options": ["its", "it's", "it"], "answer": 0, "explain": "「它的」腿——its，别写成 it's（那是 it is）。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 火眼金睛",
+        "questions": [
+          { "q": "哪一句的代词是健康的？（和汤姆做朋友）", "options": ["Tom and I are good friends.", "Me and Tom are good friends.", "Tom and me are good friends."], "answer": 0, "explain": "做主语用 I，礼貌顺序自己放后面。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（他是鼓手）", "options": ["He is our drummer.", "Him is our drummer.", "His is our drummer."], "answer": 0, "explain": "台上主奏位用 he。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（喜欢她）", "options": ["I like her.", "I like she.", "I like hers."], "answer": 0, "explain": "动词后面用宾格 her。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（她的包）", "options": ["This is her bag.", "This is she bag.", "This is hers bag."], "answer": 0, "explain": "带名词用 her；hers 只能单独站。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（书包是我的）", "options": ["The red schoolbag is mine.", "The red schoolbag is my.", "The red schoolbag is me."], "answer": 0, "explain": "单独站用 mine。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（说弟弟）", "options": ["My brother is tall. He likes music.", "My brother is tall. She likes music.", "My brother is tall. Her likes music."], "answer": 0, "explain": "弟弟是男生——he。中文他/她同音，英语必须分。", "level": 3 },
+          { "q": "Help ___! The boxes are too heavy.（我们）", "options": ["us", "we", "our"], "answer": 0, "explain": "动词 help 后面——us。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（它的尾巴）", "options": ["The dog is wagging its tail.", "The dog is wagging it's tail.", "The dog is wagging it tail."], "answer": 0, "explain": "「它的」是 its；it's = it is。", "level": 3 },
+          { "q": "— Whose flute is this? — It's ___.（她的）", "options": ["hers", "her", "she"], "answer": 0, "explain": "单独站的「她的」——hers。", "level": 3 },
+          { "q": "Let ___ help you.（我）", "options": ["me", "I", "my"], "answer": 0, "explain": "Let 后面的人在动词后——me。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（老师教我们）", "options": ["Mr Li teaches us maths.", "Mr Li teaches we maths.", "Mr Li teaches our maths."], "answer": 0, "explain": "动词后面用 us。", "level": 3 },
+          { "q": "___ are listening to ___.（我们……他们）", "options": ["We / them", "Us / they", "We / they"], "answer": 0, "explain": "主奏位 We，介词 to 后面 them。", "level": 3 },
+          { "q": "That isn't your seat. ___ is over there.（你的）", "options": ["Yours", "Your", "You"], "answer": 0, "explain": "单独站——Yours。", "level": 3 },
+          { "q": "哪一句的代词是健康的？（她的名字）", "options": ["Her name is Amy.", "She name is Amy.", "Hers name is Amy."], "answer": 0, "explain": "带名词用 her。", "level": 3 },
+          { "q": "My parents love music, and I often sing for ___.", "options": ["them", "they", "their"], "answer": 0, "explain": "介词 for 后面——宾格 them。", "level": 3 },
+          { "q": "___ classroom is bigger than ___.（我们的教室……他们的）", "options": ["Our / theirs", "Our / their", "Ours / theirs"], "answer": 0, "explain": "带名词用 our；句尾单独站用 theirs。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 上场演出",
+        "questions": [
+          { "q": "___ and Lily are in the same class, and the teacher often praises ___.（他……他们俩）", "options": ["He / them", "Him / they", "He / they"], "answer": 0, "explain": "主奏位 He；动词 praises 后面 them。", "level": 4 },
+          { "q": "My aunt has a son. ___ name is Jack, and I often play with ___.", "options": ["His / him", "Her / him", "His / he"], "answer": 0, "explain": "儿子是男生：his name、with him。", "level": 4 },
+          { "q": "This isn't my flute. ___ is in the black box.", "options": ["Mine", "My", "Me"], "answer": 0, "explain": "单独站的「我的」——Mine。", "level": 4 },
+          { "q": "Our band is bigger than ___.（他们的）", "options": ["theirs", "their", "them"], "answer": 0, "explain": "句尾单独站——theirs（= their band）。", "level": 4 },
+          { "q": "— Is this drum Tom's? — Yes, it's ___.", "options": ["his", "him", "he"], "answer": 0, "explain": "his 可以单独站：it's his（是他的）。", "level": 4 },
+          { "q": "My sister loves music. ___ plays the violin, and everyone likes listening to ___.", "options": ["She / her", "He / him", "She / she"], "answer": 0, "explain": "妹妹是 she；介词 to 后面换 her。", "level": 4 },
+          { "q": "Mr Li teaches ___ maths. We all like ___ lessons.", "options": ["us / his", "we / his", "us / him"], "answer": 0, "explain": "teaches 后面 us；「他的课」his lessons。", "level": 4 },
+          { "q": "The cat drank ___ milk, and now ___ is sleeping.", "options": ["its / it", "it's / it", "its / its"], "answer": 0, "explain": "「它的牛奶」its milk；主奏位「它」用 it。", "level": 4 },
+          { "q": "— Whose seats are these? — They're ___.（我们的）", "options": ["ours", "our", "us"], "answer": 0, "explain": "单独站——ours。", "level": 4 },
+          { "q": "Between you and ___, I think ___ song is better.（我……她的）", "options": ["me / her", "I / her", "me / hers"], "answer": 0, "explain": "介词 between 后面用 me；「她的歌」带名词用 her。", "level": 4 },
+          { "q": "Look at those birds! ___ are feeding ___ babies.", "options": ["They / their", "Them / their", "They / theirs"], "answer": 0, "explain": "主奏位 They；「它们的宝宝」带名词 their。", "level": 4 },
+          { "q": "My grandpa loves ___, and I love ___ too.（我……他）", "options": ["me / him", "I / him", "me / he"], "answer": 0, "explain": "两个都在动词后面：loves me、love him。", "level": 4 },
+          { "q": "— Don't take that umbrella. It's not ___. — Oh, sorry, I thought it was ___.（你的……我的）", "options": ["yours / mine", "your / my", "yours / my"], "answer": 0, "explain": "两个都单独站：yours、mine。", "level": 4 },
+          { "q": "Lily and I are twins. ___ mother makes ___ the same dresses.", "options": ["Our / us", "Our / we", "Ours / us"], "answer": 0, "explain": "「我们的妈妈」our mother；makes 后面用 us。", "level": 4 },
+          { "q": "The teacher asked ___ to hand in ___ homework.（他……他的）", "options": ["him / his", "he / his", "him / him"], "answer": 0, "explain": "asked 后面 him；「他的作业」his homework。", "level": 4 },
+          { "q": "组合大考：___ love ___ parents, and ___ love ___ too.（我们爱父母，他们也爱我们）", "options": ["We / our / they / us", "We / us / they / our", "Us / our / them / we"], "answer": 0, "explain": "主奏 We、带名词 our、主奏 they、动词后 us——四个位置四副面孔。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "Me and Lily are in the same band.",
+      "fixed": "Lily and I are in the same band.",
+      "clue": "做主语要用主格 I，而且礼貌顺序把自己放在后面。"
+    },
+    {
+      "sentence": "Him is our new drummer.",
+      "fixed": "He is our new drummer.",
+      "clue": "台上主奏位要用第一副面孔 he，him 只能站在动词后面。"
+    },
+    {
+      "sentence": "I often help she with her English.",
+      "fixed": "I often help her with her English.",
+      "clue": "动词 help 后面要换第二副面孔 her。"
+    },
+    {
+      "sentence": "This is he book.",
+      "fixed": "This is his book.",
+      "clue": "「他的+名词」用物主 his，不用主格 he。"
+    },
+    {
+      "sentence": "The red schoolbag is my.",
+      "fixed": "The red schoolbag is mine.",
+      "clue": "单独站、后面没有名词——用 mine，my 必须带着名词。"
+    },
+    {
+      "sentence": "My sister is very tall. His name is Amy.",
+      "fixed": "My sister is very tall. Her name is Amy.",
+      "clue": "妹妹是女生——她的名字用 her。中文他/她同音，英语必须分。"
+    },
+    {
+      "sentence": "Our teacher told we a story about the band.",
+      "fixed": "Our teacher told us a story about the band.",
+      "clue": "动词 told 后面的「我们」要换成宾格 us。"
+    }
+  ]
+}

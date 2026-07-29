@@ -31,6 +31,17 @@
       "file": "./data/grammar/g02.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G03",
+      "tier": "基石",
+      "title": "代词全表",
+      "metaphor": "谁在台上、谁的乐器",
+      "ketRelevance": 2,
+      "ketLessonMap": ["L6"],
+      "file": "./data/grammar/g03.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
