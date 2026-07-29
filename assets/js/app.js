@@ -10,12 +10,13 @@ import { renderReadingPage } from './modules/reading.js';
 import { renderWritingPage } from './modules/writing.js';
 import { renderPetTopicMap, collectPetWordsById } from './modules/pet.js';
 import { trackPage } from './study-time.js'; // V0.7 学习时长计时（前台停留，路由打点）
+import { loadData } from './utils/lazy-data.js'; // V0.9 分片懒加载器（loadJSON 的底座）
 // V0.4 剑桥备考中心：模块按需动态 import（减小首屏体积），路由见 navigate()
 
 // 全局状态
 const state = {
-  page: 'home',
-  data: {} // 缓存加载过的数据
+  page: 'home'
+  // 数据缓存已上移到 utils/lazy-data.js（V0.9 P0）
 };
 
 // === 工具：toast 提示 ===
@@ -65,19 +66,12 @@ export function closeModal() {
 }
 
 // === 工具：加载 JSON ===
+// V0.9 P0：统一走 utils/lazy-data.js（带并发合并 + 失败重试 1 次 + 内存缓存），
+// 这里只保留「失败弹 toast」这一层适配，现有模块的调用方式与返回值完全不变。
 export async function loadJSON(path) {
-  if (state.data[path]) return state.data[path];
-  try {
-    const res = await fetch(path);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    state.data[path] = data;
-    return data;
-  } catch (e) {
-    console.error('加载失败:', path, e);
-    toast('数据加载失败', 'error');
-    return null;
-  }
+  const data = await loadData(path);
+  if (data === null) toast('数据加载失败', 'error');
+  return data;
 }
 
 // === 顶部导航更新 ===
