@@ -86,6 +86,17 @@
       "file": "./data/grammar/g07.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G08",
+      "tier": "基石",
+      "title": "祈使句",
+      "metaphor": "指挥的口令（不用说主语，全团都知道是你）",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g08.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
