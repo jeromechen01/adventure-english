@@ -329,6 +329,22 @@
 
 ---
 
+## V0.9 P0.7：中文编码守卫
+
+背景：P1-P7 将生成约 10 万字中文内容；PowerShell 管道会把 UTF-8 按系统码页（GBK）静默转坏，
+**乱码后仍是合法字符串、能通过 Schema 校验**，必须专门检测。
+
+- [x] `tools/check-data.mjs` 增加编码守卫，对 `data/` 下**全部 .json** 扫描（本次实测 94 个）：
+  - a) UTF-8 无 BOM（开头 EF BB BF → 报错）
+  - b) 替换字符 U+FFFD → 报错并输出文件名+行号
+  - c) mojibake 指纹（Ã/Â 连串、ä¸/æ˜ 类三字节拆读、ï¼/ï»¿ 全角标点、璇硶/閿欒 类 GBK 误读）→ 报错+行号
+  - d) CJK 占比 <5% 告警——**收窄到 `data/grammar/` 与 `data/reader/` 的讲解类文件**（词表/题库英文本来占大头，实测 2-5%，全局开会有 19 条误报把真问题淹掉）
+- [x] 验证：故意写坏的 5 个样本（BOM / U+FFFD / GBK 指纹 / Latin-1 拆读 / 低 CJK）全部拦截，exit=1；样本已删除；干净跑 94 文件 0 错 0 警
+- [x] 写入约定：内容文件一律 `fs.writeFileSync(path, str, 'utf8')`，读验证用 node，不经 PowerShell 管道
+- [x] 新增 `tools/smoke/preflight.mjs` 收尾统一入口：check-esm + check-data（含编码守卫）+ **sw.js 登记核对**（assets/js 下每个 .js 必须在 SHELL_URLS 里，漏登记直接报错）。P1-P7 每批收尾先跑它，再跑浏览器两件套
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
@@ -338,6 +354,7 @@
 5. **无头 Chrome 加 `--virtual-time-budget` 会把 Service Worker 线程挂住**（页面永远停在 PENDING）。验证 SW 时改用 `Start-Process` + `Start-Sleep` + `Stop-Process`。
 6. **无头 Chrome 的 viewport 有最小宽度（实测卡在 ~492px，`--window-size` 压不下去），截图会被裁切，看着像元素溢出其实不是。判断窄屏版式必须用 `tools/smoke/shot.html?page=xxx&w=360` 实测元素右边界**，不要靠眼睛看截图。
 7. **PowerShell 读 UTF-8 结果文件会乱码**（`ConvertFrom-Json` 直接报错）。自检结果用 `node -e` 或 Bash 的 `cat` 读。
+   **中文内容文件一律 node 读写，UTF-8 无 BOM。PowerShell 管道会静默损坏编码，且乱码能通过 Schema 校验——check-data.mjs 已加编码守卫（P0.7），不要绕过。**
 8. 所有路径用相对路径 `./xxx`，绝不用绝对路径（GitHub Pages 子目录部署）。
 
 ---
