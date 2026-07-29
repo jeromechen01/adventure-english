@@ -70,6 +70,33 @@
       for (const p of ['home', 'learn', 'words', 'levels', 'grammar', 'reading', 'writing', 'mistakes', 'leaderboard', 'me', 'reinforce', 'timestats']) {
         await visit('grade3', p);
       }
+      // P1a 语法大厅：大厅列表 + G01 课内页
+      await visit('grade3', 'grammar-hall');
+      await visit('grade3', 'grammar-hall', { lesson: 'G01' });
+
+      // 语法大厅闯练引擎实跑：四环节列表 → 环节1 答满 16 题 → 结果页；侦探关提交一次
+      const hallDrill = {};
+      const click = async sel => { const el = app.querySelector(sel); if (!el) return false; el.click(); await sleep(250); return true; };
+      hallDrill.stagesOpened = await click('#toStagesBtn');
+      hallDrill.stage1Opened = await click('[data-stage="0"]');
+      let answeredN = 0;
+      for (let i = 0; i < 16; i++) {
+        const opt = app.querySelector('[data-oi]');
+        if (!opt) break;
+        opt.click(); await sleep(150);
+        const nx = app.querySelector('#nextBtn');
+        if (!nx) break;
+        nx.click(); await sleep(150);
+        answeredN++;
+      }
+      hallDrill.answered16 = answeredN === 16;
+      hallDrill.resultShown = !!app.querySelector('#stagesBtn');
+      await window.__nav('grammar-hall', { lesson: 'G01' });
+      await sleep(600);
+      hallDrill.detectiveOpened = await click('#detectiveBtn');
+      const fixIn = app.querySelector('#fixInput');
+      if (fixIn) { fixIn.value = 'wrong answer on purpose'; await click('#submitBtn'); }
+      hallDrill.detectiveFeedback = !!app.querySelector('#selfOk');
       storage.setGrade(8);
       for (const p of ['words', 'grammar', 'reading']) await visit('grade8', p);
 
@@ -87,7 +114,8 @@
 
       // P0.5 三时钟自检：报名未开放 / 报名进行中 / 报名已结束 三种时点
       const ec = await import('./assets/js/modules/exam/exam-common.js');
-      const iso = off => { const d = new Date(); d.setDate(d.getDate() + off); return d.toISOString().slice(0, 10); };
+      // 用本地日期拼串（不要 toISOString：那是 UTC，东八区早上 8 点前会差一天，daysUntil 按本地算）
+      const iso = off => { const d = new Date(); d.setDate(d.getDate() + off); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); };
       const clockCases = [];
       for (const [name, o, c, e, want] of [
         ['报名未开放', 30, 60, 120, 'regOpen'],
@@ -159,23 +187,28 @@
       const lz = await import('./assets/js/utils/lazy-data.js');
       const gi = await lz.loadIndex('grammar');
       const ri = await lz.loadIndex('reader');
-      const missing = await lz.loadGrammarLesson('G01'); // 尚无内容，应返回 null 且不抛
+      const g01 = await lz.loadGrammarLesson('G01');     // P1a 起有真内容
+      const missing = await lz.loadGrammarLesson('G02'); // 尚无内容，应返回 null 且不抛
       const stats = lz.cacheStats();
 
       // === 离线复跑：清掉内存缓存 → 服务器切断网 → 三条线再走一遍，全部靠 SW 缓存 ===
       const onlineCount = out.length;
       const errsBeforeOffline = window.__errs.length;
       lz.clearMemoryCache();
-      await fetch('/__offline').catch(() => {});
+      // 带随机参数防被 SW 壳缓存拦下（sw.js 会缓存同源 200 响应，复用 profile 时必踩）
+      await fetch('/__offline?t=' + Date.now() + Math.random()).catch(() => {});
       await sleep(300);
       storage.setGrade(3);
       for (const p of ['home', 'words', 'levels', 'grammar', 'reading', 'writing', 'mistakes', 'me']) await visit('offline-grade3', p);
+      // 语法大厅离线：索引在壳缓存，g01.json 在线访问过 → 内容缓存可读
+      await visit('offline-grade3', 'grammar-hall');
+      await visit('offline-grade3', 'grammar-hall', { lesson: 'G01' });
       storage.setGrade('PET');
       for (const p of ['words', 'reading']) await visit('offline-PET', p);
       storage.setGrade('KET');
       for (const p of ['exam-hub', 'exam-plan', 'exam-knowledge', 'exam-grammar', 'exam-reading', 'exam-writing', 'exam-mock', 'exam-resources']) await visit('offline-KET', p);
       const offlineRoutes = out.slice(onlineCount);
-      await fetch('/__online').catch(() => {});
+      await fetch('/__online?t=' + Date.now() + Math.random()).catch(() => {});
 
       const payload = {
         routes: out,
@@ -186,12 +219,15 @@
         },
         clocks: clockCheck,
         season: seasonCheck,
+        hallDrill,
         gradePicker,
         lazy: {
           grammarIndex: gi && gi.type,
           grammarTiers: gi && gi.tiers.length,
+          grammarLessons: gi && gi.lessons.length,
           readerIndex: ri && ri.type,
           readerVolumes: ri && ri.volumes.length,
+          g01Loaded: !!(g01 && g01.id === 'G01' && g01.practice.stages.length === 4 && g01.detective.length === 8),
           missingLessonReturnsNull: missing === null,
           skeletonOk: lz.skeletonHTML(3).includes('正在加载'),
           stats

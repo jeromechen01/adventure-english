@@ -5,11 +5,12 @@
 (async () => {
   const log = {};
   const sleep = ms => new Promise(r => setTimeout(r, ms));
-  const SHELL = 'english-adventure-ea-v0.9.06';
-  const CONTENT = 'english-adventure-content-ea-v0.9.06';
+  // 断网开关必须带随机参数：sw.js 会把同源 200 响应写进壳缓存，
+  // 复用 profile 时不带参数的 /__offline 会被缓存拦下、根本到不了服务器
+  const toggle = sw => fetch('/__' + sw + '?t=' + Date.now() + Math.random());
   const done = async () => {
     document.getElementById('R').textContent = JSON.stringify(log, null, 1);
-    try { await fetch('/__online'); } catch (e) {}
+    try { await toggle('online'); } catch (e) {}
     try { await fetch('/__result', { method: 'POST', body: JSON.stringify(log, null, 1) }); } catch (e) { }
   };
   try {
@@ -21,6 +22,10 @@
     if (!log.controlled) { await done(); return; }
 
     log.caches = await caches.keys();
+    // 缓存名从实际列表发现，不硬编码版本号（曾硬编码 v0.9.06，bump 后全部探空）。
+    // 内容缓存是首次内容请求时才懒创建的，keys() 里可能还没有——由壳缓存名推导。
+    const SHELL = log.caches.find(k => k.startsWith('english-adventure-') && !k.includes('-content-')) || 'shell-missing';
+    const CONTENT = SHELL.replace('english-adventure-', 'english-adventure-content-');
     const shell = await caches.open(SHELL);
     const content = await caches.open(CONTENT);
     const shellKeys = (await shell.keys()).map(r => new URL(r.url).pathname);
@@ -41,7 +46,7 @@
     log.contentHasFetched = afterKeys.some(p => p.endsWith('/data/words/grade5.json'));
 
     // === 真·离线：把服务器切成断网模式，再走一遍 ===
-    await fetch('/__offline');
+    await toggle('offline');
     await sleep(200);
     log.offline = {};
     // ① 已访问过的内容文件 → 应从内容缓存命中
@@ -72,7 +77,7 @@
       log.offline.serverReallyDown = r5.status === 504;
     } catch (e) { log.offline.serverReallyDown = 'threw:' + e.name; }
 
-    await fetch('/__online').catch(() => {});
+    await toggle('online').catch(() => {});
     await sleep(200);
 
     // === 调试入口：清内容缓存不动壳 ===
