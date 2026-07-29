@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>截图用</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="bg-gray-50">
+<!-- 截图用最小外壳：把某个页面渲染出来供 chrome --screenshot 看版式（窄屏是否溢出、触控热区）。
+     用法：/_shot.html?page=exam-hub  （页面名同 app.js 的路由名） -->
+  <header id="topNav"><button id="gradeBtn"><span id="gradeLabel">KET</span></button>
+    <span id="coinDisplay">0</span><span id="streakDisplay">0</span></header>
+  <main id="app" class="max-w-3xl mx-auto px-4 py-4"></main>
+  <nav id="bottomNav">
+    <button data-page="home" class="nav-btn"></button>
+    <button data-page="learn" class="nav-btn"></button>
+    <button data-page="mistakes" class="nav-btn"></button>
+    <button data-page="leaderboard" class="nav-btn"></button>
+    <button data-page="me" class="nav-btn"></button>
+  </nav>
+  <div id="modalRoot"></div>
+  <div id="toastRoot"></div>
+
+  <script type="module" src="assets/js/app.js"></script>
+  <script type="module">
+    const sleep = ms => new Promise(r => setTimeout(r, ms));
+    const q = new URLSearchParams(location.search);
+    const page = q.get('page') || 'exam-hub';
+    (async () => {
+      for (let i = 0; i < 40 && !window.__nav; i++) await sleep(100);
+      document.getElementById('modalRoot').innerHTML = '';
+      const storage = await import('./assets/js/storage.js');
+      if (page.startsWith('exam-')) {
+        storage.setGrade('KET');
+        storage.setExamProfile({ ...storage.getExamProfile(), level: 'KET', started: true });
+      }
+      await window.__nav(page);
+      await sleep(600);
+      if (q.get('modal') === 'examInfo') {
+        const btn = document.getElementById('examInfoBtn');
+        if (btn) btn.click();
+        await sleep(400);
+      }
+      // 窄屏溢出体检：截图在无头模式下会被裁切，眼睛不可靠，改用实测宽度。
+      // 无头 Chrome 的窗口有最小宽度（实测 viewport 卡在 ~492px），拿不到真手机宽度，
+      // 所以用 ?w=360 把容器压到目标宽度来近似窄屏（媒体查询不会触发，但本项目字号走 clamp）。
+      const forceW = parseInt(q.get('w'), 10);
+      if (Number.isFinite(forceW)) {
+        const el = document.getElementById('app');
+        el.style.width = forceW + 'px'; el.style.maxWidth = forceW + 'px'; el.style.margin = '0';
+        document.querySelectorAll('#modalRoot .modal-content').forEach(m => { m.style.maxWidth = forceW - 32 + 'px'; });
+        await sleep(300);
+      }
+      const de = document.documentElement;
+      const limit = Number.isFinite(forceW) ? forceW : de.clientWidth;
+      const wide = [...document.querySelectorAll('#app *, #modalRoot *')]
+        .filter(el => el.getBoundingClientRect().right > limit + 1)
+        .slice(0, 8)
+        .map(el => ({ cls: (el.className || '').toString().slice(0, 60), right: Math.round(el.getBoundingClientRect().right) }));
+      const report = { page, viewport: de.clientWidth, scrollWidth: de.scrollWidth, overflow: de.scrollWidth > de.clientWidth, wide };
+      try { await fetch('/__result', { method: 'POST', body: JSON.stringify(report, null, 1) }); } catch (e) {}
+    })();
+  </script>
+</body>
+</html>

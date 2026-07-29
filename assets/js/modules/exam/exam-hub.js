@@ -1,10 +1,14 @@
 // modules/exam/exam-hub.js —— 模块 0：备考中心 Dashboard（V0.4）
-// 一屏四件事：双时钟 / 今日任务六格 / 进度环 / 九宫格入口。
+// 一屏四件事：时钟区 / 今日任务六格 / 进度环 / 九宫格入口。
 // ⚠️ 今日任务 = 计划的 Day N（完成度时钟），不是日历的今天。
 //    昨天没学 → 今天打开仍是同一个 Day N：不跳号、不补作业、不提醒欠账。
+// V0.9 P0.5：日历时钟由「考试日」一个升级为三个（报名开放 / 报名截止 / 考试日），
+//    日期与目标分全部读 data/exam/exam-config.json，可在「考试信息」面板改；
+//    报名两个节点过期后自动消失。三个时钟只报事实，不加评价（健康护栏）。
 import { toast, showModal, closeModal } from '../../app.js';
 import * as storage from '../../storage.js';
-import { examLevel, daysToExam, todayISO, getTodayTasks, addMinutesWithGuard } from './exam-common.js';
+import { examLevel, daysToExam, todayISO, getTodayTasks, addMinutesWithGuard,
+         loadExamConfig, examConfig, saveExamConfig, examClocks, esc } from './exam-common.js';
 
 const KET_VOCAB_START = 800;   // 起点词汇量（家长评估）
 const KET_VOCAB_TARGET = 1700; // KET 词汇线
@@ -12,6 +16,7 @@ const KET_VOCAB_TARGET = 1700; // KET 词汇线
 export async function renderExamHub(app) {
   const level = examLevel();
   const ep = storage.getExamProfile();
+  await loadExamConfig(); // 三个时钟与目标分都靠它
 
   // PET：轻量 Dashboard（跨度说明 + 入口），完整备考中心是 KET 的
   if (level === 'PET') return renderPetHub(app);
@@ -35,31 +40,42 @@ export async function renderExamHub(app) {
   const weekDays = storage.getWeekStudyDays(level);
   const dayPct = Math.round(day / plan.totalDays * 100);
 
-  // 报名提醒：2026-12 起显示（日历判断只用于提醒外部报名节点，不影响 Day N）
-  const showRegisterHint = new Date() >= new Date('2026-12-01T00:00:00');
+  const cfg = examConfig();
+  // 三个日历时钟：报名开放 → 报名截止 → 考试日。前两个过期自动消失，只留考试日。
+  const regClock = examClocks().find(c => c.key === 'regOpen' || c.key === 'regClose');
 
   app.innerHTML = `
-    <!-- 双时钟 -->
+    <!-- 时钟区：日历时钟（报名节点 + 考试日）+ 完成度时钟（Day N） -->
     <div class="card-cartoon mb-4 bg-gradient-to-br from-amber-50 to-orange-50">
-      <div class="flex items-center justify-between">
-        <div>
-          <div class="text-xs text-gray-500">${level} · 2027 春季 · 考试倒计时（日历）</div>
-          <div class="text-3xl font-black text-orange-500">D-${dday == null ? '?' : dday}</div>
-          <button id="editDateBtn" class="text-[11px] text-gray-400 underline">目标日 ${ep.examDate}（可改）</button>
+      ${regClock ? `
+      <button data-nav="exam-resources" class="w-full flex items-center gap-3 text-left tap-bounce rounded-2xl px-3 py-2 mb-3 border-2 ${
+        regClock.tone === 'red' ? 'bg-red-50 border-red-300' : 'bg-yellow-50 border-yellow-300'
+      }" style="min-height:48px">
+        <span class="text-2xl">📮</span>
+        <div class="flex-1 min-w-0">
+          <div class="text-[11px] text-gray-500">${regClock.label} · ${esc(regClock.date)}</div>
+          <div class="text-2xl font-black ${regClock.tone === 'red' ? 'text-red-500' : 'text-yellow-600'}">D-${regClock.days}</div>
+          ${regClock.note ? `<div class="text-[11px] text-gray-600 mt-0.5">${esc(regClock.note)}</div>` : ''}
         </div>
-        <div class="text-right">
+        <span class="text-xs text-gray-400 whitespace-nowrap">报名七步 ›</span>
+      </button>` : ''}
+      <div class="flex items-start justify-between gap-2">
+        <div class="min-w-0">
+          <div class="text-xs text-gray-500">${level} · 考试倒计时（日历）</div>
+          <div class="text-3xl font-black text-orange-500">D-${dday == null ? '?' : dday}</div>
+        </div>
+        <div class="text-right min-w-0">
           <div class="text-xs text-gray-500">计划进度（完成度）</div>
           <div class="text-3xl font-black text-primary">Day ${day} <span class="text-base text-gray-400">/ ${plan.totalDays}</span></div>
           <div class="text-[11px] text-gray-400">学了就前进，没学就原地等你</div>
         </div>
       </div>
+      <!-- 考试日与目标分独占一行：窄屏放进左列会把右边的 Day N 挤出屏幕 -->
+      ${cfg.editable !== false
+        ? `<button id="examInfoBtn" class="w-full text-left text-[11px] text-gray-500 underline mt-1" style="min-height:44px">考试日 ${esc(cfg.examDate || '未设置')} · 目标 ${cfg.targetScore}+（可改）</button>`
+        : `<div class="text-[11px] text-gray-500 mt-2">考试日 ${esc(cfg.examDate || '未设置')} · 目标 ${cfg.targetScore}+</div>`}
+      ${cfg.examDateNote ? `<div class="text-[11px] text-gray-400">ℹ️ ${esc(cfg.examDateNote)}</div>` : ''}
     </div>
-
-    ${showRegisterHint ? `
-    <div class="card-cartoon mb-4 bg-yellow-50 border-2 border-yellow-300">
-      <div class="font-bold text-sm">📮 报名窗口提醒</div>
-      <div class="text-xs text-gray-600 mt-1">目标 2027 春季（3-4 月）→ 现在就联系考点问考期、先占位（考前 3 个月开放、2 个月截止）。详见「资源」页报名七步。</div>
-    </div>` : ''}
 
     <!-- 今日任务：Day N 的六格 -->
     <div class="card-cartoon mb-4">
@@ -152,9 +168,9 @@ export async function renderExamHub(app) {
     renderExamHub(app);
   });
 
-  // 修改考试目标日
-  const dateBtn = app.querySelector('#editDateBtn');
-  if (dateBtn) dateBtn.addEventListener('click', () => showDatePicker(app, level));
+  // 考试信息面板（日期与目标分）
+  const infoBtn = app.querySelector('#examInfoBtn');
+  if (infoBtn) infoBtn.addEventListener('click', () => showExamInfoPanel(app));
 }
 
 // PET 轻量 Dashboard：跨度说明卡 + 现有词库/阅读入口 + 体验卷/资源
@@ -197,18 +213,20 @@ async function renderPetHub(app) {
   app.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => window.__nav(b.dataset.nav)));
 }
 
-// 首次进入的起始设置
+// 首次进入的起始设置（日期与目标分来自 data/exam/exam-config.json）
 function renderSetup(app, level, ep) {
+  const c = examConfig();
   app.innerHTML = `
     <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-amber-50 to-orange-50">
       <div class="text-6xl mb-2">🗝️</div>
       <h2 class="text-xl font-bold mb-1">KET 备考中心</h2>
-      <p class="text-sm text-gray-600">45 天核心期 · 每天 90 分钟 · 目标 2027 春季 140+（A 等 = 证书认定 B1）</p>
+      <p class="text-sm text-gray-600">45 天核心期 · 每天 90 分钟 · 目标 ${c.targetScore}+（A 等 = 证书认定 B1）</p>
     </div>
     <div class="card-cartoon mb-4">
-      <div class="font-bold text-sm mb-2">① 考试目标日（可以随时改）</div>
-      <input id="examDateInput" type="date" value="${ep.examDate || '2027-04-15'}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base" />
-      <div class="text-xs text-gray-400 mt-1">2027 春季约在 3-4 月，具体考期 2026 年 12 月起问考点</div>
+      <div class="font-bold text-sm mb-2">① 考试日期（可以随时改）</div>
+      <input id="examDateInput" type="date" value="${esc(ep.examDate || c.examDate)}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base" />
+      ${c.examDateNote ? `<div class="text-xs text-gray-400 mt-1">${esc(c.examDateNote)}</div>` : ''}
+      <div class="text-xs text-gray-500 mt-2">📍 ${esc(c.registerTip || '')}</div>
     </div>
     <div class="card-cartoon mb-4 bg-blue-50">
       <div class="text-sm text-gray-700">② 没有「起始日期」这回事——计划进度由完成度推进：<b>学了就前进，没学就原地等你，永远不欠账。</b></div>
@@ -216,31 +234,55 @@ function renderSetup(app, level, ep) {
     <button id="startBtn" class="w-full btn-cartoon">🚀 开始第 1 天</button>
   `;
   app.querySelector('#startBtn').addEventListener('click', () => {
-    const date = app.querySelector('#examDateInput').value || '2027-04-15';
+    const date = app.querySelector('#examDateInput').value || c.examDate;
     storage.setExamProfile({ ...ep, level, examDate: date, started: true });
+    saveExamConfig({ examDate: date });
     toast('出发！Day 1 见 🎉', 'success');
     renderExamHub(app);
   });
 }
 
-// 修改考试目标日弹窗
-function showDatePicker(app, level) {
-  const ep = storage.getExamProfile();
+// 「考试信息」面板：四个字段可改，存 localStorage，保存后三个时钟即时刷新。
+// 只改日期与目标分，不碰 45 天计划——计划进度依旧是完成度制，与日历解耦。
+export function showExamInfoPanel(app) {
+  const c = examConfig();
   showModal(`
     <div class="p-6">
-      <h3 class="font-bold text-center mb-3">修改考试目标日</h3>
-      <input id="mExamDate" type="date" value="${ep.examDate}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base mb-4" />
+      <h3 class="font-bold text-center text-lg mb-1">🗓️ 考试信息</h3>
+      <p class="text-[11px] text-gray-400 text-center mb-4">改完立即生效；只影响上面三个倒计时，不影响 45 天计划进度</p>
+
+      <label class="block text-sm font-bold mb-1">考试日期</label>
+      <input id="cfgExamDate" type="date" value="${esc(c.examDate)}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base mb-1" />
+      ${c.examDateNote ? `<div class="text-[11px] text-gray-400 mb-3">${esc(c.examDateNote)}</div>` : '<div class="mb-3"></div>'}
+
+      <label class="block text-sm font-bold mb-1">报名开放日</label>
+      <input id="cfgRegOpen" type="date" value="${esc(c.regOpenDate)}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base mb-3" />
+
+      <label class="block text-sm font-bold mb-1">报名截止日</label>
+      <input id="cfgRegClose" type="date" value="${esc(c.regCloseDate)}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base mb-3" />
+
+      <label class="block text-sm font-bold mb-1">目标分</label>
+      <input id="cfgTarget" type="number" min="0" max="160" step="1" value="${Number(c.targetScore) || 140}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base mb-4" />
+
+      <div class="text-xs text-gray-600 bg-blue-50 rounded-2xl px-3 py-2 mb-4">📍 ${esc(c.registerTip || '报名走考点，不能自己上官网报。cambridgeenglish.cn → Find a centre')}</div>
+
       <div class="flex gap-3">
-        <button id="mCancel" class="flex-1 btn-cartoon btn-cartoon-secondary">取消</button>
-        <button id="mSave" class="flex-1 btn-cartoon">保存</button>
+        <button id="cfgCancel" class="flex-1 btn-cartoon btn-cartoon-secondary">取消</button>
+        <button id="cfgSave" class="flex-1 btn-cartoon">保存</button>
       </div>
     </div>
   `);
-  document.getElementById('mCancel').addEventListener('click', closeModal);
-  document.getElementById('mSave').addEventListener('click', () => {
-    const v = document.getElementById('mExamDate').value;
-    if (v) storage.setExamProfile({ ...ep, examDate: v });
+  document.getElementById('cfgCancel').addEventListener('click', closeModal);
+  document.getElementById('cfgSave').addEventListener('click', () => {
+    const num = parseInt(document.getElementById('cfgTarget').value, 10);
+    saveExamConfig({
+      examDate: document.getElementById('cfgExamDate').value || c.examDate,
+      regOpenDate: document.getElementById('cfgRegOpen').value,
+      regCloseDate: document.getElementById('cfgRegClose').value,
+      targetScore: Number.isFinite(num) ? Math.min(160, Math.max(0, num)) : c.targetScore,
+    });
     closeModal();
+    toast('考试信息已更新', 'success');
     renderExamHub(app);
   });
 }

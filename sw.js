@@ -8,7 +8,7 @@
 //   会超时，手机上可能直接装不上。
 //   现在：install 只装应用壳（HTML/CSS/JS/图标/manifest + 各 index.json 元信息），
 //   data/ 下的内容文件改为 cache-first 的运行时缓存——访问过一次即写入，之后离线可读。
-const CACHE_VERSION = 'ea-v0.9.0';
+const CACHE_VERSION = 'ea-v0.9.05';
 const SHELL_CACHE = `english-adventure-${CACHE_VERSION}`;
 const CONTENT_CACHE = `english-adventure-content-${CACHE_VERSION}`;
 
@@ -60,6 +60,7 @@ const SHELL_URLS = [
 //    正文/题库一律不进这里（走运行时缓存）。
 const INDEX_URLS = [
   './data/exam/index.json',
+  './data/exam/exam-config.json', // P0.5 考试关键日期与目标分（三时钟读它，每次进备考中心都要）
   './data/exam/ket/words/index.json',
   './data/exam/ket/mocks/index.json',
   './data/exam/pet/mocks/index.json',

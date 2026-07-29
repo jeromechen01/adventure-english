@@ -78,11 +78,45 @@
       for (const p of ['learn', 'words', 'reading']) await visit('PET', p);
       await visit('PET', 'petlevels', { topic: null });
 
-      // 线③ KET 备考中心九模块
+      // 线③ KET 备考中心九模块（把 started 置真，走完整 Dashboard 而不是首次设置页）
       storage.setGrade('KET');
+      storage.setExamProfile({ ...storage.getExamProfile(), level: 'KET', started: true });
       for (const p of ['exam-hub', 'exam-plan', 'exam-knowledge', 'exam-grammar', 'exam-reading', 'exam-writing', 'exam-mock', 'exam-checkin', 'exam-resources', 'exam-report']) {
         await visit('KET', p);
       }
+
+      // P0.5 三时钟自检：报名未开放 / 报名进行中 / 报名已结束 三种时点
+      const ec = await import('./assets/js/modules/exam/exam-common.js');
+      const iso = off => { const d = new Date(); d.setDate(d.getDate() + off); return d.toISOString().slice(0, 10); };
+      const clockCases = [];
+      for (const [name, o, c, e, want] of [
+        ['报名未开放', 30, 60, 120, 'regOpen'],
+        ['报名进行中', -5, 20, 90, 'regClose'],
+        ['报名已结束', -60, -30, 10, null],
+      ]) {
+        ec.saveExamConfig({ regOpenDate: iso(o), regCloseDate: iso(c), examDate: iso(e) });
+        const cl = ec.examClocks();
+        clockCases.push({
+          name,
+          keys: cl.map(x => x.key),
+          firstAsExpected: (cl[0] && cl[0].key !== 'exam' ? cl[0].key : null) === want,
+          examAlwaysThere: cl.some(x => x.key === 'exam'),
+          examDays: (cl.find(x => x.key === 'exam') || {}).days,
+        });
+        await visit('clock-' + name, 'exam-hub'); // 每种时点都要能渲染
+      }
+      // 用户改值 → 即时生效
+      ec.saveExamConfig({ targetScore: 150, examDate: iso(45) });
+      const persisted = ec.examConfig();
+      const clockCheck = {
+        cases: clockCases,
+        overrideWorks: persisted.targetScore === 150 && ec.daysToExam() === 45,
+        tipFromConfig: /Find a centre/.test(persisted.registerTip || ''),
+      };
+      // 还原默认（清掉覆盖层），免得影响后面的离线复跑
+      localStorage.removeItem('ea_examConfig');
+      await ec.loadExamConfig(true);
+      clockCheck.restored = ec.examConfig().targetScore;
 
       // 懒加载器自检
       const lz = await import('./assets/js/utils/lazy-data.js');
@@ -113,6 +147,7 @@
           offline: { total: offlineRoutes.length, failed: offlineRoutes.filter(r => r.fail).length,
                      newErrs: window.__errs.length - errsBeforeOffline }
         },
+        clocks: clockCheck,
         lazy: {
           grammarIndex: gi && gi.type,
           grammarTiers: gi && gi.tiers.length,

@@ -1,0 +1,15 @@
+{
+  "$comment": "考试关键日期与目标分的唯一配置源（V0.9 P0.5）。这里是默认值；用户在备考中心「考试信息」面板改过之后，改动存在 localStorage 的 examConfig 里覆盖本文件。三个时钟（报名开放/报名截止/考试日）全部读这里，不再硬编码。注意：计划进度 Day N 仍是完成度驱动，与本文件的任何日期都无关。",
+  "version": "0.9.05",
+  "updated": "2026-07-29",
+
+  "examDate": "2026-12-13",
+  "regOpenDate": "2026-09-13",
+  "regCloseDate": "2026-10-13",
+  "targetScore": 140,
+  "editable": true,
+
+  "examDateNote": "占位日期，实际考期以考点答复为准",
+  "regOpenNote": "北京考位常年秒空，开放即占位",
+  "registerTip": "报名走考点，不能自己上官网报。cambridgeenglish.cn → Find a centre"
+}

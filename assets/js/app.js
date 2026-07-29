@@ -581,8 +581,13 @@ function renderMe(app) {
 }
 
 // === 年级选择 ===
-function showGradePicker() {
+async function showGradePicker() {
   const profile = storage.getProfile();
+  // KET 那行的日期与目标分读配置（V0.9 P0.5），避免和备考中心里的三时钟对不上
+  let examCfg = { examDate: '', targetScore: 140 };
+  try {
+    examCfg = await (await import('./modules/exam/exam-common.js')).loadExamConfig();
+  } catch (e) { /* 配置读不到就退回不带日期的文案 */ }
   showModal(`
     <div class="p-6">
       <h3 class="font-bold text-lg text-center mb-4">选择你的年级</h3>
@@ -605,7 +610,7 @@ function showGradePicker() {
         <div class="text-3xl">🗝️</div>
         <div class="flex-1">
           <div class="font-bold text-sm">KET (A2 Key for Schools)</div>
-          <div class="text-[11px] text-gray-500">45 天备考中心 · 目标 2027 春季 140+</div>
+          <div class="text-[11px] text-gray-500">45 天备考中心${examCfg.examDate ? ' · ' + examCfg.examDate : ''} · 目标 ${examCfg.targetScore}+</div>
         </div>
       </button>
       <button data-grade="PET" class="w-full card-cartoon tap-bounce mt-2 flex items-center gap-3 text-left ${profile.grade==='PET'?'ring-2 ring-primary':''}"

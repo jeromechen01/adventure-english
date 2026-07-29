@@ -22,7 +22,8 @@ const KEYS = {
   STATS: 'stats',             // 杂项统计 { bossKills, threeStars, comboMax, regionClears, reinforceGrads }
   RECITATION: 'recitation',   // 背诵成绩 { [articleId]: bestScore }
   // === V0.4 剑桥备考中心 ===
-  EXAM_PROFILE: 'examProfile',   // { level:'KET'|'PET', examDate:'2027-04-15', started:true }
+  EXAM_PROFILE: 'examProfile',   // { level:'KET'|'PET', examDate:'2026-12-13', started:true }
+  EXAM_CONFIG: 'examConfig',     // V0.9 P0.5 用户覆盖的考试信息 { examDate, regOpenDate, regCloseDate, targetScore }
   EXAM_PLAN: 'examPlan',         // { [level]: { day:N, slots:{ [day]:{ [slotId]:true } } } }
   EXAM_CHECKIN: 'examCheckin',   // { [level]: { [dateISO]: doneSlotCount } }  真实日期热力图
   EXAM_MINUTES: 'examMinutes',   // { [level]: { [dateISO]: minutes } }  健康护栏用
@@ -519,11 +520,22 @@ const PLAN_MAX_DAY = 45; // 45 天核心期
 
 // 备考档案：级别 + 考试目标日（注意：没有 planStartDate，进度不靠日期）
 export function getExamProfile() {
-  return get(KEYS.EXAM_PROFILE, { level: null, examDate: '2027-04-15', started: false });
+  // examDate 默认留空：真正的默认值来自 data/exam/exam-config.json（V0.9 P0.5 起配置化）
+  return get(KEYS.EXAM_PROFILE, { level: null, examDate: '', started: false });
 }
 
 export function setExamProfile(p) {
   return set(KEYS.EXAM_PROFILE, p);
+}
+
+// V0.9 P0.5：考试关键日期与目标分的用户覆盖值。
+// 默认值在 data/exam/exam-config.json；这里只存用户改过的字段，合并逻辑在 exam-common.js。
+export function getExamConfigOverride() {
+  return get(KEYS.EXAM_CONFIG, {}) || {};
+}
+
+export function setExamConfigOverride(patch) {
+  return set(KEYS.EXAM_CONFIG, { ...getExamConfigOverride(), ...patch });
 }
 
 // 内部：取某级别的计划状态（默认 Day 1，全部未完成）

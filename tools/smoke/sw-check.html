@@ -5,8 +5,8 @@
 (async () => {
   const log = {};
   const sleep = ms => new Promise(r => setTimeout(r, ms));
-  const SHELL = 'english-adventure-ea-v0.9.0';
-  const CONTENT = 'english-adventure-content-ea-v0.9.0';
+  const SHELL = 'english-adventure-ea-v0.9.05';
+  const CONTENT = 'english-adventure-content-ea-v0.9.05';
   const done = async () => {
     document.getElementById('R').textContent = JSON.stringify(log, null, 1);
     try { await fetch('/__online'); } catch (e) {}
