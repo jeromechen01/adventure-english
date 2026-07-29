@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>swcheck</title></head>
+<body><pre id="R">PENDING</pre>
+<script>
+(async () => {
+  const log = {};
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  const SHELL = 'english-adventure-ea-v0.9.0';
+  const CONTENT = 'english-adventure-content-ea-v0.9.0';
+  const done = async () => {
+    document.getElementById('R').textContent = JSON.stringify(log, null, 1);
+    try { await fetch('/__online'); } catch (e) {}
+    try { await fetch('/__result', { method: 'POST', body: JSON.stringify(log, null, 1) }); } catch (e) { }
+  };
+  try {
+    const reg = await navigator.serviceWorker.register('./sw.js');
+    await navigator.serviceWorker.ready;
+    for (let i = 0; i < 100 && !navigator.serviceWorker.controller; i++) await sleep(100);
+    log.registered = !!reg;
+    log.controlled = !!navigator.serviceWorker.controller;
+    if (!log.controlled) { await done(); return; }
+
+    log.caches = await caches.keys();
+    const shell = await caches.open(SHELL);
+    const content = await caches.open(CONTENT);
+    const shellKeys = (await shell.keys()).map(r => new URL(r.url).pathname);
+    log.shellCount = shellKeys.length;
+    log.shellHasApp = shellKeys.some(p => p.endsWith('/assets/js/app.js'));
+    log.shellHasLazy = shellKeys.some(p => p.endsWith('/assets/js/utils/lazy-data.js'));
+    log.shellHasIndexes = ['/data/grammar/index.json', '/data/reader/index.json', '/data/exam/index.json', '/data/pet/topics.json']
+      .every(x => shellKeys.some(p => p.endsWith(x)));
+    // P0 核心：内容文件不再进预缓存
+    log.shellHasContentFile = shellKeys.filter(p => /grade\d\.json|ket-food\.json|mock-01\.json|grammar-lessons\.json/.test(p));
+
+    log.contentBefore = (await content.keys()).length;
+    await fetch('data/words/grade5.json').then(r => r.json());
+    await fetch('data/exam/ket/words/ket-food.json').then(r => r.json());
+    await sleep(400);
+    const afterKeys = (await content.keys()).map(r => new URL(r.url).pathname);
+    log.contentAfter = afterKeys.length;
+    log.contentHasFetched = afterKeys.some(p => p.endsWith('/data/words/grade5.json'));
+
+    // === 真·离线：把服务器切成断网模式，再走一遍 ===
+    await fetch('/__offline');
+    await sleep(200);
+    log.offline = {};
+    // ① 已访问过的内容文件 → 应从内容缓存命中
+    try {
+      const r1 = await fetch('data/words/grade5.json');
+      const d1 = await r1.json();
+      log.offline.cachedContentOk = r1.ok && Array.isArray(d1.units);
+    } catch (e) { log.offline.cachedContentOk = 'ERR ' + e.message; }
+    // ② 预缓存的索引 → 应从壳缓存命中
+    try {
+      const r2 = await fetch('data/grammar/index.json');
+      const d2 = await r2.json();
+      log.offline.indexOk = r2.ok && d2.type === 'grammar-hall';
+    } catch (e) { log.offline.indexOk = 'ERR ' + e.message; }
+    // ③ 应用壳 JS → 应命中
+    try {
+      const r3 = await fetch('assets/js/utils/lazy-data.js');
+      log.offline.shellJsOk = r3.ok && (await r3.text()).includes('loadGrammarLesson');
+    } catch (e) { log.offline.shellJsOk = 'ERR ' + e.message; }
+    // ④ 没访问过的内容文件 → 应优雅降级为 504，不抛异常
+    try {
+      const r4 = await fetch('data/words/grade9.json');
+      log.offline.uncachedStatus = r4.status;
+    } catch (e) { log.offline.uncachedStatus = 'THREW ' + e.message; }
+    // ⑤ 确认服务器确实断了（绕开 SW 的非缓存路径）
+    try {
+      const r5 = await fetch('/__ping-nonexistent-' + Math.random());
+      log.offline.serverReallyDown = r5.status === 504;
+    } catch (e) { log.offline.serverReallyDown = 'threw:' + e.name; }
+
+    await fetch('/__online').catch(() => {});
+    await sleep(200);
+
+    // === 调试入口：清内容缓存不动壳 ===
+    const ch = new MessageChannel();
+    log.clearMsg = await new Promise(res => {
+      ch.port1.onmessage = e => res(e.data);
+      navigator.serviceWorker.controller.postMessage({ type: 'CLEAR_CONTENT_CACHE' }, [ch.port2]);
+    });
+    await sleep(300);
+    log.contentAfterClear = (await caches.has(CONTENT))
+      ? (await (await caches.open(CONTENT)).keys()).length : 0;
+    log.shellAfterClear = (await (await caches.open(SHELL)).keys()).length;
+  } catch (e) {
+    log.error = (e && (e.message || String(e))) || 'unknown';
+  }
+  await done();
+})();
+</script>
+</body></html>

@@ -3,3 +3,6 @@
 Docs/**/*.pdf
 Docs/**/*.zip
 Docs/**/*.mp3
+
+# 自检产物（浏览器回传的结果文件，每次跑都变）
+tools/smoke/result.json

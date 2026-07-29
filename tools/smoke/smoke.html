@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>smoke</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+<script>
+  window.__errs = [];
+  window.addEventListener('error', e => window.__errs.push('error: ' + (e.message || e.error)));
+  window.addEventListener('unhandledrejection', e => window.__errs.push('rejection: ' + ((e.reason && e.reason.message) || e.reason)));
+  const _ce = console.error;
+  console.error = function (...a) { window.__errs.push('console.error: ' + a.map(x => (x && x.message) || String(x)).join(' ')); _ce.apply(console, a); };
+</script>
+</head>
+<body>
+  <header id="topNav"><button id="gradeBtn"><span id="gradeLabel">三年级</span></button>
+    <span id="coinDisplay">0</span><span id="streakDisplay">0</span></header>
+  <main id="app"></main>
+  <nav id="bottomNav">
+    <button data-page="home" class="nav-btn"></button>
+    <button data-page="learn" class="nav-btn"></button>
+    <button data-page="mistakes" class="nav-btn"></button>
+    <button data-page="leaderboard" class="nav-btn"></button>
+    <button data-page="me" class="nav-btn"></button>
+  </nav>
+  <div id="modalRoot"></div>
+  <div id="toastRoot"></div>
+  <pre id="RESULT">PENDING</pre>
+
+  <script type="module" src="assets/js/app.js"></script>
+  <script type="module">
+    const sleep = ms => new Promise(r => setTimeout(r, ms));
+    const app = document.getElementById('app');
+    const out = [];
+
+    async function visit(label, page, params) {
+      const before = window.__errs.length;
+      try {
+        await window.__nav(page, params || {});
+      } catch (e) {
+        window.__errs.push('nav threw @' + page + ': ' + e.message);
+      }
+      await sleep(400);
+      const html = app.innerHTML;
+      const bad = /加载失败|模块加载失败|启动失败/.test(html);
+      out.push({
+        line: label, page,
+        len: html.length,
+        fail: bad,
+        newErrs: window.__errs.length - before
+      });
+    }
+
+    async function run() {
+      // 装 SW 并等它接管（离线复跑要靠它）
+      try {
+        await navigator.serviceWorker.register('./sw.js');
+        await navigator.serviceWorker.ready;
+        for (let i = 0; i < 100 && !navigator.serviceWorker.controller; i++) await sleep(100);
+      } catch (e) { window.__errs.push('sw register: ' + e.message); }
+
+      // 等 app.js 的 bootstrap 跑完
+      for (let i = 0; i < 40 && !window.__nav; i++) await sleep(100);
+      if (!window.__nav) { document.getElementById('RESULT').textContent = 'BOOT-FAILED ' + JSON.stringify(window.__errs); return; }
+      document.getElementById('modalRoot').innerHTML = ''; // 关掉首次访问欢迎弹窗
+      const storage = await import('./assets/js/storage.js');
+
+      // 线① 1-9 年级
+      storage.setGrade(3);
+      for (const p of ['home', 'learn', 'words', 'levels', 'grammar', 'reading', 'writing', 'mistakes', 'leaderboard', 'me', 'reinforce', 'timestats']) {
+        await visit('grade3', p);
+      }
+      storage.setGrade(8);
+      for (const p of ['words', 'grammar', 'reading']) await visit('grade8', p);
+
+      // 线② PET
+      storage.setGrade('PET');
+      for (const p of ['learn', 'words', 'reading']) await visit('PET', p);
+      await visit('PET', 'petlevels', { topic: null });
+
+      // 线③ KET 备考中心九模块
+      storage.setGrade('KET');
+      for (const p of ['exam-hub', 'exam-plan', 'exam-knowledge', 'exam-grammar', 'exam-reading', 'exam-writing', 'exam-mock', 'exam-checkin', 'exam-resources', 'exam-report']) {
+        await visit('KET', p);
+      }
+
+      // 懒加载器自检
+      const lz = await import('./assets/js/utils/lazy-data.js');
+      const gi = await lz.loadIndex('grammar');
+      const ri = await lz.loadIndex('reader');
+      const missing = await lz.loadGrammarLesson('G01'); // 尚无内容，应返回 null 且不抛
+      const stats = lz.cacheStats();
+
+      // === 离线复跑：清掉内存缓存 → 服务器切断网 → 三条线再走一遍，全部靠 SW 缓存 ===
+      const onlineCount = out.length;
+      const errsBeforeOffline = window.__errs.length;
+      lz.clearMemoryCache();
+      await fetch('/__offline').catch(() => {});
+      await sleep(300);
+      storage.setGrade(3);
+      for (const p of ['home', 'words', 'levels', 'grammar', 'reading', 'writing', 'mistakes', 'me']) await visit('offline-grade3', p);
+      storage.setGrade('PET');
+      for (const p of ['words', 'reading']) await visit('offline-PET', p);
+      storage.setGrade('KET');
+      for (const p of ['exam-hub', 'exam-plan', 'exam-knowledge', 'exam-grammar', 'exam-reading', 'exam-writing', 'exam-mock', 'exam-resources']) await visit('offline-KET', p);
+      const offlineRoutes = out.slice(onlineCount);
+      await fetch('/__online').catch(() => {});
+
+      const payload = {
+        routes: out,
+        summary: {
+          online: { total: onlineCount, failed: out.slice(0, onlineCount).filter(r => r.fail).length },
+          offline: { total: offlineRoutes.length, failed: offlineRoutes.filter(r => r.fail).length,
+                     newErrs: window.__errs.length - errsBeforeOffline }
+        },
+        lazy: {
+          grammarIndex: gi && gi.type,
+          grammarTiers: gi && gi.tiers.length,
+          readerIndex: ri && ri.type,
+          readerVolumes: ri && ri.volumes.length,
+          missingLessonReturnsNull: missing === null,
+          skeletonOk: lz.skeletonHTML(3).includes('正在加载'),
+          stats
+        },
+        errs: window.__errs
+      };
+      document.getElementById('RESULT').textContent = JSON.stringify(payload, null, 1);
+      try { await fetch('/__result', { method: 'POST', body: JSON.stringify(payload, null, 1) }); } catch (e) {}
+      storage.setGrade(3);
+    }
+    run();
+  </script>
+</body>
+</html>

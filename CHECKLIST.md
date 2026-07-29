@@ -199,6 +199,50 @@
 - [x] **V0.8.1 热修**：grammar-course.js 特殊词表「练这组」绑定漏一个右括号 → 线上 `SyntaxError: missing ) after argument list`、语法模块打不开，已修复。教训：`node --check` 对 ESM 检查不完整（本错未拦住），自检升级为 `tools/check-esm.mjs`（vm.SourceTextModule 逐文件 ESM 完整解析 + 全图 link 校验 import 路径与具名导出，不执行副作用），以后 JS 自检一律用它；缓存版本 → **ea-v0.8.1**（坏文件已被 v0.8.0 缓存，必须 bump 才能刷掉）
 ---
 
+## V0.9 P0：数据层前置改造（为语法大厅 50 课 + 读本 304 篇承载）
+
+本批次**不加任何内容数据**，只改承载结构。
+
+### 单元 1 · sw.js 壳预缓存 + 运行时内容缓存
+- [x] 预缓存清单拆成 `SHELL_URLS`（HTML/CSS/JS/图标/manifest，40 项）+ `INDEX_URLS`（8 个 index，含新建的 grammar/reader 索引）
+- [x] `data/` 内容文件改走 `CONTENT_CACHE`（`english-adventure-content-ea-v0.9.0`）运行时 cache-first，访问过即离线可读；未缓存且离线时优雅降级 504，不抛异常
+- [x] 双缓存分离，`activate` 按 `english-adventure-` 前缀清理旧版本；旧版把内容预缓存在壳里的情况有兼容分支
+- [x] 调试入口：`postMessage({type:'CLEAR_CONTENT_CACHE'})` / `CACHE_INFO`，前端封装成控制台的 `__clearContentCache()` / `__cacheInfo()`，**不进正式 UI**
+- [x] 缓存版本 `ea-v0.8.1` → **`ea-v0.9.0`**
+- **实测预缓存体积：3,313 KB → 450 KB（壳 435 + 索引 15），降 86%**；后续 50 课 + 304 篇入库不会再撑大安装包
+
+### 单元 2 · 数据分片目录与索引规范
+- [x] `data/grammar/index.json`（四层 tiers + 空 lessons）、`data/reader/index.json`（四卷 volumes + 空 pieces），只存元信息
+- [x] 四份 JSON Schema：`data/grammar/_schema.index.json` / `_schema.lesson.json`（九段讲解 + 记忆卡 SVG + 4×16=64 题 + 6-8 题侦探关）、`data/reader/_schema.index.json` / `_schema.piece.json`
+- [x] reader 的 `source` 字段 `minLength:1`，**版权来源强制可追溯**（"original" 或 "adapted: 底本"）
+- [x] `data/reader/v1/` 分片目录就位
+- [x] 新增 `tools/check-data.mjs`：无第三方依赖的 draft-07 子集校验器 + 「索引登记的 file 是否真的存在」交叉检查（负例测试能准确报出 5 类错误）
+
+### 单元 3 · 懒加载器
+- [x] `assets/js/utils/lazy-data.js`：`loadIndex` / `loadGrammarLesson` / `loadReaderPiece` / `loadData`
+- [x] 课文件 LRU 上限 8（索引常驻不淘汰）、同路径并发请求合并、失败重试 1 次、骨架屏 `skeletonHTML()` / `isLoading()`
+- [x] 适配层：`app.js` 的 `loadJSON` 底座换成 `loadData`，只保留失败 toast，**现有模块调用方式与返回值零改动**（`state.data` 手写缓存已移除）
+- [x] 本模块零 import，避免与 app.js 循环依赖
+
+### 单元 4 · 回归与验证（浏览器实跑）
+- [x] `tools/check-esm.mjs`：32 个 JS 文件 ESM 解析 + 全图 link + sw.js 经典脚本解析，全过
+- [x] `tools/check-data.mjs`：两个索引全过
+- [x] **在线 29 个页面全部渲染成功、0 报错**：1-9 年级（三年级 12 页 + 八年级 3 页）/ PET（4 页）/ KET 备考中心九模块（10 页）
+- [x] **离线 18 个页面全部可用、0 新增报错**：清空内存缓存 → 服务器切断网 → 三条线复跑，全靠 SW 缓存
+- [x] SW 实测：预缓存 48 项、**壳里 0 个内容文件**、内容文件按访问写入内容缓存、清内容缓存不动壳
+- [x] 控制台唯一 error 是自检故意探测未来文件 `data/grammar/g01.json`（404 → 返回 null 不抛），符合预期
+
+### 新增自检工具（P1-P7 每次收尾复用）
+- `tools/smoke/verify-server.mjs`：本地静态服务器 + **一键断网开关**（`/__offline`、`/__online`）+ 结果回传落盘（`/__result`）
+- `tools/smoke/smoke.html`：三条线路由全量回归（在线 + 离线两轮）
+- `tools/smoke/sw-check.html`：Service Worker 缓存行为与离线降级验证
+- 跑法：`node tools/smoke/verify-server.mjs <结果文件> 8100` 后台起，再
+  `chrome --headless=new --user-data-dir=%TEMP%\eap http://127.0.0.1:8100/_smoke.html`
+- ⚠️ **坑（踩过一次，别再踩）**：Chrome 的 `--user-data-dir` 必须用**短路径**。放在很深的临时目录下，CacheStorage 目录会超 MAX_PATH，症状是 `caches.put` 抛 `Entry already exists` / `Unexpected internal error`，看着像 sw.js 的 bug，其实是路径长度。
+- ⚠️ 本机 Chrome 扩展未连接，浏览器验证走的是无头 Chrome + 结果回传，不是 DevTools 手点
+
+---
+
 ## 🔴 内容版权红线
 
 - [x] PET 词汇释义/例句/记忆法/阅读文章 100% 原创，未碰任何官方词表/真题/样题原文
@@ -217,5 +261,6 @@
 - 数据文件：**87 个 JSON**（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2143 词 / 22 话题**（V0.5 扩充中）；PET 阅读：**15 篇**
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v0.8.1**
-- 完整离线可用（除 CDN 资源）；目标加载 < 3 秒
+- 勋章：20 个；Service Worker 缓存版本：**ea-v0.9.0**（壳预缓存架构）
+- 预缓存体积：**450 KB**（壳 435 + 索引 15）；`data/` 内容 2,878 KB 走运行时缓存
+- 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读
