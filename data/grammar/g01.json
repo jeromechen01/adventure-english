@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G01（V0.9 P1a 样课）。结构见 _schema.lesson.json。全部内容 100% 原创，比喻主线为本项目自有的乐团系统（锚点：乐器能数，空气不能数）。",
+  "id": "G01",
+  "tier": "基石",
+  "title": "名词：可数与不可数",
+  "metaphor": "乐器能数，空气不能数",
+  "ketRelevance": 3,
+  "ketLessonMap": ["L8"],
+  "ketNote": "KET 阅读 Part 5 与写作都盯着单复数和 many/much；八课里最近的亲戚是 L8。",
+  "source": "original",
+  "sections": {
+    "essence": "英语名词分两队：乐器队能一个个数，空气队不能数、只论多少。",
+    "why": "中文里，数数的活儿由数词和量词包了：三本书、两杯水、一条建议——名词自己从头到尾一个模样。英语没有这套量词系统，于是把任务交给了名词自己：开口前必须先判断，这个东西数得清还是数不清。数得清的，名词备两套形态：一个是 book，两个以上换成 books；数不清的，像 water，永远一副面孔，也永远不跟数字直接见面。判断标准不是大小轻重，而是有没有天然的边界：一个苹果拿起来就是一个，有边界，能数；水倒进杯子是杯形、倒进瓶子是瓶形，没有自己的边界，就不能数。",
+    "metaphorStory": "银帆乐团要出发去演出，乐务老师站在大巴车前清点行李。乐器一件一件报数：一把小提琴、两支长笛、三面小鼓——每件乐器都有清清楚楚的边界。这就是「乐器队」，英语叫可数名词。可有几样东西她怎么也数不了：排练厅里的空气、团员们身上的汗水、上台前需要的勇气。你能说「一个空气」「两个勇气」吗？不能。它们没有边界，抓不起来也摆不开，只能问「够不够、多不多」。这就是「空气队」，英语叫不可数名词。老师想了个办法：把水装进瓶子，「三瓶水」就数得清了！空气队自己不能数，但可以借一个有边界的容器来数。英语一模一样：water 不能数，a bottle of water 就能数了——记住，变复数的是瓶子，不是水。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "乐器队（可数名词）有两套演出服",
+          "detail": "一个用 a/an 打头，两个以上词尾换复数（加 s / es）。",
+          "example": "a drum → three drums; a box → two boxes"
+        },
+        {
+          "rule": "空气队（不可数名词）永远一副面孔",
+          "detail": "不加 a/an、不加复数 s，也不跟数字直接见面；当主语时动词按单数配。",
+          "example": "Water is important. / I'd like some water."
+        },
+        {
+          "rule": "想数空气队？借一个容器",
+          "detail": "a glass of / a bottle of / a piece of——变复数的是容器，不是里面的东西。",
+          "example": "two glasses of milk / three pieces of paper"
+        },
+        {
+          "rule": "问多少、说很多，两队用词不同",
+          "detail": "可数复数配 many / a few / How many；不可数配 much / a little / How much。some、any、a lot of 两队通用。",
+          "example": "How many eggs? / How much juice?"
+        },
+        {
+          "rule": "背下五个最会骗人的空气队队员",
+          "detail": "money、homework、bread、hair、advice——中文里个个数得清，英语都当空气看待。",
+          "example": "much money / a lot of homework / a piece of advice"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I have two cats.", "cn": "我有两只猫。" },
+          { "en": "There are three drums in the music room.", "cn": "音乐教室里有三面鼓。" },
+          { "en": "I'd like an apple and some milk.", "cn": "我想要一个苹果和一些牛奶。" },
+          { "en": "We have two violins in our band.", "cn": "我们乐队里有两把小提琴。" },
+          { "en": "There is some water in the bottle.", "cn": "瓶子里有一些水。" }
+        ],
+        "mid": [
+          { "en": "How many flutes do you have?", "cn": "你有几支长笛？" },
+          { "en": "How much milk is there in the fridge?", "cn": "冰箱里还有多少牛奶？" },
+          { "en": "Would you like a glass of juice?", "cn": "你想来一杯果汁吗？" },
+          { "en": "We don't have much time before the concert.", "cn": "演出前我们没有多少时间了。" },
+          { "en": "She bought two bottles of water and some bread.", "cn": "她买了两瓶水和一些面包。" }
+        ],
+        "trap": [
+          { "en": "Her hair is long and black.", "cn": "她的头发又长又黑。", "note": "中文一根根数得清，英语把整头头发看成一片，不可数；a hair 反而是「一根毛」。" },
+          { "en": "I have a lot of homework today.", "cn": "我今天有很多作业。", "note": "homework 在英语眼里是一团任务，永远不加 s。" },
+          { "en": "The news is really exciting.", "cn": "这条新闻真让人兴奋。", "note": "news 尾巴上的 s 不是复数——它是不可数名词，动词用 is。" },
+          { "en": "Can you give me some advice?", "cn": "你能给我一些建议吗？", "note": "advice 不可数；要论「条」得说 a piece of advice。" },
+          { "en": "We need two pieces of paper.", "cn": "我们需要两张纸。", "note": "paper 当「纸」讲不可数；a paper 意思会变成「一份报纸 / 一篇论文」。" },
+          { "en": "My favourite food is chicken.", "cn": "我最爱吃的食物是鸡肉。", "note": "chicken 不加冠词是「鸡肉」；a chicken 是「一只活鸡」——差一个 a，意思差很远。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "My favourite food is chickens.",
+        "good": "My favourite food is chicken.",
+        "zone": "blocks",
+        "why": "加了复数，从「爱吃鸡肉」变成「爱吃很多只活鸡」，意思直接被带偏。"
+      },
+      {
+        "bad": "She has long hairs.",
+        "good": "She has long hair.",
+        "zone": "blocks",
+        "why": "hairs 是「几根毛」，听的人会以为她身上长了几根长毛——整头头发要用不可数的 hair。"
+      },
+      {
+        "bad": "I have three book.",
+        "good": "I have three books.",
+        "zone": "tested",
+        "why": "数到三了，book 还穿着单数的衣服——复数要加 s，KET 的阅读和写作都盯着它。"
+      },
+      {
+        "bad": "How much books do you have?",
+        "good": "How many books do you have?",
+        "zone": "tested",
+        "why": "books 是可数复数，问数量用 many；much 只服务空气队。"
+      },
+      {
+        "bad": "I have many homeworks.",
+        "good": "I have a lot of homework.",
+        "zone": "tested",
+        "why": "homework 不可数：不能加 s，也不能配 many。"
+      },
+      {
+        "bad": "She drank a water.",
+        "good": "She drank a glass of water.",
+        "zone": "tested",
+        "why": "water 不能配 a——要么 some water，要么借杯子说 a glass of water。"
+      },
+      {
+        "bad": "He gave me an advice.",
+        "good": "He gave me some advice.",
+        "zone": "tested",
+        "why": "advice 不可数，不能配 an；要论「条」说 a piece of advice。"
+      },
+      {
+        "bad": "We bought two breads.",
+        "good": "We bought two pieces of bread.",
+        "zone": "tested",
+        "why": "bread 不可数，要论块论片——借 pieces 来数。"
+      },
+      {
+        "bad": "The news are good.",
+        "good": "The news is good.",
+        "zone": "tested",
+        "why": "news 尾巴上的 s 是历史遗迹不是复数，动词要用 is。"
+      },
+      {
+        "bad": "There are many peoples in the hall.",
+        "good": "There are many people in the hall.",
+        "zone": "tested",
+        "why": "people 本身就是复数「人们」；peoples 的意思会变成「各个民族」。"
+      },
+      {
+        "bad": "I have less books than you.",
+        "good": "I have fewer books than you.",
+        "zone": "minor",
+        "why": "严格说可数要配 fewer，但母语者也天天说 less books——不挡意思，KET 也不考，先放一放。"
+      },
+      {
+        "bad": "I ate three fishes.",
+        "good": "I ate three fish.",
+        "zone": "minor",
+        "why": "fish 的复数通常不变形；fishes 多指「好几种鱼」。日常说错不挡意思，KET 不刁难。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "三本书（「书」字从不变形）",
+        "en": "three books（book 必须变 books）",
+        "diff": "中文靠量词「本」报数，名词躺平；英语没有量词，名词自己变形报数。"
+      },
+      {
+        "cn": "一杯水、两杯水",
+        "en": "a glass of water / two glasses of water",
+        "diff": "都借「杯」来数，但英语里变复数的是杯子（glasses），水永远不变。"
+      },
+      {
+        "cn": "你有多少书？你有多少水？——同一个「多少」",
+        "en": "How many books? / How much water?",
+        "diff": "中文一个「多少」通吃两队；英语先判断可不可数，再决定 many 还是 much。"
+      },
+      {
+        "cn": "一根头发、一头头发，说哪个都自然",
+        "en": "hair 整头不可数；a hair 专指「一根」",
+        "diff": "中文默认从最小单位数起，英语默认把头发看成一整片。"
+      },
+      {
+        "cn": "一条建议、三份作业",
+        "en": "some advice / a piece of advice；homework 永远不可数",
+        "diff": "中文的「条、份」让一切都可数；英语把抽象的任务和话语归进空气队。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "能一个一个摆出来的进乐器队，摆不出来的进空气队",
+      "steps": [
+        "看到名词先问：它能不能一个一个摆在桌上？（小提琴能摆，水会流走）",
+        "能摆 → 可数：一个用 a/an，两个以上词尾加 s / es。",
+        "不能摆 → 不可数：永不加 s、不配 a/an；要数就借容器——a glass of / a piece of。",
+        "拿不准就默背五大骗子：money, homework, bread, hair, advice——全是空气队。",
+        "最后选词：可数复数配 many，不可数配 much；some / any / a lot of 两队通用。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，我听说英语里的东西分两队：像乐器一样能一件一件数清楚的，和像空气一样抓不住、只能问多不多的。我不太懂英语，你当小老师，给我讲讲水和苹果各在哪一队好不好？讲完咱们轮流出题：一方说一个东西，另一方判断它是乐器队还是空气队，说错的人给对方鞠个躬。」判断只需要中文常识（能不能一个一个摆出来），孩子讲得越热闹记得越牢；她说错时别急着纠正，请她自己再想想「这个东西摆得出来吗」。",
+      "questions": [
+        "牛奶在哪一队？为什么英语里要说「一杯奶」，不能说「一个奶」？",
+        "英语把头发当成哪一队？和中文有什么不一样？",
+        "我想问『你有多少本书』和『你有多少水』，英语里的『多少』是同一个词吗？"
+      ]
+    },
+    "echo": "news 这个词是六百年前从 new（新的）长出来的——「新鲜事们」，新到要加复数 s。可几百年用下来，它被磨成了一团整体，如今是地道的不可数名词，动词只配 is。那个 s 像一块化石，记录着它曾经可数的青春。这正是我们的暗线：越常用的词，越会把历史的尾巴留在身上。顺带一提，古英语的名词原本有一大套变化词尾，被一千年的日常使用磨得只剩复数 -s 这一枚「活化石」——你今天背的规则，其实是这门语言磨了一千年的省事结果。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G01 · 可数 vs 不可数</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>乐器能数 · 空气不能数</text><rect x='36' y='116' width='316' height='250' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='156' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>🎻 乐器队 · 可数</text><text x='194' y='196' text-anchor='middle' font-size='18' fill='#5A4A42'>a violin → two violins</text><text x='194' y='230' text-anchor='middle' font-size='17' fill='#5A4A42'>一个：a / an 打头</text><text x='194' y='262' text-anchor='middle' font-size='17' fill='#5A4A42'>两个以上：加 s / es</text><text x='194' y='300' text-anchor='middle' font-size='17' fill='#5A4A42'>问多少：How many?</text><text x='194' y='332' text-anchor='middle' font-size='17' fill='#5A4A42'>很多：many</text><rect x='368' y='116' width='316' height='250' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='156' text-anchor='middle' font-size='22' font-weight='bold' fill='#E76F33'>🌬️ 空气队 · 不可数</text><text x='526' y='196' text-anchor='middle' font-size='18' fill='#5A4A42'>water · music · rice</text><text x='526' y='230' text-anchor='middle' font-size='17' fill='#C0392B'>不加 a / an，不加 s</text><text x='526' y='262' text-anchor='middle' font-size='17' fill='#5A4A42'>动词按单数配：is</text><text x='526' y='300' text-anchor='middle' font-size='17' fill='#5A4A42'>问多少：How much?</text><text x='526' y='332' text-anchor='middle' font-size='17' fill='#5A4A42'>很多：much</text><rect x='36' y='390' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='422' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>想数空气？借个有边界的容器</text><text x='360' y='452' text-anchor='middle' font-size='17' fill='#5A4A42'>a glass of water → two glasses of water（变的是杯子，不是水）</text><text x='360' y='502' text-anchor='middle' font-size='16' fill='#8A7568'>五大骗子（全是空气队）：money · homework · bread · hair · advice</text><text x='360' y='534' text-anchor='middle' font-size='14' fill='#B8A79B'>some / any / a lot of 两队通用 · 英语奇遇记 🦊</text></svg>",
+    "alt": "G01 记忆卡：左边乐器队（可数，a violin 变 two violins，加 s/es，配 many），右边空气队（不可数，不加 a 不加 s，配 much），底部提示想数空气要借容器 a glass of water，五大骗子 money homework bread hair advice。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 分队报到",
+        "questions": [
+          { "q": "「apple（苹果）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "苹果有天然边界，一个一个摆得出来——可数。", "level": 1 },
+          { "q": "「water（水）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "水没有自己的形状，倒进哪儿是哪儿的形——不可数。", "level": 1 },
+          { "q": "「violin（小提琴）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "乐器一件件数得清，乐器队的队长——可数。", "level": 1 },
+          { "q": "「milk（牛奶）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "牛奶和水一样会流动，只能论杯论瓶——不可数。", "level": 1 },
+          { "q": "「egg（鸡蛋）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "一个鸡蛋两个鸡蛋，边界清楚——可数。", "level": 1 },
+          { "q": "「bread（面包）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "英语把面包看成一团，可以切但不能数，论片用 a piece of——不可数。", "level": 1 },
+          { "q": "「dog（狗）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "一只狗两只狗，摆得出来——可数。", "level": 1 },
+          { "q": "「music（音乐）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "音乐飘在空气里，抓不住摆不开——不可数。", "level": 1 },
+          { "q": "「chair（椅子）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "椅子一把一把摆得出来——可数。", "level": 1 },
+          { "q": "「rice（米饭）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "米粒太小太多，英语懒得数，整体看成一团——不可数。", "level": 1 },
+          { "q": "「banana（香蕉）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "一根香蕉两根香蕉，边界清楚——可数。", "level": 1 },
+          { "q": "「air（空气）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "空气队的名字就是照它起的——不可数。", "level": 1 },
+          { "q": "「drum（鼓）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "一面鼓两面鼓，乐器队成员——可数。", "level": 1 },
+          { "q": "「money（钱）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "钞票硬币能数，但 money 这个词指「钱」这个整体——不可数，五大骗子之一。", "level": 1 },
+          { "q": "「pencil（铅笔）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 0, "explain": "一支铅笔两支铅笔——可数。", "level": 1 },
+          { "q": "「homework（作业）」在哪一队？", "options": ["乐器队 · 可数", "空气队 · 不可数"], "answer": 1, "explain": "作业在英语眼里是一团任务，永远不加 s——不可数，五大骗子之一。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 穿对衣服",
+        "questions": [
+          { "q": "I have two ___.", "options": ["cats", "cat", "cates"], "answer": 0, "explain": "two 说明超过一个，cat 要穿复数衣服加 s。", "level": 2 },
+          { "q": "There is some ___ in the glass.", "options": ["milk", "milks", "a milk"], "answer": 0, "explain": "milk 是空气队，不加 s 也不配 a，some milk 正合适。", "level": 2 },
+          { "q": "She has three ___.", "options": ["violins", "violin", "violines"], "answer": 0, "explain": "violin 可数，three 后面直接加 s。", "level": 2 },
+          { "q": "I'd like ___ apple.", "options": ["an", "a", "two"], "answer": 0, "explain": "apple 开头是元音音，「一个」用 an。", "level": 2 },
+          { "q": "We need some ___ for breakfast.", "options": ["bread", "breads", "a bread"], "answer": 0, "explain": "bread 是空气队，永远不加 s、不配 a。", "level": 2 },
+          { "q": "He has five ___.", "options": ["boxes", "boxs", "box"], "answer": 0, "explain": "以 x 结尾的可数名词，复数加 es：boxes。", "level": 2 },
+          { "q": "I love this ___!", "options": ["music", "musics", "a music"], "answer": 0, "explain": "music 是空气队，永远一副面孔。", "level": 2 },
+          { "q": "There are two ___ on the desk.", "options": ["watches", "watchs", "watch"], "answer": 0, "explain": "以 ch 结尾复数加 es：watches。", "level": 2 },
+          { "q": "Mum bought some ___ yesterday.", "options": ["rice", "rices", "a rice"], "answer": 0, "explain": "rice 是空气队，some rice 就对了。", "level": 2 },
+          { "q": "I have a lot of ___ today.", "options": ["homework", "homeworks", "a homework"], "answer": 0, "explain": "homework 五大骗子之一：不加 s、不配 a。", "level": 2 },
+          { "q": "Look at those ___!", "options": ["buses", "buss", "bus"], "answer": 0, "explain": "those 提示复数；bus 以 s 结尾，复数加 es。", "level": 2 },
+          { "q": "Can I have some ___?", "options": ["water", "waters", "a water"], "answer": 0, "explain": "water 是空气队，some water 正合适。", "level": 2 },
+          { "q": "The ___ are dancing to the music.", "options": ["children", "childs", "childrens"], "answer": 0, "explain": "child 的复数不规则，直接换成 children——越常用的词越不规则。", "level": 2 },
+          { "q": "Two ___ are playing the drums.", "options": ["boys", "boy", "boies"], "answer": 0, "explain": "boy 以「元音+y」结尾，复数直接加 s。", "level": 2 },
+          { "q": "I need some ___ to buy a ticket.", "options": ["money", "moneys", "a money"], "answer": 0, "explain": "money 五大骗子之一，指「钱」这个整体——不可数。", "level": 2 },
+          { "q": "There are three ___ in the hall.", "options": ["pianos", "pianoes", "pianoies"], "answer": 0, "explain": "piano 是外来词，复数直接加 s：pianos。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 火眼金睛",
+        "questions": [
+          { "q": "How ___ books do you read every month?", "options": ["many", "much", "little"], "answer": 0, "explain": "books 可数复数，问数量用 many。", "level": 3 },
+          { "q": "How ___ juice is there in the bottle?", "options": ["much", "many", "few"], "answer": 0, "explain": "juice 是空气队，问多少用 much。", "level": 3 },
+          { "q": "哪一句把「作业」说得健康？", "options": ["I have a lot of homework.", "I have many homeworks.", "I have a homework."], "answer": 0, "explain": "homework 不可数：不加 s、不配 a；「很多」用 a lot of 最稳。", "level": 3 },
+          { "q": "We don't have ___ time. Let's hurry!", "options": ["much", "many", "a few"], "answer": 0, "explain": "time（时间）是空气队，配 much。", "level": 3 },
+          { "q": "There aren't ___ eggs in the fridge.", "options": ["many", "much", "a little"], "answer": 0, "explain": "eggs 可数复数，配 many。", "level": 3 },
+          { "q": "哪一句把「头发」说得健康？", "options": ["Her hair is long.", "Her hairs are long.", "Her hair are long."], "answer": 0, "explain": "整头头发不可数：hair 不加 s，动词配 is。", "level": 3 },
+          { "q": "I only have a ___ minutes before the show.", "options": ["few", "little", "much"], "answer": 0, "explain": "minutes 可数复数，「一点点」用 a few；a little 留给空气队。", "level": 3 },
+          { "q": "There is only a ___ milk left.", "options": ["little", "few", "many"], "answer": 0, "explain": "milk 是空气队，「一点点」用 a little。", "level": 3 },
+          { "q": "哪一句把「新闻」说得健康？", "options": ["The news is good.", "The news are good.", "The newses are good."], "answer": 0, "explain": "news 尾巴上的 s 是历史遗迹不是复数，动词用 is。", "level": 3 },
+          { "q": "How many ___ are there in your class?", "options": ["students", "student", "milk"], "answer": 0, "explain": "How many 后面必须跟可数复数：students。", "level": 3 },
+          { "q": "哪一句把「面包」说得健康？", "options": ["I'd like some bread.", "I'd like a bread.", "I'd like breads."], "answer": 0, "explain": "bread 不可数：some bread，或论片说 a piece of bread。", "level": 3 },
+          { "q": "He gave me some useful ___.", "options": ["advice", "advices", "an advice"], "answer": 0, "explain": "advice 五大骗子之一：不加 s、不配 an。", "level": 3 },
+          { "q": "She doesn't drink ___ coffee.", "options": ["much", "many", "a few"], "answer": 0, "explain": "coffee 是空气队，配 much。", "level": 3 },
+          { "q": "哪一句把「人们」说得健康？", "options": ["There are many people in the park.", "There are much people in the park.", "There are many peoples in the park."], "answer": 0, "explain": "people 本身就是复数「人们」，配 many；peoples 是「各民族」。", "level": 3 },
+          { "q": "A ___ of water, please.", "options": ["glass", "glasses", "many"], "answer": 0, "explain": "a 打头，容器用单数：a glass of water。", "level": 3 },
+          { "q": "I ate two ___ of cake at the party.", "options": ["pieces", "piece", "glass"], "answer": 0, "explain": "two 打头，变复数的是容器/单位：two pieces of cake。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 上场演出",
+        "questions": [
+          { "q": "演出清单：We need four ___ and some ___.", "options": ["drums / water", "drum / waters", "drums / waters"], "answer": 0, "explain": "drum 可数，four 后要复数；water 不可数永远不加 s。", "level": 4 },
+          { "q": "I don't have much ___ — only two coins.", "options": ["money", "moneys", "monies"], "answer": 0, "explain": "硬币能数，money 不能数——它指「钱」这个整体。", "level": 4 },
+          { "q": "我最爱吃鸡肉：My favourite food is ___.", "options": ["chicken", "a chicken", "chickens"], "answer": 0, "explain": "不加冠词的 chicken 是鸡肉；a chicken 是一只活鸡。", "level": 4 },
+          { "q": "I drink three ___ of orange juice every week.", "options": ["glasses", "glass", "glasss"], "answer": 0, "explain": "借容器数果汁，变复数的是杯子：three glasses of。", "level": 4 },
+          { "q": "The teacher gave each student two ___.", "options": ["pieces of paper", "papers", "piece of papers"], "answer": 0, "explain": "paper（纸）不可数，论张借 pieces；papers 意思会变成「报纸/文件」。", "level": 4 },
+          { "q": "汤里有一根头发！There is ___ in my soup!", "options": ["a hair", "hair", "hairs"], "answer": 0, "explain": "整头头发不可数，但「一根」正好用 a hair——注意方向反着来。", "level": 4 },
+          { "q": "We should eat more ___ every day.", "options": ["fruit", "fruits", "a fruit"], "answer": 0, "explain": "fruit 泛指水果整体时不可数：eat more fruit。", "level": 4 },
+          { "q": "My father is looking for ___.", "options": ["a job", "a work", "works"], "answer": 0, "explain": "job 可数、work（工作）不可数——一对同义词分在两队。", "level": 4 },
+          { "q": "How ___ times have you seen the film?", "options": ["many", "much", "little"], "answer": 0, "explain": "time 当「时间」不可数，当「次数」却可数——times 配 many。", "level": 4 },
+          { "q": "We don't have much ___ left before the show.", "options": ["time", "times", "a time"], "answer": 0, "explain": "这里的 time 是「时间」，空气队，配 much、不加 s。", "level": 4 },
+          { "q": "Would you like a cup of ___?", "options": ["tea", "teas", "a tea"], "answer": 0, "explain": "借杯子数茶：a cup of tea，tea 自己不变。", "level": 4 },
+          { "q": "The news ___ surprising — listen!", "options": ["is", "are", "be"], "answer": 0, "explain": "news 是不可数单数，动词配 is。", "level": 4 },
+          { "q": "Look! There are five ___ on the hill.", "options": ["sheep", "sheeps", "a sheep"], "answer": 0, "explain": "sheep 的复数不变形——又一个「越常用越不规则」。", "level": 4 },
+          { "q": "There ___ a lot of people at the concert.", "options": ["are", "is", "be"], "answer": 0, "explain": "people 是复数「人们」，动词配 are。", "level": 4 },
+          { "q": "Let me give you two pieces of ___.", "options": ["advice", "advices", "advise"], "answer": 0, "explain": "advice 不可数名词；advise 是动词「建议」，拼写别混。", "level": 4 },
+          { "q": "购物清单：I bought some ___, two ___ and a bottle of ___.", "options": ["bread / eggs / milk", "breads / egg / milks", "bread / egg / milk"], "answer": 0, "explain": "bread、milk 空气队不变形；egg 可数，two 后必须复数。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I have three book.",
+      "fixed": "I have three books.",
+      "clue": "数到三了，book 却还穿着单数的衣服——复数要加 s。"
+    },
+    {
+      "sentence": "She drinks three waters every day.",
+      "fixed": "She drinks three glasses of water every day.",
+      "clue": "水是空气队，不能直接数——要借杯子：three glasses of water。"
+    },
+    {
+      "sentence": "How much books do you read every month?",
+      "fixed": "How many books do you read every month?",
+      "clue": "books 是乐器队（可数复数），问数量用 many；much 只服务空气队。"
+    },
+    {
+      "sentence": "My sister has long hairs.",
+      "fixed": "My sister has long hair.",
+      "clue": "整头头发是一片「空气」，加了 s 反而变成「几根毛」。"
+    },
+    {
+      "sentence": "I have many homeworks today.",
+      "fixed": "I have a lot of homework today.",
+      "clue": "homework 是空气队，永远不加 s；「很多」用 a lot of 最安全。"
+    },
+    {
+      "sentence": "There is a milk on the table.",
+      "fixed": "There is some milk on the table.",
+      "clue": "milk 不能配 a——要么 some milk，要么 a glass of milk。"
+    },
+    {
+      "sentence": "The news are exciting.",
+      "fixed": "The news is exciting.",
+      "clue": "news 尾巴上的 s 是历史遗迹，不是复数——它是空气队，动词用 is。"
+    },
+    {
+      "sentence": "We bought two breads and some eggs.",
+      "fixed": "We bought two pieces of bread and some eggs.",
+      "clue": "bread 是空气队，要论块论片——借 pieces 来数。"
+    }
+  ]
+}
