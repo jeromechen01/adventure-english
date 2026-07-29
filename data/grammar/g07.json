@@ -1,0 +1,318 @@
+{
+  "$comment": "语法大厅 G07（V0.9 P1b）。锚点：此刻正在演奏。「be 举牌 + 动词穿 -ing 演出服」的直播意象与八课 L4 一致。全部内容原创。",
+  "id": "G07",
+  "tier": "基石",
+  "title": "现在进行时",
+  "metaphor": "此刻正在演奏",
+  "ketRelevance": 1,
+  "ketLessonMap": ["L4"],
+  "ketNote": "Look!/Listen! 触发的进行时是 KET 听读高频；漏 be 或漏 -ing 是写作黄区常客。八课里的亲戚是 L4。",
+  "source": "original",
+  "sections": {
+    "essence": "现在进行时 = be + 动词-ing：给「此刻正在发生」的事拍直播。",
+    "why": "中文说「正在」只需要加一个词：「我正在写作业」，动词「写」一动不动。英语要动两处：be 先举牌宣布「现在直播中」，动词再穿上 -ing 的演出服——两件套缺一不可。没有 be 的 I doing 像没开机的摄像机，没有 -ing 的 I am do 像没换装就上台。为什么要两件？因为它们各管一半：be 负责报时（是现在，不是过去），-ing 负责报状态（正在进行，还没结束）。少一件，观众就不知道你在播什么。",
+    "metaphorStory": "排练厅门口挂着两块牌子。墙上那块写着「本团每周六排练」——那是常态牌（一般现在时，G06 的地盘）。门上还有一块红色的牌子，只在排练进行中才亮：「正在排练，请勿打扰」——这就是直播牌。英语的直播牌必须两件套齐全：be 是开机键，-ing 是屏幕上闪的红点。Look! Lily is playing the flute.——你看的这一眼，她正在吹。镜头一关（排练结束），直播牌熄灭，句子交还给常态牌：Lily plays the flute every Saturday. 两块牌子说的是同一个人、同一支长笛，但一块说「此刻」，一块说「一直」——挂错了牌，观众就走错了片场。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "结构：am / is / are + 动词-ing",
+          "detail": "be 按人称选（同 G04 的等号），动词穿 -ing 演出服，两件缺一不可。",
+          "example": "I am reading. / She is singing. / They are dancing."
+        },
+        {
+          "rule": "-ing 四条穿衣规则",
+          "detail": "①直接加：play → playing；②哑音 e 脱掉再穿：make → making；③重读闭音节双写尾字母：run → running；④ie 变 y：lie → lying。",
+          "example": "playing / making / running / lying"
+        },
+        {
+          "rule": "触发词：Look! Listen! now, at the moment",
+          "detail": "这些词一出现，就是在喊「开直播」。",
+          "example": "Listen! Someone is playing the guitar."
+        },
+        {
+          "rule": "提问和否定都在 be 上做",
+          "detail": "be 是这套结构里唯一的指挥——搬它、加 not，都不请 do。",
+          "example": "Are you listening? / He isn't sleeping."
+        },
+        {
+          "rule": "和常态牌分工",
+          "detail": "every day / often / usually 归一般现在时；now / Look! 归进行时——先看时间词再选牌子。",
+          "example": "She plays every day. / She is playing now."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I am doing my homework now.", "cn": "我现在正在写作业。" },
+          { "en": "She is singing in her room.", "cn": "她正在房间里唱歌。" },
+          { "en": "They are dancing to the music.", "cn": "他们正随着音乐跳舞。" },
+          { "en": "Look! It is raining.", "cn": "看！下雨了。" },
+          { "en": "We are waiting for the bus.", "cn": "我们正在等公交。" }
+        ],
+        "mid": [
+          { "en": "Listen! Someone is playing the guitar.", "cn": "听！有人在弹吉他。" },
+          { "en": "The baby is sleeping, so please be quiet.", "cn": "宝宝在睡觉，请安静。" },
+          { "en": "— Where is Tom? — He is reading in the library.", "cn": "——汤姆呢？——他在图书馆看书。" },
+          { "en": "My parents are cooking dinner in the kitchen.", "cn": "我爸妈正在厨房做晚饭。" },
+          { "en": "Are you listening to me?", "cn": "你在听我说话吗？" }
+        ],
+        "trap": [
+          { "en": "The girls are running to the music room.", "cn": "姑娘们正跑向音乐教室。", "note": "run 重读闭音节，双写 n 再穿 -ing：running。" },
+          { "en": "He is making a paper plane.", "cn": "他正在折纸飞机。", "note": "make 的哑音 e 要先脱掉：making，不是 makeing。" },
+          { "en": "The dog is lying on the floor.", "cn": "狗正趴在地板上。", "note": "lie 的 ie 变 y：lying。" },
+          { "en": "I usually walk to school, but today I am taking the bus.", "cn": "我平时走路上学，今天坐公交。", "note": "usually 配常态牌，today 这次配直播牌——一句话两块牌。" },
+          { "en": "She is swimming in the pool.", "cn": "她正在泳池里游泳。", "note": "swim 双写 m：swimming。" },
+          { "en": "I know the answer.", "cn": "我知道答案。", "note": "know、like、want 这类「心里的状态」不上直播——说 I am knowing 反而错。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "Listen! She sings in her room.",
+        "good": "Listen! She is singing in her room.",
+        "zone": "blocks",
+        "why": "Listen! 在喊「开直播」，却挂了常态牌——听的人以为你在介绍她的习惯，不是让人听此刻的歌声。"
+      },
+      {
+        "bad": "I am go to school now.",
+        "good": "I am going to school now.",
+        "zone": "blocks",
+        "why": "be 开了机，动词却没换装——「正在去」还是「打算去」说不清，两个意思打架。"
+      },
+      {
+        "bad": "He is play the drum now.",
+        "good": "He is playing the drum now.",
+        "zone": "tested",
+        "why": "直播两件套缺了 -ing——be 后面不能跟动词原形。"
+      },
+      {
+        "bad": "They playing football now.",
+        "good": "They are playing football now.",
+        "zone": "tested",
+        "why": "缺了开机键 be——光有 -ing 不成句。"
+      },
+      {
+        "bad": "She is runing after the dog.",
+        "good": "She is running after the dog.",
+        "zone": "tested",
+        "why": "run 要双写 n 再穿 -ing：running。"
+      },
+      {
+        "bad": "He is writeing a letter.",
+        "good": "He is writing a letter.",
+        "zone": "tested",
+        "why": "write 的哑音 e 先脱掉：writing。"
+      },
+      {
+        "bad": "The boys are swiming in the river.",
+        "good": "The boys are swimming in the river.",
+        "zone": "tested",
+        "why": "swim 双写 m：swimming。"
+      },
+      {
+        "bad": "What do you doing?",
+        "good": "What are you doing?",
+        "zone": "tested",
+        "why": "直播句的指挥是 be，不是 do——What are you doing?"
+      },
+      {
+        "bad": "I am knowing the answer.",
+        "good": "I know the answer.",
+        "zone": "tested",
+        "why": "know 是心里的状态不是动作，不上直播——用一般现在时。"
+      },
+      {
+        "bad": "Look! The bird is fliing in the sky.",
+        "good": "Look! The bird is flying in the sky.",
+        "zone": "tested",
+        "why": "fly 直接穿 -ing：flying——y 不用变。"
+      },
+      {
+        "bad": "He is traveling in Yunnan.",
+        "good": "He is travelling in Yunnan. / He is traveling in Yunnan.",
+        "zone": "minor",
+        "why": "travel 英式双写 l、美式不双写——两边都对，不挡意思不扣分。"
+      },
+      {
+        "bad": "I'm loving this song!",
+        "good": "I love this song!",
+        "zone": "minor",
+        "why": "love 按语法书不上直播，但广告和口语天天这么说——不挡意思，KET 不设这个坑。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我正在写作业。（加「正在」，动词不动）",
+        "en": "I am doing my homework.（be 和 -ing 都要动）",
+        "diff": "中文加一个词；英语动两处——开机 be + 换装 -ing，两件套。"
+      },
+      {
+        "cn": "他弹琴。/ 他正在弹琴。（差两个字）",
+        "en": "He plays. / He is playing.（差一整套形态）",
+        "diff": "中文换词，英语换牌子——常态牌与直播牌是两套系统。"
+      },
+      {
+        "cn": "下雨了！（没有主语也行）",
+        "en": "It is raining!（必须请 it 当主语）",
+        "diff": "英语的直播句也要主语齐全，天气用 it 占位。"
+      },
+      {
+        "cn": "你在干什么？（「在」字轻轻一点）",
+        "en": "What are you doing?（be 提到句首）",
+        "diff": "中文加字，英语搬 be——直播句提问不请 do。"
+      },
+      {
+        "cn": "我知道。我正在知道。（第二句中文也怪）",
+        "en": "I know.（不说 I am knowing）",
+        "diff": "两种语言难得一致：心里的状态没法「正在」——know/like/want 不上直播。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "看到 Look、Listen、now——开机 be，换装 -ing，两件缺一不可",
+      "steps": [
+        "找时间信号：Look! / Listen! / now / at the moment → 直播牌；every day / often → 常态牌（G06）。",
+        "确定开直播 → 先放开机键 be：I am / 单数 is / 复数 are。",
+        "动词穿 -ing 演出服：直接加 / 脱哑音 e / 双写尾字母 / ie 变 y。",
+        "检查两件套是否齐全：少 be 或少 -ing 都不成句。",
+        "know / like / want 这类心里的状态不上直播——保持一般现在时。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语说『正在做什么』要开直播：先按开机键（am/is/are），再给动词穿上带 -ing 的演出服，两样缺一不可。咱们玩直播游戏：我做一个动作，你当解说员用中文喊『妈妈正在喝水！』然后告诉我英语的两件套是哪两件。再考考你：『看！』『听！』这种词一出来，该挂直播牌还是每周排练那块常态牌？」不用懂英语，只要帮她盯住一件事：说「正在」的句子，是不是既有 be 又有 -ing——少了哪一件都提醒她。",
+      "questions": [
+        "英语的「正在」为什么要动两个地方？哪两个？",
+        "「看！他在游泳」和「他每天游泳」——用的是同一块牌子吗？",
+        "「我知道答案」能说成「我正在知道答案」吗？英语里呢？"
+      ]
+    },
+    "echo": "-ing 这件演出服本来不属于动词：几百年前它是名词的词尾（the singing 唱歌这件事、the building 建造这件事），后来一点点爬进动词系统，成了进行时的制服。所以今天你还能看到它的两副面孔：Swimming is fun（游泳这件事，名词）和 She is swimming（她正在游，动词）。语法零件也会挪窝换岗——今天的规则，是昨天的习惯用出来的。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G07 · 现在进行时</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>此刻正在演奏——直播两件套：开机 be + 换装 -ing</text><rect x='36' y='116' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#E53E3E' stroke-width='3'/><text x='360' y='156' text-anchor='middle' font-size='22' font-weight='bold' fill='#E53E3E'>🔴 直播中：She is singing now.</text><text x='360' y='196' text-anchor='middle' font-size='17' fill='#5A4A42'>be = 开机键（am/is/are） · -ing = 屏幕上闪的红点 · 缺一不可</text><rect x='36' y='250' width='316' height='170' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='286' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>👕 -ing 四条穿衣规则</text><text x='194' y='320' text-anchor='middle' font-size='16' fill='#5A4A42'>直接穿：play → playing</text><text x='194' y='348' text-anchor='middle' font-size='16' fill='#5A4A42'>脱哑音 e：make → making</text><text x='194' y='376' text-anchor='middle' font-size='16' fill='#5A4A42'>双写再穿：run → running</text><text x='194' y='404' text-anchor='middle' font-size='16' fill='#5A4A42'>ie 变 y：lie → lying</text><rect x='368' y='250' width='316' height='170' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='286' text-anchor='middle' font-size='19' font-weight='bold' fill='#E76F33'>🪧 两块牌子</text><text x='526' y='320' text-anchor='middle' font-size='16' fill='#5A4A42'>常态牌：She plays every day.</text><text x='526' y='348' text-anchor='middle' font-size='16' fill='#5A4A42'>直播牌：She is playing now.</text><text x='526' y='382' text-anchor='middle' font-size='15' fill='#8A7568'>触发词：Look! · Listen! · now</text><text x='526' y='406' text-anchor='middle' font-size='15' fill='#C0392B'>know / like / want 不上直播</text><rect x='36' y='444' width='648' height='52' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='478' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ I doing ✗（没开机） · I am do ✗（没换装） · What do you doing? ✗</text><text x='360' y='526' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G07</text></svg>",
+    "alt": "G07 记忆卡：直播两件套 be+-ing；四条 -ing 拼写规则；常态牌与直播牌对比及触发词；警示缺 be、缺 -ing、do 混入直播句三类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 穿上 -ing",
+        "questions": [
+          { "q": "「run」的 -ing 形是？", "options": ["running", "runing", "runeing"], "answer": 0, "explain": "重读闭音节双写 n：running。", "level": 1 },
+          { "q": "「make」的 -ing 形是？", "options": ["making", "makeing", "makking"], "answer": 0, "explain": "哑音 e 先脱掉：making。", "level": 1 },
+          { "q": "「swim」的 -ing 形是？", "options": ["swimming", "swiming", "swimeing"], "answer": 0, "explain": "双写 m：swimming。", "level": 1 },
+          { "q": "「play」的 -ing 形是？", "options": ["playing", "plaiing", "playng"], "answer": 0, "explain": "直接穿：playing。", "level": 1 },
+          { "q": "「write」的 -ing 形是？", "options": ["writing", "writeing", "writting"], "answer": 0, "explain": "脱哑音 e：writing。", "level": 1 },
+          { "q": "「sit」的 -ing 形是？", "options": ["sitting", "siting", "siteing"], "answer": 0, "explain": "双写 t：sitting。", "level": 1 },
+          { "q": "「dance」的 -ing 形是？", "options": ["dancing", "danceing", "dancying"], "answer": 0, "explain": "脱哑音 e：dancing。", "level": 1 },
+          { "q": "「lie」的 -ing 形是？", "options": ["lying", "lieing", "liing"], "answer": 0, "explain": "ie 变 y：lying。", "level": 1 },
+          { "q": "「read」的 -ing 形是？", "options": ["reading", "readding", "readeing"], "answer": 0, "explain": "直接穿：reading。", "level": 1 },
+          { "q": "「take」的 -ing 形是？", "options": ["taking", "takeing", "takking"], "answer": 0, "explain": "脱哑音 e：taking。", "level": 1 },
+          { "q": "「get」的 -ing 形是？", "options": ["getting", "geting", "geteing"], "answer": 0, "explain": "双写 t：getting。", "level": 1 },
+          { "q": "「fly」的 -ing 形是？", "options": ["flying", "fliing", "flyng"], "answer": 0, "explain": "y 不动，直接穿：flying。", "level": 1 },
+          { "q": "「come」的 -ing 形是？", "options": ["coming", "comeing", "comming"], "answer": 0, "explain": "脱哑音 e：coming。", "level": 1 },
+          { "q": "「put」的 -ing 形是？", "options": ["putting", "puting", "puteing"], "answer": 0, "explain": "双写 t：putting。", "level": 1 },
+          { "q": "「sing」的 -ing 形是？", "options": ["singing", "singging", "singeing"], "answer": 0, "explain": "直接穿：singing。", "level": 1 },
+          { "q": "「stop」的 -ing 形是？", "options": ["stopping", "stoping", "stopeing"], "answer": 0, "explain": "双写 p：stopping。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 开机又换装",
+        "questions": [
+          { "q": "Look! The children ___ in the playground.", "options": ["are playing", "play", "is playing"], "answer": 0, "explain": "Look! 触发直播；children 复数——are playing。", "level": 2 },
+          { "q": "I ___ my homework now.", "options": ["am doing", "doing", "do"], "answer": 0, "explain": "now 触发直播：am + doing 两件套。", "level": 2 },
+          { "q": "She ___ a letter at the moment.", "options": ["is writing", "is writeing", "writes"], "answer": 0, "explain": "at the moment 直播中；write 脱 e——writing。", "level": 2 },
+          { "q": "Listen! Someone ___ the guitar.", "options": ["is playing", "plays", "playing"], "answer": 0, "explain": "Listen! 触发直播——is playing。", "level": 2 },
+          { "q": "We ___ for the school concert this week.", "options": ["are practising", "practise", "practising"], "answer": 0, "explain": "这阵子正在准备——直播牌 are practising。", "level": 2 },
+          { "q": "The baby ___ now. Be quiet!", "options": ["is sleeping", "sleeps", "sleeping"], "answer": 0, "explain": "now + 单数——is sleeping。", "level": 2 },
+          { "q": "___ you ___ to me?", "options": ["Are / listening", "Do / listening", "Are / listen"], "answer": 0, "explain": "直播句提问搬 be：Are you listening?", "level": 2 },
+          { "q": "He ___ a kite in the park.", "options": ["is flying", "is fliing", "flys"], "answer": 0, "explain": "fly 直接穿 -ing：is flying。", "level": 2 },
+          { "q": "My parents ___ dinner in the kitchen.", "options": ["are cooking", "is cooking", "cook now"], "answer": 0, "explain": "parents 复数——are cooking。", "level": 2 },
+          { "q": "Hurry up! The bus ___.", "options": ["is coming", "comes", "is comeing"], "answer": 0, "explain": "眼前正开过来——is coming（come 脱 e）。", "level": 2 },
+          { "q": "Lily ___ under the big tree.", "options": ["is sitting", "is siting", "sits now"], "answer": 0, "explain": "sit 双写 t——is sitting。", "level": 2 },
+          { "q": "They ___ a film at the moment.", "options": ["are watching", "watch", "are watch"], "answer": 0, "explain": "两件套齐全：are + watching。", "level": 2 },
+          { "q": "I ___ my school uniform today.", "options": ["am wearing", "wear am", "wearing"], "answer": 0, "explain": "today 这次的事——am wearing。", "level": 2 },
+          { "q": "Look! It ___ outside.", "options": ["is raining", "rains", "is rain"], "answer": 0, "explain": "天气直播：It is raining。", "level": 2 },
+          { "q": "The girls ___ photos of the band.", "options": ["are taking", "are takeing", "takes"], "answer": 0, "explain": "take 脱 e——are taking。", "level": 2 },
+          { "q": "Mr Li ___ on the phone right now.", "options": ["is talking", "talks", "is talk"], "answer": 0, "explain": "right now 直播中——is talking。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 火眼金睛",
+        "questions": [
+          { "q": "哪一句的直播是健康的？（他在打鼓）", "options": ["He is playing the drum.", "He is play the drum.", "He playing the drum."], "answer": 0, "explain": "两件套齐全才成句：is + playing。", "level": 3 },
+          { "q": "哪一句的直播是健康的？（我在画画）", "options": ["I am drawing a picture.", "I drawing a picture.", "I am draw a picture."], "answer": 0, "explain": "缺 be 或缺 -ing 都不行。", "level": 3 },
+          { "q": "哪一句的拼写是健康的？（她在跑）", "options": ["She is running.", "She is runing.", "She is runring."], "answer": 0, "explain": "run 双写 n——running。", "level": 3 },
+          { "q": "哪一句是健康的？（看！他在游）", "options": ["Look! He is swimming.", "Look! He swims.", "Look! He is swiming."], "answer": 0, "explain": "Look! 触发直播；swim 双写 m。", "level": 3 },
+          { "q": "哪一句的提问是健康的？（你在干嘛）", "options": ["What are you doing?", "What do you doing?", "What you are doing?"], "answer": 0, "explain": "直播句的指挥是 be——What are you doing?", "level": 3 },
+          { "q": "哪一句的拼写是健康的？（他在写信）", "options": ["He is writing a letter.", "He is writeing a letter.", "He is writting a letter."], "answer": 0, "explain": "write 脱哑音 e——writing。", "level": 3 },
+          { "q": "哪一句是健康的？（别吵，宝宝在睡）", "options": ["The baby is sleeping.", "The baby is sleep.", "The baby sleeping is."], "answer": 0, "explain": "is + sleeping 两件套。", "level": 3 },
+          { "q": "哪一句是健康的？（我知道答案）", "options": ["I know the answer.", "I am knowing the answer.", "I knowing the answer."], "answer": 0, "explain": "know 是心里的状态，不上直播。", "level": 3 },
+          { "q": "哪一句的否定是健康的？（他没在睡）", "options": ["He isn't sleeping.", "He doesn't sleeping.", "He isn't sleep."], "answer": 0, "explain": "否定在 be 上做：isn't sleeping。", "level": 3 },
+          { "q": "哪一句是健康的？（狗趴在地上）", "options": ["The dog is lying on the floor.", "The dog is lieing on the floor.", "The dog is liing on the floor."], "answer": 0, "explain": "lie 的 ie 变 y——lying。", "level": 3 },
+          { "q": "哪一句是健康的？（他们此刻在踢球）", "options": ["They are playing football now.", "They playing football now.", "They are play football now."], "answer": 0, "explain": "are + playing，两件套齐全。", "level": 3 },
+          { "q": "哪一句是健康的？（她在做蛋糕）", "options": ["She is making a cake.", "She is makeing a cake.", "She is make a cake."], "answer": 0, "explain": "make 脱 e——making。", "level": 3 },
+          { "q": "哪一句是健康的？（鸟在天上飞）", "options": ["The bird is flying in the sky.", "The bird is fliing in the sky.", "The bird is flys in the sky."], "answer": 0, "explain": "fly 直接穿 -ing——flying。", "level": 3 },
+          { "q": "哪一句的简答是健康的？（——在听吗？——在）", "options": ["— Are you listening? — Yes, I am.", "— Are you listening? — Yes, I do.", "— Do you listening? — Yes, I am."], "answer": 0, "explain": "be 提问 be 简答：Yes, I am。", "level": 3 },
+          { "q": "哪一句是健康的？（公交正在停下）", "options": ["The bus is stopping.", "The bus is stoping.", "The bus stopping."], "answer": 0, "explain": "stop 双写 p——stopping。", "level": 3 },
+          { "q": "哪一句是健康的？（爷爷在打太极？不——爷爷每天打）", "options": ["Grandpa does tai chi every morning.", "Grandpa is doing tai chi every morning.", "Grandpa doing tai chi every morning."], "answer": 0, "explain": "every morning 是习惯——常态牌，不开直播。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 上场演出",
+        "questions": [
+          { "q": "Look! Lily ___ the flute on the stage.", "options": ["is playing", "plays", "played"], "answer": 0, "explain": "Look! 触发直播——is playing。", "level": 4 },
+          { "q": "Lily ___ the flute every day after school.", "options": ["plays", "is playing", "playing"], "answer": 0, "explain": "every day 是习惯——常态牌 plays。", "level": 4 },
+          { "q": "— Where is Tom? — He ___ in the library.", "options": ["is reading", "reads", "read"], "answer": 0, "explain": "此刻他人在哪、在干嘛——直播牌。", "level": 4 },
+          { "q": "Listen! The birds ___ in the tree.", "options": ["are singing", "sing", "sang"], "answer": 0, "explain": "Listen! 触发直播——are singing。", "level": 4 },
+          { "q": "I usually ___ to school, but today I ___ the bus.", "options": ["walk / am taking", "am walking / take", "walk / take now"], "answer": 0, "explain": "usually 配常态牌，today 这次配直播牌——一句两牌。", "level": 4 },
+          { "q": "Don't talk! We ___ to the new song.", "options": ["are listening", "listen", "listening"], "answer": 0, "explain": "此刻正在听——are listening。", "level": 4 },
+          { "q": "Take your umbrella. It ___ outside.", "options": ["is raining", "rains", "rain"], "answer": 0, "explain": "眼下正在下——is raining。", "level": 4 },
+          { "q": "— What ___ the twins ___ now? — They ___ their room.", "options": ["are / doing / are cleaning", "do / do / clean", "are / do / are cleaning"], "answer": 0, "explain": "问句 are...doing；答句 are cleaning——全程直播牌。", "level": 4 },
+          { "q": "My sister ___ now, so I ___ TV with the sound off.", "options": ["is sleeping / am watching", "sleeps / watch", "is sleeping / watch now"], "answer": 0, "explain": "两个「此刻」都开直播：is sleeping、am watching。", "level": 4 },
+          { "q": "She can't answer the phone. She ___ a shower.", "options": ["is having", "has", "is haveing"], "answer": 0, "explain": "此刻在洗澡——is having（have 脱 e）。", "level": 4 },
+          { "q": "The train ___ ! Run, or we'll miss it!", "options": ["is leaving", "leaves", "left"], "answer": 0, "explain": "眼看就要开走——直播牌 is leaving。", "level": 4 },
+          { "q": "I ___ this song. It sounds beautiful.", "options": ["like", "am liking", "liking"], "answer": 0, "explain": "like 是心里的状态——不上直播。", "level": 4 },
+          { "q": "Look at the picture: a girl ___ under a tree and two boys ___ nearby.", "options": ["is sitting / are running", "sits / run", "is siting / are runing"], "answer": 0, "explain": "看图描述用直播牌；sit、run 都要双写。", "level": 4 },
+          { "q": "— ___ it still ___ outside? — No, it has stopped.", "options": ["Is / raining", "Does / raining", "Is / rain"], "answer": 0, "explain": "直播句提问搬 be：Is it still raining?", "level": 4 },
+          { "q": "Shh! The conductor ___ something important.", "options": ["is saying", "says", "is sayying"], "answer": 0, "explain": "此刻正在说——is saying（say 直接穿）。", "level": 4 },
+          { "q": "大考：Mum ___ dinner, Dad ___ the floor, and I ___ my homework.", "options": ["is cooking / is cleaning / am doing", "cooks / cleans / do", "is cooking / cleans / am doing"], "answer": 0, "explain": "全家同时直播：三个主语三个 be，动词全穿 -ing。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "Look! He swim in the river.",
+      "fixed": "Look! He is swimming in the river.",
+      "clue": "Look! 在喊开直播——要 be + -ing 两件套，swim 还要双写 m。"
+    },
+    {
+      "sentence": "She is danceing in the hall.",
+      "fixed": "She is dancing in the hall.",
+      "clue": "dance 的哑音 e 要先脱掉再穿 -ing——dancing。"
+    },
+    {
+      "sentence": "I am watch TV with my sister.",
+      "fixed": "I am watching TV with my sister.",
+      "clue": "开了机（am）却没换装——动词要穿 -ing。"
+    },
+    {
+      "sentence": "They playing football on the playground now.",
+      "fixed": "They are playing football on the playground now.",
+      "clue": "有 -ing 却没开机——缺了 be（are）。"
+    },
+    {
+      "sentence": "The baby is sleep in the bedroom.",
+      "fixed": "The baby is sleeping in the bedroom.",
+      "clue": "be 后面不能跟动词原形——sleep 要穿 -ing。"
+    },
+    {
+      "sentence": "Listen! Lily sings in her room.",
+      "fixed": "Listen! Lily is singing in her room.",
+      "clue": "Listen! 触发直播牌——is singing，不是常态牌 sings。"
+    },
+    {
+      "sentence": "He is runing after the school bus.",
+      "fixed": "He is running after the school bus.",
+      "clue": "run 重读闭音节，双写 n 再穿 -ing——running。"
+    }
+  ]
+}

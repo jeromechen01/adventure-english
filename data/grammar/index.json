@@ -75,6 +75,17 @@
       "file": "./data/grammar/g06.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G07",
+      "tier": "基石",
+      "title": "现在进行时",
+      "metaphor": "此刻正在演奏",
+      "ketRelevance": 1,
+      "ketLessonMap": ["L4"],
+      "file": "./data/grammar/g07.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
