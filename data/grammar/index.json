@@ -20,6 +20,17 @@
       "file": "./data/grammar/g01.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G02",
+      "tier": "基石",
+      "title": "冠词 a / an / the",
+      "metaphor": "a 的前世是 one（新朋友），the 的前世是 that（老朋友）",
+      "ketRelevance": 2,
+      "ketLessonMap": ["L6"],
+      "file": "./data/grammar/g02.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

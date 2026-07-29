@@ -1,0 +1,318 @@
+{
+  "$comment": "语法大厅 G02（V0.9 P1b）。比喻与 KET 八课 L6 字面一致：a 是新朋友（one 磨损而来），the 是老朋友（that 磨损而来）。全部内容原创。",
+  "id": "G02",
+  "tier": "基石",
+  "title": "冠词 a / an / the",
+  "metaphor": "a 的前世是 one（新朋友），the 的前世是 that（老朋友）",
+  "ketRelevance": 2,
+  "ketLessonMap": ["L6"],
+  "ketNote": "KET 阅读 Part 5 的高频空；写作漏冠词是黄区常客。八课里的亲戚是 L6。",
+  "source": "original",
+  "sections": {
+    "essence": "a 是新朋友（随便哪一个），the 是老朋友（你我都知道的那个）。",
+    "why": "中文没有冠词：「我有狗」「把门关上」，靠上下文就知道是随便一只还是特指那扇。英语不放心上下文，给每个单数可数名词挂一块身份牌：第一次出场、随便哪一个，挂 a——它的前世是 one（一个）；再次出场、或你我都知道是哪一个，挂 the——它的前世是 that（那个）。所以 a book 骨子里是「（随便）一本书」，the book 骨子里是「那本书（你知道的）」。an 不是新词，只是 a 在元音发音前的变体，看的是耳朵不是字母。中国孩子最常见的毛病不是挂错牌，而是整块牌都忘了挂。",
+    "metaphorStory": "乐团来了位新团员。第一天报到，指挥向大家介绍：「这是一位新来的长笛手」——a flute player，随便哪一位，大家还不认识她。到了第二周，团里人人都说「就是那位长笛手呀」——the flute player，你我都知道是谁。这就是 a 和 the 的分工：a 介绍新朋友，the 招呼老朋友。再看两个场景：乐器店里说「给我来一面鼓」（a drum，哪面都行）；台上指挥喊「把那面鼓递给我」（the drum，他和你都知道是哪一面）。还有些成员天生就是老朋友：天上只有一个太阳、一个月亮，第一次提也用 the——独一份的东西，人人都认识。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "a / an = 新朋友",
+          "detail": "第一次提到、随便哪一个。a 的前世是 one，所以只配单数可数名词。",
+          "example": "I have a cat. / She bought an umbrella."
+        },
+        {
+          "rule": "an 看音不看字母",
+          "detail": "下一个词以元音「发音」开头才用 an：hour 的 h 不发音，university 的 u 读 /j/。",
+          "example": "an hour / an egg / a university / a house"
+        },
+        {
+          "rule": "the = 老朋友",
+          "detail": "第二次提到，或你我都知道是哪一个。the 的前世是 that。",
+          "example": "I saw a film. The film was great."
+        },
+        {
+          "rule": "独一份自动是老朋友",
+          "detail": "世界上只有一个的东西，第一次提也用 the。",
+          "example": "the sun / the moon / the sky"
+        },
+        {
+          "rule": "有些地方不挂牌",
+          "detail": "复数或不可数的泛指、专有名词、三餐、by bus 类固定说法都不用冠词；但乐器要 the。",
+          "example": "I like music. / play football / play the piano / by bus"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I have a cat.", "cn": "我有一只猫。" },
+          { "en": "This is an egg.", "cn": "这是一个鸡蛋。" },
+          { "en": "Look at the moon!", "cn": "看那月亮！（独一份的老朋友）" },
+          { "en": "She is a teacher.", "cn": "她是一名老师。" },
+          { "en": "Open the door, please.", "cn": "请把门打开。（你我都知道哪扇门）" }
+        ],
+        "mid": [
+          { "en": "I saw a film last night. The film was about a dog.", "cn": "我昨晚看了部电影，讲的是一只狗。（新朋友变老朋友）" },
+          { "en": "There is an old piano in the hall.", "cn": "大厅里有一架旧钢琴。" },
+          { "en": "She eats an egg and a banana every morning.", "cn": "她每天早上吃一个鸡蛋和一根香蕉。" },
+          { "en": "Pass me the flute on the table, please.", "cn": "请把桌上那支长笛递给我。" },
+          { "en": "He wants to be an English teacher.", "cn": "他想当英语老师。（English 元音开头）" }
+        ],
+        "trap": [
+          { "en": "We waited for an hour.", "cn": "我们等了一个小时。", "note": "hour 的 h 不发音，开头是元音音——用 an，看音不看字母。" },
+          { "en": "She studies at a university.", "cn": "她在一所大学读书。", "note": "university 的 u 读 /j/，是辅音音——用 a。" },
+          { "en": "He plays the violin, and I play football.", "cn": "他拉小提琴，我踢足球。", "note": "乐器前要 the，球类前什么都不挂——乐团成员的特权。" },
+          { "en": "I go to school by bus.", "cn": "我坐公交上学。", "note": "by bus、at home 这类固定说法不挂牌。" },
+          { "en": "The sun rises in the east.", "cn": "太阳从东方升起。", "note": "sun、east 都是独一份，自动挂 the。" },
+          { "en": "I like music, but I don't like the music in this film.", "cn": "我爱音乐，但不喜欢这部电影里的音乐。", "note": "泛指不挂牌，特指某一批才挂 the——挂不挂，意思不一样。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "Give me a book on the desk.",
+        "good": "Give me the book on the desk.",
+        "zone": "blocks",
+        "why": "桌上就那一本、你我都知道——挂 a 会让人以为有好几本随便拿，找错东西。"
+      },
+      {
+        "bad": "I like the music.",
+        "good": "I like music.",
+        "zone": "blocks",
+        "why": "想说「我爱音乐」这件事，挂了 the 听的人以为你只说眼前这首——意思被缩小了。"
+      },
+      {
+        "bad": "I have dog.",
+        "good": "I have a dog.",
+        "zone": "tested",
+        "why": "单数可数名词不能裸奔，必须挂牌——中国孩子最高频的漏牌。"
+      },
+      {
+        "bad": "I ate a apple.",
+        "good": "I ate an apple.",
+        "zone": "tested",
+        "why": "apple 元音开头，牌子要换成 an。"
+      },
+      {
+        "bad": "We waited for a hour.",
+        "good": "We waited for an hour.",
+        "zone": "tested",
+        "why": "hour 的 h 不发音——看音不看字母，用 an。"
+      },
+      {
+        "bad": "She plays piano every day.",
+        "good": "She plays the piano every day.",
+        "zone": "tested",
+        "why": "弹奏乐器，乐器前要挂 the。"
+      },
+      {
+        "bad": "He plays the football after school.",
+        "good": "He plays football after school.",
+        "zone": "tested",
+        "why": "球类运动前什么牌都不挂——和乐器正好相反。"
+      },
+      {
+        "bad": "I saw the film yesterday, but I forget its name.",
+        "good": "I saw a film yesterday, but I forget its name.",
+        "zone": "tested",
+        "why": "第一次提到、对方不知道是哪部——新朋友要用 a。"
+      },
+      {
+        "bad": "Sun is very bright today.",
+        "good": "The sun is very bright today.",
+        "zone": "tested",
+        "why": "太阳独一份，自动是老朋友，要挂 the。"
+      },
+      {
+        "bad": "He goes to an university.",
+        "good": "He goes to a university.",
+        "zone": "tested",
+        "why": "university 开头读 /j/，是辅音音——用 a。"
+      },
+      {
+        "bad": "I come from the China.",
+        "good": "I come from China.",
+        "zone": "minor",
+        "why": "国名一般不挂牌（the USA 是少数例外）。说错不挡意思，KET 也不刁难。"
+      },
+      {
+        "bad": "We watch the TV after dinner.",
+        "good": "We watch TV after dinner.",
+        "zone": "minor",
+        "why": "watch TV 是固定说法不挂牌；多挂了不挡意思，也基本不考。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我有狗。（不用说「一只」也通顺）",
+        "en": "I have a dog.（a 不能省）",
+        "diff": "中文靠上下文分新旧；英语给每个单数可数名词强制挂牌。"
+      },
+      {
+        "cn": "把门关上。（哪扇门？上下文自己懂）",
+        "en": "Close the door.（the 替你说了「就那扇」）",
+        "diff": "中文的「特指」藏在语境里，英语用 the 明说出来。"
+      },
+      {
+        "cn": "弹钢琴、踢足球——都不加词",
+        "en": "play the piano / play football",
+        "diff": "英语乐器挂 the、球类不挂——一条要背的分界线。"
+      },
+      {
+        "cn": "「一个小时」——「一」照写",
+        "en": "an hour——a 变身 an",
+        "diff": "英语的牌子跟着耳朵变：元音发音前 a 要换成 an。"
+      },
+      {
+        "cn": "太阳出来了。（不用说「那个太阳」）",
+        "en": "The sun is out.",
+        "diff": "英语把「独一份」也当老朋友，第一次提就挂 the。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先问认不认识：新朋友 a/an，老朋友 the；an 看音不看字母",
+      "steps": [
+        "看到单数可数名词，先确认它没裸奔——必须有一块牌。",
+        "听的人知道是哪一个吗？知道（提过、独一份、就在眼前）→ the。",
+        "不知道、随便哪一个 → a/an。",
+        "选 a 还是 an？听下一个词的发音：元音音 an（an hour），辅音音 a（a university）。",
+        "复数/不可数泛指、专有名词、三餐、by bus 不挂牌；乐器记得 the。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语里说东西之前要先挂牌子：第一次提到的、随便哪一个的，挂 a，就像介绍新朋友；你我都知道是哪一个的，挂 the，就像招呼老朋友。咱们玩个游戏：我说一句中文，你告诉我里面的东西是新朋友还是老朋友——比如『我昨天买了一本书』（新朋友），『把那本书递给我』（老朋友）。」不用懂英语，判断「对方知不知道是哪一个」用生活常识就够；孩子答错时让她想想「你说这话时，我知道你指的是哪一个吗」。",
+      "questions": [
+        "「我养了一只猫」和「把猫抱过来」——哪句里的猫是老朋友？为什么？",
+        "英语说「一个小时」为什么用 an？h 不是辅音字母吗？",
+        "弹钢琴和踢足球，英语里哪个前面要挂 the？"
+      ]
+    },
+    "echo": "a 和 the 都是被说话磨短的词：a 是古英语 ān（one）的残片，说得太快，连 n 都只在元音前留下来——这就是 an；the 是 that 一族的近亲，磨掉了指头指点点的力气，只剩轻轻一声。就像楼梯最常踩的那级磨得最圆，语言里最常说的词磨得最短。下次写 a 和 the 的时候记得：你写的是两块用了一千年的老木牌。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G02 · a / an / the</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>a 的前世是 one（新朋友） · the 的前世是 that（老朋友）</text><rect x='36' y='116' width='316' height='230' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='156' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>👋 a / an · 新朋友</text><text x='194' y='194' text-anchor='middle' font-size='17' fill='#5A4A42'>第一次提到 · 随便哪一个</text><text x='194' y='228' text-anchor='middle' font-size='18' fill='#5A4A42'>I have a cat.</text><text x='194' y='262' text-anchor='middle' font-size='17' fill='#C0392B'>an 看音不看字母：</text><text x='194' y='294' text-anchor='middle' font-size='17' fill='#5A4A42'>an hour · a university</text><rect x='368' y='116' width='316' height='230' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='156' text-anchor='middle' font-size='22' font-weight='bold' fill='#E76F33'>🤝 the · 老朋友</text><text x='526' y='194' text-anchor='middle' font-size='17' fill='#5A4A42'>再次提到 · 你我都知道的那个</text><text x='526' y='228' text-anchor='middle' font-size='18' fill='#5A4A42'>The film was great.</text><text x='526' y='262' text-anchor='middle' font-size='17' fill='#5A4A42'>独一份也是老朋友：</text><text x='526' y='294' text-anchor='middle' font-size='17' fill='#5A4A42'>the sun · the moon</text><rect x='36' y='370' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='402' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>不挂牌：music（泛指） · football · by bus · 三餐 · China</text><text x='360' y='432' text-anchor='middle' font-size='17' fill='#5A4A42'>但乐器要 the：play the piano ✔ · play the violin ✔</text><text x='360' y='488' text-anchor='middle' font-size='16' fill='#8A7568'>口诀：新朋友 a/an，老朋友 the，an 看音不看字母</text><text x='360' y='526' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G02</text></svg>",
+    "alt": "G02 记忆卡：左边 a/an 新朋友（第一次提到随便哪一个，an 看音不看字母），右边 the 老朋友（再次提到或独一份），底部列不挂牌的情况与乐器要 the。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · a 还是 an",
+        "questions": [
+          { "q": "「apple」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "apple 开头是元音音 /æ/——用 an。", "level": 1 },
+          { "q": "「book」前面用 a 还是 an？", "options": ["a", "an"], "answer": 0, "explain": "book 开头是辅音音 /b/——用 a。", "level": 1 },
+          { "q": "「egg」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "egg 开头是元音音 /e/——用 an。", "level": 1 },
+          { "q": "「hour」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "hour 的 h 不发音，开头其实是元音音——看音不看字母，用 an。", "level": 1 },
+          { "q": "「university」前面用 a 还是 an？", "options": ["a", "an"], "answer": 0, "explain": "university 的 u 读 /j/，是辅音音——用 a。", "level": 1 },
+          { "q": "「orange」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "orange 开头是元音音——用 an。", "level": 1 },
+          { "q": "「umbrella」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "umbrella 的 u 读 /ʌ/，元音音——用 an。", "level": 1 },
+          { "q": "「pen」前面用 a 还是 an？", "options": ["a", "an"], "answer": 0, "explain": "pen 辅音开头——用 a。", "level": 1 },
+          { "q": "「ice cream」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "ice 开头是元音音 /aɪ/——用 an。", "level": 1 },
+          { "q": "「house」前面用 a 还是 an？", "options": ["a", "an"], "answer": 0, "explain": "house 的 h 发音——用 a。和 hour 对比着记。", "level": 1 },
+          { "q": "「old man」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "看紧跟着的词：old 元音开头——an old man。", "level": 1 },
+          { "q": "「drum」前面用 a 还是 an？", "options": ["a", "an"], "answer": 0, "explain": "drum 辅音开头——用 a。", "level": 1 },
+          { "q": "「English teacher」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "紧跟的 English 元音开头——an English teacher。", "level": 1 },
+          { "q": "「violin」前面用 a 还是 an？", "options": ["a", "an"], "answer": 0, "explain": "violin 辅音开头——用 a。", "level": 1 },
+          { "q": "「uniform」前面用 a 还是 an？", "options": ["a", "an"], "answer": 0, "explain": "uniform 的 u 读 /j/，辅音音——用 a，和 university 一家。", "level": 1 },
+          { "q": "「MP3 player」前面用 a 还是 an？", "options": ["an", "a"], "answer": 0, "explain": "MP3 读 /em.../，开头是元音音——an MP3 player。耳朵说了算。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 挂对牌子",
+        "questions": [
+          { "q": "I have ___ new violin.", "options": ["a", "an", "the"], "answer": 0, "explain": "第一次提到、随便哪一把——新朋友用 a（new 辅音开头）。", "level": 2 },
+          { "q": "This is ___ egg.", "options": ["an", "a", "the"], "answer": 0, "explain": "egg 元音开头——an egg。", "level": 2 },
+          { "q": "___ sun is bright today.", "options": ["The", "A", "An"], "answer": 0, "explain": "太阳独一份，自动是老朋友——the sun。", "level": 2 },
+          { "q": "She is ___ teacher.", "options": ["a", "an", "the"], "answer": 0, "explain": "说职业「是一名老师」——新朋友 a。", "level": 2 },
+          { "q": "I saw a dog in the park. ___ dog was very cute.", "options": ["The", "A", "An"], "answer": 0, "explain": "第二次提到，狗已经是老朋友——the dog。", "level": 2 },
+          { "q": "We waited for ___ hour.", "options": ["an", "a", "the"], "answer": 0, "explain": "hour 的 h 不发音——an hour。", "level": 2 },
+          { "q": "He studies at ___ university in Beijing.", "options": ["a", "an", "the"], "answer": 0, "explain": "university 读 /j/ 开头，辅音音——a university。", "level": 2 },
+          { "q": "Please open ___ door.", "options": ["the", "a", "an"], "answer": 0, "explain": "你我都知道是哪扇门——老朋友 the。", "level": 2 },
+          { "q": "There is ___ orange on the plate.", "options": ["an", "a", "the"], "answer": 0, "explain": "orange 元音开头——an orange。", "level": 2 },
+          { "q": "My mother bought me ___ umbrella.", "options": ["an", "a", "the"], "answer": 0, "explain": "umbrella 元音开头——an umbrella。", "level": 2 },
+          { "q": "Look at ___ moon!", "options": ["the", "a", "an"], "answer": 0, "explain": "月亮独一份——the moon。", "level": 2 },
+          { "q": "I want ___ glass of water.", "options": ["a", "an", "the"], "answer": 0, "explain": "随便哪一杯——a glass of water（glass 辅音开头）。", "level": 2 },
+          { "q": "She plays ___ piano every evening.", "options": ["the", "a", "不填"], "answer": 0, "explain": "弹奏乐器，乐器前挂 the——play the piano。", "level": 2 },
+          { "q": "They play ___ football after school.", "options": ["不填", "the", "a"], "answer": 0, "explain": "球类运动不挂牌——play football。", "level": 2 },
+          { "q": "He is ___ English teacher.", "options": ["an", "a", "the"], "answer": 0, "explain": "English 元音开头——an English teacher。", "level": 2 },
+          { "q": "___ earth goes around the sun.", "options": ["The", "A", "An"], "answer": 0, "explain": "地球独一份——the earth。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 火眼金睛",
+        "questions": [
+          { "q": "哪一句的冠词是健康的？（弹钢琴）", "options": ["She plays the piano.", "She plays piano.", "She plays a piano."], "answer": 0, "explain": "乐器前要 the——play the piano。", "level": 3 },
+          { "q": "哪一句的冠词是健康的？（踢足球）", "options": ["He plays football.", "He plays the football.", "He plays a football."], "answer": 0, "explain": "球类不挂牌——play football。", "level": 3 },
+          { "q": "哪一句的冠词是健康的？（养狗）", "options": ["I have a dog.", "I have dog.", "I have an dog."], "answer": 0, "explain": "单数可数名词不能裸奔；dog 辅音开头用 a。", "level": 3 },
+          { "q": "哪一句的冠词是健康的？（等一小时）", "options": ["We waited for an hour.", "We waited for a hour.", "We waited for hour."], "answer": 0, "explain": "hour 的 h 不发音——an hour。", "level": 3 },
+          { "q": "I watched a film last night. ___ film was great.", "options": ["The", "A", "An"], "answer": 0, "explain": "第二次提到变老朋友——the film。", "level": 3 },
+          { "q": "Can you lend me ___ book? Any book is OK.", "options": ["a", "the", "an"], "answer": 0, "explain": "随便哪本都行——新朋友 a。", "level": 3 },
+          { "q": "哪一句的冠词是健康的？（坐公交上学）", "options": ["I go to school by bus.", "I go to the school by the bus.", "I go to a school by a bus."], "answer": 0, "explain": "go to school、by bus 都是固定说法，不挂牌。", "level": 3 },
+          { "q": "___ moon goes around ___ earth.", "options": ["The / the", "A / an", "An / a"], "answer": 0, "explain": "月亮和地球都独一份——都挂 the。", "level": 3 },
+          { "q": "哪一句的冠词是健康的？（当护士）", "options": ["My aunt is a nurse.", "My aunt is nurse.", "My aunt is an nurse."], "answer": 0, "explain": "说职业要挂牌：a nurse（辅音开头）。", "level": 3 },
+          { "q": "a university 用 a 而不用 an，是因为？", "options": ["university 开头读辅音音 /j/", "university 是大词，配大牌子", "u 是元音字母，所以应该用 an 才对"], "answer": 0, "explain": "看音不看字母：university 读 /juː/，开头是辅音音。", "level": 3 },
+          { "q": "It took me half ___ hour to get there.", "options": ["an", "a", "the"], "answer": 0, "explain": "hour 元音音开头——half an hour。", "level": 3 },
+          { "q": "书架上只有一本词典：Pass me ___ dictionary on the shelf.", "options": ["the", "a", "an"], "answer": 0, "explain": "只有那一本、你我都知道——老朋友 the。", "level": 3 },
+          { "q": "泛指「我爱音乐」：I like ___.", "options": ["music", "the music", "a music"], "answer": 0, "explain": "泛指不挂牌；music 还是不可数名词，永远不配 a。", "level": 3 },
+          { "q": "I live in ___.", "options": ["Beijing", "the Beijing", "a Beijing"], "answer": 0, "explain": "城市名是专有名词，不挂牌。", "level": 3 },
+          { "q": "哪一句的冠词是健康的？（看电视）", "options": ["We watch TV after dinner.", "We watch the TV after dinner.", "We watch a TV after dinner."], "answer": 0, "explain": "watch TV 固定说法，不挂牌。", "level": 3 },
+          { "q": "I have ___ breakfast at seven every day.", "options": ["不填", "a", "the"], "answer": 0, "explain": "三餐前不挂牌——have breakfast / lunch / dinner。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 上场演出",
+        "questions": [
+          { "q": "I saw ___ cat in the garden. ___ cat was sleeping.", "options": ["a / The", "the / A", "an / The"], "answer": 0, "explain": "第一次 a（新朋友），第二次 the（老朋友）。", "level": 4 },
+          { "q": "There is ___ egg and ___ banana in the box.", "options": ["an / a", "a / an", "an / an"], "answer": 0, "explain": "egg 元音音用 an；banana 辅音音用 a——一个一个听。", "level": 4 },
+          { "q": "She plays ___ violin, and her brother plays ___ basketball.", "options": ["the / 不填", "a / the", "不填 / the"], "answer": 0, "explain": "乐器挂 the，球类不挂——两条线别接反。", "level": 4 },
+          { "q": "___ old man with ___ umbrella is my grandpa.", "options": ["The / an", "A / a", "An / an"], "answer": 0, "explain": "特指「那位老爷爷」用 the；umbrella 元音音用 an。", "level": 4 },
+          { "q": "What ___ interesting film!", "options": ["an", "a", "the"], "answer": 0, "explain": "感叹句里也照规矩：interesting 元音开头——an。", "level": 4 },
+          { "q": "He watches TV for ___ hour ___ day.", "options": ["an / a", "a / an", "an / the"], "answer": 0, "explain": "an hour（h 不发音）；a day 表示「每天」。", "level": 4 },
+          { "q": "___ books on my desk are new. I love reading ___ books.", "options": ["The / 不填", "不填 / The", "The / the"], "answer": 0, "explain": "「我桌上那些书」特指挂 the；「爱读书」泛指不挂牌。", "level": 4 },
+          { "q": "We went there ___.", "options": ["by bus", "by a bus", "by the bus"], "answer": 0, "explain": "by + 交通工具是固定说法，中间不挂任何牌。", "level": 4 },
+          { "q": "___ sun is much bigger than ___ moon.", "options": ["The / the", "A / a", "The / a"], "answer": 0, "explain": "太阳月亮都独一份——都用 the。", "level": 4 },
+          { "q": "He is ___ engineer from ___ USA.", "options": ["an / the", "a / the", "an / 不填"], "answer": 0, "explain": "engineer 元音开头用 an；USA 是少数要挂 the 的国名。", "level": 4 },
+          { "q": "We have ___ lunch at school. ___ lunch today was delicious.", "options": ["不填 / The", "the / The", "a / A"], "answer": 0, "explain": "三餐泛指不挂牌；特指「今天这顿」才挂 the。", "level": 4 },
+          { "q": "I don't drink tea ___.", "options": ["at night", "at the night", "in a night"], "answer": 0, "explain": "at night 固定说法，不挂牌。", "level": 4 },
+          { "q": "She wants to be ___ singer when she grows up.", "options": ["a", "an", "the"], "answer": 0, "explain": "职业新朋友——a singer。", "level": 4 },
+          { "q": "This is ___ MP3 player, not ___ radio.", "options": ["an / a", "a / an", "an / the"], "answer": 0, "explain": "MP3 读 /em/ 元音开头用 an；radio 辅音开头用 a。", "level": 4 },
+          { "q": "There's ___ apple tree in our garden. ___ apples are still green.", "options": ["an / The", "a / The", "an / 不填"], "answer": 0, "explain": "apple 元音音用 an；「树上那些苹果」特指挂 the。", "level": 4 },
+          { "q": "I bought ___ orange, ___ university T-shirt and ___ umbrella.", "options": ["an / a / an", "a / an / a", "an / an / an"], "answer": 0, "explain": "orange 元音 an；university 读 /j/ 用 a；umbrella 元音 an——全靠耳朵。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I have dog.",
+      "fixed": "I have a dog.",
+      "clue": "单数可数名词裸奔了——第一次提到的新朋友要挂 a。"
+    },
+    {
+      "sentence": "She is a English teacher.",
+      "fixed": "She is an English teacher.",
+      "clue": "English 开头是元音音——牌子要换成 an。"
+    },
+    {
+      "sentence": "He plays piano every day.",
+      "fixed": "He plays the piano every day.",
+      "clue": "弹奏乐器，乐器前要挂 the。"
+    },
+    {
+      "sentence": "I ate a apple this morning.",
+      "fixed": "I ate an apple this morning.",
+      "clue": "apple 元音开头——an apple。"
+    },
+    {
+      "sentence": "Look at a moon!",
+      "fixed": "Look at the moon!",
+      "clue": "月亮独一份，人人认识的老朋友——用 the。"
+    },
+    {
+      "sentence": "We waited for a hour.",
+      "fixed": "We waited for an hour.",
+      "clue": "hour 的 h 不发音，开头其实是元音音——an hour，看音不看字母。"
+    },
+    {
+      "sentence": "My family watches the TV at night.",
+      "fixed": "My family watches TV at night.",
+      "clue": "watch TV 是固定说法，不挂牌——多挂的 the 要摘下来。"
+    }
+  ]
+}
