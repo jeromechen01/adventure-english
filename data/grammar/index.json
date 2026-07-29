@@ -64,6 +64,17 @@
       "file": "./data/grammar/g05.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G06",
+      "tier": "基石",
+      "title": "一般现在时与三单",
+      "metaphor": "每周固定的排练",
+      "ketRelevance": 1,
+      "ketLessonMap": ["L3"],
+      "file": "./data/grammar/g06.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
