@@ -105,6 +105,26 @@
         });
         await visit('clock-' + name, 'exam-hub'); // 每种时点都要能渲染
       }
+      // P0.6 考季派生自检：季名规则 + 占位符替换 + 改考试日后决策文案跟着变
+      const es = await import('./assets/js/utils/exam-season.js');
+      ec.saveExamConfig({ examDate: '2026-12-13', nextExamDate: '2027-03-14', nextExamLabel: '' });
+      const seasonCheck = {
+        byMonth: [1, 3, 6, 9, 12].map(m => es.seasonOf(m)).join('/'),
+        current: es.getCurrentSeason().label,
+        next: es.getNextSeason().label,
+        filled: es.fillSeason('报{本考季}，不行就{下一考季}'),
+      };
+      storage.saveMockResult('KET', 'mock-03', { scaled: 100, readingPct: 50, writingRaw: 15 });
+      seasonCheck.decisionLow = storage.getExamDecision('KET').action;
+      storage.saveMockResult('KET', 'mock-03', { scaled: 140, readingPct: 90, writingRaw: 28 });
+      seasonCheck.decisionHigh = storage.getExamDecision('KET').action;
+      // 换个考试日 → 决策文案里的季名必须跟着变
+      ec.saveExamConfig({ examDate: '2027-06-12' });
+      seasonCheck.afterDateChange = storage.getExamDecision('KET').action;
+      seasonCheck.noHardcodedYear = !/2027 春|2027 秋|2027 下半年/.test(
+        [seasonCheck.decisionLow, seasonCheck.decisionHigh, seasonCheck.afterDateChange].join(' '));
+      localStorage.removeItem('ea_examMocks');
+
       // 用户改值 → 即时生效
       ec.saveExamConfig({ targetScore: 150, examDate: iso(45) });
       const persisted = ec.examConfig();
@@ -117,6 +137,23 @@
       localStorage.removeItem('ea_examConfig');
       await ec.loadExamConfig(true);
       clockCheck.restored = ec.examConfig().targetScore;
+
+      // 年级选择器回归（KET 那行文案 P0.5 起读配置）
+      await ec.loadExamConfig(true);
+      document.getElementById('gradeBtn').click();
+      await sleep(500);
+      const gpHtml = document.getElementById('modalRoot').innerHTML;
+      const gpCfg = ec.examConfig();
+      const gradePicker = {
+        opened: gpHtml.length > 200,
+        hasNineGrades: (gpHtml.match(/data-grade="[1-9]"/g) || []).length === 9,
+        hasKET: /data-grade="KET"/.test(gpHtml),
+        hasPET: /data-grade="PET"/.test(gpHtml),
+        showsConfigDate: gpHtml.includes(gpCfg.examDate),
+        showsConfigTarget: gpHtml.includes('目标 ' + gpCfg.targetScore + '+'),
+        noHardcodedSeason: !/2027 春季|2027 秋/.test(gpHtml),
+      };
+      document.getElementById('modalRoot').innerHTML = '';
 
       // 懒加载器自检
       const lz = await import('./assets/js/utils/lazy-data.js');
@@ -148,6 +185,8 @@
                      newErrs: window.__errs.length - errsBeforeOffline }
         },
         clocks: clockCheck,
+        season: seasonCheck,
+        gradePicker,
         lazy: {
           grammarIndex: gi && gi.type,
           grammarTiers: gi && gi.tiers.length,

@@ -1,5 +1,5 @@
 {
-  "$comment": "考试关键日期与目标分的唯一配置源（V0.9 P0.5）。这里是默认值；用户在备考中心「考试信息」面板改过之后，改动存在 localStorage 的 examConfig 里覆盖本文件。三个时钟（报名开放/报名截止/考试日）全部读这里，不再硬编码。注意：计划进度 Day N 仍是完成度驱动，与本文件的任何日期都无关。",
+  "$comment": "考试关键日期与目标分的唯一配置源（V0.9 P0.5 建立，P0.6 起也是考季的唯一来源）。这里是默认值；用户在备考中心「考试信息」面板改过之后，改动存在 localStorage 的 examConfig 里覆盖本文件。三个时钟（报名开放/报名截止/考试日）全部读这里，不再硬编码。考季（如「2026年12月（冬季）」）由 examDate / nextExamDate 派生，见 assets/js/utils/exam-season.js——其它 JSON 里要提考季一律写占位符 {本考季} / {下一考季}，渲染前过 fillSeason()。注意：计划进度 Day N 仍是完成度驱动，与本文件的任何日期都无关。",
   "version": "0.9.05",
   "updated": "2026-07-29",
 
@@ -8,6 +8,9 @@
   "regCloseDate": "2026-10-13",
   "targetScore": 140,
   "editable": true,
+
+  "nextExamDate": "2027-03-14",
+  "nextExamLabel": "",
 
   "examDateNote": "占位日期，实际考期以考点答复为准",
   "regOpenNote": "北京考位常年秒空，开放即占位",

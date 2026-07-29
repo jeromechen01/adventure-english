@@ -1,7 +1,7 @@
 // modules/exam/plan.js —— 模块 1：学习进度规划（长期弧线 + 45 天计划总览）
 import { loadJSON } from '../../app.js';
 import * as storage from '../../storage.js';
-import { examLevel, headerHtml, bindBack, loadPlan } from './exam-common.js';
+import { examLevel, headerHtml, bindBack, loadPlan, loadExamConfig, fillSeason } from './exam-common.js';
 
 const PHASE_BG = {
   orange: 'from-orange-50 to-amber-50', cyan: 'from-cyan-50 to-blue-50',
@@ -11,6 +11,7 @@ const PHASE_BG = {
 
 export async function renderPlan(app) {
   const level = examLevel();
+  await loadExamConfig(); // 考季占位符（P0.6）
   const [longterm, plan] = await Promise.all([
     loadJSON(`data/exam/${level.toLowerCase()}/plan-longterm.json`),
     loadPlan(level)
@@ -44,10 +45,10 @@ export async function renderPlan(app) {
           <div class="flex items-center gap-2">
             <span class="text-2xl">${p.icon}</span>
             <span class="font-bold">${p.name}</span>
-            <span class="text-xs text-gray-500 flex-1 text-right">${p.trigger}</span>
+            <span class="text-xs text-gray-500 flex-1 text-right">${fillSeason(p.trigger)}</span>
           </div>
           <div class="text-xs text-gray-600 mt-1 pl-8">
-            ${p.daily !== '—' ? `每日 ${p.daily} · ` : ''}${p.vocab !== '—' ? `词汇 ${p.vocab} · ` : ''}${p.milestone}
+            ${p.daily !== '—' ? `每日 ${p.daily} · ` : ''}${p.vocab !== '—' ? `词汇 ${p.vocab} · ` : ''}${fillSeason(p.milestone)}
           </div>
         </div>`).join('')}
     </div>

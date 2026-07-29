@@ -4,6 +4,8 @@
 //   计划进度 Day N   = 完成度驱动（storage.getPlanDay，只在完成一天时 +1）
 import { loadJSON } from '../../app.js';
 import * as storage from '../../storage.js';
+import { setSeasonConfig } from '../../utils/exam-season.js';
+export { getCurrentSeason, getNextSeason, fillSeason } from '../../utils/exam-season.js';
 
 // 当前备考级别（默认 KET）
 export function examLevel() {
@@ -19,6 +21,7 @@ export function examLevel() {
 // ============================================================
 const CONFIG_FALLBACK = {
   examDate: '', regOpenDate: '', regCloseDate: '', targetScore: 140, editable: true,
+  nextExamDate: '', nextExamLabel: '',
   examDateNote: '', regOpenNote: '', registerTip: '',
 };
 let cachedConfig = null;
@@ -34,6 +37,7 @@ export async function loadExamConfig(force = false) {
   if (!override.examDate && ep.examDate) override.examDate = ep.examDate;
 
   cachedConfig = { ...CONFIG_FALLBACK, ...file, ...override };
+  setSeasonConfig(cachedConfig); // 考季由日期派生（P0.6），推给叶子模块 exam-season.js
   return cachedConfig;
 }
 
@@ -49,6 +53,7 @@ export function saveExamConfig(patch) {
     storage.setExamProfile({ ...storage.getExamProfile(), examDate: patch.examDate });
   }
   cachedConfig = { ...examConfig(), ...patch };
+  setSeasonConfig(cachedConfig); // 改了考试日 → 考季文案立刻跟着变
   return cachedConfig;
 }
 

@@ -8,7 +8,7 @@
 import { toast, showModal, closeModal } from '../../app.js';
 import * as storage from '../../storage.js';
 import { examLevel, daysToExam, todayISO, getTodayTasks, addMinutesWithGuard,
-         loadExamConfig, examConfig, saveExamConfig, examClocks, esc } from './exam-common.js';
+         loadExamConfig, examConfig, saveExamConfig, examClocks, esc, fillSeason } from './exam-common.js';
 
 const KET_VOCAB_START = 800;   // 起点词汇量（家长评估）
 const KET_VOCAB_TARGET = 1700; // KET 词汇线
@@ -93,7 +93,7 @@ export async function renderExamHub(app) {
             <button data-check="${s.id}" class="tap-bounce text-2xl" style="min-width:48px;min-height:48px">${done ? '✅' : '⬜'}</button>
             <button data-goto="${s.id}" class="flex-1 text-left tap-bounce" style="min-height:48px">
               <div class="font-bold text-sm ${done ? 'line-through opacity-60' : ''}">${s.icon} ${s.title} <span class="text-xs font-normal text-gray-400">${s.minutes}′</span></div>
-              <div class="text-xs text-gray-500">${s.detail}</div>
+              <div class="text-xs text-gray-500">${fillSeason(s.detail)}</div>
             </button>
             <span class="text-xl text-gray-300">›</span>
           </div>`;
@@ -182,7 +182,7 @@ async function renderPetHub(app) {
     <div class="card-cartoon mb-4 text-center bg-gradient-to-br from-orange-50 to-pink-50">
       <div class="text-5xl mb-2">🎓</div>
       <h2 class="text-xl font-bold">PET (B1 Preliminary)</h2>
-      <p class="text-xs text-gray-500 mt-1">排在 KET 拿证之后（2027 下半年起）——现在的任务是攒词汇</p>
+      <p class="text-xs text-gray-500 mt-1">排在 KET 拿证之后——现在的任务是攒词汇</p>
     </div>
     ${gap ? `
     <div class="card-cartoon mb-4 border-2 border-red-300 bg-red-50">

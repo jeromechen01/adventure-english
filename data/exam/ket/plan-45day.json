@@ -2793,7 +2793,7 @@
      "icon": "🎯",
      "title": "模考3 · 成果盘点",
      "minutes": 60,
-     "detail": "做完自动给 2027 春报考建议",
+     "detail": "做完自动给报考建议",
      "nav": "exam-mock",
      "params": {
       "mock": "mock-03"
@@ -2853,7 +2853,7 @@
      "icon": "🧭",
      "title": "报考决策",
      "minutes": 15,
-     "detail": "看模考3 报告 + 决策矩阵，定下 2027 春报名计划",
+     "detail": "看模考3 报告 + 决策矩阵，定下{本考季}报名计划",
      "nav": "exam-report",
      "params": {}
     },

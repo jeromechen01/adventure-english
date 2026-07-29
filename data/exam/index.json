@@ -1,14 +1,12 @@
 {
   "version": "0.4.0",
-  "note": "剑桥备考中心数据清单。levels 列出各级别可用模块与数据文件；files 供 sw.js 预缓存登记核对。所有练习内容 100% 原创，官方资源只做外链。",
+  "note": "剑桥备考中心数据清单。levels 列出各级别可用模块与数据文件；files 供 sw.js 预缓存登记核对。考试日期/考季/目标分统一在 data/exam/exam-config.json，本文件不再重复（V0.9 P0.6）。所有练习内容 100% 原创，官方资源只做外链。",
   "levels": [
     {
       "id": "KET",
       "name": "A2 Key for Schools",
       "shortName": "KET",
       "icon": "🗝️",
-      "targetSeason": "2027 春季",
-      "defaultExamDate": "2027-04-15",
       "modules": {
         "plan": true,
         "knowledge": true,
@@ -45,8 +43,6 @@
       "name": "B1 Preliminary for Schools",
       "shortName": "PET",
       "icon": "🎓",
-      "targetSeason": "2027 下半年起（KET 拿证之后）",
-      "defaultExamDate": null,
       "modules": {
         "plan": false,
         "knowledge": true,

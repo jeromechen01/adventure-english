@@ -274,9 +274,71 @@
 - ⚠️ 顺手修掉一个自己引入的版式回归：编辑按钮文案变长后会把右侧 Day N 挤出屏幕 → 改成独占一行，两列时钟恢复原样
 - ⚠️ 无头 Chrome 窗口有最小宽度（viewport 卡在 ~492px），截图会被裁切看着像溢出，**别用截图判断窄屏**，用 `?w=` 实测
 
-### 仍写着 2027 的地方（本次未动，等考期定了再统一改）
-- `storage.js` 报考决策建议文案（「报 2027 春并冲 A」等 4 条）
-- `mock-exam.js` 报考决策卡标题、`checkin.js` 一句鼓励文案、`data/exam/index.json` 的 `targetSeason`
+> P0.5 遗留的那批「仍写着 2027」的地方，已在 P0.6 全部清除。
+
+---
+
+## V0.9 P0.6：消灭硬编码考季
+
+原则：**考试季不是独立事实，是 examDate 的派生结果**。全项目只允许 `data/exam/exam-config.json` 一个数据源。
+
+### 新增派生层
+- [x] `data/exam/exam-config.json` 补 `nextExamDate: "2027-03-14"`（占位，待考点确认）+ `nextExamLabel: ""`（留空则自动生成）
+- [x] 新建 `assets/js/utils/exam-season.js`（叶子模块，零 import，避免与 storage.js/app.js 循环依赖）：
+  `seasonOf(月)` / `seasonLabel(日期)` / `getCurrentSeason()` / `getNextSeason()` / `fillSeason(文案)` / `setSeasonConfig()`
+- [x] 归季规则：12-2 月→冬季 / 3-5 月→春季 / 6-8 月→夏季 / 9-11 月→秋季；输出 `2026年12月（冬季）`
+- [x] 配置由 `exam-common.js` 的 `loadExamConfig()` 与 `saveExamConfig()` 推给它——改了考试日，全站考季文案立刻跟着变
+- [x] 兜底：配置未就位时退化为「本考季」「下一考季」，文案照样通顺
+
+### 数据文件：季名一律写占位符
+- [x] 约定：JSON 里要提考季，写 `{本考季}` / `{下一考季}`，渲染前过一道 `fillSeason()`
+- [x] 已改：`mocks/index.json`（决策矩阵标题 + 4 行 action + mock-03 preNote）、`plan-45day.json`（2 处）、`plan-longterm.json`（考试期 trigger、考后 trigger、报名期 milestone、PET 说明）、`resources.json`（报名节奏）、`pet/facts.json`
+- [x] **删除** `data/exam/index.json` 的 `targetSeason`（KET/PET 各一处）；连带删掉同样是重复数据源的 `defaultExamDate`
+
+### 决策矩阵 4 条文案（相对表述 + 运行时填充）
+- [x] `<110` →「暂不报{本考季}，目标{下一考季}」
+- [x] `110-119` →「报{本考季}，争 120+」
+- [x] `120-133` →「报{本考季}，冲 B（133+）」
+- [x] `≥134` →「报{本考季}并冲 A（140+）→ 认定 B1」
+- [x] `storage.js` 的 `getExamDecision()` 直接返回填好的文案（内部调 `fillSeason`），消费方无需记得填
+
+### 渲染点接线
+- [x] `mock-exam.js`（决策卡标题、矩阵标题/行、三处 preNote）、`plan.js`（trigger/milestone）、`resources.js`（报名节奏）、`exam-hub.js` 与 `checkin.js`（今日任务 slot detail）
+- [x] 四个模块补 `await loadExamConfig()`，保证 fillSeason 有数据
+- [x] `checkin.js` 鼓励文案去年份、无倒计时无数量压迫：「这是一场要打很久的仗——一年后还愿意学的孩子，比这个月被榨干的孩子走得远得多。」
+- [x] `exam-hub.js` PET 卡「排在 KET 拿证之后」（去掉「2027 下半年起」）
+
+### grep 校验（`assets/js` + `data`，排除日期字段值与 version）
+命令：`grep -rn "20[2-3][0-9]" assets/js data --include=*.js --include=*.json | grep -vE '"(examDate|regOpenDate|regCloseDate|nextExamDate|updated|date)"\s*:' | grep -v '"version"'`
+
+**表示考季的字面量：0 处。** 剩余命中全部为合法非考季内容：
+
+| 位置 | 内容 | 判定 |
+|---|---|---|
+| `utils/exam-season.js` 4/42 行 | 注释与 docstring 里的示例 | 说明文字，保留 |
+| `exam-config.json` `$comment` | 规则说明 | 说明文字，保留 |
+| `grammar-lessons.json` 2275/4607/4769/5588/5590 | `in 2020` / `in 2027` / `in 2026` | 介词教学例句，与考季无关 |
+| `resources.json` 12/77/78 | 官方 PDF 文件名里的版本年（2020 / 2025.08） | 外链资源版本号 |
+| `resources.json` 106/128 | 2025 年官网关闭个人报名通道、2026 年 7 月暑期培训政策 | 外部事实，有确切年份才准确 |
+
+### 收尾
+- [x] `sw.js` 登记 `utils/exam-season.js`，版本 → **ea-v0.9.06**；实测壳预缓存 49 → 50 项
+- [x] 回归：在线 32 页 / 离线 18 页全过、0 报错；KET 备考中心九模块正常
+- [x] **年级选择器回归**（自检点开 `#gradeBtn` 验模态框）：九个年级 + KET + PET 齐全，KET 行显示配置里的考试日与目标分，无硬编码考季
+- [x] 考季派生自检：归季 `冬季/春季/夏季/秋季/冬季`、`2026年12月（冬季）` / `2027年3月（春季）`、占位符替换正确；把考试日改成 2027-06-12 后决策文案自动变成「报2027年6月（夏季）…」
+
+---
+
+## ⚙️ 环境坑清单（每次开工前扫一眼）
+
+1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
+2. **`node --check` 不能验证 ES Module**（V0.8 因此漏过一个括号错误导致线上事故）。JS 自检一律 `node --experimental-vm-modules tools/check-esm.mjs`。
+3. **改了线上 JS 必须 bump `sw.js` 版本号**，否则 cache-first 会让用户端永远拿旧文件。
+4. **Chrome `--user-data-dir` 必须用短路径**（如 `%TEMP%\eap`）。放在很深的临时目录下，CacheStorage 目录会超 MAX_PATH，症状是 `caches.put` 抛 `Entry already exists` / `Unexpected internal error`——看着像 sw.js 的 bug，其实是路径长度。
+5. **无头 Chrome 加 `--virtual-time-budget` 会把 Service Worker 线程挂住**（页面永远停在 PENDING）。验证 SW 时改用 `Start-Process` + `Start-Sleep` + `Stop-Process`。
+6. **无头 Chrome 的 viewport 有最小宽度（实测卡在 ~492px，`--window-size` 压不下去），截图会被裁切，看着像元素溢出其实不是。判断窄屏版式必须用 `tools/smoke/shot.html?page=xxx&w=360` 实测元素右边界**，不要靠眼睛看截图。
+7. **PowerShell 读 UTF-8 结果文件会乱码**（`ConvertFrom-Json` 直接报错）。自检结果用 `node -e` 或 Bash 的 `cat` 读。
+8. 所有路径用相对路径 `./xxx`，绝不用绝对路径（GitHub Pages 子目录部署）。
 
 ---
 
@@ -298,6 +360,6 @@
 - 数据文件：**87 个 JSON**（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2143 词 / 22 话题**（V0.5 扩充中）；PET 阅读：**15 篇**
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v0.9.05**（壳预缓存架构）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v0.9.06**（壳预缓存架构）
 - 预缓存体积：**450 KB**（壳 435 + 索引 15）；`data/` 内容 2,878 KB 走运行时缓存
 - 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读

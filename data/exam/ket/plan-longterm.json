@@ -29,7 +29,7 @@
       "trigger": "考前 3 个月开放 / 2 个月截止",
       "daily": "—",
       "vocab": "—",
-      "milestone": "★ 2026 年 12 月起联系考点问考期，先占位",
+      "milestone": "★ 报名一开放就联系考点占位（考位常年秒空）",
       "color": "yellow",
       "highlight": true
     },
@@ -47,7 +47,7 @@
       "id": "exam",
       "name": "考试",
       "icon": "🏁",
-      "trigger": "2027 春季（约 3-4 月）",
+      "trigger": "{本考季}",
       "daily": "—",
       "vocab": "—",
       "milestone": "★ KET 目标量表分 140+（Grade A = 证书认定 B1）",
@@ -58,7 +58,7 @@
       "id": "after",
       "name": "考后",
       "icon": "🌱",
-      "trigger": "2027 下半年起",
+      "trigger": "KET 拿证之后",
       "daily": "—",
       "vocab": "→ 3500",
       "milestone": "转 PET，目标 153+",
@@ -76,7 +76,7 @@
   "excludeCard": {
     "title": "⛔ 排除项：PET 不提前",
     "lines": [
-      "PET 排在 KET 拿证之后（2027 下半年起）。",
+      "PET 排在 KET 拿证之后。",
       "缺口约 2700 词 + 换层级，业内公认需 8-15 个月。",
       "硬提前只会浪费报名费和信心。"
     ]

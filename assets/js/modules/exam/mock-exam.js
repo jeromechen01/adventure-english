@@ -4,13 +4,14 @@
 import { loadJSON, toast, showModal, closeModal } from '../../app.js';
 import * as storage from '../../storage.js';
 import { runDrillSet, runListeningSet } from './reading-drill.js';
-import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
+import { examLevel, headerHtml, bindBack, esc, loadExamConfig, fillSeason } from './exam-common.js';
 
 let mockTimer = null;
 
 export async function renderMockExam(app, params = {}) {
   if (mockTimer) { clearInterval(mockTimer); mockTimer = null; removeBar(); }
   const level = examLevel();
+  await loadExamConfig(); // 决策矩阵文案里的 {本考季}/{下一考季} 靠它派生（P0.6）
   const idx = await loadJSON(`data/exam/${level.toLowerCase()}/mocks/index.json`);
   if (!idx) {
     app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">📝</span><div class="empty-text">模考数据加载失败</div></div>';
@@ -39,7 +40,7 @@ export async function renderMockExam(app, params = {}) {
           return `
           <a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer" class="block card-cartoon tap-bounce border-2 border-amber-300 bg-amber-50" style="padding:12px 14px">
             <div class="font-bold text-sm">${m.name} <span class="text-xs font-normal text-gray-400">${m.when}</span> ↗</div>
-            <div class="text-xs text-gray-600 mt-1">${m.preNote}</div>
+            <div class="text-xs text-gray-600 mt-1">${fillSeason(m.preNote)}</div>
           </a>`;
         }
         return `
@@ -49,7 +50,7 @@ export async function renderMockExam(app, params = {}) {
             <div class="flex-1">
               <div class="font-bold text-sm">${m.name} <span class="text-xs font-normal text-gray-400">${m.when} · ${m.difficulty}</span></div>
               ${r ? `<div class="text-xs text-green-600">已考：阅读 ${r.readingPct}% · 写作 ${r.writingRaw}/30 · 听力 ${r.listeningPct == null ? '—' : r.listeningPct + '%'} · 估算量表 ${r.scaled}</div>`
-                  : `<div class="text-xs text-gray-500">${m.preNote}</div>`}
+                  : `<div class="text-xs text-gray-500">${fillSeason(m.preNote)}</div>`}
             </div>
             <span class="text-xl text-gray-300">›</span>
           </div>
@@ -64,12 +65,12 @@ export async function renderMockExam(app, params = {}) {
     </div>` : ''}
 
     <div class="card-cartoon">
-      <div class="font-bold text-sm mb-2">${idx.decisionMatrix.title}</div>
+      <div class="font-bold text-sm mb-2">${fillSeason(idx.decisionMatrix.title)}</div>
       ${idx.decisionMatrix.rows.map(r => `
         <div class="flex gap-2 text-sm py-1.5 border-b border-gray-50 last:border-0 ${r.highlight ? 'bg-amber-50 rounded-xl px-2' : ''}">
           <span class="font-bold font-en" style="min-width:72px">${r.range}</span>
           <span style="min-width:80px">${r.verdict}</span>
-          <span class="text-xs text-gray-600 flex-1">${r.action}</span>
+          <span class="text-xs text-gray-600 flex-1">${fillSeason(r.action)}</span>
         </div>`).join('')}
       <div class="text-xs text-gray-400 mt-2">${idx.decisionMatrix.petNote} · ${idx.estimateNote}</div>
     </div>
@@ -103,7 +104,7 @@ async function startFlow(app, level, idx, meta) {
   app.innerHTML = `
     ${headerHtml('📝 ' + meta.name)}
     <div class="card-cartoon mb-4 ${meta.id === 'mock-01' ? 'border-2 border-green-300 bg-green-50' : 'bg-blue-50'}">
-      <p class="text-sm text-gray-700">${meta.preNote}</p>
+      <p class="text-sm text-gray-700">${fillSeason(meta.preNote)}</p>
     </div>
     <div class="card-cartoon mb-4">
       <div class="text-sm text-gray-700 mb-1">· 7 部分 32 题，限时 <b>60 分钟</b>，倒计时结束自动交卷</div>
@@ -279,7 +280,7 @@ async function startFlow(app, level, idx, meta) {
 
       ${meta.id === 'mock-03' && decision ? `
       <div class="card-cartoon mb-4 border-2 border-amber-400 bg-amber-50">
-        <div class="font-bold text-sm mb-1">🧭 报考决策建议（目标 2027 春）</div>
+        <div class="font-bold text-sm mb-1">🧭 ${fillSeason("报考决策建议（目标{本考季}）")}</div>
         <div class="text-sm">${decision.verdict} → <b>${decision.action}</b></div>
       </div>` : ''}
       ${meta.id === 'mock-01' ? '<div class="card-cartoon mb-4 bg-green-50 text-sm text-gray-700">记住：这是起点坐标，不是审判。45 天后的模考 3 才是验收。</div>' : ''}

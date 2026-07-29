@@ -2,9 +2,10 @@
 // ⚠️ 全部外链跳转，app 内不存放任何官方文件（版权红线）。
 import { loadJSON } from '../../app.js';
 import * as storage from '../../storage.js';
-import { headerHtml, bindBack, esc } from './exam-common.js';
+import { headerHtml, bindBack, esc, loadExamConfig, fillSeason } from './exam-common.js';
 
 export async function renderResources(app) {
+  await loadExamConfig(); // 考季占位符（P0.6）
   const data = await loadJSON('data/exam/ket/resources.json');
   if (!data) {
     app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">🔗</span><div class="empty-text">资源清单加载失败</div></div>';
@@ -58,7 +59,7 @@ export async function renderResources(app) {
             <span class="font-bold text-sm" style="min-width:76px">${r.item}</span>
             <span class="text-sm text-gray-700 flex-1">${r.rule}</span>
           </div>
-          <div class="text-xs text-orange-600 mt-0.5 pl-[84px]">→ ${r.meaning}</div>
+          <div class="text-xs text-orange-600 mt-0.5 pl-[84px]">→ ${fillSeason(r.meaning)}</div>
         </div>`).join('')}
     </div>
 

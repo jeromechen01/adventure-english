@@ -4,7 +4,7 @@
 //   弱化 streak：只显示「已完成 Day N/45」和「本周学习 X 天」。
 import { toast } from '../../app.js';
 import * as storage from '../../storage.js';
-import { examLevel, todayISO, getTodayTasks, addMinutesWithGuard } from './exam-common.js';
+import { examLevel, todayISO, getTodayTasks, addMinutesWithGuard, loadExamConfig, fillSeason } from './exam-common.js';
 
 const VOCAB_MARKS = [
   { at: 800, label: '起点 800' },
@@ -15,6 +15,7 @@ const VOCAB_MARKS = [
 
 export async function renderCheckin(app) {
   const level = examLevel();
+  await loadExamConfig(); // 考季占位符（P0.6）
   const t = await getTodayTasks(level);
   if (!t) {
     app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">📅</span><div class="empty-text">数据加载失败</div></div>';
@@ -53,7 +54,7 @@ export async function renderCheckin(app) {
             <button data-check="${s.id}" class="tap-bounce text-2xl" style="min-width:48px;min-height:48px">${done ? '✅' : '⬜'}</button>
             <button data-goto="${s.id}" class="flex-1 text-left tap-bounce" style="min-height:48px">
               <div class="font-bold text-sm ${done ? 'line-through opacity-60' : ''}">${s.icon} ${s.title} <span class="text-xs font-normal text-gray-400">${s.minutes}′</span></div>
-              <div class="text-xs text-gray-500">${s.detail}</div>
+              <div class="text-xs text-gray-500">${fillSeason(s.detail)}</div>
             </button>
           </div>`;
         }).join('')}
@@ -88,7 +89,7 @@ export async function renderCheckin(app) {
       <h3 class="font-bold mb-2">🌿 健康护栏</h3>
       <p class="text-sm text-gray-700 mb-1.5">每天 90 分钟、每周建议至少休一天，是 11 岁孩子的合理节奏。</p>
       <p class="text-sm text-gray-700 mb-1.5">再往上加，三件事会同时发生：记忆效率下降、对英语产生抵触、生活被榨干。</p>
-      <p class="text-sm text-gray-700 mb-1.5">这是一场打到 2027 年春天的仗——<b>明年还愿意学的孩子，比这个月被榨干的孩子值钱得多。</b></p>
+      <p class="text-sm text-gray-700 mb-1.5">这是一场要打很久的仗——<b>一年后还愿意学的孩子，比这个月被榨干的孩子走得远得多。</b></p>
       <p class="text-sm text-gray-700">乐团练习、每天户外、充足睡眠，一样都别砍。</p>
     </div>
   `;

@@ -32,7 +32,7 @@
       "file": "data/exam/ket/mocks/mock-03.json",
       "listeningSet": "lis-03",
       "difficulty": "略难",
-      "preNote": "45 天成果验收。做完自动按决策矩阵给出 2027 春报考建议。"
+      "preNote": "45 天成果验收。做完自动按决策矩阵给出报考建议。"
     },
     {
       "id": "mock-04",
@@ -44,12 +44,12 @@
     }
   ],
   "decisionMatrix": {
-    "title": "报考决策矩阵（模考 3 后自动给建议，目标 2027 春）",
+    "title": "报考决策矩阵（模考 3 后自动给建议，目标{本考季}）",
     "rows": [
-      { "range": "< 110", "verdict": "尚未到位", "action": "延后，先补基本盘，考虑 2027 秋" },
-      { "range": "110-119", "verdict": "接近及格", "action": "报 2027 春，争 120+" },
-      { "range": "120-133", "verdict": "已过 A2 线", "action": "报 2027 春，冲 B（133+）" },
-      { "range": "≥ 134", "verdict": "超预期", "action": "报 2027 春并冲 A（140+）→ 认定 B1", "highlight": true }
+      { "range": "< 110", "verdict": "尚未到位", "action": "暂不报{本考季}，目标{下一考季}" },
+      { "range": "110-119", "verdict": "接近及格", "action": "报{本考季}，争 120+" },
+      { "range": "120-133", "verdict": "已过 A2 线", "action": "报{本考季}，冲 B（133+）" },
+      { "range": "≥ 134", "verdict": "超预期", "action": "报{本考季}并冲 A（140+）→ 认定 B1", "highlight": true }
     ],
     "petNote": "PET：排在 KET 拿证之后"
   }

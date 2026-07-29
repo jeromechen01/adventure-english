@@ -1,5 +1,6 @@
 // storage.js - 本地存储封装
 // 所有学习数据持久化到 localStorage
+import { fillSeason } from './utils/exam-season.js'; // 报考决策文案里的考季占位符（P0.6）
 
 const KEY_PREFIX = 'ea_'; // english adventure 简写
 
@@ -22,7 +23,7 @@ const KEYS = {
   STATS: 'stats',             // 杂项统计 { bossKills, threeStars, comboMax, regionClears, reinforceGrads }
   RECITATION: 'recitation',   // 背诵成绩 { [articleId]: bestScore }
   // === V0.4 剑桥备考中心 ===
-  EXAM_PROFILE: 'examProfile',   // { level:'KET'|'PET', examDate:'2026-12-13', started:true }
+  EXAM_PROFILE: 'examProfile',   // { level:'KET'|'PET', examDate, started:true } examDate 默认值见 exam-config.json
   EXAM_CONFIG: 'examConfig',     // V0.9 P0.5 用户覆盖的考试信息 { examDate, regOpenDate, regCloseDate, targetScore }
   EXAM_PLAN: 'examPlan',         // { [level]: { day:N, slots:{ [day]:{ [slotId]:true } } } }
   EXAM_CHECKIN: 'examCheckin',   // { [level]: { [dateISO]: doneSlotCount } }  真实日期热力图
@@ -719,17 +720,19 @@ export function getMockResults(level) {
   return all[level] || {};
 }
 
-// 报考决策：按最近一次模考的估算量表分给建议（目标 2027 春）
+// 报考决策：按最近一次模考的估算量表分给建议。
+// 考季不写死（V0.9 P0.6）——{本考季}/{下一考季} 由 exam-config.json 的 examDate/nextExamDate 派生。
 export function getExamDecision(level) {
   const mocks = getMockResults(level);
   const list = Object.entries(mocks).sort((a, b) => (a[1].date || '').localeCompare(b[1].date || ''));
   if (!list.length) return null;
   const last = list[list.length - 1][1];
   const scaled = last.scaled || 0;
-  if (scaled >= 134) return { scaled, verdict: '超预期', action: '报 2027 春并冲 A（140+）→ 证书直接认定 B1！' };
-  if (scaled >= 120) return { scaled, verdict: '已过 A2 线', action: '报 2027 春，冲 B（133+）' };
-  if (scaled >= 110) return { scaled, verdict: '接近及格', action: '报 2027 春，争 120+' };
-  return { scaled, verdict: '尚未到位', action: '延后，先补基本盘，考虑 2027 秋' };
+  const say = (verdict, tpl) => ({ scaled, verdict, action: fillSeason(tpl) });
+  if (scaled >= 134) return say('超预期', '报{本考季}并冲 A（140+）→ 认定 B1');
+  if (scaled >= 120) return say('已过 A2 线', '报{本考季}，冲 B（133+）');
+  if (scaled >= 110) return say('接近及格', '报{本考季}，争 120+');
+  return say('尚未到位', '暂不报{本考季}，目标{下一考季}');
 }
 
 // === 写作草稿 ===
