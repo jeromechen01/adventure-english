@@ -53,6 +53,17 @@
       "file": "./data/grammar/g04.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G05",
+      "tier": "基石",
+      "title": "There be 句型",
+      "metaphor": "报幕：「舞台上有……」",
+      "ketRelevance": 1,
+      "ketLessonMap": ["L1"],
+      "file": "./data/grammar/g05.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
