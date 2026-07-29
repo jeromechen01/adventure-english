@@ -11,6 +11,7 @@ const MAX_GAP_SEC = 45;          // 单次累加上限（防休眠等异常大�
 export const STUDY_MODULES = {
   'vocab':         { label: '词汇闯关', icon: '🧗' },
   'grammar':       { label: '语法', icon: '🧩' },
+  'grammar-hall':  { label: '语法大厅', icon: '🏛️' },
   'reading':       { label: '阅读', icon: '📖' },
   'writing':       { label: '写作', icon: '✍️' },
   'pet-vocab':     { label: 'PET 词库', icon: '🎓' },
@@ -45,6 +46,7 @@ export function moduleForPage(page, grade) {
     return grade === 'PET' ? 'pet-vocab' : grade === 'KET' ? 'ket-vocab' : 'vocab';
   }
   if (page === 'grammar') return 'grammar';
+  if (page === 'grammar-hall') return 'grammar-hall';
   if (page === 'reading') return grade === 'PET' ? 'pet-reading' : 'reading';
   if (page === 'writing') return 'writing';
   return null; // 未知页面不计，宁可少记不多记

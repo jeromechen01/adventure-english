@@ -150,6 +150,7 @@ async function navigate(page, params = {}) {
     case 'reading':    await renderReadingPage(app, params); break;
     case 'writing':    await renderWritingPage(app, params); break;
     case 'petlevels':  await renderPetTopicMap(app, params.topic); break;
+    case 'grammar-hall': await (await import('./modules/grammar-hall/hall.js')).renderGrammarHall(app, params); break;
     case 'timestats':  (await import('./modules/study-stats.js')).renderStudyStats(app); break;
     default:           await renderHome(app);
   }
@@ -297,6 +298,14 @@ function renderLearn(app) {
         </div>
         <div class="text-2xl text-gray-300">›</div>
       </button>
+      <button data-action="grammar-hall" class="w-full card-cartoon tap-bounce flex items-center gap-4 text-left">
+        <div class="text-5xl">🏛️</div>
+        <div class="flex-1">
+          <div class="font-bold">语法大厅</div>
+          <div class="text-xs text-gray-500">1-9 年级 50 课全景地图 · 英语句子 = 一支乐队</div>
+        </div>
+        <div class="text-2xl text-gray-300">›</div>
+      </button>
       <button data-action="reading" class="w-full card-cartoon tap-bounce flex items-center gap-4 text-left">
         <div class="text-5xl">📖</div>
         <div class="flex-1">
@@ -315,7 +324,7 @@ function renderLearn(app) {
       </button>
     </div>
   `;
-  ['words','grammar','reading','writing'].forEach(p => {
+  ['words','grammar','grammar-hall','reading','writing'].forEach(p => {
     app.querySelector(`[data-action="${p}"]`).addEventListener('click', () => navigate(p));
   });
 }

@@ -36,6 +36,8 @@ const SHELL_URLS = [
   './assets/js/games/pet-game.js',
   './assets/js/games/shoot-game.js',
   './assets/js/modules/grammar.js',
+  './assets/js/modules/grammar-hall/hall.js',
+  './assets/js/modules/grammar-hall/lesson.js',
   './assets/js/modules/levels.js',
   './assets/js/modules/pet.js',
   './assets/js/modules/reading.js',
