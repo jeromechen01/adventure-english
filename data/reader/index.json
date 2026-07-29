@@ -1,0 +1,13 @@
+{
+  "$comment": "四阶读本索引（V1.0）。只存元信息，不存正文；正文在 v1/ v2/ v3/ v4/ 下按篇分片，按需懒加载。字段定义见 _schema.index.json。",
+  "type": "reader",
+  "version": "1.0.0",
+  "updated": "2026-07-29",
+  "volumes": [
+    { "volume": 1, "name": "日常", "cefr": "A1",      "lexile": "200-400L",  "planned": 100, "words": "60-90",   "genre": "对话+句型替换", "dir": "./data/reader/v1/", "enabled": false },
+    { "volume": 2, "name": "故事", "cefr": "A2·KET",  "lexile": "400-600L",  "planned": 96,  "words": "100-160", "genre": "记叙短文",     "dir": "./data/reader/v2/", "enabled": false },
+    { "volume": 3, "name": "世界", "cefr": "B1·PET",  "lexile": "600-800L",  "planned": 60,  "words": "200-320", "genre": "叙事/人物/幽默", "dir": "./data/reader/v3/", "enabled": false },
+    { "volume": 4, "name": "思辨", "cefr": "B1+",     "lexile": "800-1000L", "planned": 48,  "words": "350-450", "genre": "说明/议论",     "dir": "./data/reader/v4/", "enabled": false }
+  ],
+  "pieces": []
+}

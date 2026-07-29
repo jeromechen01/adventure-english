@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "reader-piece",
+  "title": "读本单篇",
+  "description": "data/reader/vN/rXXX.json 的结构。正文必须 100% 原创，或改编自明确的公有领域素材（1929 年前出版英文文学 / 美国联邦政府作品），并在 source 字段如实标注。严禁复制或改写《新概念英语》及任何在版教辅出版物的课文、练习、编排与译文。",
+  "type": "object",
+  "required": ["id", "volume", "title", "source", "lexile", "wordCount", "body", "vocab", "grammarFocus", "questions", "cnNotes"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^r[0-9]{3}$" },
+    "volume": { "type": "integer", "minimum": 1, "maximum": 4 },
+    "title": { "type": "string" },
+    "titleCn": { "type": "string" },
+    "source": { "type": "string", "minLength": 1, "description": "\"original\" 或 \"adapted: <底本名称与出处>\"。空字符串不合法。" },
+    "lexile": { "type": "integer" },
+    "wordCount": { "type": "integer" },
+    "body": {
+      "type": "array",
+      "description": "正文，按段/按台词分条，便于点词查义与跟读对齐",
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "properties": {
+          "speaker": { "type": "string", "description": "对话体填角色名；叙述体留空" },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "vocab": {
+      "type": "array",
+      "description": "生词表。卷 I ≤8 / 卷 II ≤12 / 卷 III ≤15 / 卷 IV ≤18。id 必须能在现有词库中查到，点击可跳词条并加入错词强化池。",
+      "items": {
+        "type": "object",
+        "required": ["id", "word", "meaning"],
+        "properties": {
+          "id": { "type": "string", "description": "词库词条 id" },
+          "word": { "type": "string" },
+          "phonetic": { "type": "string" },
+          "meaning": { "type": "string" },
+          "example": { "type": "string" },
+          "tip": { "type": "string", "description": "记忆法" }
+        }
+      }
+    },
+    "grammarFocus": {
+      "type": "object",
+      "description": "语法聚焦，回链语法大厅对应课",
+      "required": ["note"],
+      "properties": {
+        "ref": { "type": ["string", "null"], "pattern": "^G[0-9]{2}$" },
+        "pattern": { "type": "string", "description": "本篇的核心句型（卷 I 必填）" },
+        "note": { "type": "string" }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "description": "理解题：卷 I 3 道（细节/主旨/推断各一）、卷 II 4 道、卷 III 5 道、卷 IV 5 道 + 1 道观点题。全部原创。",
+      "minItems": 3,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["q", "options", "answer", "kind"],
+        "properties": {
+          "q": { "type": "string" },
+          "options": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+          "answer": { "type": "integer", "minimum": 0, "description": "正确选项下标；选项洗牌后由 utils/shuffle.js 同步重算" },
+          "kind": { "enum": ["detail", "gist", "inference", "opinion"] },
+          "explain": { "type": "string" }
+        }
+      }
+    },
+    "cnNotes": { "type": "string", "description": "中文精讲：解释难点，不做逐句翻译" }
+  }
+}

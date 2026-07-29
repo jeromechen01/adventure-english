@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "reader-index",
+  "title": "四阶读本索引",
+  "description": "data/reader/index.json 的结构。只存元信息，不存正文；正文按篇分片存放在 v1/ v2/ v3/ v4/ 下，按需懒加载。",
+  "type": "object",
+  "required": ["type", "version", "volumes", "pieces"],
+  "properties": {
+    "type": { "const": "reader" },
+    "version": { "type": "string" },
+    "updated": { "type": "string", "description": "YYYY-MM-DD" },
+    "volumes": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["volume", "name", "lexile", "planned", "dir", "enabled"],
+        "properties": {
+          "volume": { "type": "integer", "minimum": 1, "maximum": 4 },
+          "name": { "enum": ["日常", "故事", "世界", "思辨"] },
+          "cefr": { "type": "string" },
+          "lexile": { "type": "string", "description": "蓝思区间，如 200-400L" },
+          "planned": { "type": "integer", "description": "计划篇数：100 / 96 / 60 / 48" },
+          "words": { "type": "string", "description": "篇幅区间，如 60-90" },
+          "genre": { "type": "string" },
+          "dir": { "type": "string" },
+          "enabled": { "type": "boolean", "description": "该卷是否已启用（未启用则大厅里显示为「敬请期待」）" }
+        }
+      }
+    },
+    "pieces": {
+      "type": "array",
+      "description": "304 篇的元信息。顺序即展示顺序。",
+      "items": {
+        "type": "object",
+        "required": ["id", "volume", "title", "lexile", "wordCount", "grammarRef", "vocabRefs", "file", "source", "status"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^r[0-9]{3}$", "description": "篇号 r001-r304" },
+          "volume": { "type": "integer", "minimum": 1, "maximum": 4 },
+          "title": { "type": "string" },
+          "lexile": { "type": "integer", "description": "蓝思估值，卷 I 200-400 / II 400-600 / III 600-800 / IV 800-1000" },
+          "wordCount": { "type": "integer", "description": "正文词数" },
+          "grammarRef": { "type": ["string", "null"], "pattern": "^G[0-9]{2}$", "description": "挂载的语法大厅课号；卷 III/IV 无单一挂载点时为 null" },
+          "vocabRefs": {
+            "type": "array",
+            "description": "生词的词库 id 列表。卷 I-II 必须 100% 落在 KET A2 词表内，卷 III-IV 落在 PET 词表内且与 shared-a2-words.json 去重。不新造游离词条。",
+            "items": { "type": "string" }
+          },
+          "file": { "type": "string", "description": "如 ./data/reader/v1/r001.json" },
+          "source": { "type": "string", "minLength": 1, "description": "版权来源，必填且非空：\"original\" 或 \"adapted: <底本名称与出处>\"（底本仅限 1929 年前出版英文文学 / 美国联邦政府作品如 VOA Learning English、NASA）" },
+          "status": { "enum": ["planned", "draft", "done"] }
+        }
+      }
+    }
+  }
+}

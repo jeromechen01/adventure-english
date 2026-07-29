@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "grammar-hall-lesson",
+  "title": "语法大厅单课",
+  "description": "data/grammar/gXX.json 的结构。九段讲解缺一不可（sections 下九个键全部必填），另配记忆卡 SVG、64 题练习、6-8 题侦探关。全部内容必须 100% 原创，禁止收录《新概念英语》/剑桥官方/教辅出版物的任何原文。",
+  "type": "object",
+  "required": ["id", "tier", "title", "metaphor", "ketRelevance", "sections", "memoryCard", "practice", "detective"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^G[0-9]{2}$" },
+    "tier": { "enum": ["基石", "骨架", "进阶", "精修"] },
+    "title": { "type": "string" },
+    "metaphor": { "type": "string", "description": "乐团比喻锚点一句话，与 index.json 保持一致" },
+    "ketRelevance": { "type": "integer", "minimum": 0, "maximum": 3 },
+    "ketLessonMap": { "type": ["array", "null"], "items": { "type": "string", "pattern": "^L[1-8]$" } },
+    "ketNote": { "type": "string", "description": "「KET 考不考 / 在哪考 / 值多少分」标签文案（P2 单元 X 用）" },
+    "source": { "type": "string", "description": "素材来源。原创写 \"original\"；改编写 \"adapted: <底本名称与出处>\"（仅限 1929 年前出版英文文学 / 美国联邦政府作品）" },
+    "sections": {
+      "type": "object",
+      "description": "九段讲解，缺一不可",
+      "required": ["essence", "why", "metaphorStory", "rules", "redBlack", "contrast", "quickJudge", "parentScript", "echo"],
+      "properties": {
+        "essence": { "type": "string", "maxLength": 40, "description": "① 一句话本质，≤40 字" },
+        "why": { "type": "string", "description": "② 为什么英语要这样：与中文对比讲底层逻辑，不是背规则，150-250 字" },
+        "metaphorStory": { "type": "string", "description": "③ 乐团比喻锚点展开，200-300 字，可写成小故事" },
+        "rules": {
+          "type": "object",
+          "description": "④ 规则卡 + 例句梯",
+          "required": ["cards", "ladder"],
+          "properties": {
+            "cards": {
+              "type": "array",
+              "description": "规则表",
+              "items": {
+                "type": "object",
+                "required": ["rule", "detail"],
+                "properties": {
+                  "rule": { "type": "string" },
+                  "detail": { "type": "string" },
+                  "example": { "type": "string" }
+                }
+              }
+            },
+            "ladder": {
+              "type": "object",
+              "description": "三档难度例句，每档 4-6 句，全部原创",
+              "required": ["basic", "mid", "trap"],
+              "properties": {
+                "basic": { "type": "array", "minItems": 4, "maxItems": 6, "items": { "$ref": "#/definitions/sentence" } },
+                "mid":   { "type": "array", "minItems": 4, "maxItems": 6, "items": { "$ref": "#/definitions/sentence" } },
+                "trap":  { "type": "array", "minItems": 4, "maxItems": 6, "items": { "$ref": "#/definitions/sentence" } }
+              }
+            }
+          }
+        },
+        "redBlack": {
+          "type": "array",
+          "description": "⑤ 红黑榜 ❌→✅，8-12 组，三色分区",
+          "minItems": 8,
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "required": ["bad", "good", "zone", "why"],
+            "properties": {
+              "bad": { "type": "string", "description": "错句" },
+              "good": { "type": "string", "description": "改对后的句子" },
+              "zone": { "enum": ["blocks", "tested", "minor"], "description": "blocks=会挡住意思（红）/ tested=不挡但 KET 要考（黄）/ minor=不挡也不考（灰）" },
+              "why": { "type": "string", "description": "一句话说清病在哪" }
+            }
+          }
+        },
+        "contrast": {
+          "type": "array",
+          "description": "⑥ 中英对照差异表",
+          "items": {
+            "type": "object",
+            "required": ["cn", "en", "diff"],
+            "properties": {
+              "cn": { "type": "string", "description": "中文怎么说" },
+              "en": { "type": "string", "description": "英文怎么说" },
+              "diff": { "type": "string", "description": "差在哪" }
+            }
+          }
+        },
+        "quickJudge": {
+          "type": "object",
+          "description": "⑦ 5 秒判断法：考场上能用的判断步骤",
+          "required": ["mnemonic", "steps"],
+          "properties": {
+            "mnemonic": { "type": "string", "description": "口诀" },
+            "steps": { "type": "array", "items": { "type": "string" }, "description": "流程步骤，按顺序" }
+          }
+        },
+        "parentScript": {
+          "type": "object",
+          "description": "⑧ 家长话术：不懂英语的家长照着念就能带",
+          "required": ["script", "questions"],
+          "properties": {
+            "script": { "type": "string" },
+            "questions": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "string" }, "description": "3 个提问句" }
+          }
+        },
+        "echo": { "type": "string", "description": "⑨ 暗线回响：词源 / 语言演变 / 越常用越不规则，每课至少一条" }
+      }
+    },
+    "memoryCard": {
+      "type": "object",
+      "description": "记忆卡：纯 SVG 单图，含核心规则 + 比喻图示，可截图，深浅色都清晰",
+      "required": ["svg"],
+      "properties": {
+        "svg": { "type": "string", "description": "完整 <svg>...</svg> 字符串，不引用外部资源" },
+        "alt": { "type": "string" }
+      }
+    },
+    "practice": {
+      "type": "object",
+      "description": "练习 4 环节 × 16 题 = 64 题，难度递进，接现有闯关引擎与 utils/shuffle.js",
+      "required": ["stages"],
+      "properties": {
+        "stages": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": ["name", "questions"],
+            "properties": {
+              "name": { "type": "string", "description": "环节名，如 认一认 / 选一选 / 改一改 / 用一用" },
+              "questions": { "type": "array", "minItems": 16, "maxItems": 16, "items": { "$ref": "#/definitions/question" } }
+            }
+          }
+        }
+      }
+    },
+    "detective": {
+      "type": "array",
+      "description": "侦探关：6-8 个含错句子，找病并改正",
+      "minItems": 6,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["sentence", "fixed", "clue"],
+        "properties": {
+          "sentence": { "type": "string", "description": "含错原句" },
+          "fixed": { "type": "string", "description": "改正后" },
+          "clue": { "type": "string", "description": "「病在哪」一句话解释" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "sentence": {
+      "type": "object",
+      "required": ["en", "cn"],
+      "properties": {
+        "en": { "type": "string" },
+        "cn": { "type": "string" },
+        "note": { "type": "string", "description": "易错档必填：这句的坑在哪" }
+      }
+    },
+    "question": {
+      "type": "object",
+      "description": "题目。选项洗牌由 utils/shuffle.js 的 presentQuestion 处理，answer 会同步重算，因此 answer 存的是选项下标。",
+      "required": ["q", "options", "answer"],
+      "properties": {
+        "q": { "type": "string", "description": "题干" },
+        "options": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+        "answer": { "type": "integer", "minimum": 0, "description": "正确选项下标" },
+        "explain": { "type": "string", "description": "解析，答错时展示" },
+        "level": { "type": "integer", "minimum": 1, "maximum": 4, "description": "难度 1-4，用于错题加权" }
+      }
+    }
+  }
+}
