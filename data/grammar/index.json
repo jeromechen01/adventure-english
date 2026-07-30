@@ -284,6 +284,17 @@
       "file": "./data/grammar/g25.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G26",
+      "tier": "骨架",
+      "title": "现在完成时（KET 限定七搭配）",
+      "metaphor": "延音线：从过去一直拉到现在还在响",
+      "ketRelevance": 2,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g26.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
