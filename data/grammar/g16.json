@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G16（V0.9 P2a 骨架层）。比喻锚点：已排好的曲目单 vs 临时起意——be going to 是提前排好的曲目单，will 是安可时的临时加演。暗线侧写：will 与 going to 的语法化（常用词被磨虚磨短，gonna）。全部内容原创。",
+  "id": "G16",
+  "tier": "骨架",
+  "title": "一般将来时 will / be going to",
+  "metaphor": "已排好的曲目单 vs 临时起意",
+  "ketRelevance": 2,
+  "ketLessonMap": null,
+  "ketNote": "KET Part 5 和听力里 will / be going to 都常出现；写作里约朋友、订计划（Part 6 小便条）几乎必用。",
+  "source": "original",
+  "sections": {
+    "essence": "将来的两种预告：排好的曲目单用 be going to，临时起意用 will。",
+    "why": "中文说将来，动词照旧不动，前面摆个「要／会／打算」就行：「我明天要去」「我会帮你」。英语的将来也不给动词变形——它派了两位「报幕员」站在动词前面：will 和 be going to，后面的动词永远是原形。麻烦在于两位报幕员分工不同：be going to 报的是早就定好的安排和眼看要发生的事；will 报的是话说到一半当场做的决定、凭感觉的预测和许下的承诺。中文的「要」和「会」不做这种区分，所以中国孩子常常两个混着用。混用大多不算大错，但 KET 听力和 Part 5 恰恰爱考「哪个报幕员该上场」——先弄清分工，答题就是送分。",
+    "metaphorStory": "银帆乐团的音乐会有两种「预告」。第一种贴在门口：曲目单提前一周排好，白纸黑字——We are going to play three songs this Friday. 谁看了都知道，这是计划好的事，不是心血来潮。演出当晚还有第二种预告：三首演完，观众掌声不停，喊着安可。指挥回头冲团员一笑，当场拍板——All right, we'll play one more! 这句 will 是三秒钟前才做的决定，曲目单上可没有它。还有一幕：大提琴手抱着琴走到台中央，灯光打下来——不用看单子你也知道，He is going to play a solo，眼前的迹象已经写明白了；而你小声跟同桌说「我猜这首会特别好听」——I think it will be beautiful——那是凭感觉的预测。记住这个夜晚：单子上的、有迹象的，交给 be going to；当场决定的、凭感觉猜的、拍胸脯承诺的，交给 will。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "两位报幕员，动词都用原形",
+          "detail": "will + 动词原形；am/is/are going to + 动词原形——动词自己不变形，报时的活儿全交给前面。",
+          "example": "I will help. / She is going to sing."
+        },
+        {
+          "rule": "be going to：排好的曲目单",
+          "detail": "事先定好的计划、打算，说话前就决定了。be 要跟主语对上号（am/is/are）。",
+          "example": "We are going to visit Grandma next week.（早订好的）"
+        },
+        {
+          "rule": "be going to 还管「有迹象的预测」",
+          "detail": "乌云压顶、琴手上台——眼前的迹象已经写明结果时，用 be going to。",
+          "example": "Look at those clouds — it's going to rain."
+        },
+        {
+          "rule": "will：临时起意、预测与承诺",
+          "detail": "话说到一半当场决定（I'll open the door!）、凭感觉预测（I think it will...）、许诺（I'll always help you）。",
+          "example": "The bag is heavy? I'll carry it for you."
+        },
+        {
+          "rule": "否定与提问",
+          "detail": "will not 缩写成 won't（注意拼写不是 willn't）；提问把 will 或 be 举到主语前。",
+          "example": "I won't be late. / Will you come? / Is he going to play?"
+        },
+        {
+          "rule": "将来的时间信号",
+          "detail": "tomorrow / next week / soon / in ten minutes / this weekend——看到它们，给动词请一位报幕员。",
+          "example": "The concert will start in ten minutes."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I will call you tonight.", "cn": "今晚我会给你打电话。（will + 原形）" },
+          { "en": "We are going to have a picnic on Saturday.", "cn": "我们周六要去野餐。（早计划好的）" },
+          { "en": "She will be ten years old next month.", "cn": "她下个月就满十岁了。" },
+          { "en": "They are going to watch a film after dinner.", "cn": "他们打算晚饭后看场电影。" },
+          { "en": "It will be sunny tomorrow.", "cn": "明天会是晴天。（预测）" }
+        ],
+        "mid": [
+          { "en": "Look at the dark sky — it is going to snow.", "cn": "看这天色——要下雪了。（有迹象的预测）" },
+          { "en": "— The phone is ringing. — I'll get it!", "cn": "——电话响了。——我去接！（当场决定用 will）" },
+          { "en": "My cousin is going to learn the drums this term.", "cn": "我表弟这学期打算学架子鼓。（打算）" },
+          { "en": "Don't worry. I won't tell anyone.", "cn": "别担心，我不会告诉任何人。（承诺，won't）" },
+          { "en": "Will you join our band next year?", "cn": "你明年加入我们乐队吗？（will 举手提问）" }
+        ],
+        "trap": [
+          { "en": "He will visit the museum tomorrow.", "cn": "他明天会去参观博物馆。", "note": "will 后面永远原形——不是 will visits，三单的 s 别跟过来。" },
+          { "en": "I am going to practise the piano at five.", "cn": "我打算五点练琴。", "note": "be going to 里的 be 要跟主语配套——I am，不是 I going to。" },
+          { "en": "We won't be late for the show.", "cn": "我们看演出不会迟到的。", "note": "will not 的缩写是 won't，不是 willn't。" },
+          { "en": "— We have no juice. — OK, I'll buy some on my way home.", "cn": "——没果汁了。——好，我回家路上买点。", "note": "听到消息「当场决定」→ will；这里用 am going to 就不对味了。" },
+          { "en": "She is going to be a music teacher one day.", "cn": "她将来想当音乐老师。", "note": "「将来要当」是长期打算——be going to be，两个 be 各干各的活。" },
+          { "en": "The train leaves at six, so we will meet at half past five.", "cn": "火车六点开，所以我们五点半碰头。", "note": "时刻表本身用一般现在（leaves）；「我们碰头」的约定才请报幕员。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "I go to Beijing next week.（想说下周要去）",
+        "good": "I am going to Beijing next week.",
+        "zone": "blocks",
+        "why": "没有任何将来标记，听的人以为你说「我常去北京」——计划这件事传达不出去。"
+      },
+      {
+        "bad": "Don't worry, I help you.（想说我会帮你）",
+        "good": "Don't worry, I will help you.",
+        "zone": "blocks",
+        "why": "少了 will，承诺变成了干巴巴的「我帮你」陈述——安慰的力度全没了。"
+      },
+      {
+        "bad": "He will goes to the concert with us.",
+        "good": "He will go to the concert with us.",
+        "zone": "tested",
+        "why": "will 后面永远接原形——三单的 s 不许跟上台。"
+      },
+      {
+        "bad": "I going to clean my room this afternoon.",
+        "good": "I am going to clean my room this afternoon.",
+        "zone": "tested",
+        "why": "going to 前面丢了 be——am/is/are 是这套装备的一半。"
+      },
+      {
+        "bad": "She is going to sings at the party.",
+        "good": "She is going to sing at the party.",
+        "zone": "tested",
+        "why": "going to 后面也是原形——sings 的 s 多余。"
+      },
+      {
+        "bad": "They is going to plant trees tomorrow.",
+        "good": "They are going to plant trees tomorrow.",
+        "zone": "tested",
+        "why": "they 配 are——be 要跟主语对上号。"
+      },
+      {
+        "bad": "I willn't eat too much ice cream.",
+        "good": "I won't eat too much ice cream.",
+        "zone": "tested",
+        "why": "will not 的缩写是 won't——willn't 是不存在的拼法。"
+      },
+      {
+        "bad": "Will you going to the park with me?",
+        "good": "Are you going to the park with me? / Will you go to the park with me?",
+        "zone": "tested",
+        "why": "will 和 be going to 是两位报幕员，不能挤在同一句里报幕。"
+      },
+      {
+        "bad": "Look at those clouds! It will rain right now!",
+        "good": "Look at those clouds! It's going to rain!",
+        "zone": "tested",
+        "why": "乌云是眼前的迹象——有迹象的预测该 be going to 上场。"
+      },
+      {
+        "bad": "We will to watch the fireworks tonight.",
+        "good": "We will watch the fireworks tonight.",
+        "zone": "tested",
+        "why": "will 后面直接接原形，不要 to——它不是 want to 那一家的。"
+      },
+      {
+        "bad": "I am going to go to the shop.（有人说啰嗦）",
+        "good": "I am going to the shop. / I am going to go there. 都行。",
+        "zone": "minor",
+        "why": "going to go 语法没错只是拗口，口语常省成 going to + 地点——意思不挡，考试不设这个坑。"
+      },
+      {
+        "bad": "Tomorrow I gonna play basketball.（作文里）",
+        "good": "Tomorrow I am going to play basketball.",
+        "zone": "minor",
+        "why": "gonna 是口语缩读，聊天没问题；作文里写全 be going to 更稳，而且 gonna 前面也不能丢 be。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我明天要去外婆家。（「要」+动词，动词不变）",
+        "en": "I am going to visit Grandma tomorrow.",
+        "diff": "中文一个「要」全包；英语从「计划」角度选 be going to，还得让 be 跟主语配套。"
+      },
+      {
+        "cn": "我会帮你的。（「会」表承诺）",
+        "en": "I will help you.",
+        "diff": "中文「会」也表承诺；英语的承诺、当场决定归 will 管，不归 be going to。"
+      },
+      {
+        "cn": "要下雨了。（一个「要」看不出凭什么）",
+        "en": "It's going to rain.（指着乌云说）/ I think it will rain.（凭感觉猜）",
+        "diff": "中文不区分「有迹象」和「凭感觉」；英语靠选哪位报幕员把依据也说了出去。"
+      },
+      {
+        "cn": "他明天会来吗？（加「吗」就是问句）",
+        "en": "Will he come tomorrow?（will 举到最前面）",
+        "diff": "中文问将来靠语气词；英语把 will 举到主语前面提问。"
+      },
+      {
+        "cn": "火车六点开。（将来的事照说）",
+        "en": "The train leaves at six.（时刻表用一般现在）",
+        "diff": "英语给时刻表开了特例：板上钉钉的时间表连报幕员都不用请。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先问定没定：早定了 going to，现定的 will；有迹象 going to，凭感觉 will。",
+      "steps": [
+        "看到 tomorrow / next... / soon → 这句要请将来报幕员。",
+        "问：这事是说话前就定好的计划吗？是 → be going to（be 跟主语配套）。",
+        "问：是眼前迹象写明要发生？（乌云、琴手上台）是 → be going to。",
+        "问：是话到嘴边当场决定、凭感觉预测、或者承诺？是 → will。",
+        "无论谁上场，后面的动词一律原形——三单 s 和 to 都不许跟上台。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语说将来的事有两个说法：早就计划好的用 be going to，比如周六的野餐；话说到一半临时决定的用 will，比如我现在说『我去开门』。咱们玩『曲目单和安可』：你先用英语说三件这周计划好的事，都用 going to 开头；然后我们演一场戏——我说『垃圾满了』『下雨了』『我口渴了』，你当场决定做点什么，用 I'll 开头回答我。我不懂英语没关系，我只听开头是 going to 还是 I'll。」听到她说 I going to（丢了 am）或 will goes（动词带了 s），就提醒一句「报幕员后面站原形」。",
+      "questions": [
+        "周六野餐是早定好的计划，该用 will 还是 be going to？",
+        "「电话响了，我去接！」这种当场决定用哪个词开头？",
+        "will 和 going to 后面的动词要不要加 s？为什么？"
+      ]
+    },
+    "echo": "will 在古英语里是个实打实的动词 willan，意思是「想要」——「我想要去」说得多了，「想要」的味道被磨掉，只剩下「将要」这个空壳。be going to 更有意思：它本来真的是「正走去做某事」——I am going to the market to buy eggs，走着走着，「走」的脚步声也被磨没了，只剩「打算」；口语里连 going to 都嫌长，磨成了 gonna。语言学家管这叫「语法化」：实词被高频使用磨成语法零件。你又见到那条暗线的侧影了——越常用的词，越是被磨得面目全非。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G16 · 一般将来时</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>已排好的曲目单 vs 临时起意</text><rect x='36' y='110' width='314' height='190' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='146' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>📋 be going to</text><text x='193' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>排好的曲目单：</text><text x='193' y='200' text-anchor='middle' font-size='14' fill='#8A7568'>① 事先定好的计划打算</text><text x='193' y='224' text-anchor='middle' font-size='14' fill='#8A7568'>② 有迹象的预测（乌云压顶）</text><text x='193' y='252' text-anchor='middle' font-size='14' fill='#5A4A42'>We are going to play</text><text x='193' y='274' text-anchor='middle' font-size='14' fill='#5A4A42'>three songs this Friday.</text><rect x='370' y='110' width='314' height='190' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='527' y='146' text-anchor='middle' font-size='19' font-weight='bold' fill='#0284C7'>✨ will</text><text x='527' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>安可时的临时起意：</text><text x='527' y='200' text-anchor='middle' font-size='14' fill='#8A7568'>① 当场决定 ② 凭感觉预测</text><text x='527' y='224' text-anchor='middle' font-size='14' fill='#8A7568'>③ 拍胸脯的承诺</text><text x='527' y='252' text-anchor='middle' font-size='14' fill='#5A4A42'>All right, we'll play</text><text x='527' y='274' text-anchor='middle' font-size='14' fill='#5A4A42'>one more!</text><rect x='36' y='320' width='648' height='84' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='352' text-anchor='middle' font-size='16' fill='#B7791F'>🎯 两位报幕员后面都站【动词原形】：will go · is going to sing</text><text x='360' y='382' text-anchor='middle' font-size='15' fill='#B7791F'>否定：won't（不是 willn't）｜ 提问：Will you...? / Are you going to...?</text><rect x='36' y='424' width='648' height='72' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='454' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ will goes ✗ · I going to ✗ · will to go ✗ · Will you going ✗</text><text x='360' y='482' text-anchor='middle' font-size='14' fill='#C0392B'>be 要跟主语配套：I am / she is / they are going to</text><text x='360' y='530' text-anchor='middle' font-size='15' fill='#7DA7C4'>信号词：tomorrow · next week · soon · in ten minutes</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线：will 本义「想要」，磨成了将来空壳 · 英语奇遇记 🦊 G16</text></svg>",
+    "alt": "G16 记忆卡：be going to=排好的曲目单（计划+有迹象预测），will=临时起意（当场决定+凭感觉预测+承诺）；两者后面动词都用原形；否定 won't；警示 will goes、I going to、will to go、Will you going 四类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 两种预告",
+        "questions": [
+          { "q": "早就计划好的事，用哪位报幕员？", "options": ["be going to", "will", "did"], "answer": 0, "explain": "排好的曲目单——be going to。", "level": 1 },
+          { "q": "话说到一半当场做的决定，用哪个？", "options": ["will", "be going to", "was"], "answer": 0, "explain": "临时起意——will。", "level": 1 },
+          { "q": "will 后面的动词用什么形式？", "options": ["原形", "加 -s", "加 -ed"], "answer": 0, "explain": "报幕员后面永远站原形。", "level": 1 },
+          { "q": "be going to 后面的动词用什么形式？", "options": ["原形", "加 -ing", "加 -s"], "answer": 0, "explain": "going to 后面也是原形。", "level": 1 },
+          { "q": "will not 的缩写是？", "options": ["won't", "willn't", "wo'nt"], "answer": 0, "explain": "特殊拼法 won't，要单独记。", "level": 1 },
+          { "q": "I ___ going to water the flowers.", "options": ["am", "is", "be"], "answer": 0, "explain": "I 配 am——be 跟主语配套。", "level": 1 },
+          { "q": "She ___ going to learn the flute.", "options": ["is", "am", "are"], "answer": 0, "explain": "she 配 is。", "level": 1 },
+          { "q": "They ___ going to visit the zoo.", "options": ["are", "is", "am"], "answer": 0, "explain": "they 配 are。", "level": 1 },
+          { "q": "tomorrow 是哪个时间的信号词？", "options": ["将来", "过去", "现在正在"], "answer": 0, "explain": "明天——请将来报幕员。", "level": 1 },
+          { "q": "下面哪个是将来的信号词？", "options": ["next week", "yesterday", "last night"], "answer": 0, "explain": "next week＝下周，将来。", "level": 1 },
+          { "q": "看见乌云说「要下雨了」，属于哪种预告？", "options": ["有迹象的预测 → be going to", "当场决定 → will", "过去的事"], "answer": 0, "explain": "迹象摆在眼前——It's going to rain。", "level": 1 },
+          { "q": "「我永远支持你」这种承诺用哪个？", "options": ["will", "be going to", "did"], "answer": 0, "explain": "承诺归 will 管。", "level": 1 },
+          { "q": "下面哪句是「临时起意」？", "options": ["The phone is ringing — I'll get it!", "We are going to fly to Sanya next month.", "I visited the museum yesterday."], "answer": 0, "explain": "听到铃声当场决定——will。", "level": 1 },
+          { "q": "下面哪句是「排好的曲目单」？", "options": ["We are going to have a class party on Friday.", "OK, I'll open the window now.", "She sang a song just now."], "answer": 0, "explain": "周五的班级聚会早定好了——be going to。", "level": 1 },
+          { "q": "will 提问时站在哪里？", "options": ["主语前面", "句子末尾", "动词后面"], "answer": 0, "explain": "Will you come?——举到主语前。", "level": 1 },
+          { "q": "He will ___ the guitar at the show.", "options": ["play", "plays", "played"], "answer": 0, "explain": "will 后面站原形 play。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 排单还是加演",
+        "questions": [
+          { "q": "— The box is too heavy for Grandma. — I ___ carry it for her!", "options": ["will", "am going to", "was"], "answer": 0, "explain": "看到情况当场决定帮忙——will。", "level": 2 },
+          { "q": "We ___ camp by the lake next weekend. Everything is packed!", "options": ["are going to", "will suddenly", "were going to"], "answer": 0, "explain": "行李都收好了——早定的计划用 are going to。", "level": 2 },
+          { "q": "Look at the dark clouds! It ___ rain soon.", "options": ["is going to", "will maybe", "won't"], "answer": 0, "explain": "乌云是迹象——is going to。", "level": 2 },
+          { "q": "I think our team ___ win the game tomorrow.", "options": ["will", "is going to buy", "did"], "answer": 0, "explain": "I think + 凭感觉预测——will。", "level": 2 },
+          { "q": "— We need some bread. — OK, I ___ some at the corner shop.", "options": ["will buy", "am going to buys", "bought"], "answer": 0, "explain": "听到消息当场决定——I'll buy。", "level": 2 },
+          { "q": "My aunt ___ a baby next month.", "options": ["is going to have", "will has", "has going to"], "answer": 0, "explain": "下个月的事早已注定——is going to have。", "level": 2 },
+          { "q": "Don't tell anyone — I ___ keep your secret.", "options": ["will", "am going to keeps", "was"], "answer": 0, "explain": "承诺——will keep。", "level": 2 },
+          { "q": "___ you going to join the art club this term?", "options": ["Are", "Will", "Do"], "answer": 0, "explain": "be going to 提问由 be 举手——Are you going to...?", "level": 2 },
+          { "q": "___ your brother come to the show tonight?", "options": ["Will", "Are", "Is going"], "answer": 0, "explain": "will 提问——Will + 主语 + 原形。", "level": 2 },
+          { "q": "Hurry! The bus ___ leave — the door is closing!", "options": ["is going to", "will decide to", "was going to"], "answer": 0, "explain": "车门正关是眼前迹象——is going to leave。", "level": 2 },
+          { "q": "I promise I ___ be late again.", "options": ["won't", "willn't", "am not"], "answer": 0, "explain": "承诺的否定——won't。", "level": 2 },
+          { "q": "She ___ ten next Sunday, so we're planning a party.", "options": ["will be", "will is", "is going to is"], "answer": 0, "explain": "will + be 原形——will be ten。", "level": 2 },
+          { "q": "What ___ you going to do this weekend?", "options": ["are", "will", "do"], "answer": 0, "explain": "going to 的特殊疑问句仍由 are 举手。", "level": 2 },
+          { "q": "It's cold in here. I ___ close the window.", "options": ["will", "am going to always", "did"], "answer": 0, "explain": "感到冷当场决定——I'll close。", "level": 2 },
+          { "q": "We ___ move to a new flat in September. Dad signed the papers.", "options": ["are going to", "will quickly", "were"], "answer": 0, "explain": "合同都签了——铁定的计划用 are going to。", "level": 2 },
+          { "q": "Maybe robots ___ cook dinner for us one day.", "options": ["will", "are going to right now", "did"], "answer": 0, "explain": "对遥远将来的猜想——will。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 预告纠错",
+        "questions": [
+          { "q": "哪句的报幕员后面站对了？", "options": ["He will visit his uncle tomorrow.", "He will visits his uncle tomorrow.", "He will visited his uncle tomorrow."], "answer": 0, "explain": "will 后面站原形——visit。", "level": 3 },
+          { "q": "哪句的 be 没丢？", "options": ["I am going to wash the dishes.", "I going to wash the dishes.", "I be going to wash the dishes."], "answer": 0, "explain": "be going to 的 be 要现身且配套——I am。", "level": 3 },
+          { "q": "哪句的 going to 后面干净利落？", "options": ["She is going to dance at the party.", "She is going to dances at the party.", "She is going to danced at the party."], "answer": 0, "explain": "going to + 原形 dance。", "level": 3 },
+          { "q": "哪句的否定写对了？", "options": ["We won't forget your birthday.", "We willn't forget your birthday.", "We will forget not your birthday."], "answer": 0, "explain": "will not → won't。", "level": 3 },
+          { "q": "哪句没把两位报幕员挤上同一个台？", "options": ["Are you going to buy that hat?", "Will you going to buy that hat?", "Do you going to buy that hat?"], "answer": 0, "explain": "will 和 be going to 只能请一位。", "level": 3 },
+          { "q": "哪句的 to 没多长出来？", "options": ["They will plant trees on the hill.", "They will to plant trees on the hill.", "They will planting trees on the hill."], "answer": 0, "explain": "will 直接接原形，不带 to。", "level": 3 },
+          { "q": "哪句的 be 跟主语配对了？", "options": ["My parents are going to cook noodles tonight.", "My parents is going to cook noodles tonight.", "My parents am going to cook noodles tonight."], "answer": 0, "explain": "parents 复数 → are。", "level": 3 },
+          { "q": "哪句给「乌云压顶」选对了报幕员？", "options": ["Look at the sky — it's going to storm!", "Look at the sky — it will storm right now!", "Look at the sky — it storms tomorrow!"], "answer": 0, "explain": "眼前迹象——be going to。", "level": 3 },
+          { "q": "哪句给「当场决定」选对了报幕员？", "options": ["— Someone's knocking. — I'll open the door.", "— Someone's knocking. — I'm going to open the door since last week.", "— Someone's knocking. — I opened the door tomorrow."], "answer": 0, "explain": "敲门声响起才决定——I'll。", "level": 3 },
+          { "q": "哪句写对了？（下周二我们要考数学——早通知过）", "options": ["We are going to have a maths test next Tuesday.", "We will suddenly have a maths test next Tuesday.", "We are going to had a maths test next Tuesday."], "answer": 0, "explain": "早就通知的安排——are going to have。", "level": 3 },
+          { "q": "哪句写对了？（我保证不再乱扔袜子）", "options": ["I promise I won't throw my socks around again.", "I promise I don't will throw my socks around.", "I promise I willn't throw my socks around."], "answer": 0, "explain": "承诺的否定 won't，位置在主语后。", "level": 3 },
+          { "q": "哪句写对了？（你觉得明天会晴吗）", "options": ["Do you think it will be sunny tomorrow?", "Do you think it will is sunny tomorrow?", "Do you think it going to sunny tomorrow?"], "answer": 0, "explain": "will + be 原形——will be sunny。", "level": 3 },
+          { "q": "哪句写对了？（她打算当兽医）", "options": ["She is going to be a vet.", "She is going to is a vet.", "She will be going to a vet."], "answer": 0, "explain": "going to + be 原形——两个 be 各干各的活。", "level": 3 },
+          { "q": "哪句写对了？（我们十分钟后出发）", "options": ["We will leave in ten minutes.", "We will leave ten minutes ago.", "We left in ten minutes."], "answer": 0, "explain": "in ten minutes＝十分钟后，将来——will leave。", "level": 3 },
+          { "q": "哪句写对了？（他不打算卖那把旧吉他）", "options": ["He isn't going to sell his old guitar.", "He doesn't going to sell his old guitar.", "He isn't go to sell his old guitar."], "answer": 0, "explain": "be going to 的否定在 be 上加 not——isn't going to。", "level": 3 },
+          { "q": "哪句写对了？（灯要灭了——你看它在闪）", "options": ["The light is going to go out — it's flashing!", "The light will go out on purpose — it's flashing!", "The light went out tomorrow — it's flashing!"], "answer": 0, "explain": "灯在闪是迹象——is going to go out。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 安可现场",
+        "questions": [
+          { "q": "— Why are you carrying a bucket? — I ___ the car with Dad.（早约好的）", "options": ["am going to wash", "will wash suddenly", "washed"], "answer": 0, "explain": "拎着桶＝计划早定好——am going to wash。", "level": 4 },
+          { "q": "— Oh no, I left my pen at home! — Don't worry, I ___ you mine.", "options": ["will lend", "am going to lends", "lent"], "answer": 0, "explain": "听到消息当场决定——I'll lend。", "level": 4 },
+          { "q": "The sky is black and the wind is strong. There ___ a storm.", "options": ["is going to be", "will be on purpose", "was"], "answer": 0, "explain": "天色是迹象——is going to be a storm。", "level": 4 },
+          { "q": "I believe you ___ a great drummer some day.", "options": ["will be", "are going to is", "were"], "answer": 0, "explain": "I believe + 对将来的信心——will be。", "level": 4 },
+          { "q": "— We ___ a school concert next Friday. Would you like to come? — Sure!", "options": ["are going to have", "will have just now", "had"], "answer": 0, "explain": "下周五的音乐会是排好的安排——are going to have。", "level": 4 },
+          { "q": "— The teacher is coming! — Quick, I ___ the door for her.", "options": ["will hold", "am going to held", "hold yesterday"], "answer": 0, "explain": "当场起身——I'll hold the door。", "level": 4 },
+          { "q": "— What are your plans for the holiday? — We ___ our grandparents in Xi'an.", "options": ["are going to visit", "will visit right this second", "visited"], "answer": 0, "explain": "问 plans 答计划——are going to visit。", "level": 4 },
+          { "q": "Careful! The glass is rolling to the edge — it ___!", "options": ["is going to fall", "will fall next year", "fell"], "answer": 0, "explain": "杯子已滚到桌边，迹象十足——is going to fall。", "level": 4 },
+          { "q": "— Will you come to my party? — Yes, I ___. I promise.", "options": ["will", "am", "do"], "answer": 0, "explain": "Will you...? 的简答用 will——Yes, I will。", "level": 4 },
+          { "q": "— Is she going to sing tonight? — No, she ___. She has a sore throat.", "options": ["isn't", "won't going", "doesn't"], "answer": 0, "explain": "Are/Is...going to 的简答用 be——No, she isn't。", "level": 4 },
+          { "q": "My plan is ready: first I ___ my homework, then I ___ a model plane.", "options": ["am going to finish / am going to build", "will suddenly finish / built", "finish yesterday / will build"], "answer": 0, "explain": "既然说了 plan is ready——两步都是排好的单子。", "level": 4 },
+          { "q": "— The dog looks thirsty. — You're right. I ___ it some water now.", "options": ["will give", "am going to gave", "gives"], "answer": 0, "explain": "看到情况当场决定——I'll give。", "level": 4 },
+          { "q": "The film starts at 7:30, so we ___ at the gate at 7:15, OK?", "options": ["will meet", "met", "will met"], "answer": 0, "explain": "时刻表用 starts；「我们碰头」的约定请 will——will meet。", "level": 4 },
+          { "q": "Everyone says the new bridge ___ next spring — the workers are already halfway.", "options": ["is going to open", "will open by accident", "opened"], "answer": 0, "explain": "工程过半是明摆的迹象——is going to open。", "level": 4 },
+          { "q": "— I can't reach the top shelf. — Wait, I ___ the ladder for you.", "options": ["will get", "am going to got", "get yesterday"], "answer": 0, "explain": "当场决定去搬梯子——I'll get。", "level": 4 },
+          { "q": "大考：Next Sunday we ___ a picnic. I think it ___ fun, and I promise I ___ my camera.", "options": ["are going to have / will be / won't forget", "will have suddenly / is going to is / willn't forget", "had / will be / won't forgot"], "answer": 0, "explain": "计划 are going to have；凭感觉预测 will be；承诺 won't forget——三种预告一次配齐。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "He will plays the drum at the school show.",
+      "fixed": "He will play the drum at the school show.",
+      "clue": "will 后面永远站原形——三单的 s 不许跟上台。"
+    },
+    {
+      "sentence": "I going to visit the science museum tomorrow.",
+      "fixed": "I am going to visit the science museum tomorrow.",
+      "clue": "going to 前面丢了 be——I am going to。"
+    },
+    {
+      "sentence": "She is going to buys new shoes this weekend.",
+      "fixed": "She is going to buy new shoes this weekend.",
+      "clue": "going to 后面也是原形——buys 的 s 多余。"
+    },
+    {
+      "sentence": "We willn't be late for the morning bus.",
+      "fixed": "We won't be late for the morning bus.",
+      "clue": "will not 的缩写是 won't——willn't 是不存在的拼法。"
+    },
+    {
+      "sentence": "Will you going to watch the dragon boat race?",
+      "fixed": "Are you going to watch the dragon boat race? / Will you watch the dragon boat race?",
+      "clue": "will 和 be going to 两位报幕员挤上了同一个台——只能留一位。"
+    },
+    {
+      "sentence": "Look, the baby's lips are moving — she will cry right now!",
+      "fixed": "Look, the baby's lips are moving — she is going to cry!",
+      "clue": "嘴瘪了是眼前的迹象——有迹象的预测请 be going to。"
+    },
+    {
+      "sentence": "They will to sing a new song at the party.",
+      "fixed": "They will sing a new song at the party.",
+      "clue": "will 直接接原形，不带 to——它不是 want to 那一家的。"
+    }
+  ]
+}
