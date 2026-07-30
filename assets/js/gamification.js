@@ -89,48 +89,6 @@ export function checkBadges() {
   return newBadges.map(id => BADGES.find(b => b.id === id)).filter(Boolean);
 }
 
-// === 虚拟排行榜 ===
-const VIRTUAL_PLAYERS = [
-  { name: 'Tom', coins: 0, avatar: '🐯' },
-  { name: '小明',  coins: 0, avatar: '🐶' },
-  { name: 'Lisa', coins: 0, avatar: '🐱' },
-  { name: '李雷',  coins: 0, avatar: '🦁' },
-  { name: 'Mike', coins: 0, avatar: '🐼' },
-  { name: '韩梅梅',coins: 0, avatar: '🐰' },
-  { name: 'Anna', coins: 0, avatar: '🦊' },
-  { name: '王伟',  coins: 0, avatar: '🐻' },
-  { name: 'Bob',  coins: 0, avatar: '🐵' },
-  { name: '张华',  coins: 0, avatar: '🐧' }
-];
-
-// 基于种子的伪随机，让虚拟玩家分数稳定
-function seededRandom(seed) {
-  const x = Math.sin(seed) * 10000;
-  return x - Math.floor(x);
-}
-
-export function getLeaderboard() {
-  const userCoins = getCoins();
-  const today = new Date();
-  const seed = today.getFullYear() * 365 + today.getMonth() * 31 + today.getDate();
-
-  const players = VIRTUAL_PLAYERS.map((p, idx) => ({
-    ...p,
-    coins: Math.round(seededRandom(seed + idx) * Math.max(userCoins * 1.5, 800)),
-    isUser: false
-  }));
-
-  players.push({
-    name: '我',
-    coins: userCoins,
-    avatar: '🦊',
-    isUser: true
-  });
-
-  players.sort((a, b) => b.coins - a.coins);
-  return players;
-}
-
 // === 卡牌稀有度 ===
 export function rollCardRarity(difficulty = 1) {
   // 难度 1-4，难度越高 SSR 概率越高

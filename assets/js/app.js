@@ -1,6 +1,6 @@
 // app.js - 主应用入口、路由
 import * as storage from './storage.js';
-import { checkBadges, getCurrentRank, getRankProgress, getLeaderboard, BADGES } from './gamification.js';
+import { checkBadges, getCurrentRank, getRankProgress, BADGES } from './gamification.js';
 import { speak, playSound } from './speech.js';
 import { renderWordsPage } from './modules/words.js';
 import { renderLevelMap } from './modules/levels.js';
@@ -141,7 +141,6 @@ async function navigate(page, params = {}) {
     case 'home':       await renderHome(app); break;
     case 'learn':      renderLearn(app); break;
     case 'mistakes':   await renderMistakes(app); break;
-    case 'leaderboard':renderLeaderboard(app); break;
     case 'me':         renderMe(app); break;
     case 'words':      await renderWordsPage(app, params); break;
     case 'levels':     await renderLevelMap(app); break;
@@ -402,38 +401,6 @@ async function renderMistakes(app) {
       if (remaining === 0) renderMistakes(app);
     });
   });
-}
-
-// === 排行榜 ===
-function renderLeaderboard(app) {
-  const players = getLeaderboard();
-  const myRank = players.findIndex(p => p.isUser) + 1;
-
-  app.innerHTML = `
-    <h2 class="text-xl font-bold mb-1">🏆 排行榜</h2>
-    <div class="text-xs text-gray-500 mb-4">显示包括 10 个虚拟玩家在内的本地排名（每天更新）</div>
-    <div class="card-cartoon mb-4 text-center bg-gradient-to-br from-orange-100 to-yellow-50">
-      <div class="text-sm">我的排名</div>
-      <div class="text-3xl font-bold text-primary">#${myRank}</div>
-    </div>
-    <div class="space-y-2">
-      ${players.map((p, i) => `
-        <div class="card-cartoon flex items-center gap-3 ${p.isUser ? 'ring-2 ring-primary' : ''}">
-          <div class="w-8 text-center font-bold ${i < 3 ? 'text-orange-500' : 'text-gray-400'}">
-            ${['🥇','🥈','🥉'][i] || (i + 1)}
-          </div>
-          <div class="text-3xl">${p.avatar}</div>
-          <div class="flex-1">
-            <div class="font-bold ${p.isUser ? 'text-primary' : ''}">${p.name}${p.isUser ? ' (我)' : ''}</div>
-          </div>
-          <div class="text-right">
-            <div class="font-bold">${p.coins}</div>
-            <div class="text-xs text-gray-400">🪙</div>
-          </div>
-        </div>
-      `).join('')}
-    </div>
-  `;
 }
 
 // === 我的 ===

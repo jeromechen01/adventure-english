@@ -20,7 +20,6 @@
     <button data-page="home" class="nav-btn"></button>
     <button data-page="learn" class="nav-btn"></button>
     <button data-page="mistakes" class="nav-btn"></button>
-    <button data-page="leaderboard" class="nav-btn"></button>
     <button data-page="me" class="nav-btn"></button>
   </nav>
   <div id="modalRoot"></div>
@@ -67,7 +66,7 @@
 
       // 线① 1-9 年级
       storage.setGrade(3);
-      for (const p of ['home', 'learn', 'words', 'levels', 'grammar', 'reading', 'writing', 'mistakes', 'leaderboard', 'me', 'reinforce', 'timestats']) {
+      for (const p of ['home', 'learn', 'words', 'levels', 'grammar', 'reading', 'writing', 'mistakes', 'me', 'reinforce', 'timestats']) {
         await visit('grade3', p);
       }
       // P1a 语法大厅：大厅列表 + G01 课内页；P1b 起基石层全开，再抽 G12 验一课；P2a 起骨架层开工，加 G13
