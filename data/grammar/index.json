@@ -163,6 +163,17 @@
       "file": "./data/grammar/g14.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G15",
+      "tier": "骨架",
+      "title": "叙事时态一致",
+      "metaphor": "别在半路转调（G大调拉一半转降E）",
+      "ketRelevance": 3,
+      "ketLessonMap": ["L4"],
+      "file": "./data/grammar/g15.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
