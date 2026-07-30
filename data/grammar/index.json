@@ -1,8 +1,8 @@
 {
   "$comment": "语法大厅索引（V0.9）。只存元信息，不存正文与题目；正文在同目录 gXX.json，按需懒加载。字段定义见 _schema.index.json。与本目录下 kindergarten/primary/junior.json（1-9 年级语法学院）互不影响。",
   "type": "grammar-hall",
-  "version": "0.9.15",
-  "updated": "2026-07-30",
+  "version": "0.9.2",
+  "updated": "2026-07-31",
   "tiers": [
     { "key": "foundation", "name": "基石", "range": "G01-G12", "stage": "小学1-4年级", "cefr": "前A1-A1", "color": "#FF8A4C" },
     { "key": "skeleton",   "name": "骨架", "range": "G13-G26", "stage": "小学5-6年级", "cefr": "A1-A2",   "color": "#38BDF8" },
