@@ -97,6 +97,17 @@
       "file": "./data/grammar/g08.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G09",
+      "tier": "基石",
+      "title": "数词：基数与序数",
+      "metaphor": "第几声部、第几小节",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g09.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
