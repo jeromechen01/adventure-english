@@ -251,6 +251,17 @@
       "file": "./data/grammar/g22.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G23",
+      "tier": "骨架",
+      "title": "感叹句 What / How",
+      "metaphor": "全体强奏",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g23.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
