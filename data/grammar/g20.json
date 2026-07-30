@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G20（V0.9 P2a 骨架层）。比喻锚点：连奏线。与 KET 八课 L7 共用说法（L7 原文：KET 考纲连接词只有 7 个：and, but, or / when, where, because, if。像连奏线把两个音连成一句，让句子不再一个个蹦；前三个并排连，后四个挂一句；连接词直接抬高写作 Organisation 维度分），L7 零改动。全部内容原创。",
+  "id": "G20",
+  "tier": "骨架",
+  "title": "连词七个",
+  "metaphor": "连奏线",
+  "ketRelevance": 3,
+  "ketLessonMap": ["L7"],
+  "ketNote": "连接词是一举两得的考点：Part 5 直接考选词，写作里放一个 because 一个 but 就能抬高 Organisation 维度分。八课里的亲戚是 L7。",
+  "source": "original",
+  "sections": {
+    "essence": "连奏线把两个音连成一句：and but or 并排连，when where because if 挂一句。",
+    "why": "小提琴谱上两个音头顶画一道弧线，叫连奏线——弓不换向，两个音连成一口气。没有它，音符一个一个蹦，听着像打嗝。英语句子也一样：I was happy. We won. 两句都对，但蹦着说像喘不上气；一道连奏线拉过去——I was happy because we won.——气息立刻连贯了。KET 考纲的连奏线只有 7 根：and、but、or 把两句并排连起来；when、where、because、if 把一个小句挂在主句身上。中文这里反而容易多画线：「因为……所以……」成对出现，搬进英语就成了 Because...so... 的双保险病句——英语规定一句话只许用一根线，用了 because 就得放掉 so。另一个中文没有的坑：if 和 when 挂的将来小句，里面偏偏用一般现在——If it rains, we will stay at home。",
+    "metaphorStory": "银帆乐团来了位新团员，拉琴又准又稳，可老师听了一段直摇头：「你每个音都对，但每个音都是断开的——像在报数，不像在唱歌。」她在谱子上画了几道弧线：「这是连奏线。两个音连成一口气，句子才有线条。」说话写作也一样。老师让大家用英语介绍自己，小北说：I like music. It makes me happy. I practise every day.——三句全对，三个「嗝」。老师画了两道线：I like music because it makes me happy, and I practise every day.——同样的话，立刻从「蹦豆子」变成了「有线条」。她举起手：「记住，考纲里的连奏线只有七根。and 加一句，but 拐个弯，or 挑一个——这三根把两句并排连；when 挂时间，where 挂地点，because 挂原因，if 挂条件——这四根把小句挂上去。还有一条铁律：一句话只画一根线。你们中文里『因为……所以……』是一对，英语里 because 和 so 同台，就是两根弓同时拉一个音——出不了声。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "只有 7 根连奏线",
+          "detail": "KET 考纲连接词只有 7 个：and, but, or / when, where, because, if——先把这七个认熟，别的以后再说。",
+          "example": "and · but · or ｜ when · where · because · if"
+        },
+        {
+          "rule": "前三根：并排连",
+          "detail": "and 加一句、but 转折拐弯、or 二选一（否定句里的「和」也用 or）。",
+          "example": "I can sing but I can't dance. / tea or juice?"
+        },
+        {
+          "rule": "后四根：挂一句",
+          "detail": "when 挂时间、where 挂地点、because 挂原因、if 挂条件——挂句可以放前面，前置时加个逗号。",
+          "example": "When the bell rang, we ran out. / I was happy because we won."
+        },
+        {
+          "rule": "一句话只画一根线",
+          "detail": "中文「因为……所以……」成对；英语 because 和 so 只能留一个，「虽然」和 but 也一样。",
+          "example": "Because it rained, we stayed in. ✓（不再加 so）"
+        },
+        {
+          "rule": "if / when 挂将来，小句用一般现在",
+          "detail": "条件和时间小句里不放 will——主句放 will，小句用现在时。",
+          "example": "If it rains, we will stay at home. / Call me when you get home."
+        },
+        {
+          "rule": "逗号不是连奏线",
+          "detail": "两个完整句子不能只用逗号粘一起——要么用连接词，要么老实用句号分开。",
+          "example": "I like music, it makes me happy ✗ → I like music because it makes me happy ✓"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I packed my bag and left for school.", "cn": "我收好书包去上学了。（and 加一句）" },
+          { "en": "The song is short but very sweet.", "cn": "这首歌很短，但很动听。（but 拐弯）" },
+          { "en": "You can take the bus or walk with me.", "cn": "你可以坐公交，或者跟我走路。（or 挑一个）" },
+          { "en": "I wear gloves when it is cold.", "cn": "天冷的时候我戴手套。（when 挂时间）" },
+          { "en": "She smiled because she got a full mark.", "cn": "她笑了，因为得了满分。（because 挂原因）" }
+        ],
+        "mid": [
+          { "en": "If you finish early, we will play chess.", "cn": "如果你早点做完，我们就下棋。（if 挂条件，小句用现在时）" },
+          { "en": "This is the room where we practise every day.", "cn": "这就是我们每天排练的房间。（where 挂地点）" },
+          { "en": "When the lights went down, the hall became quiet.", "cn": "灯光暗下来时，大厅安静了。（挂句前置加逗号）" },
+          { "en": "I wanted to watch the match, but it was too late.", "cn": "我想看比赛，但太晚了。" },
+          { "en": "Hurry up, or we will miss the train!", "cn": "快点，否则我们要赶不上火车了！（or＝否则）" }
+        ],
+        "trap": [
+          { "en": "Because the box was heavy, I asked Dad for help.", "cn": "因为箱子重，我请爸爸帮忙。", "note": "because 放句首完全合法——但后半句不许再冒出 so。" },
+          { "en": "I don't eat peppers or onions.", "cn": "我不吃辣椒和洋葱。", "note": "否定句里的「和」用 or——两样都不吃。" },
+          { "en": "If it snows tomorrow, we will make a snowman.", "cn": "如果明天下雪，我们就堆雪人。", "note": "明天的事，if 小句里却用 snows——will 只住在主句里。" },
+          { "en": "Text me when you arrive at the station.", "cn": "到车站时给我发消息。", "note": "when 挂将来也一样——小句用 arrive，不用 will arrive。" },
+          { "en": "He was tired, but he kept practising.", "cn": "他很累，却仍坚持练习。", "note": "「却、可是」的味道要靠 but——用 and 意思就平掉了。" },
+          { "en": "I stayed at home because of the heavy rain.", "cn": "因为大雨我待在家里。", "note": "because of 后面只能挂名词（the rain）；接句子要用 because it rained。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "Would you like tea and juice?（想问：茶还是果汁选一样）",
+        "good": "Would you like tea or juice?",
+        "zone": "blocks",
+        "why": "and 是「都要」，or 才是「挑一个」——客人听成两杯都上了。"
+      },
+      {
+        "bad": "It rained because we took umbrellas.（想说：因为下雨我们带了伞）",
+        "good": "We took umbrellas because it rained.",
+        "zone": "blocks",
+        "why": "because 挂在了结果身上——「因为我们带伞所以下雨」，因果整个颠倒。"
+      },
+      {
+        "bad": "Because I was ill, so I didn't go to school.",
+        "good": "Because I was ill, I didn't go to school. / I was ill, so I didn't go.",
+        "zone": "tested",
+        "why": "一句话只画一根线——because 和 so 是中文「因为所以」的双保险，英语只能留一个。"
+      },
+      {
+        "bad": "If it will rain tomorrow, we will cancel the picnic.",
+        "good": "If it rains tomorrow, we will cancel the picnic.",
+        "zone": "tested",
+        "why": "if 小句里不放 will——will 只住在主句。"
+      },
+      {
+        "bad": "I will call you when I will get home.",
+        "good": "I will call you when I get home.",
+        "zone": "tested",
+        "why": "when 挂将来跟 if 一个规矩——小句用一般现在。"
+      },
+      {
+        "bad": "I love this song because of it is easy to sing.",
+        "good": "I love this song because it is easy to sing.",
+        "zone": "tested",
+        "why": "because of 只挂名词；后面是句子就用 because。"
+      },
+      {
+        "bad": "She is only five, and she can swim across the pool.（想说「却」）",
+        "good": "She is only five, but she can swim across the pool.",
+        "zone": "tested",
+        "why": "转折的惊讶全在 but 上——and 把「却」的味道抹平了。"
+      },
+      {
+        "bad": "I can't sing and dance.（想说两样都不会）",
+        "good": "I can't sing or dance.",
+        "zone": "tested",
+        "why": "否定句里的「和」用 or——can't sing or dance 才是两样都不会。"
+      },
+      {
+        "bad": "Put on your coat, or you catch a cold.",
+        "good": "Put on your coat, or you will catch a cold.",
+        "zone": "tested",
+        "why": "or＝否则，后果发生在将来——主句要有 will。"
+      },
+      {
+        "bad": "I was late because missed the bus.",
+        "good": "I was late because I missed the bus.",
+        "zone": "tested",
+        "why": "because 挂的是完整小句——主语不能省。"
+      },
+      {
+        "bad": "Because it was late, we went home.（有人说 because 不能开头）",
+        "good": "这句本来就对——because 挂句前置完全合法。",
+        "zone": "minor",
+        "why": "「because 不能放句首」是误传；真正的坑是后面再画一根 so。"
+      },
+      {
+        "bad": "If you come we will play chess.（没加逗号）",
+        "good": "If you come, we will play chess.",
+        "zone": "minor",
+        "why": "挂句前置加逗号更清楚——不加意思不挡，KET 不为此扣分。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "因为下雨，所以我们没去。（成对出现）",
+        "en": "Because it rained, we didn't go.（只留一根线）",
+        "diff": "中文连词爱成对；英语一句话只画一根连奏线，because 和 so 不同台。"
+      },
+      {
+        "cn": "我不吃辣椒和洋葱。（「和」照用）",
+        "en": "I don't eat peppers or onions.",
+        "diff": "中文否定句里「和」不变；英语一进否定，and 就换成 or。"
+      },
+      {
+        "cn": "如果明天下雨，我们就不去了。（「下雨」不用变）",
+        "en": "If it rains tomorrow, we won't go.（小句用现在时）",
+        "diff": "中文动词无所谓；英语把 will 关在主句里，if/when 小句用一般现在。"
+      },
+      {
+        "cn": "我喜欢音乐，它让我开心。（逗号连两句很自然）",
+        "en": "I like music because it makes me happy.（逗号不能连两句）",
+        "diff": "中文流水句用逗号串珠；英语两个完整句必须靠连接词缝合，或用句号分开。"
+      },
+      {
+        "cn": "他很累，还在练琴。（「还」轻轻带过）",
+        "en": "He was tired, but he kept practising.",
+        "diff": "中文转折可轻可重；英语的惊讶和「却」全压在 but 一个词上。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "并排 and but or，挂句 when where because if；一句一根线，if/when 小句锁住 will。",
+      "steps": [
+        "两句想连起来？先问关系：加一句 and，拐个弯 but，挑一个 or。",
+        "想交代时间、地点、原因、条件？挑 when / where / because / if 把小句挂上去。",
+        "检查线数：because 出场就放掉 so；「虽然」出场就只留 but——一句一根线。",
+        "if / when 挂将来的小句：里面用一般现在，will 留给主句。",
+        "写完扫一眼逗号：逗号连着两个完整句？补一根连奏线，或改成句号。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语句子不连起来就像打嗝：我喜欢音乐。它让我开心。——你听，多喘！英语有七根『连奏线』能把句子连成歌：and 是『还有』，but 是『可是』，or 是『还是』，because 是『因为』，if 是『如果』，when 是『什么时候』，where 是『什么地方』。咱们玩接句子：你说任何一句英语，我用中文喊一根线——我喊『可是』你就用 but 接下去，我喊『因为』你就用 because 说理由。我不懂英语没关系，我只记一条帮你把关：听到你一句话里又有 because 又有 so，我就喊『两根弓』——一句话只许一根线。」她说顺了可以反过来：她讲，你来找哪句是「蹦豆子」，让她挑根线把两句连起来。",
+      "questions": [
+        "七根连奏线是哪七个词？哪三根并排连，哪四根挂一句？",
+        "「因为……所以……」搬进英语，为什么只能留一个？",
+        "If it ___ tomorrow, we will stay in. 这里该填 rains 还是 will rain？"
+      ]
+    },
+    "echo": "because 这根线本身就是被「说」出来的：中古英语里它是两个词——bi cause，意思是「凭这个缘由」，跟法语的 par cause 一个来路。天天挂在嘴边，两个词被念成了一个，词界磨没了，才有今天的 because。口语还在继续磨：'cause、cos，越说越短。and 更古老，古英语时代就长这样，几乎没变过——但书写员嫌它太常写，把拉丁语 et 的连笔字符抄来当速记，就是今天的 &。连接词是语言里的「磨损区」：越是天天要用的小词，越被念得面目全非——你已经认得这条暗线了。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G20 · 连词七个</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>连奏线：把两个音连成一句，句子不再一个个蹦</text><rect x='36' y='110' width='314' height='158' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='144' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🤝 并排连（3 根）</text><text x='193' y='178' text-anchor='middle' font-size='15' fill='#5A4A42'>and 加一句 · but 拐弯 · or 挑一个</text><text x='193' y='206' text-anchor='middle' font-size='14' fill='#8A7568'>I can sing but I can't dance.</text><text x='193' y='232' text-anchor='middle' font-size='14' fill='#8A7568'>否定句里的「和」→ or</text><text x='193' y='256' text-anchor='middle' font-size='14' fill='#8A7568'>or 还能当「否则」</text><rect x='370' y='110' width='314' height='158' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='144' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🪝 挂一句（4 根）</text><text x='527' y='178' text-anchor='middle' font-size='15' fill='#5A4A42'>when 时间 · where 地点</text><text x='527' y='204' text-anchor='middle' font-size='15' fill='#5A4A42'>because 原因 · if 条件</text><text x='527' y='232' text-anchor='middle' font-size='14' fill='#8A7568'>挂句可前置，前置加逗号</text><text x='527' y='256' text-anchor='middle' font-size='14' fill='#8A7568'>I was happy because we won.</text><rect x='36' y='288' width='648' height='96' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='320' text-anchor='middle' font-size='17' font-weight='bold' fill='#C0392B'>⚠️ 一句话只画一根线</text><text x='360' y='348' text-anchor='middle' font-size='15' fill='#C0392B'>Because..., so... ✗（双保险）｜ 逗号不能连两个完整句 ✗</text><text x='360' y='372' text-anchor='middle' font-size='14' fill='#C0392B'>because of + 名词 ｜ because + 句子</text><rect x='36' y='404' width='648' height='80' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='436' text-anchor='middle' font-size='16' fill='#B7791F'>🔒 if / when 挂将来：小句锁住 will，用一般现在</text><text x='360' y='464' text-anchor='middle' font-size='15' fill='#B7791F'>If it rains, we will stay at home. / Call me when you get home.</text><text x='360' y='520' text-anchor='middle' font-size='15' fill='#7DA7C4'>写作放一个 because 一个 but，从「蹦豆子」变「有线条」</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线：bi cause 磨成 because，et 连笔成 & · 英语奇遇记 🦊 G20</text></svg>",
+    "alt": "G20 记忆卡：七根连奏线——and/but/or 并排连（否定句的和用 or，or 还能当否则），when/where/because/if 挂一句（可前置加逗号）；一句只画一根线（because 与 so 不同台，逗号不能连两句）；if/when 将来小句用一般现在。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 七根连奏线",
+        "questions": [
+          { "q": "KET 考纲的连接词一共几个？", "options": ["7 个", "17 个", "3 个"], "answer": 0, "explain": "and, but, or / when, where, because, if——先认熟这七根线。", "level": 1 },
+          { "q": "哪三根线是「并排连」？", "options": ["and / but / or", "when / where / if", "because / if / and"], "answer": 0, "explain": "并排连三兄弟：加一句、拐弯、挑一个。", "level": 1 },
+          { "q": "「拐个弯、可是」用哪根线？", "options": ["but", "and", "or"], "answer": 0, "explain": "转折——but。", "level": 1 },
+          { "q": "「二选一、还是」用哪根线？", "options": ["or", "and", "if"], "answer": 0, "explain": "挑一个——or。", "level": 1 },
+          { "q": "「挂原因」用哪根线？", "options": ["because", "where", "when"], "answer": 0, "explain": "because 挂原因。", "level": 1 },
+          { "q": "「挂条件、如果」用哪根线？", "options": ["if", "or", "but"], "answer": 0, "explain": "if 挂条件。", "level": 1 },
+          { "q": "「挂时间」用哪根线？", "options": ["when", "where", "and"], "answer": 0, "explain": "when 挂时间。", "level": 1 },
+          { "q": "「挂地点」用哪根线？", "options": ["where", "when", "if"], "answer": 0, "explain": "where 挂地点。", "level": 1 },
+          { "q": "because 和 so 能不能同台？", "options": ["不能——一句只画一根线", "能，更保险", "看句子长短"], "answer": 0, "explain": "中文「因为所以」成对；英语只能留一个。", "level": 1 },
+          { "q": "if 挂将来的小句里，动词用什么时态？", "options": ["一般现在", "will + 原形", "过去式"], "answer": 0, "explain": "will 只住在主句——If it rains, we will stay。", "level": 1 },
+          { "q": "否定句里的「和」用哪个词？", "options": ["or", "and", "but"], "answer": 0, "explain": "I can't sing or dance——两样都不会。", "level": 1 },
+          { "q": "or 除了「还是」，还能表示什么？", "options": ["否则", "因为", "然后"], "answer": 0, "explain": "Hurry up, or we'll be late——or＝否则。", "level": 1 },
+          { "q": "挂句放到句子前面时，中间加什么？", "options": ["逗号", "句号", "什么都不加，永远不行"], "answer": 0, "explain": "When the bell rang, we ran out.——前置加逗号。", "level": 1 },
+          { "q": "because of 后面挂什么？", "options": ["名词", "完整句子", "动词原形"], "answer": 0, "explain": "because of the rain；接句子要换 because。", "level": 1 },
+          { "q": "两个完整句子能只用逗号粘起来吗？", "options": ["不能——要连接词或句号", "能，逗号万能", "只有短句可以"], "answer": 0, "explain": "逗号不是连奏线——I like music, it makes me happy ✗。", "level": 1 },
+          { "q": "「because 不能放句首」这种说法？", "options": ["是误传——前置完全合法", "是铁律", "只在美国对"], "answer": 0, "explain": "Because I was ill, I stayed home. ✓——坑在后面别加 so。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 连起来",
+        "questions": [
+          { "q": "I knocked three times, ___ nobody answered.", "options": ["but", "and", "or"], "answer": 0, "explain": "敲了门 ↔ 没人应——拐弯 but。", "level": 2 },
+          { "q": "Shall we walk ___ take the bus?", "options": ["or", "and", "because"], "answer": 0, "explain": "二选一——or。", "level": 2 },
+          { "q": "She fed the cat ___ washed the bowl.", "options": ["and", "but", "if"], "answer": 0, "explain": "加一句，两个动作接着做——and。", "level": 2 },
+          { "q": "I closed the window ___ the wind was cold.", "options": ["because", "if", "where"], "answer": 0, "explain": "说原因——because。", "level": 2 },
+          { "q": "___ you press this button, the music starts.", "options": ["If", "But", "Or"], "answer": 0, "explain": "条件——If you press...", "level": 2 },
+          { "q": "Grandpa waters the flowers ___ he gets up.", "options": ["when", "where", "or"], "answer": 0, "explain": "挂时间——每天起床时。", "level": 2 },
+          { "q": "This is the shop ___ I bought my kite.", "options": ["where", "when", "if"], "answer": 0, "explain": "挂地点——买风筝的那家店。", "level": 2 },
+          { "q": "Wear your helmet, ___ you may get hurt.", "options": ["or", "and", "because"], "answer": 0, "explain": "or＝否则——不戴就可能受伤。", "level": 2 },
+          { "q": "If it ___ sunny tomorrow, we will fly kites.", "options": ["is", "will be", "was"], "answer": 0, "explain": "if 小句用一般现在——is。", "level": 2 },
+          { "q": "I will show you my photos when you ___ to my home.", "options": ["come", "will come", "came"], "answer": 0, "explain": "when 挂将来——小句用 come。", "level": 2 },
+          { "q": "He can't ride a bike ___ swim — he wants to learn both.", "options": ["or", "and", "so"], "answer": 0, "explain": "否定句里的「和」——or。", "level": 2 },
+          { "q": "___ the music started, everyone stopped talking.", "options": ["When", "Where", "Or"], "answer": 0, "explain": "挂时间且前置——When..., 加逗号。", "level": 2 },
+          { "q": "I didn't go out ___ the heavy rain.", "options": ["because of", "because", "if"], "answer": 0, "explain": "后面是名词 the heavy rain——because of。", "level": 2 },
+          { "q": "The little dog followed me home, ___ I gave it some water.", "options": ["and", "or", "if"], "answer": 0, "explain": "顺着加一句——and。", "level": 2 },
+          { "q": "You can borrow my ruler, ___ please give it back today.", "options": ["but", "or", "where"], "answer": 0, "explain": "先答应再提条件——转折 but。", "level": 2 },
+          { "q": "___ I was ill, I didn't go to the rehearsal.", "options": ["Because", "So", "Or"], "answer": 0, "explain": "because 前置合法——后面不再加 so。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 断线与双线",
+        "questions": [
+          { "q": "哪句只画了一根线？", "options": ["Because the bag was heavy, I walked slowly.", "Because the bag was heavy, so I walked slowly.", "Because the bag was heavy so I walked slowly."], "answer": 0, "explain": "because 出场，so 退场。", "level": 3 },
+          { "q": "哪句的 if 小句没放 will？", "options": ["If you water it every day, the flower will grow.", "If you will water it every day, the flower will grow.", "If you watered it tomorrow, the flower will grow."], "answer": 0, "explain": "if 小句用一般现在 water——will 留给主句。", "level": 3 },
+          { "q": "哪句的 when 用得对？", "options": ["I will wave when the train leaves.", "I will wave when the train will leave.", "I wave when the train will leave tomorrow."], "answer": 0, "explain": "when 挂将来——小句 leaves。", "level": 3 },
+          { "q": "哪句的「和」在否定里换对了？", "options": ["She doesn't like carrots or beans.", "She doesn't like carrots and beans.（想说都不喜欢）", "She doesn't like carrots but beans.（想说都不喜欢）"], "answer": 0, "explain": "否定句「和」→ or。", "level": 3 },
+          { "q": "哪句的因果没颠倒？", "options": ["The road was wet because it rained last night.", "It rained last night because the road was wet.", "The road was wet so because it rained."], "answer": 0, "explain": "because 挂在原因（下雨）身上。", "level": 3 },
+          { "q": "哪句的 because of 用对了？", "options": ["We stayed in because of the storm.", "We stayed in because of it stormed.", "We stayed in because the storm.（接完整句）"], "answer": 0, "explain": "because of + 名词；because + 句子——别串门。", "level": 3 },
+          { "q": "哪句的转折味道没丢？", "options": ["The song is old, but everyone still loves it.", "The song is old, and everyone still loves it.（想说「却」）", "The song is old, or everyone still loves it."], "answer": 0, "explain": "「却」的惊讶靠 but。", "level": 3 },
+          { "q": "哪句把「否则」说对了？", "options": ["Take the map, or you will get lost.", "Take the map, or you get lost yesterday.", "Take the map, and you will get lost.（想说否则）"], "answer": 0, "explain": "or＝否则 + 主句 will。", "level": 3 },
+          { "q": "哪句不是「蹦豆子」也不是病句？", "options": ["I love this park because it is quiet.", "I love this park, it is quiet.", "I love this park. Because it is quiet so I go often."], "answer": 0, "explain": "逗号连两句 ✗；because...so 双线 ✗——一根 because 正好。", "level": 3 },
+          { "q": "哪句的挂句前置格式对？", "options": ["When the rain stops, we will go out.", "When the rain will stop, we will go out.", "When, the rain stops we will go out."], "answer": 0, "explain": "小句用 stops，前置后加逗号。", "level": 3 },
+          { "q": "哪句写对了？（你想要红色的还是蓝色的？）", "options": ["Do you want the red one or the blue one?", "Do you want the red one and the blue one?（想问选哪个）", "Do you want the red one but the blue one?"], "answer": 0, "explain": "挑一个——or。", "level": 3 },
+          { "q": "哪句写对了？（这是我们扎帐篷的地方）", "options": ["This is the place where we put up our tent.", "This is the place when we put up our tent.", "This is the place if we put up our tent."], "answer": 0, "explain": "挂地点——where。", "level": 3 },
+          { "q": "哪句写对了？（他病了，但还是来了）", "options": ["He was ill, but he still came.", "Although he was ill, but he still came.", "He was ill, so but he still came."], "answer": 0, "explain": "「虽然」和 but 也只能留一个——一句一根线。", "level": 3 },
+          { "q": "哪句写对了？（因为音乐停了，大家抬起头）", "options": ["Because the music stopped, everyone looked up.", "Because the music stopped, so everyone looked up.", "Because of the music stopped, everyone looked up."], "answer": 0, "explain": "because + 句子，前置合法，不加 so。", "level": 3 },
+          { "q": "哪句写对了？（如果你饿了，桌上有面包）", "options": ["If you are hungry, there is some bread on the table.", "If you will be hungry, there is some bread on the table.", "If you are hungry, or there is some bread."], "answer": 0, "explain": "if 小句一般现在 are——主句直接陈述。", "level": 3 },
+          { "q": "哪句写对了？（把两句连起来：I opened the door. The cat ran in.）", "options": ["When I opened the door, the cat ran in.", "I opened the door, the cat ran in.", "I opened the door because the cat ran in.（想说「一开门猫就进来」）"], "answer": 0, "explain": "挂时间最贴意思；逗号硬粘是断线句。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 连成一首歌",
+        "questions": [
+          { "q": "I was thirsty, ___ the water was too hot, ___ I waited.", "options": ["but / so", "and / because", "or / but"], "answer": 0, "explain": "先拐弯 but，再顺结果 so——两句各画一根线。", "level": 4 },
+          { "q": "___ you mix blue and yellow, you ___ green.", "options": ["If / will get", "If / will got", "Because / get yesterday"], "answer": 0, "explain": "条件句：小句现在时 mix，主句 will get。", "level": 4 },
+          { "q": "Dad was cooking ___ I got home, ___ the house smelled wonderful.", "options": ["when / and", "where / but", "if / or"], "answer": 0, "explain": "when 挂时间；and 顺着加一句。", "level": 4 },
+          { "q": "You can come to my house, ___ we can meet at the library — you choose.", "options": ["or", "and", "because"], "answer": 0, "explain": "两个方案挑一个——or。", "level": 4 },
+          { "q": "She practised every day, ___ she won the prize. — 换个说法：She won the prize ___ she practised every day.", "options": ["so / because", "because / so", "but / or"], "answer": 0, "explain": "顺着说用 so，倒过来挂原因用 because——两根线只能各用一次。", "level": 4 },
+          { "q": "Remember to turn off the lights ___ you leave the room, ___ Grandpa will grumble.", "options": ["when / or", "where / and", "if / but"], "answer": 0, "explain": "when 挂时间；or＝否则。", "level": 4 },
+          { "q": "The bakery ___ we buy breakfast was closed, ___ we made pancakes at home.", "options": ["where / so", "when / because", "if / or"], "answer": 0, "explain": "where 挂地点；so 顺结果。", "level": 4 },
+          { "q": "I like both drawing ___ singing, ___ I can't do them at the same time.", "options": ["and / but", "or / and", "but / or"], "answer": 0, "explain": "两样都喜欢 and；转折 but。", "level": 4 },
+          { "q": "___ the show begins, please turn off your phone, ___ it may ring at the worst moment.", "options": ["When / because", "Where / if", "Or / but"], "answer": 0, "explain": "when 挂时间；because 说理由。", "level": 4 },
+          { "q": "Take an umbrella ___ it looks cloudy — ___ the sun comes out, just carry it.", "options": ["because / if", "if / because", "or / when"], "answer": 0, "explain": "先说原因 because；再挂条件 if。", "level": 4 },
+          { "q": "My cousin lives in a town ___ it snows a lot, ___ he skis to school in winter!", "options": ["where / and", "when / but", "if / or"], "answer": 0, "explain": "where 挂地点；and 顺着补一句。", "level": 4 },
+          { "q": "— Why didn't you answer? — ___ I was in the shower ___ I didn't hear the phone.", "options": ["Because / ，不再加 so —— 选这句", "Because / so", "So / because"], "answer": 0, "explain": "because 已画线，后半句直接接——so 不上台。", "level": 4 },
+          { "q": "Finish your soup, ___ it will get cold; eat slowly, ___ don't rush.", "options": ["or / but", "and / or", "because / if"], "answer": 0, "explain": "or＝否则；but 提醒别急——各一根线。", "level": 4 },
+          { "q": "I'll wait here ___ you come back. ___ you can't find me, call my mum.", "options": ["when（等到你回来时）/ If", "where / Because", "or / When"], "answer": 0, "explain": "when 挂将来（come back 用现在时）；if 挂条件。", "level": 4 },
+          { "q": "把三个蹦豆子连成一句：It was late. I was tired. I kept reading.", "options": ["It was late and I was tired, but I kept reading.", "It was late, I was tired, I kept reading.", "Because it was late and tired, so I kept reading."], "answer": 0, "explain": "and 并两句，but 拐个弯——逗号硬粘和双线都是病。", "level": 4 },
+          { "q": "大考：___ you practise every day, you will play well, ___ remember to rest ___ your hands feel tired.", "options": ["If / but / when", "When / or / because", "Because / and / if"], "answer": 0, "explain": "if 挂条件（小句现在时）；but 拐弯提醒；when 挂时间——三根线各就各位。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "Because the wind was strong, so my kite flew away.",
+      "fixed": "Because the wind was strong, my kite flew away.",
+      "clue": "一句话只画一根线——because 出场，so 就得退场。"
+    },
+    {
+      "sentence": "If it will be hot tomorrow, we will go swimming.",
+      "fixed": "If it is hot tomorrow, we will go swimming.",
+      "clue": "if 小句里不放 will——will 只住在主句。"
+    },
+    {
+      "sentence": "I'll text you when I will finish my homework.",
+      "fixed": "I'll text you when I finish my homework.",
+      "clue": "when 挂将来跟 if 一个规矩——小句用一般现在。"
+    },
+    {
+      "sentence": "My little brother can't read and write yet.（想说两样都不会）",
+      "fixed": "My little brother can't read or write yet.",
+      "clue": "否定句里的「和」用 or。"
+    },
+    {
+      "sentence": "I missed the bus because of I got up late.",
+      "fixed": "I missed the bus because I got up late.",
+      "clue": "because of 只挂名词——后面是句子就用 because。"
+    },
+    {
+      "sentence": "Would you like rice and noodles? Choose one, please.",
+      "fixed": "Would you like rice or noodles? Choose one, please.",
+      "clue": "让人挑一个用 or——and 会让两样一起端上来。"
+    },
+    {
+      "sentence": "The library is very quiet, I love reading there.",
+      "fixed": "The library is very quiet, so I love reading there. / I love reading in the library because it is very quiet.",
+      "clue": "逗号不是连奏线——两个完整句要靠连接词缝合。"
+    }
+  ]
+}

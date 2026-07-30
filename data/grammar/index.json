@@ -218,6 +218,17 @@
       "file": "./data/grammar/g19.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G20",
+      "tier": "骨架",
+      "title": "连词七个",
+      "metaphor": "连奏线",
+      "ketRelevance": 3,
+      "ketLessonMap": ["L7"],
+      "file": "./data/grammar/g20.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
