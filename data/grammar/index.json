@@ -185,6 +185,17 @@
       "file": "./data/grammar/g16.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G17",
+      "tier": "骨架",
+      "title": "情态动词一 can / may / must / should",
+      "metaphor": "力度记号（f/p/mf），表达强弱与态度",
+      "ketRelevance": 2,
+      "ketLessonMap": ["L2"],
+      "file": "./data/grammar/g17.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

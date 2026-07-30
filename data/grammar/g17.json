@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G17（V0.9 P2a 骨架层）。比喻锚点：力度记号（f/p/mf），表达强弱与态度——must 最重，should 恳切，can 放行，may 轻声。暗线侧写：情态动词是古英语 preterite-present 动词的幸存者，三单从不加 s。八课亲戚 L2（助动词家族的搬家特权），L2 零改动。全部内容原创。",
+  "id": "G17",
+  "tier": "骨架",
+  "title": "情态动词一 can / may / must / should",
+  "metaphor": "力度记号（f/p/mf），表达强弱与态度",
+  "ketRelevance": 2,
+  "ketLessonMap": ["L2"],
+  "ketNote": "can/must/should 在 KET Part 5、听力和口语里高频出没；mustn't（禁止）是听力告示题的常客。八课里的亲戚是 L2 的助动词家族。",
+  "source": "original",
+  "sections": {
+    "essence": "情态动词是话语的力度记号：must 最重，should 恳切，can 放行，may 轻声。",
+    "why": "乐谱上同一个音符，标上 f 要奏得响亮，标上 p 要奏得轻柔——音没变，态度变了。英语说话也有这样的记号：动词本身不动，前面加一个小词，整句话的强弱和态度就定了。You must practise 是命令，没商量；You should practise 是恳切的建议；You can practise 是放行许可；May I practise? 是轻声的请求。中文其实也这么干——「必须、应该、可以、能」同样站在动词前面，这一点中英难得一致。但英语的情态动词是一支有特权的小分队：后面永远跟原形、自己从不加 s、提问时自己搬到主语前面，不请 do 帮忙。中国孩子的错几乎全出在特权上：he cans、must to go、Do you can——记号本身没选错，是把它当普通动词用了。",
+    "metaphorStory": "银帆乐团的新乐谱发下来，小提琴手小凡发现每段开头都有小小的字母：f、mf、p。老师解释：「这是力度记号——f 是强，奏得斩钉截铁；mf 中强，认真而恳切；p 是弱，轻得像耳语。音符是同一批，记号一换，整段的性格就换了。」排练时老师的话也带着记号。她敲敲谱架说：You must watch my hands.——这是 f，命令，全团立刻抬头。她对小凡说：You should practise this bar tonight.——这是 mf，建议，语气恳切但不逼人。休息时她挥挥手：You can get some water.——放行。小凡想开窗，轻声问：May I open the window?——这是 p，礼貌得像羽毛落地。老师笑了：「记住，这四个小词就是说话的力度记号。它们还是团里资格最老的小分队：后面永远站动词原形，自己从不加 s，提问时不请 do 帮忙——自己走到句子最前面。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "力度记号站在动词前，动词永远原形",
+          "detail": "can/may/must/should 后面直接接动词原形——没有 to，没有 -s，没有 -ed。",
+          "example": "She can swim. / You must wear a helmet."
+        },
+        {
+          "rule": "can：会与放行",
+          "detail": "表能力（会）和许可（可以）。否定 can't（cannot 连写）。",
+          "example": "I can ride a bike. / You can go now. / Can I use your pen?"
+        },
+        {
+          "rule": "may：最轻的记号",
+          "detail": "更礼貌的请求许可，也表「也许」的猜测。",
+          "example": "May I come in? / It may rain later.（也许会下雨）"
+        },
+        {
+          "rule": "must：最重的记号",
+          "detail": "必须、非做不可。⚠️ mustn't 表「禁止」，不是「不必」——「不必」要说 don't have to。",
+          "example": "You must stop at the red light. / You mustn't feed the animals.（禁止投喂）"
+        },
+        {
+          "rule": "should：恳切的建议",
+          "detail": "应该、最好这样做；否定 shouldn't（不该）。给朋友提建议、口语题答「怎么办」全靠它。",
+          "example": "You should drink more water. / You shouldn't stay up late."
+        },
+        {
+          "rule": "小分队三特权",
+          "detail": "① 从不加 s（he can，绝不 he cans）；② 否定直接 + not（can't/mustn't/shouldn't）；③ 提问自己搬到主语前，不请 do。",
+          "example": "Can you hear me?（不说 Do you can hear me）"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I can play the drums.", "cn": "我会打鼓。（能力）" },
+          { "en": "You can sit here — this seat is free.", "cn": "你可以坐这儿，这个座位空着。（放行）" },
+          { "en": "May I borrow your eraser?", "cn": "我可以借你的橡皮吗？（轻声请求）" },
+          { "en": "You must finish your homework first.", "cn": "你必须先写完作业。（最重的记号）" },
+          { "en": "You should go to bed early tonight.", "cn": "你今晚应该早点睡。（恳切建议）" }
+        ],
+        "mid": [
+          { "en": "My little sister can't reach the top shelf.", "cn": "我妹妹够不到最上层的架子。（can 的否定）" },
+          { "en": "Visitors mustn't touch the paintings.", "cn": "参观者不得触摸画作。（禁止）" },
+          { "en": "It may snow tonight, so take your gloves.", "cn": "今晚也许下雪，带上手套。（may＝也许）" },
+          { "en": "You shouldn't eat so many sweets before dinner.", "cn": "晚饭前你不该吃这么多糖。" },
+          { "en": "Can you help me carry this music stand?", "cn": "你能帮我搬这个谱架吗？（can 举手提问）" }
+        ],
+        "trap": [
+          { "en": "He can swim across the pool.", "cn": "他能游过整个泳池。", "note": "can 后面是原形 swim——he 是三单也不加 s，特权在 can 身上。" },
+          { "en": "You must be quiet in the library.", "cn": "在图书馆里必须保持安静。", "note": "must 直接接原形 be——不是 must to be，情态词不带 to。" },
+          { "en": "— Must I wash the dishes now? — No, you don't have to.", "cn": "——我必须现在洗碗吗？——不，不必。", "note": "回答「不必」用 don't have to；说 you mustn't 就成了「禁止你洗」。" },
+          { "en": "May I ask a question?", "cn": "我可以问个问题吗？", "note": "may 自己搬到主语前提问——不请 do，也不说 Do I may。" },
+          { "en": "She could already read at four.", "cn": "她四岁就会认字了。", "note": "说过去的能力，can 要换成过去形 could——情态词也有自己的过去式。" },
+          { "en": "You mustn't run by the pool!", "cn": "泳池边禁止奔跑！", "note": "mustn't＝禁止，语气最重——跟「不必」是两回事。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "— Must I pay for the ticket? — No, you mustn't.（想说：不必付钱）",
+        "good": "— Must I pay for the ticket? — No, you don't have to.",
+        "zone": "blocks",
+        "why": "mustn't 是「禁止付钱」——把「不必」说成「不准」，意思整个反了。"
+      },
+      {
+        "bad": "I sit here?（想问能不能坐）",
+        "good": "May I sit here? / Can I sit here?",
+        "zone": "blocks",
+        "why": "没有情态记号，请求发不出去——听着像在宣布「我坐这儿了」。"
+      },
+      {
+        "bad": "He cans play chess very well.",
+        "good": "He can play chess very well.",
+        "zone": "tested",
+        "why": "情态动词从不加 s——特权就是「永不变形」。"
+      },
+      {
+        "bad": "She can sings very high notes.",
+        "good": "She can sing very high notes.",
+        "zone": "tested",
+        "why": "can 后面站原形——s 一个也不许带。"
+      },
+      {
+        "bad": "You must to hand in your paper today.",
+        "good": "You must hand in your paper today.",
+        "zone": "tested",
+        "why": "情态词直接接原形，不带 to——它不是 want to 那一家的。"
+      },
+      {
+        "bad": "Do you can ride a horse?",
+        "good": "Can you ride a horse?",
+        "zone": "tested",
+        "why": "can 自己会搬家提问——再请 do 就是两个指挥抢拍子。"
+      },
+      {
+        "bad": "He should goes to see a dentist.",
+        "good": "He should go to see a dentist.",
+        "zone": "tested",
+        "why": "should 后面也是原形——goes 的 s 多余。"
+      },
+      {
+        "bad": "— Can you skate? — Yes, I do.",
+        "good": "— Can you skate? — Yes, I can.",
+        "zone": "tested",
+        "why": "谁提问谁接简答——Can 问的，用 can 答。"
+      },
+      {
+        "bad": "You don't should eat in class.",
+        "good": "You shouldn't eat in class.",
+        "zone": "tested",
+        "why": "情态词的否定直接加 not——不请 don't 帮忙。"
+      },
+      {
+        "bad": "I can swim when I was five.（想说五岁就会）",
+        "good": "I could swim when I was five.",
+        "zone": "tested",
+        "why": "过去的能力用 can 的过去形 could——情态词也要跟着故事的调走。"
+      },
+      {
+        "bad": "Can I go to the toilet?（有人说必须用 May）",
+        "good": "Can I...? / May I...? 都行。",
+        "zone": "minor",
+        "why": "May I 更客气，Can I 口语完全通用——KET 不设这个坑。"
+      },
+      {
+        "bad": "He must be tired after the long trip.（这也是 must？）",
+        "good": "对——这是 must 的「一定是」猜测用法。",
+        "zone": "minor",
+        "why": "must 还能表有把握的推测（他一定累了）——KET 很少考，认识即可。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我会游泳。／你必须去。（小词站在动词前）",
+        "en": "I can swim. / You must go.",
+        "diff": "中英难得一致：都用小词定强弱。差别在英语的小词有特权语法，中文的「会、必须」没有。"
+      },
+      {
+        "cn": "他会拉琴。（「会」不用管他是谁）",
+        "en": "He can play.（can 从不加 s）",
+        "diff": "中文动词本来就不变；英语普通动词遇三单要加 s，唯独情态小分队免疫。"
+      },
+      {
+        "cn": "你能来吗？（加个「吗」完事）",
+        "en": "Can you come?（can 搬到最前面）",
+        "diff": "中文问句靠语气词；英语情态词自己搬家提问，不请 do。"
+      },
+      {
+        "cn": "不必带伞。／不准带手机。（两个词分得清清楚楚）",
+        "en": "You don't have to bring an umbrella. / You mustn't bring your phone.",
+        "diff": "中文「不必／不准」两个词；英语 mustn't 只表「不准」，「不必」得绕道 don't have to。"
+      },
+      {
+        "cn": "也许会下雨。（「也许」是副词）",
+        "en": "It may rain.（may 是情态动词）",
+        "diff": "中文的「也许」修饰整句；英语把这层「不确定」也交给动词前的记号。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先选记号定强弱：must 重、should 劝、can 行、may 轻；再查特权：原形、无 s、自己搬家。",
+      "steps": [
+        "定态度：必须没商量 → must；建议 → should；能力或放行 → can；礼貌请求或「也许」 → may。",
+        "情态词后面站的必须是光秃秃的原形——没有 to、没有 s、没有 -ed。",
+        "否定？直接加 not：can't / mustn't / shouldn't——不请 don't。",
+        "提问？情态词自己搬到主语前——Can you...? May I...?",
+        "警报两响：mustn't 是「禁止」不是「不必」；过去的能力用 could。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语有四个『力度记号』：must 最重，是必须；should 是应该；can 是会、可以；may 最轻，是客客气气的请求。咱们玩『看记号说话』：我用中文说一句家里的规矩，你判断它多重，再用英语说出来——『饭前必须洗手』有多重？（must）『应该早点睡』呢？（should）『可以看二十分钟动画』呢？（can）想跟我要东西时，用最轻的 May I 开头试试。我不懂英语没关系，我只检查两件事：这四个词后面的动词是不是干干净净的原形，问句是不是把它们放在了最前面。」听到 he cans、must to、Do you can，就提醒：「小分队有特权，别把它当普通动词。」",
+      "questions": [
+        "「必须、应该、可以」三种强弱，分别对应哪个英语小词？",
+        "can 和 must 后面的动词能加 s 或 to 吗？为什么不能？",
+        "mustn't 是「不必」还是「不准」？「不必」该怎么说？"
+      ]
+    },
+    "echo": "这支小分队为什么从不加 s？因为它们是英语里资格最老的一批动词——语言学家叫它们「过去现在动词」：它们如今的现在式，本来就是上古的过去式，天生就没有加 s 的位置。can 跟 know 是亲戚，古英语 cunnan 是「懂得」——「懂」着「懂」着就成了「会」；may 的祖先 magan 意思是「有力气」，有力气才「能」；must 干脆本来就是个过去式，用着用着定格成了「必须」。最常用的一小撮词，保住了最古老的语法特权——不加 s、自己搬家提问。又是那条暗线：越常用的词，越不规则。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G17 · 情态动词一</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>力度记号 f / mf / p——同一个动词，态度全在记号上</text><rect x='36' y='110' width='648' height='188' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='120' y='148' text-anchor='middle' font-size='22' font-weight='bold' fill='#C0392B'>f</text><text x='400' y='148' text-anchor='middle' font-size='16' fill='#5A4A42'>must 必须（You must stop!）· mustn't＝禁止，不是「不必」</text><text x='120' y='186' text-anchor='middle' font-size='20' font-weight='bold' fill='#B7791F'>mf</text><text x='400' y='186' text-anchor='middle' font-size='16' fill='#5A4A42'>should 应该（You should sleep early.）· shouldn't 不该</text><text x='120' y='224' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>mp</text><text x='400' y='224' text-anchor='middle' font-size='16' fill='#5A4A42'>can 会／可以（I can swim. You can go.）· can't 不能</text><text x='120' y='262' text-anchor='middle' font-size='16' font-weight='bold' fill='#7DA7C4'>p</text><text x='400' y='262' text-anchor='middle' font-size='16' fill='#5A4A42'>may 轻声请求／也许（May I come in? It may rain.）</text><rect x='36' y='318' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='352' text-anchor='middle' font-size='19' font-weight='bold' fill='#0284C7'>🎖️ 小分队三特权</text><text x='360' y='384' text-anchor='middle' font-size='15' fill='#5A4A42'>① 从不加 s（he can ✓ he cans ✗）② 否定直接 +not（can't / mustn't）</text><text x='360' y='410' text-anchor='middle' font-size='15' fill='#5A4A42'>③ 提问自己搬家：Can you...?（不请 do）｜ 后面永远动词原形</text><rect x='36' y='448' width='648' height='72' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='478' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ he cans ✗ · must to go ✗ · Do you can ✗ · 「不必」= don't have to</text><text x='360' y='506' text-anchor='middle' font-size='14' fill='#C0392B'>过去的能力：can → could（She could read at four.）</text><text x='360' y='548' text-anchor='middle' font-size='15' fill='#7DA7C4'>选记号 → 查特权 → 原形上台</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线：最老的动词守着最老的特权 · 英语奇遇记 🦊 G17</text></svg>",
+    "alt": "G17 记忆卡：情态动词=力度记号，must 最重（mustn't=禁止）、should 建议、can 能力与放行、may 轻声请求；小分队三特权：从不加 s、否定直接加 not、提问自己搬家；后面永远原形；警示 he cans、must to、Do you can。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 记号入门",
+        "questions": [
+          { "q": "四个力度记号里最重的是？", "options": ["must", "may", "can"], "answer": 0, "explain": "must＝必须，f 级，没商量。", "level": 1 },
+          { "q": "最轻、最礼貌的请求用哪个？", "options": ["may", "must", "should"], "answer": 0, "explain": "May I...?——p 级，轻得像耳语。", "level": 1 },
+          { "q": "给朋友提建议「应该……」用哪个？", "options": ["should", "must", "may"], "answer": 0, "explain": "should＝恳切的 mf 级建议。", "level": 1 },
+          { "q": "表示「会游泳」这种能力用哪个？", "options": ["can", "must", "should"], "answer": 0, "explain": "can＝能力。", "level": 1 },
+          { "q": "情态动词后面的动词用什么形式？", "options": ["原形", "加 -s", "加 -ing"], "answer": 0, "explain": "记号后面永远站光秃秃的原形。", "level": 1 },
+          { "q": "he 后面的 can 要不要加 s？", "options": ["从不加 s", "要加，he cans", "看心情"], "answer": 0, "explain": "情态小分队的特权：永不变形。", "level": 1 },
+          { "q": "can 的否定是？", "options": ["can't", "don't can", "cannot't"], "answer": 0, "explain": "直接加 not：can't（cannot）。", "level": 1 },
+          { "q": "mustn't 的意思是？", "options": ["禁止，不准", "不必", "不想"], "answer": 0, "explain": "mustn't＝禁止——「不必」是 don't have to。", "level": 1 },
+          { "q": "「不必做」英语怎么说？", "options": ["don't have to", "mustn't", "can't"], "answer": 0, "explain": "don't have to＝不必；mustn't 是不准。", "level": 1 },
+          { "q": "should 的否定是？", "options": ["shouldn't", "don't should", "should don't"], "answer": 0, "explain": "直接加 not——shouldn't。", "level": 1 },
+          { "q": "用 can 提问时，can 站在哪里？", "options": ["主语前面", "句子末尾", "动词后面"], "answer": 0, "explain": "自己搬家——Can you...?", "level": 1 },
+          { "q": "情态动词提问要不要请 do 帮忙？", "options": ["不要，自己搬家", "必须请 do", "看单复数"], "answer": 0, "explain": "小分队特权③：不请 do。", "level": 1 },
+          { "q": "You ___ wear a helmet when cycling.（必须）", "options": ["must", "may", "can"], "answer": 0, "explain": "安全规定，最重的记号——must。", "level": 1 },
+          { "q": "___ I open the window?（轻声请求）", "options": ["May", "Must", "Should"], "answer": 0, "explain": "礼貌请求——May I...?", "level": 1 },
+          { "q": "It ___ rain later — take an umbrella.（也许）", "options": ["may", "must surely", "should always"], "answer": 0, "explain": "may 还能表「也许」。", "level": 1 },
+          { "q": "过去的能力，can 要换成？", "options": ["could", "canned", "cans"], "answer": 0, "explain": "情态词自己的过去形——could。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 配上力度",
+        "questions": [
+          { "q": "My baby brother ___ walk yet — he's only six months old.", "options": ["can't", "mustn't", "shouldn't"], "answer": 0, "explain": "还不会走——能力的否定 can't。", "level": 2 },
+          { "q": "You ___ cross the road when the light is red.", "options": ["mustn't", "don't have to", "may"], "answer": 0, "explain": "红灯禁止过马路——mustn't。", "level": 2 },
+          { "q": "You look tired. You ___ take a rest.", "options": ["should", "mustn't", "can't"], "answer": 0, "explain": "关心的建议——should。", "level": 2 },
+          { "q": "___ I borrow your crayons, please?", "options": ["May", "Must", "Need"], "answer": 0, "explain": "带 please 的礼貌请求——May I。", "level": 2 },
+          { "q": "Ants are tiny, but they ___ carry things much heavier than themselves.", "options": ["can", "should", "may not"], "answer": 0, "explain": "蚂蚁的本事——能力 can。", "level": 2 },
+          { "q": "Students ___ bring phones into the exam room. It's the rule.", "options": ["mustn't", "should", "can"], "answer": 0, "explain": "考场规定，禁止——mustn't。", "level": 2 },
+          { "q": "— It's Sunday tomorrow. — Great, I ___ get up early!", "options": ["don't have to", "mustn't", "can't"], "answer": 0, "explain": "周日「不必」早起——don't have to；说 mustn't 就成了不准早起。", "level": 2 },
+          { "q": "You ___ brush your teeth twice a day.", "options": ["should", "may", "can't"], "answer": 0, "explain": "生活好习惯的建议——should。", "level": 2 },
+          { "q": "___ you play any instrument?", "options": ["Can", "Do can", "May to"], "answer": 0, "explain": "问能力——Can you...?", "level": 2 },
+          { "q": "The sign says visitors ___ take photos here.", "options": ["mustn't", "should often", "have"], "answer": 0, "explain": "告示牌上的禁令——mustn't。", "level": 2 },
+          { "q": "It's late. We ___ make so much noise — Grandpa is sleeping.", "options": ["shouldn't", "may", "must"], "answer": 0, "explain": "不该吵——shouldn't。", "level": 2 },
+          { "q": "— Where is Lily? — I'm not sure. She ___ be in the music room.", "options": ["may", "must to", "cans"], "answer": 0, "explain": "不确定的猜测——may be。", "level": 2 },
+          { "q": "Everyone ___ wash hands before dinner in our home.", "options": ["must", "may", "needn't"], "answer": 0, "explain": "家规，最重记号——must。", "level": 2 },
+          { "q": "I ___ ride a bike when I was six.", "options": ["could", "can", "may"], "answer": 0, "explain": "过去的能力——could。", "level": 2 },
+          { "q": "You ___ shout in the reading room.", "options": ["mustn't", "don't have to only", "could"], "answer": 0, "explain": "阅览室禁止喧哗——mustn't。", "level": 2 },
+          { "q": "— The maths problem is too hard. — You ___ ask Miss Wang for help.", "options": ["can", "mustn't", "may not"], "answer": 0, "explain": "给出一个可行办法——can。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 记号纠错",
+        "questions": [
+          { "q": "哪句的小分队没变形？", "options": ["He can jump very high.", "He cans jump very high.", "He can jumps very high."], "answer": 0, "explain": "can 不加 s，后面 jump 也原形。", "level": 3 },
+          { "q": "哪句没多长出 to？", "options": ["You must clean your room today.", "You must to clean your room today.", "You must cleaning your room today."], "answer": 0, "explain": "must 直接接原形。", "level": 3 },
+          { "q": "哪句提问没请错帮手？", "options": ["Can she dance?", "Do she can dance?", "Does she cans dance?"], "answer": 0, "explain": "can 自己搬家——不请 do。", "level": 3 },
+          { "q": "哪句的否定合规？", "options": ["You shouldn't watch TV so long.", "You don't should watch TV so long.", "You should watch not TV so long."], "answer": 0, "explain": "情态词否定直接 + not——shouldn't。", "level": 3 },
+          { "q": "哪句的简答接对了？", "options": ["— Can he cook? — Yes, he can.", "— Can he cook? — Yes, he does.", "— Can he cook? — Yes, he cooks can."], "answer": 0, "explain": "谁提问谁接简答——can 问 can 答。", "level": 3 },
+          { "q": "哪句把「不必」说对了？", "options": ["You don't have to bring lunch — school gives us food.", "You mustn't bring lunch — school gives us food.", "You can't bring lunch — school gives us food."], "answer": 0, "explain": "学校管饭是「不必带」——don't have to；mustn't 成了禁止。", "level": 3 },
+          { "q": "哪句把「禁止」说对了？", "options": ["You mustn't play with matches.", "You don't have to play with matches.", "You may play with matches."], "answer": 0, "explain": "火柴危险，禁止——mustn't。", "level": 3 },
+          { "q": "哪句的过去能力说对了？", "options": ["She could swim at five.", "She can swam at five.", "She cans swim at five."], "answer": 0, "explain": "过去能力用 could，后面仍原形。", "level": 3 },
+          { "q": "哪句的礼貌请求合规？", "options": ["May I leave the table?", "Do I may leave the table?", "May I leaving the table?"], "answer": 0, "explain": "May 自己搬家 + 原形 leave。", "level": 3 },
+          { "q": "哪句写对了？（他也许在图书馆）", "options": ["He may be in the library.", "He may is in the library.", "He mays be in the library."], "answer": 0, "explain": "may + be 原形；may 不加 s。", "level": 3 },
+          { "q": "哪句写对了？（你不能在走廊跑）", "options": ["You mustn't run in the hallway.", "You must don't run in the hallway.", "You mustn't running in the hallway."], "answer": 0, "explain": "mustn't + 原形 run。", "level": 3 },
+          { "q": "哪句写对了？（我们该多喝水吗）", "options": ["Should we drink more water?", "Do we should drink more water?", "Should we drinking more water?"], "answer": 0, "explain": "should 搬家 + 原形 drink。", "level": 3 },
+          { "q": "哪句写对了？（她能背下整首诗）", "options": ["She can say the whole poem from memory.", "She can to say the whole poem from memory.", "She can says the whole poem from memory."], "answer": 0, "explain": "can + 原形 say。", "level": 3 },
+          { "q": "哪句写对了？（游客必须排队）", "options": ["Visitors must wait in line.", "Visitors must waiting in line.", "Visitors musts wait in line."], "answer": 0, "explain": "must 不变形 + 原形 wait。", "level": 3 },
+          { "q": "哪句写对了？（你不该给流浪猫喂巧克力）", "options": ["You shouldn't feed chocolate to street cats.", "You shouldn't to feed chocolate to street cats.", "You don't should feed chocolate to street cats."], "answer": 0, "explain": "shouldn't + 原形 feed。", "level": 3 },
+          { "q": "哪句写对了？（——我必须今天交吗？——不必）", "options": ["— Must I hand it in today? — No, you don't have to.", "— Must I hand it in today? — No, you mustn't.", "— Must I hand it in today? — No, you can't."], "answer": 0, "explain": "「不必」= don't have to；mustn't 会变成「禁止上交」。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 台上定强弱",
+        "questions": [
+          { "q": "医生对咳嗽的病人说：You ___ smoke, and you ___ drink more warm water.", "options": ["mustn't / should", "should / mustn't", "may / can't"], "answer": 0, "explain": "禁烟是禁令 mustn't；多喝热水是建议 should。", "level": 4 },
+          { "q": "图书馆门口的牌子：You ___ talk loudly, but you ___ read any book you like.", "options": ["mustn't / can", "can / mustn't", "should / may not"], "answer": 0, "explain": "禁止喧哗 mustn't；随便看书是放行 can。", "level": 4 },
+          { "q": "— ___ I try your telescope? — Sure, but you ___ hold it with both hands.", "options": ["May / must", "Must / may", "Should / can't"], "answer": 0, "explain": "轻声请求 May I；叮嘱「必须双手拿」用 must。", "level": 4 },
+          { "q": "— Dad, ___ you fix my bike chain? — Sorry, I ___. Let's ask Uncle Li.", "options": ["can / can't", "may / mustn't", "must / shouldn't"], "answer": 0, "explain": "问能力 Can you；做不到 I can't。", "level": 4 },
+          { "q": "New students ___ wear the school uniform, but they ___ buy the school bag — any bag is fine.", "options": ["must / don't have to", "mustn't / must", "may / mustn't"], "answer": 0, "explain": "校服是硬规定 must；书包「不必」买 don't have to。", "level": 4 },
+          { "q": "The ice is very thin. You ___ skate on the lake today!", "options": ["mustn't", "don't have to", "could"], "answer": 0, "explain": "冰太薄，人命关天的禁令——mustn't。", "level": 4 },
+          { "q": "— I have a fever. — You ___ stay in bed, and you ___ go to training tonight.", "options": ["should / shouldn't", "mustn't / should", "may / must"], "answer": 0, "explain": "该卧床 should；不该去训练 shouldn't。", "level": 4 },
+          { "q": "Grandma is sleeping, so we ___ speak quietly. We ___ wake her up.", "options": ["should / mustn't", "mustn't / should", "can / must"], "answer": 0, "explain": "该小声 should；不许吵醒 mustn't。", "level": 4 },
+          { "q": "— Look, the sky is getting dark. — It ___ rain. We ___ take the umbrella, just in case.", "options": ["may / should", "must / mustn't", "can't / may"], "answer": 0, "explain": "「也许下雨」may；「最好带伞」should。", "level": 4 },
+          { "q": "My cousin is amazing: she ___ speak three languages, and she ___ do it when she was ten.", "options": ["can / could already", "cans / could", "may / must"], "answer": 0, "explain": "现在的能力 can；过去就会 could already。", "level": 4 },
+          { "q": "— ___ we feed the ducks in the park? — Look at the sign: visitors ___ feed the birds.", "options": ["Can / mustn't", "Must / should", "May / don't"], "answer": 0, "explain": "问「可不可以」Can we；牌子写着禁止 mustn't。", "level": 4 },
+          { "q": "You ___ finish the whole book tonight — the report is due next month. But you ___ start early anyway.", "options": ["don't have to / should", "mustn't / can't", "can't / may not"], "answer": 0, "explain": "「不必」今晚读完 don't have to；「最好」早点开始 should。", "level": 4 },
+          { "q": "— ___ I take one more cookie, Mum? — You ___, but only one. Dinner is soon.", "options": ["May / can", "Must / must", "Should / mustn't"], "answer": 0, "explain": "轻声请求 May I；妈妈放行 you can。", "level": 4 },
+          { "q": "Drivers ___ stop when children are crossing — it's the law, not a suggestion.", "options": ["must", "should", "may"], "answer": 0, "explain": "法律要求，最重记号——must，比 should 重。", "level": 4 },
+          { "q": "— I ___ find my glasses anywhere! — They ___ be on the piano. I saw something shiny there.", "options": ["can't / may", "mustn't / should", "couldn't / mustn't"], "answer": 0, "explain": "找不到 can't find；「也许在钢琴上」may be。", "level": 4 },
+          { "q": "大考：In the pool area, you ___ run, you ___ warm up before swimming, and you ___ ask the coach anything you like.", "options": ["mustn't / should / can", "should / mustn't / may not", "can / can't / must"], "answer": 0, "explain": "禁跑 mustn't（f）、该热身 should（mf）、随时可问 can——三档力度一次排齐。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "My brother cans play football very well.",
+      "fixed": "My brother can play football very well.",
+      "clue": "情态动词从不加 s——can 的特权就是永不变形。"
+    },
+    {
+      "sentence": "You must to drink some water after running.",
+      "fixed": "You must drink some water after running.",
+      "clue": "must 直接接原形，不带 to——它不是 want to 那一家的。"
+    },
+    {
+      "sentence": "Do you can see the blackboard from here?",
+      "fixed": "Can you see the blackboard from here?",
+      "clue": "can 自己会搬家提问——再请 do 就是两个指挥抢拍子。"
+    },
+    {
+      "sentence": "She can plays the flute and the piano.",
+      "fixed": "She can play the flute and the piano.",
+      "clue": "can 后面站原形——plays 的 s 要摘掉。"
+    },
+    {
+      "sentence": "You don't should eat ice cream when you have a cold.",
+      "fixed": "You shouldn't eat ice cream when you have a cold.",
+      "clue": "情态词的否定直接加 not——shouldn't，不请 don't。"
+    },
+    {
+      "sentence": "— Must we bring our own paper? — No, you mustn't. The teacher has some.（想说不必带）",
+      "fixed": "— Must we bring our own paper? — No, you don't have to. The teacher has some.",
+      "clue": "mustn't 是「禁止带」——「不必」要说 don't have to，意思差一个天地。"
+    },
+    {
+      "sentence": "I can climb trees when I was little.",
+      "fixed": "I could climb trees when I was little.",
+      "clue": "过去的能力用 could——情态词也要跟着故事的调走。"
+    }
+  ]
+}
