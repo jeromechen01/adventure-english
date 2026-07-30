@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G12（V0.9 P1b）。比喻与 KET 八课 L2 字面一致：do/does/did 是指挥的起拍手势——自己没有意思，只负责举手宣布问句（或否定句）。全部内容原创。",
+  "id": "G12",
+  "tier": "基石",
+  "title": "疑问句与助动词 do",
+  "metaphor": "do 是指挥的起拍手势，不发声但全团知道要开始",
+  "ketRelevance": 3,
+  "ketLessonMap": ["L2"],
+  "ketNote": "Does she likes 类错误是 KET 写作最扎眼的伤；Part 5 与听力问答全靠这套结构。八课里的亲戚是 L2。",
+  "source": "original",
+  "sections": {
+    "essence": "do 是指挥的起拍手势——自己没有意思，只负责宣布：问句（或否定）开始。",
+    "why": "中文提问最省事：句尾加个「吗」，其他一个字不动——「你喜欢音乐吗？」所以中国孩子最自然的英语问句是 You like music?——这不算瞎错，四百年前的英国人真这么说（那时把动词搬到句首提问）。后来英语改了规矩：实义动词不许挪窝，句首的位置交给一位专职举手的——do。它自己没有任何意思，只负责宣布「这是问句（或否定句）」，顺便替主动词报了时态和人称：轮到她是 does，说昨天是 did。手势既然报了，后面的动词就永远站回原形——一支乐队，只需要一个人打拍子。",
+    "metaphorStory": "开演前，指挥不出声，只把手一抬——全团立刻知道：要开始了。do 就是这只手。Do you like music? 里的 do 没有词义，它只是举在句首的手势，宣布「问句开始」。轮到问「她」，手势换成 does——手势替她报了三单，所以后面的 like 不用再加 s；问昨天的事，手势换成 did——手势报了过去，动词也站回原形。一支乐队只需要一个人打拍子，谁都抢拍就乱了（Does she likes ✗）。还有两位自带指挥棒的成员不请 do：be 动词和情态动词（can/must），它们自己搬到句首就能提问——Is she...? Can you...?",
+    "rules": {
+      "cards": [
+        {
+          "rule": "一般疑问句：Do / Does / Did + 主语 + 原形",
+          "detail": "现在用 Do（三单 Does），过去一律 Did——手势报时报人称。",
+          "example": "Do you swim? / Does she sing? / Did they win?"
+        },
+        {
+          "rule": "否定句：don't / doesn't / didn't + 原形",
+          "detail": "否定手势也替动词报了时态人称。",
+          "example": "I don't know. / He doesn't like fish. / We didn't go."
+        },
+        {
+          "rule": "手势举过，动词永远原形",
+          "detail": "「一队只一个打拍子」——Does she likes、Did you went 都是两个人抢拍。",
+          "example": "Does she like music?（like 不加 s）"
+        },
+        {
+          "rule": "be 和情态动词自带指挥棒",
+          "detail": "它们不请 do：自己搬到句首提问、自己加 not 否定。",
+          "example": "Are you ready? / Can she swim? / He isn't here."
+        },
+        {
+          "rule": "特殊疑问句：疑问词 + 手势 + 主语 + 原形",
+          "detail": "What / Where / When / Who / How 站最前，后面照旧。",
+          "example": "What do you like? / Where does he live?"
+        },
+        {
+          "rule": "简答跟着手势走",
+          "detail": "用什么手势问，就用什么手势答。",
+          "example": "— Do you like it? — Yes, I do. / — Did she come? — No, she didn't."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "Do you like music?", "cn": "你喜欢音乐吗？" },
+          { "en": "Does your sister play the flute?", "cn": "你妹妹吹长笛吗？" },
+          { "en": "I don't like coffee.", "cn": "我不喜欢咖啡。" },
+          { "en": "Did you watch the show last night?", "cn": "你昨晚看演出了吗？" },
+          { "en": "— Do you swim? — Yes, I do.", "cn": "——你游泳吗？——游。" }
+        ],
+        "mid": [
+          { "en": "What do you usually do on Sundays?", "cn": "你周日一般做什么？（第二个 do 是实义动词「做」）" },
+          { "en": "Where does your uncle work?", "cn": "你叔叔在哪儿工作？" },
+          { "en": "She doesn't eat ice cream in winter.", "cn": "她冬天不吃冰激凌。" },
+          { "en": "They didn't go to the rehearsal yesterday.", "cn": "他们昨天没去排练。" },
+          { "en": "How do you go to school every day?", "cn": "你每天怎么上学？" }
+        ],
+        "trap": [
+          { "en": "Does she like music? — like 保持原形。", "cn": "她喜欢音乐吗？", "note": "does 已经替她报了三单——like 再加 s 就是两个人抢拍。" },
+          { "en": "Did you see the film? — see 保持原形。", "cn": "你看那部电影了吗？", "note": "did 已经报了过去——动词回到原形，不说 Did you saw。" },
+          { "en": "Are you happy? — be 的句子不请 do。", "cn": "你开心吗？", "note": "be 自带指挥棒，自己搬句首——不说 Do you are happy。" },
+          { "en": "Can you swim? — 情态动词也不请 do。", "cn": "你会游泳吗？", "note": "can 和 be 一样自带指挥棒——不说 Do you can swim。" },
+          { "en": "What does your father do? — 两个 do 各干各的。", "cn": "你爸爸是做什么工作的？", "note": "前一个 does 是手势，后一个 do 是实义动词「做」——问职业的固定句。" },
+          { "en": "— Don't you like it? — No, I don't.（不喜欢就答 No）", "cn": "——你不喜欢吗？——对，不喜欢。", "note": "英语的 Yes/No 只看事实：不喜欢永远答 No——别按中文的「对/不对」回答。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "I don't have no money.",
+        "good": "I don't have any money.",
+        "zone": "blocks",
+        "why": "双重否定打架——到底有没有钱？听的人猜不出。否定句里的「一些」用 any。"
+      },
+      {
+        "bad": "— Don't you like it? — Yes.（想说：对，我不喜欢）",
+        "good": "— Don't you like it? — No, I don't.",
+        "zone": "blocks",
+        "why": "英语的 Yes 永远=喜欢、No 永远=不喜欢——按中文「对呀」答 Yes，意思正好说反。"
+      },
+      {
+        "bad": "Does she likes ice cream?",
+        "good": "Does she like ice cream?",
+        "zone": "tested",
+        "why": "does 已报三单，like 再加 s 就是两个人抢拍——手势后动词回原形。"
+      },
+      {
+        "bad": "You like music?",
+        "good": "Do you like music?",
+        "zone": "tested",
+        "why": "光靠语调提问是四百年前的老规矩——现在问句要请 do 举手。"
+      },
+      {
+        "bad": "He don't like vegetables.",
+        "good": "He doesn't like vegetables.",
+        "zone": "tested",
+        "why": "三单的否定手势是 doesn't。"
+      },
+      {
+        "bad": "Did you went to the park?",
+        "good": "Did you go to the park?",
+        "zone": "tested",
+        "why": "did 已报过去，went 再变就是抢拍——回原形 go。"
+      },
+      {
+        "bad": "I don't can swim.",
+        "good": "I can't swim.",
+        "zone": "tested",
+        "why": "can 自带指挥棒，自己加 not——轮不到 don't。"
+      },
+      {
+        "bad": "Do you are happy?",
+        "good": "Are you happy?",
+        "zone": "tested",
+        "why": "be 的句子 be 自己搬句首——不请 do。"
+      },
+      {
+        "bad": "What you like for breakfast?",
+        "good": "What do you like for breakfast?",
+        "zone": "tested",
+        "why": "疑问词后面还是要有手势——What do you...?"
+      },
+      {
+        "bad": "Where does he lives?",
+        "good": "Where does he live?",
+        "zone": "tested",
+        "why": "does 举手后 live 回原形。"
+      },
+      {
+        "bad": "Whom do you like best in the band?",
+        "good": "Who do you like best in the band?",
+        "zone": "minor",
+        "why": "whom 是老派书面语，日常和 KET 里说 who 没人扣分。"
+      },
+      {
+        "bad": "Do you know where is the station?",
+        "good": "Do you know where the station is?",
+        "zone": "minor",
+        "why": "句子套句子时里层不再倒装——说错了意思照样通，KET 也很少考这么深。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "你喜欢音乐吗？（句尾加「吗」）",
+        "en": "Do you like music?（句首举 do）",
+        "diff": "中文在句尾贴标签；英语在句首举手势——位置相反，功能相同。"
+      },
+      {
+        "cn": "她不吃鱼。（加个「不」就完）",
+        "en": "She doesn't eat fish.（请 doesn't + 原形）",
+        "diff": "中文的「不」直接贴动词；英语要先请手势，动词退回原形。"
+      },
+      {
+        "cn": "「吗」永远是「吗」",
+        "en": "Do / Does / Did 看人称和时态换",
+        "diff": "中文的问号标签不变形；英语的手势替动词报时报人称。"
+      },
+      {
+        "cn": "——你不喜欢吗？——对，不喜欢。",
+        "en": "— Don't you like it? — No, I don't.",
+        "diff": "中文的「对」应和对方说法；英语的 Yes/No 只看事实——不喜欢就 No。"
+      },
+      {
+        "cn": "你会游泳吗？（也用「吗」）",
+        "en": "Can you swim?（can 自己搬家）",
+        "diff": "中文一个「吗」通吃；英语分两队——be/情态自带指挥棒，其余请 do。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先看动词：be 和 can 自己搬家；其余请 do 举手，动词回原形",
+      "steps": [
+        "想提问或否定？先看句子里的动词是谁。",
+        "是 be（am/is/are/was/were）或情态动词（can/must）→ 它自己搬句首 / 自己加 not，不请 do。",
+        "是普通动词 → 请手势：现在 Do（三单 Does）、过去 Did；否定 don't / doesn't / didn't。",
+        "手势举过，主动词一律回原形——检查有没有两个人抢拍（Does...likes ✗）。",
+        "简答跟手势走：Do 问 do 答；回答 Yes/No 只看事实，别按中文的「对/不对」。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语提问要请一位不说话的指挥：他叫 do，往句子最前面一站、手一举，大家就知道这是问句。他还很贴心——他举了手，后面的动词就什么都不用变了。咱们玩举手游戏：我用中文问你问题（『你喜欢冰激凌吗？』『爸爸昨天加班了吗？』），你先说该派哪位指挥出场——问现在派 Do，问『他/她』派 Does，问昨天派 Did——再把问句说完整。」不用懂英语，记住口诀帮她检查：指挥举了手，动词就不许再变形——听到她说 Does she likes 就喊「抢拍啦」。",
+      "questions": [
+        "中文的「吗」在句尾，英语的 do 在哪里？它自己有意思吗？",
+        "Does she like music? 里的 like 为什么不加 s？",
+        "「你是学生吗？」这句要请 do 吗？为什么？"
+      ]
+    },
+    "echo": "do 这套手势是英语四百年前的新发明。莎士比亚的年代两种问法并行：他既写 Like you music?（动词自己搬家的老规矩），也写 Do you like music?（新式手势）。后来新规矩赢了，但有两族词守住了老特权：be 和情态动词，至今还能自己搬到句首。为什么偏偏是它们？因为它们是全语言最常用的动词——天天被搬来搬去，习惯焊死了，新规矩管不着。越常用的词，越保得住老规矩：这是基石层暗线最后一次亮相，往后你在每一层还会遇见它。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G12 · 疑问句与助动词 do</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>do 是指挥的起拍手势——不发声，但全团知道要开始</text><rect x='36' y='116' width='648' height='120' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>🙋 三只手势（举手后动词回原形）</text><text x='170' y='192' text-anchor='middle' font-size='18' fill='#5A4A42'>Do you like...?</text><text x='360' y='192' text-anchor='middle' font-size='18' fill='#5A4A42'>Does she like...?</text><text x='560' y='192' text-anchor='middle' font-size='18' fill='#5A4A42'>Did they like...?</text><text x='170' y='220' text-anchor='middle' font-size='15' fill='#8A7568'>现在</text><text x='360' y='220' text-anchor='middle' font-size='15' fill='#8A7568'>三单（替她报了 s）</text><text x='560' y='220' text-anchor='middle' font-size='15' fill='#8A7568'>过去（替动词报了时）</text><rect x='36' y='260' width='316' height='150' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='194' y='296' text-anchor='middle' font-size='19' font-weight='bold' fill='#E76F33'>🚫 否定手势</text><text x='194' y='330' text-anchor='middle' font-size='17' fill='#5A4A42'>don't / doesn't / didn't</text><text x='194' y='362' text-anchor='middle' font-size='17' fill='#5A4A42'>+ 动词原形</text><text x='194' y='392' text-anchor='middle' font-size='15' fill='#8A7568'>He doesn't like fish.</text><rect x='368' y='260' width='316' height='150' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='526' y='296' text-anchor='middle' font-size='19' font-weight='bold' fill='#9B59B6'>🎩 自带指挥棒（不请 do）</text><text x='526' y='330' text-anchor='middle' font-size='17' fill='#5A4A42'>be：Are you happy?</text><text x='526' y='362' text-anchor='middle' font-size='17' fill='#5A4A42'>情态：Can she swim?</text><text x='526' y='392' text-anchor='middle' font-size='15' fill='#8A7568'>它们自己搬句首、自己加 not</text><rect x='36' y='434' width='648' height='56' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='470' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ 抢拍警报：Does she likes ✗ · Did you went ✗ · Do you are ✗ · I don't can ✗</text><text x='360' y='524' text-anchor='middle' font-size='14' fill='#B8A79B'>简答跟手势走：Yes, I do. · No, she didn't. · 英语奇遇记 🦊 G12</text></svg>",
+    "alt": "G12 记忆卡：三只手势 Do/Does/Did 举手后动词回原形；否定 don't/doesn't/didn't；be 与情态动词自带指挥棒不请 do；抢拍错误警报四连。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 派哪只手势",
+        "questions": [
+          { "q": "问「你」现在的爱好，派谁举手？", "options": ["Do", "Does", "Did"], "answer": 0, "explain": "you + 现在——Do you...?", "level": 1 },
+          { "q": "问「她」现在的习惯，派谁举手？", "options": ["Does", "Do", "Did"], "answer": 0, "explain": "三单的她——Does。", "level": 1 },
+          { "q": "问「昨天」的事，派谁举手？", "options": ["Did", "Do", "Does"], "answer": 0, "explain": "过去一律 Did，不分人称。", "level": 1 },
+          { "q": "问「他」现在的情况，派谁举手？", "options": ["Does", "Do", "Did"], "answer": 0, "explain": "三单的他——Does。", "level": 1 },
+          { "q": "问「他们」现在的事，派谁举手？", "options": ["Do", "Does", "Did"], "answer": 0, "explain": "they 复数——Do。", "level": 1 },
+          { "q": "问「你妈妈」的工作，派谁举手？", "options": ["Does", "Do", "Did"], "answer": 0, "explain": "your mother 三单——Does。", "level": 1 },
+          { "q": "问「你和汤姆」的事，派谁举手？", "options": ["Do", "Does", "Did"], "answer": 0, "explain": "you and Tom 两个人——Do。", "level": 1 },
+          { "q": "「他不喜欢」：He ___ like...", "options": ["doesn't", "don't", "didn't"], "answer": 0, "explain": "三单现在的否定——doesn't。", "level": 1 },
+          { "q": "「我们不知道」：We ___ know.", "options": ["don't", "doesn't", "didn't"], "answer": 0, "explain": "we + 现在——don't。", "level": 1 },
+          { "q": "「昨天没去」：They ___ go yesterday.", "options": ["didn't", "don't", "doesn't"], "answer": 0, "explain": "过去的否定——didn't。", "level": 1 },
+          { "q": "「我不知道」：I ___ know.", "options": ["don't", "doesn't", "am not"], "answer": 0, "explain": "I + 现在——don't。", "level": 1 },
+          { "q": "「她不吃鱼」：She ___ eat fish.", "options": ["doesn't", "don't", "isn't"], "answer": 0, "explain": "三单否定——doesn't；eat 保持原形。", "level": 1 },
+          { "q": "Did 举手之后，动词用什么形？", "options": ["原形", "过去式", "三单形"], "answer": 0, "explain": "手势已报过去——动词回原形。", "level": 1 },
+          { "q": "Does 举手之后，动词要加 s 吗？", "options": ["不加，回原形", "要加 s", "看心情"], "answer": 0, "explain": "does 已替她报了三单——动词不再加 s。", "level": 1 },
+          { "q": "「你是学生吗？」要请 do 吗？", "options": ["不请，be 自己搬句首", "请 Do", "请 Does"], "answer": 0, "explain": "be 自带指挥棒——Are you a student?", "level": 1 },
+          { "q": "「你会游泳吗？」要请 do 吗？", "options": ["不请，can 自己搬句首", "请 Do", "请 Did"], "answer": 0, "explain": "情态动词自带指挥棒——Can you swim?", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 举手成句",
+        "questions": [
+          { "q": "___ you like this song?", "options": ["Do", "Does", "Are"], "answer": 0, "explain": "you + 实义动词 like——Do。", "level": 2 },
+          { "q": "___ your sister play the flute?", "options": ["Does", "Do", "Is"], "answer": 0, "explain": "your sister 三单——Does。", "level": 2 },
+          { "q": "___ they go to the concert yesterday?", "options": ["Did", "Do", "Were"], "answer": 0, "explain": "yesterday——Did。", "level": 2 },
+          { "q": "He ___ like coffee at all.", "options": ["doesn't", "don't", "isn't"], "answer": 0, "explain": "三单否定 doesn't。", "level": 2 },
+          { "q": "I ___ watch TV last night.", "options": ["didn't", "don't", "doesn't"], "answer": 0, "explain": "last night——didn't。", "level": 2 },
+          { "q": "What ___ you usually do on Sundays?", "options": ["do", "does", "are"], "answer": 0, "explain": "疑问词后照举手势——What do you...?", "level": 2 },
+          { "q": "Where ___ your uncle live?", "options": ["does", "do", "is"], "answer": 0, "explain": "your uncle 三单——does；live 回原形。", "level": 2 },
+          { "q": "— Do you like ice cream? — Yes, I ___.", "options": ["do", "am", "like"], "answer": 0, "explain": "Do 问 do 答——Yes, I do。", "level": 2 },
+          { "q": "— Does Tom swim well? — No, he ___.", "options": ["doesn't", "don't", "isn't"], "answer": 0, "explain": "Does 问 doesn't 答。", "level": 2 },
+          { "q": "— Did you see the film? — Yes, I ___.", "options": ["did", "do", "saw"], "answer": 0, "explain": "Did 问 did 答。", "level": 2 },
+          { "q": "When ___ the concert start tonight?", "options": ["does", "do", "is"], "answer": 0, "explain": "the concert 三单——does。", "level": 2 },
+          { "q": "My parents ___ work on Saturdays.", "options": ["don't", "doesn't", "aren't"], "answer": 0, "explain": "parents 复数——don't。", "level": 2 },
+          { "q": "___ it rain a lot in your city?", "options": ["Does", "Do", "Is"], "answer": 0, "explain": "it 三单——Does it rain...?", "level": 2 },
+          { "q": "How ___ you go to school every day?", "options": ["do", "does", "are"], "answer": 0, "explain": "you——do。", "level": 2 },
+          { "q": "She ___ finish her homework yesterday.", "options": ["didn't", "doesn't", "don't"], "answer": 0, "explain": "yesterday——didn't；finish 回原形。", "level": 2 },
+          { "q": "Why ___ he look so happy today?", "options": ["does", "do", "is"], "answer": 0, "explain": "he 三单——does；look 回原形。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 抢拍警报",
+        "questions": [
+          { "q": "哪一句没抢拍？（她喜欢冰激凌吗）", "options": ["Does she like ice cream?", "Does she likes ice cream?", "Do she likes ice cream?"], "answer": 0, "explain": "does 举手后 like 回原形——一队只一个打拍子。", "level": 3 },
+          { "q": "哪一句是健康的问句？（你喜欢这首歌吗）", "options": ["Do you like this song?", "You like this song?", "Like you this song?"], "answer": 0, "explain": "现代英语问句要请 do 举手——光靠语调是四百年前的说法。", "level": 3 },
+          { "q": "哪一句的否定是健康的？（他不做作业）", "options": ["He doesn't do his homework.", "He don't do his homework.", "He not do his homework."], "answer": 0, "explain": "三单否定 doesn't；第二个 do 是实义动词。", "level": 3 },
+          { "q": "哪一句没抢拍？（你昨天看电影了吗）", "options": ["Did you see the film yesterday?", "Did you saw the film yesterday?", "Do you saw the film yesterday?"], "answer": 0, "explain": "did 已报过去——see 回原形。", "level": 3 },
+          { "q": "哪一句是健康的？（我不会游泳）", "options": ["I can't swim.", "I don't can swim.", "I can't to swim."], "answer": 0, "explain": "can 自带指挥棒，自己加 not。", "level": 3 },
+          { "q": "哪一句是健康的问句？（你开心吗）", "options": ["Are you happy?", "Do you are happy?", "Does you happy?"], "answer": 0, "explain": "be 的句子 be 自己搬家——不请 do。", "level": 3 },
+          { "q": "哪一句是健康的问句？（你早饭吃什么）", "options": ["What do you have for breakfast?", "What you have for breakfast?", "What have you for breakfast?"], "answer": 0, "explain": "疑问词后面还是要举手势——What do you...?", "level": 3 },
+          { "q": "哪一句没抢拍？（他住在哪）", "options": ["Where does he live?", "Where does he lives?", "Where do he live?"], "answer": 0, "explain": "does + 原形 live。", "level": 3 },
+          { "q": "哪一句的简答是健康的？（——你打网球吗？——打）", "options": ["Yes, I do.", "Yes, I play.", "Yes, I am."], "answer": 0, "explain": "Do 问 do 答。", "level": 3 },
+          { "q": "哪一句是健康的？（她昨天没来排练）", "options": ["She didn't come to the rehearsal yesterday.", "She didn't came to the rehearsal yesterday.", "She doesn't came to the rehearsal yesterday."], "answer": 0, "explain": "didn't + 原形 come。", "level": 3 },
+          { "q": "哪一句是健康的问句？（他是你哥哥吗）", "options": ["Is he your brother?", "Does he your brother?", "Do he is your brother?"], "answer": 0, "explain": "没有实义动词——be 自己上。", "level": 3 },
+          { "q": "哪一句是健康的问句？（你能帮我吗）", "options": ["Can you help me?", "Do you can help me?", "Can you to help me?"], "answer": 0, "explain": "can 自己搬句首，后接原形。", "level": 3 },
+          { "q": "哪一句是健康的？（他不喜欢蔬菜）", "options": ["He doesn't like vegetables.", "He don't like vegetables.", "He doesn't likes vegetables."], "answer": 0, "explain": "doesn't + 原形 like——别抢拍。", "level": 3 },
+          { "q": "哪一句是健康的问句？（谁是你们的指挥）", "options": ["Who is your conductor?", "Who does your conductor?", "Who do your conductor is?"], "answer": 0, "explain": "问「是谁」用 be——Who is...?", "level": 3 },
+          { "q": "哪一句是健康的问句？（你爸爸做什么工作）", "options": ["What does your father do?", "What does your father does?", "What is your father do?"], "answer": 0, "explain": "前一个 does 是手势，后一个 do 是实义动词「做」。", "level": 3 },
+          { "q": "哪一句是健康的？（她不吃早饭吗？）", "options": ["Doesn't she have breakfast?", "Don't she has breakfast?", "Isn't she have breakfast?"], "answer": 0, "explain": "否定疑问：Doesn't + 主语 + 原形。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 上场演出",
+        "questions": [
+          { "q": "___ your brother a doctor?", "options": ["Is", "Does", "Do"], "answer": 0, "explain": "没有实义动词，「是」医生——be 自己上。", "level": 4 },
+          { "q": "___ your brother work in a hospital?", "options": ["Does", "Is", "Are"], "answer": 0, "explain": "有实义动词 work——请 Does。上一题的孪生兄弟，看动词选指挥。", "level": 4 },
+          { "q": "— ___ you at home last night? — No, I ___ at the concert.", "options": ["Were / was", "Did / was", "Were / did"], "answer": 0, "explain": "「在家」没有实义动词——用 be 的过去 were/was。", "level": 4 },
+          { "q": "— ___ you go anywhere last night? — Yes, I ___ to the concert.", "options": ["Did / went", "Did / go", "Were / went"], "answer": 0, "explain": "问句 did + go 原形；答句是陈述句，went 自己报过去。", "level": 4 },
+          { "q": "She ___ to the party because she ___ well.", "options": ["didn't go / didn't feel", "didn't went / didn't felt", "doesn't go / didn't feel"], "answer": 0, "explain": "两个 didn't 后都跟原形——go、feel。", "level": 4 },
+          { "q": "— Don't you like this song? — ___（其实很喜欢）", "options": ["Yes, I do.", "No, I do.", "Yes, I don't."], "answer": 0, "explain": "喜欢就答 Yes, I do——Yes/No 只看事实，不看问法。", "level": 4 },
+          { "q": "I don't have ___ money with me today.", "options": ["any", "no", "some no"], "answer": 0, "explain": "否定句里的「一些」用 any——don't + no 是双重否定打架。", "level": 4 },
+          { "q": "How often ___ your band practise?", "options": ["does", "do", "is"], "answer": 0, "explain": "band 当整体三单——does；practise 回原形。", "level": 4 },
+          { "q": "What time ___ the museum open on Sundays?", "options": ["does", "do", "is"], "answer": 0, "explain": "the museum 三单——does。", "level": 4 },
+          { "q": "— ___ Lily and Lucy come from Beijing? — Yes, they ___.", "options": ["Do / do", "Does / does", "Do / does"], "answer": 0, "explain": "两个人复数——Do 问 do 答。", "level": 4 },
+          { "q": "Why ___ you tell me earlier? I missed the show!", "options": ["didn't", "don't", "doesn't"], "answer": 0, "explain": "埋怨过去没说——didn't tell。", "level": 4 },
+          { "q": "— What ___ your mother ___ ? — She's a nurse.", "options": ["does / do", "is / do", "does / does"], "answer": 0, "explain": "问职业固定句：What does she do? 手势 does + 实义 do。", "level": 4 },
+          { "q": "___ there a rehearsal today, or ___ we have a day off?", "options": ["Is / do", "Does / do", "Is / are"], "answer": 0, "explain": "There be 问句用 Is there；后半句实义动词 have——do。", "level": 4 },
+          { "q": "He ___ the drum now — he ___ it every evening.", "options": ["isn't playing / plays", "doesn't play / is playing", "isn't playing / is playing"], "answer": 0, "explain": "此刻的否定跟 be（G07）；习惯用常态牌 plays（G06）。", "level": 4 },
+          { "q": "— ___ she ___ her homework yet? 哦不对，用过去问：___ she finish it last night?", "options": ["—— / —— / Did", "Does / do / Did", "Is / doing / Was"], "answer": 0, "explain": "last night 的完成与否——Did she finish...?（did + 原形）。", "level": 4 },
+          { "q": "大考：___ you like music? ___ your sister like it too? ___ you both go to the concert last week?", "options": ["Do / Does / Did", "Do / Do / Did", "Does / Does / Do"], "answer": 0, "explain": "you 现在 Do；三单 Does；上周 Did——三只手势一次点齐。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "Does Lily likes ice cream?",
+      "fixed": "Does Lily like ice cream?",
+      "clue": "does 已经替她报了三单——like 再加 s 就是抢拍。"
+    },
+    {
+      "sentence": "You like this song?",
+      "fixed": "Do you like this song?",
+      "clue": "现代英语的问句要请 do 到句首举手——光靠语调是老古董问法。"
+    },
+    {
+      "sentence": "He don't do his homework every day.",
+      "fixed": "He doesn't do his homework every day.",
+      "clue": "三单的否定手势是 doesn't——第二个 do 是实义动词，不用动。"
+    },
+    {
+      "sentence": "Did you saw the film last night?",
+      "fixed": "Did you see the film last night?",
+      "clue": "did 已经报了过去——saw 要退回原形 see。"
+    },
+    {
+      "sentence": "Where does she lives?",
+      "fixed": "Where does she live?",
+      "clue": "does 举手后动词回原形——lives 的 s 是抢来的拍。"
+    },
+    {
+      "sentence": "I didn't went to school yesterday.",
+      "fixed": "I didn't go to school yesterday.",
+      "clue": "didn't 已报过去——went 退回原形 go。"
+    },
+    {
+      "sentence": "Do he play the drum in your band?",
+      "fixed": "Does he play the drum in your band?",
+      "clue": "he 是三单——手势要换成 Does。"
+    }
+  ]
+}

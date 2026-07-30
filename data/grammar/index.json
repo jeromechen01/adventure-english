@@ -130,6 +130,17 @@
       "file": "./data/grammar/g11.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G12",
+      "tier": "基石",
+      "title": "疑问句与助动词 do",
+      "metaphor": "do 是指挥的起拍手势，不发声但全团知道要开始",
+      "ketRelevance": 3,
+      "ketLessonMap": ["L2"],
+      "file": "./data/grammar/g12.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
