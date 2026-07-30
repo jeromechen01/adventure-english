@@ -1,7 +1,7 @@
 {
   "$comment": "语法大厅索引（V0.9）。只存元信息，不存正文与题目；正文在同目录 gXX.json，按需懒加载。字段定义见 _schema.index.json。与本目录下 kindergarten/primary/junior.json（1-9 年级语法学院）互不影响。",
   "type": "grammar-hall",
-  "version": "0.9.1",
+  "version": "0.9.15",
   "updated": "2026-07-30",
   "tiers": [
     { "key": "foundation", "name": "基石", "range": "G01-G12", "stage": "小学1-4年级", "cefr": "前A1-A1", "color": "#FF8A4C" },
@@ -139,6 +139,17 @@
       "ketRelevance": 3,
       "ketLessonMap": ["L2"],
       "file": "./data/grammar/g12.json",
+      "questionCount": 64,
+      "status": "done"
+    },
+    {
+      "id": "G13",
+      "tier": "骨架",
+      "title": "一般过去时与 40 个不规则动词",
+      "metaphor": "中文动词是没日期的照片，英文动词自带日期戳",
+      "ketRelevance": 3,
+      "ketLessonMap": ["L3"],
+      "file": "./data/grammar/g13.json",
       "questionCount": 64,
       "status": "done"
     }

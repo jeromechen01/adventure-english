@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G13（V0.9 P2a 样课，骨架层首课）。比喻与 KET 八课 L3 字面一致：中文动词是没日期的照片，英文动词自带日期戳。40 不规则动词沿用六组分形状记法（接 data/exam/ket/irregular-verbs.json，不按字母表排）。暗线主打：越常用的词，越不规则。全部内容原创。",
+  "id": "G13",
+  "tier": "骨架",
+  "title": "一般过去时与 40 个不规则动词",
+  "metaphor": "中文动词是没日期的照片，英文动词自带日期戳",
+  "ketRelevance": 3,
+  "ketLessonMap": ["L3"],
+  "ketNote": "过去式盖戳是 KET Part 7 看图写故事的第一评分点；不规则动词写没写对，直接决定 Part 5 和写作的印象分。八课里的亲戚是 L3。",
+  "source": "original",
+  "sections": {
+    "essence": "中文动词是没日期的照片，英文动词自带日期戳：昨天的事，动词自己变形报时。",
+    "why": "中文的动词像一张没有日期的照片：「我昨天吃面」「我明天吃面」——「吃」永远不变，时间写在旁边的便签（昨天／明天）上。英文正相反：日期戳直接刻在动词身上，play 是今天的，played 是昨天的——戳一盖上，便签 yesterday 反而可以不要。大部分动词乖乖盖 -ed 公章；可英语里最有用的那 40 个动词偏偏不用公章，各留各的老印章：go→went、eat→ate、see→saw。所以中国孩子讲昨天的事，最容易「便签写着昨天，照片却盖着今天的戳」——这正是 KET 写作里最扣分的毛病。",
+    "metaphorStory": "银帆乐团有一本排练日志，专门记「已经发生的事」。管日志的乐务老师有一枚 -ed 日期戳：练完琴，play 盖成 played；看完演出，watch 盖成 watched——词尾一看，就知道这件事翻篇了。可乐团里有四十位老团员，资历比这枚公章还老：公章发明前他们就入团了，早刻好了自家的私章。老师举着公章过去，他们把手一挡：「我有自己的章。」go 的私章是 went，eat 的是 ate，see 的是 saw。好在私章不是乱刻的，凑近看能认出六种形状：有的干脆不变（put→put），有的换个元音（sing→sang），有一家子全姓 -ought（buy→bought），有的尾巴利落收个 t（sleep→slept），有的被风吹成 -ew（know→knew），剩下的各走各路，是独行侠（go→went）。记形状，别背字母表。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "规则动词：盖 -ed 公章",
+          "detail": "昨天、上周、去年发生完的事，动词词尾盖 -ed。",
+          "example": "play→played / watch→watched / visit→visited"
+        },
+        {
+          "rule": "-ed 公章的三条拼写小规则",
+          "detail": "以 e 结尾只加 d；辅音+y 变 i 加 ed；短元音+单辅音先双写再加 ed。",
+          "example": "like→liked / study→studied / stop→stopped"
+        },
+        {
+          "rule": "-ed 的三种读音",
+          "detail": "清音后读 /t/，浊音后读 /d/，t 和 d 后面读 /ɪd/——读出来能帮你记住写法。",
+          "example": "watched /t/ · played /d/ · wanted /ɪd/"
+        },
+        {
+          "rule": "40 位老团员：六组私章，按形状记",
+          "detail": "🪨完全不变（put→put）· 🔄换元音 i→a（sing→sang）· 🎣-ought 一家（buy→bought）· ✂️尾巴变 t（sleep→slept）· 🌬️风吹 -ew（know→knew）· 🤠独行侠（go→went）。一天一组，第七天混起来抽查——别按字母表背。",
+          "example": "cut→cut / swim→swam / think→thought / feel→felt / fly→flew / eat→ate"
+        },
+        {
+          "rule": "信号词先定调",
+          "detail": "yesterday / last week / two days ago → 过去；every day / usually / often → 现在。先看信号词定调，再选动词形状。",
+          "example": "Last night we watched the stars. / I water the plants every day."
+        },
+        {
+          "rule": "did 一出场，时间戳只盖一次",
+          "detail": "疑问和否定交给 did / didn't 之后，动词回到原形——这是 G12 那只手势的规矩。",
+          "example": "Did you go there? / I didn't go.（不说 Did you went）"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I played basketball after school yesterday.", "cn": "昨天放学后我打了篮球。（play 盖上 -ed 戳）" },
+          { "en": "She watched a cartoon last night.", "cn": "她昨晚看了动画片。" },
+          { "en": "We visited the science museum last month.", "cn": "上个月我们参观了科技馆。" },
+          { "en": "My family went to the park last Sunday.", "cn": "上周日我们全家去了公园。（go 用私章 went）" },
+          { "en": "Grandma told me a funny story last night.", "cn": "昨晚奶奶给我讲了个好笑的故事。（tell→told）" }
+        ],
+        "mid": [
+          { "en": "The show began at half past seven.", "cn": "演出七点半开始了。（begin→began，i 变 a）" },
+          { "en": "I lost my gloves on the way to school.", "cn": "上学路上我把手套弄丢了。（lose→lost）" },
+          { "en": "He caught the ball with one hand.", "cn": "他单手接住了球。（catch→caught，-ought 一家）" },
+          { "en": "We flew to Kunming for the holiday.", "cn": "假期我们飞去了昆明。（fly→flew）" },
+          { "en": "She kept the ticket in her pocket.", "cn": "她把票收在口袋里。（keep→kept，尾巴变 t）" }
+        ],
+        "trap": [
+          { "en": "Yesterday I read a storybook in bed.", "cn": "昨天我躺在床上读了本故事书。", "note": "read 的过去式拼写完全不变，只有读音变 /red/——写出来看不出，读出来才暴露时态。" },
+          { "en": "I studied for the test and then stopped to rest.", "cn": "我复习完考试内容，然后停下来休息。", "note": "study 辅音+y 变 i 加 ed；stop 短元音+单辅音要双写——两条拼写小规则同框。" },
+          { "en": "Did you take any photos at the zoo?", "cn": "你在动物园拍照了吗？", "note": "did 已经盖了戳——take 回原形，时间戳只盖一次。" },
+          { "en": "He didn't say a word all morning.", "cn": "他一上午一句话都没说。", "note": "didn't 后动词回原形 say，不说 didn't said。" },
+          { "en": "We put the chairs away after class yesterday.", "cn": "昨天下课后我们把椅子收好了。", "note": "put 是完全不变组——全靠 yesterday 才知道是过去的事。" },
+          { "en": "My mum cut the cake into eight pieces just now.", "cn": "妈妈刚把蛋糕切成了八块。", "note": "cut 也完全不变——「不变」本身就是它的私章。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "I'm sorry — I break your cup.",
+        "good": "I'm sorry — I broke your cup.",
+        "zone": "blocks",
+        "why": "不盖戳，听的人以为你「老是打碎杯子」甚至「打算打碎」——刚才发生的事说不清了。"
+      },
+      {
+        "bad": "We meet at the school gate at three.（想说：昨天三点见过了）",
+        "good": "We met at the school gate at three.",
+        "zone": "blocks",
+        "why": "meet 不变形就成了「三点见」的约定——到底见过了还是要去见，意思全反。"
+      },
+      {
+        "bad": "He goed to bed very late last night.",
+        "good": "He went to bed very late last night.",
+        "zone": "tested",
+        "why": "go 是独行侠，不盖 -ed 公章——它的私章是借来的 went。"
+      },
+      {
+        "bad": "She wented home after the show.",
+        "good": "She went home after the show.",
+        "zone": "tested",
+        "why": "went 已经是过去式了，再加 -ed 是盖两次戳。"
+      },
+      {
+        "bad": "I buyed some fruit for grandma.",
+        "good": "I bought some fruit for grandma.",
+        "zone": "tested",
+        "why": "buy 是 -ought 一家的——bought。"
+      },
+      {
+        "bad": "Tom runned across the street.",
+        "good": "Tom ran across the street.",
+        "zone": "tested",
+        "why": "run 换元音 u→a 变 ran，不双写也不加 -ed。"
+      },
+      {
+        "bad": "Did you watched the match last night?",
+        "good": "Did you watch the match last night?",
+        "zone": "tested",
+        "why": "did 已经盖了戳——watch 回原形，时间戳只盖一次。"
+      },
+      {
+        "bad": "They didn't went out because of the rain.",
+        "good": "They didn't go out because of the rain.",
+        "zone": "tested",
+        "why": "didn't 后动词回原形 go——两个人抢着报时就乱了。"
+      },
+      {
+        "bad": "I seed a shooting star last night.",
+        "good": "I saw a shooting star last night.",
+        "zone": "tested",
+        "why": "see 是独行侠——saw。"
+      },
+      {
+        "bad": "He standed there for an hour.",
+        "good": "He stood there for an hour.",
+        "zone": "tested",
+        "why": "stand 的私章是 stood——不盖 -ed。"
+      },
+      {
+        "bad": "I dreamed a strange dream last night.（有人说必须写 dreamt）",
+        "good": "dreamed / dreamt 都对。",
+        "zone": "minor",
+        "why": "少数动词两种过去式并存（美式 dreamed / 英式 dreamt），KET 不设这个坑。"
+      },
+      {
+        "bad": "Yesterday night I heard a strange sound.",
+        "good": "Last night I heard a strange sound.",
+        "zone": "minor",
+        "why": "yesterday night 不地道但意思不挡——地道说法是 last night。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我昨天吃面。（「吃」不变，时间在便签上）",
+        "en": "I ate noodles yesterday.（eat 变 ate，自己报时）",
+        "diff": "中文动词是没日期的照片；英文的日期戳直接刻在动词身上。"
+      },
+      {
+        "cn": "吃了饭再走。（「了」却说的是将来）",
+        "en": "过去就 ate，将来就 will eat",
+        "diff": "中文的「了」表「完成」不表「过去」；英语的过去式只认时间——别把「了」自动翻成过去式。"
+      },
+      {
+        "cn": "去、去、去——永远一个字",
+        "en": "go / goes / went 换形状",
+        "diff": "中文动词从不变形；英文一个动词好几副面孔，各管各的时间。"
+      },
+      {
+        "cn": "你昨天去了吗？（动词照旧）",
+        "en": "Did you go there yesterday?（did 接管时间戳，go 回原形）",
+        "diff": "中文提问动词不动；英语把时间戳交给 did，动词退回原形。"
+      },
+      {
+        "cn": "讲故事不用管每个动词的时间",
+        "en": "英语一段话里每个动词各自盖戳",
+        "diff": "中文靠上下文定时间；英语每个动词都要自己报时，一个漏盖就是病句。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先找信号词定调；昨天的事必盖戳；盖章前先问——是不是老团员？",
+      "steps": [
+        "找信号词：yesterday / last... / ...ago → 过去；every day / usually / often → 现在。",
+        "定了过去 → 句子里每个动词都要盖过去戳，一个都不能漏。",
+        "规则动词盖 -ed 公章，过一遍拼写三小规则（e 结尾只加 d / y 变 i / 短元音双写）。",
+        "是 40 位老团员？换他们的私章——先认形状：不变 / i→a / -ought / 变 t / -ew / 独行侠。",
+        "句子里有 did / didn't？时间戳已被它盖走——动词回原形。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，中文的动词像没日期的照片：『我昨天吃面』的『吃』和今天的『吃』一模一样。英语的动词自己带日期戳：今天 play，昨天就变 played；今天 eat，昨天就变 ate。咱们晚饭玩『昨天今天』：你先用英语说一件今天常做的事，再把同一件事说成昨天做过的——我不懂英语没关系，我只听动词变没变。」孩子说对了可以加码：故意说「我昨天 go 公园」让她抓错——go 是有自己私章的老团员，昨天要说 went。听到她给 go、eat 这些词硬加 -ed（goed、eated），就喊「老团员不用公章」。",
+      "questions": [
+        "「我昨天吃面」的「吃」变了吗？英语的 eat 到了昨天要变成什么？",
+        "played 尾巴上的 -ed 是干什么用的？是不是所有动词都乖乖加 -ed？",
+        "Did you go to the park? 里的 go 为什么不用变成 went？"
+      ]
+    },
+    "echo": "英语里最常用的 40 个动词，恰好就是那 40 个不规则动词——这不是巧合。-ed 公章是后来才推行的「新章」：冷门动词没人天天用，旧形态早被人忘了，只好乖乖改用新章；而 go、eat、see 天天挂在嘴边，旧印章每天被盖一遍，根本轮不到被规则化。最极端的是 went：它本来是另一个动词 wend（缓缓而行）的过去式，被 go 借来就没还——最常用的 go，连过去式都是借的。越常用的词，越不规则。所以你背的不是 40 个例外，是同一条规律被说了 40 遍。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#0284C7'>G13 · 一般过去时与不规则动词</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>中文动词是没日期的照片，英文动词自带日期戳</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>📅 规则动词盖 -ed 公章</text><text x='360' y='178' text-anchor='middle' font-size='16' fill='#5A4A42'>play→played · like→liked · study→studied · stop→stopped ｜ 读音 /t/ /d/ /ɪd/</text><rect x='36' y='226' width='648' height='214' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='260' text-anchor='middle' font-size='19' font-weight='bold' fill='#0284C7'>🖋️ 40 位老团员的六组私章（记形状，别背字母表）</text><text x='150' y='300' text-anchor='middle' font-size='16' fill='#5A4A42'>🪨 完全不变</text><text x='150' y='326' text-anchor='middle' font-size='15' fill='#8A7568'>put→put · cut→cut</text><text x='360' y='300' text-anchor='middle' font-size='16' fill='#5A4A42'>🔄 换元音 i→a</text><text x='360' y='326' text-anchor='middle' font-size='15' fill='#8A7568'>sing→sang · swim→swam</text><text x='570' y='300' text-anchor='middle' font-size='16' fill='#5A4A42'>🎣 -ought 一家</text><text x='570' y='326' text-anchor='middle' font-size='15' fill='#8A7568'>buy→bought · think→thought</text><text x='150' y='368' text-anchor='middle' font-size='16' fill='#5A4A42'>✂️ 尾巴变 t</text><text x='150' y='394' text-anchor='middle' font-size='15' fill='#8A7568'>sleep→slept · feel→felt</text><text x='360' y='368' text-anchor='middle' font-size='16' fill='#5A4A42'>🌬️ 风吹 -ew</text><text x='360' y='394' text-anchor='middle' font-size='15' fill='#8A7568'>know→knew · fly→flew</text><text x='570' y='368' text-anchor='middle' font-size='16' fill='#5A4A42'>🤠 独行侠</text><text x='570' y='394' text-anchor='middle' font-size='15' fill='#8A7568'>go→went · eat→ate · see→saw</text><text x='360' y='426' text-anchor='middle' font-size='14' fill='#94A3B8'>一天一组 · 第七天混起来抽查</text><rect x='36' y='460' width='648' height='56' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='495' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ goed ✗ · buyed ✗ · wented ✗ · Did you went ✗（did 已盖戳，动词回原形）</text><text x='360' y='545' text-anchor='middle' font-size='15' fill='#7DA7C4'>信号词先定调：yesterday / last... / ...ago → 过去戳</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线：最常用的 40 个动词，恰好最不规则 · 英语奇遇记 🦊 G13</text></svg>",
+    "alt": "G13 记忆卡：英文动词自带日期戳；规则动词盖 -ed 公章（含三条拼写规则与三种读音）；40 个不规则动词按六组形状记（完全不变/i变a/-ought/尾巴变t/-ew/独行侠）；警示 goed、buyed、Did you went 三类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 信号词与私章",
+        "questions": [
+          { "q": "yesterday 是哪一天的信号词？", "options": ["过去", "现在", "将来"], "answer": 0, "explain": "yesterday＝昨天——动词要盖过去戳。", "level": 1 },
+          { "q": "every day 提示动词用什么调？", "options": ["现在（习惯）", "过去", "将来"], "answer": 0, "explain": "每天都发生的习惯——一般现在。", "level": 1 },
+          { "q": "last week 后面的动词要怎么办？", "options": ["盖过去戳", "用原形不变", "加 -ing"], "answer": 0, "explain": "上周的事已经发生完——盖过去戳。", "level": 1 },
+          { "q": "two days ago 是什么信号？", "options": ["过去", "现在", "将来"], "answer": 0, "explain": "…ago＝…之前——过去。", "level": 1 },
+          { "q": "usually 提示句子讲的是？", "options": ["平时的习惯", "昨天的事", "此刻正在做"], "answer": 0, "explain": "usually＝通常——一般现在说习惯。", "level": 1 },
+          { "q": "play 盖过去戳变成？", "options": ["played", "plaied", "plays"], "answer": 0, "explain": "规则动词直接盖 -ed 公章。", "level": 1 },
+          { "q": "watch 盖过去戳变成？", "options": ["watched", "watchs", "watching"], "answer": 0, "explain": "规则动词——watched。", "level": 1 },
+          { "q": "go 的过去式是？", "options": ["went", "goed", "goes"], "answer": 0, "explain": "独行侠 go 的私章是借来的 went。", "level": 1 },
+          { "q": "eat 的过去式是？", "options": ["ate", "eated", "eats"], "answer": 0, "explain": "独行侠——ate。", "level": 1 },
+          { "q": "see 的过去式是？", "options": ["saw", "seed", "sees"], "answer": 0, "explain": "独行侠——saw。", "level": 1 },
+          { "q": "put 的过去式是？", "options": ["put", "putted", "puts"], "answer": 0, "explain": "完全不变组——put 的私章就是「不变」。", "level": 1 },
+          { "q": "sing 的过去式是？", "options": ["sang", "singed", "sings"], "answer": 0, "explain": "换元音组：肚子里的 i 变 a——sang。", "level": 1 },
+          { "q": "buy 的过去式是？", "options": ["bought", "buyed", "buys"], "answer": 0, "explain": "-ought 一家——bought。", "level": 1 },
+          { "q": "sleep 的过去式是？", "options": ["slept", "sleeped", "sleeps"], "answer": 0, "explain": "尾巴变 t 组——slept。", "level": 1 },
+          { "q": "know 的过去式是？", "options": ["knew", "knowed", "knows"], "answer": 0, "explain": "风吹 -ew 组——knew。", "level": 1 },
+          { "q": "read 的过去式怎么变？", "options": ["拼写不变，读音变 /red/", "加 -ed 变 readed", "换成另一个词"], "answer": 0, "explain": "完全不变组里最狡猾的一个：写出来一样，读出来才露馅。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 盖对日期戳",
+        "questions": [
+          { "q": "We ___ football in the park yesterday.", "options": ["played", "play", "plays"], "answer": 0, "explain": "yesterday 定调过去——play 盖 -ed 戳。", "level": 2 },
+          { "q": "She ___ a new dress last Saturday.", "options": ["bought", "buyed", "buys"], "answer": 0, "explain": "buy 是 -ought 一家——bought。", "level": 2 },
+          { "q": "I ___ up at six this morning.（现在已经是晚上）", "options": ["got", "get", "gets"], "answer": 0, "explain": "今天早上已经过去——get→got。", "level": 2 },
+          { "q": "They ___ to the beach last summer.", "options": ["went", "goed", "go"], "answer": 0, "explain": "last summer 定调过去——went。", "level": 2 },
+          { "q": "He ___ two bowls of noodles last night.", "options": ["ate", "eated", "eats"], "answer": 0, "explain": "eat 是独行侠——ate。", "level": 2 },
+          { "q": "My grandpa ___ me a kite two days ago.", "options": ["made", "maked", "makes"], "answer": 0, "explain": "make→made——独行侠组。", "level": 2 },
+          { "q": "We ___ a lion at the zoo last Sunday.", "options": ["saw", "seed", "see"], "answer": 0, "explain": "see→saw。", "level": 2 },
+          { "q": "The baby ___ for ten hours last night.", "options": ["slept", "sleeped", "sleeps"], "answer": 0, "explain": "sleep 尾巴变 t——slept。", "level": 2 },
+          { "q": "Tom ___ his schoolbag on the bus yesterday.", "options": ["left", "leaved", "leaves"], "answer": 0, "explain": "leave 尾巴变 t（还剪短了元音）——left。", "level": 2 },
+          { "q": "I ___ a picture of my pet in art class yesterday.", "options": ["drew", "drawed", "draw"], "answer": 0, "explain": "draw 被风吹成 -ew——drew。", "level": 2 },
+          { "q": "The film ___ at seven and ended at nine.", "options": ["began", "beginned", "begins"], "answer": 0, "explain": "begin 换元音 i→a——began；后面的 ended 已经盖好戳提示你了。", "level": 2 },
+          { "q": "He ___ his grandma a long letter last month.", "options": ["wrote", "writed", "writes"], "answer": 0, "explain": "write→wrote——独行侠。", "level": 2 },
+          { "q": "The leaves ___ down in the wind yesterday.", "options": ["fell", "falled", "fall"], "answer": 0, "explain": "fall→fell。", "level": 2 },
+          { "q": "She ___ her ticket on the way home and cried.", "options": ["lost", "losed", "loses"], "answer": 0, "explain": "lose 尾巴变 t——lost。", "level": 2 },
+          { "q": "stop 盖过去戳要怎么写？", "options": ["stopped", "stoped", "stopping"], "answer": 0, "explain": "短元音+单辅音先双写再加 -ed——stopped。", "level": 2 },
+          { "q": "study 盖过去戳要怎么写？", "options": ["studied", "studyed", "studys"], "answer": 0, "explain": "辅音+y 变 i 加 ed——studied。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 假章警报",
+        "questions": [
+          { "q": "哪一句的日期戳盖对了？（昨天去游泳）", "options": ["We swam in the river yesterday.", "We swimmed in the river yesterday.", "We swim in the river yesterday."], "answer": 0, "explain": "swim 换元音 i→a——swam；swimmed 是假章。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（上周买了礼物）", "options": ["She bought a gift for me last week.", "She buyed a gift for me last week.", "She buys a gift for me last week."], "answer": 0, "explain": "-ought 一家——bought。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（昨晚跑回家）", "options": ["He ran home in the rain last night.", "He runned home in the rain last night.", "He runs home in the rain last night."], "answer": 0, "explain": "run→ran，不双写不加 -ed。", "level": 3 },
+          { "q": "哪一句的问句没抢戳？（刚才看到彩虹了吗）", "options": ["Did you see the rainbow just now?", "Did you saw the rainbow just now?", "Do you saw the rainbow just now?"], "answer": 0, "explain": "did 已盖戳——see 回原形，时间戳只盖一次。", "level": 3 },
+          { "q": "哪一句的否定没抢戳？（昨晚没听见电话）", "options": ["I didn't hear the phone last night.", "I didn't heard the phone last night.", "I don't heard the phone last night."], "answer": 0, "explain": "didn't 后动词回原形 hear。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（昨天从自行车上摔下来）", "options": ["She fell off her bike yesterday.", "She falled off her bike yesterday.", "She fells off her bike yesterday."], "answer": 0, "explain": "fall→fell——独行侠。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（上周教我们新歌）", "options": ["They taught us a new song last week.", "They teached us a new song last week.", "They teach us a new song last week."], "answer": 0, "explain": "teach 是 -aught 形——taught。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（今早在课桌下发现硬币）", "options": ["I found a coin under my desk this morning.", "I finded a coin under my desk this morning.", "I find a coin under my desk this morning."], "answer": 0, "explain": "find→found。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（球扔太远了）", "options": ["He threw the ball too far.", "He throwed the ball too far.", "He throws the ball too far just now."], "answer": 0, "explain": "throw 被风吹成 threw。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（聚会上喝光了果汁）", "options": ["We drank all the juice at the party.", "We drinked all the juice at the party.", "We drink all the juice at the party yesterday."], "answer": 0, "explain": "drink 换元音 i→a——drank。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（上周一飞去上海）", "options": ["My uncle flew to Shanghai last Monday.", "My uncle flied to Shanghai last Monday.", "My uncle flys to Shanghai last Monday."], "answer": 0, "explain": "fly→flew——风吹 -ew 组。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（这座桥 2018 年建的）", "options": ["The workers built this bridge in 2018.", "The workers builded this bridge in 2018.", "The workers build this bridge in 2018."], "answer": 0, "explain": "build 尾巴变 t——built；in 2018 是过去信号。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（昨天做饭切到手指）", "options": ["I cut my finger while cooking yesterday.", "I cutted my finger while cooking yesterday.", "I cuts my finger while cooking yesterday."], "answer": 0, "explain": "cut 完全不变——cutted 是假章。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（说了对不起就走了）", "options": ["She said sorry and went away.", "She sayed sorry and wented away.", "She said sorry and goed away."], "answer": 0, "explain": "say→said、go→went——一句里两个动词各盖各的私章。", "level": 3 },
+          { "q": "哪一句的问句盖对了？（昨天谁赢了比赛）", "options": ["Who won the game yesterday?", "Who winned the game yesterday?", "Who wins the game yesterday?"], "answer": 0, "explain": "win→won；问「谁做了」时动词自己带戳，不请 did。", "level": 3 },
+          { "q": "哪一句的日期戳盖对了？（在湖里钓到大鱼）", "options": ["He caught a big fish in the lake.", "He catched a big fish in the lake.", "He catchs a big fish in the lake."], "answer": 0, "explain": "catch 是 -aught 形——caught。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 上场演出",
+        "questions": [
+          { "q": "She usually ___ to school on foot, but this morning she ___ a taxi.", "options": ["walks / took", "walked / takes", "walks / takes"], "answer": 0, "explain": "usually 配现在 walks；this morning（已过去）配 took——一句里两个信号词、两种时态。", "level": 4 },
+          { "q": "I ___ milk every day, but yesterday I ___ juice.", "options": ["drink / drank", "drank / drink", "drink / drinked"], "answer": 0, "explain": "习惯用 drink；昨天盖戳 drank。", "level": 4 },
+          { "q": "Last night I ___ my homework, ___ a shower and went to bed.", "options": ["did / took", "do / take", "did / taked"], "answer": 0, "explain": "一段过去的事，每个动词都盖戳：did、took、went。", "level": 4 },
+          { "q": "— ___ you ___ the concert last night? — Yes, it was wonderful.", "options": ["Did / enjoy", "Did / enjoyed", "Do / enjoyed"], "answer": 0, "explain": "did 举手后 enjoy 回原形——时间戳只盖一次。", "level": 4 },
+          { "q": "The sun ___ in the east — that never changes.", "options": ["rises", "rose", "rise"], "answer": 0, "explain": "永远为真的事实用一般现在——rises（三单加 s）。", "level": 4 },
+          { "q": "We ___ dumplings and then ___ home last night.", "options": ["ate / went", "eat / go", "ate / goed"], "answer": 0, "explain": "两个动作都发生完了——ate、went，各用各的私章。", "level": 4 },
+          { "q": "She ___ me an email two days ago, but I ___ it only this morning.", "options": ["sent / read", "sended / readed", "sent / reads"], "answer": 0, "explain": "send→sent；read 过去式拼写不变（读 /red/）。", "level": 4 },
+          { "q": "My dad ___ in a bank now. He ___ working there ten years ago.", "options": ["works / began", "worked / begins", "works / beginned"], "answer": 0, "explain": "now 配现在 works；ten years ago 配过去 began。", "level": 4 },
+          { "q": "I ___ my grandma every weekend. Last weekend I also ___ her a cake.", "options": ["visit / brought", "visits / bringed", "visited / bring"], "answer": 0, "explain": "每周的习惯用 visit（I 不加 s）；上周末的事用 brought（-ought 一家）。", "level": 4 },
+          { "q": "— What ___ you ___ last Sunday? — I flew my new kite.", "options": ["did / do", "do / did", "did / did"], "answer": 0, "explain": "What did you do?——前一个 did 是手势，后一个 do 是实义动词「做」，回原形。", "level": 4 },
+          { "q": "He ___ the race because he ___ faster than everyone.", "options": ["won / ran", "winned / runned", "wins / ran"], "answer": 0, "explain": "win→won、run→ran——两个私章都要认对。", "level": 4 },
+          { "q": "When I was small, my mum ___ me a story every night.", "options": ["told", "tells", "telled"], "answer": 0, "explain": "when I was small 把整句拉回过去——过去的习惯也盖过去戳：told。", "level": 4 },
+          { "q": "Water ___ at 100 degrees, but yesterday our kettle ___ down.", "options": ["boils / broke", "boiled / breaks", "boils / breaked"], "answer": 0, "explain": "事实用现在 boils；昨天坏了用 broke。", "level": 4 },
+          { "q": "I ___ my umbrella at home this morning, so I ___ wet now.", "options": ["left / am", "leave / am", "left / was"], "answer": 0, "explain": "早上落下伞是过去 left；现在浑身湿是现在 am——前因过去，后果现在。", "level": 4 },
+          { "q": "First he ___ up, then he ___ his teeth and ran to school.", "options": ["got / brushed", "getted / brushed", "got / brushes"], "answer": 0, "explain": "get→got（私章）；brush→brushed（公章）；ran 已提示整句在过去。", "level": 4 },
+          { "q": "大考：Yesterday was busy — I ___ a letter, ___ some photos and ___ dinner.", "options": ["wrote / took / made", "writed / taked / maked", "wrote / take / made"], "answer": 0, "explain": "三个动词三枚私章一次盖齐：wrote、took、made——一个都不能漏。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I go to the zoo with my cousin yesterday.",
+      "fixed": "I went to the zoo with my cousin yesterday.",
+      "clue": "便签写着 yesterday，照片却盖着今天的戳——go 要换成私章 went。"
+    },
+    {
+      "sentence": "She buyed a pretty hair clip at the market.",
+      "fixed": "She bought a pretty hair clip at the market.",
+      "clue": "buy 是 -ought 一家的老团员，不盖 -ed 公章。"
+    },
+    {
+      "sentence": "We eated pizza at Tom's birthday party.",
+      "fixed": "We ate pizza at Tom's birthday party.",
+      "clue": "eat 是独行侠——它的私章是 ate，eated 是假章。"
+    },
+    {
+      "sentence": "Did you finished your homework last night?",
+      "fixed": "Did you finish your homework last night?",
+      "clue": "did 已经盖了戳——finish 回原形，时间戳只盖一次。"
+    },
+    {
+      "sentence": "He teached us an English song last term.",
+      "fixed": "He taught us an English song last term.",
+      "clue": "teach 是 -aught 形的老团员——taught。"
+    },
+    {
+      "sentence": "I stoped at the red light and waited.",
+      "fixed": "I stopped at the red light and waited.",
+      "clue": "stop 短元音+单辅音，先双写 p 再加 -ed——waited 没病，别多改。"
+    },
+    {
+      "sentence": "They didn't came to the rehearsal last Friday.",
+      "fixed": "They didn't come to the rehearsal last Friday.",
+      "clue": "didn't 已经报了过去——came 要退回原形 come。"
+    }
+  ]
+}
