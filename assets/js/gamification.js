@@ -39,9 +39,9 @@ export const BADGES = [
   { id: 'words_10',   name: '小有所成', icon: '📖', desc: '累计学习 10 个单词' },
   { id: 'words_50',   name: '词汇能手', icon: '📚', desc: '累计学习 50 个单词' },
   { id: 'words_100',  name: '百词斩',   icon: '🎓', desc: '累计学习 100 个单词' },
-  { id: 'streak_3',   name: '坚持三日', icon: '🔥', desc: '连续打卡 3 天' },
-  { id: 'streak_7',   name: '一周达人', icon: '⚡', desc: '连续打卡 7 天' },
-  { id: 'streak_30',  name: '持之以恒', icon: '🌟', desc: '连续打卡 30 天' },
+  { id: 'streak_3',   name: '坚持三日', icon: '🌱', desc: '累计学习 3 天' },
+  { id: 'streak_7',   name: '一周达人', icon: '⚡', desc: '累计学习 7 天' },
+  { id: 'streak_30',  name: '持之以恒', icon: '🌟', desc: '累计学习 30 天' },
   { id: 'reading_5',  name: '小书虫',   icon: '🐛', desc: '完成 5 篇阅读' },
   { id: 'grammar_master', name: '语法大师', icon: '🧠', desc: '答对 50 道语法题' },
   { id: 'rank_silver',  name: '白银晋升', icon: '🥈', desc: '达到白银段位' },
@@ -63,16 +63,17 @@ export function checkBadges() {
   const newBadges = [];
   const learned = getLearnedWords();
   const learnedCount = Object.keys(learned).length;
-  const streak = getStreak();
+  // 累计学习天数（history 只增不清零），不用 streak.count——漏一天不清零、不制造断签焦虑
+  const totalDays = (getStreak().history || []).length;
   const rank = getCurrentRank();
 
   if (learnedCount >= 1 && unlockBadge('first_word'))   newBadges.push('first_word');
   if (learnedCount >= 10 && unlockBadge('words_10'))    newBadges.push('words_10');
   if (learnedCount >= 50 && unlockBadge('words_50'))    newBadges.push('words_50');
   if (learnedCount >= 100 && unlockBadge('words_100'))  newBadges.push('words_100');
-  if (streak.count >= 3 && unlockBadge('streak_3'))    newBadges.push('streak_3');
-  if (streak.count >= 7 && unlockBadge('streak_7'))    newBadges.push('streak_7');
-  if (streak.count >= 30 && unlockBadge('streak_30'))  newBadges.push('streak_30');
+  if (totalDays >= 3 && unlockBadge('streak_3'))    newBadges.push('streak_3');
+  if (totalDays >= 7 && unlockBadge('streak_7'))    newBadges.push('streak_7');
+  if (totalDays >= 30 && unlockBadge('streak_30'))  newBadges.push('streak_30');
   if (rank.id === 'silver' && unlockBadge('rank_silver'))   newBadges.push('rank_silver');
   if (rank.id === 'gold' && unlockBadge('rank_gold'))       newBadges.push('rank_gold');
   if (rank.id === 'diamond' && unlockBadge('rank_diamond')) newBadges.push('rank_diamond');

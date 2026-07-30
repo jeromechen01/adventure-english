@@ -78,11 +78,15 @@ export async function loadJSON(path) {
 function updateTopNav() {
   const profile = storage.getProfile();
   const coins = storage.getCoins();
-  const streak = storage.getStreak();
 
   document.getElementById('gradeLabel').textContent = gradeLabel(profile.grade);
   document.getElementById('coinDisplay').textContent = coins;
-  document.getElementById('streakDisplay').textContent = streak.count || 0;
+  document.getElementById('daysDisplay').textContent = totalStudyDays();
+}
+
+// 累计学习天数（history 只增不清零）——替代连续 streak，漏一天不惩罚
+function totalStudyDays() {
+  return (storage.getStreak().history || []).length;
 }
 
 function gradeLabel(g) {
@@ -266,8 +270,8 @@ async function renderHome(app) {
           <div class="text-xs text-gray-500">已学单词</div>
         </div>
         <div>
-          <div class="text-2xl font-bold text-secondary">${storage.getStreak().count || 0}</div>
-          <div class="text-xs text-gray-500">连续天数</div>
+          <div class="text-2xl font-bold text-secondary">${totalStudyDays()}</div>
+          <div class="text-xs text-gray-500">累计学习天数</div>
         </div>
         <div>
           <div class="text-2xl font-bold text-orange-500">${storage.getBadges().length}</div>
@@ -408,7 +412,6 @@ function renderMe(app) {
   const profile = storage.getProfile();
   const badges = storage.getBadges();
   const learned = Object.keys(storage.getLearnedWords()).length;
-  const streak = storage.getStreak();
   const cards = storage.getCards();
   const rank = getCurrentRank();
 
@@ -433,8 +436,8 @@ function renderMe(app) {
           <div class="text-xs text-gray-600">已学单词</div>
         </div>
         <div class="bg-cyan-50 rounded-2xl p-3">
-          <div class="text-2xl font-bold text-secondary">${streak.count || 0}</div>
-          <div class="text-xs text-gray-600">连续打卡</div>
+          <div class="text-2xl font-bold text-secondary">${totalStudyDays()}</div>
+          <div class="text-xs text-gray-600">累计学习天数</div>
         </div>
         <div class="bg-yellow-50 rounded-2xl p-3">
           <div class="text-2xl font-bold text-orange-500">${badges.length}</div>
