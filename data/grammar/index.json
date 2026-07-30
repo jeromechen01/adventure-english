@@ -207,6 +207,17 @@
       "file": "./data/grammar/g18.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G19",
+      "tier": "骨架",
+      "title": "量词与不可数搭配",
+      "metaphor": "中文认为万物不可数，英文只认一半",
+      "ketRelevance": 2,
+      "ketLessonMap": ["L8"],
+      "file": "./data/grammar/g19.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

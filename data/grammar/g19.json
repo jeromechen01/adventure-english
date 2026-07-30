@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G19（V0.9 P2a 骨架层）。比喻锚点：中文认为万物不可数，英文只认一半。与 KET 八课 L8 共用说法（L8 原文：中文认为万物不可数，所以全要量词：一「本」书、一「条」鱼、一「杯」水。英文只认一半：书鱼苹果自己能数，水面包米不能数，要借杯子袋子；many/much/a lot of 分工），L8 零改动。与 G01（可数/不可数分队）衔接：G01 管「谁能数」，本课管「数不清的怎么数」。全部内容原创。",
+  "id": "G19",
+  "tier": "骨架",
+  "title": "量词与不可数搭配",
+  "metaphor": "中文认为万物不可数，英文只认一半",
+  "ketRelevance": 2,
+  "ketLessonMap": ["L8"],
+  "ketNote": "many/much/a lot of、some/any、How many/How much 是 KET Part 5 的常驻考点；a piece of bread 这类容器搭配在听力购物场景里反复出现。八课里的亲戚是 L8。",
+  "source": "original",
+  "sections": {
+    "essence": "中文认为万物不可数；英文只认一半——数不清的，借杯子袋子来数。",
+    "why": "中文数东西，什么都要过一道量词：一「本」书、一「条」鱼、一「杯」水、一「张」纸——在中文的世界观里，万物都不可数，都得借量词才数得成。英文只认一半：书、鱼、苹果这些「能一个一个摆出来」的，自己就会报数——two books、three fish 摆好就行；可水、面包、米这些摊开一片的，英文也数不动，只好走中文的老路——借容器：a glass of water、a piece of bread、a bag of rice。所以这一课对中国孩子其实是「回家」：借杯子袋子这套你天生就会，难的只有两件事——记住英文哪一半不用借（别说 a paper of...），以及配对的小词各就各位：many 配数得清，much 配数不清，a lot of 两边通吃；a few 配数得清，a little 配数不清；How many 问个数，How much 问分量和价钱。",
+    "metaphorStory": "银帆乐团演出成功，庆功宴的采购交给了乐务老师和小凡。小凡先用中文列单子：三把椅子、两张桌布、十瓶水、两条面包——他忽然发现，中文里每样东西都挂着量词，「把、张、瓶、条」，一个都逃不掉，仿佛万物都数不清，全要借个家什才数得成。翻译成英文购物单时，老师教他：「英文只认一半。椅子、苹果、鸡蛋自己会报数——three chairs、twenty apples，直接写数字加复数；水、面包、果汁这一半数不动，跟中文一样要借家什——ten bottles of water、two loaves of bread，注意瓶子多了 bottles 自己变复数。」到了超市，老师又教两句口诀：数得清的问 How many eggs，数不清的问 How much juice；拿不准多还是少，a lot of 两边通吃。付账前小凡想给大家加个菜，脱口而出：Can we have a chicken?——老师赶紧拦住：「a chicken 是『一整只鸡』！你想说的是 some chicken，一些鸡肉。差一个 a，端上来的东西可就不一样了。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "英文只认一半",
+          "detail": "能一个一个摆出来的自己报数（two books, three eggs）；水、面包、米这类摊开一片的数不动，要借容器。",
+          "example": "two books ✓ / two waters ✗ → two bottles of water"
+        },
+        {
+          "rule": "常用容器清单（借家什）",
+          "detail": "a glass/cup/bottle/bowl of + 液体；a piece/slice/loaf of + 面包类；a bag/box/kilo of + 米糖等。数量多时容器自己变复数。",
+          "example": "a cup of tea / two pieces of bread / three bags of rice"
+        },
+        {
+          "rule": "many / much / a lot of",
+          "detail": "数得清的用 many，数不清的用 much，a lot of 两边通吃——拿不准就用它。",
+          "example": "many chairs / much milk / a lot of chairs·milk"
+        },
+        {
+          "rule": "a few / a little（少量）",
+          "detail": "「几个」配数得清 → a few；「一点儿」配数不清 → a little。",
+          "example": "a few coins / a little salt"
+        },
+        {
+          "rule": "some / any",
+          "detail": "肯定句用 some；否定句和疑问句一般用 any（客气地给别人东西时问句也用 some）。",
+          "example": "I have some juice. / I don't have any juice. / Would you like some tea?"
+        },
+        {
+          "rule": "How many / How much",
+          "detail": "How many + 复数问个数；How much + 不可数问分量——问价钱也是 How much。",
+          "example": "How many eggs? / How much milk? / How much is it?"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I'd like a glass of orange juice, please.", "cn": "请给我一杯橙汁。（借杯子）" },
+          { "en": "There are five chairs around the table.", "cn": "桌子周围有五把椅子。（chairs 自己报数）" },
+          { "en": "Mum bought two bags of rice this morning.", "cn": "妈妈今早买了两袋米。（借袋子，bags 变复数）" },
+          { "en": "We need a piece of paper for the game.", "cn": "游戏要用一张纸。（paper 借 piece）" },
+          { "en": "He eats a bowl of noodles every morning.", "cn": "他每天早上吃一碗面。" }
+        ],
+        "mid": [
+          { "en": "How many bottles of water do we need for the picnic?", "cn": "野餐我们需要几瓶水？（问个数——数瓶子）" },
+          { "en": "There isn't much juice left, but there are a lot of apples.", "cn": "果汁不多了，但苹果有很多。（much 配果汁，a lot of 通吃）" },
+          { "en": "Could I have two slices of bread and a little butter?", "cn": "能给我两片面包和一点黄油吗？" },
+          { "en": "She put a few strawberries and a little honey in the bowl.", "cn": "她往碗里放了几颗草莓和一点蜂蜜。（a few 配可数，a little 配不可数）" },
+          { "en": "Is there any milk in the fridge?", "cn": "冰箱里还有牛奶吗？（疑问句用 any）" }
+        ],
+        "trap": [
+          { "en": "I'd like some chicken, please.", "cn": "请给我来点鸡肉。", "note": "some chicken 是鸡肉；a chicken 是一整只鸡——差一个 a，端上来的不一样。" },
+          { "en": "The window is made of glass.", "cn": "窗户是玻璃做的。", "note": "glass 不加 a 是「玻璃」这种材料；a glass 是一只杯子。" },
+          { "en": "I have too much homework today.", "cn": "我今天作业太多了。", "note": "homework 数不清——much homework，永远别说 many homeworks。" },
+          { "en": "We need three kilos of bananas.", "cn": "我们要三公斤香蕉。", "note": "香蕉自己可数，但论斤称时借 kilo——kilos 变复数。" },
+          { "en": "Would you like some coffee?", "cn": "你想来点咖啡吗？", "note": "客气地请人吃喝，问句也用 some——这是 any 规则的礼貌例外。" },
+          { "en": "There is a little time before the show, so let's check the list.", "cn": "开演前还有一点时间，我们对一遍清单吧。", "note": "time（时间）数不清——a little time，不是 a few time。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "Can we have a chicken, please?（想点一份鸡肉）",
+        "good": "Can we have some chicken, please?",
+        "zone": "blocks",
+        "why": "a chicken 是一整只鸡——加不加 a，端上桌的东西完全不同。"
+      },
+      {
+        "bad": "The bottle is made of a glass.（想说玻璃做的）",
+        "good": "The bottle is made of glass.",
+        "zone": "blocks",
+        "why": "a glass 是一只杯子——「瓶子是用一只杯子做的」让人摸不着头脑。"
+      },
+      {
+        "bad": "How much apples do you want?",
+        "good": "How many apples do you want?",
+        "zone": "tested",
+        "why": "apples 自己报数——问个数用 How many。"
+      },
+      {
+        "bad": "There isn't many milk in the fridge.",
+        "good": "There isn't much milk in the fridge.",
+        "zone": "tested",
+        "why": "milk 数不清——many 只配数得清的。"
+      },
+      {
+        "bad": "I ate three breads for breakfast.",
+        "good": "I ate three pieces of bread for breakfast.",
+        "zone": "tested",
+        "why": "bread 数不动，要借 piece——三片是 three pieces of bread。"
+      },
+      {
+        "bad": "She bought two bottle of water.",
+        "good": "She bought two bottles of water.",
+        "zone": "tested",
+        "why": "借来的容器自己要变复数——two bottles。"
+      },
+      {
+        "bad": "I have many homeworks tonight.",
+        "good": "I have much homework tonight. / I have a lot of homework tonight.",
+        "zone": "tested",
+        "why": "homework 数不清也没有复数——much/a lot of homework。"
+      },
+      {
+        "bad": "There is a few water in the kettle.",
+        "good": "There is a little water in the kettle.",
+        "zone": "tested",
+        "why": "water 数不清——「一点儿」用 a little，a few 配数得清的。"
+      },
+      {
+        "bad": "I don't have some money with me.",
+        "good": "I don't have any money with me.",
+        "zone": "tested",
+        "why": "否定句里 some 要换成 any。"
+      },
+      {
+        "bad": "Please give me two rices.",
+        "good": "Please give me two bowls of rice.",
+        "zone": "tested",
+        "why": "rice 数不动——借碗：two bowls of rice。"
+      },
+      {
+        "bad": "Two coffees, please.（点单时）",
+        "good": "口语点单说 Two coffees 完全可以（＝two cups of coffee）。",
+        "zone": "minor",
+        "why": "餐馆里论「份」点单是通行说法——意思不挡，考试也不设这个坑。"
+      },
+      {
+        "bad": "I like fruits.（有人说必须用 fruit）",
+        "good": "I like fruit. / 说不同种类时 fruits 也对。",
+        "zone": "minor",
+        "why": "fruit 通常整体不可数；强调各种水果时 fruits 也通——不挡不考。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "一本书、一条鱼、一杯水。（万物都要量词）",
+        "en": "a book, a fish, a glass of water（书和鱼自己报数）",
+        "diff": "中文认为万物不可数，全要量词；英文只认一半——只有水这一半要借杯子。"
+      },
+      {
+        "cn": "很多书、很多水。（「很多」通用）",
+        "en": "many books / much water",
+        "diff": "中文一个「很多」走天下；英语要先问「数得清吗」再挑 many 或 much。"
+      },
+      {
+        "cn": "几本书、一点水。（「几」和「一点」）",
+        "en": "a few books / a little water",
+        "diff": "中文凭语感选「几／一点」；英语把同一条可数线又画了一遍——a few 对 a little。"
+      },
+      {
+        "cn": "多少本？多少钱？（都是「多少」）",
+        "en": "How many books? / How much is it?",
+        "diff": "中文一个「多少」；英语按可数分成 How many 和 How much，问价钱归 How much。"
+      },
+      {
+        "cn": "两袋米。（「袋」是量词）",
+        "en": "two bags of rice（bag 变复数 + of）",
+        "diff": "借家什这招中英相同；英语多两个零件——容器变复数，后面接 of。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先问数得清吗：清则 many/few/How many；浑则 much/little/How much；借家什记得变复数，a lot of 两边通吃。",
+      "steps": [
+        "看名词：能一个一个摆出来吗？能 → 自己报数（复数）；不能 → 借容器（a glass/piece/bag of）。",
+        "容器数量超过一，容器自己变复数：two cups of tea。",
+        "选搭配小词：数得清 → many / a few / How many；数不清 → much / a little / How much。",
+        "拿不准多少？a lot of 两边通吃。",
+        "否定和疑问句把 some 换成 any（客气请人吃喝除外）。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，中文里咱们数什么都要带量词：一本书、一条鱼、一杯水——好像万物都数不清。英文偷懒，只认一半：书、苹果自己会报数，two books 就完事；水、面包、米跟中文一样要借家什——a glass of water 一杯水，a piece of bread 一片面包。晚饭时咱们玩『报菜名』：桌上每样东西你用英语报个数——鸡蛋直接数 two eggs，米饭要借碗 a bowl of rice。我不懂英语没关系，我只问一句：这样东西自己会报数，还是要借杯子袋子？」去超市可以升级：让她算「要买几瓶水」用 How many bottles，问「牛奶要多少」用 How much milk——说错不纠正，回家查了明天再问一次。",
+      "questions": [
+        "中文数东西都要量词，英文哪一半不用借？举两个例子。",
+        "「三片面包」英语怎么说？bread 前面能直接写 three 吗？",
+        "问「几个苹果」和「多少牛奶」，开头分别用哪两个词？"
+      ]
+    },
+    "echo": "可数和不可数的边界不是天生的，是人心里画的——而且会挪动。英语里的豌豆本来叫 pease，跟 rice 一样是数不清的一锅糊糊；可 pease 的尾音听着太像复数了，几百年前人们想当然地把它「拆」出一个单数——pea 就这么被造了出来，豌豆从此排进了可数的队伍。反过来，news 明明长着复数的 s，却是不可数的（G01 讲过它的化石 s）。所以别把可数表当成物理定律去背——它是一部还在改写的习惯法：常用的搭配说得多了，就成了「对」的那一个。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G19 · 量词与不可数搭配</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>中文认为万物不可数，英文只认一半</text><rect x='36' y='110' width='314' height='140' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='144' text-anchor='middle' font-size='17' font-weight='bold' fill='#38B2AC'>🔢 自己报数的一半</text><text x='193' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>two books · three eggs</text><text x='193' y='202' text-anchor='middle' font-size='15' fill='#5A4A42'>five chairs · many apples</text><text x='193' y='228' text-anchor='middle' font-size='14' fill='#8A7568'>能一个一个摆出来 → 直接数</text><rect x='370' y='110' width='314' height='140' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='144' text-anchor='middle' font-size='17' font-weight='bold' fill='#38B2AC'>🥣 要借家什的一半</text><text x='527' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>a glass of water · a cup of tea</text><text x='527' y='202' text-anchor='middle' font-size='15' fill='#5A4A42'>a piece of bread · a bag of rice</text><text x='527' y='228' text-anchor='middle' font-size='14' fill='#8A7568'>多了容器变复数：two bottles of</text><rect x='36' y='270' width='648' height='118' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='304' text-anchor='middle' font-size='18' font-weight='bold' fill='#0284C7'>🎯 搭配小词各就各位</text><text x='360' y='334' text-anchor='middle' font-size='15' fill='#5A4A42'>数得清：many · a few · How many ｜ 数不清：much · a little · How much</text><text x='360' y='360' text-anchor='middle' font-size='15' fill='#5A4A42'>a lot of 两边通吃 ｜ some 肯定 · any 否定疑问（请人吃喝仍用 some）</text><rect x='36' y='408' width='648' height='76' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='438' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ a chicken＝一整只鸡，some chicken 才是鸡肉；a glass＝杯子，glass＝玻璃</text><text x='360' y='466' text-anchor='middle' font-size='15' fill='#C0392B'>three breads ✗ · many homeworks ✗ · two bottle of ✗ · a few water ✗</text><text x='360' y='520' text-anchor='middle' font-size='15' fill='#7DA7C4'>先问一句：这东西自己会报数，还是要借杯子袋子？</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线：pease 被拆出 pea——可数的边界是人画的 · 英语奇遇记 🦊 G19</text></svg>",
+    "alt": "G19 记忆卡：英文只认一半——书鸡蛋自己报数，水面包米借容器（a glass/piece/bag of，容器变复数）；many/a few/How many 配可数，much/a little/How much 配不可数，a lot of 通吃，some/any 分工；警示 a chicken 与 some chicken、glass 与 a glass 之差。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 谁要借家什",
+        "questions": [
+          { "q": "下面哪样东西自己会报数？", "options": ["egg（鸡蛋）", "water（水）", "rice（米）"], "answer": 0, "explain": "鸡蛋能一个一个摆出来——two eggs 直接数。", "level": 1 },
+          { "q": "下面哪样东西要借容器才数得成？", "options": ["milk（牛奶）", "chair（椅子）", "apple（苹果）"], "answer": 0, "explain": "牛奶摊开一片数不动——a glass of milk。", "level": 1 },
+          { "q": "「一杯水」英语怎么说？", "options": ["a glass of water", "a water", "one water glass of"], "answer": 0, "explain": "借杯子——a glass of water。", "level": 1 },
+          { "q": "「一片面包」英语怎么说？", "options": ["a piece of bread", "a bread", "one bread"], "answer": 0, "explain": "bread 借 piece——a piece of bread。", "level": 1 },
+          { "q": "「一袋米」英语怎么说？", "options": ["a bag of rice", "a rice", "a rice bag of"], "answer": 0, "explain": "借袋子——a bag of rice。", "level": 1 },
+          { "q": "「两瓶果汁」里 bottle 要变吗？", "options": ["要，two bottles of juice", "不变，two bottle of juice", "juice 变 juices 就行"], "answer": 0, "explain": "借来的容器自己变复数——bottles。", "level": 1 },
+          { "q": "数得清的「很多」用哪个词？", "options": ["many", "much", "little"], "answer": 0, "explain": "many + 复数——many chairs。", "level": 1 },
+          { "q": "数不清的「很多」用哪个词？", "options": ["much", "many", "few"], "answer": 0, "explain": "much + 不可数——much milk。", "level": 1 },
+          { "q": "哪个词「两边通吃」，可数不可数都能配？", "options": ["a lot of", "many", "much"], "answer": 0, "explain": "拿不准就用 a lot of。", "level": 1 },
+          { "q": "「几个」（少量、数得清）用哪个？", "options": ["a few", "a little", "much"], "answer": 0, "explain": "a few coins——数得清的少量。", "level": 1 },
+          { "q": "「一点儿」（少量、数不清）用哪个？", "options": ["a little", "a few", "many"], "answer": 0, "explain": "a little salt——数不清的少量。", "level": 1 },
+          { "q": "问「几个鸡蛋」用哪个开头？", "options": ["How many", "How much", "How a lot"], "answer": 0, "explain": "eggs 数得清——How many eggs。", "level": 1 },
+          { "q": "问「多少牛奶」用哪个开头？", "options": ["How much", "How many", "How few"], "answer": 0, "explain": "milk 数不清——How much milk。", "level": 1 },
+          { "q": "问价钱「多少钱」用哪个？", "options": ["How much", "How many", "How money"], "answer": 0, "explain": "How much is it?——价钱归 How much 管。", "level": 1 },
+          { "q": "否定句里的 some 要换成？", "options": ["any", "much", "few"], "answer": 0, "explain": "I don't have any...——否定用 any。", "level": 1 },
+          { "q": "homework（作业）属于哪一半？", "options": ["数不清的一半", "自己报数的一半", "两边都行"], "answer": 0, "explain": "homework 不可数没有复数——much homework。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 采购清单",
+        "questions": [
+          { "q": "We need ___ for the party — about twenty!", "options": ["many balloons", "much balloon", "a little balloons"], "answer": 0, "explain": "气球数得清——many balloons。", "level": 2 },
+          { "q": "There isn't ___ honey left in the jar.", "options": ["much", "many", "a few"], "answer": 0, "explain": "honey 数不清——much。", "level": 2 },
+          { "q": "Please buy ___ of milk on your way home.", "options": ["two bottles", "two bottle", "two glass"], "answer": 0, "explain": "容器变复数——two bottles of milk。", "level": 2 },
+          { "q": "I'd like ___ of tomato soup, please.", "options": ["a bowl", "a slice", "a loaf"], "answer": 0, "explain": "汤借碗——a bowl of soup。", "level": 2 },
+          { "q": "Can I have ___ of cheese on my sandwich?", "options": ["a slice", "a bag", "a cup"], "answer": 0, "explain": "奶酪切片——a slice of cheese。", "level": 2 },
+          { "q": "How ___ sugar do we need for the cake?", "options": ["much", "many", "few"], "answer": 0, "explain": "sugar 数不清——How much。", "level": 2 },
+          { "q": "How ___ oranges are there in the basket?", "options": ["many", "much", "little"], "answer": 0, "explain": "oranges 数得清——How many。", "level": 2 },
+          { "q": "There are ___ strawberries left — only three or four.", "options": ["a few", "a little", "much"], "answer": 0, "explain": "三四颗＝数得清的少量——a few。", "level": 2 },
+          { "q": "Add ___ salt to the soup — just a spoonful.", "options": ["a little", "a few", "many"], "answer": 0, "explain": "一小勺＝数不清的少量——a little。", "level": 2 },
+          { "q": "Do we have ___ eggs for the pancakes?", "options": ["any", "some in questions always wrong", "much"], "answer": 0, "explain": "疑问句用 any——Do we have any eggs?", "level": 2 },
+          { "q": "I bought ___ bread — two loaves.", "options": ["some", "a", "many"], "answer": 0, "explain": "肯定句用 some——some bread。", "level": 2 },
+          { "q": "Would you like ___ tea, Grandma?", "options": ["some", "any（问句必须）", "many"], "answer": 0, "explain": "客气请人喝茶——问句也用 some。", "level": 2 },
+          { "q": "He drinks ___ of water after every match.", "options": ["a lot", "many", "a few"], "answer": 0, "explain": "a lot of water——通吃词组的固定长相。", "level": 2 },
+          { "q": "Mum bought three ___ for the picnic.", "options": ["kilos of grapes", "kilo of grapes", "kilos grape"], "answer": 0, "explain": "论斤借 kilo，容器变复数——three kilos of grapes。", "level": 2 },
+          { "q": "There's only ___ time before the guests arrive!", "options": ["a little", "a few", "many"], "answer": 0, "explain": "time 数不清——a little time。", "level": 2 },
+          { "q": "We don't need ___ chairs — most people will stand.", "options": ["many", "much", "a little"], "answer": 0, "explain": "chairs 数得清——not many chairs。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 宴会单纠错",
+        "questions": [
+          { "q": "哪句点菜不会闹笑话？", "options": ["I'd like some chicken, please.", "I'd like a chicken, please.（想要一份鸡肉）", "I'd like chickens, please.（想要一份鸡肉）"], "answer": 0, "explain": "some chicken 是鸡肉；a chicken 会端上一整只鸡。", "level": 3 },
+          { "q": "哪句的「玻璃」说对了？", "options": ["The vase is made of glass.", "The vase is made of a glass.", "The vase is made of glasses."], "answer": 0, "explain": "材料不加 a——glass；a glass 是一只杯子。", "level": 3 },
+          { "q": "哪句的面包数对了？", "options": ["She ate two pieces of bread.", "She ate two breads.", "She ate two piece of bread."], "answer": 0, "explain": "借 piece 且变复数——two pieces of bread。", "level": 3 },
+          { "q": "哪句的提问选对了开头？", "options": ["How many bananas do you want?", "How much bananas do you want?", "How many banana do you want?"], "answer": 0, "explain": "bananas 数得清——How many + 复数。", "level": 3 },
+          { "q": "哪句的牛奶问对了？", "options": ["How much milk is there in the fridge?", "How many milk is there in the fridge?", "How many milks are there in the fridge?"], "answer": 0, "explain": "milk 数不清——How much。", "level": 3 },
+          { "q": "哪句的作业说对了？", "options": ["I have a lot of homework tonight.", "I have many homeworks tonight.", "I have a few homework tonight."], "answer": 0, "explain": "homework 不可数——a lot of / much homework。", "level": 3 },
+          { "q": "哪句的否定句合规？", "options": ["We don't have any juice left.", "We don't have some juice left.", "We don't have a juice left."], "answer": 0, "explain": "否定句 some 换 any。", "level": 3 },
+          { "q": "哪句的「一点水」说对了？", "options": ["There is a little water in the vase.", "There is a few water in the vase.", "There are a little waters in the vase."], "answer": 0, "explain": "water 数不清——a little water。", "level": 3 },
+          { "q": "哪句的米饭端得上桌？", "options": ["Two bowls of rice, please.", "Two rices, please.", "Two bowl of rices, please."], "answer": 0, "explain": "借碗且碗变复数——two bowls of rice。", "level": 3 },
+          { "q": "哪句的茶点对了？", "options": ["Three cups of tea, please.", "Three cup of tea, please.", "Three teas cup, please."], "answer": 0, "explain": "cups 变复数——three cups of tea。", "level": 3 },
+          { "q": "哪句写对了？（几张纸）", "options": ["I need a few pieces of paper.", "I need a few papers piece.", "I need a little pieces of paper."], "answer": 0, "explain": "pieces 数得清——a few pieces of paper。", "level": 3 },
+          { "q": "哪句写对了？（钱不多）", "options": ["He doesn't have much money.", "He doesn't have many money.", "He doesn't have a few money."], "answer": 0, "explain": "money 数不清——much money。", "level": 3 },
+          { "q": "哪句写对了？（果汁太多了）", "options": ["There is too much juice in the cup.", "There are too many juice in the cup.", "There is too many juices in the cup."], "answer": 0, "explain": "juice 数不清——too much。", "level": 3 },
+          { "q": "哪句写对了？（有几个朋友要来）", "options": ["A few friends are coming to dinner.", "A little friends are coming to dinner.", "A few friend is coming to dinner."], "answer": 0, "explain": "friends 数得清——a few friends。", "level": 3 },
+          { "q": "哪句写对了？（请人吃蛋糕）", "options": ["Would you like some cake?", "Would you like any cake?（唯一正确）", "Would you like a cake much?"], "answer": 0, "explain": "客气请人吃喝——some；这是 any 规则的礼貌例外。", "level": 3 },
+          { "q": "哪句写对了？（一点新闻）", "options": ["There is a little news about the concert.", "There are a few news about the concert.", "There is a few newses about the concert."], "answer": 0, "explain": "news 数不清（那个 s 是化石）——a little news。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 庆功宴现场",
+        "questions": [
+          { "q": "购物单：___ eggs, ___ milk, and a lot of apples.", "options": ["twenty / two bottles of", "twenty / two bottles", "much / many"], "answer": 0, "explain": "鸡蛋自己报数；牛奶借瓶子——two bottles of milk。", "level": 4 },
+          { "q": "— ___ do we need for the fruit salad? — About six, and ___ honey.", "options": ["How many oranges / a little", "How much oranges / a few", "How many orange / a little"], "answer": 0, "explain": "oranges 数得清 How many；蜂蜜数不清 a little。", "level": 4 },
+          { "q": "— Is there ___ soup left? — Yes, but only ___.", "options": ["any / a little", "some / a few", "many / much"], "answer": 0, "explain": "疑问句 any；汤数不清——剩 a little。", "level": 4 },
+          { "q": "We have ___ chairs but not ___ space, so let's move the table.", "options": ["a lot of / much", "much / many", "a few / many"], "answer": 0, "explain": "椅子多 a lot of；空间数不清 not much space。", "level": 4 },
+          { "q": "Waiter: What would you like? — ___ chicken and ___ rice, please.", "options": ["Some / two bowls of", "A / two bowl of", "Any / two rices"], "answer": 0, "explain": "点鸡肉 some chicken；米饭借碗 two bowls of rice。", "level": 4 },
+          { "q": "— ___ is the watermelon? — Ten yuan a kilo. We need ___ kilos.", "options": ["How much / three", "How many / three", "How much / a few of"], "answer": 0, "explain": "问价钱 How much；论斤 three kilos。", "level": 4 },
+          { "q": "There isn't ___ bread, so please buy two ___.", "options": ["much / loaves", "many / loaf", "much / breads"], "answer": 0, "explain": "bread 数不清 not much；整条面包借 loaf——loaves。", "level": 4 },
+          { "q": "I put ___ strawberries and ___ sugar into the bowl, and mixed them.", "options": ["a few / a little", "a little / a few", "much / many"], "answer": 0, "explain": "草莓数得清 a few；糖数不清 a little。", "level": 4 },
+          { "q": "— Do you have ___ questions? — Just one: how ___ water should I add?", "options": ["any / much", "some / many", "any / many"], "answer": 0, "explain": "疑问句 any questions；水数不清 how much。", "level": 4 },
+          { "q": "Guests are coming! We need ___ of juice and ___ of paper for the games.", "options": ["three bottles / a few pieces", "three bottle / a few piece", "three bottles / a little pieces"], "answer": 0, "explain": "bottles、pieces 两个容器都要变复数。", "level": 4 },
+          { "q": "— There's too ___ noise in the kitchen! — Sorry, we dropped ___ of spoons.", "options": ["much / a box", "many / a box", "much / a slice"], "answer": 0, "explain": "noise 数不清 too much；一盒勺子 a box of spoons。", "level": 4 },
+          { "q": "My little sister drank ___ orange juice and ate ___ grapes.", "options": ["a lot of / a lot of", "many / much", "much / a little"], "answer": 0, "explain": "a lot of 两边通吃——果汁和葡萄都能配。", "level": 4 },
+          { "q": "— How ___ cheese do we need? — ___ slices, for the sandwiches.", "options": ["much / Six", "many / Six", "much / A little"], "answer": 0, "explain": "cheese 数不清 How much；回答换成数片 six slices。", "level": 4 },
+          { "q": "Don't worry — there's still ___ time, and we only need ___ minutes more.", "options": ["a little / a few", "a few / a little", "much / many more of"], "answer": 0, "explain": "time 数不清 a little；minutes 数得清 a few。", "level": 4 },
+          { "q": "— I can't find ___ napkins. — Look in the cupboard, there are ___ boxes there.", "options": ["any / some", "some / any", "much / a little"], "answer": 0, "explain": "否定找不到 any；肯定有 some boxes。", "level": 4 },
+          { "q": "大考：For the picnic we need ___ sandwiches, ___ of water, and ___ fruit.", "options": ["a lot of / five bottles / some", "much / five bottle / any", "many / five glass / a few"], "answer": 0, "explain": "三明治通吃 a lot of；five bottles of water 容器变复数；肯定句 some fruit——三关一次过。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I drank two waters after the match.",
+      "fixed": "I drank two bottles of water after the match.",
+      "clue": "water 数不动——要借瓶子，two bottles of water。"
+    },
+    {
+      "sentence": "How much stickers do you have in your album?",
+      "fixed": "How many stickers do you have in your album?",
+      "clue": "stickers 自己报数——问个数用 How many。"
+    },
+    {
+      "sentence": "There isn't many time before the bus leaves.",
+      "fixed": "There isn't much time before the bus leaves.",
+      "clue": "time 数不清——many 只配数得清的，用 much。"
+    },
+    {
+      "sentence": "Mum bought three bag of flour for the cake.",
+      "fixed": "Mum bought three bags of flour for the cake.",
+      "clue": "借来的容器自己要变复数——three bags。"
+    },
+    {
+      "sentence": "I have too many homework this weekend.",
+      "fixed": "I have too much homework this weekend.",
+      "clue": "homework 数不清也没有复数——too much homework。"
+    },
+    {
+      "sentence": "We don't have some glue for the art class.",
+      "fixed": "We don't have any glue for the art class.",
+      "clue": "否定句里 some 要换成 any。"
+    },
+    {
+      "sentence": "Please put a few butter on my toast.",
+      "fixed": "Please put a little butter on my toast.",
+      "clue": "butter 数不清——「一点儿」用 a little，a few 配数得清的。"
+    }
+  ]
+}
