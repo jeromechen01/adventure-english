@@ -108,6 +108,17 @@
       "file": "./data/grammar/g09.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G10",
+      "tier": "基石",
+      "title": "形容词与副词",
+      "metaphor": "形容词写音色，副词写演奏方式",
+      "ketRelevance": 1,
+      "ketLessonMap": ["L8"],
+      "file": "./data/grammar/g10.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
