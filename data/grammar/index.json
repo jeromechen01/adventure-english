@@ -262,6 +262,17 @@
       "file": "./data/grammar/g23.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G24",
+      "tier": "骨架",
+      "title": "反义疑问句",
+      "metaphor": "返场时确认一句「对吧？」",
+      "ketRelevance": 1,
+      "ketLessonMap": ["L2"],
+      "file": "./data/grammar/g24.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
