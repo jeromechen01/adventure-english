@@ -152,6 +152,17 @@
       "file": "./data/grammar/g13.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G14",
+      "tier": "骨架",
+      "title": "过去进行时",
+      "metaphor": "昨晚八点，我们正在演",
+      "ketRelevance": 1,
+      "ketLessonMap": ["L4"],
+      "file": "./data/grammar/g14.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
