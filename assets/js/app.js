@@ -212,19 +212,18 @@ async function renderHome(app) {
       </div>
     </div>
 
-    <!-- 每日任务 -->
+    <!-- 今日建议（护栏：可选目标不催促——无完成度计数、无金币预告，未完成不施加视觉压力） -->
     <div class="card-cartoon mb-4">
       <div class="flex items-center justify-between mb-2">
-        <h3 class="font-bold flex items-center gap-1"><span>📋</span> 今日任务</h3>
-        <span class="text-xs text-gray-500">${tasksData.tasks.filter(t=>t.done).length}/${tasksData.tasks.length}</span>
+        <h3 class="font-bold flex items-center gap-1"><span>🧭</span> 今天可以做的事</h3>
+        <span class="text-[11px] text-gray-400">选着做就好</span>
       </div>
       ${tasksData.tasks.map(t => `
-        <div class="flex items-center justify-between py-1.5 ${t.done ? 'opacity-50 line-through' : ''}">
-          <div class="flex-1">
-            <div class="text-sm font-medium">${t.title}</div>
-            <div class="text-xs text-gray-500">${t.current}/${t.target}</div>
-          </div>
-          <div class="text-xs bg-yellow-100 text-orange-600 px-2 py-1 rounded-full font-bold">+${t.reward}🪙</div>
+        <div class="flex items-center justify-between py-1.5">
+          <div class="text-sm font-medium ${t.done ? 'text-gray-400' : ''}">${t.title}</div>
+          ${t.done
+            ? '<span class="text-xs text-green-500">✓ 做到啦</span>'
+            : (t.current > 0 ? `<span class="text-xs text-gray-400">已做 ${t.current}</span>` : '')}
         </div>
       `).join('')}
     </div>
