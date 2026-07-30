@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G21（V0.9 P2a 骨架层）。比喻锚点：五种编制——独奏/二重奏/三重奏。五种基本句型：主谓（独奏）/主谓宾（二重奏）/主系表（镜子句，呼应 G04 be=等号）/主谓双宾（三重奏）/主谓宾补（化妆句）。八课亲戚 L1（主系表的 be）。全部内容原创。",
+  "id": "G21",
+  "tier": "骨架",
+  "title": "五种基本句型",
+  "metaphor": "五种编制：独奏/二重奏/三重奏",
+  "ketRelevance": 2,
+  "ketLessonMap": ["L1"],
+  "ketNote": "句型是隐形考点：Part 5 选词先判断动词后面缺什么；写作的破句（缺宾语、双谓语）都从这里治。八课里的亲戚是 L1。",
+  "source": "original",
+  "sections": {
+    "essence": "英语句子五种编制：有的动词能独奏，有的要二重奏、三重奏。",
+    "why": "为什么有的句子两个词就完整——Birds fly.——有的句子缺一块就断气——I like...（喜欢什么？听的人吊在半空）？因为动词各有各的「编制」：有的动词天生独奏，自己就能唱完一句；有的必须拉一个搭档（宾语）才成曲；give 这样的动词更讲究，要凑齐「给谁」和「给什么」三个声部；还有一类根本不是在「做」什么，而是举一面镜子照出主语的样子——be、look、sound 这些镜子词后面跟的是形容词，不是副词。中文其实也讲这一套（「我给你书」和 I give you the book 语序一模一样），所以这一课大半是「回家」；真正的新规矩只有三条：英语句子必须有主语（「下雨了」要垫个 It）、一山不容二谓（be 和实义动词不同台）、镜子后面站形容词。看懂五种编制，Part 5 拿到句子先数缺哪个声部，答案自己浮出来。",
+    "metaphorStory": "银帆乐团排新年音乐会，节目单上有五种编制。第一个节目是独奏：长笛手一个人站上台，一支曲子从头吹到尾——Birds fly. 两个词，主语加动词，完整谢幕。第二个节目二重奏：小提琴拉主旋律，可这首曲子没有钢琴接就悬在半空——I like... 观众全在等：喜欢什么呀？补上搭档才落地：I like this song. 第三个节目最特别，台上摆了一面大镜子：歌手往镜前一站，镜子照出她的样子——She is a singer. The music sounds sweet.——be、look、sound 这些「镜子词」不表演动作，只负责照出「是什么、什么样」，镜子里站的是形容词。第四个节目三重奏：吉他手把一支新曲子递给鼓手——He gave the drummer a new song.——「谁给」「给谁」「给什么」三个声部一个不能少，而且规矩是先人后物。压轴的第五个节目是化妆戏：一首歌上台前，化妆师给它补了个妆——The song makes everyone happy. We call it our lucky song.——宾语后面那笔「妆」，补出它成了什么样。五种编制记熟了，拿到任何句子，先数声部。",
+    "rules": {
+      "cards": [
+        {
+          "rule": "编制一 · 独奏：主语 + 动词",
+          "detail": "有些动词自己就能唱完一句：fly, sleep, smile, swim, rain……不用宾语。",
+          "example": "Birds fly. / The baby is sleeping."
+        },
+        {
+          "rule": "编制二 · 二重奏：主语 + 动词 + 宾语",
+          "detail": "like, play, have, read 这些动词必须拉个搭档，不然句子悬在半空。",
+          "example": "I like this song. / She plays the drums."
+        },
+        {
+          "rule": "编制三 · 镜子句：主语 + 系动词 + 表语",
+          "detail": "be/look/sound/feel/taste/get/become 是镜子，照出主语「是什么、什么样」——镜子里站形容词或名词，不站副词。",
+          "example": "She is a singer. / The soup tastes good.（不是 goodly）"
+        },
+        {
+          "rule": "编制四 · 三重奏：主语 + 动词 + 人 + 物",
+          "detail": "give/send/show/tell/buy 要凑齐「给谁」和「给什么」——先人后物；想把物提前，就给人加 to/for。",
+          "example": "He gave me a pen. = He gave a pen to me."
+        },
+        {
+          "rule": "编制五 · 化妆句：主语 + 动词 + 宾语 + 补语",
+          "detail": "make/call/keep 后面的宾语要补一笔「妆」，说清它成了什么、叫什么。",
+          "example": "The song makes me happy. / We call him Xiaobei."
+        },
+        {
+          "rule": "三条新规矩",
+          "detail": "① 英语句子必须有主语——「下雨了」要垫 It；② 一山不容二谓——be 和实义动词不同台；③ 镜子后面站形容词。",
+          "example": "It is raining. / He runs fast.（不是 He is run fast）"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "The sun rises.", "cn": "太阳升起。（独奏：主语+动词，完整）" },
+          { "en": "My sister draws comics.", "cn": "我姐姐画漫画。（二重奏：draw 拉上搭档）" },
+          { "en": "The room is bright.", "cn": "房间很亮。（镜子句：be 照出样子）" },
+          { "en": "Grandpa told us a story.", "cn": "爷爷给我们讲了个故事。（三重奏：先人后物）" },
+          { "en": "The news made everyone happy.", "cn": "这消息让大家都很开心。（化妆句：给宾语补妆）" }
+        ],
+        "mid": [
+          { "en": "It rained heavily last night.", "cn": "昨晚雨下得很大。（独奏也能带修饰，heavily 只是伴舞）" },
+          { "en": "The cake smells wonderful.", "cn": "蛋糕闻起来香极了。（smell 是镜子词——接形容词）" },
+          { "en": "Mum bought me a pair of skates.", "cn": "妈妈给我买了双冰鞋。（buy 三重奏）" },
+          { "en": "Please send this photo to Grandma.", "cn": "请把这张照片发给外婆。（物提前，人前加 to）" },
+          { "en": "We keep the music room clean.", "cn": "我们保持音乐教室整洁。（keep + 宾语 + 妆）" }
+        ],
+        "trap": [
+          { "en": "It is snowing outside.", "cn": "外面在下雪。", "note": "中文「下雪了」没主语；英语必须垫一个 It——句子不能光着头。" },
+          { "en": "He swims every morning.", "cn": "他每天早上游泳。", "note": "swim 独奏，别画蛇添足写 He is swim——一山不容二谓。" },
+          { "en": "Your idea sounds great.", "cn": "你的主意听起来棒极了。", "note": "sound 是镜子——接形容词 great，不是副词 greatly。" },
+          { "en": "She showed the class her medal. = She showed her medal to the class.", "cn": "她给全班看了她的奖牌。", "note": "两种排法都对：人在前直接排；物在前，人前加 to。" },
+          { "en": "The joke made us laugh.", "cn": "这个笑话把我们逗笑了。", "note": "make 的「妆」可以是动词原形——made us laugh，中间不放 to。" },
+          { "en": "This blanket feels soft.", "cn": "这条毯子摸起来很软。", "note": "feels soft 说的是毯子的性质——不是毯子伸手去摸谁。镜子词照的是主语自己。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "The cat chased the dog.（想说：狗追猫）",
+        "good": "The dog chased the cat.",
+        "zone": "blocks",
+        "why": "英语靠语序定谁做谁受——主宾一换位，追和被追整个反过来。"
+      },
+      {
+        "bad": "— Do you like this song? — I like.",
+        "good": "— Do you like this song? — I like it. / Yes, I do.",
+        "zone": "blocks",
+        "why": "like 是二重奏，缺了搭档句子断在半空——听的人还在等「喜欢什么」。"
+      },
+      {
+        "bad": "He is run to school every day.",
+        "good": "He runs to school every day.",
+        "zone": "tested",
+        "why": "一山不容二谓——be 和实义动词 run 只能留一个。"
+      },
+      {
+        "bad": "Rains hard today.（想说今天雨大）",
+        "good": "It rains hard today. / It is raining hard.",
+        "zone": "tested",
+        "why": "英语句子必须有主语——天气句垫一个 It。"
+      },
+      {
+        "bad": "The soup tastes goodly.",
+        "good": "The soup tastes good.",
+        "zone": "tested",
+        "why": "taste 是镜子词——镜子里站形容词 good，不站副词。"
+      },
+      {
+        "bad": "She looks happily today.",
+        "good": "She looks happy today.",
+        "zone": "tested",
+        "why": "look（看起来）也是镜子——照出的样子用形容词。"
+      },
+      {
+        "bad": "He gave to me a pen.",
+        "good": "He gave me a pen. / He gave a pen to me.",
+        "zone": "tested",
+        "why": "三重奏两种排法：人在前不加 to；to 只在物提前时出场。"
+      },
+      {
+        "bad": "Please pass it me.",
+        "good": "Please pass it to me.",
+        "zone": "tested",
+        "why": "物（it）在前，人前必须加 to——pass it to me。"
+      },
+      {
+        "bad": "The film made me to cry.",
+        "good": "The film made me cry.",
+        "zone": "tested",
+        "why": "make 给宾语补的「妆」是动词原形——中间不放 to。"
+      },
+      {
+        "bad": "We call our team is Star Wind.",
+        "good": "We call our team Star Wind.",
+        "zone": "tested",
+        "why": "call 的「妆」直接贴在宾语后——不再垫一个 is。"
+      },
+      {
+        "bad": "I very like this film.",
+        "good": "I like this film very much.",
+        "zone": "tested",
+        "why": "very 不能站在动词前面——「非常」的位置在句尾 very much。"
+      },
+      {
+        "bad": "Mum bought a scarf for me. 和 Mum bought me a scarf. 哪个对？",
+        "good": "两个都对。",
+        "zone": "minor",
+        "why": "buy 的三重奏用 for（为谁买）；两种排法意思一样，都合法。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我给你一本书。（给+人+物）",
+        "en": "I give you a book.（give+人+物）",
+        "diff": "三重奏的语序中英完全一致——这句是「回家」，直接照搬就对。"
+      },
+      {
+        "cn": "下雨了。（没有主语，很自然）",
+        "en": "It is raining.（必须垫 It）",
+        "diff": "中文句子可以没主语；英语的舞台不能空着——天气、时间都请 It 站台。"
+      },
+      {
+        "cn": "她很高。（形容词直接当谓语）",
+        "en": "She is tall.（必须有系动词 be）",
+        "diff": "中文形容词自己能撑起句子；英语要先立一面镜子 be，再放形容词。"
+      },
+      {
+        "cn": "我们叫他小胖。（叫+他+外号）",
+        "en": "We call him Xiaopang.",
+        "diff": "化妆句中英语序也一致——但英语不许在外号前再垫「是」。"
+      },
+      {
+        "cn": "狗追猫／猫追狗。（靠语序分）",
+        "en": "The dog chased the cat.（也靠语序分）",
+        "diff": "中英都靠位置定主宾——这点是难兄难弟，所以千万别乱换位置。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "拿到动词先问：你一个人行吗？缺搭档补宾语，是镜子接形容词，送东西先人后物，化妆句宾语后补妆。",
+      "steps": [
+        "找到动词，问它：「你能独奏吗？」能（fly/sleep/rain）→ 主语+动词就完整。",
+        "不能？先看它是不是镜子词（be/look/sound/feel/taste/get）——是就接形容词或名词，照出主语的样子。",
+        "是动作但缺对象（like/play/have）→ 补一个宾语搭档。",
+        "是送东西的词（give/send/show/tell/buy）→ 凑齐人和物：先人后物；物提前就给人加 to/for。",
+        "是 make/call/keep → 宾语后面补一笔「妆」；最后全句扫一遍：主语在不在？be 和实义动词有没有挤在一起？"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语句子跟音乐会一样有编制：有的动词能独奏——Birds fly，两个词就是完整一句；有的必须二重奏——I like 后面不接东西，人家还等着呢；give 是三重奏——给谁、给什么都得到齐。咱们玩『数声部』：你说一句英语，我问三个问题——谁在做？做什么？对谁做？你一边答一边数这句是几重奏。再玩反过来的：我喊编制你造句——我喊『独奏』，你就来一句两个词的；我喊『三重奏』，你就送我点什么，比如 I give Mum a hug。我不懂英语没关系，我就数你句子里的人和东西齐不齐。」听到她说 I like（后面没了）或者 He is run，就提醒：「缺声部了」或者「台上挤了两个主唱」。",
+      "questions": [
+        "Birds fly. 只有两个词，为什么算完整的句子？",
+        "I give you a book. 里「人」和「物」谁在前？想把 book 提前要加什么？",
+        "The soup tastes ___ 该填 good 还是 goodly？为什么镜子后面站形容词？"
+      ]
+    },
+    "echo": "英语为什么把语序看得这么重？一千年前它其实很自由——古英语的名词带着格尾，谁是主语谁是宾语看词尾就知道，把宾语甩到句首也不会认错。后来词尾在日常口语里一点点磨掉了（又是那条暗线：常用的东西磨损最快），「狗追猫」和「猫追狗」再也没法靠词尾区分，语序只好站出来扛下全部责任——主语在前、宾语在后，从此定死。中文从来没有过格尾，天生就靠语序吃饭。所以中英在句型上是难兄难弟：一个是丢了词尾被迫守语序，一个是从头就守语序——这也是为什么五种编制里，中国孩子大半觉得眼熟。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G21 · 五种基本句型</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>五种编制：独奏 / 二重奏 / 三重奏 / 镜子 / 化妆</text><rect x='36' y='108' width='648' height='64' rx='16' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='2'/><text x='120' y='148' text-anchor='middle' font-size='16' font-weight='bold' fill='#38B2AC'>🎹 独奏</text><text x='420' y='140' text-anchor='middle' font-size='15' fill='#5A4A42'>主语 + 动词 ｜ Birds fly. / It is raining.</text><text x='420' y='162' text-anchor='middle' font-size='13' fill='#8A7568'>fly · sleep · smile · rain —— 一个人唱完</text><rect x='36' y='180' width='648' height='64' rx='16' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='2'/><text x='120' y='220' text-anchor='middle' font-size='16' font-weight='bold' fill='#38B2AC'>🎻 二重奏</text><text x='420' y='212' text-anchor='middle' font-size='15' fill='#5A4A42'>主语 + 动词 + 宾语 ｜ I like this song.</text><text x='420' y='234' text-anchor='middle' font-size='13' fill='#8A7568'>like · play · have —— 缺搭档句子悬半空</text><rect x='36' y='252' width='648' height='64' rx='16' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='120' y='292' text-anchor='middle' font-size='16' font-weight='bold' fill='#0284C7'>🪞 镜子句</text><text x='420' y='284' text-anchor='middle' font-size='15' fill='#5A4A42'>主语 + 系动词 + 表语 ｜ The soup tastes good.</text><text x='420' y='306' text-anchor='middle' font-size='13' fill='#8A7568'>be · look · sound · feel · get —— 镜子里站形容词</text><rect x='36' y='324' width='648' height='64' rx='16' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='120' y='364' text-anchor='middle' font-size='16' font-weight='bold' fill='#0284C7'>🎶 三重奏</text><text x='420' y='356' text-anchor='middle' font-size='15' fill='#5A4A42'>主语 + 动词 + 人 + 物 ｜ He gave me a pen.</text><text x='420' y='378' text-anchor='middle' font-size='13' fill='#8A7568'>give · send · show · tell · buy —— 先人后物；物提前加 to/for</text><rect x='36' y='396' width='648' height='64' rx='16' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='120' y='436' text-anchor='middle' font-size='16' font-weight='bold' fill='#0284C7'>💄 化妆句</text><text x='420' y='428' text-anchor='middle' font-size='15' fill='#5A4A42'>主语 + 动词 + 宾语 + 补语 ｜ The song makes me happy.</text><text x='420' y='450' text-anchor='middle' font-size='13' fill='#8A7568'>make · call · keep —— made us laugh 不放 to</text><rect x='36' y='472' width='648' height='56' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='508' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ He is run ✗（一山不容二谓）· Rains today ✗（要垫 It）· tastes goodly ✗</text><text x='360' y='552' text-anchor='middle' font-size='15' fill='#7DA7C4'>拿到动词先问：你一个人行吗？缺什么声部？</text><text x='360' y='578' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线：词尾磨掉了，语序来扛 · 英语奇遇记 🦊 G21</text></svg>",
+    "alt": "G21 记忆卡：五种编制——独奏（主谓）、二重奏（主谓宾）、镜子句（主系表接形容词）、三重奏（先人后物，物提前加 to/for）、化妆句（make/call/keep+宾+补）；三条新规矩：必须有主语、一山不容二谓、镜子接形容词。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 数编制",
+        "questions": [
+          { "q": "Birds fly. 是哪种编制？", "options": ["独奏（主语+动词）", "二重奏（主谓宾）", "三重奏（主谓双宾）"], "answer": 0, "explain": "fly 自己唱完一句——独奏。", "level": 1 },
+          { "q": "I like this song. 是哪种编制？", "options": ["二重奏（主谓宾）", "独奏", "镜子句"], "answer": 0, "explain": "like 拉了搭档 this song——二重奏。", "level": 1 },
+          { "q": "She is a singer. 是哪种编制？", "options": ["镜子句（主系表）", "独奏", "化妆句"], "answer": 0, "explain": "be 是镜子，照出她是什么。", "level": 1 },
+          { "q": "He gave me a pen. 是哪种编制？", "options": ["三重奏（人+物）", "二重奏", "独奏"], "answer": 0, "explain": "give 凑齐了「给谁」和「给什么」——三重奏。", "level": 1 },
+          { "q": "The song makes me happy. 是哪种编制？", "options": ["化妆句（宾语+补语）", "三重奏", "镜子句"], "answer": 0, "explain": "make 给宾语 me 补了「happy」这笔妆。", "level": 1 },
+          { "q": "下面哪个动词能独奏？", "options": ["sleep", "like", "give"], "answer": 0, "explain": "The baby sleeps.——sleep 一个人就完整。", "level": 1 },
+          { "q": "下面哪个动词必须拉搭档（宾语）？", "options": ["have", "rain", "smile"], "answer": 0, "explain": "have 后面必须有东西——I have a kite。", "level": 1 },
+          { "q": "下面哪个是「镜子词」？", "options": ["sound", "play", "send"], "answer": 0, "explain": "sound（听起来）照出主语的样子。", "level": 1 },
+          { "q": "镜子词后面站什么？", "options": ["形容词（或名词）", "副词", "动词原形"], "answer": 0, "explain": "tastes good，不是 goodly——镜子里站形容词。", "level": 1 },
+          { "q": "三重奏「人」和「物」谁在前？", "options": ["先人后物", "先物后人", "随便排"], "answer": 0, "explain": "give me a pen——先人后物；物提前要加 to。", "level": 1 },
+          { "q": "想说 give a pen ___ me，空里填什么？", "options": ["to", "for", "at"], "answer": 0, "explain": "物提前，人前加 to——give a pen to me。", "level": 1 },
+          { "q": "「下雨了」英语开头要垫哪个词？", "options": ["It", "There", "Rain"], "answer": 0, "explain": "英语句子必须有主语——It is raining。", "level": 1 },
+          { "q": "「一山不容二谓」指的是？", "options": ["be 和实义动词不能同台当谓语", "一句话不能有两个名词", "主语不能有两个"], "answer": 0, "explain": "He is run ✗——is 和 run 只能留一个。", "level": 1 },
+          { "q": "We call him Xiaobei. 里的 Xiaobei 是什么？", "options": ["给宾语补的「妆」（补语）", "第二个主语", "副词"], "answer": 0, "explain": "call + 宾语 + 名号——化妆句。", "level": 1 },
+          { "q": "make 后面的「妆」如果是动词，用什么形式？", "options": ["原形（made us laugh）", "to + 动词", "动词 -ing"], "answer": 0, "explain": "made us laugh——中间不放 to。", "level": 1 },
+          { "q": "下面哪个动词是「送东西」的三重奏动词？", "options": ["show", "sleep", "become"], "answer": 0, "explain": "show sb sth——给谁看什么。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 补齐声部",
+        "questions": [
+          { "q": "The wind ___ all night.（独奏）", "options": ["blew", "blew the", "was blow"], "answer": 0, "explain": "blow 独奏唱完——The wind blew。", "level": 2 },
+          { "q": "My cousin ___ funny stories.", "options": ["writes", "is write", "writes to"], "answer": 0, "explain": "write + 搭档 stories——二重奏，别混进 be。", "level": 2 },
+          { "q": "The little goat looks ___.", "options": ["hungry", "hungrily", "hunger eat"], "answer": 0, "explain": "look 是镜子——接形容词 hungry。", "level": 2 },
+          { "q": "Please show ___ your new stamps.", "options": ["me", "to me", "for I"], "answer": 0, "explain": "先人后物——show me your stamps。", "level": 2 },
+          { "q": "The story made the baby ___.", "options": ["sleepy", "sleepily", "to sleepy"], "answer": 0, "explain": "make 的妆是形容词 sleepy。", "level": 2 },
+          { "q": "This orange tastes ___.", "options": ["sweet", "sweetly", "sweets"], "answer": 0, "explain": "taste 镜子——sweet。", "level": 2 },
+          { "q": "Grandma told ___ an old story about the sea.", "options": ["us", "to us", "for us"], "answer": 0, "explain": "tell sb sth——人直接排在前。", "level": 2 },
+          { "q": "___ is snowing! Let's make a snowman.", "options": ["It", "There", "Snow"], "answer": 0, "explain": "天气句垫 It。", "level": 2 },
+          { "q": "He passed the salt ___ his father.", "options": ["to", "for", "在人前什么都不加"], "answer": 0, "explain": "物在前——pass the salt to sb。", "level": 2 },
+          { "q": "The music room ___ clean and bright.", "options": ["is", "does", "makes"], "answer": 0, "explain": "照样子——镜子 be：is clean and bright。", "level": 2 },
+          { "q": "Mum bought a birthday cake ___ my little brother.", "options": ["for", "to", "at"], "answer": 0, "explain": "buy 的三重奏用 for——为谁买。", "level": 2 },
+          { "q": "We keep our classroom ___.", "options": ["tidy", "tidily", "to tidy"], "answer": 0, "explain": "keep + 宾语 + 形容词妆——tidy。", "level": 2 },
+          { "q": "Everyone calls the little cat ___.", "options": ["Snowball", "is Snowball", "to Snowball"], "answer": 0, "explain": "call 的名号直接贴上——不垫 is。", "level": 2 },
+          { "q": "Your plan sounds ___.", "options": ["wonderful", "wonderfully", "wonder"], "answer": 0, "explain": "sound 镜子——wonderful。", "level": 2 },
+          { "q": "The clown made all the children ___.", "options": ["laugh", "to laugh", "laughs"], "answer": 0, "explain": "make sb + 动词原形——laugh。", "level": 2 },
+          { "q": "My uncle sent ___ last week.", "options": ["me a postcard", "a postcard me", "to me a postcard"], "answer": 0, "explain": "先人后物——sent me a postcard。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 排错队形",
+        "questions": [
+          { "q": "哪句没让 be 和实义动词挤在一起？", "options": ["She dances every Friday.", "She is dance every Friday.", "She is dances every Friday."], "answer": 0, "explain": "一山不容二谓——dances 自己当谓语。", "level": 3 },
+          { "q": "哪句的主语没空着？", "options": ["It rained all afternoon.", "Rained all afternoon.", "Was raining all afternoon."], "answer": 0, "explain": "天气句垫 It。", "level": 3 },
+          { "q": "哪句的镜子里站对了人？", "options": ["The medicine tastes bitter.", "The medicine tastes bitterly.", "The medicine taste bitter much."], "answer": 0, "explain": "taste + 形容词 bitter。", "level": 3 },
+          { "q": "哪句的三重奏排对了队？", "options": ["Dad made me a paper plane.", "Dad made to me a paper plane.", "Dad made a paper plane me."], "answer": 0, "explain": "先人后物——made me a paper plane。", "level": 3 },
+          { "q": "哪句的 to 出现在正确的位置？", "options": ["She lent her umbrella to the old man.", "She lent to the old man her umbrella.", "She lent her umbrella the old man."], "answer": 0, "explain": "物在前，人前加 to。", "level": 3 },
+          { "q": "哪句的「妆」补对了？", "options": ["The good news made Grandpa happy.", "The good news made Grandpa happily.", "The good news made happy Grandpa."], "answer": 0, "explain": "make + 宾语 + 形容词——顺序和词性都要对。", "level": 3 },
+          { "q": "哪句的外号贴对了？", "options": ["We call this song our morning bell.", "We call this song is our morning bell.", "We call our morning bell this song.（想给歌起外号）"], "answer": 0, "explain": "call + 宾语 + 名号，不垫 is，顺序别倒。", "level": 3 },
+          { "q": "哪句的搭档没缺席？", "options": ["I really enjoy this game.", "I really enjoy.", "I really enjoy very."], "answer": 0, "explain": "enjoy 是二重奏——必须带宾语。", "level": 3 },
+          { "q": "哪句的 very 站对了位置？", "options": ["I like winter very much.", "I very like winter.", "I like very winter."], "answer": 0, "explain": "very 不站动词前——句尾 very much。", "level": 3 },
+          { "q": "哪句写对了？（他看起来很累）", "options": ["He looks tired.", "He looks tiredly.", "He is look tired."], "answer": 0, "explain": "镜子词 look + 形容词；不加 be。", "level": 3 },
+          { "q": "哪句写对了？（把你的照片发给我）", "options": ["Send me your photo.", "Send to me your photo.", "Send your photo me."], "answer": 0, "explain": "人在前不加 to；物在前才加 to。", "level": 3 },
+          { "q": "哪句写对了？（这消息听起来像个笑话）", "options": ["The news sounds like a joke.", "The news sounds a joke likely.", "The news is sound like a joke."], "answer": 0, "explain": "sound like + 名词——镜子句的亲戚。", "level": 3 },
+          { "q": "哪句写对了？（爷爷给我买了辆自行车）", "options": ["Grandpa bought me a bike.", "Grandpa bought a bike me.", "Grandpa bought to me a bike."], "answer": 0, "explain": "先人后物；buy 的介词版是 for，不是 to。", "level": 3 },
+          { "q": "哪句写对了？（那场雨让路面变得很滑）", "options": ["The rain made the road slippery.", "The rain made the road slipperily.", "The rain made slippery the road."], "answer": 0, "explain": "make + 宾语 + 形容词妆。", "level": 3 },
+          { "q": "哪句写对了？（婴儿在睡觉，别吵）", "options": ["The baby is sleeping — be quiet.", "The baby sleeping — be quiet.", "The baby is sleep — be quiet."], "answer": 0, "explain": "进行时两件套齐了才对——is sleeping。", "level": 3 },
+          { "q": "哪句写对了？（我们保持水温热着）", "options": ["We keep the water warm.", "We keep warm the water.", "We keep the water warmly."], "answer": 0, "explain": "keep + 宾语 + 形容词——顺序词性都对。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 组台演出",
+        "questions": [
+          { "q": "独奏改二重奏：The girl sings. → 加上「一首民歌」：", "options": ["The girl sings a folk song.", "The girl sings folk song a.", "The girl is sing a folk song."], "answer": 0, "explain": "补上搭档 a folk song——注意别混进 be。", "level": 4 },
+          { "q": "二重奏改三重奏：She wrote a letter. → 加上「给她笔友」：", "options": ["She wrote her pen friend a letter.", "She wrote a letter her pen friend.", "She wrote to her pen friend a letter."], "answer": 0, "explain": "先人后物——wrote her pen friend a letter。", "level": 4 },
+          { "q": "哪一句和 He gave me the key. 意思完全相同？", "options": ["He gave the key to me.", "He gave the key for me.", "He gave me to the key."], "answer": 0, "explain": "物提前 + to me——同一场三重奏的另一种排法。", "level": 4 },
+          { "q": "选出「镜子句 + 化妆句」的正确组合：", "options": ["The soup smells good, and it makes me hungry.", "The soup smells well, and it makes me hungrily.", "The soup is smell good, and it makes hungry me."], "answer": 0, "explain": "smells good（镜子）+ makes me hungry（化妆）。", "level": 4 },
+          { "q": "「天黑了，这让回家的路显得很长」哪句对？", "options": ["It got dark, and it made the way home seem long.", "Got dark, and made the way home seem long.", "It got darkly, and it made the way home seemed long."], "answer": 0, "explain": "It 垫主语；got dark 镜子；made... seem long 化妆。", "level": 4 },
+          { "q": "Which is a complete sentence?（哪句是完整编制）", "options": ["My grandpa smiled.", "My grandpa liked.", "My grandpa gave me."], "answer": 0, "explain": "smile 能独奏；like 缺搭档；gave me 缺「物」。", "level": 4 },
+          { "q": "The coach showed ___, then he made ___.", "options": ["us a new move / us practise it", "to us a new move / us to practise it", "us a new move / us practising it"], "answer": 0, "explain": "showed us sth（三重奏）+ made us practise（妆是原形）。", "level": 4 },
+          { "q": "「这面镜子照样子，那句在做动作」——哪组分对了？", "options": ["He looks strong. / He looks at the map.", "He looks strongly. / He looks the map.", "He is look strong. / He looks to the map."], "answer": 0, "explain": "looks strong 是镜子；looks at 是动作「看」——一词两用要分清。", "level": 4 },
+          { "q": "Please keep ___, and I'll tell ___.", "options": ["the door open / you a secret", "the door openly / to you a secret", "open the door / you to a secret"], "answer": 0, "explain": "keep + 宾语 + open（妆）；tell you a secret（三重奏）。", "level": 4 },
+          { "q": "「这场雪让城市变白了，孩子们叫它糖霜城」哪句对？", "options": ["The snow made the city white, and children call it Sugar Town.", "The snow made white the city, and children call it is Sugar Town.", "The snow made the city whitely, and children call Sugar Town it."], "answer": 0, "explain": "made the city white + call it Sugar Town——两个化妆句连奏。", "level": 4 },
+          { "q": "选出全对的一组三重奏：", "options": ["Pass me the glue. / Buy her some grapes. / Show them your trick.", "Pass the glue me. / Buy to her grapes. / Show your trick them.", "Pass me to the glue. / Buy her for grapes. / Show to them your trick."], "answer": 0, "explain": "三句都是先人后物——一个 to/for 都不用。", "level": 4 },
+          { "q": "「粥闻起来有点怪，喝起来倒不错」哪句对？", "options": ["The porridge smells a little strange but tastes fine.", "The porridge smells a little strangely but tastes finely.", "The porridge is smell strange but is taste fine."], "answer": 0, "explain": "两面镜子都接形容词——strange、fine。", "level": 4 },
+          { "q": "把「妈妈给我织了条围巾」说成物在前：", "options": ["Mum knitted a scarf for me.", "Mum knitted a scarf to me.", "Mum knitted for me a scarf."], "answer": 0, "explain": "「为我织」——buy/make/knit 这一家用 for。", "level": 4 },
+          { "q": "哪句的编制判断对？——The bell rang.", "options": ["独奏：rang 一个人唱完，句子完整", "二重奏：缺宾语，是破句", "镜子句：rang 是系动词"], "answer": 0, "explain": "ring（响）能独奏——The bell rang. 完整。", "level": 4 },
+          { "q": "补全化妆句：Music always keeps me ___, and exams sometimes make me ___.", "options": ["calm / nervous", "calmly / nervously", "to calm / to nervous"], "answer": 0, "explain": "keep/make + 宾语 + 形容词——calm、nervous。", "level": 4 },
+          { "q": "大考：___ is getting cold. Give ___ , or the cold will make ___ .", "options": ["It / Grandma her coat / her ill", "Weather / to Grandma her coat / her illly", "It / her coat Grandma / ill her"], "answer": 0, "explain": "It 垫主语；give Grandma her coat 先人后物；make her ill 化妆句——三种编制一次排齐。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "He is play basketball every afternoon.",
+      "fixed": "He plays basketball every afternoon.",
+      "clue": "一山不容二谓——is 和 play 只能留一个，习惯动作用 plays。"
+    },
+    {
+      "sentence": "Rains heavily outside now.",
+      "fixed": "It is raining heavily outside now.",
+      "clue": "英语句子必须有主语——天气句要垫一个 It。"
+    },
+    {
+      "sentence": "This ice cream tastes wonderfully.",
+      "fixed": "This ice cream tastes wonderful.",
+      "clue": "taste 是镜子词——镜子里站形容词，不站副词。"
+    },
+    {
+      "sentence": "My aunt gave to me a box of crayons.",
+      "fixed": "My aunt gave me a box of crayons.",
+      "clue": "三重奏先人后物——人在前时不加 to。"
+    },
+    {
+      "sentence": "The funny video made us to laugh for ten minutes.",
+      "fixed": "The funny video made us laugh for ten minutes.",
+      "clue": "make 给宾语补的妆是动词原形——中间不放 to。"
+    },
+    {
+      "sentence": "Everyone calls him is Little Drummer.",
+      "fixed": "Everyone calls him Little Drummer.",
+      "clue": "call 的名号直接贴在宾语后——不垫 is。"
+    },
+    {
+      "sentence": "I very like this new song.",
+      "fixed": "I like this new song very much.",
+      "clue": "very 不能站在动词前——「非常」要放句尾说 very much。"
+    }
+  ]
+}
