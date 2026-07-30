@@ -70,9 +70,10 @@
       for (const p of ['home', 'learn', 'words', 'levels', 'grammar', 'reading', 'writing', 'mistakes', 'leaderboard', 'me', 'reinforce', 'timestats']) {
         await visit('grade3', p);
       }
-      // P1a 语法大厅：大厅列表 + G01 课内页
+      // P1a 语法大厅：大厅列表 + G01 课内页；P1b 起基石层全开，再抽 G12 验一课
       await visit('grade3', 'grammar-hall');
       await visit('grade3', 'grammar-hall', { lesson: 'G01' });
+      await visit('grade3', 'grammar-hall', { lesson: 'G12' });
 
       // 语法大厅闯练引擎实跑：四环节列表 → 环节1 答满 16 题 → 结果页；侦探关提交一次
       const hallDrill = {};
@@ -188,7 +189,7 @@
       const gi = await lz.loadIndex('grammar');
       const ri = await lz.loadIndex('reader');
       const g01 = await lz.loadGrammarLesson('G01');     // P1a 起有真内容
-      const missing = await lz.loadGrammarLesson('G02'); // 尚无内容，应返回 null 且不抛
+      const missing = await lz.loadGrammarLesson('G13'); // 骨架层尚未开工，应返回 null 且不抛（P2 写到 G13 后改成 G27）
       const stats = lz.cacheStats();
 
       // === 离线复跑：清掉内存缓存 → 服务器切断网 → 三条线再走一遍，全部靠 SW 缓存 ===
