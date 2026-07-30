@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G22（V0.9 P2a 骨架层）。比喻锚点：谁是主奏、谁是伴奏、谁是装饰——主干（主谓宾）是主奏，状语是伴奏，定语是装饰音。与 G21（五种编制）配套：G21 认句型，本课练拆句。呼应 G10 形副分工。全部内容原创。",
+  "id": "G22",
+  "tier": "骨架",
+  "title": "句子成分识别",
+  "metaphor": "谁是主奏、谁是伴奏、谁是装饰",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "KET 不直接考术语，但 Part 3/4 的长句全靠「找主干」读懂；写作的破句（有装饰没主奏）也从这里治。",
+  "source": "original",
+  "sections": {
+    "essence": "先找主奏（主谓宾），再认伴奏（状语）和装饰（定语）——长句只是穿了戏服的短句。",
+    "why": "很多孩子一见长句就懵：The tall boy in a blue coat plays the drum very well in the morning.——十四个词！可这句的骨架只有四个词：boy plays the drum。其余全是穿在骨架上的戏服：tall 和 in a blue coat 是打扮 boy 的「装饰」，very well 和 in the morning 是衬托动作的「伴奏」。读不懂长句，几乎都是把装饰错当了主奏。中文同样有定语状语，但有一个关键差别：中文的定语全站在名词前面（「穿蓝外套的男孩」），英语的定语只要一长就跑到名词后面去（the boy in a blue coat）——这件「后置戏服」是中国孩子读长句的头号陷阱。学会三步剥洋葱——圈动词、往前找谁、往后找什么——再长的句子也会当场现出短句原形。",
+    "metaphorStory": "小凡第一次听乐团合奏，愁眉苦脸：「这么多声部，到底谁是主角？」老团长笑了：「有个笨办法，百试百灵——抽掉试试。」他先把主奏小提琴按停——曲子当场塌了，散成一堆声音。「听见没？抽掉就塌的，是主奏。句子里就是主语、谓语、宾语：The boy plays the drum，抽掉哪个都不成句。」他又把打拍子的低音提琴按停——曲子瘦了一圈，但还认得出来。「抽掉只是变瘦的，是伴奏。句子里是状语：very well、in the morning、at the park——说时间地点方式，去掉句子照样站着。」最后他抹掉几个装饰音——旋律素了些，骨架纹丝不动。「这是装饰。句子里是定语：tall、in a blue coat，都是给名词穿的戏服。」小凡恍然大悟，回去把长句一件一件脱戏服，最后每句都只剩四五个词的短句。老团长说：「记住，写句子先保主奏——一句话全是戏服没有主奏，那不是句子，是一堆衣服。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "主奏三件：主语 + 谓语 + 宾语",
+          "detail": "谁（主语）、做（谓语）、什么（宾语）——抽掉任何一件，句子塌台。这是句子的骨架。",
+          "example": "The boy plays the drum."
+        },
+        {
+          "rule": "装饰 = 定语：给名词穿的戏服",
+          "detail": "修饰名词。短戏服（单个形容词）站名词前；长戏服（介词短语等）跑到名词后——这是中文没有的规矩。",
+          "example": "a tall boy / the boy in a blue coat / something to drink"
+        },
+        {
+          "rule": "伴奏 = 状语：衬托动作",
+          "detail": "说时间、地点、方式、频率，修饰动词或整句。位置灵活，句首句尾都行——但绝不插进动词和宾语中间。",
+          "example": "yesterday / in the park / carefully / always"
+        },
+        {
+          "rule": "判断一招：抽掉试试",
+          "detail": "抽掉就塌 → 主奏（主干）；抽掉变瘦 → 伴奏（状语）；抽掉变素 → 装饰（定语）。",
+          "example": "(tall) boy plays (the) drum (very well) → boy plays drum 不能再抽"
+        },
+        {
+          "rule": "剥洋葱三步读长句",
+          "detail": "① 圈出谓语动词；② 往前找「谁」；③ 往后找「什么」——剩下的全是戏服，先放一边。",
+          "example": "My cousin from Shanghai bought a scarf for Grandma. → cousin bought a scarf"
+        },
+        {
+          "rule": "戏服分岗位：形容词管名词，副词管动词",
+          "detail": "装饰名词用形容词（careful），伴奏动词用副词（carefully）——岗位别站错（G10 的老朋友）。",
+          "example": "a careful driver / drives carefully"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "The little cat drinks milk.", "cn": "小猫喝牛奶。（主奏：cat drinks milk；little 是装饰）" },
+          { "en": "My best friend plays chess well.", "cn": "我最好的朋友棋下得好。（well 是伴奏）" },
+          { "en": "We visited the museum yesterday.", "cn": "我们昨天参观了博物馆。（yesterday 抽掉，句子还站着）" },
+          { "en": "The girl with long hair sings.", "cn": "长头发的女孩在唱歌。（with long hair 是后置戏服）" },
+          { "en": "Birds fly high in the sky.", "cn": "鸟儿在天上飞得高。（high、in the sky 都是伴奏）" }
+        ],
+        "mid": [
+          { "en": "The boy in the blue coat plays the drum very well.", "cn": "穿蓝外套的男孩鼓打得很好。（骨架：boy plays the drum）" },
+          { "en": "My uncle from Hangzhou brought us a box of tea.", "cn": "杭州来的叔叔给我们带了一盒茶。（from Hangzhou 修饰 uncle）" },
+          { "en": "She always does her homework carefully after dinner.", "cn": "她总是晚饭后认真写作业。（always/carefully/after dinner 全是伴奏）" },
+          { "en": "The songs on this list are my favourites.", "cn": "这张单子上的歌都是我的心头好。（on this list 是 songs 的后置戏服）" },
+          { "en": "Everyone in our class likes the new music teacher.", "cn": "我们班每个人都喜欢新来的音乐老师。（in our class 修饰 everyone）" }
+        ],
+        "trap": [
+          { "en": "The boy near the window is my deskmate.", "cn": "窗边那个男孩是我同桌。", "note": "near the window 是戏服不是伴奏——它贴着 boy，说的是「哪个男孩」。" },
+          { "en": "I like this song very much.", "cn": "我非常喜欢这首歌。", "note": "very much 是伴奏，只能站句尾——绝不插进 like 和 song 中间。" },
+          { "en": "He always gets up at six.", "cn": "他总是六点起床。", "note": "频率伴奏 always 的专座在实义动词前——不在句尾。" },
+          { "en": "There is something interesting in today's newspaper.", "cn": "今天报纸上有点有意思的东西。", "note": "something 的戏服永远穿在身后——something interesting，不是 interesting something。" },
+          { "en": "The man with a ladder cleaned the windows quickly.", "cn": "带梯子的那个人很快擦完了窗户。", "note": "with a ladder 贴着 man（哪个人）；quickly 贴着 cleaned（怎么擦）——一件戏服一个伴奏。" },
+          { "en": "The plan sounds good.", "cn": "这个计划听起来不错。", "note": "good 在这里不是装饰是「镜中样子」（表语）——镜子句是 G21 的老朋友。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "The boy in the blue coat with a big drum on his back.（整句想说他很酷）",
+        "good": "The boy in the blue coat carries a big drum on his back.",
+        "zone": "blocks",
+        "why": "从头到尾全是戏服，没有谓语——一堆衣服不是句子，听的人等不到「他怎么了」。"
+      },
+      {
+        "bad": "In the park yesterday morning with my friends.（想说昨天去公园玩了）",
+        "good": "I played in the park with my friends yesterday morning.",
+        "zone": "blocks",
+        "why": "只有伴奏没有主奏——谁？做了什么？主干缺席，意思传不出去。"
+      },
+      {
+        "bad": "I like very much this song.",
+        "good": "I like this song very much.",
+        "zone": "tested",
+        "why": "伴奏不能插进动词和宾语中间——动宾是连体的，very much 去句尾。"
+      },
+      {
+        "bad": "She reads carefully the letter.",
+        "good": "She reads the letter carefully.",
+        "zone": "tested",
+        "why": "同一条规矩——先说完 reads the letter，伴奏再进来。"
+      },
+      {
+        "bad": "He drives very careful in the rain.",
+        "good": "He drives very carefully in the rain.",
+        "zone": "tested",
+        "why": "伴奏动词要用副词 carefully——careful 是名词的戏服。"
+      },
+      {
+        "bad": "She is a very carefully girl.",
+        "good": "She is a very careful girl.",
+        "zone": "tested",
+        "why": "给名词穿戏服用形容词 careful——岗位反着站也不行。"
+      },
+      {
+        "bad": "The in the blue coat boy is my brother.",
+        "good": "The boy in the blue coat is my brother.",
+        "zone": "tested",
+        "why": "长戏服必须穿在名词后面——introduce 到前面就穿反了。"
+      },
+      {
+        "bad": "I want interesting something to read.",
+        "good": "I want something interesting to read.",
+        "zone": "tested",
+        "why": "something/anything 的戏服永远穿在身后。"
+      },
+      {
+        "bad": "He gets up always at six.",
+        "good": "He always gets up at six.",
+        "zone": "tested",
+        "why": "频率伴奏 always/usually/often 的专座在实义动词前面。"
+      },
+      {
+        "bad": "The girl sings beautiful.",
+        "good": "The girl sings beautifully.",
+        "zone": "tested",
+        "why": "「唱得美」是给动词伴奏——beautifully；beautiful 只能装饰名词。"
+      },
+      {
+        "bad": "Yesterday we cleaned the room. / We cleaned the room yesterday. 哪个对？",
+        "good": "两个都对。",
+        "zone": "minor",
+        "why": "伴奏位置灵活，句首句尾都合法——只是别插进动宾中间。"
+      },
+      {
+        "bad": "We sang songs in the hall last night. 顺序必须先地点后时间吗？",
+        "good": "先地点后时间更顺口；倒过来意思也不挡。",
+        "zone": "minor",
+        "why": "两个伴奏连用的习惯顺序是地点在前——不是硬规则，KET 不设坑。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "穿蓝外套的男孩（戏服全在名词前）",
+        "en": "the boy in a blue coat（长戏服跑到名词后）",
+        "diff": "中文定语一律前置；英语「短前长后」——介词短语戏服一定后置，这是读长句的头号陷阱。"
+      },
+      {
+        "cn": "我非常喜欢这首歌。（「非常」贴着动词）",
+        "en": "I like this song very much.（very much 排在句尾）",
+        "diff": "中文状语站动词前；英语动宾连体不可拆，伴奏只能绕到句尾。"
+      },
+      {
+        "cn": "「的」一出场就知道是定语。",
+        "en": "英语没有「的」——靠位置认戏服。",
+        "diff": "中文有标记词；英语全凭位置：贴名词的是装饰，贴动词的是伴奏。"
+      },
+      {
+        "cn": "他总是六点起床。（「总是」位置随意些）",
+        "en": "He always gets up at six.（always 有专座）",
+        "diff": "英语频率词的专座在实义动词前、be 动词后——记座位号。"
+      },
+      {
+        "cn": "长句从头读到尾。",
+        "en": "长句先剥洋葱找主干。",
+        "diff": "英语长句是「骨架+戏服」结构——先圈动词找主奏，戏服放一边，读得又快又准。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "圈动词，前找谁，后找什么；抽掉塌的是主奏，抽掉瘦的是伴奏，抽掉素的是装饰。",
+      "steps": [
+        "圈出谓语动词——整句的心脏。",
+        "往前找「谁」（主语），往后找「什么」（宾语）——主奏三件到齐。",
+        "剩下的词挨个「抽掉试试」：句子塌了？它是主干，放回去。",
+        "抽掉只是变瘦（时间/地点/方式/频率）→ 伴奏；贴着名词说「哪个、什么样」→ 装饰。",
+        "写句自查：主奏三件齐不齐？伴奏有没有插进动宾中间？戏服的长短前后穿对没有？"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，咱们玩『抽词游戏』。你说一句英语长句，比如 The tall boy in a blue coat plays the drum very well。现在我当剪刀，一次剪掉一个词或一小段，你告诉我：曲子塌了，还是只是瘦了？剪掉 plays——塌了吧？那它是主奏，赶紧放回去。剪掉 very well——还站着？那它是伴奏。剪掉 tall——句子只是素了点？那是装饰。最后咱们把所有能剪的都剪光，看看这句的骨架到底剩几个词。」玩熟了反过来：你给她三个词的骨架（boy plays drum），让她一件件往上穿戏服、配伴奏，看能穿多长——穿得越长还不塌，功力越深。",
+      "questions": [
+        "一句话的「主奏三件」是哪三件？抽掉会怎样？",
+        "The girl with long hair sings well. 里，with long hair 贴着谁？well 贴着谁？",
+        "「非常喜欢」为什么不能说 like very much this song？very much 该站哪里？"
+      ]
+    },
+    "echo": "「主语」「宾语」这两个名字本身就藏着两种文明的比喻。英语的 subject 来自拉丁语 subiectum——「被扔在底下的东西」，句子的地基；object 来自 obiectum——「被扔到对面的东西」，动作投过去砸中的目标。罗马语法家满脑子都是「扔」。而中文叫「主语」「宾语」——主人和宾客：主人坐堂上发话，宾客在对面受着。一个文明用投掷打比方，一个文明用待客打比方，说的却是同一件事：句子里有个发起者，有个承受者。你今天学的「主奏与伴奏」，不过是第三种比喻——比喻会换，句子的骨架不会变。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G22 · 句子成分识别</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>谁是主奏、谁是伴奏、谁是装饰——抽掉试试就知道</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🎻 主奏（主干）：主语 + 谓语 + 宾语 —— 抽掉就塌</text><text x='360' y='176' text-anchor='middle' font-size='16' fill='#5A4A42'>The (tall) boy (in a blue coat) plays the drum (very well).</text><text x='360' y='198' text-anchor='middle' font-size='14' fill='#8A7568'>骨架只有四个词：boy plays the drum</text><rect x='36' y='226' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='193' y='260' text-anchor='middle' font-size='17' font-weight='bold' fill='#0284C7'>🎨 装饰＝定语</text><text x='193' y='290' text-anchor='middle' font-size='14' fill='#5A4A42'>贴名词：短的在前 a tall boy</text><text x='193' y='314' text-anchor='middle' font-size='14' fill='#5A4A42'>长的在后 the boy in a coat</text><text x='193' y='336' text-anchor='middle' font-size='13' fill='#8A7568'>something 戏服永远在身后</text><rect x='370' y='226' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='527' y='260' text-anchor='middle' font-size='17' font-weight='bold' fill='#0284C7'>🥁 伴奏＝状语</text><text x='527' y='290' text-anchor='middle' font-size='14' fill='#5A4A42'>时间·地点·方式·频率</text><text x='527' y='314' text-anchor='middle' font-size='14' fill='#5A4A42'>位置灵活，但不拆动宾</text><text x='527' y='336' text-anchor='middle' font-size='13' fill='#8A7568'>always 专座：实义动词前</text><rect x='36' y='366' width='648' height='84' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='398' text-anchor='middle' font-size='17' font-weight='bold' fill='#B7791F'>🧅 剥洋葱三步读长句</text><text x='360' y='428' text-anchor='middle' font-size='15' fill='#B7791F'>① 圈谓语动词 → ② 往前找「谁」 → ③ 往后找「什么」——剩下全是戏服</text><rect x='36' y='470' width='648' height='56' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='505' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ like very much this song ✗ · sings beautiful ✗ · 全是戏服没谓语 ✗</text><text x='360' y='552' text-anchor='middle' font-size='15' fill='#7DA7C4'>形容词管名词，副词管动词——岗位别站错</text><text x='360' y='578' text-anchor='middle' font-size='14' fill='#94A3B8'>subject＝被扔在底下的地基 · 英语奇遇记 🦊 G22</text></svg>",
+    "alt": "G22 记忆卡：主奏=主谓宾抽掉就塌；装饰=定语（短前长后，something 后置）；伴奏=状语（位置灵活但不拆动宾，always 专座在实义动词前）；剥洋葱三步：圈动词、前找谁、后找什么；警示 like very much this song、sings beautiful。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 抽掉试试",
+        "questions": [
+          { "q": "句子的「主奏三件」是？", "options": ["主语、谓语、宾语", "定语、状语、补语", "名词、动词、副词"], "answer": 0, "explain": "谁+做+什么——抽掉就塌的三件。", "level": 1 },
+          { "q": "抽掉后句子只是「变瘦」的成分是？", "options": ["状语（伴奏）", "谓语", "主语"], "answer": 0, "explain": "时间地点方式抽掉，句子还站着。", "level": 1 },
+          { "q": "给名词「穿戏服」的成分叫？", "options": ["定语（装饰）", "状语", "谓语"], "answer": 0, "explain": "tall、in a blue coat——都是名词的戏服。", "level": 1 },
+          { "q": "The small dog barked. 里的 small 是？", "options": ["装饰（定语）", "主奏", "伴奏"], "answer": 0, "explain": "small 贴着 dog——抽掉句子只是素了。", "level": 1 },
+          { "q": "We sang loudly. 里的 loudly 是？", "options": ["伴奏（状语）", "宾语", "定语"], "answer": 0, "explain": "loudly 说「怎么唱」——贴着动词的伴奏。", "level": 1 },
+          { "q": "The boy in a red hat waved. 里 in a red hat 贴着谁？", "options": ["boy（说明哪个男孩）", "waved（说明怎么挥手）", "整句"], "answer": 0, "explain": "介词短语紧跟名词时是它的后置戏服。", "level": 1 },
+          { "q": "英语的「长戏服」（介词短语定语）穿在名词的？", "options": ["后面", "前面", "随便哪边"], "answer": 0, "explain": "短前长后——the boy in a blue coat。", "level": 1 },
+          { "q": "读长句的第一步是？", "options": ["圈出谓语动词", "数单词个数", "先翻译每个词"], "answer": 0, "explain": "剥洋葱三步的第一步——找到心脏。", "level": 1 },
+          { "q": "Mum cooked noodles last night. 的骨架是？", "options": ["Mum cooked noodles", "Mum last night", "cooked last night"], "answer": 0, "explain": "last night 是伴奏——抽掉不塌。", "level": 1 },
+          { "q": "「非常喜欢」的 very much 站在哪里？", "options": ["句尾", "like 和宾语中间", "句首"], "answer": 0, "explain": "动宾连体——I like it very much。", "level": 1 },
+          { "q": "always/usually 这类频率伴奏的专座在？", "options": ["实义动词前", "句子最后", "宾语后面"], "answer": 0, "explain": "He always gets up at six。", "level": 1 },
+          { "q": "something 的戏服穿在？", "options": ["身后（something new）", "身前（new something）", "两边都行"], "answer": 0, "explain": "something/anything 的戏服永远后置。", "level": 1 },
+          { "q": "装饰名词用什么词？伴奏动词用什么词？", "options": ["形容词；副词", "副词；形容词", "都用形容词"], "answer": 0, "explain": "careful driver / drives carefully——岗位分明。", "level": 1 },
+          { "q": "一句话只有戏服没有谓语，它是？", "options": ["破句，不是句子", "很高级的句子", "疑问句"], "answer": 0, "explain": "没有主奏的一堆衣服——先补谓语。", "level": 1 },
+          { "q": "The girl reads books in the library. 里 in the library 是？", "options": ["伴奏（在哪读）", "girl 的戏服", "宾语"], "answer": 0, "explain": "它说动作发生的地点——伴奏。", "level": 1 },
+          { "q": "「抽掉试试」时句子塌了，说明抽掉的是？", "options": ["主干成分", "状语", "定语"], "answer": 0, "explain": "抽掉就塌＝主奏——放回去。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 各就各位",
+        "questions": [
+          { "q": "The boy ___ is my cousin.（穿黑T恤的）", "options": ["in the black T-shirt", "the black T-shirt in", "black T-shirt"], "answer": 0, "explain": "长戏服后置——boy in the black T-shirt。", "level": 2 },
+          { "q": "She speaks English ___.（说得很流利）", "options": ["fluently", "fluent", "fluenting"], "answer": 0, "explain": "伴奏动词用副词——fluently。", "level": 2 },
+          { "q": "He is a ___ worker.（细心的）", "options": ["careful", "carefully", "care"], "answer": 0, "explain": "装饰名词用形容词——careful worker。", "level": 2 },
+          { "q": "I ___ drink milk before bed.（总是）", "options": ["always", "much", "very"], "answer": 0, "explain": "频率伴奏站实义动词前——always drink。", "level": 2 },
+          { "q": "There is ___ in the box.（一些好玩的东西）", "options": ["something fun", "fun something", "something funly"], "answer": 0, "explain": "something 的戏服后置——something fun。", "level": 2 },
+          { "q": "We enjoyed the picnic ___.（非常）", "options": ["very much", "very much 放 enjoyed 后宾语前", "much very"], "answer": 0, "explain": "enjoyed the picnic very much——伴奏去句尾。", "level": 2 },
+          { "q": "The house ___ has a red roof.（河边的）", "options": ["by the river", "river by the", "of river beside"], "answer": 0, "explain": "house by the river——长戏服后置。", "level": 2 },
+          { "q": "The choir sang ___ at the festival.（动听地）", "options": ["sweetly", "sweet", "sweeter one"], "answer": 0, "explain": "伴奏用副词 sweetly。", "level": 2 },
+          { "q": "My grandpa walks ___ every morning.（慢慢地）", "options": ["slowly", "slow and low", "slowness"], "answer": 0, "explain": "walks slowly——副词伴奏。", "level": 2 },
+          { "q": "The students ___ hand in homework on time.（通常）", "options": ["usually", "very", "much"], "answer": 0, "explain": "usually 站实义动词前。", "level": 2 },
+          { "q": "I need ___ for the trip.（一个更大的包）", "options": ["a bigger bag", "a bag bigger", "bigger a bag"], "answer": 0, "explain": "单个形容词戏服前置——a bigger bag。", "level": 2 },
+          { "q": "The lady ___ is our neighbour.（带两只小狗的）", "options": ["with two puppies", "two puppies with", "of two puppies the"], "answer": 0, "explain": "lady with two puppies——长戏服后置。", "level": 2 },
+          { "q": "He answered the question ___.（礼貌地）", "options": ["politely", "polite", "in polite"], "answer": 0, "explain": "answered...politely——副词伴奏在句尾。", "level": 2 },
+          { "q": "___ we water the sunflowers.（每天早上——放句首）", "options": ["Every morning", "Very morning", "Morning every"], "answer": 0, "explain": "时间伴奏可站句首——Every morning, ...", "level": 2 },
+          { "q": "Is there ___ in the fridge?（什么好吃的）", "options": ["anything nice", "nice anything", "anything nicely"], "answer": 0, "explain": "anything 的戏服也后置——anything nice。", "level": 2 },
+          { "q": "The music ___ made everyone stand up.（来自舞台的）", "options": ["from the stage", "the stage from", "of from stage"], "answer": 0, "explain": "music from the stage——长戏服后置。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 戏服穿错",
+        "questions": [
+          { "q": "哪句的动宾没被拆开？", "options": ["She likes this story very much.", "She likes very much this story.", "She very much likes only story."], "answer": 0, "explain": "likes this story 连体——very much 句尾。", "level": 3 },
+          { "q": "哪句的戏服穿对了位置？", "options": ["The man at the door is a postman.", "The at the door man is a postman.", "At the door the man is postman a."], "answer": 0, "explain": "长戏服后置——man at the door。", "level": 3 },
+          { "q": "哪句的岗位没站错？", "options": ["The tortoise walks slowly.", "The tortoise walks slow and slow.", "The tortoise slowly is walk."], "answer": 0, "explain": "walks slowly——副词伴奏动词。", "level": 3 },
+          { "q": "哪句的岗位对了？（他是个安静的孩子）", "options": ["He is a quiet boy.", "He is a quietly boy.", "He is quiet a boy."], "answer": 0, "explain": "quiet 形容词装饰 boy——quietly 是副词，别混岗。", "level": 3 },
+          { "q": "哪句的频率词坐在专座上？", "options": ["Lily often visits her grandparents.", "Lily visits often her grandparents.", "Often Lily visits always her grandparents."], "answer": 0, "explain": "often 站实义动词前。", "level": 3 },
+          { "q": "哪句的 something 穿对了戏服？", "options": ["I heard something strange last night.", "I heard strange something last night.", "I heard something strangely last night.（想说奇怪的东西）"], "answer": 0, "explain": "something strange——戏服后置且用形容词。", "level": 3 },
+          { "q": "哪句是完整的句子（有主奏）？", "options": ["The girl in the front row asked a question.", "The girl in the front row with a red pen.", "In the front row with a red pen."], "answer": 0, "explain": "只有第一句有谓语 asked——另两句全是戏服。", "level": 3 },
+          { "q": "哪句写对了？（我妹妹跳舞跳得很好）", "options": ["My little sister dances very well.", "My little sister dances very good.", "My little sister very well dances."], "answer": 0, "explain": "well 是副词伴奏，站句尾。", "level": 3 },
+          { "q": "哪句写对了？（他认真地读完了那封信）", "options": ["He read the letter carefully.", "He read carefully the letter.", "He carefully read letter the."], "answer": 0, "explain": "动宾连体 read the letter，carefully 收尾。", "level": 3 },
+          { "q": "哪句写对了？（山顶上的风很大）", "options": ["The wind on the mountain top is strong.", "The on the mountain top wind is strong.", "The wind is on the mountain top strong."], "answer": 0, "explain": "wind on the mountain top——戏服贴着名词后置。", "level": 3 },
+          { "q": "哪句写对了？（我从不迟到）", "options": ["I am never late for school.", "I never am late for school.", "Never I am for school late."], "answer": 0, "explain": "频率词在 be 动词后——am never late。", "level": 3 },
+          { "q": "哪句写对了？（戴眼镜的老师教我们数学）", "options": ["The teacher with glasses teaches us maths.", "The with glasses teacher teaches us maths.", "The teacher teaches with glasses us maths."], "answer": 0, "explain": "with glasses 贴 teacher 后置；别插进动宾。", "level": 3 },
+          { "q": "哪句写对了？（这只鹦鹉说话说得清楚）", "options": ["The parrot speaks clearly.", "The parrot speaks clear.", "The parrot clear speaks."], "answer": 0, "explain": "伴奏动词用副词 clearly。", "level": 3 },
+          { "q": "哪句写对了？（昨晚的雨下得很大——用伴奏收尾）", "options": ["It rained heavily last night.", "It rained heavy last night.", "It heavily rained last the night."], "answer": 0, "explain": "heavily 副词伴奏；last night 时间伴奏押后。", "level": 3 },
+          { "q": "哪句写对了？（她想要一杯热的东西）", "options": ["She wants something hot to drink.", "She wants hot something to drink.", "She wants something hotly to drink."], "answer": 0, "explain": "something hot——后置 + 形容词。", "level": 3 },
+          { "q": "哪句写对了？（教室后面的钟停了）", "options": ["The clock at the back of the classroom stopped.", "The at the back of the classroom clock stopped.", "The clock stopped at the back of the classroom.（想说「后面的钟」）"], "answer": 0, "explain": "at the back... 是 clock 的戏服，要贴着它——挪到句尾就成了「停在教室后面」。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 剥洋葱读长句",
+        "questions": [
+          { "q": "The old man with a wooden stick feeds the pigeons in the square every morning. 骨架是？", "options": ["man feeds the pigeons", "man with a stick every morning", "feeds in the square"], "answer": 0, "explain": "圈动词 feeds，前找 man，后找 pigeons——其余全是戏服和伴奏。", "level": 4 },
+          { "q": "My cousin from Chengdu sent me a panda toy last week. 骨架是？", "options": ["cousin sent me a toy", "cousin from Chengdu last week", "sent from Chengdu"], "answer": 0, "explain": "三重奏骨架：cousin sent me a toy。", "level": 4 },
+          { "q": "The girl in the yellow dress near the piano is my sister. 里，near the piano 贴着谁？", "options": ["girl（哪一个女孩）", "piano（什么钢琴）", "is（在哪儿是）"], "answer": 0, "explain": "两件戏服都穿在 girl 身上——黄裙子的、钢琴旁边的那个女孩。", "level": 4 },
+          { "q": "The students in Class Three practise the new song in the hall after lunch. 哪些是伴奏？", "options": ["in the hall 和 after lunch", "in Class Three 和 the new song", "practise 和 the song"], "answer": 0, "explain": "in Class Three 贴 students 是戏服；in the hall、after lunch 说地点时间——伴奏。", "level": 4 },
+          { "q": "抽掉哪部分后这句就塌了？——The bird on the wire sings sweetly at dawn.", "options": ["sings", "on the wire", "at dawn"], "answer": 0, "explain": "谓语是心脏——抽掉 sings 只剩一堆词。", "level": 4 },
+          { "q": "给骨架穿衣服：boy reads books → 加「图书馆里」「每天」：", "options": ["The boy reads books in the library every day.", "The boy in the library every day reads books.", "The boy reads in the library books every day."], "answer": 0, "explain": "动宾连体 reads books，伴奏排后面。", "level": 4 },
+          { "q": "给骨架加戏服：the dog barked → 加「隔壁的」（next door）：", "options": ["The dog next door barked.", "The dog barked the next door.", "Next door the dog barked.（想说隔壁的狗）"], "answer": 0, "explain": "长戏服后置——the dog next door。", "level": 4 },
+          { "q": "哪句的「谁在弹」最清楚？——想说：穿校服的女孩在弹琴。", "options": ["The girl in school uniform is playing the piano.", "The girl is playing the piano in school uniform.", "In school uniform is playing the girl the piano."], "answer": 0, "explain": "戏服贴紧 girl；挪远了会像「穿着校服弹琴」的伴奏。", "level": 4 },
+          { "q": "The boys ___ the kite ___.（高兴地放风筝——填对岗位）", "options": ["flew / happily", "happily flew only / 空", "flew / happy"], "answer": 0, "explain": "flew the kite happily——副词伴奏收尾。", "level": 4 },
+          { "q": "找出破句（没有主奏）：", "options": ["The tall trees along the quiet road behind our school.", "Tall trees line the quiet road.", "The road behind our school is quiet."], "answer": 0, "explain": "第一句从头到尾没有谓语——一堆戏服。", "level": 4 },
+          { "q": "The singer ___ practises ___ in the small room ___.（每天/认真地/楼上的——排对三件）", "options": ["upstairs 修饰 room：The singer practises carefully in the small room upstairs every day.", "every day 插在 practises 和 carefully 中间", "carefully 放句首其余不动也最自然"], "answer": 0, "explain": "戏服 upstairs 贴 room；两个伴奏 carefully、every day 依次排后。", "level": 4 },
+          { "q": "Everyone in the hall clapped loudly when the show ended. 主句骨架是？", "options": ["Everyone clapped", "Everyone in the hall", "the show ended loudly"], "answer": 0, "explain": "clapped 独奏；in the hall 戏服；when... 是挂上来的时间小句。", "level": 4 },
+          { "q": "哪句最可能引起误会？——想说：用望远镜的男孩看见了一只鸟。", "options": ["The boy with the telescope saw a bird.（清楚）", "The boy saw a bird with the telescope.（戏服离家出走）", "两句一样清楚"], "answer": 0, "explain": "with the telescope 贴 boy 才是「拿望远镜的男孩」；挪到句尾就可能变成「用望远镜看见」——戏服离主人越近越清楚。", "level": 4 },
+          { "q": "把三个成分排成最自然的一句：主干 we watched the stars ＋ on the roof ＋ last Saturday night", "options": ["We watched the stars on the roof last Saturday night.", "We watched on the roof the stars last Saturday night.", "We last Saturday night watched the stars on the roof."], "answer": 0, "explain": "动宾连体；伴奏先地点后时间。", "level": 4 },
+          { "q": "The little cat under the piano is listening quietly. 各就各位判断哪项全对？", "options": ["under the piano＝cat 的戏服；quietly＝伴奏", "under the piano＝伴奏；quietly＝戏服", "两个都是戏服"], "answer": 0, "explain": "under the piano 说「哪只猫」；quietly 说「怎么听」。", "level": 4 },
+          { "q": "大考：找骨架——My best friend from the music club lent me his favourite CD after class yesterday.", "options": ["friend lent me his CD", "friend from the music club yesterday", "lent after class his club"], "answer": 0, "explain": "三重奏骨架 friend lent me CD；from the music club 是戏服，after class、yesterday 是伴奏——剥完洋葱只剩五个词。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I like very much the songs of this band.",
+      "fixed": "I like the songs of this band very much.",
+      "clue": "动宾是连体的——very much 这段伴奏只能排到句尾。"
+    },
+    {
+      "sentence": "The in the red scarf girl is our monitor.",
+      "fixed": "The girl in the red scarf is our monitor.",
+      "clue": "长戏服要穿在名词后面——girl in the red scarf。"
+    },
+    {
+      "sentence": "My brother plays the drum very good.",
+      "fixed": "My brother plays the drum very well.",
+      "clue": "给动词伴奏要用副词 well——good 是名词的戏服。"
+    },
+    {
+      "sentence": "She gets always up at half past six.",
+      "fixed": "She always gets up at half past six.",
+      "clue": "频率伴奏 always 的专座在实义动词前面。"
+    },
+    {
+      "sentence": "We saw interesting something at the science fair.",
+      "fixed": "We saw something interesting at the science fair.",
+      "clue": "something 的戏服永远穿在身后。"
+    },
+    {
+      "sentence": "The tall boy in the blue coat with a drum on his back.（想介绍他会打鼓）",
+      "fixed": "The tall boy in the blue coat carries a drum on his back.",
+      "clue": "整句全是戏服没有谓语——先给句子装上心脏。"
+    },
+    {
+      "sentence": "He answered polite the teacher's question.",
+      "fixed": "He answered the teacher's question politely.",
+      "clue": "两处病：伴奏要用副词 politely，而且不能插进动宾中间。"
+    }
+  ]
+}

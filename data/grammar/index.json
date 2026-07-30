@@ -240,6 +240,17 @@
       "file": "./data/grammar/g21.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G22",
+      "tier": "骨架",
+      "title": "句子成分识别",
+      "metaphor": "谁是主奏、谁是伴奏、谁是装饰",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g22.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
