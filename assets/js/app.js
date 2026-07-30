@@ -226,7 +226,7 @@ async function renderHome(app) {
       `).join('')}
     </div>
 
-    <!-- 4 个学习入口 -->
+    <!-- 5 个学习入口（语法大厅为顶层入口，不依赖年级/KET 模式，见护栏修复-1） -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
       <button data-action="goto-words" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-orange-100 to-orange-50">
         <div class="text-4xl">🚀</div>
@@ -247,6 +247,14 @@ async function renderHome(app) {
         <div class="text-4xl">✍️</div>
         <div class="font-bold mt-2">写作工坊</div>
         <div class="text-xs text-gray-500 mt-1">AI 智能批改</div>
+      </button>
+      <button data-action="goto-grammar-hall" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-sky-100 to-sky-50 col-span-2 md:col-span-4 flex items-center gap-3">
+        <div class="text-4xl">🏛️</div>
+        <div class="flex-1">
+          <div class="font-bold">语法大厅</div>
+          <div class="text-xs text-gray-500 mt-0.5">1-9 年级全景 50 课 (G01-G50) · 英语句子 = 一支乐队</div>
+        </div>
+        <div class="text-2xl text-gray-300">›</div>
       </button>
     </div>
 
@@ -275,6 +283,7 @@ async function renderHome(app) {
   app.querySelector('[data-action="goto-grammar"]').addEventListener('click', () => navigate('grammar'));
   app.querySelector('[data-action="goto-reading"]').addEventListener('click', () => navigate('reading'));
   app.querySelector('[data-action="goto-writing"]').addEventListener('click', () => navigate('writing'));
+  app.querySelector('[data-action="goto-grammar-hall"]').addEventListener('click', () => navigate('grammar-hall'));
 }
 
 // === 学习页 (4 个模块入口) ===
