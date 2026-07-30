@@ -1,0 +1,323 @@
+{
+  "$comment": "语法大厅 G25（V0.9 P2a 骨架层）。比喻锚点：声部对齐，不能一个人抢拍——谓语声部必须跟领唱（主语）对齐。八课亲戚 L1（be 对齐表）与 L3（三单 -s）。暗线本层第二次正面出场：be 是英语最常用的动词，偏偏保留最多形态（am/is/are/was/were...）——越常用越不规则。全部内容原创。",
+  "id": "G25",
+  "tier": "骨架",
+  "title": "主谓一致",
+  "metaphor": "声部对齐，不能一个人抢拍",
+  "ketRelevance": 2,
+  "ketLessonMap": ["L1", "L3"],
+  "ketNote": "Part 5 填空先看主语数人头再选动词形；everyone 单数、and 复数、剥洋葱找真主语是三大盯防点。八课里的亲戚是 L1 和 L3。",
+  "source": "original",
+  "sections": {
+    "essence": "声部对齐：谓语跟着领唱（主语）走——单数配单数，复数配复数。",
+    "why": "中文的动词从不看主语脸色：「他住北京」「他们住北京」——「住」纹丝不动。英语的谓语却像合唱里的声部，必须跟领唱（主语）对齐：He lives，They live；The milk is，The apples are。对不齐，就是有人抢拍——句子立刻刺耳。规则本身你早认识：be 的对齐表是 G04 的老朋友（am/is/are，过去 was/were），三单 -s 是 G06 的老朋友。这一课真正要练的是三件新事：一是「数人头」——and 连起来的算复数，everyone/each 明明感觉是「大家」却按单数算，不可数名词永远单数；二是「剥洋葱找领唱」——The boy with two dogs is...，谓语要对齐的是 boy，不是离得近的 dogs，长戏服最会骗人；三是 There be 的就近原则。Part 5 里动词形选错，十有八九是人头数错了。",
+    "metaphorStory": "合唱排练，指挥忽然敲停：「第二声部，你们抢拍了。」原来领唱唱的是慢板，第二声部却按快板跟——两边没对齐，整首歌散了架。指挥说：「合唱的铁律：所有声部跟着领唱走。句子也一样——主语是领唱，谓语是跟唱的声部，单数配单数，复数配复数：He sings，They sing；The milk is fresh，The apples are sweet。」有团员问：「要是领唱身边围了一圈人呢？」指挥笑了：「那就更要看清谁是领唱。The boy with two dogs is my neighbour——领唱是 boy，那两只狗只是他带来的『装饰』，声部别跟错了人。还有几个容易数错的：Tom and Amy 手拉手上台，那是两个人——are；everyone 听着像『大家』，其实是一个一个点名——按单数算，Everyone is here；牛奶、米饭这些数不清的，永远按单数。」最后他压低声音：「最不讲理的还是 be——别的动词只在三单加个 s，它一个词摆出 am、is、are、was、were 五副面孔。为什么？它是全英语最常用的动词。你们早知道那条暗线了——越常用的词，越不规则。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "总规则：谓语跟领唱对齐",
+          "detail": "单数主语配单数动词（三单 -s / is / was），复数主语配复数动词（原形 / are / were）。只有一般现在时和 be 需要对齐。",
+          "example": "He lives here. / They live here. / She was late. / We were late."
+        },
+        {
+          "rule": "and 连起来 → 复数",
+          "detail": "两个主语手拉手上台，就是两个人。",
+          "example": "Tom and Amy are in the choir."
+        },
+        {
+          "rule": "everyone / each / nobody → 单数",
+          "detail": "听着像「大家」，其实是挨个点名——语法上按单数算。something/anything 也一样。",
+          "example": "Everyone is here. / Each student has a songbook."
+        },
+        {
+          "rule": "不可数名词 → 单数",
+          "detail": "milk、water、homework、news 这些数不清的，谓语一律按单数配。学科名 maths/physics 带着化石 s，也是单数。",
+          "example": "The milk is fresh. / Maths is my favourite."
+        },
+        {
+          "rule": "剥洋葱找领唱",
+          "detail": "主语身后的长戏服（of.../with.../in...）不参与对齐——谓语只认领唱本人。",
+          "example": "The boy with two dogs is my neighbour. / The colour of the flowers is lovely."
+        },
+        {
+          "rule": "There be：就近对齐",
+          "detail": "报幕句的 be 跟离它最近的那个名词对齐。",
+          "example": "There is a pen and two books on the desk. / There are two books and a pen."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "My brother likes pop music.", "cn": "我哥哥喜欢流行乐。（单数领唱配 likes）" },
+          { "en": "My parents like old songs.", "cn": "我爸妈喜欢老歌。（复数配原形 like）" },
+          { "en": "The water is warm now.", "cn": "水现在是温的。（不可数按单数）" },
+          { "en": "Lily and Ben are deskmates.", "cn": "莉莉和本是同桌。（and＝两个人）" },
+          { "en": "Everyone is ready for the show.", "cn": "大家都准备好演出了。（everyone 按单数）" }
+        ],
+        "mid": [
+          { "en": "The girl in white shoes runs fastest.", "cn": "穿白鞋的女孩跑得最快。（领唱是 girl，不是 shoes）" },
+          { "en": "The price of the tickets is thirty yuan.", "cn": "票价三十元。（领唱是 price）" },
+          { "en": "There is a map and two posters on the wall.", "cn": "墙上有一张地图和两张海报。（就近对齐 a map）" },
+          { "en": "Each of the players has a number.", "cn": "每个队员都有号码。（each 按单数）" },
+          { "en": "Maths is not hard if you practise.", "cn": "只要练，数学不难。（maths 的 s 是化石——单数）" }
+        ],
+        "trap": [
+          { "en": "The news about the concert was exciting.", "cn": "音乐会的消息令人兴奋。", "note": "news 不可数按单数——别被词尾的 s 和中间的戏服骗了。" },
+          { "en": "You were the first to arrive.", "cn": "你是第一个到的。", "note": "you 永远配 are/were——哪怕只指一个人。" },
+          { "en": "Ten yuan is enough for the bus.", "cn": "十块钱坐公交够了。", "note": "钱数、时间当「一笔／一段」整体看——按单数。" },
+          { "en": "My family has dinner together on Sundays.", "cn": "我家每周日一起吃晚饭。", "note": "family 当一个整体——KET 里按单数处理最稳。" },
+          { "en": "The twins were born in spring.", "cn": "双胞胎出生在春天。", "note": "过去时里只有 was/were 要对齐——其他动词过去式一视同仁。" },
+          { "en": "Everyone in the two classes knows this song.", "cn": "两个班的每个人都会这首歌。", "note": "领唱是 everyone（单数）——in the two classes 是戏服，别跟它对齐。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "Her best friend live in Beijing.（想说她最好的朋友——一个人）",
+        "good": "Her best friend lives in Beijing.",
+        "zone": "blocks",
+        "why": "动词的 s 是听者数人头的线索——谓语背叛主语，friend 还是 friends 就数不清了。"
+      },
+      {
+        "bad": "There is two pandas in the photo.",
+        "good": "There are two pandas in the photo.",
+        "zone": "blocks",
+        "why": "报幕报了单数、上台来了一对——观众当场懵住（G05 的报幕规矩）。"
+      },
+      {
+        "bad": "Tom and his sister is coming to the party.",
+        "good": "Tom and his sister are coming to the party.",
+        "zone": "tested",
+        "why": "and 手拉手上台——两个人，配 are。"
+      },
+      {
+        "bad": "Everyone are excited about the trip.",
+        "good": "Everyone is excited about the trip.",
+        "zone": "tested",
+        "why": "everyone 是挨个点名——语法上单数，配 is。"
+      },
+      {
+        "bad": "The colour of these flowers are beautiful.",
+        "good": "The colour of these flowers is beautiful.",
+        "zone": "tested",
+        "why": "剥掉戏服 of these flowers——领唱是 colour，单数。"
+      },
+      {
+        "bad": "The milk in the fridge are still fresh.",
+        "good": "The milk in the fridge is still fresh.",
+        "zone": "tested",
+        "why": "milk 不可数按单数——中间的戏服不改变领唱。"
+      },
+      {
+        "bad": "You was very brave just now.",
+        "good": "You were very brave just now.",
+        "zone": "tested",
+        "why": "you 永远配 are/were——哪怕只指一个人。"
+      },
+      {
+        "bad": "Each student have a music book.",
+        "good": "Each student has a music book.",
+        "zone": "tested",
+        "why": "each 挨个点名——按单数，have 变 has。"
+      },
+      {
+        "bad": "Maths are my favourite subject.",
+        "good": "Maths is my favourite subject.",
+        "zone": "tested",
+        "why": "maths 词尾的 s 是化石——学科名按单数。"
+      },
+      {
+        "bad": "There are a piano and two drums in the room.",
+        "good": "There is a piano and two drums in the room.",
+        "zone": "tested",
+        "why": "there be 就近对齐——紧挨着的是 a piano，用 is。"
+      },
+      {
+        "bad": "My family are watching TV.（英式常这么说）",
+        "good": "My family is watching TV.（KET 按单数最稳）",
+        "zone": "minor",
+        "why": "集体名词英式可按「一群人」配复数——意思不挡，考试按整体单数处理。"
+      },
+      {
+        "bad": "Two hours are a long time for kids.",
+        "good": "Two hours is a long time for kids.",
+        "zone": "minor",
+        "why": "时间、钱数当一段整体看按单数——错了意思也不挡，KET 少考。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "他住北京。他们住北京。（「住」不变）",
+        "en": "He lives in Beijing. / They live in Beijing.",
+        "diff": "中文动词从不看主语脸色；英语的谓语要跟领唱对齐——数完人头再开口。"
+      },
+      {
+        "cn": "大家都到了。（「大家」感觉是一群人）",
+        "en": "Everyone is here.（everyone 按单数）",
+        "diff": "中文的「大家」是集体感；英语的 everyone 是挨个点名——语法上一个一个算。"
+      },
+      {
+        "cn": "穿白鞋的女孩跑得快。（定语不影响什么）",
+        "en": "The girl in white shoes runs fast.（对齐 girl 不对齐 shoes）",
+        "diff": "中文谓语不变形无所谓；英语要剥开戏服找领唱，别跟离得近的词对齐。"
+      },
+      {
+        "cn": "桌上有一支笔和两本书。（「有」不变）",
+        "en": "There is a pen and two books on the desk.（就近对齐）",
+        "diff": "中文的「有」万年不变；英语报幕的 be 看紧挨着的第一个名词。"
+      },
+      {
+        "cn": "是、是、是——一个「是」走天下。",
+        "en": "am / is / are / was / were——五副面孔。",
+        "diff": "英语最常用的 be 变形最多——越常用越不规则，这条暗线你已经见过很多次。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先剥洋葱找领唱，再数人头定单复；and 算俩，everyone 算一，数不清的都算一。",
+      "steps": [
+        "找领唱：剥掉主语身后的戏服（of.../with.../in...），认准真主语。",
+        "数人头：and 连接 → 复数；everyone/each/nobody/something → 单数；不可数、学科名 → 单数。",
+        "对齐：一般现在时三单加 -s；be 查对齐表（am/is/are，过去 was/were）；you 永远配 are/were。",
+        "There be 句：跟紧挨着的第一个名词对齐。",
+        "过去时安检：除 was/were 外，其他动词过去式不用对齐——别多虑。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语的句子像合唱：主语是领唱，动词是跟着的声部，必须对齐——一个人时动词穿单数衣服，一群人时穿复数衣服。咱们玩『数人头』：我说主语，你数完人头再接动词。Tom and Amy——几个人？（两个）所以是 are。Everyone——听着像大家，英语里却是挨个点名，算一个人，用 is。牛奶呢？数不清的都算一个。再玩『找领唱』：The boy with two dogs——领唱是男孩还是狗？动词只跟领唱对齐。我不懂英语没关系，我就问两句：领唱是谁？几个人？」听到她说 my friend live 或 everyone are，别急着纠正，先问「几个人？」让她自己对齐。",
+      "questions": [
+        "Tom and Amy 算几个人？后面接 is 还是 are？",
+        "everyone 听着像「大家」，英语里为什么按一个人算？",
+        "The boy with two dogs ___ my neighbour. 领唱是谁？填 is 还是 are？"
+      ]
+    },
+    "echo": "为什么英语单单留下「主谓一致」这道工序？一千年前，英语动词每个人称都有专属词尾，密密麻麻一整张表；被日常口语磨了几百年，普通动词只剩三单 -s 这一处还要对齐——磨损从不均匀，最冷门的先磨平。可最常用的 be 偏偏是例外中的例外：一个词守着 am、is、are、was、were 五副面孔，是全英语变形最多的动词。道理你已经能自己讲出来了：be 每天被每个人念上几百遍，每一副老面孔都被使用擦得锃亮，谁也磨不掉它。越常用的词，越不规则——这是这条暗线在骨架层的第二次正面出场，而 be，是它最大的一枚证据。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G25 · 主谓一致</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>声部对齐，不能一个人抢拍——谓语跟着领唱走</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎼 总谱：单数配单数，复数配复数</text><text x='360' y='172' text-anchor='middle' font-size='15' fill='#5A4A42'>He lives / They live ｜ is·was 配单数 ｜ are·were 配复数（you 永远 are/were）</text><text x='360' y='194' text-anchor='middle' font-size='13' fill='#8A7568'>只有一般现在时和 be 需要对齐</text><rect x='36' y='222' width='314' height='150' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='193' y='256' text-anchor='middle' font-size='17' font-weight='bold' fill='#0284C7'>🔢 数人头</text><text x='193' y='286' text-anchor='middle' font-size='14' fill='#5A4A42'>and 手拉手 → 复数</text><text x='193' y='312' text-anchor='middle' font-size='14' fill='#5A4A42'>everyone / each → 单数</text><text x='193' y='338' text-anchor='middle' font-size='14' fill='#5A4A42'>不可数 · maths · news → 单数</text><rect x='370' y='222' width='314' height='150' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='527' y='256' text-anchor='middle' font-size='17' font-weight='bold' fill='#0284C7'>🧅 找领唱</text><text x='527' y='286' text-anchor='middle' font-size='14' fill='#5A4A42'>The boy with two dogs is...</text><text x='527' y='312' text-anchor='middle' font-size='14' fill='#5A4A42'>The colour of the flowers is...</text><text x='527' y='338' text-anchor='middle' font-size='13' fill='#8A7568'>戏服不参与对齐——只认领唱本人</text><rect x='36' y='392' width='648' height='72' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='422' text-anchor='middle' font-size='16' fill='#B7791F'>📣 There be 就近对齐：There is a pen and two books. / There are two books and a pen.</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#B7791F'>钱数·时间当一笔整体 → 单数：Ten yuan is enough.</text><rect x='36' y='484' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='512' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ Everyone are ✗ · Tom and Amy is ✗ · The colour of flowers are ✗ · You was ✗</text><text x='360' y='556' text-anchor='middle' font-size='15' fill='#7DA7C4'>先剥洋葱找领唱，再数人头定单复</text><text x='360' y='580' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线第二击：be 最常用，五副面孔最不规则 · 英语奇遇记 🦊 G25</text></svg>",
+    "alt": "G25 记忆卡：主谓一致=声部跟领唱对齐；数人头（and 复数、everyone/each 单数、不可数单数）；剥洋葱找领唱（戏服不参与对齐）；There be 就近；警示 Everyone are、Tom and Amy is、You was。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 数人头",
+        "questions": [
+          { "q": "「主谓一致」里，谓语跟谁对齐？", "options": ["主语（领唱）", "离得最近的词", "宾语"], "answer": 0, "explain": "所有声部跟领唱走——谓语只认主语。", "level": 1 },
+          { "q": "Tom and Amy 算几个人头？", "options": ["两个 → 复数", "一个 → 单数", "看心情"], "answer": 0, "explain": "and 手拉手上台——复数。", "level": 1 },
+          { "q": "everyone 在语法上按？", "options": ["单数", "复数", "不可数"], "answer": 0, "explain": "挨个点名——Everyone is here。", "level": 1 },
+          { "q": "不可数名词（milk/water）的谓语按？", "options": ["单数", "复数", "看多少"], "answer": 0, "explain": "数不清的都算一个——The milk is。", "level": 1 },
+          { "q": "each student 后面接？", "options": ["has", "have", "are"], "answer": 0, "explain": "each 按单数——has。", "level": 1 },
+          { "q": "The boy with two dogs ___ tall. 领唱是谁？", "options": ["boy → is", "dogs → are", "two → are"], "answer": 0, "explain": "with two dogs 是戏服——对齐 boy。", "level": 1 },
+          { "q": "maths（数学）的谓语按？", "options": ["单数", "复数（有 s）", "不确定"], "answer": 0, "explain": "学科名的 s 是化石——Maths is。", "level": 1 },
+          { "q": "you 一个人时配哪个 be？", "options": ["are / were", "is / was", "am / was"], "answer": 0, "explain": "you 永远配 are/were——单复同款。", "level": 1 },
+          { "q": "There ___ a lamp and two chairs here. 就近对齐填？", "options": ["is", "are", "am"], "answer": 0, "explain": "紧挨着的是 a lamp——is。", "level": 1 },
+          { "q": "news 的谓语按？", "options": ["单数", "复数（词尾有 s）", "都行"], "answer": 0, "explain": "news 不可数——化石 s 别上当。", "level": 1 },
+          { "q": "过去时里哪个动词还要对齐？", "options": ["只有 be（was/were）", "所有动词", "一个都不用"], "answer": 0, "explain": "played 大家通用；be 分 was/were。", "level": 1 },
+          { "q": "nobody 后面接？", "options": ["is", "are", "were"], "answer": 0, "explain": "nobody 按单数——Nobody is perfect。", "level": 1 },
+          { "q": "My parents ___ doctors.", "options": ["are", "is", "was"], "answer": 0, "explain": "parents 复数——are。", "level": 1 },
+          { "q": "The rice ___ in the bowl.", "options": ["is", "are", "were"], "answer": 0, "explain": "rice 不可数——is。", "level": 1 },
+          { "q": "为什么 be 一个词有 am/is/are/was/were 五副面孔？", "options": ["它最常用，老形态都被用得磨不掉", "为了好听", "是印刷错误"], "answer": 0, "explain": "越常用的词越不规则——暗线的最大证据。", "level": 1 },
+          { "q": "Something ___ wrong with my bike.", "options": ["is", "are", "have"], "answer": 0, "explain": "something 按单数——is。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 对齐声部",
+        "questions": [
+          { "q": "My grandma ___ tai chi every morning.", "options": ["does", "do", "doing"], "answer": 0, "explain": "grandma 单数——does。", "level": 2 },
+          { "q": "The students in Class One ___ a show next week.", "options": ["have", "has", "is"], "answer": 0, "explain": "领唱是 students（复数）——in Class One 是戏服。", "level": 2 },
+          { "q": "Bread and milk ___ my usual breakfast — 就当一套早餐说：", "options": ["is", "are", "were"], "answer": 0, "explain": "面包牛奶合成「一套早餐」整体——is（成套的东西当一份）。", "level": 2 },
+          { "q": "Everyone in the choir ___ the new song already.", "options": ["knows", "know", "are knowing"], "answer": 0, "explain": "everyone 单数——knows；in the choir 是戏服。", "level": 2 },
+          { "q": "The keys on the piano ___ black and white.", "options": ["are", "is", "was"], "answer": 0, "explain": "领唱是 keys（复数）——are。", "level": 2 },
+          { "q": "Each of the singers ___ a solo part.", "options": ["gets", "get", "are getting"], "answer": 0, "explain": "each 按单数——gets。", "level": 2 },
+          { "q": "There ___ two windows and a door in the room.", "options": ["are", "is", "be"], "answer": 0, "explain": "紧挨着的是 two windows——are。", "level": 2 },
+          { "q": "The homework for these two days ___ easy.", "options": ["is", "are", "were"], "answer": 0, "explain": "homework 不可数——is。", "level": 2 },
+          { "q": "My aunt and uncle ___ in Kunming.", "options": ["live", "lives", "is living"], "answer": 0, "explain": "and＝两个人——live。", "level": 2 },
+          { "q": "Ten minutes ___ enough for a warm-up.", "options": ["is", "are", "have"], "answer": 0, "explain": "十分钟当「一段时间」整体——is。", "level": 2 },
+          { "q": "The story of the four seasons ___ from an old song.", "options": ["comes", "come", "are"], "answer": 0, "explain": "领唱是 story——comes。", "level": 2 },
+          { "q": "You ___ the winner last time, remember?", "options": ["were", "was", "are"], "answer": 0, "explain": "you 配 were——哪怕就你一个人。", "level": 2 },
+          { "q": "Nobody ___ the answer to this riddle.", "options": ["knows", "know", "are knowing"], "answer": 0, "explain": "nobody 单数——knows。", "level": 2 },
+          { "q": "The music from the speakers ___ too loud.", "options": ["is", "are", "were"], "answer": 0, "explain": "领唱是 music（不可数）——is。", "level": 2 },
+          { "q": "Both of my sisters ___ glasses.", "options": ["wear", "wears", "is wearing"], "answer": 0, "explain": "both＝两个都——复数 wear。", "level": 2 },
+          { "q": "Physics ___ interesting, says my cousin in Grade Nine.", "options": ["is", "are", "were"], "answer": 0, "explain": "physics 学科名——单数 is。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 抢拍警报",
+        "questions": [
+          { "q": "哪句声部对齐了？", "options": ["Tom and Jerry are always together.", "Tom and Jerry is always together.", "Tom and Jerry was always together."], "answer": 0, "explain": "and＝复数——are。", "level": 3 },
+          { "q": "哪句的 everyone 没抢拍？", "options": ["Everyone is here, so let's begin.", "Everyone are here, so let's begin.", "Everyone were here, so let's begin."], "answer": 0, "explain": "everyone 单数——is。", "level": 3 },
+          { "q": "哪句找对了领唱？", "options": ["The smell of the flowers is sweet.", "The smell of the flowers are sweet.", "The smells of the flower is sweet."], "answer": 0, "explain": "领唱是 smell——is；of the flowers 是戏服。", "level": 3 },
+          { "q": "哪句的不可数对齐了？", "options": ["The juice in these bottles is fresh.", "The juice in these bottles are fresh.", "The juices in these bottle are fresh."], "answer": 0, "explain": "juice 不可数——is；bottles 是戏服。", "level": 3 },
+          { "q": "哪句的 you 没被冤枉？", "options": ["You were the only one who came.", "You was the only one who came.", "You is the only one who came."], "answer": 0, "explain": "you 永远配 were。", "level": 3 },
+          { "q": "哪句的 each 对齐了？", "options": ["Each window has a paper cutting.", "Each window have a paper cutting.", "Each windows has a paper cutting."], "answer": 0, "explain": "each + 单数名词 + has。", "level": 3 },
+          { "q": "哪句的报幕就近对齐了？", "options": ["There is a violin and two flutes in the case.", "There are a violin and two flutes in the case.", "There were a violin and two flutes in the case now."], "answer": 0, "explain": "紧挨着 a violin——is。", "level": 3 },
+          { "q": "哪句的化石 s 没骗到人？", "options": ["The news makes us all happy.", "The news make us all happy.", "The new makes us all happy."], "answer": 0, "explain": "news 单数——makes。", "level": 3 },
+          { "q": "哪句写对了？（我的鞋在门口）", "options": ["My shoes are at the door.", "My shoes is at the door.", "My shoe are at the door.（想说一双鞋）"], "answer": 0, "explain": "shoes 复数——are。", "level": 3 },
+          { "q": "哪句写对了？（每个人都有两分钟）", "options": ["Each person has two minutes.", "Each person have two minutes.", "Each people has two minute."], "answer": 0, "explain": "each person（单数）+ has。", "level": 3 },
+          { "q": "哪句写对了？（弹钢琴的那个男孩是我弟弟）", "options": ["The boy at the piano is my little brother.", "The boy at the piano are my little brother.", "The boys at the piano is my little brother.（就一个男孩）"], "answer": 0, "explain": "领唱 boy 单数——is。", "level": 3 },
+          { "q": "哪句写对了？（这套书是图书馆的）", "options": ["This set of books belongs to the library.", "This set of books belong to the library.", "These set of books belongs to the library."], "answer": 0, "explain": "领唱是 set（单数）——belongs。", "level": 3 },
+          { "q": "哪句写对了？（昨天你们都很棒）", "options": ["You were all great yesterday.", "You was all great yesterday.", "You are all great yesterday."], "answer": 0, "explain": "过去 + you——were；时态也要在调里。", "level": 3 },
+          { "q": "哪句写对了？（书包里有些好东西）", "options": ["There is something nice in the schoolbag.", "There are something nice in the schoolbag.", "There have something nice in the schoolbag."], "answer": 0, "explain": "something 单数——There is。", "level": 3 },
+          { "q": "哪句写对了？（二十元不算贵）", "options": ["Twenty yuan is not expensive.", "Twenty yuan are not expensive.", "Twenty yuans is not expensive."], "answer": 0, "explain": "钱数整体——is；yuan 不加 s。", "level": 3 },
+          { "q": "哪句写对了？（我的家人都爱唱歌——按整体）", "options": ["My family loves singing.", "My family love singings.", "My families loves singing.（说自己一家）"], "answer": 0, "explain": "family 当整体——loves。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 合唱彩排",
+        "questions": [
+          { "q": "The leader of the drummers ___ the beat, and the others ___.", "options": ["sets / follow", "set / follows", "sets / follows"], "answer": 0, "explain": "领唱是 leader（单数）sets；others 复数 follow。", "level": 4 },
+          { "q": "Everyone ___ ready, but the lights ___ not on yet.", "options": ["is / are", "are / is", "is / is"], "answer": 0, "explain": "everyone 单数 is；lights 复数 are。", "level": 4 },
+          { "q": "There ___ a stage and forty seats, and each seat ___ a number.", "options": ["is / has", "are / have", "is / have"], "answer": 0, "explain": "就近 a stage → is；each seat → has。", "level": 4 },
+          { "q": "The sound of the bells ___ over the hills, and everybody ___ to listen.", "options": ["floats / stops", "float / stop", "floats / stop"], "answer": 0, "explain": "领唱 sound 单数 floats；everybody 单数 stops。", "level": 4 },
+          { "q": "Tom and his cousin ___ the duet, and the audience ___ it a warm welcome.（audience 按整体）", "options": ["sing / gives", "sings / give", "sing / give one"], "answer": 0, "explain": "and 复数 sing；audience 整体单数 gives。", "level": 4 },
+          { "q": "Maths ___ first on Monday, and the two music lessons ___ after lunch.", "options": ["comes / come", "come / comes", "comes / comes"], "answer": 0, "explain": "maths 单数 comes；two lessons 复数 come。", "level": 4 },
+          { "q": "The girl with the twin brothers ___ violin, and the twins ___ drums.", "options": ["plays / play", "play / plays", "plays / plays"], "answer": 0, "explain": "领唱 girl 单数；twins 复数——戏服里的 brothers 不参与。", "level": 4 },
+          { "q": "Half an hour ___ left, and there ___ still three songs to practise.", "options": ["is / are", "are / is", "is / is"], "answer": 0, "explain": "半小时整体 is；three songs 复数 are。", "level": 4 },
+          { "q": "Nobody ___ the old song, but everyone ___ to learn it.", "options": ["remembers / wants", "remember / want", "remembers / want"], "answer": 0, "explain": "nobody、everyone 都按单数。", "level": 4 },
+          { "q": "The colour of the new uniforms ___ light blue, and the buttons ___ silver.", "options": ["is / are", "are / is", "is / is"], "answer": 0, "explain": "领唱 colour 单数 is；buttons 复数 are。", "level": 4 },
+          { "q": "You ___ late yesterday, and the teacher ___ worried.", "options": ["were / was", "was / were", "were / were"], "answer": 0, "explain": "you → were；teacher 单数 → was。", "level": 4 },
+          { "q": "Each of the tickets ___ a seat number, and the numbers ___ by the doors.", "options": ["has / are", "have / is", "has / is"], "answer": 0, "explain": "each 单数 has；numbers 复数 are。", "level": 4 },
+          { "q": "The water in the two kettles ___ hot, and the cups ___ on the tray.", "options": ["is / are", "are / is", "is / is"], "answer": 0, "explain": "water 不可数 is；cups 复数 are。", "level": 4 },
+          { "q": "My family ___ front-row seats, and my parents ___ flowers for the singers.（family 按整体）", "options": ["has / have", "have / has", "has / has"], "answer": 0, "explain": "family 整体 has；parents 复数 have。", "level": 4 },
+          { "q": "There ___ good news for the band: the tickets ___ sold out!", "options": ["is / are", "are / is", "is / is"], "answer": 0, "explain": "news 单数 is；tickets 复数 are。", "level": 4 },
+          { "q": "大考：The best part of the concerts ___ the encore, when everyone ___ up and the lights ___ golden.", "options": ["is / stands / turn", "are / stand / turns", "is / stand / turn"], "answer": 0, "explain": "领唱 part 单数 is；everyone 单数 stands；lights 复数 turn——三处人头一次数清。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "My best friend live near the school.",
+      "fixed": "My best friend lives near the school.",
+      "clue": "friend 是单数领唱——谓语要穿三单的 s。"
+    },
+    {
+      "sentence": "Everyone in our class are learning this dance.",
+      "fixed": "Everyone in our class is learning this dance.",
+      "clue": "everyone 挨个点名按单数——in our class 是戏服，别跟它对齐。"
+    },
+    {
+      "sentence": "The price of these drums are too high.",
+      "fixed": "The price of these drums is too high.",
+      "clue": "剥掉戏服 of these drums——领唱是 price，单数。"
+    },
+    {
+      "sentence": "Tom and his deskmate goes to the library after school.",
+      "fixed": "Tom and his deskmate go to the library after school.",
+      "clue": "and 手拉手上台是两个人——goes 的 s 要摘掉。"
+    },
+    {
+      "sentence": "You was the best dancer at the party last night.",
+      "fixed": "You were the best dancer at the party last night.",
+      "clue": "you 永远配 are/were——哪怕只指一个人。"
+    },
+    {
+      "sentence": "There are a whiteboard and six desks in the new room.",
+      "fixed": "There is a whiteboard and six desks in the new room.",
+      "clue": "报幕就近对齐——紧挨着的是 a whiteboard，用 is。"
+    },
+    {
+      "sentence": "The news about the school trip make us excited.",
+      "fixed": "The news about the school trip makes us excited.",
+      "clue": "news 的 s 是化石，按单数——makes；中间的戏服不改变领唱。"
+    }
+  ]
+}

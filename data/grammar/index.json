@@ -273,6 +273,17 @@
       "file": "./data/grammar/g24.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G25",
+      "tier": "骨架",
+      "title": "主谓一致",
+      "metaphor": "声部对齐，不能一个人抢拍",
+      "ketRelevance": 2,
+      "ketLessonMap": ["L1", "L3"],
+      "file": "./data/grammar/g25.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
