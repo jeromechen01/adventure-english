@@ -196,6 +196,17 @@
       "file": "./data/grammar/g17.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G18",
+      "tier": "骨架",
+      "title": "比较级与最高级",
+      "metaphor": "beautifuler 念不出来 → 语言是懒的",
+      "ketRelevance": 2,
+      "ketLessonMap": ["L8"],
+      "file": "./data/grammar/g18.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
