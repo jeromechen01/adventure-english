@@ -24,9 +24,9 @@ export const STUDY_MODULES = {
   'ket-mock':      { label: 'KET 模考', icon: '📝' }
 };
 
-// 非学习页不计时（首页/我的/榜单/统计页本身/备考中心的打卡·资源·报告·计划·Dashboard）
+// 非学习页不计时（首页/我的/统计页本身/备考中心的打卡·资源·报告·计划·Dashboard）
 const NON_LEARNING = new Set([
-  'home', 'me', 'leaderboard', 'timestats',
+  'home', 'me', 'timestats',
   'exam-hub', 'exam-plan', 'exam-checkin', 'exam-resources', 'exam-report'
 ]);
 
