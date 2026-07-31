@@ -5,6 +5,8 @@ import * as storage from '../../storage.js';
 import { renderLevelMap } from '../levels.js';
 import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
 import { speak } from '../../speech.js';
+import { loadIndex } from '../../utils/lazy-data.js';
+import { hallLessonsForKet } from '../../utils/ket-hall-map.js';
 import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
 
 const ZONE_STYLE = {
@@ -17,11 +19,13 @@ const ZONE_STYLE = {
 export async function renderGrammarCourse(app, params = {}) {
   const level = examLevel();
   const dir = level.toLowerCase();
-  const [lessons, inventory, errors, verbs] = await Promise.all([
+  // hallIndex：P2b「深挖」入口用（只取课号/标题/比喻，索引随壳预缓存，离线也在）
+  const [lessons, inventory, errors, verbs, hallIndex] = await Promise.all([
     loadJSON(`data/exam/${dir}/grammar-lessons.json`),
     loadJSON(`data/exam/${dir}/grammar-inventory.json`),
     loadJSON(`data/exam/${dir}/grammar-errors.json`),
-    loadJSON(`data/exam/${dir}/irregular-verbs.json`)
+    loadJSON(`data/exam/${dir}/irregular-verbs.json`),
+    level === 'KET' ? loadIndex('grammar') : null
   ]);
   if (!lessons) {
     app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">🎼</span><div class="empty-text">语法数据加载失败</div></div>';
@@ -30,7 +34,7 @@ export async function renderGrammarCourse(app, params = {}) {
 
   if (params.lesson) {
     const l = lessons.lessons.find(x => x.id === params.lesson);
-    if (l) return renderLesson(app, level, lessons, l);
+    if (l) return renderLesson(app, level, lessons, l, hallIndex);
   }
   if (params.view === 'verbs' && verbs) return renderVerbs(app, level, verbs);
   if (params.view === 'errors' && errors) return renderErrors(app, errors);
@@ -102,15 +106,45 @@ export async function renderGrammarCourse(app, params = {}) {
   app.querySelectorAll('[data-view]').forEach(b => b.addEventListener('click', () => renderGrammarCourse(app, { view: b.dataset.view })));
 }
 
+// === P2b：八课 → 语法大厅「深挖」入口 ===
+// ★ 只在渲染层【追加】按钮，不读也不改八课的任何讲解字段。
+//   映射表见 utils/ket-hall-map.js（家长核定），课名/比喻取自大厅索引。
+function hallDeepDiveHTML(ketId, hallIndex) {
+  if (!hallIndex) return '';
+  const byId = new Map((hallIndex.lessons || []).map(x => [x.id, x]));
+  const targets = hallLessonsForKet(ketId).map(id => byId.get(id)).filter(m => m && m.status === 'done');
+  if (!targets.length) return '';
+  return `
+    <div class="card-cartoon mb-3 bg-gradient-to-br from-sky-50 to-cyan-50 border-2 border-sky-200">
+      <div class="font-bold text-sm mb-1">🏛️ 想更深入？</div>
+      <p class="text-xs text-gray-600 mb-2">八课是考前最短路径；语法大厅把同一个点讲透（九段讲解 + 记忆卡 + 四环节闯练 + 侦探关）。看完可以直接返回这一课。</p>
+      ${targets.map(m => `
+        <button data-hall="${m.id}" class="w-full card-cartoon tap-bounce flex items-center gap-2.5 text-left mb-2 last:mb-0" style="padding:10px 12px;min-height:48px">
+          <span class="font-black text-sky-500" style="min-width:40px">${m.id}</span>
+          <div class="flex-1" style="min-width:0">
+            <div class="font-bold text-sm">语法大厅 ${m.id}：${esc(m.title)}</div>
+            <div class="text-xs text-gray-500 mt-0.5">🎼 ${esc(m.metaphor)}</div>
+          </div>
+          <span class="text-xl text-gray-300">›</span>
+        </button>`).join('')}
+    </div>`;
+}
+
+// 绑定深挖按钮：带上 fromKet，跳过去后大厅课内页会显示「返回 KET 备考中心 LX」
+function bindDeepDive(app, ketId) {
+  app.querySelectorAll('[data-hall]').forEach(b => b.addEventListener('click', () =>
+    window.__nav('grammar-hall', { lesson: b.dataset.hall, fromKet: ketId })));
+}
+
 // === 课程详情 ===
-function renderLesson(app, level, lessonsData, l) {
+function renderLesson(app, level, lessonsData, l, hallIndex) {
   // 进入即标记「学习中」（若未掌握）
   const prog = storage.getLessonProgress(level);
   if (!prog[l.id]) storage.markLessonDone(level, l.id, 'learning');
 
   // V0.6：有增强讲解+四环节的课走新渲染；老数据兜底走原流程
   if (l.teaching && Array.isArray(l.stages) && l.stages.length) {
-    return renderLessonV2(app, level, lessonsData, l);
+    return renderLessonV2(app, level, lessonsData, l, hallIndex);
   }
 
   let exIdx = 0, correctN = 0, answered = false;
@@ -151,11 +185,14 @@ function renderLesson(app, level, lessonsData, l) {
         <p class="text-xs text-gray-700">👪 ${l.parentScript}</p>
       </div>
 
-      <button id="startExBtn" class="w-full btn-cartoon">✏️ 开始练习（${l.exercises.length} 题）</button>
+      <button id="startExBtn" class="w-full btn-cartoon mb-3">✏️ 开始练习（${l.exercises.length} 题）</button>
+
+      ${hallDeepDiveHTML(l.id, hallIndex)}
     `;
     bindBack(app, 'exam-grammar');
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
     app.querySelector('#startExBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; reshuffleExercises(); drawExercise(); });
+    bindDeepDive(app, l.id);
   }
 
   function drawExercise() {
@@ -236,7 +273,7 @@ const STAGE_TAKE = 16;  // 每次实际做的题数（题库超量时随机抽�
 
 function stageKey(lessonId, stage) { return `grammar-${lessonId}-s${stage}`; }
 
-function renderLessonV2(app, level, lessonsData, l) {
+function renderLessonV2(app, level, lessonsData, l, hallIndex) {
   const t = l.teaching;
 
   function stageBest(stage) {
@@ -329,13 +366,16 @@ function renderLessonV2(app, level, lessonsData, l) {
         <span class="text-xl text-gray-300">›</span>
       </button>` : ''}
 
-      <button id="toStagesBtn" class="w-full btn-cartoon">✏️ 四环节闯练（${l.stages.length} 环节 × 16 题）</button>
+      <button id="toStagesBtn" class="w-full btn-cartoon mb-3">✏️ 四环节闯练（${l.stages.length} 环节 × 16 题）</button>
+
+      ${hallDeepDiveHTML(l.id, hallIndex)}
     `;
     bindBack(app, 'exam-grammar');
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
     app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
     const swBtn = app.querySelector('#specialWordsBtn');
     if (swBtn) swBtn.addEventListener('click', drawSpecialWords);
+    bindDeepDive(app, l.id);
   }
 
   // --- ⚡ 特殊单词表（V0.8）：分组卡片 + 点击朗读 + 一键闯关 ---

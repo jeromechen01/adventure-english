@@ -9,6 +9,7 @@ import { toast } from '../../app.js';
 import * as storage from '../../storage.js';
 import { loadGrammarLesson, skeletonHTML } from '../../utils/lazy-data.js';
 import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
+import { ketLessonLabel } from '../../utils/ket-hall-map.js';
 import { headerHtml, bindBack, esc } from '../exam/exam-common.js';
 
 export const HALL_LEVEL = 'HALL';
@@ -34,7 +35,12 @@ const ZONE = {
 };
 const STAGE_ICONS = ['🌱', '🎯', '⚔️', '🏆'];
 
-export async function renderHallLesson(app, id) {
+/**
+ * @param {HTMLElement} app
+ * @param {string} id 课号 G01-G50
+ * @param {{fromKet?: string}} opts P2b：从 KET 八课「深挖」跳来时带上来路（L1-L8），用于显示返回入口
+ */
+export async function renderHallLesson(app, id, opts = {}) {
   app.innerHTML = skeletonHTML(6);
   const l = await loadGrammarLesson(id);
   if (!l) {
@@ -47,11 +53,11 @@ export async function renderHallLesson(app, id) {
   // 进入即标记「学习中」（未掌握时）
   const prog = storage.getLessonProgress(HALL_LEVEL);
   if (!prog[l.id]) storage.markLessonDone(HALL_LEVEL, l.id, 'learning');
-  lessonViews(app, l).drawIntro();
+  lessonViews(app, l, opts).drawIntro();
 }
 
 // 一课的全部视图闭包：讲解页 / 环节选择 / 闯练 / 侦探关
-function lessonViews(app, l) {
+function lessonViews(app, l, opts = {}) {
   const s = l.sections;
 
   function stageDrillKey(i) { return `hall-${l.id}-s${i + 1}`; }
@@ -73,6 +79,11 @@ function lessonViews(app, l) {
     app.innerHTML = `
       ${headerHtml(`${l.id} · ${esc(l.title)}`)}
       ${hallGuardHTML()}
+      ${opts.fromKet ? `
+      <button id="backKetBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3 bg-amber-50 border-2 border-amber-200" style="padding:10px 12px;min-height:48px">
+        <span class="text-xl text-amber-500">‹</span>
+        <span class="flex-1 text-sm font-bold" style="min-width:0">返回 KET 备考中心 ${esc(ketLessonLabel(opts.fromKet))}</span>
+      </button>` : ''}
       <div class="text-xs text-gray-400 mb-3">${esc(l.tier)}层 · KET 相关度 ${stars}</div>
 
       <!-- ① 一句话本质 -->
@@ -170,6 +181,8 @@ function lessonViews(app, l) {
     bindBack(app, 'grammar-hall');
     app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
     app.querySelector('#detectiveBtn').addEventListener('click', () => drawDetective());
+    const backKet = app.querySelector('#backKetBtn');
+    if (backKet) backKet.addEventListener('click', () => window.__nav('exam-grammar', { lesson: opts.fromKet }));
   }
 
   function ladderHTML(title, list, tone) {
