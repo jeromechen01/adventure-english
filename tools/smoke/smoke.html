@@ -114,6 +114,45 @@
         await visit('KET', p);
       }
 
+      // === P2b 八课 ⇄ 语法大厅 双向跳转实点 ===
+      const km = await import('./assets/js/utils/ket-hall-map.js');
+      const p2b = { deepDive: {}, hallTag: {} };
+      // ① 去程：每课的深挖按钮目标必须与映射表一致（八课全 8 课逐课查）
+      for (const kid of ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8']) {
+        await window.__nav('exam-grammar', { lesson: kid });
+        await sleep(350);
+        const got = [...app.querySelectorAll('[data-hall]')].map(b => b.dataset.hall).join(',');
+        p2b.deepDive[kid] = { got, ok: got === km.KET_TO_HALL[kid].join(',') };
+      }
+      // ② 往返实点：L4 → 深挖 G07 → 返回 L4
+      await window.__nav('exam-grammar', { lesson: 'L4' }); await sleep(350);
+      const firstDeep = app.querySelector('[data-hall]');
+      if (firstDeep) firstDeep.click();
+      await sleep(700);
+      p2b.jumpedToHall = /G07 ·/.test(app.innerHTML);
+      p2b.backEntryShown = !!app.querySelector('#backKetBtn');
+      p2b.noDupTagOnSource = !app.querySelector('[data-ket="L4"]'); // 来路那课不重复挂标签
+      const backBtn = app.querySelector('#backKetBtn');
+      if (backBtn) backBtn.click();
+      await sleep(700);
+      p2b.backToKetLesson = /L4 ·/.test(app.innerHTML) && !!app.querySelector('[data-hall]');
+      // ③ 回程：有映射的课挂标签且跳得对；没映射的课不挂（保留星级一行）
+      for (const [gid, want] of [['G13', 'L3'], ['G01', 'L8'], ['G24', 'L2'], ['G17', null], ['G26', null]]) {
+        await window.__nav('grammar-hall', { lesson: gid });
+        await sleep(600);
+        const tag = app.querySelector('[data-ket]');
+        p2b.hallTag[gid] = {
+          tagged: !!tag, want, ok: want ? (tag && tag.dataset.ket === want) : !tag,
+          starsKept: /KET 相关度/.test(app.innerHTML)
+        };
+      }
+      await window.__nav('grammar-hall', { lesson: 'G13' }); await sleep(600);
+      const ketTag = app.querySelector('[data-ket]');
+      if (ketTag) ketTag.click();
+      await sleep(700);
+      p2b.tagJumpedToKet = /L3 ·/.test(app.innerHTML);
+      p2b.roundTripClosed = !!app.querySelector('[data-hall="G13"]'); // 回到 L3 还能再跳回 G13
+
       // P0.5 三时钟自检：报名未开放 / 报名进行中 / 报名已结束 三种时点
       const ec = await import('./assets/js/modules/exam/exam-common.js');
       // 用本地日期拼串（不要 toISOString：那是 UTC，东八区早上 8 点前会差一天，daysUntil 按本地算）
@@ -209,10 +248,17 @@
       await visit('offline-grade3', 'grammar-hall', { lesson: 'G01' });
       await visit('offline-grade3', 'grammar-hall', { lesson: 'G13' });
       await visit('offline-grade3', 'grammar-hall', { lesson: 'G26' });
+      // P2b 离线：带 fromKet 的深挖落地页（G07 在线访问过 → 内容缓存可读；映射表在壳里）
+      await visit('offline-grade3', 'grammar-hall', { lesson: 'G07', fromKet: 'L4' });
+      p2b.offlineBackEntry = !!app.querySelector('#backKetBtn');
+      await visit('offline-grade3', 'grammar-hall', { lesson: 'G13' });
+      p2b.offlineHallTag = !!app.querySelector('[data-ket="L3"]');
       storage.setGrade('PET');
       for (const p of ['words', 'reading']) await visit('offline-PET', p);
       storage.setGrade('KET');
       for (const p of ['exam-hub', 'exam-plan', 'exam-knowledge', 'exam-grammar', 'exam-reading', 'exam-writing', 'exam-mock', 'exam-resources']) await visit('offline-KET', p);
+      await visit('offline-KET', 'exam-grammar', { lesson: 'L4' });
+      p2b.offlineDeepDive = [...app.querySelectorAll('[data-hall]')].map(b => b.dataset.hall).join(',') === 'G07,G14,G15';
       const offlineRoutes = out.slice(onlineCount);
       await fetch('/__online?t=' + Date.now() + Math.random()).catch(() => {});
 
@@ -226,6 +272,7 @@
         clocks: clockCheck,
         season: seasonCheck,
         hallDrill,
+        p2b,
         gradePicker,
         lazy: {
           grammarIndex: gi && gi.type,

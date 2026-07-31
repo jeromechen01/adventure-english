@@ -8,7 +8,7 @@
 //   会超时，手机上可能直接装不上。
 //   现在：install 只装应用壳（HTML/CSS/JS/图标/manifest + 各 index.json 元信息），
 //   data/ 下的内容文件改为 cache-first 的运行时缓存——访问过一次即写入，之后离线可读。
-const CACHE_VERSION = 'ea-v0.9.17';
+const CACHE_VERSION = 'ea-v0.9.25';
 const SHELL_CACHE = `english-adventure-${CACHE_VERSION}`;
 const CONTENT_CACHE = `english-adventure-content-${CACHE_VERSION}`;
 
@@ -30,6 +30,7 @@ const SHELL_URLS = [
   './assets/js/utils/shuffle.js',
   './assets/js/utils/lazy-data.js',
   './assets/js/utils/exam-season.js',
+  './assets/js/utils/ket-hall-map.js',
   './assets/js/games/card-collect.js',
   './assets/js/games/level-play.js',
   './assets/js/games/match-game.js',

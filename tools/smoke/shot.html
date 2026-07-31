@@ -36,7 +36,8 @@
         storage.setExamProfile({ ...storage.getExamProfile(), level: 'KET', started: true });
       }
       const params = {};
-      if (q.get('lesson')) params.lesson = q.get('lesson'); // 语法大厅课内页：?page=grammar-hall&lesson=G01
+      if (q.get('lesson')) params.lesson = q.get('lesson'); // 课内页：?page=grammar-hall&lesson=G01 / ?page=exam-grammar&lesson=L4
+      if (q.get('fromKet')) params.fromKet = q.get('fromKet'); // P2b 深挖落地页：&fromKet=L4（顶部多一个返回入口）
       await window.__nav(page, params);
       await sleep(600);
       if (q.get('modal') === 'examInfo') {

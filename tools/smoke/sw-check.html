@@ -32,6 +32,7 @@
     log.shellCount = shellKeys.length;
     log.shellHasApp = shellKeys.some(p => p.endsWith('/assets/js/app.js'));
     log.shellHasLazy = shellKeys.some(p => p.endsWith('/assets/js/utils/lazy-data.js'));
+    log.shellHasKetHallMap = shellKeys.some(p => p.endsWith('/assets/js/utils/ket-hall-map.js')); // P2b 新模块必须进壳
     log.shellHasIndexes = ['/data/grammar/index.json', '/data/reader/index.json', '/data/exam/index.json', '/data/pet/topics.json']
       .every(x => shellKeys.some(p => p.endsWith(x)));
     // P0 核心：内容文件不再进预缓存
