@@ -1,7 +1,7 @@
 {
   "$comment": "语法大厅索引（V0.9）。只存元信息，不存正文与题目；正文在同目录 gXX.json，按需懒加载。字段定义见 _schema.index.json。与本目录下 kindergarten/primary/junior.json（1-9 年级语法学院）互不影响。",
   "type": "grammar-hall",
-  "version": "0.9.2",
+  "version": "0.9.26",
   "updated": "2026-07-31",
   "tiers": [
     { "key": "foundation", "name": "基石", "range": "G01-G12", "stage": "小学1-4年级", "cefr": "前A1-A1", "color": "#FF8A4C" },
@@ -115,7 +115,7 @@
       "title": "形容词与副词",
       "metaphor": "形容词写音色，副词写演奏方式",
       "ketRelevance": 1,
-      "ketLessonMap": ["L8"],
+      "ketLessonMap": null,
       "file": "./data/grammar/g10.json",
       "questionCount": 64,
       "status": "done"
@@ -192,7 +192,7 @@
       "title": "情态动词一 can / may / must / should",
       "metaphor": "力度记号（f/p/mf），表达强弱与态度",
       "ketRelevance": 2,
-      "ketLessonMap": ["L2"],
+      "ketLessonMap": null,
       "file": "./data/grammar/g17.json",
       "questionCount": 64,
       "status": "done"
@@ -236,7 +236,7 @@
       "title": "五种基本句型",
       "metaphor": "五种编制：独奏/二重奏/三重奏",
       "ketRelevance": 2,
-      "ketLessonMap": ["L1"],
+      "ketLessonMap": null,
       "file": "./data/grammar/g21.json",
       "questionCount": 64,
       "status": "done"
@@ -280,7 +280,7 @@
       "title": "主谓一致",
       "metaphor": "声部对齐，不能一个人抢拍",
       "ketRelevance": 2,
-      "ketLessonMap": ["L1", "L3"],
+      "ketLessonMap": null,
       "file": "./data/grammar/g25.json",
       "questionCount": 64,
       "status": "done"
