@@ -9,8 +9,8 @@ import { toast } from '../../app.js';
 import * as storage from '../../storage.js';
 import { loadGrammarLesson, skeletonHTML } from '../../utils/lazy-data.js';
 import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
-import { ketLessonLabel } from '../../utils/ket-hall-map.js';
-import { headerHtml, bindBack, esc } from '../exam/exam-common.js';
+import { ketLessonLabel, ketLessonsForHall } from '../../utils/ket-hall-map.js';
+import { examLevel, headerHtml, bindBack, esc } from '../exam/exam-common.js';
 
 export const HALL_LEVEL = 'HALL';
 const STAGE_PASS = 0.7;  // 环节通过线（与 KET 八课口径一致）
@@ -34,6 +34,24 @@ const ZONE = {
   minor: { badge: '⚪ 不挡也基本不考', cls: 'border-gray-200 bg-gray-50' }
 };
 const STAGE_ICONS = ['🌱', '🎯', '⚔️', '🏆'];
+
+// P2b：大厅 → 八课「考不考」回链标签。
+// 只有在映射表里的课才挂标签；没映射的课保留原来的「KET 相关度 ★★」星级一行（读 index.json，不另加标签）。
+// PET 级别不挂（备考中心那边没有对应的八课数据）。
+function ketBackLinkHTML(hallId, exclude) {
+  if (examLevel() === 'PET') return '';
+  // 从八课跳来的那一课不重复挂标签——顶部已有「返回 KET 备考中心 LX」入口
+  const kets = ketLessonsForHall(hallId).filter(k => k !== exclude);
+  if (!kets.length) return '';
+  return `
+    <div class="flex flex-wrap gap-2 mb-3">
+      ${kets.map(k => `
+        <button data-ket="${k}" class="tap-bounce rounded-2xl border-2 border-amber-300 bg-amber-50 text-left px-3 py-2" style="min-height:48px">
+          <span class="text-xs font-bold text-amber-700">🎯 KET 考点 · 对应备考中心 ${esc(ketLessonLabel(k))}</span>
+          <span class="text-gray-400">›</span>
+        </button>`).join('')}
+    </div>`;
+}
 
 /**
  * @param {HTMLElement} app
@@ -85,6 +103,7 @@ function lessonViews(app, l, opts = {}) {
         <span class="flex-1 text-sm font-bold" style="min-width:0">返回 KET 备考中心 ${esc(ketLessonLabel(opts.fromKet))}</span>
       </button>` : ''}
       <div class="text-xs text-gray-400 mb-3">${esc(l.tier)}层 · KET 相关度 ${stars}</div>
+      ${ketBackLinkHTML(l.id, opts.fromKet)}
 
       <!-- ① 一句话本质 -->
       <div class="card-cartoon mb-3 bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200">
@@ -183,6 +202,8 @@ function lessonViews(app, l, opts = {}) {
     app.querySelector('#detectiveBtn').addEventListener('click', () => drawDetective());
     const backKet = app.querySelector('#backKetBtn');
     if (backKet) backKet.addEventListener('click', () => window.__nav('exam-grammar', { lesson: opts.fromKet }));
+    app.querySelectorAll('[data-ket]').forEach(b => b.addEventListener('click', () =>
+      window.__nav('exam-grammar', { lesson: b.dataset.ket })));
   }
 
   function ladderHTML(title, list, tone) {
