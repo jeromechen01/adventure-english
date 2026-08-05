@@ -328,6 +328,17 @@
       "file": "./data/grammar/g29.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G30",
+      "tier": "进阶",
+      "title": "动词不定式 to do",
+      "metaphor": "伴奏声部：不承担时间戳的那些音",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g30.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
