@@ -297,6 +297,17 @@
       "status": "done"
     },
     {
+      "id": "G27",
+      "tier": "进阶",
+      "title": "现在完成时进阶：been/gone 与 since/for",
+      "metaphor": "延音线vs断音：音还在响vs音已断",
+      "ketRelevance": 2,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g27.json",
+      "questionCount": 64,
+      "status": "done"
+    },
+    {
       "id": "G29",
       "tier": "进阶",
       "title": "被动语态（各时态与情态动词）",
