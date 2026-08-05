@@ -308,6 +308,17 @@
       "status": "done"
     },
     {
+      "id": "G28",
+      "tier": "进阶",
+      "title": "过去完成时",
+      "metaphor": "双层延音：前奏比主歌更早响起",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g28.json",
+      "questionCount": 64,
+      "status": "done"
+    },
+    {
       "id": "G29",
       "tier": "进阶",
       "title": "被动语态（各时态与情态动词）",
