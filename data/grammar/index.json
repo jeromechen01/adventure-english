@@ -339,6 +339,17 @@
       "file": "./data/grammar/g30.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G31",
+      "tier": "进阶",
+      "title": "动名词 doing",
+      "metaphor": "把一个动作打包成一件「东西」",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g31.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
