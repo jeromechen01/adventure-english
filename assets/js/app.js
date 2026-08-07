@@ -40,9 +40,13 @@ export function toast(text, type = 'info') {
 }
 
 // === 工具：modal ===
+// 点遮罩不关闭：孩子看内容时误触屏幕会把弹窗关掉、被迫重新点开（V0.9.32 起仅手动关闭 + Esc）。
+// 因此每个调用方必须自带可见的关闭入口（× / 取消 / 知道了）；
+// closeOnEsc: false 供「必须做出选择」的弹窗使用（如首次启动选年级）。
+let onModalEsc = null;
 export function showModal(html, options = {}) {
   const root = document.getElementById('modalRoot');
-  const closeOnBackdrop = options.closeOnBackdrop !== false;
+  const closeOnEsc = options.closeOnEsc !== false;
 
   root.innerHTML = `
     <div class="modal-backdrop fixed inset-0 bg-black/40 z-50 flex items-center justify-center p-4 fade-in">
@@ -52,17 +56,18 @@ export function showModal(html, options = {}) {
     </div>
   `;
 
-  const backdrop = root.querySelector('.modal-backdrop');
-  if (closeOnBackdrop) {
-    backdrop.addEventListener('click', e => {
-      if (e.target === backdrop) closeModal();
-    });
-  }
-  return backdrop;
+  if (onModalEsc) document.removeEventListener('keydown', onModalEsc);
+  onModalEsc = closeOnEsc ? (e => { if (e.key === 'Escape') closeModal(); }) : null;
+  if (onModalEsc) document.addEventListener('keydown', onModalEsc);
+  return root.querySelector('.modal-backdrop');
 }
 
 export function closeModal() {
   document.getElementById('modalRoot').innerHTML = '';
+  if (onModalEsc) {
+    document.removeEventListener('keydown', onModalEsc);
+    onModalEsc = null;
+  }
 }
 
 // === 工具：加载 JSON ===
@@ -576,7 +581,9 @@ async function showGradePicker() {
     examCfg = await (await import('./modules/exam/exam-common.js')).loadExamConfig();
   } catch (e) { /* 配置读不到就退回不带日期的文案 */ }
   showModal(`
-    <div class="p-6">
+    <div class="p-6 relative">
+      <button id="gradePickerClose" aria-label="关闭" class="tap-bounce"
+        style="position:absolute;top:0;right:0;width:48px;height:48px;font-size:24px;line-height:1;color:#999">×</button>
       <h3 class="font-bold text-lg text-center mb-4">选择你的年级</h3>
       <div class="grid grid-cols-3 gap-2">
         ${[1,2,3,4,5,6,7,8,9].map(g => {
@@ -610,6 +617,7 @@ async function showGradePicker() {
       </button>
     </div>
   `);
+  document.getElementById('gradePickerClose').addEventListener('click', closeModal);
   document.querySelectorAll('[data-grade]').forEach(btn => {
     btn.addEventListener('click', () => {
       const raw = btn.dataset.grade;
@@ -687,7 +695,7 @@ function showFirstLaunchWelcome() {
       </button>
       <p class="text-xs text-gray-400">之后可以在右上角随时切换</p>
     </div>
-  `, { closeOnBackdrop: false });
+  `, { closeOnEsc: false });
   document.querySelectorAll('[data-grade]').forEach(btn => {
     btn.addEventListener('click', () => {
       const raw = btn.dataset.grade;
