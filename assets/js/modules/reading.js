@@ -186,26 +186,47 @@ async function renderArticle(app, data, articleId) {
     });
   }
 
-  function showWordPopup(target, word, info) {
-    // 移除之前的
-    document.querySelectorAll('.word-popup').forEach(p => p.remove());
+  // 单词气泡：点空白处不关闭（孩子看释义时误触会打断）——点另一个生词直接切换内容，
+  // 点 × 或 Esc 才关。气泡挂在 #app 内，页面切换/重渲染时随之清掉；
+  // keydown 监听发现气泡已不在 DOM 时自我解绑，避免残留监听。
+  function onPopupEsc(e) {
+    if (!document.querySelector('.word-popup')) {
+      document.removeEventListener('keydown', onPopupEsc);
+      return;
+    }
+    if (e.key === 'Escape') closeWordPopup();
+  }
 
+  function closeWordPopup() {
+    document.querySelectorAll('.word-popup').forEach(p => p.remove());
+    document.removeEventListener('keydown', onPopupEsc);
+  }
+
+  function showWordPopup(target, word, info) {
     speak(word);
 
-    const popup = document.createElement('div');
-    popup.className = 'word-popup fade-in';
-    popup.innerHTML = info ? `
-      <div class="font-en font-bold">${info.word} <button class="text-base ml-1">🔊</button></div>
-      <div class="text-xs text-gray-400 mb-1">${info.phonetic || ''}</div>
-      <div class="text-sm">${info.pos || ''} ${info.meaning}</div>
-    ` : `
-      <div class="font-en font-bold">${word}</div>
-      <div class="text-xs text-gray-500 mt-1">该词不在本地词库中</div>
+    let popup = document.querySelector('.word-popup');
+    if (!popup) {
+      popup = document.createElement('div');
+      popup.className = 'word-popup fade-in';
+      app.appendChild(popup);
+      document.removeEventListener('keydown', onPopupEsc);
+      document.addEventListener('keydown', onPopupEsc);
+    }
+    popup.innerHTML = `
+      <button data-close aria-label="关闭" class="tap-bounce"
+        style="position:absolute;top:0;right:0;width:48px;height:48px;font-size:20px;line-height:1;color:#999">×</button>
+      ${info ? `
+        <div class="font-en font-bold" style="padding-right:36px">${info.word} <button data-speak class="text-base ml-1">🔊</button></div>
+        <div class="text-xs text-gray-400 mb-1">${info.phonetic || ''}</div>
+        <div class="text-sm">${info.pos || ''} ${info.meaning}</div>
+      ` : `
+        <div class="font-en font-bold" style="padding-right:36px">${word}</div>
+        <div class="text-xs text-gray-500 mt-1">该词不在本地词库中</div>
+      `}
     `;
 
-    document.body.appendChild(popup);
-
-    // 定位
+    // 定位（切换生词时按新内容重新定位）
     const rect = target.getBoundingClientRect();
     const popupRect = popup.getBoundingClientRect();
     let left = rect.left + rect.width / 2 - popupRect.width / 2;
@@ -216,23 +237,9 @@ async function renderArticle(app, data, articleId) {
     popup.style.left = left + 'px';
     popup.style.top = top + 'px';
 
-    // 点击其他地方关闭
-    setTimeout(() => {
-      const onDismiss = () => {
-        popup.remove();
-        document.removeEventListener('click', onDismiss);
-      };
-      document.addEventListener('click', onDismiss);
-    }, 100);
-
-    // 点击 popup 中的喇叭
-    const speakBtn = popup.querySelector('button');
-    if (speakBtn) {
-      speakBtn.addEventListener('click', e => {
-        e.stopPropagation();
-        speak(word);
-      });
-    }
+    popup.querySelector('[data-close]').addEventListener('click', closeWordPopup);
+    const speakBtn = popup.querySelector('[data-speak]');
+    if (speakBtn) speakBtn.addEventListener('click', () => speak(word));
   }
 
   function renderQuiz() {
