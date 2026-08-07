@@ -1,7 +1,7 @@
 // modules/exam/mock-exam.js —— 模块 6：模拟考试
 // 原创全真卷：7 部分 32 题（Q1-30 各 1 分 + Q31/Q32 各 15 分 = 60）+ 60 分钟倒计时 + 自动交卷
 // P1-5 自动判分；P6/P7 用自评清单打分或跳 Write & Improve；三项（阅读/写作/听力）分开记。
-import { loadJSON, toast, showModal, closeModal } from '../../app.js';
+import { loadJSON, toast } from '../../app.js';
 import * as storage from '../../storage.js';
 import { runDrillSet, runListeningSet } from './reading-drill.js';
 import { examLevel, headerHtml, bindBack, esc, loadExamConfig, fillSeason } from './exam-common.js';
