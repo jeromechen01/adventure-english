@@ -549,6 +549,7 @@
 8. 所有路径用相对路径 `./xxx`，绝不用绝对路径（GitHub Pages 子目录部署）。
 9. **并行会话禁止同时改 `sw.js` CACHE_VERSION**——两个会话各自 bump 会互相覆写，且低版本覆写高版本能触发一次刷新（不立即报错），但会埋下日后版本号重名、缓存静默失效的雷。规则：UI 批次与内容批次要么串行，要么约定只有一个会话碰 sw.js；CACHE_VERSION 必须全局单调递增，绝不复用已发布过的号。
 10. **KET 八课（`data/exam/ket/grammar-lessons.json` 等）是「一个字不动」的红线**（P2b 起）。任何批次动手前先把它复制到 `tools/backup/<批次名>/`，收尾跑 `node tools/check-ket-lessons-untouched.mjs [备份目录]` 逐字段深比对（比 hash 严：字段相同但被重新格式化/换编码也会被抓出来）。要给八课加入口，只改渲染层 `assets/js/modules/exam/grammar-course.js`，绝不碰数据文件。
+11. **`data/grammar/index.json` 在 sw 壳缓存预取清单里（sw.js:73），走 cache-first。** 凡是新增/修改课程导致 index.json 变动，必须同时 bump CACHE_VERSION，否则老客户端读到旧索引、新课在目录里根本不出现（课文件已上线也看不到），是静默失效，不报错。
 
 ---
 
