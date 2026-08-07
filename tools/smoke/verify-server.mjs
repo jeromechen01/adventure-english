@@ -32,6 +32,7 @@ const ALIAS = {
   '/_smoke.html': 'tools/smoke/smoke.html',
   '/_swcheck.html': 'tools/smoke/sw-check.html',
   '/_shot.html': 'tools/smoke/shot.html',
+  '/_modalcheck.html': 'tools/smoke/modal-check.html',
 };
 
 const MIME = {

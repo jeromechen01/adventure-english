@@ -233,7 +233,7 @@
       const g13 = await lz.loadGrammarLesson('G13');     // P2a 样课：骨架层首课
       const g26 = await lz.loadGrammarLesson('G26');     // P2a 收官：骨架层末课
       const g29 = await lz.loadGrammarLesson('G29');     // P3 样课：进阶层被动语态
-      const missing = await lz.loadGrammarLesson('G27'); // 进阶层其余课未开工，应返回 null 且不抛（P3 批量写到 G27 后改成 G43）
+      const missing = await lz.loadGrammarLesson('G43'); // 精修层未开工，应返回 null 且不抛（G27-G31 已入库，探针从 G27 挪到 G43）
       const stats = lz.cacheStats();
 
       // === 离线复跑：清掉内存缓存 → 服务器切断网 → 三条线再走一遍，全部靠 SW 缓存 ===

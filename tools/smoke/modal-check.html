@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>modal-check</title>
+<!-- Tailwind 必须带上（同 shot.html）：弹窗的 fixed/relative/flex 布局全靠它，
+     不带的话 × 按钮的 absolute 会锚到视口，几何实测全是假的 -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/css/style.css" />
+<script>
+  window.__errs = [];
+  window.addEventListener('error', e => window.__errs.push('error: ' + (e.message || e.error)));
+  window.addEventListener('unhandledrejection', e => window.__errs.push('rejection: ' + ((e.reason && e.reason.message) || e.reason)));
+</script>
+</head>
+<body>
+<!-- 弹窗关闭行为专项自检（V0.9.32 弹窗升级）：逐个弹层验证「点外部不关 / 点×能关 / Esc 能关 /
+     没有关不掉的死弹窗」。× 按钮的窄屏检查按 CHECKLIST 坑 6 用实测边界（getBoundingClientRect +
+     elementFromPoint），不靠截图目测；用 --window-size=360,800 再跑一遍即是窄屏版。 -->
+  <header id="topNav"><button id="gradeBtn"><span id="gradeLabel">三年级</span></button>
+    <span id="coinDisplay">0</span><span id="daysDisplay">0</span></header>
+  <main id="app"></main>
+  <nav id="bottomNav">
+    <button data-page="home" class="nav-btn"></button>
+    <button data-page="learn" class="nav-btn"></button>
+    <button data-page="mistakes" class="nav-btn"></button>
+    <button data-page="me" class="nav-btn"></button>
+  </nav>
+  <div id="modalRoot"></div>
+  <div id="toastRoot"></div>
+  <pre id="RESULT">PENDING</pre>
+
+  <script type="module" src="assets/js/app.js"></script>
+  <script type="module">
+    const sleep = ms => new Promise(r => setTimeout(r, ms));
+    const app = document.getElementById('app');
+    // 窄屏仿真同 shot.html：无头 Chrome viewport 压不到 ~492 以下，用 ?w=360 把容器压到目标宽，
+    // × 按钮右边界按 w 实测（媒体查询不触发，但本项目版式不依赖它）。
+    const forceW = parseInt(new URLSearchParams(location.search).get('w'), 10);
+    const LIMIT = Number.isFinite(forceW) ? forceW : null;
+    function applyNarrow() {
+      if (!LIMIT) return;
+      app.style.width = LIMIT + 'px'; app.style.maxWidth = LIMIT + 'px'; app.style.margin = '0';
+      // 遮罩是 fixed inset-0，会铺满真实视口（无头最小 ~492）；仿真时把它也钉到 LIMIT 宽，
+      // 让 modal-content 真正在 LIMIT 内居中，× 右边界的实测才有意义
+      document.querySelectorAll('#modalRoot .modal-backdrop').forEach(b => { b.style.width = LIMIT + 'px'; b.style.right = 'auto'; });
+      document.querySelectorAll('#modalRoot .modal-content').forEach(m => { m.style.maxWidth = LIMIT - 32 + 'px'; });
+    }
+    const r = { viewport: null, forcedWidth: LIMIT };
+    const modalOpen = () => !!document.querySelector('.modal-backdrop');
+    const pressEsc = () => document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+    const clickBackdrop = () => { const b = document.querySelector('.modal-backdrop'); if (b) b.click(); };
+    // × 按钮三查：热区 ≥48、完整落在（仿真）视口内、中心点没被别的元素盖住。
+    // withinEl 给单词气泡用：气泡自身的视口钳位走 window.innerWidth（仿真下测不准，逻辑本次未动），
+    // 只须验证 × 完整落在气泡框内。
+    function xButtonOk(el, withinEl) {
+      if (!el) return { exists: false };
+      const b = el.getBoundingClientRect();
+      const hit = document.elementFromPoint(b.left + b.width / 2, b.top + b.height / 2);
+      const res = {
+        exists: true,
+        hot48: b.width >= 48 && b.height >= 48,
+        notCovered: hit === el || el.contains(hit),
+      };
+      if (withinEl) {
+        const w = withinEl.getBoundingClientRect();
+        res.insideBubble = b.left >= w.left - 1 && b.right <= w.right + 1 && b.top >= w.top - 1;
+      } else {
+        const rightLimit = LIMIT || window.innerWidth;
+        res.inViewport = b.left >= 0 && b.top >= 0 && b.right <= rightLimit && b.bottom <= window.innerHeight;
+      }
+      return res;
+    }
+    // 弹层内容有没有元素冲出（仿真）宽度（同 shot.html 的溢出体检）
+    function modalOverflow() {
+      const rightLimit = LIMIT || document.documentElement.clientWidth;
+      return [...document.querySelectorAll('#modalRoot *')]
+        .filter(el => el.getBoundingClientRect().right > rightLimit + 1)
+        .slice(0, 5)
+        .map(el => ({ cls: (el.className || '').toString().slice(0, 50), right: Math.round(el.getBoundingClientRect().right) }));
+    }
+
+    async function run() {
+      for (let i = 0; i < 40 && !window.__nav; i++) await sleep(100);
+      if (!window.__nav) { finish('BOOT-FAILED'); return; }
+      document.getElementById('modalRoot').innerHTML = ''; // 关掉首次访问欢迎弹窗
+      const A = await import('./assets/js/app.js');
+      const storage = await import('./assets/js/storage.js');
+      r.viewport = window.innerWidth + 'x' + window.innerHeight;
+      applyNarrow();
+
+      // ① 组件级 showModal：点遮罩不关 / Esc 关 / closeOnEsc:false 时 Esc 也不关 / closeModal 总能关
+      A.showModal('<div class="p-6"><button id="tBtn">知道了</button></div>');
+      await sleep(150);
+      clickBackdrop(); await sleep(150);
+      r.generic = { stayOnBackdrop: modalOpen() };
+      pressEsc(); await sleep(150);
+      r.generic.escCloses = !modalOpen();
+      A.showModal('<div class="p-6">必选弹窗</div>', { closeOnEsc: false });
+      await sleep(150);
+      pressEsc(); await sleep(150);
+      r.generic.escOptOutStays = modalOpen();
+      A.closeModal();
+      r.generic.closeModalAlwaysWorks = !modalOpen();
+
+      // ② 年级选择器：遮罩不关 / 右上角 × 可见可点 / × 关 / Esc 关
+      storage.setGrade(3);
+      document.getElementById('gradeBtn').click();
+      await sleep(500);
+      r.gradePicker = { opened: modalOpen() };
+      clickBackdrop(); await sleep(150);
+      r.gradePicker.stayOnBackdrop = modalOpen();
+      applyNarrow();
+      await sleep(150);
+      const gx = document.getElementById('gradePickerClose');
+      r.gradePicker.xBtn = xButtonOk(gx);
+      r.gradePicker.overflow = modalOverflow();
+      if (gx) gx.click();
+      await sleep(150);
+      r.gradePicker.xCloses = !modalOpen();
+      document.getElementById('gradeBtn').click();
+      await sleep(500);
+      pressEsc(); await sleep(150);
+      r.gradePicker.escCloses = !modalOpen();
+
+      // ③ 设置页「确认清空数据」：遮罩不关 / 取消能关 / Esc 能关（绝不点确认）
+      await window.__nav('me'); await sleep(500);
+      const resetBtn = app.querySelector('#resetBtn');
+      r.resetConfirm = { entryFound: !!resetBtn };
+      if (resetBtn) {
+        resetBtn.click(); await sleep(300);
+        r.resetConfirm.opened = modalOpen();
+        applyNarrow();
+        r.resetConfirm.overflow = modalOverflow();
+        clickBackdrop(); await sleep(150);
+        r.resetConfirm.stayOnBackdrop = modalOpen();
+        const cancel = document.getElementById('cancelReset');
+        r.resetConfirm.cancelBtnFound = !!cancel;
+        if (cancel) cancel.click();
+        await sleep(150);
+        r.resetConfirm.cancelCloses = !modalOpen();
+        resetBtn.click(); await sleep(300);
+        pressEsc(); await sleep(150);
+        r.resetConfirm.escCloses = !modalOpen();
+      }
+
+      // ④ KET 考试信息面板：遮罩不关 / 取消能关 / Esc 能关（绝不点保存）
+      storage.setGrade('KET');
+      storage.setExamProfile({ ...storage.getExamProfile(), level: 'KET', started: true });
+      await window.__nav('exam-hub'); await sleep(500);
+      const hub = await import('./assets/js/modules/exam/exam-hub.js');
+      hub.showExamInfoPanel(app);
+      await sleep(300);
+      r.examInfo = { opened: modalOpen() };
+      applyNarrow();
+      r.examInfo.overflow = modalOverflow();
+      clickBackdrop(); await sleep(150);
+      r.examInfo.stayOnBackdrop = modalOpen();
+      const cfgCancel = document.getElementById('cfgCancel');
+      r.examInfo.cancelBtnFound = !!cfgCancel;
+      if (cfgCancel) cfgCancel.click();
+      await sleep(150);
+      r.examInfo.cancelCloses = !modalOpen();
+      hub.showExamInfoPanel(app);
+      await sleep(300);
+      pressEsc(); await sleep(150);
+      r.examInfo.escCloses = !modalOpen();
+
+      // ⑤ 单词气泡：点空白不关 / 点另一生词原地切换 / × 关 / Esc 关 / 切页自动清
+      storage.setGrade(3);
+      await window.__nav('reading'); await sleep(500);
+      const firstArticle = app.querySelector('[data-article]');
+      if (firstArticle) { firstArticle.click(); await sleep(600); }
+      const spans = [...app.querySelectorAll('.inline-word')];
+      // 挑两个不同的词，验证「切换内容」而不是同词重开
+      const w1 = spans[0];
+      const w2 = spans.find(s => s.dataset.word !== (w1 && w1.dataset.word));
+      r.wordPopup = { articleOpened: spans.length > 1, twoWordsFound: !!(w1 && w2) };
+      if (w1 && w2) {
+        w1.click(); await sleep(300);
+        const p1 = document.querySelector('.word-popup');
+        r.wordPopup.opens = !!p1;
+        const text1 = p1 ? p1.textContent : '';
+        document.body.click(); await sleep(150);
+        app.click(); await sleep(150);
+        r.wordPopup.stayOnOutsideClick = !!document.querySelector('.word-popup');
+        w2.click(); await sleep(300);
+        const p2 = document.querySelector('.word-popup');
+        r.wordPopup.switchInPlace = p2 === p1;           // 同一节点，不是关了再开
+        r.wordPopup.contentSwitched = p2 && p2.textContent !== text1;
+        r.wordPopup.xBtn = xButtonOk(p2 && p2.querySelector('[data-close]'), p2);
+        const xc = p2 && p2.querySelector('[data-close]');
+        if (xc) xc.click();
+        await sleep(150);
+        r.wordPopup.xCloses = !document.querySelector('.word-popup');
+        w1.click(); await sleep(300);
+        pressEsc(); await sleep(150);
+        r.wordPopup.escCloses = !document.querySelector('.word-popup');
+        w1.click(); await sleep(300);
+        await window.__nav('home'); await sleep(400);
+        r.wordPopup.clearedOnNav = !document.querySelector('.word-popup');
+      }
+
+      // 汇总：任何一个「关不掉」即整体失败
+      const flat = JSON.stringify(r);
+      r.noDeadModal = !/"(xCloses|escCloses|cancelCloses|closeModalAlwaysWorks)":false/.test(flat);
+      r.errs = window.__errs;
+      finish(JSON.stringify(r, null, 1));
+    }
+
+    async function finish(text) {
+      document.getElementById('RESULT').textContent = text;
+      try { await fetch('/__result', { method: 'POST', body: text }); } catch (e) {}
+    }
+    run();
+  </script>
+</body>
+</html>
