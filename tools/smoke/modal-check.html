@@ -11,6 +11,14 @@
   window.__errs = [];
   window.addEventListener('error', e => window.__errs.push('error: ' + (e.message || e.error)));
   window.addEventListener('unhandledrejection', e => window.__errs.push('rejection: ' + ((e.reason && e.reason.message) || e.reason)));
+  // ⑦ 孤儿计时器专项（V0.9.33）：包一层 setInterval/clearInterval 记账，
+  // 进出答题页后 __activeIntervals 应回到基线（防跳走后倒计时覆盖别页 DOM）
+  window.__activeIntervals = new Set();
+  (function () {
+    const si = window.setInterval, ci = window.clearInterval;
+    window.setInterval = function (...a) { const id = si.apply(window, a); window.__activeIntervals.add(id); return id; };
+    window.clearInterval = function (id) { window.__activeIntervals.delete(id); return ci.call(window, id); };
+  })();
 </script>
 </head>
 <body>
@@ -199,6 +207,93 @@
         w1.click(); await sleep(300);
         await window.__nav('home'); await sleep(400);
         r.wordPopup.clearedOnNav = !document.querySelector('.word-popup');
+      }
+
+      // ⑥ 答题态（V0.9.33 防误触退出）：进行中隐藏导航+年级切换 / ‹ 与 Esc 先确认 /
+      //    「继续做题」回原题不丢 / 「离开」退出并恢复导航
+      storage.setGrade(3);
+      const gdata = await fetch('data/grammar/primary.json').then(x => x.json()).catch(() => null);
+      const topic0 = gdata && gdata.topics && gdata.topics[0];
+      await window.__nav('grammar', { topicId: topic0 && topic0.id }); await sleep(500);
+      const quizBtn = app.querySelector('#quizBtn');
+      r.focusMode = { entryFound: !!quizBtn };
+      if (quizBtn) {
+        quizBtn.click(); await sleep(300);
+        applyNarrow();
+        const nav = document.getElementById('bottomNav');
+        const gb = document.getElementById('gradeBtn');
+        r.focusMode.navHidden = getComputedStyle(nav).display === 'none';
+        r.focusMode.gradeBtnHidden = getComputedStyle(gb).display === 'none';
+        r.focusMode.paddingCollapsed = !document.body.classList.contains('has-bottom-nav');
+        const back = app.querySelector('#backBtn');
+        const bb = back && back.getBoundingClientRect();
+        r.focusMode.backVisibleInView = !!bb && bb.width > 0 && bb.left >= 0 && bb.right <= (LIMIT || window.innerWidth);
+        // 答题页内容有没有元素冲出（仿真）宽度
+        const rightLimit = LIMIT || document.documentElement.clientWidth;
+        r.focusMode.quizOverflow = [...app.querySelectorAll('*')]
+          .filter(el => el.getBoundingClientRect().right > rightLimit + 1).length;
+        // ‹ → 确认框：遮罩不关 / 「继续做题」关且留在原题 / 导航仍隐藏
+        back.click(); await sleep(300);
+        r.focusMode.confirmOpens = modalOpen();
+        applyNarrow();
+        r.focusMode.overflow = modalOverflow();
+        clickBackdrop(); await sleep(150);
+        r.focusMode.stayOnBackdrop = modalOpen();
+        const stay = document.getElementById('focusStayBtn');
+        r.focusMode.stayBtnFound = !!stay;
+        if (stay) stay.click();
+        await sleep(150);
+        r.focusMode.cancelCloses = !modalOpen();
+        r.focusMode.stillInQuizAfterStay = !!app.querySelector('[data-opt]') && getComputedStyle(nav).display === 'none';
+        // Esc：无弹窗时打开确认；再按 Esc 关掉确认（=继续做题）
+        pressEsc(); await sleep(200);
+        r.focusMode.escOpensConfirm = modalOpen();
+        pressEsc(); await sleep(200);
+        r.focusMode.escCloses = !modalOpen();
+        // 「离开」：回讲解页 + 导航恢复
+        app.querySelector('#backBtn').click(); await sleep(300);
+        const leaveBtn = document.getElementById('focusLeaveBtn');
+        r.focusMode.leaveBtnFound = !!leaveBtn;
+        if (leaveBtn) leaveBtn.click();
+        await sleep(300);
+        r.focusMode.leftToStudy = !!app.querySelector('#quizBtn');
+        r.focusMode.navRestored = getComputedStyle(nav).display !== 'none' && document.body.classList.contains('has-bottom-nav');
+      }
+
+      // ⑦ 孤儿计时器：打地鼠开局（60 秒倒计时）→ 路由跳走 → 计时器应回到基线
+      const baseIntervals = window.__activeIntervals.size;
+      await window.__nav('words', { mode: 'shoot' }); await sleep(500);
+      const shootStart = app.querySelector('#startBtn');
+      r.orphanTimers = { shootEntryFound: !!shootStart };
+      if (shootStart) {
+        shootStart.click(); await sleep(600);
+        r.orphanTimers.timerRunning = window.__activeIntervals.size > baseIntervals;
+        r.orphanTimers.navHiddenInGame = getComputedStyle(document.getElementById('bottomNav')).display === 'none';
+        await window.__nav('home'); await sleep(400);
+        r.orphanTimers.clearedAfterNav = window.__activeIntervals.size <= baseIntervals;
+        r.orphanTimers.navRestored = getComputedStyle(document.getElementById('bottomNav')).display !== 'none';
+      }
+
+      // ⑧ 写作草稿：写一半 → 跳走 → 再进同话题应回填
+      await window.__nav('writing'); await sleep(500);
+      const wTopicBtn = app.querySelector('[data-topic]');
+      r.writingDraft = { entryFound: !!wTopicBtn };
+      if (wTopicBtn) {
+        wTopicBtn.click(); await sleep(500);
+        const ta1 = app.querySelector('#writeArea');
+        r.writingDraft.editorFound = !!ta1;
+        if (ta1) {
+          ta1.value = 'My draft survives accidental exit test';
+          ta1.dispatchEvent(new Event('input', { bubbles: true }));
+          await sleep(700); // 防抖落盘
+          await window.__nav('home'); await sleep(400); // 跳走（cleanup 也会同步落盘）
+          await window.__nav('writing'); await sleep(400);
+          const again = app.querySelector('[data-topic]');
+          if (again) { again.click(); await sleep(500); }
+          const ta2 = app.querySelector('#writeArea');
+          r.writingDraft.restored = !!ta2 && ta2.value === 'My draft survives accidental exit test';
+        }
+        await window.__nav('home'); await sleep(300);
       }
 
       // 汇总：任何一个「关不掉」即整体失败
