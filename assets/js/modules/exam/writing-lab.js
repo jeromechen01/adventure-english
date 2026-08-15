@@ -1,7 +1,7 @@
 // modules/exam/writing-lab.js —— 模块 5：写作学习和训练
 // Part 6/7 讲解+模板+题库+原创范文+自评清单+草稿保存+一键跳 Write & Improve
 // 不在 app 内自建 AI 批改（纯静态无后端，官方 W&I 更准更免费）
-import { loadJSON, toast } from '../../app.js';
+import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../../app.js';
 import * as storage from '../../storage.js';
 import { speak } from '../../speech.js';
 import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
@@ -89,8 +89,10 @@ function renderTask(app, level, g, task, partKey) {
   const p = g[partKey];
   const minWords = partKey === 'part6' ? 25 : 35;
   const drafts = storage.getWritingDrafts(level);
-  const saved = drafts[task.id] ? drafts[task.id].text : '';
+  let saved = drafts[task.id] ? drafts[task.id].text : '';
   let showSample = false;
+  let draftT = null; // 自动草稿防抖（V0.9.33）：手动保存按钮保留，误触退出也不丢字
+  if (saved.trim()) setTimeout(() => toast('上次写到这里，接着写就好', 'info'), 400);
 
   function countWords(s) { return (s.trim().match(/[A-Za-z']+/g) || []).length; }
 
@@ -143,18 +145,27 @@ function renderTask(app, level, g, task, partKey) {
           <div class="text-xs text-gray-600 mt-1">${esc(task.sample.note || '')}</div>
         </div>` : ''}</div>
     `;
-    bindBack(app, 'exam-writing');
-    app.querySelector('#examBackBtn').onclick = () => renderWritingLab(app, {});
-
     const ta = app.querySelector('#draft');
     const wc = app.querySelector('#wc');
     const updateWc = () => {
       const n = countWords(ta.value);
       wc.textContent = `${n} 词 / 至少 ${minWords}`;
       wc.className = `text-xs ${n >= minWords ? 'text-green-600 font-bold' : 'text-gray-400'}`;
+      saved = ta.value;
+      clearTimeout(draftT);
+      draftT = setTimeout(() => storage.saveWritingDraft(level, task.id, ta.value), 500);
     };
     ta.addEventListener('input', updateWc);
     updateWc();
+
+    // 答题态：写作中 ‹/Esc 先确认（不 bindBack，避免绕过确认）；任何离开路径都落盘草稿
+    enterFocus({
+      leave: () => renderWritingLab(app, {}),
+      stayLabel: '继续写',
+      note: '写到一半的内容已自动保存，下次进来接着写。',
+      cleanup: () => { clearTimeout(draftT); storage.saveWritingDraft(level, task.id, saved); }
+    });
+    app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(() => renderWritingLab(app, {}));
 
     app.querySelector('#saveBtn').addEventListener('click', () => {
       storage.saveWritingDraft(level, task.id, ta.value);

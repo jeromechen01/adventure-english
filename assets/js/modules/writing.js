@@ -1,5 +1,5 @@
 // modules/writing.js - 写作工坊 + 伪 AI 批改
-import { loadJSON, toast } from '../app.js';
+import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../app.js';
 import * as storage from '../storage.js';
 import { playSound } from '../speech.js';
 
@@ -136,8 +136,13 @@ function renderTopic(app, topic, samplesData) {
     return;
   }
 
-  let userText = '';
+  // 自动草稿（V0.9.33）：复用备考中心的草稿存储，level 固定 'FREE' 与 KET/PET 互不串档。
+  // 进入时回填上次写到一半的内容，input 防抖落盘——误触退出也不丢字。
+  const savedDraft = (storage.getWritingDrafts('FREE')[topic.id] || {}).text || '';
+  let userText = savedDraft;
   let result = null;
+  let draftT = null;
+  if (savedDraft.trim()) setTimeout(() => toast('上次写到这里，接着写就好', 'info'), 400);
 
   function render() {
     if (result) return renderResult();
@@ -167,7 +172,7 @@ function renderTopic(app, topic, samplesData) {
       </div>
 
       <div class="card-cartoon mb-3">
-        <textarea id="writeArea" class="w-full min-h-[200px] p-3 rounded-2xl border-2 border-gray-200 focus:border-primary outline-none font-en text-sm leading-relaxed resize-none" placeholder="开始你的英文写作...">${userText}</textarea>
+        <textarea id="writeArea" class="w-full min-h-[200px] p-3 rounded-2xl border-2 border-gray-200 focus:border-primary outline-none font-en text-sm leading-relaxed resize-none" placeholder="开始你的英文写作...">${userText.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</textarea>
         <div class="flex items-center justify-between mt-2 text-xs text-gray-400">
           <span id="wordCount">0 词</span>
           <span class="text-gray-300">建议 ${topic.wordCount[0]}-${topic.wordCount[1]} 词</span>
@@ -184,11 +189,21 @@ function renderTopic(app, topic, samplesData) {
       const count = text ? text.split(/\s+/).filter(w => w).length : 0;
       wc.textContent = count + ' 词';
       userText = ta.value;
+      // 防抖自动存草稿
+      clearTimeout(draftT);
+      draftT = setTimeout(() => storage.saveWritingDraft('FREE', topic.id, ta.value), 500);
     }
     ta.addEventListener('input', updateCount);
     updateCount();
 
-    app.querySelector('#backBtn').addEventListener('click', () => window.__nav('writing'));
+    // 答题态：写作中 ‹/Esc 先确认（草稿已自动保存，确认只防误触打断）
+    enterFocus({
+      leave: () => window.__nav('writing'),
+      stayLabel: '继续写',
+      note: '写到一半的内容已自动保存，下次进来接着写。',
+      cleanup: () => { clearTimeout(draftT); storage.saveWritingDraft('FREE', topic.id, userText); }
+    });
+    app.querySelector('#backBtn').addEventListener('click', () => requestLeaveFocus(() => window.__nav('writing')));
     app.querySelector('#submitBtn').addEventListener('click', () => {
       const text = ta.value.trim();
       if (!text || text.split(/\s+/).length < 10) {
@@ -205,6 +220,7 @@ function renderTopic(app, topic, samplesData) {
   }
 
   function renderResult() {
+    exitFocus(); // 批改结果页不是答题态
     const sample = samplesData?.samples.find(s => s.topicId === topic.id);
 
     app.innerHTML = `
