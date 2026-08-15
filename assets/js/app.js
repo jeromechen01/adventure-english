@@ -70,6 +70,66 @@ export function closeModal() {
   }
 }
 
+// === 答题态（V0.9.33 防误触退出）===
+// 进行中（闯练/模考/闯关/写作等）隐藏底部导航 + 年级切换（隐藏而非禁用），
+// 左上 ‹ 返回是唯一出口；confirm 页面（#1-13）离开前弹确认，★ 级轻场景只隐藏不拦。
+// cleanup 在任何离开路径（确认离开 / navigate 兜底）都会执行，用来清倒计时等，
+// 防止孤儿计时器在跳走后继续跑、把别的页面 DOM 覆盖掉。
+let focusState = null;
+
+export function enterFocus(opts = {}) {
+  focusState = {
+    remain: opts.remain || null,        // () => 剩余题数；null 用通用文案（如写作）
+    leave: opts.leave || null,          // Esc/确认「离开」后执行的真正退出动作
+    cleanup: opts.cleanup || null,
+    confirm: opts.confirm !== false,
+    note: opts.note || '',
+    stayLabel: opts.stayLabel || '继续做题'
+  };
+  const nav = document.getElementById('bottomNav');
+  if (nav) nav.style.display = 'none';
+  const gb = document.getElementById('gradeBtn');
+  if (gb) gb.style.display = 'none';
+  document.body.classList.remove('has-bottom-nav');
+}
+
+export function exitFocus() {
+  if (!focusState) return;
+  const fs = focusState;
+  focusState = null;
+  if (fs.cleanup) {
+    try { fs.cleanup(); } catch (e) { console.error('答题态 cleanup 失败:', e); }
+  }
+  const nav = document.getElementById('bottomNav');
+  if (nav) nav.style.display = '';
+  const gb = document.getElementById('gradeBtn');
+  if (gb) gb.style.display = '';
+  document.body.classList.add('has-bottom-nav');
+}
+
+// 请求离开答题态：confirm 页面先弹确认，其余直接走。
+// fallback：不在答题态时的兜底动作（如结算页的 ✕ 直接退出）。
+export function requestLeaveFocus(fallback) {
+  if (!focusState) { if (typeof fallback === 'function') fallback(); return; }
+  const fs = focusState;
+  const doLeave = () => { exitFocus(); if (fs.leave) fs.leave(); else if (typeof fallback === 'function') fallback(); };
+  if (!fs.confirm) { doLeave(); return; }
+  const n = fs.remain ? fs.remain() : null;
+  showModal(`
+    <div class="p-6">
+      <div class="text-5xl text-center mb-3">🐾</div>
+      <h3 class="font-bold text-center mb-2">${n != null && n > 0 ? `还有 ${n} 题没做完，确定要离开吗？` : '确定要离开吗？'}</h3>
+      <p class="text-sm text-gray-600 text-center mb-5">${fs.note || '随时可以再回来。'}</p>
+      <div class="flex gap-3">
+        <button id="focusStayBtn" class="flex-1 btn-cartoon">${fs.stayLabel}</button>
+        <button id="focusLeaveBtn" class="flex-1 btn-cartoon btn-cartoon-secondary">离开</button>
+      </div>
+    </div>
+  `);
+  document.getElementById('focusStayBtn').addEventListener('click', closeModal);
+  document.getElementById('focusLeaveBtn').addEventListener('click', () => { closeModal(); doLeave(); });
+}
+
 // === 工具：加载 JSON ===
 // V0.9 P0：统一走 utils/lazy-data.js（带并发合并 + 失败重试 1 次 + 内存缓存），
 // 这里只保留「失败弹 toast」这一层适配，现有模块的调用方式与返回值完全不变。
@@ -103,6 +163,8 @@ function gradeLabel(g) {
 
 // === 路由 ===
 async function navigate(page, params = {}) {
+  // 答题态兜底：任何路由切换都恢复导航并执行 cleanup（防孤儿计时器覆盖新页面）
+  exitFocus();
   state.page = page;
   state.params = params;
   // 更新底部导航激活态
@@ -663,6 +725,14 @@ async function bootstrap() {
 
   // 绑定年级切换
   document.getElementById('gradeBtn').addEventListener('click', showGradePicker);
+
+  // 答题态 Esc = 请求离开（仅 confirm 页面）；有弹窗开着时让弹窗自己的 Esc 处理
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Escape') return;
+    if (!focusState || !focusState.confirm) return;
+    if (document.getElementById('modalRoot').firstElementChild) return;
+    requestLeaveFocus();
+  });
 
   // 初始页
   navigate('home');
