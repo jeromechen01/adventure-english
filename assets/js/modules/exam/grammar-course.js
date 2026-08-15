@@ -1,6 +1,6 @@
 // modules/exam/grammar-course.js —— 模块 3：语法八课（乐队比喻）
 // 视图：主页(课程树+错误分区+考纲+动词闯关入口) / 课程详情(讲解+例句+练习) / 不规则动词(接入闯关)
-import { loadJSON, toast } from '../../app.js';
+import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../../app.js';
 import * as storage from '../../storage.js';
 import { renderLevelMap } from '../levels.js';
 import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
@@ -154,6 +154,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
   }
 
   function drawIntro() {
+    exitFocus(); // 讲解页不是答题态
     app.innerHTML = `
       ${headerHtml(`${l.id} · ${l.title}`)}
       ${l.sections.map(s => `
@@ -216,8 +217,9 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
       </div>
       <div id="feedback"></div>
     `;
-    bindBack(app, 'exam-grammar');
-    app.querySelector('#examBackBtn').onclick = () => drawIntro();
+    // 答题态：‹/Esc 先确认再回讲解（不 bindBack，避免绕过确认）
+    enterFocus({ remain: () => exercises.length - exIdx, leave: drawIntro });
+    app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(drawIntro);
 
     function judge(userRaw) {
       if (answered) return;
@@ -245,6 +247,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
   }
 
   function drawResult() {
+    exitFocus(); // 已出结果
     const total = exercises.length;
     const pass = correctN / total >= 0.7;
     if (pass) storage.markLessonDone(level, l.id, 'done');
@@ -289,6 +292,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
 
   // --- 讲解页 ---
   function drawIntro() {
+    exitFocus(); // 讲解页不是答题态
     app.innerHTML = `
       ${headerHtml(`${l.id} · ${l.title}`)}
 
@@ -446,6 +450,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
 
   // --- 环节选择页 ---
   function drawStageSelect() {
+    exitFocus(); // 环节列表不是答题态
     const passedAll = l.stages.every(s => stagePassed(s.stage));
     app.innerHTML = `
       ${headerHtml(`${l.id} · 练习环节`)}
@@ -548,8 +553,9 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
         </div>
         <div id="feedback"></div>
       `;
-      bindBack(app, 'exam-grammar');
-      app.querySelector('#examBackBtn').onclick = drawStageSelect;
+      // 答题态：‹/Esc 先确认再回环节列表（不 bindBack，避免绕过确认）
+      enterFocus({ remain: () => questions.length - idx, leave: drawStageSelect });
+      app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(drawStageSelect);
 
       function finish(ok, correctShown) {
         if (answered) return;
@@ -591,6 +597,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
     }
 
     function drawQuizResult() {
+      exitFocus(); // 已出结果
       const total = questions.length;
       const pass = correctN / total >= STAGE_PASS;
       let unlockedMsg = '';

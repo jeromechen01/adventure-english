@@ -1,5 +1,5 @@
 // modules/grammar.js - 语法学院
-import { loadJSON, toast } from '../app.js';
+import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../app.js';
 import * as storage from '../storage.js';
 import { playSound } from '../speech.js';
 import { pickQuiz, presentQuestion } from '../utils/shuffle.js';
@@ -70,6 +70,7 @@ function renderTopic(app, data, topicId) {
   }
 
   function renderStudy() {
+    exitFocus(); // 讲解页不是答题态
     app.innerHTML = `
       <div class="flex items-center gap-2 mb-3">
         <button id="backBtn" class="text-2xl">‹</button>
@@ -137,7 +138,10 @@ function renderTopic(app, data, topicId) {
 
       <div id="explainArea"></div>
     `;
-    app.querySelector('#backBtn').addEventListener('click', () => { mode = 'study'; render(); });
+    // 答题态：‹/Esc 先确认再回讲解
+    const leaveQuiz = () => { mode = 'study'; render(); };
+    enterFocus({ remain: () => quizList.length - qIdx, leave: leaveQuiz });
+    app.querySelector('#backBtn').addEventListener('click', () => requestLeaveFocus(leaveQuiz));
 
     app.querySelectorAll('[data-opt]').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -182,6 +186,7 @@ function renderTopic(app, data, topicId) {
   }
 
   function renderQuizResult() {
+    exitFocus(); // 已出结果
     const total = quizList.length;
     const percent = Math.round((qScore / total) * 100);
 

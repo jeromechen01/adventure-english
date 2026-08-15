@@ -3,7 +3,7 @@
 // 5 种关卡玩法、即时反馈（金币飞行/连击弹跳/暴击/宠物欢呼）、结算（星星点亮/金币滚动/开宝箱）。
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
-import { toast } from '../app.js';
+import { toast, enterFocus, exitFocus, requestLeaveFocus } from '../app.js';
 import { rollCardRarity, checkBadges } from '../gamification.js';
 import { shuffle } from '../utils/shuffle.js';
 
@@ -63,6 +63,16 @@ export function startLevel(app, opts) {
 
   function quit() { clearTimers(); onBack(); }
 
+  // 答题态：隐藏导航；HUD ✕ / Esc 先确认；任何离开路径都 clearTimers
+  // （否则 8 秒倒计时在跳走后超时会记一次错词 + 播错误音效）
+  function focusOn() {
+    enterFocus({
+      remain: () => Math.min(totalQ, totalQ - qIndex + 1),
+      leave: quit,
+      cleanup: clearTimers
+    });
+  }
+
   // ---- 倍率 ----
   function multiplier() {
     if (combo >= 6) return 3;
@@ -86,7 +96,8 @@ export function startLevel(app, opts) {
       <div style="position:fixed;right:10px;bottom:88px;font-size:40px;z-index:25" id="petCorner">${petEmoji}</div>
       <div id="playArea" class="pt-4"></div>
     `;
-    app.querySelector('#quitBtn').addEventListener('click', quit);
+    // 答题中先确认；结算/失败页（已退答题态）✕ 直接退出
+    app.querySelector('#quitBtn').addEventListener('click', () => requestLeaveFocus(quit));
   }
 
   function heartsHtml() {
@@ -537,6 +548,7 @@ export function startLevel(app, opts) {
   // ============================================================
   function renderSettlement() {
     clearTimers();
+    exitFocus(); // 关卡完成，恢复导航
     const rate = correctCount / totalQ;
     let stars = 0;
     if (rate >= 0.9) stars = 3;
@@ -688,6 +700,7 @@ export function startLevel(app, opts) {
   // ============================================================
   function renderFail() {
     clearTimers();
+    exitFocus(); // 本关结束，恢复导航
     storage.addPetExp(2); // 玩了就有一点点收获
     playSound('wrong');
     const playArea = app.querySelector('#playArea') || app;
@@ -722,6 +735,7 @@ export function startLevel(app, opts) {
     // 重新分配题目（重新洗牌玩法/错词）
     questions.length = 0;
     buildQuestions().forEach(q => questions.push(q));
+    focusOn(); // 结算/失败页退出过答题态，重开要再进
     renderShell();
     startCountdown();
   }
@@ -758,6 +772,7 @@ export function startLevel(app, opts) {
   }
 
   // ---- 启动 ----
+  focusOn();
   renderShell();
   startCountdown();
 }

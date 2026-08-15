@@ -1,6 +1,6 @@
 // modules/exam/reading-drill.js —— 模块 4：阅读训练 + 听力训练 + 分级读物
 // Part 1-5 题型专项（全原创题）/ 分级读物（复用 recite.js 跟读背诵）/ 限时合练 40 分钟
-import { loadJSON, toast } from '../../app.js';
+import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../../app.js';
 import * as storage from '../../storage.js';
 import { speak, stopSpeaking } from '../../speech.js';
 import { renderRecite } from '../recite.js';
@@ -101,7 +101,9 @@ function renderPartSets(app, level, drills, partKey) {
 
 // === 通用套题运行器（P1-P5 结构不同，统一渲染）===
 // 完成回调 onDone(correct, total)；onBack 返回列表
-export function runDrillSet(app, level, partKey, set, onBack, onFinish) {
+// focus：答题态选项（V0.9.33）——模考/限时模式传 { note, cleanup }，
+//   note 进离开确认文案（如「计时作废」），cleanup 在任何离开路径清计时器。
+export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = {}) {
   const isOpen = partKey === 'part5'; // 开放完形：输入题
   // 统一把题目展开成 [{stem?, passage?, q, options?, answer, explain, ...}]
   let items;
@@ -163,8 +165,9 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish) {
       </div>
       <div id="feedback"></div>
     `;
-    bindBack(app, 'exam-reading');
-    app.querySelector('#examBackBtn').onclick = onBack;
+    // 答题态：‹/Esc 先确认再走 onBack（不 bindBack，避免绕过确认）
+    enterFocus({ remain: () => total - idx, leave: onBack, note: focus.note, cleanup: focus.cleanup });
+    app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(onBack);
 
     function judge(user) {
       if (answered) return;
@@ -203,7 +206,8 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish) {
   function done() {
     const pct = Math.round(correct / total * 100);
     storage.saveDrillResult(level, set.id, pct);
-    if (onFinish) return onFinish(correct, total);
+    if (onFinish) return onFinish(correct, total); // 模考/限时流程继续，答题态不退
+    exitFocus();
     app.innerHTML = `
       ${headerHtml('结果')}
       <div class="card-cartoon text-center mb-4 ${pct >= 70 ? 'bg-green-50' : 'bg-yellow-50'}">
@@ -326,7 +330,8 @@ async function renderListening(app, level, params) {
 }
 
 // 听力套题运行器（导出供模考复用）：onFinish(correct,total) 提供时接管结算
-export function runListeningSet(app, level, set, onBackFn, onFinish) {
+// focus 同 runDrillSet：{ note, cleanup }
+export function runListeningSet(app, level, set, onBackFn, onFinish, focus = {}) {
   // 展平：每部分的题目带上 script
   // V0.8：听力题序跟录音脚本顺序走（不能乱），只洗每题选项（answer 同步重算）
   const lisScope = `lis:${set.id}`;
@@ -334,12 +339,14 @@ export function runListeningSet(app, level, set, onBackFn, onFinish) {
   set.parts.forEach(p => p.questions.forEach(q => flat.push(presentQuestion(lisScope, { ...q, partNo: p.part, partName: p.name, script: q.script || p.script }))));
   let idx = 0, correct = 0;
 
+  let secondReadT = null; // 第二遍朗读的定时器：离开时必须清，否则会在别的页面开口
   function playTwice(text) {
     stopSpeaking();
+    clearTimeout(secondReadT);
     speak(text, { rate: 0.9 });
     // 第二遍：估算首遍时长后再读（简单按字数估）
     const ms = Math.min(30000, Math.max(4000, text.length * 65)) + 1200;
-    setTimeout(() => speak(text, { rate: 0.9 }), ms);
+    secondReadT = setTimeout(() => speak(text, { rate: 0.9 }), ms);
   }
 
   function draw() {
@@ -364,8 +371,15 @@ export function runListeningSet(app, level, set, onBackFn, onFinish) {
       </div>
       <div id="feedback"></div>
     `;
-    bindBack(app, 'exam-reading');
-    app.querySelector('#examBackBtn').onclick = () => { stopSpeaking(); onBackFn(); };
+    // 答题态：‹/Esc 先确认；任何离开路径都停掉正在读的语音
+    const leaveListening = () => { clearTimeout(secondReadT); stopSpeaking(); onBackFn(); };
+    enterFocus({
+      remain: () => flat.length - idx,
+      leave: leaveListening,
+      note: focus.note,
+      cleanup: () => { clearTimeout(secondReadT); stopSpeaking(); if (focus.cleanup) focus.cleanup(); }
+    });
+    app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(leaveListening);
     app.querySelector('#playBtn').addEventListener('click', () => playTwice(it.script));
 
     function judge(user) {
@@ -404,7 +418,8 @@ export function runListeningSet(app, level, set, onBackFn, onFinish) {
   function done() {
     const pct = Math.round(correct / flat.length * 100);
     storage.saveDrillResult(level, set.id, pct);
-    if (onFinish) return onFinish(correct, flat.length);
+    if (onFinish) return onFinish(correct, flat.length); // 模考流程继续
+    exitFocus();
     app.innerHTML = `
       ${headerHtml('听力结果')}
       <div class="card-cartoon text-center mb-4 ${pct >= 60 ? 'bg-green-50' : 'bg-yellow-50'}">
@@ -448,11 +463,19 @@ function renderTimed(app, level, drills) {
     if (remain <= 0) { clearInterval(timedTimer); timedTimer = null; finish(); }
   }
 
+  // 任何离开路径（确认离开 / 路由兜底）都清计时器和倒计时条，
+  // 否则 40′ 到点的 finish() 会把当前无关页面的 DOM 整个覆盖掉
+  function timedCleanup() {
+    if (timedTimer) { clearInterval(timedTimer); timedTimer = null; }
+    document.body.querySelectorAll('#timedBar').forEach(e => e.remove());
+  }
+
   function runNext() {
     if (pi >= paper.length) return finish();
     const { key, set } = paper[pi];
-    runDrillSet(app, level, key, set, () => { clearInterval(timedTimer); timedTimer = null; renderReadingDrill(app, {}); },
-      (correct, total) => { scores.push({ key, correct, total }); pi++; runNext(); });
+    runDrillSet(app, level, key, set, () => { timedCleanup(); renderReadingDrill(app, {}); },
+      (correct, total) => { scores.push({ key, correct, total }); pi++; runNext(); },
+      { note: '离开后本次计时结束，这一轮的成绩不保存。', cleanup: timedCleanup });
     // 在顶部插入倒计时条
     const bar = document.createElement('div');
     bar.id = 'timedBar';
@@ -463,8 +486,8 @@ function renderTimed(app, level, drills) {
   }
 
   function finish() {
-    document.body.querySelectorAll('#timedBar').forEach(e => e.remove());
-    if (timedTimer) { clearInterval(timedTimer); timedTimer = null; }
+    timedCleanup();
+    exitFocus(); // 合练结束，恢复导航
     const c = scores.reduce((s, x) => s + x.correct, 0);
     const t = scores.reduce((s, x) => s + x.total, 0) || 1;
     app.innerHTML = `

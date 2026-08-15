@@ -1,7 +1,7 @@
 // modules/exam/mock-exam.js —— 模块 6：模拟考试
 // 原创全真卷：7 部分 32 题（Q1-30 各 1 分 + Q31/Q32 各 15 分 = 60）+ 60 分钟倒计时 + 自动交卷
 // P1-5 自动判分；P6/P7 用自评清单打分或跳 Write & Improve；三项（阅读/写作/听力）分开记。
-import { loadJSON, toast } from '../../app.js';
+import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../../app.js';
 import * as storage from '../../storage.js';
 import { runDrillSet, runListeningSet } from './reading-drill.js';
 import { examLevel, headerHtml, bindBack, esc, loadExamConfig, fillSeason } from './exam-common.js';
@@ -100,6 +100,14 @@ async function startFlow(app, level, idx, meta) {
   };
   let remain = 60 * 60;
 
+  // 答题态公用（V0.9.33）：离开确认文案 + 任何离开路径都清 60′ 计时器和倒计时条，
+  // 否则跳走后倒计时归零的 finishRW() 会覆盖当前无关页面的 DOM
+  const MOCK_NOTE = '离开后本次计时作废，这份卷子的成绩不保存；重新开考会从头计时。';
+  function mockCleanup() {
+    if (mockTimer) { clearInterval(mockTimer); mockTimer = null; }
+    removeBar();
+  }
+
   // 开考前说明（模考1 必须显示「基线不是审判」）
   app.innerHTML = `
     ${headerHtml('📝 ' + meta.name)}
@@ -145,7 +153,8 @@ async function startFlow(app, level, idx, meta) {
         state.reading.total += total;
         state.reading.byPart[key] = { correct, total };
         runReadingParts(i + 1);
-      });
+      },
+      { note: MOCK_NOTE, cleanup: mockCleanup });
   }
 
   // P6/P7 写作 + 自评
@@ -165,8 +174,9 @@ async function startFlow(app, level, idx, meta) {
       <textarea id="draft" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base mb-3" rows="6" placeholder="${which === 'p6' ? 'Hi …,' : 'One day, …'}"></textarea>
       <button id="doneBtn" class="w-full btn-cartoon">写完了，自评打分</button>
     `;
-    bindBack(app, 'exam-mock');
-    app.querySelector('#examBackBtn').onclick = () => abort();
+    // 答题态：写作中 ‹/Esc 先确认（不 bindBack，避免绕过确认直接弃考）
+    enterFocus({ leave: abort, cleanup: mockCleanup, note: MOCK_NOTE, stayLabel: '继续写' });
+    app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(abort);
     app.querySelector('#doneBtn').addEventListener('click', () => {
       const text = app.querySelector('#draft').value;
       state.writing.drafts[which] = text;
@@ -196,8 +206,9 @@ async function startFlow(app, level, idx, meta) {
         ${[15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0].map(n => `<button data-score="${n}" class="btn-cartoon btn-cartoon-secondary" style="padding:10px 0">${n}</button>`).join('')}
       </div>
     `;
-    bindBack(app, 'exam-mock');
-    app.querySelector('#examBackBtn').onclick = () => abort();
+    // 答题态：自评中 ‹/Esc 先确认
+    enterFocus({ leave: abort, cleanup: mockCleanup, note: MOCK_NOTE });
+    app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(abort);
     app.querySelectorAll('[data-score]').forEach(b => b.addEventListener('click', () => {
       state.writing[which] = Number(b.dataset.score);
       if (which === 'p6') runWriting('p7');
@@ -207,8 +218,8 @@ async function startFlow(app, level, idx, meta) {
 
   // RW 卷结束 → 问是否接着做听力
   async function finishRW() {
-    if (mockTimer) { clearInterval(mockTimer); mockTimer = null; }
-    removeBar();
+    mockCleanup();
+    exitFocus(); // RW 卷已完成，选做听力页恢复导航
     const lisData = await loadJSON('data/exam/ket/listening.json');
     const lisSet = lisData && (lisData.sets || []).find(s => s.id === meta.listeningSet);
     app.innerHTML = `
@@ -228,19 +239,19 @@ async function startFlow(app, level, idx, meta) {
         state.listeningCorrect = c;
         state.listeningPct = Math.round(c / t * 100);
         report();
-      });
+      }, { note: '离开后本次听力作答不保存（阅读写作卷的成绩已记下）。' });
     });
     app.querySelector('#skipBtn').addEventListener('click', () => report());
   }
 
   function abort() {
-    if (mockTimer) { clearInterval(mockTimer); mockTimer = null; }
-    removeBar();
+    mockCleanup();
     renderMockExam(app, {});
   }
 
   // === 交卷报告：三项分开记 + 量表估算 + 决策 ===
   function report() {
+    exitFocus(); // 交卷完成（从听力过来时退出答题态）
     const readingPct = state.reading.total ? Math.round(state.reading.correct / state.reading.total * 100) : 0;
     const writingRaw = (state.writing.p6 || 0) + (state.writing.p7 || 0); // /30
     const writingPct = Math.round(writingRaw / 30 * 100);

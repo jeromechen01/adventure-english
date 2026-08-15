@@ -1,5 +1,5 @@
 // modules/reading.js - 阅读乐园
-import { loadJSON, toast } from '../app.js';
+import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound, recognize, similarity, isSpeechRecognitionSupported, stopSpeaking } from '../speech.js';
 import { renderRecite } from './recite.js';
@@ -284,7 +284,11 @@ async function renderArticle(app, data, articleId) {
         </button>
       `;
 
-      app.querySelector('#backBtn').addEventListener('click', () => { mode = 'read'; render(); });
+      // 答题态：提交前 ‹/Esc 先确认（丢的是整页已选答案）；提交后恢复导航、直接返回
+      const leaveQuiz = () => { mode = 'read'; render(); };
+      if (submitted) exitFocus();
+      else enterFocus({ remain: () => answers.filter(a => a === null).length, leave: leaveQuiz });
+      app.querySelector('#backBtn').addEventListener('click', () => requestLeaveFocus(leaveQuiz));
 
       if (!submitted) {
         app.querySelectorAll('[data-q]').forEach(btn => {

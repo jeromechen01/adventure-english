@@ -5,7 +5,7 @@
 //     （题池抽样 + 错题加权 + 题序洗牌 + 选项洗牌 answer 同步重算）
 //   · 侦探关：找病句并改正，自动比对 + 病灶自评兜底
 // 进度存储与 KET 八课同一套 storage API，但 level 固定为 'HALL'，两边互不串档。
-import { toast } from '../../app.js';
+import { toast, enterFocus, exitFocus, requestLeaveFocus } from '../../app.js';
 import * as storage from '../../storage.js';
 import { loadGrammarLesson, skeletonHTML } from '../../utils/lazy-data.js';
 import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
@@ -91,6 +91,7 @@ function lessonViews(app, l, opts = {}) {
 
   // ============ 讲解页：九段 + 记忆卡 ============
   function drawIntro() {
+    exitFocus(); // 讲解页不是答题态，恢复导航（从闯练/侦探关回来时）
     const stars = l.ketRelevance > 0
       ? `<span class="text-amber-500">${'★'.repeat(l.ketRelevance)}</span><span class="text-gray-300">${'★'.repeat(3 - l.ketRelevance)}</span>`
       : '不考';
@@ -221,6 +222,7 @@ function lessonViews(app, l, opts = {}) {
 
   // ============ 环节选择 ============
   function drawStageSelect() {
+    exitFocus(); // 环节列表不是答题态
     const passedAll = l.practice.stages.every((_, i) => stagePassed(i));
     app.innerHTML = `
       ${headerHtml(`${l.id} · 四环节闯练`)}
@@ -288,8 +290,10 @@ function lessonViews(app, l, opts = {}) {
         </div>
         <div id="feedback"></div>
       `;
-      bindBack(app, 'grammar-hall');
-      app.querySelector('#examBackBtn').onclick = drawStageSelect;
+      // 答题态：隐藏导航，‹/Esc 先确认再回环节列表。
+      // 不再 bindBack——它的 addEventListener 会绕过确认直接跳走（双绑定竞争）。
+      enterFocus({ remain: () => questions.length - idx, leave: drawStageSelect });
+      app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(drawStageSelect);
 
       app.querySelectorAll('[data-oi]').forEach(b => b.addEventListener('click', () => {
         if (answered) return;
@@ -312,6 +316,7 @@ function lessonViews(app, l, opts = {}) {
     }
 
     function drawQuizResult() {
+      exitFocus(); // 已出结果，不再是进行中
       const total = questions.length;
       const pass = correctN / total >= STAGE_PASS;
       let msg = '';
@@ -370,8 +375,9 @@ function lessonViews(app, l, opts = {}) {
         </div>
         <div id="feedback"></div>
       `;
-      bindBack(app, 'grammar-hall');
-      app.querySelector('#examBackBtn').onclick = drawIntro;
+      // 答题态：‹/Esc 先确认再回讲解（不 bindBack，避免绕过确认）
+      enterFocus({ remain: () => cases.length - idx, leave: drawIntro });
+      app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(drawIntro);
 
       let answered = false;
       function next(label) {
@@ -423,6 +429,7 @@ function lessonViews(app, l, opts = {}) {
     }
 
     function drawResult() {
+      exitFocus(); // 结案报告不是进行中
       const all = solved === cases.length;
       app.innerHTML = `
         ${headerHtml('🕵️ 侦探关 · 结案报告')}
