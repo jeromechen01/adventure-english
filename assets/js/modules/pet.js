@@ -1,6 +1,6 @@
 // modules/pet.js - 剑桥话题词库模块（PET B1 + KET A2 双源：话题词库 + 复用闯关 + 识词卡片）
 // profile.grade === 'PET' 或 'KET' 时启用，按档位选择词库来源。
-import { loadJSON, toast } from '../app.js';
+import { loadJSON, toast, enterFocus, exitFocus } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
 import { renderLevelMap } from './levels.js';
@@ -234,6 +234,8 @@ function renderPetStudy(app, topic, words) {
 
   function renderCurrent() {
     if (idx >= words.length) return renderDone();
+    // ★ 级轻场景：只隐藏导航防误触（识词只有浏览位置，没有可丢的成绩）
+    enterFocus({ confirm: false });
     const w = words[idx];
 
     app.innerHTML = `
@@ -292,6 +294,7 @@ function renderPetStudy(app, topic, words) {
   }
 
   function renderDone() {
+    exitFocus(); // 识词完成
     playSound('levelup');
     app.innerHTML = `
       <div class="text-center py-12 fade-in">

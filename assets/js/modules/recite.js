@@ -1,7 +1,7 @@
 // modules/recite.js - 🎤 跟读背诵 + 精准打分（V0.2 模块4）
 // 逐句跟读：按 .!? 拆句，逐句示范→跟读→similarity 打分。
 // 背诵挑战：预备→挖空(20/50/全)→录音→LCS 词级对齐打分。
-import { toast } from '../app.js';
+import { toast, enterFocus, exitFocus } from '../app.js';
 import * as storage from '../storage.js';
 import {
   speak, stopSpeaking, recognize, similarity, alignWords,
@@ -10,6 +10,7 @@ import {
 
 // 入口：跟读背诵菜单
 export function renderRecite(app, article, onBack) {
+  exitFocus(); // 菜单页不是答题态（从跟读/背诵回来时恢复导航）
   const best = storage.getRecitationScore(article.id);
 
   app.innerHTML = `
@@ -60,6 +61,8 @@ function renderFollow(app, article, onBack) {
 
   function renderOne() {
     if (idx >= sentences.length) return renderDone();
+    // ★ 级轻场景：只隐藏导航防误触，‹ 直接退不弹确认（每句金币已实时入账）
+    enterFocus({ confirm: false, cleanup: stopSpeaking });
     const sentence = sentences[idx];
 
     app.innerHTML = `
@@ -125,6 +128,7 @@ function renderFollow(app, article, onBack) {
   }
 
   function renderDone() {
+    exitFocus(); // 跟读完成
     playSound('levelup');
     storage.addPetExp(10);
     app.innerHTML = `
@@ -148,6 +152,7 @@ function renderFollow(app, article, onBack) {
 // 背诵挑战：预备 → 选难度
 // ============================================================
 function renderChallengePrep(app, article, onBack) {
+  exitFocus(); // 预备页不是答题态
   app.innerHTML = `
     <div class="flex items-center gap-2 mb-3">
       <button id="backBtn" class="text-2xl tap-bounce" style="min-width:44px">‹</button>
@@ -180,6 +185,8 @@ function renderChallengePrep(app, article, onBack) {
 
 // 背诵挑战：挖空 + 录音
 function renderChallengeRecite(app, article, maskRatio, onBack) {
+  // ★ 级轻场景：只隐藏导航防误触（单次录音，没有可丢的累积进度）
+  enterFocus({ confirm: false, cleanup: stopSpeaking });
   // 挖空：对内容里的"词"按比例遮成 ____（伪随机但稳定）
   const parts = article.content.split(/(\s+)/);
   let wi = 0;
@@ -232,6 +239,7 @@ function renderChallengeRecite(app, article, maskRatio, onBack) {
   });
 
   function showScore(res) {
+    exitFocus(); // 打分结果页不是答题态
     const score = res.score;
     let grade, gradeCls;
     if (score >= 95) { grade = '完美 🏆'; gradeCls = 'text-yellow-500'; }

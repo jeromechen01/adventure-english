@@ -1,7 +1,7 @@
 // games/match-game.js - 单词消消乐 / 拼字母
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
-import { toast } from '../app.js';
+import { toast, enterFocus, exitFocus } from '../app.js';
 import { shuffle } from '../utils/shuffle.js';
 
 export function renderMatchGame(app, data, grade) {
@@ -23,6 +23,8 @@ export function renderMatchGame(app, data, grade) {
 
   function renderRound() {
     if (idx >= queue.length) return renderEnd();
+    // ★ 级轻场景：只隐藏导航防误触（金币逐词入账，中途退不弹确认）
+    enterFocus({ confirm: false });
     const w = queue[idx];
     const letters = shuffle(w.word.split(''));
     let chosen = []; // 当前已点击的字母索引
@@ -172,6 +174,7 @@ export function renderMatchGame(app, data, grade) {
   }
 
   function renderEnd() {
+    exitFocus(); // 本轮结束
     app.innerHTML = `
       <div class="text-center py-12 fade-in">
         <div class="text-6xl mb-4 bounce-in">🎊</div>

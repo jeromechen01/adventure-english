@@ -1,6 +1,6 @@
 // modules/reinforce.js - 🔥 错词突击（错词智能强化 V0.2 模块2）
 // 针对错词本里的词快速练习，连对 3 次毕业，毕业给奖励+特效。
-import { loadJSON, toast } from '../app.js';
+import { loadJSON, toast, enterFocus, exitFocus } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
 import { checkBadges } from '../gamification.js';
@@ -53,6 +53,8 @@ export async function renderReinforce(app) {
 
   function renderQuestion() {
     if (queue.length === 0) return renderDone();
+    // ★ 级轻场景：只隐藏导航防误触（每题结果实时落盘，中途退几乎不丢）
+    enterFocus({ confirm: false });
     if (ptr >= queue.length) ptr = 0; // 循环
     const cur = queue[ptr];
     const word = cur.word;
@@ -138,6 +140,7 @@ export async function renderReinforce(app) {
   }
 
   function renderDone() {
+    exitFocus(); // 突击完成
     playSound('levelup');
     app.innerHTML = `
       <div class="text-center pt-10 fade-in">

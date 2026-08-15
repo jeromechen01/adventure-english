@@ -2,6 +2,7 @@
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
 import { shuffle } from '../utils/shuffle.js';
+import { enterFocus, exitFocus } from '../app.js';
 
 export function renderShootGame(app, data, grade) {
   const allWords = data.units.flatMap(u => u.words);
@@ -66,6 +67,12 @@ export function renderShootGame(app, data, grade) {
   }
 
   function startGame() {
+    // ★ 级轻场景：只隐藏导航防误触；任何离开路径都清 60 秒倒计时
+    //（否则跳走后到点的 endGame() 会覆盖当前页面的 DOM）
+    enterFocus({
+      confirm: false,
+      cleanup: () => { if (countdownTimer) { clearInterval(countdownTimer); countdownTimer = null; } isStarted = false; }
+    });
     pickNewTarget();
     renderRound();
 
@@ -157,6 +164,8 @@ export function renderShootGame(app, data, grade) {
   function endGame() {
     isStarted = false;
     clearInterval(countdownTimer);
+    countdownTimer = null;
+    exitFocus(); // 游戏结束，恢复导航
 
     app.innerHTML = `
       <div class="text-center py-10 fade-in">
