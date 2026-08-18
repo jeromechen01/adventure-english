@@ -361,6 +361,17 @@
       "file": "./data/grammar/g32.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G33",
+      "tier": "进阶",
+      "title": "宾语从句",
+      "metaphor": "把一整段塞进「宾语」座位，进座位就要坐正",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g33.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

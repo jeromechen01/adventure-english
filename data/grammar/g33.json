@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G33（V0.9 P3 进阶层，从句四课之一）。比喻锚点：把一整段塞进「宾语」座位，进座位就要坐正（语序回正）。只讲初中层面（接头词三家、语序回正、时态呼应与真理豁免、否定前移），不堆砌复杂例外；长难句总拆解留给精修层 G48。全部内容原创。",
+  "id": "G33",
+  "tier": "进阶",
+  "title": "宾语从句",
+  "metaphor": "把一整段塞进「宾语」座位，进座位就要坐正",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 不直接考宾语从句的语序变换，A2 只要求看懂 I think that... 这类简单说法。系统的从句是初中重头戏——这课为初中/PET 打底，学到就是赚到，不用焦虑。",
+  "source": "original",
+  "sections": {
+    "essence": "把一整句话塞进宾语座位；进了座位就要坐正——一律陈述语序。",
+    "why": "中文把一句话当宾语几乎无感：「我知道他住哪儿」——「他住哪儿」原样塞进去，一个字不用变。英语不一样：疑问句自带起拍手势（do/does 提前、be 提前，G12 学过），可这套手势只属于独立的问句；一旦塞进另一句话里当宾语，它就不再是「发问」，而是「被知道的内容」，手势必须收起来，坐回「谁+做什么」的陈述顺序：Where does he live? → I know where he lives. 除了坐正，还要对表——主句是过去时，从句一般跟着退一步。初中和 PET 大量考这两条；KET 只要求看懂最简单的 I think that...。",
+    "metaphorStory": "银帆乐团要把独奏小曲《你住在哪里》并进大曲《我想知道》。排练时学徒直接把小曲原样搬进去，指挥立刻叫停：「独奏时你有自己的起拍手势——does 往前一挥，观众就知道你在发问。可现在它只是大曲里的一段，一支曲子只能有一个指挥。手势收起来，音符按『谁+做什么』坐好：I know where he lives。」学徒又问乐谱上的 that 是什么。「那是座位上的安全带标志——陈述的段落系上它（I know that...），观众看不看得见都行，所以常常省略。要并进来的是『是不是』的犹豫，就换 if 或 whether 当接头；带疑问词的，让疑问词自己领路。」最后指挥敲敲节拍器：「还得对表——大曲在过去时里，进来的段落就退一步，别一个人抢在现在。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "什么是宾语从句",
+          "detail": "一整句话坐进「宾语」的座位，充当动词后面「被知道/被相信/被询问的内容」。",
+          "example": "I know (that) he is late."
+        },
+        {
+          "rule": "接头词三家",
+          "detail": "陈述内容用 that（常可省略）；「是不是/有没有」用 if / whether；「谁/哪儿/何时/为何/如何」让疑问词自己领路。",
+          "example": "I think (that)... / I wonder if... / I know where..."
+        },
+        {
+          "rule": "★ 坐正：一律陈述语序",
+          "detail": "起拍手势（do/does/did、提前的 be/will）一律退场，恢复「谁+做什么」。",
+          "example": "Where does he live? → I know where he lives."
+        },
+        {
+          "rule": "手势退场，变形回到动词身上",
+          "detail": "does/did 收走后，三单 -s、过去式要回到动词自己身上，不能跟着一起消失。",
+          "example": "What time does it start? → I know what time it starts."
+        },
+        {
+          "rule": "对表：主句过去，从句退一步",
+          "detail": "主句动词是过去时，从句一般跟着往过去退：is→was，will→would。",
+          "example": "He said he was busy. / She said she would come."
+        },
+        {
+          "rule": "豁免：客观真理永远一般现在",
+          "detail": "地球绕太阳转这类任何时候都成立的事实，不参加退时态。",
+          "example": "The teacher said the earth goes around the sun."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I know that you are right.", "cn": "我知道你是对的。（that 系安全带，可省）" },
+          { "en": "I think this song is beautiful.", "cn": "我觉得这首歌很好听。（that 省略了）" },
+          { "en": "Do you know where she lives?", "cn": "你知道她住哪儿吗？（从句坐正：where she lives）" },
+          { "en": "I don't know if he will come.", "cn": "我不知道他会不会来。（「是不是」用 if）" },
+          { "en": "She says that she likes music.", "cn": "她说她喜欢音乐。（主句是现在，从句不用退）" }
+        ],
+        "mid": [
+          { "en": "Could you tell me when the concert starts?", "cn": "你能告诉我音乐会几点开始吗？（starts 的 -s 回到动词身上）" },
+          { "en": "I wonder whether the tickets are sold out.", "cn": "我想知道票是不是卖完了。" },
+          { "en": "He asked me what I wanted to eat.", "cn": "他问我想吃什么。（asked 过去，wanted 跟着退）" },
+          { "en": "Nobody knows why the show was put off.", "cn": "没人知道演出为什么被推迟。" },
+          { "en": "He told me that he was practising for the show.", "cn": "他告诉我他正在为演出练习。" }
+        ],
+        "trap": [
+          { "en": "I don't know where he lives.", "cn": "我不知道他住哪儿。", "note": "不是 where does he live——does 退场后，-s 回到 live 身上。" },
+          { "en": "He said he was busy that day.", "cn": "他说他那天很忙。", "note": "主句 said 已在过去——从句跟着退一步用 was。" },
+          { "en": "The teacher said the earth goes around the sun.", "cn": "老师说地球绕着太阳转。", "note": "客观真理豁免退时态——地球今天也在转。" },
+          { "en": "I don't think he is right.", "cn": "我觉得他不对。", "note": "中文否定在后头；英语习惯把 not 前移到 think 上。" },
+          { "en": "Could you tell me how I can get to the music hall?", "cn": "你能告诉我音乐厅怎么走吗？", "note": "坐正之后 how 后面是「我怎么去」的陈述顺序——can 不再提前。" },
+          { "en": "I wonder if it will rain tomorrow.", "cn": "我想知道明天会不会下雨。", "note": "这个 if 是「是否」不是「如果」——宾语座位里该用 will 就用 will（G35 的「主将从现」管的是另一个 if）。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "I don't know he will come or not.（想说：不知道他来不来）",
+        "good": "I don't know whether he will come or not.",
+        "zone": "blocks",
+        "why": "接头词一丢，「是不是」的犹豫整个消失——听的人以为你在陈述「他会来」，又被 or not 弄糊涂。"
+      },
+      {
+        "bad": "I don't think he can't win.（想说：我觉得他赢不了）",
+        "good": "I don't think he can win.",
+        "zone": "blocks",
+        "why": "not 前移之后从句里不能再留一个——双重否定让意思整个反过来，变成「他能赢」。"
+      },
+      {
+        "bad": "I wonder where does she work.",
+        "good": "I wonder where she works.",
+        "zone": "tested",
+        "why": "进了座位就要坐正——does 退场，三单 -s 回到 work 身上。"
+      },
+      {
+        "bad": "Could you tell me where is the music room?",
+        "good": "Could you tell me where the music room is?",
+        "zone": "tested",
+        "why": "be 也要回座位——疑问倒装只属于独立问句。"
+      },
+      {
+        "bad": "He said that he will come the next day.（转述昨天说的话）",
+        "good": "He said that he would come the next day.",
+        "zone": "tested",
+        "why": "主句 said 已是过去——从句跟着退一步：will → would。"
+      },
+      {
+        "bad": "I don't know if will it rain tomorrow.",
+        "good": "I don't know if it will rain tomorrow.",
+        "zone": "tested",
+        "why": "if 后面同样要坐正——will 不能抢在主语前面。"
+      },
+      {
+        "bad": "The teacher said the earth went around the sun.",
+        "good": "The teacher said the earth goes around the sun.",
+        "zone": "tested",
+        "why": "客观真理不退时态——地球昨天转、今天也在转。"
+      },
+      {
+        "bad": "Do you know what time does the show begin?",
+        "good": "Do you know what time the show begins?",
+        "zone": "tested",
+        "why": "整句只留一个起拍手势（Do）——从句里的 does 收走，-s 回到 begin。"
+      },
+      {
+        "bad": "She asked me that I liked the song.（想说：问我是否喜欢）",
+        "good": "She asked me if I liked the song.",
+        "zone": "tested",
+        "why": "that 只接陈述内容——问「是不是」要换 if / whether 当接头。"
+      },
+      {
+        "bad": "Please tell me why were you late.",
+        "good": "Please tell me why you were late.",
+        "zone": "tested",
+        "why": "疑问词领路后，主语回到动词前面——坐正。"
+      },
+      {
+        "bad": "I think that he is right.（有人说 that 必须省略）",
+        "good": "带 that / 省 that 都对。",
+        "zone": "minor",
+        "why": "陈述从句的 that 是可选的安全带——系不系都不算错，考试不设坑。"
+      },
+      {
+        "bad": "He asked whether I was free.（有人说只能用 if）",
+        "good": "if / whether 多数场合可以互换。",
+        "zone": "minor",
+        "why": "「是不是」两个词都行；只是 or not 紧跟在后时更爱 whether——不挡意思不设坑。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我知道他住哪儿。（原样塞进去）",
+        "en": "I know where he lives.（倒装收起，-s 回位）",
+        "diff": "中文疑问句塞进句子毫无变化；英语必须坐正、变形回到动词身上。"
+      },
+      {
+        "cn": "我不知道他来不来。（重复动词表疑问）",
+        "en": "I don't know if he will come.",
+        "diff": "中文用「来不来」这种正反并列；英语靠接头词 if / whether。"
+      },
+      {
+        "cn": "我觉得他不对。（否定在后头）",
+        "en": "I don't think he is right.",
+        "diff": "英语习惯把 not 搬到 think 上——否定前移，从句里不再留 not。"
+      },
+      {
+        "cn": "他说他很忙。（「很忙」永远不变）",
+        "en": "He said he was busy.",
+        "diff": "中文动词无时态；英语从句要跟着主句退一步。"
+      },
+      {
+        "cn": "老师说地球绕着太阳转。",
+        "en": "The teacher said the earth goes around the sun.",
+        "diff": "这一次两边都不变——但英语是把它当「特例」豁免的：客观真理不退时态。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "接头词选对，语序坐正，时态退一步——真理不退。",
+      "steps": [
+        "认出座位：动词后面塞的是不是一整句话？是——宾语从句。",
+        "选接头词：陈述用 that（可省）；「是不是」用 if / whether；带疑问词的照用疑问词。",
+        "坐正：起拍手势（do/does/did、提前的 be/will）一律退场，恢复「谁+做什么」。",
+        "变形回位：手势收走后，三单 -s、过去式回到动词自己身上。",
+        "对表：主句过去 → 从句退一步；客观真理永远一般现在。",
+        "想说「我觉得…不」？把 not 前移：I don't think ...，从句里不再留 not。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，咱们玩合并句子：我说两句中文，你把它们并成一句英语。比如『我想知道』+『他几点睡觉』→ I wonder what time he goes to bed. 我不懂英语没关系，我只当听众听一件事：合并之后，句子中间不该再有『问问题的调调』——如果我听到中间冒出 does、is 提前那种一顿一扬的问句腔，我就喊『没坐正』。」再加一关：让孩子转述别人昨天说的话——『爸爸昨天说他很累』→ Dad said he was tired，听听孩子有没有把动词往过去退一步；最后考一句『老师说地球绕着太阳转』，看孩子知不知道真理不用退。",
+      "questions": [
+        "Where does he live? 并进 I know 之后，does 去哪儿了？live 为什么多了个 s？",
+        "「我不知道他是否会来」的「是否」，英语用哪两个接头词？",
+        "他昨天说「我很忙」，转成 He said... 时 is 为什么要变成 was？什么样的内容不用变？"
+      ]
+    },
+    "echo": "语序回正不是新规矩，而是英语「靠位置认身份」这条老规矩的又一次执行：G12 里说过，起拍手势 do 是专为提问借来的，问意一旦消失——句子成了「被知道的内容」——手势自然退场，一切回到最普通的「谁+做什么」。规律的另一面照旧成立：think、know、say、tell 这些最常用的引路动词，恰恰各有各的脾气——think 要否定前移，say 和 tell 用法分家（tell 后面要带人）。越常用的词，越有自己的小规则。从句家族这才刚开场：装饰音（G34 定语从句）、舞台提示（G35/G36 状语从句）、整段主奏（G37）陆续登台，长难句的总拆解留给精修层 G48。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G33 · 宾语从句</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>把一整段塞进「宾语」座位，进座位就要坐正</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎫 接头词三家</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>陈述 that（可省）｜「是不是」if / whether ｜ 疑问词 who / where / when / why / how</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>🪑 坐正：起拍手势退场，变形回到动词</text><text x='360' y='288' text-anchor='middle' font-size='15' fill='#5A4A42'>Where does he live? → I know where he lives.</text><text x='360' y='318' text-anchor='middle' font-size='15' fill='#5A4A42'>Where is the room? → Tell me where the room is.</text><text x='360' y='348' text-anchor='middle' font-size='13' fill='#94A3B8'>一支曲子只有一个指挥——从句里不再倒装</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>⏱️ 对表：主句过去，从句退一步</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>He said he was busy. ｜ 客观真理豁免：said the earth goes around the sun</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ know where does he live ✗ · tell me where is it ✗ · asked me that ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只考最简单的 I think that——为初中 / PET 打底，学到就是赚到</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：位置认身份——问意消失，手势退场 · 英语奇遇记 🦊 G33</text></svg>",
+    "alt": "G33 记忆卡：宾语从句=一整句话坐进宾语座位；接头词三家（that 可省/if·whether/疑问词）；坐正：倒装退场、三单与时态回到动词；主句过去从句退一步、客观真理豁免；警示 know where does he live、tell me where is it、asked me that 三类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 座位与接头词",
+        "questions": [
+          { "q": "I know that he is late. 这句里坐进宾语座位的是？", "options": ["that he is late 一整段", "he 一个词", "late 一个词"], "answer": 0, "explain": "一整句话坐进宾语座位——这就是宾语从句。", "level": 1 },
+          { "q": "宾语从句指的是？", "options": ["一整句话坐进宾语的座位", "两个句子简单并列", "省略了主语的句子"], "answer": 0, "explain": "它当的是动词后面「被知道/被询问的内容」。", "level": 1 },
+          { "q": "陈述内容进座位，接头词用？", "options": ["that（常可省略）", "if", "where"], "answer": 0, "explain": "陈述系 that 这条安全带，常常可以省。", "level": 1 },
+          { "q": "想说「是不是 / 有没有」，接头词用？", "options": ["if 或 whether", "that", "what"], "answer": 0, "explain": "「是不是」的犹豫由 if / whether 领进门。", "level": 1 },
+          { "q": "「我不知道他住哪儿」里的「哪儿」，接头词用？", "options": ["where", "if", "that"], "answer": 0, "explain": "带疑问词的内容，让疑问词自己领路。", "level": 1 },
+          { "q": "从句「坐正」指的是？", "options": ["用陈述语序，不再倒装", "把从句挪到句首", "把动词都改成原形"], "answer": 0, "explain": "进了座位就恢复「谁+做什么」——起拍手势退场。", "level": 1 },
+          { "q": "Where does he live? 并进 I know 之后，does 会？", "options": ["退场——手势收起来", "留在原位", "变成 did"], "answer": 0, "explain": "问意消失，起拍手势就退场（G12 的老朋友）。", "level": 1 },
+          { "q": "I know where he ___.（他住哪儿）空格填？", "options": ["lives", "live", "does live"], "answer": 0, "explain": "does 退场后，三单 -s 回到 live 身上。", "level": 1 },
+          { "q": "I don't know if he ___ come tomorrow.（会不会来）", "options": ["will", "would", "coming"], "answer": 0, "explain": "这个 if 是「是否」——宾语座位里该用 will 就用 will。", "level": 1 },
+          { "q": "He said he ___ busy.（他昨天说他很忙）", "options": ["was", "is", "be"], "answer": 0, "explain": "主句 said 过去——从句退一步用 was。", "level": 1 },
+          { "q": "主句是过去时，从句时态一般要？", "options": ["跟着退一步", "保持一般现在", "一律用将来时"], "answer": 0, "explain": "对表：is→was，will→would。", "level": 1 },
+          { "q": "哪类内容在从句里永远用一般现在？", "options": ["客观真理（如地球绕太阳转）", "昨天发生的事", "明天的打算"], "answer": 0, "explain": "任何时候都成立的事实豁免退时态。", "level": 1 },
+          { "q": "「我觉得他不对」，地道英语把 not 放在？", "options": ["think 前面：I don't think he is right", "right 前面", "句子末尾"], "answer": 0, "explain": "否定前移——not 搬到 think 上。", "level": 1 },
+          { "q": "that 引导的宾语从句里，that 能省略吗？", "options": ["常常可以省", "永远不能省", "必须换成 if"], "answer": 0, "explain": "陈述的安全带系不系都行。", "level": 1 },
+          { "q": "She asked me ___ I liked the song.（是否喜欢）", "options": ["if", "that", "why"], "answer": 0, "explain": "问「是不是」——if / whether；that 只接陈述。", "level": 1 },
+          { "q": "下面哪句包含宾语从句？", "options": ["I hope that you can come.", "Come here, please.", "He is a singer."], "answer": 0, "explain": "that you can come 整段坐进 hope 的宾语座位。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 坐正再进门",
+        "questions": [
+          { "q": "Do you know where ___ ?", "options": ["she lives", "does she live", "lives she"], "answer": 0, "explain": "坐正：where she lives——手势退场，-s 回位。", "level": 2 },
+          { "q": "Could you tell me when the concert ___ ?", "options": ["starts", "does start", "start"], "answer": 0, "explain": "does 收走后，三单 -s 回到 start 身上。", "level": 2 },
+          { "q": "I wonder ___ the tickets are sold out.", "options": ["whether", "what", "that"], "answer": 0, "explain": "「是不是卖完了」——whether / if 领路。", "level": 2 },
+          { "q": "He told me ___ he was learning the drums.", "options": ["that", "if", "where"], "answer": 0, "explain": "陈述内容——that（也可以省略）。", "level": 2 },
+          { "q": "I don't know ___ he will arrive — maybe at six.", "options": ["when", "that", "if"], "answer": 0, "explain": "问的是「几点」——疑问词 when 领路。", "level": 2 },
+          { "q": "Nobody knows ___ the show was put off.", "options": ["why", "that", "if"], "answer": 0, "explain": "问的是「为什么」——why。", "level": 2 },
+          { "q": "Do you know what time the show ___ ?", "options": ["begins", "does begin", "begin"], "answer": 0, "explain": "一句只留一个起拍手势（Do）——从句里 -s 回到 begin。", "level": 2 },
+          { "q": "The teacher said the moon ___ around the earth.", "options": ["goes", "went", "will go"], "answer": 0, "explain": "客观真理不退时态——月亮今天也在转。", "level": 2 },
+          { "q": "He said he ___ a new guitar the next day.（转述昨天的话）", "options": ["would buy", "will buy", "buys"], "answer": 0, "explain": "said 过去——will 退成 would。", "level": 2 },
+          { "q": "I think ___ this piece is beautiful.", "options": ["that", "if", "whether"], "answer": 0, "explain": "陈述内容——that（可省）。", "level": 2 },
+          { "q": "She asked ___ I was free that afternoon.", "options": ["whether", "that", "what"], "answer": 0, "explain": "问「是不是有空」——whether / if。", "level": 2 },
+          { "q": "Please tell me how ___ to the music hall.", "options": ["I can get", "can I get", "I can gets"], "answer": 0, "explain": "坐正：how I can get——can 不再提前。", "level": 2 },
+          { "q": "I don't know ___ or not he will join us.", "options": ["whether", "if", "that"], "answer": 0, "explain": "or not 紧跟在后时用 whether。", "level": 2 },
+          { "q": "I ___ he is wrong.（我觉得他不对）", "options": ["don't think", "think", "am not think"], "answer": 0, "explain": "否定前移：I don't think he is wrong？——注意从句里不再加 not。", "level": 2 },
+          { "q": "Do you know ___ the girl in red is?", "options": ["who", "that", "if"], "answer": 0, "explain": "问「是谁」——who 领路，后面坐正 the girl is。", "level": 2 },
+          { "q": "He says he ___ practising every day now.", "options": ["is", "was", "be"], "answer": 0, "explain": "主句 says 是现在——从句不用退。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 扶正歪座位",
+        "questions": [
+          { "q": "哪一句坐正了？（我知道他住哪儿）", "options": ["I know where he lives.", "I know where does he live.", "I know where he live."], "answer": 0, "explain": "does 退场，-s 回到 live 身上。", "level": 3 },
+          { "q": "哪一句坐正了？（你能告诉我音乐教室在哪吗）", "options": ["Could you tell me where the music room is?", "Could you tell me where is the music room?", "Could you tell me where the music room are?"], "answer": 0, "explain": "be 回座位——where the music room is。", "level": 3 },
+          { "q": "哪一句坐正了？（我不知道明天会不会下雨）", "options": ["I don't know if it will rain tomorrow.", "I don't know if will it rain tomorrow.", "I don't know that it will rain tomorrow."], "answer": 0, "explain": "「会不会」用 if，后面照样坐正。", "level": 3 },
+          { "q": "哪一句对表了？（他说他第二天会来）", "options": ["He said he would come the next day.", "He said he will came the next day.", "He say he would come the next day."], "answer": 0, "explain": "said 过去——will 退成 would。", "level": 3 },
+          { "q": "哪一句对了？（老师说地球绕着太阳转）", "options": ["The teacher said the earth goes around the sun.", "The teacher said the earth went around the sun.", "The teacher says the earth going around the sun."], "answer": 0, "explain": "客观真理豁免退时态。", "level": 3 },
+          { "q": "哪一句坐正了？（你知道演出几点开始吗）", "options": ["Do you know when the show begins?", "Do you know when does the show begin?", "Do you know when the show begin?"], "answer": 0, "explain": "从句里 does 退场、-s 回到 begins。", "level": 3 },
+          { "q": "哪一句接头词用对了？（她问我是否喜欢这首歌）", "options": ["She asked me whether I liked the song.", "She asked me that I liked the song.", "She asked me whether did I like the song."], "answer": 0, "explain": "「是否」用 whether/if；that 只接陈述。", "level": 3 },
+          { "q": "哪一句否定前移用对了？（我觉得这首曲子不难）", "options": ["I don't think this piece is difficult.", "I don't think this piece isn't difficult.", "I think this piece difficult."], "answer": 0, "explain": "not 只搬一次——从句里不再留 not。", "level": 3 },
+          { "q": "哪一句坐正了？（请告诉我你为什么迟到）", "options": ["Please tell me why you were late.", "Please tell me why were you late.", "Please tell me why you was late."], "answer": 0, "explain": "why 领路后主语回到动词前——you were。", "level": 3 },
+          { "q": "哪一句对了？（我想知道谁拿走了我的琴谱）", "options": ["I wonder who took my music sheets.", "I wonder who did take my music sheets.", "I wonder who did took my music sheets."], "answer": 0, "explain": "疑问词自己当主语时本来就没倒装——直接 who took。", "level": 3 },
+          { "q": "哪一句对了？（他告诉我他正在学架子鼓）", "options": ["He told me he was learning the drums.", "He told me he learning the drums.", "He telled me he was learning the drums."], "answer": 0, "explain": "told 过去——从句 was learning；tell 的过去式是 told。", "level": 3 },
+          { "q": "哪一句坐正了？（你知道她是谁吗）", "options": ["Do you know who she is?", "Do you know who is she?", "Do you know who she are?"], "answer": 0, "explain": "who 领路，后面坐正 she is。", "level": 3 },
+          { "q": "哪一句对了？（我不确定他是否收到了票）", "options": ["I'm not sure whether he got the ticket.", "I'm not sure that did he get the ticket.", "I'm not sure whether did he get the ticket."], "answer": 0, "explain": "whether 领路 + 坐正 he got。", "level": 3 },
+          { "q": "哪一句对表了？（她说她每天练一小时琴）", "options": ["She said she practised the piano for an hour every day.", "She said she practise the piano for an hour every day.", "She said does she practise the piano every day."], "answer": 0, "explain": "said 过去——practise 跟着退成 practised。", "level": 3 },
+          { "q": "哪一句坐正了？（你能告诉我这个词是什么意思吗）", "options": ["Can you tell me what this word means?", "Can you tell me what does this word mean?", "Can you tell me what this word mean?"], "answer": 0, "explain": "does 退场，-s 回到 means。", "level": 3 },
+          { "q": "哪一句坐正了？（我不知道他为什么不高兴）", "options": ["I don't know why he is unhappy.", "I don't know why is he unhappy.", "I don't know that why he is unhappy."], "answer": 0, "explain": "why 领路即可——不必再叠一个 that。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 并段成曲",
+        "questions": [
+          { "q": "— Where is the bus stop? — Sorry, I don't know where ___.", "options": ["the bus stop is", "is the bus stop", "the bus stop are"], "answer": 0, "explain": "坐正：where the bus stop is。", "level": 4 },
+          { "q": "He said he ___ to the concert with us the next weekend.", "options": ["would go", "will go", "goes"], "answer": 0, "explain": "said 过去——will 退成 would。", "level": 4 },
+          { "q": "大考：The little girl asked her mum why the sea ___ blue.", "options": ["is", "was", "be"], "answer": 0, "explain": "「海是蓝色的」是客观事实——豁免退时态，用 is。", "level": 4 },
+          { "q": "I wonder ___ they finished the recording — maybe last night.", "options": ["when", "if", "that"], "answer": 0, "explain": "答句是时间（昨晚）——问的是 when。", "level": 4 },
+          { "q": "— Will Amy join us? — I'm not sure ___ she will.", "options": ["whether", "that", "what"], "answer": 0, "explain": "「是不是会来」——whether / if。", "level": 4 },
+          { "q": "Do you know ___ ? He looks familiar.", "options": ["who that man is", "who is that man", "whom is that man"], "answer": 0, "explain": "坐正：who that man is。", "level": 4 },
+          { "q": "The teacher asked us ___ we were ready for the show.", "options": ["if", "that", "what"], "answer": 0, "explain": "问「是不是准备好了」——if / whether。", "level": 4 },
+          { "q": "两空：He says he ___ free today, but yesterday he said he ___ busy all week.", "options": ["is / was", "was / is", "is / is"], "answer": 0, "explain": "says 现在不退；said 过去退一步。", "level": 4 },
+          { "q": "I don't think ___.（我觉得他们赢不了）", "options": ["they can win", "they can't win", "can they win"], "answer": 0, "explain": "not 已经前移到 think——从句里不再带 not。", "level": 4 },
+          { "q": "Could you tell me ___ the nearest bookshop?", "options": ["how I can get to", "how can I get to", "how I can get"], "answer": 0, "explain": "坐正 + get to 的 to 不能丢。", "level": 4 },
+          { "q": "Nobody knew why the lights ___ out during the show.", "options": ["went", "go", "did go"], "answer": 0, "explain": "主句 knew 过去——从句退到过去 went。", "level": 4 },
+          { "q": "She wanted to know ___ the group practised every Sunday.", "options": ["whether", "that", "who"], "answer": 0, "explain": "「是不是每周日都练」——whether。", "level": 4 },
+          { "q": "大考二：Mum asked me ___ I knew ___ the window was broken.", "options": ["if / why", "that / why", "if / that"], "answer": 0, "explain": "第一层「是否知道」用 if；第二层「为什么破」用 why——两层从句都坐正。", "level": 4 },
+          { "q": "— What did he say? — He said ___.", "options": ["he was tired and wanted a rest", "he is tired yesterday", "that was he tired"], "answer": 0, "explain": "转述过去的话——退一步 was / wanted，并保持坐正。", "level": 4 },
+          { "q": "I hear ___ our band will give a show next month.", "options": ["that", "whether", "why"], "answer": 0, "explain": "听到的是陈述内容——that（可省）。", "level": 4 },
+          { "q": "找错：下面哪句的接头词用错了？", "options": ["She asked me that I could help her.", "I know that music helps us relax.", "I wonder if the rain will stop soon."], "answer": 0, "explain": "ask「是否」要用 if / whether——that 只接陈述内容。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I don't know where does she live.",
+      "fixed": "I don't know where she lives.",
+      "clue": "进了宾语座位就要坐正——does 退场，三单 -s 回到 live 身上。"
+    },
+    {
+      "sentence": "Could you tell me where is the station?",
+      "fixed": "Could you tell me where the station is?",
+      "clue": "be 也要回座位——疑问倒装只属于独立问句。"
+    },
+    {
+      "sentence": "He said he will come to the party the next day.",
+      "fixed": "He said he would come to the party the next day.",
+      "clue": "主句 said 已是过去——从句跟着退一步：will → would。"
+    },
+    {
+      "sentence": "The teacher said the earth went around the sun.",
+      "fixed": "The teacher said the earth goes around the sun.",
+      "clue": "客观真理豁免退时态——地球今天也在转。"
+    },
+    {
+      "sentence": "She asked me that I liked pop music.",
+      "fixed": "She asked me whether I liked pop music.",
+      "clue": "问「是不是」要用 if / whether——that 只接陈述内容。"
+    },
+    {
+      "sentence": "I don't know if will he join the band.",
+      "fixed": "I don't know if he will join the band.",
+      "clue": "if 后面同样要坐正——will 不能抢在主语前面。"
+    },
+    {
+      "sentence": "Do you know what time does the concert begin?",
+      "fixed": "Do you know what time the concert begins?",
+      "clue": "起拍手势 does 收起后，三单 -s 回到 begin 身上。"
+    }
+  ]
+}
