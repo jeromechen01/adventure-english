@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G32（V0.9 P3 进阶层，非谓语三课收官）。比喻锚点：interesting 是发声者，interested 是听众。只讲初中层面辨析（感受词成对 -ing/-ed、分词作定语的位置、作表语选牌、固定搭配），不堆砌复杂例外；末尾承接 G30/G31 并统一预告精修层 G46 非谓语综合辨析合流。暗线：报时权一句只发一张。全部内容原创。",
+  "id": "G32",
+  "tier": "进阶",
+  "title": "分词作定语与表语（-ing / -ed）",
+  "metaphor": "interesting 是发声者，interested 是听众",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 只在 interested / boring 这类高频词上顺带见到分词，不单独设考点。系统的分词用法是初中重头戏——这课收齐非谓语三张脸，为初中/PET 打底，学到就是赚到，不用焦虑。",
+  "source": "original",
+  "sections": {
+    "essence": "动作当形容词：-ing 是发声者（令人…的），-ed 是听众（感到…的）。",
+    "why": "中文一个「无聊」两头通吃：「这部电影真无聊」和「我好无聊」用的是同一个词，谁制造无聊、谁感到无聊，全靠听的人自己分。英语不肯这么省：它把动作 bore（使人厌倦）铸成两张牌——发出影响的一方戴 -ing（The film is boring），接受影响的一方戴 -ed（I am bored）。牌一挂反，意思立刻反过来：I am boring 说的是「我这个人很无趣」。所以分词不用死背，先问一句：它是发声者，还是听众？KET 只顺带见到这些词，初中和 PET 才大量考——这课把非谓语的第三张脸补齐。",
+    "metaphorStory": "银帆乐团首演散场，学徒负责给后台挂牌子。师傅交代：「今晚的曲子打动了很多人——给曲谱挂 moving 的牌，它是发声者；给擦眼泪的观众挂 moved 的牌，他们是听众。」学徒记成了「人一律挂 -ing」，转头给打瞌睡的自己挂了块 I am boring。师傅路过笑出声：「你这是向全团宣布『我是个无趣的人』。你想说的是 I am bored——无聊是曲子发出的，你只是接收到了。」学徒赶紧换牌，又问：「牌子挂哪儿？」师傅说：「单个词挂在名词前面，像 a sleeping baby；一串词就跟在名词后面紧贴着，像 the boy standing by the drum——离远了，观众就不知道这块牌子是谁的。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "感受动词铸成两张牌",
+          "detail": "bore / interest / excite 这类「使人…」的动词：-ing 给发出影响的一方（令人…的），-ed 给接受影响的一方（感到…的）。",
+          "example": "The film is boring. → I am bored."
+        },
+        {
+          "rule": "成对记：八对高频感受词",
+          "detail": "interesting/interested · boring/bored · exciting/excited · surprising/surprised · tiring/tired · moving/moved · confusing/confused · relaxing/relaxed。",
+          "example": "The trip was tiring, so we were tired."
+        },
+        {
+          "rule": "作定语一：单个分词站名词前",
+          "detail": "-ing 表主动进行（正在…的），-ed 表被动完成（被…过的）。",
+          "example": "a sleeping baby（在睡的宝宝）· the broken window（被打破的窗）"
+        },
+        {
+          "rule": "作定语二：分词短语跟在名词后并紧贴",
+          "detail": "分词带了自己的小尾巴（宾语/状语），整串放到名词后面，必须紧挨着被修饰的词。",
+          "example": "the boy standing at the gate · a song written by our teacher"
+        },
+        {
+          "rule": "作表语：看主语选牌",
+          "detail": "be / feel / look / sound 后接分词：主语是发出影响的（事/物）用 -ing，主语是接受影响的（多是人）用 -ed。",
+          "example": "The news sounds exciting. / We all feel excited."
+        },
+        {
+          "rule": "固定搭配整块记",
+          "detail": "be interested in · be excited about · be surprised at · be tired of——介词各有各的，整块背下最稳。",
+          "example": "She is interested in science."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "The story is interesting.", "cn": "这个故事很有意思。（故事是发声者，戴 -ing）" },
+          { "en": "I am interested in music.", "cn": "我对音乐感兴趣。（我是听众，戴 -ed）" },
+          { "en": "Look at the sleeping cat.", "cn": "看那只睡着的猫。（单个分词站名词前）" },
+          { "en": "The excited children ran to the stage.", "cn": "兴奋的孩子们跑向舞台。（孩子接收兴奋，-ed）" },
+          { "en": "Running water is cleaner than still water.", "cn": "流动的水比死水干净。" }
+        ],
+        "mid": [
+          { "en": "The boy standing at the gate is my cousin.", "cn": "站在门口的男孩是我表哥。（短语后置紧贴）" },
+          { "en": "This is a song written by our music teacher.", "cn": "这是我们音乐老师写的一首歌。（被写的歌，-ed 短语后置）" },
+          { "en": "The movie was so moving that many people cried.", "cn": "电影感人至深，很多人都哭了。" },
+          { "en": "We were surprised at the ending.", "cn": "我们对结局很吃惊。（固定搭配 be surprised at）" },
+          { "en": "The girl playing the drum is only seven.", "cn": "打鼓的那个女孩才七岁。" }
+        ],
+        "trap": [
+          { "en": "The trip was tiring, but nobody felt bored.", "cn": "旅途很累人，但没人觉得无聊。", "note": "一句两张牌：旅途发出 tiring，人接收 bored——两头不能换。" },
+          { "en": "I am bored, not boring — please believe me.", "cn": "我是感到无聊，不是无趣的人——请相信我。", "note": "boring 挂人身上=「这人无趣」，牌挂反意思全反。" },
+          { "en": "The window broken by the ball has been repaired.", "cn": "被球打破的那扇窗已经修好了。", "note": "broken 短语后置修饰 window——它同时也是 G29 被动里的那块状态牌。" },
+          { "en": "Boiled water is safe to drink; boiling water can hurt you.", "cn": "烧开过的水能放心喝；正滚着的开水会烫伤人。", "note": "boiled 已烧过（完成），boiling 正在滚（进行）——一字之差两种水。" },
+          { "en": "I heard some exciting news about the concert.", "cn": "我听到了关于音乐会的令人兴奋的消息。", "note": "news 是发出影响的一方——挂 -ing，别因为自己兴奋就写 excited news。" },
+          { "en": "The children were confused by the confusing rules.", "cn": "孩子们被这些让人糊涂的规则弄糊涂了。", "note": "同一个动作两张牌同台：规则发出 confusing，孩子接收 confused。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "You are very boring here, right?（想说：你在这儿一定很无聊吧）",
+        "good": "You are very bored here, right?",
+        "zone": "blocks",
+        "why": "boring 挂人身上成了「你这人很无趣」——想关心人反成冒犯，发出与接收全反了。"
+      },
+      {
+        "bad": "I am very interesting in playing the piano.（想说：我很感兴趣）",
+        "good": "I am very interested in playing the piano.",
+        "zone": "blocks",
+        "why": "interesting 让你从「感兴趣的听众」变成自夸「我这人很有趣」——意思整个跑偏。"
+      },
+      {
+        "bad": "The film was so bored that I fell asleep.",
+        "good": "The film was so boring that I fell asleep.",
+        "zone": "tested",
+        "why": "电影是发出影响的一方——boring；bored 是留给看电影的人的牌。"
+      },
+      {
+        "bad": "We are all exciting about the school concert.",
+        "good": "We are all excited about the school concert.",
+        "zone": "tested",
+        "why": "人接收影响——excited；搭配也固定：be excited about。"
+      },
+      {
+        "bad": "Look at the boy stands under the tree.",
+        "good": "Look at the boy standing under the tree.",
+        "zone": "tested",
+        "why": "一句只有一个主奏报时（Look）——修饰男孩要用分词短语 standing…，紧贴其后。"
+      },
+      {
+        "bad": "This is a letter writing in English.",
+        "good": "This is a letter written in English.",
+        "zone": "tested",
+        "why": "信是被写的——接受方用过去分词 written；writing 成了信自己在提笔。"
+      },
+      {
+        "bad": "The news is surprised.",
+        "good": "The news is surprising.",
+        "zone": "tested",
+        "why": "消息发出惊讶——-ing；surprised 留给听到消息的人。"
+      },
+      {
+        "bad": "Please give me some boil water.（想说：开水）",
+        "good": "Please give me some boiled water.",
+        "zone": "tested",
+        "why": "动词想当形容词必须先换装——烧开过的水是 boiled water。"
+      },
+      {
+        "bad": "She was surprising at the result.",
+        "good": "She was surprised at the result.",
+        "zone": "tested",
+        "why": "她是接收方——surprised；固定搭配 be surprised at。"
+      },
+      {
+        "bad": "He is tired of get up early.（想说：厌倦了早起）",
+        "good": "He is tired of getting up early.",
+        "zone": "tested",
+        "why": "of 是介词——门后只收打包件 getting（G31 的门规在分词搭配里照样生效）。"
+      },
+      {
+        "bad": "The window is broken.（有人说必须说 was broken 才对）",
+        "good": "is broken / was broken 都对，说的事不同。",
+        "zone": "minor",
+        "why": "is broken 说「窗现在是破的」这个状态；was broken 说「被打破」那个动作——语境定牌，不算错。"
+      },
+      {
+        "bad": "an interested look（有人觉得 -ed 只能形容人）",
+        "good": "an interested look（感兴趣的神情）说得通。",
+        "zone": "minor",
+        "why": "神情、眼神可以「带着兴趣」——不挡意思，考试也不设坑。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "这部电影真无聊。／我好无聊。（一个词两头用）",
+        "en": "The film is boring. / I am bored.",
+        "diff": "中文「无聊」不分发出与接收；英语铸成两张牌，挂错就反。"
+      },
+      {
+        "cn": "激动的观众／激动人心的比赛（都是「激动」）",
+        "en": "the excited audience / an exciting match",
+        "diff": "中文靠「人心」二字悄悄区分；英语直接换牌 -ed / -ing。"
+      },
+      {
+        "cn": "开水（一个「开」字就完事）",
+        "en": "boiled water（烧开过的）/ boiling water（正滚的）",
+        "diff": "中文模糊过去；英语必须选：完成 -ed 还是进行 -ing。"
+      },
+      {
+        "cn": "站在门口的男孩（修饰语再长都在前面+「的」）",
+        "en": "the boy standing at the gate（短语搬到后面）",
+        "diff": "中文修饰语一律前置；英语一长就后置，还必须紧贴名词。"
+      },
+      {
+        "cn": "我对画画感兴趣。（一个「对」走天下）",
+        "en": "I am interested in drawing.（in 不能换）",
+        "diff": "中文介词全能；英语每个搭配的介词各有各的，整块记。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "先问发出还是接受：发出戴 -ing，接受戴 -ed；单个站名词前，一串跟名词后。",
+      "steps": [
+        "找到分词形容的对象：它是发出影响的（令人…），还是接受影响的（感到…）？",
+        "发出方戴 -ing：boring film · exciting news · moving song。",
+        "接受方戴 -ed：bored student · excited fans · moved audience。",
+        "当定语看长短：单个分词站名词前；带尾巴的短语放名词后，必须紧贴。",
+        "be / feel / look 后选牌：回到第 1 步问主语是谁。",
+        "收尾自查：不规则动词的第三形态回 G13 查——written、broken，别写成 wrote、broke。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，英语把感受分成两张牌：发出感受的一方戴 -ing，接到感受的一方戴 -ed。咱们玩挂牌游戏：我说一个场景，你告诉我两张牌各挂给谁。比如『电影很无聊，你看得直打哈欠』——boring 挂给电影，bored 挂给你。我不懂英语没关系，我只听词尾：说自己的感受，结尾是 d 的音；说事情本身，结尾是 ing 的音。要是你说 I am boring，我就喊『牌挂反啦』。」再加一关：家里找三样东西让孩子挂牌造句——an interesting book、a relaxing song，说得出谁发出谁接收才算过。",
+      "questions": [
+        "「电影很无聊」和「我很无聊」，英语各用哪张牌？为什么不能换？",
+        "a sleeping baby 里 sleeping 站在哪？the boy standing at the gate 为什么搬到后面去了？",
+        "I am interesting in music 错在哪？该怎么改？"
+      ]
+    },
+    "echo": "到这一课，非谓语的三张脸集齐了：G30 的 to do 是还没演的节目单，G31 的 doing 是打包成东西的活，这一课的 -ing/-ed 是挂在名词身上的状态牌。三张脸三套规矩，背后是同一条铁律——报时权一句只发一张，主奏之外的动词一律冻结。而 -ed 那张牌，又一次落回 G13 那批最常用的老团员：written、broken、made，第三形态照样不讲理。规律与例外的这笔账，到精修层 G46（非谓语综合辨析）三张脸正面交锋时一起算清。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G32 · 分词作定语与表语</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>interesting 是发声者，interested 是听众</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🔊 两张牌：-ing 发出影响 · -ed 接受影响</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>The film is boring. → I am bored.（牌挂反，意思就反）</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>🎭 八对高频感受词</text><text x='198' y='288' text-anchor='middle' font-size='14' fill='#5A4A42'>interesting / interested</text><text x='522' y='288' text-anchor='middle' font-size='14' fill='#5A4A42'>boring / bored</text><text x='198' y='316' text-anchor='middle' font-size='14' fill='#5A4A42'>exciting / excited · moving / moved</text><text x='522' y='316' text-anchor='middle' font-size='14' fill='#5A4A42'>surprising / surprised · tiring / tired</text><text x='360' y='348' text-anchor='middle' font-size='14' fill='#8A7568'>confusing / confused · relaxing / relaxed</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>📍 挂牌位置</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>单个站名词前 a sleeping baby ｜ 短语跟名词后紧贴 the boy standing at the gate</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ I am boring ✗（想说无聊）· a letter writing in English ✗ · exciting about ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只顺带见到——为初中 / PET 打底；三张非谓语的脸 G46 合流对比</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：报时权一句只发一张 · 英语奇遇记 🦊 G32</text></svg>",
+    "alt": "G32 记忆卡：分词=动作当形容词，-ing 发出影响（令人…的）、-ed 接受影响（感到…的）；八对高频感受词成对记；单个分词站名词前、分词短语跟名词后紧贴；警示 I am boring、a letter writing in English、exciting about 三类错误；KET 只顺带见到，为初中/PET 打底，G46 非谓语合流。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 发声者还是听众",
+        "questions": [
+          { "q": "The music is relaxing. 这句里 relaxing 的牌挂在谁身上？", "options": ["音乐——发出影响的一方", "听音乐的人", "钢琴"], "answer": 0, "explain": "音乐让人放松——发声者戴 -ing。", "level": 1 },
+          { "q": "I am relaxed. 这句里的 relaxed 说明「我」是？", "options": ["接受影响的一方（听众）", "发出影响的一方（发声者）", "主奏动词"], "answer": 0, "explain": "我接收到了放松——听众戴 -ed。", "level": 1 },
+          { "q": "「令人兴奋的」用哪张牌？", "options": ["exciting", "excited", "excite"], "answer": 0, "explain": "发出影响的一方戴 -ing——exciting。", "level": 1 },
+          { "q": "「感到兴奋的」用哪张牌？", "options": ["excited", "exciting", "excites"], "answer": 0, "explain": "接受影响的一方戴 -ed——excited。", "level": 1 },
+          { "q": "boring 和 bored，哪个形容「无趣的电影」？", "options": ["boring", "bored", "两个都行"], "answer": 0, "explain": "电影发出无聊——boring film。", "level": 1 },
+          { "q": "interested 这张牌一般挂在谁身上？", "options": ["感到有兴趣的人", "令人有兴趣的事", "介词 in"], "answer": 0, "explain": "接收方（人）戴 -ed——interested。", "level": 1 },
+          { "q": "「令人惊讶的消息」是？", "options": ["surprising news", "surprised news", "surprise news"], "answer": 0, "explain": "消息发出惊讶——surprising news。", "level": 1 },
+          { "q": "「被感动的观众」是？", "options": ["the moved audience", "the moving audience", "the move audience"], "answer": 0, "explain": "观众接收感动——moved audience。", "level": 1 },
+          { "q": "「累人的一天」是？", "options": ["a tiring day", "a tired day", "a tire day"], "answer": 0, "explain": "这一天发出疲惫——tiring day。", "level": 1 },
+          { "q": "a sleeping baby 里的 sleeping 表示宝宝？", "options": ["正在睡（主动进行）", "被睡（被动完成）", "将要睡"], "answer": 0, "explain": "-ing 分词作定语表主动进行——正在睡的宝宝。", "level": 1 },
+          { "q": "the broken window 里的 broken 表示窗户？", "options": ["被打破了（被动完成）", "正在打破", "自己会破"], "answer": 0, "explain": "-ed 分词作定语表被动完成——被打破的窗。", "level": 1 },
+          { "q": "单个分词作定语，一般站在名词的？", "options": ["前面", "后面", "句尾"], "answer": 0, "explain": "单个分词像普通形容词——站名词前面。", "level": 1 },
+          { "q": "分词短语（带小尾巴的一串）作定语，要放在名词的？", "options": ["后面并紧贴", "前面", "随便哪里"], "answer": 0, "explain": "一长就后置，还必须紧挨被修饰的名词。", "level": 1 },
+          { "q": "be interested 后面固定搭配的介词是？", "options": ["in", "on", "for"], "answer": 0, "explain": "be interested in——整块记。", "level": 1 },
+          { "q": "be surprised 后面常接的介词是？", "options": ["at", "in", "of"], "answer": 0, "explain": "be surprised at——整块记。", "level": 1 },
+          { "q": "confusing / confused 这对牌来自哪个动作？", "options": ["confuse（使人糊涂）", "confusion", "confident"], "answer": 0, "explain": "感受动词 confuse 铸成两张牌：confusing 发出、confused 接收。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 挂对牌子",
+        "questions": [
+          { "q": "The film was really ___, so we left early.", "options": ["boring", "bored", "bore"], "answer": 0, "explain": "电影发出无聊——boring。", "level": 2 },
+          { "q": "I felt ___ after the long rehearsal.", "options": ["tired", "tiring", "tire"], "answer": 0, "explain": "我接收疲惫——tired。", "level": 2 },
+          { "q": "The ending of the story was ___.", "options": ["surprising", "surprised", "surprise"], "answer": 0, "explain": "结局发出惊讶——surprising。", "level": 2 },
+          { "q": "We were all ___ at the strange ending.", "options": ["surprised", "surprising", "surprise"], "answer": 0, "explain": "我们接收惊讶——surprised，搭配 at。", "level": 2 },
+          { "q": "Listening to soft music is ___.", "options": ["relaxing", "relaxed", "relax"], "answer": 0, "explain": "听音乐这件事发出放松——relaxing。", "level": 2 },
+          { "q": "The ___ children jumped and cheered.", "options": ["excited", "exciting", "excite"], "answer": 0, "explain": "孩子接收兴奋——excited children。", "level": 2 },
+          { "q": "Look at the ___ baby — don't wake her up.", "options": ["sleeping", "slept", "sleep"], "answer": 0, "explain": "正在睡的宝宝——sleeping，单个分词站名词前。", "level": 2 },
+          { "q": "They are repairing the ___ window.", "options": ["broken", "breaking", "broke"], "answer": 0, "explain": "被打破的窗——broken；broke 是过去式不能当牌。", "level": 2 },
+          { "q": "The girl ___ the piano over there is my sister.", "options": ["playing", "played", "plays"], "answer": 0, "explain": "女孩主动在弹——playing 短语后置紧贴 girl。", "level": 2 },
+          { "q": "This is a photo ___ at the school gate.", "options": ["taken", "taking", "takes"], "answer": 0, "explain": "照片是被拍的——taken 短语后置。", "level": 2 },
+          { "q": "Amy is interested ___ collecting song sheets.", "options": ["in", "at", "on"], "answer": 0, "explain": "be interested in——介词固定。", "level": 2 },
+          { "q": "The players were excited ___ the big win.", "options": ["about", "in", "of"], "answer": 0, "explain": "be excited about——介词固定。", "level": 2 },
+          { "q": "Do you know the man ___ in front of the hall?", "options": ["standing", "stood", "stands"], "answer": 0, "explain": "修饰 the man 用分词短语 standing——一句只有一个主奏。", "level": 2 },
+          { "q": "I'd like a cup of ___ water, please.", "options": ["boiled", "boiling", "boil"], "answer": 0, "explain": "要喝的是烧开过的水——boiled water。", "level": 2 },
+          { "q": "The song ___ by the band last year is popular now.", "options": ["written", "writing", "wrote"], "answer": 0, "explain": "歌是被写的——written 短语后置；wrote 是过去式。", "level": 2 },
+          { "q": "His speech was so ___ that some people cried.", "options": ["moving", "moved", "move"], "answer": 0, "explain": "演讲发出感动——moving。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 摘错牌",
+        "questions": [
+          { "q": "哪一句的牌挂对了？（我对下棋很感兴趣）", "options": ["I am interested in playing chess.", "I am interesting in playing chess.", "I am interested at playing chess."], "answer": 0, "explain": "人接收兴趣戴 -ed，介词固定用 in。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（这部纪录片很无聊）", "options": ["The documentary is boring.", "The documentary is bored.", "The documentary is bore."], "answer": 0, "explain": "片子发出无聊——boring。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（我们对比分很吃惊）", "options": ["We were surprised at the score.", "We were surprising at the score.", "We were surprised in the score."], "answer": 0, "explain": "人接收惊讶 surprised，搭配 at。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（站在门口的男孩是我同学）", "options": ["The boy standing at the gate is my classmate.", "The boy stands at the gate is my classmate.", "The boy stand at the gate is my classmate."], "answer": 0, "explain": "一句只有一个主奏 is——修饰男孩用 standing 短语后置。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（这是一封用英语写的信）", "options": ["This is a letter written in English.", "This is a letter writing in English.", "This is a letter wrote in English."], "answer": 0, "explain": "信是被写的——第三形态 written。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（决赛令人兴奋）", "options": ["The final match was exciting.", "The final match was excited.", "The final match was excite."], "answer": 0, "explain": "比赛发出兴奋——exciting。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（疲惫的乐手们早早睡了）", "options": ["The tired players went to bed early.", "The tiring players went to bed early.", "The tire players went to bed early."], "answer": 0, "explain": "乐手接收疲惫——tired players。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（请给我一杯开水）", "options": ["May I have a glass of boiled water?", "May I have a glass of boil water?", "May I have a glass of boils water?"], "answer": 0, "explain": "烧开过的水——boiled water，动词换装才能当形容词。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（台上唱歌的女孩才六岁）", "options": ["The girl singing on the stage is only six.", "The girl sings on the stage is only six.", "The sung girl on the stage is only six."], "answer": 0, "explain": "女孩主动在唱——singing 短语后置紧贴 girl。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（这份说明让人困惑）", "options": ["The instructions are confusing.", "The instructions are confused.", "The instructions are confuse."], "answer": 0, "explain": "说明发出困惑——confusing。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（被摔坏的鼓已经换新了）", "options": ["The broken drum has been replaced.", "The breaking drum has been replaced.", "The broke drum has been replaced."], "answer": 0, "explain": "被摔坏——broken；broke 是过去式不能作定语。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（孩子们对野餐感到兴奋）", "options": ["The children are excited about the picnic.", "The children are exciting about the picnic.", "The children are excited of the picnic."], "answer": 0, "explain": "人接收兴奋 excited，搭配 about。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（那真是感人的一幕）", "options": ["It was a moving moment.", "It was a moved moment.", "It was a move moment."], "answer": 0, "explain": "那一幕发出感动——moving moment。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（他厌倦了每天练同一首曲子）", "options": ["He is tired of practising the same piece every day.", "He is tiring of practising the same piece every day.", "He is tired of practise the same piece every day."], "answer": 0, "explain": "be tired of + doing——tired 挂人身上，of 后收打包件。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（去年拍的那些照片还在墙上）", "options": ["The photos taken last year are still on the wall.", "The photos taking last year are still on the wall.", "The photos took last year are still on the wall."], "answer": 0, "explain": "照片是被拍的——taken 短语后置。", "level": 3 },
+          { "q": "哪一句的牌挂对了？（别叫醒在沙发上睡觉的爷爷）", "options": ["Don't wake up Grandpa sleeping on the sofa.", "Don't wake up Grandpa slept on the sofa.", "Don't wake up Grandpa sleeps on the sofa."], "answer": 0, "explain": "爷爷主动在睡——sleeping 短语紧贴其后。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 两张牌同台",
+        "questions": [
+          { "q": "The trip was ___, and we all felt ___.", "options": ["tiring / tired", "tired / tiring", "tiring / tiring"], "answer": 0, "explain": "旅途发出 tiring，人接收 tired——两张牌各归各位。", "level": 4 },
+          { "q": "The ___ audience clapped for the ___ performance.", "options": ["moved / moving", "moving / moved", "moved / moved"], "answer": 0, "explain": "观众接收感动 moved；演出发出感动 moving。", "level": 4 },
+          { "q": "— You look so ___! — Yes, the game was really ___.", "options": ["excited / exciting", "exciting / excited", "excited / excite"], "answer": 0, "explain": "人 excited，比赛 exciting。", "level": 4 },
+          { "q": "The story ___ by Grandpa was about a ___ dragon.", "options": ["told / sleeping", "telling / slept", "told / slept"], "answer": 0, "explain": "故事被讲 told（后置）；龙正在睡 sleeping（前置）。", "level": 4 },
+          { "q": "Nobody was ___ at the news — it wasn't ___ at all.", "options": ["surprised / surprising", "surprising / surprised", "surprised / surprised"], "answer": 0, "explain": "人接收 surprised；消息发出 surprising。", "level": 4 },
+          { "q": "The man ___ next to the ___ window is the repairman.", "options": ["standing / broken", "stood / breaking", "standing / broke"], "answer": 0, "explain": "人主动站着 standing；窗被打破 broken。", "level": 4 },
+          { "q": "大考：I was ___ because the lesson was ___, and even the teacher looked ___.", "options": ["confused / confusing / confused", "confusing / confused / confusing", "confused / confused / confusing"], "answer": 0, "explain": "我和老师都是接收方 confused；课是发出方 confusing。", "level": 4 },
+          { "q": "The ___ leaves on the ground told us autumn had come.", "options": ["fallen", "falling", "fall"], "answer": 0, "explain": "已经落到地上的叶子——fallen（完成）；falling 是正往下落。", "level": 4 },
+          { "q": "The cake ___ this morning smells nice, and the kids waiting for it look ___.", "options": ["baked / excited", "baking / exciting", "baked / exciting"], "answer": 0, "explain": "蛋糕被烤 baked（后置）；孩子接收兴奋 excited。", "level": 4 },
+          { "q": "Music ___ at the party made everyone ___.", "options": ["played / relaxed", "playing / relaxing", "played / relaxing"], "answer": 0, "explain": "音乐被播放 played（后置）；大家接收放松 relaxed。", "level": 4 },
+          { "q": "Mind the ___ glass — the window was ___ by the wind.", "options": ["broken / broken", "breaking / broken", "broken / breaking"], "answer": 0, "explain": "两处同一块状态牌：定语「碎掉的」+ G29 被动「被吹破」。", "level": 4 },
+          { "q": "The boy ___ the flute is my brother; the flute was ___ in Germany.", "options": ["playing / made", "played / making", "playing / making"], "answer": 0, "explain": "男孩主动吹 playing；笛子被制造 made。", "level": 4 },
+          { "q": "Everyone was ___ by the ___ ending of the play.", "options": ["moved / surprising", "moving / surprised", "moved / surprised"], "answer": 0, "explain": "人被打动 moved；结局发出惊讶 surprising。", "level": 4 },
+          { "q": "The letter ___ to the manager last week hasn't been answered.", "options": ["sent", "sending", "send"], "answer": 0, "explain": "信是被寄出的——sent 短语后置修饰 letter。", "level": 4 },
+          { "q": "I'm ___ of watching the same ___ show again and again.", "options": ["tired / boring", "tiring / bored", "tired / bored"], "answer": 0, "explain": "be tired of 厌倦；节目发出无聊 boring。", "level": 4 },
+          { "q": "大考二：The ___ fans waited outside for the singer ___ by millions.", "options": ["excited / loved", "exciting / loving", "excited / loving"], "answer": 0, "explain": "粉丝接收兴奋 excited；歌手被百万人喜爱 loved（短语后置）。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "The movie was so bored that we all fell asleep.",
+      "fixed": "The movie was so boring that we all fell asleep.",
+      "clue": "电影是发出无聊的一方——牌要挂 boring；bored 留给看电影的人。"
+    },
+    {
+      "sentence": "My cousin is interesting in collecting stamps.",
+      "fixed": "My cousin is interested in collecting stamps.",
+      "clue": "想说「感兴趣」——人是听众戴 -ed；interesting 成了自夸「我很有趣」。"
+    },
+    {
+      "sentence": "The news was surprised, and nobody believed it.",
+      "fixed": "The news was surprising, and nobody believed it.",
+      "clue": "消息发出惊讶——-ing；surprised 是留给听消息的人的牌。"
+    },
+    {
+      "sentence": "Do you know the boy stood under the big tree?",
+      "fixed": "Do you know the boy standing under the big tree?",
+      "clue": "一句只有一个主奏（Do you know）——修饰男孩要用分词短语 standing，紧贴其后。"
+    },
+    {
+      "sentence": "This is a postcard writing in French.",
+      "fixed": "This is a postcard written in French.",
+      "clue": "明信片是被写的——接受方用 written；writing 成了明信片自己提笔。"
+    },
+    {
+      "sentence": "We were exciting when our team won the match.",
+      "fixed": "We were excited when our team won the match.",
+      "clue": "人是接收方——excited；exciting 留给比赛本身。"
+    },
+    {
+      "sentence": "The trip was tired, so everyone felt tiring.",
+      "fixed": "The trip was tiring, so everyone felt tired.",
+      "clue": "两张牌全挂反了——旅途发出 tiring，人接收 tired。"
+    }
+  ]
+}

@@ -350,6 +350,17 @@
       "file": "./data/grammar/g31.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G32",
+      "tier": "进阶",
+      "title": "分词作定语与表语（-ing / -ed）",
+      "metaphor": "interesting 是发声者，interested 是听众",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g32.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
