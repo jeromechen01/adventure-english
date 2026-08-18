@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G36（V0.9 P3 进阶层，从句四课之四）。比喻锚点：演出说明的其余四类。只讲初中层面（because/since、so...that/such...that、although/though、so that、than/as...as），核心抓「一句一个领队」（because≠so 连用、although≠but 连用），不堆砌复杂例外。全部内容原创。",
+  "id": "G36",
+  "tier": "进阶",
+  "title": "状语从句二（原因/结果/让步/目的/比较）",
+  "metaphor": "演出说明的其余四类",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 只考 because / but / so 的基础用法（八课 L7 已覆盖）。so...that、although、so that 这些进阶说明是初中和 PET 的重头戏——这课为它打底，学到就是赚到，不用焦虑。",
+  "source": "original",
+  "sections": {
+    "essence": "原因、结果、让步、目的、比较各有提示词；一句只挂一个连接词。",
+    "why": "中文的连词爱成对出现：「因为…所以…」「虽然…但是…」，两头呼应才觉得踏实。英语正相反：一句话只发一个连接词的名额——because 上了台，so 就得下去；although 在场，but 必须退。这不是小气，而是英语句子的骨架是「一主一从」：连接词是从句的领队，一支队伍来两个领队就打架。除了这条铁律，其余四类演出说明各有各的提示词：结果分 so（接形容词）和 such（接名词），目的用 so that（常配 can/could），比较用 than 和 as...as（G18 的老朋友）。初中和 PET 大量考；KET 只考 because/but/so 的基础版。",
+    "metaphorStory": "银帆乐团的演出说明写到后几页，指挥让学徒补齐四类：为什么加演——because the audience kept cheering；效果如何——the drums were so loud that the last row heard every beat；顶着什么上——although one string broke, the piece went on；为了什么——we added low benches so that the children could see。学徒最后写总结：「Because it rained, so the show moved inside.」指挥拿笔划掉一个词：「一段说明只要一个领队。because 已经把队伍领进门了，so 再站出来，队伍就不知道跟谁走。中文里『因为…所以…』手拉手，英语里它们从不同台。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "原因：because / since",
+          "detail": "because 回答 why（因为）；since 偏「既然」（双方都知道的原因）。",
+          "example": "I stayed in because it was raining. / Since you're here, let's start."
+        },
+        {
+          "rule": "★ 一句一个领队",
+          "detail": "because 与 so 不同台；although 与 but 不同台——中文的成对连词，英语只留一个。",
+          "example": "Because it rained, we moved inside.（✗ ... so we moved）"
+        },
+        {
+          "rule": "结果：so 接形，such 接名",
+          "detail": "so + 形容词/副词 + that ...；such + (a) 名词串 + that ...。",
+          "example": "so loud that ... / such a hot day that ..."
+        },
+        {
+          "rule": "让步：although / though",
+          "detail": "「顶着…也…」；though 更口语，两词多数场合互换。",
+          "example": "Although he was tired, he kept practising."
+        },
+        {
+          "rule": "目的：so that（配 can / could）",
+          "detail": "「为了让…能…」；短版目的（一个动作）用 to do（G30）。",
+          "example": "I got up early so that I could catch the first bus."
+        },
+        {
+          "rule": "比较：than / as ... as",
+          "detail": "不同用比较级 + than；一样用 as 原级 as；不如用 not as ... as（承 G18）。",
+          "example": "taller than me / as tall as me / not as tall as me"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I stayed at home because it was raining.", "cn": "因为下雨，我待在家里。（不再加 so）" },
+          { "en": "Although he was tired, he kept practising.", "cn": "虽然累了，他仍坚持练习。（不再加 but）" },
+          { "en": "She sings so well that everyone claps.", "cn": "她唱得好到人人鼓掌。" },
+          { "en": "Tom is taller than his brother.", "cn": "汤姆比他哥哥高。" },
+          { "en": "I got up early so that I could catch the first bus.", "cn": "我早起是为了赶上首班车。" }
+        ],
+        "mid": [
+          { "en": "Since you are here, let's start the meeting.", "cn": "既然你来了，我们开始吧。" },
+          { "en": "It was such a moving song that many people cried.", "cn": "那首歌感人得让很多人落泪。（such + a + 名词串）" },
+          { "en": "Though the drum is old, it still sounds good.", "cn": "鼓虽然旧，声音还是很好。" },
+          { "en": "This piece isn't as hard as it looks.", "cn": "这首曲子不像看上去那么难。" },
+          { "en": "He spoke louder so that people at the back could hear him.", "cn": "他提高嗓门，好让后排的人听见。" }
+        ],
+        "trap": [
+          { "en": "Because it rained, we moved the show inside.", "cn": "因为下雨，演出移到了室内。", "note": "because 领队后 so 不再出场——中文的「所以」要咽回去。" },
+          { "en": "Although the ticket was expensive, I bought it.", "cn": "票虽然贵，我还是买了。", "note": "although 在场，but 必须退——一句一个领队。" },
+          { "en": "The music was so loud that we couldn't hear each other.", "cn": "音乐响得我们互相听不见。", "note": "so + 形容词 + that；换成名词串就得用 such。" },
+          { "en": "It was such a hot day that we stayed in the shade.", "cn": "天热得我们一直待在树荫里。", "note": "such + a + 名词——so 不接名词串。" },
+          { "en": "I wrote the words down so that I wouldn't forget them.", "cn": "我把歌词记下来，免得忘了。", "note": "so that 表目的，常配 can / could / would。" },
+          { "en": "Practising is not as boring as you think.", "cn": "练习不像你想的那么无聊。", "note": "as ... as 中间夹原级——不夹比较级（G18）。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "I was so tired that I went on practising.（想说：虽然很累仍坚持练）",
+        "good": "Although I was very tired, I went on practising.",
+        "zone": "blocks",
+        "why": "想说「顶着累也练」却套了「累得…」的结果句式——因果和让步拧在一起，听的人不知道你是撑不住了还是在坚持。"
+      },
+      {
+        "bad": "He ran fast so that he missed the bus.（想说：跑得快可还是没赶上）",
+        "good": "He ran fast, but he still missed the bus.",
+        "zone": "blocks",
+        "why": "so that 是「为了」——这句成了「为了错过公交而跑」，意思全拧。"
+      },
+      {
+        "bad": "Because it rained, so we cancelled the picnic.",
+        "good": "Because it rained, we cancelled the picnic.",
+        "zone": "tested",
+        "why": "一句一个领队——because 在场，so 退下。"
+      },
+      {
+        "bad": "Although the work was hard, but nobody gave up.",
+        "good": "Although the work was hard, nobody gave up.",
+        "zone": "tested",
+        "why": "although 与 but 有我没你——留一个就够。"
+      },
+      {
+        "bad": "The song is such beautiful that I play it every day.",
+        "good": "The song is so beautiful that I play it every day.",
+        "zone": "tested",
+        "why": "beautiful 是形容词——用 so；such 是留给名词串的。"
+      },
+      {
+        "bad": "It was so a hot day that we went swimming.",
+        "good": "It was such a hot day that we went swimming.",
+        "zone": "tested",
+        "why": "a hot day 是名词串——用 such a。"
+      },
+      {
+        "bad": "He is more taller than me.",
+        "good": "He is taller than me.",
+        "zone": "tested",
+        "why": "比较级不叠加 more——taller 自己已经完成变身（G18）。"
+      },
+      {
+        "bad": "This song is as more popular as that one.",
+        "good": "This song is as popular as that one.",
+        "zone": "tested",
+        "why": "as ... as 中间夹原级，不夹比较级。"
+      },
+      {
+        "bad": "I got up early so that I can catch the first bus yesterday.",
+        "good": "I got up early so that I could catch the first bus yesterday.",
+        "zone": "tested",
+        "why": "昨天的目的——so that 里跟着退成 could（对表）。"
+      },
+      {
+        "bad": "He was such tired that he fell asleep on the sofa.",
+        "good": "He was so tired that he fell asleep on the sofa.",
+        "zone": "tested",
+        "why": "tired 是形容词——so tired；such 必须带名词。"
+      },
+      {
+        "bad": "Though it was late, we went on.（有人说开头必须用 Although）",
+        "good": "though / although 都行。",
+        "zone": "minor",
+        "why": "两个词多数场合互换，though 更口语——不挡意思不设坑。"
+      },
+      {
+        "bad": "He is taller than me.（有人说必须说 than I）",
+        "good": "口语 than me / 书面 than I 都有人用。",
+        "zone": "minor",
+        "why": "日常交流 than me 更常见——不挡意思，考试不设坑。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "因为下雨，所以取消了。（成对才舒服）",
+        "en": "Because it rained, we cancelled it.",
+        "diff": "中文连词成双；英语一句只发一个连接词名额。"
+      },
+      {
+        "cn": "虽然贵，但是我买了。",
+        "en": "Although it was expensive, I bought it.",
+        "diff": "「但是」在英语里要让位——although 已经领队。"
+      },
+      {
+        "cn": "高兴得跳了起来。（一个「得」字连接结果）",
+        "en": "so happy that he jumped up",
+        "diff": "中文靠「得」；英语用 so...that 架桥，还分 so（形）/ such（名）两种。"
+      },
+      {
+        "cn": "为了赶上首班车（「为了」万能）",
+        "en": "to catch the bus / so that I could catch the bus",
+        "diff": "中文「为了」通吃；英语短目的用 to do，长目的用 so that + 句子。"
+      },
+      {
+        "cn": "他没有我高。（借「没有」表比较）",
+        "en": "He is not as tall as me.",
+        "diff": "中文借「没有」；英语用 not as ... as 框住原级。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "一句一个领队；so 接形、such 接名；so that 为了，than 比较。",
+      "steps": [
+        "先定说明类型：原因 / 结果 / 让步 / 目的 / 比较——各挑各的提示词。",
+        "because 上台，so 退下；although 上台，but 退下——一句一个领队。",
+        "结果句分形与名：so + 形容词/副词 + that；such + (a) 名词串 + that。",
+        "目的句：一个动作用 to do（G30）；整句目的用 so that + can/could。",
+        "比较句：不同用 -er + than；一样用 as 原级 as；不如用 not as ... as。",
+        "收尾读一遍：中文的「所以」「但是」有没有偷偷跟进英语句子？"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，中文说『因为…所以…』『虽然…但是…』都是手拉手出场，英语只让一个领队上台。咱们玩翻译陷阱：我用中文说成对句——『因为今天下雨，所以我们在家』，你翻成英语。我不懂英语没关系，我只数连接词的音：一句里 because 和 so 只能听到一个；『虽然/但是』那组，although 和 but 也只能留一个。听到两个，我就喊『领队打架啦』。」再加一关：我说『热得我睡不着』这类「得」字句，你用 so...that 翻出来——要是那个「热」换成「大热天」，考考孩子知不知道换 such。",
+      "questions": [
+        "「因为下雨所以取消」翻成英语时，「所以」去哪儿了？",
+        "so ... that 和 such ... that 各接什么？「天太热」和「大热天」各用哪个？",
+        "「我早起是为了赶车（昨天）」——so that 后面为什么用 could 不用 can？"
+      ]
+    },
+    "echo": "「一句一个领队」与「一句一张报时执照」是同一族规律——英语对句子结构的名额极度吝啬：一个主奏报时，一个领队带队，多一个就打架。这条秩序从 G30 的非谓语、G35 的主将从现一路贯到这里，这就是英语的规律性。而规律的另一面照旧：so、as、but 这些最常用的小词，正因为用得太多，各自磨出了好几副面孔——so 既是「所以」又是「如此」（so...that），as 一人分饰「像」「当…时」「因为」多个角色。越常用的词越多义，规律与例外始终是一体两面。从句家族还差最后一位主角：整段当主奏上台的主语从句与表语从句，下一课 G37 登场。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G36 · 状语从句二</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>演出说明的其余四类：原因 · 结果 · 让步 · 目的 · 比较</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>👑 一句一个领队</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>because 上台 so 退下 ｜ although 上台 but 退下（中文成对，英语只留一个）</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>🎯 各类提示词</text><text x='198' y='288' text-anchor='middle' font-size='14' fill='#5A4A42'>原因 because · since</text><text x='522' y='288' text-anchor='middle' font-size='14' fill='#5A4A42'>让步 although · though</text><text x='198' y='316' text-anchor='middle' font-size='14' fill='#5A4A42'>结果 so 形 that · such 名 that</text><text x='522' y='316' text-anchor='middle' font-size='14' fill='#5A4A42'>目的 so that + can/could</text><text x='360' y='348' text-anchor='middle' font-size='14' fill='#8A7568'>比较 -er than · as 原级 as · not as ... as</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>⚖️ so 与 such 分工</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>so loud that ...（形容词）｜ such a hot day that ...（名词串）</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ because...so ✗ · although...but ✗ · such tired ✗ · so a hot day ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只考 because/but/so 基础版——进阶说明为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：结构名额吝啬——一句一个领队 · 英语奇遇记 🦊 G36</text></svg>",
+    "alt": "G36 记忆卡：五类演出说明——原因 because/since、结果 so 形 that/such 名 that、让步 although/though、目的 so that+can/could、比较 than/as...as；核心铁律一句一个领队（because≠so、although≠but 连用）；警示 because...so、although...but、such tired、so a hot day 四类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 五类说明",
+        "questions": [
+          { "q": "because 回答的是哪类问题？", "options": ["为什么（原因）", "什么时候", "哪一个"], "answer": 0, "explain": "because 是原因说明的领队。", "level": 1 },
+          { "q": "although 表示的是？", "options": ["顶着…也（让步）", "因为", "为了"], "answer": 0, "explain": "让步：条件不利，事情照做。", "level": 1 },
+          { "q": "so that 表示的是？", "options": ["为了（目的）", "所以（结果）", "除非"], "answer": 0, "explain": "so that = 为了让…能…，常配 can/could。", "level": 1 },
+          { "q": "「A 比 B 高」用哪个词连接？", "options": ["than", "as", "that"], "answer": 0, "explain": "比较级 + than。", "level": 1 },
+          { "q": "「和…一样高」用哪个结构？", "options": ["as tall as", "so tall that", "taller than"], "answer": 0, "explain": "as 原级 as——一样高。", "level": 1 },
+          { "q": "because 和 so 能同时出现在一句话里吗？", "options": ["不能——一句一个领队", "能，更强调", "看心情"], "answer": 0, "explain": "领队只能有一个——中文的「所以」要咽回去。", "level": 1 },
+          { "q": "although 和 but 的关系是？", "options": ["有我没你，只能留一个", "必须成对出现", "随意搭配"], "answer": 0, "explain": "although 领队后 but 必须退。", "level": 1 },
+          { "q": "「如此…以至于」形容词版用？", "options": ["so + 形容词 + that", "such + 形容词 + that", "as + 形容词 + as"], "answer": 0, "explain": "so loud that ...——so 接形容词/副词。", "level": 1 },
+          { "q": "「如此…以至于」名词版用？", "options": ["such + (a) 名词 + that", "so + 名词 + that", "the + 名词 + that"], "answer": 0, "explain": "such a hot day that ...——such 接名词串。", "level": 1 },
+          { "q": "so that 后面常配哪类词？", "options": ["can / could", "-ing 形式", "过去分词"], "answer": 0, "explain": "为了让…「能」——can/could。", "level": 1 },
+          { "q": "表示「既然」，可以用哪个词？", "options": ["since", "until", "unless"], "answer": 0, "explain": "since——双方都知道的原因。", "level": 1 },
+          { "q": "「不如…那么…」用哪个结构？", "options": ["not as ... as", "not so that", "not than"], "answer": 0, "explain": "not as ... as——够不着那条线。", "level": 1 },
+          { "q": "Because it was late, we went home. 哪半句是原因说明？", "options": ["Because it was late", "we went home", "home"], "answer": 0, "explain": "because 领起的半句给主句说明原因。", "level": 1 },
+          { "q": "She sings so well that everyone claps. 结果是哪半句？", "options": ["that everyone claps", "she sings", "so well"], "answer": 0, "explain": "so well 的程度带出 that 后面的结果。", "level": 1 },
+          { "q": "只有一个动作的「短目的」，常用哪种说法（承 G30）？", "options": ["to do（如 to catch the bus）", "because 句", "than 句"], "answer": 0, "explain": "短目的 to do；整句目的才用 so that。", "level": 1 },
+          { "q": "though 和 although 的关系？", "options": ["意思相同，though 更口语", "完全相反", "though 是比较级"], "answer": 0, "explain": "多数场合互换。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 挑对提示词",
+        "questions": [
+          { "q": "I stayed at home ___ it was raining hard.", "options": ["because", "although", "so that"], "answer": 0, "explain": "下雨是原因——because。", "level": 2 },
+          { "q": "___ he was tired, he kept practising.", "options": ["Although", "Because", "So"], "answer": 0, "explain": "顶着累也练——让步 Although。", "level": 2 },
+          { "q": "The music was ___ loud that we couldn't talk.", "options": ["so", "such", "as"], "answer": 0, "explain": "loud 是形容词——so loud that。", "level": 2 },
+          { "q": "It was ___ a moving song that many people cried.", "options": ["such", "so", "very"], "answer": 0, "explain": "a moving song 是名词串——such a。", "level": 2 },
+          { "q": "I got up early ___ I could catch the first bus.", "options": ["so that", "because", "although"], "answer": 0, "explain": "目的——so that + could。", "level": 2 },
+          { "q": "Tom is taller ___ his brother.", "options": ["than", "as", "that"], "answer": 0, "explain": "比较级配 than。", "level": 2 },
+          { "q": "This piece isn't as hard ___ it looks.", "options": ["as", "than", "that"], "answer": 0, "explain": "as ... as 成对出现。", "level": 2 },
+          { "q": "___ you are here, let's start.", "options": ["Since", "Unless", "Until"], "answer": 0, "explain": "既然你来了——Since。", "level": 2 },
+          { "q": "He spoke louder so that people at the back ___ hear him.", "options": ["could", "couldn't", "must"], "answer": 0, "explain": "为了让后排「能」听见——could。", "level": 2 },
+          { "q": "The box was ___ heavy that I couldn't lift it.", "options": ["so", "such", "too"], "answer": 0, "explain": "heavy 是形容词——so heavy that。", "level": 2 },
+          { "q": "___ the drum is old, it still sounds good.", "options": ["Though", "Because", "So that"], "answer": 0, "explain": "鼓旧却好听——让步 Though。", "level": 2 },
+          { "q": "My schoolbag is not as heavy ___.（不如你的重）", "options": ["as yours", "than yours", "as your"], "answer": 0, "explain": "not as ... as yours——名词性物主代词收尾。", "level": 2 },
+          { "q": "It was ___ cold morning that the lake froze.", "options": ["such a", "so a", "a so"], "answer": 0, "explain": "such + a + 名词串。", "level": 2 },
+          { "q": "We turned down the music ___ the baby could sleep.", "options": ["so that", "because", "than"], "answer": 0, "explain": "为了让宝宝能睡——so that。", "level": 2 },
+          { "q": "He runs faster ___ anyone else in our class.", "options": ["than", "as", "so"], "answer": 0, "explain": "比较级 faster + than。", "level": 2 },
+          { "q": "I like this song ___ it tells a real story.", "options": ["because", "although", "so that"], "answer": 0, "explain": "讲了真实故事是原因——because。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 请走多余的领队",
+        "questions": [
+          { "q": "哪一句领队不打架？（因为下雨，所以野餐取消了）", "options": ["Because it rained, we cancelled the picnic.", "Because it rained, so we cancelled the picnic.", "Because it rained, but we cancelled the picnic."], "answer": 0, "explain": "because 领队——「所以」不再出场。", "level": 3 },
+          { "q": "哪一句领队不打架？（虽然作业难，但没人放弃）", "options": ["Although the work was hard, nobody gave up.", "Although the work was hard, but nobody gave up.", "Because the work was hard, nobody gave up."], "answer": 0, "explain": "although 在场 but 退下；because 意思就不对了。", "level": 3 },
+          { "q": "哪一句 so/such 用对了？（这首歌美得我天天弹）", "options": ["The song is so beautiful that I play it every day.", "The song is such beautiful that I play it every day.", "The song is as beautiful that I play it every day."], "answer": 0, "explain": "beautiful 是形容词——so。", "level": 3 },
+          { "q": "哪一句 so/such 用对了？（天太热我们去游泳了）", "options": ["It was such a hot day that we went swimming.", "It was so a hot day that we went swimming.", "It was such hot day that we went swimming."], "answer": 0, "explain": "such + a hot day——名词串前用 such，a 不能丢。", "level": 3 },
+          { "q": "哪一句比较对了？（他比我高多了）", "options": ["He is much taller than me.", "He is more taller than me.", "He is much more taller than me."], "answer": 0, "explain": "比较级不叠 more；程度用 much 加强。", "level": 3 },
+          { "q": "哪一句比较对了？（这首歌和那首一样流行）", "options": ["This song is as popular as that one.", "This song is as more popular as that one.", "This song is popular as that one."], "answer": 0, "explain": "as 原级 as——前一个 as 不能丢。", "level": 3 },
+          { "q": "哪一句对表了？（我早起是为了赶首班车——昨天）", "options": ["I got up early so that I could catch the first bus.", "I got up early so that I can catch the first bus.", "I got up early so that catching the first bus."], "answer": 0, "explain": "昨天的目的——could；so that 后面要完整句子。", "level": 3 },
+          { "q": "哪一句 so/such 用对了？（他累得在沙发上睡着了）", "options": ["He was so tired that he fell asleep on the sofa.", "He was such tired that he fell asleep on the sofa.", "He was so tired than he fell asleep on the sofa."], "answer": 0, "explain": "tired 是形容词——so tired that。", "level": 3 },
+          { "q": "哪一句领队不打架？（既然你写完了，可以回家了）", "options": ["Since you have finished, you can go home.", "Since you have finished, so you can go home.", "Because you have finished, so you can go home."], "answer": 0, "explain": "since 领队后同样不再加 so。", "level": 3 },
+          { "q": "哪一句领队不打架？（虽然七十多岁了，他仍常爬山）", "options": ["Though he is over seventy, he still climbs hills.", "Though he is over seventy, but he still climbs hills.", "Though he is over seventy, so he still climbs hills."], "answer": 0, "explain": "though 与 but 有我没你。", "level": 3 },
+          { "q": "哪一句目的写对了？（我们小声说话，免得吵醒宝宝）", "options": ["We whispered so that we wouldn't wake the baby.", "We whispered so that not to wake the baby.", "We whispered because not waking the baby."], "answer": 0, "explain": "so that + 完整句子（wouldn't wake）。", "level": 3 },
+          { "q": "哪一句比较对了？（练习不像你想的那么无聊）", "options": ["Practising is not as boring as you think.", "Practising is not as boring than you think.", "Practising is not boring as you think."], "answer": 0, "explain": "not as ... as 成对——不混 than。", "level": 3 },
+          { "q": "哪一句结果写对了？（雪下得太大，学校关门了）", "options": ["It snowed so heavily that the school was closed.", "It snowed such heavily that the school was closed.", "It snowed so heavily so the school was closed."], "answer": 0, "explain": "heavily 是副词——so heavily that。", "level": 3 },
+          { "q": "哪一句目的写对了？（他大声说，好让大家都听见）", "options": ["He spoke loudly so that everyone could hear him.", "He spoke loudly because everyone could hear him.", "He spoke loudly although everyone could hear him."], "answer": 0, "explain": "「好让」是目的——so that。", "level": 3 },
+          { "q": "哪一句领队不打架？（因为票太贵，我们没去）", "options": ["We didn't go because the tickets were too expensive.", "We didn't go so the tickets were too expensive.", "Because the tickets were too expensive, so we didn't go."], "answer": 0, "explain": "because 一个领队就够。", "level": 3 },
+          { "q": "哪一句 such 用对了？（故事有趣得我读了两遍）", "options": ["It was such an interesting story that I read it twice.", "It was so an interesting story that I read it twice.", "It was such interesting story that I read it twice."], "answer": 0, "explain": "such + an interesting story——冠词不能丢。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 写全演出说明",
+        "questions": [
+          { "q": "两空：He practised hard ___ he could pass the test, and he was ___ happy that he cried when he did.", "options": ["so that / so", "because / such", "so that / such"], "answer": 0, "explain": "目的 so that；happy 是形容词——so happy that。", "level": 4 },
+          { "q": "大考：___ the hall was full, latecomers stood at the back ___ they could still watch the show.", "options": ["Because / so that", "Although / because", "So that / because"], "answer": 0, "explain": "因为满座（because）；为了还能看（so that）。", "level": 4 },
+          { "q": "I missed the beginning ___ the traffic was terrible.", "options": ["because", "although", "so that"], "answer": 0, "explain": "堵车是原因——because。", "level": 4 },
+          { "q": "两空：The song was ___ sad ___ the whole hall went quiet.", "options": ["so / that", "such / that", "so / as"], "answer": 0, "explain": "sad 是形容词——so sad that。", "level": 4 },
+          { "q": "两空：It was ___ good concert ___ nobody wanted to leave.", "options": ["such a / that", "so a / that", "such / that"], "answer": 0, "explain": "a good concert 名词串——such a ... that。", "level": 4 },
+          { "q": "___ my brother is younger than me, he is as tall ___ me.", "options": ["Although / as", "Because / as", "Although / than"], "answer": 0, "explain": "年纪小却一样高——让步 + as ... as。", "level": 4 },
+          { "q": "找错：哪句连接词多了？", "options": ["Because I was late, so I ran all the way.", "Because I was late, I ran all the way.", "I was late, so I ran all the way."], "answer": 0, "explain": "because 与 so 不同台——后两句各留一个领队都对。", "level": 4 },
+          { "q": "He put the key under the mat ___ his sister could get in.", "options": ["so that", "because", "although"], "answer": 0, "explain": "为了让妹妹能进门——so that。", "level": 4 },
+          { "q": "两空：Maths is harder ___ English for me, but it's not as hard ___ Physics.", "options": ["than / as", "as / than", "than / than"], "answer": 0, "explain": "比较级配 than；not as ... as 配 as。", "level": 4 },
+          { "q": "The little girl spoke ___ quietly that nobody heard her.", "options": ["so", "such", "as"], "answer": 0, "explain": "quietly 是副词——so quietly that。", "level": 4 },
+          { "q": "___ he had a bad cold, he still came to the rehearsal.", "options": ["Although", "Because", "So that"], "answer": 0, "explain": "顶着感冒也来——让步。", "level": 4 },
+          { "q": "两空：I wrote the steps down ___ I wouldn't forget them, ___ I still forgot one.", "options": ["so that / but", "because / so", "although / and"], "answer": 0, "explain": "目的 so that；后半句转折用并列的 but（不与 although 同句才冲突）。", "level": 4 },
+          { "q": "找错：哪句 so / such 用错了？", "options": ["It was a so exciting match that we all shouted.", "It was such an exciting match that we all shouted.", "The match was so exciting that we all shouted."], "answer": 0, "explain": "名词串要 such an exciting match——so 不能塞进冠词后面。", "level": 4 },
+          { "q": "Since it's your birthday, you ___ choose the restaurant.", "options": ["can", "couldn't", "mustn't"], "answer": 0, "explain": "既然是你生日——你可以挑。", "level": 4 },
+          { "q": "两空：Tom runs ___ than Jack, but Jack jumps ___ than Tom.", "options": ["faster / higher", "fast / high", "more fast / more high"], "answer": 0, "explain": "短词比较级直接 -er——faster / higher。", "level": 4 },
+          { "q": "大考二：___ the piano was old, it sounded ___ sweet that the teacher kept it ___ the students could practise on it.", "options": ["Although / so / so that", "Because / such / so that", "Although / such / because"], "answer": 0, "explain": "让步 Although；sweet 形容词配 so；目的 so that。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "Because the rain was heavy, so the show moved inside.",
+      "fixed": "Because the rain was heavy, the show moved inside.",
+      "clue": "一句一个领队——because 在场，so 退下。"
+    },
+    {
+      "sentence": "Although the song is old, but everyone still loves it.",
+      "fixed": "Although the song is old, everyone still loves it.",
+      "clue": "although 与 but 有我没你——留一个就够。"
+    },
+    {
+      "sentence": "The soup was such hot that I couldn't drink it.",
+      "fixed": "The soup was so hot that I couldn't drink it.",
+      "clue": "hot 是形容词——用 so；such 要带名词串。"
+    },
+    {
+      "sentence": "It was so a fine day that we walked to school.",
+      "fixed": "It was such a fine day that we walked to school.",
+      "clue": "a fine day 是名词串——such a fine day that。"
+    },
+    {
+      "sentence": "He is more stronger than his brother.",
+      "fixed": "He is stronger than his brother.",
+      "clue": "比较级不叠 more——G18 的老规矩。"
+    },
+    {
+      "sentence": "Amy got up early yesterday so that she can catch the train.",
+      "fixed": "Amy got up early yesterday so that she could catch the train.",
+      "clue": "昨天的目的——so that 里跟着退成 could。"
+    },
+    {
+      "sentence": "This film is not as interesting than the book.",
+      "fixed": "This film is not as interesting as the book.",
+      "clue": "as ... as 成对出现——不和 than 混搭。"
+    }
+  ]
+}

@@ -394,6 +394,17 @@
       "file": "./data/grammar/g35.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G36",
+      "tier": "进阶",
+      "title": "状语从句二（原因/结果/让步/目的/比较）",
+      "metaphor": "演出说明的其余四类",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g36.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
