@@ -449,6 +449,17 @@
       "file": "./data/grammar/g40.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G41",
+      "tier": "进阶",
+      "title": "短语动词与固定搭配",
+      "metaphor": "和弦：两个音一起响才是那个意思",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g41.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
