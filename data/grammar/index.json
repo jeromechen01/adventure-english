@@ -460,6 +460,17 @@
       "file": "./data/grammar/g41.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G42",
+      "tier": "进阶",
+      "title": "构词法（前缀/后缀/合成/转化）",
+      "metaphor": "造词工厂",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g42.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
