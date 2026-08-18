@@ -372,6 +372,17 @@
       "file": "./data/grammar/g33.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G34",
+      "tier": "进阶",
+      "title": "定语从句",
+      "metaphor": "给某个音符加装饰音，必须紧贴它",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g34.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

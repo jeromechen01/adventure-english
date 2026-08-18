@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G34（V0.9 P3 进阶层，从句四课之二）。比喻锚点：给某个音符加装饰音，必须紧贴它。只讲初中层面（who/that/which、一人两职、紧贴先行词、作宾语可省、从句动词对齐），备考知识库明确的「不碰」项（whose、非限制性、关系副词、介词提前）全部留给精修层 G48 长难句拆解。全部内容原创。",
+  "id": "G34",
+  "tier": "进阶",
+  "title": "定语从句",
+  "metaphor": "给某个音符加装饰音，必须紧贴它",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 不考定语从句的写法，A2 只要求见到 the boy who... 能看懂。系统的定语从句是初中重头戏——这课为初中/PET 打底，学到就是赚到，不用焦虑。",
+  "source": "original",
+  "sections": {
+    "essence": "给名词加一段装饰，必须紧贴它；who/that/which 既连接又代替。",
+    "why": "中文的修饰语再长也挤在名词前面：「戴眼镜的那个男孩」。英语只让短形容词站前面，一段话那么长的装饰要搬到名词后面：the boy who wears glasses——还得派一个关系词打头。这个关系词一人两职：一头连接（告诉你装饰段开始了），一头代替（在装饰段里替那个名词出场）。既然它已经替名词出场，从句里就不能再冒出 he/him/it 重复上台。装饰还有条铁律：必须紧贴它装饰的名词，隔远了，听的人就不知道装饰挂在谁身上。初中和 PET 大量考；KET 只要求看懂。",
+    "metaphorStory": "银帆乐团抄谱课。主旋律里有个音符要加一段装饰音，学徒图省事，把装饰段抄到了小节末尾，和主音符隔了三个音。指挥拉出来一听就皱眉：「观众全以为装饰的是旁边那个音。装饰音必须紧贴它装饰的音，中间一个音都不能隔。」学徒抄回去，又发现谱上缺个记号——连音线。指挥说：「这条线就是 who、that、which：一头勾住主音符，一头在装饰段里替它出场。人用 who 或 that，物用 which 或 that。」学徒补线时画蛇添足，在装饰段里又把主音符写了一遍——the boy who he plays the drum。指挥摇头：「连音线已经替他出场了，同一个人不能上两次台。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "什么是定语从句",
+          "detail": "一段话当装饰，挂在名词（先行词）身后，说明「哪一个/什么样的」。",
+          "example": "the boy who wears glasses（戴眼镜的那个男孩）"
+        },
+        {
+          "rule": "铁律：紧贴先行词",
+          "detail": "装饰段必须紧挨着它装饰的名词，中间不能隔别的成分。",
+          "example": "I like the song that Amy wrote.（that Amy wrote 紧贴 song）"
+        },
+        {
+          "rule": "选连音线：人 who/that，物 which/that",
+          "detail": "that 两头通用；who 只给人，which 只给物。",
+          "example": "a friend who helps me / a song which moves me"
+        },
+        {
+          "rule": "一人两职：连接 + 代替",
+          "detail": "关系词在从句里替先行词出场（当主语或宾语），所以从句里不能再放 he/him/it 重复它。",
+          "example": "the boy who plays the drum（✗ who he plays）"
+        },
+        {
+          "rule": "作宾语可省，作主语不能省",
+          "detail": "关系词在从句里当宾语时可以整个省掉；当主语时是顶梁柱，省不得。",
+          "example": "the song (that) I love best / the man who lives next door"
+        },
+        {
+          "rule": "对齐：从句动词跟先行词",
+          "detail": "关系词作主语时，从句动词的单复数跟先行词走：单数 -s/was，复数原形/were。",
+          "example": "the girl who sings / the girls who sing"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "The boy who is singing is my brother.", "cn": "正在唱歌的男孩是我弟弟。（人用 who）" },
+          { "en": "I like songs that have a strong beat.", "cn": "我喜欢节奏感强的歌。（物用 that）" },
+          { "en": "This is the cake which Mum made.", "cn": "这是妈妈做的蛋糕。（物用 which）" },
+          { "en": "The man who teaches us music is very kind.", "cn": "教我们音乐的老师人很好。" },
+          { "en": "Do you know the girl that won the prize?", "cn": "你认识获奖的那个女孩吗？（that 人物两头通）" }
+        ],
+        "mid": [
+          { "en": "The song we practised yesterday is hard.", "cn": "我们昨天练的那首歌很难。（作宾语的 that 省略了）" },
+          { "en": "The violin which Grandpa gave me is fifty years old.", "cn": "爷爷给我的小提琴有五十年历史了。" },
+          { "en": "I've lost the ticket that you gave me.", "cn": "我把你给我的票弄丢了。" },
+          { "en": "Students who practise every day improve fast.", "cn": "每天练习的学生进步快。（students 复数，improve 不加 -s）" },
+          { "en": "Where is the letter that came this morning?", "cn": "今天早上到的那封信在哪儿？" }
+        ],
+        "trap": [
+          { "en": "I like the song that Amy wrote for us.", "cn": "我喜欢艾米为我们写的那首歌。", "note": "that 已在从句里替 song 出场作宾语——不能再加 it（✗ that Amy wrote it）。" },
+          { "en": "The friends who often help me are all in my class.", "cn": "经常帮我的朋友们都在我们班。", "note": "对齐——friends 复数，从句动词 help 不加 -s。" },
+          { "en": "The book I'm reading is about a band.", "cn": "我正在读的这本书讲一支乐队。", "note": "作宾语的关系词省略了——两段直接相贴，中间什么都没有。" },
+          { "en": "Is there anything that I can do for you?", "cn": "有什么我能为你做的吗？", "note": "先行词是 anything / everything 时，习惯用 that 这条线。" },
+          { "en": "The man that lives next door plays the trumpet.", "cn": "住在隔壁的那个人吹小号。", "note": "人可以用 who 也可以用 that——两条线都对。" },
+          { "en": "The dog which is lying at the gate belongs to the singer.", "cn": "躺在门口的那只狗是歌手的。", "note": "物用 which/that；who 是留给人的连音线。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "The boy is my cousin who is wearing a red cap.（想说：戴红帽子的男孩是我表哥）",
+        "good": "The boy who is wearing a red cap is my cousin.",
+        "zone": "blocks",
+        "why": "装饰没紧贴——挂到了 cousin 身上，到底谁戴帽子全乱了。"
+      },
+      {
+        "bad": "Do you know the girl talked to Miss Lin just now?（想说：刚才跟林老师说话的那个女孩）",
+        "good": "Do you know the girl who talked to Miss Lin just now?",
+        "zone": "blocks",
+        "why": "少了连音线 who——装饰段和主句撞在一起，听的人分不清你是在问人还是在说事。"
+      },
+      {
+        "bad": "The man which lives next door is a doctor.",
+        "good": "The man who lives next door is a doctor.",
+        "zone": "tested",
+        "why": "人用 who / that——which 是留给物的连音线。"
+      },
+      {
+        "bad": "I like the song who Amy wrote.",
+        "good": "I like the song that Amy wrote.",
+        "zone": "tested",
+        "why": "歌是物——that / which；who 留给人。"
+      },
+      {
+        "bad": "The boy who play the drum is nine.",
+        "good": "The boy who plays the drum is nine.",
+        "zone": "tested",
+        "why": "关系词作主语时从句动词跟先行词对齐——boy 三单配 plays。"
+      },
+      {
+        "bad": "This is the bike that I bought it last week.",
+        "good": "This is the bike that I bought last week.",
+        "zone": "tested",
+        "why": "that 已替 bike 出场作宾语——it 是同一人上两次台。"
+      },
+      {
+        "bad": "I have a friend plays the guitar very well.",
+        "good": "I have a friend who plays the guitar very well.",
+        "zone": "tested",
+        "why": "关系词作主语不能省——少了连音线，两个动词撞车。"
+      },
+      {
+        "bad": "The song that I listen every night helps me sleep.",
+        "good": "The song that I listen to every night helps me sleep.",
+        "zone": "tested",
+        "why": "listen 的 to 不能丢——关系词替 song 出场后，介词还留在原位。"
+      },
+      {
+        "bad": "Everything which he said is true.",
+        "good": "Everything that he said is true.",
+        "zone": "tested",
+        "why": "先行词是 everything / anything 时习惯用 that。"
+      },
+      {
+        "bad": "The keys that was on the desk are gone.",
+        "good": "The keys that were on the desk are gone.",
+        "zone": "tested",
+        "why": "从句里的 be 也要对齐——keys 复数配 were。"
+      },
+      {
+        "bad": "the song that Amy wrote（有人说必须用 which 才正式）",
+        "good": "that / which 多数场合都行。",
+        "zone": "minor",
+        "why": "这种限定装饰里两条线都对——考试不设坑。"
+      },
+      {
+        "bad": "the man that I met（有人说指人必须用 who）",
+        "good": "作宾语时 who / that 都常见。",
+        "zone": "minor",
+        "why": "口语里 that 甚至更常用——不挡意思不设坑。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "戴眼镜的那个男孩（装饰在前+「的」）",
+        "en": "the boy who wears glasses（装饰搬到后面）",
+        "diff": "中文修饰语一律前置；英语长装饰后置，还派关系词打头。"
+      },
+      {
+        "cn": "我昨天买的书（没有任何连接词）",
+        "en": "the book (that) I bought yesterday",
+        "diff": "中文靠「的」收尾；英语靠关系词连接——好在作宾语时它可以省。"
+      },
+      {
+        "cn": "我认识的那个人（「他」不再出现）",
+        "en": "the man (that) I know（不能再加 him）",
+        "diff": "关系词已替名词出场——英语从句里不能再放一个代词重复它。"
+      },
+      {
+        "cn": "教我们音乐的老师（动词永远不变）",
+        "en": "the teacher who teaches us music",
+        "diff": "英语从句动词要跟先行词对齐（三单 -s）；中文动词没这回事。"
+      },
+      {
+        "cn": "人和物都是一个「的」",
+        "en": "人 who / that ｜ 物 which / that",
+        "diff": "中文一个「的」通吃；英语连音线分「人线」和「物线」。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "装饰紧贴先行词；人 who 物 which，that 两头通；从句里不再重复它。",
+      "steps": [
+        "找先行词：哪个名词要挂装饰？装饰段必须紧贴在它身后。",
+        "选连音线：人用 who / that，物用 which / that。",
+        "查两职：关系词已替先行词出场——从句里不能再有 he / him / it 重复它。",
+        "对齐：关系词作主语时，从句动词跟先行词对齐（单数 -s / was，复数原形 / were）。",
+        "可省吗：关系词作从句宾语可以省；作主语是顶梁柱，省不得。",
+        "介词别丢：listen to、look for 的小尾巴留在原位。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，咱们玩『我说装饰你猜人』：我用中文描述一个人或东西，比如『每天第一个到教室的那个同学』，你用英语说出来——the student who comes to the classroom first。我不懂英语没关系，我只听两件事：名词后面有没有紧跟着 who 或 that 的音——那是装饰开始的记号；装饰段里有没有多冒出 he、she、it 的音——连音线已经替他出场了，再冒出来就是上了两次台。」再加一关：反过来，孩子说英语我猜中文，猜「装饰挂在谁身上」——要是我猜错了对象，多半就是装饰没紧贴。",
+      "questions": [
+        "「戴红帽子的男孩」英语为什么把「戴红帽子」放到 boy 的后面去？",
+        "who 和 which 各是给谁用的连音线？that 呢？",
+        "the bike that I bought it last week 多了哪个词？为什么不能要？"
+      ]
+    },
+    "echo": "装饰一长就搬家——G32 的分词短语后置和这一课的定语从句后置，其实是英语同一条稳定规律：短装饰站名词前，长装饰挂名词后，且必须紧贴。这就是「英语的规律性」——不同语法点背后常常是同一条底层秩序。而连音线 that，正是 G33 那条「安全带 that」的亲兄弟：古英语指示词一路演变，先当「那个」，再当接头词，再当连音线——越常用的小词，身兼的职务越多，这是「越常用越不讲理」的另一副面孔。定语从句更深的花样（whose、逗号隔开的补充说明、where/when 当连音线）这课刻意不碰，全部留给精修层 G48（长难句拆解）一次讲透。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G34 · 定语从句</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>给某个音符加装饰音，必须紧贴它</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎼 连音线一人两职：连接 + 代替</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>the boy who plays the drum（who 替 boy 出场——从句里不再放 he）</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>🎻 选线与省略</text><text x='198' y='288' text-anchor='middle' font-size='15' fill='#5A4A42'>人：who / that</text><text x='522' y='288' text-anchor='middle' font-size='15' fill='#5A4A42'>物：which / that</text><text x='360' y='318' text-anchor='middle' font-size='14' fill='#5A4A42'>作宾语可省：the song (that) I love ｜ 作主语不能省：the man who lives...</text><text x='360' y='348' text-anchor='middle' font-size='13' fill='#94A3B8'>everything / anything 后习惯用 that</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>📏 紧贴 + 对齐</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>装饰紧挨先行词不隔词 ｜ the girl who sings · the girls who sing</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ the man which ✗ · that I bought it ✗ · a friend plays ✗（缺线）· who play ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只要求看懂——为初中 / PET 打底；whose 等深花样留给 G48</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：长装饰后置紧贴——与 G32 分词短语同一条规律 · 英语奇遇记 🦊 G34</text></svg>",
+    "alt": "G34 记忆卡：定语从句=挂在名词身后的装饰段，必须紧贴先行词；连音线一人两职（连接+代替，从句里不再放代词）；人 who/that、物 which/that；作宾语可省作主语不能省；从句动词跟先行词对齐；警示 the man which、that I bought it、缺关系词、who play 四类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 连音线与先行词",
+        "questions": [
+          { "q": "The boy who is singing is my brother. 从句装饰的是哪个词？", "options": ["the boy（先行词）", "my brother", "singing"], "answer": 0, "explain": "who is singing 紧贴在 the boy 身后——装饰它。", "level": 1 },
+          { "q": "定语从句的作用是？", "options": ["给名词挂一段装饰说明", "代替整个主句", "表示动作的时间"], "answer": 0, "explain": "说明「哪一个/什么样的」——挂在先行词身后。", "level": 1 },
+          { "q": "先行词是「人」时，连音线用？", "options": ["who 或 that", "which 或 what", "if 或 whether"], "answer": 0, "explain": "人线：who / that。", "level": 1 },
+          { "q": "先行词是「物」时，连音线用？", "options": ["which 或 that", "who", "when"], "answer": 0, "explain": "物线：which / that。", "level": 1 },
+          { "q": "定语从句要放在先行词的？", "options": ["紧后面，紧贴着", "前面", "句子最开头"], "answer": 0, "explain": "装饰音必须紧贴主音符——隔远了就挂错对象。", "level": 1 },
+          { "q": "关系词的两个职务是？", "options": ["连接从句 + 在从句里代替先行词", "报时 + 变形", "提问 + 回答"], "answer": 0, "explain": "一头连接、一头代替——所以叫一人两职。", "level": 1 },
+          { "q": "the song that Amy wrote 里，that 在从句里当？", "options": ["宾语（Amy 写「它」）", "主语", "状语"], "answer": 0, "explain": "Amy wrote it——that 替 song 当宾语。", "level": 1 },
+          { "q": "the girl who won the prize 里，who 在从句里当？", "options": ["主语（「她」获奖）", "宾语", "介词"], "answer": 0, "explain": "she won——who 替 girl 当主语。", "level": 1 },
+          { "q": "关系词在从句里作宾语时，能省略吗？", "options": ["能——the song (that) I love", "绝对不能", "只有 which 能省"], "answer": 0, "explain": "作宾语可省，两段直接相贴。", "level": 1 },
+          { "q": "关系词在从句里作主语时，能省略吗？", "options": ["不能省", "能省", "看心情"], "answer": 0, "explain": "作主语是从句的顶梁柱——省了两个动词就撞车。", "level": 1 },
+          { "q": "the boy who ___ the drum is nine.（打鼓）填？", "options": ["plays", "play", "playing"], "answer": 0, "explain": "对齐——boy 三单，从句动词加 -s。", "level": 1 },
+          { "q": "the friends who ___ me are in my class.（帮助）填？", "options": ["help", "helps", "helping"], "answer": 0, "explain": "friends 复数——help 不加 -s。", "level": 1 },
+          { "q": "下面哪个短语的连音线用对了（说「人」）？", "options": ["a man who sells fruit", "a man which sells fruit", "a man what sells fruit"], "answer": 0, "explain": "人用 who / that；what 从来不当连音线。", "level": 1 },
+          { "q": "下面哪个短语的连音线用对了（说「物」）？", "options": ["a song which makes me happy", "a song who makes me happy", "a song whom makes me happy"], "answer": 0, "explain": "歌是物——which / that。", "level": 1 },
+          { "q": "the bike that I bought last week 里的 that 可以省吗？", "options": ["可以：the bike I bought last week", "不可以", "省了就要补一个 it"], "answer": 0, "explain": "that 作 bought 的宾语——可省，且绝不补 it。", "level": 1 },
+          { "q": "先行词是 everything / anything 时，更习惯用哪条线？", "options": ["that", "which", "who"], "answer": 0, "explain": "everything / anything 后习惯接 that。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 接对连音线",
+        "questions": [
+          { "q": "The man ___ teaches us music is very kind.", "options": ["who", "which", "what"], "answer": 0, "explain": "人用 who / that。", "level": 2 },
+          { "q": "I like songs ___ have a strong beat.", "options": ["that", "who", "where"], "answer": 0, "explain": "歌是物——that / which。", "level": 2 },
+          { "q": "This is the cake ___ Mum made for my birthday.", "options": ["which", "who", "what"], "answer": 0, "explain": "蛋糕是物——which / that。", "level": 2 },
+          { "q": "Do you know the girl ___ won the singing prize?", "options": ["that", "which", "what"], "answer": 0, "explain": "人用 who / that——that 两头通。", "level": 2 },
+          { "q": "The violin ___ Grandpa gave me is fifty years old.", "options": ["which", "who", "when"], "answer": 0, "explain": "小提琴是物——which / that，作宾语还可省。", "level": 2 },
+          { "q": "I have a friend ___ plays the guitar well.", "options": ["who", "which", "he"], "answer": 0, "explain": "要的是连音线 who——直接放 he 就成了两句话撞车。", "level": 2 },
+          { "q": "The photos ___ we took in the park are lovely.", "options": ["that", "who", "where"], "answer": 0, "explain": "照片是物——that / which。", "level": 2 },
+          { "q": "The keys ___ were on the desk are gone now.", "options": ["that", "who", "what"], "answer": 0, "explain": "钥匙是物——that；从句 were 跟 keys 复数对齐。", "level": 2 },
+          { "q": "Is there anything ___ I can do for you?", "options": ["that", "which", "who"], "answer": 0, "explain": "anything 后习惯用 that。", "level": 2 },
+          { "q": "The boy ___ is standing by the piano is our drummer.", "options": ["who", "which", "what"], "answer": 0, "explain": "人用 who / that。", "level": 2 },
+          { "q": "A dictionary is a book ___ tells you what words mean.", "options": ["which", "who", "where"], "answer": 0, "explain": "书是物——which / that 作从句主语。", "level": 2 },
+          { "q": "The song ___ I listen to every night helps me sleep.", "options": ["that", "who", "when"], "answer": 0, "explain": "歌是物——that；注意 to 留在原位。", "level": 2 },
+          { "q": "People ___ get up early often feel better.", "options": ["who", "which", "it"], "answer": 0, "explain": "people 是人——who / that。", "level": 2 },
+          { "q": "选出可以省略关系词的一句：", "options": ["The film (that) we saw last night was moving.", "The man that lives next door is kind.", "The girl who sings well is Amy."], "answer": 0, "explain": "第一句 that 作 saw 的宾语——可省；后两句关系词作主语，省不得。", "level": 2 },
+          { "q": "The student ___ answered the question got a star.", "options": ["that", "which", "what"], "answer": 0, "explain": "学生是人——who / that。", "level": 2 },
+          { "q": "The apples ___ Grandma grows taste sweet.", "options": ["that", "who", "where"], "answer": 0, "explain": "苹果是物——that / which，作宾语可省。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 调准装饰音",
+        "questions": [
+          { "q": "哪一句装饰对了？（住在隔壁的那个人是医生）", "options": ["The man who lives next door is a doctor.", "The man which lives next door is a doctor.", "The man who live next door is a doctor."], "answer": 0, "explain": "人用 who；man 三单配 lives。", "level": 3 },
+          { "q": "哪一句装饰对了？（我喜欢艾米写的那首歌）", "options": ["I like the song that Amy wrote.", "I like the song who Amy wrote.", "I like the song that Amy wrote it."], "answer": 0, "explain": "歌用 that；that 已替歌出场，不能再加 it。", "level": 3 },
+          { "q": "哪一句对齐了？（打鼓的那个男孩九岁）", "options": ["The boy who plays the drum is nine.", "The boy who play the drum is nine.", "The boy which plays the drum is nine."], "answer": 0, "explain": "boy 三单——plays；人用 who / that。", "level": 3 },
+          { "q": "哪一句没多余的词？（这是我上周买的自行车）", "options": ["This is the bike that I bought last week.", "This is the bike that I bought it last week.", "This is the bike who I bought last week."], "answer": 0, "explain": "that 替 bike 出场作宾语——it 是上两次台。", "level": 3 },
+          { "q": "哪一句对齐了？（经常帮我的那些朋友都很好）", "options": ["The friends who often help me are very kind.", "The friends who often helps me are very kind.", "The friends which often help me are very kind."], "answer": 0, "explain": "friends 复数——help 不加 -s；人用 who。", "level": 3 },
+          { "q": "哪一句连音线齐了？（我有个弹吉他很棒的朋友）", "options": ["I have a friend who plays the guitar very well.", "I have a friend plays the guitar very well.", "I have a friend which plays the guitar very well."], "answer": 0, "explain": "关系词作主语不能省——少了 who 两个动词撞车。", "level": 3 },
+          { "q": "哪一句介词没丢？（我每晚听的那首歌很轻柔）", "options": ["The song that I listen to every night is soft.", "The song that I listen every night is soft.", "The song that I listen to it every night is soft."], "answer": 0, "explain": "to 留在原位，且不再补 it。", "level": 3 },
+          { "q": "哪一句用线用对了？（他说的一切都是真的）", "options": ["Everything that he said is true.", "Everything who he said is true.", "Everything that he said it is true."], "answer": 0, "explain": "everything 后用 that；不再补 it。", "level": 3 },
+          { "q": "哪一句对齐了？（桌上的那些钥匙不见了）", "options": ["The keys that were on the desk are gone.", "The keys that was on the desk are gone.", "The keys who were on the desk are gone."], "answer": 0, "explain": "keys 复数配 were；物用 that。", "level": 3 },
+          { "q": "哪一句装饰紧贴了？（戴红帽子的男孩是我表哥）", "options": ["The boy who is wearing a red cap is my cousin.", "The boy is my cousin who is wearing a red cap.", "The boy which is wearing a red cap is my cousin."], "answer": 0, "explain": "装饰必须紧贴 boy——隔到 cousin 后面就挂错人了。", "level": 3 },
+          { "q": "哪一句连音线齐了？（你认识刚才跟林老师说话的女孩吗）", "options": ["Do you know the girl who talked to Miss Lin just now?", "Do you know the girl talked to Miss Lin just now?", "Do you know the girl which talked to Miss Lin just now?"], "answer": 0, "explain": "缺了 who，装饰段和主句撞在一起。", "level": 3 },
+          { "q": "哪一句没多余的词？（妈妈做的饺子最好吃）", "options": ["The dumplings that Mum makes are the best.", "The dumplings who Mum makes are the best.", "The dumplings that Mum makes them are the best."], "answer": 0, "explain": "that 替饺子出场——them 请下台。", "level": 3 },
+          { "q": "哪一句用线用对了？（获得第一名的队伍来自八班）", "options": ["The team that won first place is from Class 8.", "The team who won first place is from Class 8.", "The team that win first place is from Class 8."], "answer": 0, "explain": "team 当整体看是物——that；won 过去式。", "level": 3 },
+          { "q": "哪一句省略对了？（我正在读的这本书讲一支乐队）", "options": ["The book I'm reading is about a band.", "The book who I'm reading is about a band.", "The book I'm reading it is about a band."], "answer": 0, "explain": "作宾语的关系词省略了——两段直接相贴，不补 it。", "level": 3 },
+          { "q": "哪一句用线用对了？（门口躺着的那只狗是歌手的）", "options": ["The dog which is lying at the gate belongs to the singer.", "The dog who is lying at the gate belongs to the singer.", "The dog which is lying at the gate belong to the singer."], "answer": 0, "explain": "狗用 which / that；主句 belongs 跟 dog 三单对齐。", "level": 3 },
+          { "q": "哪一句对齐了？（你能把昨天拍的照片发给我吗）", "options": ["Could you send me the photos that were taken yesterday?", "Could you send me the photos that was taken yesterday?", "Could you send me the photos who were taken yesterday?"], "answer": 0, "explain": "photos 复数配 were；物用 that——被拍的是 G29 的被动。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 装饰进曲",
+        "questions": [
+          { "q": "The singer ___ we met at the station ___ in our city tonight.", "options": ["that / is performing", "which / is performing", "that / are performing"], "answer": 0, "explain": "人用 that / who；主句谓语跟 singer 单数。", "level": 4 },
+          { "q": "大考：I still keep the letters ___ my grandpa wrote to me when he ___ young.", "options": ["that / was", "who / was", "that / were"], "answer": 0, "explain": "信是物用 that；he was young。", "level": 4 },
+          { "q": "选出没有毛病的一句：", "options": ["The girl I sat next to at the concert is from Japan.", "The girl I sat next at the concert is from Japan.", "The girl who I sat next to her is from Japan."], "answer": 0, "explain": "介词 to 要留在原位；关系词省了也不能再补 her。", "level": 4 },
+          { "q": "The only thing ___ matters now is practice.", "options": ["that", "which", "who"], "answer": 0, "explain": "the only 后习惯用 that——它作从句主语，省不得。", "level": 4 },
+          { "q": "Those ___ arrive early will get better seats.", "options": ["who", "which", "what"], "answer": 0, "explain": "those（那些人）——用 who。", "level": 4 },
+          { "q": "两空：This is the song ___ made the singer famous, not the one ___ he wrote last year.", "options": ["that / that", "who / which", "that / who"], "answer": 0, "explain": "两处都指歌——that / which；第二处作宾语还能省。", "level": 4 },
+          { "q": "He is the friend ___ I can always trust.", "options": ["that", "which", "when"], "answer": 0, "explain": "人作宾语——that / who，也可以直接省。", "level": 4 },
+          { "q": "选出关系词【不能】省略的一句：", "options": ["The man who lives next door is a doctor.", "The film that we saw was boring.", "The song that Amy wrote is sweet."], "answer": 0, "explain": "第一句 who 作主语——顶梁柱省不得；后两句作宾语可省。", "level": 4 },
+          { "q": "The dumplings ___ we ate at the school fair ___ delicious.", "options": ["that / were", "that / was", "who / were"], "answer": 0, "explain": "饺子用 that；主句谓语跟 dumplings 复数用 were。", "level": 4 },
+          { "q": "A koala is an animal ___ sleeps most of the day.", "options": ["that", "who", "where"], "answer": 0, "explain": "动物用 that / which。", "level": 4 },
+          { "q": "The children ___ sat in the front row could see the stage clearly.", "options": ["who", "which", "they"], "answer": 0, "explain": "孩子是人——who；放 they 就成了两句话。", "level": 4 },
+          { "q": "找错：下面哪句多了一个不该有的词？", "options": ["This is the phone that I lost it on the bus.", "This is the phone that I lost on the bus.", "This is the phone I lost on the bus."], "answer": 0, "explain": "that 已替 phone 出场——it 是重复上台。", "level": 4 },
+          { "q": "The story ___ he told us yesterday ___ true — I checked.", "options": ["that / is", "who / is", "that / are"], "answer": 0, "explain": "故事用 that（可省）；主句谓语跟 story 单数。", "level": 4 },
+          { "q": "Music ___ helps people relax ___ everywhere in this city.", "options": ["that / is played", "who / is played", "that / plays"], "answer": 0, "explain": "音乐用 that；到处「被播放」——is played（G29 的两件套）。", "level": 4 },
+          { "q": "大考二：The musicians ___ joined the band last month ___ the piece ___ we all love.", "options": ["who / are playing / that", "which / are playing / that", "who / is playing / who"], "answer": 0, "explain": "乐手是人 who；复数 are；曲子用 that（作宾语可省）。", "level": 4 },
+          { "q": "选出装饰紧贴先行词的一句：", "options": ["The girl who wears glasses is reading a book about stars.", "The girl is reading a book about stars who wears glasses.", "The girl is reading who wears glasses a book about stars."], "answer": 0, "explain": "who wears glasses 必须紧贴 the girl——隔远了就挂到 stars 头上了。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "My aunt is the doctor which works in the children's hospital.",
+      "fixed": "My aunt is the doctor who works in the children's hospital.",
+      "clue": "医生是人——连音线用 who / that；which 是给物的。"
+    },
+    {
+      "sentence": "I lost the umbrella who you lent me.",
+      "fixed": "I lost the umbrella that you lent me.",
+      "clue": "伞是物——that / which；who 留给人。"
+    },
+    {
+      "sentence": "The boy who sit behind me plays the trumpet.",
+      "fixed": "The boy who sits behind me plays the trumpet.",
+      "clue": "对齐——boy 三单，从句动词要加 -s。"
+    },
+    {
+      "sentence": "This is the watch that Dad gave it to me.",
+      "fixed": "This is the watch that Dad gave to me.",
+      "clue": "that 已替 watch 出场作宾语——it 重复上台，请下去。"
+    },
+    {
+      "sentence": "I have a cousin draws very well.",
+      "fixed": "I have a cousin who draws very well.",
+      "clue": "关系词作主语不能省——少了连音线，两个动词撞车。"
+    },
+    {
+      "sentence": "The music that we listened at the concert was wonderful.",
+      "fixed": "The music that we listened to at the concert was wonderful.",
+      "clue": "listen 的 to 不能丢——介词留在原位。"
+    },
+    {
+      "sentence": "The dishes that was cooked by Grandma smell great.",
+      "fixed": "The dishes that were cooked by Grandma smell great.",
+      "clue": "从句 be 跟先行词对齐——dishes 复数配 were。"
+    }
+  ]
+}
