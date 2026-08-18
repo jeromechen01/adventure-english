@@ -416,6 +416,17 @@
       "file": "./data/grammar/g37.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G38",
+      "tier": "进阶",
+      "title": "情态动词二（推测与委婉）",
+      "metaphor": "力度记号的高级用法：弱奏里的言外之意",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g38.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

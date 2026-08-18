@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G38（V0.9 P3 进阶层）。比喻锚点：力度记号的高级用法：弱奏里的言外之意。承接 G17（情态动词一）：同一批词的第二层意思——推测三档 must/may·might/can't 与委婉请求 Could/Would/May/Shall、mind doing。只讲初中层面，不碰 must have done 类完成推测。全部内容原创。",
+  "id": "G38",
+  "tier": "进阶",
+  "title": "情态动词二（推测与委婉）",
+  "metaphor": "力度记号的高级用法：弱奏里的言外之意",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 只考 can/must 的基本义（八课 L2 已覆盖），推测和委婉的第二层是初中和 PET 的内容——这课为它打底，学到就是赚到，不用焦虑。",
+  "source": "original",
+  "sections": {
+    "essence": "同一批力度记号的第二层意思：must一定是，can't不可能，could更客气。",
+    "why": "中文表推测靠副词：「肯定」「大概」「不可能」。英语更省——让情态动词打第二份工：must be 一定是、may be 可能是、can't be 不可能是，词没换，意思多了一层。委婉也是同一批词在加班：Could you...? 里的 could 不是过去式，而是把 can 往后退半步——时间上退一步，心理距离就远一步，命令就变成了商量。这里有个中式英语高发坑：「不可能」要用 can't，不能用 mustn't——mustn't 是门上贴的「禁止」，跟推测无关。KET 只考 can/must 的基本义；第二层是初中和 PET 的戏。",
+    "metaphorStory": "夜里排练散场，团里的灯还亮着。学徒看了眼门口那双旧皮鞋：「It must be the conductor——全团只有指挥穿这双。」师傅点头：「你刚用了力度记号的第二层：f 不再是『响』，是『把握十足』。要是没那双鞋呢？」「It may be the cleaner——五五开。」「要是团长呢？」「It can't be him——他在外地演出。」师傅补了一句：「说『不可能』千万别用 mustn't——那是门上贴的『禁止入内』，管规矩不管猜测。」第二天学徒想借节拍器，张口就是 Give me your metronome，师傅假装没听见。学徒改口：Could you lend me your metronome? 师傅立刻递过来：「同一个请求，退半步说——弱奏比强奏传得更远。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "推测三档",
+          "detail": "must be（约九成把握，一定是）· may / might be（五五开，可能是；might 把握更小）· can't be（不可能是）。",
+          "example": "She must be tired. / It may be Amy's. / That can't be Tom."
+        },
+        {
+          "rule": "★「不可能」用 can't",
+          "detail": "mustn't 是「禁止」（不许做），不参与推测——推测的否定档只有 can't。",
+          "example": "That can't be true.（✗ mustn't be true）"
+        },
+        {
+          "rule": "委婉请求：退半步的过去形式",
+          "detail": "Could you / Would you / May I 开头——could、would 不表过去，表「退一步」的客气。",
+          "example": "Could you pass me the salt? / May I come in?"
+        },
+        {
+          "rule": "would 两件套",
+          "detail": "Would you like + 名词 / to do（要不要…）；Would you mind + doing（介意…吗，mind 只收 G31 的打包件）。",
+          "example": "Would you like some tea? / Would you mind closing the window?"
+        },
+        {
+          "rule": "提议用 Shall",
+          "detail": "Shall I ...?（我来…好吗）· Shall we ...?（我们…好吗）。",
+          "example": "Shall we meet at the school gate at eight?"
+        },
+        {
+          "rule": "答 mind 别答反",
+          "detail": "Would you mind...? 问的是「介不介意」——想答应说 Not at all / Of course not；说 Yes 等于拒绝。",
+          "example": "— Would you mind waiting? — Not at all."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "The light is on — someone must be in the room.", "cn": "灯亮着——屋里一定有人。" },
+          { "en": "It may rain later. Take an umbrella.", "cn": "待会儿可能下雨，带把伞。" },
+          { "en": "That can't be Tom. He is in Beijing now.", "cn": "那不可能是汤姆，他现在在北京。" },
+          { "en": "Could you pass me the salt, please?", "cn": "能把盐递给我吗？（退半步的客气）" },
+          { "en": "Would you like some tea?", "cn": "要不要来点茶？" }
+        ],
+        "mid": [
+          { "en": "She must be tired after the long trip.", "cn": "长途旅行之后她一定累了。" },
+          { "en": "— Whose scarf is this? — It might be Amy's.", "cn": "——这是谁的围巾？——可能是艾米的吧。（把握不大）" },
+          { "en": "Would you mind closing the window?", "cn": "你介意把窗关上吗？（mind + doing）" },
+          { "en": "Shall we meet at the school gate at eight?", "cn": "我们八点在校门口见好吗？" },
+          { "en": "May I borrow your eraser?", "cn": "我可以借你的橡皮吗？" }
+        ],
+        "trap": [
+          { "en": "The phone is ringing — it must be Mum.", "cn": "电话响了——一定是妈妈。", "note": "must be 是「一定是」的推测——不是「必须」。" },
+          { "en": "That can't be our teacher — he never wears a hat.", "cn": "那不可能是我们老师——他从不戴帽子。", "note": "推测的「不可能」用 can't；mustn't 是禁止。" },
+          { "en": "Could you help me carry the drum?", "cn": "能帮我抬一下鼓吗？", "note": "could 不表过去——是把 can 往后退半步的客气。" },
+          { "en": "— Would you mind turning down the music? — Not at all.", "cn": "——介意把音乐调小吗？——一点也不（马上调）。", "note": "mind 接 doing；想答应要说 Not at all。" },
+          { "en": "— Someone is knocking. — It might be the postman.", "cn": "——有人敲门。——可能是邮递员吧。", "note": "might 是把握最小的一档——五五开还往下。" },
+          { "en": "You must be joking!", "cn": "你一定是在开玩笑吧！", "note": "推测用法最常见的口语——不是「你必须开玩笑」。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "You mustn't be tired — we just started.（想说：你不可能累）",
+        "good": "You can't be tired — we just started.",
+        "zone": "blocks",
+        "why": "mustn't 是「不许」——这句成了命令对方「不准累」，听的人一头雾水。"
+      },
+      {
+        "bad": "— Would you mind waiting a moment? — Yes!（想答应等一下）",
+        "good": "— Not at all. / Of course not.",
+        "zone": "blocks",
+        "why": "mind 问「介不介意」——答 Yes 等于「我介意，不等」，嘴上拒绝了还以为自己答应了。"
+      },
+      {
+        "bad": "He must tired after the game.",
+        "good": "He must be tired after the game.",
+        "zone": "tested",
+        "why": "情态后接原形——be 不能丢（G17 的老规矩在第二层照样生效）。"
+      },
+      {
+        "bad": "That mustn't be true.",
+        "good": "That can't be true.",
+        "zone": "tested",
+        "why": "推测的否定档只有 can't——mustn't 管的是禁止。"
+      },
+      {
+        "bad": "Could I to borrow your pen?",
+        "good": "Could I borrow your pen?",
+        "zone": "tested",
+        "why": "情态后直接原形——to 不进门。"
+      },
+      {
+        "bad": "Would you mind to open the window?",
+        "good": "Would you mind opening the window?",
+        "zone": "tested",
+        "why": "mind 只收打包件 doing（G31 的门规）。"
+      },
+      {
+        "bad": "Would you like go with us?",
+        "good": "Would you like to go with us?",
+        "zone": "tested",
+        "why": "would like 接 to do——别跟 mind 的门规弄混。"
+      },
+      {
+        "bad": "May you help me with this box?",
+        "good": "Could you help me with this box?",
+        "zone": "tested",
+        "why": "请对方做事用 Could / Would you；May I 是请求自己获准。"
+      },
+      {
+        "bad": "It may be rain tomorrow.",
+        "good": "It may rain tomorrow.",
+        "zone": "tested",
+        "why": "may 直接接动词原形 rain——be 和动词别叠罗汉。"
+      },
+      {
+        "bad": "He might comes late today.",
+        "good": "He might come late today.",
+        "zone": "tested",
+        "why": "情态后原形——三单 -s 不进门。"
+      },
+      {
+        "bad": "It may be Amy's.（有人说 might 是过去式，不能说现在）",
+        "good": "may / might 说现在的推测都行。",
+        "zone": "minor",
+        "why": "might 只是把握更小一点——不挡意思不设坑。"
+      },
+      {
+        "bad": "Can you help me?（有人说不礼貌，必须 could）",
+        "good": "can / could 都行，could 更客气。",
+        "zone": "minor",
+        "why": "熟人之间 can 完全自然——不挡意思。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "他肯定在家。（靠副词「肯定」）",
+        "en": "He must be at home.",
+        "diff": "中文加副词；英语让 must 打第二份工。"
+      },
+      {
+        "cn": "不可能是他！（一个「不可能」）",
+        "en": "It can't be him.（不用 mustn't）",
+        "diff": "英语把「禁止」（mustn't）和「不可能」（can't）分了家；中文不分。"
+      },
+      {
+        "cn": "把盐递给我。（加个「请」就客气了）",
+        "en": "Could you pass me the salt?",
+        "diff": "中文靠「请」字；英语靠把情态动词往后退半步。"
+      },
+      {
+        "cn": "你介意关窗吗？——不介意（=答应）",
+        "en": "Would you mind closing...? — Not at all.",
+        "diff": "两边逻辑一致，但英语想答应千万别说 Yes——Yes 是「我介意」。"
+      },
+      {
+        "cn": "我们八点见，好吗？（「好吗」在句尾）",
+        "en": "Shall we meet at eight?",
+        "diff": "中文句尾商量；英语句首 Shall 开场。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "推测三档 must/may/can't；请求退半步 could/would；mind 接 doing 答 Not at all。",
+      "steps": [
+        "先分场合：在猜测事实，还是在请求/提议？",
+        "猜测按把握选档：九成 must be，五五 may/might be，不可能 can't be。",
+        "「不可能」永远 can't——mustn't 是门上的「禁止」。",
+        "请求要客气：Could you / Would you 开头——过去形式表退一步，不表过去。",
+        "Would you like + to do；Would you mind + doing；提议用 Shall I / we。",
+        "答 mind 的问题：想答应 = Not at all / Of course not。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，咱们玩侦探推理：我摆线索你下判断。『书包在门口』——哥哥回来了吗？你按把握回答：很确定就 He must be home，拿不准就 He may be home，绝无可能就 He can't be home。我不懂英语没关系，我记三个音就行：must、may、can't——你举的证据够不够硬，得配得上你选的档。」再玩借东西：你直接说『给我』我就装没听见，你退半步说 Could you...，我才递过去——让孩子亲身体会弱奏的力量。最后一关：我问 Would you mind...?，你想答应的话，答的必须是 Not at all。",
+      "questions": [
+        "「一定是妈妈打来的」和「妈妈必须打电话」，must 的两层意思差在哪？",
+        "「不可能是他」为什么不能用 mustn't？mustn't 留给什么场合？",
+        "Could you help me? 里的 could 是过去式吗？它客气在哪儿？"
+      ]
+    },
+    "echo": "could、would、might 表客气不表过去，看似不讲理，其实是人类语言共通的规律——距离产生礼貌：时间上退一步，心理距离就远一步，命令就软成了商量；中文「您看能不能…」绕远说话，是同一个道理。而这批词正是 G17 那批最常用的力度记号——用得越多，攒下的言外之意越厚：must 从「必须」长出「一定是」，can 从「能」长出「可能」，will 从「意愿」磨成了「将来」。越常用的词越多义，每一层新意思都是千万次使用磨出来的包浆——「越常用越不讲理」的又一副面孔。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G38 · 情态动词二（推测与委婉）</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>力度记号的高级用法：弱奏里的言外之意</text><rect x='36' y='110' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🔍 推测三档（后接动词原形）</text><text x='198' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>must be 一定是（九成）</text><text x='522' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>may / might be 可能是</text><text x='360' y='204' text-anchor='middle' font-size='15' fill='#C0392B'>can't be 不可能 ——「不可能」绝不用 mustn't（那是禁止）</text><rect x='36' y='240' width='648' height='132' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='272' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>🕊️ 委婉包：退半步的过去形式</text><text x='360' y='302' text-anchor='middle' font-size='14' fill='#5A4A42'>Could / Would you ...?（请对方）｜ May I ...?（求获准）｜ Shall I / we ...?（提议）</text><text x='360' y='330' text-anchor='middle' font-size='14' fill='#5A4A42'>Would you like + to do ｜ Would you mind + doing</text><text x='360' y='358' text-anchor='middle' font-size='13' fill='#94A3B8'>could ≠ 过去——时间退一步，礼貌进一步</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>💬 答 mind 别答反</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>— Would you mind waiting? — Not at all.（想答应别说 Yes——Yes = 我介意）</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ mustn't be true ✗ · must tired ✗ · mind to open ✗ · may be rain ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只考基本义（L2）——第二层为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：越常用的词，磨出的言外之意越厚 · 英语奇遇记 🦊 G38</text></svg>",
+    "alt": "G38 记忆卡：情态动词第二层——推测三档 must be/may·might be/can't be（不可能绝不用 mustn't）；委婉包 Could/Would you、May I、Shall I/we、would like to do、mind doing；答 mind 想答应说 Not at all；警示 mustn't be true、must tired、mind to open、may be rain 四类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 第二层记号",
+        "questions": [
+          { "q": "The light is on — someone must be in. 这里 must 表示？", "options": ["一定是（有把握的推测）", "必须（规定）", "禁止"], "answer": 0, "explain": "力度记号的第二层——把握十足的推测。", "level": 1 },
+          { "q": "It may rain later. 这里 may 表示？", "options": ["可能（五五开的推测）", "许可", "祝愿"], "answer": 0, "explain": "may 的第二层——可能。", "level": 1 },
+          { "q": "That can't be Tom. 这里 can't 表示？", "options": ["不可能（推测）", "没能力", "不许"], "answer": 0, "explain": "推测的否定档——不可能。", "level": 1 },
+          { "q": "推测「不可能」用哪个词？", "options": ["can't", "mustn't", "needn't"], "answer": 0, "explain": "只有 can't——mustn't 是禁止。", "level": 1 },
+          { "q": "mustn't 的意思是？", "options": ["禁止（不许做）", "不可能", "不必"], "answer": 0, "explain": "门上贴的「禁止」——跟推测无关。", "level": 1 },
+          { "q": "推测把握最大的一档是？", "options": ["must be", "may be", "might be"], "answer": 0, "explain": "must be——约九成把握。", "level": 1 },
+          { "q": "might 和 may 相比，把握？", "options": ["更小一点", "更大", "完全一样"], "answer": 0, "explain": "might 是五五开再往下。", "level": 1 },
+          { "q": "Could you help me? 里的 could 表示？", "options": ["更客气的请求", "过去的能力", "不可能"], "answer": 0, "explain": "退半步的礼貌——不表过去。", "level": 1 },
+          { "q": "为什么 Could 比 Can 客气？", "options": ["退半步产生距离感，压力更小", "因为 could 是书面语", "因为 could 音节更多"], "answer": 0, "explain": "时间退一步，心理距离远一步。", "level": 1 },
+          { "q": "「要不要来点茶」怎么说？", "options": ["Would you like some tea?", "Do you like some tea?", "Will you like some tea?"], "answer": 0, "explain": "客气的邀请——Would you like。", "level": 1 },
+          { "q": "Would you mind ___ the window?（关窗）", "options": ["closing", "to close", "close"], "answer": 0, "explain": "mind 只收打包件 doing。", "level": 1 },
+          { "q": "「我们八点见好吗？」用哪个开头？", "options": ["Shall we", "Must we", "Mustn't we"], "answer": 0, "explain": "提议——Shall we。", "level": 1 },
+          { "q": "回答 Would you mind...? 想表示「答应」，说？", "options": ["Not at all.", "Yes, I do.", "No, you can't."], "answer": 0, "explain": "不介意=答应——Not at all。", "level": 1 },
+          { "q": "May I borrow your pen? 是在？", "options": ["请求自己获得许可", "命令对方", "推测"], "answer": 0, "explain": "May I = 我可以…吗。", "level": 1 },
+          { "q": "情态动词后面接动词的什么形式？", "options": ["原形", "三单", "过去式"], "answer": 0, "explain": "第二层照样守 G17 的老规矩——原形。", "level": 1 },
+          { "q": "You must be joking! 的意思是？", "options": ["你一定是在开玩笑", "你必须开玩笑", "你不许开玩笑"], "answer": 0, "explain": "最常见的推测口语。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 按把握选档",
+        "questions": [
+          { "q": "Her light is still on. She ___ still be studying.", "options": ["must", "can't", "mustn't"], "answer": 0, "explain": "灯还亮着——九成把握 must。", "level": 2 },
+          { "q": "— Whose umbrella is this? — It ___ be Amy's; she has one like this.", "options": ["may", "can't", "mustn't"], "answer": 0, "explain": "有点像但不确定——may。", "level": 2 },
+          { "q": "That ___ be our bus — ours is No. 12, not No. 2.", "options": ["can't", "must", "may"], "answer": 0, "explain": "号码对不上——不可能 can't。", "level": 2 },
+          { "q": "You've practised all day. You ___ be tired.", "options": ["must", "can't", "may not"], "answer": 0, "explain": "练了一整天——一定累了。", "level": 2 },
+          { "q": "___ you pass me the dictionary, please?", "options": ["Could", "Must", "Shall"], "answer": 0, "explain": "客气的请求——Could you。", "level": 2 },
+          { "q": "___ I open the window? It's hot in here.", "options": ["Shall", "Would", "Am"], "answer": 0, "explain": "我来开窗好吗——Shall I。", "level": 2 },
+          { "q": "Would you like ___ to the concert with us?", "options": ["to go", "going", "go"], "answer": 0, "explain": "would like + to do。", "level": 2 },
+          { "q": "Would you mind ___ more quietly?", "options": ["speaking", "to speak", "speak"], "answer": 0, "explain": "mind + doing。", "level": 2 },
+          { "q": "— Would you mind waiting outside? — ___. I'll wait.", "options": ["Not at all", "Yes, I would", "No, I can't"], "answer": 0, "explain": "答应=不介意——Not at all。", "level": 2 },
+          { "q": "He ___ be at home — I just saw him in the library.", "options": ["can't", "must", "may"], "answer": 0, "explain": "刚在图书馆见到他——不可能在家。", "level": 2 },
+          { "q": "— Someone is playing the piano. — It ___ be Miss Chen; only she has the key.", "options": ["must", "can't", "may not"], "answer": 0, "explain": "只有她有钥匙——一定是她。", "level": 2 },
+          { "q": "___ I come in, Mr Wang?", "options": ["May", "Shall", "Would"], "answer": 0, "explain": "请求获准进门——May I。", "level": 2 },
+          { "q": "It ___ snow tonight — the clouds are heavy, but who knows.", "options": ["might", "must", "can't"], "answer": 0, "explain": "拿不准——把握最小的 might。", "level": 2 },
+          { "q": "You ___ shout in the library.（图书馆规定）", "options": ["mustn't", "can't be", "might not be"], "answer": 0, "explain": "这是禁止不是推测——mustn't + 原形。", "level": 2 },
+          { "q": "— Could I use your phone? — ___", "options": ["Sure, here you are.", "Yes, you could.", "No, you mustn't be."], "answer": 0, "explain": "答应就说 Sure / Of course——不说 you could。", "level": 2 },
+          { "q": "She ___ know the answer — she wrote the book!", "options": ["must", "might not", "can't"], "answer": 0, "explain": "书都是她写的——一定知道。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 换对记号",
+        "questions": [
+          { "q": "哪一句推测对了？（他不可能是新来的鼓手）", "options": ["He can't be the new drummer.", "He mustn't be the new drummer.", "He may not can be the new drummer."], "answer": 0, "explain": "「不可能」只有 can't 这一档。", "level": 3 },
+          { "q": "哪一句说对了？（你一定累了——歇会儿吧）", "options": ["You must be tired — have a rest.", "You must tired — have a rest.", "You mustn't be tired — have a rest."], "answer": 0, "explain": "must + be——原形不能丢。", "level": 3 },
+          { "q": "哪一句最客气？（能把琴谱递给我吗）", "options": ["Could you pass me the music sheets?", "Could you to pass me the music sheets?", "Could you passing me the music sheets?"], "answer": 0, "explain": "情态后直接原形。", "level": 3 },
+          { "q": "哪一句门规对了？（你介意把音乐关小点吗）", "options": ["Would you mind turning down the music?", "Would you mind to turn down the music?", "Would you mind turn down the music?"], "answer": 0, "explain": "mind 只收 doing。", "level": 3 },
+          { "q": "哪一句搭配对了？（要不要跟我们一起去）", "options": ["Would you like to come with us?", "Would you like come with us?", "Would you like coming with us?"], "answer": 0, "explain": "would like + to do。", "level": 3 },
+          { "q": "哪一句说对了？（明天可能下雨）", "options": ["It may rain tomorrow.", "It may be rain tomorrow.", "It may rains tomorrow."], "answer": 0, "explain": "may 直接接原形 rain。", "level": 3 },
+          { "q": "哪一句推测对了？（那不可能是真的）", "options": ["It can't be true.", "It mustn't be true.", "It can't true."], "answer": 0, "explain": "can't + be——档位和原形都要对。", "level": 3 },
+          { "q": "哪一句说对了？（我可以坐这儿吗）", "options": ["May I sit here?", "May I sitting here?", "May I to sit here?"], "answer": 0, "explain": "May I + 原形。", "level": 3 },
+          { "q": "哪一句说对了？（他可能来晚——不确定）", "options": ["He might come late.", "He might comes late.", "He might to come late."], "answer": 0, "explain": "might + 原形——-s 和 to 都不进门。", "level": 3 },
+          { "q": "哪一句提议对了？（我们现在出发好吗）", "options": ["Shall we set off now?", "Shall we setting off now?", "Would we set off now?"], "answer": 0, "explain": "提议用 Shall we + 原形。", "level": 3 },
+          { "q": "哪一句推测对了？（她一定在家——窗户开着）", "options": ["She must be at home — the window is open.", "She must is at home — the window is open.", "She mustn't be at home — the window is open."], "answer": 0, "explain": "must be——is 不能顶替 be。", "level": 3 },
+          { "q": "哪一句请求对了？（帮我拿一下鼓好吗）", "options": ["Would you help me carry the drum?", "May you help me carry the drum?", "Would you helping me carry the drum?"], "answer": 0, "explain": "请对方做事用 Would / Could you；May 不这么用。", "level": 3 },
+          { "q": "哪一句推测对了？（这不可能是艾米的书包——她今天没来）", "options": ["This can't be Amy's schoolbag — she isn't here today.", "This mustn't be Amy's schoolbag — she isn't here today.", "This can be not Amy's schoolbag — she isn't here today."], "answer": 0, "explain": "can't be——否定连在情态上。", "level": 3 },
+          { "q": "哪个回答表示答应？（——你介意等等吗？）", "options": ["Not at all. Take your time.", "Yes, I do. Take your time.", "No, you mustn't."], "answer": 0, "explain": "不介意=答应；Yes 反而是拒绝。", "level": 3 },
+          { "q": "哪一句推测对了？（这肯定是妈妈打来的）", "options": ["It must be Mum — she calls at this time every day.", "It must Mum — she calls at this time every day.", "It can't be Mum — she calls at this time every day."], "answer": 0, "explain": "must be + 证据——每天这个点来电话。", "level": 3 },
+          { "q": "哪一句禁止说对了？（这儿不许停车——有标志）", "options": ["You mustn't park here — look at the sign.", "You can't be park here — look at the sign.", "You mustn't be park here — look at the sign."], "answer": 0, "explain": "禁止用 mustn't + 原形——这回轮到 mustn't 上场了。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 弱奏传情",
+        "questions": [
+          { "q": "两空：— Someone left a violin here. — It ___ be Lily's; she ___ be looking for it now.", "options": ["must / must", "can't / must", "must / mustn't"], "answer": 0, "explain": "两处都是有把握的推测——must。", "level": 4 },
+          { "q": "大考：— Is that Mr Li on the stage? — It ___ be him; he ___ flying to Shanghai right now.", "options": ["can't / is", "must / is", "mustn't / is"], "answer": 0, "explain": "人在飞机上——不可能在台上。", "level": 4 },
+          { "q": "— The hall is full of laughter. — The show ___ be very funny.", "options": ["must", "can't", "mustn't"], "answer": 0, "explain": "满场笑声——一定很好笑。", "level": 4 },
+          { "q": "两空：___ you mind ___ me your notes? Mine are a mess.", "options": ["Would / lending", "Could / to lend", "Would / lend"], "answer": 0, "explain": "Would you mind + doing。", "level": 4 },
+          { "q": "— It ___ be the wind — the door opened by itself. — Maybe, or it ___ be the cat.", "options": ["might / could", "must / mustn't", "can't / must"], "answer": 0, "explain": "两个人都在低把握档猜——might / could。", "level": 4 },
+          { "q": "选最客气的一句（向陌生人问路）：", "options": ["Could you tell me the way to the station?", "Tell me the way to the station.", "You must tell me the way to the station."], "answer": 0, "explain": "退半步的 Could you——命令句对陌生人太冲。", "level": 4 },
+          { "q": "— Shall I carry the box for you? — ___", "options": ["Thanks, that would be great.", "Yes, you shall.", "No, you can't be."], "answer": 0, "explain": "接受提议——Thanks, that would be great。", "level": 4 },
+          { "q": "两空：You ___ be hungry — you've eaten three bowls! You ___ be joking when you say you want more.", "options": ["can't / must", "must / can't", "mustn't / must"], "answer": 0, "explain": "吃了三碗不可能饿；说还要一定是开玩笑。", "level": 4 },
+          { "q": "— May I take photos here? — Sorry, you ___. It's not allowed.", "options": ["mustn't", "can't be", "might not be"], "answer": 0, "explain": "规定禁止——mustn't。", "level": 4 },
+          { "q": "The song sounds familiar. It ___ be the one Grandpa often hums, but I'm not sure.", "options": ["might", "must", "mustn't"], "answer": 0, "explain": "拿不准——might。", "level": 4 },
+          { "q": "两空：___ we practise once more? The show ___ begin in an hour.", "options": ["Shall / will", "Must / shall", "Would / mustn't"], "answer": 0, "explain": "提议 Shall we；一小时后开演 will。", "level": 4 },
+          { "q": "— Would you like some more soup? — ___", "options": ["Yes, please.", "Not at all.", "Yes, I mind."], "answer": 0, "explain": "like 的问题答 Yes, please / No, thanks——Not at all 是留给 mind 的。", "level": 4 },
+          { "q": "找错：哪句的「不可能」说错了？", "options": ["He mustn't be the winner — he didn't even join.", "He can't be the winner — he didn't even join.", "It can't be true."], "answer": 0, "explain": "推测的否定档没有 mustn't。", "level": 4 },
+          { "q": "两空：___ I turn on the light? It ___ be dark soon.", "options": ["Shall / will", "Must / can't", "Would / mustn't"], "answer": 0, "explain": "我来开灯好吗 Shall I；天快黑了 will。", "level": 4 },
+          { "q": "找错：哪句答话答反了？", "options": ["— Would you mind moving your bag? — Yes. Here you go.", "— Would you mind moving your bag? — Not at all. Here you go.", "— Could I sit here? — Sure."], "answer": 0, "explain": "答 Yes = 我介意——嘴上拒绝手上照做，前后矛盾。", "level": 4 },
+          { "q": "大考二：— The keys ___ be in my coat... — They ___ be; your coat is still in the car. ___ I go and check?", "options": ["must / can't / Shall", "can't / must / Would", "must / mustn't / May"], "answer": 0, "explain": "一定在大衣里（must）；不可能——大衣在车上（can't）；我去看看好吗（Shall I）。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "That mustn't be our new teacher — he looks too young.",
+      "fixed": "That can't be our new teacher — he looks too young.",
+      "clue": "推测「不可能」用 can't——mustn't 是门上的「禁止」。"
+    },
+    {
+      "sentence": "You must tired after such a long walk.",
+      "fixed": "You must be tired after such a long walk.",
+      "clue": "情态后接原形——be 不能丢。"
+    },
+    {
+      "sentence": "Would you mind to wait a few minutes?",
+      "fixed": "Would you mind waiting a few minutes?",
+      "clue": "mind 只收打包件 doing（G31 的门规）。"
+    },
+    {
+      "sentence": "Could you to lend me your bike?",
+      "fixed": "Could you lend me your bike?",
+      "clue": "情态后直接原形——to 不进门。"
+    },
+    {
+      "sentence": "It may be snow tonight, so wear warm clothes.",
+      "fixed": "It may snow tonight, so wear warm clothes.",
+      "clue": "may 直接接动词原形 snow——be 别乱入。"
+    },
+    {
+      "sentence": "He might knows the answer — ask him.",
+      "fixed": "He might know the answer — ask him.",
+      "clue": "情态后原形——三单 -s 不进门。"
+    },
+    {
+      "sentence": "— Would you like some water? — Not at all.",
+      "fixed": "— Would you like some water? — Yes, please.",
+      "clue": "Not at all 是答 mind 的——like 的问题要答 Yes, please / No, thanks。"
+    }
+  ]
+}
