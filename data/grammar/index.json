@@ -427,6 +427,17 @@
       "file": "./data/grammar/g38.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G39",
+      "tier": "进阶",
+      "title": "used to / had better / would rather / be used to",
+      "metaphor": "三个最容易混的和弦指法",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g39.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

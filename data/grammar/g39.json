@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G39（V0.9 P3 进阶层）。比喻锚点：三个最容易混的和弦指法。三组指型相近的说法：used to 三兄弟（used to do / be used to doing / be used to do）、had better（not）、would rather（not / than）。只讲初中层面；暗线主打 use 的语法化（越常用越磨损）。全部内容原创。",
+  "id": "G39",
+  "tier": "进阶",
+  "title": "used to / had better / would rather / be used to",
+  "metaphor": "三个最容易混的和弦指法",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 不考这几组的辨析，A2 只要求看懂 used to 的简单句。它们是初中和 PET 的高频易混点——这课为它打底，学到就是赚到，不用焦虑。",
+  "source": "original",
+  "sections": {
+    "essence": "过去常常、现在习惯、最好、宁愿——四个和弦，not 全都紧跟在后。",
+    "why": "这几组说法长得像亲戚，初中生最容易按错指法：used to do 是「过去常常」（现在不了）；加一个 be 变成 be used to doing，意思跳到「现在习惯了」——一字之差隔了半个世界；还有第三个变体 be used to do（接原形），说的是「被用来做」。另外两组：had better（最好）和 would rather（宁愿）后面都接光杆原形，否定时 not 都紧跟在 better / rather 后面——完全不走 don't 系统。像三组指型相近的和弦：差一根手指，响出来就是另一个和弦。初中和 PET 反复考这几组的辨析；KET 只要求看懂 used to。",
+    "metaphorStory": "和弦课上，师傅示范三组指型相近的指法。第一组 used to：「I used to run every morning——我过去常晨跑，言外之意是现在不跑了。」学徒照着按，却多按了一根 be 弦：I am used to running。师傅说：「你按成另一个和弦了——这是『我现在习惯晨跑』。同一组弦，加不加 be，一个说过去一个说现在。这组还有第三个变体：琴弦 is used to make sound——『被用来发声』，接原形。」第二组 had better：「You'd better wear ear pads——最好戴上耳罩。」学徒想说否定，把手指挪到动词前按了个 don't。师傅摇头：「not 紧跟 better——You'd better not skip it。」第三组 would rather：「I'd rather practise scales than chat——宁愿练音阶也不闲聊，than 是这组指法的第三根手指，两头都按光杆原形。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "used to do：过去常常",
+          "detail": "过去经常做、现在不做了——自带「今非昔比」的言外之意。",
+          "example": "I used to play football every day.（现在不踢了）"
+        },
+        {
+          "rule": "used to 的否定与疑问交给 did",
+          "detail": "didn't use to ... / Did you use to ...?——did 报过时，use 的 d 脱落回原形。",
+          "example": "He didn't use to like coffee. / Did you use to live here?"
+        },
+        {
+          "rule": "be used to doing：现在习惯于",
+          "detail": "这里的 to 是介词门，只收打包件 doing（G31）；get used to 表「渐渐习惯」。",
+          "example": "I'm used to getting up early. / You'll get used to it."
+        },
+        {
+          "rule": "be used to do：被用来做",
+          "detail": "第三兄弟——G29 的被动加 G30 的目的，接动词原形。",
+          "example": "Wood is used to make paper."
+        },
+        {
+          "rule": "had better + 原形：最好",
+          "detail": "带点提醒/警告味；否定是 had better not do——not 紧跟 better。",
+          "example": "You'd better not be late."
+        },
+        {
+          "rule": "would rather + 原形：宁愿",
+          "detail": "否定 would rather not do；比较 would rather A than B，两头都是光杆原形。",
+          "example": "I'd rather walk than wait for the bus."
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I used to play football every day.", "cn": "我过去天天踢球。（现在不踢了）" },
+          { "en": "She is used to getting up early.", "cn": "她习惯了早起。（现在的习惯）" },
+          { "en": "You'd better take an umbrella.", "cn": "你最好带把伞。" },
+          { "en": "I'd rather stay at home today.", "cn": "我今天宁愿待在家。" },
+          { "en": "Bamboo is used to make flutes.", "cn": "竹子被用来做笛子。（第三兄弟）" }
+        ],
+        "mid": [
+          { "en": "There used to be a cinema here.", "cn": "这里过去有家电影院。（There be 挂上 used to）" },
+          { "en": "He didn't use to like vegetables, but now he loves them.", "cn": "他过去不爱吃蔬菜，现在可爱吃了。" },
+          { "en": "We'd better not miss the first bus.", "cn": "我们最好别错过首班车。（not 紧跟 better）" },
+          { "en": "I'd rather listen to music than play games.", "cn": "我宁愿听音乐也不打游戏。" },
+          { "en": "It took me a week to get used to the new school.", "cn": "我花了一周才适应新学校。" }
+        ],
+        "trap": [
+          { "en": "I used to live in the countryside.", "cn": "我以前住在乡下。", "note": "used to do——「过去曾经」，暗含现在不住了。" },
+          { "en": "I'm used to living in the city now.", "cn": "我现在习惯了住城里。", "note": "加了 be——意思跳到「现在习惯」；to 变介词门收 living。" },
+          { "en": "This knife is used to cut bread.", "cn": "这把刀是用来切面包的。", "note": "第三兄弟——「被用来做」，接原形。" },
+          { "en": "You'd better not tell anyone yet.", "cn": "你最好先别告诉任何人。", "note": "not 紧跟 better——不是 don't had better。" },
+          { "en": "I'd rather not go out tonight.", "cn": "今晚我宁愿不出门。", "note": "would rather 的否定同样是 not 紧跟 rather。" },
+          { "en": "He would rather read than watch TV.", "cn": "他宁愿看书也不看电视。", "note": "than 两头对称——都是光杆原形，不加 to。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "I used to get up at six.（想说：我习惯六点起——现在的习惯）",
+        "good": "I'm used to getting up at six.",
+        "zone": "blocks",
+        "why": "少了 be——听的人以为你「过去六点起、现在不了」，现在的习惯变成了过去的往事。"
+      },
+      {
+        "bad": "I don't used to eat spicy food.（想说：我过去不吃辣）",
+        "good": "I didn't use to eat spicy food.",
+        "zone": "blocks",
+        "why": "否定系统串线——听的人分不清你说「现在不吃」还是「过去不吃」；过去的否定是 didn't use to。"
+      },
+      {
+        "bad": "He used to getting up late.",
+        "good": "He used to get up late.",
+        "zone": "tested",
+        "why": "used to（过去常常）接原形——doing 是隔壁兄弟的指法。"
+      },
+      {
+        "bad": "She is used to get up early now.",
+        "good": "She is used to getting up early now.",
+        "zone": "tested",
+        "why": "be used to 的 to 是介词门——只收打包件 getting。"
+      },
+      {
+        "bad": "You had better don't touch the wire.",
+        "good": "You had better not touch the wire.",
+        "zone": "tested",
+        "why": "not 紧跟 better——don't 系统不掺和。"
+      },
+      {
+        "bad": "I would rather to walk home.",
+        "good": "I would rather walk home.",
+        "zone": "tested",
+        "why": "would rather 接光杆原形——to 不进门。"
+      },
+      {
+        "bad": "Did you used to live here?",
+        "good": "Did you use to live here?",
+        "zone": "tested",
+        "why": "Did 已报过时——use 回原形，d 脱落（G12 的老规矩）。"
+      },
+      {
+        "bad": "I'd rather stay at home than to go out.",
+        "good": "I'd rather stay at home than go out.",
+        "zone": "tested",
+        "why": "than 两头对称——都用光杆原形。"
+      },
+      {
+        "bad": "There used to have a tall tree here.",
+        "good": "There used to be a tall tree here.",
+        "zone": "tested",
+        "why": "「这里曾有」是 There be——used to 插中间，have 顶替不了 be（G05 的老坑）。"
+      },
+      {
+        "bad": "Stone was used to building the old bridge.",
+        "good": "Stone was used to build the old bridge.",
+        "zone": "tested",
+        "why": "「被用来做」接原形——building 会跳到「习惯」那个兄弟去。"
+      },
+      {
+        "bad": "didn't use to（有人说必须写 usedn't to 才标准）",
+        "good": "现代英语通用 didn't use to。",
+        "zone": "minor",
+        "why": "usedn't to 已很少见——考试与日常都认 didn't use to，不设坑。"
+      },
+      {
+        "bad": "You'd better ...（有人觉得对长辈不能用）",
+        "good": "语气偏提醒，对长辈可换更软的说法，但本身不算错。",
+        "zone": "minor",
+        "why": "had better 带点提醒/警告味——语气选择问题，不挡意思不设坑。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "我过去常踢球。／我习惯踢球。（两个词组，分得清清楚楚）",
+        "en": "I used to play ... / I'm used to playing ...",
+        "diff": "英语只差一个 be 和 -ing——一字之差隔了半个世界。"
+      },
+      {
+        "cn": "这把刀是用来切面包的。",
+        "en": "This knife is used to cut bread.",
+        "diff": "第三兄弟「被用来」——be used to + 原形，被动加目的。"
+      },
+      {
+        "cn": "你最好别迟到。（「别」在动词前）",
+        "en": "You'd better not be late.",
+        "diff": "英语的 not 紧跟 better——不请 don't 出场。"
+      },
+      {
+        "cn": "我宁愿走路，也不等车。（「也不」呼应）",
+        "en": "I'd rather walk than wait.",
+        "diff": "中文「宁愿…也不…」两头呼应；英语 rather ... than ...，两头光杆原形。"
+      },
+      {
+        "cn": "这儿以前有家书店。（一个「有」字）",
+        "en": "There used to be a bookshop here.",
+        "diff": "「有」是 There be——中文的「有」别翻成 have。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "过去常 used to do；现在惯 to doing；被用来接原形；better/rather 后 not 紧跟。",
+      "steps": [
+        "先问意思：「过去常常、现在不了」→ used to + 原形。",
+        "「现在的习惯」→ be / get used to + doing（to 是介词门）。",
+        "「被用来做」→ be used to + 原形（G29 被动 + G30 目的）。",
+        "「最好」→ had better + 原形；否定 not 紧跟 better。",
+        "「宁愿」→ would rather + 原形；否定 not 紧跟 rather；比较 than 两头对称。",
+        "used to 的否定疑问交给 did：didn't use to / Did ... use to ...?（d 脱落）。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，咱们玩『过去 vs 现在』：你说三件『以前常做、现在不做』的事，开头用 I used to——比如 I used to watch cartoons every day；再说三件『现在已经习惯』的事，开头用 I'm used to——比如 I'm used to packing my schoolbag myself。我不懂英语没关系，我只听开头有没有 be 的音（am/is）：没有 be 是从前，有 be 是现在——你要说反了，我就喊『按错和弦了』。」再玩一轮「最好/宁愿」：我出情景『明天要早起』，你用 You'd better 给我一句建议、用 I'd rather 说一个选择——说否定时我盯一件事：not 是不是紧跟在 better 或 rather 后面。",
+      "questions": [
+        "I used to run 和 I'm used to running，哪句说的是现在？差在哪个词？",
+        "「你最好别迟到」的 not 放在哪？为什么不用 don't？",
+        "「竹子被用来做笛子」里的 used to 后面为什么接原形不接 doing？"
+      ]
+    },
+    "echo": "这一课的暗线是「越常用越磨损」的一个奇景：use 这个再普通不过的动词，被用得太狠，磨出了三个几乎认不出彼此的分身——used to（过去常常，连发音都弱化了）、be used to（习惯）、be used to do（被用来）。语法化就是这样发生的：一个实词被千万次使用，意思磨平、读音磨损，最后变成纯粹的语法零件——G16 的 gonna、G26 的 have 走的是同一条路。规律的一面也在场：否定的 not 永远紧跟情态核心（better not / rather not），与 G17 的 can't、mustn't 一脉相承——英语把否定钉在「态度词」身上，从不乱放。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G39 · used to 三兄弟与两个「宁愿最好」</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>三个最容易混的和弦指法</text><rect x='36' y='110' width='648' height='132' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎸 used to 三兄弟</text><text x='360' y='172' text-anchor='middle' font-size='14' fill='#5A4A42'>used to do 过去常常（现在不了）：I used to run.</text><text x='360' y='198' text-anchor='middle' font-size='14' fill='#5A4A42'>be used to doing 现在习惯：I'm used to running.（to 是介词门）</text><text x='360' y='224' text-anchor='middle' font-size='14' fill='#5A4A42'>be used to do 被用来做：Wood is used to make paper.</text><rect x='36' y='262' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='294' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>🖐️ 两个「光杆原形」和弦</text><text x='360' y='322' text-anchor='middle' font-size='14' fill='#5A4A42'>had better do 最好 ｜ 否定：had better not do（not 紧跟 better）</text><text x='360' y='350' text-anchor='middle' font-size='14' fill='#5A4A42'>would rather do 宁愿 ｜ rather A than B（两头原形）｜ would rather not</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🔁 否定与疑问</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>didn't use to ... ｜ Did you use to ...?（did 报时，use 的 d 脱落）</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ used to doing ✗（过去常常）· better don't ✗ · rather to walk ✗ · used to have(There) ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只要求看懂 used to——辨析为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：use 被用到磨损分身——语法化 · 英语奇遇记 🦊 G39</text></svg>",
+    "alt": "G39 记忆卡：used to 三兄弟（used to do 过去常常/be used to doing 现在习惯/be used to do 被用来做）；had better 与 would rather 接光杆原形，否定 not 紧跟其后，rather A than B 两头对称；否定疑问交给 did（didn't use to / Did...use to）；警示 used to doing、better don't、rather to walk、There used to have 四类错误。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 三组指法",
+        "questions": [
+          { "q": "I used to play football. 隐含的意思是？", "options": ["现在不怎么踢了", "现在还天天踢", "将来打算踢"], "answer": 0, "explain": "used to——过去常常，今非昔比。", "level": 1 },
+          { "q": "used to do 表示？", "options": ["过去常常（现在不了）", "现在习惯", "被用来"], "answer": 0, "explain": "第一兄弟：过去常常。", "level": 1 },
+          { "q": "be used to doing 表示？", "options": ["现在习惯于", "过去常常", "最好"], "answer": 0, "explain": "第二兄弟：现在的习惯。", "level": 1 },
+          { "q": "be used to do（接原形）表示？", "options": ["被用来做（用途）", "过去常常", "宁愿"], "answer": 0, "explain": "第三兄弟：被动 + 目的。", "level": 1 },
+          { "q": "「你最好…」用哪个说法？", "options": ["had better", "would rather", "used to"], "answer": 0, "explain": "had better——最好，带提醒味。", "level": 1 },
+          { "q": "「宁愿」用哪个说法？", "options": ["would rather", "had better", "be used to"], "answer": 0, "explain": "would rather——宁愿。", "level": 1 },
+          { "q": "had better 后面接？", "options": ["动词原形", "doing", "to do"], "answer": 0, "explain": "光杆原形。", "level": 1 },
+          { "q": "would rather 后面接？", "options": ["动词原形", "to do", "doing"], "answer": 0, "explain": "同样光杆原形。", "level": 1 },
+          { "q": "had better 的否定，not 放哪？", "options": ["紧跟 better：had better not do", "动词前：had better don't", "句尾"], "answer": 0, "explain": "not 紧跟 better。", "level": 1 },
+          { "q": "would rather 的否定是？", "options": ["would rather not do", "would not rather do", "would rather don't do"], "answer": 0, "explain": "not 紧跟 rather。", "level": 1 },
+          { "q": "used to 的疑问句怎么起头？", "options": ["Did you use to ...?", "Do you used to ...?", "Were you used to ...?"], "answer": 0, "explain": "did 报过时——use 回原形。", "level": 1 },
+          { "q": "be used to（习惯）里的 to 是？", "options": ["介词门——后接 doing", "不定式的 to——后接原形", "可有可无"], "answer": 0, "explain": "介词门只收打包件（G31）。", "level": 1 },
+          { "q": "「宁愿 A 也不 B」的比较词是？", "options": ["than", "as", "but"], "answer": 0, "explain": "would rather A than B。", "level": 1 },
+          { "q": "'d better 是哪个词组的缩写？", "options": ["had better", "would better", "did better"], "answer": 0, "explain": "You'd better = You had better。", "level": 1 },
+          { "q": "There ___ be a cinema here.（这儿过去有家电影院）", "options": ["used to", "is used to", "uses to"], "answer": 0, "explain": "There used to be——过去曾有。", "level": 1 },
+          { "q": "I'd rather ___ at home.（宁愿待在家）", "options": ["stay", "staying", "to stay"], "answer": 0, "explain": "rather + 光杆原形。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 按准和弦",
+        "questions": [
+          { "q": "My grandpa ___ work in a steel factory.", "options": ["used to", "is used to", "uses to"], "answer": 0, "explain": "过去在钢厂工作（现在退休了）——used to。", "level": 2 },
+          { "q": "She is used to ___ up before six now.", "options": ["getting", "get", "got"], "answer": 0, "explain": "现在的习惯——to doing。", "level": 2 },
+          { "q": "This machine is used to ___ orange juice.", "options": ["make", "making", "made"], "answer": 0, "explain": "被用来榨汁——接原形。", "level": 2 },
+          { "q": "You'd better ___ your coat — it's cold outside.", "options": ["take", "taking", "to take"], "answer": 0, "explain": "had better + 原形。", "level": 2 },
+          { "q": "I'd rather ___ music than play computer games.", "options": ["listen to", "listening to", "to listen to"], "answer": 0, "explain": "rather + 原形，than 两头对称。", "level": 2 },
+          { "q": "He didn't ___ like coffee, but now he drinks it every day.", "options": ["use to", "used to", "using to"], "answer": 0, "explain": "didn't 报过时——use 回原形。", "level": 2 },
+          { "q": "You'd better ___ be late again.", "options": ["not", "don't", "won't"], "answer": 0, "explain": "not 紧跟 better。", "level": 2 },
+          { "q": "I'd rather ___ go out tonight — I'm tired.", "options": ["not", "don't", "never to"], "answer": 0, "explain": "not 紧跟 rather。", "level": 2 },
+          { "q": "___ you use to walk to school?", "options": ["Did", "Do", "Were"], "answer": 0, "explain": "used to 的疑问交给 Did。", "level": 2 },
+          { "q": "It took me a month to get used to ___ in the new city.", "options": ["living", "live", "lived"], "answer": 0, "explain": "get used to + doing——渐渐习惯。", "level": 2 },
+          { "q": "There ___ a small pond behind our school.", "options": ["used to be", "used to have", "was used to"], "answer": 0, "explain": "「曾有」= There used to be。", "level": 2 },
+          { "q": "Bamboo ___ to make flutes in the south.", "options": ["is used", "used", "is using"], "answer": 0, "explain": "被用来做笛子——is used to make。", "level": 2 },
+          { "q": "I ___ short hair when I was in primary school.", "options": ["used to have", "am used to having", "use to have"], "answer": 0, "explain": "小学时曾留短发——used to have。", "level": 2 },
+          { "q": "We'd better ___ now, or we'll miss the train.", "options": ["leave", "leaving", "left"], "answer": 0, "explain": "had better + 原形 leave。", "level": 2 },
+          { "q": "My little sister is used to ___ stories before bed.", "options": ["listening to", "listen to", "listened to"], "answer": 0, "explain": "现在的习惯——to doing。", "level": 2 },
+          { "q": "He would rather ___ the truth than make up a story.", "options": ["tell", "telling", "told"], "answer": 0, "explain": "rather tell ... than make——两头原形。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 纠正指型",
+        "questions": [
+          { "q": "哪一句指法对？（我过去常和爷爷下棋）", "options": ["I used to play chess with Grandpa.", "I used to playing chess with Grandpa.", "I am used to play chess with Grandpa."], "answer": 0, "explain": "过去常常——used to + 原形。", "level": 3 },
+          { "q": "哪一句指法对？（她现在习惯了早起）", "options": ["She is used to getting up early now.", "She is used to get up early now.", "She used to get up early now."], "answer": 0, "explain": "现在习惯——be used to doing。", "level": 3 },
+          { "q": "哪一句指法对？（你最好别碰那根电线）", "options": ["You'd better not touch that wire.", "You'd better don't touch that wire.", "You'd better to not touch that wire."], "answer": 0, "explain": "not 紧跟 better。", "level": 3 },
+          { "q": "哪一句指法对？（我宁愿走回家）", "options": ["I would rather walk home.", "I would rather to walk home.", "I would rather walking home."], "answer": 0, "explain": "rather + 光杆原形。", "level": 3 },
+          { "q": "哪一句指法对？（你以前住这儿吗）", "options": ["Did you use to live here?", "Did you used to live here?", "Do you used to live here?"], "answer": 0, "explain": "Did 报过时——use 回原形。", "level": 3 },
+          { "q": "哪一句指法对？（我宁愿待在家也不出门）", "options": ["I'd rather stay at home than go out.", "I'd rather stay at home than to go out.", "I'd rather staying at home than going out."], "answer": 0, "explain": "than 两头对称的光杆原形。", "level": 3 },
+          { "q": "哪一句指法对？（这儿过去有棵大树）", "options": ["There used to be a tall tree here.", "There used to have a tall tree here.", "There was used to a tall tree here."], "answer": 0, "explain": "「有」是 There be——have 不顶替。", "level": 3 },
+          { "q": "哪一句指法对？（石头被用来修那座老桥）", "options": ["Stone was used to build the old bridge.", "Stone was used to building the old bridge.", "Stone used to build the old bridge."], "answer": 0, "explain": "被用来——was used to + 原形。", "level": 3 },
+          { "q": "哪一句指法对？（他过去不爱吃蔬菜）", "options": ["He didn't use to like vegetables.", "He didn't used to like vegetables.", "He used not to liking vegetables."], "answer": 0, "explain": "didn't use to——d 脱落。", "level": 3 },
+          { "q": "哪一句指法对？（我们最好现在出发）", "options": ["We'd better set off now.", "We'd better setting off now.", "We'd better to set off now."], "answer": 0, "explain": "had better + 原形。", "level": 3 },
+          { "q": "哪一句指法对？（我渐渐习惯了新学校）", "options": ["I'm getting used to the new school.", "I'm getting used to be the new school.", "I getting used to the new school."], "answer": 0, "explain": "get used to + 名词——渐渐习惯。", "level": 3 },
+          { "q": "哪一句指法对？（这把刀是用来切面包的）", "options": ["This knife is used to cut bread.", "This knife is used to cutting bread.", "This knife used to cut bread."], "answer": 0, "explain": "被用来——接原形；第三个成了「刀过去常切」。", "level": 3 },
+          { "q": "哪一句指法对？（你最好先把作业写完）", "options": ["You'd better finish your homework first.", "You'd better finished your homework first.", "You had better finishing your homework first."], "answer": 0, "explain": "better + 原形 finish。", "level": 3 },
+          { "q": "哪一句指法对？（他宁愿不说话）", "options": ["He would rather not speak.", "He would not rather speak.", "He would rather don't speak."], "answer": 0, "explain": "not 紧跟 rather。", "level": 3 },
+          { "q": "哪一句指法对？（妈妈过去是名歌手）", "options": ["Mum used to be a singer.", "Mum was used to be a singer.", "Mum used to being a singer."], "answer": 0, "explain": "过去曾是——used to be。", "level": 3 },
+          { "q": "哪一句指法对？（我习惯睡前读一会儿书）", "options": ["I'm used to reading for a while before bed.", "I'm used to read for a while before bed.", "I used to reading for a while before bed."], "answer": 0, "explain": "现在习惯——be used to + doing。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 换弦不换调",
+        "questions": [
+          { "q": "两空：I ___ be afraid of dogs, but now I'm ___ walking past them.", "options": ["used to / used to", "use to / used to", "used to / using to"], "answer": 0, "explain": "过去怕狗 used to be；现在习惯 am used to walking。", "level": 4 },
+          { "q": "大考：This room ___ store old drums, so we are ___ the smell of wood.", "options": ["is used to / used to", "used to / is used to", "is used to / use to"], "answer": 0, "explain": "房间被用来存鼓 is used to store；我们习惯木头味 are used to the smell。", "level": 4 },
+          { "q": "You'd better ___ an umbrella — it ___ rain this afternoon.", "options": ["take / might", "taking / must", "to take / can't"], "answer": 0, "explain": "better + 原形；下午可能下雨 might（G38）。", "level": 4 },
+          { "q": "I'd rather ___ the slow train ___ wait for the express.", "options": ["take / than", "taking / than", "take / as"], "answer": 0, "explain": "rather take ... than wait。", "level": 4 },
+          { "q": "— ___ there use to be a bookshop here? — Yes, but it closed last year.", "options": ["Did", "Was", "Does"], "answer": 0, "explain": "There used to be 的疑问——Did there use to be。", "level": 4 },
+          { "q": "He ___ stay up late, but he gave it up this term.", "options": ["used to", "is used to", "uses to"], "answer": 0, "explain": "过去常熬夜、这学期戒了——used to。", "level": 4 },
+          { "q": "两空：You'd better ___ tell Dad yet; he'd rather ___ it from Grandma himself.", "options": ["not / hear", "don't / hear", "not / hearing"], "answer": 0, "explain": "better not；rather + 原形 hear。", "level": 4 },
+          { "q": "找错：哪句的 to 用错了？", "options": ["She is used to drink tea after dinner.", "She is used to drinking tea after dinner.", "She used to drink tea after dinner."], "answer": 0, "explain": "be used to 是介词门——要 drinking；后两句各自正确。", "level": 4 },
+          { "q": "Chopsticks ___ to pick up food.", "options": ["are used", "used", "are using"], "answer": 0, "explain": "筷子被用来夹食物——are used to pick up。", "level": 4 },
+          { "q": "两空：I'm not ___ spicy food yet, though I ___ eat it every day back in Chongqing.", "options": ["used to / used to", "use to / used to", "used to / am used to"], "answer": 0, "explain": "be used to + 名词（还不习惯）；过去天天吃 used to eat。", "level": 4 },
+          { "q": "The old piano ___ be my grandma's; she ___ playing it every evening.", "options": ["used to / was used to", "is used to / used to", "used to / used to"], "answer": 0, "explain": "曾经是 used to be；她当年习惯每晚弹 was used to playing。", "level": 4 },
+          { "q": "找错：哪句 not 放错了位置？", "options": ["You'd better don't open the window.", "You'd better not open the window.", "I'd rather not say."], "answer": 0, "explain": "not 紧跟 better——don't 不掺和。", "level": 4 },
+          { "q": "We ___ live in a small town, and I still miss the river that ___ run behind our house.", "options": ["used to / used to", "are used to / used to", "used to / is used to"], "answer": 0, "explain": "两处都是「过去曾经」——used to。", "level": 4 },
+          { "q": "— Shall we take a taxi? — I'd rather ___. Let's walk.", "options": ["not", "don't", "never"], "answer": 0, "explain": "I'd rather not——宁愿不（打车）。", "level": 4 },
+          { "q": "This bell ___ call students back to class in the old days.", "options": ["was used to", "is used to", "used to be"], "answer": 0, "explain": "过去「被用来」召集学生——was used to + 原形。", "level": 4 },
+          { "q": "大考二：He ___ getting up at five for morning practice — he even says he'd rather ___ early ___ stay in bed.", "options": ["is used to / rise / than", "used to / rising / than", "is used to / rising / as"], "answer": 0, "explain": "现在习惯 is used to getting；宁愿早起 rather rise ... than stay。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I used to getting up at six when I was in Grade 7.",
+      "fixed": "I used to get up at six when I was in Grade 7.",
+      "clue": "「过去常常」的 used to 接原形——doing 是隔壁兄弟的指法。"
+    },
+    {
+      "sentence": "She is used to drink milk before bed now.",
+      "fixed": "She is used to drinking milk before bed now.",
+      "clue": "be used to 的 to 是介词门——只收打包件 drinking。"
+    },
+    {
+      "sentence": "You'd better don't make any noise — the baby is sleeping.",
+      "fixed": "You'd better not make any noise — the baby is sleeping.",
+      "clue": "not 紧跟 better——don't 系统不掺和。"
+    },
+    {
+      "sentence": "I would rather to stay home than go shopping.",
+      "fixed": "I would rather stay home than go shopping.",
+      "clue": "would rather 接光杆原形——to 不进门。"
+    },
+    {
+      "sentence": "Did she used to wear glasses?",
+      "fixed": "Did she use to wear glasses?",
+      "clue": "Did 已报过时——use 回原形，d 脱落。"
+    },
+    {
+      "sentence": "There used to have a music room on this floor.",
+      "fixed": "There used to be a music room on this floor.",
+      "clue": "「有」是 There be——have 顶替不了 be。"
+    },
+    {
+      "sentence": "This brush is used to painting walls.",
+      "fixed": "This brush is used to paint walls.",
+      "clue": "「被用来做」接原形——painting 就跳到「习惯」那个兄弟去了。"
+    }
+  ]
+}
