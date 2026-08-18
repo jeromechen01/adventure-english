@@ -405,6 +405,17 @@
       "file": "./data/grammar/g36.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G37",
+      "tier": "进阶",
+      "title": "主语从句与表语从句",
+      "metaphor": "整段当主奏上台",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g37.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
