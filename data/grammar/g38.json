@@ -205,7 +205,7 @@
           { "q": "It may rain later. 这里 may 表示？", "options": ["可能（五五开的推测）", "许可", "祝愿"], "answer": 0, "explain": "may 的第二层——可能。", "level": 1 },
           { "q": "That can't be Tom. 这里 can't 表示？", "options": ["不可能（推测）", "没能力", "不许"], "answer": 0, "explain": "推测的否定档——不可能。", "level": 1 },
           { "q": "推测「不可能」用哪个词？", "options": ["can't", "mustn't", "needn't"], "answer": 0, "explain": "只有 can't——mustn't 是禁止。", "level": 1 },
-          { "q": "mustn't 的意思是？", "options": ["禁止（不许做）", "不可能", "不必"], "answer": 0, "explain": "门上贴的「禁止」——跟推测无关。", "level": 1 },
+          { "q": "mustn't 参与推测吗？它管的是？", "options": ["不参与——它只管禁止（不许做）", "参与——表示不可能", "参与——表示不必"], "answer": 0, "explain": "mustn't 是门上贴的「禁止」——跟推测无关。", "level": 1 },
           { "q": "推测把握最大的一档是？", "options": ["must be", "may be", "might be"], "answer": 0, "explain": "must be——约九成把握。", "level": 1 },
           { "q": "might 和 may 相比，把握？", "options": ["更小一点", "更大", "完全一样"], "answer": 0, "explain": "might 是五五开再往下。", "level": 1 },
           { "q": "Could you help me? 里的 could 表示？", "options": ["更客气的请求", "过去的能力", "不可能"], "answer": 0, "explain": "退半步的礼貌——不表过去。", "level": 1 },
