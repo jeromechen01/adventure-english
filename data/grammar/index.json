@@ -383,6 +383,17 @@
       "file": "./data/grammar/g34.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G35",
+      "tier": "进阶",
+      "title": "状语从句一（时间与条件）",
+      "metaphor": "舞台提示：什么时候进、什么条件下进",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g35.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
