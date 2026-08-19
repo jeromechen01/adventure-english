@@ -482,6 +482,17 @@
       "file": "./data/grammar/g43.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G44",
+      "tier": "精修",
+      "title": "倒装初步（So do I / Neither do I / Here comes）",
+      "metaphor": "变奏换序：谁先出声换了个人",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g44.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
