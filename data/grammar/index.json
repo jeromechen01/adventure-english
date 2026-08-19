@@ -537,6 +537,17 @@
       "file": "./data/grammar/g48.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G49",
+      "tier": "精修",
+      "title": "标点、大小写与英文书写规范",
+      "metaphor": "谱面上的休止符与小节线，少一个就走样",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g49.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

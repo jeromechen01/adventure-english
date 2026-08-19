@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G49（V0.9 P4 精修层）。比喻锚点：谱面上的休止符与小节线，少一个就走样。讲英文标点（三种收尾、逗号不连句、撇号两职、引号呼应 G40）、大写五处、中英标点不通用（全角/半角、顿号、书名号）、书写自查清单。KET 写作确实看基本标点大写，但按 P4 规格统一据实标注 ★。全部内容原创。",
+  "id": "G49",
+  "tier": "精修",
+  "title": "标点、大小写与英文书写规范",
+  "metaphor": "谱面上的休止符与小节线，少一个就走样",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 写作只要求最基本的大写和句号，不单独考标点题。这一课是为初中/PET 打底——作文卷面分和改错题都在这儿。不用焦虑，学到就是赚到。",
+  "source": "original",
+  "sections": {
+    "essence": "谱面记号：句号收拍、逗号换气、大写开章——少一个，曲子就走样。",
+    "why": "中文写作文，标点是「配菜」：句号圆圆的一个圈，少打一个老师也看得懂。英文不一样：英文的书面语把很多口语信息全押在了标点和大小写上——中文问句有「吗」字兜底，英文问句删掉问号就成了陈述；中文的人名地名长相普通，英文全靠开头那个大写字母亮身份。更麻烦的是，中英两套标点长得像却不通用：中文的句号是空心圈「。」，英文是实心点「.」；中文有顿号「、」，英文根本没有这个键；中文书名加《》，英文用斜体或引号。写英文时整套记号都得换成英文的——就像换了乐团就要用那个乐团的谱面记号，休止符画错地方，演奏立刻走样。",
+    "metaphorStory": "学徒第一次帮银帆乐团抄谱，被谱务老师退了三回。第一回，他忘了画小节线——「句子写完不点句号，后面的音全挤成一团，谁知道你哪里收拍？」第二回，他把两段旋律用一个换气记号连了起来——「逗号只是换口气，连不住两个完整乐句！要么加连奏线（and、but、so），要么老老实实画小节线另起一句。」第三回最冤：他抄的谱子全对，却用了自己家乡乐团的记号——空心圈的句号、带顿点的分隔号。老师指着谱子说：「这套记号我们这儿的乐手不认识。进哪个乐团，就用哪个乐团的谱面记号——半角的点、半角的逗号，点完还要空一格。」最后老师教他一句口诀：「开章大写，收拍有点，问句带钩，i 字戴帽——四样齐了，谱面才算干净。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "三种收尾：每句必须有小节线",
+          "detail": "陈述句用句号（.），疑问句必须问号（?），强烈感情用感叹号（!）。英文问句没有「吗」字兜底——问号一丢，问句就塌成陈述句。",
+          "example": "Are you ready? ／ What a great show it was!"
+        },
+        {
+          "rule": "逗号连不住两个完整句",
+          "detail": "两个各有主谓的完整句子，中间只放一个逗号是英文大忌——要么加连词（and/but/so，G20 的连奏线），要么改成两句各自收尾。",
+          "example": "I like music, and my sister likes art.（✗ I like music, my sister likes art.）"
+        },
+        {
+          "rule": "大写五处",
+          "detail": "① 每句开头 ② I 永远大写 ③ 专有名词：人名、地名、国家、节日 ④ 星期和月份 ⑤ 称呼头衔 Mr/Mrs/Miss/Dr。中文没有大写这回事——这是英文特有的身份灯。",
+          "example": "Last Monday, Tom and I visited Miss Lin in Shanghai."
+        },
+        {
+          "rule": "撇号两份工作",
+          "detail": "① 缩写占位：don't、it's（it is）、I'm——撇号站在被省字母的位置；② 所有格：Tom's bike。专辨一对：it's = it is，its = 它的（不带撇）。",
+          "example": "It's cold. The cat licked its paw."
+        },
+        {
+          "rule": "引号：把原话装进玻璃罩",
+          "detail": "直接引语（G40 的老朋友）用引号罩住原话，说话动词后加逗号，引语开头大写，收尾符号留在引号里面。",
+          "example": "Mum said, \"Dinner is ready.\""
+        },
+        {
+          "rule": "中英标点不通用",
+          "detail": "英文用半角：. , ? !，标点后空一格；中文的「。」「、」「《》」不能混入英文——顿号改逗号或 and，书名改斜体或引号，省略号是三个点 ...",
+          "example": "I bought apples, pears and grapes.（✗ 苹果、梨、葡萄式顿号）"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "My name is Li Hua, and I live in Chengdu.", "cn": "我叫李华，住在成都。（句首、人名、地名三处大写；逗号+and 连句）" },
+          { "en": "Do you have a spare pencil?", "cn": "你有多余的铅笔吗？（问句必须带问号）" },
+          { "en": "Tom and I are in the same class.", "cn": "汤姆和我在同一个班。（I 永远大写）" },
+          { "en": "We have an English lesson on Monday morning.", "cn": "周一早上我们有英语课。（星期、语言名大写）" },
+          { "en": "Don't forget your keys!", "cn": "别忘了带钥匙！（缩写撇号 + 感叹号）" }
+        ],
+        "mid": [
+          { "en": "It's snowing, so the dog is chasing its tail in the yard.", "cn": "下雪了，狗在院子里追自己的尾巴。（it's 是 it is，its 是「它的」）", "note": "" },
+          { "en": "The teacher said, \"Please hand in your notebooks.\"", "cn": "老师说：「请交笔记本。」（引号罩原话，said 后加逗号）" },
+          { "en": "We visited the Palace Museum during the Spring Festival.", "cn": "春节期间我们参观了故宫。（专有名词、节日大写）" },
+          { "en": "The rain stopped, but the wind was still strong.", "cn": "雨停了，但风还很大。（逗号 + but 才接得住两个完整句）" },
+          { "en": "Lily's desk is next to the window.", "cn": "莉莉的课桌挨着窗户。（所有格撇号）" }
+        ],
+        "trap": [
+          { "en": "I was born in June, and my sister was born in january. → January", "cn": "月份必须大写。", "note": "june/january 小写是最高频的丢分点——月份星期一律戴帽。" },
+          { "en": "Could you tell me where the library is?", "cn": "请问图书馆在哪？", "note": "整句是请求的问句——句尾要问号；里面的从句坐正不带问号语序（G33）。" },
+          { "en": "The dog wagged its tail. / It's a friendly dog.", "cn": "狗摇了摇它的尾巴。／这是只友好的狗。", "note": "its 不带撇是「它的」；it's 带撇只能是 it is/it has。" },
+          { "en": "I bought a pen, a ruler and two erasers.", "cn": "我买了一支笔、一把尺和两块橡皮。", "note": "英文没有顿号——并列用逗号，最后一项前用 and。" },
+          { "en": "\"I'll wait at the gate,\" said Dad.", "cn": "「我在大门口等」，爸爸说。", "note": "引语在前时，逗号留在引号里面，后面接 said Dad。" },
+          { "en": "We read Charlotte's Web this term.", "cn": "这学期我们读了《夏洛的网》。", "note": "英文书名不用《》——印刷体用斜体，手写加引号或下划线。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "You have finished your homework.（想问：你写完作业了吗）",
+        "good": "Have you finished your homework?",
+        "zone": "blocks",
+        "why": "英文问句没有「吗」兜底——语序不倒、问号不打，读的人只会当成陈述，你的问题根本没送出去。"
+      },
+      {
+        "bad": "He said I broke the vase.（想转述他的原话「是我打碎的」）",
+        "good": "He said, \"I broke the vase.\"",
+        "zone": "blocks",
+        "why": "引号一丢，「他说是他自己打碎的」变成「他说是你打碎的」——玻璃罩不罩，责任都换了人（G40 的人称退一步反着起作用）。"
+      },
+      {
+        "bad": "i often play chess with my grandpa.",
+        "good": "I often play chess with my grandpa.",
+        "zone": "tested",
+        "why": "I 永远大写——独此一家，任何位置都戴帽。"
+      },
+      {
+        "bad": "we are going to beijing in october.",
+        "good": "We are going to Beijing in October.",
+        "zone": "tested",
+        "why": "句首、地名、月份三处都要大写——身份灯一个不能省。"
+      },
+      {
+        "bad": "It rained hard, we stayed at home.",
+        "good": "It rained hard, so we stayed at home.",
+        "zone": "tested",
+        "why": "两个完整句中间光放逗号接不住——要 so/and 这类连奏线，或干脆分成两句。"
+      },
+      {
+        "bad": "The bird hurt it's wing.",
+        "good": "The bird hurt its wing.",
+        "zone": "tested",
+        "why": "「它的」是 its，不带撇——it's 只能是 it is。"
+      },
+      {
+        "bad": "I dont know the answer.",
+        "good": "I don't know the answer.",
+        "zone": "tested",
+        "why": "缩写的撇号站在被省掉的 o 的位置——dont 不是一个词。"
+      },
+      {
+        "bad": "My cousin studies in canada, her school is huge.",
+        "good": "My cousin studies in Canada. Her school is huge.",
+        "zone": "tested",
+        "why": "国名大写；两个完整句用句号分开，各自收拍。"
+      },
+      {
+        "bad": "Mum said, please water the flowers.",
+        "good": "Mum said, \"Please water the flowers.\"",
+        "zone": "tested",
+        "why": "直接引语要引号罩住，引语开头大写——不罩就分不清哪些是原话。"
+      },
+      {
+        "bad": "What a wonderful concert.",
+        "good": "What a wonderful concert!",
+        "zone": "tested",
+        "why": "What/How 感叹句（G23 的全体强奏）配感叹号才响得起来。"
+      },
+      {
+        "bad": "I like apples, bananas, and grapes.（有人说 and 前不能加逗号）",
+        "good": "A, B and C ／ A, B, and C 都对。",
+        "zone": "minor",
+        "why": "and 前那个逗号（牛津逗号）加不加都合法——两派并存，不挡意思不设坑。"
+      },
+      {
+        "bad": "cannot / can not / can't（争哪个才规范）",
+        "good": "三个都对——cannot 最常用，can't 口语化，can not 少见但不算错。",
+        "zone": "minor",
+        "why": "正式程度略有差别，意思毫无差别——别互相纠正。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "句号是空心圈「。」",
+        "en": "句号是实心点「.」，点完空一格",
+        "diff": "两套记号长得像却不通用——英文作文里混进「。」，就像五线谱里画了工尺谱记号。"
+      },
+      {
+        "cn": "苹果、梨、葡萄（顿号分隔）",
+        "en": "apples, pears and grapes（逗号 + and）",
+        "diff": "英文键盘上没有顿号——并列一律逗号，最后一项前加 and。"
+      },
+      {
+        "cn": "你写完了吗？（「吗」字先报出问意）",
+        "en": "Have you finished?（全靠倒装 + 问号）",
+        "diff": "中文丢了问号还有「吗」撑着；英文的问意一半在语序一半在问号，都丢就塌了。"
+      },
+      {
+        "cn": "《夏洛的网》（书名号）",
+        "en": "Charlotte's Web（斜体或引号）",
+        "diff": "英文没有《》——印刷用斜体，手写加下划线或引号。"
+      },
+      {
+        "cn": "人名地名长相普通：李华、成都",
+        "en": "Li Hua, Chengdu——开头大写亮身份",
+        "diff": "中文专有名词靠语境认；英文给它们统一戴帽——大写就是身份灯。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "写完每句五连查：开头帽、收尾点、问句钩、I 戴帽、逗号不连俩整句；全篇再扫一遍中文标点。",
+      "steps": [
+        "句首字母大写了吗？",
+        "句尾有没有收拍记号？是问句就必须换问号，感叹配感叹号。",
+        "句中的 i 是不是都写成了大写 I？人名、地名、月份、星期、节日戴帽了吗？",
+        "逗号两边如果各是一个完整句——要么加 and/but/so，要么拆成两句。",
+        "撇号自查：缩写（don't/it's）撇在省字母处；「它的」是 its 不带撇。",
+        "交卷前全篇扫一遍：有没有混进「。」「、」「《》」这些中文记号？英文标点后记得空一格。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，我来当谱面检查员——我不懂英语，但这活儿只看形状就能干。你每写完一篇英语作文，我拿铅笔检查四样：① 每句开头的字母是不是个大个子；② 每句结尾有没有小点、小钩（?）或小炸弹（!）——一行到头啥也没有的，我圈出来；③ 单独站着的小 i，一律得是大 I；④ 有没有混进中文的圆圈句号「。」和顿号「、」——它们长得跟英文的不一样，我认得出。圈完你自己改，改完给我讲为什么。」再玩个「引号游戏」：家长说一句话，孩子写下来——必须用引号把原话罩住：Mum said, \"...\"——罩没罩、罩里第一个字母有没有大写，家长看形状就能验收。",
+      "questions": [
+        "英文问句和中文问句比，少了哪个兜底的字？所以哪个记号绝对不能丢？",
+        "it's 和 its，哪个是「它是」、哪个是「它的」？撇号是给谁占位的？",
+        "两个完整的句子，中间只放一个逗号行不行？不行的话有哪两条出路？"
+      ]
+    },
+    "echo": "标点和小写字母，其实都是「后来的发明」。两千年前的罗马碑文全是大写字母，词和词之间连空格都没有，一行凿到头——那时读书要先出声拼读，把词一个个从石头里「捞」出来。空格、小写、句号、逗号，都是中世纪抄写员为了读得更快陆续发明的效率工具。至于 I 为什么独享大写：手抄本里小 i 孤零零一竖，太容易跟旁边的笔画粘连丢失，抄写员干脆把它写大写高——用得最勤的词，又一次拿到了特殊待遇。从 be 的五副面孔到 I 的独家高帽，理由从来是同一个：出场太多，磨损也多，特权也多。谱面记号看似琐碎，背后全是「让读的人省力」这一个目的。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#9333EA'>G49 · 标点与大小写</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>谱面上的休止符与小节线，少一个就走样</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='140' text-anchor='middle' font-size='18' font-weight='bold' fill='#9333EA'>🎼 收拍三记号 + 逗号纪律</text><text x='360' y='168' text-anchor='middle' font-size='15' fill='#5A4A42'>陈述 . ｜ 问句必须 ? ｜ 感叹 !　——问号一丢，问句塌成陈述</text><text x='360' y='194' text-anchor='middle' font-size='14' fill='#94A3B8'>逗号连不住两个完整句：要么 +and/but/so，要么拆成两句</text><rect x='36' y='226' width='648' height='90' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='256' text-anchor='middle' font-size='18' font-weight='bold' fill='#9333EA'>🎩 大写五处（身份灯）</text><text x='360' y='284' text-anchor='middle' font-size='15' fill='#5A4A42'>句首 · I 永远大写 · 人名地名国家节日 · 星期月份 · Mr/Mrs/Miss/Dr</text><text x='360' y='308' text-anchor='middle' font-size='14' fill='#94A3B8'>Last Monday, Tom and I visited Miss Lin in Shanghai.</text><rect x='36' y='336' width='648' height='90' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='364' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>✒️ 撇号两职 &amp; 引号玻璃罩</text><text x='360' y='390' text-anchor='middle' font-size='14' fill='#5A4A42'>缩写占位 don't / it's（=it is）· 所有格 Tom's ｜ its 不带撇 =「它的」</text><text x='360' y='414' text-anchor='middle' font-size='14' fill='#5A4A42'>Mum said, \"Dinner is ready.\" —— said 后逗号，引语大写开头</text><rect x='36' y='446' width='648' height='60' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='470' text-anchor='middle' font-size='14' fill='#C0392B'>⚠️ 中英标点不通用：。✗ 、✗ 《》✗ —— 半角 . , ? ! 标点后空一格</text><text x='360' y='494' text-anchor='middle' font-size='13' fill='#C0392B'>高频丢分：january ✗ · dont ✗ · it's wing ✗ · 逗号硬连两整句 ✗</text><text x='360' y='538' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 写作只看基本大写句号——为初中 / PET 卷面打底，学到就是赚到</text><text x='360' y='574' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：I 独享大写——最常用的词又拿了特权 · 英语奇遇记 🦊 G49</text></svg>",
+    "alt": "G49 记忆卡：标点=谱面记号。收拍三记号（. ? !）问号不能丢；逗号连不住两个完整句；大写五处（句首/I/专有名词/星期月份/称呼）；撇号两职（缩写占位与所有格）its 不带撇；引号罩直接引语；中英标点不通用（。、《》禁入英文，半角+空格）；高频丢分 january、dont、it's wing、逗号连句；暗线 I 独享大写。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 谱面记号",
+        "questions": [
+          { "q": "英文陈述句的「小节线」是哪个记号？", "options": ["实心点 .", "空心圈 。", "顿号 、"], "answer": 0, "explain": "英文句号是半角实心点，点完空一格。", "level": 1 },
+          { "q": "英文问句丢了问号会怎样？", "options": ["塌成陈述句——问意送不出去", "没影响，读者能猜", "自动变感叹句"], "answer": 0, "explain": "英文没有「吗」字兜底——问意一半押在问号上。", "level": 1 },
+          { "q": "哪个词在英文里永远大写？", "options": ["I", "you", "me"], "answer": 0, "explain": "I 独享大写——任何位置都戴帽。", "level": 1 },
+          { "q": "星期和月份的首字母要不要大写？", "options": ["要——Monday、June", "不要", "只有句首才要"], "answer": 0, "explain": "星期月份一律戴帽——这是最高频的丢分点。", "level": 1 },
+          { "q": "两个各有主谓的完整句子，中间只放一个逗号，行吗？", "options": ["不行——要加连词或拆成两句", "行，逗号万能", "加两个逗号就行"], "answer": 0, "explain": "逗号只管换气，连不住两个完整乐句。", "level": 1 },
+          { "q": "don't 里的撇号是干什么的？", "options": ["替被省掉的字母 o 占位", "装饰", "表示所有格"], "answer": 0, "explain": "缩写撇号站在省掉的字母位置——do not → don't。", "level": 1 },
+          { "q": "「它的」该写成？", "options": ["its（不带撇）", "it's", "its'"], "answer": 0, "explain": "its 是「它的」；it's 只能是 it is / it has。", "level": 1 },
+          { "q": "Tom's bike 里的 's 表示什么？", "options": ["所有格——汤姆的", "缩写 is", "复数"], "answer": 0, "explain": "撇号的第二份工作：谁的东西。", "level": 1 },
+          { "q": "直接引语的原话要用什么罩住？", "options": ["引号", "括号", "书名号《》"], "answer": 0, "explain": "引号是玻璃罩——罩住的才是原话（G40 的老朋友）。", "level": 1 },
+          { "q": "英文里有没有顿号「、」？", "options": ["没有——并列用逗号，最后一项前加 and", "有，跟中文一样", "只在名单里用"], "answer": 0, "explain": "英文键盘上就没这个键——apples, pears and grapes。", "level": 1 },
+          { "q": "英文书名怎么标？", "options": ["斜体，手写用引号或下划线", "加《》", "全部大写"], "answer": 0, "explain": "英文没有书名号——《》不能混入。", "level": 1 },
+          { "q": "英文标点后面要做什么？", "options": ["空一格再写下一个词", "紧贴着写", "空两行"], "answer": 0, "explain": "半角标点 + 一个空格——词与词也要空格。", "level": 1 },
+          { "q": "What a great goal 这句感叹句（G23）该配哪个收尾？", "options": ["感叹号 !", "句号 .", "问号 ?"], "answer": 0, "explain": "全体强奏配感叹号才响得起来。", "level": 1 },
+          { "q": "人名 li hua 写进英文作文该是？", "options": ["Li Hua", "li hua", "LI hua"], "answer": 0, "explain": "姓和名的首字母都大写——专有名词的身份灯。", "level": 1 },
+          { "q": "英文的省略号长什么样？", "options": ["三个点 ...", "六个点 ……", "一条横线"], "answer": 0, "explain": "英文省略号三个点；中文的六点省略号别混入。", "level": 1 },
+          { "q": "「进哪个乐团用哪个乐团的谱面记号」指的是？", "options": ["写英文就用英文的半角标点，中文记号不混入", "标点随便混用", "英文里可以用中文句号"], "answer": 0, "explain": "。、《》都是中文记号——英文作文里一个都不能出现。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 该用哪个记号",
+        "questions": [
+          { "q": "Where is the nearest bank___", "options": ["?", ".", "!"], "answer": 0, "explain": "特殊疑问句——问号收尾。", "level": 2 },
+          { "q": "___ often read stories to my little sister.", "options": ["I", "i", "me"], "answer": 0, "explain": "I 永远大写，且这里是主语。", "level": 2 },
+          { "q": "My birthday is in ___.", "options": ["May", "may", "MAY"], "answer": 0, "explain": "月份首字母大写。", "level": 2 },
+          { "q": "选出撇号用对的一句：", "options": ["It's time for lunch.", "Its time for lunch.", "Its' time for lunch."], "answer": 0, "explain": "It is time → It's——缩写撇号。", "level": 2 },
+          { "q": "选出「它的」用对的一句：", "options": ["The bird cleaned its feathers.", "The bird cleaned it's feathers.", "The bird cleaned its' feathers."], "answer": 0, "explain": "「它的」= its，不带撇。", "level": 2 },
+          { "q": "The wind was strong, ___ we still went hiking.", "options": ["but", "，", "（什么都不加）"], "answer": 0, "explain": "两个完整句要连奏线 but——光逗号接不住。", "level": 2 },
+          { "q": "选出并列写法正确的一句：", "options": ["We need eggs, flour and sugar.", "We need eggs、flour and sugar.", "We need eggs flour sugar."], "answer": 0, "explain": "英文并列用逗号，最后一项前 and——没有顿号。", "level": 2 },
+          { "q": "选出引语格式正确的一句：", "options": ["Dad said, \"The soup is too salty.\"", "Dad said, the soup is too salty.", "Dad said \"the soup is too salty\""], "answer": 0, "explain": "said 后逗号 + 引号罩住 + 引语大写开头 + 句点在罩内。", "level": 2 },
+          { "q": "选出大写全对的一句：", "options": ["Mr Wang teaches us Chinese on Friday.", "mr wang teaches us chinese on friday.", "Mr Wang Teaches Us Chinese On Friday."], "answer": 0, "explain": "称呼、语言名、星期戴帽；普通动词不戴。", "level": 2 },
+          { "q": "What a clever idea___", "options": ["!", "?", "，"], "answer": 0, "explain": "感叹句配感叹号。", "level": 2 },
+          { "q": "选出所有格正确的一句：", "options": ["This is Lucy's seat.", "This is Lucys seat.", "This is Lucy her seat."], "answer": 0, "explain": "名词所有格：Lucy's——撇号 + s。", "level": 2 },
+          { "q": "选出缩写正确的一项：", "options": ["doesn't", "does'nt", "doesnt'"], "answer": 0, "explain": "撇号站在省掉的 o 的位置——does not → doesn't。", "level": 2 },
+          { "q": "Could you pass me the salt___", "options": ["?", ".", "!"], "answer": 0, "explain": "客气的请求仍是问句——问号收尾。", "level": 2 },
+          { "q": "选出句子分隔正确的一项：", "options": ["The bell rang. Everyone ran out.", "The bell rang, everyone ran out.", "The bell rang everyone ran out."], "answer": 0, "explain": "两个完整句各自收拍——句号分开最稳。", "level": 2 },
+          { "q": "We spent the ___ holiday in Xi'an.", "options": ["National Day", "national day", "National day"], "answer": 0, "explain": "节日名整体大写——National Day。", "level": 2 },
+          { "q": "选出中英标点没混用的一句：", "options": ["I have two cats, and they love fish.", "I have two cats，and they love fish。", "I have two cats、and they love fish."], "answer": 0, "explain": "全角逗号「，」句号「。」顿号「、」都是中文记号——英文里全禁入。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 谱面纠错",
+        "questions": [
+          { "q": "病句 my aunt works in a hospital in wuhan. 该改几处大写？", "options": ["两处——My 和 Wuhan", "一处", "三处"], "answer": 0, "explain": "句首 My + 地名 Wuhan；hospital 是普通名词不戴帽。", "level": 3 },
+          { "q": "病句 I was tired, I went to bed early. 最顺的改法是？", "options": ["I was tired, so I went to bed early.", "保持原样", "I was tired, I go to bed early."], "answer": 0, "explain": "逗号连不住两整句——加 so 这条连奏线。", "level": 3 },
+          { "q": "病句 Do you like spring or autumn. 该怎么改？", "options": ["句号换问号", "句号换感叹号", "不用改"], "answer": 0, "explain": "选择疑问句也是问句——问号收尾。", "level": 3 },
+          { "q": "病句 The rabbit hurt it's leg. 病根是？", "options": ["it's 应为 its——「它的」不带撇", "rabbit 该大写", "leg 该大写"], "answer": 0, "explain": "「它的腿」是 its leg；it's 是 it is。", "level": 3 },
+          { "q": "病句 tom and i visited the science museum on saturday. 大写要补几处？", "options": ["三处——Tom、I、Saturday", "两处", "四处（museum 也要）"], "answer": 0, "explain": "人名 + I + 星期；science museum 非专有名词不戴帽。", "level": 3 },
+          { "q": "病句 She said, please close the door. 该怎么改？", "options": ["She said, \"Please close the door.\"", "She said please close the door", "She said：please close the door."], "answer": 0, "explain": "原话要引号罩住，引语开头大写。", "level": 3 },
+          { "q": "病句 I cant find my ruler. 病根是？", "options": ["cant 缺撇号——can't", "ruler 该大写", "缺感叹号"], "answer": 0, "explain": "cannot 的缩写要撇号占位——can't。", "level": 3 },
+          { "q": "病句 We read the book 《The Little Prince》 last month. 该怎么改？", "options": ["去掉《》——书名用斜体或引号", "保留《》", "书名全小写"], "answer": 0, "explain": "英文没有书名号——中文记号不混入。", "level": 3 },
+          { "q": "病句 My favourite subjects are maths、English and PE. 病根是？", "options": ["顿号——英文并列用逗号", "English 不该大写", "and 多余"], "answer": 0, "explain": "顿号是中文记号——maths, English and PE。", "level": 3 },
+          { "q": "病句 How beautiful the west lake is. 要改几处？", "options": ["两处——West Lake 大写 + 句尾感叹号", "一处", "不用改"], "answer": 0, "explain": "专有名词西湖戴帽；How 感叹句配 !。", "level": 3 },
+          { "q": "病句 Its raining hard outside. 病根是？", "options": ["Its 应为 It's——这里是 It is", "raining 拼错", "缺问号"], "answer": 0, "explain": "「正在下雨」是 It is raining——要带撇的 It's。", "level": 3 },
+          { "q": "病句 The match was exciting, the fans cheered loudly, the players hugged each other. 最好的改法是？", "options": ["拆成两三句，或在最后两段间加 and", "再多加几个逗号", "全部连成一句不加任何标点"], "answer": 0, "explain": "三个完整句串在逗号上——英文大忌，拆句或加连词。", "level": 3 },
+          { "q": "病句 my dog likes chasing it's tail on sunday mornings. 一共几处病？", "options": ["三处——My、its、Sunday", "两处", "四处"], "answer": 0, "explain": "句首 My；「它的」its 不带撇；星期 Sunday 戴帽。", "level": 3 },
+          { "q": "病句 \"Watch out\" shouted the guard. 缺了什么？", "options": ["引语收尾的感叹号（罩内）——\"Watch out!\" shouted the guard.", "shouted 该大写", "缺书名号"], "answer": 0, "explain": "引语的收尾记号留在玻璃罩里面。", "level": 3 },
+          { "q": "病句 We visited grandma in spring festival. 该改哪两处？", "options": ["Grandma 作称呼可大写，Spring Festival 节日必须大写", "全部小写", "spring 大写 festival 小写"], "answer": 0, "explain": "节日名整体戴帽——the Spring Festival。", "level": 3 },
+          { "q": "病句 are you free this afternoon i want to show you something. 最要紧的手术是？", "options": ["拆成两句：Are you free this afternoon? I want to show you something.", "只加一个句号", "中间加顿号"], "answer": 0, "explain": "问句 + 陈述句各自收拍——问号和大写一处不能少。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 整句排版",
+        "questions": [
+          { "q": "选出可以直接誊进作文的一句：", "options": ["Last Sunday, Tom and I flew kites in People's Park.", "last sunday, tom and I flew kites in people's park.", "Last Sunday，Tom and I flew kites in People's Park。"], "answer": 0, "explain": "大写四处齐 + 全部半角标点——第三句混了中文逗号句号。", "level": 4 },
+          { "q": "转述妈妈的原话「Don't be late again」，哪句格式全对？", "options": ["Mum said, \"Don't be late again.\"", "Mum said, don't be late again.", "Mum said \"don't be late again\"."], "answer": 0, "explain": "逗号 + 引号 + 引语大写 + 收尾在罩内——四件套齐全。", "level": 4 },
+          { "q": "日记开头写日期，哪个格式对？", "options": ["Saturday, June 6th", "saturday, june 6th", "Saturday、June 6th"], "answer": 0, "explain": "星期月份戴帽；分隔用半角逗号。", "level": 4 },
+          { "q": "哪句「问中带陈」处理对了？", "options": ["Could you tell me when the show starts?", "Could you tell me when does the show start?", "Could you tell me when the show starts."], "answer": 0, "explain": "从句坐正（G33）+ 整句是问句要问号——两条都不能丢。", "level": 4 },
+          { "q": "写贺卡的落款，哪个对？", "options": ["Yours, Li Ming", "yours, li ming", "Yours、Li Ming"], "answer": 0, "explain": "落款首词与人名戴帽，逗号半角。", "level": 4 },
+          { "q": "哪句三个撇号全用对了？", "options": ["It's Lucy's turn, isn't it?", "Its Lucys turn, isnt it?", "It's Lucys' turn, is'nt it?"], "answer": 0, "explain": "It's（=it is）+ Lucy's（所有格）+ isn't（缩写）——三处各归各位。", "level": 4 },
+          { "q": "作文里要写「我们读了《绿野仙踪》」，哪句对？", "options": ["We read The Wizard of Oz.（书名斜体/下划线）", "We read 《The Wizard of Oz》.", "We read \"the wizard of oz\"。"], "answer": 0, "explain": "英文书名不用《》；实词首字母大写。", "level": 4 },
+          { "q": "哪句把「兴奋的连喊两句」标对了？", "options": ["We won! We really won!", "We won, we really won.", "We won！We really won。"], "answer": 0, "explain": "两个完整句各配半角感叹号——第三句是全角记号。", "level": 4 },
+          { "q": "哪句逗号用得合法？", "options": ["After the rain stopped, we went out to play.", "The rain stopped, we went out to play.", "After the rain stopped we went out, to play."], "answer": 0, "explain": "状语从句提前后加逗号合法（G35）；第二句是逗号硬连两整句。", "level": 4 },
+          { "q": "英语书信开头的称呼，哪个对？", "options": ["Dear Mr Smith,", "dear mr smith,", "Dear mr Smith。"], "answer": 0, "explain": "Dear 大写 + 称呼 Mr 大写 + 半角逗号。", "level": 4 },
+          { "q": "哪句大写「只戴该戴的帽」？", "options": ["My cousin speaks English and French at home.", "My Cousin speaks english and french at Home.", "my cousin speaks English And French at home."], "answer": 0, "explain": "语言名戴帽；cousin、home 是普通名词不戴。", "level": 4 },
+          { "q": "考试改错题：In july, my family travelled to qingdao, we swam every day. 共几处错？", "options": ["三处——July、Qingdao、逗号连句", "两处", "四处"], "answer": 0, "explain": "月份 + 地名 + 第二个逗号该改 and 或句号。", "level": 4 },
+          { "q": "哪句「原话在前」的引语格式对？", "options": ["\"The last bus has gone,\" said the driver.", "\"The last bus has gone\" said, the driver.", "The last bus has gone, \"said the driver.\""], "answer": 0, "explain": "引语在前：逗号留在罩内，后接 said the driver。", "level": 4 },
+          { "q": "誊写检查：Its my turn now, isnt it 该补几处？", "options": ["三处——It's、isn't、句尾问号", "两处", "一处"], "answer": 0, "explain": "两个撇号 + 反义疑问句（G24）的问号。", "level": 4 },
+          { "q": "哪一段可以直接交卷？", "options": ["I have a dog. Its name is Dou Dou, and it loves the park near our home.", "I have a dog, its name is dou dou, it loves the park near our home.", "I have a Dog。Its name is Dou Dou，it loves the Park."], "answer": 0, "explain": "句号分句 + its（它的）+ 人名戴帽 + and 连句——四关全过。", "level": 4 },
+          { "q": "大考：找出全对的一句——", "options": ["On Friday afternoon, Miss Ye asked, \"Who can water the flowers this weekend?\" Tom and I put up our hands.", "on friday afternoon, miss ye asked, who can water the flowers this weekend? tom and i put up our hands.", "On Friday afternoon, Miss Ye asked, \"who can water the flowers this weekend\"? Tom and I put up our hands。"], "answer": 0, "explain": "星期、称呼、引语大写开头、问号在罩内、I 戴帽、半角句号——谱面记号一处不差。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "my cousin lives in hangzhou now.",
+      "fixed": "My cousin lives in Hangzhou now.",
+      "clue": "句首和地名两处身份灯没开——My 和 Hangzhou 都要大写。"
+    },
+    {
+      "sentence": "I like swimming, my brother likes running.",
+      "fixed": "I like swimming, and my brother likes running.",
+      "clue": "逗号连不住两个完整句——要加连奏线 and，或拆成两句。"
+    },
+    {
+      "sentence": "Could you tell me where the music room is.",
+      "fixed": "Could you tell me where the music room is?",
+      "clue": "整句是请求的问句——句号要换成问号，问意才送得出去。"
+    },
+    {
+      "sentence": "Its raining hard, so the sports meeting was put off.",
+      "fixed": "It's raining hard, so the sports meeting was put off.",
+      "clue": "「正在下雨」是 It is——要带撇号的 It's；its 是「它的」。"
+    },
+    {
+      "sentence": "We visited the great wall last october.",
+      "fixed": "We visited the Great Wall last October.",
+      "clue": "专有名词长城和月份 October 都要戴帽。"
+    },
+    {
+      "sentence": "tom and i joined the school choir in september.",
+      "fixed": "Tom and I joined the school choir in September.",
+      "clue": "人名、I、月份三处大写——I 在任何位置都戴帽。"
+    },
+    {
+      "sentence": "The coach said, we will practise at six tomorrow morning.",
+      "fixed": "The coach said, \"We will practise at six tomorrow morning.\"",
+      "clue": "原话没罩玻璃罩——引号 + 引语大写开头，才分得清哪些是教练的原话。"
+    }
+  ]
+}
