@@ -526,6 +526,17 @@
       "file": "./data/grammar/g47.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G48",
+      "tier": "精修",
+      "title": "复合句综合与长难句拆解",
+      "metaphor": "拆总谱：先找主奏，再一层层剥声部",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g48.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }

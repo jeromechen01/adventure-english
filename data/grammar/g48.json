@@ -1,0 +1,324 @@
+{
+  "$comment": "语法大厅 G48（V0.9 P4 精修层，三笔债之二）。比喻锚点：拆总谱：先找主奏，再一层层剥声部。兑现 G34 定语从句的全部留口：whose、非限制性定语从句（逗号补充说明）、关系副词 when/where/why、介词提前轻讲；并给出长难句拆解三步法（找主句主谓→圈接头词剥从句→逐层还原）。开头回指 G33-G37 从句四课。KET 不考，据实标注。全部内容原创。",
+  "id": "G48",
+  "tier": "精修",
+  "title": "复合句综合与长难句拆解",
+  "metaphor": "拆总谱：先找主奏，再一层层剥声部",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：KET 的句子很短，不考长难句，定语从句也只考最基础的 who/that。这一课是为初中/PET 打底——初中阅读的长句和 whose/where 选择题都在这儿。不用焦虑，学到就是赚到。",
+  "source": "original",
+  "sections": {
+    "essence": "拆总谱三步：先找主句主谓，再圈接头词剥从句，最后逐层还原。",
+    "why": "从句家族在 G33-G37 集齐了四个位置，G34 结尾还欠着三样：whose、逗号隔开的补充说明、when/where/why 当连音线——今天连本带利一起还。为什么要专开一课？因为初中往后，考卷上的句子会越来越长：一句话里两三个从句叠在一起，从头硬读必然读糊。但长难句不是新语法，它只是学过的声部叠了罗汉——应对办法不是背新规则，而是学会拆谱：第一步找主句主谓，也就是不躲在任何接头词后面、拿着报时执照的那对主奏；第二步圈出所有接头词（that/which/who/whose/when/where/because/if……），每个接头词领一个声部，把它连同自己的队伍用括号折叠起来；第三步先读折叠后的主干，再把声部一层层展开加回去。主奏线永远只有一条——找到它，再长的句子也是纸老虎。",
+    "metaphorStory": "银帆乐团来了部大部头交响曲，总谱摊开有一米宽，学徒看得头皮发麻。指挥拿红笔只画了三下：「第一笔，找主奏——整部谱子里，不跟在任何声部记号后面的主旋律只有一条。第二笔，圈声部记号——who、which、when、because，每个记号后面跟着的都是一个伴奏声部，用括号把它们整段折起来。第三笔，先唱折剩下的主干，唱顺了，再把括号一层层打开。」学徒照做，一米宽的总谱缩成了一行：The girl ... is my cousin。打开第一层括号：who is playing the flute（正吹长笛的那个）；再打开一层：which her grandpa made（笛子是爷爷做的）。指挥说：「看见没？声部里还能套声部，像镜子照镜子——但主奏线从头到尾只有一条。拆谱不是把音乐拆坏，是让你知道每个声部在为谁伴奏。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "拆谱三步法",
+          "detail": "① 找主句主谓：不在任何接头词后面、拿报时执照的那对；② 圈接头词，每个接头词领一个从句，整段折叠；③ 先读主干，再逐层展开。",
+          "example": "The girl (who is playing the flute (which her grandpa made)) is my cousin. 主干：The girl is my cousin."
+        },
+        {
+          "rule": "兑现一：whose——问「谁的」的装饰音",
+          "detail": "先行词的东西被从句提到，就用 whose 连接：whose = 先行词's，后面直接跟名词，不再加 his/her。人和物都能用。",
+          "example": "the boy whose schoolbag is blue ／ a house whose windows face south"
+        },
+        {
+          "rule": "兑现二：非限制性定语从句——逗号里的补充说明",
+          "detail": "两边加逗号，整段是「顺便一提」，删掉句子照样完整；不能用 that，关系词也不能省。没有逗号的（限制性）负责「锁定是哪一个」——逗号一加一减，意思会变。",
+          "example": "My uncle, who lives in Xiamen, is a sailor.（我只有一个叔叔，顺便说他住厦门）"
+        },
+        {
+          "rule": "兑现三：关系副词 when / where / why",
+          "detail": "先行词是时间用 when、地点用 where、原因（the reason）用 why。判断法：从句自己主谓宾齐全 → 用关系副词；从句缺主语或宾语 → 用 which/that。",
+          "example": "the day when we met ／ the park where we fly kites ／ the reason why she smiled"
+        },
+        {
+          "rule": "轻讲：关系副词 = 介词 + which",
+          "detail": "where 相当于 in/at which，when 相当于 on/in which——所以介词和 where 别叠用。认识即可，写作先用 where/when 最稳。",
+          "example": "the house where I was born = the house in which I was born（✗ where I was born in）"
+        },
+        {
+          "rule": "长难句阅读实操：先删修饰再回填",
+          "detail": "考场上遇到三行长的句子：先把括号内容（定语从句、插入语）临时蒙住，抓出主谓宾这条主奏线；理解了主干，再把修饰一层层放回去。",
+          "example": "谁在做什么——永远先回答这个问题。"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          { "en": "I know a girl whose father is a pilot.", "cn": "我认识一个女孩，她爸爸是飞行员。（whose = 女孩的）" },
+          { "en": "This is the playground where we do morning exercises.", "cn": "这就是我们做早操的操场。（地点 + where）" },
+          { "en": "I'll never forget the day when I first rode a bike.", "cn": "我忘不了第一次骑自行车的那天。（时间 + when）" },
+          { "en": "Mr Lu, who teaches us maths, runs every morning.", "cn": "教我们数学的卢老师每天晨跑。（逗号里顺便一提）" },
+          { "en": "Nobody knows the reason why the cat hates water.", "cn": "没人知道这只猫为什么讨厌水。（the reason + why）" }
+        ],
+        "mid": [
+          { "en": "The author whose new book just came out will visit our city.", "cn": "新书刚出版的那位作家要来我们城市。（whose + 名词，作从句主语）" },
+          { "en": "Qingyan, where my grandma grew up, is an old town with stone streets.", "cn": "青岩——我奶奶长大的地方——是座石板街的古镇。（地名后只能非限制）" },
+          { "en": "Do you remember the afternoon when we got caught in the rain?", "cn": "还记得咱们淋成落汤鸡的那个下午吗？（从句主谓宾齐全 → when）" },
+          { "en": "The song that the choir performed was written by a student whose name I forget.", "cn": "合唱团演的那首歌，是一个我忘了名字的学生写的。（一句两个声部）" },
+          { "en": "This is the shop in which the old photos were taken.", "cn": "这就是拍那些老照片的店。（介词 + which = where）" }
+        ],
+        "trap": [
+          { "en": "My brother, who works in Chengdu, is coming home for the holiday.", "cn": "我哥哥（在成都工作）要回家过节了。", "note": "加逗号 = 只有一个哥哥；去掉逗号就成了「在成都工作的那个哥哥」——暗示还有别的哥哥。" },
+          { "en": "I visited the factory where robots are made.", "cn": "我参观了制造机器人的工厂。", "note": "从句 robots are made 主谓齐全 → where；如果说 the factory which makes robots，从句缺主语 → which。" },
+          { "en": "The man whose umbrella I borrowed is my neighbour.", "cn": "我借了伞的那位先生是我邻居。", "note": "whose umbrella 整块在从句里当宾语——whose 后面不再补 his。" },
+          { "en": "The Great Wall, which millions of people visit every year, needs protecting.", "cn": "长城（每年数百万人参观）需要保护。", "note": "独一无二的事物后面只能非限制——不用锁定是「哪一座长城」。" },
+          { "en": "This is the reason why I called you so late.", "cn": "这就是我这么晚打给你的原因。", "note": "the reason 后用 why；口语也常干脆省成 This is why...。" },
+          { "en": "The town where the story happened no longer exists.", "cn": "故事发生的那座小镇已经不在了。", "note": "拆谱验证：主奏是 The town ... no longer exists——where 声部折叠后主干依然完整。" }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "My sister who studies in Wuhan sent me a postcard.（其实只有一个姐姐）",
+        "good": "My sister, who studies in Wuhan, sent me a postcard.",
+        "zone": "blocks",
+        "why": "不加逗号 = 锁定式，暗示你有好几个姐姐、单说武汉那个——家庭成员数量被语法改写了。"
+      },
+      {
+        "bad": "The man stood by the gate told me the way to the library.（想说：站在门口的人给我指了路）",
+        "good": "The man who stood by the gate told me the way. / The man standing by the gate told me the way.",
+        "zone": "blocks",
+        "why": "stood 和 told 两张报时执照零接头词硬焊——听的人不知道哪条是主奏线，句子当场散架。"
+      },
+      {
+        "bad": "I remember the day where we planted the ginkgo tree.",
+        "good": "I remember the day when we planted the ginkgo tree.",
+        "zone": "tested",
+        "why": "先行词是时间 the day——连音线用 when，不用 where。"
+      },
+      {
+        "bad": "This is the library which I often do my homework.",
+        "good": "This is the library where I often do my homework.",
+        "zone": "tested",
+        "why": "从句 I often do my homework 主谓宾齐全——不缺成分就轮到 where。"
+      },
+      {
+        "bad": "That's the reason when he missed the rehearsal.",
+        "good": "That's the reason why he missed the rehearsal.",
+        "zone": "tested",
+        "why": "the reason 的专属连音线是 why。"
+      },
+      {
+        "bad": "The girl whose her mother is a nurse sits next to me.",
+        "good": "The girl whose mother is a nurse sits next to me.",
+        "zone": "tested",
+        "why": "whose 已经是「她的」——后面不再叠 her。"
+      },
+      {
+        "bad": "Hangzhou, that is famous for the West Lake, attracts many visitors.",
+        "good": "Hangzhou, which is famous for the West Lake, attracts many visitors.",
+        "zone": "tested",
+        "why": "逗号后的补充说明不收 that——非限制性只用 which/who。"
+      },
+      {
+        "bad": "This is the village where my grandpa was born in.",
+        "good": "This is the village where my grandpa was born. / the village which my grandpa was born in",
+        "zone": "tested",
+        "why": "where 已含介词（= in which）——再挂个 in 就重复了。"
+      },
+      {
+        "bad": "The tall building stands in the square which was built last year.（想说楼是去年建的）",
+        "good": "The tall building which was built last year stands in the square.",
+        "zone": "tested",
+        "why": "装饰音要紧贴先行词（G34 的紧贴律）——甩到 square 后面，去年建的就成了广场。"
+      },
+      {
+        "bad": "Our headmaster, who you met him yesterday, used to be a singer.",
+        "good": "Our headmaster, who(m) you met yesterday, used to be a singer.",
+        "zone": "tested",
+        "why": "who 已经替「他」进了从句——原位不再留 him 复本。"
+      },
+      {
+        "bad": "The film we watched last weekend was great.（有人说必须补 that）",
+        "good": "省略完全合法——限制性从句作宾语的 that/which 可省。",
+        "zone": "minor",
+        "why": "口语书面都通行，不挡意思不设坑——但逗号后的非限制性不能省。"
+      },
+      {
+        "bad": "the house in which I grew up（有人说太老派必须改 where）",
+        "good": "in which 和 where 都对——正式文体常见 in which。",
+        "zone": "minor",
+        "why": "两种写法同义——读得懂就行，别互相纠正。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "她爸爸是飞行员的那个女孩（「的」字连环套）",
+        "en": "the girl whose father is a pilot",
+        "diff": "中文把修饰全垒在名词前；英语把长修饰挂在名词后，用 whose 认领「谁的」。"
+      },
+      {
+        "cn": "我们第一次见面的那天／做早操的操场（都是「的」）",
+        "en": "the day when we first met ／ the playground where we exercise",
+        "diff": "中文一个「的」通吃；英语按先行词类型换连音线——时间 when、地点 where、原因 why。"
+      },
+      {
+        "cn": "我叔叔——他住厦门——是个海员。（破折号补充）",
+        "en": "My uncle, who lives in Xiamen, is a sailor.",
+        "diff": "中文用破折号或括号做补充；英语用一对逗号——而且逗号有无会改变「叔叔有几个」。"
+      },
+      {
+        "cn": "长句从头读到尾，靠语感断句。",
+        "en": "先找主谓，再折叠从句，逐层展开。",
+        "diff": "中文句子靠流水式短句推进；英语靠嵌套——所以读英语长句要会拆，不能硬冲。"
+      },
+      {
+        "cn": "谁的？——加个「的」就行。",
+        "en": "whose——代词专门变了一个格。",
+        "diff": "中文所有格靠助词；英语的 who/whose/whom 是古英语变格的活化石（G03 的老团员）。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "一找主奏二圈接头三折叠：主谓宾先立线，声部逐层还原；缺成分 which/that，不缺 when/where/why，问谁的用 whose，逗号里不用 that。",
+      "steps": [
+        "找主句主谓：不躲在任何接头词后面、拿报时执照的那对——主奏线一句只有一条。",
+        "圈接头词：that/which/who/whose/when/where/why/because/if/although……每个接头词领一个声部。",
+        "把每个从句连同队伍用括号折叠，先读主干——「谁在做什么」清楚了再展开。",
+        "选关系词三连问：先行词的东西？→ whose；从句缺主语宾语？→ which/that；主谓宾齐全？→ 时间 when、地点 where、the reason why。",
+        "看逗号：一对逗号 = 顺便一提，用 which/who 不用 that，也不能省；没逗号 = 锁定是哪一个。",
+        "自查两条：where/when 别再叠介词；关系词进了从句，原位不留 him/her/it 复本。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝，咱们玩『拆总谱』：你从课本或分级读物里挑一个最长的英语句子抄在纸上，然后拿三支笔——红笔划出主句的主语和谓语（主奏线），蓝笔圈出所有接头词（who、which、when、because 这些小词），铅笔把每个接头词后面的整段用括号折起来。折完你把主干念给我听，再一层层打开括号，每打开一层用中文告诉我这段在修饰谁。我不懂英语没关系，我只当质检员核对两条：红笔的主奏线是不是只有一条？每个括号是不是都有自己的蓝色接头词领队？」每周拆三句，一个月后她看长句会像看乐高——再长也只是积木搭的。",
+      "questions": [
+        "拆一个长句的三步是什么？第一步先找什么？",
+        "the day 后面用 when 还是 where？怎么用「从句缺不缺成分」来判断？",
+        "「My sister, who studies in Wuhan」加不加逗号，姐姐的数量有什么变化？"
+      ]
+    },
+    "echo": "从句四课加上今天的收口，整个从句家族到齐了。回头看，长难句没有带来任何新纪律——坐正、对表、紧贴、一句一个领队，全是 G33-G37 的老规矩，只是允许声部里再套声部，像镜子照镜子，一层套一层却始终只有一条主奏线。这种「有限规则的无限嵌套」正是英语规律性的顶峰。而新零件 whose，又是一件活化石：现代英语的名词早把变格丢光了，只剩代词还守着阵地——who、whose、whom 一门三格，正是 G03 说过的「代词变格幸存」的最后一块领地。最常用的词守住最古老的形态，最规整的嵌套长在最简单的规则上——英语的秩序，两头都占。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#9333EA'>G48 · 长难句拆解</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>拆总谱：先找主奏，再一层层剥声部</text><rect x='36' y='110' width='648' height='104' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='140' text-anchor='middle' font-size='18' font-weight='bold' fill='#9333EA'>🎼 拆谱三步</text><text x='360' y='168' text-anchor='middle' font-size='15' fill='#5A4A42'>① 找主句主谓（不在接头词后面的那对）② 圈接头词折叠从句 ③ 先读主干再逐层展开</text><text x='360' y='196' text-anchor='middle' font-size='14' fill='#94A3B8'>The girl (who is playing the flute) is my cousin. → 主干：The girl is my cousin.</text><rect x='36' y='234' width='648' height='142' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='264' text-anchor='middle' font-size='18' font-weight='bold' fill='#9333EA'>🆕 三样新零件（G34 的欠账）</text><text x='360' y='294' text-anchor='middle' font-size='15' fill='#5A4A42'>whose 问「谁的」：the boy whose bag is blue（后面不加 his/her）</text><text x='360' y='322' text-anchor='middle' font-size='15' fill='#5A4A42'>一对逗号 = 顺便一提：不用 that、不能省；没逗号 = 锁定哪一个</text><text x='360' y='350' text-anchor='middle' font-size='15' fill='#5A4A42'>从句不缺成分 → 时间 when · 地点 where · the reason why（= 介词+which）</text><rect x='36' y='396' width='648' height='60' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='420' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🔍 关系词三连问</text><text x='360' y='446' text-anchor='middle' font-size='14' fill='#5A4A42'>谁的？whose ｜ 从句缺主语/宾语？which·that ｜ 主谓宾齐全？when·where·why</text><rect x='36' y='472' width='648' height='46' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='501' text-anchor='middle' font-size='14' fill='#C0392B'>⚠️ the day where ✗ · 逗号后 that ✗ · whose her ✗ · where...in ✗ · 零接头词双谓语 ✗</text><text x='360' y='544' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 不考长难句——为初中 / PET 打底，学到就是赚到</text><text x='360' y='578' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：whose 是代词变格的最后阵地 · 嵌套无限，主奏线只有一条 · 英语奇遇记 🦊 G48</text></svg>",
+    "alt": "G48 记忆卡：长难句拆解三步——找主句主谓、圈接头词折叠从句、逐层展开。三样新零件：whose 问谁的（后不加 his/her）；一对逗号=顺便一提（不用 that 不能省）；关系副词 when/where/why 用于从句不缺成分时（=介词+which）。关系词三连问；警示 the day where、逗号后 that、whose her、where...in、零接头词双谓语五类错误；KET 不考，为初中/PET 打底。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 总谱的结构",
+        "questions": [
+          { "q": "拆长难句的第一步是？", "options": ["找主句主谓（主奏线）", "从头逐词翻译", "数一共几个单词"], "answer": 0, "explain": "先回答「谁在做什么」——主奏线一句只有一条。", "level": 1 },
+          { "q": "主句的谓语和从句的谓语怎么区分？", "options": ["躲在接头词后面的是从句谓语", "长的是主句谓语", "前面的一定是主句谓语"], "answer": 0, "explain": "接头词（who/which/when…）领走的声部里的动词，都不是主奏。", "level": 1 },
+          { "q": "The boy (who sits behind me) draws well. 主奏线是？", "options": ["The boy draws well", "who sits behind me", "The boy sits"], "answer": 0, "explain": "折叠 who 声部后剩下的就是主干。", "level": 1 },
+          { "q": "whose 是问什么的连音线？", "options": ["「谁的」——先行词的东西", "「在哪」", "「何时」"], "answer": 0, "explain": "whose = 先行词's，后面直接跟名词。", "level": 1 },
+          { "q": "whose 后面还要不要加 his/her？", "options": ["不要——whose 已经是「他的/她的」", "要，更清楚", "看主语"], "answer": 0, "explain": "the girl whose mother...——再加 her 就是复本。", "level": 1 },
+          { "q": "一对逗号夹着的定语从句是什么性质？", "options": ["顺便一提的补充说明，删掉句子仍完整", "锁定是哪一个", "强调句"], "answer": 0, "explain": "非限制性——像悄悄话，整段可摘除。", "level": 1 },
+          { "q": "逗号后的补充说明能不能用 that 开头？", "options": ["不能——只用 which/who", "能，that 万能", "只能用 that"], "answer": 0, "explain": "that 进不了逗号的门——非限制性用 which/who。", "level": 1 },
+          { "q": "先行词是时间（the day / the year），连音线用？", "options": ["when", "where", "which 永远"], "answer": 0, "explain": "时间配 when——前提是从句自己成分齐全。", "level": 1 },
+          { "q": "先行词是地点且从句主谓宾齐全，连音线用？", "options": ["where", "who", "whom"], "answer": 0, "explain": "地点 + 不缺成分 → where。", "level": 1 },
+          { "q": "the reason 后面的专属连音线是？", "options": ["why", "where", "when"], "answer": 0, "explain": "the reason why...——原因专线。", "level": 1 },
+          { "q": "从句里缺主语或宾语时，该用哪类关系词？", "options": ["which / that（它进去当那个成分）", "when / where / why", "because"], "answer": 0, "explain": "缺成分就得有人顶上——which/that 亲自进从句当成分。", "level": 1 },
+          { "q": "where 相当于哪个组合？", "options": ["介词 + which（如 in which）", "which + 介词提前无关", "that + when"], "answer": 0, "explain": "where = in/at which——所以 where 后面别再叠介词。", "level": 1 },
+          { "q": "「声部里还能套声部」说明英语从句可以？", "options": ["嵌套——从句里再带从句", "最多一层", "不能同时出现两个"], "answer": 0, "explain": "镜子照镜子——但主奏线仍然只有一条。", "level": 1 },
+          { "q": "考场遇到三行长的句子，最先该做什么？", "options": ["蒙住修饰成分，抓主谓宾", "查每个生词", "从最后一个词倒着读"], "answer": 0, "explain": "先删修饰再回填——主干顺了，修饰才挂得上。", "level": 1 },
+          { "q": "限制性和非限制性，哪种负责「锁定是哪一个」？", "options": ["不带逗号的限制性", "带逗号的非限制性", "都负责锁定"], "answer": 0, "explain": "没逗号才锁定——加了逗号就只是顺便一提。", "level": 1 },
+          { "q": "The town (where the story happened) no longer exists. 折叠后主干是？", "options": ["The town no longer exists", "the story happened", "The town happened"], "answer": 0, "explain": "where 声部折起来——主奏线依然完整，拆谱验证通过。", "level": 1 }
+        ]
+      },
+      {
+        "name": "选一选 · 三样新零件",
+        "questions": [
+          { "q": "I have a friend ___ brother is a diving coach.", "options": ["whose", "who", "which"], "answer": 0, "explain": "「朋友的哥哥」——问谁的用 whose。", "level": 2 },
+          { "q": "This is the lab ___ we do science experiments.", "options": ["where", "which", "whose"], "answer": 0, "explain": "从句 we do experiments 成分齐全——地点用 where。", "level": 2 },
+          { "q": "I still remember the morning ___ we watched the flag-raising.", "options": ["when", "where", "which"], "answer": 0, "explain": "先行词是时间 the morning——when。", "level": 2 },
+          { "q": "Nobody told me the reason ___ the trip was put off.", "options": ["why", "when", "where"], "answer": 0, "explain": "the reason 专线——why。", "level": 2 },
+          { "q": "Aunt Mei, ___ lives next door, often brings us soup.", "options": ["who", "that", "whose"], "answer": 0, "explain": "逗号里的补充说明——用 who，that 进不了逗号的门。", "level": 2 },
+          { "q": "The old temple, ___ stands by the river, is 600 years old.", "options": ["which", "that", "where"], "answer": 0, "explain": "非限制 + 物 → which；从句缺主语所以不用 where。", "level": 2 },
+          { "q": "The boy ___ picture won first prize is in Class 3.", "options": ["whose", "who", "whom"], "answer": 0, "explain": "男孩的画——whose picture。", "level": 2 },
+          { "q": "Is this the stop ___ we should get off?", "options": ["where", "which", "whose"], "answer": 0, "explain": "get off 后不缺宾语——成分齐全用 where。", "level": 2 },
+          { "q": "Is this the bus ___ goes to the science museum?", "options": ["which", "where", "when"], "answer": 0, "explain": "从句缺主语——which 亲自进去当主语。", "level": 2 },
+          { "q": "The year 2008, ___ the Olympics came to Beijing, means a lot to my parents.", "options": ["when", "which", "that"], "answer": 0, "explain": "非限制 + 时间——when；从句成分齐全。", "level": 2 },
+          { "q": "The scientist ___ team made the discovery gave a talk online.", "options": ["whose", "who", "which"], "answer": 0, "explain": "科学家的团队——whose team。", "level": 2 },
+          { "q": "West Street, ___ you can taste all kinds of snacks, gets crowded at night.", "options": ["where", "which", "that"], "answer": 0, "explain": "非限制 + 地点 + 成分齐全——where。", "level": 2 },
+          { "q": "The house ___ my grandpa was born is now a small museum.", "options": ["where", "which", "whose"], "answer": 0, "explain": "was born 不缺成分——where（= in which）。", "level": 2 },
+          { "q": "The house ___ we bought last year needs painting.", "options": ["which", "where", "when"], "answer": 0, "explain": "bought 缺宾语——which 进去补位；不能用 where。", "level": 2 },
+          { "q": "Mr Zhao, ___ you met at the gate just now, is our new librarian.", "options": ["whom", "that", "whose"], "answer": 0, "explain": "非限制 + 作宾语的人——whom（who 也可），that 不行。", "level": 2 },
+          { "q": "That was the moment ___ the whole hall went quiet.", "options": ["when", "where", "why"], "answer": 0, "explain": "时间先行词 the moment——when。", "level": 2 }
+        ]
+      },
+      {
+        "name": "改一改 · 声部纠错",
+        "questions": [
+          { "q": "哪句连音线接对了？（我忘不了我们赢得合唱比赛的那一天）", "options": ["I'll never forget the day when we won the singing contest.", "I'll never forget the day where we won the singing contest.", "I'll never forget the day why we won the singing contest."], "answer": 0, "explain": "the day 是时间——when。", "level": 3 },
+          { "q": "哪句写对了？（这就是我学游泳的那个泳池）", "options": ["This is the pool where I learned to swim.", "This is the pool which I learned to swim.", "This is the pool where I learned to swim in."], "answer": 0, "explain": "成分齐全用 where；where 后面别再叠 in。", "level": 3 },
+          { "q": "哪句写对了？（我同桌——她妈妈是护士——想学医）", "options": ["My deskmate, whose mother is a nurse, wants to study medicine.", "My deskmate, whose her mother is a nurse, wants to study medicine.", "My deskmate, that her mother is a nurse, wants to study medicine."], "answer": 0, "explain": "whose 后不加 her；逗号里也不用 that。", "level": 3 },
+          { "q": "哪句写对了？（苏州——以园林闻名——离上海很近）", "options": ["Suzhou, which is famous for its gardens, is close to Shanghai.", "Suzhou, that is famous for its gardens, is close to Shanghai.", "Suzhou which is famous for its gardens is close to Shanghai."], "answer": 0, "explain": "地名独一无二——必须非限制，逗号 + which。", "level": 3 },
+          { "q": "哪句写对了？（告诉我你迟到的原因）", "options": ["Tell me the reason why you were late.", "Tell me the reason where you were late.", "Tell me the reason when you were late."], "answer": 0, "explain": "the reason why——原因专线。", "level": 3 },
+          { "q": "哪句的主奏线没散架？（站在台上的女孩是领唱）", "options": ["The girl who stands on the stage is the lead singer.", "The girl stands on the stage is the lead singer.", "The girl stands on the stage she is the lead singer."], "answer": 0, "explain": "两个谓语之间必须有接头词——who 领走一个，主奏线才唯一。", "level": 3 },
+          { "q": "哪句没留复本？（你刚才见到的那位医生是我舅舅）", "options": ["The doctor you met just now is my uncle.", "The doctor you met him just now is my uncle.", "The doctor whom you met him just now is my uncle."], "answer": 0, "explain": "关系词（含省略的）已替宾语进从句——原位不留 him。", "level": 3 },
+          { "q": "哪句装饰音贴对了位置？（去年栽的那棵树在校门口）", "options": ["The tree which was planted last year stands at the school gate.", "The tree stands at the school gate which was planted last year.", "The tree stands which was planted last year at the school gate."], "answer": 0, "explain": "装饰音紧贴先行词——甩到 gate 后面，去年栽的就成了校门。", "level": 3 },
+          { "q": "哪句写对了？（外婆——她做的泡菜一绝——住在乡下）", "options": ["Grandma, whose pickles are amazing, lives in the countryside.", "Grandma, who her pickles are amazing, lives in the countryside.", "Grandma whose pickles are amazing lives in the countryside, only one."], "answer": 0, "explain": "外婆独一无二——非限制逗号 + whose。", "level": 3 },
+          { "q": "哪句写对了？（那是霞光把天染红的一个傍晚）", "options": ["It was an evening when the sunset turned the sky red.", "It was an evening where the sunset turned the sky red.", "It was an evening which the sunset turned the sky red."], "answer": 0, "explain": "时间先行词 + 从句成分齐全——when。", "level": 3 },
+          { "q": "哪句写对了？（他把书还给了图书管理员，这让管理员很高兴）", "options": ["He returned the books on time, which made the librarian happy.", "He returned the books on time, that made the librarian happy.", "He returned the books on time made the librarian happy."], "answer": 0, "explain": "逗号 + which 可指代前面整件事——that 进不了逗号的门。", "level": 3 },
+          { "q": "哪句写对了？（这就是青蛙过冬的池塘）", "options": ["This is the pond where frogs spend the winter.", "This is the pond which frogs spend the winter.", "This is the pond where frogs spend the winter in."], "answer": 0, "explain": "spend the winter 成分齐全——where，且不再叠 in。", "level": 3 },
+          { "q": "哪句写对了？（书包是蓝色的那个男孩在等你）", "options": ["The boy whose schoolbag is blue is waiting for you.", "The boy who schoolbag is blue is waiting for you.", "The boy which schoolbag is blue is waiting for you."], "answer": 0, "explain": "「男孩的书包」——whose 一步到位。", "level": 3 },
+          { "q": "哪句写对了？（我们参观了机器人被组装的车间）", "options": ["We visited the workshop where the robots are put together.", "We visited the workshop which the robots are put together.", "We visited the workshop whose the robots are put together."], "answer": 0, "explain": "从句是完整的被动句不缺成分——where。", "level": 3 },
+          { "q": "哪句写对了？（李奶奶——你昨天帮过她——今天送来了桔子）", "options": ["Granny Li, whom you helped yesterday, brought us oranges today.", "Granny Li, that you helped yesterday, brought us oranges today.", "Granny Li, whom you helped her yesterday, brought us oranges today."], "answer": 0, "explain": "非限制 + 宾语人 → whom；原位不留 her。", "level": 3 },
+          { "q": "哪句写对了？（这是我第一次登台的那个剧院）", "options": ["This is the theatre where I first went on stage.", "This is the theatre which I first went on stage.", "This is the theatre where I first went on stage at."], "answer": 0, "explain": "went on stage 成分齐全——where，别再叠 at。", "level": 3 }
+        ]
+      },
+      {
+        "name": "用一用 · 拆真的长难句",
+        "questions": [
+          { "q": "拆谱：The letter that Grandpa wrote during the war, which Mum keeps in a wooden box, made everyone cry. 主奏线是？", "options": ["The letter made everyone cry", "Grandpa wrote during the war", "Mum keeps in a wooden box"], "answer": 0, "explain": "折叠 that 声部和逗号里的 which 声部——主干只剩 The letter made everyone cry。", "level": 4 },
+          { "q": "拆谱：The girl whose painting won the prize said that she practised every day. 这句有几个声部（从句）？", "options": ["两个——whose 声部和 that 声部", "一个", "三个"], "answer": 0, "explain": "whose painting won the prize 修饰 girl；that she practised every day 坐宾语位（G33）。", "level": 4 },
+          { "q": "把两句合成一句：I met a writer. + The writer's novels are popular in our class.", "options": ["I met a writer whose novels are popular in our class.", "I met a writer who novels are popular in our class.", "I met a writer, that novels are popular in our class."], "answer": 0, "explain": "「作家的小说」——whose 认领。", "level": 4 },
+          { "q": "把两句合成一句：We'll always remember the summer. + We learned to camp by the lake that summer.", "options": ["We'll always remember the summer when we learned to camp by the lake.", "We'll always remember the summer where we learned to camp by the lake.", "We'll always remember the summer which we learned to camp by the lake."], "answer": 0, "explain": "时间先行词 + 从句成分齐全——when。", "level": 4 },
+          { "q": "只有一位班主任，想补一句「她教了我们三年」，哪句对？", "options": ["Our head teacher, who has taught us for three years, is retiring.", "Our head teacher who has taught us for three years is retiring.", "Our head teacher, that has taught us for three years, is retiring."], "answer": 0, "explain": "独一无二 → 非限制逗号；逗号里用 who。", "level": 4 },
+          { "q": "拆谱：Because the bridge that leads to the village was flooded, the students who live there stayed at school. 主奏线是？", "options": ["the students stayed at school", "the bridge was flooded", "who live there"], "answer": 0, "explain": "Because 领的是状语声部（里面还套着 that 声部）——主句是 the students (who...) stayed at school。", "level": 4 },
+          { "q": "阅读长句先蒙住哪部分？The concert (which had been planned for months) was cancelled because of the storm.", "options": ["蒙住 which 声部，先读 The concert was cancelled...", "蒙住 The concert", "蒙住 because of the storm 和主语"], "answer": 0, "explain": "先删修饰抓主干——音乐会因暴风雨取消了；筹备了几个月是修饰。", "level": 4 },
+          { "q": "选出「锁定」和「顺便一提」都用对的一组：", "options": ["The cousin who lives in Dalian visited us. / My father, who loves fishing, got up at five.", "The cousin, who lives in Dalian, visited us — I have three cousins. / My father who loves fishing got up at five — I have one father.", "两组没区别"], "answer": 0, "explain": "多个表亲要锁定（无逗号）；父亲只有一个只能顺便一提（有逗号）。", "level": 4 },
+          { "q": "把三句合成一句：This is the town. + My mother grew up in the town. + The town is famous for kites.", "options": ["This is the town where my mother grew up, which is famous for kites.", "This is the town which my mother grew up, where is famous for kites.", "This is the town where my mother grew up in, which famous for kites."], "answer": 0, "explain": "grew up 成分齐全→where；补充说明→逗号+which is famous——两个声部各就各位。", "level": 4 },
+          { "q": "拆谱：Do you know the reason why the concert that we waited so long for was put off? 主奏线是？", "options": ["Do you know the reason", "the concert was put off", "we waited so long"], "answer": 0, "explain": "主句是问句 Do you know the reason——why 声部里又套了个 that 声部（镜子照镜子）。", "level": 4 },
+          { "q": "哪句嵌套没散架？（我叔叔送我的那本书的作者要来签售）", "options": ["The author of the book that my uncle gave me is coming to sign books.", "The author of the book my uncle gave me it is coming to sign books.", "The author of the book that my uncle gave me are coming to sign books."], "answer": 0, "explain": "that 声部折叠后主干 The author is coming——主谓对齐、无复本。", "level": 4 },
+          { "q": "写作升级：想在「Beijing is worth visiting」里补一句「我出生在那儿」，哪句最好？", "options": ["Beijing, where I was born, is worth visiting.", "Beijing where I was born is worth visiting.", "Beijing, which I was born, is worth visiting."], "answer": 0, "explain": "地名必须非限制；was born 成分齐全用 where。", "level": 4 },
+          { "q": "拆谱找病：The photo which you took it at the picnic, that I like very much, is on my desk. 病根有几处？", "options": ["两处——took 后多了 it，逗号后不能用 that", "一处", "没有病"], "answer": 0, "explain": "which 已替宾语进从句（去 it）；非限制用 which 不用 that。", "level": 4 },
+          { "q": "拆谱：What she said at the meeting, which surprised us all, turned out to be true. 主句的主语是？", "options": ["What she said at the meeting（整段当主语）", "she", "which"], "answer": 0, "explain": "G37 的整段主奏 + 逗号 which 补充——主干：What she said turned out to be true。", "level": 4 },
+          { "q": "the day / the place / the reason 三个先行词后接从句，从句都不缺成分时连音线依次是？", "options": ["when / where / why", "where / when / why", "which / which / which"], "answer": 0, "explain": "时间地点原因各归各线——三连问的最后一问。", "level": 4 },
+          { "q": "大考：合并成一句——I'll show you the workshop. + My grandpa repairs violins there. + His violins are sold all over the country.", "options": ["I'll show you the workshop where my grandpa, whose violins are sold all over the country, repairs violins.", "I'll show you the workshop which my grandpa, that violins are sold all over the country, repairs violins there.", "I'll show you the workshop where my grandpa whose violins sold all over country repairs there."], "answer": 0, "explain": "地点声部 where + 补充声部 whose 嵌套——原位 there 撤掉，主奏线 I'll show you the workshop 只有一条。", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "I still remember the day where we first visited the music school.",
+      "fixed": "I still remember the day when we first visited the music school.",
+      "clue": "先行词是时间 the day——连音线要用 when，不是 where。"
+    },
+    {
+      "sentence": "This is the village where my grandpa grew up in.",
+      "fixed": "This is the village where my grandpa grew up.",
+      "clue": "where 已经含了介词（= in which）——句尾再挂 in 就重复了。"
+    },
+    {
+      "sentence": "The writer, that visited our school last week, signed books for us.",
+      "fixed": "The writer, who visited our school last week, signed books for us.",
+      "clue": "一对逗号里的补充说明不收 that——非限制性只用 who/which。"
+    },
+    {
+      "sentence": "Do you know the girl whose her father is our PE teacher?",
+      "fixed": "Do you know the girl whose father is our PE teacher?",
+      "clue": "whose 已经是「她的」——后面再加 her 就是复本。"
+    },
+    {
+      "sentence": "Please tell me the reason when you handed in the report late again.",
+      "fixed": "Please tell me the reason why you handed in the report late again.",
+      "clue": "the reason 的专属连音线是 why。"
+    },
+    {
+      "sentence": "The boy sat behind me kept talking during the whole film.",
+      "fixed": "The boy who sat behind me kept talking during the whole film.",
+      "clue": "sat 和 kept 两张报时执照零接头词硬焊——要让 who 领走一个声部，主奏线才唯一。"
+    },
+    {
+      "sentence": "My hometown, which famous for its bamboo sea, lies in the south of Sichuan.",
+      "fixed": "My hometown, which is famous for its bamboo sea, lies in the south of Sichuan.",
+      "clue": "which 声部里丢了报时的 is——从句也得有自己完整的主谓。"
+    }
+  ]
+}
