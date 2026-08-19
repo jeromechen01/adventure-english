@@ -504,6 +504,17 @@
       "file": "./data/grammar/g45.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G46",
+      "tier": "精修",
+      "title": "非谓语综合辨析（to do / doing / done 三选一）",
+      "metaphor": "同一乐手换三种乐器，认乐器不认人",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g46.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
