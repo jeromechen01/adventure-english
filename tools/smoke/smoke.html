@@ -78,6 +78,8 @@
       await visit('grade3', 'grammar-hall', { lesson: 'G29' }); // P3 样课：进阶层被动语态
       await visit('grade3', 'grammar-hall', { lesson: 'G32' }); // P3 续批首课：分词作定语与表语
       await visit('grade3', 'grammar-hall', { lesson: 'G42' }); // P3 收官：进阶层末课 构词法
+      await visit('grade3', 'grammar-hall', { lesson: 'G43' }); // P4：精修层首课 虚拟语气初步
+      await visit('grade3', 'grammar-hall', { lesson: 'G50' }); // P4 收官：50 课末课 中式英语16类
 
       // 语法大厅闯练引擎实跑：四环节列表 → 环节1 答满 16 题 → 结果页；侦探关提交一次
       const hallDrill = {};
@@ -237,7 +239,9 @@
       const g29 = await lz.loadGrammarLesson('G29');     // P3 样课：进阶层被动语态
       const g32 = await lz.loadGrammarLesson('G32');     // P3 续批首课
       const g42 = await lz.loadGrammarLesson('G42');     // P3 收官：进阶层末课
-      const missing = await lz.loadGrammarLesson('G43'); // 精修层未开工，应返回 null 且不抛（G27-G42 已入库）
+      const g43 = await lz.loadGrammarLesson('G43');     // P4：精修层首课
+      const g50 = await lz.loadGrammarLesson('G50');     // P4 收官：50 课满编
+      const missing = await lz.loadGrammarLesson('G51'); // 50 课已满编，G51 不存在，应返回 null 且不抛
       const stats = lz.cacheStats();
 
       // === 离线复跑：清掉内存缓存 → 服务器切断网 → 三条线再走一遍，全部靠 SW 缓存 ===
@@ -257,6 +261,8 @@
       await visit('offline-grade3', 'grammar-hall', { lesson: 'G29' });
       await visit('offline-grade3', 'grammar-hall', { lesson: 'G32' });
       await visit('offline-grade3', 'grammar-hall', { lesson: 'G42' });
+      await visit('offline-grade3', 'grammar-hall', { lesson: 'G43' });
+      await visit('offline-grade3', 'grammar-hall', { lesson: 'G50' });
       // P2b 离线：带 fromKet 的深挖落地页（G07 在线访问过 → 内容缓存可读；映射表在壳里）
       await visit('offline-grade3', 'grammar-hall', { lesson: 'G07', fromKet: 'L4' });
       p2b.offlineBackEntry = !!app.querySelector('#backKetBtn');
@@ -295,6 +301,8 @@
           g29Loaded: !!(g29 && g29.id === 'G29' && g29.practice.stages.length === 4 && g29.detective.length === 7),
           g32Loaded: !!(g32 && g32.id === 'G32' && g32.practice.stages.length === 4 && g32.detective.length === 7),
           g42Loaded: !!(g42 && g42.id === 'G42' && g42.practice.stages.length === 4 && g42.detective.length === 7),
+          g43Loaded: !!(g43 && g43.id === 'G43' && g43.practice.stages.length === 4 && g43.detective.length === 7),
+          g50Loaded: !!(g50 && g50.id === 'G50' && g50.practice.stages.length === 4 && g50.detective.length === 8),
           missingLessonReturnsNull: missing === null,
           skeletonOk: lz.skeletonHTML(3).includes('正在加载'),
           stats
