@@ -493,6 +493,17 @@
       "file": "./data/grammar/g44.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G45",
+      "tier": "精修",
+      "title": "强调句 It is ... that ...",
+      "metaphor": "打聚光灯：把某个乐手单独照亮",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g45.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
