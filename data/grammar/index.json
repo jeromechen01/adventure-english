@@ -471,6 +471,17 @@
       "file": "./data/grammar/g42.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G43",
+      "tier": "精修",
+      "title": "虚拟语气初步（If I were you / I wish）",
+      "metaphor": "排练时「假设走一遍」，不是真演出",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g43.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
