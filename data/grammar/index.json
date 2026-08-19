@@ -548,6 +548,17 @@
       "file": "./data/grammar/g49.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G50",
+      "tier": "精修",
+      "title": "中式英语专项（16 类总表）",
+      "metaphor": "最后一次总排练：把老毛病一次点完",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g50.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
