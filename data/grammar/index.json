@@ -515,6 +515,17 @@
       "file": "./data/grammar/g46.json",
       "questionCount": 64,
       "status": "done"
+    },
+    {
+      "id": "G47",
+      "tier": "精修",
+      "title": "时态十二格总览与横向辨析",
+      "metaphor": "一张总时间表：调×时刻的坐标系",
+      "ketRelevance": 1,
+      "ketLessonMap": null,
+      "file": "./data/grammar/g47.json",
+      "questionCount": 64,
+      "status": "done"
     }
   ]
 }
