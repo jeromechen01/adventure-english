@@ -58,9 +58,9 @@ export function renderShootGame(app, data, grade) {
         <button id="quitBtn" class="text-sm text-gray-500">退出</button>
         <div class="flex gap-3 text-sm font-bold">
           <span>⏱️ ${timeLeft}s</span>
-          <span class="text-primary">⭐ ${score}</span>
+          <span class="text-primary-ink">⭐ ${score}</span>
           <span>${'❤️'.repeat(lives)}</span>
-          ${combo >= 2 ? `<span class="text-orange-500">🔥${combo}</span>` : ''}
+          ${combo >= 2 ? `<span class="text-orange-700">🔥${combo}</span>` : ''}
         </div>
       </div>
     `;
@@ -93,15 +93,15 @@ export function renderShootGame(app, data, grade) {
         <button id="quitBtn" class="text-sm text-gray-500">退出</button>
         <div class="flex gap-3 text-sm font-bold">
           <span id="timeBadge">⏱️ ${timeLeft}s</span>
-          <span class="text-primary">⭐ ${score}</span>
+          <span class="text-primary-ink">⭐ ${score}</span>
           <span>${'❤️'.repeat(lives)}</span>
-          ${combo >= 2 ? `<span class="text-orange-500">🔥${combo}</span>` : ''}
+          ${combo >= 2 ? `<span class="text-orange-700">🔥${combo}</span>` : ''}
         </div>
       </div>
 
       <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-green-50 to-cyan-50">
         <div class="text-xs text-gray-400">点击下方正确的英文</div>
-        <div class="text-3xl font-bold text-primary my-3">${target.meaning}</div>
+        <div class="text-2xl font-bold text-primary-ink my-3">${target.meaning}</div>
         <div class="text-xs text-gray-400">${target.pos || ''}</div>
       </div>
 
@@ -168,12 +168,12 @@ export function renderShootGame(app, data, grade) {
     exitFocus(); // 游戏结束，恢复导航
 
     app.innerHTML = `
-      <div class="text-center py-10 fade-in">
+      <div class="text-center py-8 fade-in">
         <div class="text-6xl mb-4 bounce-in">${score >= 100 ? '🏆' : '🎯'}</div>
         <h2 class="text-2xl font-bold mb-2">游戏结束</h2>
         <div class="card-cartoon my-4 bg-gradient-to-br from-yellow-50 to-orange-50">
           <div class="text-sm">最终得分</div>
-          <div class="text-4xl font-bold text-primary my-2">${score}</div>
+          <div class="text-2xl font-bold text-primary-ink my-2">${score}</div>
           <div class="text-xs text-gray-500">${score >= 200 ? '🎉 单词大师！' : score >= 100 ? '👍 不错的成绩！' : '加油，下次更好！'}</div>
         </div>
         <div class="flex gap-3 mt-6">

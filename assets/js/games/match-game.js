@@ -34,14 +34,14 @@ export function renderMatchGame(app, data, grade) {
         <button id="backBtn" class="text-2xl">‹</button>
         <div class="flex gap-3 text-sm">
           <span>题目: ${idx + 1}/${queue.length}</span>
-          <span class="text-primary font-bold">⭐ ${score}</span>
-          ${combo >= 2 ? `<span class="text-orange-500 font-bold">🔥${combo}连击</span>` : ''}
+          <span class="text-primary-ink font-bold">⭐ ${score}</span>
+          ${combo >= 2 ? `<span class="text-orange-700 font-bold">🔥${combo}连击</span>` : ''}
         </div>
       </div>
 
       <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-purple-50 to-pink-50">
         <div class="text-xs text-gray-400">看中文，点字母拼出英语</div>
-        <div class="text-3xl font-bold text-primary my-3">${w.meaning}</div>
+        <div class="text-2xl font-bold text-primary-ink my-3">${w.meaning}</div>
         <div class="text-xs text-gray-400">${w.pos || ''}</div>
       </div>
 
@@ -161,7 +161,7 @@ export function renderMatchGame(app, data, grade) {
   function showFloatingText(parent, text, color) {
     const el = document.createElement('div');
     el.textContent = text;
-    el.style.cssText = `position:absolute; left:50%; top:0; transform:translateX(-50%); color:${color}; font-weight:700; font-size:18px; pointer-events:none; z-index:5;`;
+    el.style.cssText = `position:absolute; left:50%; top:0; transform:translateX(-50%); color:${color}; font-weight:700; font-size:var(--fs-body-sm); pointer-events:none; z-index:5;`;
     parent.style.position = 'relative';
     parent.appendChild(el);
     let y = 0;
@@ -181,7 +181,7 @@ export function renderMatchGame(app, data, grade) {
         <h2 class="text-2xl font-bold mb-2">本轮结束！</h2>
         <div class="card-cartoon my-4">
           <div class="text-sm">总得分</div>
-          <div class="text-4xl font-bold text-primary my-2">${score}</div>
+          <div class="text-2xl font-bold text-primary-ink my-2">${score}</div>
           <div class="text-sm">🪙 已存入金币库</div>
         </div>
         <div class="flex gap-3">

@@ -24,7 +24,7 @@ export async function renderKnowledge(app, params = {}) {
     <!-- 2.1 KET 是什么 -->
     <div class="card-cartoon mb-4">
       <h3 class="font-bold mb-2">🗝️ ${facts.fullName} 是什么</h3>
-      <ul class="text-sm text-gray-700 space-y-1.5">
+      <ul class="text-sm text-gray-700 space-y-2">
         <li>· ${facts.overview.papers} 张卷，${facts.overview.totalTime}</li>
         <li>· ${facts.overview.listeningTwice}</li>
         <li>· ${facts.overview.speakingExaminers}</li>
@@ -38,14 +38,14 @@ export async function renderKnowledge(app, params = {}) {
       <div class="card-cartoon mb-3">
         <div class="flex items-center justify-between mb-1">
           <span class="font-bold">${p.name}</span>
-          <span class="text-xs bg-orange-100 text-orange-600 rounded-full px-2 py-0.5 font-bold">${p.weight}</span>
+          <span class="text-xs bg-orange-100 text-orange-700 rounded-full px-2 py-1 font-bold">${p.weight}</span>
         </div>
         <div class="text-xs text-gray-500 mb-2">${p.time} · ${p.structure} · ${p.timing}</div>
         <div class="text-xs text-gray-500 mb-2">计分：${p.scoring}</div>
         <div class="space-y-1">
           ${p.parts.map(pt => `
             <div class="flex gap-2 text-sm">
-              <span class="font-bold text-primary" style="min-width:32px">P${pt.part}</span>
+              <span class="font-bold text-primary-ink" style="min-width:32px">P${pt.part}</span>
               <span class="flex-1"><b>${pt.name}</b>${pt.questions ? ` ×${pt.questions}` : ''} — <span class="text-gray-600 text-xs">${pt.desc}</span></span>
             </div>`).join('')}
         </div>
@@ -74,7 +74,7 @@ export async function renderKnowledge(app, params = {}) {
     <!-- 2.4 投入产出比策略卡 -->
     <div class="card-cartoon mb-4 border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-yellow-50">
       <h3 class="font-bold mb-2">💰 投入产出比策略</h3>
-      ${facts.roi.map(r => `<p class="text-sm text-gray-700 mb-1.5">· ${r}</p>`).join('')}
+      ${facts.roi.map(r => `<p class="text-sm text-gray-700 mb-2">· ${r}</p>`).join('')}
     </div>` : ''}
 
     ${know ? `
@@ -96,7 +96,7 @@ export async function renderKnowledge(app, params = {}) {
     </div>
     <div class="card-cartoon mb-3">
       <h3 class="font-bold mb-2">🗣️ ${know.speakingTopics.title}</h3>
-      <div class="flex flex-wrap gap-1.5 mb-2">
+      <div class="flex flex-wrap gap-2 mb-2">
         ${know.speakingTopics.topics.map(t => `<span class="text-xs bg-gray-100 rounded-full px-3 py-1">${t}</span>`).join('')}
       </div>
       <div class="text-xs bg-green-50 text-green-700 rounded-xl px-3 py-2">💡 ${know.speakingTopics.tip}</div>

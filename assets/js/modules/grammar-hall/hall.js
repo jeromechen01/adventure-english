@@ -71,18 +71,18 @@ function tierHTML(tier, byId, prog) {
 function lessonCardHTML(meta, status, color) {
   const badge = status === 'done' ? '✅ 已掌握' : status === 'learning' ? '📖 学习中' : '⬜ 未学';
   const stars = meta.ketRelevance > 0
-    ? `<span class="text-amber-500">${'★'.repeat(meta.ketRelevance)}</span><span class="text-gray-300">${'★'.repeat(3 - meta.ketRelevance)}</span>`
-    : '<span class="text-gray-300 text-[11px]">不考</span>';
+    ? `<span class="text-amber-700">${'★'.repeat(meta.ketRelevance)}</span><span class="text-gray-300">${'★'.repeat(3 - meta.ketRelevance)}</span>`
+    : '<span class="text-gray-300 text-cap">不考</span>';
   return `
     <button data-lesson="${meta.id}" class="w-full card-cartoon tap-bounce text-left" style="padding:12px 14px;min-height:48px;border-left:6px solid ${color}">
-      <div class="flex items-center gap-2.5">
+      <div class="flex items-center gap-3">
         <span class="font-black" style="min-width:40px;color:${color}">${meta.id}</span>
         <div class="flex-1" style="min-width:0">
           <div class="font-bold text-sm">${esc(meta.title)} <span class="text-xs font-normal text-gray-400">${badge}</span></div>
-          <div class="text-xs text-gray-500 mt-0.5">🎼 ${esc(meta.metaphor)}</div>
+          <div class="text-xs text-gray-500 mt-1">🎼 ${esc(meta.metaphor)}</div>
         </div>
         <div class="text-right" style="flex-shrink:0">
-          <div class="text-[10px] text-gray-400">KET</div>
+          <div class="text-cap text-gray-400">KET</div>
           <div class="text-xs">${stars}</div>
         </div>
         <span class="text-xl text-gray-300">›</span>
@@ -92,7 +92,7 @@ function lessonCardHTML(meta, status, color) {
 
 function placeholderHTML(id) {
   return `
-    <div class="card-cartoon flex items-center gap-2.5 opacity-55" style="padding:10px 14px">
+    <div class="card-cartoon flex items-center gap-3 opacity-55" style="padding:10px 14px">
       <span class="font-black text-gray-300" style="min-width:40px">${id}</span>
       <span class="text-xs text-gray-400 flex-1">🔒 待开放 · 内容制作中</span>
     </div>`;

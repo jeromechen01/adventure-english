@@ -32,7 +32,7 @@ function barsHtml(byModule, totalSec) {
     const pct = Math.max(4, Math.round(sec / totalSec * 100));
     return `
       <div class="mb-2">
-        <div class="flex justify-between text-xs mb-0.5">
+        <div class="flex justify-between text-xs mb-1">
           <span>${meta.icon} ${meta.label}</span>
           <span class="text-gray-500">${fmtMin(sec)}</span>
         </div>
@@ -83,10 +83,10 @@ export function renderStudyStats(app) {
     <!-- 今日概览 + 护栏状态 -->
     <div class="card-cartoon mb-4 border-2 ${guard.cls}">
       <div class="flex items-end gap-2 mb-1">
-        <span class="text-3xl font-black">${todayMin}</span>
+        <span class="text-2xl font-black">${todayMin}</span>
         <span class="text-sm text-gray-500 mb-1">分钟 · 今天</span>
       </div>
-      ${planMin > 0 && planMin !== todayMin ? `<div class="text-[11px] text-gray-400 mb-1">另：备考打卡任务估算约 ${planMin} 分钟，护栏按两者较大值判断</div>` : ''}
+      ${planMin > 0 && planMin !== todayMin ? `<div class="text-cap text-gray-400 mb-1">另：备考打卡任务估算约 ${planMin} 分钟，护栏按两者较大值判断</div>` : ''}
       <p class="text-sm text-gray-700">🌿 ${guard.text}</p>
     </div>
 
@@ -105,7 +105,7 @@ export function renderStudyStats(app) {
           const over = d.seconds > 120 * 60;
           return `
           <div class="flex-1 flex flex-col items-center justify-end" style="height:96px">
-            ${d.seconds > 0 ? `<div class="text-[10px] text-gray-500 mb-0.5">${Math.round(d.seconds / 60)}</div>
+            ${d.seconds > 0 ? `<div class="text-cap text-gray-500 mb-1">${Math.round(d.seconds / 60)}</div>
             <div class="w-full max-w-[28px] rounded-t-lg ${over ? 'bg-orange-300' : 'bg-cyan-300'}" style="height:${h}px"></div>` : ''}
           </div>`;
         }).join('')}
@@ -114,10 +114,10 @@ export function renderStudyStats(app) {
         ${week.map(d => {
           const dt = new Date(d.date + 'T00:00:00');
           const isToday = d.date === today;
-          return `<div class="flex-1 text-center text-[10px] ${isToday ? 'font-bold text-primary' : 'text-gray-400'}">${isToday ? '今天' : '周' + weekdays[dt.getDay()]}</div>`;
+          return `<div class="flex-1 text-center text-cap ${isToday ? 'font-bold text-primary-ink' : 'text-gray-400'}">${isToday ? '今天' : '周' + weekdays[dt.getDay()]}</div>`;
         }).join('')}
       </div>
-      <p class="text-[11px] text-gray-400 mt-2">数字为分钟；橙色表示超过 120 分钟（提醒休息，不是成就）。</p>
+      <p class="text-cap text-gray-400 mt-2">数字为分钟；橙色表示超过 120 分钟（提醒休息，不是成就）。</p>
     </div>
 
     <!-- 近 30 天模块累计：帮家长发现盲区 -->
@@ -131,7 +131,7 @@ export function renderStudyStats(app) {
     </div>
 
     <!-- 诚实声明 -->
-    <p class="text-[11px] text-gray-400 text-center mb-4">统计的是页面前台停留时长，仅供参考，不代表"有效学习时间"。<br>数据仅存本设备，不上传。</p>
+    <p class="text-cap text-gray-400 text-center mb-4">统计的是页面前台停留时长，仅供参考，不代表"有效学习时间"。<br>数据仅存本设备，不上传。</p>
   `;
 
   app.querySelector('#statsBackBtn').addEventListener('click', () => window.__nav('me'));

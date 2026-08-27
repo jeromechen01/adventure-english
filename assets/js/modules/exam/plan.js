@@ -60,7 +60,7 @@ export async function renderPlan(app) {
       ${plan.weeks.map(w => `
         <div class="card-cartoon" style="padding:12px 14px">
           <div class="flex items-center gap-2">
-            <span class="font-bold text-primary">W${w.week}</span>
+            <span class="font-bold text-primary-ink">W${w.week}</span>
             <span class="text-xs text-gray-400">${w.days}</span>
             <span class="text-sm font-bold flex-1">${w.theme}</span>
           </div>

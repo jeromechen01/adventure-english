@@ -40,16 +40,16 @@ export async function renderReport(app) {
         ];
         return `
         <div class="flex flex-col items-center gap-1">
-          <div class="flex items-end gap-1.5" style="height:110px">
+          <div class="flex items-end gap-2" style="height:110px">
             ${bars.map(b => `
               <div class="flex flex-col items-center justify-end" style="height:110px">
-                <span class="text-[10px] text-gray-500">${b.na ? '—' : b.pct + ''}</span>
+                <span class="text-cap text-gray-500">${b.na ? '—' : b.pct + ''}</span>
                 <div style="width:20px;height:${Math.max(3, b.pct)}px;background:${b.na ? '#E5E7EB' : b.color};border-radius:6px 6px 0 0"></div>
-                <span class="text-[10px] text-gray-400">${b.label}</span>
+                <span class="text-cap text-gray-400">${b.label}</span>
               </div>`).join('')}
           </div>
           <div class="text-xs font-bold">${m.id.replace('mock-0', '模考')}</div>
-          <div class="text-[10px] text-gray-400">量表≈${m.scaled}</div>
+          <div class="text-cap text-gray-400">量表≈${m.scaled}</div>
         </div>`;
       }).join('')}
     </div>`;
@@ -77,16 +77,16 @@ export async function renderReport(app) {
       <div class="flex items-end gap-2" style="height:90px">
         ${[['起点', 800], ['当前', vocabNow], ['KET线', 1700], ['PET线', 3500]].map(([lb, v]) => `
           <div class="flex-1 flex flex-col items-center justify-end" style="height:90px">
-            <span class="text-[10px] text-gray-500">${v}</span>
+            <span class="text-cap text-gray-500">${v}</span>
             <div style="width:100%;max-width:56px;height:${Math.max(4, v / 3500 * 60)}px;background:${lb === '当前' ? '#F97316' : '#E5E7EB'};border-radius:8px 8px 0 0"></div>
-            <span class="text-[10px] text-gray-400 mt-0.5">${lb}</span>
+            <span class="text-cap text-gray-400 mt-1">${lb}</span>
           </div>`).join('')}
       </div>
     </div>
 
     <div class="card-cartoon mb-4">
       <h3 class="font-bold mb-2">🗓️ 本周小结</h3>
-      <div class="text-sm text-gray-700 mb-1">已完成 <b class="text-primary">Day ${day}/45</b> · 本周学习 <b class="text-green-600">${weekDays}</b> 天 · 词汇约 <b>${vocabNow}</b></div>
+      <div class="text-sm text-gray-700 mb-1">已完成 <b class="text-primary-ink">Day ${day}/45</b> · 本周学习 <b class="text-green-700">${weekDays}</b> 天 · 词汇约 <b>${vocabNow}</b></div>
       <p class="text-sm text-green-700 mt-2">${encourage(day, weekDays)}</p>
     </div>
 

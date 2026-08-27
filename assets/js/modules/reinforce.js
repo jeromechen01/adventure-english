@@ -73,7 +73,7 @@ export async function renderReinforce(app) {
 
       <div class="card-cartoon mb-4 text-center bg-gradient-to-br from-red-50 to-orange-50">
         <div class="text-xs text-gray-400 mb-1">选出正确的英文 · 连对 3 次毕业</div>
-        <div class="big-title text-primary">${word.meaning}</div>
+        <div class="big-title text-primary-ink">${word.meaning}</div>
         <div class="text-xs text-gray-500 mt-2">本词进度：${'🟢'.repeat(cc)}${'⚪'.repeat(Math.max(0, 3 - cc))}</div>
       </div>
 
@@ -143,12 +143,12 @@ export async function renderReinforce(app) {
     exitFocus(); // 突击完成
     playSound('levelup');
     app.innerHTML = `
-      <div class="text-center pt-10 fade-in">
+      <div class="text-center pt-8 fade-in">
         <div class="text-7xl mb-3 bounce-in">🏆</div>
         <div class="big-title mb-2">突击完成！</div>
         <div class="card-cartoon my-4 bg-gradient-to-br from-green-50 to-cyan-50">
           <div class="text-sm text-gray-600">本次毕业错词</div>
-          <div class="text-4xl font-bold text-secondary my-1">${graduatedThisSession}<span class="text-lg text-gray-400"> / ${startTotal}</span></div>
+          <div class="text-2xl font-bold text-secondary-ink my-1">${graduatedThisSession}<span class="text-lg text-gray-400"> / ${startTotal}</span></div>
           <div class="text-sm text-gray-600">个，已从错词本移除</div>
         </div>
         <button id="doneBtn" class="w-full btn-cartoon">返回</button>

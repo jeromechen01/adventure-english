@@ -33,11 +33,11 @@ export async function renderReadingDrill(app, params = {}) {
         const doneN = p.sets.filter(s => results[s.id]).length;
         return `
         <button data-part="${key}" class="w-full card-cartoon tap-bounce text-left flex items-center gap-3" style="padding:12px 14px">
-          <span class="font-black text-primary" style="min-width:38px">P${key.slice(4)}</span>
+          <span class="font-black text-primary-ink" style="min-width:38px">P${key.slice(4)}</span>
           <div class="flex-1">
             <div class="font-bold text-sm">${p.name}</div>
             <div class="text-xs text-gray-500">${p.desc}</div>
-            <div class="text-xs text-green-600 mt-0.5">${p.sets.length} 套 · 已练 ${doneN}</div>
+            <div class="text-xs text-green-700 mt-1">${p.sets.length} 套 · 已练 ${doneN}</div>
           </div>
           <span class="text-xl text-gray-300">›</span>
         </button>`;
@@ -82,7 +82,7 @@ function renderPartSets(app, level, drills, partKey) {
           <span class="text-2xl">${r ? '✅' : '📝'}</span>
           <div class="flex-1">
             <div class="font-bold text-sm">第 ${i + 1} 套${s.topic ? ' · ' + s.topic : ''}</div>
-            ${r ? `<div class="text-xs text-green-600">最好成绩 ${r.best}%（练过 ${r.tries} 次）</div>` : '<div class="text-xs text-gray-400">未练过</div>'}
+            ${r ? `<div class="text-xs text-green-700">最好成绩 ${r.best}%（练过 ${r.tries} 次）</div>` : '<div class="text-xs text-gray-400">未练过</div>'}
           </div>
           <span class="text-xl text-gray-300">›</span>
         </button>`;
@@ -130,7 +130,7 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
   function contextHtml() {
     if (partKey === 'part2') {
       return `<div class="card-cartoon mb-3 bg-gray-50" style="padding:12px">
-        ${set.profiles.map(pr => `<div class="mb-2"><span class="font-black text-primary">${pr.label}</span> <b class="text-sm">${esc(pr.title)}</b><p class="font-en text-sm text-gray-700 mt-0.5">${esc(pr.text)}</p></div>`).join('')}
+        ${set.profiles.map(pr => `<div class="mb-2"><span class="font-black text-primary-ink">${pr.label}</span> <b class="text-sm">${esc(pr.title)}</b><p class="font-en text-sm text-gray-700 mt-1">${esc(pr.text)}</p></div>`).join('')}
       </div>`;
     }
     if (partKey === 'part3' || partKey === 'part4' || partKey === 'part5') {
@@ -155,7 +155,7 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
         ${partKey === 'part1' && it.context ? `<div class="text-xs text-gray-400 mb-1">📍 ${esc(it.context)}</div>` : ''}
         ${partKey === 'part1' && it.text ? `<div class="bg-yellow-50 rounded-2xl p-3 mb-2 font-en text-sm" style="white-space:pre-wrap">${esc(it.text)}</div>` : ''}
         <div class="font-bold text-base mb-3 font-en">${esc(it.q || `第 (${idx + 1}) 空`)}</div>
-        ${it.shape ? `<div class="text-xs bg-cyan-50 text-cyan-700 rounded-xl px-3 py-1.5 mb-2">💡 形状提示：${esc(it.shape)}</div>` : ''}
+        ${it.shape ? `<div class="text-xs bg-cyan-50 text-cyan-700 rounded-xl px-3 py-2 mb-2">💡 形状提示：${esc(it.shape)}</div>` : ''}
         ${isOpen || !it.options ? `
           <input id="ansInput" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base" placeholder="每空填一词，拼写要对" autocomplete="off" autocapitalize="off" />
           <button id="submitBtn" class="w-full btn-cartoon mt-3">提交</button>` : `
@@ -212,7 +212,7 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
       ${headerHtml('结果')}
       <div class="card-cartoon text-center mb-4 ${pct >= 70 ? 'bg-green-50' : 'bg-yellow-50'}">
         <div class="text-6xl mb-2">${pct >= 70 ? '🎉' : '💪'}</div>
-        <div class="text-3xl font-black">${correct} / ${total}</div>
+        <div class="text-2xl font-black">${correct} / ${total}</div>
         <div class="text-sm text-gray-600 mt-1">正确率 ${pct}%${partKey === 'part5' ? '（验收线：4/6 以上）' : ''}</div>
       </div>
       <button id="redoBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-2">🎲 换一批重做（题目会变）</button>
@@ -247,7 +247,7 @@ async function renderReaders(app, level) {
             <div class="font-bold text-sm font-en">${esc(a.title)}</div>
             <div class="text-xs text-gray-500">${a.lexile}L · ${a.wordCount} 词 · ${a.topicZh || ''}</div>
           </div>
-          ${best ? `<span class="text-xs font-bold text-primary">背诵 ${best} 分</span>` : ''}
+          ${best ? `<span class="text-xs font-bold text-primary-ink">背诵 ${best} 分</span>` : ''}
           <span class="text-xl text-gray-300">›</span>
         </button>`;
       }).join('')}
@@ -274,7 +274,7 @@ function renderReaderArticle(app, level, a, articles) {
     ${a.keyWords && a.keyWords.length ? `
     <div class="card-cartoon mb-3">
       <div class="text-xs text-gray-400 mb-1">🔑 关键词</div>
-      <div class="flex flex-wrap gap-1.5">${a.keyWords.map(k => `<span class="pet-chip font-en text-sm">${esc(k.en)} <span class="text-gray-400 font-sans">${esc(k.zh)}</span></span>`).join('')}</div>
+      <div class="flex flex-wrap gap-2">${a.keyWords.map(k => `<span class="pet-chip font-en text-sm">${esc(k.en)} <span class="text-gray-400 font-sans">${esc(k.zh)}</span></span>`).join('')}</div>
     </div>` : ''}
     <div class="flex gap-3">
       <button id="listenBtn" class="flex-1 btn-cartoon btn-cartoon-secondary">🔊 听全文</button>
@@ -399,7 +399,7 @@ export function runListeningSet(app, level, set, onBackFn, onFinish, focus = {})
         <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
           <div class="font-bold text-sm mb-1">${ok ? '✅ 对啦！' : '❌ 看原文再听一遍'}</div>
           ${ok ? '' : `<div class="text-sm mb-1">正确答案：<b class="font-en">${esc(it.options ? `${'ABCDEFGH'[it.answer]}. ${it.options[it.answer]}` : it.answer)}</b></div>`}
-          <div class="bg-white rounded-xl p-2 mt-1"><div class="text-[11px] text-gray-400 mb-0.5">📜 原文（三步法第②步）</div><p class="font-en text-xs text-gray-600">${esc(it.script)}</p></div>
+          <div class="bg-white rounded-xl p-2 mt-1"><div class="text-cap text-gray-400 mb-1">📜 原文（三步法第②步）</div><p class="font-en text-xs text-gray-600">${esc(it.script)}</p></div>
           ${it.explain ? `<div class="text-xs text-gray-600 mt-1">${esc(it.explain)}</div>` : ''}
         </div>
         <button id="nextBtn" class="w-full btn-cartoon">${idx + 1 >= flat.length ? '看结果' : '下一题 ›'}</button>`;
@@ -424,7 +424,7 @@ export function runListeningSet(app, level, set, onBackFn, onFinish, focus = {})
       ${headerHtml('听力结果')}
       <div class="card-cartoon text-center mb-4 ${pct >= 60 ? 'bg-green-50' : 'bg-yellow-50'}">
         <div class="text-6xl mb-2">${pct >= 60 ? '🎉' : '💪'}</div>
-        <div class="text-3xl font-black">${correct} / ${flat.length}</div>
+        <div class="text-2xl font-black">${correct} / ${flat.length}</div>
         <div class="text-sm text-gray-600 mt-1">正确率 ${pct}%</div>
       </div>
       <button id="backBtn2" class="w-full btn-cartoon">返回听力列表</button>
@@ -494,7 +494,7 @@ function renderTimed(app, level, drills) {
       ${headerHtml('⏱️ 限时合练结果')}
       <div class="card-cartoon text-center mb-3">
         <div class="text-5xl mb-2">${c / t >= 0.6 ? '🎉' : '💪'}</div>
-        <div class="text-3xl font-black">${c} / ${t}</div>
+        <div class="text-2xl font-black">${c} / ${t}</div>
         <div class="text-xs text-gray-500 mt-1">用时 ${40 - Math.ceil(remain / 60)} 分钟</div>
       </div>
       <div class="card-cartoon mb-3">

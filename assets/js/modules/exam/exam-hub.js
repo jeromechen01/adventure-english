@@ -53,28 +53,28 @@ export async function renderExamHub(app) {
       }" style="min-height:48px">
         <span class="text-2xl">📮</span>
         <div class="flex-1 min-w-0">
-          <div class="text-[11px] text-gray-500">${regClock.label} · ${esc(regClock.date)}</div>
-          <div class="text-2xl font-black ${regClock.tone === 'red' ? 'text-red-500' : 'text-yellow-600'}">D-${regClock.days}</div>
-          ${regClock.note ? `<div class="text-[11px] text-gray-600 mt-0.5">${esc(regClock.note)}</div>` : ''}
+          <div class="text-cap text-gray-500">${regClock.label} · ${esc(regClock.date)}</div>
+          <div class="text-2xl font-black ${regClock.tone === 'red' ? 'text-red-600' : 'text-yellow-700'}">D-${regClock.days}</div>
+          ${regClock.note ? `<div class="text-cap text-gray-600 mt-1">${esc(regClock.note)}</div>` : ''}
         </div>
         <span class="text-xs text-gray-400 whitespace-nowrap">报名七步 ›</span>
       </button>` : ''}
       <div class="flex items-start justify-between gap-2">
         <div class="min-w-0">
           <div class="text-xs text-gray-500">${level} · 考试倒计时（日历）</div>
-          <div class="text-3xl font-black text-orange-500">D-${dday == null ? '?' : dday}</div>
+          <div class="text-2xl font-black text-orange-700">D-${dday == null ? '?' : dday}</div>
         </div>
         <div class="text-right min-w-0">
           <div class="text-xs text-gray-500">计划进度（完成度）</div>
-          <div class="text-3xl font-black text-primary">Day ${day} <span class="text-base text-gray-400">/ ${plan.totalDays}</span></div>
-          <div class="text-[11px] text-gray-400">学了就前进，没学就原地等你</div>
+          <div class="text-2xl font-black text-primary-ink">Day ${day} <span class="text-base text-gray-400">/ ${plan.totalDays}</span></div>
+          <div class="text-cap text-gray-400">学了就前进，没学就原地等你</div>
         </div>
       </div>
       <!-- 考试日与目标分独占一行：窄屏放进左列会把右边的 Day N 挤出屏幕 -->
       ${cfg.editable !== false
-        ? `<button id="examInfoBtn" class="w-full text-left text-[11px] text-gray-500 underline mt-1" style="min-height:44px">考试日 ${esc(cfg.examDate || '未设置')} · 目标 ${cfg.targetScore}+（可改）</button>`
-        : `<div class="text-[11px] text-gray-500 mt-2">考试日 ${esc(cfg.examDate || '未设置')} · 目标 ${cfg.targetScore}+</div>`}
-      ${cfg.examDateNote ? `<div class="text-[11px] text-gray-400">ℹ️ ${esc(cfg.examDateNote)}</div>` : ''}
+        ? `<button id="examInfoBtn" class="w-full text-left text-cap text-gray-500 underline mt-1" style="min-height:44px">考试日 ${esc(cfg.examDate || '未设置')} · 目标 ${cfg.targetScore}+（可改）</button>`
+        : `<div class="text-cap text-gray-500 mt-2">考试日 ${esc(cfg.examDate || '未设置')} · 目标 ${cfg.targetScore}+</div>`}
+      ${cfg.examDateNote ? `<div class="text-cap text-gray-400">ℹ️ ${esc(cfg.examDateNote)}</div>` : ''}
     </div>
 
     <!-- 今日任务：Day N 的六格 -->
@@ -113,14 +113,14 @@ export async function renderExamHub(app) {
       <div class="progress-bar mb-3"><div class="progress-bar-fill" style="width:${vocabPct}%"></div></div>
       <div class="text-xs mb-1 flex justify-between"><span>计划 Day ${day} / ${plan.totalDays}</span><span>${dayPct}%</span></div>
       <div class="progress-bar mb-3"><div class="progress-bar-fill" style="width:${dayPct}%"></div></div>
-      <div class="text-sm">🗓️ 本周学习 <b class="text-primary">${weekDays}</b> 天</div>
+      <div class="text-sm">🗓️ 本周学习 <b class="text-primary-ink">${weekDays}</b> 天</div>
     </div>
 
     <!-- 词汇主线入口 -->
     <button data-nav="words" class="w-full card-cartoon tap-bounce text-left mb-4 relative overflow-hidden"
       style="background:linear-gradient(135deg,#FFE3C2,#FFD0E0);padding:18px">
       <div class="absolute right-3 top-3 text-5xl opacity-30">🚀</div>
-      <div class="text-xs font-bold text-orange-600 mb-1">🔥 主线任务</div>
+      <div class="text-xs font-bold text-orange-700 mb-1">🔥 主线任务</div>
       <div class="text-xl font-extrabold mb-1">KET 单词闯关</div>
       <div class="text-xs text-gray-600">20 个话题 · 1416 词 · 识词 + 闯关 + 错词突击</div>
     </button>
@@ -188,7 +188,7 @@ async function renderPetHub(app) {
     <div class="card-cartoon mb-4 border-2 border-red-300 bg-red-50">
       <div class="font-bold text-sm mb-2">📏 ${gap.title}</div>
       ${gap.rows.map(r => `
-        <div class="flex gap-2 text-xs py-1.5 border-b border-red-100 last:border-0">
+        <div class="flex gap-2 text-xs py-2 border-b border-red-100 last:border-0">
           <span class="font-bold" style="min-width:44px">${r.item}</span>
           <span class="text-gray-600 flex-1">KET: ${r.ket}</span>
           <span class="text-gray-800 flex-1">PET: ${r.pet}</span>
@@ -249,11 +249,11 @@ export function showExamInfoPanel(app) {
   showModal(`
     <div class="p-6">
       <h3 class="font-bold text-center text-lg mb-1">🗓️ 考试信息</h3>
-      <p class="text-[11px] text-gray-400 text-center mb-4">改完立即生效；只影响上面三个倒计时，不影响 45 天计划进度</p>
+      <p class="text-cap text-gray-400 text-center mb-4">改完立即生效；只影响上面三个倒计时，不影响 45 天计划进度</p>
 
       <label class="block text-sm font-bold mb-1">考试日期</label>
       <input id="cfgExamDate" type="date" value="${esc(c.examDate)}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base mb-1" />
-      ${c.examDateNote ? `<div class="text-[11px] text-gray-400 mb-3">${esc(c.examDateNote)}</div>` : '<div class="mb-3"></div>'}
+      ${c.examDateNote ? `<div class="text-cap text-gray-400 mb-3">${esc(c.examDateNote)}</div>` : '<div class="mb-3"></div>'}
 
       <label class="block text-sm font-bold mb-1">报名开放日</label>
       <input id="cfgRegOpen" type="date" value="${esc(c.regOpenDate)}" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-base mb-3" />

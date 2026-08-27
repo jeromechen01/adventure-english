@@ -207,7 +207,7 @@ export async function renderPetTopicMap(app, topicId) {
     <button id="levelBtn" class="w-full card-cartoon tap-bounce text-left relative overflow-hidden"
       style="background:linear-gradient(135deg,#FFE3C2,#FFD0E0);padding:22px">
       <div class="absolute right-3 top-3 text-5xl opacity-30">🗺️</div>
-      <div class="text-xs font-bold text-orange-600 mb-1">🔥 话题闯关</div>
+      <div class="text-xs font-bold text-orange-700 mb-1">🔥 话题闯关</div>
       <div class="text-2xl font-extrabold mb-1">${numLevels} 关 · 已通 ${cleared}</div>
       <div class="text-xs text-gray-600 mb-3">每关 8 个单词，闯关记单词</div>
       <div class="inline-block btn-cartoon" style="padding:8px 22px;pointer-events:none">▶ 开始闯关</div>
@@ -256,10 +256,10 @@ function renderPetStudy(app, topic, words) {
           <span class="text-xs text-gray-400">${w.pos || ''}</span>
           ${freqBadge(w)}
         </div>
-        <div class="word-main font-en text-primary" style="word-break:break-word">${w.word}</div>
+        <div class="word-main font-en text-primary-ink" style="word-break:break-word">${w.word}</div>
         <div class="text-sm text-gray-500 mb-2">${w.phonetic || ''}</div>
         <button id="speakBtn" class="text-3xl mb-2 tap-bounce">🔊</button>
-        <div class="word-meaning text-primary font-bold mb-3">${w.meaning}</div>
+        <div class="word-meaning text-primary-ink font-bold mb-3">${w.meaning}</div>
 
         ${w.examples && w.examples.length ? `
           <div class="bg-orange-50 rounded-2xl p-3 text-left mt-2">

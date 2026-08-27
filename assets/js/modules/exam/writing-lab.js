@@ -40,11 +40,11 @@ export async function renderWritingLab(app, params = {}) {
         <div class="text-xs text-gray-500 mb-2">${p.rule}</div>
         <div class="bg-gray-50 rounded-2xl p-3 mb-2">
           <div class="text-xs font-bold mb-1">${p.template.title}</div>
-          ${p.template.steps.map(s => `<div class="text-xs text-gray-600 mb-0.5">${s}</div>`).join('')}
-          <div class="text-[11px] text-cyan-600 mt-1">🔗 ${p.template.connectors}</div>
+          ${p.template.steps.map(s => `<div class="text-xs text-gray-600 mb-1">${s}</div>`).join('')}
+          <div class="text-cap text-cyan-700 mt-1">🔗 ${p.template.connectors}</div>
         </div>
-        ${p.tips.map(t => `<div class="text-xs text-orange-600 mb-0.5">⚠️ ${t}</div>`).join('')}
-        <div class="mt-2 space-y-1.5">
+        ${p.tips.map(t => `<div class="text-xs text-orange-700 mb-1">⚠️ ${t}</div>`).join('')}
+        <div class="mt-2 space-y-2">
           ${p.tasks.length === 0 ? '<div class="text-xs text-gray-400">题库补充中…</div>' :
             p.tasks.map((t, i) => `
             <button data-task="${t.id}" class="w-full tap-bounce flex items-center gap-2 border-2 border-gray-100 rounded-2xl p-2 text-left" style="min-height:48px">
@@ -60,7 +60,7 @@ export async function renderWritingLab(app, params = {}) {
     <div class="card-cartoon mb-4">
       <div class="font-bold text-sm mb-2">📏 ${g.scoring.title}</div>
       ${g.scoring.dims.map(d => `
-        <div class="flex gap-2 text-sm py-1.5 border-b border-gray-50 last:border-0">
+        <div class="flex gap-2 text-sm py-2 border-b border-gray-50 last:border-0">
           <span class="font-bold" style="min-width:130px">${d.name} <span class="text-xs text-gray-400">0-${d.max}</span></span>
           <span class="text-xs text-gray-600 flex-1">${d.desc}</span>
         </div>`).join('')}
@@ -105,15 +105,15 @@ function renderTask(app, level, g, task, partKey) {
           <p class="font-en text-sm mb-2" style="white-space:pre-wrap">${esc(task.prompt)}</p>
           <div class="text-xs font-bold mb-1">必须回应的三个要点：</div>
           ${task.points.map(pt => `<div class="text-xs text-gray-600">· ${esc(pt)}</div>`).join('')}
-          <div class="text-xs text-orange-600 mt-2">写 ${minWords} 词以上</div>
+          <div class="text-xs text-orange-700 mt-2">写 ${minWords} 词以上</div>
         ` : `
           <div class="text-xs font-bold mb-2">三幅图（文字描述的原创场景）：</div>
           ${task.scenes.map((s, i) => `
-            <div class="flex gap-2 mb-1.5">
+            <div class="flex gap-2 mb-2">
               <span class="text-2xl">${['1️⃣', '2️⃣', '3️⃣'][i]}</span>
               <span class="text-sm text-gray-700 flex-1">${esc(s)}</span>
             </div>`).join('')}
-          <div class="text-xs text-orange-600 mt-1">写 ${minWords} 词以上 · 时态全程一致（过去调）</div>
+          <div class="text-xs text-orange-700 mt-1">写 ${minWords} 词以上 · 时态全程一致（过去调）</div>
         `}
       </div>
 
@@ -129,7 +129,7 @@ function renderTask(app, level, g, task, partKey) {
       <div class="card-cartoon mb-3">
         <div class="font-bold text-sm mb-2">✅ ${g.checklist.title}</div>
         ${g.checklist.items.map((c, i) => `
-          <label class="flex items-center gap-2 py-1.5 text-sm" style="min-height:40px">
+          <label class="flex items-center gap-2 py-2 text-sm" style="min-height:40px">
             <input type="checkbox" class="w-5 h-5"> <span>${c}</span>
           </label>`).join('')}
       </div>
@@ -141,7 +141,7 @@ function renderTask(app, level, g, task, partKey) {
         <div class="card-cartoon bg-green-50">
           <div class="text-xs text-gray-400 mb-1">原创范文（${countWords(task.sample.text)} 词）</div>
           <p class="font-en text-sm mb-2" style="white-space:pre-wrap">${esc(task.sample.text)}</p>
-          <button id="readSampleBtn" class="text-sm text-primary font-bold">🔊 听范文</button>
+          <button id="readSampleBtn" class="text-sm text-primary-ink font-bold">🔊 听范文</button>
           <div class="text-xs text-gray-600 mt-1">${esc(task.sample.note || '')}</div>
         </div>` : ''}</div>
     `;
@@ -150,7 +150,7 @@ function renderTask(app, level, g, task, partKey) {
     const updateWc = () => {
       const n = countWords(ta.value);
       wc.textContent = `${n} 词 / 至少 ${minWords}`;
-      wc.className = `text-xs ${n >= minWords ? 'text-green-600 font-bold' : 'text-gray-400'}`;
+      wc.className = `text-xs ${n >= minWords ? 'text-green-700 font-bold' : 'text-gray-400'}`;
       saved = ta.value;
       clearTimeout(draftT);
       draftT = setTimeout(() => storage.saveWritingDraft(level, task.id, ta.value), 500);
@@ -196,7 +196,7 @@ function renderSpeaking(app, g) {
         <div class="card-cartoon flex items-center gap-2" style="padding:12px 14px">
           <div class="flex-1">
             <div class="font-en font-bold text-sm">${esc(q.q)}</div>
-            <div class="text-xs text-gray-500 mt-0.5">💡 ${esc(q.hint)}</div>
+            <div class="text-xs text-gray-500 mt-1">💡 ${esc(q.hint)}</div>
           </div>
           <button data-say="${i}" class="text-2xl tap-bounce" style="min-width:48px;min-height:48px">🔊</button>
         </div>`).join('')}

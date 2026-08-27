@@ -49,11 +49,11 @@ export function renderCardCollect(app) {
       <div class="grid grid-cols-2 gap-3">
         ${sorted.map(c => `
           <div class="card-rarity-${c.rarity} rounded-2xl p-3 text-center bg-white relative" data-word="${c.word}">
-            <div class="absolute top-1 right-2 text-[10px] font-bold" style="color:${RARITY_INFO[c.rarity].color}">${c.rarity}</div>
+            <div class="absolute top-1 right-2 text-cap font-bold" style="color:${RARITY_INFO[c.rarity].color}">${c.rarity}</div>
             <div class="text-3xl my-2">🃏</div>
             <div class="font-en font-bold">${c.word}</div>
             <div class="text-xs text-gray-500">${c.meaning}</div>
-            <div class="text-[10px] mt-2" style="color:${RARITY_INFO[c.rarity].color}">⚔️ 威力 ${RARITY_INFO[c.rarity].power}</div>
+            <div class="text-cap mt-2" style="color:${RARITY_INFO[c.rarity].color}">⚔️ 威力 ${RARITY_INFO[c.rarity].power}</div>
           </div>
         `).join('')}
       </div>

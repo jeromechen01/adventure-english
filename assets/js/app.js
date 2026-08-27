@@ -170,10 +170,10 @@ async function navigate(page, params = {}) {
   // 更新底部导航激活态
   document.querySelectorAll('.nav-btn').forEach(b => {
     if (b.dataset.page === page) {
-      b.classList.add('text-primary');
+      b.classList.add('text-primary-ink');
       b.classList.remove('text-gray-400');
     } else {
-      b.classList.remove('text-primary');
+      b.classList.remove('text-primary-ink');
       b.classList.add('text-gray-400');
     }
   });
@@ -283,13 +283,13 @@ async function renderHome(app) {
     <div class="card-cartoon mb-4">
       <div class="flex items-center justify-between mb-2">
         <h3 class="font-bold flex items-center gap-1"><span>🧭</span> 今天可以做的事</h3>
-        <span class="text-[11px] text-gray-400">选着做就好</span>
+        <span class="text-cap text-gray-400">选着做就好</span>
       </div>
       ${tasksData.tasks.map(t => `
-        <div class="flex items-center justify-between py-1.5">
+        <div class="flex items-center justify-between py-2">
           <div class="text-sm font-medium ${t.done ? 'text-gray-400' : ''}">${t.title}</div>
           ${t.done
-            ? '<span class="text-xs text-green-500">✓ 做到啦</span>'
+            ? '<span class="text-xs text-green-700">✓ 做到啦</span>'
             : (t.current > 0 ? `<span class="text-xs text-gray-400">已做 ${t.current}</span>` : '')}
         </div>
       `).join('')}
@@ -321,7 +321,7 @@ async function renderHome(app) {
         <div class="text-4xl">🏛️</div>
         <div class="flex-1">
           <div class="font-bold">语法大厅</div>
-          <div class="text-xs text-gray-500 mt-0.5">1-9 年级全景 50 课 (G01-G50) · 英语句子 = 一支乐队</div>
+          <div class="text-xs text-gray-500 mt-1">1-9 年级全景 50 课 (G01-G50) · 英语句子 = 一支乐队</div>
         </div>
         <div class="text-2xl text-gray-300">›</div>
       </button>
@@ -332,15 +332,15 @@ async function renderHome(app) {
       <h3 class="font-bold mb-2">📊 学习统计</h3>
       <div class="grid grid-cols-3 gap-2 text-center">
         <div>
-          <div class="text-2xl font-bold text-primary">${learned}</div>
+          <div class="text-2xl font-bold text-primary-ink">${learned}</div>
           <div class="text-xs text-gray-500">已学单词</div>
         </div>
         <div>
-          <div class="text-2xl font-bold text-secondary">${totalStudyDays()}</div>
+          <div class="text-2xl font-bold text-secondary-ink">${totalStudyDays()}</div>
           <div class="text-xs text-gray-500">累计学习天数</div>
         </div>
         <div>
-          <div class="text-2xl font-bold text-orange-500">${storage.getBadges().length}</div>
+          <div class="text-2xl font-bold text-orange-700">${storage.getBadges().length}</div>
           <div class="text-xs text-gray-500">勋章</div>
         </div>
       </div>
@@ -447,10 +447,10 @@ async function renderMistakes(app) {
           <div class="flex-1">
             <div class="font-bold font-en">${w.word} <span class="text-xs text-gray-400 font-sans">${w.phonetic}</span></div>
             <div class="text-sm text-gray-600">${w.pos} ${w.meaning}</div>
-            <div class="text-xs text-gray-400 mt-0.5">${w.petTopic ? 'PET · ' + w.petTopic : w.ketTopic ? 'KET · ' + w.ketTopic : gradeLabel(w.grade)}</div>
+            <div class="text-xs text-gray-400 mt-1">${w.petTopic ? 'PET · ' + w.petTopic : w.ketTopic ? 'KET · ' + w.ketTopic : gradeLabel(w.grade)}</div>
           </div>
-          <button data-act="speak" class="p-2 text-primary text-2xl">🔊</button>
-          <button data-act="remove" class="p-2 text-green-500 text-xl">✓</button>
+          <button data-act="speak" class="p-2 text-primary-ink text-2xl">🔊</button>
+          <button data-act="remove" class="p-2 text-green-700 text-xl">✓</button>
         </div>
       `).join('')}
     </div>
@@ -498,19 +498,19 @@ function renderMe(app) {
       <h3 class="font-bold mb-3">📊 学习数据</h3>
       <div class="grid grid-cols-2 gap-3 text-center">
         <div class="bg-orange-50 rounded-2xl p-3">
-          <div class="text-2xl font-bold text-primary">${learned}</div>
+          <div class="text-2xl font-bold text-primary-ink">${learned}</div>
           <div class="text-xs text-gray-600">已学单词</div>
         </div>
         <div class="bg-cyan-50 rounded-2xl p-3">
-          <div class="text-2xl font-bold text-secondary">${totalStudyDays()}</div>
+          <div class="text-2xl font-bold text-secondary-ink">${totalStudyDays()}</div>
           <div class="text-xs text-gray-600">累计学习天数</div>
         </div>
         <div class="bg-yellow-50 rounded-2xl p-3">
-          <div class="text-2xl font-bold text-orange-500">${badges.length}</div>
+          <div class="text-2xl font-bold text-orange-700">${badges.length}</div>
           <div class="text-xs text-gray-600">勋章</div>
         </div>
         <div class="bg-pink-50 rounded-2xl p-3">
-          <div class="text-2xl font-bold text-pink-500">${cards.length}</div>
+          <div class="text-2xl font-bold text-pink-700">${cards.length}</div>
           <div class="text-xs text-gray-600">收集卡牌</div>
         </div>
       </div>
@@ -525,7 +525,7 @@ function renderMe(app) {
           return `
             <div class="text-center ${unlocked ? '' : 'opacity-25 grayscale'}" title="${b.name}: ${b.desc}">
               <div class="text-3xl">${b.icon}</div>
-              <div class="text-[10px] mt-1 font-medium">${b.name}</div>
+              <div class="text-cap mt-1 font-medium">${b.name}</div>
             </div>
           `;
         }).join('')}
@@ -551,7 +551,7 @@ function renderMe(app) {
           📥 从文件恢复数据
           <input type="file" id="importInput" accept=".json" class="hidden" />
         </label>
-        <button id="resetBtn" class="w-full text-left px-3 py-2 rounded-xl hover:bg-red-50 text-sm text-red-500">🗑️ 清空全部数据</button>
+        <button id="resetBtn" class="w-full text-left px-3 py-2 rounded-xl hover:bg-red-50 text-sm text-red-600">🗑️ 清空全部数据</button>
       </div>
     </div>
 
@@ -645,7 +645,7 @@ async function showGradePicker() {
   showModal(`
     <div class="p-6 relative">
       <button id="gradePickerClose" aria-label="关闭" class="tap-bounce"
-        style="position:absolute;top:0;right:0;width:48px;height:48px;font-size:24px;line-height:1;color:#999">×</button>
+        style="position:absolute;top:0;right:0;width:48px;height:48px;font-size:var(--fs-h2);line-height:1;color:var(--c-ink-400)">×</button>
       <h3 class="font-bold text-lg text-center mb-4">选择你的年级</h3>
       <div class="grid grid-cols-3 gap-2">
         ${[1,2,3,4,5,6,7,8,9].map(g => {
@@ -655,7 +655,7 @@ async function showGradePicker() {
             <button data-grade="${g}" class="card-cartoon tap-bounce ${profile.grade===g?'ring-2 ring-primary':''}" style="padding:10px 6px">
               <div class="text-2xl text-center">${icon}</div>
               <div class="text-center font-bold mt-1 text-sm">${gradeLabel(g)}</div>
-              <div class="text-center text-[10px] text-gray-500">${stage}</div>
+              <div class="text-center text-cap text-gray-500">${stage}</div>
             </button>
           `;
         }).join('')}
@@ -666,7 +666,7 @@ async function showGradePicker() {
         <div class="text-3xl">🗝️</div>
         <div class="flex-1">
           <div class="font-bold text-sm">KET (A2 Key for Schools)</div>
-          <div class="text-[11px] text-gray-500">45 天备考中心${examCfg.examDate ? ' · ' + examCfg.examDate : ''} · 目标 ${examCfg.targetScore}+</div>
+          <div class="text-cap text-gray-500">45 天备考中心${examCfg.examDate ? ' · ' + examCfg.examDate : ''} · 目标 ${examCfg.targetScore}+</div>
         </div>
       </button>
       <button data-grade="PET" class="w-full card-cartoon tap-bounce mt-2 flex items-center gap-3 text-left ${profile.grade==='PET'?'ring-2 ring-primary':''}"
@@ -674,7 +674,7 @@ async function showGradePicker() {
         <div class="text-3xl">🎓</div>
         <div class="flex-1">
           <div class="font-bold text-sm">PET (B1 Preliminary)</div>
-          <div class="text-[11px] text-gray-500">B1 话题词汇 + 阅读，KET 拿证后再来</div>
+          <div class="text-cap text-gray-500">B1 话题词汇 + 阅读，KET 拿证后再来</div>
         </div>
       </button>
     </div>
@@ -791,10 +791,10 @@ function showBootError(err) {
   if (app) {
     app.innerHTML = `
       <div style="max-width:480px;margin:40px auto;padding:24px;background:#FFF5F5;border-radius:24px;border:2px solid #FCA5A5">
-        <div style="font-size:48px;text-align:center">😣</div>
-        <h3 style="font-size:18px;font-weight:bold;margin:12px 0;color:#C53030;text-align:center">启动失败</h3>
-        <p style="font-size:13px;color:#666;text-align:center;margin-bottom:12px">如果你是直接双击 HTML 打开,请改用 HTTP 服务器访问 (见 README)</p>
-        <pre style="background:#fff;padding:12px;border-radius:8px;font-size:11px;color:#555;overflow:auto;white-space:pre-wrap;word-break:break-all">${(err && (err.stack || err.message)) || err}</pre>
+        <div style="font-size:var(--emoji-md);text-align:center">😣</div>
+        <h3 style="font-size:var(--fs-h2);font-weight:bold;margin:12px 0;color:var(--c-danger-700);text-align:center">启动失败</h3>
+        <p style="font-size:var(--fs-body-sm);color:var(--c-ink-600);text-align:center;margin-bottom:12px">如果你是直接双击 HTML 打开,请改用 HTTP 服务器访问 (见 README)</p>
+        <pre style="background:#fff;padding:12px;border-radius:var(--r-xs);font-size:var(--fs-cap);color:var(--c-ink-600);overflow:auto;white-space:pre-wrap;word-break:break-all">${(err && (err.stack || err.message)) || err}</pre>
       </div>
     `;
   }

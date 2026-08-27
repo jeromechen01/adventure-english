@@ -142,7 +142,7 @@ async function renderArticle(app, data, articleId) {
     const html = words.map(token => {
       const clean = token.replace(/[^a-zA-Z]/g, '');
       if (clean) {
-        return `<span class="inline-word cursor-pointer hover:bg-yellow-100 rounded px-0.5" data-word="${clean.toLowerCase()}">${token}</span>`;
+        return `<span class="inline-word cursor-pointer hover:bg-yellow-100 rounded px-1" data-word="${clean.toLowerCase()}">${token}</span>`;
       }
       return token;
     }).join('');
@@ -215,7 +215,7 @@ async function renderArticle(app, data, articleId) {
     }
     popup.innerHTML = `
       <button data-close aria-label="关闭" class="tap-bounce"
-        style="position:absolute;top:0;right:0;width:48px;height:48px;font-size:20px;line-height:1;color:#999">×</button>
+        style="position:absolute;top:0;right:0;width:48px;height:48px;font-size:var(--fs-h2);line-height:1;color:var(--c-ink-400)">×</button>
       ${info ? `
         <div class="font-en font-bold" style="padding-right:36px">${info.word} <button data-speak class="text-base ml-1">🔊</button></div>
         <div class="text-xs text-gray-400 mb-1">${info.phonetic || ''}</div>

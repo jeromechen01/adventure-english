@@ -87,13 +87,13 @@ export function startLevel(app, opts) {
     const petEmoji = PET_STAGES[Math.min(storage.getPet().level - 1, 4)];
     app.innerHTML = `
       <div class="level-hud" id="hud">
-        <button id="quitBtn" class="hud-chip" style="font-size:20px;min-width:36px" title="退出">✕</button>
+        <button id="quitBtn" class="hud-chip" style="font-size:var(--fs-h2);min-width:48px;min-height:48px" title="退出">✕</button>
         <span class="hud-chip" id="hudHearts">${heartsHtml()}</span>
         <span class="hud-chip" id="hudCombo">🔥 <span>${combo}</span></span>
         <span class="hud-chip hud-mult" id="hudMult">×${multiplier()}</span>
         <span class="hud-chip" id="hudScore">🪙 <span>${coinsEarned}</span></span>
       </div>
-      <div style="position:fixed;right:10px;bottom:88px;font-size:40px;z-index:25" id="petCorner">${petEmoji}</div>
+      <div style="position:fixed;right:10px;bottom:96px;font-size:var(--emoji-md);z-index:25" id="petCorner">${petEmoji}</div>
       <div id="playArea" class="pt-4"></div>
     `;
     // 答题中先确认；结算/失败页（已退答题态）✕ 直接退出
@@ -271,7 +271,7 @@ export function startLevel(app, opts) {
       <div class="timer-bar-track mb-4"><div class="timer-bar-fill" id="timerBar" style="width:100%"></div></div>
       <div class="card-cartoon text-center mb-5 bg-gradient-to-br from-yellow-50 to-orange-50">
         <div class="text-xs text-gray-400 mb-1">${promptHint}</div>
-        <div class="big-title text-primary">${promptText}</div>
+        <div class="big-title text-primary-ink">${promptText}</div>
         ${zhToEn ? '' : `<button id="hearBtn" class="mt-2 text-2xl tap-bounce">🔊</button>`}
       </div>
       <div class="opt-grid" id="opts">
@@ -330,7 +330,7 @@ export function startLevel(app, opts) {
       <div class="text-center text-xs text-gray-400 mb-3">🧩 字母拼拼乐 · ${qIndex}/${totalQ}</div>
       <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-purple-50 to-pink-50">
         <div class="text-xs text-gray-400 mb-1">看中文，点字母拼出英语</div>
-        <div class="big-title text-primary">${word.meaning}</div>
+        <div class="big-title text-primary-ink">${word.meaning}</div>
         <button id="hearBtn" class="mt-1 text-2xl tap-bounce">🔊</button>
       </div>
       <div id="answerArea" class="card-cartoon min-h-[72px] flex items-center justify-center mb-4">
@@ -447,7 +447,7 @@ export function startLevel(app, opts) {
       <div class="timer-bar-track mb-3"><div class="timer-bar-fill" id="timerBar" style="width:100%"></div></div>
       <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-green-50 to-cyan-50">
         <div class="text-xs text-gray-400 mb-1">快速点出这个词的英文！</div>
-        <div class="big-title text-primary">${word.meaning}</div>
+        <div class="big-title text-primary-ink">${word.meaning}</div>
       </div>
       <div id="flashField" class="flex flex-wrap justify-center items-center" style="min-height:160px">
         ${opts.map((o, i) => `<span class="flash-word" data-i="${i}" style="opacity:0">${o.word}</span>`).join('')}
@@ -503,14 +503,14 @@ export function startLevel(app, opts) {
         <div class="text-7xl" id="bossEl">${bossEmoji}</div>
       </div>
       <div class="px-6 mb-4">
-        <div class="text-xs text-center text-red-500 font-bold mb-1">Boss 血量</div>
+        <div class="text-xs text-center text-red-600 font-bold mb-1">Boss 血量</div>
         <div class="progress-bar" style="background:#FED7D7">
           <div id="bossBar" style="height:100%;border-radius:999px;background:linear-gradient(90deg,#F56565,#C53030);width:${bossHp}%;transition:width .4s"></div>
         </div>
       </div>
       <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-red-50 to-orange-50">
         <div class="text-xs text-gray-400 mb-1">答对攻击 Boss！</div>
-        <div class="big-title text-primary">${promptText}</div>
+        <div class="big-title text-primary-ink">${promptText}</div>
       </div>
       <div class="opt-grid" id="opts">
         ${opts.map((o, i) => `<button class="opt-btn ${zhToEn ? 'font-en' : ''}" data-i="${i}">${zhToEn ? o.word : o.meaning}</button>`).join('')}
@@ -588,10 +588,10 @@ export function startLevel(app, opts) {
         <div id="starRow" class="text-5xl mb-4" style="letter-spacing:6px;min-height:56px"></div>
         <div class="card-cartoon mb-3 bg-gradient-to-br from-yellow-50 to-orange-50">
           <div class="text-sm">获得金币</div>
-          <div class="text-4xl font-bold text-primary my-1"><span id="coinRoll">0</span> 🪙</div>
-          ${dailyBoost ? '<div class="text-xs text-orange-500 font-bold">每日首关加成 ×2！</div>' : ''}
-          ${isBoss ? '<div class="text-xs text-red-500 font-bold">Boss 奖励翻倍！</div>' : ''}
-          ${firstClear ? '<div class="text-xs text-green-600">首通奖励 +30</div>' : ''}
+          <div class="text-2xl font-bold text-primary-ink my-1"><span id="coinRoll">0</span> 🪙</div>
+          ${dailyBoost ? '<div class="text-xs text-orange-700 font-bold">每日首关加成 ×2！</div>' : ''}
+          ${isBoss ? '<div class="text-xs text-red-600 font-bold">Boss 奖励翻倍！</div>' : ''}
+          ${firstClear ? '<div class="text-xs text-green-700">首通奖励 +30</div>' : ''}
         </div>
         <div class="text-sm text-gray-600 mb-2">最高连击 🔥${maxCombo} · 答对 ${correctCount}/${totalQ}</div>
         ${leveledUp ? `<div class="card-cartoon mb-3 bg-gradient-to-br from-purple-50 to-pink-50"><div class="font-bold">🎊 宠物升级到 Lv.${petAfter}！</div></div>` : (expGain ? `<div class="text-xs text-gray-500 mb-2">宠物经验 +${expGain}</div>` : '')}
@@ -706,12 +706,12 @@ export function startLevel(app, opts) {
     const playArea = app.querySelector('#playArea') || app;
     if (!app.querySelector('#playArea')) renderShell();
     app.querySelector('#playArea').innerHTML = `
-      <div class="text-center pt-10 fade-in">
+      <div class="text-center pt-8 fade-in">
         <div class="text-7xl mb-3 float">💪</div>
         <div class="big-title mb-2">就差一点点！</div>
         <div class="card-cartoon my-4 bg-gradient-to-br from-cyan-50 to-blue-50">
           <div class="text-sm text-gray-600">这次答对了</div>
-          <div class="text-4xl font-bold text-secondary my-1">${correctCount}<span class="text-lg text-gray-400"> / ${totalQ}</span></div>
+          <div class="text-2xl font-bold text-secondary-ink my-1">${correctCount}<span class="text-lg text-gray-400"> / ${totalQ}</span></div>
           <div class="text-sm text-gray-600">个单词，金币照样到账 🪙${coinsEarned}</div>
         </div>
         <div class="text-sm text-gray-500 mb-5">再试一次说不定就过了！</div>

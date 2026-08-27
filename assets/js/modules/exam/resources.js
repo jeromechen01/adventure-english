@@ -30,7 +30,7 @@ export async function renderResources(app) {
              class="block card-cartoon tap-bounce ${seen ? 'opacity-70' : ''}" style="padding:12px 14px">
             <div class="flex items-center gap-2">
               <span class="font-bold text-sm flex-1">${it.star ? '⭐ ' : ''}${esc(it.name)}</span>
-              ${seen ? '<span class="text-green-500 font-bold">✓ 已看</span>' : '<span class="text-gray-300">↗</span>'}
+              ${seen ? '<span class="text-green-700 font-bold">✓ 已看</span>' : '<span class="text-gray-300">↗</span>'}
             </div>
             <div class="text-xs text-gray-500 mt-1">${esc(it.why)}</div>
           </a>`;
@@ -40,12 +40,12 @@ export async function renderResources(app) {
     <!-- 报名操作 -->
     <h3 class="font-bold mb-2 mt-5">📮 ${reg.title}</h3>
     <div class="card-cartoon mb-3 border-2 border-red-300 bg-red-50">
-      ${reg.warnings.map(w => `<p class="text-sm text-gray-700 mb-1.5">⚠️ ${w}</p>`).join('')}
+      ${reg.warnings.map(w => `<p class="text-sm text-gray-700 mb-2">⚠️ ${w}</p>`).join('')}
     </div>
     <div class="card-cartoon mb-3">
       ${reg.steps.map((s, i) => `
         <div class="flex gap-2 py-2 border-b border-gray-50 last:border-0">
-          <span class="font-black text-primary" style="min-width:24px">${i + 1}</span>
+          <span class="font-black text-primary-ink" style="min-width:24px">${i + 1}</span>
           <span class="text-sm text-gray-700 flex-1" style="word-break:break-all">${s}</span>
         </div>`).join('')}
     </div>
@@ -59,7 +59,7 @@ export async function renderResources(app) {
             <span class="font-bold text-sm" style="min-width:76px">${r.item}</span>
             <span class="text-sm text-gray-700 flex-1">${r.rule}</span>
           </div>
-          <div class="text-xs text-orange-600 mt-0.5 pl-[84px]">→ ${fillSeason(r.meaning)}</div>
+          <div class="text-xs text-orange-700 mt-1 pl-[84px]">→ ${fillSeason(r.meaning)}</div>
         </div>`).join('')}
     </div>
 

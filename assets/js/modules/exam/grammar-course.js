@@ -71,7 +71,7 @@ export async function renderGrammarCourse(app, params = {}) {
         const badge = st === 'done' ? '✅ 已掌握' : st === 'learning' ? '📖 学习中' : '⬜ 未学';
         return `
         <button data-lesson="${l.id}" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left" style="padding:12px 14px">
-          <span class="font-black text-primary" style="min-width:36px">${l.id}</span>
+          <span class="font-black text-primary-ink" style="min-width:36px">${l.id}</span>
           <div class="flex-1">
             <div class="font-bold text-sm">${l.title}${l.hiddenLine ? ' <span title="暗线">🧵</span>' : ''}</div>
             <div class="text-xs text-gray-500">${l.minutes}′ · ${badge}</div>
@@ -119,11 +119,11 @@ function hallDeepDiveHTML(ketId, hallIndex) {
       <div class="font-bold text-sm mb-1">🏛️ 想更深入？</div>
       <p class="text-xs text-gray-600 mb-2">八课是考前最短路径；语法大厅把同一个点讲透（九段讲解 + 记忆卡 + 四环节闯练 + 侦探关）。看完可以直接返回这一课。</p>
       ${targets.map(m => `
-        <button data-hall="${m.id}" class="w-full card-cartoon tap-bounce flex items-center gap-2.5 text-left mb-2 last:mb-0" style="padding:10px 12px;min-height:48px">
-          <span class="font-black text-sky-500" style="min-width:40px">${m.id}</span>
+        <button data-hall="${m.id}" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left mb-2 last:mb-0" style="padding:10px 12px;min-height:48px">
+          <span class="font-black text-sky-700" style="min-width:40px">${m.id}</span>
           <div class="flex-1" style="min-width:0">
             <div class="font-bold text-sm">语法大厅 ${m.id}：${esc(m.title)}</div>
-            <div class="text-xs text-gray-500 mt-0.5">🎼 ${esc(m.metaphor)}</div>
+            <div class="text-xs text-gray-500 mt-1">🎼 ${esc(m.metaphor)}</div>
           </div>
           <span class="text-xl text-gray-300">›</span>
         </button>`).join('')}
@@ -168,7 +168,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
         ${l.examples.map(e => `
           <div class="mb-2 pb-2 border-b border-green-100 last:border-0">
             <div class="font-en text-sm font-bold">${e.en}</div>
-            <div class="text-xs text-gray-600">${e.zh} <span class="text-green-600">· ${e.note}</span></div>
+            <div class="text-xs text-gray-600">${e.zh} <span class="text-green-700">· ${e.note}</span></div>
           </div>`).join('')}
       </div>
 
@@ -176,7 +176,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
       <div class="card-cartoon mb-3 border-2 border-purple-300 bg-purple-50">
         <div class="font-bold text-sm mb-1">🧵 暗线时刻</div>
         <p class="text-sm text-gray-700">${l.hiddenLineNote}</p>
-        <p class="text-xs text-purple-500 mt-2">${lessonsData.hiddenLineText}</p>
+        <p class="text-xs text-purple-600 mt-2">${lessonsData.hiddenLineText}</p>
       </div>` : ''}
 
       <div class="card-cartoon mb-3 bg-blue-50">
@@ -314,7 +314,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
           <div class="font-bold text-sm mb-1">🎵 规则 ${i + 1} · ${r.point}</div>
           ${r.detail ? `<p class="text-sm text-gray-700 mb-2">${r.detail}</p>` : ''}
           ${(r.examples || []).map(e => `
-            <div class="mb-1.5 pb-1.5 border-b border-gray-50 last:border-0">
+            <div class="mb-2 pb-2 border-b border-gray-50 last:border-0">
               <div class="font-en text-sm font-bold">${e.en}</div>
               <div class="text-xs text-gray-600">${e.zh}</div>
             </div>`).join('')}
@@ -323,7 +323,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
       <!-- 注意事项 -->
       <div class="card-cartoon mb-3 bg-amber-50 border-2 border-amber-300">
         <div class="font-bold text-sm mb-2">⚠️ 注意事项</div>
-        ${t.notes.map(n => `<p class="text-sm text-gray-700 mb-1.5">· ${n}</p>`).join('')}
+        ${t.notes.map(n => `<p class="text-sm text-gray-700 mb-2">· ${n}</p>`).join('')}
       </div>
 
       <!-- 易错点红黑榜 -->
@@ -333,13 +333,13 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
           const z = ZONE_STYLE[e.zone] || ZONE_STYLE.gray;
           return `
           <div class="mb-3 pb-3 border-b border-gray-100 last:border-0 last:mb-0 last:pb-0">
-            <div class="text-sm font-en mb-1">❌ <s class="text-red-400">${esc(e.wrong)}</s></div>
-            <div class="text-sm font-en mb-1">✅ <b class="text-green-600">${esc(e.right)}</b></div>
+            <div class="text-sm font-en mb-1">❌ <s class="text-red-600">${esc(e.wrong)}</s></div>
+            <div class="text-sm font-en mb-1">✅ <b class="text-green-700">${esc(e.right)}</b></div>
             <p class="text-xs text-gray-600 mb-1">${e.why}</p>
-            <div class="flex flex-wrap gap-1.5 text-[11px]">
-              <span class="rounded-full px-2 py-0.5 border ${z.cls}">${z.badge} ${e.zone === 'red' ? '红区' : e.zone === 'yellow' ? '黄区' : '灰区'}</span>
-              <span class="rounded-full px-2 py-0.5 bg-gray-100">挡意思：${e.impedes ? '会' : '通常不会'}</span>
-              <span class="rounded-full px-2 py-0.5 bg-gray-100">考点：${e.ketPart}</span>
+            <div class="flex flex-wrap gap-2 text-cap">
+              <span class="rounded-full px-2 py-1 border ${z.cls}">${z.badge} ${e.zone === 'red' ? '红区' : e.zone === 'yellow' ? '黄区' : '灰区'}</span>
+              <span class="rounded-full px-2 py-1 bg-gray-100">挡意思：${e.impedes ? '会' : '通常不会'}</span>
+              <span class="rounded-full px-2 py-1 bg-gray-100">考点：${e.ketPart}</span>
             </div>
           </div>`;
         }).join('')}
@@ -355,7 +355,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
       <div class="card-cartoon mb-3 border-2 border-purple-300 bg-purple-50">
         <div class="font-bold text-sm mb-1">🧵 暗线时刻</div>
         <p class="text-sm text-gray-700">${t.darkline}</p>
-        <p class="text-xs text-purple-500 mt-2">${lessonsData.hiddenLineText}</p>
+        <p class="text-xs text-purple-600 mt-2">${lessonsData.hiddenLineText}</p>
       </div>` : ''}
 
       ${l.accept ? `
@@ -398,7 +398,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
 
     app.innerHTML = `
       ${headerHtml(`⚡ ${l.id} 特殊单词表`)}
-      <p class="text-xs text-gray-500 mb-3">按变化规律分组 · <span class="text-amber-500">★</span> = KET 高频 · 点任意一行可朗读</p>
+      <p class="text-xs text-gray-500 mb-3">按变化规律分组 · <span class="text-amber-700">★</span> = KET 高频 · 点任意一行可朗读</p>
       <button id="spMixBtn" class="w-full btn-cartoon mb-4" style="min-height:48px">🎯 全部混合闯关（${totalWords} 词）</button>
       ${sw.map((g, gi) => `
         <div class="card-cartoon mb-3">
@@ -407,13 +407,13 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
           <div class="space-y-1 mb-2">
             ${g.words.map((w, wi) => `
               <button data-sp="${gi}-${wi}" class="w-full text-left rounded-xl px-3 py-2 tap-bounce ${w.high ? 'bg-amber-50' : 'bg-gray-50'}" style="min-height:48px">
-                <div class="flex items-center gap-1.5">
-                  <span class="font-en text-sm flex-1" style="word-break:break-word">${w.base === w.form ? `<b>${esc(w.form)}</b>` : `${esc(w.base)} <span class="text-gray-400">→</span> <b class="text-primary">${esc(w.form)}</b>`}</span>
-                  ${w.high ? '<span class="text-amber-500 text-sm">★</span>' : ''}
+                <div class="flex items-center gap-2">
+                  <span class="font-en text-sm flex-1" style="word-break:break-word">${w.base === w.form ? `<b>${esc(w.form)}</b>` : `${esc(w.base)} <span class="text-gray-400">→</span> <b class="text-primary-ink">${esc(w.form)}</b>`}</span>
+                  ${w.high ? '<span class="text-amber-700 text-sm">★</span>' : ''}
                   <span class="text-base">🔊</span>
                 </div>
-                <div class="text-xs text-gray-500 mt-0.5">${w.phonetic ? `<span class="font-en">${esc(w.phonetic)}</span> · ` : ''}${esc(w.zh)}</div>
-                ${w.ex ? `<div class="text-[11px] text-gray-400 mt-0.5 font-en">${esc(w.ex)}</div>` : ''}
+                <div class="text-xs text-gray-500 mt-1">${w.phonetic ? `<span class="font-en">${esc(w.phonetic)}</span> · ` : ''}${esc(w.zh)}</div>
+                ${w.ex ? `<div class="text-cap text-gray-400 mt-1 font-en">${esc(w.ex)}</div>` : ''}
               </button>`).join('')}
           </div>
           ${g.words.length >= 4 ? `<button data-spgroup="${gi}" class="w-full btn-cartoon btn-cartoon-secondary" style="min-height:48px">🎯 练这组（${g.words.length} 词）</button>` : ''}
@@ -466,7 +466,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
             <div class="flex items-center gap-3">
               <span class="text-2xl">${locked ? '🔒' : passed ? '✅' : ['🌱', '🎯', '⚔️', '🏆'][i] || '📝'}</span>
               <div class="flex-1">
-                <div class="font-bold text-sm">环节 ${s.stage} · ${s.name} <span class="text-amber-500">${stars}</span></div>
+                <div class="font-bold text-sm">环节 ${s.stage} · ${s.name} <span class="text-amber-700">${stars}</span></div>
                 <div class="text-xs text-gray-500">${best !== null ? `最好成绩 ${best}/${Math.min(STAGE_TAKE, s.questions.length)}${passed ? ' · 已通过' : ''}` : locked ? '先通过上一环节解锁' : `${Math.min(STAGE_TAKE, s.questions.length)} 题 · 未挑战`}</div>
               </div>
               <span class="text-xl text-gray-300">›</span>
@@ -539,7 +539,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
           <button id="submitBtn" class="w-full btn-cartoon mt-3" style="min-height:48px">提交</button>`;
       } else { // fill
         body = `<div class="text-base font-bold font-en mb-1">${esc(q.q)}</div>
-          ${q.hint ? `<div class="text-xs text-blue-500 mb-2">${esc(q.hint)}</div>` : ''}
+          ${q.hint ? `<div class="text-xs text-blue-600 mb-2">${esc(q.hint)}</div>` : ''}
           <input id="ansInput" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base" placeholder="填一个词/短语" autocomplete="off" autocapitalize="off" />
           <button id="submitBtn" class="w-full btn-cartoon mt-3" style="min-height:48px">提交</button>`;
       }
@@ -548,7 +548,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
         ${headerHtml(`${isRetry ? '错题重练' : `环节 ${s.stage} · ${s.name}`} ${idx + 1}/${questions.length}`)}
         <div class="progress-bar mb-4"><div class="progress-bar-fill" style="width:${idx / questions.length * 100}%"></div></div>
         <div class="card-cartoon mb-4">
-          <div class="text-xs text-gray-400 mb-2">${typeLabel} · <span class="text-amber-500">${stars}</span></div>
+          <div class="text-xs text-gray-400 mb-2">${typeLabel} · <span class="text-amber-700">${stars}</span></div>
           ${body}
         </div>
         <div id="feedback"></div>
@@ -658,7 +658,7 @@ function renderVerbs(app, level, verbs) {
             <span class="text-xl text-gray-300">›</span>
           </div>
           <div class="flex flex-wrap gap-1 mt-2">
-            ${g.verbs.slice(0, 8).map(v => `<span class="text-[11px] bg-gray-100 rounded-full px-2 py-0.5 font-en">${v.base}→${v.past}</span>`).join('')}${g.verbs.length > 8 ? `<span class="text-[11px] text-gray-400">+${g.verbs.length - 8}</span>` : ''}
+            ${g.verbs.slice(0, 8).map(v => `<span class="text-cap bg-gray-100 rounded-full px-2 py-1 font-en">${v.base}→${v.past}</span>`).join('')}${g.verbs.length > 8 ? `<span class="text-cap text-gray-400">+${g.verbs.length - 8}</span>` : ''}
           </div>
         </button>`).join('')}
     </div>
@@ -704,7 +704,7 @@ function renderErrors(app, errors) {
     ${headerHtml('🚦 8 类中式错误 · 三色分区')}
     <div class="card-cartoon mb-4 border-2 border-amber-300 bg-amber-50">
       <div class="font-bold text-sm mb-2">读表关键</div>
-      ${errors.readingKey.map(k => `<p class="text-sm text-gray-700 mb-1.5">· ${k}</p>`).join('')}
+      ${errors.readingKey.map(k => `<p class="text-sm text-gray-700 mb-2">· ${k}</p>`).join('')}
     </div>
     <div class="space-y-2 mb-4">
       ${errors.errors.map(e => {
@@ -714,10 +714,10 @@ function renderErrors(app, errors) {
           <div class="flex items-center gap-2 mb-1">
             <span>${z.badge}</span>
             <span class="font-bold text-sm flex-1">${e.no}. ${e.name}</span>
-            <span class="text-[11px] text-gray-500">挡意思：${e.impedes}</span>
+            <span class="text-cap text-gray-500">挡意思：${e.impedes}</span>
           </div>
-          <div class="text-sm font-en"><s class="text-red-400">${e.wrong}</s> → <b class="text-green-600">${e.right}</b></div>
-          <div class="text-[11px] text-gray-400 mt-1">在哪考：${e.where}</div>
+          <div class="text-sm font-en"><s class="text-red-600">${e.wrong}</s> → <b class="text-green-700">${e.right}</b></div>
+          <div class="text-cap text-gray-400 mt-1">在哪考：${e.where}</div>
         </div>`;
       }).join('')}
     </div>
@@ -732,7 +732,7 @@ function renderErrors(app, errors) {
     </div>
     <div class="card-cartoon bg-amber-50">
       <div class="font-bold text-sm mb-2">👪 ${errors.parentGuide.title}</div>
-      ${errors.parentGuide.rules.map(r => `<p class="text-sm text-gray-700 mb-1.5">${r}</p>`).join('')}
+      ${errors.parentGuide.rules.map(r => `<p class="text-sm text-gray-700 mb-2">${r}</p>`).join('')}
     </div>
   `;
   bindBack(app, 'exam-grammar');
@@ -747,11 +747,11 @@ function renderInventory(app, inv) {
     <!-- 满分档事实卡 -->
     <div class="card-cartoon mb-4 border-2 border-green-300 bg-green-50">
       <div class="font-bold text-sm mb-2">${inv.bandFact.title}</div>
-      ${inv.bandFact.points.map(p => `<p class="text-sm text-gray-700 mb-1.5">${p}</p>`).join('')}
+      ${inv.bandFact.points.map(p => `<p class="text-sm text-gray-700 mb-2">${p}</p>`).join('')}
       <div class="mt-2 bg-white rounded-2xl p-3">
         <div class="text-xs text-gray-500 mb-1">${inv.bandFact.originalExample.intro}</div>
         <p class="font-en text-sm mb-1">${inv.bandFact.originalExample.text}</p>
-        <div class="text-[11px] text-gray-400">${inv.bandFact.originalExample.note}</div>
+        <div class="text-cap text-gray-400">${inv.bandFact.originalExample.note}</div>
       </div>
     </div>
 
@@ -769,11 +769,11 @@ function renderInventory(app, inv) {
     <!-- Part 5 速成 -->
     <div class="card-cartoon mb-4 bg-gradient-to-br from-cyan-50 to-blue-50">
       <div class="font-bold text-sm mb-2">⚡ ${inv.part5Method.title}</div>
-      <div class="flex flex-wrap gap-1.5 mb-2">${inv.part5Method.steps.map(s => `<span class="text-xs bg-white rounded-full px-3 py-1">${s}</span>`).join('')}</div>
+      <div class="flex flex-wrap gap-2 mb-2">${inv.part5Method.steps.map(s => `<span class="text-xs bg-white rounded-full px-3 py-1">${s}</span>`).join('')}</div>
       ${inv.part5Method.shapes.map(s => `
-        <div class="flex gap-2 py-1.5 border-b border-cyan-100 last:border-0 text-sm">
+        <div class="flex gap-2 py-2 border-b border-cyan-100 last:border-0 text-sm">
           <span class="text-gray-600 flex-1">${s.shape}</span>
-          <span class="font-bold text-primary">${s.fill}</span>
+          <span class="font-bold text-primary-ink">${s.fill}</span>
         </div>`).join('')}
     </div>
 
@@ -784,9 +784,9 @@ function renderInventory(app, inv) {
       ${inv.groups.map(g => `
         <div class="mb-3 ${g.highlight ? 'bg-amber-50 rounded-2xl p-2' : ''}">
           <div class="font-bold text-xs mb-1">${g.highlight ? '★ ' : ''}${g.name}</div>
-          <div class="flex flex-wrap gap-1">${g.items.map(i => `<span class="text-[11px] bg-gray-100 rounded-full px-2 py-0.5">${i}</span>`).join('')}</div>
+          <div class="flex flex-wrap gap-1">${g.items.map(i => `<span class="text-cap bg-gray-100 rounded-full px-2 py-1">${i}</span>`).join('')}</div>
         </div>`).join('')}
-      <div class="text-[11px] text-gray-400">${inv.note}</div>
+      <div class="text-cap text-gray-400">${inv.note}</div>
     </div>
   `;
   bindBack(app, 'exam-grammar');

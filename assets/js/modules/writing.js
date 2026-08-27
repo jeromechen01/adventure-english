@@ -161,12 +161,12 @@ function renderTopic(app, topic, samplesData) {
       <div class="card-cartoon mb-3">
         <h3 class="font-bold mb-2">💡 写作提示</h3>
         <ul class="space-y-1 text-sm">
-          ${topic.tips.map(t => `<li class="flex gap-2"><span class="text-primary">▸</span><span>${t}</span></li>`).join('')}
+          ${topic.tips.map(t => `<li class="flex gap-2"><span class="text-primary-ink">▸</span><span>${t}</span></li>`).join('')}
         </ul>
         <div class="mt-3 pt-3 border-t border-gray-100">
           <div class="text-xs text-gray-400 mb-1">参考词汇</div>
           <div class="flex flex-wrap gap-1">
-            ${topic.keyWords.map(w => `<span class="text-xs bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded-full font-en">${w}</span>`).join('')}
+            ${topic.keyWords.map(w => `<span class="text-xs bg-cyan-100 text-cyan-700 px-2 py-1 rounded-full font-en">${w}</span>`).join('')}
           </div>
         </div>
       </div>
@@ -232,7 +232,7 @@ function renderTopic(app, topic, samplesData) {
       <!-- 总分 -->
       <div class="card-cartoon text-center bg-gradient-to-br from-orange-100 to-pink-50 mb-3">
         <div class="text-sm text-gray-500">总分</div>
-        <div class="text-5xl font-bold text-primary my-2">${result.total}</div>
+        <div class="text-2xl font-bold text-primary-ink my-2">${result.total}</div>
         <div class="text-sm">${result.totalComment}</div>
       </div>
 
@@ -268,7 +268,7 @@ function renderTopic(app, topic, samplesData) {
             <div class="text-xs font-bold text-gray-600 mb-2">问题清单 (${result.issues.length})</div>
             <ul class="space-y-1 text-xs">
               ${result.issues.map(i => `<li class="flex gap-2">
-                <span class="${i.type === 'error' ? 'text-red-500' : i.type === 'warn' ? 'text-orange-500' : 'text-blue-500'}">●</span>
+                <span class="${i.type === 'error' ? 'text-red-600' : i.type === 'warn' ? 'text-orange-700' : 'text-blue-600'}">●</span>
                 <span>${i.message}</span>
               </li>`).join('')}
             </ul>
@@ -285,7 +285,7 @@ function renderTopic(app, topic, samplesData) {
               <div class="flex items-center gap-2">
                 <span class="font-en text-gray-500 line-through">${u.from}</span>
                 <span>→</span>
-                <span class="font-en text-primary font-bold">${u.to.join(' / ')}</span>
+                <span class="font-en text-primary-ink font-bold">${u.to.join(' / ')}</span>
               </div>
             `).join('')}
           </div>
@@ -328,7 +328,7 @@ function highlightSample(sample) {
   if (sample.highlights) {
     sample.highlights.forEach(h => {
       const re = new RegExp(escapeRegex(h.phrase), 'gi');
-      html = html.replace(re, m => `<span class="bg-yellow-200 px-0.5 rounded">${m}</span>`);
+      html = html.replace(re, m => `<span class="bg-yellow-200 px-1 rounded">${m}</span>`);
     });
   }
   return html;
@@ -492,12 +492,12 @@ function grade(text, topic) {
   // 标红可疑拼写
   suspicious.slice(0, 8).forEach(s => {
     markedHtml = markedHtml.replace(new RegExp(`\\b${escapeRegex(s)}\\b`, 'g'),
-      `<span class="bg-red-100 text-red-600 px-0.5 rounded underline decoration-wavy decoration-red-400">${s}</span>`);
+      `<span class="bg-red-100 text-red-600 px-1 rounded underline decoration-wavy decoration-red-400">${s}</span>`);
   });
   // 标黄可升级词
   upgrades.forEach(u => {
     markedHtml = markedHtml.replace(new RegExp(`\\b${escapeRegex(u.from)}\\b`, 'gi'),
-      m => `<span class="bg-yellow-100 text-yellow-700 px-0.5 rounded" title="可升级">${m}</span>`);
+      m => `<span class="bg-yellow-100 text-yellow-700 px-1 rounded" title="可升级">${m}</span>`);
   });
 
   return {

@@ -85,7 +85,7 @@ function renderTopic(app, data, topicId) {
       <div class="card-cartoon mb-3">
         <h3 class="font-bold mb-2">📋 规则</h3>
         <ul class="space-y-1 text-sm">
-          ${topic.rules.map(r => `<li class="flex gap-2"><span class="text-primary">▸</span><span>${r}</span></li>`).join('')}
+          ${topic.rules.map(r => `<li class="flex gap-2"><span class="text-primary-ink">▸</span><span>${r}</span></li>`).join('')}
         </ul>
       </div>
 
@@ -191,12 +191,12 @@ function renderTopic(app, data, topicId) {
     const percent = Math.round((qScore / total) * 100);
 
     app.innerHTML = `
-      <div class="text-center py-10 fade-in">
+      <div class="text-center py-8 fade-in">
         <div class="text-6xl mb-4 bounce-in">${percent === 100 ? '🏆' : percent >= 60 ? '🎉' : '💪'}</div>
         <h2 class="text-2xl font-bold mb-2">练习完成！</h2>
         <div class="card-cartoon my-4 bg-gradient-to-br from-cyan-50 to-blue-50">
           <div class="text-sm">${topic.title}</div>
-          <div class="text-4xl font-bold text-primary my-2">${qScore} / ${total}</div>
+          <div class="text-2xl font-bold text-primary-ink my-2">${qScore} / ${total}</div>
           <div class="text-sm">${percent === 100 ? '满分！知识点掌握得很扎实' : percent >= 60 ? '通过了，再练几遍会更好' : '建议再回去复习一下规则'}</div>
         </div>
         <button id="redoBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-6">🎲 换一批重做（题目会变）</button>

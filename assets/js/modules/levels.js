@@ -91,7 +91,7 @@ export async function renderLevelMap(app, opts = {}) {
     <div class="card-cartoon mb-3 py-3 bg-gradient-to-r from-orange-50 to-yellow-50">
       <div class="flex items-center justify-between text-sm font-bold">
         <span>已通关 ${clearedCount}/${numLevels}</span>
-        <span class="text-orange-500">⭐ ${totalStars} 星</span>
+        <span class="text-orange-700">⭐ ${totalStars} 星</span>
         <span>${currentRegion.icon} ${currentRegion.name}</span>
       </div>
     </div>

@@ -67,12 +67,12 @@ export function renderPetGame(app) {
         <button id="feedBtn" class="card-cartoon tap-bounce text-center bg-orange-50">
           <div class="text-3xl">🍞</div>
           <div class="text-xs font-bold mt-1">单词面包</div>
-          <div class="text-[10px] text-gray-500">5🪙 +20饱食</div>
+          <div class="text-cap text-gray-500">5🪙 +20饱食</div>
         </button>
         <button id="playBtn" class="card-cartoon tap-bounce text-center bg-cyan-50">
           <div class="text-3xl">🎾</div>
           <div class="text-xs font-bold mt-1">陪它玩</div>
-          <div class="text-[10px] text-gray-500">免费 +10心情</div>
+          <div class="text-cap text-gray-500">免费 +10心情</div>
         </button>
       </div>
     </div>
@@ -84,7 +84,7 @@ export function renderPetGame(app) {
         ${PET_STAGES.map((s, i) => `
           <div class="text-center ${i + 1 === pet.level ? 'scale-110' : ''} ${i + 1 > pet.level ? 'opacity-30' : ''}">
             <div class="text-3xl">${s.emoji}</div>
-            <div class="text-[10px] mt-1">${s.name}</div>
+            <div class="text-cap mt-1">${s.name}</div>
           </div>
           ${i < PET_STAGES.length - 1 ? '<div class="text-gray-300">→</div>' : ''}
         `).join('')}

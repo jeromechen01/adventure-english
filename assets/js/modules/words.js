@@ -76,14 +76,14 @@ export async function renderWordsPage(app, params) {
       <div class="progress-bar">
         <div class="progress-bar-fill" style="width:${totalWords ? (learnedInGrade/totalWords)*100 : 0}%"></div>
       </div>
-      ${reviewDue > 0 ? `<div class="mt-2 text-xs text-orange-600">⏰ ${reviewDue} 个单词到了复习时间</div>` : ''}
+      ${reviewDue > 0 ? `<div class="mt-2 text-xs text-orange-700">⏰ ${reviewDue} 个单词到了复习时间</div>` : ''}
     </div>
 
     <!-- ★ 闯关地图主入口（最醒目）★ -->
     <button data-go="levels" class="w-full card-cartoon tap-bounce text-left mb-4 relative overflow-hidden"
       style="background:linear-gradient(135deg,#FFE3C2,#FFD0E0);padding:22px">
       <div class="absolute right-3 top-3 text-5xl opacity-30">🗺️</div>
-      <div class="text-xs font-bold text-orange-600 mb-1">🔥 单词闯关 · 探险旅程</div>
+      <div class="text-xs font-bold text-orange-700 mb-1">🔥 单词闯关 · 探险旅程</div>
       <div class="text-2xl font-extrabold mb-1">第 ${nextLevel} 关</div>
       <div class="text-xs text-gray-600 mb-3">已通关 ${clearedLevels}/${numLevels} · ⭐${totalStars} 星</div>
       <div class="inline-block btn-cartoon" style="padding:8px 22px;pointer-events:none">▶ 继续闯关</div>
@@ -105,19 +105,19 @@ export async function renderWordsPage(app, params) {
     <div class="grid grid-cols-4 gap-2 mb-4">
       <button data-mode="match" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-purple-100 to-pink-50" style="padding:12px 6px">
         <div class="text-2xl">🧩</div>
-        <div class="text-[11px] font-bold mt-1">消消乐</div>
+        <div class="text-cap font-bold mt-1">消消乐</div>
       </button>
       <button data-mode="shoot" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-green-100 to-cyan-50" style="padding:12px 6px">
         <div class="text-2xl">🎯</div>
-        <div class="text-[11px] font-bold mt-1">打地鼠</div>
+        <div class="text-cap font-bold mt-1">打地鼠</div>
       </button>
       <button data-mode="pet" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-yellow-100 to-orange-50" style="padding:12px 6px">
         <div class="text-2xl">🦊</div>
-        <div class="text-[11px] font-bold mt-1">宠物</div>
+        <div class="text-cap font-bold mt-1">宠物</div>
       </button>
       <button data-mode="cards" class="card-cartoon tap-bounce text-center bg-gradient-to-br from-blue-100 to-indigo-50" style="padding:12px 6px">
         <div class="text-2xl">🃏</div>
-        <div class="text-[11px] font-bold mt-1">卡牌</div>
+        <div class="text-cap font-bold mt-1">卡牌</div>
       </button>
     </div>
 
@@ -185,10 +185,10 @@ function renderStudyFlow(app, data, grade, unitId) {
 
       <div class="card-cartoon text-center bounce-in">
         <div class="text-xs text-gray-400 mb-1">${w.pos || ''}</div>
-        <div class="text-4xl font-en font-bold mb-2">${w.word}</div>
+        <div class="text-2xl font-en font-bold mb-2">${w.word}</div>
         <div class="text-sm text-gray-500 mb-3">${w.phonetic || ''}</div>
         <button id="speakBtn" class="text-3xl mb-3 tap-bounce">🔊</button>
-        <div class="text-2xl text-primary font-bold mb-4">${w.meaning}</div>
+        <div class="text-2xl text-primary-ink font-bold mb-4">${w.meaning}</div>
 
         ${w.examples && w.examples.length ? `
           <div class="bg-orange-50 rounded-2xl p-3 text-left mt-2">
@@ -288,7 +288,7 @@ function renderStudyFlow(app, data, grade, unitId) {
         <div class="text-gray-500 mb-6">${unit.unitName}</div>
         <div class="card-cartoon mb-4 bg-gradient-to-br from-yellow-50 to-orange-50">
           <div class="text-sm">本次学习</div>
-          <div class="text-3xl font-bold text-primary my-2">${learnedCount}</div>
+          <div class="text-2xl font-bold text-primary-ink my-2">${learnedCount}</div>
           <div class="text-sm">个单词，奖励 ${learnedCount * 5} 🪙</div>
         </div>
 
@@ -299,8 +299,8 @@ function renderStudyFlow(app, data, grade, unitId) {
               ${droppedCards.map(c => `
                 <div class="card-rarity-${c.rarity} rounded-xl p-2 text-center" style="min-width:70px">
                   <div class="font-en text-sm font-bold">${c.word}</div>
-                  <div class="text-[10px] text-gray-500">${c.meaning}</div>
-                  <div class="text-[10px] font-bold mt-1">${c.rarity}</div>
+                  <div class="text-cap text-gray-500">${c.meaning}</div>
+                  <div class="text-cap font-bold mt-1">${c.rarity}</div>
                 </div>
               `).join('')}
             </div>
@@ -346,8 +346,8 @@ function renderBrowse(app, data, grade) {
               <div class="font-en font-bold">${w.word} <span class="text-xs font-sans text-gray-400">${w.phonetic || ''}</span></div>
               <div class="text-sm text-gray-600">${w.pos || ''} ${w.meaning}</div>
             </div>
-            ${isLearned ? '<span class="text-green-500 text-sm">✓ 已学</span>' : ''}
-            <button class="speak-btn p-2 text-2xl text-primary">🔊</button>
+            ${isLearned ? '<span class="text-green-700 text-sm">✓ 已学</span>' : ''}
+            <button class="speak-btn p-2 text-2xl text-primary-ink">🔊</button>
           </div>
         `;
       }).join('')}

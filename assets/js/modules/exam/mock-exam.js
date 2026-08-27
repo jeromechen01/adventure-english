@@ -29,7 +29,7 @@ export async function renderMockExam(app, params = {}) {
   app.innerHTML = `
     ${headerHtml('📝 模拟考试')}
     <div class="card-cartoon mb-4 bg-blue-50">
-      ${idx.explainCard.map(l => `<p class="text-sm text-gray-700 mb-1.5">${l}</p>`).join('')}
+      ${idx.explainCard.map(l => `<p class="text-sm text-gray-700 mb-2">${l}</p>`).join('')}
       <div class="text-xs text-gray-500 mt-1">${idx.scoring}</div>
     </div>
 
@@ -49,7 +49,7 @@ export async function renderMockExam(app, params = {}) {
             <span class="text-2xl">${r ? '✅' : '📝'}</span>
             <div class="flex-1">
               <div class="font-bold text-sm">${m.name} <span class="text-xs font-normal text-gray-400">${m.when} · ${m.difficulty}</span></div>
-              ${r ? `<div class="text-xs text-green-600">已考：阅读 ${r.readingPct}% · 写作 ${r.writingRaw}/30 · 听力 ${r.listeningPct == null ? '—' : r.listeningPct + '%'} · 估算量表 ${r.scaled}</div>`
+              ${r ? `<div class="text-xs text-green-700">已考：阅读 ${r.readingPct}% · 写作 ${r.writingRaw}/30 · 听力 ${r.listeningPct == null ? '—' : r.listeningPct + '%'} · 估算量表 ${r.scaled}</div>`
                   : `<div class="text-xs text-gray-500">${fillSeason(m.preNote)}</div>`}
             </div>
             <span class="text-xl text-gray-300">›</span>
@@ -67,7 +67,7 @@ export async function renderMockExam(app, params = {}) {
     <div class="card-cartoon">
       <div class="font-bold text-sm mb-2">${fillSeason(idx.decisionMatrix.title)}</div>
       ${idx.decisionMatrix.rows.map(r => `
-        <div class="flex gap-2 text-sm py-1.5 border-b border-gray-50 last:border-0 ${r.highlight ? 'bg-amber-50 rounded-xl px-2' : ''}">
+        <div class="flex gap-2 text-sm py-2 border-b border-gray-50 last:border-0 ${r.highlight ? 'bg-amber-50 rounded-xl px-2' : ''}">
           <span class="font-bold font-en" style="min-width:72px">${r.range}</span>
           <span style="min-width:80px">${r.verdict}</span>
           <span class="text-xs text-gray-600 flex-1">${fillSeason(r.action)}</span>
@@ -169,7 +169,7 @@ async function startFlow(app, level, idx, meta) {
           <p class="font-en text-sm mb-2" style="white-space:pre-wrap">${esc(task.prompt)}</p>
           ${task.points.map(p => `<div class="text-xs text-gray-600">· ${esc(p)}</div>`).join('')}
         ` : task.scenes.map((s, i) => `<div class="flex gap-2 mb-1"><span>${['1️⃣', '2️⃣', '3️⃣'][i]}</span><span class="text-sm text-gray-700 flex-1">${esc(s)}</span></div>`).join('')}
-        <div class="text-xs text-orange-600 mt-1">写 ${minWords} 词以上</div>
+        <div class="text-xs text-orange-700 mt-1">写 ${minWords} 词以上</div>
       </div>
       <textarea id="draft" class="w-full border-2 border-gray-200 rounded-2xl px-4 py-3 font-en text-base mb-3" rows="6" placeholder="${which === 'p6' ? 'Hi …,' : 'One day, …'}"></textarea>
       <button id="doneBtn" class="w-full btn-cartoon">写完了，自评打分</button>
@@ -272,7 +272,7 @@ async function startFlow(app, level, idx, meta) {
       ${headerHtml('📊 ' + meta.name + ' · 交卷报告')}
       <div class="card-cartoon mb-4 text-center bg-gradient-to-br from-amber-50 to-orange-50">
         <div class="text-xs text-gray-500">估算量表分（粗估，精确换算见官方指南）</div>
-        <div class="text-4xl font-black text-primary my-1">${scaled}</div>
+        <div class="text-2xl font-black text-primary-ink my-1">${scaled}</div>
         <div class="text-xs text-gray-400">约 60% ≈ 及格线附近 · 约 85% ≈ A 等区间</div>
       </div>
 

@@ -38,8 +38,8 @@ export async function renderCheckin(app) {
     <!-- 状态卡：不做连续天数，不做欠账 -->
     <div class="card-cartoon mb-4 bg-gradient-to-br from-green-50 to-emerald-50">
       <div class="grid grid-cols-2 gap-3 text-center">
-        <div><div class="text-2xl font-black text-primary">Day ${day}/${plan.totalDays}</div><div class="text-xs text-gray-500">已完成进度（学了才前进）</div></div>
-        <div><div class="text-2xl font-black text-green-600">${weekDays} 天</div><div class="text-xs text-gray-500">本周学习</div></div>
+        <div><div class="text-2xl font-black text-primary-ink">Day ${day}/${plan.totalDays}</div><div class="text-xs text-gray-500">已完成进度（学了才前进）</div></div>
+        <div><div class="text-2xl font-black text-green-700">${weekDays} 天</div><div class="text-xs text-gray-500">本周学习</div></div>
       </div>
     </div>
 
@@ -66,7 +66,7 @@ export async function renderCheckin(app) {
     <div class="card-cartoon mb-4">
       <h3 class="font-bold mb-2">🗓️ 学习日历（最近 12 周）</h3>
       ${heatmapHtml(cal)}
-      <div class="flex items-center gap-2 mt-2 text-[11px] text-gray-400">
+      <div class="flex items-center gap-2 mt-2 text-cap text-gray-400">
         <span>少</span>
         ${[0, 1, 3, 5, 6].map(n => `<span class="inline-block rounded" style="width:14px;height:14px;background:${heatColor(n)}"></span>`).join('')}
         <span>多（格数）</span>
@@ -78,18 +78,18 @@ export async function renderCheckin(app) {
     <div class="card-cartoon mb-4">
       <h3 class="font-bold mb-2">📚 词汇进度</h3>
       <div class="progress-bar mb-1"><div class="progress-bar-fill" style="width:${vocabPct}%"></div></div>
-      <div class="flex justify-between text-[11px] text-gray-400">
+      <div class="flex justify-between text-cap text-gray-400">
         ${VOCAB_MARKS.map(m => `<span>${m.label}</span>`).join('')}
       </div>
-      <div class="text-sm mt-1">当前约 <b class="text-primary">${vocabNow}</b> 词</div>
+      <div class="text-sm mt-1">当前约 <b class="text-primary-ink">${vocabNow}</b> 词</div>
     </div>
 
     <!-- ★ 健康护栏（刚性需求，不是装饰） -->
     <div class="card-cartoon border-2 border-green-300 bg-green-50">
       <h3 class="font-bold mb-2">🌿 健康护栏</h3>
-      <p class="text-sm text-gray-700 mb-1.5">每天 90 分钟、每周建议至少休一天，是 11 岁孩子的合理节奏。</p>
-      <p class="text-sm text-gray-700 mb-1.5">再往上加，三件事会同时发生：记忆效率下降、对英语产生抵触、生活被榨干。</p>
-      <p class="text-sm text-gray-700 mb-1.5">这是一场要打很久的仗——<b>一年后还愿意学的孩子，比这个月被榨干的孩子走得远得多。</b></p>
+      <p class="text-sm text-gray-700 mb-2">每天 90 分钟、每周建议至少休一天，是 11 岁孩子的合理节奏。</p>
+      <p class="text-sm text-gray-700 mb-2">再往上加，三件事会同时发生：记忆效率下降、对英语产生抵触、生活被榨干。</p>
+      <p class="text-sm text-gray-700 mb-2">这是一场要打很久的仗——<b>一年后还愿意学的孩子，比这个月被榨干的孩子走得远得多。</b></p>
       <p class="text-sm text-gray-700">乐团练习、每天户外、充足睡眠，一样都别砍。</p>
     </div>
   `;
