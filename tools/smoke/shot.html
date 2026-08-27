@@ -6,6 +6,7 @@
 <title>截图用</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="assets/css/style.css" />
+<script src="assets/js/tw-config.js"></script>
 </head>
 <body class="bg-gray-50">
 <!-- 截图用最小外壳：把某个页面渲染出来供 chrome --screenshot 看版式（窄屏是否溢出、触控热区）。
@@ -40,6 +41,11 @@
       if (q.get('fromKet')) params.fromKet = q.get('fromKet'); // P2b 深挖落地页：&fromKet=L4（顶部多一个返回入口）
       await window.__nav(page, params);
       await sleep(600);
+      // B1：可选点击链（&click=sel1,sel2）——把闯练环节/侦探关等交互态也纳入逐页实测
+      for (const sel of (q.get('click') || '').split(',').filter(Boolean)) {
+        const el = document.querySelector(sel.trim());
+        if (el) { el.click(); await sleep(600); }
+      }
       if (q.get('modal') === 'examInfo') {
         const btn = document.getElementById('examInfoBtn');
         if (btn) btn.click();
@@ -57,8 +63,10 @@
       }
       const de = document.documentElement;
       const limit = Number.isFinite(forceW) ? forceW : de.clientWidth;
+      const inScroller = el => { for (let n = el.parentElement; n; n = n.parentElement) { const o = getComputedStyle(n).overflowX; if (o === 'auto' || o === 'scroll') return true; } return false; };
       const wide = [...document.querySelectorAll('#app *, #modalRoot *')]
         .filter(el => el.getBoundingClientRect().right > limit + 1)
+        .filter(el => !inScroller(el))
         .slice(0, 8)
         .map(el => ({ cls: (el.className || '').toString().slice(0, 60), right: Math.round(el.getBoundingClientRect().right) }));
       const report = { page, viewport: de.clientWidth, scrollWidth: de.scrollWidth, overflow: de.scrollWidth > de.clientWidth, wide };

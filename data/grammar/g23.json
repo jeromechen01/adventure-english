@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "What a beautiful rainbow!", "cn": "多美的彩虹啊！（What 抓名词）" },
-          { "en": "How cold it is today!", "cn": "今天真冷啊！（How 抓形容词）" },
-          { "en": "What a clever little dog!", "cn": "多聪明的小狗啊！" },
-          { "en": "How fast the train goes!", "cn": "火车开得真快啊！（How 抓副词）" },
-          { "en": "What a surprise!", "cn": "真是个惊喜！（短版强奏）" }
+          {
+            "en": "What a beautiful rainbow!",
+            "cn": "多美的彩虹啊！（What 抓名词）"
+          },
+          {
+            "en": "How cold it is today!",
+            "cn": "今天真冷啊！（How 抓形容词）"
+          },
+          {
+            "en": "What a clever little dog!",
+            "cn": "多聪明的小狗啊！"
+          },
+          {
+            "en": "How fast the train goes!",
+            "cn": "火车开得真快啊！（How 抓副词）"
+          },
+          {
+            "en": "What a surprise!",
+            "cn": "真是个惊喜！（短版强奏）"
+          }
         ],
         "mid": [
-          { "en": "What lovely flowers you grew!", "cn": "你种的花真漂亮啊！（复数不加 a）" },
-          { "en": "What fine weather it is!", "cn": "天气真好啊！（weather 不可数，不加 a）" },
-          { "en": "What an interesting story that is!", "cn": "那个故事真有意思！（interesting 元音开头用 an）" },
-          { "en": "How well she plays the flute!", "cn": "她长笛吹得真好啊！（夸「吹得」用副词 well）" },
-          { "en": "How quiet the library is!", "cn": "图书馆真安静啊！（主谓 the library is 不倒装）" }
+          {
+            "en": "What lovely flowers you grew!",
+            "cn": "你种的花真漂亮啊！（复数不加 a）"
+          },
+          {
+            "en": "What fine weather it is!",
+            "cn": "天气真好啊！（weather 不可数，不加 a）"
+          },
+          {
+            "en": "What an interesting story that is!",
+            "cn": "那个故事真有意思！（interesting 元音开头用 an）"
+          },
+          {
+            "en": "How well she plays the flute!",
+            "cn": "她长笛吹得真好啊！（夸「吹得」用副词 well）"
+          },
+          {
+            "en": "How quiet the library is!",
+            "cn": "图书馆真安静啊！（主谓 the library is 不倒装）"
+          }
         ],
         "trap": [
-          { "en": "What a day it was!", "cn": "那天可真够呛（或真棒）！", "note": "句尾 it was 照常排队——写成 was it 就成了问句。" },
-          { "en": "What delicious dumplings these are!", "cn": "这些饺子真好吃！", "note": "dumplings 复数——What 后面不加 a。" },
-          { "en": "How beautifully the choir sings!", "cn": "合唱团唱得多动听啊！", "note": "夸「唱得」——动作用副词 beautifully；How beautiful 夸的就成了人。" },
-          { "en": "What an honest boy he is!", "cn": "他真是个诚实的孩子！", "note": "honest 的 h 不发音——用 an，看音不看字母（G02 老朋友）。" },
-          { "en": "How time flies!", "cn": "时间过得真快啊！", "note": "固定强奏：How + 主 + 谓，连形容词都省了——考试常客。" },
-          { "en": "What a mess!", "cn": "真是一团糟！", "note": "感叹不只用来夸——糟心事也能全体强奏。" }
+          {
+            "en": "What a day it was!",
+            "cn": "那天可真够呛（或真棒）！",
+            "note": "句尾 it was 照常排队——写成 was it 就成了问句。"
+          },
+          {
+            "en": "What delicious dumplings these are!",
+            "cn": "这些饺子真好吃！",
+            "note": "dumplings 复数——What 后面不加 a。"
+          },
+          {
+            "en": "How beautifully the choir sings!",
+            "cn": "合唱团唱得多动听啊！",
+            "note": "夸「唱得」——动作用副词 beautifully；How beautiful 夸的就成了人。"
+          },
+          {
+            "en": "What an honest boy he is!",
+            "cn": "他真是个诚实的孩子！",
+            "note": "honest 的 h 不发音——用 an，看音不看字母（G02 老朋友）。"
+          },
+          {
+            "en": "How time flies!",
+            "cn": "时间过得真快啊！",
+            "note": "固定强奏：How + 主 + 谓，连形容词都省了——考试常客。"
+          },
+          {
+            "en": "What a mess!",
+            "cn": "真是一团糟！",
+            "note": "感叹不只用来夸——糟心事也能全体强奏。"
+          }
         ]
       }
     },
@@ -192,7 +246,7 @@
     "echo": "感叹句是「问话词的变脸」：what 和 how 本来是提问的工具，音调一换、语序一稳，就从「问」变成了「叹」——语言里同一个词凭语调换工作，是各国通行的老把戏，中文的「什么」也一样（「什么破天气！」没人当你在提问）。再看 What a day! 里那个小小的 a：它正是 G02 里讲过的 one 的后代——「好一个晴天」的「一个」。冠词被磨得只剩一个音，却在感叹句里守着最古老的岗位：告诉全场，你惊叹的是完完整整的「一个」。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G23 · 感叹句 What / How</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>全体强奏——把力度从 mp 拉到 ff 的那一声</text><rect x='36' y='110' width='314' height='168' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='146' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>✊ What 抓名词</text><text x='193' y='178' text-anchor='middle' font-size='15' fill='#5A4A42'>What (a/an) + 形 + 名 (+主谓)!</text><text x='193' y='206' text-anchor='middle' font-size='14' fill='#8A7568'>What a clever bird!</text><text x='193' y='230' text-anchor='middle' font-size='14' fill='#8A7568'>What lovely flowers!（复数裸）</text><text x='193' y='254' text-anchor='middle' font-size='14' fill='#8A7568'>What fine weather!（不可数裸）</text><rect x='370' y='110' width='314' height='168' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='146' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🤏 How 抓形容词/副词</text><text x='527' y='178' text-anchor='middle' font-size='15' fill='#5A4A42'>How + 形/副 (+主谓)!</text><text x='527' y='206' text-anchor='middle' font-size='14' fill='#8A7568'>How cold it is!</text><text x='527' y='230' text-anchor='middle' font-size='14' fill='#8A7568'>How fast he runs!（动作用副词）</text><text x='527' y='254' text-anchor='middle' font-size='14' fill='#8A7568'>How time flies!（固定强奏）</text><rect x='36' y='298' width='648' height='88' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='330' text-anchor='middle' font-size='17' font-weight='bold' fill='#B7791F'>🔁 互换公式</text><text x='360' y='362' text-anchor='middle' font-size='15' fill='#B7791F'>What a long bridge it is! ＝ How long the bridge is!</text><rect x='36' y='406' width='648' height='84' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='438' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ 强奏不是提问：How tall he is! ✓ ｜ How tall is he? 是在问身高</text><text x='360' y='466' text-anchor='middle' font-size='15' fill='#C0392B'>What a weather ✗ · How a pity ✗（是 What a pity!）· a exciting ✗（用 an）</text><text x='360' y='526' text-anchor='middle' font-size='15' fill='#7DA7C4'>短版最常用：What a day! · How sweet! · What a surprise!</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>What a 里的 a 是 one 的后代（G02）· 英语奇遇记 🦊 G23</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='32' font-weight='bold' fill='#0284C7'>G23 · 感叹句 What / How</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>全体强奏——把力度从 mp 拉到 ff 的那一声</text><rect x='36' y='110' width='314' height='168' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='146' text-anchor='middle' font-size='23' font-weight='bold' fill='#38B2AC'>✊ What 抓名词</text><text x='193' y='178' text-anchor='middle' font-size='19' fill='#5A4A42'>What (a/an) + 形 + 名 (+主谓)!</text><text x='193' y='206' text-anchor='middle' font-size='18' fill='#8A7568'>What a clever bird!</text><text x='193' y='230' text-anchor='middle' font-size='18' fill='#8A7568'>What lovely flowers!（复数裸）</text><text x='193' y='254' text-anchor='middle' font-size='18' fill='#8A7568'>What fine weather!（不可数裸）</text><rect x='370' y='110' width='314' height='168' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='146' text-anchor='middle' font-size='23' font-weight='bold' fill='#38B2AC'>🤏 How 抓形容词/副词</text><text x='527' y='178' text-anchor='middle' font-size='19' fill='#5A4A42'>How + 形/副 (+主谓)!</text><text x='527' y='206' text-anchor='middle' font-size='18' fill='#8A7568'>How cold it is!</text><text x='527' y='230' text-anchor='middle' font-size='18' fill='#8A7568'>How fast he runs!（动作用副词）</text><text x='527' y='254' text-anchor='middle' font-size='18' fill='#8A7568'>How time flies!（固定强奏）</text><rect x='36' y='298' width='648' height='88' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='330' text-anchor='middle' font-size='21' font-weight='bold' fill='#B7791F'>🔁 互换公式</text><text x='360' y='362' text-anchor='middle' font-size='19' fill='#B7791F'>What a long bridge it is! ＝ How long the bridge is!</text><rect x='36' y='406' width='648' height='84' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='438' text-anchor='middle' font-size='19' fill='#C0392B'>⚠️ 强奏不是提问：How tall he is! ✓ ｜ How tall is he? 是在问身高</text><text x='360' y='466' text-anchor='middle' font-size='16' fill='#C0392B'>What a weather ✗ · How a pity ✗（是 What a pity!）· a exciting ✗（用 an）</text><text x='360' y='526' text-anchor='middle' font-size='19' fill='#7DA7C4'>短版最常用：What a day! · How sweet! · What a surprise!</text><text x='360' y='576' text-anchor='middle' font-size='18' fill='#94A3B8'>What a 里的 a 是 one 的后代（G02）· 英语奇遇记 🦊 G23</text></svg>",
     "alt": "G23 记忆卡：感叹句=全体强奏——What 抓名词（单数带 a/an、复数不可数裸奔），How 抓形容词/副词（动作用副词）；互换公式；句尾主谓不倒装（倒装即提问）；警示 What a weather、How a pity、a exciting。"
   },
   "practice": {
@@ -200,85 +254,725 @@
       {
         "name": "认一认 · 两个把手",
         "questions": [
-          { "q": "感叹句的两个把手是？", "options": ["What 和 How", "Do 和 Does", "Which 和 Who"], "answer": 0, "explain": "What 抓名词，How 抓形容词/副词。", "level": 1 },
-          { "q": "「夸一个东西」（带名词）用哪个把手？", "options": ["What", "How", "Why"], "answer": 0, "explain": "What a song!——连人带物一把抓。", "level": 1 },
-          { "q": "「只夸性质」（形容词）用哪个把手？", "options": ["How", "What", "Where"], "answer": 0, "explain": "How sweet!——只抓性质。", "level": 1 },
-          { "q": "What 后面什么时候要 a/an？", "options": ["名词是可数单数时", "永远都要", "永远不要"], "answer": 0, "explain": "What a day!——复数和不可数一律不加。", "level": 1 },
-          { "q": "感叹句句尾的主谓要不要倒装？", "options": ["不倒装，照常排队", "必须倒装", "看心情"], "answer": 0, "explain": "How tall he is!——倒装就成提问了。", "level": 1 },
-          { "q": "___ a lovely kitten!", "options": ["What", "How", "Which"], "answer": 0, "explain": "抓着名词 kitten——What。", "level": 1 },
-          { "q": "___ sweet the grapes are!", "options": ["How", "What", "What a"], "answer": 0, "explain": "只抓形容词 sweet——How。", "level": 1 },
-          { "q": "What ___ exciting race!", "options": ["an", "a", "不填"], "answer": 0, "explain": "exciting 元音开头——an。", "level": 1 },
-          { "q": "「天气真好」哪句对？", "options": ["What fine weather!", "What a fine weather!", "How a fine weather!"], "answer": 0, "explain": "weather 不可数——不加 a。", "level": 1 },
-          { "q": "「多快呀」哪句对？", "options": ["How fast!", "What fast!", "How a fast!"], "answer": 0, "explain": "fast 是形/副——How 抓。", "level": 1 },
-          { "q": "「真遗憾」的固定强奏是？", "options": ["What a pity!", "How a pity!", "What pity a!"], "answer": 0, "explain": "pity 是名词——What a pity!", "level": 1 },
-          { "q": "「时间过得真快」的固定强奏是？", "options": ["How time flies!", "What time flies!", "How flies time!"], "answer": 0, "explain": "How time flies!——连形容词都省了。", "level": 1 },
-          { "q": "What lovely shoes! 里为什么没有 a？", "options": ["shoes 是复数", "忘写了", "lovely 开头是辅音"], "answer": 0, "explain": "复数裸奔——不加 a。", "level": 1 },
-          { "q": "感叹句常见的「短版」长什么样？", "options": ["What a day!（省掉主谓）", "A day what!", "Is what a day!"], "answer": 0, "explain": "日常感叹常只剩强奏那一嗓子。", "level": 1 },
-          { "q": "How tall is he? 是什么句？", "options": ["疑问句（在问身高）", "感叹句", "祈使句"], "answer": 0, "explain": "倒装了——这是提问，不是强奏。", "level": 1 },
-          { "q": "感叹句只能用来夸好事吗？", "options": ["不是——What a mess! 也是感叹", "是，只能夸", "只能骂"], "answer": 0, "explain": "糟心事也能全体强奏。", "level": 1 }
+          {
+            "q": "感叹句的两个把手是？",
+            "options": [
+              "What 和 How",
+              "Do 和 Does",
+              "Which 和 Who"
+            ],
+            "answer": 0,
+            "explain": "What 抓名词，How 抓形容词/副词。",
+            "level": 1
+          },
+          {
+            "q": "「夸一个东西」（带名词）用哪个把手？",
+            "options": [
+              "What",
+              "How",
+              "Why"
+            ],
+            "answer": 0,
+            "explain": "What a song!——连人带物一把抓。",
+            "level": 1
+          },
+          {
+            "q": "「只夸性质」（形容词）用哪个把手？",
+            "options": [
+              "How",
+              "What",
+              "Where"
+            ],
+            "answer": 0,
+            "explain": "How sweet!——只抓性质。",
+            "level": 1
+          },
+          {
+            "q": "What 后面什么时候要 a/an？",
+            "options": [
+              "名词是可数单数时",
+              "永远都要",
+              "永远不要"
+            ],
+            "answer": 0,
+            "explain": "What a day!——复数和不可数一律不加。",
+            "level": 1
+          },
+          {
+            "q": "感叹句句尾的主谓要不要倒装？",
+            "options": [
+              "不倒装，照常排队",
+              "必须倒装",
+              "看心情"
+            ],
+            "answer": 0,
+            "explain": "How tall he is!——倒装就成提问了。",
+            "level": 1
+          },
+          {
+            "q": "___ a lovely kitten!",
+            "options": [
+              "What",
+              "How",
+              "Which"
+            ],
+            "answer": 0,
+            "explain": "抓着名词 kitten——What。",
+            "level": 1
+          },
+          {
+            "q": "___ sweet the grapes are!",
+            "options": [
+              "How",
+              "What",
+              "What a"
+            ],
+            "answer": 0,
+            "explain": "只抓形容词 sweet——How。",
+            "level": 1
+          },
+          {
+            "q": "What ___ exciting race!",
+            "options": [
+              "an",
+              "a",
+              "不填"
+            ],
+            "answer": 0,
+            "explain": "exciting 元音开头——an。",
+            "level": 1
+          },
+          {
+            "q": "「天气真好」哪句对？",
+            "options": [
+              "What fine weather!",
+              "What a fine weather!",
+              "How a fine weather!"
+            ],
+            "answer": 0,
+            "explain": "weather 不可数——不加 a。",
+            "level": 1
+          },
+          {
+            "q": "「多快呀」哪句对？",
+            "options": [
+              "How fast!",
+              "What fast!",
+              "How a fast!"
+            ],
+            "answer": 0,
+            "explain": "fast 是形/副——How 抓。",
+            "level": 1
+          },
+          {
+            "q": "「真遗憾」的固定强奏是？",
+            "options": [
+              "What a pity!",
+              "How a pity!",
+              "What pity a!"
+            ],
+            "answer": 0,
+            "explain": "pity 是名词——What a pity!",
+            "level": 1
+          },
+          {
+            "q": "「时间过得真快」的固定强奏是？",
+            "options": [
+              "How time flies!",
+              "What time flies!",
+              "How flies time!"
+            ],
+            "answer": 0,
+            "explain": "How time flies!——连形容词都省了。",
+            "level": 1
+          },
+          {
+            "q": "What lovely shoes! 里为什么没有 a？",
+            "options": [
+              "shoes 是复数",
+              "忘写了",
+              "lovely 开头是辅音"
+            ],
+            "answer": 0,
+            "explain": "复数裸奔——不加 a。",
+            "level": 1
+          },
+          {
+            "q": "感叹句常见的「短版」长什么样？",
+            "options": [
+              "What a day!（省掉主谓）",
+              "A day what!",
+              "Is what a day!"
+            ],
+            "answer": 0,
+            "explain": "日常感叹常只剩强奏那一嗓子。",
+            "level": 1
+          },
+          {
+            "q": "How tall is he? 是什么句？",
+            "options": [
+              "疑问句（在问身高）",
+              "感叹句",
+              "祈使句"
+            ],
+            "answer": 0,
+            "explain": "倒装了——这是提问，不是强奏。",
+            "level": 1
+          },
+          {
+            "q": "感叹句只能用来夸好事吗？",
+            "options": [
+              "不是——What a mess! 也是感叹",
+              "是，只能夸",
+              "只能骂"
+            ],
+            "answer": 0,
+            "explain": "糟心事也能全体强奏。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 配上强奏",
         "questions": [
-          { "q": "___ big pumpkin you grew!", "options": ["What a", "How a", "What"], "answer": 0, "explain": "pumpkin 可数单数——What a big pumpkin!", "level": 2 },
-          { "q": "___ bright the stars are tonight!", "options": ["How", "What", "What a"], "answer": 0, "explain": "抓形容词 bright——How。", "level": 2 },
-          { "q": "___ delicious noodles these are!", "options": ["What", "What a", "How"], "answer": 0, "explain": "noodles 复数——What 后不加 a。", "level": 2 },
-          { "q": "___ old castle it is!", "options": ["What an", "What a", "How an"], "answer": 0, "explain": "old 元音开头——What an old castle。", "level": 2 },
-          { "q": "___ quickly the holiday passed!", "options": ["How", "What", "What a"], "answer": 0, "explain": "抓副词 quickly——How。", "level": 2 },
-          { "q": "___ good news you brought us!", "options": ["What", "What a", "How a"], "answer": 0, "explain": "news 不可数（化石 s）——What 后不加 a。", "level": 2 },
-          { "q": "___ heavy the schoolbag is!", "options": ["How", "What a", "What"], "answer": 0, "explain": "只有形容词 heavy——How。", "level": 2 },
-          { "q": "___ useful invention the umbrella is!", "options": ["What a", "What an", "How"], "answer": 0, "explain": "useful 读音以 /j/ 开头——用 a，看音不看字母。", "level": 2 },
-          { "q": "___ well your little brother swims!", "options": ["How", "What", "What a"], "answer": 0, "explain": "夸「游得好」——副词 well 归 How 抓。", "level": 2 },
-          { "q": "___ strange dream I had last night!", "options": ["What a", "How a", "What"], "answer": 0, "explain": "dream 可数单数——What a strange dream!", "level": 2 },
-          { "q": "___ cold water this is!", "options": ["What", "What a", "How a"], "answer": 0, "explain": "water 不可数——What cold water!", "level": 2 },
-          { "q": "___ happy the puppies look!", "options": ["How", "What", "What a"], "answer": 0, "explain": "夸样子 happy——How + 形容词。", "level": 2 },
-          { "q": "___ honest answer that was!", "options": ["What an", "What a", "How an"], "answer": 0, "explain": "honest 的 h 不发音——an。", "level": 2 },
-          { "q": "___ tall those bamboo trees are!", "options": ["How", "What a", "What an"], "answer": 0, "explain": "抓形容词 tall——How；trees 是主语不是被抓的名词。", "level": 2 },
-          { "q": "___ funny jokes Grandpa tells!", "options": ["What", "What a", "How"], "answer": 0, "explain": "jokes 复数——What funny jokes!", "level": 2 },
-          { "q": "___ carefully she packed the violin!", "options": ["How", "What", "What a"], "answer": 0, "explain": "夸「收得仔细」——副词 carefully 归 How。", "level": 2 }
+          {
+            "q": "___ big pumpkin you grew!",
+            "options": [
+              "What a",
+              "How a",
+              "What"
+            ],
+            "answer": 0,
+            "explain": "pumpkin 可数单数——What a big pumpkin!",
+            "level": 2
+          },
+          {
+            "q": "___ bright the stars are tonight!",
+            "options": [
+              "How",
+              "What",
+              "What a"
+            ],
+            "answer": 0,
+            "explain": "抓形容词 bright——How。",
+            "level": 2
+          },
+          {
+            "q": "___ delicious noodles these are!",
+            "options": [
+              "What",
+              "What a",
+              "How"
+            ],
+            "answer": 0,
+            "explain": "noodles 复数——What 后不加 a。",
+            "level": 2
+          },
+          {
+            "q": "___ old castle it is!",
+            "options": [
+              "What an",
+              "What a",
+              "How an"
+            ],
+            "answer": 0,
+            "explain": "old 元音开头——What an old castle。",
+            "level": 2
+          },
+          {
+            "q": "___ quickly the holiday passed!",
+            "options": [
+              "How",
+              "What",
+              "What a"
+            ],
+            "answer": 0,
+            "explain": "抓副词 quickly——How。",
+            "level": 2
+          },
+          {
+            "q": "___ good news you brought us!",
+            "options": [
+              "What",
+              "What a",
+              "How a"
+            ],
+            "answer": 0,
+            "explain": "news 不可数（化石 s）——What 后不加 a。",
+            "level": 2
+          },
+          {
+            "q": "___ heavy the schoolbag is!",
+            "options": [
+              "How",
+              "What a",
+              "What"
+            ],
+            "answer": 0,
+            "explain": "只有形容词 heavy——How。",
+            "level": 2
+          },
+          {
+            "q": "___ useful invention the umbrella is!",
+            "options": [
+              "What a",
+              "What an",
+              "How"
+            ],
+            "answer": 0,
+            "explain": "useful 读音以 /j/ 开头——用 a，看音不看字母。",
+            "level": 2
+          },
+          {
+            "q": "___ well your little brother swims!",
+            "options": [
+              "How",
+              "What",
+              "What a"
+            ],
+            "answer": 0,
+            "explain": "夸「游得好」——副词 well 归 How 抓。",
+            "level": 2
+          },
+          {
+            "q": "___ strange dream I had last night!",
+            "options": [
+              "What a",
+              "How a",
+              "What"
+            ],
+            "answer": 0,
+            "explain": "dream 可数单数——What a strange dream!",
+            "level": 2
+          },
+          {
+            "q": "___ cold water this is!",
+            "options": [
+              "What",
+              "What a",
+              "How a"
+            ],
+            "answer": 0,
+            "explain": "water 不可数——What cold water!",
+            "level": 2
+          },
+          {
+            "q": "___ happy the puppies look!",
+            "options": [
+              "How",
+              "What",
+              "What a"
+            ],
+            "answer": 0,
+            "explain": "夸样子 happy——How + 形容词。",
+            "level": 2
+          },
+          {
+            "q": "___ honest answer that was!",
+            "options": [
+              "What an",
+              "What a",
+              "How an"
+            ],
+            "answer": 0,
+            "explain": "honest 的 h 不发音——an。",
+            "level": 2
+          },
+          {
+            "q": "___ tall those bamboo trees are!",
+            "options": [
+              "How",
+              "What a",
+              "What an"
+            ],
+            "answer": 0,
+            "explain": "抓形容词 tall——How；trees 是主语不是被抓的名词。",
+            "level": 2
+          },
+          {
+            "q": "___ funny jokes Grandpa tells!",
+            "options": [
+              "What",
+              "What a",
+              "How"
+            ],
+            "answer": 0,
+            "explain": "jokes 复数——What funny jokes!",
+            "level": 2
+          },
+          {
+            "q": "___ carefully she packed the violin!",
+            "options": [
+              "How",
+              "What",
+              "What a"
+            ],
+            "answer": 0,
+            "explain": "夸「收得仔细」——副词 carefully 归 How。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 强奏跑调",
         "questions": [
-          { "q": "哪句的强奏没跑调？（真美的一幅画）", "options": ["What a beautiful painting!", "How a beautiful painting!", "What beautiful a painting!"], "answer": 0, "explain": "What + a + 形 + 名——队形完整。", "level": 3 },
-          { "q": "哪句对？（天气真糟）", "options": ["What terrible weather!", "What a terrible weather!", "How terrible weather!"], "answer": 0, "explain": "weather 不可数——What 不带 a；How 不能抓名词。", "level": 3 },
-          { "q": "哪句对？（这座桥真长——用 How）", "options": ["How long the bridge is!", "How long is the bridge!", "How the bridge long is!"], "answer": 0, "explain": "主谓 the bridge is 照常排队——倒装成 is the bridge 就是提问。", "level": 3 },
-          { "q": "哪句对？（多聪明的一个主意）", "options": ["What a clever idea!", "How a clever idea!", "What clever a idea!"], "answer": 0, "explain": "idea 可数单数——What a clever idea!", "level": 3 },
-          { "q": "哪句对？（她唱得真好）", "options": ["How well she sings!", "How good she sings!", "What well she sings!"], "answer": 0, "explain": "夸「唱得」用副词 well，归 How 抓。", "level": 3 },
-          { "q": "哪句对？（好新鲜的空气）", "options": ["What fresh air!", "What a fresh air!", "How fresh air!"], "answer": 0, "explain": "air 不可数——What fresh air!", "level": 3 },
-          { "q": "哪句对？（多么激动人心的一天）", "options": ["What an exciting day it was!", "What a exciting day it was!", "What an exciting day was it!"], "answer": 0, "explain": "an + exciting；句尾 it was 不掉头。", "level": 3 },
-          { "q": "哪句对？（这些橙子真甜——用 What）", "options": ["What sweet oranges these are!", "What a sweet oranges these are!", "What sweet oranges are these!"], "answer": 0, "explain": "复数不加 a；these are 照常排队。", "level": 3 },
-          { "q": "哪句对？（雨下得真大）", "options": ["How heavily it rains!", "How heavy it rains!", "What heavily it rains!"], "answer": 0, "explain": "夸「下得」——副词 heavily。", "level": 3 },
-          { "q": "哪句对？（真是个诚实的孩子）", "options": ["What an honest child!", "What a honest child!", "How an honest child!"], "answer": 0, "explain": "honest 首音是元音——an。", "level": 3 },
-          { "q": "哪句对？（把 The cake is very big. 改成感叹）", "options": ["How big the cake is!", "How big is the cake!", "What big the cake is!"], "answer": 0, "explain": "只有形容词——How 抓；主谓不倒装。", "level": 3 },
-          { "q": "哪句对？（把 It is a very long river. 改成感叹）", "options": ["What a long river it is!", "How a long river it is!", "What a long river is it!"], "answer": 0, "explain": "带名词——What a long river；it is 收尾。", "level": 3 },
-          { "q": "哪句对？（真是个大惊喜）", "options": ["What a big surprise!", "How a big surprise!", "What big surprise!"], "answer": 0, "explain": "surprise 可数单数——What a big surprise!", "level": 3 },
-          { "q": "哪句对？（孩子们玩得多开心啊）", "options": ["How happily the children are playing!", "How happy the children are playing!", "What happily the children are playing!"], "answer": 0, "explain": "夸「玩得」——副词 happily。", "level": 3 },
-          { "q": "哪句对？（多好的一个建议啊，短版）", "options": ["What a good idea!", "How a good idea!", "What good idea!"], "answer": 0, "explain": "短版也要队形齐——What a good idea!", "level": 3 },
-          { "q": "哪句对？（真安静啊——短版）", "options": ["How quiet!", "What quiet!", "How a quiet!"], "answer": 0, "explain": "只剩形容词——How quiet!", "level": 3 }
+          {
+            "q": "哪句的强奏没跑调？（真美的一幅画）",
+            "options": [
+              "What a beautiful painting!",
+              "How a beautiful painting!",
+              "What beautiful a painting!"
+            ],
+            "answer": 0,
+            "explain": "What + a + 形 + 名——队形完整。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（天气真糟）",
+            "options": [
+              "What terrible weather!",
+              "What a terrible weather!",
+              "How terrible weather!"
+            ],
+            "answer": 0,
+            "explain": "weather 不可数——What 不带 a；How 不能抓名词。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（这座桥真长——用 How）",
+            "options": [
+              "How long the bridge is!",
+              "How long is the bridge!",
+              "How the bridge long is!"
+            ],
+            "answer": 0,
+            "explain": "主谓 the bridge is 照常排队——倒装成 is the bridge 就是提问。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（多聪明的一个主意）",
+            "options": [
+              "What a clever idea!",
+              "How a clever idea!",
+              "What clever a idea!"
+            ],
+            "answer": 0,
+            "explain": "idea 可数单数——What a clever idea!",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（她唱得真好）",
+            "options": [
+              "How well she sings!",
+              "How good she sings!",
+              "What well she sings!"
+            ],
+            "answer": 0,
+            "explain": "夸「唱得」用副词 well，归 How 抓。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（好新鲜的空气）",
+            "options": [
+              "What fresh air!",
+              "What a fresh air!",
+              "How fresh air!"
+            ],
+            "answer": 0,
+            "explain": "air 不可数——What fresh air!",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（多么激动人心的一天）",
+            "options": [
+              "What an exciting day it was!",
+              "What a exciting day it was!",
+              "What an exciting day was it!"
+            ],
+            "answer": 0,
+            "explain": "an + exciting；句尾 it was 不掉头。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（这些橙子真甜——用 What）",
+            "options": [
+              "What sweet oranges these are!",
+              "What a sweet oranges these are!",
+              "What sweet oranges are these!"
+            ],
+            "answer": 0,
+            "explain": "复数不加 a；these are 照常排队。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（雨下得真大）",
+            "options": [
+              "How heavily it rains!",
+              "How heavy it rains!",
+              "What heavily it rains!"
+            ],
+            "answer": 0,
+            "explain": "夸「下得」——副词 heavily。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（真是个诚实的孩子）",
+            "options": [
+              "What an honest child!",
+              "What a honest child!",
+              "How an honest child!"
+            ],
+            "answer": 0,
+            "explain": "honest 首音是元音——an。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（把 The cake is very big. 改成感叹）",
+            "options": [
+              "How big the cake is!",
+              "How big is the cake!",
+              "What big the cake is!"
+            ],
+            "answer": 0,
+            "explain": "只有形容词——How 抓；主谓不倒装。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（把 It is a very long river. 改成感叹）",
+            "options": [
+              "What a long river it is!",
+              "How a long river it is!",
+              "What a long river is it!"
+            ],
+            "answer": 0,
+            "explain": "带名词——What a long river；it is 收尾。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（真是个大惊喜）",
+            "options": [
+              "What a big surprise!",
+              "How a big surprise!",
+              "What big surprise!"
+            ],
+            "answer": 0,
+            "explain": "surprise 可数单数——What a big surprise!",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（孩子们玩得多开心啊）",
+            "options": [
+              "How happily the children are playing!",
+              "How happy the children are playing!",
+              "What happily the children are playing!"
+            ],
+            "answer": 0,
+            "explain": "夸「玩得」——副词 happily。",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（多好的一个建议啊，短版）",
+            "options": [
+              "What a good idea!",
+              "How a good idea!",
+              "What good idea!"
+            ],
+            "answer": 0,
+            "explain": "短版也要队形齐——What a good idea!",
+            "level": 3
+          },
+          {
+            "q": "哪句对？（真安静啊——短版）",
+            "options": [
+              "How quiet!",
+              "What quiet!",
+              "How a quiet!"
+            ],
+            "answer": 0,
+            "explain": "只剩形容词——How quiet!",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 观众席上",
         "questions": [
-          { "q": "音乐会散场，想夸「多棒的一场音乐会」：", "options": ["What a wonderful concert it was!", "How a wonderful concert it was!", "What a wonderful concert was it!"], "answer": 0, "explain": "What 抓 concert；it was 不掉头。", "level": 4 },
-          { "q": "同一个意思换把手：What a fast runner he is! ＝", "options": ["How fast he runs!", "How fast is he!", "What fast he runs!"], "answer": 0, "explain": "名词版换性质版——How fast he runs!", "level": 4 },
-          { "q": "同一个意思换把手：How tall the tower is! ＝", "options": ["What a tall tower it is!", "What tall tower it is!", "How a tall tower it is!"], "answer": 0, "explain": "性质版换名词版——补上 a 和名词。", "level": 4 },
-          { "q": "看到朋友的新书包（复数徽章贴满）想感叹「多酷的徽章啊」：", "options": ["What cool badges!", "What a cool badges!", "How cool badges!"], "answer": 0, "explain": "badges 复数——What cool badges!", "level": 4 },
-          { "q": "尝了一口外婆的汤：「汤真鲜啊」（用 How）：", "options": ["How delicious the soup is!", "How delicious is the soup!", "What delicious the soup is!"], "answer": 0, "explain": "How + 形容词 + 主谓——不倒装。", "level": 4 },
-          { "q": "朋友三步就爬上了单杠：「你爬得真快」：", "options": ["How quickly you climbed!", "How quick you climbed!", "What quickly you climbed!"], "answer": 0, "explain": "夸动作——副词 quickly。", "level": 4 },
-          { "q": "推开窗发现下雪了：「多美的雪啊」（snow 不可数）：", "options": ["What beautiful snow!", "What a beautiful snow!", "How beautiful snow!"], "answer": 0, "explain": "snow 不可数——What 不带 a。", "level": 4 },
-          { "q": "弟弟把拼图弄得满地都是：「真是一团糟」：", "options": ["What a mess!", "How a mess!", "What mess a!"], "answer": 0, "explain": "mess 可数单数——What a mess!（感叹也能表达无奈）", "level": 4 },
-          { "q": "老师宣布春游取消：「真遗憾」＋「多无聊的一天啊」：", "options": ["What a pity! What a boring day!", "How a pity! What boring day!", "What pity! How a boring day!"], "answer": 0, "explain": "两个固定队形：What a pity! + What a boring day!", "level": 4 },
-          { "q": "把陈述句升级成强奏：The elephant is really an enormous animal. →", "options": ["What an enormous animal the elephant is!", "What a enormous animal the elephant is!", "How an enormous animal the elephant is!"], "answer": 0, "explain": "enormous 元音开头——an；What 抓名词。", "level": 4 },
-          { "q": "爷爷讲完故事全家大笑：「多有趣的故事啊」（用 What）：", "options": ["What an interesting story!", "What a interesting story!", "How an interesting story!"], "answer": 0, "explain": "interesting 元音开头——an。", "level": 4 },
-          { "q": "运动会上同学破了纪录：「他跳得真高」：", "options": ["How high he jumped!", "How high did he jump!", "What high he jumped!"], "answer": 0, "explain": "副词 high 归 How；不请 did——强奏不是提问。", "level": 4 },
-          { "q": "哪句既是感叹句、a/an 又全对？", "options": ["What an early bird you are!", "What a early bird you are!", "How an early bird you are!"], "answer": 0, "explain": "early 元音开头——an early bird；What 抓名词。", "level": 4 },
-          { "q": "写日记结尾想感叹假期飞逝：", "options": ["How time flies!", "What time flies!", "How flies the time!"], "answer": 0, "explain": "固定强奏 How time flies!——语序不动。", "level": 4 },
-          { "q": "选出「一夸东西、一夸性质」都正确的一组：", "options": ["What a sweet song! / How sweet the song is!", "How a sweet song! / What sweet the song is!", "What sweet song! / How sweet is the song!"], "answer": 0, "explain": "What a + 名 ↔ How + 形 + 主谓——标准互换。", "level": 4 },
-          { "q": "大考：把力度拉满——「多好的天气！多开心的孩子们！他们笑得多欢！」", "options": ["What fine weather! What happy children! How happily they laugh!", "What a fine weather! What a happy children! How happy they laugh!", "How fine weather! What happy children! What happily they laugh!"], "answer": 0, "explain": "weather 不可数、children 复数都不带 a；「笑得」用副词 happily——三声强奏全对。", "level": 4 }
+          {
+            "q": "音乐会散场，想夸「多棒的一场音乐会」：",
+            "options": [
+              "What a wonderful concert it was!",
+              "How a wonderful concert it was!",
+              "What a wonderful concert was it!"
+            ],
+            "answer": 0,
+            "explain": "What 抓 concert；it was 不掉头。",
+            "level": 4
+          },
+          {
+            "q": "同一个意思换把手：What a fast runner he is! ＝",
+            "options": [
+              "How fast he runs!",
+              "How fast is he!",
+              "What fast he runs!"
+            ],
+            "answer": 0,
+            "explain": "名词版换性质版——How fast he runs!",
+            "level": 4
+          },
+          {
+            "q": "同一个意思换把手：How tall the tower is! ＝",
+            "options": [
+              "What a tall tower it is!",
+              "What tall tower it is!",
+              "How a tall tower it is!"
+            ],
+            "answer": 0,
+            "explain": "性质版换名词版——补上 a 和名词。",
+            "level": 4
+          },
+          {
+            "q": "看到朋友的新书包（复数徽章贴满）想感叹「多酷的徽章啊」：",
+            "options": [
+              "What cool badges!",
+              "What a cool badges!",
+              "How cool badges!"
+            ],
+            "answer": 0,
+            "explain": "badges 复数——What cool badges!",
+            "level": 4
+          },
+          {
+            "q": "尝了一口外婆的汤：「汤真鲜啊」（用 How）：",
+            "options": [
+              "How delicious the soup is!",
+              "How delicious is the soup!",
+              "What delicious the soup is!"
+            ],
+            "answer": 0,
+            "explain": "How + 形容词 + 主谓——不倒装。",
+            "level": 4
+          },
+          {
+            "q": "朋友三步就爬上了单杠：「你爬得真快」：",
+            "options": [
+              "How quickly you climbed!",
+              "How quick you climbed!",
+              "What quickly you climbed!"
+            ],
+            "answer": 0,
+            "explain": "夸动作——副词 quickly。",
+            "level": 4
+          },
+          {
+            "q": "推开窗发现下雪了：「多美的雪啊」（snow 不可数）：",
+            "options": [
+              "What beautiful snow!",
+              "What a beautiful snow!",
+              "How beautiful snow!"
+            ],
+            "answer": 0,
+            "explain": "snow 不可数——What 不带 a。",
+            "level": 4
+          },
+          {
+            "q": "弟弟把拼图弄得满地都是：「真是一团糟」：",
+            "options": [
+              "What a mess!",
+              "How a mess!",
+              "What mess a!"
+            ],
+            "answer": 0,
+            "explain": "mess 可数单数——What a mess!（感叹也能表达无奈）",
+            "level": 4
+          },
+          {
+            "q": "老师宣布春游取消：「真遗憾」＋「多无聊的一天啊」：",
+            "options": [
+              "What a pity! What a boring day!",
+              "How a pity! What boring day!",
+              "What pity! How a boring day!"
+            ],
+            "answer": 0,
+            "explain": "两个固定队形：What a pity! + What a boring day!",
+            "level": 4
+          },
+          {
+            "q": "把陈述句升级成强奏：The elephant is really an enormous animal. →",
+            "options": [
+              "What an enormous animal the elephant is!",
+              "What a enormous animal the elephant is!",
+              "How an enormous animal the elephant is!"
+            ],
+            "answer": 0,
+            "explain": "enormous 元音开头——an；What 抓名词。",
+            "level": 4
+          },
+          {
+            "q": "爷爷讲完故事全家大笑：「多有趣的故事啊」（用 What）：",
+            "options": [
+              "What an interesting story!",
+              "What a interesting story!",
+              "How an interesting story!"
+            ],
+            "answer": 0,
+            "explain": "interesting 元音开头——an。",
+            "level": 4
+          },
+          {
+            "q": "运动会上同学破了纪录：「他跳得真高」：",
+            "options": [
+              "How high he jumped!",
+              "How high did he jump!",
+              "What high he jumped!"
+            ],
+            "answer": 0,
+            "explain": "副词 high 归 How；不请 did——强奏不是提问。",
+            "level": 4
+          },
+          {
+            "q": "哪句既是感叹句、a/an 又全对？",
+            "options": [
+              "What an early bird you are!",
+              "What a early bird you are!",
+              "How an early bird you are!"
+            ],
+            "answer": 0,
+            "explain": "early 元音开头——an early bird；What 抓名词。",
+            "level": 4
+          },
+          {
+            "q": "写日记结尾想感叹假期飞逝：",
+            "options": [
+              "How time flies!",
+              "What time flies!",
+              "How flies the time!"
+            ],
+            "answer": 0,
+            "explain": "固定强奏 How time flies!——语序不动。",
+            "level": 4
+          },
+          {
+            "q": "选出「一夸东西、一夸性质」都正确的一组：",
+            "options": [
+              "What a sweet song! / How sweet the song is!",
+              "How a sweet song! / What sweet the song is!",
+              "What sweet song! / How sweet is the song!"
+            ],
+            "answer": 0,
+            "explain": "What a + 名 ↔ How + 形 + 主谓——标准互换。",
+            "level": 4
+          },
+          {
+            "q": "大考：把力度拉满——「多好的天气！多开心的孩子们！他们笑得多欢！」",
+            "options": [
+              "What fine weather! What happy children! How happily they laugh!",
+              "What a fine weather! What a happy children! How happy they laugh!",
+              "How fine weather! What happy children! What happily they laugh!"
+            ],
+            "answer": 0,
+            "explain": "weather 不可数、children 复数都不带 a；「笑得」用副词 happily——三声强奏全对。",
+            "level": 4
+          }
         ]
       }
     ]

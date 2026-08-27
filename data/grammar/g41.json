@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I get up at six thirty.", "cn": "我六点半起床。" },
-          { "en": "Please turn off the lights.", "cn": "请把灯关掉。" },
-          { "en": "She looks after her little brother.", "cn": "她照顾弟弟。" },
-          { "en": "Don't give up!", "cn": "别放弃！" },
-          { "en": "My dream came true.", "cn": "我的梦想实现了。" }
+          {
+            "en": "I get up at six thirty.",
+            "cn": "我六点半起床。"
+          },
+          {
+            "en": "Please turn off the lights.",
+            "cn": "请把灯关掉。"
+          },
+          {
+            "en": "She looks after her little brother.",
+            "cn": "她照顾弟弟。"
+          },
+          {
+            "en": "Don't give up!",
+            "cn": "别放弃！"
+          },
+          {
+            "en": "My dream came true.",
+            "cn": "我的梦想实现了。"
+          }
         ],
         "mid": [
-          { "en": "He took off his coat and put it on the chair.", "cn": "他脱下外套，放在椅子上。" },
-          { "en": "I'm looking for my keys — have you seen them?", "cn": "我在找钥匙——你见到了吗？" },
-          { "en": "The match was put off because of the rain.", "cn": "比赛因雨推迟了。（G29 的被动）" },
-          { "en": "Pick up your toys and put them away.", "cn": "把玩具捡起来收好。（them 夹中间）" },
-          { "en": "We're looking forward to visiting the music hall.", "cn": "我们盼着去参观音乐厅。（to + doing）" }
+          {
+            "en": "He took off his coat and put it on the chair.",
+            "cn": "他脱下外套，放在椅子上。"
+          },
+          {
+            "en": "I'm looking for my keys — have you seen them?",
+            "cn": "我在找钥匙——你见到了吗？"
+          },
+          {
+            "en": "The match was put off because of the rain.",
+            "cn": "比赛因雨推迟了。（G29 的被动）"
+          },
+          {
+            "en": "Pick up your toys and put them away.",
+            "cn": "把玩具捡起来收好。（them 夹中间）"
+          },
+          {
+            "en": "We're looking forward to visiting the music hall.",
+            "cn": "我们盼着去参观音乐厅。（to + doing）"
+          }
         ],
         "trap": [
-          { "en": "Turn it on, please.", "cn": "请把它打开。", "note": "代词必须夹中间——turn on it 踩错位置。" },
-          { "en": "I'm looking forward to hearing from you.", "cn": "盼着收到你的来信。", "note": "这个 to 是介词门——只收打包件（G31）。" },
-          { "en": "The plane took off on time.", "cn": "飞机准时起飞了。", "note": "take off 的另一个和弦——起飞；同一组键，两首曲子。" },
-          { "en": "She takes after her mother.", "cn": "她长得像妈妈。", "note": "take after = 长得像——猜不出来的和弦，整块记。" },
-          { "en": "Please look up the word in the dictionary.", "cn": "请在词典里查这个词。", "note": "look up = 查（词典）——和 look for（找东西）是两个和弦。" },
-          { "en": "He gets on well with his classmates.", "cn": "他和同学们相处融洽。", "note": "get on well with——get 家族搭配最多，最不讲理。" }
+          {
+            "en": "Turn it on, please.",
+            "cn": "请把它打开。",
+            "note": "代词必须夹中间——turn on it 踩错位置。"
+          },
+          {
+            "en": "I'm looking forward to hearing from you.",
+            "cn": "盼着收到你的来信。",
+            "note": "这个 to 是介词门——只收打包件（G31）。"
+          },
+          {
+            "en": "The plane took off on time.",
+            "cn": "飞机准时起飞了。",
+            "note": "take off 的另一个和弦——起飞；同一组键，两首曲子。"
+          },
+          {
+            "en": "She takes after her mother.",
+            "cn": "她长得像妈妈。",
+            "note": "take after = 长得像——猜不出来的和弦，整块记。"
+          },
+          {
+            "en": "Please look up the word in the dictionary.",
+            "cn": "请在词典里查这个词。",
+            "note": "look up = 查（词典）——和 look for（找东西）是两个和弦。"
+          },
+          {
+            "en": "He gets on well with his classmates.",
+            "cn": "他和同学们相处融洽。",
+            "note": "get on well with——get 家族搭配最多，最不讲理。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "★ 这一课是暗线的主打：为什么 get、take、put、come 这些最简单的动词，恰恰搭配最多、最不讲理？答案是使用频率——一个词用得越多，被拉去表达的场景越杂，磨出的引申义越厚。get 能配几十个小品词，每个组合都是千百年高频使用压出来的老茧；而「光合作用」这种低频词，一辈子只有一个意思、零个搭配。「越常用越不规则」在词汇层的完整版本就是：越常用，越多义，搭配越多，越不讲理。这和 G13 的发现（最常用的 40 个动词恰恰全不规则）是同一条定律的两面——语言的磨损永远集中在最常被摸的地方，就像楼梯凹得最深的总是最中间那级。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G41 · 短语动词与固定搭配</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>和弦：两个音一起响才是那个意思</text><rect x='36' y='110' width='648' height='132' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>👑 高频四天王搭配榜</text><text x='360' y='172' text-anchor='middle' font-size='14' fill='#5A4A42'>get up 起床 · get on/off 上/下车 · get on well with 处得好</text><text x='360' y='200' text-anchor='middle' font-size='14' fill='#5A4A42'>take off 脱下/起飞 · take care of 照看 · take after 长得像</text><text x='360' y='228' text-anchor='middle' font-size='14' fill='#5A4A42'>put on 穿 · put off 推迟 · put away 收好 ｜ come true 实现 · come back 回来</text><rect x='36' y='262' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='294' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>📍 位置规矩</text><text x='360' y='322' text-anchor='middle' font-size='14' fill='#5A4A42'>可分型：代词必须夹中间 turn it on（✗ turn on it）· pick her up</text><text x='360' y='350' text-anchor='middle' font-size='14' fill='#5A4A42'>不可分型整块不拆：look after her · wait for him ｜ look forward to + doing</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🎹 换小品词 = 换和弦</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>turn on 开 · turn off 关 · turn up 调大 · turn down 调小 ｜ look for 找 · look up 查 · look after 照顾</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ open the TV ✗ · turn on it ✗ · forward to see ✗ · came real ✗ · care for(搭配) ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只考最高频几个——系统辨析为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线主打：越常用，越多义，搭配越多，越不讲理 · 英语奇遇记 🦊 G41</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G41 · 短语动词与固定搭配</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>和弦：两个音一起响才是那个意思</text><rect x='36' y='110' width='648' height='132' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>👑 高频四天王搭配榜</text><text x='360' y='172' text-anchor='middle' font-size='18' fill='#5A4A42'>get up 起床 · get on/off 上/下车 · get on well with 处得好</text><text x='360' y='200' text-anchor='middle' font-size='18' fill='#5A4A42'>take off 脱下/起飞 · take care of 照看 · take after 长得像</text><text x='360' y='228' text-anchor='middle' font-size='17' fill='#5A4A42'>put on 穿 · put off 推迟 · put away 收好 ｜ come true 实现 · come back 回来</text><rect x='36' y='262' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='294' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>📍 位置规矩</text><text x='360' y='322' text-anchor='middle' font-size='18' fill='#5A4A42'>可分型：代词必须夹中间 turn it on（✗ turn on it）· pick her up</text><text x='360' y='350' text-anchor='middle' font-size='16' fill='#5A4A42'>不可分型整块不拆：look after her · wait for him ｜ look forward to + doing</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🎹 换小品词 = 换和弦</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>turn on 开 · turn off 关 · turn up 调大 · turn down 调小 ｜ look for 找 · look up 查 · look after 照顾</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ open the TV ✗ · turn on it ✗ · forward to see ✗ · came real ✗ · care for(搭配) ✗</text><text x='360' y='556' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只考最高频几个——系统辨析为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线主打：越常用，越多义，搭配越多，越不讲理 · 英语奇遇记 🦊 G41</text></svg>",
     "alt": "G41 记忆卡：短语动词=和弦整块记；四天王 get/take/put/come 搭配榜；可分型代词必须夹中间（turn it on）、不可分型整块不拆；look forward to+doing；换小品词=换和弦（turn on/off/up/down、look for/up/after）；警示 open the TV、turn on it、forward to see、came real 四类错误；暗线主打：越常用越多义越不讲理。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 和弦入门",
         "questions": [
-          { "q": "look after 的意思是？", "options": ["照顾", "往后看", "寻找"], "answer": 0, "explain": "两个音一起响才是「照顾」——拆开就没了。", "level": 1 },
-          { "q": "短语动词的意思应该怎么学？", "options": ["整块记——当一个新词", "逐字翻译再拼起来", "只记动词部分"], "answer": 0, "explain": "和弦不能拆成单音理解。", "level": 1 },
-          { "q": "give up 的意思是？", "options": ["放弃", "给上去", "起床"], "answer": 0, "explain": "give up——放弃。", "level": 1 },
-          { "q": "get up 的意思是？", "options": ["起床", "上车", "放弃"], "answer": 0, "explain": "get up——起床。", "level": 1 },
-          { "q": "turn on 的意思是？", "options": ["打开（电器）", "转弯", "调小"], "answer": 0, "explain": "电器开关的「开」。", "level": 1 },
-          { "q": "turn off 的意思是？", "options": ["关掉（电器）", "打开", "调大"], "answer": 0, "explain": "电器开关的「关」。", "level": 1 },
-          { "q": "「把声音调小」用哪个和弦？", "options": ["turn down", "turn up", "turn off"], "answer": 0, "explain": "turn down 调小；turn up 调大。", "level": 1 },
-          { "q": "look for 的意思是？", "options": ["寻找", "照顾", "查词典"], "answer": 0, "explain": "look for——找丢了的东西。", "level": 1 },
-          { "q": "look up 常用来表示？", "options": ["在词典里查（单词）", "寻找丢的东西", "照顾人"], "answer": 0, "explain": "look up——查词典；和 look for 是两个和弦。", "level": 1 },
-          { "q": "put on 的意思是？", "options": ["穿上", "脱下", "推迟"], "answer": 0, "explain": "put on——穿上。", "level": 1 },
-          { "q": "take off 的两个常用意思是？", "options": ["脱下；（飞机）起飞", "穿上；降落", "拿走；放回"], "answer": 0, "explain": "同一组键，两首曲子。", "level": 1 },
-          { "q": "put off 的意思是？", "options": ["推迟", "收好", "穿上"], "answer": 0, "explain": "put off——推迟。", "level": 1 },
-          { "q": "come true 的意思是？", "options": ["（梦想）实现", "回来", "出发"], "answer": 0, "explain": "come true——（梦想）成真。", "level": 1 },
-          { "q": "可分短语动词带代词时，代词放哪？", "options": ["中间：turn it on", "后面：turn on it", "前面：it turn on"], "answer": 0, "explain": "代词这个小音符必须夹中间。", "level": 1 },
-          { "q": "look forward to 后面接？", "options": ["doing（打包件）", "do（原形）", "to do"], "answer": 0, "explain": "这个 to 是介词门——收 doing。", "level": 1 },
-          { "q": "哪组动词是「搭配最多的四天王」？", "options": ["get / take / put / come", "celebrate / imagine / prepare / decide", "one / two / three / four"], "answer": 0, "explain": "越常用的动词搭配越多——四天王领衔。", "level": 1 }
+          {
+            "q": "look after 的意思是？",
+            "options": [
+              "照顾",
+              "往后看",
+              "寻找"
+            ],
+            "answer": 0,
+            "explain": "两个音一起响才是「照顾」——拆开就没了。",
+            "level": 1
+          },
+          {
+            "q": "短语动词的意思应该怎么学？",
+            "options": [
+              "整块记——当一个新词",
+              "逐字翻译再拼起来",
+              "只记动词部分"
+            ],
+            "answer": 0,
+            "explain": "和弦不能拆成单音理解。",
+            "level": 1
+          },
+          {
+            "q": "give up 的意思是？",
+            "options": [
+              "放弃",
+              "给上去",
+              "起床"
+            ],
+            "answer": 0,
+            "explain": "give up——放弃。",
+            "level": 1
+          },
+          {
+            "q": "get up 的意思是？",
+            "options": [
+              "起床",
+              "上车",
+              "放弃"
+            ],
+            "answer": 0,
+            "explain": "get up——起床。",
+            "level": 1
+          },
+          {
+            "q": "turn on 的意思是？",
+            "options": [
+              "打开（电器）",
+              "转弯",
+              "调小"
+            ],
+            "answer": 0,
+            "explain": "电器开关的「开」。",
+            "level": 1
+          },
+          {
+            "q": "turn off 的意思是？",
+            "options": [
+              "关掉（电器）",
+              "打开",
+              "调大"
+            ],
+            "answer": 0,
+            "explain": "电器开关的「关」。",
+            "level": 1
+          },
+          {
+            "q": "「把声音调小」用哪个和弦？",
+            "options": [
+              "turn down",
+              "turn up",
+              "turn off"
+            ],
+            "answer": 0,
+            "explain": "turn down 调小；turn up 调大。",
+            "level": 1
+          },
+          {
+            "q": "look for 的意思是？",
+            "options": [
+              "寻找",
+              "照顾",
+              "查词典"
+            ],
+            "answer": 0,
+            "explain": "look for——找丢了的东西。",
+            "level": 1
+          },
+          {
+            "q": "look up 常用来表示？",
+            "options": [
+              "在词典里查（单词）",
+              "寻找丢的东西",
+              "照顾人"
+            ],
+            "answer": 0,
+            "explain": "look up——查词典；和 look for 是两个和弦。",
+            "level": 1
+          },
+          {
+            "q": "put on 的意思是？",
+            "options": [
+              "穿上",
+              "脱下",
+              "推迟"
+            ],
+            "answer": 0,
+            "explain": "put on——穿上。",
+            "level": 1
+          },
+          {
+            "q": "take off 的两个常用意思是？",
+            "options": [
+              "脱下；（飞机）起飞",
+              "穿上；降落",
+              "拿走；放回"
+            ],
+            "answer": 0,
+            "explain": "同一组键，两首曲子。",
+            "level": 1
+          },
+          {
+            "q": "put off 的意思是？",
+            "options": [
+              "推迟",
+              "收好",
+              "穿上"
+            ],
+            "answer": 0,
+            "explain": "put off——推迟。",
+            "level": 1
+          },
+          {
+            "q": "come true 的意思是？",
+            "options": [
+              "（梦想）实现",
+              "回来",
+              "出发"
+            ],
+            "answer": 0,
+            "explain": "come true——（梦想）成真。",
+            "level": 1
+          },
+          {
+            "q": "可分短语动词带代词时，代词放哪？",
+            "options": [
+              "中间：turn it on",
+              "后面：turn on it",
+              "前面：it turn on"
+            ],
+            "answer": 0,
+            "explain": "代词这个小音符必须夹中间。",
+            "level": 1
+          },
+          {
+            "q": "look forward to 后面接？",
+            "options": [
+              "doing（打包件）",
+              "do（原形）",
+              "to do"
+            ],
+            "answer": 0,
+            "explain": "这个 to 是介词门——收 doing。",
+            "level": 1
+          },
+          {
+            "q": "哪组动词是「搭配最多的四天王」？",
+            "options": [
+              "get / take / put / come",
+              "celebrate / imagine / prepare / decide",
+              "one / two / three / four"
+            ],
+            "answer": 0,
+            "explain": "越常用的动词搭配越多——四天王领衔。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 接准小品词",
         "questions": [
-          { "q": "Please ___ the TV — the match is starting.", "options": ["turn on", "open", "turn up"], "answer": 0, "explain": "电器用 turn on——open 是开门开盖。", "level": 2 },
-          { "q": "It's cold outside. ___ your coat.", "options": ["Put on", "Put off", "Put away"], "answer": 0, "explain": "穿上——put on。", "level": 2 },
-          { "q": "The plane ___ at nine and landed at eleven.", "options": ["took off", "took out", "put off"], "answer": 0, "explain": "起飞——took off。", "level": 2 },
-          { "q": "Who ___ your little sister when Mum is away?", "options": ["looks after", "looks for", "looks up"], "answer": 0, "explain": "照顾——look after。", "level": 2 },
-          { "q": "I can't find my pen. Could you help me ___ it?", "options": ["look for", "look after", "give up"], "answer": 0, "explain": "找东西——look for。", "level": 2 },
-          { "q": "The sports meeting was ___ because of the rain.", "options": ["put off", "put on", "put up"], "answer": 0, "explain": "推迟——put off（被动 G29）。", "level": 2 },
-          { "q": "___ the music, please. Grandpa is sleeping.", "options": ["Turn down", "Turn up", "Turn on"], "answer": 0, "explain": "调小声——turn down。", "level": 2 },
-          { "q": "If you don't know the word, ___ in the dictionary.", "options": ["look it up", "look up it", "look it for"], "answer": 0, "explain": "查词典 look up；代词 it 夹中间。", "level": 2 },
-          { "q": "Keep practising, and your dream will ___.", "options": ["come true", "come back", "come out"], "answer": 0, "explain": "梦想成真——come true。", "level": 2 },
-          { "q": "Please ___ your toys and put them away.", "options": ["pick up", "pick on", "put up"], "answer": 0, "explain": "捡起来——pick up。", "level": 2 },
-          { "q": "He ___ well with his new classmates.", "options": ["gets on", "gets up", "gets off"], "answer": 0, "explain": "相处融洽——get on well with。", "level": 2 },
-          { "q": "We're looking forward to ___ the new film.", "options": ["seeing", "see", "saw"], "answer": 0, "explain": "介词门——to seeing。", "level": 2 },
-          { "q": "___ your shoes before you step on the mat.", "options": ["Take off", "Take out", "Take care"], "answer": 0, "explain": "脱鞋——take off。", "level": 2 },
-          { "q": "The bus stopped and we ___.", "options": ["got off", "got up", "took off"], "answer": 0, "explain": "下车——got off。", "level": 2 },
-          { "q": "Don't ___ — you're almost there!", "options": ["give up", "get up", "grow up"], "answer": 0, "explain": "别放弃——give up。", "level": 2 },
-          { "q": "She ___ her grandma — the same smile and the same laugh.", "options": ["takes after", "looks after", "runs after"], "answer": 0, "explain": "长得像——take after。", "level": 2 }
+          {
+            "q": "Please ___ the TV — the match is starting.",
+            "options": [
+              "turn on",
+              "open",
+              "turn up"
+            ],
+            "answer": 0,
+            "explain": "电器用 turn on——open 是开门开盖。",
+            "level": 2
+          },
+          {
+            "q": "It's cold outside. ___ your coat.",
+            "options": [
+              "Put on",
+              "Put off",
+              "Put away"
+            ],
+            "answer": 0,
+            "explain": "穿上——put on。",
+            "level": 2
+          },
+          {
+            "q": "The plane ___ at nine and landed at eleven.",
+            "options": [
+              "took off",
+              "took out",
+              "put off"
+            ],
+            "answer": 0,
+            "explain": "起飞——took off。",
+            "level": 2
+          },
+          {
+            "q": "Who ___ your little sister when Mum is away?",
+            "options": [
+              "looks after",
+              "looks for",
+              "looks up"
+            ],
+            "answer": 0,
+            "explain": "照顾——look after。",
+            "level": 2
+          },
+          {
+            "q": "I can't find my pen. Could you help me ___ it?",
+            "options": [
+              "look for",
+              "look after",
+              "give up"
+            ],
+            "answer": 0,
+            "explain": "找东西——look for。",
+            "level": 2
+          },
+          {
+            "q": "The sports meeting was ___ because of the rain.",
+            "options": [
+              "put off",
+              "put on",
+              "put up"
+            ],
+            "answer": 0,
+            "explain": "推迟——put off（被动 G29）。",
+            "level": 2
+          },
+          {
+            "q": "___ the music, please. Grandpa is sleeping.",
+            "options": [
+              "Turn down",
+              "Turn up",
+              "Turn on"
+            ],
+            "answer": 0,
+            "explain": "调小声——turn down。",
+            "level": 2
+          },
+          {
+            "q": "If you don't know the word, ___ in the dictionary.",
+            "options": [
+              "look it up",
+              "look up it",
+              "look it for"
+            ],
+            "answer": 0,
+            "explain": "查词典 look up；代词 it 夹中间。",
+            "level": 2
+          },
+          {
+            "q": "Keep practising, and your dream will ___.",
+            "options": [
+              "come true",
+              "come back",
+              "come out"
+            ],
+            "answer": 0,
+            "explain": "梦想成真——come true。",
+            "level": 2
+          },
+          {
+            "q": "Please ___ your toys and put them away.",
+            "options": [
+              "pick up",
+              "pick on",
+              "put up"
+            ],
+            "answer": 0,
+            "explain": "捡起来——pick up。",
+            "level": 2
+          },
+          {
+            "q": "He ___ well with his new classmates.",
+            "options": [
+              "gets on",
+              "gets up",
+              "gets off"
+            ],
+            "answer": 0,
+            "explain": "相处融洽——get on well with。",
+            "level": 2
+          },
+          {
+            "q": "We're looking forward to ___ the new film.",
+            "options": [
+              "seeing",
+              "see",
+              "saw"
+            ],
+            "answer": 0,
+            "explain": "介词门——to seeing。",
+            "level": 2
+          },
+          {
+            "q": "___ your shoes before you step on the mat.",
+            "options": [
+              "Take off",
+              "Take out",
+              "Take care"
+            ],
+            "answer": 0,
+            "explain": "脱鞋——take off。",
+            "level": 2
+          },
+          {
+            "q": "The bus stopped and we ___.",
+            "options": [
+              "got off",
+              "got up",
+              "took off"
+            ],
+            "answer": 0,
+            "explain": "下车——got off。",
+            "level": 2
+          },
+          {
+            "q": "Don't ___ — you're almost there!",
+            "options": [
+              "give up",
+              "get up",
+              "grow up"
+            ],
+            "answer": 0,
+            "explain": "别放弃——give up。",
+            "level": 2
+          },
+          {
+            "q": "She ___ her grandma — the same smile and the same laugh.",
+            "options": [
+              "takes after",
+              "looks after",
+              "runs after"
+            ],
+            "answer": 0,
+            "explain": "长得像——take after。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 摆正音符",
         "questions": [
-          { "q": "哪一句音符站对了？（请把它打开）", "options": ["Please turn it on.", "Please turn on it.", "Please it turn on."], "answer": 0, "explain": "代词夹中间。", "level": 3 },
-          { "q": "哪一句门规对了？（我盼着收到你的来信）", "options": ["I'm looking forward to hearing from you.", "I'm looking forward to hear from you.", "I'm look forward to hearing from you."], "answer": 0, "explain": "to 是介词门收 hearing；look 要变 looking。", "level": 3 },
-          { "q": "哪一句和弦对了？（打开电视看新闻）", "options": ["Turn on the TV and watch the news.", "Open the TV and watch the news.", "Turn the TV and watch the news."], "answer": 0, "explain": "电器的开是 turn on。", "level": 3 },
-          { "q": "哪一句音符站对了？（他在机场接她）", "options": ["He picked her up at the airport.", "He picked up her at the airport.", "He picked up she at the airport."], "answer": 0, "explain": "代词 her 夹中间。", "level": 3 },
-          { "q": "哪一句和弦对了？（运动会因雨推迟了）", "options": ["The sports meeting was put off because of the rain.", "The sports meeting was put away because of the rain.", "The sports meeting was put on because of the rain."], "answer": 0, "explain": "推迟 put off——away 是收好，on 是穿上。", "level": 3 },
-          { "q": "哪一句和弦齐了？（请照顾好班里的绿植）", "options": ["Please look after the plants in our classroom.", "Please look the plants in our classroom.", "Please look up the plants in our classroom."], "answer": 0, "explain": "照顾要 look after——缺了 after 只剩「看」。", "level": 3 },
-          { "q": "哪一句和弦对了？（查查这个词什么意思）", "options": ["Look up the word in the dictionary.", "Look for the word in the dictionary.", "Look after the word in the dictionary."], "answer": 0, "explain": "查词典 look up。", "level": 3 },
-          { "q": "哪一句门规对了？（他放弃了睡前吃零食）", "options": ["He gave up eating snacks before bed.", "He gave up to eat snacks before bed.", "He gave up eat snacks before bed."], "answer": 0, "explain": "give up + doing。", "level": 3 },
-          { "q": "哪一句全对？（脱掉外套挂起来）", "options": ["Take off your coat and hang it up.", "Take away your coat and hang up it.", "Take off your coat and hang up it."], "answer": 0, "explain": "take off 脱；hang it up 代词居中。", "level": 3 },
-          { "q": "哪一句搭配对了？（梦想终于实现了）", "options": ["His dream finally came true.", "His dream finally came real.", "His dream finally became real."], "answer": 0, "explain": "固定搭配 come true。", "level": 3 },
-          { "q": "哪一句音符站对了？（把它关小一点）", "options": ["Please turn it down a little.", "Please turn down it a little.", "Please it turn down a little."], "answer": 0, "explain": "代词 it 夹中间。", "level": 3 },
-          { "q": "哪一句搭配对了？（我们要好好照看学校的钢琴）", "options": ["We should take good care of the school piano.", "We should take good care for the school piano.", "We should take good care to the school piano."], "answer": 0, "explain": "take care of——of 换不得。", "level": 3 },
-          { "q": "哪一句和弦对了？（公交来了，快上车）", "options": ["Here comes the bus — get on quickly!", "Here comes the bus — get up quickly!", "Here comes the bus — get off quickly!"], "answer": 0, "explain": "上车 get on；get off 是下车。", "level": 3 },
-          { "q": "哪一句和弦对了？（他和爷爷长得很像）", "options": ["He takes after his grandpa.", "He looks after his grandpa.", "He takes off his grandpa."], "answer": 0, "explain": "长得像 take after——look after 成了照顾爷爷。", "level": 3 },
-          { "q": "哪一句音符站对了？（先把它们收好）", "options": ["Put them away first.", "Put away them first.", "Put they away first."], "answer": 0, "explain": "代词 them 夹中间，且用宾格。", "level": 3 },
-          { "q": "哪一句搭配对了？（请等等我）", "options": ["Please wait for me.", "Please wait me.", "Please wait to me."], "answer": 0, "explain": "wait for——不可分整块记。", "level": 3 }
+          {
+            "q": "哪一句音符站对了？（请把它打开）",
+            "options": [
+              "Please turn it on.",
+              "Please turn on it.",
+              "Please it turn on."
+            ],
+            "answer": 0,
+            "explain": "代词夹中间。",
+            "level": 3
+          },
+          {
+            "q": "哪一句门规对了？（我盼着收到你的来信）",
+            "options": [
+              "I'm looking forward to hearing from you.",
+              "I'm looking forward to hear from you.",
+              "I'm look forward to hearing from you."
+            ],
+            "answer": 0,
+            "explain": "to 是介词门收 hearing；look 要变 looking。",
+            "level": 3
+          },
+          {
+            "q": "哪一句和弦对了？（打开电视看新闻）",
+            "options": [
+              "Turn on the TV and watch the news.",
+              "Open the TV and watch the news.",
+              "Turn the TV and watch the news."
+            ],
+            "answer": 0,
+            "explain": "电器的开是 turn on。",
+            "level": 3
+          },
+          {
+            "q": "哪一句音符站对了？（他在机场接她）",
+            "options": [
+              "He picked her up at the airport.",
+              "He picked up her at the airport.",
+              "He picked up she at the airport."
+            ],
+            "answer": 0,
+            "explain": "代词 her 夹中间。",
+            "level": 3
+          },
+          {
+            "q": "哪一句和弦对了？（运动会因雨推迟了）",
+            "options": [
+              "The sports meeting was put off because of the rain.",
+              "The sports meeting was put away because of the rain.",
+              "The sports meeting was put on because of the rain."
+            ],
+            "answer": 0,
+            "explain": "推迟 put off——away 是收好，on 是穿上。",
+            "level": 3
+          },
+          {
+            "q": "哪一句和弦齐了？（请照顾好班里的绿植）",
+            "options": [
+              "Please look after the plants in our classroom.",
+              "Please look the plants in our classroom.",
+              "Please look up the plants in our classroom."
+            ],
+            "answer": 0,
+            "explain": "照顾要 look after——缺了 after 只剩「看」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句和弦对了？（查查这个词什么意思）",
+            "options": [
+              "Look up the word in the dictionary.",
+              "Look for the word in the dictionary.",
+              "Look after the word in the dictionary."
+            ],
+            "answer": 0,
+            "explain": "查词典 look up。",
+            "level": 3
+          },
+          {
+            "q": "哪一句门规对了？（他放弃了睡前吃零食）",
+            "options": [
+              "He gave up eating snacks before bed.",
+              "He gave up to eat snacks before bed.",
+              "He gave up eat snacks before bed."
+            ],
+            "answer": 0,
+            "explain": "give up + doing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句全对？（脱掉外套挂起来）",
+            "options": [
+              "Take off your coat and hang it up.",
+              "Take away your coat and hang up it.",
+              "Take off your coat and hang up it."
+            ],
+            "answer": 0,
+            "explain": "take off 脱；hang it up 代词居中。",
+            "level": 3
+          },
+          {
+            "q": "哪一句搭配对了？（梦想终于实现了）",
+            "options": [
+              "His dream finally came true.",
+              "His dream finally came real.",
+              "His dream finally became real."
+            ],
+            "answer": 0,
+            "explain": "固定搭配 come true。",
+            "level": 3
+          },
+          {
+            "q": "哪一句音符站对了？（把它关小一点）",
+            "options": [
+              "Please turn it down a little.",
+              "Please turn down it a little.",
+              "Please it turn down a little."
+            ],
+            "answer": 0,
+            "explain": "代词 it 夹中间。",
+            "level": 3
+          },
+          {
+            "q": "哪一句搭配对了？（我们要好好照看学校的钢琴）",
+            "options": [
+              "We should take good care of the school piano.",
+              "We should take good care for the school piano.",
+              "We should take good care to the school piano."
+            ],
+            "answer": 0,
+            "explain": "take care of——of 换不得。",
+            "level": 3
+          },
+          {
+            "q": "哪一句和弦对了？（公交来了，快上车）",
+            "options": [
+              "Here comes the bus — get on quickly!",
+              "Here comes the bus — get up quickly!",
+              "Here comes the bus — get off quickly!"
+            ],
+            "answer": 0,
+            "explain": "上车 get on；get off 是下车。",
+            "level": 3
+          },
+          {
+            "q": "哪一句和弦对了？（他和爷爷长得很像）",
+            "options": [
+              "He takes after his grandpa.",
+              "He looks after his grandpa.",
+              "He takes off his grandpa."
+            ],
+            "answer": 0,
+            "explain": "长得像 take after——look after 成了照顾爷爷。",
+            "level": 3
+          },
+          {
+            "q": "哪一句音符站对了？（先把它们收好）",
+            "options": [
+              "Put them away first.",
+              "Put away them first.",
+              "Put they away first."
+            ],
+            "answer": 0,
+            "explain": "代词 them 夹中间，且用宾格。",
+            "level": 3
+          },
+          {
+            "q": "哪一句搭配对了？（请等等我）",
+            "options": [
+              "Please wait for me.",
+              "Please wait me.",
+              "Please wait to me."
+            ],
+            "answer": 0,
+            "explain": "wait for——不可分整块记。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 和弦连奏",
         "questions": [
-          { "q": "两空：It's dark. Please ___ the lamp, and when you leave, remember to ___.", "options": ["turn on / turn it off", "turn up / turn off it", "open / close it"], "answer": 0, "explain": "开灯 turn on；走时把它关掉 turn it off（代词居中）。", "level": 4 },
-          { "q": "大考：The plane ___ in ten minutes — please ___ your phone.", "options": ["takes off / turn off", "takes out / turn on", "puts off / turn down"], "answer": 0, "explain": "起飞 take off；关手机 turn off。", "level": 4 },
-          { "q": "两空：___ your coat and ___ your slippers — dinner is ready.", "options": ["Take off / put on", "Take out / put off", "Put off / take on"], "answer": 0, "explain": "脱外套 take off；换上拖鞋 put on。", "level": 4 },
-          { "q": "The trip was ___ till May, but I'm still looking forward ___ it.", "options": ["put off / to", "put away / for", "put on / to"], "answer": 0, "explain": "推迟 put off；look forward to。", "level": 4 },
-          { "q": "两空：She ___ the dress ___ in the fitting room, but decided not to buy it.", "options": ["tried / on", "put / off", "took / after"], "answer": 0, "explain": "试穿 try on——名词可拆在中间。", "level": 4 },
-          { "q": "找错：哪句的代词站错了位置？", "options": ["Wake up her at six, please.", "Wake her up at six, please.", "Please wake me up at six."], "answer": 0, "explain": "代词必须夹中间——wake her up。", "level": 4 },
-          { "q": "两空：The volunteers ___ the old man every weekend and help him ___ his medicine on time.", "options": ["look after / take", "look for / eat", "look up / take"], "answer": 0, "explain": "照顾 look after；吃药说 take medicine。", "level": 4 },
-          { "q": "Our team never ___, and finally the dream of winning the cup ___.", "options": ["gave up / came true", "gave up / came back", "got up / came true"], "answer": 0, "explain": "不放弃 give up；梦想成真 come true。", "level": 4 },
-          { "q": "两空：___ the radio a little — I can hardly hear it. Not that much! Now ___ a bit.", "options": ["Turn up / turn it down", "Turn on / turn off it", "Turn down / turn it up"], "answer": 0, "explain": "先调大 turn up；过头了再把它调小 turn it down。", "level": 4 },
-          { "q": "找错：哪句的介词门后面投错了东西？", "options": ["We look forward to hear the good news.", "We look forward to hearing the good news.", "I'm used to getting up early."], "answer": 0, "explain": "介词门后要打包件——to hearing。", "level": 4 },
-          { "q": "He ___ in a fishing village and still goes back every summer.", "options": ["grew up", "got up", "gave up"], "answer": 0, "explain": "长大 grow up。", "level": 4 },
-          { "q": "两空：Get ___ the bus at Golden Street, then get ___ at the third stop.", "options": ["on / off", "up / down", "off / on"], "answer": 0, "explain": "上车 get on；下车 get off。", "level": 4 },
-          { "q": "The teacher asked us to ___ the new words and write ___ in our notebooks.", "options": ["look up / them down", "look up / down them", "look for / them up"], "answer": 0, "explain": "查词 look up；把它们记下来 write them down——代词居中。", "level": 4 },
-          { "q": "找错：哪句把两个和弦弄混了？", "options": ["Please put off your wet shoes at the door.", "Please take off your wet shoes at the door.", "The match was put off till Friday."], "answer": 0, "explain": "脱鞋是 take off——put off 是推迟。", "level": 4 },
-          { "q": "两空：My little cousin ___ her mother, and she is well ___ by her grandparents on weekdays.", "options": ["takes after / looked after", "looks after / taken after", "takes off / looked for"], "answer": 0, "explain": "长得像妈妈 take after；被外公外婆照顾 is well looked after（G29）。", "level": 4 },
-          { "q": "大考二：三空：___ the light, ___ your pyjamas, and ___ your clothes for tomorrow — good night!", "options": ["Turn off / put on / put away", "Turn on / take off / put off", "Turn down / put off / take out"], "answer": 0, "explain": "关灯 turn off；穿睡衣 put on；收好明天的衣服 put away。", "level": 4 }
+          {
+            "q": "两空：It's dark. Please ___ the lamp, and when you leave, remember to ___.",
+            "options": [
+              "turn on / turn it off",
+              "turn up / turn off it",
+              "open / close it"
+            ],
+            "answer": 0,
+            "explain": "开灯 turn on；走时把它关掉 turn it off（代词居中）。",
+            "level": 4
+          },
+          {
+            "q": "大考：The plane ___ in ten minutes — please ___ your phone.",
+            "options": [
+              "takes off / turn off",
+              "takes out / turn on",
+              "puts off / turn down"
+            ],
+            "answer": 0,
+            "explain": "起飞 take off；关手机 turn off。",
+            "level": 4
+          },
+          {
+            "q": "两空：___ your coat and ___ your slippers — dinner is ready.",
+            "options": [
+              "Take off / put on",
+              "Take out / put off",
+              "Put off / take on"
+            ],
+            "answer": 0,
+            "explain": "脱外套 take off；换上拖鞋 put on。",
+            "level": 4
+          },
+          {
+            "q": "The trip was ___ till May, but I'm still looking forward ___ it.",
+            "options": [
+              "put off / to",
+              "put away / for",
+              "put on / to"
+            ],
+            "answer": 0,
+            "explain": "推迟 put off；look forward to。",
+            "level": 4
+          },
+          {
+            "q": "两空：She ___ the dress ___ in the fitting room, but decided not to buy it.",
+            "options": [
+              "tried / on",
+              "put / off",
+              "took / after"
+            ],
+            "answer": 0,
+            "explain": "试穿 try on——名词可拆在中间。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句的代词站错了位置？",
+            "options": [
+              "Wake up her at six, please.",
+              "Wake her up at six, please.",
+              "Please wake me up at six."
+            ],
+            "answer": 0,
+            "explain": "代词必须夹中间——wake her up。",
+            "level": 4
+          },
+          {
+            "q": "两空：The volunteers ___ the old man every weekend and help him ___ his medicine on time.",
+            "options": [
+              "look after / take",
+              "look for / eat",
+              "look up / take"
+            ],
+            "answer": 0,
+            "explain": "照顾 look after；吃药说 take medicine。",
+            "level": 4
+          },
+          {
+            "q": "Our team never ___, and finally the dream of winning the cup ___.",
+            "options": [
+              "gave up / came true",
+              "gave up / came back",
+              "got up / came true"
+            ],
+            "answer": 0,
+            "explain": "不放弃 give up；梦想成真 come true。",
+            "level": 4
+          },
+          {
+            "q": "两空：___ the radio a little — I can hardly hear it. Not that much! Now ___ a bit.",
+            "options": [
+              "Turn up / turn it down",
+              "Turn on / turn off it",
+              "Turn down / turn it up"
+            ],
+            "answer": 0,
+            "explain": "先调大 turn up；过头了再把它调小 turn it down。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句的介词门后面投错了东西？",
+            "options": [
+              "We look forward to hear the good news.",
+              "We look forward to hearing the good news.",
+              "I'm used to getting up early."
+            ],
+            "answer": 0,
+            "explain": "介词门后要打包件——to hearing。",
+            "level": 4
+          },
+          {
+            "q": "He ___ in a fishing village and still goes back every summer.",
+            "options": [
+              "grew up",
+              "got up",
+              "gave up"
+            ],
+            "answer": 0,
+            "explain": "长大 grow up。",
+            "level": 4
+          },
+          {
+            "q": "两空：Get ___ the bus at Golden Street, then get ___ at the third stop.",
+            "options": [
+              "on / off",
+              "up / down",
+              "off / on"
+            ],
+            "answer": 0,
+            "explain": "上车 get on；下车 get off。",
+            "level": 4
+          },
+          {
+            "q": "The teacher asked us to ___ the new words and write ___ in our notebooks.",
+            "options": [
+              "look up / them down",
+              "look up / down them",
+              "look for / them up"
+            ],
+            "answer": 0,
+            "explain": "查词 look up；把它们记下来 write them down——代词居中。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句把两个和弦弄混了？",
+            "options": [
+              "Please put off your wet shoes at the door.",
+              "Please take off your wet shoes at the door.",
+              "The match was put off till Friday."
+            ],
+            "answer": 0,
+            "explain": "脱鞋是 take off——put off 是推迟。",
+            "level": 4
+          },
+          {
+            "q": "两空：My little cousin ___ her mother, and she is well ___ by her grandparents on weekdays.",
+            "options": [
+              "takes after / looked after",
+              "looks after / taken after",
+              "takes off / looked for"
+            ],
+            "answer": 0,
+            "explain": "长得像妈妈 take after；被外公外婆照顾 is well looked after（G29）。",
+            "level": 4
+          },
+          {
+            "q": "大考二：三空：___ the light, ___ your pyjamas, and ___ your clothes for tomorrow — good night!",
+            "options": [
+              "Turn off / put on / put away",
+              "Turn on / take off / put off",
+              "Turn down / put off / take out"
+            ],
+            "answer": 0,
+            "explain": "关灯 turn off；穿睡衣 put on；收好明天的衣服 put away。",
+            "level": 4
+          }
         ]
       }
     ]

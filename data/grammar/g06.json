@@ -5,7 +5,9 @@
   "title": "一般现在时与三单",
   "metaphor": "每周固定的排练",
   "ketRelevance": 1,
-  "ketLessonMap": ["L3"],
+  "ketLessonMap": [
+    "L3"
+  ],
   "ketNote": "三单 -s 是 KET 写作里老师第一眼扫的错；拼写变化（-es/-ies/has）在 Part 5 反复出现。八课里的亲戚是 L3。",
   "source": "original",
   "sections": {
@@ -42,26 +44,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I get up at seven every day.", "cn": "我每天七点起床。" },
-          { "en": "She plays the flute very well.", "cn": "她长笛吹得很好。（本事，一直如此）" },
-          { "en": "We have a music class on Friday.", "cn": "我们周五有音乐课。" },
-          { "en": "My father works in a hospital.", "cn": "我爸爸在医院工作。" },
-          { "en": "Birds fly and fish swim.", "cn": "鸟会飞，鱼会游。（事实）" }
+          {
+            "en": "I get up at seven every day.",
+            "cn": "我每天七点起床。"
+          },
+          {
+            "en": "She plays the flute very well.",
+            "cn": "她长笛吹得很好。（本事，一直如此）"
+          },
+          {
+            "en": "We have a music class on Friday.",
+            "cn": "我们周五有音乐课。"
+          },
+          {
+            "en": "My father works in a hospital.",
+            "cn": "我爸爸在医院工作。"
+          },
+          {
+            "en": "Birds fly and fish swim.",
+            "cn": "鸟会飞，鱼会游。（事实）"
+          }
         ],
         "mid": [
-          { "en": "The band practises every Saturday afternoon.", "cn": "乐团每周六下午排练。" },
-          { "en": "My sister studies English every morning.", "cn": "我妹妹每天早上学英语。（study → studies）" },
-          { "en": "He watches TV after dinner.", "cn": "他晚饭后看电视。（watch → watches）" },
-          { "en": "The train leaves at eight, so don't be late.", "cn": "火车八点开，别迟到。（时间表）" },
-          { "en": "She never eats ice cream in winter.", "cn": "她冬天从不吃冰激凌。（never 站动词前）" }
+          {
+            "en": "The band practises every Saturday afternoon.",
+            "cn": "乐团每周六下午排练。"
+          },
+          {
+            "en": "My sister studies English every morning.",
+            "cn": "我妹妹每天早上学英语。（study → studies）"
+          },
+          {
+            "en": "He watches TV after dinner.",
+            "cn": "他晚饭后看电视。（watch → watches）"
+          },
+          {
+            "en": "The train leaves at eight, so don't be late.",
+            "cn": "火车八点开，别迟到。（时间表）"
+          },
+          {
+            "en": "She never eats ice cream in winter.",
+            "cn": "她冬天从不吃冰激凌。（never 站动词前）"
+          }
         ],
         "trap": [
-          { "en": "Tom has two cats.", "cn": "汤姆有两只猫。", "note": "have 的三单不是 haves，直接换成 has。" },
-          { "en": "My mother goes to work by bus.", "cn": "我妈妈坐公交上班。", "note": "o 结尾加 -es：goes、does。" },
-          { "en": "The baby often cries at night.", "cn": "小宝宝夜里常哭。", "note": "辅音+y 变 -ies：cry → cries；但 play 是元音+y，直接 plays。" },
-          { "en": "Everyone likes her songs.", "cn": "人人都喜欢她的歌。", "note": "everyone 看着是「大家」，语法上算单数——动词加 -s。" },
-          { "en": "My friend and I walk to school together.", "cn": "我和朋友一起走路上学。", "note": "两个人做主语=复数，动词用原形，别顺手加 -s。" },
-          { "en": "Look! It's raining. — But it rarely rains here.", "cn": "看，下雨了。——不过这里很少下雨。", "note": "「此刻在下」归现在进行时（G07）；「这里少雨」才归一般现在时——两块牌子别挂错。" }
+          {
+            "en": "Tom has two cats.",
+            "cn": "汤姆有两只猫。",
+            "note": "have 的三单不是 haves，直接换成 has。"
+          },
+          {
+            "en": "My mother goes to work by bus.",
+            "cn": "我妈妈坐公交上班。",
+            "note": "o 结尾加 -es：goes、does。"
+          },
+          {
+            "en": "The baby often cries at night.",
+            "cn": "小宝宝夜里常哭。",
+            "note": "辅音+y 变 -ies：cry → cries；但 play 是元音+y，直接 plays。"
+          },
+          {
+            "en": "Everyone likes her songs.",
+            "cn": "人人都喜欢她的歌。",
+            "note": "everyone 看着是「大家」，语法上算单数——动词加 -s。"
+          },
+          {
+            "en": "My friend and I walk to school together.",
+            "cn": "我和朋友一起走路上学。",
+            "note": "两个人做主语=复数，动词用原形，别顺手加 -s。"
+          },
+          {
+            "en": "Look! It's raining. — But it rarely rains here.",
+            "cn": "看，下雨了。——不过这里很少下雨。",
+            "note": "「此刻在下」归现在进行时（G07）；「这里少雨」才归一般现在时——两块牌子别挂错。"
+          }
         ]
       }
     },
@@ -187,7 +243,7 @@
     "echo": "三单的 -s 是一座孤零零的纪念碑：一千年前，英语每个人称都有自己的动词词尾（我 -e、你 -est、他 -eth……），莎士比亚还在写 thou likest（你喜欢）、he liketh（他喜欢）。后来词尾一个个磨掉，唯独第三人称的这一个活了下来，-eth 还慢慢变成了今天的 -s。为什么偏偏它幸存？「他、她、它」是我们聊天时最常说到的对象——越常用的位置，越舍不得改。你今天多勾的这一笔，是古英语最后的遗产。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G06 · 一般现在时与三单</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>每周固定的排练——管习惯、事实、时间表，不管「此刻」</text><rect x='36' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>📅 排练表</text><text x='194' y='188' text-anchor='middle' font-size='17' fill='#5A4A42'>I practise.</text><text x='194' y='218' text-anchor='middle' font-size='17' fill='#5A4A42'>You practise.</text><text x='194' y='248' text-anchor='middle' font-size='17' fill='#5A4A42'>They practise.</text><text x='194' y='284' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>She practises. ← 多勾一笔</text><rect x='368' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#E76F33'>✏️ 三单拼写三变</text><text x='526' y='190' text-anchor='middle' font-size='17' fill='#5A4A42'>watch → watches（-es）</text><text x='526' y='222' text-anchor='middle' font-size='17' fill='#5A4A42'>study → studies（-ies）</text><text x='526' y='254' text-anchor='middle' font-size='17' fill='#5A4A42'>go → goes · have → has</text><text x='526' y='290' text-anchor='middle' font-size='15' fill='#8A7568'>play 元音+y → plays（别过头）</text><rect x='36' y='340' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='372' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>两块牌子：He plays.（习惯常态牌） vs He is playing.（此刻直播牌）</text><text x='360' y='402' text-anchor='middle' font-size='17' fill='#5A4A42'>频度副词站动词前：He often drinks tea. · She never eats ice cream.</text><text x='360' y='458' text-anchor='middle' font-size='16' fill='#8A7568'>暗线：-s 是古英语人称词尾唯一的幸存者（thou likest · he liketh）</text><text x='360' y='522' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G06</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='32' font-weight='bold' fill='#E76F33'>G06 · 一般现在时与三单</text><text x='360' y='92' text-anchor='middle' font-size='23' fill='#8A7568'>每周固定的排练——管习惯、事实、时间表，不管「此刻」</text><rect x='36' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='152' text-anchor='middle' font-size='24' font-weight='bold' fill='#38B2AC'>📅 排练表</text><text x='194' y='188' text-anchor='middle' font-size='21' fill='#5A4A42'>I practise.</text><text x='194' y='218' text-anchor='middle' font-size='21' fill='#5A4A42'>You practise.</text><text x='194' y='248' text-anchor='middle' font-size='21' fill='#5A4A42'>They practise.</text><text x='194' y='284' text-anchor='middle' font-size='22' font-weight='bold' fill='#E76F33'>She practises. ← 多勾一笔</text><rect x='368' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='152' text-anchor='middle' font-size='24' font-weight='bold' fill='#E76F33'>✏️ 三单拼写三变</text><text x='526' y='190' text-anchor='middle' font-size='21' fill='#5A4A42'>watch → watches（-es）</text><text x='526' y='222' text-anchor='middle' font-size='21' fill='#5A4A42'>study → studies（-ies）</text><text x='526' y='254' text-anchor='middle' font-size='21' fill='#5A4A42'>go → goes · have → has</text><text x='526' y='290' text-anchor='middle' font-size='19' fill='#8A7568'>play 元音+y → plays（别过头）</text><rect x='36' y='340' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='372' text-anchor='middle' font-size='19' font-weight='bold' fill='#E76F33'>两块牌子：He plays.（习惯常态牌） vs He is playing.（此刻直播牌）</text><text x='360' y='402' text-anchor='middle' font-size='18' fill='#5A4A42'>频度副词站动词前：He often drinks tea. · She never eats ice cream.</text><text x='360' y='458' text-anchor='middle' font-size='20' fill='#8A7568'>暗线：-s 是古英语人称词尾唯一的幸存者（thou likest · he liketh）</text><text x='360' y='522' text-anchor='middle' font-size='18' fill='#B8A79B'>英语奇遇记 🦊 · G06</text></svg>",
     "alt": "G06 记忆卡：排练表展示三单多勾一笔 practises；拼写三变 -es/-ies/has；习惯常态牌与此刻直播牌对比；暗线提示 -s 是古英语词尾幸存者。"
   },
   "practice": {
@@ -195,85 +251,725 @@
       {
         "name": "认一认 · 勾出三单",
         "questions": [
-          { "q": "「play」的三单形是？", "options": ["plays", "plaies", "playes"], "answer": 0, "explain": "play 是元音+y，直接加 -s。", "level": 1 },
-          { "q": "「go」的三单形是？", "options": ["goes", "gos", "goies"], "answer": 0, "explain": "o 结尾加 -es：goes。", "level": 1 },
-          { "q": "「watch」的三单形是？", "options": ["watches", "watchs", "watchies"], "answer": 0, "explain": "ch 结尾加 -es：watches。", "level": 1 },
-          { "q": "「study」的三单形是？", "options": ["studies", "studys", "studyes"], "answer": 0, "explain": "辅音+y 变 -ies：studies。", "level": 1 },
-          { "q": "「have」的三单形是？", "options": ["has", "haves", "haies"], "answer": 0, "explain": "have 整词换成 has——最常用的动词最不讲理。", "level": 1 },
-          { "q": "「wash」的三单形是？", "options": ["washes", "washs", "washies"], "answer": 0, "explain": "sh 结尾加 -es：washes。", "level": 1 },
-          { "q": "「fly」的三单形是？", "options": ["flies", "flys", "flyes"], "answer": 0, "explain": "辅音+y 变 -ies：flies。", "level": 1 },
-          { "q": "「do」的三单形是？", "options": ["does", "dos", "doies"], "answer": 0, "explain": "o 结尾加 -es：does。", "level": 1 },
-          { "q": "「like」的三单形是？", "options": ["likes", "likees", "likies"], "answer": 0, "explain": "普通结尾直接加 -s：likes。", "level": 1 },
-          { "q": "「teach」的三单形是？", "options": ["teaches", "teachs", "teachies"], "answer": 0, "explain": "ch 结尾加 -es：teaches。", "level": 1 },
-          { "q": "「carry」的三单形是？", "options": ["carries", "carrys", "carryes"], "answer": 0, "explain": "辅音+y 变 -ies：carries。", "level": 1 },
-          { "q": "「fix」的三单形是？", "options": ["fixes", "fixs", "fixies"], "answer": 0, "explain": "x 结尾加 -es：fixes。", "level": 1 },
-          { "q": "「say」的三单形是？", "options": ["says", "saies", "sayes"], "answer": 0, "explain": "say 元音+y，直接加 -s。", "level": 1 },
-          { "q": "「stay」的三单形是？", "options": ["stays", "staies", "stayes"], "answer": 0, "explain": "stay 元音+y，直接加 -s。", "level": 1 },
-          { "q": "「pass」的三单形是？", "options": ["passes", "passs", "passies"], "answer": 0, "explain": "s 结尾加 -es：passes。", "level": 1 },
-          { "q": "「buy」的三单形是？", "options": ["buys", "buies", "buyes"], "answer": 0, "explain": "buy 元音+y，直接加 -s。", "level": 1 }
+          {
+            "q": "「play」的三单形是？",
+            "options": [
+              "plays",
+              "plaies",
+              "playes"
+            ],
+            "answer": 0,
+            "explain": "play 是元音+y，直接加 -s。",
+            "level": 1
+          },
+          {
+            "q": "「go」的三单形是？",
+            "options": [
+              "goes",
+              "gos",
+              "goies"
+            ],
+            "answer": 0,
+            "explain": "o 结尾加 -es：goes。",
+            "level": 1
+          },
+          {
+            "q": "「watch」的三单形是？",
+            "options": [
+              "watches",
+              "watchs",
+              "watchies"
+            ],
+            "answer": 0,
+            "explain": "ch 结尾加 -es：watches。",
+            "level": 1
+          },
+          {
+            "q": "「study」的三单形是？",
+            "options": [
+              "studies",
+              "studys",
+              "studyes"
+            ],
+            "answer": 0,
+            "explain": "辅音+y 变 -ies：studies。",
+            "level": 1
+          },
+          {
+            "q": "「have」的三单形是？",
+            "options": [
+              "has",
+              "haves",
+              "haies"
+            ],
+            "answer": 0,
+            "explain": "have 整词换成 has——最常用的动词最不讲理。",
+            "level": 1
+          },
+          {
+            "q": "「wash」的三单形是？",
+            "options": [
+              "washes",
+              "washs",
+              "washies"
+            ],
+            "answer": 0,
+            "explain": "sh 结尾加 -es：washes。",
+            "level": 1
+          },
+          {
+            "q": "「fly」的三单形是？",
+            "options": [
+              "flies",
+              "flys",
+              "flyes"
+            ],
+            "answer": 0,
+            "explain": "辅音+y 变 -ies：flies。",
+            "level": 1
+          },
+          {
+            "q": "「do」的三单形是？",
+            "options": [
+              "does",
+              "dos",
+              "doies"
+            ],
+            "answer": 0,
+            "explain": "o 结尾加 -es：does。",
+            "level": 1
+          },
+          {
+            "q": "「like」的三单形是？",
+            "options": [
+              "likes",
+              "likees",
+              "likies"
+            ],
+            "answer": 0,
+            "explain": "普通结尾直接加 -s：likes。",
+            "level": 1
+          },
+          {
+            "q": "「teach」的三单形是？",
+            "options": [
+              "teaches",
+              "teachs",
+              "teachies"
+            ],
+            "answer": 0,
+            "explain": "ch 结尾加 -es：teaches。",
+            "level": 1
+          },
+          {
+            "q": "「carry」的三单形是？",
+            "options": [
+              "carries",
+              "carrys",
+              "carryes"
+            ],
+            "answer": 0,
+            "explain": "辅音+y 变 -ies：carries。",
+            "level": 1
+          },
+          {
+            "q": "「fix」的三单形是？",
+            "options": [
+              "fixes",
+              "fixs",
+              "fixies"
+            ],
+            "answer": 0,
+            "explain": "x 结尾加 -es：fixes。",
+            "level": 1
+          },
+          {
+            "q": "「say」的三单形是？",
+            "options": [
+              "says",
+              "saies",
+              "sayes"
+            ],
+            "answer": 0,
+            "explain": "say 元音+y，直接加 -s。",
+            "level": 1
+          },
+          {
+            "q": "「stay」的三单形是？",
+            "options": [
+              "stays",
+              "staies",
+              "stayes"
+            ],
+            "answer": 0,
+            "explain": "stay 元音+y，直接加 -s。",
+            "level": 1
+          },
+          {
+            "q": "「pass」的三单形是？",
+            "options": [
+              "passes",
+              "passs",
+              "passies"
+            ],
+            "answer": 0,
+            "explain": "s 结尾加 -es：passes。",
+            "level": 1
+          },
+          {
+            "q": "「buy」的三单形是？",
+            "options": [
+              "buys",
+              "buies",
+              "buyes"
+            ],
+            "answer": 0,
+            "explain": "buy 元音+y，直接加 -s。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 填进排练表",
         "questions": [
-          { "q": "My father ___ to work by bus.", "options": ["goes", "go", "going"], "answer": 0, "explain": "father 三单——goes。", "level": 2 },
-          { "q": "She ___ English every morning.", "options": ["studies", "studys", "study"], "answer": 0, "explain": "三单+辅音y——studies。", "level": 2 },
-          { "q": "Tom ___ two cats and a dog.", "options": ["has", "have", "haves"], "answer": 0, "explain": "三单的 have 是 has。", "level": 2 },
-          { "q": "I ___ up at seven every day.", "options": ["get", "gets", "getting"], "answer": 0, "explain": "I 用原形——多勾也是错。", "level": 2 },
-          { "q": "The train ___ at eight in the morning.", "options": ["leaves", "leave", "leafs"], "answer": 0, "explain": "时间表用一般现在时；train 三单——leaves。", "level": 2 },
-          { "q": "We ___ football after school.", "options": ["play", "plays", "playes"], "answer": 0, "explain": "we 复数——原形 play。", "level": 2 },
-          { "q": "My sister ___ TV on Sunday evenings.", "options": ["watches", "watchs", "watch"], "answer": 0, "explain": "三单+ch 结尾——watches。", "level": 2 },
-          { "q": "He often ___ his room on weekends.", "options": ["cleans", "clean", "cleanes"], "answer": 0, "explain": "he 三单——cleans；often 站动词前。", "level": 2 },
-          { "q": "Lily ___ the flute very well.", "options": ["plays", "play", "plaies"], "answer": 0, "explain": "三单 plays；play 元音+y 不变 -ies。", "level": 2 },
-          { "q": "The sun ___ in the east.", "options": ["rises", "rise", "risees"], "answer": 0, "explain": "事实归一般现在时；sun 三单——rises。", "level": 2 },
-          { "q": "My parents ___ me with my maths.", "options": ["help", "helps", "helpes"], "answer": 0, "explain": "parents 复数——原形 help。", "level": 2 },
-          { "q": "She ___ her teeth twice a day.", "options": ["brushes", "brushs", "brush"], "answer": 0, "explain": "三单+sh 结尾——brushes。", "level": 2 },
-          { "q": "Water ___ at 100 degrees.", "options": ["boils", "boil", "boiles"], "answer": 0, "explain": "科学事实；water 三单——boils。", "level": 2 },
-          { "q": "He ___ his grandma every week.", "options": ["visits", "visit", "visites"], "answer": 0, "explain": "he 三单——visits。", "level": 2 },
-          { "q": "Our band ___ every Saturday afternoon.", "options": ["practises", "practise", "practisies"], "answer": 0, "explain": "band 当一个整体，三单——practises。", "level": 2 },
-          { "q": "The baby ___ when it is hungry.", "options": ["cries", "crys", "cry"], "answer": 0, "explain": "三单+辅音y——cries。", "level": 2 }
+          {
+            "q": "My father ___ to work by bus.",
+            "options": [
+              "goes",
+              "go",
+              "going"
+            ],
+            "answer": 0,
+            "explain": "father 三单——goes。",
+            "level": 2
+          },
+          {
+            "q": "She ___ English every morning.",
+            "options": [
+              "studies",
+              "studys",
+              "study"
+            ],
+            "answer": 0,
+            "explain": "三单+辅音y——studies。",
+            "level": 2
+          },
+          {
+            "q": "Tom ___ two cats and a dog.",
+            "options": [
+              "has",
+              "have",
+              "haves"
+            ],
+            "answer": 0,
+            "explain": "三单的 have 是 has。",
+            "level": 2
+          },
+          {
+            "q": "I ___ up at seven every day.",
+            "options": [
+              "get",
+              "gets",
+              "getting"
+            ],
+            "answer": 0,
+            "explain": "I 用原形——多勾也是错。",
+            "level": 2
+          },
+          {
+            "q": "The train ___ at eight in the morning.",
+            "options": [
+              "leaves",
+              "leave",
+              "leafs"
+            ],
+            "answer": 0,
+            "explain": "时间表用一般现在时；train 三单——leaves。",
+            "level": 2
+          },
+          {
+            "q": "We ___ football after school.",
+            "options": [
+              "play",
+              "plays",
+              "playes"
+            ],
+            "answer": 0,
+            "explain": "we 复数——原形 play。",
+            "level": 2
+          },
+          {
+            "q": "My sister ___ TV on Sunday evenings.",
+            "options": [
+              "watches",
+              "watchs",
+              "watch"
+            ],
+            "answer": 0,
+            "explain": "三单+ch 结尾——watches。",
+            "level": 2
+          },
+          {
+            "q": "He often ___ his room on weekends.",
+            "options": [
+              "cleans",
+              "clean",
+              "cleanes"
+            ],
+            "answer": 0,
+            "explain": "he 三单——cleans；often 站动词前。",
+            "level": 2
+          },
+          {
+            "q": "Lily ___ the flute very well.",
+            "options": [
+              "plays",
+              "play",
+              "plaies"
+            ],
+            "answer": 0,
+            "explain": "三单 plays；play 元音+y 不变 -ies。",
+            "level": 2
+          },
+          {
+            "q": "The sun ___ in the east.",
+            "options": [
+              "rises",
+              "rise",
+              "risees"
+            ],
+            "answer": 0,
+            "explain": "事实归一般现在时；sun 三单——rises。",
+            "level": 2
+          },
+          {
+            "q": "My parents ___ me with my maths.",
+            "options": [
+              "help",
+              "helps",
+              "helpes"
+            ],
+            "answer": 0,
+            "explain": "parents 复数——原形 help。",
+            "level": 2
+          },
+          {
+            "q": "She ___ her teeth twice a day.",
+            "options": [
+              "brushes",
+              "brushs",
+              "brush"
+            ],
+            "answer": 0,
+            "explain": "三单+sh 结尾——brushes。",
+            "level": 2
+          },
+          {
+            "q": "Water ___ at 100 degrees.",
+            "options": [
+              "boils",
+              "boil",
+              "boiles"
+            ],
+            "answer": 0,
+            "explain": "科学事实；water 三单——boils。",
+            "level": 2
+          },
+          {
+            "q": "He ___ his grandma every week.",
+            "options": [
+              "visits",
+              "visit",
+              "visites"
+            ],
+            "answer": 0,
+            "explain": "he 三单——visits。",
+            "level": 2
+          },
+          {
+            "q": "Our band ___ every Saturday afternoon.",
+            "options": [
+              "practises",
+              "practise",
+              "practisies"
+            ],
+            "answer": 0,
+            "explain": "band 当一个整体，三单——practises。",
+            "level": 2
+          },
+          {
+            "q": "The baby ___ when it is hungry.",
+            "options": [
+              "cries",
+              "crys",
+              "cry"
+            ],
+            "answer": 0,
+            "explain": "三单+辅音y——cries。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 火眼金睛",
         "questions": [
-          { "q": "哪一句的动词是健康的？（他每天打鼓）", "options": ["He plays the drum every day.", "He play the drum every day.", "He is play the drum every day."], "answer": 0, "explain": "三单要 -s；说习惯不请 be。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（她养兔子）", "options": ["She has a rabbit.", "She haves a rabbit.", "She have a rabbit."], "answer": 0, "explain": "have 的三单整词换 has。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（妈妈的工作）", "options": ["My mother works in a hospital.", "My mother work in a hospital.", "My mother workes in a hospital."], "answer": 0, "explain": "mother 三单——works。", "level": 3 },
-          { "q": "often 站哪里才健康？", "options": ["He often drinks tea.", "He drinks often tea.", "Often he drinks always tea."], "answer": 0, "explain": "频度副词站在实义动词前。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（我拉小提琴）", "options": ["I play the violin.", "I plays the violin.", "I am plays the violin."], "answer": 0, "explain": "I 用原形；-s 是三单专属。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（他和我们踢球）", "options": ["He plays football with us.", "He plaies football with us.", "He playes football with us."], "answer": 0, "explain": "play 元音+y，直接 plays。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（地球绕太阳）", "options": ["The earth goes around the sun.", "The earth go around the sun.", "The earth going around the sun."], "answer": 0, "explain": "事实用一般现在时；三单 goes。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（她每天学英语）", "options": ["She studies English every day.", "She studys English every day.", "She study English every day."], "answer": 0, "explain": "辅音+y 变 -ies。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（爸爸八点上班）", "options": ["My father goes to work at eight.", "My father go to work at eight.", "My father gos to work at eight."], "answer": 0, "explain": "o 结尾加 -es——goes。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（每周日打球）", "options": ["I play basketball every Sunday.", "I am play basketball every Sunday.", "I playing basketball every Sunday."], "answer": 0, "explain": "习惯句不请 be——动词自己上。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（宝宝夜里哭）", "options": ["The baby often cries at night.", "The baby often crys at night.", "The baby often cry at night."], "answer": 0, "explain": "三单+辅音y——cries。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（她从不迟到）", "options": ["She is never late for school.", "She never is late for school.", "She never late for school."], "answer": 0, "explain": "be 动词时频度副词站它后面：is never late。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（叔叔修自行车）", "options": ["My uncle fixes bikes.", "My uncle fixs bikes.", "My uncle fix bikes."], "answer": 0, "explain": "x 结尾加 -es——fixes。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（同学们喜欢她）", "options": ["Her classmates like her very much.", "Her classmates likes her very much.", "Her classmates liking her very much."], "answer": 0, "explain": "classmates 复数——原形 like。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（猫抓老鼠）", "options": ["A cat catches mice.", "A cat catchs mice.", "A cat catch mice."], "answer": 0, "explain": "三单+ch——catches。", "level": 3 },
-          { "q": "哪一句的动词是健康的？（老师每天说）", "options": ["Our teacher says this every day.", "Our teacher saies this every day.", "Our teacher sayes this every day."], "answer": 0, "explain": "say 元音+y——says。", "level": 3 }
+          {
+            "q": "哪一句的动词是健康的？（他每天打鼓）",
+            "options": [
+              "He plays the drum every day.",
+              "He play the drum every day.",
+              "He is play the drum every day."
+            ],
+            "answer": 0,
+            "explain": "三单要 -s；说习惯不请 be。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（她养兔子）",
+            "options": [
+              "She has a rabbit.",
+              "She haves a rabbit.",
+              "She have a rabbit."
+            ],
+            "answer": 0,
+            "explain": "have 的三单整词换 has。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（妈妈的工作）",
+            "options": [
+              "My mother works in a hospital.",
+              "My mother work in a hospital.",
+              "My mother workes in a hospital."
+            ],
+            "answer": 0,
+            "explain": "mother 三单——works。",
+            "level": 3
+          },
+          {
+            "q": "often 站哪里才健康？",
+            "options": [
+              "He often drinks tea.",
+              "He drinks often tea.",
+              "Often he drinks always tea."
+            ],
+            "answer": 0,
+            "explain": "频度副词站在实义动词前。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（我拉小提琴）",
+            "options": [
+              "I play the violin.",
+              "I plays the violin.",
+              "I am plays the violin."
+            ],
+            "answer": 0,
+            "explain": "I 用原形；-s 是三单专属。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（他和我们踢球）",
+            "options": [
+              "He plays football with us.",
+              "He plaies football with us.",
+              "He playes football with us."
+            ],
+            "answer": 0,
+            "explain": "play 元音+y，直接 plays。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（地球绕太阳）",
+            "options": [
+              "The earth goes around the sun.",
+              "The earth go around the sun.",
+              "The earth going around the sun."
+            ],
+            "answer": 0,
+            "explain": "事实用一般现在时；三单 goes。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（她每天学英语）",
+            "options": [
+              "She studies English every day.",
+              "She studys English every day.",
+              "She study English every day."
+            ],
+            "answer": 0,
+            "explain": "辅音+y 变 -ies。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（爸爸八点上班）",
+            "options": [
+              "My father goes to work at eight.",
+              "My father go to work at eight.",
+              "My father gos to work at eight."
+            ],
+            "answer": 0,
+            "explain": "o 结尾加 -es——goes。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（每周日打球）",
+            "options": [
+              "I play basketball every Sunday.",
+              "I am play basketball every Sunday.",
+              "I playing basketball every Sunday."
+            ],
+            "answer": 0,
+            "explain": "习惯句不请 be——动词自己上。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（宝宝夜里哭）",
+            "options": [
+              "The baby often cries at night.",
+              "The baby often crys at night.",
+              "The baby often cry at night."
+            ],
+            "answer": 0,
+            "explain": "三单+辅音y——cries。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（她从不迟到）",
+            "options": [
+              "She is never late for school.",
+              "She never is late for school.",
+              "She never late for school."
+            ],
+            "answer": 0,
+            "explain": "be 动词时频度副词站它后面：is never late。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（叔叔修自行车）",
+            "options": [
+              "My uncle fixes bikes.",
+              "My uncle fixs bikes.",
+              "My uncle fix bikes."
+            ],
+            "answer": 0,
+            "explain": "x 结尾加 -es——fixes。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（同学们喜欢她）",
+            "options": [
+              "Her classmates like her very much.",
+              "Her classmates likes her very much.",
+              "Her classmates liking her very much."
+            ],
+            "answer": 0,
+            "explain": "classmates 复数——原形 like。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（猫抓老鼠）",
+            "options": [
+              "A cat catches mice.",
+              "A cat catchs mice.",
+              "A cat catch mice."
+            ],
+            "answer": 0,
+            "explain": "三单+ch——catches。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的动词是健康的？（老师每天说）",
+            "options": [
+              "Our teacher says this every day.",
+              "Our teacher saies this every day.",
+              "Our teacher sayes this every day."
+            ],
+            "answer": 0,
+            "explain": "say 元音+y——says。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "The film ___ at 7:30, so we must arrive before that.", "options": ["starts", "start", "is starting"], "answer": 0, "explain": "时间表上的事——一般现在时三单 starts。", "level": 4 },
-          { "q": "Everyone in our class ___ music.", "options": ["likes", "like", "liking"], "answer": 0, "explain": "everyone 语法上算单数——likes。", "level": 4 },
-          { "q": "My friend and I ___ to school together.", "options": ["walk", "walks", "walking"], "answer": 0, "explain": "「朋友和我」两个人——原形 walk。", "level": 4 },
-          { "q": "One of the boys ___ the trumpet.", "options": ["plays", "play", "playing"], "answer": 0, "explain": "one of...主语是 one，三单——plays。", "level": 4 },
-          { "q": "Every student ___ a dictionary in our class.", "options": ["has", "have", "haves"], "answer": 0, "explain": "every + 单数名词当三单——has。", "level": 4 },
-          { "q": "She ___ in the choir every Sunday.", "options": ["sings", "is singing", "sing"], "answer": 0, "explain": "every Sunday 是习惯的标志——常态牌 sings。", "level": 4 },
-          { "q": "My cat ___ fish but never ___ vegetables.", "options": ["eats / eats", "eat / eat", "eats / eat"], "answer": 0, "explain": "同一个三单主语，两个动词都要勾 -s。", "level": 4 },
-          { "q": "— What time ___ the museum open? — It ___ at nine.", "options": ["does / opens", "does / open", "is / opens"], "answer": 0, "explain": "问句请 does（预告 G12），答句里 it 三单 opens。", "level": 4 },
-          { "q": "Nobody ___ the answer to this question.", "options": ["knows", "know", "knowing"], "answer": 0, "explain": "nobody 一族当单数——knows。", "level": 4 },
-          { "q": "The children ___ up early, but their grandpa ___ up even earlier.", "options": ["get / gets", "gets / get", "get / get"], "answer": 0, "explain": "children 复数原形；grandpa 三单 gets。", "level": 4 },
-          { "q": "Our music teacher always ___ us interesting stories.", "options": ["tells", "tell", "telling"], "answer": 0, "explain": "teacher 三单——tells；always 站动词前。", "level": 4 },
-          { "q": "It rarely ___ here in spring.", "options": ["rains", "rain", "raining"], "answer": 0, "explain": "气候是「一直如此」的事实——三单 rains。", "level": 4 },
-          { "q": "My grandma ___ flowers and ___ them every morning.", "options": ["grows / waters", "grow / water", "grows / water"], "answer": 0, "explain": "grandma 三单，两个动词都勾：grows、waters。", "level": 4 },
-          { "q": "The No. 3 bus ___ by our school every ten minutes.", "options": ["passes", "passs", "pass"], "answer": 0, "explain": "时刻表事实；s 结尾加 -es——passes。", "level": 4 },
-          { "q": "Each of the girls ___ a beautiful voice.", "options": ["has", "have", "haves"], "answer": 0, "explain": "each 打头当单数——has。", "level": 4 },
-          { "q": "大考：My sister ___ the piano, and my parents ___ to listen.", "options": ["plays / love", "play / loves", "plays / loves"], "answer": 0, "explain": "sister 三单 plays；parents 复数原形 love——一句两查。", "level": 4 }
+          {
+            "q": "The film ___ at 7:30, so we must arrive before that.",
+            "options": [
+              "starts",
+              "start",
+              "is starting"
+            ],
+            "answer": 0,
+            "explain": "时间表上的事——一般现在时三单 starts。",
+            "level": 4
+          },
+          {
+            "q": "Everyone in our class ___ music.",
+            "options": [
+              "likes",
+              "like",
+              "liking"
+            ],
+            "answer": 0,
+            "explain": "everyone 语法上算单数——likes。",
+            "level": 4
+          },
+          {
+            "q": "My friend and I ___ to school together.",
+            "options": [
+              "walk",
+              "walks",
+              "walking"
+            ],
+            "answer": 0,
+            "explain": "「朋友和我」两个人——原形 walk。",
+            "level": 4
+          },
+          {
+            "q": "One of the boys ___ the trumpet.",
+            "options": [
+              "plays",
+              "play",
+              "playing"
+            ],
+            "answer": 0,
+            "explain": "one of...主语是 one，三单——plays。",
+            "level": 4
+          },
+          {
+            "q": "Every student ___ a dictionary in our class.",
+            "options": [
+              "has",
+              "have",
+              "haves"
+            ],
+            "answer": 0,
+            "explain": "every + 单数名词当三单——has。",
+            "level": 4
+          },
+          {
+            "q": "She ___ in the choir every Sunday.",
+            "options": [
+              "sings",
+              "is singing",
+              "sing"
+            ],
+            "answer": 0,
+            "explain": "every Sunday 是习惯的标志——常态牌 sings。",
+            "level": 4
+          },
+          {
+            "q": "My cat ___ fish but never ___ vegetables.",
+            "options": [
+              "eats / eats",
+              "eat / eat",
+              "eats / eat"
+            ],
+            "answer": 0,
+            "explain": "同一个三单主语，两个动词都要勾 -s。",
+            "level": 4
+          },
+          {
+            "q": "— What time ___ the museum open? — It ___ at nine.",
+            "options": [
+              "does / opens",
+              "does / open",
+              "is / opens"
+            ],
+            "answer": 0,
+            "explain": "问句请 does（预告 G12），答句里 it 三单 opens。",
+            "level": 4
+          },
+          {
+            "q": "Nobody ___ the answer to this question.",
+            "options": [
+              "knows",
+              "know",
+              "knowing"
+            ],
+            "answer": 0,
+            "explain": "nobody 一族当单数——knows。",
+            "level": 4
+          },
+          {
+            "q": "The children ___ up early, but their grandpa ___ up even earlier.",
+            "options": [
+              "get / gets",
+              "gets / get",
+              "get / get"
+            ],
+            "answer": 0,
+            "explain": "children 复数原形；grandpa 三单 gets。",
+            "level": 4
+          },
+          {
+            "q": "Our music teacher always ___ us interesting stories.",
+            "options": [
+              "tells",
+              "tell",
+              "telling"
+            ],
+            "answer": 0,
+            "explain": "teacher 三单——tells；always 站动词前。",
+            "level": 4
+          },
+          {
+            "q": "It rarely ___ here in spring.",
+            "options": [
+              "rains",
+              "rain",
+              "raining"
+            ],
+            "answer": 0,
+            "explain": "气候是「一直如此」的事实——三单 rains。",
+            "level": 4
+          },
+          {
+            "q": "My grandma ___ flowers and ___ them every morning.",
+            "options": [
+              "grows / waters",
+              "grow / water",
+              "grows / water"
+            ],
+            "answer": 0,
+            "explain": "grandma 三单，两个动词都勾：grows、waters。",
+            "level": 4
+          },
+          {
+            "q": "The No. 3 bus ___ by our school every ten minutes.",
+            "options": [
+              "passes",
+              "passs",
+              "pass"
+            ],
+            "answer": 0,
+            "explain": "时刻表事实；s 结尾加 -es——passes。",
+            "level": 4
+          },
+          {
+            "q": "Each of the girls ___ a beautiful voice.",
+            "options": [
+              "has",
+              "have",
+              "haves"
+            ],
+            "answer": 0,
+            "explain": "each 打头当单数——has。",
+            "level": 4
+          },
+          {
+            "q": "大考：My sister ___ the piano, and my parents ___ to listen.",
+            "options": [
+              "plays / love",
+              "play / loves",
+              "plays / loves"
+            ],
+            "answer": 0,
+            "explain": "sister 三单 plays；parents 复数原形 love——一句两查。",
+            "level": 4
+          }
         ]
       }
     ]

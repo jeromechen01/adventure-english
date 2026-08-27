@@ -42,26 +42,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "Stand up, please.", "cn": "请起立。" },
-          { "en": "Open the window.", "cn": "把窗户打开。" },
-          { "en": "Don't run in the classroom.", "cn": "别在教室里跑。" },
-          { "en": "Be quiet, everyone.", "cn": "大家安静。" },
-          { "en": "Let's go to the music room.", "cn": "咱们去音乐教室吧。" }
+          {
+            "en": "Stand up, please.",
+            "cn": "请起立。"
+          },
+          {
+            "en": "Open the window.",
+            "cn": "把窗户打开。"
+          },
+          {
+            "en": "Don't run in the classroom.",
+            "cn": "别在教室里跑。"
+          },
+          {
+            "en": "Be quiet, everyone.",
+            "cn": "大家安静。"
+          },
+          {
+            "en": "Let's go to the music room.",
+            "cn": "咱们去音乐教室吧。"
+          }
         ],
         "mid": [
-          { "en": "Listen carefully and answer my questions.", "cn": "仔细听，然后回答我的问题。（两条口令用 and 连）" },
-          { "en": "Don't forget your flute tomorrow.", "cn": "明天别忘了带长笛。" },
-          { "en": "Please turn off the lights before you leave.", "cn": "离开前请关灯。" },
-          { "en": "Lily, pass me the music sheets, please.", "cn": "莉莉，请把乐谱递给我。" },
-          { "en": "Let's start from the beginning.", "cn": "咱们从头再来一遍。" }
+          {
+            "en": "Listen carefully and answer my questions.",
+            "cn": "仔细听，然后回答我的问题。（两条口令用 and 连）"
+          },
+          {
+            "en": "Don't forget your flute tomorrow.",
+            "cn": "明天别忘了带长笛。"
+          },
+          {
+            "en": "Please turn off the lights before you leave.",
+            "cn": "离开前请关灯。"
+          },
+          {
+            "en": "Lily, pass me the music sheets, please.",
+            "cn": "莉莉，请把乐谱递给我。"
+          },
+          {
+            "en": "Let's start from the beginning.",
+            "cn": "咱们从头再来一遍。"
+          }
         ],
         "trap": [
-          { "en": "Don't be late for the rehearsal.", "cn": "排练别迟到。", "note": "「别迟到」没有动作动词，要请原形 be——Don't late 是缺了零件的口令。" },
-          { "en": "Be careful! The floor is wet.", "cn": "小心！地板是湿的。", "note": "「小心」也是 be 家族的口令：Be careful，不是 Careful be。" },
-          { "en": "Let's listen to it again, shall we?", "cn": "咱们再听一遍，好吗？", "note": "Let's 后面直接跟原形，不加 to——Let's to listen 是画蛇添足。" },
-          { "en": "Stop writing, please. Time is up.", "cn": "请停笔，时间到。", "note": "stop 后面的动作穿 -ing；口令本身 Stop 仍是原形。" },
-          { "en": "You clean the board, and you water the flowers.", "cn": "你擦黑板，你浇花。（分工点名）", "note": "分工时可以带 you——那不是命令语气，是把任务分给不同的「你」。" },
-          { "en": "Always check your spelling before you hand in.", "cn": "交卷前一定要检查拼写。", "note": "always / never 可以站在口令最前面：Never give up。" }
+          {
+            "en": "Don't be late for the rehearsal.",
+            "cn": "排练别迟到。",
+            "note": "「别迟到」没有动作动词，要请原形 be——Don't late 是缺了零件的口令。"
+          },
+          {
+            "en": "Be careful! The floor is wet.",
+            "cn": "小心！地板是湿的。",
+            "note": "「小心」也是 be 家族的口令：Be careful，不是 Careful be。"
+          },
+          {
+            "en": "Let's listen to it again, shall we?",
+            "cn": "咱们再听一遍，好吗？",
+            "note": "Let's 后面直接跟原形，不加 to——Let's to listen 是画蛇添足。"
+          },
+          {
+            "en": "Stop writing, please. Time is up.",
+            "cn": "请停笔，时间到。",
+            "note": "stop 后面的动作穿 -ing；口令本身 Stop 仍是原形。"
+          },
+          {
+            "en": "You clean the board, and you water the flowers.",
+            "cn": "你擦黑板，你浇花。（分工点名）",
+            "note": "分工时可以带 you——那不是命令语气，是把任务分给不同的「你」。"
+          },
+          {
+            "en": "Always check your spelling before you hand in.",
+            "cn": "交卷前一定要检查拼写。",
+            "note": "always / never 可以站在口令最前面：Never give up。"
+          }
         ]
       }
     },
@@ -187,7 +241,7 @@
     "echo": "祈使句是英语动词形态里最古老、也最省事的一个：动词原形直接上，一千年几乎没变过——古英语的士兵听到的 Go!，和今天教室里的 Go! 是同一个形状。为什么它不跟着其他形态一起变复杂？因为口令要的就是快：战场上、舞台上、球场上，多一个音节都嫌慢。最常喊的话，最经不起复杂——这也是「越常用越简单粗暴」的另一面。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G08 · 祈使句</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>指挥的口令——不用说主语，全团都知道是你</text><rect x='36' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='154' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>🎯 口令三式</text><text x='194' y='192' text-anchor='middle' font-size='17' fill='#5A4A42'>原形打头：Stand up.</text><text x='194' y='224' text-anchor='middle' font-size='17' fill='#5A4A42'>否定：Don't run.</text><text x='194' y='256' text-anchor='middle' font-size='17' fill='#5A4A42'>客气：Sit down, please.</text><text x='194' y='290' text-anchor='middle' font-size='15' fill='#8A7568'>不加 -s · 不加 -ing · 不加 to</text><rect x='368' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='154' text-anchor='middle' font-size='20' font-weight='bold' fill='#E76F33'>🎵 特殊口令</text><text x='526' y='192' text-anchor='middle' font-size='17' fill='#5A4A42'>没动作请 be：Be quiet.</text><text x='526' y='224' text-anchor='middle' font-size='17' fill='#5A4A42'>别难过：Don't be sad.</text><text x='526' y='256' text-anchor='middle' font-size='17' fill='#5A4A42'>咱们一起：Let's go.</text><text x='526' y='290' text-anchor='middle' font-size='15' fill='#8A7568'>点名挂两头：Lily, come here.</text><rect x='36' y='330' width='648' height='76' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='362' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ Don't stop ≠ Stop（意思全反） · You stand up! 带火气（像在训人）</text><text x='360' y='392' text-anchor='middle' font-size='17' fill='#C0392B'>Don't is late ✗ → Don't be late ✔ · Let's to go ✗ → Let's go ✔</text><text x='360' y='452' text-anchor='middle' font-size='16' fill='#8A7568'>口诀：原形打头，否定 Don't，客气 please，一起 Let's</text><text x='360' y='522' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G08</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='32' font-weight='bold' fill='#E76F33'>G08 · 祈使句</text><text x='360' y='92' text-anchor='middle' font-size='23' fill='#8A7568'>指挥的口令——不用说主语，全团都知道是你</text><rect x='36' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='154' text-anchor='middle' font-size='24' font-weight='bold' fill='#38B2AC'>🎯 口令三式</text><text x='194' y='192' text-anchor='middle' font-size='21' fill='#5A4A42'>原形打头：Stand up.</text><text x='194' y='224' text-anchor='middle' font-size='21' fill='#5A4A42'>否定：Don't run.</text><text x='194' y='256' text-anchor='middle' font-size='21' fill='#5A4A42'>客气：Sit down, please.</text><text x='194' y='290' text-anchor='middle' font-size='19' fill='#8A7568'>不加 -s · 不加 -ing · 不加 to</text><rect x='368' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='154' text-anchor='middle' font-size='24' font-weight='bold' fill='#E76F33'>🎵 特殊口令</text><text x='526' y='192' text-anchor='middle' font-size='21' fill='#5A4A42'>没动作请 be：Be quiet.</text><text x='526' y='224' text-anchor='middle' font-size='21' fill='#5A4A42'>别难过：Don't be sad.</text><text x='526' y='256' text-anchor='middle' font-size='21' fill='#5A4A42'>咱们一起：Let's go.</text><text x='526' y='290' text-anchor='middle' font-size='19' fill='#8A7568'>点名挂两头：Lily, come here.</text><rect x='36' y='330' width='648' height='76' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='362' text-anchor='middle' font-size='18' fill='#C0392B'>⚠️ Don't stop ≠ Stop（意思全反） · You stand up! 带火气（像在训人）</text><text x='360' y='392' text-anchor='middle' font-size='18' fill='#C0392B'>Don't is late ✗ → Don't be late ✔ · Let's to go ✗ → Let's go ✔</text><text x='360' y='452' text-anchor='middle' font-size='20' fill='#8A7568'>口诀：原形打头，否定 Don't，客气 please，一起 Let's</text><text x='360' y='522' text-anchor='middle' font-size='18' fill='#B8A79B'>英语奇遇记 🦊 · G08</text></svg>",
     "alt": "G08 记忆卡：口令三式（原形打头/Don't 否定/please 客气），特殊口令 Be quiet、Don't be sad、Let's go，警示 Don't stop 意思全反与 You stand up 带火气。"
   },
   "practice": {
@@ -195,85 +249,725 @@
       {
         "name": "认一认 · 翻译成口令",
         "questions": [
-          { "q": "把「站起来」说成口令：", "options": ["Stand up.", "You stand up.", "To stand up."], "answer": 0, "explain": "原形打头，不带 you、不带 to。", "level": 1 },
-          { "q": "把「别跑」说成口令：", "options": ["Don't run.", "Not run.", "No run."], "answer": 0, "explain": "否定口令请 Don't 开头。", "level": 1 },
-          { "q": "把「坐下」说成口令：", "options": ["Sit down.", "Sits down.", "Sitting down."], "answer": 0, "explain": "原形，不加 -s 不加 -ing。", "level": 1 },
-          { "q": "把「请安静」说成口令：", "options": ["Be quiet, please.", "Quiet be, please.", "Is quiet, please."], "answer": 0, "explain": "没有动作的口令请原形 be 出场。", "level": 1 },
-          { "q": "把「别迟到」说成口令：", "options": ["Don't be late.", "Don't late.", "Not be late."], "answer": 0, "explain": "late 是形容词，要补原形 be：Don't be late。", "level": 1 },
-          { "q": "把「仔细听」说成口令：", "options": ["Listen carefully.", "Listens carefully.", "To listen carefully."], "answer": 0, "explain": "原形 Listen 打头。", "level": 1 },
-          { "q": "把「咱们走吧」说成口令：", "options": ["Let's go.", "Let's to go.", "Let's going."], "answer": 0, "explain": "Let's + 原形，不加 to。", "level": 1 },
-          { "q": "把「开门」说成口令：", "options": ["Open the door.", "Opens the door.", "Opening the door."], "answer": 0, "explain": "原形 Open 打头。", "level": 1 },
-          { "q": "把「别担心」说成口令：", "options": ["Don't worry.", "Not worry.", "Don't worrying."], "answer": 0, "explain": "Don't + 原形 worry。", "level": 1 },
-          { "q": "把「请进」说成口令：", "options": ["Come in, please.", "Comes in, please.", "To come in please."], "answer": 0, "explain": "原形 Come；please 句尾加逗号。", "level": 1 },
-          { "q": "把「别碰那面鼓」说成口令：", "options": ["Don't touch the drum.", "Doesn't touch the drum.", "Not touch the drum."], "answer": 0, "explain": "口令否定永远 Don't。", "level": 1 },
-          { "q": "把「慢慢弹」说成口令：", "options": ["Play slowly.", "Plays slowly.", "Playing slowly."], "answer": 0, "explain": "原形 Play 打头。", "level": 1 },
-          { "q": "把「洗手」说成口令：", "options": ["Wash your hands.", "Washes your hands.", "Washing your hands."], "answer": 0, "explain": "原形 Wash。", "level": 1 },
-          { "q": "把「快点」说成口令：", "options": ["Hurry up!", "Hurries up!", "To hurry up!"], "answer": 0, "explain": "原形 Hurry。", "level": 1 },
-          { "q": "把「咱们开始排练吧」说成口令：", "options": ["Let's start the rehearsal.", "Let's starting the rehearsal.", "Let's to start the rehearsal."], "answer": 0, "explain": "Let's + 原形 start。", "level": 1 },
-          { "q": "把「别在图书馆说话」说成口令：", "options": ["Don't talk in the library.", "Not talk in the library.", "Don't talking in the library."], "answer": 0, "explain": "Don't + 原形 talk。", "level": 1 }
+          {
+            "q": "把「站起来」说成口令：",
+            "options": [
+              "Stand up.",
+              "You stand up.",
+              "To stand up."
+            ],
+            "answer": 0,
+            "explain": "原形打头，不带 you、不带 to。",
+            "level": 1
+          },
+          {
+            "q": "把「别跑」说成口令：",
+            "options": [
+              "Don't run.",
+              "Not run.",
+              "No run."
+            ],
+            "answer": 0,
+            "explain": "否定口令请 Don't 开头。",
+            "level": 1
+          },
+          {
+            "q": "把「坐下」说成口令：",
+            "options": [
+              "Sit down.",
+              "Sits down.",
+              "Sitting down."
+            ],
+            "answer": 0,
+            "explain": "原形，不加 -s 不加 -ing。",
+            "level": 1
+          },
+          {
+            "q": "把「请安静」说成口令：",
+            "options": [
+              "Be quiet, please.",
+              "Quiet be, please.",
+              "Is quiet, please."
+            ],
+            "answer": 0,
+            "explain": "没有动作的口令请原形 be 出场。",
+            "level": 1
+          },
+          {
+            "q": "把「别迟到」说成口令：",
+            "options": [
+              "Don't be late.",
+              "Don't late.",
+              "Not be late."
+            ],
+            "answer": 0,
+            "explain": "late 是形容词，要补原形 be：Don't be late。",
+            "level": 1
+          },
+          {
+            "q": "把「仔细听」说成口令：",
+            "options": [
+              "Listen carefully.",
+              "Listens carefully.",
+              "To listen carefully."
+            ],
+            "answer": 0,
+            "explain": "原形 Listen 打头。",
+            "level": 1
+          },
+          {
+            "q": "把「咱们走吧」说成口令：",
+            "options": [
+              "Let's go.",
+              "Let's to go.",
+              "Let's going."
+            ],
+            "answer": 0,
+            "explain": "Let's + 原形，不加 to。",
+            "level": 1
+          },
+          {
+            "q": "把「开门」说成口令：",
+            "options": [
+              "Open the door.",
+              "Opens the door.",
+              "Opening the door."
+            ],
+            "answer": 0,
+            "explain": "原形 Open 打头。",
+            "level": 1
+          },
+          {
+            "q": "把「别担心」说成口令：",
+            "options": [
+              "Don't worry.",
+              "Not worry.",
+              "Don't worrying."
+            ],
+            "answer": 0,
+            "explain": "Don't + 原形 worry。",
+            "level": 1
+          },
+          {
+            "q": "把「请进」说成口令：",
+            "options": [
+              "Come in, please.",
+              "Comes in, please.",
+              "To come in please."
+            ],
+            "answer": 0,
+            "explain": "原形 Come；please 句尾加逗号。",
+            "level": 1
+          },
+          {
+            "q": "把「别碰那面鼓」说成口令：",
+            "options": [
+              "Don't touch the drum.",
+              "Doesn't touch the drum.",
+              "Not touch the drum."
+            ],
+            "answer": 0,
+            "explain": "口令否定永远 Don't。",
+            "level": 1
+          },
+          {
+            "q": "把「慢慢弹」说成口令：",
+            "options": [
+              "Play slowly.",
+              "Plays slowly.",
+              "Playing slowly."
+            ],
+            "answer": 0,
+            "explain": "原形 Play 打头。",
+            "level": 1
+          },
+          {
+            "q": "把「洗手」说成口令：",
+            "options": [
+              "Wash your hands.",
+              "Washes your hands.",
+              "Washing your hands."
+            ],
+            "answer": 0,
+            "explain": "原形 Wash。",
+            "level": 1
+          },
+          {
+            "q": "把「快点」说成口令：",
+            "options": [
+              "Hurry up!",
+              "Hurries up!",
+              "To hurry up!"
+            ],
+            "answer": 0,
+            "explain": "原形 Hurry。",
+            "level": 1
+          },
+          {
+            "q": "把「咱们开始排练吧」说成口令：",
+            "options": [
+              "Let's start the rehearsal.",
+              "Let's starting the rehearsal.",
+              "Let's to start the rehearsal."
+            ],
+            "answer": 0,
+            "explain": "Let's + 原形 start。",
+            "level": 1
+          },
+          {
+            "q": "把「别在图书馆说话」说成口令：",
+            "options": [
+              "Don't talk in the library.",
+              "Not talk in the library.",
+              "Don't talking in the library."
+            ],
+            "answer": 0,
+            "explain": "Don't + 原形 talk。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 补全口令",
         "questions": [
-          { "q": "___ down, please. The show is starting.", "options": ["Sit", "Sits", "Sitting"], "answer": 0, "explain": "口令用原形 Sit。", "level": 2 },
-          { "q": "___ late for school again.", "options": ["Don't be", "Don't", "Not be"], "answer": 0, "explain": "late 是形容词——Don't be late。", "level": 2 },
-          { "q": "___ your homework first, then play.", "options": ["Do", "Does", "Doing"], "answer": 0, "explain": "原形 Do 打头。", "level": 2 },
-          { "q": "___ go to the park together.", "options": ["Let's", "Let", "Lets"], "answer": 0, "explain": "提议「咱们一起」——Let's（带撇号）。", "level": 2 },
-          { "q": "___ quiet in the library.", "options": ["Be", "Is", "Are"], "answer": 0, "explain": "口令里的 be 用原形。", "level": 2 },
-          { "q": "___ run in the hallway. It's dangerous.", "options": ["Don't", "Not", "No"], "answer": 0, "explain": "否定口令 Don't 打头。", "level": 2 },
-          { "q": "Please ___ the window. It's cold.", "options": ["close", "closes", "closing"], "answer": 0, "explain": "please 后面照样是原形。", "level": 2 },
-          { "q": "___ careful! The floor is wet.", "options": ["Be", "Being", "Is"], "answer": 0, "explain": "Be careful——be 家族口令。", "level": 2 },
-          { "q": "___ me your name, please.", "options": ["Tell", "Tells", "Telling"], "answer": 0, "explain": "原形 Tell。", "level": 2 },
-          { "q": "___ to bed early tonight.", "options": ["Go", "Goes", "Going"], "answer": 0, "explain": "原形 Go。", "level": 2 },
-          { "q": "___ touch the paintings in the museum.", "options": ["Don't", "Doesn't", "Aren't"], "answer": 0, "explain": "口令否定永远 Don't。", "level": 2 },
-          { "q": "Lily, ___ here for a minute, please.", "options": ["come", "comes", "coming"], "answer": 0, "explain": "点名不改规矩——原形 come。", "level": 2 },
-          { "q": "___ afraid. I'm right here.", "options": ["Don't be", "Don't", "Be not"], "answer": 0, "explain": "afraid 是形容词——Don't be afraid。", "level": 2 },
-          { "q": "___ your books to page ten.", "options": ["Open", "Opens", "Opened"], "answer": 0, "explain": "原形 Open。", "level": 2 },
-          { "q": "___ noisy, kids! Grandma is sleeping.", "options": ["Don't be", "Don't", "Not be"], "answer": 0, "explain": "noisy 是形容词——Don't be noisy。", "level": 2 },
-          { "q": "___ sing the song together.", "options": ["Let's", "Let's to", "Lets to"], "answer": 0, "explain": "Let's + 原形。", "level": 2 }
+          {
+            "q": "___ down, please. The show is starting.",
+            "options": [
+              "Sit",
+              "Sits",
+              "Sitting"
+            ],
+            "answer": 0,
+            "explain": "口令用原形 Sit。",
+            "level": 2
+          },
+          {
+            "q": "___ late for school again.",
+            "options": [
+              "Don't be",
+              "Don't",
+              "Not be"
+            ],
+            "answer": 0,
+            "explain": "late 是形容词——Don't be late。",
+            "level": 2
+          },
+          {
+            "q": "___ your homework first, then play.",
+            "options": [
+              "Do",
+              "Does",
+              "Doing"
+            ],
+            "answer": 0,
+            "explain": "原形 Do 打头。",
+            "level": 2
+          },
+          {
+            "q": "___ go to the park together.",
+            "options": [
+              "Let's",
+              "Let",
+              "Lets"
+            ],
+            "answer": 0,
+            "explain": "提议「咱们一起」——Let's（带撇号）。",
+            "level": 2
+          },
+          {
+            "q": "___ quiet in the library.",
+            "options": [
+              "Be",
+              "Is",
+              "Are"
+            ],
+            "answer": 0,
+            "explain": "口令里的 be 用原形。",
+            "level": 2
+          },
+          {
+            "q": "___ run in the hallway. It's dangerous.",
+            "options": [
+              "Don't",
+              "Not",
+              "No"
+            ],
+            "answer": 0,
+            "explain": "否定口令 Don't 打头。",
+            "level": 2
+          },
+          {
+            "q": "Please ___ the window. It's cold.",
+            "options": [
+              "close",
+              "closes",
+              "closing"
+            ],
+            "answer": 0,
+            "explain": "please 后面照样是原形。",
+            "level": 2
+          },
+          {
+            "q": "___ careful! The floor is wet.",
+            "options": [
+              "Be",
+              "Being",
+              "Is"
+            ],
+            "answer": 0,
+            "explain": "Be careful——be 家族口令。",
+            "level": 2
+          },
+          {
+            "q": "___ me your name, please.",
+            "options": [
+              "Tell",
+              "Tells",
+              "Telling"
+            ],
+            "answer": 0,
+            "explain": "原形 Tell。",
+            "level": 2
+          },
+          {
+            "q": "___ to bed early tonight.",
+            "options": [
+              "Go",
+              "Goes",
+              "Going"
+            ],
+            "answer": 0,
+            "explain": "原形 Go。",
+            "level": 2
+          },
+          {
+            "q": "___ touch the paintings in the museum.",
+            "options": [
+              "Don't",
+              "Doesn't",
+              "Aren't"
+            ],
+            "answer": 0,
+            "explain": "口令否定永远 Don't。",
+            "level": 2
+          },
+          {
+            "q": "Lily, ___ here for a minute, please.",
+            "options": [
+              "come",
+              "comes",
+              "coming"
+            ],
+            "answer": 0,
+            "explain": "点名不改规矩——原形 come。",
+            "level": 2
+          },
+          {
+            "q": "___ afraid. I'm right here.",
+            "options": [
+              "Don't be",
+              "Don't",
+              "Be not"
+            ],
+            "answer": 0,
+            "explain": "afraid 是形容词——Don't be afraid。",
+            "level": 2
+          },
+          {
+            "q": "___ your books to page ten.",
+            "options": [
+              "Open",
+              "Opens",
+              "Opened"
+            ],
+            "answer": 0,
+            "explain": "原形 Open。",
+            "level": 2
+          },
+          {
+            "q": "___ noisy, kids! Grandma is sleeping.",
+            "options": [
+              "Don't be",
+              "Don't",
+              "Not be"
+            ],
+            "answer": 0,
+            "explain": "noisy 是形容词——Don't be noisy。",
+            "level": 2
+          },
+          {
+            "q": "___ sing the song together.",
+            "options": [
+              "Let's",
+              "Let's to",
+              "Lets to"
+            ],
+            "answer": 0,
+            "explain": "Let's + 原形。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 火眼金睛",
         "questions": [
-          { "q": "哪一条口令是健康的？（翻书）", "options": ["Open your books, please.", "Opens your books, please.", "Opening your books, please."], "answer": 0, "explain": "口令用原形——多出来的 -s 要削掉。", "level": 3 },
-          { "q": "哪一条口令是健康的？（别难过）", "options": ["Don't be sad.", "Don't is sad.", "Not be sad."], "answer": 0, "explain": "Don't 后面接原形 be。", "level": 3 },
-          { "q": "哪一条口令是健康的？（咱们唱歌）", "options": ["Let's sing a song.", "Let's to sing a song.", "Let's singing a song."], "answer": 0, "explain": "Let's 后面直接原形，不加 to。", "level": 3 },
-          { "q": "哪一条口令是健康的？（上课别说话）", "options": ["Don't talk in class.", "Not talk in class.", "No talk in class."], "answer": 0, "explain": "否定口令请 Don't。", "level": 3 },
-          { "q": "哪一条口令是健康的？（想礼貌地请人起立）", "options": ["Stand up, please.", "You stand up!", "Stands up please."], "answer": 0, "explain": "带 you 的口令有火气；礼貌版加 please。", "level": 3 },
-          { "q": "哪一条口令是健康的？（别吵）", "options": ["Please don't be noisy.", "Please don't noisy.", "Please not be noisy."], "answer": 0, "explain": "noisy 是形容词——补原形 be。", "level": 3 },
-          { "q": "哪一条口令是健康的？（排队）", "options": ["Please stand in line.", "Please stands in line.", "Please standing in line."], "answer": 0, "explain": "please 不改变原形规则。", "level": 3 },
-          { "q": "哪一条口令是健康的？（别碰鼓）", "options": ["Don't touch the drum.", "Doesn't touch the drum.", "Don't touches the drum."], "answer": 0, "explain": "Don't + 原形 touch。", "level": 3 },
-          { "q": "哪一条口令是健康的？（别害怕）", "options": ["Don't be afraid.", "Be not afraid.", "Don't afraid."], "answer": 0, "explain": "现代英语说 Don't be afraid。", "level": 3 },
-          { "q": "哪一条口令是健康的？（关灯）", "options": ["Turn off the lights.", "To turn off the lights.", "Turns off the lights."], "answer": 0, "explain": "原形直接开头，不带 to。", "level": 3 },
-          { "q": "哪一条口令是健康的？（先听后写）", "options": ["Listen first, and then write.", "Listens first, and then writes.", "Listening first, and then writing."], "answer": 0, "explain": "两条口令用 and 连，都保持原形。", "level": 3 },
-          { "q": "哪一条口令是健康的？（永不放弃）", "options": ["Never give up.", "Never gives up.", "Don't never give up."], "answer": 0, "explain": "never 可以站口令最前面，动词仍是原形。", "level": 3 },
-          { "q": "哪一条口令是健康的？（请把盐递给我）", "options": ["Pass me the salt, please.", "Passing me the salt, please.", "Passes me the salt please."], "answer": 0, "explain": "原形 Pass；句尾 please 前加逗号。", "level": 3 },
-          { "q": "哪一条口令是健康的？（考试别紧张）", "options": ["Don't be nervous in the exam.", "Don't nervous in the exam.", "No be nervous in the exam."], "answer": 0, "explain": "nervous 是形容词——Don't be nervous。", "level": 3 },
-          { "q": "哪一条口令是健康的？（咱们别等了）", "options": ["Let's not wait any more.", "Let's don't wait any more.", "Don't let's wait any more."], "answer": 0, "explain": "Let's 的否定是 Let's not + 原形。", "level": 3 },
-          { "q": "哪一条口令是健康的？（好好休息）", "options": ["Have a good rest.", "Has a good rest.", "Having a good rest."], "answer": 0, "explain": "原形 Have 打头。", "level": 3 }
+          {
+            "q": "哪一条口令是健康的？（翻书）",
+            "options": [
+              "Open your books, please.",
+              "Opens your books, please.",
+              "Opening your books, please."
+            ],
+            "answer": 0,
+            "explain": "口令用原形——多出来的 -s 要削掉。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（别难过）",
+            "options": [
+              "Don't be sad.",
+              "Don't is sad.",
+              "Not be sad."
+            ],
+            "answer": 0,
+            "explain": "Don't 后面接原形 be。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（咱们唱歌）",
+            "options": [
+              "Let's sing a song.",
+              "Let's to sing a song.",
+              "Let's singing a song."
+            ],
+            "answer": 0,
+            "explain": "Let's 后面直接原形，不加 to。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（上课别说话）",
+            "options": [
+              "Don't talk in class.",
+              "Not talk in class.",
+              "No talk in class."
+            ],
+            "answer": 0,
+            "explain": "否定口令请 Don't。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（想礼貌地请人起立）",
+            "options": [
+              "Stand up, please.",
+              "You stand up!",
+              "Stands up please."
+            ],
+            "answer": 0,
+            "explain": "带 you 的口令有火气；礼貌版加 please。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（别吵）",
+            "options": [
+              "Please don't be noisy.",
+              "Please don't noisy.",
+              "Please not be noisy."
+            ],
+            "answer": 0,
+            "explain": "noisy 是形容词——补原形 be。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（排队）",
+            "options": [
+              "Please stand in line.",
+              "Please stands in line.",
+              "Please standing in line."
+            ],
+            "answer": 0,
+            "explain": "please 不改变原形规则。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（别碰鼓）",
+            "options": [
+              "Don't touch the drum.",
+              "Doesn't touch the drum.",
+              "Don't touches the drum."
+            ],
+            "answer": 0,
+            "explain": "Don't + 原形 touch。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（别害怕）",
+            "options": [
+              "Don't be afraid.",
+              "Be not afraid.",
+              "Don't afraid."
+            ],
+            "answer": 0,
+            "explain": "现代英语说 Don't be afraid。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（关灯）",
+            "options": [
+              "Turn off the lights.",
+              "To turn off the lights.",
+              "Turns off the lights."
+            ],
+            "answer": 0,
+            "explain": "原形直接开头，不带 to。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（先听后写）",
+            "options": [
+              "Listen first, and then write.",
+              "Listens first, and then writes.",
+              "Listening first, and then writing."
+            ],
+            "answer": 0,
+            "explain": "两条口令用 and 连，都保持原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（永不放弃）",
+            "options": [
+              "Never give up.",
+              "Never gives up.",
+              "Don't never give up."
+            ],
+            "answer": 0,
+            "explain": "never 可以站口令最前面，动词仍是原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（请把盐递给我）",
+            "options": [
+              "Pass me the salt, please.",
+              "Passing me the salt, please.",
+              "Passes me the salt please."
+            ],
+            "answer": 0,
+            "explain": "原形 Pass；句尾 please 前加逗号。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（考试别紧张）",
+            "options": [
+              "Don't be nervous in the exam.",
+              "Don't nervous in the exam.",
+              "No be nervous in the exam."
+            ],
+            "answer": 0,
+            "explain": "nervous 是形容词——Don't be nervous。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（咱们别等了）",
+            "options": [
+              "Let's not wait any more.",
+              "Let's don't wait any more.",
+              "Don't let's wait any more."
+            ],
+            "answer": 0,
+            "explain": "Let's 的否定是 Let's not + 原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一条口令是健康的？（好好休息）",
+            "options": [
+              "Have a good rest.",
+              "Has a good rest.",
+              "Having a good rest."
+            ],
+            "answer": 0,
+            "explain": "原形 Have 打头。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "考试结束，监考老师说：___", "options": ["Stop writing, please.", "Stop write, please.", "Stops writing please."], "answer": 0, "explain": "口令 Stop 用原形；stop 后面的动作穿 -ing。", "level": 4 },
-          { "q": "图书馆的告示牌：___", "options": ["Don't eat or drink here.", "Not eat or drink here.", "Don't eating or drinking here."], "answer": 0, "explain": "告示牌就是无声的口令：Don't + 原形。", "level": 4 },
-          { "q": "指挥想让弦乐轻一点：___", "options": ["Play softly, please.", "Plays softly, please.", "Playing softly please."], "answer": 0, "explain": "原形 Play + 副词 softly。", "level": 4 },
-          { "q": "邀请全团一起再来一遍：___", "options": ["Let's try it one more time.", "Let's to try it one more time.", "Let's trying it one more time."], "answer": 0, "explain": "Let's + 原形 try。", "level": 4 },
-          { "q": "提醒同学带伞：___", "options": ["Don't forget your umbrella.", "Don't forgets your umbrella.", "Not forget your umbrella."], "answer": 0, "explain": "Don't + 原形 forget。", "level": 4 },
-          { "q": "安慰上台紧张的同伴：___", "options": ["Don't be nervous. You can do it!", "Don't nervous. You can do it!", "Be not nervous. You can do it!"], "answer": 0, "explain": "nervous 是形容词——Don't be nervous。", "level": 4 },
-          { "q": "妈妈喊你吃饭：___", "options": ["Come and have dinner!", "Comes and has dinner!", "Coming and having dinner!"], "answer": 0, "explain": "两个动词都用原形：Come and have。", "level": 4 },
-          { "q": "点名让 Tom 关灯：___", "options": ["Tom, turn off the light, please.", "Tom turns off the light, please.", "Tom, turning off the light please."], "answer": 0, "explain": "点名放句首加逗号，动词仍是原形。", "level": 4 },
-          { "q": "医生的叮嘱：___ more water and ___ up late.", "options": ["Drink / don't stay", "Drinks / doesn't stay", "Drinking / not stay"], "answer": 0, "explain": "肯定口令 Drink；否定口令 don't stay——一句两令。", "level": 4 },
-          { "q": "地铁广播：___ the yellow line, please.", "options": ["Stand behind", "Stands behind", "Standing behind"], "answer": 0, "explain": "公共广播也是口令——原形 Stand。", "level": 4 },
-          { "q": "老师分组：You two, ___ the desks; you two, ___ the board.", "options": ["move / clean", "moves / cleans", "moving / cleaning"], "answer": 0, "explain": "分工点名可以带 you，动词依然原形。", "level": 4 },
-          { "q": "食谱第一步：___ two eggs into the bowl.", "options": ["Break", "Breaks", "Breaking"], "answer": 0, "explain": "菜谱通篇都是口令——原形 Break。", "level": 4 },
-          { "q": "「上台前一定要检查乐器」：___ your instrument before you go on stage.", "options": ["Always check", "Always checks", "Checking always"], "answer": 0, "explain": "always 站在口令前，动词保持原形。", "level": 4 },
-          { "q": "劝阻+建议连招：___ sad. ___ listen to some music.", "options": ["Don't be / Let's", "Don't / Let's to", "Not be / Lets"], "answer": 0, "explain": "Don't be sad 安慰；Let's listen 提议。", "level": 4 },
-          { "q": "游泳馆规则：___ in the shallow pool if you can't swim.", "options": ["Stay", "Stays", "Staying"], "answer": 0, "explain": "规则条文=口令——原形 Stay。", "level": 4 },
-          { "q": "大考：___ quiet, ___ your phone, and ___ start the listening test.", "options": ["Be / turn off / let's", "Is / turns off / let's to", "Being / turning off / lets"], "answer": 0, "explain": "三连口令：Be quiet（be 家族）、turn off（原形）、let's start（提议）。", "level": 4 }
+          {
+            "q": "考试结束，监考老师说：___",
+            "options": [
+              "Stop writing, please.",
+              "Stop write, please.",
+              "Stops writing please."
+            ],
+            "answer": 0,
+            "explain": "口令 Stop 用原形；stop 后面的动作穿 -ing。",
+            "level": 4
+          },
+          {
+            "q": "图书馆的告示牌：___",
+            "options": [
+              "Don't eat or drink here.",
+              "Not eat or drink here.",
+              "Don't eating or drinking here."
+            ],
+            "answer": 0,
+            "explain": "告示牌就是无声的口令：Don't + 原形。",
+            "level": 4
+          },
+          {
+            "q": "指挥想让弦乐轻一点：___",
+            "options": [
+              "Play softly, please.",
+              "Plays softly, please.",
+              "Playing softly please."
+            ],
+            "answer": 0,
+            "explain": "原形 Play + 副词 softly。",
+            "level": 4
+          },
+          {
+            "q": "邀请全团一起再来一遍：___",
+            "options": [
+              "Let's try it one more time.",
+              "Let's to try it one more time.",
+              "Let's trying it one more time."
+            ],
+            "answer": 0,
+            "explain": "Let's + 原形 try。",
+            "level": 4
+          },
+          {
+            "q": "提醒同学带伞：___",
+            "options": [
+              "Don't forget your umbrella.",
+              "Don't forgets your umbrella.",
+              "Not forget your umbrella."
+            ],
+            "answer": 0,
+            "explain": "Don't + 原形 forget。",
+            "level": 4
+          },
+          {
+            "q": "安慰上台紧张的同伴：___",
+            "options": [
+              "Don't be nervous. You can do it!",
+              "Don't nervous. You can do it!",
+              "Be not nervous. You can do it!"
+            ],
+            "answer": 0,
+            "explain": "nervous 是形容词——Don't be nervous。",
+            "level": 4
+          },
+          {
+            "q": "妈妈喊你吃饭：___",
+            "options": [
+              "Come and have dinner!",
+              "Comes and has dinner!",
+              "Coming and having dinner!"
+            ],
+            "answer": 0,
+            "explain": "两个动词都用原形：Come and have。",
+            "level": 4
+          },
+          {
+            "q": "点名让 Tom 关灯：___",
+            "options": [
+              "Tom, turn off the light, please.",
+              "Tom turns off the light, please.",
+              "Tom, turning off the light please."
+            ],
+            "answer": 0,
+            "explain": "点名放句首加逗号，动词仍是原形。",
+            "level": 4
+          },
+          {
+            "q": "医生的叮嘱：___ more water and ___ up late.",
+            "options": [
+              "Drink / don't stay",
+              "Drinks / doesn't stay",
+              "Drinking / not stay"
+            ],
+            "answer": 0,
+            "explain": "肯定口令 Drink；否定口令 don't stay——一句两令。",
+            "level": 4
+          },
+          {
+            "q": "地铁广播：___ the yellow line, please.",
+            "options": [
+              "Stand behind",
+              "Stands behind",
+              "Standing behind"
+            ],
+            "answer": 0,
+            "explain": "公共广播也是口令——原形 Stand。",
+            "level": 4
+          },
+          {
+            "q": "老师分组：You two, ___ the desks; you two, ___ the board.",
+            "options": [
+              "move / clean",
+              "moves / cleans",
+              "moving / cleaning"
+            ],
+            "answer": 0,
+            "explain": "分工点名可以带 you，动词依然原形。",
+            "level": 4
+          },
+          {
+            "q": "食谱第一步：___ two eggs into the bowl.",
+            "options": [
+              "Break",
+              "Breaks",
+              "Breaking"
+            ],
+            "answer": 0,
+            "explain": "菜谱通篇都是口令——原形 Break。",
+            "level": 4
+          },
+          {
+            "q": "「上台前一定要检查乐器」：___ your instrument before you go on stage.",
+            "options": [
+              "Always check",
+              "Always checks",
+              "Checking always"
+            ],
+            "answer": 0,
+            "explain": "always 站在口令前，动词保持原形。",
+            "level": 4
+          },
+          {
+            "q": "劝阻+建议连招：___ sad. ___ listen to some music.",
+            "options": [
+              "Don't be / Let's",
+              "Don't / Let's to",
+              "Not be / Lets"
+            ],
+            "answer": 0,
+            "explain": "Don't be sad 安慰；Let's listen 提议。",
+            "level": 4
+          },
+          {
+            "q": "游泳馆规则：___ in the shallow pool if you can't swim.",
+            "options": [
+              "Stay",
+              "Stays",
+              "Staying"
+            ],
+            "answer": 0,
+            "explain": "规则条文=口令——原形 Stay。",
+            "level": 4
+          },
+          {
+            "q": "大考：___ quiet, ___ your phone, and ___ start the listening test.",
+            "options": [
+              "Be / turn off / let's",
+              "Is / turns off / let's to",
+              "Being / turning off / lets"
+            ],
+            "answer": 0,
+            "explain": "三连口令：Be quiet（be 家族）、turn off（原形）、let's start（提议）。",
+            "level": 4
+          }
         ]
       }
     ]

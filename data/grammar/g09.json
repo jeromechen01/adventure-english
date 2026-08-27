@@ -42,26 +42,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I have two sisters.", "cn": "我有两个姐妹。" },
-          { "en": "There are seven days in a week.", "cn": "一周有七天。" },
-          { "en": "Monday is the first day of the school week.", "cn": "周一是上学周的第一天。" },
-          { "en": "She won the first prize in the contest.", "cn": "她在比赛中得了一等奖。" },
-          { "en": "My birthday is on the fifth of June.", "cn": "我的生日是六月五日。" }
+          {
+            "en": "I have two sisters.",
+            "cn": "我有两个姐妹。"
+          },
+          {
+            "en": "There are seven days in a week.",
+            "cn": "一周有七天。"
+          },
+          {
+            "en": "Monday is the first day of the school week.",
+            "cn": "周一是上学周的第一天。"
+          },
+          {
+            "en": "She won the first prize in the contest.",
+            "cn": "她在比赛中得了一等奖。"
+          },
+          {
+            "en": "My birthday is on the fifth of June.",
+            "cn": "我的生日是六月五日。"
+          }
         ],
         "mid": [
-          { "en": "There are thirty-one days in March.", "cn": "三月有三十一天。" },
-          { "en": "He lives on the ninth floor.", "cn": "他住在九楼。（nine → ninth，e 不见了）" },
-          { "en": "December is the twelfth month of the year.", "cn": "十二月是一年的第十二个月。（twelve → twelfth）" },
-          { "en": "This is her twentieth concert.", "cn": "这是她的第二十场音乐会。（twenty → twentieth）" },
-          { "en": "About a hundred people came to the show.", "cn": "大约一百人来看了演出。" }
+          {
+            "en": "There are thirty-one days in March.",
+            "cn": "三月有三十一天。"
+          },
+          {
+            "en": "He lives on the ninth floor.",
+            "cn": "他住在九楼。（nine → ninth，e 不见了）"
+          },
+          {
+            "en": "December is the twelfth month of the year.",
+            "cn": "十二月是一年的第十二个月。（twelve → twelfth）"
+          },
+          {
+            "en": "This is her twentieth concert.",
+            "cn": "这是她的第二十场音乐会。（twenty → twentieth）"
+          },
+          {
+            "en": "About a hundred people came to the show.",
+            "cn": "大约一百人来看了演出。"
+          }
         ],
         "trap": [
-          { "en": "Turn to page three.", "cn": "翻到第三页。", "note": "页码是编号——用基数 three，不说 page third。" },
-          { "en": "She is in Grade Five. = She is in the fifth grade.", "cn": "她上五年级。", "note": "Grade Five（基数，不带 the）和 the fifth grade（序数，带 the）都对——别混搭成 Grade Fifth。" },
-          { "en": "He came second in the race.", "cn": "他比赛得了第二名。", "note": "come first / second 是固定说法，这里不带 the。" },
-          { "en": "Two hundred students are in the hall.", "cn": "两百名学生在大厅里。", "note": "hundred 前面有具体数字时不加 s——two hundred，不是 two hundreds。" },
-          { "en": "The concert is on May the fourth.", "cn": "音乐会在五月四日。", "note": "日期写 May 4th，读出来是 May the fourth——写基数样子，读序数。" },
-          { "en": "thirteen（13）重音在后，thirty（30）重音在前。", "cn": "十三 / 三十——听力送命题。", "note": "-teen 家族重音在后半，-ty 家族重音在前半，听重音位置分辨。" }
+          {
+            "en": "Turn to page three.",
+            "cn": "翻到第三页。",
+            "note": "页码是编号——用基数 three，不说 page third。"
+          },
+          {
+            "en": "She is in Grade Five. = She is in the fifth grade.",
+            "cn": "她上五年级。",
+            "note": "Grade Five（基数，不带 the）和 the fifth grade（序数，带 the）都对——别混搭成 Grade Fifth。"
+          },
+          {
+            "en": "He came second in the race.",
+            "cn": "他比赛得了第二名。",
+            "note": "come first / second 是固定说法，这里不带 the。"
+          },
+          {
+            "en": "Two hundred students are in the hall.",
+            "cn": "两百名学生在大厅里。",
+            "note": "hundred 前面有具体数字时不加 s——two hundred，不是 two hundreds。"
+          },
+          {
+            "en": "The concert is on May the fourth.",
+            "cn": "音乐会在五月四日。",
+            "note": "日期写 May 4th，读出来是 May the fourth——写基数样子，读序数。"
+          },
+          {
+            "en": "thirteen（13）重音在后，thirty（30）重音在前。",
+            "cn": "十三 / 三十——听力送命题。",
+            "note": "-teen 家族重音在后半，-ty 家族重音在前半，听重音位置分辨。"
+          }
         ]
       }
     },
@@ -187,7 +241,7 @@
     "echo": "first 和 one 根本不是一家人：first 的祖先是「最靠前的」（fore 的最高级，和 before 同宗），one 是数字家族——就像中文管老大叫「老大」不叫「第一哥」。second 干脆是从拉丁语借来的外援（sequi，跟随——第二个就是跟着第一个的那个），英语自己原来管第二叫 other，用混了才请来 second 分家。third 好歹和 three 沾亲，但也被说话磨得变了位（three→third，r 挪了窝）。越靠前的名次说得越多，越常说的词越有自己的来历——这是本课的暗线：越常用的词，越不规则。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G09 · 基数与序数</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>第几声部、第几小节——数数和排队是两套词</text><rect x='36' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>🔢 基数 · 报数量</text><text x='194' y='190' text-anchor='middle' font-size='17' fill='#5A4A42'>one · two · three</text><text x='194' y='222' text-anchor='middle' font-size='17' fill='#5A4A42'>thirteen（重音在后）</text><text x='194' y='254' text-anchor='middle' font-size='17' fill='#5A4A42'>thirty（重音在前）</text><text x='194' y='290' text-anchor='middle' font-size='16' fill='#C0392B'>forty 没有 u！</text><rect x='368' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#E76F33'>🥇 序数 · 排顺序</text><text x='526' y='190' text-anchor='middle' font-size='17' fill='#5A4A42'>the first · second · third</text><text x='526' y='222' text-anchor='middle' font-size='17' fill='#5A4A42'>fourth · fifth · ninth</text><text x='526' y='254' text-anchor='middle' font-size='17' fill='#5A4A42'>twelfth · twentieth</text><text x='526' y='290' text-anchor='middle' font-size='16' fill='#8A7568'>通常带 the · 日期楼层名次</text><rect x='36' y='340' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='372' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>编号用基数：page three · Grade Five · Bus No. 2</text><text x='360' y='402' text-anchor='middle' font-size='17' fill='#5A4A42'>two hundred（不加 s） · May 4th 写基数样、读 the fourth</text><text x='360' y='458' text-anchor='middle' font-size='16' fill='#8A7568'>暗线：first 是「最靠前」的后代，second 是拉丁外援——和 one/two 不同源</text><text x='360' y='522' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G09</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='32' font-weight='bold' fill='#E76F33'>G09 · 基数与序数</text><text x='360' y='92' text-anchor='middle' font-size='23' fill='#8A7568'>第几声部、第几小节——数数和排队是两套词</text><rect x='36' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='152' text-anchor='middle' font-size='24' font-weight='bold' fill='#38B2AC'>🔢 基数 · 报数量</text><text x='194' y='190' text-anchor='middle' font-size='21' fill='#5A4A42'>one · two · three</text><text x='194' y='222' text-anchor='middle' font-size='21' fill='#5A4A42'>thirteen（重音在后）</text><text x='194' y='254' text-anchor='middle' font-size='21' fill='#5A4A42'>thirty（重音在前）</text><text x='194' y='290' text-anchor='middle' font-size='20' fill='#C0392B'>forty 没有 u！</text><rect x='368' y='116' width='316' height='200' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='152' text-anchor='middle' font-size='24' font-weight='bold' fill='#E76F33'>🥇 序数 · 排顺序</text><text x='526' y='190' text-anchor='middle' font-size='21' fill='#5A4A42'>the first · second · third</text><text x='526' y='222' text-anchor='middle' font-size='21' fill='#5A4A42'>fourth · fifth · ninth</text><text x='526' y='254' text-anchor='middle' font-size='21' fill='#5A4A42'>twelfth · twentieth</text><text x='526' y='290' text-anchor='middle' font-size='20' fill='#8A7568'>通常带 the · 日期楼层名次</text><rect x='36' y='340' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='372' text-anchor='middle' font-size='22' font-weight='bold' fill='#E76F33'>编号用基数：page three · Grade Five · Bus No. 2</text><text x='360' y='402' text-anchor='middle' font-size='21' fill='#5A4A42'>two hundred（不加 s） · May 4th 写基数样、读 the fourth</text><text x='360' y='458' text-anchor='middle' font-size='20' fill='#8A7568'>暗线：first 是「最靠前」的后代，second 是拉丁外援——和 one/two 不同源</text><text x='360' y='522' text-anchor='middle' font-size='18' fill='#B8A79B'>英语奇遇记 🦊 · G09</text></svg>",
     "alt": "G09 记忆卡：左列基数报数量（thirteen/thirty 重音区别、forty 无 u），右列序数排顺序（first/second/third 不规则与拼写变化），底部编号用基数与 hundred 不加 s。"
   },
   "practice": {
@@ -195,85 +249,725 @@
       {
         "name": "认一认 · 两套数字",
         "questions": [
-          { "q": "「one」的序数是？", "options": ["first", "oneth", "onest"], "answer": 0, "explain": "前三名不按规则：one 的序数是 first——它们根本不同源。", "level": 1 },
-          { "q": "「two」的序数是？", "options": ["second", "twoth", "twond"], "answer": 0, "explain": "two 的序数是 second（拉丁语借来的外援）。", "level": 1 },
-          { "q": "「three」的序数是？", "options": ["third", "threeth", "thirst"], "answer": 0, "explain": "three 的序数是 third——r 挪了位置。", "level": 1 },
-          { "q": "「five」的序数是？", "options": ["fifth", "fiveth", "fivest"], "answer": 0, "explain": "five → fifth，ve 换成 f。", "level": 1 },
-          { "q": "「nine」的序数是？", "options": ["ninth", "nineth", "ninest"], "answer": 0, "explain": "nine → ninth，e 去掉。", "level": 1 },
-          { "q": "「twelve」的序数是？", "options": ["twelfth", "twelveth", "twelvth"], "answer": 0, "explain": "twelve → twelfth，ve 换 f。", "level": 1 },
-          { "q": "「twenty」的序数是？", "options": ["twentieth", "twentyth", "twenteth"], "answer": 0, "explain": "twenty → twentieth，y 变 ie 再加 th。", "level": 1 },
-          { "q": "「four」的序数是？", "options": ["fourth", "forth", "fourst"], "answer": 0, "explain": "four → fourth，规规矩矩加 th（forth 是另一个词）。", "level": 1 },
-          { "q": "「eight」的序数是？", "options": ["eighth", "eightth", "eigth"], "answer": 0, "explain": "eight 已带 t，只补 h：eighth。", "level": 1 },
-          { "q": "「seven」的序数是？", "options": ["seventh", "sevenh", "sevens"], "answer": 0, "explain": "seven + th = seventh，规则家族。", "level": 1 },
-          { "q": "「十五」怎么拼？", "options": ["fifteen", "fiveteen", "fifthteen"], "answer": 0, "explain": "five 在 -teen 前变 fif：fifteen。", "level": 1 },
-          { "q": "「四十」怎么拼？", "options": ["forty", "fourty", "fourteen"], "answer": 0, "explain": "forty 没有 u——four 的 u 在这儿丢了。", "level": 1 },
-          { "q": "「十八」怎么拼？", "options": ["eighteen", "eightteen", "eighten"], "answer": 0, "explain": "eight + een，t 不双写：eighteen。", "level": 1 },
-          { "q": "「三十」怎么拼？", "options": ["thirty", "threety", "thirtey"], "answer": 0, "explain": "three 在整十里变 thir：thirty。", "level": 1 },
-          { "q": "「twenty-one」的序数是？", "options": ["twenty-first", "twenty-oneth", "twentieth-one"], "answer": 0, "explain": "只变最后一位：twenty-first。", "level": 1 },
-          { "q": "重音在后面的是哪个数？", "options": ["thirteen（13）", "thirty（30）", "third（第三）"], "answer": 0, "explain": "-teen 家族重音在后，-ty 家族重音在前——听力就靠这个分。", "level": 1 }
+          {
+            "q": "「one」的序数是？",
+            "options": [
+              "first",
+              "oneth",
+              "onest"
+            ],
+            "answer": 0,
+            "explain": "前三名不按规则：one 的序数是 first——它们根本不同源。",
+            "level": 1
+          },
+          {
+            "q": "「two」的序数是？",
+            "options": [
+              "second",
+              "twoth",
+              "twond"
+            ],
+            "answer": 0,
+            "explain": "two 的序数是 second（拉丁语借来的外援）。",
+            "level": 1
+          },
+          {
+            "q": "「three」的序数是？",
+            "options": [
+              "third",
+              "threeth",
+              "thirst"
+            ],
+            "answer": 0,
+            "explain": "three 的序数是 third——r 挪了位置。",
+            "level": 1
+          },
+          {
+            "q": "「five」的序数是？",
+            "options": [
+              "fifth",
+              "fiveth",
+              "fivest"
+            ],
+            "answer": 0,
+            "explain": "five → fifth，ve 换成 f。",
+            "level": 1
+          },
+          {
+            "q": "「nine」的序数是？",
+            "options": [
+              "ninth",
+              "nineth",
+              "ninest"
+            ],
+            "answer": 0,
+            "explain": "nine → ninth，e 去掉。",
+            "level": 1
+          },
+          {
+            "q": "「twelve」的序数是？",
+            "options": [
+              "twelfth",
+              "twelveth",
+              "twelvth"
+            ],
+            "answer": 0,
+            "explain": "twelve → twelfth，ve 换 f。",
+            "level": 1
+          },
+          {
+            "q": "「twenty」的序数是？",
+            "options": [
+              "twentieth",
+              "twentyth",
+              "twenteth"
+            ],
+            "answer": 0,
+            "explain": "twenty → twentieth，y 变 ie 再加 th。",
+            "level": 1
+          },
+          {
+            "q": "「four」的序数是？",
+            "options": [
+              "fourth",
+              "forth",
+              "fourst"
+            ],
+            "answer": 0,
+            "explain": "four → fourth，规规矩矩加 th（forth 是另一个词）。",
+            "level": 1
+          },
+          {
+            "q": "「eight」的序数是？",
+            "options": [
+              "eighth",
+              "eightth",
+              "eigth"
+            ],
+            "answer": 0,
+            "explain": "eight 已带 t，只补 h：eighth。",
+            "level": 1
+          },
+          {
+            "q": "「seven」的序数是？",
+            "options": [
+              "seventh",
+              "sevenh",
+              "sevens"
+            ],
+            "answer": 0,
+            "explain": "seven + th = seventh，规则家族。",
+            "level": 1
+          },
+          {
+            "q": "「十五」怎么拼？",
+            "options": [
+              "fifteen",
+              "fiveteen",
+              "fifthteen"
+            ],
+            "answer": 0,
+            "explain": "five 在 -teen 前变 fif：fifteen。",
+            "level": 1
+          },
+          {
+            "q": "「四十」怎么拼？",
+            "options": [
+              "forty",
+              "fourty",
+              "fourteen"
+            ],
+            "answer": 0,
+            "explain": "forty 没有 u——four 的 u 在这儿丢了。",
+            "level": 1
+          },
+          {
+            "q": "「十八」怎么拼？",
+            "options": [
+              "eighteen",
+              "eightteen",
+              "eighten"
+            ],
+            "answer": 0,
+            "explain": "eight + een，t 不双写：eighteen。",
+            "level": 1
+          },
+          {
+            "q": "「三十」怎么拼？",
+            "options": [
+              "thirty",
+              "threety",
+              "thirtey"
+            ],
+            "answer": 0,
+            "explain": "three 在整十里变 thir：thirty。",
+            "level": 1
+          },
+          {
+            "q": "「twenty-one」的序数是？",
+            "options": [
+              "twenty-first",
+              "twenty-oneth",
+              "twentieth-one"
+            ],
+            "answer": 0,
+            "explain": "只变最后一位：twenty-first。",
+            "level": 1
+          },
+          {
+            "q": "重音在后面的是哪个数？",
+            "options": [
+              "thirteen（13）",
+              "thirty（30）",
+              "third（第三）"
+            ],
+            "answer": 0,
+            "explain": "-teen 家族重音在后，-ty 家族重音在前——听力就靠这个分。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 数还是排",
         "questions": [
-          { "q": "Lily sits in the ___ row.（第二排）", "options": ["second", "two", "twoth"], "answer": 0, "explain": "第几排是顺序——序数 second。", "level": 2 },
-          { "q": "My birthday is on May ___.（五月五日）", "options": ["the fifth", "five", "fiveth"], "answer": 0, "explain": "日期用序数：the fifth（写作 May 5th）。", "level": 2 },
-          { "q": "He won the ___ prize.（一等奖）", "options": ["first", "one", "oneth"], "answer": 0, "explain": "名次用序数——the first prize。", "level": 2 },
-          { "q": "There are ___ players in a football team.（十一个）", "options": ["eleven", "eleventh", "elevens"], "answer": 0, "explain": "报数量——基数 eleven。", "level": 2 },
-          { "q": "December is the ___ month of the year.", "options": ["twelfth", "twelve", "twelveth"], "answer": 0, "explain": "第十二个月——序数 twelfth。", "level": 2 },
-          { "q": "I live on the ___ floor.（三楼）", "options": ["third", "three", "threeth"], "answer": 0, "explain": "楼层用序数——the third floor。", "level": 2 },
-          { "q": "She is in Grade ___.（五年级）", "options": ["Five", "Fifth", "Fiveth"], "answer": 0, "explain": "Grade 后面接基数（编号）——Grade Five。", "level": 2 },
-          { "q": "Our band has ___ members.（三十个）", "options": ["thirty", "thirteen", "thirtieth"], "answer": 0, "explain": "报数量——thirty（别听成 thirteen）。", "level": 2 },
-          { "q": "Turn to page ___.（第 21 页）", "options": ["twenty-one", "twenty-first", "twenty-oneth"], "answer": 0, "explain": "页码是编号——基数 twenty-one。", "level": 2 },
-          { "q": "The ___ lesson is my favourite.（第九课）", "options": ["ninth", "nineth", "nine"], "answer": 0, "explain": "第九课——序数 ninth（e 去掉）。", "level": 2 },
-          { "q": "He came ___ in the race.（第一个冲线）", "options": ["first", "one", "firstly"], "answer": 0, "explain": "come first 固定说法——序数不带 the。", "level": 2 },
-          { "q": "Today is her ___ birthday.（十二岁生日）", "options": ["twelfth", "twelveth", "twelve"], "answer": 0, "explain": "第十二个生日——twelfth。", "level": 2 },
-          { "q": "___ people visited the music festival.（大约一百人）", "options": ["About a hundred", "About a hundreds", "About hundred"], "answer": 0, "explain": "a hundred / one hundred，hundred 不加 s。", "level": 2 },
-          { "q": "Two ___ students are in the hall.（两百名）", "options": ["hundred", "hundreds", "hundredth"], "answer": 0, "explain": "具体数字后 hundred 保持单数。", "level": 2 },
-          { "q": "The concert starts at ___.（六点半）", "options": ["six thirty", "six thirteen", "sixth thirty"], "answer": 0, "explain": "钟点报数用基数：six thirty。", "level": 2 },
-          { "q": "There are ___ days in March.（三十一天）", "options": ["thirty-one", "thirty-first", "thirteen-one"], "answer": 0, "explain": "报数量——基数 thirty-one。", "level": 2 }
+          {
+            "q": "Lily sits in the ___ row.（第二排）",
+            "options": [
+              "second",
+              "two",
+              "twoth"
+            ],
+            "answer": 0,
+            "explain": "第几排是顺序——序数 second。",
+            "level": 2
+          },
+          {
+            "q": "My birthday is on May ___.（五月五日）",
+            "options": [
+              "the fifth",
+              "five",
+              "fiveth"
+            ],
+            "answer": 0,
+            "explain": "日期用序数：the fifth（写作 May 5th）。",
+            "level": 2
+          },
+          {
+            "q": "He won the ___ prize.（一等奖）",
+            "options": [
+              "first",
+              "one",
+              "oneth"
+            ],
+            "answer": 0,
+            "explain": "名次用序数——the first prize。",
+            "level": 2
+          },
+          {
+            "q": "There are ___ players in a football team.（十一个）",
+            "options": [
+              "eleven",
+              "eleventh",
+              "elevens"
+            ],
+            "answer": 0,
+            "explain": "报数量——基数 eleven。",
+            "level": 2
+          },
+          {
+            "q": "December is the ___ month of the year.",
+            "options": [
+              "twelfth",
+              "twelve",
+              "twelveth"
+            ],
+            "answer": 0,
+            "explain": "第十二个月——序数 twelfth。",
+            "level": 2
+          },
+          {
+            "q": "I live on the ___ floor.（三楼）",
+            "options": [
+              "third",
+              "three",
+              "threeth"
+            ],
+            "answer": 0,
+            "explain": "楼层用序数——the third floor。",
+            "level": 2
+          },
+          {
+            "q": "She is in Grade ___.（五年级）",
+            "options": [
+              "Five",
+              "Fifth",
+              "Fiveth"
+            ],
+            "answer": 0,
+            "explain": "Grade 后面接基数（编号）——Grade Five。",
+            "level": 2
+          },
+          {
+            "q": "Our band has ___ members.（三十个）",
+            "options": [
+              "thirty",
+              "thirteen",
+              "thirtieth"
+            ],
+            "answer": 0,
+            "explain": "报数量——thirty（别听成 thirteen）。",
+            "level": 2
+          },
+          {
+            "q": "Turn to page ___.（第 21 页）",
+            "options": [
+              "twenty-one",
+              "twenty-first",
+              "twenty-oneth"
+            ],
+            "answer": 0,
+            "explain": "页码是编号——基数 twenty-one。",
+            "level": 2
+          },
+          {
+            "q": "The ___ lesson is my favourite.（第九课）",
+            "options": [
+              "ninth",
+              "nineth",
+              "nine"
+            ],
+            "answer": 0,
+            "explain": "第九课——序数 ninth（e 去掉）。",
+            "level": 2
+          },
+          {
+            "q": "He came ___ in the race.（第一个冲线）",
+            "options": [
+              "first",
+              "one",
+              "firstly"
+            ],
+            "answer": 0,
+            "explain": "come first 固定说法——序数不带 the。",
+            "level": 2
+          },
+          {
+            "q": "Today is her ___ birthday.（十二岁生日）",
+            "options": [
+              "twelfth",
+              "twelveth",
+              "twelve"
+            ],
+            "answer": 0,
+            "explain": "第十二个生日——twelfth。",
+            "level": 2
+          },
+          {
+            "q": "___ people visited the music festival.（大约一百人）",
+            "options": [
+              "About a hundred",
+              "About a hundreds",
+              "About hundred"
+            ],
+            "answer": 0,
+            "explain": "a hundred / one hundred，hundred 不加 s。",
+            "level": 2
+          },
+          {
+            "q": "Two ___ students are in the hall.（两百名）",
+            "options": [
+              "hundred",
+              "hundreds",
+              "hundredth"
+            ],
+            "answer": 0,
+            "explain": "具体数字后 hundred 保持单数。",
+            "level": 2
+          },
+          {
+            "q": "The concert starts at ___.（六点半）",
+            "options": [
+              "six thirty",
+              "six thirteen",
+              "sixth thirty"
+            ],
+            "answer": 0,
+            "explain": "钟点报数用基数：six thirty。",
+            "level": 2
+          },
+          {
+            "q": "There are ___ days in March.（三十一天）",
+            "options": [
+              "thirty-one",
+              "thirty-first",
+              "thirteen-one"
+            ],
+            "answer": 0,
+            "explain": "报数量——基数 thirty-one。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 火眼金睛",
         "questions": [
-          { "q": "哪一句的数词是健康的？（第二节课）", "options": ["The second lesson is English.", "The two lesson is English.", "The twoth lesson is English."], "answer": 0, "explain": "第几节课用序数 second。", "level": 3 },
-          { "q": "哪一句的拼写是健康的？（四十名学生）", "options": ["There are forty students.", "There are fourty students.", "There are fourteen-ty students."], "answer": 0, "explain": "forty 没有 u。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（九楼）", "options": ["He lives on the ninth floor.", "He lives on the nineth floor.", "He lives on the nine floor."], "answer": 0, "explain": "nine → ninth，e 去掉；楼层用序数。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（第十二个月）", "options": ["December is the twelfth month.", "December is the twelveth month.", "December is the twelve month."], "answer": 0, "explain": "twelve → twelfth。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（三年级）", "options": ["I am in Grade Three.", "I am in Grade Third.", "I am in the Grade Three."], "answer": 0, "explain": "Grade + 基数，不带 the；序数版是 the third grade。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（翻页）", "options": ["Turn to page nine.", "Turn to page ninth.", "Turn to the page nine."], "answer": 0, "explain": "页码是编号——基数，不带 the。", "level": 3 },
-          { "q": "three ___ 后面选哪个？（三百）", "options": ["hundred", "hundreds", "hundredth"], "answer": 0, "explain": "具体数字后 hundred 不加 s。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（第二十场演出）", "options": ["This is her twentieth concert.", "This is her twentyth concert.", "This is her twenty concert."], "answer": 0, "explain": "twenty → twentieth。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（第一名）", "options": ["He won the first prize.", "He won the one prize.", "He won the prize one."], "answer": 0, "explain": "名次用序数 first。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（五月十二日）", "options": ["My birthday is on May 12th.", "My birthday is on May twelve day.", "My birthday is in May 12th."], "answer": 0, "explain": "日期用序数（写 12th），具体某天用 on。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（第五个上台）", "options": ["She was the fifth to go on stage.", "She was the fiveth to go on stage.", "She was the five to go on stage."], "answer": 0, "explain": "five → fifth，ve 换 f。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（八月是第八个月）", "options": ["August is the eighth month.", "August is the eightth month.", "August is the eight month."], "answer": 0, "explain": "eight 已有 t，序数只补 h：eighth。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（三十分钟）", "options": ["The break is thirty minutes long.", "The break is thirteen-ty minutes long.", "The break is thirtieth minutes long."], "answer": 0, "explain": "报时长用基数 thirty。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（一千个座位）", "options": ["The hall has a thousand seats.", "The hall has a thousands seats.", "The hall has thousand seats."], "answer": 0, "explain": "a thousand / one thousand，thousand 不加 s、不裸奔。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（第二十一课）", "options": ["Lesson Twenty-one is easy.", "Lesson Twenty-first is easy.", "The lesson twenty-oneth is easy."], "answer": 0, "explain": "课号是编号——Lesson + 基数。", "level": 3 },
-          { "q": "哪一句的数词是健康的？（比赛得第三）", "options": ["She came third in the singing contest.", "She came three in the singing contest.", "She came threeth in the singing contest."], "answer": 0, "explain": "come third 固定说法——序数。", "level": 3 }
+          {
+            "q": "哪一句的数词是健康的？（第二节课）",
+            "options": [
+              "The second lesson is English.",
+              "The two lesson is English.",
+              "The twoth lesson is English."
+            ],
+            "answer": 0,
+            "explain": "第几节课用序数 second。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的拼写是健康的？（四十名学生）",
+            "options": [
+              "There are forty students.",
+              "There are fourty students.",
+              "There are fourteen-ty students."
+            ],
+            "answer": 0,
+            "explain": "forty 没有 u。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（九楼）",
+            "options": [
+              "He lives on the ninth floor.",
+              "He lives on the nineth floor.",
+              "He lives on the nine floor."
+            ],
+            "answer": 0,
+            "explain": "nine → ninth，e 去掉；楼层用序数。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（第十二个月）",
+            "options": [
+              "December is the twelfth month.",
+              "December is the twelveth month.",
+              "December is the twelve month."
+            ],
+            "answer": 0,
+            "explain": "twelve → twelfth。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（三年级）",
+            "options": [
+              "I am in Grade Three.",
+              "I am in Grade Third.",
+              "I am in the Grade Three."
+            ],
+            "answer": 0,
+            "explain": "Grade + 基数，不带 the；序数版是 the third grade。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（翻页）",
+            "options": [
+              "Turn to page nine.",
+              "Turn to page ninth.",
+              "Turn to the page nine."
+            ],
+            "answer": 0,
+            "explain": "页码是编号——基数，不带 the。",
+            "level": 3
+          },
+          {
+            "q": "three ___ 后面选哪个？（三百）",
+            "options": [
+              "hundred",
+              "hundreds",
+              "hundredth"
+            ],
+            "answer": 0,
+            "explain": "具体数字后 hundred 不加 s。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（第二十场演出）",
+            "options": [
+              "This is her twentieth concert.",
+              "This is her twentyth concert.",
+              "This is her twenty concert."
+            ],
+            "answer": 0,
+            "explain": "twenty → twentieth。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（第一名）",
+            "options": [
+              "He won the first prize.",
+              "He won the one prize.",
+              "He won the prize one."
+            ],
+            "answer": 0,
+            "explain": "名次用序数 first。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（五月十二日）",
+            "options": [
+              "My birthday is on May 12th.",
+              "My birthday is on May twelve day.",
+              "My birthday is in May 12th."
+            ],
+            "answer": 0,
+            "explain": "日期用序数（写 12th），具体某天用 on。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（第五个上台）",
+            "options": [
+              "She was the fifth to go on stage.",
+              "She was the fiveth to go on stage.",
+              "She was the five to go on stage."
+            ],
+            "answer": 0,
+            "explain": "five → fifth，ve 换 f。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（八月是第八个月）",
+            "options": [
+              "August is the eighth month.",
+              "August is the eightth month.",
+              "August is the eight month."
+            ],
+            "answer": 0,
+            "explain": "eight 已有 t，序数只补 h：eighth。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（三十分钟）",
+            "options": [
+              "The break is thirty minutes long.",
+              "The break is thirteen-ty minutes long.",
+              "The break is thirtieth minutes long."
+            ],
+            "answer": 0,
+            "explain": "报时长用基数 thirty。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（一千个座位）",
+            "options": [
+              "The hall has a thousand seats.",
+              "The hall has a thousands seats.",
+              "The hall has thousand seats."
+            ],
+            "answer": 0,
+            "explain": "a thousand / one thousand，thousand 不加 s、不裸奔。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（第二十一课）",
+            "options": [
+              "Lesson Twenty-one is easy.",
+              "Lesson Twenty-first is easy.",
+              "The lesson twenty-oneth is easy."
+            ],
+            "answer": 0,
+            "explain": "课号是编号——Lesson + 基数。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的数词是健康的？（比赛得第三）",
+            "options": [
+              "She came third in the singing contest.",
+              "She came three in the singing contest.",
+              "She came threeth in the singing contest."
+            ],
+            "answer": 0,
+            "explain": "come third 固定说法——序数。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "报幕：「今晚的第一支曲子」= the ___ piece tonight.", "options": ["first", "one", "oneth"], "answer": 0, "explain": "曲目顺序——序数 first。", "level": 4 },
-          { "q": "「从第八小节开始」= Start from the ___ bar.", "options": ["eighth", "eight", "eightth"], "answer": 0, "explain": "第几小节——序数 eighth。", "level": 4 },
-          { "q": "「练三个小节」= Practise ___ bars.", "options": ["three", "third", "threeth"], "answer": 0, "explain": "报数量——基数 three。", "level": 4 },
-          { "q": "公交报站：「2 路车」= Bus No. ___.", "options": ["Two", "Second", "Twoth"], "answer": 0, "explain": "车次是编号——基数。", "level": 4 },
-          { "q": "「儿童节在六月一日」= Children's Day is on ___ of June.", "options": ["the first", "the one", "first"], "answer": 0, "explain": "日期用 the + 序数：the first of June。", "level": 4 },
-          { "q": "「我是家里第二个孩子」= I am the ___ child in my family.", "options": ["second", "two", "twice"], "answer": 0, "explain": "排行——序数 second。", "level": 4 },
-          { "q": "听力陷阱：门票 ___ yuan.（重音在前=30）", "options": ["thirty", "thirteen", "thirtieth"], "answer": 0, "explain": "重音在前是 thirty（30），在后才是 thirteen（13）。", "level": 4 },
-          { "q": "「一年的第一百天」= the ___ day of the year.", "options": ["hundredth", "hundred", "hundreds"], "answer": 0, "explain": "第一百——序数 hundredth。", "level": 4 },
-          { "q": "「五千人」= ___ people.", "options": ["five thousand", "five thousands", "fifth thousand"], "answer": 0, "explain": "具体数字后 thousand 不加 s。", "level": 4 },
-          { "q": "「第 40 届学校音乐节」= the ___ school music festival.", "options": ["fortieth", "fourtieth", "forty"], "answer": 0, "explain": "forty → fortieth（依旧没有 u）。", "level": 4 },
-          { "q": "「三月十二日是植树节」= Tree Planting Day is on March ___.", "options": ["12th", "twelve", "the twelve"], "answer": 0, "explain": "日期写 12th，读 the twelfth。", "level": 4 },
-          { "q": "「他第二次赢得比赛」= He won the contest for the ___ time.", "options": ["second", "two", "twoth"], "answer": 0, "explain": "第几次——for the second time。", "level": 4 },
-          { "q": "「弟弟在读三年级，我在读六年级」= My brother is in Grade ___, and I am in the ___ grade.", "options": ["Three / sixth", "Third / six", "Three / six"], "answer": 0, "explain": "Grade Three（基数编号）；the sixth grade（序数）——两种说法别混搭。", "level": 4 },
-          { "q": "「大厅能坐 250 人」= The hall seats two ___ and fifty people.", "options": ["hundred", "hundreds", "hundredth"], "answer": 0, "explain": "two hundred and fifty——hundred 单数。", "level": 4 },
-          { "q": "「第五个节目是长笛独奏」= The ___ programme is a flute solo.", "options": ["fifth", "five", "fiveth"], "answer": 0, "explain": "节目顺序——fifth。", "level": 4 },
-          { "q": "大考：Our classroom is on the ___ floor, Room ___.（四楼 402 房）", "options": ["fourth / four o two", "four / fourth o two", "forth / four two"], "answer": 0, "explain": "楼层序数 fourth；房号是编号，逐位读 four o two。", "level": 4 }
+          {
+            "q": "报幕：「今晚的第一支曲子」= the ___ piece tonight.",
+            "options": [
+              "first",
+              "one",
+              "oneth"
+            ],
+            "answer": 0,
+            "explain": "曲目顺序——序数 first。",
+            "level": 4
+          },
+          {
+            "q": "「从第八小节开始」= Start from the ___ bar.",
+            "options": [
+              "eighth",
+              "eight",
+              "eightth"
+            ],
+            "answer": 0,
+            "explain": "第几小节——序数 eighth。",
+            "level": 4
+          },
+          {
+            "q": "「练三个小节」= Practise ___ bars.",
+            "options": [
+              "three",
+              "third",
+              "threeth"
+            ],
+            "answer": 0,
+            "explain": "报数量——基数 three。",
+            "level": 4
+          },
+          {
+            "q": "公交报站：「2 路车」= Bus No. ___.",
+            "options": [
+              "Two",
+              "Second",
+              "Twoth"
+            ],
+            "answer": 0,
+            "explain": "车次是编号——基数。",
+            "level": 4
+          },
+          {
+            "q": "「儿童节在六月一日」= Children's Day is on ___ of June.",
+            "options": [
+              "the first",
+              "the one",
+              "first"
+            ],
+            "answer": 0,
+            "explain": "日期用 the + 序数：the first of June。",
+            "level": 4
+          },
+          {
+            "q": "「我是家里第二个孩子」= I am the ___ child in my family.",
+            "options": [
+              "second",
+              "two",
+              "twice"
+            ],
+            "answer": 0,
+            "explain": "排行——序数 second。",
+            "level": 4
+          },
+          {
+            "q": "听力陷阱：门票 ___ yuan.（重音在前=30）",
+            "options": [
+              "thirty",
+              "thirteen",
+              "thirtieth"
+            ],
+            "answer": 0,
+            "explain": "重音在前是 thirty（30），在后才是 thirteen（13）。",
+            "level": 4
+          },
+          {
+            "q": "「一年的第一百天」= the ___ day of the year.",
+            "options": [
+              "hundredth",
+              "hundred",
+              "hundreds"
+            ],
+            "answer": 0,
+            "explain": "第一百——序数 hundredth。",
+            "level": 4
+          },
+          {
+            "q": "「五千人」= ___ people.",
+            "options": [
+              "five thousand",
+              "five thousands",
+              "fifth thousand"
+            ],
+            "answer": 0,
+            "explain": "具体数字后 thousand 不加 s。",
+            "level": 4
+          },
+          {
+            "q": "「第 40 届学校音乐节」= the ___ school music festival.",
+            "options": [
+              "fortieth",
+              "fourtieth",
+              "forty"
+            ],
+            "answer": 0,
+            "explain": "forty → fortieth（依旧没有 u）。",
+            "level": 4
+          },
+          {
+            "q": "「三月十二日是植树节」= Tree Planting Day is on March ___.",
+            "options": [
+              "12th",
+              "twelve",
+              "the twelve"
+            ],
+            "answer": 0,
+            "explain": "日期写 12th，读 the twelfth。",
+            "level": 4
+          },
+          {
+            "q": "「他第二次赢得比赛」= He won the contest for the ___ time.",
+            "options": [
+              "second",
+              "two",
+              "twoth"
+            ],
+            "answer": 0,
+            "explain": "第几次——for the second time。",
+            "level": 4
+          },
+          {
+            "q": "「弟弟在读三年级，我在读六年级」= My brother is in Grade ___, and I am in the ___ grade.",
+            "options": [
+              "Three / sixth",
+              "Third / six",
+              "Three / six"
+            ],
+            "answer": 0,
+            "explain": "Grade Three（基数编号）；the sixth grade（序数）——两种说法别混搭。",
+            "level": 4
+          },
+          {
+            "q": "「大厅能坐 250 人」= The hall seats two ___ and fifty people.",
+            "options": [
+              "hundred",
+              "hundreds",
+              "hundredth"
+            ],
+            "answer": 0,
+            "explain": "two hundred and fifty——hundred 单数。",
+            "level": 4
+          },
+          {
+            "q": "「第五个节目是长笛独奏」= The ___ programme is a flute solo.",
+            "options": [
+              "fifth",
+              "five",
+              "fiveth"
+            ],
+            "answer": 0,
+            "explain": "节目顺序——fifth。",
+            "level": 4
+          },
+          {
+            "q": "大考：Our classroom is on the ___ floor, Room ___.（四楼 402 房）",
+            "options": [
+              "fourth / four o two",
+              "four / fourth o two",
+              "forth / four two"
+            ],
+            "answer": 0,
+            "explain": "楼层序数 fourth；房号是编号，逐位读 four o two。",
+            "level": 4
+          }
         ]
       }
     ]

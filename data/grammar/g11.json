@@ -5,7 +5,9 @@
   "title": "介词 at / on / in",
   "metaphor": "点／面／盒子（0维/2维/3维），时间也有形状",
   "ketRelevance": 2,
-  "ketLessonMap": ["L5"],
+  "ketLessonMap": [
+    "L5"
+  ],
   "ketNote": "KET Part 5 的常客空；时间介词错了阅读理解都会跟着偏。八课里的亲戚是 L5。",
   "source": "original",
   "sections": {
@@ -42,26 +44,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "The concert begins at seven o'clock.", "cn": "音乐会七点开始。（时刻=点）" },
-          { "en": "We have a music class on Friday.", "cn": "我们周五有音乐课。（星期=面）" },
-          { "en": "My birthday is in March.", "cn": "我的生日在三月。（月份=盒子）" },
-          { "en": "The picture is on the wall.", "cn": "画挂在墙上。（墙面）" },
-          { "en": "My flute is in the black box.", "cn": "我的长笛在黑盒子里。" }
+          {
+            "en": "The concert begins at seven o'clock.",
+            "cn": "音乐会七点开始。（时刻=点）"
+          },
+          {
+            "en": "We have a music class on Friday.",
+            "cn": "我们周五有音乐课。（星期=面）"
+          },
+          {
+            "en": "My birthday is in March.",
+            "cn": "我的生日在三月。（月份=盒子）"
+          },
+          {
+            "en": "The picture is on the wall.",
+            "cn": "画挂在墙上。（墙面）"
+          },
+          {
+            "en": "My flute is in the black box.",
+            "cn": "我的长笛在黑盒子里。"
+          }
         ],
         "mid": [
-          { "en": "Let's meet at the school gate at noon.", "cn": "咱们中午在校门口见。（两个点）" },
-          { "en": "It often snows here in winter.", "cn": "这里冬天常下雪。（季节=盒子）" },
-          { "en": "We visited grandma on Sunday morning.", "cn": "我们周日上午看了外婆。（具体某天的早晨=面）" },
-          { "en": "He was born in 2015.", "cn": "他 2015 年出生。（年份=大盒子）" },
-          { "en": "The stars come out at night.", "cn": "星星在夜里出来。（at night 固定的点）" }
+          {
+            "en": "Let's meet at the school gate at noon.",
+            "cn": "咱们中午在校门口见。（两个点）"
+          },
+          {
+            "en": "It often snows here in winter.",
+            "cn": "这里冬天常下雪。（季节=盒子）"
+          },
+          {
+            "en": "We visited grandma on Sunday morning.",
+            "cn": "我们周日上午看了外婆。（具体某天的早晨=面）"
+          },
+          {
+            "en": "He was born in 2015.",
+            "cn": "他 2015 年出生。（年份=大盒子）"
+          },
+          {
+            "en": "The stars come out at night.",
+            "cn": "星星在夜里出来。（at night 固定的点）"
+          }
         ],
         "trap": [
-          { "en": "There are many apples on the tree.", "cn": "树上结了很多苹果。", "note": "树自己长出来的东西贴着树——on；外来的鸟落在枝叶「里」——in the tree。" },
-          { "en": "A little bird is singing in the tree.", "cn": "一只小鸟在树上唱歌。", "note": "鸟不是树长的，它钻进枝叶这个「盒子」里——in the tree。" },
-          { "en": "I get up early in the morning, but the show is on Saturday morning.", "cn": "我早晨起得早，但演出在周六上午。", "note": "泛泛的早晨是盒子（in）；指明哪天的早晨就压成日历上的面（on）。" },
-          { "en": "See you at the weekend. / on the weekend.", "cn": "周末见。", "note": "英式 at the weekend、美式 on the weekend——KET 两个都认。" },
-          { "en": "Write your name on the paper, then put it in the envelope.", "cn": "把名字写在纸上，再装进信封。", "note": "纸面用 on，信封是盒子用 in——一句话里形状换了两次。" },
-          { "en": "He is waiting at the bus stop.", "cn": "他在公交站等车。", "note": "公交站再大也是地图上的一个点——at。" }
+          {
+            "en": "There are many apples on the tree.",
+            "cn": "树上结了很多苹果。",
+            "note": "树自己长出来的东西贴着树——on；外来的鸟落在枝叶「里」——in the tree。"
+          },
+          {
+            "en": "A little bird is singing in the tree.",
+            "cn": "一只小鸟在树上唱歌。",
+            "note": "鸟不是树长的，它钻进枝叶这个「盒子」里——in the tree。"
+          },
+          {
+            "en": "I get up early in the morning, but the show is on Saturday morning.",
+            "cn": "我早晨起得早，但演出在周六上午。",
+            "note": "泛泛的早晨是盒子（in）；指明哪天的早晨就压成日历上的面（on）。"
+          },
+          {
+            "en": "See you at the weekend. / on the weekend.",
+            "cn": "周末见。",
+            "note": "英式 at the weekend、美式 on the weekend——KET 两个都认。"
+          },
+          {
+            "en": "Write your name on the paper, then put it in the envelope.",
+            "cn": "把名字写在纸上，再装进信封。",
+            "note": "纸面用 on，信封是盒子用 in——一句话里形状换了两次。"
+          },
+          {
+            "en": "He is waiting at the bus stop.",
+            "cn": "他在公交站等车。",
+            "note": "公交站再大也是地图上的一个点——at。"
+          }
         ]
       }
     },
@@ -187,7 +243,7 @@
     "echo": "这三个小词是英语里最古老的一批居民：in 可以一路追到几千年前的印欧语老根 en，on 的祖先 ana 意思是「在……之上」，at 的祖先 ad 意思是「朝向」，拉丁语里它还活在 add、arrive（ad-ripa，到岸）这些词的开头。几千年过去，帝国更替、拼写翻新，这三个记号几乎没挪过窝——最小的词最耐磨。谱面上的记号也是这样：音符换了一代又一代，谱号还是那几个。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G11 · at / on / in</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>at 是点 · on 是面 · in 是盒子——时间也长同样的形状</text><rect x='36' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><circle cx='139' cy='165' r='10' fill='#38B2AC'/><text x='139' y='210' text-anchor='middle' font-size='21' font-weight='bold' fill='#38B2AC'>at · 点</text><text x='139' y='244' text-anchor='middle' font-size='16' fill='#5A4A42'>at 7 o'clock</text><text x='139' y='272' text-anchor='middle' font-size='16' fill='#5A4A42'>at the station</text><text x='139' y='300' text-anchor='middle' font-size='16' fill='#5A4A42'>at night · at home</text><rect x='257' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><rect x='309' y='150' width='102' height='26' rx='6' fill='#FFD9C2'/><text x='360' y='210' text-anchor='middle' font-size='21' font-weight='bold' fill='#E76F33'>on · 面</text><text x='360' y='244' text-anchor='middle' font-size='16' fill='#5A4A42'>on Monday</text><text x='360' y='272' text-anchor='middle' font-size='16' fill='#5A4A42'>on the wall</text><text x='360' y='300' text-anchor='middle' font-size='16' fill='#5A4A42'>on Sunday morning</text><rect x='478' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><rect x='533' y='142' width='96' height='52' rx='8' fill='none' stroke='#C084FC' stroke-width='3'/><text x='581' y='210' text-anchor='middle' font-size='21' font-weight='bold' fill='#9B59B6'>in · 盒子</text><text x='581' y='244' text-anchor='middle' font-size='16' fill='#5A4A42'>in July · in 2026</text><text x='581' y='272' text-anchor='middle' font-size='16' fill='#5A4A42'>in the room</text><text x='581' y='300' text-anchor='middle' font-size='16' fill='#5A4A42'>in the morning</text><rect x='36' y='350' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='382' text-anchor='middle' font-size='17' font-weight='bold' fill='#E76F33'>特批：at night（点） · on Monday morning（某天的早晨压成面）</text><text x='360' y='412' text-anchor='middle' font-size='17' fill='#5A4A42'>apples on the tree（自己长的） · a bird in the tree（外来的）</text><text x='360' y='470' text-anchor='middle' font-size='16' fill='#8A7568'>介词是谱面记号——小，但少一个就走样</text><text x='360' y='522' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G11</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='32' font-weight='bold' fill='#E76F33'>G11 · at / on / in</text><text x='360' y='92' text-anchor='middle' font-size='23' fill='#8A7568'>at 是点 · on 是面 · in 是盒子——时间也长同样的形状</text><rect x='36' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><circle cx='139' cy='165' r='10' fill='#38B2AC'/><text x='139' y='210' text-anchor='middle' font-size='25' font-weight='bold' fill='#38B2AC'>at · 点</text><text x='139' y='244' text-anchor='middle' font-size='20' fill='#5A4A42'>at 7 o'clock</text><text x='139' y='272' text-anchor='middle' font-size='20' fill='#5A4A42'>at the station</text><text x='139' y='300' text-anchor='middle' font-size='20' fill='#5A4A42'>at night · at home</text><rect x='257' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><rect x='309' y='150' width='102' height='26' rx='6' fill='#FFD9C2'/><text x='360' y='210' text-anchor='middle' font-size='25' font-weight='bold' fill='#E76F33'>on · 面</text><text x='360' y='244' text-anchor='middle' font-size='20' fill='#5A4A42'>on Monday</text><text x='360' y='272' text-anchor='middle' font-size='20' fill='#5A4A42'>on the wall</text><text x='360' y='300' text-anchor='middle' font-size='20' fill='#5A4A42'>on Sunday morning</text><rect x='478' y='116' width='206' height='210' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><rect x='533' y='142' width='96' height='52' rx='8' fill='none' stroke='#C084FC' stroke-width='3'/><text x='581' y='210' text-anchor='middle' font-size='25' font-weight='bold' fill='#9B59B6'>in · 盒子</text><text x='581' y='244' text-anchor='middle' font-size='20' fill='#5A4A42'>in July · in 2026</text><text x='581' y='272' text-anchor='middle' font-size='20' fill='#5A4A42'>in the room</text><text x='581' y='300' text-anchor='middle' font-size='20' fill='#5A4A42'>in the morning</text><rect x='36' y='350' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='382' text-anchor='middle' font-size='20' font-weight='bold' fill='#E76F33'>特批：at night（点） · on Monday morning（某天的早晨压成面）</text><text x='360' y='412' text-anchor='middle' font-size='20' fill='#5A4A42'>apples on the tree（自己长的） · a bird in the tree（外来的）</text><text x='360' y='470' text-anchor='middle' font-size='20' fill='#8A7568'>介词是谱面记号——小，但少一个就走样</text><text x='360' y='522' text-anchor='middle' font-size='18' fill='#B8A79B'>英语奇遇记 🦊 · G11</text></svg>",
     "alt": "G11 记忆卡：三列几何图——at 点（时刻/车站/at night）、on 面（星期/墙面/某天早晨）、in 盒子（月份/房间/the morning），底部树上苹果与小鸟的 on/in 区别。"
   },
   "practice": {
@@ -195,85 +251,725 @@
       {
         "name": "认一认 · 比划形状",
         "questions": [
-          { "q": "「8 点整」是什么形状，用哪个词？", "options": ["点 · at", "面 · on", "盒子 · in"], "answer": 0, "explain": "时刻是时间轴上的一个点——at 8 o'clock。", "level": 1 },
-          { "q": "「星期天」是什么形状，用哪个词？", "options": ["面 · on", "点 · at", "盒子 · in"], "answer": 0, "explain": "星期几是日历摊开的一格面——on Sunday。", "level": 1 },
-          { "q": "「七月」是什么形状，用哪个词？", "options": ["盒子 · in", "点 · at", "面 · on"], "answer": 0, "explain": "月份装得下三十来天——in July。", "level": 1 },
-          { "q": "「圣诞节那天」用哪个词？", "options": ["on", "at", "in"], "answer": 0, "explain": "具体的某一天是一格面——on Christmas Day。", "level": 1 },
-          { "q": "「夜里」用哪个词？", "options": ["at", "on", "in"], "answer": 0, "explain": "night 被当成一闪而过的点——at night，固定搭配。", "level": 1 },
-          { "q": "「早晨」（泛指）用哪个词？", "options": ["in", "at", "on"], "answer": 0, "explain": "早晨是个能装事的盒子——in the morning。", "level": 1 },
-          { "q": "「周一早晨」用哪个词？", "options": ["on", "in", "at"], "answer": 0, "explain": "钉到具体某天，盒子压成面——on Monday morning。", "level": 1 },
-          { "q": "「2026 年」用哪个词？", "options": ["in", "on", "at"], "answer": 0, "explain": "年份是最大的盒子——in 2026。", "level": 1 },
-          { "q": "「春天」用哪个词？", "options": ["in", "on", "at"], "answer": 0, "explain": "季节是大盒子——in spring。", "level": 1 },
-          { "q": "「中午」用哪个词？", "options": ["at", "on", "in"], "answer": 0, "explain": "noon 一闪而过——at noon。", "level": 1 },
-          { "q": "「我生日那天」用哪个词？", "options": ["on", "in", "at"], "answer": 0, "explain": "具体的一天——on my birthday。", "level": 1 },
-          { "q": "「桌面上」用哪个词？", "options": ["on", "in", "at"], "answer": 0, "explain": "桌面是面——on the table。", "level": 1 },
-          { "q": "「盒子里」用哪个词？", "options": ["in", "on", "at"], "answer": 0, "explain": "盒子就是盒子——in the box。", "level": 1 },
-          { "q": "「车站」（等人）用哪个词？", "options": ["at", "on", "in"], "answer": 0, "explain": "车站是地图上的一个点——at the station。", "level": 1 },
-          { "q": "「墙上」用哪个词？", "options": ["on", "in", "at"], "answer": 0, "explain": "墙是竖起来的面——on the wall。", "level": 1 },
-          { "q": "「房间里」用哪个词？", "options": ["in", "on", "at"], "answer": 0, "explain": "房间是装人的盒子——in the room。", "level": 1 }
+          {
+            "q": "「8 点整」是什么形状，用哪个词？",
+            "options": [
+              "点 · at",
+              "面 · on",
+              "盒子 · in"
+            ],
+            "answer": 0,
+            "explain": "时刻是时间轴上的一个点——at 8 o'clock。",
+            "level": 1
+          },
+          {
+            "q": "「星期天」是什么形状，用哪个词？",
+            "options": [
+              "面 · on",
+              "点 · at",
+              "盒子 · in"
+            ],
+            "answer": 0,
+            "explain": "星期几是日历摊开的一格面——on Sunday。",
+            "level": 1
+          },
+          {
+            "q": "「七月」是什么形状，用哪个词？",
+            "options": [
+              "盒子 · in",
+              "点 · at",
+              "面 · on"
+            ],
+            "answer": 0,
+            "explain": "月份装得下三十来天——in July。",
+            "level": 1
+          },
+          {
+            "q": "「圣诞节那天」用哪个词？",
+            "options": [
+              "on",
+              "at",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "具体的某一天是一格面——on Christmas Day。",
+            "level": 1
+          },
+          {
+            "q": "「夜里」用哪个词？",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "night 被当成一闪而过的点——at night，固定搭配。",
+            "level": 1
+          },
+          {
+            "q": "「早晨」（泛指）用哪个词？",
+            "options": [
+              "in",
+              "at",
+              "on"
+            ],
+            "answer": 0,
+            "explain": "早晨是个能装事的盒子——in the morning。",
+            "level": 1
+          },
+          {
+            "q": "「周一早晨」用哪个词？",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "钉到具体某天，盒子压成面——on Monday morning。",
+            "level": 1
+          },
+          {
+            "q": "「2026 年」用哪个词？",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "年份是最大的盒子——in 2026。",
+            "level": 1
+          },
+          {
+            "q": "「春天」用哪个词？",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "季节是大盒子——in spring。",
+            "level": 1
+          },
+          {
+            "q": "「中午」用哪个词？",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "noon 一闪而过——at noon。",
+            "level": 1
+          },
+          {
+            "q": "「我生日那天」用哪个词？",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "具体的一天——on my birthday。",
+            "level": 1
+          },
+          {
+            "q": "「桌面上」用哪个词？",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "桌面是面——on the table。",
+            "level": 1
+          },
+          {
+            "q": "「盒子里」用哪个词？",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "盒子就是盒子——in the box。",
+            "level": 1
+          },
+          {
+            "q": "「车站」（等人）用哪个词？",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "车站是地图上的一个点——at the station。",
+            "level": 1
+          },
+          {
+            "q": "「墙上」用哪个词？",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "墙是竖起来的面——on the wall。",
+            "level": 1
+          },
+          {
+            "q": "「房间里」用哪个词？",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "房间是装人的盒子——in the room。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 放对记号",
         "questions": [
-          { "q": "The concert begins ___ seven o'clock.", "options": ["at", "on", "in"], "answer": 0, "explain": "时刻=点——at。", "level": 2 },
-          { "q": "We have a music class ___ Friday.", "options": ["on", "in", "at"], "answer": 0, "explain": "星期=面——on。", "level": 2 },
-          { "q": "My birthday is ___ March.", "options": ["in", "on", "at"], "answer": 0, "explain": "月份=盒子——in。", "level": 2 },
-          { "q": "He gets up early ___ the morning.", "options": ["in", "on", "at"], "answer": 0, "explain": "泛指的早晨=盒子——in the morning。", "level": 2 },
-          { "q": "See you ___ noon!", "options": ["at", "on", "in"], "answer": 0, "explain": "正午一闪而过——at noon。", "level": 2 },
-          { "q": "The picture ___ the wall is our band photo.", "options": ["on", "in", "at"], "answer": 0, "explain": "墙面——on the wall。", "level": 2 },
-          { "q": "My flute is ___ the black case.", "options": ["in", "on", "at"], "answer": 0, "explain": "琴盒是盒子——in。", "level": 2 },
-          { "q": "Let's meet ___ the school gate.", "options": ["at", "on", "in"], "answer": 0, "explain": "校门口是个点——at the school gate。", "level": 2 },
-          { "q": "It often snows here ___ winter.", "options": ["in", "on", "at"], "answer": 0, "explain": "季节=大盒子——in winter。", "level": 2 },
-          { "q": "We visited grandma ___ Sunday morning.", "options": ["on", "in", "at"], "answer": 0, "explain": "具体某天的早晨——on。", "level": 2 },
-          { "q": "The cat is sleeping ___ the sofa.", "options": ["on", "in", "at"], "answer": 0, "explain": "沙发面上——on the sofa。", "level": 2 },
-          { "q": "The fish swim ___ the river.", "options": ["in", "on", "at"], "answer": 0, "explain": "河水是个大盒子，鱼在里面——in。", "level": 2 },
-          { "q": "I was born ___ 2015.", "options": ["in", "on", "at"], "answer": 0, "explain": "年份=最大的盒子——in 2015。", "level": 2 },
-          { "q": "The stars come out ___ night.", "options": ["at", "on", "in"], "answer": 0, "explain": "固定搭配 at night。", "level": 2 },
-          { "q": "Write your name ___ the paper.", "options": ["on", "in", "at"], "answer": 0, "explain": "纸面——on the paper。", "level": 2 },
-          { "q": "He is waiting ___ the bus stop.", "options": ["at", "on", "in"], "answer": 0, "explain": "公交站=地图上的点——at。", "level": 2 }
+          {
+            "q": "The concert begins ___ seven o'clock.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "时刻=点——at。",
+            "level": 2
+          },
+          {
+            "q": "We have a music class ___ Friday.",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "星期=面——on。",
+            "level": 2
+          },
+          {
+            "q": "My birthday is ___ March.",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "月份=盒子——in。",
+            "level": 2
+          },
+          {
+            "q": "He gets up early ___ the morning.",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "泛指的早晨=盒子——in the morning。",
+            "level": 2
+          },
+          {
+            "q": "See you ___ noon!",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "正午一闪而过——at noon。",
+            "level": 2
+          },
+          {
+            "q": "The picture ___ the wall is our band photo.",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "墙面——on the wall。",
+            "level": 2
+          },
+          {
+            "q": "My flute is ___ the black case.",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "琴盒是盒子——in。",
+            "level": 2
+          },
+          {
+            "q": "Let's meet ___ the school gate.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "校门口是个点——at the school gate。",
+            "level": 2
+          },
+          {
+            "q": "It often snows here ___ winter.",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "季节=大盒子——in winter。",
+            "level": 2
+          },
+          {
+            "q": "We visited grandma ___ Sunday morning.",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "具体某天的早晨——on。",
+            "level": 2
+          },
+          {
+            "q": "The cat is sleeping ___ the sofa.",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "沙发面上——on the sofa。",
+            "level": 2
+          },
+          {
+            "q": "The fish swim ___ the river.",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "河水是个大盒子，鱼在里面——in。",
+            "level": 2
+          },
+          {
+            "q": "I was born ___ 2015.",
+            "options": [
+              "in",
+              "on",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "年份=最大的盒子——in 2015。",
+            "level": 2
+          },
+          {
+            "q": "The stars come out ___ night.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "固定搭配 at night。",
+            "level": 2
+          },
+          {
+            "q": "Write your name ___ the paper.",
+            "options": [
+              "on",
+              "in",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "纸面——on the paper。",
+            "level": 2
+          },
+          {
+            "q": "He is waiting ___ the bus stop.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": 0,
+            "explain": "公交站=地图上的点——at。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 火眼金睛",
         "questions": [
-          { "q": "哪一句的记号是健康的？（周一的课）", "options": ["We have an English lesson on Monday.", "We have an English lesson in Monday.", "We have an English lesson at Monday."], "answer": 0, "explain": "星期几用 on。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（七点开演）", "options": ["The show starts at seven o'clock.", "The show starts on seven o'clock.", "The show starts in seven o'clock."], "answer": 0, "explain": "时刻用 at。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（四月的生日）", "options": ["My birthday is in April.", "My birthday is at April.", "My birthday is on April."], "answer": 0, "explain": "月份用 in。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（晚上看书）", "options": ["He reads books at night.", "He reads books in night.", "He reads books on night."], "answer": 0, "explain": "at night 固定搭配。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（周日早晨游泳）", "options": ["We swim on Sunday morning.", "We swim in Sunday morning.", "We swim at Sunday morning."], "answer": 0, "explain": "具体某天的早晨——on。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（墙上的画）", "options": ["The picture on the wall is new.", "The picture in the wall is new.", "The picture at the wall is new."], "answer": 0, "explain": "画贴着墙面——on；in the wall 是「埋在墙体里」。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（钥匙在桌上）", "options": ["The keys are on the table.", "The keys are in the table.", "The keys are at the table."], "answer": 0, "explain": "桌面用 on；at the table 是「坐在桌边」。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（树上的苹果）", "options": ["There are many apples on the tree.", "There are many apples in the tree.", "There are many apples at the tree."], "answer": 0, "explain": "树自己长的果子贴着树——on the tree。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（树上的鸟）", "options": ["A bird is singing in the tree.", "A bird is singing on the tree.", "A bird is singing at the tree."], "answer": 0, "explain": "鸟是外来客，钻进枝叶的盒子——in the tree。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（2015 年出生）", "options": ["She was born in 2015.", "She was born on 2015.", "She was born at 2015."], "answer": 0, "explain": "年份用 in。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（在家）", "options": ["I stayed at home yesterday.", "I stayed in home yesterday.", "I stayed on home yesterday."], "answer": 0, "explain": "home 被压缩成点——at home。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（车站等车）", "options": ["She is waiting at the bus stop.", "She is waiting on the bus stop.", "She is waiting in the bus stop."], "answer": 0, "explain": "车站是点——at；on the bus 才是「在车上」。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（新年那天）", "options": ["We visit friends on New Year's Day.", "We visit friends in New Year's Day.", "We visit friends at New Year's Day."], "answer": 0, "explain": "具体节日那天——on。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（下午有排练）", "options": ["We have a rehearsal in the afternoon.", "We have a rehearsal on the afternoon.", "We have a rehearsal at the afternoon."], "answer": 0, "explain": "泛指的下午是盒子——in the afternoon。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（门口有人敲门）", "options": ["Someone is at the door.", "Someone is on the door.", "Someone is in the door."], "answer": 0, "explain": "门口是个点——at the door。", "level": 3 },
-          { "q": "哪一句的记号是健康的？（周五晚上的电影）", "options": ["We watch films on Friday evenings.", "We watch films in Friday evenings.", "We watch films at Friday evenings."], "answer": 0, "explain": "具体某天的晚上——on Friday evenings。", "level": 3 }
+          {
+            "q": "哪一句的记号是健康的？（周一的课）",
+            "options": [
+              "We have an English lesson on Monday.",
+              "We have an English lesson in Monday.",
+              "We have an English lesson at Monday."
+            ],
+            "answer": 0,
+            "explain": "星期几用 on。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（七点开演）",
+            "options": [
+              "The show starts at seven o'clock.",
+              "The show starts on seven o'clock.",
+              "The show starts in seven o'clock."
+            ],
+            "answer": 0,
+            "explain": "时刻用 at。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（四月的生日）",
+            "options": [
+              "My birthday is in April.",
+              "My birthday is at April.",
+              "My birthday is on April."
+            ],
+            "answer": 0,
+            "explain": "月份用 in。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（晚上看书）",
+            "options": [
+              "He reads books at night.",
+              "He reads books in night.",
+              "He reads books on night."
+            ],
+            "answer": 0,
+            "explain": "at night 固定搭配。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（周日早晨游泳）",
+            "options": [
+              "We swim on Sunday morning.",
+              "We swim in Sunday morning.",
+              "We swim at Sunday morning."
+            ],
+            "answer": 0,
+            "explain": "具体某天的早晨——on。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（墙上的画）",
+            "options": [
+              "The picture on the wall is new.",
+              "The picture in the wall is new.",
+              "The picture at the wall is new."
+            ],
+            "answer": 0,
+            "explain": "画贴着墙面——on；in the wall 是「埋在墙体里」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（钥匙在桌上）",
+            "options": [
+              "The keys are on the table.",
+              "The keys are in the table.",
+              "The keys are at the table."
+            ],
+            "answer": 0,
+            "explain": "桌面用 on；at the table 是「坐在桌边」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（树上的苹果）",
+            "options": [
+              "There are many apples on the tree.",
+              "There are many apples in the tree.",
+              "There are many apples at the tree."
+            ],
+            "answer": 0,
+            "explain": "树自己长的果子贴着树——on the tree。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（树上的鸟）",
+            "options": [
+              "A bird is singing in the tree.",
+              "A bird is singing on the tree.",
+              "A bird is singing at the tree."
+            ],
+            "answer": 0,
+            "explain": "鸟是外来客，钻进枝叶的盒子——in the tree。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（2015 年出生）",
+            "options": [
+              "She was born in 2015.",
+              "She was born on 2015.",
+              "She was born at 2015."
+            ],
+            "answer": 0,
+            "explain": "年份用 in。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（在家）",
+            "options": [
+              "I stayed at home yesterday.",
+              "I stayed in home yesterday.",
+              "I stayed on home yesterday."
+            ],
+            "answer": 0,
+            "explain": "home 被压缩成点——at home。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（车站等车）",
+            "options": [
+              "She is waiting at the bus stop.",
+              "She is waiting on the bus stop.",
+              "She is waiting in the bus stop."
+            ],
+            "answer": 0,
+            "explain": "车站是点——at；on the bus 才是「在车上」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（新年那天）",
+            "options": [
+              "We visit friends on New Year's Day.",
+              "We visit friends in New Year's Day.",
+              "We visit friends at New Year's Day."
+            ],
+            "answer": 0,
+            "explain": "具体节日那天——on。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（下午有排练）",
+            "options": [
+              "We have a rehearsal in the afternoon.",
+              "We have a rehearsal on the afternoon.",
+              "We have a rehearsal at the afternoon."
+            ],
+            "answer": 0,
+            "explain": "泛指的下午是盒子——in the afternoon。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（门口有人敲门）",
+            "options": [
+              "Someone is at the door.",
+              "Someone is on the door.",
+              "Someone is in the door."
+            ],
+            "answer": 0,
+            "explain": "门口是个点——at the door。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的记号是健康的？（周五晚上的电影）",
+            "options": [
+              "We watch films on Friday evenings.",
+              "We watch films in Friday evenings.",
+              "We watch films at Friday evenings."
+            ],
+            "answer": 0,
+            "explain": "具体某天的晚上——on Friday evenings。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "巡演行程：The band meets ___ the station ___ 6:30.", "options": ["at / at", "on / at", "at / on"], "answer": 0, "explain": "车站是点、时刻是点——两个 at。", "level": 4 },
-          { "q": "___ Saturday morning, we practise ___ the music room.", "options": ["On / in", "In / in", "On / at"], "answer": 0, "explain": "具体某天早晨 on；琴房是盒子 in。", "level": 4 },
-          { "q": "The music festival is ___ July, and it opens ___ July 1st.", "options": ["in / on", "on / in", "in / at"], "answer": 0, "explain": "七月是盒子 in；7 月 1 日是具体一天 on。", "level": 4 },
-          { "q": "Put the sheets ___ the desk and the drumsticks ___ the drawer.", "options": ["on / in", "in / on", "at / in"], "answer": 0, "explain": "桌面 on；抽屉是盒子 in。", "level": 4 },
-          { "q": "Look! There's a kite ___ the tree and lots of oranges ___ it too.", "options": ["in / on", "on / in", "in / at"], "answer": 0, "explain": "风筝是外来的进盒子 in；橘子是树长的贴面 on。", "level": 4 },
-          { "q": "Dad works ___ home ___ Mondays.", "options": ["at / on", "in / on", "at / in"], "answer": 0, "explain": "at home 固定点；星期几用 on（Mondays=每周一）。", "level": 4 },
-          { "q": "The moon comes out ___ night, and the sun rises ___ the morning.", "options": ["at / in", "in / at", "on / in"], "answer": 0, "explain": "at night 是点；the morning 是盒子。", "level": 4 },
-          { "q": "My grandpa was born ___ 1958, ___ a cold winter morning.", "options": ["in / on", "in / in", "on / in"], "answer": 0, "explain": "年份 in；「一个寒冷的冬日早晨」被钉成具体的面——on。", "level": 4 },
-          { "q": "The timetable is ___ the wall: maths is ___ nine o'clock.", "options": ["on / at", "in / at", "on / on"], "answer": 0, "explain": "墙面 on；时刻 at。", "level": 4 },
-          { "q": "We arrived ___ the airport ___ noon.", "options": ["at / at", "in / at", "at / in"], "answer": 0, "explain": "机场当作一个点 at；正午 at noon。", "level": 4 },
-          { "q": "There is a concert ___ Children's Day, and it begins ___ half past six.", "options": ["on / at", "in / at", "on / in"], "answer": 0, "explain": "节日那天 on；时刻 at。", "level": 4 },
-          { "q": "The letter is ___ the envelope, and the address is ___ the envelope.", "options": ["in / on", "on / in", "in / at"], "answer": 0, "explain": "信在信封「里」in；地址写在封面「上」on——同一个信封两种形状。", "level": 4 },
-          { "q": "Snow falls here ___ winter, mostly ___ January.", "options": ["in / in", "on / in", "in / on"], "answer": 0, "explain": "季节和月份都是盒子——两个 in。", "level": 4 },
-          { "q": "— When do you practise? — ___ the evening, usually ___ seven.", "options": ["In / at", "At / at", "On / in"], "answer": 0, "explain": "泛指晚上 in the evening；七点 at seven。", "level": 4 },
-          { "q": "The singer stood ___ the stage door and signed her name ___ my ticket.", "options": ["at / on", "in / on", "at / in"], "answer": 0, "explain": "门口是点 at；票面是面 on。", "level": 4 },
-          { "q": "大考：School starts ___ September 1st ___ 8:00 ___ the morning.", "options": ["on / at / in", "in / at / on", "on / in / at"], "answer": 0, "explain": "具体日期 on；时刻 at；早晨盒子 in——三种形状一句集齐。", "level": 4 }
+          {
+            "q": "巡演行程：The band meets ___ the station ___ 6:30.",
+            "options": [
+              "at / at",
+              "on / at",
+              "at / on"
+            ],
+            "answer": 0,
+            "explain": "车站是点、时刻是点——两个 at。",
+            "level": 4
+          },
+          {
+            "q": "___ Saturday morning, we practise ___ the music room.",
+            "options": [
+              "On / in",
+              "In / in",
+              "On / at"
+            ],
+            "answer": 0,
+            "explain": "具体某天早晨 on；琴房是盒子 in。",
+            "level": 4
+          },
+          {
+            "q": "The music festival is ___ July, and it opens ___ July 1st.",
+            "options": [
+              "in / on",
+              "on / in",
+              "in / at"
+            ],
+            "answer": 0,
+            "explain": "七月是盒子 in；7 月 1 日是具体一天 on。",
+            "level": 4
+          },
+          {
+            "q": "Put the sheets ___ the desk and the drumsticks ___ the drawer.",
+            "options": [
+              "on / in",
+              "in / on",
+              "at / in"
+            ],
+            "answer": 0,
+            "explain": "桌面 on；抽屉是盒子 in。",
+            "level": 4
+          },
+          {
+            "q": "Look! There's a kite ___ the tree and lots of oranges ___ it too.",
+            "options": [
+              "in / on",
+              "on / in",
+              "in / at"
+            ],
+            "answer": 0,
+            "explain": "风筝是外来的进盒子 in；橘子是树长的贴面 on。",
+            "level": 4
+          },
+          {
+            "q": "Dad works ___ home ___ Mondays.",
+            "options": [
+              "at / on",
+              "in / on",
+              "at / in"
+            ],
+            "answer": 0,
+            "explain": "at home 固定点；星期几用 on（Mondays=每周一）。",
+            "level": 4
+          },
+          {
+            "q": "The moon comes out ___ night, and the sun rises ___ the morning.",
+            "options": [
+              "at / in",
+              "in / at",
+              "on / in"
+            ],
+            "answer": 0,
+            "explain": "at night 是点；the morning 是盒子。",
+            "level": 4
+          },
+          {
+            "q": "My grandpa was born ___ 1958, ___ a cold winter morning.",
+            "options": [
+              "in / on",
+              "in / in",
+              "on / in"
+            ],
+            "answer": 0,
+            "explain": "年份 in；「一个寒冷的冬日早晨」被钉成具体的面——on。",
+            "level": 4
+          },
+          {
+            "q": "The timetable is ___ the wall: maths is ___ nine o'clock.",
+            "options": [
+              "on / at",
+              "in / at",
+              "on / on"
+            ],
+            "answer": 0,
+            "explain": "墙面 on；时刻 at。",
+            "level": 4
+          },
+          {
+            "q": "We arrived ___ the airport ___ noon.",
+            "options": [
+              "at / at",
+              "in / at",
+              "at / in"
+            ],
+            "answer": 0,
+            "explain": "机场当作一个点 at；正午 at noon。",
+            "level": 4
+          },
+          {
+            "q": "There is a concert ___ Children's Day, and it begins ___ half past six.",
+            "options": [
+              "on / at",
+              "in / at",
+              "on / in"
+            ],
+            "answer": 0,
+            "explain": "节日那天 on；时刻 at。",
+            "level": 4
+          },
+          {
+            "q": "The letter is ___ the envelope, and the address is ___ the envelope.",
+            "options": [
+              "in / on",
+              "on / in",
+              "in / at"
+            ],
+            "answer": 0,
+            "explain": "信在信封「里」in；地址写在封面「上」on——同一个信封两种形状。",
+            "level": 4
+          },
+          {
+            "q": "Snow falls here ___ winter, mostly ___ January.",
+            "options": [
+              "in / in",
+              "on / in",
+              "in / on"
+            ],
+            "answer": 0,
+            "explain": "季节和月份都是盒子——两个 in。",
+            "level": 4
+          },
+          {
+            "q": "— When do you practise? — ___ the evening, usually ___ seven.",
+            "options": [
+              "In / at",
+              "At / at",
+              "On / in"
+            ],
+            "answer": 0,
+            "explain": "泛指晚上 in the evening；七点 at seven。",
+            "level": 4
+          },
+          {
+            "q": "The singer stood ___ the stage door and signed her name ___ my ticket.",
+            "options": [
+              "at / on",
+              "in / on",
+              "at / in"
+            ],
+            "answer": 0,
+            "explain": "门口是点 at；票面是面 on。",
+            "level": 4
+          },
+          {
+            "q": "大考：School starts ___ September 1st ___ 8:00 ___ the morning.",
+            "options": [
+              "on / at / in",
+              "in / at / on",
+              "on / in / at"
+            ],
+            "answer": 0,
+            "explain": "具体日期 on；时刻 at；早晨盒子 in——三种形状一句集齐。",
+            "level": 4
+          }
         ]
       }
     ]

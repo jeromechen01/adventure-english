@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "It was Tom that broke the cup.", "cn": "打碎杯子的是汤姆。（灯照在人身上）" },
-          { "en": "It is my dad that drives me to school.", "cn": "开车送我上学的是我爸爸。（现在的习惯用 is）" },
-          { "en": "It was yesterday that we met the writer.", "cn": "我们是昨天见到那位作家的。（灯照在时间上）" },
-          { "en": "It was in the library that I found the letter.", "cn": "我是在图书馆发现那封信的。（灯照在地点上，仍用 that）" },
-          { "en": "It was the ending that moved everyone.", "cn": "打动所有人的是结尾。（灯照在事物上）" }
+          {
+            "en": "It was Tom that broke the cup.",
+            "cn": "打碎杯子的是汤姆。（灯照在人身上）"
+          },
+          {
+            "en": "It is my dad that drives me to school.",
+            "cn": "开车送我上学的是我爸爸。（现在的习惯用 is）"
+          },
+          {
+            "en": "It was yesterday that we met the writer.",
+            "cn": "我们是昨天见到那位作家的。（灯照在时间上）"
+          },
+          {
+            "en": "It was in the library that I found the letter.",
+            "cn": "我是在图书馆发现那封信的。（灯照在地点上，仍用 that）"
+          },
+          {
+            "en": "It was the ending that moved everyone.",
+            "cn": "打动所有人的是结尾。（灯照在事物上）"
+          }
         ],
         "mid": [
-          { "en": "It was my grandma who taught me this song.", "cn": "教我这首歌的是我奶奶。（强调人可用 who）" },
-          { "en": "It is the details that make a story alive.", "cn": "让故事活起来的是细节。（that 后动词跟被强调的复数对齐）" },
-          { "en": "It was not until last month that the bridge was finished.", "cn": "直到上个月这座桥才完工。（not until 整块进光圈）" },
-          { "en": "It was because of the rain that the match was put off.", "cn": "比赛是因为下雨才推迟的。（原因也能进光圈）" },
-          { "en": "Was it you that left the window open?", "cn": "把窗户开着没关的是你吗？（灯架也能改成疑问）" }
+          {
+            "en": "It was my grandma who taught me this song.",
+            "cn": "教我这首歌的是我奶奶。（强调人可用 who）"
+          },
+          {
+            "en": "It is the details that make a story alive.",
+            "cn": "让故事活起来的是细节。（that 后动词跟被强调的复数对齐）"
+          },
+          {
+            "en": "It was not until last month that the bridge was finished.",
+            "cn": "直到上个月这座桥才完工。（not until 整块进光圈）"
+          },
+          {
+            "en": "It was because of the rain that the match was put off.",
+            "cn": "比赛是因为下雨才推迟的。（原因也能进光圈）"
+          },
+          {
+            "en": "Was it you that left the window open?",
+            "cn": "把窗户开着没关的是你吗？（灯架也能改成疑问）"
+          }
         ],
         "trap": [
-          { "en": "It was at the gate that we said goodbye.", "cn": "我们是在大门口道别的。", "note": "地点进光圈仍用 that——写 where 就从灯架变成别的从句了。" },
-          { "en": "It was on Monday that the show began.", "cn": "演出是周一开始的。", "note": "时间进光圈也用 that——不用 when。" },
-          { "en": "It is Lucy who waters the flowers every day.", "cn": "每天浇花的是露西。", "note": "原句是现在的习惯——用 It is，别看见「每天」就慌。" },
-          { "en": "He did finish the homework — check his notebook.", "cn": "他确实写完作业了——去看他本子。", "note": "强调动词不用句框，用 did + 原形。" },
-          { "en": "It was I that made the mistake.（口语常说 It was me）", "cn": "犯错的是我。", "note": "It was me that... 口语完全通行；书面 It was I 更正式，两个都算对。" },
-          { "en": "It was the twins that were singing upstairs.", "cn": "在楼上唱歌的是那对双胞胎。", "note": "that 后的动词跟被强调的主语对齐——twins 复数配 were。" }
+          {
+            "en": "It was at the gate that we said goodbye.",
+            "cn": "我们是在大门口道别的。",
+            "note": "地点进光圈仍用 that——写 where 就从灯架变成别的从句了。"
+          },
+          {
+            "en": "It was on Monday that the show began.",
+            "cn": "演出是周一开始的。",
+            "note": "时间进光圈也用 that——不用 when。"
+          },
+          {
+            "en": "It is Lucy who waters the flowers every day.",
+            "cn": "每天浇花的是露西。",
+            "note": "原句是现在的习惯——用 It is，别看见「每天」就慌。"
+          },
+          {
+            "en": "He did finish the homework — check his notebook.",
+            "cn": "他确实写完作业了——去看他本子。",
+            "note": "强调动词不用句框，用 did + 原形。"
+          },
+          {
+            "en": "It was I that made the mistake.（口语常说 It was me）",
+            "cn": "犯错的是我。",
+            "note": "It was me that... 口语完全通行；书面 It was I 更正式，两个都算对。"
+          },
+          {
+            "en": "It was the twins that were singing upstairs.",
+            "cn": "在楼上唱歌的是那对双胞胎。",
+            "note": "that 后的动词跟被强调的主语对齐——twins 复数配 were。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "灯架的两个固定零件，恰好是英语兼职最多的两个小词。it 的职务清单在 G37 已经列过一轮：真代词、天气官、占位报幕员——现在再添一行「聚光灯支架」。that 更夸张：指示词「那个」、G33 的安全带、G34 的连音线，到这一课又当上灯架的收口螺丝。为什么总是它俩？因为语言造新句式时，从不铸造新零件，只把手边用得最顺的旧零件再拧一个用途——用得越勤的词，被拧的次数越多，职务越攒越长。「越常用越不讲理」说到底是「越常用越被重用」：it 和 that 的兼职清单，就是这条定律最直观的账本。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#9333EA'>G45 · 强调句</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>打聚光灯：把某个乐手单独照亮</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#9333EA'>💡 灯架句框</text><text x='360' y='174' text-anchor='middle' font-size='16' fill='#5A4A42'>It is / was + 被照亮的部分 + that + 其余（人可用 who）</text><text x='360' y='198' text-anchor='middle' font-size='14' fill='#94A3B8'>It was Tom that broke the window. —— 事实没变，重点变了</text><rect x='36' y='226' width='648' height='120' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='260' text-anchor='middle' font-size='19' font-weight='bold' fill='#9333EA'>🔧 三条验灯规矩</text><text x='360' y='290' text-anchor='middle' font-size='15' fill='#5A4A42'>① is/was 看原句：过去 was，现在将来 is ② 时间地点照样 that（✗when ✗where）</text><text x='360' y='318' text-anchor='middle' font-size='15' fill='#5A4A42'>③ 拆架检验：摘掉 It was 和 that，剩词拼得回原句才合格</text><rect x='36' y='366' width='648' height='66' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='392' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🎯 两个特殊件</text><text x='360' y='418' text-anchor='middle' font-size='14' fill='#5A4A42'>直到才：It was not until ... that ... ｜ 强调动词进不了光圈 → He did come（G12 手势）</text><rect x='36' y='448' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='478' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ where/when 混进灯架 ✗ · 原位留代词 ✗ · which 强调人 ✗ · 丢 not ✗</text><text x='360' y='530' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 不考强调句——为初中 / PET 打底，学到就是赚到</text><text x='360' y='572' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：灯架零件 it 和 that，是英语兼职最多的两个小词 · 英语奇遇记 🦊 G45</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#9333EA'>G45 · 强调句</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>打聚光灯：把某个乐手单独照亮</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='23' font-weight='bold' fill='#9333EA'>💡 灯架句框</text><text x='360' y='174' text-anchor='middle' font-size='20' fill='#5A4A42'>It is / was + 被照亮的部分 + that + 其余（人可用 who）</text><text x='360' y='198' text-anchor='middle' font-size='18' fill='#94A3B8'>It was Tom that broke the window. —— 事实没变，重点变了</text><rect x='36' y='226' width='648' height='120' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='260' text-anchor='middle' font-size='23' font-weight='bold' fill='#9333EA'>🔧 三条验灯规矩</text><text x='360' y='290' text-anchor='middle' font-size='16' fill='#5A4A42'>① is/was 看原句：过去 was，现在将来 is ② 时间地点照样 that（✗when ✗where）</text><text x='360' y='318' text-anchor='middle' font-size='19' fill='#5A4A42'>③ 拆架检验：摘掉 It was 和 that，剩词拼得回原句才合格</text><rect x='36' y='366' width='648' height='66' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='392' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🎯 两个特殊件</text><text x='360' y='418' text-anchor='middle' font-size='14' fill='#5A4A42'>直到才：It was not until ... that ... ｜ 强调动词进不了光圈 → He did come（G12 手势）</text><rect x='36' y='448' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='478' text-anchor='middle' font-size='18' fill='#C0392B'>⚠️ where/when 混进灯架 ✗ · 原位留代词 ✗ · which 强调人 ✗ · 丢 not ✗</text><text x='360' y='530' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 不考强调句——为初中 / PET 打底，学到就是赚到</text><text x='360' y='572' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：灯架零件 it 和 that，是英语兼职最多的两个小词 · 英语奇遇记 🦊 G45</text></svg>",
     "alt": "G45 记忆卡：强调句=打追光。句框 It is/was+被强调部分+that+其余（人可用 who）；is/was 看原句时态；时间地点照样用 that 不用 when/where；拆架检验法摘框还原；not until 整块进光圈；强调动词用 do/does/did；警示 where/when 混入、原位留代词、which 强调人、丢 not 四类错误；KET 不考，为初中/PET 打底。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 灯照在哪",
         "questions": [
-          { "q": "It was Tom that broke the cup. 这束追光照在什么上？", "options": ["人（Tom）", "杯子", "时间"], "answer": 0, "explain": "光圈里站着谁，灯就照谁——Tom 被单独照亮。", "level": 1 },
-          { "q": "It was yesterday that we met the coach. 光圈里是什么？", "options": ["时间（yesterday）", "人（the coach）", "动作（met）"], "answer": 0, "explain": "It was 和 that 之间夹着的就是被照亮的——yesterday。", "level": 1 },
-          { "q": "强调句的固定句框是？", "options": ["It is/was + 被强调部分 + that + 其余", "There is/was + 名词 + that", "It is/was + that + 被强调部分"], "answer": 0, "explain": "灯架三件套：It is/was、光圈里的成分、that 收口。", "level": 1 },
-          { "q": "强调句改变句子的事实吗？", "options": ["不变——只变重点", "变——动作换了人", "变——时间挪了"], "answer": 0, "explain": "追光不改音乐——事实原样，观众的注意力换了地方。", "level": 1 },
-          { "q": "原句说的是过去的事，灯架用哪一款？", "options": ["It was", "It is", "It were"], "answer": 0, "explain": "过去款 It was，现在将来款 It is——只有这两款。", "level": 1 },
-          { "q": "被强调的是人时，that 还可以换成？", "options": ["who", "which", "where"], "answer": 0, "explain": "人可用 who——which 进不了灯架。", "level": 1 },
-          { "q": "强调地点时，收口用哪个词？", "options": ["仍然用 that", "换成 where", "换成 which"], "answer": 0, "explain": "初中最爱考的坑——时间地点进光圈，照样 that。", "level": 1 },
-          { "q": "「拆架检验法」怎么操作？", "options": ["摘掉 It is/was 和 that，看剩下的词能否拼回原句", "把 that 换成 which 试试", "数一数单词个数"], "answer": 0, "explain": "拼得回是真灯架，拼不回是别的结构。", "level": 1 },
-          { "q": "It was in the park that I lost my keys. 摘掉灯架还原成？", "options": ["I lost my keys in the park.", "The park lost my keys.", "In the park was my keys."], "answer": 0, "explain": "剩下的词严丝合缝拼回原句——检验通过。", "level": 1 },
-          { "q": "谓语动词能不能抬进 It is...that 的光圈？", "options": ["不能——强调动词要用 do/does/did", "能，直接放进去", "加 -ing 就能"], "answer": 0, "explain": "动词正在干活抬不动——请 G12 的手势 did 加重它。", "level": 1 },
-          { "q": "He did come to the meeting. 里的 did 是干什么的？", "options": ["加重 come——他「确实」来了", "表示过去疑问", "多余的词"], "answer": 0, "explain": "do/does/did + 原形是动词专用的加重器。", "level": 1 },
-          { "q": "「直到十点才回家」进光圈后，not 去哪了？", "options": ["跟着 until 走——It was not until ten that...", "留在 that 后面", "消失了"], "answer": 0, "explain": "not until 整块搬家，that 后面转回肯定。", "level": 1 },
-          { "q": "G29 的聚光灯和本课的聚光灯有什么不同？", "options": ["G29 换主语动词换装；本课只照亮不换装", "完全一样", "本课的灯要换动词"], "answer": 0, "explain": "被动是换人上句首；强调只是搭灯架，谁也不动。", "level": 1 },
-          { "q": "It is my mum that cooks dinner every day. 为什么用 It is？", "options": ["原句是现在的习惯", "mum 是单数", "cooks 有 -s"], "answer": 0, "explain": "is/was 只看原句时间——每天做饭是现在的习惯。", "level": 1 },
-          { "q": "下面哪句是强调句？", "options": ["It was the song that woke me up.", "It is a song that has three parts.", "It rains a lot in June."], "answer": 0, "explain": "拆架检验：The song woke me up ✔；第二句摘掉后拼不回完整原话——那是定语从句。", "level": 1 },
-          { "q": "强调句里 that 后面的部分要怎么处理？", "options": ["原封不动跟上，不再留被强调成分的复本", "换成疑问语序", "全部改过去时"], "answer": 0, "explain": "光圈外的乐队照常演奏——原样跟上，别留代词复本。", "level": 1 }
+          {
+            "q": "It was Tom that broke the cup. 这束追光照在什么上？",
+            "options": [
+              "人（Tom）",
+              "杯子",
+              "时间"
+            ],
+            "answer": 0,
+            "explain": "光圈里站着谁，灯就照谁——Tom 被单独照亮。",
+            "level": 1
+          },
+          {
+            "q": "It was yesterday that we met the coach. 光圈里是什么？",
+            "options": [
+              "时间（yesterday）",
+              "人（the coach）",
+              "动作（met）"
+            ],
+            "answer": 0,
+            "explain": "It was 和 that 之间夹着的就是被照亮的——yesterday。",
+            "level": 1
+          },
+          {
+            "q": "强调句的固定句框是？",
+            "options": [
+              "It is/was + 被强调部分 + that + 其余",
+              "There is/was + 名词 + that",
+              "It is/was + that + 被强调部分"
+            ],
+            "answer": 0,
+            "explain": "灯架三件套：It is/was、光圈里的成分、that 收口。",
+            "level": 1
+          },
+          {
+            "q": "强调句改变句子的事实吗？",
+            "options": [
+              "不变——只变重点",
+              "变——动作换了人",
+              "变——时间挪了"
+            ],
+            "answer": 0,
+            "explain": "追光不改音乐——事实原样，观众的注意力换了地方。",
+            "level": 1
+          },
+          {
+            "q": "原句说的是过去的事，灯架用哪一款？",
+            "options": [
+              "It was",
+              "It is",
+              "It were"
+            ],
+            "answer": 0,
+            "explain": "过去款 It was，现在将来款 It is——只有这两款。",
+            "level": 1
+          },
+          {
+            "q": "被强调的是人时，that 还可以换成？",
+            "options": [
+              "who",
+              "which",
+              "where"
+            ],
+            "answer": 0,
+            "explain": "人可用 who——which 进不了灯架。",
+            "level": 1
+          },
+          {
+            "q": "强调地点时，收口用哪个词？",
+            "options": [
+              "仍然用 that",
+              "换成 where",
+              "换成 which"
+            ],
+            "answer": 0,
+            "explain": "初中最爱考的坑——时间地点进光圈，照样 that。",
+            "level": 1
+          },
+          {
+            "q": "「拆架检验法」怎么操作？",
+            "options": [
+              "摘掉 It is/was 和 that，看剩下的词能否拼回原句",
+              "把 that 换成 which 试试",
+              "数一数单词个数"
+            ],
+            "answer": 0,
+            "explain": "拼得回是真灯架，拼不回是别的结构。",
+            "level": 1
+          },
+          {
+            "q": "It was in the park that I lost my keys. 摘掉灯架还原成？",
+            "options": [
+              "I lost my keys in the park.",
+              "The park lost my keys.",
+              "In the park was my keys."
+            ],
+            "answer": 0,
+            "explain": "剩下的词严丝合缝拼回原句——检验通过。",
+            "level": 1
+          },
+          {
+            "q": "谓语动词能不能抬进 It is...that 的光圈？",
+            "options": [
+              "不能——强调动词要用 do/does/did",
+              "能，直接放进去",
+              "加 -ing 就能"
+            ],
+            "answer": 0,
+            "explain": "动词正在干活抬不动——请 G12 的手势 did 加重它。",
+            "level": 1
+          },
+          {
+            "q": "He did come to the meeting. 里的 did 是干什么的？",
+            "options": [
+              "加重 come——他「确实」来了",
+              "表示过去疑问",
+              "多余的词"
+            ],
+            "answer": 0,
+            "explain": "do/does/did + 原形是动词专用的加重器。",
+            "level": 1
+          },
+          {
+            "q": "「直到十点才回家」进光圈后，not 去哪了？",
+            "options": [
+              "跟着 until 走——It was not until ten that...",
+              "留在 that 后面",
+              "消失了"
+            ],
+            "answer": 0,
+            "explain": "not until 整块搬家，that 后面转回肯定。",
+            "level": 1
+          },
+          {
+            "q": "G29 的聚光灯和本课的聚光灯有什么不同？",
+            "options": [
+              "G29 换主语动词换装；本课只照亮不换装",
+              "完全一样",
+              "本课的灯要换动词"
+            ],
+            "answer": 0,
+            "explain": "被动是换人上句首；强调只是搭灯架，谁也不动。",
+            "level": 1
+          },
+          {
+            "q": "It is my mum that cooks dinner every day. 为什么用 It is？",
+            "options": [
+              "原句是现在的习惯",
+              "mum 是单数",
+              "cooks 有 -s"
+            ],
+            "answer": 0,
+            "explain": "is/was 只看原句时间——每天做饭是现在的习惯。",
+            "level": 1
+          },
+          {
+            "q": "下面哪句是强调句？",
+            "options": [
+              "It was the song that woke me up.",
+              "It is a song that has three parts.",
+              "It rains a lot in June."
+            ],
+            "answer": 0,
+            "explain": "拆架检验：The song woke me up ✔；第二句摘掉后拼不回完整原话——那是定语从句。",
+            "level": 1
+          },
+          {
+            "q": "强调句里 that 后面的部分要怎么处理？",
+            "options": [
+              "原封不动跟上，不再留被强调成分的复本",
+              "换成疑问语序",
+              "全部改过去时"
+            ],
+            "answer": 0,
+            "explain": "光圈外的乐队照常演奏——原样跟上，别留代词复本。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · is 还是 was",
         "questions": [
-          { "q": "___ my deskmate that lent me the ruler just now.", "options": ["It was", "It is", "It were"], "answer": 0, "explain": "just now 是过去——It was。", "level": 2 },
-          { "q": "It ___ my grandpa that waters the plants every morning.", "options": ["is", "was", "be"], "answer": 0, "explain": "每天早上的习惯——现在款 It is。", "level": 2 },
-          { "q": "It was in the music room ___ we practised the duet.", "options": ["that", "where", "which"], "answer": 0, "explain": "地点进光圈仍用 that——where 是坑。", "level": 2 },
-          { "q": "It was on Saturday ___ the book fair opened.", "options": ["that", "when", "which"], "answer": 0, "explain": "时间进光圈也用 that——不用 when。", "level": 2 },
-          { "q": "It was Miss Gao ___ told us the good news.", "options": ["who", "which", "where"], "answer": 0, "explain": "强调人可用 who（that 也行）——which 不行。", "level": 2 },
-          { "q": "It was the noise outside ___ woke the baby.", "options": ["that", "who", "when"], "answer": 0, "explain": "强调事物用 that。", "level": 2 },
-          { "q": "It was ___ that Dad finally came home.", "options": ["not until midnight", "until midnight", "midnight until"], "answer": 0, "explain": "「直到才」整块进光圈——not until midnight。", "level": 2 },
-          { "q": "It is the small habits ___ shape our days.", "options": ["that", "when", "whose"], "answer": 0, "explain": "强调复数事物照样 that——后面动词已与复数对齐。", "level": 2 },
-          { "q": "He ___ finish the race — I watched him cross the line!", "options": ["did", "was", "is"], "answer": 0, "explain": "强调动词用 did + 原形——「确实跑完了」。", "level": 2 },
-          { "q": "___ because of the fog that our flight was delayed.", "options": ["It was", "It is", "That was"], "answer": 0, "explain": "航班延误是过去的事——It was；原因也能进光圈。", "level": 2 },
-          { "q": "It was my cousin ___ I taught to ride a bike.", "options": ["that", "which", "where"], "answer": 0, "explain": "强调宾语（人）——that/who 皆可，选 that。", "level": 2 },
-          { "q": "It ___ next Monday that the new library opens.", "options": ["is", "was", "were"], "answer": 0, "explain": "下周一是将来——现在款 It is。", "level": 2 },
-          { "q": "It was at the school gate ___ the twins said goodbye.", "options": ["that", "where", "when"], "answer": 0, "explain": "地点照样 that——拆架还原：The twins said goodbye at the school gate。", "level": 2 },
-          { "q": "It was the two pandas ___ drew the biggest crowd.", "options": ["that", "who", "when"], "answer": 0, "explain": "动物用 that；后面动词与复数对齐。", "level": 2 },
-          { "q": "She ___ lock the door — I heard the click.", "options": ["did", "was", "does"], "answer": 0, "explain": "过去的动作加重用 did——「确实锁了」。", "level": 2 },
-          { "q": "It was not until the rain stopped ___ we set off.", "options": ["that", "when", "then"], "answer": 0, "explain": "not until 的灯架照样用 that 收口。", "level": 2 }
+          {
+            "q": "___ my deskmate that lent me the ruler just now.",
+            "options": [
+              "It was",
+              "It is",
+              "It were"
+            ],
+            "answer": 0,
+            "explain": "just now 是过去——It was。",
+            "level": 2
+          },
+          {
+            "q": "It ___ my grandpa that waters the plants every morning.",
+            "options": [
+              "is",
+              "was",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "每天早上的习惯——现在款 It is。",
+            "level": 2
+          },
+          {
+            "q": "It was in the music room ___ we practised the duet.",
+            "options": [
+              "that",
+              "where",
+              "which"
+            ],
+            "answer": 0,
+            "explain": "地点进光圈仍用 that——where 是坑。",
+            "level": 2
+          },
+          {
+            "q": "It was on Saturday ___ the book fair opened.",
+            "options": [
+              "that",
+              "when",
+              "which"
+            ],
+            "answer": 0,
+            "explain": "时间进光圈也用 that——不用 when。",
+            "level": 2
+          },
+          {
+            "q": "It was Miss Gao ___ told us the good news.",
+            "options": [
+              "who",
+              "which",
+              "where"
+            ],
+            "answer": 0,
+            "explain": "强调人可用 who（that 也行）——which 不行。",
+            "level": 2
+          },
+          {
+            "q": "It was the noise outside ___ woke the baby.",
+            "options": [
+              "that",
+              "who",
+              "when"
+            ],
+            "answer": 0,
+            "explain": "强调事物用 that。",
+            "level": 2
+          },
+          {
+            "q": "It was ___ that Dad finally came home.",
+            "options": [
+              "not until midnight",
+              "until midnight",
+              "midnight until"
+            ],
+            "answer": 0,
+            "explain": "「直到才」整块进光圈——not until midnight。",
+            "level": 2
+          },
+          {
+            "q": "It is the small habits ___ shape our days.",
+            "options": [
+              "that",
+              "when",
+              "whose"
+            ],
+            "answer": 0,
+            "explain": "强调复数事物照样 that——后面动词已与复数对齐。",
+            "level": 2
+          },
+          {
+            "q": "He ___ finish the race — I watched him cross the line!",
+            "options": [
+              "did",
+              "was",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "强调动词用 did + 原形——「确实跑完了」。",
+            "level": 2
+          },
+          {
+            "q": "___ because of the fog that our flight was delayed.",
+            "options": [
+              "It was",
+              "It is",
+              "That was"
+            ],
+            "answer": 0,
+            "explain": "航班延误是过去的事——It was；原因也能进光圈。",
+            "level": 2
+          },
+          {
+            "q": "It was my cousin ___ I taught to ride a bike.",
+            "options": [
+              "that",
+              "which",
+              "where"
+            ],
+            "answer": 0,
+            "explain": "强调宾语（人）——that/who 皆可，选 that。",
+            "level": 2
+          },
+          {
+            "q": "It ___ next Monday that the new library opens.",
+            "options": [
+              "is",
+              "was",
+              "were"
+            ],
+            "answer": 0,
+            "explain": "下周一是将来——现在款 It is。",
+            "level": 2
+          },
+          {
+            "q": "It was at the school gate ___ the twins said goodbye.",
+            "options": [
+              "that",
+              "where",
+              "when"
+            ],
+            "answer": 0,
+            "explain": "地点照样 that——拆架还原：The twins said goodbye at the school gate。",
+            "level": 2
+          },
+          {
+            "q": "It was the two pandas ___ drew the biggest crowd.",
+            "options": [
+              "that",
+              "who",
+              "when"
+            ],
+            "answer": 0,
+            "explain": "动物用 that；后面动词与复数对齐。",
+            "level": 2
+          },
+          {
+            "q": "She ___ lock the door — I heard the click.",
+            "options": [
+              "did",
+              "was",
+              "does"
+            ],
+            "answer": 0,
+            "explain": "过去的动作加重用 did——「确实锁了」。",
+            "level": 2
+          },
+          {
+            "q": "It was not until the rain stopped ___ we set off.",
+            "options": [
+              "that",
+              "when",
+              "then"
+            ],
+            "answer": 0,
+            "explain": "not until 的灯架照样用 that 收口。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 验灯纠错",
         "questions": [
-          { "q": "哪句灯架搭对了？（我是在书店遇见老师的）", "options": ["It was in the bookshop that I met my teacher.", "It was in the bookshop where I met my teacher.", "It was in the bookshop which I met my teacher."], "answer": 0, "explain": "地点进光圈用 that——where/which 都是冒牌螺丝。", "level": 3 },
-          { "q": "哪句灯架搭对了？（打电话的是我姐姐）", "options": ["It was my sister that made the call.", "It was my sister which made the call.", "Was my sister that made the call."], "answer": 0, "explain": "人用 that/who；It 是灯架的地基不能丢。", "level": 3 },
-          { "q": "哪句时态选对了？（他们是去年搬来的）", "options": ["It was last year that they moved here.", "It is last year that they moved here.", "It were last year that they moved here."], "answer": 0, "explain": "去年是过去——It was。", "level": 3 },
-          { "q": "哪句写对了？（每天叫我起床的是闹钟不是妈妈）", "options": ["It is the alarm clock that wakes me up, not Mum.", "It was the alarm clock that wakes me up, not Mum.", "It is the alarm clock who wakes me up, not Mum."], "answer": 0, "explain": "现在的习惯用 It is；闹钟不是人，用 that。", "level": 3 },
-          { "q": "哪句写对了？（直到灯全灭了演出才开始）", "options": ["It was not until all the lights went out that the show began.", "It was until all the lights went out that the show began.", "It was not until all the lights went out when the show began."], "answer": 0, "explain": "not 不能丢，收口仍是 that。", "level": 3 },
-          { "q": "哪句没有多余的复本？（是这首诗打动了评委）", "options": ["It was this poem that touched the judges.", "It was this poem that it touched the judges.", "It was this poem that the poem touched the judges."], "answer": 0, "explain": "光圈外不留复本——that 后面直接接 touched。", "level": 3 },
-          { "q": "哪句主谓对齐了？（最先到的是那几个志愿者）", "options": ["It was the volunteers that were the first to arrive.", "It was the volunteers that was the first to arrive.", "It were the volunteers that were the first to arrive."], "answer": 0, "explain": "灯架永远 It was；that 后动词跟 volunteers 对齐用 were。", "level": 3 },
-          { "q": "哪句强调动词强调对了？（她确实道过歉）", "options": ["She did apologize.", "It was apologize that she did.", "She did apologized."], "answer": 0, "explain": "动词进不了光圈——did + 原形 apologize。", "level": 3 },
-          { "q": "哪句写对了？（我们是在午饭后出发的）", "options": ["It was after lunch that we set off.", "It was after lunch when we set off.", "It is after lunch that we set off."], "answer": 0, "explain": "时间进光圈用 that；出发是过去——It was。", "level": 3 },
-          { "q": "哪句拆架检验能通过？", "options": ["It was the wind that blew the door shut.", "It was the wind that the door shut.", "It was the wind that it blew the door shut."], "answer": 0, "explain": "摘框还原：The wind blew the door shut ✔——另两句拼不回完整原句。", "level": 3 },
-          { "q": "哪句写对了？（教我折纸鹤的是外婆）", "options": ["It was my grandma who showed me how to fold paper cranes.", "It was my grandma when showed me how to fold paper cranes.", "It was my grandma which showed me how to fold paper cranes."], "answer": 0, "explain": "人进光圈——who/that 二选一。", "level": 3 },
-          { "q": "哪句写对了？（是下周五交读书报告）", "options": ["It is next Friday that the book reports are due.", "It was next Friday that the book reports are due.", "It is next Friday when the book reports are due."], "answer": 0, "explain": "下周五是将来——It is；收口 that。", "level": 3 },
-          { "q": "哪句写对了？（比赛是因为大雪才取消的）", "options": ["It was because of the heavy snow that the race was called off.", "It was because of the heavy snow why the race was called off.", "It was because of the heavy snow which the race was called off."], "answer": 0, "explain": "原因进光圈照样 that 收口。", "level": 3 },
-          { "q": "哪句两种强调没混用？（他确实是昨天来的）", "options": ["It was yesterday that he came.", "It was yesterday that he did came.", "It was yesterday that he did come came."], "answer": 0, "explain": "灯架和 did 二选一——that 后保持原样 he came。", "level": 3 },
-          { "q": "哪句写对了？（在门口等你的是快递员）", "options": ["It is the delivery man that is waiting for you at the door.", "It is the delivery man that waiting for you at the door.", "Is the delivery man that is waiting at the door."], "answer": 0, "explain": "that 后要有完整谓语 is waiting；It 地基不能丢。", "level": 3 },
-          { "q": "哪句写对了？（直到今天早上我才发现字条）", "options": ["It was not until this morning that I found the note.", "It was not until this morning when I found the note.", "It is not until this morning that I found the note."], "answer": 0, "explain": "发现是过去——It was；not until + that 一件不能少。", "level": 3 }
+          {
+            "q": "哪句灯架搭对了？（我是在书店遇见老师的）",
+            "options": [
+              "It was in the bookshop that I met my teacher.",
+              "It was in the bookshop where I met my teacher.",
+              "It was in the bookshop which I met my teacher."
+            ],
+            "answer": 0,
+            "explain": "地点进光圈用 that——where/which 都是冒牌螺丝。",
+            "level": 3
+          },
+          {
+            "q": "哪句灯架搭对了？（打电话的是我姐姐）",
+            "options": [
+              "It was my sister that made the call.",
+              "It was my sister which made the call.",
+              "Was my sister that made the call."
+            ],
+            "answer": 0,
+            "explain": "人用 that/who；It 是灯架的地基不能丢。",
+            "level": 3
+          },
+          {
+            "q": "哪句时态选对了？（他们是去年搬来的）",
+            "options": [
+              "It was last year that they moved here.",
+              "It is last year that they moved here.",
+              "It were last year that they moved here."
+            ],
+            "answer": 0,
+            "explain": "去年是过去——It was。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（每天叫我起床的是闹钟不是妈妈）",
+            "options": [
+              "It is the alarm clock that wakes me up, not Mum.",
+              "It was the alarm clock that wakes me up, not Mum.",
+              "It is the alarm clock who wakes me up, not Mum."
+            ],
+            "answer": 0,
+            "explain": "现在的习惯用 It is；闹钟不是人，用 that。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（直到灯全灭了演出才开始）",
+            "options": [
+              "It was not until all the lights went out that the show began.",
+              "It was until all the lights went out that the show began.",
+              "It was not until all the lights went out when the show began."
+            ],
+            "answer": 0,
+            "explain": "not 不能丢，收口仍是 that。",
+            "level": 3
+          },
+          {
+            "q": "哪句没有多余的复本？（是这首诗打动了评委）",
+            "options": [
+              "It was this poem that touched the judges.",
+              "It was this poem that it touched the judges.",
+              "It was this poem that the poem touched the judges."
+            ],
+            "answer": 0,
+            "explain": "光圈外不留复本——that 后面直接接 touched。",
+            "level": 3
+          },
+          {
+            "q": "哪句主谓对齐了？（最先到的是那几个志愿者）",
+            "options": [
+              "It was the volunteers that were the first to arrive.",
+              "It was the volunteers that was the first to arrive.",
+              "It were the volunteers that were the first to arrive."
+            ],
+            "answer": 0,
+            "explain": "灯架永远 It was；that 后动词跟 volunteers 对齐用 were。",
+            "level": 3
+          },
+          {
+            "q": "哪句强调动词强调对了？（她确实道过歉）",
+            "options": [
+              "She did apologize.",
+              "It was apologize that she did.",
+              "She did apologized."
+            ],
+            "answer": 0,
+            "explain": "动词进不了光圈——did + 原形 apologize。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我们是在午饭后出发的）",
+            "options": [
+              "It was after lunch that we set off.",
+              "It was after lunch when we set off.",
+              "It is after lunch that we set off."
+            ],
+            "answer": 0,
+            "explain": "时间进光圈用 that；出发是过去——It was。",
+            "level": 3
+          },
+          {
+            "q": "哪句拆架检验能通过？",
+            "options": [
+              "It was the wind that blew the door shut.",
+              "It was the wind that the door shut.",
+              "It was the wind that it blew the door shut."
+            ],
+            "answer": 0,
+            "explain": "摘框还原：The wind blew the door shut ✔——另两句拼不回完整原句。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（教我折纸鹤的是外婆）",
+            "options": [
+              "It was my grandma who showed me how to fold paper cranes.",
+              "It was my grandma when showed me how to fold paper cranes.",
+              "It was my grandma which showed me how to fold paper cranes."
+            ],
+            "answer": 0,
+            "explain": "人进光圈——who/that 二选一。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（是下周五交读书报告）",
+            "options": [
+              "It is next Friday that the book reports are due.",
+              "It was next Friday that the book reports are due.",
+              "It is next Friday when the book reports are due."
+            ],
+            "answer": 0,
+            "explain": "下周五是将来——It is；收口 that。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（比赛是因为大雪才取消的）",
+            "options": [
+              "It was because of the heavy snow that the race was called off.",
+              "It was because of the heavy snow why the race was called off.",
+              "It was because of the heavy snow which the race was called off."
+            ],
+            "answer": 0,
+            "explain": "原因进光圈照样 that 收口。",
+            "level": 3
+          },
+          {
+            "q": "哪句两种强调没混用？（他确实是昨天来的）",
+            "options": [
+              "It was yesterday that he came.",
+              "It was yesterday that he did came.",
+              "It was yesterday that he did come came."
+            ],
+            "answer": 0,
+            "explain": "灯架和 did 二选一——that 后保持原样 he came。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（在门口等你的是快递员）",
+            "options": [
+              "It is the delivery man that is waiting for you at the door.",
+              "It is the delivery man that waiting for you at the door.",
+              "Is the delivery man that is waiting at the door."
+            ],
+            "answer": 0,
+            "explain": "that 后要有完整谓语 is waiting；It 地基不能丢。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（直到今天早上我才发现字条）",
+            "options": [
+              "It was not until this morning that I found the note.",
+              "It was not until this morning when I found the note.",
+              "It is not until this morning that I found the note."
+            ],
+            "answer": 0,
+            "explain": "发现是过去——It was；not until + that 一件不能少。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "老师问：到底是谁擦的黑板？你想强调是莉莉——", "options": ["It was Lily that cleaned the blackboard.", "Lily it was that cleaned the blackboard.", "It was Lily cleaned the blackboard."], "answer": 0, "explain": "标准灯架：It was + Lily + that + 其余。", "level": 4 },
-          { "q": "同学以为你在操场丢的水壶，其实是在食堂——你纠正：", "options": ["It was in the dining hall that I lost my bottle, not on the playground.", "It was in the dining hall where I lost my bottle, not on the playground.", "It was the dining hall lost my bottle."], "answer": 0, "explain": "纠正地点最适合打追光——收口仍是 that。", "level": 4 },
-          { "q": "原句：The cold water woke him up. 强调 the cold water——", "options": ["It was the cold water that woke him up.", "It was the cold water when woke him up.", "It was woke him up that the cold water."], "answer": 0, "explain": "抬主语进光圈，that 后接 woke him up。", "level": 4 },
-          { "q": "原句：We visit Grandma on Sundays. 强调 on Sundays——", "options": ["It is on Sundays that we visit Grandma.", "It was on Sundays that we visit Grandma.", "It is on Sundays when we visit Grandma."], "answer": 0, "explain": "现在的习惯用 It is；时间照样 that。", "level": 4 },
-          { "q": "妈妈不信你交了作业，你加重语气：", "options": ["I did hand in my homework!", "It was hand in that I did my homework!", "I did handed in my homework!"], "answer": 0, "explain": "强调动作——did + 原形 hand in。", "level": 4 },
-          { "q": "「直到演出结束他才看手机」——哪句对？", "options": ["It was not until the show ended that he checked his phone.", "It was until the show ended that he checked his phone.", "It was not until the show ended when he checked his phone."], "answer": 0, "explain": "not until 整块进光圈，that 收口。", "level": 4 },
-          { "q": "拆架检验：哪一句摘掉 It was 和 that 后能拼回完整原句？", "options": ["It was the map that led us out of the forest.", "It was the map that we needed a guide.", "It was the map that out of the forest."], "answer": 0, "explain": "The map led us out of the forest ✔——另两句是散架的。", "level": 4 },
-          { "q": "— Was it you ___ drew this poster? — Yes, it was me.", "options": ["that", "when", "whose"], "answer": 0, "explain": "疑问灯架照样 that 收口；答句 it was me 口语通行。", "level": 4 },
-          { "q": "原句：Grandpa planted this tree forty years ago. 强调 forty years ago——", "options": ["It was forty years ago that Grandpa planted this tree.", "It is forty years ago that Grandpa planted this tree.", "It was forty years ago when Grandpa planted this tree."], "answer": 0, "explain": "过去款 It was + 时间 + that。", "level": 4 },
-          { "q": "哪句能听出「不是别人，偏偏是校长」的味道？", "options": ["It was the headmaster himself that opened the door for us.", "The headmaster opened the door for us.", "The door was opened by the headmaster."], "answer": 0, "explain": "追光一打，「偏偏是他」的意味就出来了——第三句只是换灯（被动），重点在门。", "level": 4 },
-          { "q": "It is the quiet readers ___ often surprise us most.", "options": ["that", "when", "which"], "answer": 0, "explain": "强调人——that（或 who）。", "level": 4 },
-          { "q": "你想说「我确实每天练琴」，选哪句？", "options": ["I do practise the piano every day.", "It is practise that I do the piano.", "I do practising the piano every day."], "answer": 0, "explain": "现在的动作加重用 do + 原形。", "level": 4 },
-          { "q": "原句：The story ends in spring. 强调 in spring——", "options": ["It is in spring that the story ends.", "It was in spring that the story ends.", "It is in spring when the story ends."], "answer": 0, "explain": "故事「现在」这么写着——It is + that。", "level": 4 },
-          { "q": "哪一句不是强调句？（拆架检验）", "options": ["It is a fact that the earth goes round the sun.", "It was the sun that lit up the whole valley.", "It was this song that started the concert."], "answer": 0, "explain": "第一句摘框后 A fact the earth goes round the sun 拼不回原句——它是 It 作形式主语（G37 的老朋友）。", "level": 4 },
-          { "q": "同桌说是风吹倒了自行车，你强调其实是那只猫——", "options": ["It was the cat, not the wind, that knocked over the bike.", "It was the cat, not the wind, which knocked over the bike.", "The cat it was not the wind that knocked the bike."], "answer": 0, "explain": "对比纠正打追光——that 收口，which 进不了灯架。", "level": 4 },
-          { "q": "大考：原句 He didn't tell me the truth until yesterday. 打追光强调时间——", "options": ["It was not until yesterday that he told me the truth.", "It was until yesterday that he didn't tell me the truth.", "It was not until yesterday when he told me the truth."], "answer": 0, "explain": "not 跟着 until 进光圈，that 后转回肯定 told——三个零件一个不能错。", "level": 4 }
+          {
+            "q": "老师问：到底是谁擦的黑板？你想强调是莉莉——",
+            "options": [
+              "It was Lily that cleaned the blackboard.",
+              "Lily it was that cleaned the blackboard.",
+              "It was Lily cleaned the blackboard."
+            ],
+            "answer": 0,
+            "explain": "标准灯架：It was + Lily + that + 其余。",
+            "level": 4
+          },
+          {
+            "q": "同学以为你在操场丢的水壶，其实是在食堂——你纠正：",
+            "options": [
+              "It was in the dining hall that I lost my bottle, not on the playground.",
+              "It was in the dining hall where I lost my bottle, not on the playground.",
+              "It was the dining hall lost my bottle."
+            ],
+            "answer": 0,
+            "explain": "纠正地点最适合打追光——收口仍是 that。",
+            "level": 4
+          },
+          {
+            "q": "原句：The cold water woke him up. 强调 the cold water——",
+            "options": [
+              "It was the cold water that woke him up.",
+              "It was the cold water when woke him up.",
+              "It was woke him up that the cold water."
+            ],
+            "answer": 0,
+            "explain": "抬主语进光圈，that 后接 woke him up。",
+            "level": 4
+          },
+          {
+            "q": "原句：We visit Grandma on Sundays. 强调 on Sundays——",
+            "options": [
+              "It is on Sundays that we visit Grandma.",
+              "It was on Sundays that we visit Grandma.",
+              "It is on Sundays when we visit Grandma."
+            ],
+            "answer": 0,
+            "explain": "现在的习惯用 It is；时间照样 that。",
+            "level": 4
+          },
+          {
+            "q": "妈妈不信你交了作业，你加重语气：",
+            "options": [
+              "I did hand in my homework!",
+              "It was hand in that I did my homework!",
+              "I did handed in my homework!"
+            ],
+            "answer": 0,
+            "explain": "强调动作——did + 原形 hand in。",
+            "level": 4
+          },
+          {
+            "q": "「直到演出结束他才看手机」——哪句对？",
+            "options": [
+              "It was not until the show ended that he checked his phone.",
+              "It was until the show ended that he checked his phone.",
+              "It was not until the show ended when he checked his phone."
+            ],
+            "answer": 0,
+            "explain": "not until 整块进光圈，that 收口。",
+            "level": 4
+          },
+          {
+            "q": "拆架检验：哪一句摘掉 It was 和 that 后能拼回完整原句？",
+            "options": [
+              "It was the map that led us out of the forest.",
+              "It was the map that we needed a guide.",
+              "It was the map that out of the forest."
+            ],
+            "answer": 0,
+            "explain": "The map led us out of the forest ✔——另两句是散架的。",
+            "level": 4
+          },
+          {
+            "q": "— Was it you ___ drew this poster? — Yes, it was me.",
+            "options": [
+              "that",
+              "when",
+              "whose"
+            ],
+            "answer": 0,
+            "explain": "疑问灯架照样 that 收口；答句 it was me 口语通行。",
+            "level": 4
+          },
+          {
+            "q": "原句：Grandpa planted this tree forty years ago. 强调 forty years ago——",
+            "options": [
+              "It was forty years ago that Grandpa planted this tree.",
+              "It is forty years ago that Grandpa planted this tree.",
+              "It was forty years ago when Grandpa planted this tree."
+            ],
+            "answer": 0,
+            "explain": "过去款 It was + 时间 + that。",
+            "level": 4
+          },
+          {
+            "q": "哪句能听出「不是别人，偏偏是校长」的味道？",
+            "options": [
+              "It was the headmaster himself that opened the door for us.",
+              "The headmaster opened the door for us.",
+              "The door was opened by the headmaster."
+            ],
+            "answer": 0,
+            "explain": "追光一打，「偏偏是他」的意味就出来了——第三句只是换灯（被动），重点在门。",
+            "level": 4
+          },
+          {
+            "q": "It is the quiet readers ___ often surprise us most.",
+            "options": [
+              "that",
+              "when",
+              "which"
+            ],
+            "answer": 0,
+            "explain": "强调人——that（或 who）。",
+            "level": 4
+          },
+          {
+            "q": "你想说「我确实每天练琴」，选哪句？",
+            "options": [
+              "I do practise the piano every day.",
+              "It is practise that I do the piano.",
+              "I do practising the piano every day."
+            ],
+            "answer": 0,
+            "explain": "现在的动作加重用 do + 原形。",
+            "level": 4
+          },
+          {
+            "q": "原句：The story ends in spring. 强调 in spring——",
+            "options": [
+              "It is in spring that the story ends.",
+              "It was in spring that the story ends.",
+              "It is in spring when the story ends."
+            ],
+            "answer": 0,
+            "explain": "故事「现在」这么写着——It is + that。",
+            "level": 4
+          },
+          {
+            "q": "哪一句不是强调句？（拆架检验）",
+            "options": [
+              "It is a fact that the earth goes round the sun.",
+              "It was the sun that lit up the whole valley.",
+              "It was this song that started the concert."
+            ],
+            "answer": 0,
+            "explain": "第一句摘框后 A fact the earth goes round the sun 拼不回原句——它是 It 作形式主语（G37 的老朋友）。",
+            "level": 4
+          },
+          {
+            "q": "同桌说是风吹倒了自行车，你强调其实是那只猫——",
+            "options": [
+              "It was the cat, not the wind, that knocked over the bike.",
+              "It was the cat, not the wind, which knocked over the bike.",
+              "The cat it was not the wind that knocked the bike."
+            ],
+            "answer": 0,
+            "explain": "对比纠正打追光——that 收口，which 进不了灯架。",
+            "level": 4
+          },
+          {
+            "q": "大考：原句 He didn't tell me the truth until yesterday. 打追光强调时间——",
+            "options": [
+              "It was not until yesterday that he told me the truth.",
+              "It was until yesterday that he didn't tell me the truth.",
+              "It was not until yesterday when he told me the truth."
+            ],
+            "answer": 0,
+            "explain": "not 跟着 until 进光圈，that 后转回肯定 told——三个零件一个不能错。",
+            "level": 4
+          }
         ]
       }
     ]

@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I want to be a music teacher.", "cn": "我想当一名音乐老师。（want 报时，to be 伴奏）" },
-          { "en": "She hopes to see the sea some day.", "cn": "她希望有一天能看到大海。" },
-          { "en": "We decided to walk home.", "cn": "我们决定走路回家。" },
-          { "en": "He is learning to swim this summer.", "cn": "他今年夏天在学游泳。" },
-          { "en": "Would you like to have some tea?", "cn": "你想喝点茶吗？" }
+          {
+            "en": "I want to be a music teacher.",
+            "cn": "我想当一名音乐老师。（want 报时，to be 伴奏）"
+          },
+          {
+            "en": "She hopes to see the sea some day.",
+            "cn": "她希望有一天能看到大海。"
+          },
+          {
+            "en": "We decided to walk home.",
+            "cn": "我们决定走路回家。"
+          },
+          {
+            "en": "He is learning to swim this summer.",
+            "cn": "他今年夏天在学游泳。"
+          },
+          {
+            "en": "Would you like to have some tea?",
+            "cn": "你想喝点茶吗？"
+          }
         ],
         "mid": [
-          { "en": "The teacher told us to keep quiet.", "cn": "老师叫我们保持安静。（tell sb to do）" },
-          { "en": "I don't know what to say.", "cn": "我不知道该说什么。（疑问词 + to do）" },
-          { "en": "She went to the shop to buy some milk.", "cn": "她去商店买牛奶。（to buy 表目的）" },
-          { "en": "It's time to go to bed.", "cn": "该睡觉了。" },
-          { "en": "My parents agreed to take me to the concert.", "cn": "父母同意带我去音乐会。" }
+          {
+            "en": "The teacher told us to keep quiet.",
+            "cn": "老师叫我们保持安静。（tell sb to do）"
+          },
+          {
+            "en": "I don't know what to say.",
+            "cn": "我不知道该说什么。（疑问词 + to do）"
+          },
+          {
+            "en": "She went to the shop to buy some milk.",
+            "cn": "她去商店买牛奶。（to buy 表目的）"
+          },
+          {
+            "en": "It's time to go to bed.",
+            "cn": "该睡觉了。"
+          },
+          {
+            "en": "My parents agreed to take me to the concert.",
+            "cn": "父母同意带我去音乐会。"
+          }
         ],
         "trap": [
-          { "en": "The doctor told me not to drink cold water.", "cn": "医生叫我别喝冷水。", "note": "不定式的否定是 not to do——not 站在 to 前面。" },
-          { "en": "I have a lot of homework to do tonight.", "cn": "今晚我有很多作业要做。", "note": "to do 跟在名词后当小尾巴——「有作业要做」。" },
-          { "en": "The math problem is too hard to work out.", "cn": "这道数学题难得做不出来。", "note": "too...to 自带否定味——后面不再加 not。" },
-          { "en": "Please tell me when to start.", "cn": "请告诉我什么时候开始。", "note": "疑问词 + to do 是打包的小问题＝when I should start。" },
-          { "en": "He stopped to drink some water.", "cn": "他停下来喝了口水。", "note": "stop to do 是「停下来去做」——和 stop doing（停止做）不同，G31 细讲。" },
-          { "en": "It's important for young players to practise every day.", "cn": "对小乐手来说，每天练习很重要。", "note": "for + 人 给伴奏声部指定演奏者。" }
+          {
+            "en": "The doctor told me not to drink cold water.",
+            "cn": "医生叫我别喝冷水。",
+            "note": "不定式的否定是 not to do——not 站在 to 前面。"
+          },
+          {
+            "en": "I have a lot of homework to do tonight.",
+            "cn": "今晚我有很多作业要做。",
+            "note": "to do 跟在名词后当小尾巴——「有作业要做」。"
+          },
+          {
+            "en": "The math problem is too hard to work out.",
+            "cn": "这道数学题难得做不出来。",
+            "note": "too...to 自带否定味——后面不再加 not。"
+          },
+          {
+            "en": "Please tell me when to start.",
+            "cn": "请告诉我什么时候开始。",
+            "note": "疑问词 + to do 是打包的小问题＝when I should start。"
+          },
+          {
+            "en": "He stopped to drink some water.",
+            "cn": "他停下来喝了口水。",
+            "note": "stop to do 是「停下来去做」——和 stop doing（停止做）不同，G31 细讲。"
+          },
+          {
+            "en": "It's important for young players to practise every day.",
+            "cn": "对小乐手来说，每天练习很重要。",
+            "note": "for + 人 给伴奏声部指定演奏者。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "同一个动词，站上主奏位就要报时变形（plays / played），换上 to 的伴奏服就冻结成原形——身份一换，规则全换，像同一个乐手换了乐器就得守另一套指法。这是非谓语家族的第一张脸：G31 的 doing 把动作打包成东西，G32 的 -ing/-ed 给动作当形容词，三张脸各有各的规矩，到精修层 G46 会合到一起做总对比。规律可以先记一半：不当主奏的动词，一律不报时——英语把「报时权」看得比什么都紧，一句话只发一张报时执照。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G30 · 动词不定式 to do</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>伴奏声部：不承担时间戳的那些音</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎸 一句一个主奏报时 · 第二个动作穿 to 上台</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>I want to swim.（want 报时 ｜ to swim 永远原形，不加 -s/-ed/-ing）</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>🎼 伴奏的五种站位</text><text x='198' y='288' text-anchor='middle' font-size='14' fill='#5A4A42'>动词后：want/hope/decide to do</text><text x='522' y='288' text-anchor='middle' font-size='14' fill='#5A4A42'>叫人做：tell/ask sb to do</text><text x='198' y='316' text-anchor='middle' font-size='14' fill='#5A4A42'>疑问词后：what/how to do</text><text x='522' y='316' text-anchor='middle' font-size='14' fill='#5A4A42'>表目的：got up early to catch...</text><text x='360' y='348' text-anchor='middle' font-size='14' fill='#5A4A42'>名词小尾巴：homework to do ｜ 否定：not to do（not 站 to 前）</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>⚖️ too...to 与 enough to</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>too heavy to carry（太重搬不动，否定藏结构里）｜ old enough to go alone</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ want go ✗ · to went ✗ · to going ✗ · told me don't ✗ · too...to carry it ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只顺带见到——为初中 / PET 打底；三张非谓语的脸 G46 合流对比</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：同一动词换身份就换规则——报时权一句只发一张 · 英语奇遇记 🦊 G30</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G30 · 动词不定式 to do</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>伴奏声部：不承担时间戳的那些音</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>🎸 一句一个主奏报时 · 第二个动作穿 to 上台</text><text x='360' y='176' text-anchor='middle' font-size='19' fill='#5A4A42'>I want to swim.（want 报时 ｜ to swim 永远原形，不加 -s/-ed/-ing）</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>🎼 伴奏的五种站位</text><text x='198' y='288' text-anchor='middle' font-size='18' fill='#5A4A42'>动词后：want/hope/decide to do</text><text x='522' y='288' text-anchor='middle' font-size='18' fill='#5A4A42'>叫人做：tell/ask sb to do</text><text x='198' y='316' text-anchor='middle' font-size='18' fill='#5A4A42'>疑问词后：what/how to do</text><text x='522' y='316' text-anchor='middle' font-size='18' fill='#5A4A42'>表目的：got up early to catch...</text><text x='360' y='348' text-anchor='middle' font-size='18' fill='#5A4A42'>名词小尾巴：homework to do ｜ 否定：not to do（not 站 to 前）</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>⚖️ too...to 与 enough to</text><text x='360' y='450' text-anchor='middle' font-size='17' fill='#5A4A42'>too heavy to carry（太重搬不动，否定藏结构里）｜ old enough to go alone</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ want go ✗ · to went ✗ · to going ✗ · told me don't ✗ · too...to carry it ✗</text><text x='360' y='556' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只顺带见到——为初中 / PET 打底；三张非谓语的脸 G46 合流对比</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：同一动词换身份就换规则——报时权一句只发一张 · 英语奇遇记 🦊 G30</text></svg>",
     "alt": "G30 记忆卡：一句只有一个主奏报时，第二个动作穿 to 当伴奏且永远原形；五种站位（动词后/tell sb to do/疑问词后/表目的/名词小尾巴）；否定 not to do；too...to 与 enough to；警示 want go、to went、to going、told me don't。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 主奏与伴奏",
         "questions": [
-          { "q": "不定式的样子是？", "options": ["to + 动词原形", "to + 动词-ing", "to + 过去式"], "answer": 0, "explain": "伴奏服里永远穿原形。", "level": 1 },
-          { "q": "I want to swim. 谁在报时间？", "options": ["want（主奏）", "to swim（伴奏）", "swim"], "answer": 0, "explain": "时间戳全在主奏 want 身上。", "level": 1 },
-          { "q": "不定式会跟着时态变形吗？", "options": ["不会——伴奏不带时间戳", "会跟着主语变", "过去时要加 -ed"], "answer": 0, "explain": "He wanted to sleep.——变的只有 want。", "level": 1 },
-          { "q": "不定式的否定形式是？", "options": ["not to do", "to don't do", "no to do"], "answer": 0, "explain": "not 站在 to 前面——tell sb not to do。", "level": 1 },
-          { "q": "下面哪个动词后面爱接 to do？", "options": ["want", "enjoy", "finish"], "answer": 0, "explain": "want 指向将来接 to do；enjoy/finish 接 doing（G31 讲）。", "level": 1 },
-          { "q": "hope 后面接？", "options": ["to do", "doing", "did"], "answer": 0, "explain": "希望做的事还没发生——to do。", "level": 1 },
-          { "q": "decide 后面接？", "options": ["to do", "doing", "done"], "answer": 0, "explain": "决定要做的事指向将来——to do。", "level": 1 },
-          { "q": "tell sb ___ sth（叫某人做某事），空格填？", "options": ["to do", "doing", "do"], "answer": 0, "explain": "动词 + 人 + to do。", "level": 1 },
-          { "q": "疑问词（what / how / when）后面打包接？", "options": ["to do", "doing", "过去式"], "answer": 0, "explain": "what to do＝「该做什么」的小盒子。", "level": 1 },
-          { "q": "She got up early to catch the bus. 里 to catch 表示？", "options": ["目的（为了赶车）", "结果", "时间"], "answer": 0, "explain": "「为了」就藏在这个 to 里。", "level": 1 },
-          { "q": "too heavy to carry 的意思是？", "options": ["太重了，搬不动", "重得刚好能搬", "不重，随便搬"], "answer": 0, "explain": "too...to 自带「不能」——否定藏在结构里。", "level": 1 },
-          { "q": "old enough to go to school 的意思是？", "options": ["够大了，能上学", "太大了，不能上学", "还小，不能上学"], "answer": 0, "explain": "enough to＝足够……能。", "level": 1 },
-          { "q": "It's time ___ to bed. 空格填？", "options": ["to go", "going", "go"], "answer": 0, "explain": "It's time to do——该做某事了。", "level": 1 },
-          { "q": "Would you like ___ some tea?", "options": ["to have", "having", "have"], "answer": 0, "explain": "would like 接 to do。", "level": 1 },
-          { "q": "I have a lot of homework ___ tonight.", "options": ["to do", "doing", "done"], "answer": 0, "explain": "to do 当名词的小尾巴——「有作业要做」。", "level": 1 },
-          { "q": "learn 后面接？", "options": ["to do", "did", "does"], "answer": 0, "explain": "学着去做——learn to do。", "level": 1 }
+          {
+            "q": "不定式的样子是？",
+            "options": [
+              "to + 动词原形",
+              "to + 动词-ing",
+              "to + 过去式"
+            ],
+            "answer": 0,
+            "explain": "伴奏服里永远穿原形。",
+            "level": 1
+          },
+          {
+            "q": "I want to swim. 谁在报时间？",
+            "options": [
+              "want（主奏）",
+              "to swim（伴奏）",
+              "swim"
+            ],
+            "answer": 0,
+            "explain": "时间戳全在主奏 want 身上。",
+            "level": 1
+          },
+          {
+            "q": "不定式会跟着时态变形吗？",
+            "options": [
+              "不会——伴奏不带时间戳",
+              "会跟着主语变",
+              "过去时要加 -ed"
+            ],
+            "answer": 0,
+            "explain": "He wanted to sleep.——变的只有 want。",
+            "level": 1
+          },
+          {
+            "q": "不定式的否定形式是？",
+            "options": [
+              "not to do",
+              "to don't do",
+              "no to do"
+            ],
+            "answer": 0,
+            "explain": "not 站在 to 前面——tell sb not to do。",
+            "level": 1
+          },
+          {
+            "q": "下面哪个动词后面爱接 to do？",
+            "options": [
+              "want",
+              "enjoy",
+              "finish"
+            ],
+            "answer": 0,
+            "explain": "want 指向将来接 to do；enjoy/finish 接 doing（G31 讲）。",
+            "level": 1
+          },
+          {
+            "q": "hope 后面接？",
+            "options": [
+              "to do",
+              "doing",
+              "did"
+            ],
+            "answer": 0,
+            "explain": "希望做的事还没发生——to do。",
+            "level": 1
+          },
+          {
+            "q": "decide 后面接？",
+            "options": [
+              "to do",
+              "doing",
+              "done"
+            ],
+            "answer": 0,
+            "explain": "决定要做的事指向将来——to do。",
+            "level": 1
+          },
+          {
+            "q": "tell sb ___ sth（叫某人做某事），空格填？",
+            "options": [
+              "to do",
+              "doing",
+              "do"
+            ],
+            "answer": 0,
+            "explain": "动词 + 人 + to do。",
+            "level": 1
+          },
+          {
+            "q": "疑问词（what / how / when）后面打包接？",
+            "options": [
+              "to do",
+              "doing",
+              "过去式"
+            ],
+            "answer": 0,
+            "explain": "what to do＝「该做什么」的小盒子。",
+            "level": 1
+          },
+          {
+            "q": "She got up early to catch the bus. 里 to catch 表示？",
+            "options": [
+              "目的（为了赶车）",
+              "结果",
+              "时间"
+            ],
+            "answer": 0,
+            "explain": "「为了」就藏在这个 to 里。",
+            "level": 1
+          },
+          {
+            "q": "too heavy to carry 的意思是？",
+            "options": [
+              "太重了，搬不动",
+              "重得刚好能搬",
+              "不重，随便搬"
+            ],
+            "answer": 0,
+            "explain": "too...to 自带「不能」——否定藏在结构里。",
+            "level": 1
+          },
+          {
+            "q": "old enough to go to school 的意思是？",
+            "options": [
+              "够大了，能上学",
+              "太大了，不能上学",
+              "还小，不能上学"
+            ],
+            "answer": 0,
+            "explain": "enough to＝足够……能。",
+            "level": 1
+          },
+          {
+            "q": "It's time ___ to bed. 空格填？",
+            "options": [
+              "to go",
+              "going",
+              "go"
+            ],
+            "answer": 0,
+            "explain": "It's time to do——该做某事了。",
+            "level": 1
+          },
+          {
+            "q": "Would you like ___ some tea?",
+            "options": [
+              "to have",
+              "having",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "would like 接 to do。",
+            "level": 1
+          },
+          {
+            "q": "I have a lot of homework ___ tonight.",
+            "options": [
+              "to do",
+              "doing",
+              "done"
+            ],
+            "answer": 0,
+            "explain": "to do 当名词的小尾巴——「有作业要做」。",
+            "level": 1
+          },
+          {
+            "q": "learn 后面接？",
+            "options": [
+              "to do",
+              "did",
+              "does"
+            ],
+            "answer": 0,
+            "explain": "学着去做——learn to do。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 给伴奏穿衣",
         "questions": [
-          { "q": "I want ___ a singer when I grow up.", "options": ["to be", "being", "be"], "answer": 0, "explain": "want + to do——伴奏穿 to。", "level": 2 },
-          { "q": "She hopes ___ the sea some day.", "options": ["to see", "seeing", "sees"], "answer": 0, "explain": "hope + to do。", "level": 2 },
-          { "q": "We decided ___ home on foot.", "options": ["to walk", "walking", "walked"], "answer": 0, "explain": "decide + to do。", "level": 2 },
-          { "q": "The teacher told us ___ quiet.", "options": ["to keep", "keeping", "keep"], "answer": 0, "explain": "tell sb to do。", "level": 2 },
-          { "q": "My parents agreed ___ me to the concert.", "options": ["to take", "taking", "took"], "answer": 0, "explain": "agree + to do。", "level": 2 },
-          { "q": "I don't know what ___ next.", "options": ["to do", "doing", "did"], "answer": 0, "explain": "疑问词 + to do。", "level": 2 },
-          { "q": "She went to the shop ___ some milk.", "options": ["to buy", "buying", "bought"], "answer": 0, "explain": "表目的——to buy。", "level": 2 },
-          { "q": "He is learning ___ the drum.", "options": ["to play", "playing", "plays"], "answer": 0, "explain": "learn to do。", "level": 2 },
-          { "q": "The doctor told me ___ cold water.", "options": ["not to drink", "don't to drink", "to no drink"], "answer": 0, "explain": "否定的 not 站在 to 前面。", "level": 2 },
-          { "q": "Please tell me when ___.", "options": ["to start", "starting", "started"], "answer": 0, "explain": "when to start＝什么时候开始。", "level": 2 },
-          { "q": "It's important for us ___ every day.", "options": ["to practise", "practising", "practised"], "answer": 0, "explain": "for us 指定演奏者，后面接 to do。", "level": 2 },
-          { "q": "The box is too heavy ___.", "options": ["to carry", "carrying", "to carrying"], "answer": 0, "explain": "too...to do——否定藏在结构里。", "level": 2 },
-          { "q": "He is old enough ___ to school alone.", "options": ["to go", "going", "goes"], "answer": 0, "explain": "enough + to do。", "level": 2 },
-          { "q": "Would you like ___ with us?", "options": ["to come", "coming", "came"], "answer": 0, "explain": "would like + to do。", "level": 2 },
-          { "q": "I got up early ___ the first bus.", "options": ["to catch", "catching", "caught"], "answer": 0, "explain": "表目的——to catch。", "level": 2 },
-          { "q": "My dream is ___ a pilot.", "options": ["to become", "become", "becoming"], "answer": 0, "explain": "is 后面的动作穿 to 当表语。", "level": 2 }
+          {
+            "q": "I want ___ a singer when I grow up.",
+            "options": [
+              "to be",
+              "being",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "want + to do——伴奏穿 to。",
+            "level": 2
+          },
+          {
+            "q": "She hopes ___ the sea some day.",
+            "options": [
+              "to see",
+              "seeing",
+              "sees"
+            ],
+            "answer": 0,
+            "explain": "hope + to do。",
+            "level": 2
+          },
+          {
+            "q": "We decided ___ home on foot.",
+            "options": [
+              "to walk",
+              "walking",
+              "walked"
+            ],
+            "answer": 0,
+            "explain": "decide + to do。",
+            "level": 2
+          },
+          {
+            "q": "The teacher told us ___ quiet.",
+            "options": [
+              "to keep",
+              "keeping",
+              "keep"
+            ],
+            "answer": 0,
+            "explain": "tell sb to do。",
+            "level": 2
+          },
+          {
+            "q": "My parents agreed ___ me to the concert.",
+            "options": [
+              "to take",
+              "taking",
+              "took"
+            ],
+            "answer": 0,
+            "explain": "agree + to do。",
+            "level": 2
+          },
+          {
+            "q": "I don't know what ___ next.",
+            "options": [
+              "to do",
+              "doing",
+              "did"
+            ],
+            "answer": 0,
+            "explain": "疑问词 + to do。",
+            "level": 2
+          },
+          {
+            "q": "She went to the shop ___ some milk.",
+            "options": [
+              "to buy",
+              "buying",
+              "bought"
+            ],
+            "answer": 0,
+            "explain": "表目的——to buy。",
+            "level": 2
+          },
+          {
+            "q": "He is learning ___ the drum.",
+            "options": [
+              "to play",
+              "playing",
+              "plays"
+            ],
+            "answer": 0,
+            "explain": "learn to do。",
+            "level": 2
+          },
+          {
+            "q": "The doctor told me ___ cold water.",
+            "options": [
+              "not to drink",
+              "don't to drink",
+              "to no drink"
+            ],
+            "answer": 0,
+            "explain": "否定的 not 站在 to 前面。",
+            "level": 2
+          },
+          {
+            "q": "Please tell me when ___.",
+            "options": [
+              "to start",
+              "starting",
+              "started"
+            ],
+            "answer": 0,
+            "explain": "when to start＝什么时候开始。",
+            "level": 2
+          },
+          {
+            "q": "It's important for us ___ every day.",
+            "options": [
+              "to practise",
+              "practising",
+              "practised"
+            ],
+            "answer": 0,
+            "explain": "for us 指定演奏者，后面接 to do。",
+            "level": 2
+          },
+          {
+            "q": "The box is too heavy ___.",
+            "options": [
+              "to carry",
+              "carrying",
+              "to carrying"
+            ],
+            "answer": 0,
+            "explain": "too...to do——否定藏在结构里。",
+            "level": 2
+          },
+          {
+            "q": "He is old enough ___ to school alone.",
+            "options": [
+              "to go",
+              "going",
+              "goes"
+            ],
+            "answer": 0,
+            "explain": "enough + to do。",
+            "level": 2
+          },
+          {
+            "q": "Would you like ___ with us?",
+            "options": [
+              "to come",
+              "coming",
+              "came"
+            ],
+            "answer": 0,
+            "explain": "would like + to do。",
+            "level": 2
+          },
+          {
+            "q": "I got up early ___ the first bus.",
+            "options": [
+              "to catch",
+              "catching",
+              "caught"
+            ],
+            "answer": 0,
+            "explain": "表目的——to catch。",
+            "level": 2
+          },
+          {
+            "q": "My dream is ___ a pilot.",
+            "options": [
+              "to become",
+              "become",
+              "becoming"
+            ],
+            "answer": 0,
+            "explain": "is 后面的动作穿 to 当表语。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 穿帮的伴奏",
         "questions": [
-          { "q": "哪一句穿对了伴奏服？（我想回家）", "options": ["I want to go home.", "I want go home.", "I want to went home."], "answer": 0, "explain": "want + to + 原形——三件缺一不可。", "level": 3 },
-          { "q": "哪一句穿对了？（他决定早点出发）", "options": ["He decided to leave early.", "He decided to left early.", "He decided leave early."], "answer": 0, "explain": "to 后面永远原形 leave。", "level": 3 },
-          { "q": "哪一句穿对了？（她叫我帮忙）", "options": ["She asked me to help her.", "She asked me to helped her.", "She asked me help her."], "answer": 0, "explain": "ask sb to do——to help。", "level": 3 },
-          { "q": "哪一句穿对了？（我不知道该做什么）", "options": ["I don't know what to do.", "I don't know what to do it.", "I don't know to do what."], "answer": 0, "explain": "what 就是 do 的对象——不再补 it。", "level": 3 },
-          { "q": "哪一句穿对了？（该睡觉了）", "options": ["It's time to go to bed.", "It's time to going to bed.", "It's time go to bed."], "answer": 0, "explain": "to + 原形 go。", "level": 3 },
-          { "q": "哪一句穿对了？（他早起为了赶公交）", "options": ["He gets up early to catch the bus.", "He gets up early to catches the bus.", "He gets up early for catch the bus."], "answer": 0, "explain": "表目的用 to do——不变形，也不说 for catch。", "level": 3 },
-          { "q": "哪一句穿对了？（我的梦想是当飞行员）", "options": ["My dream is to become a pilot.", "My dream is become a pilot.", "My dream is to became a pilot."], "answer": 0, "explain": "表语位置的动作穿 to + 原形。", "level": 3 },
-          { "q": "哪一句穿对了？（箱子太重搬不动）", "options": ["The box is too heavy to carry.", "The box is too heavy to carry it.", "The box is too heavy for carry."], "answer": 0, "explain": "too...to 里箱子就是 carry 的对象——it 多余。", "level": 3 },
-          { "q": "哪一句穿对了？（医生叫我别喝冷水）", "options": ["The doctor told me not to drink cold water.", "The doctor told me don't drink cold water.", "The doctor told me to no drink cold water."], "answer": 0, "explain": "叫某人别做——not to do。", "level": 3 },
-          { "q": "哪一句穿对了？（请告诉我何时开始）", "options": ["Please tell me when to start.", "Please tell me when start.", "Please tell me when to starting."], "answer": 0, "explain": "疑问词 + to + 原形。", "level": 3 },
-          { "q": "哪一句穿对了？（今晚有很多作业要做）", "options": ["I have a lot of homework to do tonight.", "I have a lot of homework doing tonight.", "I have a lot of homework to does tonight."], "answer": 0, "explain": "homework to do——名词的小尾巴用 to + 原形。", "level": 3 },
-          { "q": "哪一句穿对了？（他停下来喝了口水）", "options": ["He stopped to drink some water.", "He stopped drink some water.", "He stopped to drank some water."], "answer": 0, "explain": "停下来去喝水——stop to do，to 后原形。", "level": 3 },
-          { "q": "哪一句穿对了？（她够大了，能自己回家）", "options": ["She is old enough to go home alone.", "She is enough old to go home alone.", "She is old enough going home alone."], "answer": 0, "explain": "形容词 + enough + to do——enough 站在形容词后面。", "level": 3 },
-          { "q": "哪一句穿对了？（你想加入我们乐队吗）", "options": ["Would you like to join our band?", "Would you like join our band?", "Would you like to joining our band?"], "answer": 0, "explain": "would like + to + 原形。", "level": 3 },
-          { "q": "哪一句穿对了？（对我们来说学好中文很重要）", "options": ["It's important for us to learn Chinese well.", "It's important for us learn Chinese well.", "It's important of us to learn Chinese well."], "answer": 0, "explain": "It's + 形容词 + for sb + to do。", "level": 3 },
-          { "q": "哪一句穿对了？（我们同意再试一次）", "options": ["We agreed to try again.", "We agreed trying again.", "We agreed to tried again."], "answer": 0, "explain": "agree + to do，to 后原形 try。", "level": 3 }
+          {
+            "q": "哪一句穿对了伴奏服？（我想回家）",
+            "options": [
+              "I want to go home.",
+              "I want go home.",
+              "I want to went home."
+            ],
+            "answer": 0,
+            "explain": "want + to + 原形——三件缺一不可。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（他决定早点出发）",
+            "options": [
+              "He decided to leave early.",
+              "He decided to left early.",
+              "He decided leave early."
+            ],
+            "answer": 0,
+            "explain": "to 后面永远原形 leave。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（她叫我帮忙）",
+            "options": [
+              "She asked me to help her.",
+              "She asked me to helped her.",
+              "She asked me help her."
+            ],
+            "answer": 0,
+            "explain": "ask sb to do——to help。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（我不知道该做什么）",
+            "options": [
+              "I don't know what to do.",
+              "I don't know what to do it.",
+              "I don't know to do what."
+            ],
+            "answer": 0,
+            "explain": "what 就是 do 的对象——不再补 it。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（该睡觉了）",
+            "options": [
+              "It's time to go to bed.",
+              "It's time to going to bed.",
+              "It's time go to bed."
+            ],
+            "answer": 0,
+            "explain": "to + 原形 go。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（他早起为了赶公交）",
+            "options": [
+              "He gets up early to catch the bus.",
+              "He gets up early to catches the bus.",
+              "He gets up early for catch the bus."
+            ],
+            "answer": 0,
+            "explain": "表目的用 to do——不变形，也不说 for catch。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（我的梦想是当飞行员）",
+            "options": [
+              "My dream is to become a pilot.",
+              "My dream is become a pilot.",
+              "My dream is to became a pilot."
+            ],
+            "answer": 0,
+            "explain": "表语位置的动作穿 to + 原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（箱子太重搬不动）",
+            "options": [
+              "The box is too heavy to carry.",
+              "The box is too heavy to carry it.",
+              "The box is too heavy for carry."
+            ],
+            "answer": 0,
+            "explain": "too...to 里箱子就是 carry 的对象——it 多余。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（医生叫我别喝冷水）",
+            "options": [
+              "The doctor told me not to drink cold water.",
+              "The doctor told me don't drink cold water.",
+              "The doctor told me to no drink cold water."
+            ],
+            "answer": 0,
+            "explain": "叫某人别做——not to do。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（请告诉我何时开始）",
+            "options": [
+              "Please tell me when to start.",
+              "Please tell me when start.",
+              "Please tell me when to starting."
+            ],
+            "answer": 0,
+            "explain": "疑问词 + to + 原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（今晚有很多作业要做）",
+            "options": [
+              "I have a lot of homework to do tonight.",
+              "I have a lot of homework doing tonight.",
+              "I have a lot of homework to does tonight."
+            ],
+            "answer": 0,
+            "explain": "homework to do——名词的小尾巴用 to + 原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（他停下来喝了口水）",
+            "options": [
+              "He stopped to drink some water.",
+              "He stopped drink some water.",
+              "He stopped to drank some water."
+            ],
+            "answer": 0,
+            "explain": "停下来去喝水——stop to do，to 后原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（她够大了，能自己回家）",
+            "options": [
+              "She is old enough to go home alone.",
+              "She is enough old to go home alone.",
+              "She is old enough going home alone."
+            ],
+            "answer": 0,
+            "explain": "形容词 + enough + to do——enough 站在形容词后面。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（你想加入我们乐队吗）",
+            "options": [
+              "Would you like to join our band?",
+              "Would you like join our band?",
+              "Would you like to joining our band?"
+            ],
+            "answer": 0,
+            "explain": "would like + to + 原形。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（对我们来说学好中文很重要）",
+            "options": [
+              "It's important for us to learn Chinese well.",
+              "It's important for us learn Chinese well.",
+              "It's important of us to learn Chinese well."
+            ],
+            "answer": 0,
+            "explain": "It's + 形容词 + for sb + to do。",
+            "level": 3
+          },
+          {
+            "q": "哪一句穿对了？（我们同意再试一次）",
+            "options": [
+              "We agreed to try again.",
+              "We agreed trying again.",
+              "We agreed to tried again."
+            ],
+            "answer": 0,
+            "explain": "agree + to do，to 后原形 try。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场合奏",
         "questions": [
-          { "q": "He wanted ___ out, but Mum told him ___ at home.", "options": ["to go / to stay", "going / to stay", "to go / staying"], "answer": 0, "explain": "want to do；tell sb to do——两件伴奏服。", "level": 4 },
-          { "q": "I stopped ___ a rest because I was too tired ___ on.", "options": ["to have / to walk", "having / walking", "to have / walking"], "answer": 0, "explain": "停下来去休息 stop to do；too...to 累得走不动。", "level": 4 },
-          { "q": "— I don't know how ___ this word. — Ask the teacher ___ you.", "options": ["to spell / to help", "spelling / to help", "to spell / helping"], "answer": 0, "explain": "how to spell 打包小问题；ask sb to do。", "level": 4 },
-          { "q": "She was happy ___ the good news, and she decided ___ her grandma at once.", "options": ["to hear / to tell", "hearing / to tell", "to hear / telling"], "answer": 0, "explain": "happy to hear；decide to do。", "level": 4 },
-          { "q": "We got to the station early ___ the train, but it was too crowded ___ on.", "options": ["to catch / to get", "catching / to get", "to catch / getting"], "answer": 0, "explain": "表目的 to catch；too...to get on 挤得上不去。", "level": 4 },
-          { "q": "The teacher asked us ___ in groups and told us ___ loudly.", "options": ["to work / not to talk", "working / not talking", "to work / to not talking"], "answer": 0, "explain": "ask sb to do；否定 not to talk。", "level": 4 },
-          { "q": "Do you know where ___ tickets? I'd like ___ two.", "options": ["to buy / to get", "buying / to get", "to buy / getting"], "answer": 0, "explain": "where to buy 打包；would like to do。", "level": 4 },
-          { "q": "He's too young ___ the film, but he's old enough ___ to the park alone.", "options": ["to watch / to go", "watching / to go", "to watch / going"], "answer": 0, "explain": "too...to 与 enough to 都接 to do。", "level": 4 },
-          { "q": "My uncle gets up at five every day ___ his shop on time.", "options": ["to open", "opening", "opens"], "answer": 0, "explain": "表目的——to open；报时的是 gets up。", "level": 4 },
-          { "q": "— What made you decide ___ the singing club? — I hope ___ braver on stage.", "options": ["to join / to become", "joining / becoming", "to join / become"], "answer": 0, "explain": "decide to do；hope to do。", "level": 4 },
-          { "q": "There is nothing ___ about — the test is easy ___.", "options": ["to worry / to pass", "worrying / passing", "to worry / passing"], "answer": 0, "explain": "nothing to worry about；easy to pass。", "level": 4 },
-          { "q": "The girl was afraid ___ in front of people, so her mother encouraged her ___ it a try.", "options": ["to speak / to give", "speaking / giving", "to speak / to gave"], "answer": 0, "explain": "afraid to do；encourage sb to do。", "level": 4 },
-          { "q": "Would you like ___ us? We plan ___ a short play.", "options": ["to join / to put on", "joining / putting on", "to join / putting on"], "answer": 0, "explain": "would like to do；plan to do。", "level": 4 },
-          { "q": "I opened the window ___ some fresh air in.", "options": ["to let", "letting", "let"], "answer": 0, "explain": "开窗的目的——to let air in。", "level": 4 },
-          { "q": "He was the first ___ at school and the last ___.", "options": ["to arrive / to leave", "arriving / leaving", "to arrive / leaving"], "answer": 0, "explain": "the first/last + to do——固定站位。", "level": 4 },
-          { "q": "大考：He turned on the light ___ his key, asked his sister ___ him, and promised ___ more careful next time.", "options": ["to look for / to help / to be", "looking for / helping / being", "to look for / to help / being"], "answer": 0, "explain": "三件伴奏服一次穿齐：目的 to look for、ask sb to do、promise to be。", "level": 4 }
+          {
+            "q": "He wanted ___ out, but Mum told him ___ at home.",
+            "options": [
+              "to go / to stay",
+              "going / to stay",
+              "to go / staying"
+            ],
+            "answer": 0,
+            "explain": "want to do；tell sb to do——两件伴奏服。",
+            "level": 4
+          },
+          {
+            "q": "I stopped ___ a rest because I was too tired ___ on.",
+            "options": [
+              "to have / to walk",
+              "having / walking",
+              "to have / walking"
+            ],
+            "answer": 0,
+            "explain": "停下来去休息 stop to do；too...to 累得走不动。",
+            "level": 4
+          },
+          {
+            "q": "— I don't know how ___ this word. — Ask the teacher ___ you.",
+            "options": [
+              "to spell / to help",
+              "spelling / to help",
+              "to spell / helping"
+            ],
+            "answer": 0,
+            "explain": "how to spell 打包小问题；ask sb to do。",
+            "level": 4
+          },
+          {
+            "q": "She was happy ___ the good news, and she decided ___ her grandma at once.",
+            "options": [
+              "to hear / to tell",
+              "hearing / to tell",
+              "to hear / telling"
+            ],
+            "answer": 0,
+            "explain": "happy to hear；decide to do。",
+            "level": 4
+          },
+          {
+            "q": "We got to the station early ___ the train, but it was too crowded ___ on.",
+            "options": [
+              "to catch / to get",
+              "catching / to get",
+              "to catch / getting"
+            ],
+            "answer": 0,
+            "explain": "表目的 to catch；too...to get on 挤得上不去。",
+            "level": 4
+          },
+          {
+            "q": "The teacher asked us ___ in groups and told us ___ loudly.",
+            "options": [
+              "to work / not to talk",
+              "working / not talking",
+              "to work / to not talking"
+            ],
+            "answer": 0,
+            "explain": "ask sb to do；否定 not to talk。",
+            "level": 4
+          },
+          {
+            "q": "Do you know where ___ tickets? I'd like ___ two.",
+            "options": [
+              "to buy / to get",
+              "buying / to get",
+              "to buy / getting"
+            ],
+            "answer": 0,
+            "explain": "where to buy 打包；would like to do。",
+            "level": 4
+          },
+          {
+            "q": "He's too young ___ the film, but he's old enough ___ to the park alone.",
+            "options": [
+              "to watch / to go",
+              "watching / to go",
+              "to watch / going"
+            ],
+            "answer": 0,
+            "explain": "too...to 与 enough to 都接 to do。",
+            "level": 4
+          },
+          {
+            "q": "My uncle gets up at five every day ___ his shop on time.",
+            "options": [
+              "to open",
+              "opening",
+              "opens"
+            ],
+            "answer": 0,
+            "explain": "表目的——to open；报时的是 gets up。",
+            "level": 4
+          },
+          {
+            "q": "— What made you decide ___ the singing club? — I hope ___ braver on stage.",
+            "options": [
+              "to join / to become",
+              "joining / becoming",
+              "to join / become"
+            ],
+            "answer": 0,
+            "explain": "decide to do；hope to do。",
+            "level": 4
+          },
+          {
+            "q": "There is nothing ___ about — the test is easy ___.",
+            "options": [
+              "to worry / to pass",
+              "worrying / passing",
+              "to worry / passing"
+            ],
+            "answer": 0,
+            "explain": "nothing to worry about；easy to pass。",
+            "level": 4
+          },
+          {
+            "q": "The girl was afraid ___ in front of people, so her mother encouraged her ___ it a try.",
+            "options": [
+              "to speak / to give",
+              "speaking / giving",
+              "to speak / to gave"
+            ],
+            "answer": 0,
+            "explain": "afraid to do；encourage sb to do。",
+            "level": 4
+          },
+          {
+            "q": "Would you like ___ us? We plan ___ a short play.",
+            "options": [
+              "to join / to put on",
+              "joining / putting on",
+              "to join / putting on"
+            ],
+            "answer": 0,
+            "explain": "would like to do；plan to do。",
+            "level": 4
+          },
+          {
+            "q": "I opened the window ___ some fresh air in.",
+            "options": [
+              "to let",
+              "letting",
+              "let"
+            ],
+            "answer": 0,
+            "explain": "开窗的目的——to let air in。",
+            "level": 4
+          },
+          {
+            "q": "He was the first ___ at school and the last ___.",
+            "options": [
+              "to arrive / to leave",
+              "arriving / leaving",
+              "to arrive / leaving"
+            ],
+            "answer": 0,
+            "explain": "the first/last + to do——固定站位。",
+            "level": 4
+          },
+          {
+            "q": "大考：He turned on the light ___ his key, asked his sister ___ him, and promised ___ more careful next time.",
+            "options": [
+              "to look for / to help / to be",
+              "looking for / helping / being",
+              "to look for / to help / being"
+            ],
+            "answer": 0,
+            "explain": "三件伴奏服一次穿齐：目的 to look for、ask sb to do、promise to be。",
+            "level": 4
+          }
         ]
       }
     ]

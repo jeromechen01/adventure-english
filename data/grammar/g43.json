@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "If I were you, I would practise every day.", "cn": "我要是你，就天天练琴。（I 也穿 were）" },
-          { "en": "If I had a million dollars, I would build a concert hall.", "cn": "假如我有一百万，就盖一座音乐厅。（没有）" },
-          { "en": "I wish I had a little sister.", "cn": "真希望我有个妹妹。（可惜没有）" },
-          { "en": "If she were here, she would help us.", "cn": "她要是在这儿，就会帮我们了。（她不在）" },
-          { "en": "I wish it were Saturday today.", "cn": "今天要是周六就好了。（可惜不是）" }
+          {
+            "en": "If I were you, I would practise every day.",
+            "cn": "我要是你，就天天练琴。（I 也穿 were）"
+          },
+          {
+            "en": "If I had a million dollars, I would build a concert hall.",
+            "cn": "假如我有一百万，就盖一座音乐厅。（没有）"
+          },
+          {
+            "en": "I wish I had a little sister.",
+            "cn": "真希望我有个妹妹。（可惜没有）"
+          },
+          {
+            "en": "If she were here, she would help us.",
+            "cn": "她要是在这儿，就会帮我们了。（她不在）"
+          },
+          {
+            "en": "I wish it were Saturday today.",
+            "cn": "今天要是周六就好了。（可惜不是）"
+          }
         ],
         "mid": [
-          { "en": "If I knew the answer, I would tell you at once.", "cn": "我要是知道答案，马上就告诉你。（其实不知道）" },
-          { "en": "If we lived near the sea, we could swim every morning.", "cn": "要是我们住在海边，每天早上都能游泳。（住不了）" },
-          { "en": "I wish I could play the violin like her.", "cn": "真希望我能拉得像她一样好。（目前不能）" },
-          { "en": "If he studied harder, he would get better grades.", "cn": "他要是再用功点，成绩会更好。（言下之意：现在不够用功）" },
-          { "en": "What would you do if you were the conductor?", "cn": "假如你是指挥，你会怎么做？（走一遍戏）" }
+          {
+            "en": "If I knew the answer, I would tell you at once.",
+            "cn": "我要是知道答案，马上就告诉你。（其实不知道）"
+          },
+          {
+            "en": "If we lived near the sea, we could swim every morning.",
+            "cn": "要是我们住在海边，每天早上都能游泳。（住不了）"
+          },
+          {
+            "en": "I wish I could play the violin like her.",
+            "cn": "真希望我能拉得像她一样好。（目前不能）"
+          },
+          {
+            "en": "If he studied harder, he would get better grades.",
+            "cn": "他要是再用功点，成绩会更好。（言下之意：现在不够用功）"
+          },
+          {
+            "en": "What would you do if you were the conductor?",
+            "cn": "假如你是指挥，你会怎么做？（走一遍戏）"
+          }
         ],
         "trap": [
-          { "en": "If it rains tomorrow, we will move the concert inside.", "cn": "明天要是下雨，音乐会就挪到室内。", "note": "明天下雨完全可能——真条件句穿常服，别看见 if 就退一步。" },
-          { "en": "If I were a bird, I would fly over the school.", "cn": "我要是一只鸟，就飞过学校上空。", "note": "人变不成鸟——空想才退一步：were + would。" },
-          { "en": "I wish I were taller.", "cn": "真希望我再高一点。（现在改不了）", "note": "wish 后面 be 穿 were；口语有人说 was，考试写 were 最稳。" },
-          { "en": "If I knew her name, I would introduce you.", "cn": "我要是知道她名字，就给你介绍了。", "note": "knew 不是「过去知道」，是「现在不知道」的礼服——退一步管真假不管时间。" },
-          { "en": "I hope you have a great trip!", "cn": "祝你旅途愉快！", "note": "能实现的祝福用 hope，不退步——用 wish + 过去式就成了「可惜去不成」。" },
-          { "en": "If I could sing well, I would join the choir.", "cn": "我要是唱得好，就加入合唱团了。", "note": "could 是 can 的退一步——「现在不能」的空想，不是过去的能力。" }
+          {
+            "en": "If it rains tomorrow, we will move the concert inside.",
+            "cn": "明天要是下雨，音乐会就挪到室内。",
+            "note": "明天下雨完全可能——真条件句穿常服，别看见 if 就退一步。"
+          },
+          {
+            "en": "If I were a bird, I would fly over the school.",
+            "cn": "我要是一只鸟，就飞过学校上空。",
+            "note": "人变不成鸟——空想才退一步：were + would。"
+          },
+          {
+            "en": "I wish I were taller.",
+            "cn": "真希望我再高一点。（现在改不了）",
+            "note": "wish 后面 be 穿 were；口语有人说 was，考试写 were 最稳。"
+          },
+          {
+            "en": "If I knew her name, I would introduce you.",
+            "cn": "我要是知道她名字，就给你介绍了。",
+            "note": "knew 不是「过去知道」，是「现在不知道」的礼服——退一步管真假不管时间。"
+          },
+          {
+            "en": "I hope you have a great trip!",
+            "cn": "祝你旅途愉快！",
+            "note": "能实现的祝福用 hope，不退步——用 wish + 过去式就成了「可惜去不成」。"
+          },
+          {
+            "en": "If I could sing well, I would join the choir.",
+            "cn": "我要是唱得好，就加入合唱团了。",
+            "note": "could 是 can 的退一步——「现在不能」的空想，不是过去的能力。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "were 这件礼服，是英语虚拟式的活化石。一千多年前，古英语每个动词都有整套专门的虚拟变形；漫长的磨损之后，普通动词的虚拟式全部塌平，跟过去式长成了一个样——只有出场率最高的 be，还独自保住了 If I were 这一件老礼服。这已经是同一条定律第三次现身：G04 里 be 三词根缝合，G13 里 went 借来不还，这里 were 独守虚拟式——越常用的词，越有资格不随大流。再看 would：它本是 will 的过去式，退一步既能表虚拟（本课），也能表客气（G38 的弱奏），还能转述过去（G40 的退一步）——「离现实远一点」这一个动作，英语用它做出了三种表情。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#9333EA'>G43 · 虚拟语气初步</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>排练时「假设走一遍」，不是真演出</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#9333EA'>🎭 先分真假</text><text x='360' y='172' text-anchor='middle' font-size='15' fill='#5A4A42'>可能发生 → If it rains, we will...（常服，G35 真条件）</text><text x='360' y='196' text-anchor='middle' font-size='15' fill='#5A4A42'>纯属空想 → If I had wings, I would fly.（礼服，退一步）</text><rect x='36' y='226' width='648' height='140' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='260' text-anchor='middle' font-size='19' font-weight='bold' fill='#9333EA'>👗 空想的礼服：退一步</text><text x='198' y='296' text-anchor='middle' font-size='15' fill='#5A4A42'>if 从句 → 过去式</text><text x='522' y='296' text-anchor='middle' font-size='15' fill='#5A4A42'>主句 → would/could + 原形</text><text x='198' y='326' text-anchor='middle' font-size='15' fill='#5A4A42'>be 一律 were（全人称）</text><text x='522' y='326' text-anchor='middle' font-size='15' fill='#5A4A42'>I wish + 过去式（愿望落空）</text><text x='360' y='354' text-anchor='middle' font-size='13' fill='#94A3B8'>退一步管的是真假，不是时间——knew = 现在不知道</text><rect x='36' y='386' width='648' height='60' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='410' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🎁 wish 与 hope 分家</text><text x='360' y='436' text-anchor='middle' font-size='14' fill='#5A4A42'>hope 盼得到（不退步）· wish 盼不到（退一步）——祝福用 hope 别用错门</text><rect x='36' y='462' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='492' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ If I am you ✗ · if 里放 would ✗ · would helps ✗ · wish I can ✗</text><text x='360' y='540' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 不考虚拟——为初中 / PET 打底，学到就是赚到</text><text x='360' y='576' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：普通动词的虚拟式全磨平了，只有最常用的 be 留住 were · 英语奇遇记 🦊 G43</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#9333EA'>G43 · 虚拟语气初步</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>排练时「假设走一遍」，不是真演出</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='23' font-weight='bold' fill='#9333EA'>🎭 先分真假</text><text x='360' y='172' text-anchor='middle' font-size='19' fill='#5A4A42'>可能发生 → If it rains, we will...（常服，G35 真条件）</text><text x='360' y='196' text-anchor='middle' font-size='19' fill='#5A4A42'>纯属空想 → If I had wings, I would fly.（礼服，退一步）</text><rect x='36' y='226' width='648' height='140' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='260' text-anchor='middle' font-size='23' font-weight='bold' fill='#9333EA'>👗 空想的礼服：退一步</text><text x='198' y='296' text-anchor='middle' font-size='19' fill='#5A4A42'>if 从句 → 过去式</text><text x='522' y='296' text-anchor='middle' font-size='19' fill='#5A4A42'>主句 → would/could + 原形</text><text x='198' y='326' text-anchor='middle' font-size='19' fill='#5A4A42'>be 一律 were（全人称）</text><text x='522' y='326' text-anchor='middle' font-size='19' fill='#5A4A42'>I wish + 过去式（愿望落空）</text><text x='360' y='354' text-anchor='middle' font-size='17' fill='#94A3B8'>退一步管的是真假，不是时间——knew = 现在不知道</text><rect x='36' y='386' width='648' height='60' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='410' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🎁 wish 与 hope 分家</text><text x='360' y='436' text-anchor='middle' font-size='18' fill='#5A4A42'>hope 盼得到（不退步）· wish 盼不到（退一步）——祝福用 hope 别用错门</text><rect x='36' y='462' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='492' text-anchor='middle' font-size='18' fill='#C0392B'>⚠️ If I am you ✗ · if 里放 would ✗ · would helps ✗ · wish I can ✗</text><text x='360' y='540' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 不考虚拟——为初中 / PET 打底，学到就是赚到</text><text x='360' y='576' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：普通动词的虚拟式全磨平了，只有最常用的 be 留住 were · 英语奇遇记 🦊 G43</text></svg>",
     "alt": "G43 记忆卡：虚拟语气=假设走一遍。先分真假：可能发生用真条件句常服，纯空想穿礼服退一步——if 从句过去式（be 一律 were），主句 would/could+原形；I wish+过去式表愿望落空；hope 盼得到、wish 盼不到；警示 If I am you、if 里放 would、would helps、wish I can 四类错误；KET 不考，为初中/PET 打底。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 真演出还是走一遍",
         "questions": [
-          { "q": "If I were you, I would practise more. 这句是真演出还是假设走一遍？", "options": ["假设走一遍——我永远变不成你", "真演出——很快会发生", "一半真一半假"], "answer": 0, "explain": "「我是你」永无可能——动词退一步穿礼服，纯属空想。", "level": 1 },
-          { "q": "If it rains tomorrow, we will stay at home. 这句是真条件还是空想？", "options": ["真条件——明天下雨完全可能", "空想——天不可能下雨", "语法错了"], "answer": 0, "explain": "可能发生的假设穿常服：if + 一般现在，主句 will（G35 的老规矩）。", "level": 1 },
-          { "q": "虚拟语气里动词「退一步」表示什么？", "options": ["这不是真的，纯属空想", "事情发生在过去", "语气更客气"], "answer": 0, "explain": "退一步是一枚「非现实」印章，管真假不管时间。", "level": 1 },
-          { "q": "虚拟语气里，be 动词不分人称一律用？", "options": ["were", "was", "be"], "answer": 0, "explain": "If I were you——这件礼服全团统一，人人穿 were。", "level": 1 },
-          { "q": "空想现在的事，主句要配哪对搭档？", "options": ["would / could + 动词原形", "will / can + 动词原形", "would / could + 过去式"], "answer": 0, "explain": "从句退一步，主句配 would/could，后面永远原形。", "level": 1 },
-          { "q": "I wish 后面的愿望，默认是什么状态？", "options": ["落空——实现不了才用 wish", "马上要实现", "已经实现了"], "answer": 0, "explain": "wish 一开口就是遗憾的调子，动词跟着退一步。", "level": 1 },
-          { "q": "「盼得到」的希望，该用哪个词开头？", "options": ["hope", "wish", "would"], "answer": 0, "explain": "hope 管能实现的盼望，不退步；wish 管落空的愿望。", "level": 1 },
-          { "q": "I wish I could fly. 里的 could 是谁退的一步？", "options": ["can", "could 本来就是原形", "will"], "answer": 0, "explain": "wish 后面全体退一步——can 退成 could，表「现在不能」。", "level": 1 },
-          { "q": "If I knew her name... 里的 knew 表示？", "options": ["我现在不知道", "我过去知道", "我马上会知道"], "answer": 0, "explain": "退一步管真假不管时间——knew 是「现在不知道」的礼服。", "level": 1 },
-          { "q": "下面哪一句是空想（虚拟语气）？", "options": ["If I had four hands, I would play two pianos.", "If you finish early, we will play chess.", "When it snows, the roof turns white."], "answer": 0, "explain": "人长不出四只手——had + would，礼服齐全。", "level": 1 },
-          { "q": "If I were the conductor, I would choose a faster song. 说话人是指挥吗？", "options": ["不是——正因为不是才这么说", "是，他正在指挥", "看不出来"], "answer": 0, "explain": "were 已经宣布「非现实」——说话人不是指挥，在走戏。", "level": 1 },
-          { "q": "「假设走一遍」的礼服穿在哪两处？", "options": ["if 从句退一步 + 主句 would/could", "只穿在 if 从句", "只穿在主句"], "answer": 0, "explain": "两边一起走戏：从句过去式，主句 would/could + 原形。", "level": 1 },
-          { "q": "I wish it were Sunday. 今天是周日吗？", "options": ["不是——wish 后面的事都落空", "是周日", "快到周日了"], "answer": 0, "explain": "wish + were 宣布愿望落空——今天偏偏不是周日。", "level": 1 },
-          { "q": "would 后面的动词该用什么形式？", "options": ["原形", "过去式", "加 -s"], "answer": 0, "explain": "报时的活儿 would 干了——后面永远原形。", "level": 1 },
-          { "q": "「If + 一般现在，主句 will」这套常服出自哪一课？", "options": ["G35 状语从句（真条件句）", "G13 一般过去时", "G29 被动语态"], "answer": 0, "explain": "真条件句是 G35 的舞台提示——本课管的是它的空想兄弟。", "level": 1 },
-          { "q": "下面哪一句用 wish 用对了？", "options": ["I wish I had a time machine.", "I wish you a nice weekend pass the exam.", "I wish to knew the answer."], "answer": 0, "explain": "时光机造不出来——wish + had，标准的落空愿望。", "level": 1 }
+          {
+            "q": "If I were you, I would practise more. 这句是真演出还是假设走一遍？",
+            "options": [
+              "假设走一遍——我永远变不成你",
+              "真演出——很快会发生",
+              "一半真一半假"
+            ],
+            "answer": 0,
+            "explain": "「我是你」永无可能——动词退一步穿礼服，纯属空想。",
+            "level": 1
+          },
+          {
+            "q": "If it rains tomorrow, we will stay at home. 这句是真条件还是空想？",
+            "options": [
+              "真条件——明天下雨完全可能",
+              "空想——天不可能下雨",
+              "语法错了"
+            ],
+            "answer": 0,
+            "explain": "可能发生的假设穿常服：if + 一般现在，主句 will（G35 的老规矩）。",
+            "level": 1
+          },
+          {
+            "q": "虚拟语气里动词「退一步」表示什么？",
+            "options": [
+              "这不是真的，纯属空想",
+              "事情发生在过去",
+              "语气更客气"
+            ],
+            "answer": 0,
+            "explain": "退一步是一枚「非现实」印章，管真假不管时间。",
+            "level": 1
+          },
+          {
+            "q": "虚拟语气里，be 动词不分人称一律用？",
+            "options": [
+              "were",
+              "was",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "If I were you——这件礼服全团统一，人人穿 were。",
+            "level": 1
+          },
+          {
+            "q": "空想现在的事，主句要配哪对搭档？",
+            "options": [
+              "would / could + 动词原形",
+              "will / can + 动词原形",
+              "would / could + 过去式"
+            ],
+            "answer": 0,
+            "explain": "从句退一步，主句配 would/could，后面永远原形。",
+            "level": 1
+          },
+          {
+            "q": "I wish 后面的愿望，默认是什么状态？",
+            "options": [
+              "落空——实现不了才用 wish",
+              "马上要实现",
+              "已经实现了"
+            ],
+            "answer": 0,
+            "explain": "wish 一开口就是遗憾的调子，动词跟着退一步。",
+            "level": 1
+          },
+          {
+            "q": "「盼得到」的希望，该用哪个词开头？",
+            "options": [
+              "hope",
+              "wish",
+              "would"
+            ],
+            "answer": 0,
+            "explain": "hope 管能实现的盼望，不退步；wish 管落空的愿望。",
+            "level": 1
+          },
+          {
+            "q": "I wish I could fly. 里的 could 是谁退的一步？",
+            "options": [
+              "can",
+              "could 本来就是原形",
+              "will"
+            ],
+            "answer": 0,
+            "explain": "wish 后面全体退一步——can 退成 could，表「现在不能」。",
+            "level": 1
+          },
+          {
+            "q": "If I knew her name... 里的 knew 表示？",
+            "options": [
+              "我现在不知道",
+              "我过去知道",
+              "我马上会知道"
+            ],
+            "answer": 0,
+            "explain": "退一步管真假不管时间——knew 是「现在不知道」的礼服。",
+            "level": 1
+          },
+          {
+            "q": "下面哪一句是空想（虚拟语气）？",
+            "options": [
+              "If I had four hands, I would play two pianos.",
+              "If you finish early, we will play chess.",
+              "When it snows, the roof turns white."
+            ],
+            "answer": 0,
+            "explain": "人长不出四只手——had + would，礼服齐全。",
+            "level": 1
+          },
+          {
+            "q": "If I were the conductor, I would choose a faster song. 说话人是指挥吗？",
+            "options": [
+              "不是——正因为不是才这么说",
+              "是，他正在指挥",
+              "看不出来"
+            ],
+            "answer": 0,
+            "explain": "were 已经宣布「非现实」——说话人不是指挥，在走戏。",
+            "level": 1
+          },
+          {
+            "q": "「假设走一遍」的礼服穿在哪两处？",
+            "options": [
+              "if 从句退一步 + 主句 would/could",
+              "只穿在 if 从句",
+              "只穿在主句"
+            ],
+            "answer": 0,
+            "explain": "两边一起走戏：从句过去式，主句 would/could + 原形。",
+            "level": 1
+          },
+          {
+            "q": "I wish it were Sunday. 今天是周日吗？",
+            "options": [
+              "不是——wish 后面的事都落空",
+              "是周日",
+              "快到周日了"
+            ],
+            "answer": 0,
+            "explain": "wish + were 宣布愿望落空——今天偏偏不是周日。",
+            "level": 1
+          },
+          {
+            "q": "would 后面的动词该用什么形式？",
+            "options": [
+              "原形",
+              "过去式",
+              "加 -s"
+            ],
+            "answer": 0,
+            "explain": "报时的活儿 would 干了——后面永远原形。",
+            "level": 1
+          },
+          {
+            "q": "「If + 一般现在，主句 will」这套常服出自哪一课？",
+            "options": [
+              "G35 状语从句（真条件句）",
+              "G13 一般过去时",
+              "G29 被动语态"
+            ],
+            "answer": 0,
+            "explain": "真条件句是 G35 的舞台提示——本课管的是它的空想兄弟。",
+            "level": 1
+          },
+          {
+            "q": "下面哪一句用 wish 用对了？",
+            "options": [
+              "I wish I had a time machine.",
+              "I wish you a nice weekend pass the exam.",
+              "I wish to knew the answer."
+            ],
+            "answer": 0,
+            "explain": "时光机造不出来——wish + had，标准的落空愿望。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 退一步穿礼服",
         "questions": [
-          { "q": "If I ___ you, I would take an umbrella.", "options": ["were", "am", "was being"], "answer": 0, "explain": "「我是你」纯属空想——be 穿全人称礼服 were。", "level": 2 },
-          { "q": "If I ___ a bird, I would fly to the sea.", "options": ["were", "am", "will be"], "answer": 0, "explain": "人变不成鸟——空想退一步，were。", "level": 2 },
-          { "q": "If she ___ here, she would know what to do.", "options": ["were", "is", "be"], "answer": 0, "explain": "她不在这儿——虚拟里 she 后面也用 were。", "level": 2 },
-          { "q": "If I had more time, I ___ learn the guitar.", "options": ["would", "will", "am going to"], "answer": 0, "explain": "从句退了一步，主句配 would——两边一起走戏。", "level": 2 },
-          { "q": "If we lived near the school, we ___ walk there every day.", "options": ["could", "can", "will"], "answer": 0, "explain": "空想的「能」——can 退成 could。", "level": 2 },
-          { "q": "I wish I ___ more free time on weekdays.", "options": ["had", "have", "will have"], "answer": 0, "explain": "wish 后面的愿望落空——have 退成 had。", "level": 2 },
-          { "q": "I wish I ___ sing as well as the lead singer.", "options": ["could", "can", "am able to"], "answer": 0, "explain": "现在唱不到那么好——can 退一步用 could。", "level": 2 },
-          { "q": "I wish today ___ my birthday.", "options": ["were", "is", "will be"], "answer": 0, "explain": "可惜今天不是生日——wish 后 be 用 were。", "level": 2 },
-          { "q": "If he ___ the answer, he would put up his hand.", "options": ["knew", "knows", "know"], "answer": 0, "explain": "他其实不会——know 退成 knew，宣布非现实。", "level": 2 },
-          { "q": "If I ___ a million dollars, I would build a library.", "options": ["had", "have", "will have"], "answer": 0, "explain": "没有一百万——had 是空想的礼服。", "level": 2 },
-          { "q": "What ___ you do if you were the headmaster for one day?", "options": ["would", "will", "do"], "answer": 0, "explain": "当一天校长是走戏——疑问句里也用 would。", "level": 2 },
-          { "q": "If it ___ tomorrow, the match will be put off.（明天真可能下雨）", "options": ["rains", "rained", "would rain"], "answer": 0, "explain": "可能发生穿常服——真条件句 if + 一般现在。", "level": 2 },
-          { "q": "I ___ you pass the driving test this Friday.（真心盼你过）", "options": ["hope", "wish", "would"], "answer": 0, "explain": "盼得到的祝福用 hope，不退步。", "level": 2 },
-          { "q": "If they were here, they ___ us move the piano.", "options": ["would help", "will help", "would helped"], "answer": 0, "explain": "would + 原形 help——报时的活儿 would 已经干了。", "level": 2 },
-          { "q": "If I ___ where the key was, I would open the door myself.", "options": ["knew", "know", "will know"], "answer": 0, "explain": "不知道钥匙在哪——knew 退一步表非现实。", "level": 2 },
-          { "q": "I wish my grandma ___ closer to us.", "options": ["lived", "lives", "will live"], "answer": 0, "explain": "奶奶住得远，改不了——live 退成 lived。", "level": 2 }
+          {
+            "q": "If I ___ you, I would take an umbrella.",
+            "options": [
+              "were",
+              "am",
+              "was being"
+            ],
+            "answer": 0,
+            "explain": "「我是你」纯属空想——be 穿全人称礼服 were。",
+            "level": 2
+          },
+          {
+            "q": "If I ___ a bird, I would fly to the sea.",
+            "options": [
+              "were",
+              "am",
+              "will be"
+            ],
+            "answer": 0,
+            "explain": "人变不成鸟——空想退一步，were。",
+            "level": 2
+          },
+          {
+            "q": "If she ___ here, she would know what to do.",
+            "options": [
+              "were",
+              "is",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "她不在这儿——虚拟里 she 后面也用 were。",
+            "level": 2
+          },
+          {
+            "q": "If I had more time, I ___ learn the guitar.",
+            "options": [
+              "would",
+              "will",
+              "am going to"
+            ],
+            "answer": 0,
+            "explain": "从句退了一步，主句配 would——两边一起走戏。",
+            "level": 2
+          },
+          {
+            "q": "If we lived near the school, we ___ walk there every day.",
+            "options": [
+              "could",
+              "can",
+              "will"
+            ],
+            "answer": 0,
+            "explain": "空想的「能」——can 退成 could。",
+            "level": 2
+          },
+          {
+            "q": "I wish I ___ more free time on weekdays.",
+            "options": [
+              "had",
+              "have",
+              "will have"
+            ],
+            "answer": 0,
+            "explain": "wish 后面的愿望落空——have 退成 had。",
+            "level": 2
+          },
+          {
+            "q": "I wish I ___ sing as well as the lead singer.",
+            "options": [
+              "could",
+              "can",
+              "am able to"
+            ],
+            "answer": 0,
+            "explain": "现在唱不到那么好——can 退一步用 could。",
+            "level": 2
+          },
+          {
+            "q": "I wish today ___ my birthday.",
+            "options": [
+              "were",
+              "is",
+              "will be"
+            ],
+            "answer": 0,
+            "explain": "可惜今天不是生日——wish 后 be 用 were。",
+            "level": 2
+          },
+          {
+            "q": "If he ___ the answer, he would put up his hand.",
+            "options": [
+              "knew",
+              "knows",
+              "know"
+            ],
+            "answer": 0,
+            "explain": "他其实不会——know 退成 knew，宣布非现实。",
+            "level": 2
+          },
+          {
+            "q": "If I ___ a million dollars, I would build a library.",
+            "options": [
+              "had",
+              "have",
+              "will have"
+            ],
+            "answer": 0,
+            "explain": "没有一百万——had 是空想的礼服。",
+            "level": 2
+          },
+          {
+            "q": "What ___ you do if you were the headmaster for one day?",
+            "options": [
+              "would",
+              "will",
+              "do"
+            ],
+            "answer": 0,
+            "explain": "当一天校长是走戏——疑问句里也用 would。",
+            "level": 2
+          },
+          {
+            "q": "If it ___ tomorrow, the match will be put off.（明天真可能下雨）",
+            "options": [
+              "rains",
+              "rained",
+              "would rain"
+            ],
+            "answer": 0,
+            "explain": "可能发生穿常服——真条件句 if + 一般现在。",
+            "level": 2
+          },
+          {
+            "q": "I ___ you pass the driving test this Friday.（真心盼你过）",
+            "options": [
+              "hope",
+              "wish",
+              "would"
+            ],
+            "answer": 0,
+            "explain": "盼得到的祝福用 hope，不退步。",
+            "level": 2
+          },
+          {
+            "q": "If they were here, they ___ us move the piano.",
+            "options": [
+              "would help",
+              "will help",
+              "would helped"
+            ],
+            "answer": 0,
+            "explain": "would + 原形 help——报时的活儿 would 已经干了。",
+            "level": 2
+          },
+          {
+            "q": "If I ___ where the key was, I would open the door myself.",
+            "options": [
+              "knew",
+              "know",
+              "will know"
+            ],
+            "answer": 0,
+            "explain": "不知道钥匙在哪——knew 退一步表非现实。",
+            "level": 2
+          },
+          {
+            "q": "I wish my grandma ___ closer to us.",
+            "options": [
+              "lived",
+              "lives",
+              "will live"
+            ],
+            "answer": 0,
+            "explain": "奶奶住得远，改不了——live 退成 lived。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 礼服纠错",
         "questions": [
-          { "q": "哪一句的礼服穿对了？（我要是你就先道歉）", "options": ["If I were you, I would say sorry first.", "If I am you, I would say sorry first.", "If I were you, I will say sorry first."], "answer": 0, "explain": "were + would 两件礼服都要穿齐——am 和 will 都是常服。", "level": 3 },
-          { "q": "哪一句说对了？（真希望我能多睡一小时）", "options": ["I wish I could sleep one more hour.", "I wish I can sleep one more hour.", "I hope I could sleep one more hour."], "answer": 0, "explain": "wish 后面 can 退成 could；hope 不跟退步的 could 搭。", "level": 3 },
-          { "q": "哪一句的 if 从句写对了？（我要是知道就告诉你）", "options": ["If I knew the answer, I would tell you.", "If I would know the answer, I would tell you.", "If I know the answer, I would tell you."], "answer": 0, "explain": "if 从句里不放 would——直接退一步用 knew。", "level": 3 },
-          { "q": "哪一句主句写对了？（她要是在，会帮我们）", "options": ["If she were here, she would help us.", "If she were here, she would helps us.", "If she were here, she helps us."], "answer": 0, "explain": "would 后面永远原形——helps 的 -s 是多报了一次时。", "level": 3 },
-          { "q": "哪一句写对了？（今天要是不上学就好了）", "options": ["I wish we didn't have school today.", "I wish we don't have school today.", "I wish we won't have school today."], "answer": 0, "explain": "wish 后面退一步——don't 退成 didn't。", "level": 3 },
-          { "q": "哪一句写对了？（明天下雨我们就取消野餐——真可能下）", "options": ["If it rains tomorrow, we will cancel the picnic.", "If it will rain tomorrow, we will cancel the picnic.", "If it rained tomorrow, we will cancel the picnic."], "answer": 0, "explain": "真条件句穿常服：if + 一般现在——if 里不放 will，也别乱退步。", "level": 3 },
-          { "q": "哪一句写对了？（我要是有钱就能买那把吉他）", "options": ["If I were rich, I could buy that guitar.", "If I were rich, I can buy that guitar.", "If I am rich, I could buy that guitar."], "answer": 0, "explain": "两边一起退：were 配 could——一边常服一边礼服就穿帮了。", "level": 3 },
-          { "q": "哪一句写对了？（祝你比赛顺利）", "options": ["I hope the match goes well for you.", "I wish the match went well for you.", "I wish the match goes well."], "answer": 0, "explain": "盼得到的祝福用 hope + 现在——wish + went 成了「可惜赢不了」。", "level": 3 },
-          { "q": "哪一句写对了？（他要是住得近点，我们就能常见面）", "options": ["If he lived nearer, we could meet more often.", "If he lives nearer, we could meet more often.", "If he lived nearer, we can meet more often."], "answer": 0, "explain": "lived + could 成套——常服礼服不混穿。", "level": 3 },
-          { "q": "哪一句写对了？（真希望现在是暑假）", "options": ["I wish it were the summer holiday now.", "I wish it is the summer holiday now.", "I hope it were the summer holiday now."], "answer": 0, "explain": "落空的愿望：wish + were；hope 不穿礼服。", "level": 3 },
-          { "q": "哪一句写对了？（你要是校长，会改什么规定？）", "options": ["If you were the headmaster, what rule would you change?", "If you are the headmaster, what rule would you change?", "If you were the headmaster, what rule will you change?"], "answer": 0, "explain": "当校长是走戏——were 与 would 配套出场。", "level": 3 },
-          { "q": "哪一句写对了？（我要是有一双翅膀就飞回家）", "options": ["If I had wings, I would fly home.", "If I have wings, I would fly home.", "If I had wings, I will fly home."], "answer": 0, "explain": "长不出翅膀——had + would，两件礼服齐。", "level": 3 },
-          { "q": "哪一句写对了？（真希望我的字写得像她一样好看）", "options": ["I wish my handwriting were as nice as hers.", "I wish my handwriting is as nice as hers.", "I wish my handwriting will be as nice as hers."], "answer": 0, "explain": "wish 后 be 穿 were——现在改不了的遗憾。", "level": 3 },
-          { "q": "哪一句写对了？（要是没有作业，我就天天练琴）", "options": ["If there were no homework, I would practise every day.", "If there is no homework, I would practise every day.", "If there were no homework, I will practise every day."], "answer": 0, "explain": "There be 也要退一步——were + would 配套。", "level": 3 },
-          { "q": "哪一句写对了？（他要是不那么忙，就会来听音乐会）", "options": ["If he weren't so busy, he would come to the concert.", "If he isn't so busy, he would come to the concert.", "If he weren't so busy, he comes to the concert."], "answer": 0, "explain": "否定也穿礼服——weren't + would。", "level": 3 },
-          { "q": "哪一句写对了？（真希望自己能帮上忙——可惜帮不上）", "options": ["I wish I could help.", "I wish I can help.", "I hope I could help."], "answer": 0, "explain": "帮不上的遗憾：wish + could；hope 后面不接退步的 could。", "level": 3 }
+          {
+            "q": "哪一句的礼服穿对了？（我要是你就先道歉）",
+            "options": [
+              "If I were you, I would say sorry first.",
+              "If I am you, I would say sorry first.",
+              "If I were you, I will say sorry first."
+            ],
+            "answer": 0,
+            "explain": "were + would 两件礼服都要穿齐——am 和 will 都是常服。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（真希望我能多睡一小时）",
+            "options": [
+              "I wish I could sleep one more hour.",
+              "I wish I can sleep one more hour.",
+              "I hope I could sleep one more hour."
+            ],
+            "answer": 0,
+            "explain": "wish 后面 can 退成 could；hope 不跟退步的 could 搭。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的 if 从句写对了？（我要是知道就告诉你）",
+            "options": [
+              "If I knew the answer, I would tell you.",
+              "If I would know the answer, I would tell you.",
+              "If I know the answer, I would tell you."
+            ],
+            "answer": 0,
+            "explain": "if 从句里不放 would——直接退一步用 knew。",
+            "level": 3
+          },
+          {
+            "q": "哪一句主句写对了？（她要是在，会帮我们）",
+            "options": [
+              "If she were here, she would help us.",
+              "If she were here, she would helps us.",
+              "If she were here, she helps us."
+            ],
+            "answer": 0,
+            "explain": "would 后面永远原形——helps 的 -s 是多报了一次时。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（今天要是不上学就好了）",
+            "options": [
+              "I wish we didn't have school today.",
+              "I wish we don't have school today.",
+              "I wish we won't have school today."
+            ],
+            "answer": 0,
+            "explain": "wish 后面退一步——don't 退成 didn't。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（明天下雨我们就取消野餐——真可能下）",
+            "options": [
+              "If it rains tomorrow, we will cancel the picnic.",
+              "If it will rain tomorrow, we will cancel the picnic.",
+              "If it rained tomorrow, we will cancel the picnic."
+            ],
+            "answer": 0,
+            "explain": "真条件句穿常服：if + 一般现在——if 里不放 will，也别乱退步。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（我要是有钱就能买那把吉他）",
+            "options": [
+              "If I were rich, I could buy that guitar.",
+              "If I were rich, I can buy that guitar.",
+              "If I am rich, I could buy that guitar."
+            ],
+            "answer": 0,
+            "explain": "两边一起退：were 配 could——一边常服一边礼服就穿帮了。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（祝你比赛顺利）",
+            "options": [
+              "I hope the match goes well for you.",
+              "I wish the match went well for you.",
+              "I wish the match goes well."
+            ],
+            "answer": 0,
+            "explain": "盼得到的祝福用 hope + 现在——wish + went 成了「可惜赢不了」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（他要是住得近点，我们就能常见面）",
+            "options": [
+              "If he lived nearer, we could meet more often.",
+              "If he lives nearer, we could meet more often.",
+              "If he lived nearer, we can meet more often."
+            ],
+            "answer": 0,
+            "explain": "lived + could 成套——常服礼服不混穿。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（真希望现在是暑假）",
+            "options": [
+              "I wish it were the summer holiday now.",
+              "I wish it is the summer holiday now.",
+              "I hope it were the summer holiday now."
+            ],
+            "answer": 0,
+            "explain": "落空的愿望：wish + were；hope 不穿礼服。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（你要是校长，会改什么规定？）",
+            "options": [
+              "If you were the headmaster, what rule would you change?",
+              "If you are the headmaster, what rule would you change?",
+              "If you were the headmaster, what rule will you change?"
+            ],
+            "answer": 0,
+            "explain": "当校长是走戏——were 与 would 配套出场。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（我要是有一双翅膀就飞回家）",
+            "options": [
+              "If I had wings, I would fly home.",
+              "If I have wings, I would fly home.",
+              "If I had wings, I will fly home."
+            ],
+            "answer": 0,
+            "explain": "长不出翅膀——had + would，两件礼服齐。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（真希望我的字写得像她一样好看）",
+            "options": [
+              "I wish my handwriting were as nice as hers.",
+              "I wish my handwriting is as nice as hers.",
+              "I wish my handwriting will be as nice as hers."
+            ],
+            "answer": 0,
+            "explain": "wish 后 be 穿 were——现在改不了的遗憾。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（要是没有作业，我就天天练琴）",
+            "options": [
+              "If there were no homework, I would practise every day.",
+              "If there is no homework, I would practise every day.",
+              "If there were no homework, I will practise every day."
+            ],
+            "answer": 0,
+            "explain": "There be 也要退一步——were + would 配套。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（他要是不那么忙，就会来听音乐会）",
+            "options": [
+              "If he weren't so busy, he would come to the concert.",
+              "If he isn't so busy, he would come to the concert.",
+              "If he weren't so busy, he comes to the concert."
+            ],
+            "answer": 0,
+            "explain": "否定也穿礼服——weren't + would。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（真希望自己能帮上忙——可惜帮不上）",
+            "options": [
+              "I wish I could help.",
+              "I wish I can help.",
+              "I hope I could help."
+            ],
+            "answer": 0,
+            "explain": "帮不上的遗憾：wish + could；hope 后面不接退步的 could。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "同桌忘带午饭很沮丧，你想给建议：「我要是你，就先给妈妈打电话。」怎么说？", "options": ["If I were you, I would call your mum first.", "If I am you, I will call your mum first.", "If I was you, I will call your mum."], "answer": 0, "explain": "给建议的高频句式——If I were you, I would...", "level": 4 },
-          { "q": "If I ___ near the concert hall, I ___ to every show.", "options": ["lived / would go", "live / will go", "lived / will go"], "answer": 0, "explain": "住不到那儿——lived 配 would go，两边一起退。", "level": 4 },
-          { "q": "朋友明天考试，你想说句吉利话，选哪句？", "options": ["I hope you do well tomorrow!", "I wish you did well tomorrow!", "If you were lucky, you would pass."], "answer": 0, "explain": "盼得到的祝福用 hope——另两句都带着「悬了」的调子。", "level": 4 },
-          { "q": "— What would you do if you ___ a whole free day? — I would read all morning.", "options": ["had", "have", "will have"], "answer": 0, "explain": "问答都在走戏——had 与 would 呼应。", "level": 4 },
-          { "q": "If our classroom ___ bigger, we ___ put a piano in it.", "options": ["were / could", "is / can", "were / can"], "answer": 0, "explain": "教室大小改不了——were 配 could 成套。", "level": 4 },
-          { "q": "看着窗外的雨，走不了了，你叹气说：", "options": ["I wish it weren't raining so hard.", "I hope it weren't raining so hard.", "I wish it isn't raining so hard."], "answer": 0, "explain": "改变不了的现状——wish + weren't。", "level": 4 },
-          { "q": "下面哪句「真假」用对了？（周五真有可能放假）", "options": ["If we have no class on Friday, we will visit the museum.", "If we had no class on Friday, we will visit the museum.", "If we have no class on Friday, we would visit the museum."], "answer": 0, "explain": "可能发生就全穿常服——have 配 will，不混搭。", "level": 4 },
-          { "q": "爷爷家太远，一年只见一次。你说：", "options": ["I wish Grandpa lived closer to us.", "I hope Grandpa lived closer to us.", "I wish Grandpa lives closer to us."], "answer": 0, "explain": "住址改不了——wish + lived。", "level": 4 },
-          { "q": "If everyone in the world ___ the same language, travelling ___ much easier.", "options": ["spoke / would be", "speaks / will be", "spoke / will be"], "answer": 0, "explain": "全世界说一种语言是空想——spoke 配 would be。", "level": 4 },
-          { "q": "— I wish I ___ taller. — You're still growing! Don't worry.", "options": ["were", "am", "will be"], "answer": 0, "explain": "此刻的身高改不了——wish + were（口语 was 也常听到，考试写 were）。", "level": 4 },
-          { "q": "选出「真条件 + 空想」都用对的一组：", "options": ["If it snows, we will make a snowman. / If I were a bird, I would fly.", "If it snowed, we will make a snowman. / If I am a bird, I would fly.", "If it snows, we would make a snowman. / If I were a bird, I will fly."], "answer": 0, "explain": "真条件穿常服（snows+will），空想穿礼服（were+would）——各归各位。", "level": 4 },
-          { "q": "If I ___ how to cook, I ___ dinner for the whole family.", "options": ["knew / would make", "know / will make", "knew / will make"], "answer": 0, "explain": "不会做饭——knew 配 would make。", "level": 4 },
-          { "q": "音乐会门票太贵买不起，你说：", "options": ["If the tickets weren't so expensive, I would go.", "If the tickets aren't so expensive, I will go.", "If the tickets weren't so expensive, I will go."], "answer": 0, "explain": "票价改不了——weren't 配 would，整套礼服。", "level": 4 },
-          { "q": "— Why don't you join the choir? — I ___ if I ___ better.", "options": ["would / sang", "will / sang", "would / sing"], "answer": 0, "explain": "言下之意「我唱得不够好」——would 配 sang。", "level": 4 },
-          { "q": "下面哪句最能听出「说话人现在没有宠物」？", "options": ["I wish I had a dog.", "I hope I have a dog.", "I will have a dog."], "answer": 0, "explain": "wish + had 宣布愿望落空——现在没有狗。", "level": 4 },
-          { "q": "大考：If I ___ you, I ___ the teacher, because if she ___ the truth tomorrow, she will understand.", "options": ["were / would tell / hears", "was / will tell / heard", "were / will tell / would hear"], "answer": 0, "explain": "前半是空想（were+would tell），后半「明天听到真相」真有可能——真条件穿常服 hears。一句里两种假设各穿各的衣服。", "level": 4 }
+          {
+            "q": "同桌忘带午饭很沮丧，你想给建议：「我要是你，就先给妈妈打电话。」怎么说？",
+            "options": [
+              "If I were you, I would call your mum first.",
+              "If I am you, I will call your mum first.",
+              "If I was you, I will call your mum."
+            ],
+            "answer": 0,
+            "explain": "给建议的高频句式——If I were you, I would...",
+            "level": 4
+          },
+          {
+            "q": "If I ___ near the concert hall, I ___ to every show.",
+            "options": [
+              "lived / would go",
+              "live / will go",
+              "lived / will go"
+            ],
+            "answer": 0,
+            "explain": "住不到那儿——lived 配 would go，两边一起退。",
+            "level": 4
+          },
+          {
+            "q": "朋友明天考试，你想说句吉利话，选哪句？",
+            "options": [
+              "I hope you do well tomorrow!",
+              "I wish you did well tomorrow!",
+              "If you were lucky, you would pass."
+            ],
+            "answer": 0,
+            "explain": "盼得到的祝福用 hope——另两句都带着「悬了」的调子。",
+            "level": 4
+          },
+          {
+            "q": "— What would you do if you ___ a whole free day? — I would read all morning.",
+            "options": [
+              "had",
+              "have",
+              "will have"
+            ],
+            "answer": 0,
+            "explain": "问答都在走戏——had 与 would 呼应。",
+            "level": 4
+          },
+          {
+            "q": "If our classroom ___ bigger, we ___ put a piano in it.",
+            "options": [
+              "were / could",
+              "is / can",
+              "were / can"
+            ],
+            "answer": 0,
+            "explain": "教室大小改不了——were 配 could 成套。",
+            "level": 4
+          },
+          {
+            "q": "看着窗外的雨，走不了了，你叹气说：",
+            "options": [
+              "I wish it weren't raining so hard.",
+              "I hope it weren't raining so hard.",
+              "I wish it isn't raining so hard."
+            ],
+            "answer": 0,
+            "explain": "改变不了的现状——wish + weren't。",
+            "level": 4
+          },
+          {
+            "q": "下面哪句「真假」用对了？（周五真有可能放假）",
+            "options": [
+              "If we have no class on Friday, we will visit the museum.",
+              "If we had no class on Friday, we will visit the museum.",
+              "If we have no class on Friday, we would visit the museum."
+            ],
+            "answer": 0,
+            "explain": "可能发生就全穿常服——have 配 will，不混搭。",
+            "level": 4
+          },
+          {
+            "q": "爷爷家太远，一年只见一次。你说：",
+            "options": [
+              "I wish Grandpa lived closer to us.",
+              "I hope Grandpa lived closer to us.",
+              "I wish Grandpa lives closer to us."
+            ],
+            "answer": 0,
+            "explain": "住址改不了——wish + lived。",
+            "level": 4
+          },
+          {
+            "q": "If everyone in the world ___ the same language, travelling ___ much easier.",
+            "options": [
+              "spoke / would be",
+              "speaks / will be",
+              "spoke / will be"
+            ],
+            "answer": 0,
+            "explain": "全世界说一种语言是空想——spoke 配 would be。",
+            "level": 4
+          },
+          {
+            "q": "— I wish I ___ taller. — You're still growing! Don't worry.",
+            "options": [
+              "were",
+              "am",
+              "will be"
+            ],
+            "answer": 0,
+            "explain": "此刻的身高改不了——wish + were（口语 was 也常听到，考试写 were）。",
+            "level": 4
+          },
+          {
+            "q": "选出「真条件 + 空想」都用对的一组：",
+            "options": [
+              "If it snows, we will make a snowman. / If I were a bird, I would fly.",
+              "If it snowed, we will make a snowman. / If I am a bird, I would fly.",
+              "If it snows, we would make a snowman. / If I were a bird, I will fly."
+            ],
+            "answer": 0,
+            "explain": "真条件穿常服（snows+will），空想穿礼服（were+would）——各归各位。",
+            "level": 4
+          },
+          {
+            "q": "If I ___ how to cook, I ___ dinner for the whole family.",
+            "options": [
+              "knew / would make",
+              "know / will make",
+              "knew / will make"
+            ],
+            "answer": 0,
+            "explain": "不会做饭——knew 配 would make。",
+            "level": 4
+          },
+          {
+            "q": "音乐会门票太贵买不起，你说：",
+            "options": [
+              "If the tickets weren't so expensive, I would go.",
+              "If the tickets aren't so expensive, I will go.",
+              "If the tickets weren't so expensive, I will go."
+            ],
+            "answer": 0,
+            "explain": "票价改不了——weren't 配 would，整套礼服。",
+            "level": 4
+          },
+          {
+            "q": "— Why don't you join the choir? — I ___ if I ___ better.",
+            "options": [
+              "would / sang",
+              "will / sang",
+              "would / sing"
+            ],
+            "answer": 0,
+            "explain": "言下之意「我唱得不够好」——would 配 sang。",
+            "level": 4
+          },
+          {
+            "q": "下面哪句最能听出「说话人现在没有宠物」？",
+            "options": [
+              "I wish I had a dog.",
+              "I hope I have a dog.",
+              "I will have a dog."
+            ],
+            "answer": 0,
+            "explain": "wish + had 宣布愿望落空——现在没有狗。",
+            "level": 4
+          },
+          {
+            "q": "大考：If I ___ you, I ___ the teacher, because if she ___ the truth tomorrow, she will understand.",
+            "options": [
+              "were / would tell / hears",
+              "was / will tell / heard",
+              "were / will tell / would hear"
+            ],
+            "answer": 0,
+            "explain": "前半是空想（were+would tell），后半「明天听到真相」真有可能——真条件穿常服 hears。一句里两种假设各穿各的衣服。",
+            "level": 4
+          }
         ]
       }
     ]

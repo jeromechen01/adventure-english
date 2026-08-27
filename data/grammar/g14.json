@@ -5,7 +5,9 @@
   "title": "过去进行时",
   "metaphor": "昨晚八点，我们正在演",
   "ketRelevance": 1,
-  "ketLessonMap": ["L4"],
+  "ketLessonMap": [
+    "L4"
+  ],
   "ketNote": "KET 直接考得少，但 Part 7 看图写故事里一句 was/were + -ing 能把画面感写出来，是加分句型。八课里的亲戚是 L4。",
   "source": "original",
   "sections": {
@@ -47,26 +49,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I was doing my homework at eight last night.", "cn": "昨晚八点我正在写作业。（was + doing 两件套）" },
-          { "en": "They were singing in the music room then.", "cn": "那时他们正在音乐教室唱歌。" },
-          { "en": "She was drawing a picture at that time.", "cn": "那时候她正在画画。" },
-          { "en": "We were having dinner at seven yesterday.", "cn": "昨天七点我们正在吃晚饭。" },
-          { "en": "The dog was sleeping under the table.", "cn": "狗当时正睡在桌子底下。" }
+          {
+            "en": "I was doing my homework at eight last night.",
+            "cn": "昨晚八点我正在写作业。（was + doing 两件套）"
+          },
+          {
+            "en": "They were singing in the music room then.",
+            "cn": "那时他们正在音乐教室唱歌。"
+          },
+          {
+            "en": "She was drawing a picture at that time.",
+            "cn": "那时候她正在画画。"
+          },
+          {
+            "en": "We were having dinner at seven yesterday.",
+            "cn": "昨天七点我们正在吃晚饭。"
+          },
+          {
+            "en": "The dog was sleeping under the table.",
+            "cn": "狗当时正睡在桌子底下。"
+          }
         ],
         "mid": [
-          { "en": "I was sleeping when the phone rang.", "cn": "电话响的时候我正在睡觉。（长镜头 + 快门）" },
-          { "en": "While Dad was cooking, I was setting the table.", "cn": "爸爸做饭的时候，我在摆碗筷。（两个长镜头并排）" },
-          { "en": "When I saw her, she was waiting for the bus.", "cn": "我看见她时，她正在等公交。" },
-          { "en": "It was raining hard when we left the school.", "cn": "我们离开学校时，雨正下得很大。" },
-          { "en": "What were you doing at nine last night?", "cn": "昨晚九点你在干什么？（was/were 提前举手提问）" }
+          {
+            "en": "I was sleeping when the phone rang.",
+            "cn": "电话响的时候我正在睡觉。（长镜头 + 快门）"
+          },
+          {
+            "en": "While Dad was cooking, I was setting the table.",
+            "cn": "爸爸做饭的时候，我在摆碗筷。（两个长镜头并排）"
+          },
+          {
+            "en": "When I saw her, she was waiting for the bus.",
+            "cn": "我看见她时，她正在等公交。"
+          },
+          {
+            "en": "It was raining hard when we left the school.",
+            "cn": "我们离开学校时，雨正下得很大。"
+          },
+          {
+            "en": "What were you doing at nine last night?",
+            "cn": "昨晚九点你在干什么？（was/were 提前举手提问）"
+          }
         ],
         "trap": [
-          { "en": "While we were playing, the lights went out.", "cn": "我们正演着，灯忽然灭了。", "note": "长镜头用 were playing，快门「灯灭」用一般过去 went——别把两个都写成进行时。" },
-          { "en": "I was swimming when it began to rain.", "cn": "开始下雨时我正在游泳。", "note": "swim 短元音+单辅音，-ing 要双写 m——swimming。" },
-          { "en": "She was making a card for her mum.", "cn": "她当时正在给妈妈做贺卡。", "note": "make 去掉不发音的 e 再加 -ing——making，不是 makeing。" },
-          { "en": "I wanted a new bike last year.", "cn": "去年我想要一辆新自行车。", "note": "want 是状态动词，不说 I was wanting——过去的状态用一般过去。" },
-          { "en": "Tom and I were watching the stars at ten.", "cn": "十点时我和汤姆正在看星星。", "note": "Tom and I 是「我们」，be 用 were，不用 was。" },
-          { "en": "The baby was crying, so I picked her up.", "cn": "宝宝当时在哭，所以我把她抱了起来。", "note": "「哭」是持续的背景，「抱起」是快门动作——一进行一过去，各盖各的戳。" }
+          {
+            "en": "While we were playing, the lights went out.",
+            "cn": "我们正演着，灯忽然灭了。",
+            "note": "长镜头用 were playing，快门「灯灭」用一般过去 went——别把两个都写成进行时。"
+          },
+          {
+            "en": "I was swimming when it began to rain.",
+            "cn": "开始下雨时我正在游泳。",
+            "note": "swim 短元音+单辅音，-ing 要双写 m——swimming。"
+          },
+          {
+            "en": "She was making a card for her mum.",
+            "cn": "她当时正在给妈妈做贺卡。",
+            "note": "make 去掉不发音的 e 再加 -ing——making，不是 makeing。"
+          },
+          {
+            "en": "I wanted a new bike last year.",
+            "cn": "去年我想要一辆新自行车。",
+            "note": "want 是状态动词，不说 I was wanting——过去的状态用一般过去。"
+          },
+          {
+            "en": "Tom and I were watching the stars at ten.",
+            "cn": "十点时我和汤姆正在看星星。",
+            "note": "Tom and I 是「我们」，be 用 were，不用 was。"
+          },
+          {
+            "en": "The baby was crying, so I picked her up.",
+            "cn": "宝宝当时在哭，所以我把她抱了起来。",
+            "note": "「哭」是持续的背景，「抱起」是快门动作——一进行一过去，各盖各的戳。"
+          }
         ]
       }
     },
@@ -192,7 +248,7 @@
     "echo": "-ing 这条尾巴是「二合一」来的：古英语的现在分词本来长 -ende，动名词长 -ung，两条尾巴发音越来越像，几百年里被懒惰的舌头磨成了同一个 -ing——所以今天它既能当「正在」（is singing）又能当名词（singing is fun）。再看 was/were：动词的过去式几乎全都不分单复数了（played 就是 played），唯独最常用的 be 还留着 was/were 两副面孔——又一次印证那条暗线：越常用的词，越不规则。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G14 · 过去进行时</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>昨晚八点，我们正在演——给过去的照片配说明</text><rect x='36' y='110' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='146' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>📷 两件套过去版：was / were + 动词-ing（缺一不可）</text><text x='360' y='178' text-anchor='middle' font-size='16' fill='#5A4A42'>I / he / she / it → was ｜ you / we / they → were</text><text x='360' y='204' text-anchor='middle' font-size='15' fill='#8A7568'>I was reading. · They were singing. · We were having dinner.</text><rect x='36' y='240' width='648' height='128' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='276' text-anchor='middle' font-size='19' font-weight='bold' fill='#0284C7'>🎬 长镜头 + 快门</text><text x='360' y='308' text-anchor='middle' font-size='16' fill='#5A4A42'>背景长动作 → was/were + -ing ｜ 突发短动作 → 一般过去</text><text x='360' y='340' text-anchor='middle' font-size='15' fill='#8A7568'>I was sleeping when the phone rang. · While we were playing, the lights went out.</text><rect x='36' y='388' width='648' height='84' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='420' text-anchor='middle' font-size='16' fill='#B7791F'>⏰ 信号词：yesterday at eight · at that time · then · when + 过去小句</text><text x='360' y='450' text-anchor='middle' font-size='15' fill='#B7791F'>-ing 三规则：直接加 / 去 e（make→making）/ 双写（swim→swimming）</text><rect x='36' y='492' width='648' height='56' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='527' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ I was do ✗ · They was ✗ · was knowing ✗（状态动词不上镜头）</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>两件套还是那副，只给 be 盖过去戳 · 英语奇遇记 🦊 G14</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='32' font-weight='bold' fill='#0284C7'>G14 · 过去进行时</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>昨晚八点，我们正在演——给过去的照片配说明</text><rect x='36' y='110' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='146' text-anchor='middle' font-size='23' font-weight='bold' fill='#38B2AC'>📷 两件套过去版：was / were + 动词-ing（缺一不可）</text><text x='360' y='178' text-anchor='middle' font-size='20' fill='#5A4A42'>I / he / she / it → was ｜ you / we / they → were</text><text x='360' y='204' text-anchor='middle' font-size='19' fill='#8A7568'>I was reading. · They were singing. · We were having dinner.</text><rect x='36' y='240' width='648' height='128' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='276' text-anchor='middle' font-size='23' font-weight='bold' fill='#0284C7'>🎬 长镜头 + 快门</text><text x='360' y='308' text-anchor='middle' font-size='20' fill='#5A4A42'>背景长动作 → was/were + -ing ｜ 突发短动作 → 一般过去</text><text x='360' y='340' text-anchor='middle' font-size='15' fill='#8A7568'>I was sleeping when the phone rang. · While we were playing, the lights went out.</text><rect x='36' y='388' width='648' height='84' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='420' text-anchor='middle' font-size='18' fill='#B7791F'>⏰ 信号词：yesterday at eight · at that time · then · when + 过去小句</text><text x='360' y='450' text-anchor='middle' font-size='18' fill='#B7791F'>-ing 三规则：直接加 / 去 e（make→making）/ 双写（swim→swimming）</text><rect x='36' y='492' width='648' height='56' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='527' text-anchor='middle' font-size='19' fill='#C0392B'>⚠️ I was do ✗ · They was ✗ · was knowing ✗（状态动词不上镜头）</text><text x='360' y='576' text-anchor='middle' font-size='18' fill='#94A3B8'>两件套还是那副，只给 be 盖过去戳 · 英语奇遇记 🦊 G14</text></svg>",
     "alt": "G14 记忆卡：过去进行时=两件套过去版 was/were+-ing 缺一不可；长镜头（背景动作用过去进行）+快门（突发动作用一般过去）；信号词与 -ing 拼写三规则；警示 was do、They was、was knowing 三类错误。"
   },
   "practice": {
@@ -200,85 +256,725 @@
       {
         "name": "认一认 · 两件套点名",
         "questions": [
-          { "q": "「过去某一刻正在做」用哪套装备？", "options": ["was/were + -ing", "光用动词过去式", "am/is/are + -ing"], "answer": 0, "explain": "过去的「正在」= 两件套过去版：was/were + -ing。", "level": 1 },
-          { "q": "进行时两件套指的是哪两件？", "options": ["be 和 动词-ing", "do 和 动词原形", "have 和 动词-ed"], "answer": 0, "explain": "be + -ing，缺一不可——过去版只是把 be 换成 was/were。", "level": 1 },
-          { "q": "I ___ reading at nine last night.", "options": ["was", "were", "am"], "answer": 0, "explain": "I 配 was；last night 定了过去调。", "level": 1 },
-          { "q": "They ___ dancing at that time.", "options": ["were", "was", "are"], "answer": 0, "explain": "they 配 were。", "level": 1 },
-          { "q": "She ___ drawing a cat then.", "options": ["was", "were", "is"], "answer": 0, "explain": "she 配 was；then＝那时，过去信号。", "level": 1 },
-          { "q": "We ___ watching a film at eight yesterday.", "options": ["were", "was", "are"], "answer": 0, "explain": "we 配 were。", "level": 1 },
-          { "q": "at that time（那时）是哪个时态的信号词？", "options": ["过去进行", "一般现在", "一般将来"], "answer": 0, "explain": "「那时正在做」→ was/were + -ing。", "level": 1 },
-          { "q": "下面哪个是过去进行时的句子？", "options": ["He was sleeping.", "He sleeps.", "He is sleeping."], "answer": 0, "explain": "was + sleeping——be 盖了过去戳的两件套。", "level": 1 },
-          { "q": "make 接 -ing 怎么写？", "options": ["making", "makeing", "makking"], "answer": 0, "explain": "不发音的 e 去掉再加 -ing。", "level": 1 },
-          { "q": "swim 接 -ing 怎么写？", "options": ["swimming", "swiming", "swimmning"], "answer": 0, "explain": "短元音+单辅音，先双写 m 再加 -ing。", "level": 1 },
-          { "q": "sit 接 -ing 怎么写？", "options": ["sitting", "siting", "sitteing"], "answer": 0, "explain": "双写 t——sitting。", "level": 1 },
-          { "q": "write 接 -ing 怎么写？", "options": ["writing", "writeing", "writting"], "answer": 0, "explain": "去 e 加 -ing——writing。", "level": 1 },
-          { "q": "下面哪个词通常不用进行时？", "options": ["know", "play", "run"], "answer": 0, "explain": "know 是状态动词，不上镜头——不说 was knowing。", "level": 1 },
-          { "q": "The cats ___ chasing a ball then.", "options": ["were", "was", "is"], "answer": 0, "explain": "the cats 是复数 → were。", "level": 1 },
-          { "q": "My brother ___ playing chess at four.", "options": ["was", "were", "am"], "answer": 0, "explain": "my brother = he → was。", "level": 1 },
-          { "q": "过去进行时里，-ing 要不要跟着变过去？", "options": ["不用，只有 be 换成 was/were", "要，改成 -ed", "两个都要变"], "answer": 0, "explain": "只给 be 盖过去戳，-ing 原样不动。", "level": 1 }
+          {
+            "q": "「过去某一刻正在做」用哪套装备？",
+            "options": [
+              "was/were + -ing",
+              "光用动词过去式",
+              "am/is/are + -ing"
+            ],
+            "answer": 0,
+            "explain": "过去的「正在」= 两件套过去版：was/were + -ing。",
+            "level": 1
+          },
+          {
+            "q": "进行时两件套指的是哪两件？",
+            "options": [
+              "be 和 动词-ing",
+              "do 和 动词原形",
+              "have 和 动词-ed"
+            ],
+            "answer": 0,
+            "explain": "be + -ing，缺一不可——过去版只是把 be 换成 was/were。",
+            "level": 1
+          },
+          {
+            "q": "I ___ reading at nine last night.",
+            "options": [
+              "was",
+              "were",
+              "am"
+            ],
+            "answer": 0,
+            "explain": "I 配 was；last night 定了过去调。",
+            "level": 1
+          },
+          {
+            "q": "They ___ dancing at that time.",
+            "options": [
+              "were",
+              "was",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "they 配 were。",
+            "level": 1
+          },
+          {
+            "q": "She ___ drawing a cat then.",
+            "options": [
+              "was",
+              "were",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "she 配 was；then＝那时，过去信号。",
+            "level": 1
+          },
+          {
+            "q": "We ___ watching a film at eight yesterday.",
+            "options": [
+              "were",
+              "was",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "we 配 were。",
+            "level": 1
+          },
+          {
+            "q": "at that time（那时）是哪个时态的信号词？",
+            "options": [
+              "过去进行",
+              "一般现在",
+              "一般将来"
+            ],
+            "answer": 0,
+            "explain": "「那时正在做」→ was/were + -ing。",
+            "level": 1
+          },
+          {
+            "q": "下面哪个是过去进行时的句子？",
+            "options": [
+              "He was sleeping.",
+              "He sleeps.",
+              "He is sleeping."
+            ],
+            "answer": 0,
+            "explain": "was + sleeping——be 盖了过去戳的两件套。",
+            "level": 1
+          },
+          {
+            "q": "make 接 -ing 怎么写？",
+            "options": [
+              "making",
+              "makeing",
+              "makking"
+            ],
+            "answer": 0,
+            "explain": "不发音的 e 去掉再加 -ing。",
+            "level": 1
+          },
+          {
+            "q": "swim 接 -ing 怎么写？",
+            "options": [
+              "swimming",
+              "swiming",
+              "swimmning"
+            ],
+            "answer": 0,
+            "explain": "短元音+单辅音，先双写 m 再加 -ing。",
+            "level": 1
+          },
+          {
+            "q": "sit 接 -ing 怎么写？",
+            "options": [
+              "sitting",
+              "siting",
+              "sitteing"
+            ],
+            "answer": 0,
+            "explain": "双写 t——sitting。",
+            "level": 1
+          },
+          {
+            "q": "write 接 -ing 怎么写？",
+            "options": [
+              "writing",
+              "writeing",
+              "writting"
+            ],
+            "answer": 0,
+            "explain": "去 e 加 -ing——writing。",
+            "level": 1
+          },
+          {
+            "q": "下面哪个词通常不用进行时？",
+            "options": [
+              "know",
+              "play",
+              "run"
+            ],
+            "answer": 0,
+            "explain": "know 是状态动词，不上镜头——不说 was knowing。",
+            "level": 1
+          },
+          {
+            "q": "The cats ___ chasing a ball then.",
+            "options": [
+              "were",
+              "was",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "the cats 是复数 → were。",
+            "level": 1
+          },
+          {
+            "q": "My brother ___ playing chess at four.",
+            "options": [
+              "was",
+              "were",
+              "am"
+            ],
+            "answer": 0,
+            "explain": "my brother = he → was。",
+            "level": 1
+          },
+          {
+            "q": "过去进行时里，-ing 要不要跟着变过去？",
+            "options": [
+              "不用，只有 be 换成 was/were",
+              "要，改成 -ed",
+              "两个都要变"
+            ],
+            "answer": 0,
+            "explain": "只给 be 盖过去戳，-ing 原样不动。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 配好说明文字",
         "questions": [
-          { "q": "At eight last night, I ___ a shower.", "options": ["was taking", "took", "am taking"], "answer": 0, "explain": "「昨晚八点正在洗」——过去某一刻的画面用 was taking。", "level": 2 },
-          { "q": "They ___ basketball when it started to rain.", "options": ["were playing", "play", "was playing"], "answer": 0, "explain": "长镜头 were playing，快门 started。", "level": 2 },
-          { "q": "Look at this photo — we ___ on the beach then.", "options": ["were running", "run", "are running"], "answer": 0, "explain": "照片是过去的画面 → were running。", "level": 2 },
-          { "q": "She ___ to music while she was drawing.", "options": ["was listening", "listened to finish", "listens"], "answer": 0, "explain": "两个长镜头并排：was listening + was drawing。", "level": 2 },
-          { "q": "The baby ___ when I opened the door.", "options": ["was sleeping", "slept early", "sleeps"], "answer": 0, "explain": "开门那一刻宝宝「正睡着」——was sleeping。", "level": 2 },
-          { "q": "What ___ you doing at nine yesterday?", "options": ["were", "did", "are"], "answer": 0, "explain": "进行时提问由 were 提前举手，不请 did。", "level": 2 },
-          { "q": "Dad ___ dinner when I got home.", "options": ["was cooking", "cooked already", "cooks"], "answer": 0, "explain": "到家时爸爸「正做着饭」——was cooking。", "level": 2 },
-          { "q": "While I ___ my bike, I saw a rainbow.", "options": ["was riding", "rode fast", "ride"], "answer": 0, "explain": "while 领长镜头 → was riding；saw 是快门。", "level": 2 },
-          { "q": "At noon yesterday, the birds ___ in the tree.", "options": ["were singing", "was singing", "sing"], "answer": 0, "explain": "birds 复数 → were singing。", "level": 2 },
-          { "q": "I ___ for the bus when you called me.", "options": ["was waiting", "waited long", "wait"], "answer": 0, "explain": "打电话那刻我「正等着」——was waiting。", "level": 2 },
-          { "q": "He ___ a kite at four o'clock yesterday.", "options": ["was flying", "flew away", "flies"], "answer": 0, "explain": "昨天四点的画面 → was flying。", "level": 2 },
-          { "q": "We ___ hide-and-seek at that time.", "options": ["were playing", "was playing", "play"], "answer": 0, "explain": "we 配 were——were playing。", "level": 2 },
-          { "q": "My parents ___ TV when the lights went out.", "options": ["were watching", "was watching", "watch"], "answer": 0, "explain": "parents 复数 → were watching；灯灭是快门。", "level": 2 },
-          { "q": "The wind ___ hard when we left home.", "options": ["was blowing", "blew out", "blows"], "answer": 0, "explain": "出门时风「正刮着」——was blowing。", "level": 2 },
-          { "q": "I ___ my teeth at seven this morning.（现在是晚上）", "options": ["was brushing", "am brushing", "brush"], "answer": 0, "explain": "今早七点已是过去的一刻 → was brushing。", "level": 2 },
-          { "q": "Snow ___ when the train arrived.", "options": ["was falling", "fell down", "falls"], "answer": 0, "explain": "火车到站时雪「正下着」——长镜头 was falling。", "level": 2 }
+          {
+            "q": "At eight last night, I ___ a shower.",
+            "options": [
+              "was taking",
+              "took",
+              "am taking"
+            ],
+            "answer": 0,
+            "explain": "「昨晚八点正在洗」——过去某一刻的画面用 was taking。",
+            "level": 2
+          },
+          {
+            "q": "They ___ basketball when it started to rain.",
+            "options": [
+              "were playing",
+              "play",
+              "was playing"
+            ],
+            "answer": 0,
+            "explain": "长镜头 were playing，快门 started。",
+            "level": 2
+          },
+          {
+            "q": "Look at this photo — we ___ on the beach then.",
+            "options": [
+              "were running",
+              "run",
+              "are running"
+            ],
+            "answer": 0,
+            "explain": "照片是过去的画面 → were running。",
+            "level": 2
+          },
+          {
+            "q": "She ___ to music while she was drawing.",
+            "options": [
+              "was listening",
+              "listened to finish",
+              "listens"
+            ],
+            "answer": 0,
+            "explain": "两个长镜头并排：was listening + was drawing。",
+            "level": 2
+          },
+          {
+            "q": "The baby ___ when I opened the door.",
+            "options": [
+              "was sleeping",
+              "slept early",
+              "sleeps"
+            ],
+            "answer": 0,
+            "explain": "开门那一刻宝宝「正睡着」——was sleeping。",
+            "level": 2
+          },
+          {
+            "q": "What ___ you doing at nine yesterday?",
+            "options": [
+              "were",
+              "did",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "进行时提问由 were 提前举手，不请 did。",
+            "level": 2
+          },
+          {
+            "q": "Dad ___ dinner when I got home.",
+            "options": [
+              "was cooking",
+              "cooked already",
+              "cooks"
+            ],
+            "answer": 0,
+            "explain": "到家时爸爸「正做着饭」——was cooking。",
+            "level": 2
+          },
+          {
+            "q": "While I ___ my bike, I saw a rainbow.",
+            "options": [
+              "was riding",
+              "rode fast",
+              "ride"
+            ],
+            "answer": 0,
+            "explain": "while 领长镜头 → was riding；saw 是快门。",
+            "level": 2
+          },
+          {
+            "q": "At noon yesterday, the birds ___ in the tree.",
+            "options": [
+              "were singing",
+              "was singing",
+              "sing"
+            ],
+            "answer": 0,
+            "explain": "birds 复数 → were singing。",
+            "level": 2
+          },
+          {
+            "q": "I ___ for the bus when you called me.",
+            "options": [
+              "was waiting",
+              "waited long",
+              "wait"
+            ],
+            "answer": 0,
+            "explain": "打电话那刻我「正等着」——was waiting。",
+            "level": 2
+          },
+          {
+            "q": "He ___ a kite at four o'clock yesterday.",
+            "options": [
+              "was flying",
+              "flew away",
+              "flies"
+            ],
+            "answer": 0,
+            "explain": "昨天四点的画面 → was flying。",
+            "level": 2
+          },
+          {
+            "q": "We ___ hide-and-seek at that time.",
+            "options": [
+              "were playing",
+              "was playing",
+              "play"
+            ],
+            "answer": 0,
+            "explain": "we 配 were——were playing。",
+            "level": 2
+          },
+          {
+            "q": "My parents ___ TV when the lights went out.",
+            "options": [
+              "were watching",
+              "was watching",
+              "watch"
+            ],
+            "answer": 0,
+            "explain": "parents 复数 → were watching；灯灭是快门。",
+            "level": 2
+          },
+          {
+            "q": "The wind ___ hard when we left home.",
+            "options": [
+              "was blowing",
+              "blew out",
+              "blows"
+            ],
+            "answer": 0,
+            "explain": "出门时风「正刮着」——was blowing。",
+            "level": 2
+          },
+          {
+            "q": "I ___ my teeth at seven this morning.（现在是晚上）",
+            "options": [
+              "was brushing",
+              "am brushing",
+              "brush"
+            ],
+            "answer": 0,
+            "explain": "今早七点已是过去的一刻 → was brushing。",
+            "level": 2
+          },
+          {
+            "q": "Snow ___ when the train arrived.",
+            "options": [
+              "was falling",
+              "fell down",
+              "falls"
+            ],
+            "answer": 0,
+            "explain": "火车到站时雪「正下着」——长镜头 was falling。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 照片说明纠错",
         "questions": [
-          { "q": "哪句给「昨晚八点」的照片配对了说明？", "options": ["We were eating dinner at eight last night.", "We are eating dinner at eight last night.", "We was eating dinner at eight last night."], "answer": 0, "explain": "过去的照片配 were eating——be 必须盖过去戳且跟 we 对上号。", "level": 3 },
-          { "q": "哪句的两件套穿齐了？", "options": ["She was doing her homework then.", "She was do her homework then.", "She doing her homework then."], "answer": 0, "explain": "was + doing 两件套缺一不可。", "level": 3 },
-          { "q": "哪句的 was/were 挑对了？", "options": ["The twins were sleeping at ten.", "The twins was sleeping at ten.", "The twins is sleeping at ten."], "answer": 0, "explain": "twins 复数 → were。", "level": 3 },
-          { "q": "哪句没有半路转调？", "options": ["I was reading when Mum came in.", "I am reading when Mum came in.", "I was reading when Mum comes in."], "answer": 0, "explain": "整句都在过去调：was reading + came。", "level": 3 },
-          { "q": "哪句的提问举对了手？", "options": ["What were you doing at six?", "What did you doing at six?", "What you were doing at six?"], "answer": 0, "explain": "were 提前到主语前——did 和 -ing 不配套。", "level": 3 },
-          { "q": "哪句把状态动词用对了？", "options": ["I liked the song very much.", "I was liking the song very much.", "I am liking the song then."], "answer": 0, "explain": "like 是状态动词不上镜头——过去的状态用 liked。", "level": 3 },
-          { "q": "哪句的 -ing 拼写对了？", "options": ["He was running to school.", "He was runing to school.", "He was runnning to school."], "answer": 0, "explain": "run 双写 n——running。", "level": 3 },
-          { "q": "哪句的长镜头和快门分工对了？", "options": ["I was taking a bath when the phone rang.", "I took a bath when the phone was ringing long.", "I was taking a bath when the phone was rang."], "answer": 0, "explain": "洗澡是背景长镜头 was taking；电话响是快门 rang。", "level": 3 },
-          { "q": "哪句的 while 用对了？", "options": ["While we were playing, it began to snow.", "While we played yesterday it snowing.", "While we are playing, it began to snow."], "answer": 0, "explain": "while 领长镜头 were playing；began 是快门——全程过去调。", "level": 3 },
-          { "q": "哪句说明文字写对了？（她当时正在浇花）", "options": ["She was watering the flowers.", "She watering the flowers.", "She was water the flowers."], "answer": 0, "explain": "两件套齐：was + watering。", "level": 3 },
-          { "q": "哪句写对了？（我们当时正在爬山）", "options": ["We were climbing the hill.", "We were climb the hill.", "We was climbing the hill."], "answer": 0, "explain": "were + climbing——be 选对、-ing 穿上。", "level": 3 },
-          { "q": "哪句写对了？（昨天中午雨正下着）", "options": ["It was raining at noon yesterday.", "It was rain at noon yesterday.", "It is raining at noon yesterday."], "answer": 0, "explain": "it 配 was + raining；yesterday 定过去调。", "level": 3 },
-          { "q": "哪句写对了？（灯灭时他正在写信）", "options": ["He was writing a letter when the lights went out.", "He was writting a letter when the lights went out.", "He wrote a letter when the lights were going out."], "answer": 0, "explain": "write→writing 去 e 不双写；写信是长镜头，灯灭是快门。", "level": 3 },
-          { "q": "哪句写对了？（那时你们正在排队吗）", "options": ["Were you standing in line then?", "Was you standing in line then?", "Did you standing in line then?"], "answer": 0, "explain": "you 配 were，提问时 were 举手到最前。", "level": 3 },
-          { "q": "哪句写对了？（当时没人在听）", "options": ["Nobody was listening at that time.", "Nobody were listening at that time.", "Nobody was listen at that time."], "answer": 0, "explain": "nobody 按单数算 → was listening。", "level": 3 },
-          { "q": "哪句写对了？（我到时演出正进行着）", "options": ["The show was going on when I arrived.", "The show went on when I was arriving.", "The show is going on when I arrived."], "answer": 0, "explain": "演出是长镜头 was going on；「我到」是快门 arrived。", "level": 3 }
+          {
+            "q": "哪句给「昨晚八点」的照片配对了说明？",
+            "options": [
+              "We were eating dinner at eight last night.",
+              "We are eating dinner at eight last night.",
+              "We was eating dinner at eight last night."
+            ],
+            "answer": 0,
+            "explain": "过去的照片配 were eating——be 必须盖过去戳且跟 we 对上号。",
+            "level": 3
+          },
+          {
+            "q": "哪句的两件套穿齐了？",
+            "options": [
+              "She was doing her homework then.",
+              "She was do her homework then.",
+              "She doing her homework then."
+            ],
+            "answer": 0,
+            "explain": "was + doing 两件套缺一不可。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 was/were 挑对了？",
+            "options": [
+              "The twins were sleeping at ten.",
+              "The twins was sleeping at ten.",
+              "The twins is sleeping at ten."
+            ],
+            "answer": 0,
+            "explain": "twins 复数 → were。",
+            "level": 3
+          },
+          {
+            "q": "哪句没有半路转调？",
+            "options": [
+              "I was reading when Mum came in.",
+              "I am reading when Mum came in.",
+              "I was reading when Mum comes in."
+            ],
+            "answer": 0,
+            "explain": "整句都在过去调：was reading + came。",
+            "level": 3
+          },
+          {
+            "q": "哪句的提问举对了手？",
+            "options": [
+              "What were you doing at six?",
+              "What did you doing at six?",
+              "What you were doing at six?"
+            ],
+            "answer": 0,
+            "explain": "were 提前到主语前——did 和 -ing 不配套。",
+            "level": 3
+          },
+          {
+            "q": "哪句把状态动词用对了？",
+            "options": [
+              "I liked the song very much.",
+              "I was liking the song very much.",
+              "I am liking the song then."
+            ],
+            "answer": 0,
+            "explain": "like 是状态动词不上镜头——过去的状态用 liked。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 -ing 拼写对了？",
+            "options": [
+              "He was running to school.",
+              "He was runing to school.",
+              "He was runnning to school."
+            ],
+            "answer": 0,
+            "explain": "run 双写 n——running。",
+            "level": 3
+          },
+          {
+            "q": "哪句的长镜头和快门分工对了？",
+            "options": [
+              "I was taking a bath when the phone rang.",
+              "I took a bath when the phone was ringing long.",
+              "I was taking a bath when the phone was rang."
+            ],
+            "answer": 0,
+            "explain": "洗澡是背景长镜头 was taking；电话响是快门 rang。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 while 用对了？",
+            "options": [
+              "While we were playing, it began to snow.",
+              "While we played yesterday it snowing.",
+              "While we are playing, it began to snow."
+            ],
+            "answer": 0,
+            "explain": "while 领长镜头 were playing；began 是快门——全程过去调。",
+            "level": 3
+          },
+          {
+            "q": "哪句说明文字写对了？（她当时正在浇花）",
+            "options": [
+              "She was watering the flowers.",
+              "She watering the flowers.",
+              "She was water the flowers."
+            ],
+            "answer": 0,
+            "explain": "两件套齐：was + watering。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我们当时正在爬山）",
+            "options": [
+              "We were climbing the hill.",
+              "We were climb the hill.",
+              "We was climbing the hill."
+            ],
+            "answer": 0,
+            "explain": "were + climbing——be 选对、-ing 穿上。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（昨天中午雨正下着）",
+            "options": [
+              "It was raining at noon yesterday.",
+              "It was rain at noon yesterday.",
+              "It is raining at noon yesterday."
+            ],
+            "answer": 0,
+            "explain": "it 配 was + raining；yesterday 定过去调。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（灯灭时他正在写信）",
+            "options": [
+              "He was writing a letter when the lights went out.",
+              "He was writting a letter when the lights went out.",
+              "He wrote a letter when the lights were going out."
+            ],
+            "answer": 0,
+            "explain": "write→writing 去 e 不双写；写信是长镜头，灯灭是快门。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（那时你们正在排队吗）",
+            "options": [
+              "Were you standing in line then?",
+              "Was you standing in line then?",
+              "Did you standing in line then?"
+            ],
+            "answer": 0,
+            "explain": "you 配 were，提问时 were 举手到最前。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（当时没人在听）",
+            "options": [
+              "Nobody was listening at that time.",
+              "Nobody were listening at that time.",
+              "Nobody was listen at that time."
+            ],
+            "answer": 0,
+            "explain": "nobody 按单数算 → was listening。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我到时演出正进行着）",
+            "options": [
+              "The show was going on when I arrived.",
+              "The show went on when I was arriving.",
+              "The show is going on when I arrived."
+            ],
+            "answer": 0,
+            "explain": "演出是长镜头 was going on；「我到」是快门 arrived。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 长镜头与快门",
         "questions": [
-          { "q": "I ___ a comic when Dad ___ into my room.", "options": ["was reading / walked", "read / was walking", "was reading / was walking"], "answer": 0, "explain": "看漫画是长镜头 was reading；爸爸进门是快门 walked。", "level": 4 },
-          { "q": "While Mum ___ dishes, I ___ the floor.", "options": ["was washing / was sweeping", "washed / was sweeping", "was washing / swept quickly"], "answer": 0, "explain": "两个动作同时铺开——两个长镜头都用过去进行。", "level": 4 },
-          { "q": "They ___ chess when the bell ___.", "options": ["were playing / rang", "played / was ringing", "were playing / was ringing"], "answer": 0, "explain": "下棋是背景，铃声是一瞬间的快门——rang。", "level": 4 },
-          { "q": "— What ___ you ___ at 8:30 last night? — I was practising the piano.", "options": ["were / doing", "did / do it", "were / did"], "answer": 0, "explain": "回答用了 was practising，提问自然是 What were you doing。", "level": 4 },
-          { "q": "The sun ___ when we ___ the mountain top.", "options": ["was rising / reached", "rose / was reaching", "was rising / was reaching"], "answer": 0, "explain": "日出是缓慢的长镜头；「到达山顶」是一下子的快门。", "level": 4 },
-          { "q": "I ___ my keys while I ___ in the park.", "options": ["lost / was running", "was losing / ran", "lose / was running"], "answer": 0, "explain": "「跑步」是长镜头背景；「丢钥匙」一瞬间发生——lost。", "level": 4 },
-          { "q": "She usually walks to school, but at 7:30 today she ___ a bus.（现在是下午）", "options": ["was catching", "catches", "is catching"], "answer": 0, "explain": "usually 的习惯归习惯；今早 7:30 那一刻已过去 → was catching。", "level": 4 },
-          { "q": "When I called him, he ___ — so he didn't hear the phone.", "options": ["was sleeping", "slept", "sleeps"], "answer": 0, "explain": "「没听见电话」说明那刻正睡着——was sleeping。", "level": 4 },
-          { "q": "We ___ about the film when the teacher ___ in.", "options": ["were talking / came", "talked / was coming", "talk / came"], "answer": 0, "explain": "聊天是背景长镜头；老师进门是快门 came。", "level": 4 },
-          { "q": "It ___ heavily, so we ___ at home and played cards.", "options": ["was snowing / stayed", "snowed / were staying", "was snowing / were staying"], "answer": 0, "explain": "雪下着是背景；「决定待在家」是接下来的动作，一般过去 stayed。", "level": 4 },
-          { "q": "At this time yesterday, I ___ on a train to Chengdu.", "options": ["was sitting", "sat", "am sitting"], "answer": 0, "explain": "「昨天的这个时候」是过去的一刻——was sitting。", "level": 4 },
-          { "q": "He ___ the answer, so he put up his hand.", "options": ["knew", "was knowing", "knows"], "answer": 0, "explain": "know 是状态动词——过去的状态直接 knew，不上镜头。", "level": 4 },
-          { "q": "While the band ___, the singer suddenly ___ the stage.", "options": ["was playing / left", "played / was leaving", "was playing / was leaving"], "answer": 0, "explain": "乐队演奏是长镜头；歌手离场是突发快门 left。", "level": 4 },
-          { "q": "— Why didn't you answer the door? — Sorry, I ___ music with my headphones on.", "options": ["was listening to", "listened to", "listen to"], "answer": 0, "explain": "敲门那会儿「正戴着耳机听歌」——was listening to。", "level": 4 },
-          { "q": "The students ___ notes while the teacher ___ the new song.", "options": ["were taking / was teaching", "took / taught then", "were taking / taught quickly"], "answer": 0, "explain": "记笔记和教歌同时进行——两个长镜头并排铺开。", "level": 4 },
-          { "q": "大考：Yesterday at five, Lily ___ a cake, Ben ___ the room, and I ___ them photos.", "options": ["was making / was cleaning / was taking", "made / cleaned / took", "was making / cleaned / was taking"], "answer": 0, "explain": "「昨天五点」同一刻三个画面同时进行——三个 was/were + -ing 一次配齐。", "level": 4 }
+          {
+            "q": "I ___ a comic when Dad ___ into my room.",
+            "options": [
+              "was reading / walked",
+              "read / was walking",
+              "was reading / was walking"
+            ],
+            "answer": 0,
+            "explain": "看漫画是长镜头 was reading；爸爸进门是快门 walked。",
+            "level": 4
+          },
+          {
+            "q": "While Mum ___ dishes, I ___ the floor.",
+            "options": [
+              "was washing / was sweeping",
+              "washed / was sweeping",
+              "was washing / swept quickly"
+            ],
+            "answer": 0,
+            "explain": "两个动作同时铺开——两个长镜头都用过去进行。",
+            "level": 4
+          },
+          {
+            "q": "They ___ chess when the bell ___.",
+            "options": [
+              "were playing / rang",
+              "played / was ringing",
+              "were playing / was ringing"
+            ],
+            "answer": 0,
+            "explain": "下棋是背景，铃声是一瞬间的快门——rang。",
+            "level": 4
+          },
+          {
+            "q": "— What ___ you ___ at 8:30 last night? — I was practising the piano.",
+            "options": [
+              "were / doing",
+              "did / do it",
+              "were / did"
+            ],
+            "answer": 0,
+            "explain": "回答用了 was practising，提问自然是 What were you doing。",
+            "level": 4
+          },
+          {
+            "q": "The sun ___ when we ___ the mountain top.",
+            "options": [
+              "was rising / reached",
+              "rose / was reaching",
+              "was rising / was reaching"
+            ],
+            "answer": 0,
+            "explain": "日出是缓慢的长镜头；「到达山顶」是一下子的快门。",
+            "level": 4
+          },
+          {
+            "q": "I ___ my keys while I ___ in the park.",
+            "options": [
+              "lost / was running",
+              "was losing / ran",
+              "lose / was running"
+            ],
+            "answer": 0,
+            "explain": "「跑步」是长镜头背景；「丢钥匙」一瞬间发生——lost。",
+            "level": 4
+          },
+          {
+            "q": "She usually walks to school, but at 7:30 today she ___ a bus.（现在是下午）",
+            "options": [
+              "was catching",
+              "catches",
+              "is catching"
+            ],
+            "answer": 0,
+            "explain": "usually 的习惯归习惯；今早 7:30 那一刻已过去 → was catching。",
+            "level": 4
+          },
+          {
+            "q": "When I called him, he ___ — so he didn't hear the phone.",
+            "options": [
+              "was sleeping",
+              "slept",
+              "sleeps"
+            ],
+            "answer": 0,
+            "explain": "「没听见电话」说明那刻正睡着——was sleeping。",
+            "level": 4
+          },
+          {
+            "q": "We ___ about the film when the teacher ___ in.",
+            "options": [
+              "were talking / came",
+              "talked / was coming",
+              "talk / came"
+            ],
+            "answer": 0,
+            "explain": "聊天是背景长镜头；老师进门是快门 came。",
+            "level": 4
+          },
+          {
+            "q": "It ___ heavily, so we ___ at home and played cards.",
+            "options": [
+              "was snowing / stayed",
+              "snowed / were staying",
+              "was snowing / were staying"
+            ],
+            "answer": 0,
+            "explain": "雪下着是背景；「决定待在家」是接下来的动作，一般过去 stayed。",
+            "level": 4
+          },
+          {
+            "q": "At this time yesterday, I ___ on a train to Chengdu.",
+            "options": [
+              "was sitting",
+              "sat",
+              "am sitting"
+            ],
+            "answer": 0,
+            "explain": "「昨天的这个时候」是过去的一刻——was sitting。",
+            "level": 4
+          },
+          {
+            "q": "He ___ the answer, so he put up his hand.",
+            "options": [
+              "knew",
+              "was knowing",
+              "knows"
+            ],
+            "answer": 0,
+            "explain": "know 是状态动词——过去的状态直接 knew，不上镜头。",
+            "level": 4
+          },
+          {
+            "q": "While the band ___, the singer suddenly ___ the stage.",
+            "options": [
+              "was playing / left",
+              "played / was leaving",
+              "was playing / was leaving"
+            ],
+            "answer": 0,
+            "explain": "乐队演奏是长镜头；歌手离场是突发快门 left。",
+            "level": 4
+          },
+          {
+            "q": "— Why didn't you answer the door? — Sorry, I ___ music with my headphones on.",
+            "options": [
+              "was listening to",
+              "listened to",
+              "listen to"
+            ],
+            "answer": 0,
+            "explain": "敲门那会儿「正戴着耳机听歌」——was listening to。",
+            "level": 4
+          },
+          {
+            "q": "The students ___ notes while the teacher ___ the new song.",
+            "options": [
+              "were taking / was teaching",
+              "took / taught then",
+              "were taking / taught quickly"
+            ],
+            "answer": 0,
+            "explain": "记笔记和教歌同时进行——两个长镜头并排铺开。",
+            "level": 4
+          },
+          {
+            "q": "大考：Yesterday at five, Lily ___ a cake, Ben ___ the room, and I ___ them photos.",
+            "options": [
+              "was making / was cleaning / was taking",
+              "made / cleaned / took",
+              "was making / cleaned / was taking"
+            ],
+            "answer": 0,
+            "explain": "「昨天五点」同一刻三个画面同时进行——三个 was/were + -ing 一次配齐。",
+            "level": 4
+          }
         ]
       }
     ]

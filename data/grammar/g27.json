@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I have finished my homework, so I can play now.", "cn": "作业写完了，现在可以玩了。（影响延续到现在）" },
-          { "en": "She has lost her ticket and she is crying.", "cn": "她把票弄丢了，正哭着呢。（现在还没找到）" },
-          { "en": "We have known each other since Grade One.", "cn": "我们从一年级就认识。（since + 起点）" },
-          { "en": "My uncle has worked in the hospital for ten years.", "cn": "我叔叔在医院工作十年了。（for + 长度）" },
-          { "en": "I have been to the Great Wall twice.", "cn": "我去过长城两次。（人回来了——been）" }
+          {
+            "en": "I have finished my homework, so I can play now.",
+            "cn": "作业写完了，现在可以玩了。（影响延续到现在）"
+          },
+          {
+            "en": "She has lost her ticket and she is crying.",
+            "cn": "她把票弄丢了，正哭着呢。（现在还没找到）"
+          },
+          {
+            "en": "We have known each other since Grade One.",
+            "cn": "我们从一年级就认识。（since + 起点）"
+          },
+          {
+            "en": "My uncle has worked in the hospital for ten years.",
+            "cn": "我叔叔在医院工作十年了。（for + 长度）"
+          },
+          {
+            "en": "I have been to the Great Wall twice.",
+            "cn": "我去过长城两次。（人回来了——been）"
+          }
         ],
         "mid": [
-          { "en": "My cousin has gone to Shanghai — he isn't here.", "cn": "表哥去上海了——人不在。（没回来——gone）" },
-          { "en": "I saw that film last month, so I don't want to see it again.", "cn": "那部电影我上个月看的，不想再看了。（有日期→断音）" },
-          { "en": "— How long have you had this guitar? — For five years.", "cn": "——这把琴你有多久了？——五年了。（buy 换成 have 才能量长度）" },
-          { "en": "The band has played together since 2020.", "cn": "乐队从 2020 年合作到现在。" },
-          { "en": "He has just come back from the library.", "cn": "他刚从图书馆回来。（just 挂延音线）" }
+          {
+            "en": "My cousin has gone to Shanghai — he isn't here.",
+            "cn": "表哥去上海了——人不在。（没回来——gone）"
+          },
+          {
+            "en": "I saw that film last month, so I don't want to see it again.",
+            "cn": "那部电影我上个月看的，不想再看了。（有日期→断音）"
+          },
+          {
+            "en": "— How long have you had this guitar? — For five years.",
+            "cn": "——这把琴你有多久了？——五年了。（buy 换成 have 才能量长度）"
+          },
+          {
+            "en": "The band has played together since 2020.",
+            "cn": "乐队从 2020 年合作到现在。"
+          },
+          {
+            "en": "He has just come back from the library.",
+            "cn": "他刚从图书馆回来。（just 挂延音线）"
+          }
         ],
         "trap": [
-          { "en": "I have seen this film. I saw it with Dad last Saturday.", "cn": "这部电影我看过。上周六和爸爸看的。", "note": "先说经历用延音线；一补上 last Saturday 的日期，第二句立刻换断音。" },
-          { "en": "— Where is Amy? — She has gone to the music room.", "cn": "——艾米人呢？——去音乐教室了。", "note": "人不在场只能用 gone；用 been 就成了「去过又回来了」，和「人呢」对不上。" },
-          { "en": "My grandpa has been a teacher for thirty years.", "cn": "我爷爷当了三十年老师。", "note": "「当老师」是可延续的状态，能配 for；不能说 has become a teacher for thirty years。" },
-          { "en": "We have lived in this town since my sister was born.", "cn": "从我妹妹出生起，我们就住在这个镇上。", "note": "since 后面可以跟过去时小句——起点是「妹妹出生」那一刻。" },
-          { "en": "His dog has been dead for two years.", "cn": "他的狗死了两年了。", "note": "die 是瞬间音，不能 has died for two years——换状态 be dead 才能拉长。" },
-          { "en": "I got up at six and I have been busy since then.", "cn": "我六点起的床，从那以后一直忙到现在。", "note": "一句话两种调：起床钉在六点用过去时；「从那以后一直忙」延续到现在用完成时。" }
+          {
+            "en": "I have seen this film. I saw it with Dad last Saturday.",
+            "cn": "这部电影我看过。上周六和爸爸看的。",
+            "note": "先说经历用延音线；一补上 last Saturday 的日期，第二句立刻换断音。"
+          },
+          {
+            "en": "— Where is Amy? — She has gone to the music room.",
+            "cn": "——艾米人呢？——去音乐教室了。",
+            "note": "人不在场只能用 gone；用 been 就成了「去过又回来了」，和「人呢」对不上。"
+          },
+          {
+            "en": "My grandpa has been a teacher for thirty years.",
+            "cn": "我爷爷当了三十年老师。",
+            "note": "「当老师」是可延续的状态，能配 for；不能说 has become a teacher for thirty years。"
+          },
+          {
+            "en": "We have lived in this town since my sister was born.",
+            "cn": "从我妹妹出生起，我们就住在这个镇上。",
+            "note": "since 后面可以跟过去时小句——起点是「妹妹出生」那一刻。"
+          },
+          {
+            "en": "His dog has been dead for two years.",
+            "cn": "他的狗死了两年了。",
+            "note": "die 是瞬间音，不能 has died for two years——换状态 be dead 才能拉长。"
+          },
+          {
+            "en": "I got up at six and I have been busy since then.",
+            "cn": "我六点起的床，从那以后一直忙到现在。",
+            "note": "一句话两种调：起床钉在六点用过去时；「从那以后一直忙」延续到现在用完成时。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "现在完成时里，have/has 承担全部报时，过去分词一动不动——又是那条「一人报时、其余冻结」的分工规律（G29 的 be 是这样，这里的 have 也是，下一课 G28 的 had 还会是）。更有意思的是 have 自己的身世：它本来是实打实的「拥有」，可 I have eaten 里的 have 早就不表示拥有任何东西了——它被天天使用，磨损成了纯粹的语法工具，和 be、do 走的是同一条路。越常用的词，越早被磨成工具；框架越用越规整，零件越用越面目全非——这就是英语的秩序。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G27 · 现在完成时进阶</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>延音线 vs 断音：音还在响 vs 音已断</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎵 延音：影响还在 → have/has + 过去分词 ｜ 断音：钉在过去 → 过去时</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>I have lost my key.（还没找到）｜ I lost my key yesterday.（有日期→剪断）</text><rect x='36' y='226' width='314' height='118' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='193' y='258' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>👣 been vs gone</text><text x='193' y='288' text-anchor='middle' font-size='15' fill='#5A4A42'>been：去过，人回来了</text><text x='193' y='316' text-anchor='middle' font-size='15' fill='#5A4A42'>gone：去了，人没回</text><rect x='370' y='226' width='314' height='118' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='527' y='258' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>📏 for vs since</text><text x='527' y='288' text-anchor='middle' font-size='15' fill='#5A4A42'>for + 一段：for three years</text><text x='527' y='316' text-anchor='middle' font-size='15' fill='#5A4A42'>since + 起点：since 2022 / since we met</text><rect x='36' y='364' width='648' height='84' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='394' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>⚡ 瞬间动词量不了长度</text><text x='360' y='424' text-anchor='middle' font-size='14' fill='#5A4A42'>buy→have had · die→be dead · join→be in · begin→be on（换成状态再接 for/since）</text><rect x='36' y='468' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='498' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ have seen ... last night ✗ · since three years ✗ · How long have you bought ✗</text><text x='360' y='546' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只考 G26 七搭配——这课为初中 / PET 打底，学到就是赚到</text><text x='360' y='578' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：have 从「拥有」磨成纯工具——一人报时，其余冻结 · 英语奇遇记 🦊 G27</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G27 · 现在完成时进阶</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>延音线 vs 断音：音还在响 vs 音已断</text><rect x='36' y='110' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🎵 延音：影响还在 → have/has + 过去分词 ｜ 断音：钉在过去 → 过去时</text><text x='360' y='176' text-anchor='middle' font-size='16' fill='#5A4A42'>I have lost my key.（还没找到）｜ I lost my key yesterday.（有日期→剪断）</text><rect x='36' y='226' width='314' height='118' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='193' y='258' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>👣 been vs gone</text><text x='193' y='288' text-anchor='middle' font-size='19' fill='#5A4A42'>been：去过，人回来了</text><text x='193' y='316' text-anchor='middle' font-size='19' fill='#5A4A42'>gone：去了，人没回</text><rect x='370' y='226' width='314' height='118' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='527' y='258' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>📏 for vs since</text><text x='527' y='288' text-anchor='middle' font-size='19' fill='#5A4A42'>for + 一段：for three years</text><text x='527' y='316' text-anchor='middle' font-size='15' fill='#5A4A42'>since + 起点：since 2022 / since we met</text><rect x='36' y='364' width='648' height='84' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='394' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>⚡ 瞬间动词量不了长度</text><text x='360' y='424' text-anchor='middle' font-size='14' fill='#5A4A42'>buy→have had · die→be dead · join→be in · begin→be on（换成状态再接 for/since）</text><rect x='36' y='468' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='498' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ have seen ... last night ✗ · since three years ✗ · How long have you bought ✗</text><text x='360' y='546' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只考 G26 七搭配——这课为初中 / PET 打底，学到就是赚到</text><text x='360' y='578' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：have 从「拥有」磨成纯工具——一人报时，其余冻结 · 英语奇遇记 🦊 G27</text></svg>",
     "alt": "G27 记忆卡：延音线（影响还在→have/has+过去分词）vs 断音（有日期→一般过去时）；been 去过人回来了 vs gone 去了没回；for+一段长度 vs since+起点；瞬间动词换状态才能量长度（have had/be dead/be in/be on）；警示 have seen...last night、since three years、How long have you bought。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 延音还是断音",
         "questions": [
-          { "q": "yesterday 一出现，句子该用哪种调？", "options": ["一般过去时（断音）", "现在完成时（延音）", "两种都行"], "answer": 0, "explain": "有日期的词一出现，延音线必须剪断。", "level": 1 },
-          { "q": "「事情的影响延续到现在」用哪种时态？", "options": ["现在完成时", "一般过去时", "一般将来时"], "answer": 0, "explain": "音还在响——现在完成时这条延音线。", "level": 1 },
-          { "q": "现在完成时的两件套是？", "options": ["have/has + 过去分词", "be + 过去分词", "did + 动词原形"], "answer": 0, "explain": "have/has 管报时，过去分词冻结不动。", "level": 1 },
-          { "q": "have been to 表示什么？", "options": ["去过（人已回来）", "去了（人没回）", "将要去"], "answer": 0, "explain": "been 是经历——人已经回来了。", "level": 1 },
-          { "q": "have gone to 表示什么？", "options": ["去了（人还没回）", "去过（人已回来）", "从没去过"], "answer": 0, "explain": "gone 是人还在路上或在那儿——不在场。", "level": 1 },
-          { "q": "for 后面接什么？", "options": ["一段长度（如 three years）", "一个起点（如 2020 年）", "一个地点"], "answer": 0, "explain": "for 报长度——这个音拉了多久。", "level": 1 },
-          { "q": "since 后面接什么？", "options": ["一个起点（如 2020 / last year）", "一段长度（如 three years）", "一个人名"], "answer": 0, "explain": "since 报起点——从哪一刻起一直响到现在。", "level": 1 },
-          { "q": "know 的过去分词（第三形态）是？", "options": ["known", "knew", "knows"], "answer": 0, "explain": "know→knew→known——have known。", "level": 1 },
-          { "q": "see 的过去分词（第三形态）是？", "options": ["seen", "saw", "sees"], "answer": 0, "explain": "see→saw→seen——have seen。", "level": 1 },
-          { "q": "go 的过去分词（第三形态）是？", "options": ["gone", "went", "goes"], "answer": 0, "explain": "go→went→gone——been/gone 的 gone 就是它。", "level": 1 },
-          { "q": "just now（刚才）配哪种时态？", "options": ["一般过去时", "现在完成时", "现在进行时"], "answer": 0, "explain": "just now 是过去时间词；just（刚刚）才配完成时。", "level": 1 },
-          { "q": "How long have you...? 问的是？", "options": ["这件事延续了多长时间", "具体发生在哪一天", "去了什么地方"], "answer": 0, "explain": "How long 挂在延音线上，回答用 for/since。", "level": 1 },
-          { "q": "句子里出现 in 2020，还能用现在完成时吗？", "options": ["不能——有日期就剪断延音线", "能，随便用", "只有动词规则时能"], "answer": 0, "explain": "完成时从不和具体日期同框。", "level": 1 },
-          { "q": "die / buy / join 这类瞬间动词能直接接 for 吗？", "options": ["不能——要换成状态再量长度", "能，直接接", "只有 die 可以"], "answer": 0, "explain": "瞬间音拉不长——be dead / have had / be in。", "level": 1 },
-          { "q": "She has lost her pen. 钢笔现在找到了吗？", "options": ["还没有——延音线说明影响还在", "已经找到了", "句子没有透露"], "answer": 0, "explain": "延音线还响着——笔到现在还丢着。", "level": 1 },
-          { "q": "I lost my pen this morning. 这句强调的是？", "options": ["丢笔发生在过去某个时刻", "笔到现在还没找到", "我经常丢笔"], "answer": 0, "explain": "断音只报告过去的事实，不管现在。", "level": 1 }
+          {
+            "q": "yesterday 一出现，句子该用哪种调？",
+            "options": [
+              "一般过去时（断音）",
+              "现在完成时（延音）",
+              "两种都行"
+            ],
+            "answer": 0,
+            "explain": "有日期的词一出现，延音线必须剪断。",
+            "level": 1
+          },
+          {
+            "q": "「事情的影响延续到现在」用哪种时态？",
+            "options": [
+              "现在完成时",
+              "一般过去时",
+              "一般将来时"
+            ],
+            "answer": 0,
+            "explain": "音还在响——现在完成时这条延音线。",
+            "level": 1
+          },
+          {
+            "q": "现在完成时的两件套是？",
+            "options": [
+              "have/has + 过去分词",
+              "be + 过去分词",
+              "did + 动词原形"
+            ],
+            "answer": 0,
+            "explain": "have/has 管报时，过去分词冻结不动。",
+            "level": 1
+          },
+          {
+            "q": "have been to 表示什么？",
+            "options": [
+              "去过（人已回来）",
+              "去了（人没回）",
+              "将要去"
+            ],
+            "answer": 0,
+            "explain": "been 是经历——人已经回来了。",
+            "level": 1
+          },
+          {
+            "q": "have gone to 表示什么？",
+            "options": [
+              "去了（人还没回）",
+              "去过（人已回来）",
+              "从没去过"
+            ],
+            "answer": 0,
+            "explain": "gone 是人还在路上或在那儿——不在场。",
+            "level": 1
+          },
+          {
+            "q": "for 后面接什么？",
+            "options": [
+              "一段长度（如 three years）",
+              "一个起点（如 2020 年）",
+              "一个地点"
+            ],
+            "answer": 0,
+            "explain": "for 报长度——这个音拉了多久。",
+            "level": 1
+          },
+          {
+            "q": "since 后面接什么？",
+            "options": [
+              "一个起点（如 2020 / last year）",
+              "一段长度（如 three years）",
+              "一个人名"
+            ],
+            "answer": 0,
+            "explain": "since 报起点——从哪一刻起一直响到现在。",
+            "level": 1
+          },
+          {
+            "q": "know 的过去分词（第三形态）是？",
+            "options": [
+              "known",
+              "knew",
+              "knows"
+            ],
+            "answer": 0,
+            "explain": "know→knew→known——have known。",
+            "level": 1
+          },
+          {
+            "q": "see 的过去分词（第三形态）是？",
+            "options": [
+              "seen",
+              "saw",
+              "sees"
+            ],
+            "answer": 0,
+            "explain": "see→saw→seen——have seen。",
+            "level": 1
+          },
+          {
+            "q": "go 的过去分词（第三形态）是？",
+            "options": [
+              "gone",
+              "went",
+              "goes"
+            ],
+            "answer": 0,
+            "explain": "go→went→gone——been/gone 的 gone 就是它。",
+            "level": 1
+          },
+          {
+            "q": "just now（刚才）配哪种时态？",
+            "options": [
+              "一般过去时",
+              "现在完成时",
+              "现在进行时"
+            ],
+            "answer": 0,
+            "explain": "just now 是过去时间词；just（刚刚）才配完成时。",
+            "level": 1
+          },
+          {
+            "q": "How long have you...? 问的是？",
+            "options": [
+              "这件事延续了多长时间",
+              "具体发生在哪一天",
+              "去了什么地方"
+            ],
+            "answer": 0,
+            "explain": "How long 挂在延音线上，回答用 for/since。",
+            "level": 1
+          },
+          {
+            "q": "句子里出现 in 2020，还能用现在完成时吗？",
+            "options": [
+              "不能——有日期就剪断延音线",
+              "能，随便用",
+              "只有动词规则时能"
+            ],
+            "answer": 0,
+            "explain": "完成时从不和具体日期同框。",
+            "level": 1
+          },
+          {
+            "q": "die / buy / join 这类瞬间动词能直接接 for 吗？",
+            "options": [
+              "不能——要换成状态再量长度",
+              "能，直接接",
+              "只有 die 可以"
+            ],
+            "answer": 0,
+            "explain": "瞬间音拉不长——be dead / have had / be in。",
+            "level": 1
+          },
+          {
+            "q": "She has lost her pen. 钢笔现在找到了吗？",
+            "options": [
+              "还没有——延音线说明影响还在",
+              "已经找到了",
+              "句子没有透露"
+            ],
+            "answer": 0,
+            "explain": "延音线还响着——笔到现在还丢着。",
+            "level": 1
+          },
+          {
+            "q": "I lost my pen this morning. 这句强调的是？",
+            "options": [
+              "丢笔发生在过去某个时刻",
+              "笔到现在还没找到",
+              "我经常丢笔"
+            ],
+            "answer": 0,
+            "explain": "断音只报告过去的事实，不管现在。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 挑对调",
         "questions": [
-          { "q": "I ___ my homework, so I can watch TV now.", "options": ["have finished", "finished", "finish"], "answer": 0, "explain": "影响延续到现在（现在有空）——延音线。", "level": 2 },
-          { "q": "We ___ that museum last winter.", "options": ["visited", "have visited", "visit"], "answer": 0, "explain": "last winter 有日期——断音。", "level": 2 },
-          { "q": "She ___ her keys — she can't open the door now.", "options": ["has lost", "lost", "loses"], "answer": 0, "explain": "现在开不了门，影响还在——has lost。", "level": 2 },
-          { "q": "My father ___ in this factory for twenty years.", "options": ["has worked", "worked", "is working"], "answer": 0, "explain": "for twenty years 挂延音线——has worked。", "level": 2 },
-          { "q": "— Where is Ben? — He ___ to the teachers' office.", "options": ["has gone", "has been", "goes"], "answer": 0, "explain": "人不在场——gone。", "level": 2 },
-          { "q": "I ___ to Hainan twice with my parents.", "options": ["have been", "have gone", "have go"], "answer": 0, "explain": "说经历、人回来了——have been to。", "level": 2 },
-          { "q": "We have known each other ___ we were five.", "options": ["since", "for", "from"], "answer": 0, "explain": "起点是「五岁那年」——since + 过去时小句。", "level": 2 },
-          { "q": "The band has played together ___ ten years.", "options": ["for", "since", "at"], "answer": 0, "explain": "「十年」是一段长度——for。", "level": 2 },
-          { "q": "My aunt ___ her hometown in 2015.", "options": ["left", "has left", "leaves"], "answer": 0, "explain": "in 2015 有日期——断音 left。", "level": 2 },
-          { "q": "He ___ just ___ back from the sports meeting.", "options": ["has / come", "has / came", "did / come"], "answer": 0, "explain": "just 挂延音线——has come；come 的第三形态还是 come。", "level": 2 },
-          { "q": "— ___ you ever ___ a panda? — Yes, twice.", "options": ["Have / seen", "Did / see", "Have / saw"], "answer": 0, "explain": "ever 问经历——Have you ever seen...?", "level": 2 },
-          { "q": "I ___ this bike for three years.", "options": ["have had", "have bought", "am having"], "answer": 0, "explain": "buy 量不了长度——「拥有三年」用 have had。", "level": 2 },
-          { "q": "She ___ her homework yet.", "options": ["hasn't finished", "didn't finished", "doesn't finished"], "answer": 0, "explain": "yet 挂延音线——hasn't finished。", "level": 2 },
-          { "q": "How long ___ your brother ___ in the army?", "options": ["has / been", "has / joined", "did / join"], "answer": 0, "explain": "join 是瞬间动词——延续状态用 be in the army。", "level": 2 },
-          { "q": "The concert ___ ten minutes ago.", "options": ["started", "has started", "starts"], "answer": 0, "explain": "...ago 有日期——断音 started。", "level": 2 },
-          { "q": "My grandparents ___ in this town since 1990.", "options": ["have lived", "lived", "live"], "answer": 0, "explain": "since 1990 挂延音线——have lived。", "level": 2 }
+          {
+            "q": "I ___ my homework, so I can watch TV now.",
+            "options": [
+              "have finished",
+              "finished",
+              "finish"
+            ],
+            "answer": 0,
+            "explain": "影响延续到现在（现在有空）——延音线。",
+            "level": 2
+          },
+          {
+            "q": "We ___ that museum last winter.",
+            "options": [
+              "visited",
+              "have visited",
+              "visit"
+            ],
+            "answer": 0,
+            "explain": "last winter 有日期——断音。",
+            "level": 2
+          },
+          {
+            "q": "She ___ her keys — she can't open the door now.",
+            "options": [
+              "has lost",
+              "lost",
+              "loses"
+            ],
+            "answer": 0,
+            "explain": "现在开不了门，影响还在——has lost。",
+            "level": 2
+          },
+          {
+            "q": "My father ___ in this factory for twenty years.",
+            "options": [
+              "has worked",
+              "worked",
+              "is working"
+            ],
+            "answer": 0,
+            "explain": "for twenty years 挂延音线——has worked。",
+            "level": 2
+          },
+          {
+            "q": "— Where is Ben? — He ___ to the teachers' office.",
+            "options": [
+              "has gone",
+              "has been",
+              "goes"
+            ],
+            "answer": 0,
+            "explain": "人不在场——gone。",
+            "level": 2
+          },
+          {
+            "q": "I ___ to Hainan twice with my parents.",
+            "options": [
+              "have been",
+              "have gone",
+              "have go"
+            ],
+            "answer": 0,
+            "explain": "说经历、人回来了——have been to。",
+            "level": 2
+          },
+          {
+            "q": "We have known each other ___ we were five.",
+            "options": [
+              "since",
+              "for",
+              "from"
+            ],
+            "answer": 0,
+            "explain": "起点是「五岁那年」——since + 过去时小句。",
+            "level": 2
+          },
+          {
+            "q": "The band has played together ___ ten years.",
+            "options": [
+              "for",
+              "since",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "「十年」是一段长度——for。",
+            "level": 2
+          },
+          {
+            "q": "My aunt ___ her hometown in 2015.",
+            "options": [
+              "left",
+              "has left",
+              "leaves"
+            ],
+            "answer": 0,
+            "explain": "in 2015 有日期——断音 left。",
+            "level": 2
+          },
+          {
+            "q": "He ___ just ___ back from the sports meeting.",
+            "options": [
+              "has / come",
+              "has / came",
+              "did / come"
+            ],
+            "answer": 0,
+            "explain": "just 挂延音线——has come；come 的第三形态还是 come。",
+            "level": 2
+          },
+          {
+            "q": "— ___ you ever ___ a panda? — Yes, twice.",
+            "options": [
+              "Have / seen",
+              "Did / see",
+              "Have / saw"
+            ],
+            "answer": 0,
+            "explain": "ever 问经历——Have you ever seen...?",
+            "level": 2
+          },
+          {
+            "q": "I ___ this bike for three years.",
+            "options": [
+              "have had",
+              "have bought",
+              "am having"
+            ],
+            "answer": 0,
+            "explain": "buy 量不了长度——「拥有三年」用 have had。",
+            "level": 2
+          },
+          {
+            "q": "She ___ her homework yet.",
+            "options": [
+              "hasn't finished",
+              "didn't finished",
+              "doesn't finished"
+            ],
+            "answer": 0,
+            "explain": "yet 挂延音线——hasn't finished。",
+            "level": 2
+          },
+          {
+            "q": "How long ___ your brother ___ in the army?",
+            "options": [
+              "has / been",
+              "has / joined",
+              "did / join"
+            ],
+            "answer": 0,
+            "explain": "join 是瞬间动词——延续状态用 be in the army。",
+            "level": 2
+          },
+          {
+            "q": "The concert ___ ten minutes ago.",
+            "options": [
+              "started",
+              "has started",
+              "starts"
+            ],
+            "answer": 0,
+            "explain": "...ago 有日期——断音 started。",
+            "level": 2
+          },
+          {
+            "q": "My grandparents ___ in this town since 1990.",
+            "options": [
+              "have lived",
+              "lived",
+              "live"
+            ],
+            "answer": 0,
+            "explain": "since 1990 挂延音线——have lived。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 剪错的延音线",
         "questions": [
-          { "q": "哪一句说对了？（这部电影我昨晚看的）", "options": ["I saw this film last night.", "I have seen this film last night.", "I have saw this film last night."], "answer": 0, "explain": "last night 有日期——只能断音 saw。", "level": 3 },
-          { "q": "哪一句说对了？（汤姆去图书馆了——人不在）", "options": ["Tom has gone to the library.", "Tom has been to the library.", "Tom has going to the library."], "answer": 0, "explain": "人不在场——gone；been 成了「去过又回来了」。", "level": 3 },
-          { "q": "哪一句说对了？（我去过上海两次——人回来了）", "options": ["I have been to Shanghai twice.", "I have gone to Shanghai twice.", "I have go to Shanghai twice."], "answer": 0, "explain": "说经历用 been——gone 会变成「去了两次都没回来」。", "level": 3 },
-          { "q": "哪一句说对了？（我认识他三年了）", "options": ["I have known him for three years.", "I have known him since three years.", "I have knew him for three years."], "answer": 0, "explain": "「三年」是长度归 for；分词是 known。", "level": 3 },
-          { "q": "哪一句说对了？（我们从 2022 年起住在这儿）", "options": ["We have lived here since 2022.", "We have lived here for 2022.", "We lived here since 2022."], "answer": 0, "explain": "2022 是起点归 since，主句要挂延音线。", "level": 3 },
-          { "q": "哪一句说对了？（作业刚才写完的）", "options": ["I finished my homework just now.", "I have finished my homework just now.", "I finish my homework just now."], "answer": 0, "explain": "just now（刚才）配过去时——别和 just 弄混。", "level": 3 },
-          { "q": "哪一句说对了？（他的狗死了两年了）", "options": ["His dog has been dead for two years.", "His dog has died for two years.", "His dog died for two years."], "answer": 0, "explain": "die 是瞬间音——换状态 be dead 才能量长度。", "level": 3 },
-          { "q": "哪一句说对了？（这辆车他买了五年了）", "options": ["He has had this car for five years.", "He has bought this car for five years.", "He bought this car for five years."], "answer": 0, "explain": "「买」量不了长度——「拥有五年」用 has had。", "level": 3 },
-          { "q": "哪一句说对了？（她还没回来）", "options": ["She hasn't come back yet.", "She hasn't came back yet.", "She isn't come back yet."], "answer": 0, "explain": "hasn't + 过去分词 come——came 是过去式。", "level": 3 },
-          { "q": "哪一句说对了？（你曾经赢过奖吗）", "options": ["Have you ever won a prize?", "Did you ever won a prize?", "Have you ever win a prize?"], "answer": 0, "explain": "问经历——Have you ever + 过去分词 won。", "level": 3 },
-          { "q": "哪一句说对了？（电影已经开演十分钟了）", "options": ["The film has been on for ten minutes.", "The film has begun for ten minutes.", "The film began for ten minutes."], "answer": 0, "explain": "begin 是瞬间音——延续状态用 be on。", "level": 3 },
-          { "q": "哪一句说对了？（我刚丢了公交卡，现在进不了站）", "options": ["I have lost my bus card, so I can't get in.", "I have losed my bus card, so I can't get in.", "I lose my bus card, so I can't get in."], "answer": 0, "explain": "影响延续到现在——have lost（lose→lost）。", "level": 3 },
-          { "q": "哪一句说对了？（爷爷当医生四十年了）", "options": ["Grandpa has been a doctor for forty years.", "Grandpa has become a doctor for forty years.", "Grandpa became a doctor for forty years."], "answer": 0, "explain": "become 是瞬间音——「当医生」的状态用 be a doctor。", "level": 3 },
-          { "q": "哪一句说对了？（——人呢？——妈妈去菜市场了）", "options": ["Mum has gone to the market.", "Mum has been to the market.", "Mum have gone to the market."], "answer": 0, "explain": "人不在场用 gone；Mum 三单配 has。", "level": 3 },
-          { "q": "哪一句说对了？（自从我们见面，我们就是朋友）", "options": ["We have been friends since we met.", "We have been friends since we have met.", "We are friends since we met."], "answer": 0, "explain": "since 小句用过去时定起点，主句挂延音线。", "level": 3 },
-          { "q": "哪一句说对了？（上周和昨天我都练了琴）", "options": ["I practised the piano last week and yesterday.", "I have practised the piano last week and yesterday.", "I have practise the piano last week and yesterday."], "answer": 0, "explain": "两个日期都钉在过去——纯断音，别带 have。", "level": 3 }
+          {
+            "q": "哪一句说对了？（这部电影我昨晚看的）",
+            "options": [
+              "I saw this film last night.",
+              "I have seen this film last night.",
+              "I have saw this film last night."
+            ],
+            "answer": 0,
+            "explain": "last night 有日期——只能断音 saw。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（汤姆去图书馆了——人不在）",
+            "options": [
+              "Tom has gone to the library.",
+              "Tom has been to the library.",
+              "Tom has going to the library."
+            ],
+            "answer": 0,
+            "explain": "人不在场——gone；been 成了「去过又回来了」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我去过上海两次——人回来了）",
+            "options": [
+              "I have been to Shanghai twice.",
+              "I have gone to Shanghai twice.",
+              "I have go to Shanghai twice."
+            ],
+            "answer": 0,
+            "explain": "说经历用 been——gone 会变成「去了两次都没回来」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我认识他三年了）",
+            "options": [
+              "I have known him for three years.",
+              "I have known him since three years.",
+              "I have knew him for three years."
+            ],
+            "answer": 0,
+            "explain": "「三年」是长度归 for；分词是 known。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我们从 2022 年起住在这儿）",
+            "options": [
+              "We have lived here since 2022.",
+              "We have lived here for 2022.",
+              "We lived here since 2022."
+            ],
+            "answer": 0,
+            "explain": "2022 是起点归 since，主句要挂延音线。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（作业刚才写完的）",
+            "options": [
+              "I finished my homework just now.",
+              "I have finished my homework just now.",
+              "I finish my homework just now."
+            ],
+            "answer": 0,
+            "explain": "just now（刚才）配过去时——别和 just 弄混。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（他的狗死了两年了）",
+            "options": [
+              "His dog has been dead for two years.",
+              "His dog has died for two years.",
+              "His dog died for two years."
+            ],
+            "answer": 0,
+            "explain": "die 是瞬间音——换状态 be dead 才能量长度。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（这辆车他买了五年了）",
+            "options": [
+              "He has had this car for five years.",
+              "He has bought this car for five years.",
+              "He bought this car for five years."
+            ],
+            "answer": 0,
+            "explain": "「买」量不了长度——「拥有五年」用 has had。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（她还没回来）",
+            "options": [
+              "She hasn't come back yet.",
+              "She hasn't came back yet.",
+              "She isn't come back yet."
+            ],
+            "answer": 0,
+            "explain": "hasn't + 过去分词 come——came 是过去式。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（你曾经赢过奖吗）",
+            "options": [
+              "Have you ever won a prize?",
+              "Did you ever won a prize?",
+              "Have you ever win a prize?"
+            ],
+            "answer": 0,
+            "explain": "问经历——Have you ever + 过去分词 won。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（电影已经开演十分钟了）",
+            "options": [
+              "The film has been on for ten minutes.",
+              "The film has begun for ten minutes.",
+              "The film began for ten minutes."
+            ],
+            "answer": 0,
+            "explain": "begin 是瞬间音——延续状态用 be on。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我刚丢了公交卡，现在进不了站）",
+            "options": [
+              "I have lost my bus card, so I can't get in.",
+              "I have losed my bus card, so I can't get in.",
+              "I lose my bus card, so I can't get in."
+            ],
+            "answer": 0,
+            "explain": "影响延续到现在——have lost（lose→lost）。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（爷爷当医生四十年了）",
+            "options": [
+              "Grandpa has been a doctor for forty years.",
+              "Grandpa has become a doctor for forty years.",
+              "Grandpa became a doctor for forty years."
+            ],
+            "answer": 0,
+            "explain": "become 是瞬间音——「当医生」的状态用 be a doctor。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（——人呢？——妈妈去菜市场了）",
+            "options": [
+              "Mum has gone to the market.",
+              "Mum has been to the market.",
+              "Mum have gone to the market."
+            ],
+            "answer": 0,
+            "explain": "人不在场用 gone；Mum 三单配 has。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（自从我们见面，我们就是朋友）",
+            "options": [
+              "We have been friends since we met.",
+              "We have been friends since we have met.",
+              "We are friends since we met."
+            ],
+            "answer": 0,
+            "explain": "since 小句用过去时定起点，主句挂延音线。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（上周和昨天我都练了琴）",
+            "options": [
+              "I practised the piano last week and yesterday.",
+              "I have practised the piano last week and yesterday.",
+              "I have practise the piano last week and yesterday."
+            ],
+            "answer": 0,
+            "explain": "两个日期都钉在过去——纯断音，别带 have。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 两种调混排",
         "questions": [
-          { "q": "I ___ my key this morning, and I ___ it yet.", "options": ["lost / haven't found", "have lost / didn't find", "lost / didn't found"], "answer": 0, "explain": "this morning 已过去用断音 lost；「到现在还没找到」挂延音线 haven't found。", "level": 4 },
-          { "q": "— ___ you ever ___ to the Palace Museum? — Yes, I ___ there last year.", "options": ["Have / been / went", "Have / gone / went", "Did / go / have been"], "answer": 0, "explain": "问经历 Have you been；答句带 last year——断音 went。", "level": 4 },
-          { "q": "My uncle ___ in Shenzhen since he ___ college.", "options": ["has worked / finished", "worked / has finished", "has worked / has finished"], "answer": 0, "explain": "since 小句用过去时定起点，主句延音。", "level": 4 },
-          { "q": "She ___ the piano for six years — she ___ when she was seven.", "options": ["has played / started", "played / has started", "has played / has started"], "answer": 0, "explain": "延续六年挂延音线；「七岁开始」钉在过去用断音。", "level": 4 },
-          { "q": "— Where ___ Amy? — She ___ to the printing room. She'll be back soon.", "options": ["is / has gone", "is / has been", "was / has gone"], "answer": 0, "explain": "人不在场——has gone；问句是现在 is。", "level": 4 },
-          { "q": "I ___ this book twice, but I ___ it again last night because I love it.", "options": ["have read / read", "read / have read", "have read / has read"], "answer": 0, "explain": "经历挂延音线 have read；last night 断音 read（读 /red/）。", "level": 4 },
-          { "q": "We ___ friends since Grade One, and we ___ in the same band now.", "options": ["have been / are", "were / are", "have been / have been"], "answer": 0, "explain": "从一年级延续到现在 have been；「现在同团」是现在时 are。", "level": 4 },
-          { "q": "— How long ___ you ___ your dog? — ___ three years.", "options": ["have / had / For", "have / bought / For", "did / have / Since"], "answer": 0, "explain": "「养多久」用 have had；「三年」是长度答 For。", "level": 4 },
-          { "q": "Hurry up! The film ___ on for half an hour.", "options": ["has been", "has begun", "began"], "answer": 0, "explain": "begin 量不了长度——「开演半小时」用 has been on。", "level": 4 },
-          { "q": "My parents ___ married for twenty years — they ___ married in 2006.", "options": ["have been / got", "have got / have been", "were / got"], "answer": 0, "explain": "状态延续用 have been married；in 2006 断音 got married。", "level": 4 },
-          { "q": "He ___ his homework, so he ___ free now.", "options": ["has finished / is", "finished / was", "has finished / was"], "answer": 0, "explain": "写完的影响延续到现在——has finished + is free。", "level": 4 },
-          { "q": "— Is your grandma at home? — No, she ___ out. She ___ out an hour ago.", "options": ["has gone / went", "has been / went", "went / has gone"], "answer": 0, "explain": "人不在 has gone out；an hour ago 补时间用断音 went。", "level": 4 },
-          { "q": "I ___ up at six, and I ___ busy since then.", "options": ["got / have been", "have got / was", "got / was"], "answer": 0, "explain": "起床钉在六点断音 got；「从那以后一直忙」延音 have been。", "level": 4 },
-          { "q": "— ___ you ___ the new song yet? — Yes, I ___ it three days ago.", "options": ["Have / heard / heard", "Did / hear / have heard", "Have / heard / have heard"], "answer": 0, "explain": "yet 问延音；答句 three days ago 断音。", "level": 4 },
-          { "q": "She ___ in this school since 2023, but before that she ___ in a village school.", "options": ["has taught / taught", "taught / has taught", "has taught / has taught"], "answer": 0, "explain": "since 2023 延音 has taught；before that 的事钉在过去。", "level": 4 },
-          { "q": "大考：We ___ each other for ten years — we ___ in Grade One, and our friendship ___ still strong.", "options": ["have known / met / is", "knew / have met / is", "have known / met / has been still"], "answer": 0, "explain": "延音 have known + 断音 met（起点）+ 现在 is——三种调各就各位。", "level": 4 }
+          {
+            "q": "I ___ my key this morning, and I ___ it yet.",
+            "options": [
+              "lost / haven't found",
+              "have lost / didn't find",
+              "lost / didn't found"
+            ],
+            "answer": 0,
+            "explain": "this morning 已过去用断音 lost；「到现在还没找到」挂延音线 haven't found。",
+            "level": 4
+          },
+          {
+            "q": "— ___ you ever ___ to the Palace Museum? — Yes, I ___ there last year.",
+            "options": [
+              "Have / been / went",
+              "Have / gone / went",
+              "Did / go / have been"
+            ],
+            "answer": 0,
+            "explain": "问经历 Have you been；答句带 last year——断音 went。",
+            "level": 4
+          },
+          {
+            "q": "My uncle ___ in Shenzhen since he ___ college.",
+            "options": [
+              "has worked / finished",
+              "worked / has finished",
+              "has worked / has finished"
+            ],
+            "answer": 0,
+            "explain": "since 小句用过去时定起点，主句延音。",
+            "level": 4
+          },
+          {
+            "q": "She ___ the piano for six years — she ___ when she was seven.",
+            "options": [
+              "has played / started",
+              "played / has started",
+              "has played / has started"
+            ],
+            "answer": 0,
+            "explain": "延续六年挂延音线；「七岁开始」钉在过去用断音。",
+            "level": 4
+          },
+          {
+            "q": "— Where ___ Amy? — She ___ to the printing room. She'll be back soon.",
+            "options": [
+              "is / has gone",
+              "is / has been",
+              "was / has gone"
+            ],
+            "answer": 0,
+            "explain": "人不在场——has gone；问句是现在 is。",
+            "level": 4
+          },
+          {
+            "q": "I ___ this book twice, but I ___ it again last night because I love it.",
+            "options": [
+              "have read / read",
+              "read / have read",
+              "have read / has read"
+            ],
+            "answer": 0,
+            "explain": "经历挂延音线 have read；last night 断音 read（读 /red/）。",
+            "level": 4
+          },
+          {
+            "q": "We ___ friends since Grade One, and we ___ in the same band now.",
+            "options": [
+              "have been / are",
+              "were / are",
+              "have been / have been"
+            ],
+            "answer": 0,
+            "explain": "从一年级延续到现在 have been；「现在同团」是现在时 are。",
+            "level": 4
+          },
+          {
+            "q": "— How long ___ you ___ your dog? — ___ three years.",
+            "options": [
+              "have / had / For",
+              "have / bought / For",
+              "did / have / Since"
+            ],
+            "answer": 0,
+            "explain": "「养多久」用 have had；「三年」是长度答 For。",
+            "level": 4
+          },
+          {
+            "q": "Hurry up! The film ___ on for half an hour.",
+            "options": [
+              "has been",
+              "has begun",
+              "began"
+            ],
+            "answer": 0,
+            "explain": "begin 量不了长度——「开演半小时」用 has been on。",
+            "level": 4
+          },
+          {
+            "q": "My parents ___ married for twenty years — they ___ married in 2006.",
+            "options": [
+              "have been / got",
+              "have got / have been",
+              "were / got"
+            ],
+            "answer": 0,
+            "explain": "状态延续用 have been married；in 2006 断音 got married。",
+            "level": 4
+          },
+          {
+            "q": "He ___ his homework, so he ___ free now.",
+            "options": [
+              "has finished / is",
+              "finished / was",
+              "has finished / was"
+            ],
+            "answer": 0,
+            "explain": "写完的影响延续到现在——has finished + is free。",
+            "level": 4
+          },
+          {
+            "q": "— Is your grandma at home? — No, she ___ out. She ___ out an hour ago.",
+            "options": [
+              "has gone / went",
+              "has been / went",
+              "went / has gone"
+            ],
+            "answer": 0,
+            "explain": "人不在 has gone out；an hour ago 补时间用断音 went。",
+            "level": 4
+          },
+          {
+            "q": "I ___ up at six, and I ___ busy since then.",
+            "options": [
+              "got / have been",
+              "have got / was",
+              "got / was"
+            ],
+            "answer": 0,
+            "explain": "起床钉在六点断音 got；「从那以后一直忙」延音 have been。",
+            "level": 4
+          },
+          {
+            "q": "— ___ you ___ the new song yet? — Yes, I ___ it three days ago.",
+            "options": [
+              "Have / heard / heard",
+              "Did / hear / have heard",
+              "Have / heard / have heard"
+            ],
+            "answer": 0,
+            "explain": "yet 问延音；答句 three days ago 断音。",
+            "level": 4
+          },
+          {
+            "q": "She ___ in this school since 2023, but before that she ___ in a village school.",
+            "options": [
+              "has taught / taught",
+              "taught / has taught",
+              "has taught / has taught"
+            ],
+            "answer": 0,
+            "explain": "since 2023 延音 has taught；before that 的事钉在过去。",
+            "level": 4
+          },
+          {
+            "q": "大考：We ___ each other for ten years — we ___ in Grade One, and our friendship ___ still strong.",
+            "options": [
+              "have known / met / is",
+              "knew / have met / is",
+              "have known / met / has been still"
+            ],
+            "answer": 0,
+            "explain": "延音 have known + 断音 met（起点）+ 现在 is——三种调各就各位。",
+            "level": 4
+          }
         ]
       }
     ]

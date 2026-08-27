@@ -5,7 +5,9 @@
   "title": "There be 句型",
   "metaphor": "报幕：「舞台上有……」",
   "ketRelevance": 1,
-  "ketLessonMap": ["L1"],
+  "ketLessonMap": [
+    "L1"
+  ],
   "ketNote": "KET 阅读与写作里描述场景的标配句型；There has 是中式高频错。be 的形态规则同 L1。",
   "source": "original",
   "sections": {
@@ -42,26 +44,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "There is a piano in the music room.", "cn": "音乐教室里有一架钢琴。" },
-          { "en": "There are two drums on the stage.", "cn": "舞台上有两面鼓。" },
-          { "en": "There is some water in the bottle.", "cn": "瓶子里有一些水。" },
-          { "en": "There are many students in the hall.", "cn": "大厅里有很多学生。" },
-          { "en": "There is a park near my home.", "cn": "我家附近有一个公园。" }
+          {
+            "en": "There is a piano in the music room.",
+            "cn": "音乐教室里有一架钢琴。"
+          },
+          {
+            "en": "There are two drums on the stage.",
+            "cn": "舞台上有两面鼓。"
+          },
+          {
+            "en": "There is some water in the bottle.",
+            "cn": "瓶子里有一些水。"
+          },
+          {
+            "en": "There are many students in the hall.",
+            "cn": "大厅里有很多学生。"
+          },
+          {
+            "en": "There is a park near my home.",
+            "cn": "我家附近有一个公园。"
+          }
         ],
         "mid": [
-          { "en": "Is there a music room in your school?", "cn": "你们学校有音乐教室吗？" },
-          { "en": "There aren't any clouds in the sky.", "cn": "天上一朵云也没有。" },
-          { "en": "How many pandas are there in the zoo?", "cn": "动物园里有多少只熊猫？" },
-          { "en": "There is no bread at home. Let's buy some.", "cn": "家里没面包了，去买点吧。" },
-          { "en": "There will be a concert tomorrow evening.", "cn": "明晚有一场音乐会。（报幕员也能报明天）" }
+          {
+            "en": "Is there a music room in your school?",
+            "cn": "你们学校有音乐教室吗？"
+          },
+          {
+            "en": "There aren't any clouds in the sky.",
+            "cn": "天上一朵云也没有。"
+          },
+          {
+            "en": "How many pandas are there in the zoo?",
+            "cn": "动物园里有多少只熊猫？"
+          },
+          {
+            "en": "There is no bread at home. Let's buy some.",
+            "cn": "家里没面包了，去买点吧。"
+          },
+          {
+            "en": "There will be a concert tomorrow evening.",
+            "cn": "明晚有一场音乐会。（报幕员也能报明天）"
+          }
         ],
         "trap": [
-          { "en": "There is a pen and two books in the bag.", "cn": "包里有一支笔和两本书。", "note": "就近原则：先报的是 a pen，所以用 is，别被后面的 two books 带跑。" },
-          { "en": "There are two books and a pen in the bag.", "cn": "包里有两本书和一支笔。", "note": "换个顺序先报 two books，就得用 are——同一个包，两种报法。" },
-          { "en": "There is some rice in the bowl.", "cn": "碗里有一些米饭。", "note": "rice 是空气队（不可数），永远配 is——联动 G01。" },
-          { "en": "My school has a big library.", "cn": "我们学校有个大图书馆。", "note": "学校「拥有」图书馆，用 has 也对；说 There is a big library in my school 同样对——两条路都通，别混成 There has。" },
-          { "en": "There is something wrong with my violin.", "cn": "我的小提琴出毛病了。", "note": "something 一族当单数看，配 is。" },
-          { "en": "— Is there any juice? — Yes, there is.", "cn": "——有果汁吗？——有。", "note": "简答重复 there is/are，不说 Yes, it is。" }
+          {
+            "en": "There is a pen and two books in the bag.",
+            "cn": "包里有一支笔和两本书。",
+            "note": "就近原则：先报的是 a pen，所以用 is，别被后面的 two books 带跑。"
+          },
+          {
+            "en": "There are two books and a pen in the bag.",
+            "cn": "包里有两本书和一支笔。",
+            "note": "换个顺序先报 two books，就得用 are——同一个包，两种报法。"
+          },
+          {
+            "en": "There is some rice in the bowl.",
+            "cn": "碗里有一些米饭。",
+            "note": "rice 是空气队（不可数），永远配 is——联动 G01。"
+          },
+          {
+            "en": "My school has a big library.",
+            "cn": "我们学校有个大图书馆。",
+            "note": "学校「拥有」图书馆，用 has 也对；说 There is a big library in my school 同样对——两条路都通，别混成 There has。"
+          },
+          {
+            "en": "There is something wrong with my violin.",
+            "cn": "我的小提琴出毛病了。",
+            "note": "something 一族当单数看，配 is。"
+          },
+          {
+            "en": "— Is there any juice? — Yes, there is.",
+            "cn": "——有果汁吗？——有。",
+            "note": "简答重复 there is/are，不说 Yes, it is。"
+          }
         ]
       }
     },
@@ -187,7 +243,7 @@
     "echo": "句首的 there 本来真是「那里」：古英语的人说「那里站着一棵树」，手还指着方向。说了几百年，「那里」的方向感被磨光了，只剩一个站在句首的空壳，专门给报幕用——语言学家管这叫「语法化」：常用的词被磨掉肉，剩下骨架当语法零件。a 和 the 是这样磨出来的（G02），there 也是。词和楼梯一样，最常踩的地方最先磨平。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G05 · There be 句型</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>报幕员：「舞台上有……」——先喊有，再亮主角</text><rect x='36' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='154' text-anchor='middle' font-size='21' font-weight='bold' fill='#38B2AC'>There is</text><text x='194' y='190' text-anchor='middle' font-size='17' fill='#5A4A42'>主角一个 · 或不可数</text><text x='194' y='226' text-anchor='middle' font-size='17' fill='#5A4A42'>There is a piano.</text><text x='194' y='258' text-anchor='middle' font-size='17' fill='#5A4A42'>There is some milk.</text><rect x='368' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='154' text-anchor='middle' font-size='21' font-weight='bold' fill='#E76F33'>There are</text><text x='526' y='190' text-anchor='middle' font-size='17' fill='#5A4A42'>主角两个以上</text><text x='526' y='226' text-anchor='middle' font-size='17' fill='#5A4A42'>There are two drums.</text><text x='526' y='258' text-anchor='middle' font-size='17' fill='#5A4A42'>Are there any eggs?</text><rect x='36' y='330' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='362' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>就近原则：There is a pen and two books.（看最近的 a pen）</text><text x='360' y='392' text-anchor='middle' font-size='17' fill='#5A4A42'>简答重复报幕员：Yes, there is. / No, there aren't.</text><rect x='36' y='430' width='648' height='60' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='468' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ 两个「有」别缝一起：There has ✗ · There have ✗ —— 拥有 have，存在 There be</text><text x='360' y='526' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G05</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='32' font-weight='bold' fill='#E76F33'>G05 · There be 句型</text><text x='360' y='92' text-anchor='middle' font-size='23' fill='#8A7568'>报幕员：「舞台上有……」——先喊有，再亮主角</text><rect x='36' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='154' text-anchor='middle' font-size='25' font-weight='bold' fill='#38B2AC'>There is</text><text x='194' y='190' text-anchor='middle' font-size='21' fill='#5A4A42'>主角一个 · 或不可数</text><text x='194' y='226' text-anchor='middle' font-size='21' fill='#5A4A42'>There is a piano.</text><text x='194' y='258' text-anchor='middle' font-size='21' fill='#5A4A42'>There is some milk.</text><rect x='368' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='154' text-anchor='middle' font-size='25' font-weight='bold' fill='#E76F33'>There are</text><text x='526' y='190' text-anchor='middle' font-size='21' fill='#5A4A42'>主角两个以上</text><text x='526' y='226' text-anchor='middle' font-size='21' fill='#5A4A42'>There are two drums.</text><text x='526' y='258' text-anchor='middle' font-size='21' fill='#5A4A42'>Are there any eggs?</text><rect x='36' y='330' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='362' text-anchor='middle' font-size='22' font-weight='bold' fill='#E76F33'>就近原则：There is a pen and two books.（看最近的 a pen）</text><text x='360' y='392' text-anchor='middle' font-size='21' fill='#5A4A42'>简答重复报幕员：Yes, there is. / No, there aren't.</text><rect x='36' y='430' width='648' height='60' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='468' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ 两个「有」别缝一起：There has ✗ · There have ✗ —— 拥有 have，存在 There be</text><text x='360' y='526' text-anchor='middle' font-size='18' fill='#B8A79B'>英语奇遇记 🦊 · G05</text></svg>",
     "alt": "G05 记忆卡：There is 配单数与不可数、There are 配复数，就近原则示例与简答规则，警示 There has/There have 是中式缝合怪。"
   },
   "practice": {
@@ -195,85 +251,709 @@
       {
         "name": "认一认 · is 还是 are",
         "questions": [
-          { "q": "There ___ a piano in the hall.", "options": ["is", "are"], "answer": 0, "explain": "一架钢琴，单数——is。", "level": 1 },
-          { "q": "There ___ two drums on the stage.", "options": ["are", "is"], "answer": 0, "explain": "两面鼓，复数——are。", "level": 1 },
-          { "q": "There ___ some water in the glass.", "options": ["is", "are"], "answer": 0, "explain": "water 空气队（不可数）——is。", "level": 1 },
-          { "q": "There ___ many students in the hall.", "options": ["are", "is"], "answer": 0, "explain": "many students 复数——are。", "level": 1 },
-          { "q": "There ___ a cat under the chair.", "options": ["is", "are"], "answer": 0, "explain": "一只猫——is。", "level": 1 },
-          { "q": "There ___ five violins in the box.", "options": ["are", "is"], "answer": 0, "explain": "五把小提琴——are。", "level": 1 },
-          { "q": "There ___ some bread on the plate.", "options": ["is", "are"], "answer": 0, "explain": "bread 空气队——is。", "level": 1 },
-          { "q": "There ___ a lot of people in the park.", "options": ["are", "is"], "answer": 0, "explain": "people 是复数「人们」——are。", "level": 1 },
-          { "q": "There ___ some milk in the fridge.", "options": ["is", "are"], "answer": 0, "explain": "milk 空气队——is。", "level": 1 },
-          { "q": "There ___ three eggs in the bowl.", "options": ["are", "is"], "answer": 0, "explain": "三个鸡蛋——are。", "level": 1 },
-          { "q": "There ___ a bird and two cats in the garden.", "options": ["is", "are"], "answer": 0, "explain": "就近原则：先报的是 a bird——is。", "level": 1 },
-          { "q": "There ___ two cats and a bird in the garden.", "options": ["are", "is"], "answer": 0, "explain": "就近原则：先报的是 two cats——are。", "level": 1 },
-          { "q": "There ___ some rice in the bag.", "options": ["is", "are"], "answer": 0, "explain": "rice 空气队——is。", "level": 1 },
-          { "q": "There ___ many trees near the river.", "options": ["are", "is"], "answer": 0, "explain": "many trees 复数——are。", "level": 1 },
-          { "q": "There ___ a music room in our school.", "options": ["is", "are"], "answer": 0, "explain": "一间音乐教室——is。", "level": 1 },
-          { "q": "There ___ some juice in the bottle.", "options": ["is", "are"], "answer": 0, "explain": "juice 空气队——is。", "level": 1 }
+          {
+            "q": "There ___ a piano in the hall.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "一架钢琴，单数——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ two drums on the stage.",
+            "options": [
+              "are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "两面鼓，复数——are。",
+            "level": 1
+          },
+          {
+            "q": "There ___ some water in the glass.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "water 空气队（不可数）——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ many students in the hall.",
+            "options": [
+              "are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "many students 复数——are。",
+            "level": 1
+          },
+          {
+            "q": "There ___ a cat under the chair.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "一只猫——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ five violins in the box.",
+            "options": [
+              "are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "五把小提琴——are。",
+            "level": 1
+          },
+          {
+            "q": "There ___ some bread on the plate.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "bread 空气队——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ a lot of people in the park.",
+            "options": [
+              "are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "people 是复数「人们」——are。",
+            "level": 1
+          },
+          {
+            "q": "There ___ some milk in the fridge.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "milk 空气队——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ three eggs in the bowl.",
+            "options": [
+              "are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "三个鸡蛋——are。",
+            "level": 1
+          },
+          {
+            "q": "There ___ a bird and two cats in the garden.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "就近原则：先报的是 a bird——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ two cats and a bird in the garden.",
+            "options": [
+              "are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "就近原则：先报的是 two cats——are。",
+            "level": 1
+          },
+          {
+            "q": "There ___ some rice in the bag.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "rice 空气队——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ many trees near the river.",
+            "options": [
+              "are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "many trees 复数——are。",
+            "level": 1
+          },
+          {
+            "q": "There ___ a music room in our school.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "一间音乐教室——is。",
+            "level": 1
+          },
+          {
+            "q": "There ___ some juice in the bottle.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": 0,
+            "explain": "juice 空气队——is。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 请对报幕员",
         "questions": [
-          { "q": "___ a park near my home.", "options": ["There is", "There has", "It has"], "answer": 0, "explain": "「某地有」请报幕员 There is；There has 是缝合怪。", "level": 2 },
-          { "q": "My school ___ a big library.", "options": ["has", "there is", "have"], "answer": 0, "explain": "学校「拥有」图书馆——has。", "level": 2 },
-          { "q": "___ many books in the library.", "options": ["There are", "There have", "There is"], "answer": 0, "explain": "many books 复数——There are；不能用 have。", "level": 2 },
-          { "q": "___ there a concert tomorrow evening?", "options": ["Is", "Are", "Has"], "answer": 0, "explain": "a concert 单数——Is there...?", "level": 2 },
-          { "q": "___ there any eggs in the fridge?", "options": ["Are", "Is", "Have"], "answer": 0, "explain": "eggs 复数——Are there...?", "level": 2 },
-          { "q": "There ___ no clouds in the sky today.", "options": ["are", "is", "has"], "answer": 0, "explain": "clouds 复数——are；There is no + 单数也可以，但这里是复数。", "level": 2 },
-          { "q": "I ___ a new flute.", "options": ["have", "there is", "am"], "answer": 0, "explain": "「我有」是拥有——have。", "level": 2 },
-          { "q": "___ some noise outside. What's that?", "options": ["There is", "There are", "There have"], "answer": 0, "explain": "noise 不可数——There is。", "level": 2 },
-          { "q": "— Is there a music room? — Yes, ___.", "options": ["there is", "it is", "there are"], "answer": 0, "explain": "简答重复报幕员：Yes, there is。", "level": 2 },
-          { "q": "— Are there any pandas in the zoo? — No, ___.", "options": ["there aren't", "they aren't", "there isn't"], "answer": 0, "explain": "复数问复数答：No, there aren't。", "level": 2 },
-          { "q": "There ___ a pen and two books in the bag.", "options": ["is", "are", "have"], "answer": 0, "explain": "就近原则：先报 a pen——is。", "level": 2 },
-          { "q": "There ___ two books and a pen in the bag.", "options": ["are", "is", "has"], "answer": 0, "explain": "就近原则：先报 two books——are。", "level": 2 },
-          { "q": "There ___ something wrong with my bike.", "options": ["is", "are", "have"], "answer": 0, "explain": "something 一族当单数——is。", "level": 2 },
-          { "q": "How many students ___ in your class?", "options": ["are there", "there are", "is there"], "answer": 0, "explain": "特殊疑问句里报幕员倒过来：How many... are there?", "level": 2 },
-          { "q": "There ___ a lot of snow in winter here.", "options": ["is", "are", "have"], "answer": 0, "explain": "snow 空气队——is。a lot of 两队通用。", "level": 2 },
-          { "q": "Our band ___ twelve members.", "options": ["has", "there are", "is"], "answer": 0, "explain": "乐团「拥有」十二名成员——has。", "level": 2 }
+          {
+            "q": "___ a park near my home.",
+            "options": [
+              "There is",
+              "There has",
+              "It has"
+            ],
+            "answer": 0,
+            "explain": "「某地有」请报幕员 There is；There has 是缝合怪。",
+            "level": 2
+          },
+          {
+            "q": "My school ___ a big library.",
+            "options": [
+              "has",
+              "there is",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "学校「拥有」图书馆——has。",
+            "level": 2
+          },
+          {
+            "q": "___ many books in the library.",
+            "options": [
+              "There are",
+              "There have",
+              "There is"
+            ],
+            "answer": 0,
+            "explain": "many books 复数——There are；不能用 have。",
+            "level": 2
+          },
+          {
+            "q": "___ there a concert tomorrow evening?",
+            "options": [
+              "Is",
+              "Are",
+              "Has"
+            ],
+            "answer": 0,
+            "explain": "a concert 单数——Is there...?",
+            "level": 2
+          },
+          {
+            "q": "___ there any eggs in the fridge?",
+            "options": [
+              "Are",
+              "Is",
+              "Have"
+            ],
+            "answer": 0,
+            "explain": "eggs 复数——Are there...?",
+            "level": 2
+          },
+          {
+            "q": "There ___ no clouds in the sky today.",
+            "options": [
+              "are",
+              "is",
+              "has"
+            ],
+            "answer": 0,
+            "explain": "clouds 复数——are；There is no + 单数也可以，但这里是复数。",
+            "level": 2
+          },
+          {
+            "q": "I ___ a new flute.",
+            "options": [
+              "have",
+              "there is",
+              "am"
+            ],
+            "answer": 0,
+            "explain": "「我有」是拥有——have。",
+            "level": 2
+          },
+          {
+            "q": "___ some noise outside. What's that?",
+            "options": [
+              "There is",
+              "There are",
+              "There have"
+            ],
+            "answer": 0,
+            "explain": "noise 不可数——There is。",
+            "level": 2
+          },
+          {
+            "q": "— Is there a music room? — Yes, ___.",
+            "options": [
+              "there is",
+              "it is",
+              "there are"
+            ],
+            "answer": 0,
+            "explain": "简答重复报幕员：Yes, there is。",
+            "level": 2
+          },
+          {
+            "q": "— Are there any pandas in the zoo? — No, ___.",
+            "options": [
+              "there aren't",
+              "they aren't",
+              "there isn't"
+            ],
+            "answer": 0,
+            "explain": "复数问复数答：No, there aren't。",
+            "level": 2
+          },
+          {
+            "q": "There ___ a pen and two books in the bag.",
+            "options": [
+              "is",
+              "are",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "就近原则：先报 a pen——is。",
+            "level": 2
+          },
+          {
+            "q": "There ___ two books and a pen in the bag.",
+            "options": [
+              "are",
+              "is",
+              "has"
+            ],
+            "answer": 0,
+            "explain": "就近原则：先报 two books——are。",
+            "level": 2
+          },
+          {
+            "q": "There ___ something wrong with my bike.",
+            "options": [
+              "is",
+              "are",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "something 一族当单数——is。",
+            "level": 2
+          },
+          {
+            "q": "How many students ___ in your class?",
+            "options": [
+              "are there",
+              "there are",
+              "is there"
+            ],
+            "answer": 0,
+            "explain": "特殊疑问句里报幕员倒过来：How many... are there?",
+            "level": 2
+          },
+          {
+            "q": "There ___ a lot of snow in winter here.",
+            "options": [
+              "is",
+              "are",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "snow 空气队——is。a lot of 两队通用。",
+            "level": 2
+          },
+          {
+            "q": "Our band ___ twelve members.",
+            "options": [
+              "has",
+              "there are",
+              "is"
+            ],
+            "answer": 0,
+            "explain": "乐团「拥有」十二名成员——has。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 火眼金睛",
         "questions": [
-          { "q": "哪一句的报幕是健康的？（桌上的书）", "options": ["There is a book on the desk.", "There has a book on the desk.", "There have a book on the desk."], "answer": 0, "explain": "报幕员只带 be——There is。", "level": 3 },
-          { "q": "哪一句的报幕是健康的？（广场上的人）", "options": ["There are many people in the square.", "There have many people in the square.", "There is many people in the square."], "answer": 0, "explain": "people 复数——There are；have 不能进报幕句。", "level": 3 },
-          { "q": "哪一句的报幕是健康的？（树上的鸟）", "options": ["There is a bird in the tree.", "There are a bird in the tree.", "There has a bird in the tree."], "answer": 0, "explain": "一只鸟——is。", "level": 3 },
-          { "q": "哪一句的报幕是健康的？（房间的窗）", "options": ["There are two windows in the room.", "There is two windows in the room.", "There be two windows in the room."], "answer": 0, "explain": "两扇窗——are。", "level": 3 },
-          { "q": "哪一句是健康的？（我家附近的公园）", "options": ["There is a park near my home.", "It has a park near my home.", "Has a park near my home."], "answer": 0, "explain": "存在句要报幕员开场，不是 it has。", "level": 3 },
-          { "q": "— Is there any milk? — ___", "options": ["Yes, there is.", "Yes, it is.", "Yes, there are."], "answer": 0, "explain": "简答重复 there is。", "level": 3 },
-          { "q": "「天上没有云」哪句健康？", "options": ["There aren't any clouds in the sky.", "There are no a cloud in the sky.", "There isn't any clouds in the sky."], "answer": 0, "explain": "复数否定 aren't any；no 和 a 不能叠用。", "level": 3 },
-          { "q": "哪一句的报幕是健康的？（碗里的米饭）", "options": ["There is some rice in the bowl.", "There are some rice in the bowl.", "There have some rice in the bowl."], "answer": 0, "explain": "rice 空气队——is。", "level": 3 },
-          { "q": "「冰箱里有很多牛奶」哪句健康？", "options": ["There is a lot of milk in the fridge.", "There is many milk in the fridge.", "There are a lot of milk in the fridge."], "answer": 0, "explain": "milk 不可数：is + a lot of / much，不配 many。", "level": 3 },
-          { "q": "哪一句是健康的？（学校的音乐教室）", "options": ["There is a music room in my school.", "There is a music room has my school.", "My school there is a music room."], "answer": 0, "explain": "报幕员站句首，地点放句尾。", "level": 3 },
-          { "q": "哪一句的提问是健康的？（动物园的熊猫数量）", "options": ["How many pandas are there in the zoo?", "How many pandas there are in the zoo?", "How many pandas have there in the zoo?"], "answer": 0, "explain": "疑问句里 are 提到 there 前面。", "level": 3 },
-          { "q": "哪一句的报幕是健康的？（门口有人）", "options": ["There is someone at the door.", "There are someone at the door.", "There has someone at the door."], "answer": 0, "explain": "someone 当单数——is。", "level": 3 },
-          { "q": "「家里没面包了」哪句健康？", "options": ["There is no bread at home.", "There is no a bread at home.", "There are no bread at home."], "answer": 0, "explain": "no 直接跟名词；bread 不可数配 is。", "level": 3 },
-          { "q": "哪一句是健康的？（乐团有十二人）", "options": ["There are twelve members in our band.", "There have twelve members in our band.", "Our band there are twelve members."], "answer": 0, "explain": "存在句版本：There are... in our band；或者说 Our band has twelve members。", "level": 3 },
-          { "q": "哪一句的报幕是健康的？（果汁提问）", "options": ["Is there any juice in the bottle?", "Are there any juice in the bottle?", "Has there any juice in the bottle?"], "answer": 0, "explain": "juice 不可数——Is there...?", "level": 3 },
-          { "q": "哪一句的报幕是健康的？（湖里的鱼）", "options": ["There are many fish in the lake.", "There is many fish in the lake.", "There have many fish in the lake."], "answer": 0, "explain": "many fish 复数（fish 复数不变形）——are。", "level": 3 }
+          {
+            "q": "哪一句的报幕是健康的？（桌上的书）",
+            "options": [
+              "There is a book on the desk.",
+              "There has a book on the desk.",
+              "There have a book on the desk."
+            ],
+            "answer": 0,
+            "explain": "报幕员只带 be——There is。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的报幕是健康的？（广场上的人）",
+            "options": [
+              "There are many people in the square.",
+              "There have many people in the square.",
+              "There is many people in the square."
+            ],
+            "answer": 0,
+            "explain": "people 复数——There are；have 不能进报幕句。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的报幕是健康的？（树上的鸟）",
+            "options": [
+              "There is a bird in the tree.",
+              "There are a bird in the tree.",
+              "There has a bird in the tree."
+            ],
+            "answer": 0,
+            "explain": "一只鸟——is。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的报幕是健康的？（房间的窗）",
+            "options": [
+              "There are two windows in the room.",
+              "There is two windows in the room.",
+              "There be two windows in the room."
+            ],
+            "answer": 0,
+            "explain": "两扇窗——are。",
+            "level": 3
+          },
+          {
+            "q": "哪一句是健康的？（我家附近的公园）",
+            "options": [
+              "There is a park near my home.",
+              "It has a park near my home.",
+              "Has a park near my home."
+            ],
+            "answer": 0,
+            "explain": "存在句要报幕员开场，不是 it has。",
+            "level": 3
+          },
+          {
+            "q": "— Is there any milk? — ___",
+            "options": [
+              "Yes, there is.",
+              "Yes, it is.",
+              "Yes, there are."
+            ],
+            "answer": 0,
+            "explain": "简答重复 there is。",
+            "level": 3
+          },
+          {
+            "q": "「天上没有云」哪句健康？",
+            "options": [
+              "There aren't any clouds in the sky.",
+              "There are no a cloud in the sky.",
+              "There isn't any clouds in the sky."
+            ],
+            "answer": 0,
+            "explain": "复数否定 aren't any；no 和 a 不能叠用。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的报幕是健康的？（碗里的米饭）",
+            "options": [
+              "There is some rice in the bowl.",
+              "There are some rice in the bowl.",
+              "There have some rice in the bowl."
+            ],
+            "answer": 0,
+            "explain": "rice 空气队——is。",
+            "level": 3
+          },
+          {
+            "q": "「冰箱里有很多牛奶」哪句健康？",
+            "options": [
+              "There is a lot of milk in the fridge.",
+              "There is many milk in the fridge.",
+              "There are a lot of milk in the fridge."
+            ],
+            "answer": 0,
+            "explain": "milk 不可数：is + a lot of / much，不配 many。",
+            "level": 3
+          },
+          {
+            "q": "哪一句是健康的？（学校的音乐教室）",
+            "options": [
+              "There is a music room in my school.",
+              "There is a music room has my school.",
+              "My school there is a music room."
+            ],
+            "answer": 0,
+            "explain": "报幕员站句首，地点放句尾。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的提问是健康的？（动物园的熊猫数量）",
+            "options": [
+              "How many pandas are there in the zoo?",
+              "How many pandas there are in the zoo?",
+              "How many pandas have there in the zoo?"
+            ],
+            "answer": 0,
+            "explain": "疑问句里 are 提到 there 前面。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的报幕是健康的？（门口有人）",
+            "options": [
+              "There is someone at the door.",
+              "There are someone at the door.",
+              "There has someone at the door."
+            ],
+            "answer": 0,
+            "explain": "someone 当单数——is。",
+            "level": 3
+          },
+          {
+            "q": "「家里没面包了」哪句健康？",
+            "options": [
+              "There is no bread at home.",
+              "There is no a bread at home.",
+              "There are no bread at home."
+            ],
+            "answer": 0,
+            "explain": "no 直接跟名词；bread 不可数配 is。",
+            "level": 3
+          },
+          {
+            "q": "哪一句是健康的？（乐团有十二人）",
+            "options": [
+              "There are twelve members in our band.",
+              "There have twelve members in our band.",
+              "Our band there are twelve members."
+            ],
+            "answer": 0,
+            "explain": "存在句版本：There are... in our band；或者说 Our band has twelve members。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的报幕是健康的？（果汁提问）",
+            "options": [
+              "Is there any juice in the bottle?",
+              "Are there any juice in the bottle?",
+              "Has there any juice in the bottle?"
+            ],
+            "answer": 0,
+            "explain": "juice 不可数——Is there...?",
+            "level": 3
+          },
+          {
+            "q": "哪一句的报幕是健康的？（湖里的鱼）",
+            "options": [
+              "There are many fish in the lake.",
+              "There is many fish in the lake.",
+              "There have many fish in the lake."
+            ],
+            "answer": 0,
+            "explain": "many fish 复数（fish 复数不变形）——are。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "开幕报台：___ a piano, two guitars and a drum on the stage.", "options": ["There is", "There are", "There have"], "answer": 0, "explain": "就近原则：先报 a piano——is。", "level": 4 },
-          { "q": "换个顺序报：___ two guitars, a piano and a drum on the stage.", "options": ["There are", "There is", "There has"], "answer": 0, "explain": "先报 two guitars——are。", "level": 4 },
-          { "q": "I ___ a dog, and ___ a doghouse in our garden.", "options": ["have / there is", "there is / have", "has / there are"], "answer": 0, "explain": "「我有狗」用 have；「园里有狗屋」用 There is——两个「有」各回各家。", "level": 4 },
-          { "q": "— ___ there a rehearsal today? — No, there ___.", "options": ["Is / isn't", "Are / aren't", "Is / not"], "answer": 0, "explain": "a rehearsal 单数：Is there...? No, there isn't.", "level": 4 },
-          { "q": "___ any homework tonight?（今晚有作业吗）", "options": ["Is there", "Are there", "Has there"], "answer": 0, "explain": "homework 空气队（联动 G01）——Is there。", "level": 4 },
-          { "q": "There ___ a lot of people at the show, and there ___ a lot of noise too.", "options": ["were / was", "was / were", "are / is"], "answer": 0, "explain": "报幕员也能报昨天：people 复数 were，noise 不可数 was。", "level": 4 },
-          { "q": "___ thirty days in September.", "options": ["There are", "There is", "It has"], "answer": 0, "explain": "说「九月有三十天」用存在句——There are。", "level": 4 },
-          { "q": "There ___ nothing in the box. It's empty.", "options": ["is", "are", "have"], "answer": 0, "explain": "nothing 一族当单数——is。", "level": 4 },
-          { "q": "组合：___ a bank near here? I ___ no money with me.", "options": ["Is there / have", "Has there / have", "Is there / there is"], "answer": 0, "explain": "问存在 Is there；「我身上没带钱」是拥有——have。", "level": 4 },
-          { "q": "How much milk ___ in the fridge?", "options": ["is there", "are there", "there is"], "answer": 0, "explain": "milk 不可数：How much... is there?", "level": 4 },
-          { "q": "___ a concert next Sunday.（下周日有演出）", "options": ["There will be", "There will have", "There is going to have"], "answer": 0, "explain": "将来也只换 be：There will be，永远轮不到 have。", "level": 4 },
-          { "q": "Look! There ___ a little cat and three kittens under the bench.", "options": ["is", "are", "be"], "answer": 0, "explain": "就近原则：先报 a little cat——is。", "level": 4 },
-          { "q": "There ___ some good news in today's paper.（联动 G01）", "options": ["is", "are", "have"], "answer": 0, "explain": "news 不可数——is。", "level": 4 },
-          { "q": "___ forty-five students in my class, and every student ___ a dictionary.", "options": ["There are / has", "There have / has", "There are / have"], "answer": 0, "explain": "存在 There are；every student 当单数「拥有」——has。", "level": 4 },
-          { "q": "— What's in the bottle? — ___ only a little water.", "options": ["There is", "There are", "It have"], "answer": 0, "explain": "water 不可数——There is；a little 配空气队。", "level": 4 },
-          { "q": "大考：Our music room ___ big. ___ ten violins and a piano in it.", "options": ["is / There are", "has / There are", "is / There have"], "answer": 0, "explain": "第一句是等号句（教室=大）用 is；第二句报幕就近看先报的 ten violins——There are。", "level": 4 }
+          {
+            "q": "开幕报台：___ a piano, two guitars and a drum on the stage.",
+            "options": [
+              "There is",
+              "There are",
+              "There have"
+            ],
+            "answer": 0,
+            "explain": "就近原则：先报 a piano——is。",
+            "level": 4
+          },
+          {
+            "q": "换个顺序报：___ two guitars, a piano and a drum on the stage.",
+            "options": [
+              "There are",
+              "There is",
+              "There has"
+            ],
+            "answer": 0,
+            "explain": "先报 two guitars——are。",
+            "level": 4
+          },
+          {
+            "q": "I ___ a dog, and ___ a doghouse in our garden.",
+            "options": [
+              "have / there is",
+              "there is / have",
+              "has / there are"
+            ],
+            "answer": 0,
+            "explain": "「我有狗」用 have；「园里有狗屋」用 There is——两个「有」各回各家。",
+            "level": 4
+          },
+          {
+            "q": "— ___ there a rehearsal today? — No, there ___.",
+            "options": [
+              "Is / isn't",
+              "Are / aren't",
+              "Is / not"
+            ],
+            "answer": 0,
+            "explain": "a rehearsal 单数：Is there...? No, there isn't.",
+            "level": 4
+          },
+          {
+            "q": "___ any homework tonight?（今晚有作业吗）",
+            "options": [
+              "Is there",
+              "Are there",
+              "Has there"
+            ],
+            "answer": 0,
+            "explain": "homework 空气队（联动 G01）——Is there。",
+            "level": 4
+          },
+          {
+            "q": "There ___ a lot of people at the show, and there ___ a lot of noise too.",
+            "options": [
+              "were / was",
+              "was / were",
+              "are / is"
+            ],
+            "answer": 0,
+            "explain": "报幕员也能报昨天：people 复数 were，noise 不可数 was。",
+            "level": 4
+          },
+          {
+            "q": "___ thirty days in September.",
+            "options": [
+              "There are",
+              "There is",
+              "It has"
+            ],
+            "answer": 0,
+            "explain": "说「九月有三十天」用存在句——There are。",
+            "level": 4
+          },
+          {
+            "q": "There ___ nothing in the box. It's empty.",
+            "options": [
+              "is",
+              "are",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "nothing 一族当单数——is。",
+            "level": 4
+          },
+          {
+            "q": "组合：___ a bank near here? I ___ no money with me.",
+            "options": [
+              "Is there / have",
+              "Has there / have",
+              "Is there / there is"
+            ],
+            "answer": 0,
+            "explain": "问存在 Is there；「我身上没带钱」是拥有——have。",
+            "level": 4
+          },
+          {
+            "q": "How much milk ___ in the fridge?",
+            "options": [
+              "is there",
+              "are there",
+              "there is"
+            ],
+            "answer": 0,
+            "explain": "milk 不可数：How much... is there?",
+            "level": 4
+          },
+          {
+            "q": "___ a concert next Sunday.（下周日有演出）",
+            "options": [
+              "There will be",
+              "There will have",
+              "There is going to have"
+            ],
+            "answer": 0,
+            "explain": "将来也只换 be：There will be，永远轮不到 have。",
+            "level": 4
+          },
+          {
+            "q": "Look! There ___ a little cat and three kittens under the bench.",
+            "options": [
+              "is",
+              "are",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "就近原则：先报 a little cat——is。",
+            "level": 4
+          },
+          {
+            "q": "There ___ some good news in today's paper.（联动 G01）",
+            "options": [
+              "is",
+              "are",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "news 不可数——is。",
+            "level": 4
+          },
+          {
+            "q": "___ forty-five students in my class, and every student ___ a dictionary.",
+            "options": [
+              "There are / has",
+              "There have / has",
+              "There are / have"
+            ],
+            "answer": 0,
+            "explain": "存在 There are；every student 当单数「拥有」——has。",
+            "level": 4
+          },
+          {
+            "q": "— What's in the bottle? — ___ only a little water.",
+            "options": [
+              "There is",
+              "There are",
+              "It have"
+            ],
+            "answer": 0,
+            "explain": "water 不可数——There is；a little 配空气队。",
+            "level": 4
+          },
+          {
+            "q": "大考：Our music room ___ big. ___ ten violins and a piano in it.",
+            "options": [
+              "is / There are",
+              "has / There are",
+              "is / There have"
+            ],
+            "answer": 0,
+            "explain": "第一句是等号句（教室=大）用 is；第二句报幕就近看先报的 ten violins——There are。",
+            "level": 4
+          }
         ]
       }
     ]

@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "Swimming is my favourite sport.", "cn": "游泳是我最喜欢的运动。（打包件当主语）" },
-          { "en": "I enjoy listening to music after dinner.", "cn": "晚饭后我喜欢听音乐。" },
-          { "en": "She finished cleaning her room at noon.", "cn": "她中午打扫完了房间。" },
-          { "en": "Thank you for helping me.", "cn": "谢谢你帮我。（介词 for 后打包）" },
-          { "en": "He is good at telling stories.", "cn": "他很会讲故事。" }
+          {
+            "en": "Swimming is my favourite sport.",
+            "cn": "游泳是我最喜欢的运动。（打包件当主语）"
+          },
+          {
+            "en": "I enjoy listening to music after dinner.",
+            "cn": "晚饭后我喜欢听音乐。"
+          },
+          {
+            "en": "She finished cleaning her room at noon.",
+            "cn": "她中午打扫完了房间。"
+          },
+          {
+            "en": "Thank you for helping me.",
+            "cn": "谢谢你帮我。（介词 for 后打包）"
+          },
+          {
+            "en": "He is good at telling stories.",
+            "cn": "他很会讲故事。"
+          }
         ],
         "mid": [
-          { "en": "Keep practising and you will get better.", "cn": "坚持练习，你会越来越好。" },
-          { "en": "Would you mind opening the window?", "cn": "你介意开一下窗吗？（mind + doing）" },
-          { "en": "Getting up early is a good habit.", "cn": "早起是个好习惯。（主语打包，谓语单数）" },
-          { "en": "We talked about going camping next week.", "cn": "我们聊了下周去露营的事。（about 后打包）" },
-          { "en": "My little brother is afraid of sleeping alone.", "cn": "我弟弟害怕一个人睡。" }
+          {
+            "en": "Keep practising and you will get better.",
+            "cn": "坚持练习，你会越来越好。"
+          },
+          {
+            "en": "Would you mind opening the window?",
+            "cn": "你介意开一下窗吗？（mind + doing）"
+          },
+          {
+            "en": "Getting up early is a good habit.",
+            "cn": "早起是个好习惯。（主语打包，谓语单数）"
+          },
+          {
+            "en": "We talked about going camping next week.",
+            "cn": "我们聊了下周去露营的事。（about 后打包）"
+          },
+          {
+            "en": "My little brother is afraid of sleeping alone.",
+            "cn": "我弟弟害怕一个人睡。"
+          }
         ],
         "trap": [
-          { "en": "Stop talking — the concert is starting.", "cn": "别说话了——音乐会开始了。", "note": "stop doing＝停止讲话；stop to talk 就成了「停下来去聊天」。" },
-          { "en": "Remember to lock the door when you leave.", "cn": "走的时候记得锁门。", "note": "remember to do＝记得去做（还没做）。" },
-          { "en": "I remember visiting this museum when I was five.", "cn": "我记得五岁时来过这家博物馆。", "note": "记得做过——已经发生，用 doing。" },
-          { "en": "He left without saying goodbye.", "cn": "他没说再见就走了。", "note": "without 是介词——后面只收打包件。" },
-          { "en": "Running in the hallway is not allowed.", "cn": "走廊里不许跑。", "note": "打包件当主语，谓语用单数 is。" },
-          { "en": "She likes swimming, but today she'd like to swim in the new pool.", "cn": "她一向喜欢游泳，今天想去新泳池游。", "note": "like doing 是长期爱好；would like to do 是此刻想做——一词之差。" }
+          {
+            "en": "Stop talking — the concert is starting.",
+            "cn": "别说话了——音乐会开始了。",
+            "note": "stop doing＝停止讲话；stop to talk 就成了「停下来去聊天」。"
+          },
+          {
+            "en": "Remember to lock the door when you leave.",
+            "cn": "走的时候记得锁门。",
+            "note": "remember to do＝记得去做（还没做）。"
+          },
+          {
+            "en": "I remember visiting this museum when I was five.",
+            "cn": "我记得五岁时来过这家博物馆。",
+            "note": "记得做过——已经发生，用 doing。"
+          },
+          {
+            "en": "He left without saying goodbye.",
+            "cn": "他没说再见就走了。",
+            "note": "without 是介词——后面只收打包件。"
+          },
+          {
+            "en": "Running in the hallway is not allowed.",
+            "cn": "走廊里不许跑。",
+            "note": "打包件当主语，谓语用单数 is。"
+          },
+          {
+            "en": "She likes swimming, but today she'd like to swim in the new pool.",
+            "cn": "她一向喜欢游泳，今天想去新泳池游。",
+            "note": "like doing 是长期爱好；would like to do 是此刻想做——一词之差。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "同一个动词的第二张脸：加 -ing 打包，动作就冻结成一件「东西」——照样不报时。G30 的 to do 是节目单（指向将来），本课的 doing 是手里的活（进行与习惯），下一课 G32 的 -ing/-ed 还要给动作当形容词用。三张脸三套规则，背后是同一个原则：报时权只属于主奏，其余动词形态一律冻结——像同一位乐手，换一件乐器就得守另一套指法。三张脸的正面交锋，留在精修层 G46。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G31 · 动名词 doing</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>把一个动作打包成一件「东西」</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>📦 动词 + -ing 封条 → 能当主语（谓语单数）· 当宾语 · 进介词的门</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>Swimming is fun. ｜ I enjoy singing. ｜ good at drawing · thanks for coming</text><rect x='36' y='222' width='314' height='128' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='193' y='254' text-anchor='middle' font-size='16' font-weight='bold' fill='#059669'>🛒 只收打包件</text><text x='193' y='284' text-anchor='middle' font-size='14' fill='#5A4A42'>enjoy · finish · practise</text><text x='193' y='310' text-anchor='middle' font-size='14' fill='#5A4A42'>keep · mind · miss</text><text x='193' y='336' text-anchor='middle' font-size='14' fill='#8A7568'>+ 一切介词 at/of/for/without</text><rect x='370' y='222' width='314' height='128' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='527' y='254' text-anchor='middle' font-size='16' font-weight='bold' fill='#059669'>🎫 只收节目单 to do</text><text x='527' y='284' text-anchor='middle' font-size='14' fill='#5A4A42'>want · hope · decide · plan</text><text x='527' y='310' text-anchor='middle' font-size='14' fill='#5A4A42'>（还没做的事）</text><text x='527' y='336' text-anchor='middle' font-size='14' fill='#8A7568'>like / love / start 两种都收</text><rect x='36' y='370' width='648' height='98' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='400' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🔀 接谁意思变</text><text x='360' y='428' text-anchor='middle' font-size='14' fill='#5A4A42'>stop doing 停止做 ｜ stop to do 停下来去做</text><text x='360' y='454' text-anchor='middle' font-size='14' fill='#5A4A42'>remember/forget to do 记得(忘了)去做 ｜ remember/forget doing 记得(忘了)做过</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ enjoy to play ✗ · good at sing ✗ · Thanks for help me ✗ · Reading books make ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只顺带见到——为初中 / PET 打底；三张非谓语的脸 G46 合流对比</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：换身份就换规则——报时权只属于主奏 · 英语奇遇记 🦊 G31</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G31 · 动名词 doing</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>把一个动作打包成一件「东西」</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>📦 动词 + -ing 封条 → 能当主语（谓语单数）· 当宾语 · 进介词的门</text><text x='360' y='176' text-anchor='middle' font-size='16' fill='#5A4A42'>Swimming is fun. ｜ I enjoy singing. ｜ good at drawing · thanks for coming</text><rect x='36' y='222' width='314' height='128' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='193' y='254' text-anchor='middle' font-size='20' font-weight='bold' fill='#059669'>🛒 只收打包件</text><text x='193' y='284' text-anchor='middle' font-size='18' fill='#5A4A42'>enjoy · finish · practise</text><text x='193' y='310' text-anchor='middle' font-size='18' fill='#5A4A42'>keep · mind · miss</text><text x='193' y='336' text-anchor='middle' font-size='18' fill='#8A7568'>+ 一切介词 at/of/for/without</text><rect x='370' y='222' width='314' height='128' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='527' y='254' text-anchor='middle' font-size='20' font-weight='bold' fill='#059669'>🎫 只收节目单 to do</text><text x='527' y='284' text-anchor='middle' font-size='18' fill='#5A4A42'>want · hope · decide · plan</text><text x='527' y='310' text-anchor='middle' font-size='18' fill='#5A4A42'>（还没做的事）</text><text x='527' y='336' text-anchor='middle' font-size='18' fill='#8A7568'>like / love / start 两种都收</text><rect x='36' y='370' width='648' height='98' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='400' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🔀 接谁意思变</text><text x='360' y='428' text-anchor='middle' font-size='18' fill='#5A4A42'>stop doing 停止做 ｜ stop to do 停下来去做</text><text x='360' y='454' text-anchor='middle' font-size='16' fill='#5A4A42'>remember/forget to do 记得(忘了)去做 ｜ remember/forget doing 记得(忘了)做过</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ enjoy to play ✗ · good at sing ✗ · Thanks for help me ✗ · Reading books make ✗</text><text x='360' y='556' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只顺带见到——为初中 / PET 打底；三张非谓语的脸 G46 合流对比</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：换身份就换规则——报时权只属于主奏 · 英语奇遇记 🦊 G31</text></svg>",
     "alt": "G31 记忆卡：动词+-ing 打包成东西，能当主语（谓语单数）、当宾语、进介词的门；enjoy/finish/practise/keep/mind 只收打包件，want/hope/decide 接 to do，like/love/start 两可；stop/remember/forget 接谁意思变；警示 enjoy to play、good at sing、Thanks for help me、Reading books make。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 打包上架",
         "questions": [
-          { "q": "动名词的样子是？", "options": ["动词 + -ing", "to + 动词", "动词 + -ed"], "answer": 0, "explain": "贴上 -ing 封条，动作变成东西。", "level": 1 },
-          { "q": "Swimming is fun. 里 Swimming 当的是？", "options": ["主语（打包成东西）", "谓语", "时间状语"], "answer": 0, "explain": "打包好的「游泳」坐在主语位上。", "level": 1 },
-          { "q": "动名词报时间吗？", "options": ["不报——打包后是件东西", "报现在", "报过去"], "answer": 0, "explain": "报时权只属于主奏动词。", "level": 1 },
-          { "q": "enjoy 后面接？", "options": ["doing", "to do", "did"], "answer": 0, "explain": "enjoy 的货架只收打包件。", "level": 1 },
-          { "q": "finish 后面接？", "options": ["doing", "to do", "done"], "answer": 0, "explain": "finish + doing——做完手里的活。", "level": 1 },
-          { "q": "practise 后面接？", "options": ["doing", "to do", "did"], "answer": 0, "explain": "练习是反复在做的事——practise doing。", "level": 1 },
-          { "q": "介词（at / for / without）后面的动词要用？", "options": ["doing", "to do", "原形"], "answer": 0, "explain": "介词的门只收打包件。", "level": 1 },
-          { "q": "make 打包成动名词是？", "options": ["making", "makeing", "maked"], "answer": 0, "explain": "去 e 加 ing——making。", "level": 1 },
-          { "q": "run 打包成动名词是？", "options": ["running", "runing", "runned"], "answer": 0, "explain": "短元音 + 单辅音先双写——running。", "level": 1 },
-          { "q": "lie（躺）打包成动名词是？", "options": ["lying", "lieing", "lied"], "answer": 0, "explain": "ie 变 y 再加 ing——lying。", "level": 1 },
-          { "q": "want 后面接？", "options": ["to do", "doing", "done"], "answer": 0, "explain": "想做的事还没做——节目单 to do。", "level": 1 },
-          { "q": "like 后面接？", "options": ["to do 和 doing 都行", "只能 to do", "只能 doing"], "answer": 0, "explain": "like / love / start 两种包装都收。", "level": 1 },
-          { "q": "mind（介意）后面接？", "options": ["doing", "to do", "did"], "answer": 0, "explain": "Would you mind closing...?——mind + doing。", "level": 1 },
-          { "q": "「谢谢你帮我」说成 Thanks for ___ me.", "options": ["helping", "to help", "help"], "answer": 0, "explain": "for 是介词——打包件 helping。", "level": 1 },
-          { "q": "动名词当主语时，谓语用？", "options": ["单数（is / makes）", "复数（are / make)", "不需要谓语"], "answer": 0, "explain": "一个包裹算一件东西——单数。", "level": 1 },
-          { "q": "keep（保持做）后面接？", "options": ["doing", "to do", "did"], "answer": 0, "explain": "keep doing——手里的活别撒手。", "level": 1 }
+          {
+            "q": "动名词的样子是？",
+            "options": [
+              "动词 + -ing",
+              "to + 动词",
+              "动词 + -ed"
+            ],
+            "answer": 0,
+            "explain": "贴上 -ing 封条，动作变成东西。",
+            "level": 1
+          },
+          {
+            "q": "Swimming is fun. 里 Swimming 当的是？",
+            "options": [
+              "主语（打包成东西）",
+              "谓语",
+              "时间状语"
+            ],
+            "answer": 0,
+            "explain": "打包好的「游泳」坐在主语位上。",
+            "level": 1
+          },
+          {
+            "q": "动名词报时间吗？",
+            "options": [
+              "不报——打包后是件东西",
+              "报现在",
+              "报过去"
+            ],
+            "answer": 0,
+            "explain": "报时权只属于主奏动词。",
+            "level": 1
+          },
+          {
+            "q": "enjoy 后面接？",
+            "options": [
+              "doing",
+              "to do",
+              "did"
+            ],
+            "answer": 0,
+            "explain": "enjoy 的货架只收打包件。",
+            "level": 1
+          },
+          {
+            "q": "finish 后面接？",
+            "options": [
+              "doing",
+              "to do",
+              "done"
+            ],
+            "answer": 0,
+            "explain": "finish + doing——做完手里的活。",
+            "level": 1
+          },
+          {
+            "q": "practise 后面接？",
+            "options": [
+              "doing",
+              "to do",
+              "did"
+            ],
+            "answer": 0,
+            "explain": "练习是反复在做的事——practise doing。",
+            "level": 1
+          },
+          {
+            "q": "介词（at / for / without）后面的动词要用？",
+            "options": [
+              "doing",
+              "to do",
+              "原形"
+            ],
+            "answer": 0,
+            "explain": "介词的门只收打包件。",
+            "level": 1
+          },
+          {
+            "q": "make 打包成动名词是？",
+            "options": [
+              "making",
+              "makeing",
+              "maked"
+            ],
+            "answer": 0,
+            "explain": "去 e 加 ing——making。",
+            "level": 1
+          },
+          {
+            "q": "run 打包成动名词是？",
+            "options": [
+              "running",
+              "runing",
+              "runned"
+            ],
+            "answer": 0,
+            "explain": "短元音 + 单辅音先双写——running。",
+            "level": 1
+          },
+          {
+            "q": "lie（躺）打包成动名词是？",
+            "options": [
+              "lying",
+              "lieing",
+              "lied"
+            ],
+            "answer": 0,
+            "explain": "ie 变 y 再加 ing——lying。",
+            "level": 1
+          },
+          {
+            "q": "want 后面接？",
+            "options": [
+              "to do",
+              "doing",
+              "done"
+            ],
+            "answer": 0,
+            "explain": "想做的事还没做——节目单 to do。",
+            "level": 1
+          },
+          {
+            "q": "like 后面接？",
+            "options": [
+              "to do 和 doing 都行",
+              "只能 to do",
+              "只能 doing"
+            ],
+            "answer": 0,
+            "explain": "like / love / start 两种包装都收。",
+            "level": 1
+          },
+          {
+            "q": "mind（介意）后面接？",
+            "options": [
+              "doing",
+              "to do",
+              "did"
+            ],
+            "answer": 0,
+            "explain": "Would you mind closing...?——mind + doing。",
+            "level": 1
+          },
+          {
+            "q": "「谢谢你帮我」说成 Thanks for ___ me.",
+            "options": [
+              "helping",
+              "to help",
+              "help"
+            ],
+            "answer": 0,
+            "explain": "for 是介词——打包件 helping。",
+            "level": 1
+          },
+          {
+            "q": "动名词当主语时，谓语用？",
+            "options": [
+              "单数（is / makes）",
+              "复数（are / make)",
+              "不需要谓语"
+            ],
+            "answer": 0,
+            "explain": "一个包裹算一件东西——单数。",
+            "level": 1
+          },
+          {
+            "q": "keep（保持做）后面接？",
+            "options": [
+              "doing",
+              "to do",
+              "did"
+            ],
+            "answer": 0,
+            "explain": "keep doing——手里的活别撒手。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 上货架",
         "questions": [
-          { "q": "___ is my favourite sport.", "options": ["Swimming", "Swim", "To swimming"], "answer": 0, "explain": "主语位只收打包件。", "level": 2 },
-          { "q": "I enjoy ___ to music after dinner.", "options": ["listening", "to listen", "listen"], "answer": 0, "explain": "enjoy + doing。", "level": 2 },
-          { "q": "She finished ___ her room at noon.", "options": ["cleaning", "to clean", "clean"], "answer": 0, "explain": "finish + doing。", "level": 2 },
-          { "q": "He is good at ___ stories.", "options": ["telling", "to tell", "tell"], "answer": 0, "explain": "at 介词——打包。", "level": 2 },
-          { "q": "Keep ___ and you will get better.", "options": ["practising", "to practise", "practise"], "answer": 0, "explain": "keep + doing。", "level": 2 },
-          { "q": "Would you mind ___ the window?", "options": ["opening", "to open", "open"], "answer": 0, "explain": "mind + doing。", "level": 2 },
-          { "q": "___ up early is a good habit.", "options": ["Getting", "Get", "To getting"], "answer": 0, "explain": "打包件当主语——Getting up early。", "level": 2 },
-          { "q": "We talked about ___ camping next week.", "options": ["going", "to go", "go"], "answer": 0, "explain": "about 介词——打包 going。", "level": 2 },
-          { "q": "My brother is afraid of ___ alone.", "options": ["sleeping", "to sleep", "sleep"], "answer": 0, "explain": "of 介词——打包 sleeping。", "level": 2 },
-          { "q": "He left without ___ goodbye.", "options": ["saying", "to say", "say"], "answer": 0, "explain": "without 介词——打包 saying。", "level": 2 },
-          { "q": "Stop ___! The film has started.", "options": ["talking", "to talking", "talked"], "answer": 0, "explain": "停止讲话——stop doing。", "level": 2 },
-          { "q": "Remember ___ the door when you leave.", "options": ["to lock", "locking", "locked"], "answer": 0, "explain": "还没做的事——remember to do。", "level": 2 },
-          { "q": "I remember ___ this museum when I was five.", "options": ["visiting", "to visit", "visit"], "answer": 0, "explain": "已经发生的记忆——remember doing。", "level": 2 },
-          { "q": "Thank you for ___ to my birthday party.", "options": ["coming", "to come", "come"], "answer": 0, "explain": "for 介词——coming。", "level": 2 },
-          { "q": "___ books every day makes you smart.", "options": ["Reading", "Read", "Reads"], "answer": 0, "explain": "打包件当主语，谓语 makes 单数。", "level": 2 },
-          { "q": "How about ___ football this afternoon?", "options": ["playing", "to play", "play"], "answer": 0, "explain": "about 介词——How about doing。", "level": 2 }
+          {
+            "q": "___ is my favourite sport.",
+            "options": [
+              "Swimming",
+              "Swim",
+              "To swimming"
+            ],
+            "answer": 0,
+            "explain": "主语位只收打包件。",
+            "level": 2
+          },
+          {
+            "q": "I enjoy ___ to music after dinner.",
+            "options": [
+              "listening",
+              "to listen",
+              "listen"
+            ],
+            "answer": 0,
+            "explain": "enjoy + doing。",
+            "level": 2
+          },
+          {
+            "q": "She finished ___ her room at noon.",
+            "options": [
+              "cleaning",
+              "to clean",
+              "clean"
+            ],
+            "answer": 0,
+            "explain": "finish + doing。",
+            "level": 2
+          },
+          {
+            "q": "He is good at ___ stories.",
+            "options": [
+              "telling",
+              "to tell",
+              "tell"
+            ],
+            "answer": 0,
+            "explain": "at 介词——打包。",
+            "level": 2
+          },
+          {
+            "q": "Keep ___ and you will get better.",
+            "options": [
+              "practising",
+              "to practise",
+              "practise"
+            ],
+            "answer": 0,
+            "explain": "keep + doing。",
+            "level": 2
+          },
+          {
+            "q": "Would you mind ___ the window?",
+            "options": [
+              "opening",
+              "to open",
+              "open"
+            ],
+            "answer": 0,
+            "explain": "mind + doing。",
+            "level": 2
+          },
+          {
+            "q": "___ up early is a good habit.",
+            "options": [
+              "Getting",
+              "Get",
+              "To getting"
+            ],
+            "answer": 0,
+            "explain": "打包件当主语——Getting up early。",
+            "level": 2
+          },
+          {
+            "q": "We talked about ___ camping next week.",
+            "options": [
+              "going",
+              "to go",
+              "go"
+            ],
+            "answer": 0,
+            "explain": "about 介词——打包 going。",
+            "level": 2
+          },
+          {
+            "q": "My brother is afraid of ___ alone.",
+            "options": [
+              "sleeping",
+              "to sleep",
+              "sleep"
+            ],
+            "answer": 0,
+            "explain": "of 介词——打包 sleeping。",
+            "level": 2
+          },
+          {
+            "q": "He left without ___ goodbye.",
+            "options": [
+              "saying",
+              "to say",
+              "say"
+            ],
+            "answer": 0,
+            "explain": "without 介词——打包 saying。",
+            "level": 2
+          },
+          {
+            "q": "Stop ___! The film has started.",
+            "options": [
+              "talking",
+              "to talking",
+              "talked"
+            ],
+            "answer": 0,
+            "explain": "停止讲话——stop doing。",
+            "level": 2
+          },
+          {
+            "q": "Remember ___ the door when you leave.",
+            "options": [
+              "to lock",
+              "locking",
+              "locked"
+            ],
+            "answer": 0,
+            "explain": "还没做的事——remember to do。",
+            "level": 2
+          },
+          {
+            "q": "I remember ___ this museum when I was five.",
+            "options": [
+              "visiting",
+              "to visit",
+              "visit"
+            ],
+            "answer": 0,
+            "explain": "已经发生的记忆——remember doing。",
+            "level": 2
+          },
+          {
+            "q": "Thank you for ___ to my birthday party.",
+            "options": [
+              "coming",
+              "to come",
+              "come"
+            ],
+            "answer": 0,
+            "explain": "for 介词——coming。",
+            "level": 2
+          },
+          {
+            "q": "___ books every day makes you smart.",
+            "options": [
+              "Reading",
+              "Read",
+              "Reads"
+            ],
+            "answer": 0,
+            "explain": "打包件当主语，谓语 makes 单数。",
+            "level": 2
+          },
+          {
+            "q": "How about ___ football this afternoon?",
+            "options": [
+              "playing",
+              "to play",
+              "play"
+            ],
+            "answer": 0,
+            "explain": "about 介词——How about doing。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 包装错了",
         "questions": [
-          { "q": "哪一句包装对了？（我喜欢下棋——用 enjoy）", "options": ["I enjoy playing chess.", "I enjoy to play chess.", "I enjoy play chess."], "answer": 0, "explain": "enjoy 只收打包件 playing。", "level": 3 },
-          { "q": "哪一句包装对了？（她写完信了）", "options": ["She finished writing the letter.", "She finished to write the letter.", "She finished wrote the letter."], "answer": 0, "explain": "finish + doing。", "level": 3 },
-          { "q": "哪一句包装对了？（谢谢你帮我）", "options": ["Thanks for helping me.", "Thanks for help me.", "Thanks for to help me."], "answer": 0, "explain": "for 介词——helping。", "level": 3 },
-          { "q": "哪一句包装对了？（他很会唱歌）", "options": ["He is good at singing.", "He is good at sing.", "He is good at to sing."], "answer": 0, "explain": "at 介词——singing。", "level": 3 },
-          { "q": "哪一句包装对了？（游泳对健康有好处）", "options": ["Swimming is good for your health.", "Swim is good for your health.", "To swimming is good for your health."], "answer": 0, "explain": "主语位要打包——Swimming。", "level": 3 },
-          { "q": "哪一句包装对了？（你介意关门吗）", "options": ["Would you mind closing the door?", "Would you mind close the door?", "Would you mind to close the door?"], "answer": 0, "explain": "mind + doing。", "level": 3 },
-          { "q": "哪一句包装对了？（每天坚持练习）", "options": ["Keep practising every day.", "Keep to practise every day.", "Keep practise every day."], "answer": 0, "explain": "keep + doing。", "level": 3 },
-          { "q": "哪一句包装对了？（读书使人聪明）", "options": ["Reading books makes you smart.", "Reading books make you smart.", "Read books makes you smart."], "answer": 0, "explain": "打包件主语按单数——makes。", "level": 3 },
-          { "q": "哪一句包装对了？（走廊里不许跑）", "options": ["Running in the hallway is not allowed.", "Run in the hallway is not allowed.", "To running in the hallway is not allowed."], "answer": 0, "explain": "主语位打包——Running。", "level": 3 },
-          { "q": "哪一句包装对了？（他没说再见就走了）", "options": ["He left without saying goodbye.", "He left without say goodbye.", "He left without to say goodbye."], "answer": 0, "explain": "without 介词——saying。", "level": 3 },
-          { "q": "哪一句包装对了？（明天记得寄信——还没寄）", "options": ["Remember to post the letter tomorrow.", "Remember posting the letter tomorrow.", "Remember post the letter tomorrow."], "answer": 0, "explain": "还没做——remember to do。", "level": 3 },
-          { "q": "哪一句包装对了？（我记得去过那家动物园）", "options": ["I remember going to that zoo.", "I remember to go to that zoo.", "I remember went to that zoo."], "answer": 0, "explain": "已经发生的记忆——remember doing。", "level": 3 },
-          { "q": "哪一句包装对了？（他不再抱怨了）", "options": ["He stopped complaining.", "He stopped to complaining.", "He stopped complain."], "answer": 0, "explain": "停止抱怨——stop doing。", "level": 3 },
-          { "q": "哪一句包装对了？（聊聊去野餐的事）", "options": ["Let's talk about having a picnic.", "Let's talk about have a picnic.", "Let's talk about to have a picnic."], "answer": 0, "explain": "about 介词——having。", "level": 3 },
-          { "q": "哪一句包装对了？（何不再试一次）", "options": ["What about trying again?", "What about try again?", "What about to try again?"], "answer": 0, "explain": "What about + doing。", "level": 3 },
-          { "q": "哪一句包装对了？（弹钢琴是她的爱好）", "options": ["Playing the piano is her hobby.", "Play the piano is her hobby.", "To playing the piano is her hobby."], "answer": 0, "explain": "主语位打包——Playing the piano。", "level": 3 }
+          {
+            "q": "哪一句包装对了？（我喜欢下棋——用 enjoy）",
+            "options": [
+              "I enjoy playing chess.",
+              "I enjoy to play chess.",
+              "I enjoy play chess."
+            ],
+            "answer": 0,
+            "explain": "enjoy 只收打包件 playing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（她写完信了）",
+            "options": [
+              "She finished writing the letter.",
+              "She finished to write the letter.",
+              "She finished wrote the letter."
+            ],
+            "answer": 0,
+            "explain": "finish + doing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（谢谢你帮我）",
+            "options": [
+              "Thanks for helping me.",
+              "Thanks for help me.",
+              "Thanks for to help me."
+            ],
+            "answer": 0,
+            "explain": "for 介词——helping。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（他很会唱歌）",
+            "options": [
+              "He is good at singing.",
+              "He is good at sing.",
+              "He is good at to sing."
+            ],
+            "answer": 0,
+            "explain": "at 介词——singing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（游泳对健康有好处）",
+            "options": [
+              "Swimming is good for your health.",
+              "Swim is good for your health.",
+              "To swimming is good for your health."
+            ],
+            "answer": 0,
+            "explain": "主语位要打包——Swimming。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（你介意关门吗）",
+            "options": [
+              "Would you mind closing the door?",
+              "Would you mind close the door?",
+              "Would you mind to close the door?"
+            ],
+            "answer": 0,
+            "explain": "mind + doing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（每天坚持练习）",
+            "options": [
+              "Keep practising every day.",
+              "Keep to practise every day.",
+              "Keep practise every day."
+            ],
+            "answer": 0,
+            "explain": "keep + doing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（读书使人聪明）",
+            "options": [
+              "Reading books makes you smart.",
+              "Reading books make you smart.",
+              "Read books makes you smart."
+            ],
+            "answer": 0,
+            "explain": "打包件主语按单数——makes。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（走廊里不许跑）",
+            "options": [
+              "Running in the hallway is not allowed.",
+              "Run in the hallway is not allowed.",
+              "To running in the hallway is not allowed."
+            ],
+            "answer": 0,
+            "explain": "主语位打包——Running。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（他没说再见就走了）",
+            "options": [
+              "He left without saying goodbye.",
+              "He left without say goodbye.",
+              "He left without to say goodbye."
+            ],
+            "answer": 0,
+            "explain": "without 介词——saying。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（明天记得寄信——还没寄）",
+            "options": [
+              "Remember to post the letter tomorrow.",
+              "Remember posting the letter tomorrow.",
+              "Remember post the letter tomorrow."
+            ],
+            "answer": 0,
+            "explain": "还没做——remember to do。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（我记得去过那家动物园）",
+            "options": [
+              "I remember going to that zoo.",
+              "I remember to go to that zoo.",
+              "I remember went to that zoo."
+            ],
+            "answer": 0,
+            "explain": "已经发生的记忆——remember doing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（他不再抱怨了）",
+            "options": [
+              "He stopped complaining.",
+              "He stopped to complaining.",
+              "He stopped complain."
+            ],
+            "answer": 0,
+            "explain": "停止抱怨——stop doing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（聊聊去野餐的事）",
+            "options": [
+              "Let's talk about having a picnic.",
+              "Let's talk about have a picnic.",
+              "Let's talk about to have a picnic."
+            ],
+            "answer": 0,
+            "explain": "about 介词——having。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（何不再试一次）",
+            "options": [
+              "What about trying again?",
+              "What about try again?",
+              "What about to try again?"
+            ],
+            "answer": 0,
+            "explain": "What about + doing。",
+            "level": 3
+          },
+          {
+            "q": "哪一句包装对了？（弹钢琴是她的爱好）",
+            "options": [
+              "Playing the piano is her hobby.",
+              "Play the piano is her hobby.",
+              "To playing the piano is her hobby."
+            ],
+            "answer": 0,
+            "explain": "主语位打包——Playing the piano。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 两种包装同台",
         "questions": [
-          { "q": "I enjoy ___, but today I don't want ___ in the cold river.", "options": ["swimming / to swim", "to swim / swimming", "swimming / swimming"], "answer": 0, "explain": "enjoy + doing；want + to do。", "level": 4 },
-          { "q": "She stopped ___ TV because it was time ___ dinner.", "options": ["watching / to have", "to watch / having", "watching / having"], "answer": 0, "explain": "停止看电视 stop doing；It's time to do。", "level": 4 },
-          { "q": "Remember ___ off the lights before ___ the music room.", "options": ["to turn / leaving", "turning / to leave", "to turn / leave"], "answer": 0, "explain": "还没做 remember to do；before 介词接 doing。", "level": 4 },
-          { "q": "He is afraid of ___ mistakes, so he practises ___ English aloud every day.", "options": ["making / speaking", "to make / to speak", "making / to speak"], "answer": 0, "explain": "of 介词 + making；practise + doing。", "level": 4 },
-          { "q": "— How about ___ a kite? — Good idea! I'd like ___ one with you.", "options": ["flying / to fly", "to fly / flying", "flying / flying"], "answer": 0, "explain": "How about doing；would like to do。", "level": 4 },
-          { "q": "My sister keeps ___ the violin, and she hopes ___ the school orchestra.", "options": ["practising / to join", "to practise / joining", "practising / joining"], "answer": 0, "explain": "keep doing；hope to do。", "level": 4 },
-          { "q": "Thanks for ___ to help me — I finally finished ___ the model.", "options": ["coming / making", "to come / to make", "coming / to make"], "answer": 0, "explain": "for + coming；finish + doing。", "level": 4 },
-          { "q": "I forgot ___ my umbrella, but I clearly remember ___ it by the door this morning.", "options": ["to bring / putting", "bringing / to put", "to bring / to put"], "answer": 0, "explain": "忘了去带（没带成）to do；记得放过（已发生）doing。", "level": 4 },
-          { "q": "___ vegetables is good for you, but my brother isn't interested in ___ them.", "options": ["Eating / eating", "To eat / eating", "Eating / to eat"], "answer": 0, "explain": "主语打包 Eating；in 介词 + eating。", "level": 4 },
-          { "q": "The boy practised ___ every day and finally he was able ___ across the pool.", "options": ["swimming / to swim", "to swim / to swim", "swimming / swimming"], "answer": 0, "explain": "practise doing；be able to do。", "level": 4 },
-          { "q": "Would you mind ___ more slowly? I'm not good at ___ fast English.", "options": ["speaking / understanding", "to speak / to understand", "speaking / to understand"], "answer": 0, "explain": "mind + doing；at 介词 + doing。", "level": 4 },
-          { "q": "He spent the whole afternoon ___ his bike without ___ a rest.", "options": ["mending / taking", "to mend / to take", "mending / to take"], "answer": 0, "explain": "spend time doing；without + doing。", "level": 4 },
-          { "q": "Stop ___ about the test — let's practise ___ old papers instead.", "options": ["worrying / doing", "to worry / to do", "worrying / to do"], "answer": 0, "explain": "stop doing；practise doing。", "level": 4 },
-          { "q": "— Do you feel like ___ out tonight? — Sorry, I have a report ___.", "options": ["going / to write", "to go / writing", "going / writing"], "answer": 0, "explain": "feel like + doing；a report to write（G30 的名词小尾巴）。", "level": 4 },
-          { "q": "The old man enjoys ___ his flowers and never forgets ___ them in the morning.", "options": ["looking after / to water", "to look after / watering", "looking after / watering"], "answer": 0, "explain": "enjoy doing；每天的任务别忘了去做——forget to do。", "level": 4 },
-          { "q": "大考：___ the drum is fun, but my neighbours mind me ___ it at night, so I promised ___ only in the daytime.", "options": ["Playing / playing / to play", "To playing / to play / playing", "Playing / to play / to play"], "answer": 0, "explain": "打包当主语 Playing；mind + doing；promise + to do——三个座位各就各位。", "level": 4 }
+          {
+            "q": "I enjoy ___, but today I don't want ___ in the cold river.",
+            "options": [
+              "swimming / to swim",
+              "to swim / swimming",
+              "swimming / swimming"
+            ],
+            "answer": 0,
+            "explain": "enjoy + doing；want + to do。",
+            "level": 4
+          },
+          {
+            "q": "She stopped ___ TV because it was time ___ dinner.",
+            "options": [
+              "watching / to have",
+              "to watch / having",
+              "watching / having"
+            ],
+            "answer": 0,
+            "explain": "停止看电视 stop doing；It's time to do。",
+            "level": 4
+          },
+          {
+            "q": "Remember ___ off the lights before ___ the music room.",
+            "options": [
+              "to turn / leaving",
+              "turning / to leave",
+              "to turn / leave"
+            ],
+            "answer": 0,
+            "explain": "还没做 remember to do；before 介词接 doing。",
+            "level": 4
+          },
+          {
+            "q": "He is afraid of ___ mistakes, so he practises ___ English aloud every day.",
+            "options": [
+              "making / speaking",
+              "to make / to speak",
+              "making / to speak"
+            ],
+            "answer": 0,
+            "explain": "of 介词 + making；practise + doing。",
+            "level": 4
+          },
+          {
+            "q": "— How about ___ a kite? — Good idea! I'd like ___ one with you.",
+            "options": [
+              "flying / to fly",
+              "to fly / flying",
+              "flying / flying"
+            ],
+            "answer": 0,
+            "explain": "How about doing；would like to do。",
+            "level": 4
+          },
+          {
+            "q": "My sister keeps ___ the violin, and she hopes ___ the school orchestra.",
+            "options": [
+              "practising / to join",
+              "to practise / joining",
+              "practising / joining"
+            ],
+            "answer": 0,
+            "explain": "keep doing；hope to do。",
+            "level": 4
+          },
+          {
+            "q": "Thanks for ___ to help me — I finally finished ___ the model.",
+            "options": [
+              "coming / making",
+              "to come / to make",
+              "coming / to make"
+            ],
+            "answer": 0,
+            "explain": "for + coming；finish + doing。",
+            "level": 4
+          },
+          {
+            "q": "I forgot ___ my umbrella, but I clearly remember ___ it by the door this morning.",
+            "options": [
+              "to bring / putting",
+              "bringing / to put",
+              "to bring / to put"
+            ],
+            "answer": 0,
+            "explain": "忘了去带（没带成）to do；记得放过（已发生）doing。",
+            "level": 4
+          },
+          {
+            "q": "___ vegetables is good for you, but my brother isn't interested in ___ them.",
+            "options": [
+              "Eating / eating",
+              "To eat / eating",
+              "Eating / to eat"
+            ],
+            "answer": 0,
+            "explain": "主语打包 Eating；in 介词 + eating。",
+            "level": 4
+          },
+          {
+            "q": "The boy practised ___ every day and finally he was able ___ across the pool.",
+            "options": [
+              "swimming / to swim",
+              "to swim / to swim",
+              "swimming / swimming"
+            ],
+            "answer": 0,
+            "explain": "practise doing；be able to do。",
+            "level": 4
+          },
+          {
+            "q": "Would you mind ___ more slowly? I'm not good at ___ fast English.",
+            "options": [
+              "speaking / understanding",
+              "to speak / to understand",
+              "speaking / to understand"
+            ],
+            "answer": 0,
+            "explain": "mind + doing；at 介词 + doing。",
+            "level": 4
+          },
+          {
+            "q": "He spent the whole afternoon ___ his bike without ___ a rest.",
+            "options": [
+              "mending / taking",
+              "to mend / to take",
+              "mending / to take"
+            ],
+            "answer": 0,
+            "explain": "spend time doing；without + doing。",
+            "level": 4
+          },
+          {
+            "q": "Stop ___ about the test — let's practise ___ old papers instead.",
+            "options": [
+              "worrying / doing",
+              "to worry / to do",
+              "worrying / to do"
+            ],
+            "answer": 0,
+            "explain": "stop doing；practise doing。",
+            "level": 4
+          },
+          {
+            "q": "— Do you feel like ___ out tonight? — Sorry, I have a report ___.",
+            "options": [
+              "going / to write",
+              "to go / writing",
+              "going / writing"
+            ],
+            "answer": 0,
+            "explain": "feel like + doing；a report to write（G30 的名词小尾巴）。",
+            "level": 4
+          },
+          {
+            "q": "The old man enjoys ___ his flowers and never forgets ___ them in the morning.",
+            "options": [
+              "looking after / to water",
+              "to look after / watering",
+              "looking after / watering"
+            ],
+            "answer": 0,
+            "explain": "enjoy doing；每天的任务别忘了去做——forget to do。",
+            "level": 4
+          },
+          {
+            "q": "大考：___ the drum is fun, but my neighbours mind me ___ it at night, so I promised ___ only in the daytime.",
+            "options": [
+              "Playing / playing / to play",
+              "To playing / to play / playing",
+              "Playing / to play / to play"
+            ],
+            "answer": 0,
+            "explain": "打包当主语 Playing；mind + doing；promise + to do——三个座位各就各位。",
+            "level": 4
+          }
         ]
       }
     ]

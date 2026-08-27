@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "When we got to the cinema, the film had begun.", "cn": "我们赶到影院时，电影已经开演了。（开演在先）" },
-          { "en": "By the time Mum came back, I had cleaned the room.", "cn": "妈妈回来前，我已经把房间打扫好了。" },
-          { "en": "The train had left when they reached the station.", "cn": "他们赶到车站时，火车已经开走了。" },
-          { "en": "He told me he had lost his umbrella.", "cn": "他告诉我他把伞弄丢了。（丢在先、说在后）" },
-          { "en": "She had finished the report by last Friday.", "cn": "到上周五她已经写完了报告。" }
+          {
+            "en": "When we got to the cinema, the film had begun.",
+            "cn": "我们赶到影院时，电影已经开演了。（开演在先）"
+          },
+          {
+            "en": "By the time Mum came back, I had cleaned the room.",
+            "cn": "妈妈回来前，我已经把房间打扫好了。"
+          },
+          {
+            "en": "The train had left when they reached the station.",
+            "cn": "他们赶到车站时，火车已经开走了。"
+          },
+          {
+            "en": "He told me he had lost his umbrella.",
+            "cn": "他告诉我他把伞弄丢了。（丢在先、说在后）"
+          },
+          {
+            "en": "She had finished the report by last Friday.",
+            "cn": "到上周五她已经写完了报告。"
+          }
         ],
         "mid": [
-          { "en": "I had never seen such a big ship before that day.", "cn": "那天之前，我从没见过那么大的船。" },
-          { "en": "By the end of last term, we had learned five hundred words.", "cn": "到上学期末，我们已经学了五百个单词。" },
-          { "en": "When I woke up, the rain had stopped.", "cn": "我醒来时，雨已经停了。" },
-          { "en": "He had already had lunch, so he only ordered tea.", "cn": "他已经吃过午饭了，所以只点了杯茶。（第一个 had 报时，第二个 had 是「吃」的分词）" },
-          { "en": "The concert had already started when we found our seats.", "cn": "我们找到座位时，音乐会已经开始了。" }
+          {
+            "en": "I had never seen such a big ship before that day.",
+            "cn": "那天之前，我从没见过那么大的船。"
+          },
+          {
+            "en": "By the end of last term, we had learned five hundred words.",
+            "cn": "到上学期末，我们已经学了五百个单词。"
+          },
+          {
+            "en": "When I woke up, the rain had stopped.",
+            "cn": "我醒来时，雨已经停了。"
+          },
+          {
+            "en": "He had already had lunch, so he only ordered tea.",
+            "cn": "他已经吃过午饭了，所以只点了杯茶。（第一个 had 报时，第二个 had 是「吃」的分词）"
+          },
+          {
+            "en": "The concert had already started when we found our seats.",
+            "cn": "我们找到座位时，音乐会已经开始了。"
+          }
         ],
         "trap": [
-          { "en": "He came in, took off his coat and sat down.", "cn": "他进来，脱了外套，坐下。", "note": "顺叙的三个动作，断音接力就够——不用处处压低。" },
-          { "en": "When I got to school, I found I had left my book at home.", "cn": "到学校我才发现书忘在家里了。", "note": "「发现」在过去，「落书」更早——压低一层。" },
-          { "en": "After she (had) turned off the lights, she left the studio.", "cn": "关了灯之后，她离开了录音棚。", "note": "after 本身报了先后——had 可加可省。" },
-          { "en": "I didn't know the song because I had never heard it before.", "cn": "我不认识这首歌，之前从没听过。", "note": "never...before 挂在 had 上——「到那时为止的空白」。" },
-          { "en": "By the time the teacher came in, the students had opened their books.", "cn": "老师进来时，学生们已经翻开了书。", "note": "by the time + 过去时是最典型的压低信号。" },
-          { "en": "She said she had visited the factory twice.", "cn": "她说她参观过那家工厂两次。", "note": "said 是主歌；参观在说之前——转述句是双层延音的主场（G40 还会细讲）。" }
+          {
+            "en": "He came in, took off his coat and sat down.",
+            "cn": "他进来，脱了外套，坐下。",
+            "note": "顺叙的三个动作，断音接力就够——不用处处压低。"
+          },
+          {
+            "en": "When I got to school, I found I had left my book at home.",
+            "cn": "到学校我才发现书忘在家里了。",
+            "note": "「发现」在过去，「落书」更早——压低一层。"
+          },
+          {
+            "en": "After she (had) turned off the lights, she left the studio.",
+            "cn": "关了灯之后，她离开了录音棚。",
+            "note": "after 本身报了先后——had 可加可省。"
+          },
+          {
+            "en": "I didn't know the song because I had never heard it before.",
+            "cn": "我不认识这首歌，之前从没听过。",
+            "note": "never...before 挂在 had 上——「到那时为止的空白」。"
+          },
+          {
+            "en": "By the time the teacher came in, the students had opened their books.",
+            "cn": "老师进来时，学生们已经翻开了书。",
+            "note": "by the time + 过去时是最典型的压低信号。"
+          },
+          {
+            "en": "She said she had visited the factory twice.",
+            "cn": "她说她参观过那家工厂两次。",
+            "note": "said 是主歌；参观在说之前——转述句是双层延音的主场（G40 还会细讲）。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "这层 had 依旧守着那条分工规律：had 一个人承担「过去的过去」的全部报时，过去分词照旧冻结——be（G29 会见到）、have（G27）、had（本课），三张脸同一条规矩：一人报时，其余冻结。而 had 比 have 更极端：它连人称都懒得分了，I / she / they 一律 had——层级越深，形态反而越简单。英语的时态大厦越往高处越规整：复杂的意思，全靠简单零件的固定组合搭出来——这就是英语的规律性。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G28 · 过去完成时</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>双层延音：前奏比主歌更早响起</text><rect x='36' y='110' width='648' height='104' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎼 两件过去的事 → 更早的压低一层：had + 过去分词</text><text x='360' y='172' text-anchor='middle' font-size='15' fill='#5A4A42'>When I got home（主歌·过去）, Dad had cooked dinner（前奏·过去的过去）.</text><text x='360' y='198' text-anchor='middle' font-size='14' fill='#94A3B8'>had 人人一样，不分人称单复数；否定 hadn't</text><rect x='36' y='234' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='266' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>📣 信号词</text><text x='360' y='296' text-anchor='middle' font-size='15' fill='#5A4A42'>by the time · by + 过去时间 · before · already · never...before · 转述句 said 之后</text><text x='360' y='320' text-anchor='middle' font-size='14' fill='#94A3B8'>By the time we arrived, the film had started.</text><rect x='36' y='350' width='648' height='108' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='382' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🚫 两个「别滥用」</text><text x='360' y='410' text-anchor='middle' font-size='14' fill='#5A4A42'>单独一件过去的事不压低：I went to bed at ten.（✗ had gone）</text><text x='360' y='436' text-anchor='middle' font-size='14' fill='#5A4A42'>顺叙断音接力：He came in, took off his coat and sat down.（不必层层 had）</text><rect x='36' y='478' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='506' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ had leaved ✗ · had went ✗ · had ate ✗ · said he has lost ✗（转述要退一步）</text><text x='360' y='550' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 不考——初中叙事文 / PET 阅读的常客，学到就是赚到</text><text x='360' y='580' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：层级越深形态越简——had 连人称都不分 · 英语奇遇记 🦊 G28</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G28 · 过去完成时</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>双层延音：前奏比主歌更早响起</text><rect x='36' y='110' width='648' height='104' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>🎼 两件过去的事 → 更早的压低一层：had + 过去分词</text><text x='360' y='172' text-anchor='middle' font-size='17' fill='#5A4A42'>When I got home（主歌·过去）, Dad had cooked dinner（前奏·过去的过去）.</text><text x='360' y='198' text-anchor='middle' font-size='18' fill='#94A3B8'>had 人人一样，不分人称单复数；否定 hadn't</text><rect x='36' y='234' width='648' height='96' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='266' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>📣 信号词</text><text x='360' y='296' text-anchor='middle' font-size='15' fill='#5A4A42'>by the time · by + 过去时间 · before · already · never...before · 转述句 said 之后</text><text x='360' y='320' text-anchor='middle' font-size='18' fill='#94A3B8'>By the time we arrived, the film had started.</text><rect x='36' y='350' width='648' height='108' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='382' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🚫 两个「别滥用」</text><text x='360' y='410' text-anchor='middle' font-size='18' fill='#5A4A42'>单独一件过去的事不压低：I went to bed at ten.（✗ had gone）</text><text x='360' y='436' text-anchor='middle' font-size='17' fill='#5A4A42'>顺叙断音接力：He came in, took off his coat and sat down.（不必层层 had）</text><rect x='36' y='478' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='506' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ had leaved ✗ · had went ✗ · had ate ✗ · said he has lost ✗（转述要退一步）</text><text x='360' y='550' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 不考——初中叙事文 / PET 阅读的常客，学到就是赚到</text><text x='360' y='580' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：层级越深形态越简——had 连人称都不分 · 英语奇遇记 🦊 G28</text></svg>",
     "alt": "G28 记忆卡：两件过去的事更早的压低成 had+过去分词（前奏比主歌早）；had 不随人称变；信号词 by the time/before/already/never...before/转述句；两个别滥用（单独过去事不压低、顺叙断音接力）；警示 had leaved、had went、had ate、said he has lost。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 前奏与主歌",
         "questions": [
-          { "q": "过去完成时的两件套是？", "options": ["had + 过去分词", "have + 过去分词", "was + 过去分词"], "answer": 0, "explain": "更早的那层压低——had + 过去分词。", "level": 1 },
-          { "q": "过去完成时表示的时间是？", "options": ["过去的过去（比主歌更早）", "现在", "将来"], "answer": 0, "explain": "前奏比主歌更早响起。", "level": 1 },
-          { "q": "had 会随人称变化吗？", "options": ["不会——人人都是 had", "she 要用 has", "复数要用 have"], "answer": 0, "explain": "had 连三单都不分——层级越深形态越简。", "level": 1 },
-          { "q": "过去完成时能单独出场吗？", "options": ["不能——必须有过去的参照点", "能，随时用", "只在书面语能"], "answer": 0, "explain": "没有主歌，就没有「更早」可言。", "level": 1 },
-          { "q": "When I got home, Dad had cooked dinner. 哪件事先发生？", "options": ["爸爸做饭", "我到家", "同时发生"], "answer": 0, "explain": "had cooked 压低一层——做饭在先。", "level": 1 },
-          { "q": "by the time + 过去时，主句常用？", "options": ["过去完成时", "一般现在时", "现在进行时"], "answer": 0, "explain": "「到那时已完成」——最典型的压低信号。", "level": 1 },
-          { "q": "leave 的过去分词是？", "options": ["left", "leaved", "leaves"], "answer": 0, "explain": "leave→left→left——had left。", "level": 1 },
-          { "q": "顺叙的一串动作（进来→脱外套→坐下）需要都用 had 吗？", "options": ["不用——顺序已报先后，断音接力", "要，全部压低", "只有第一件用"], "answer": 0, "explain": "双层延音只在「后说的事先发生」时才出场。", "level": 1 },
-          { "q": "He said he had seen the film. 看电影发生在？", "options": ["说这句话之前", "说这句话之后", "正说的时候"], "answer": 0, "explain": "said 是主歌，had seen 是更早的前奏。", "level": 1 },
-          { "q": "过去完成时的否定形式是？", "options": ["hadn't + 过去分词", "didn't had", "haven't + 过去分词"], "answer": 0, "explain": "had not = hadn't，后面分词不动。", "level": 1 },
-          { "q": "The train had left when we arrived. 我们赶上火车了吗？", "options": ["没赶上——火车更早开走了", "赶上了", "无法判断"], "answer": 0, "explain": "had left 压低一层——开走在到达之前。", "level": 1 },
-          { "q": "「那天之前从没见过」常用哪个搭配？", "options": ["had never + 过去分词 + before", "never + 现在时", "has never + 原形"], "answer": 0, "explain": "到那天为止的空白，挂在 had 上。", "level": 1 },
-          { "q": "单独一件过去的事（昨晚十点睡觉）用？", "options": ["一般过去时", "过去完成时", "现在完成时"], "answer": 0, "explain": "没有参照点——老实用断音。", "level": 1 },
-          { "q": "fall 的过去分词是？", "options": ["fallen", "fell", "falls"], "answer": 0, "explain": "fall→fell→fallen——had fallen。", "level": 1 },
-          { "q": "after 从句里的 had 能省吗？", "options": ["能——after 本身已报先后", "绝对不能省", "省了就是病句"], "answer": 0, "explain": "after/before 自带顺序，had 是保险不是义务。", "level": 1 },
-          { "q": "过去完成时最常出现在什么地方？", "options": ["讲过去故事的叙事文和转述句", "天气预报", "购物清单"], "answer": 0, "explain": "叙事回头补一笔、转述退一步——它的两个主场。", "level": 1 }
+          {
+            "q": "过去完成时的两件套是？",
+            "options": [
+              "had + 过去分词",
+              "have + 过去分词",
+              "was + 过去分词"
+            ],
+            "answer": 0,
+            "explain": "更早的那层压低——had + 过去分词。",
+            "level": 1
+          },
+          {
+            "q": "过去完成时表示的时间是？",
+            "options": [
+              "过去的过去（比主歌更早）",
+              "现在",
+              "将来"
+            ],
+            "answer": 0,
+            "explain": "前奏比主歌更早响起。",
+            "level": 1
+          },
+          {
+            "q": "had 会随人称变化吗？",
+            "options": [
+              "不会——人人都是 had",
+              "she 要用 has",
+              "复数要用 have"
+            ],
+            "answer": 0,
+            "explain": "had 连三单都不分——层级越深形态越简。",
+            "level": 1
+          },
+          {
+            "q": "过去完成时能单独出场吗？",
+            "options": [
+              "不能——必须有过去的参照点",
+              "能，随时用",
+              "只在书面语能"
+            ],
+            "answer": 0,
+            "explain": "没有主歌，就没有「更早」可言。",
+            "level": 1
+          },
+          {
+            "q": "When I got home, Dad had cooked dinner. 哪件事先发生？",
+            "options": [
+              "爸爸做饭",
+              "我到家",
+              "同时发生"
+            ],
+            "answer": 0,
+            "explain": "had cooked 压低一层——做饭在先。",
+            "level": 1
+          },
+          {
+            "q": "by the time + 过去时，主句常用？",
+            "options": [
+              "过去完成时",
+              "一般现在时",
+              "现在进行时"
+            ],
+            "answer": 0,
+            "explain": "「到那时已完成」——最典型的压低信号。",
+            "level": 1
+          },
+          {
+            "q": "leave 的过去分词是？",
+            "options": [
+              "left",
+              "leaved",
+              "leaves"
+            ],
+            "answer": 0,
+            "explain": "leave→left→left——had left。",
+            "level": 1
+          },
+          {
+            "q": "顺叙的一串动作（进来→脱外套→坐下）需要都用 had 吗？",
+            "options": [
+              "不用——顺序已报先后，断音接力",
+              "要，全部压低",
+              "只有第一件用"
+            ],
+            "answer": 0,
+            "explain": "双层延音只在「后说的事先发生」时才出场。",
+            "level": 1
+          },
+          {
+            "q": "He said he had seen the film. 看电影发生在？",
+            "options": [
+              "说这句话之前",
+              "说这句话之后",
+              "正说的时候"
+            ],
+            "answer": 0,
+            "explain": "said 是主歌，had seen 是更早的前奏。",
+            "level": 1
+          },
+          {
+            "q": "过去完成时的否定形式是？",
+            "options": [
+              "hadn't + 过去分词",
+              "didn't had",
+              "haven't + 过去分词"
+            ],
+            "answer": 0,
+            "explain": "had not = hadn't，后面分词不动。",
+            "level": 1
+          },
+          {
+            "q": "The train had left when we arrived. 我们赶上火车了吗？",
+            "options": [
+              "没赶上——火车更早开走了",
+              "赶上了",
+              "无法判断"
+            ],
+            "answer": 0,
+            "explain": "had left 压低一层——开走在到达之前。",
+            "level": 1
+          },
+          {
+            "q": "「那天之前从没见过」常用哪个搭配？",
+            "options": [
+              "had never + 过去分词 + before",
+              "never + 现在时",
+              "has never + 原形"
+            ],
+            "answer": 0,
+            "explain": "到那天为止的空白，挂在 had 上。",
+            "level": 1
+          },
+          {
+            "q": "单独一件过去的事（昨晚十点睡觉）用？",
+            "options": [
+              "一般过去时",
+              "过去完成时",
+              "现在完成时"
+            ],
+            "answer": 0,
+            "explain": "没有参照点——老实用断音。",
+            "level": 1
+          },
+          {
+            "q": "fall 的过去分词是？",
+            "options": [
+              "fallen",
+              "fell",
+              "falls"
+            ],
+            "answer": 0,
+            "explain": "fall→fell→fallen——had fallen。",
+            "level": 1
+          },
+          {
+            "q": "after 从句里的 had 能省吗？",
+            "options": [
+              "能——after 本身已报先后",
+              "绝对不能省",
+              "省了就是病句"
+            ],
+            "answer": 0,
+            "explain": "after/before 自带顺序，had 是保险不是义务。",
+            "level": 1
+          },
+          {
+            "q": "过去完成时最常出现在什么地方？",
+            "options": [
+              "讲过去故事的叙事文和转述句",
+              "天气预报",
+              "购物清单"
+            ],
+            "answer": 0,
+            "explain": "叙事回头补一笔、转述退一步——它的两个主场。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 压低更早的那层",
         "questions": [
-          { "q": "When we got to the cinema, the film ___.", "options": ["had begun", "begins", "has begun"], "answer": 0, "explain": "开演在到达之前——压低 had begun。", "level": 2 },
-          { "q": "By the time Mum came back, I ___ the room.", "options": ["had cleaned", "have cleaned", "clean"], "answer": 0, "explain": "打扫在回来之前——had cleaned。", "level": 2 },
-          { "q": "The train ___ when they reached the station.", "options": ["had left", "has left", "leaves"], "answer": 0, "explain": "开走更早——had left。", "level": 2 },
-          { "q": "He told me he ___ his umbrella.", "options": ["had lost", "has lost", "loses"], "answer": 0, "explain": "told 在过去，丢伞更早——退到 had lost。", "level": 2 },
-          { "q": "She ___ the report by last Friday.", "options": ["had finished", "has finished", "finishes"], "answer": 0, "explain": "by + 过去时间——had finished。", "level": 2 },
-          { "q": "I ___ such a big ship before that day.", "options": ["had never seen", "have never seen", "never see"], "answer": 0, "explain": "「那天之前」的空白——had never seen。", "level": 2 },
-          { "q": "By the end of last term, we ___ five hundred words.", "options": ["had learned", "have learned", "learn"], "answer": 0, "explain": "参照点是上学期末（过去）——had learned。", "level": 2 },
-          { "q": "When I woke up, the rain ___.", "options": ["had stopped", "has stopped", "stops"], "answer": 0, "explain": "雨停在醒来之前——had stopped。", "level": 2 },
-          { "q": "He ___ lunch, so he only ordered tea.", "options": ["had already had", "has already had", "already has"], "answer": 0, "explain": "点茶在过去，吃午饭更早——had had（第二个 had 是分词）。", "level": 2 },
-          { "q": "The concert ___ when we found our seats.", "options": ["had already started", "already starts", "has already started"], "answer": 0, "explain": "开始在找到座位之前——压低。", "level": 2 },
-          { "q": "When the police arrived, the thief ___ away.", "options": ["had run", "has run", "runs"], "answer": 0, "explain": "跑在到达之前——had run（run→ran→run）。", "level": 2 },
-          { "q": "I found I ___ my book at home.", "options": ["had left", "have left", "leave"], "answer": 0, "explain": "落书在发现之前——had left。", "level": 2 },
-          { "q": "She said she ___ the factory twice.", "options": ["had visited", "has visited", "visits"], "answer": 0, "explain": "转述退一步——had visited。", "level": 2 },
-          { "q": "They ___ all the mooncakes before we came.", "options": ["had eaten", "have eaten", "eat"], "answer": 0, "explain": "吃光在我们来之前——had eaten。", "level": 2 },
-          { "q": "By 2019, my uncle ___ in three cities.", "options": ["had worked", "has worked", "works"], "answer": 0, "explain": "by + 过去年份——had worked。", "level": 2 },
-          { "q": "He went to bed after he ___ the door.", "options": ["had locked", "has locked", "will lock"], "answer": 0, "explain": "锁门在先——after 从句里 had locked（省 had 也对，但选项里它最准）。", "level": 2 }
+          {
+            "q": "When we got to the cinema, the film ___.",
+            "options": [
+              "had begun",
+              "begins",
+              "has begun"
+            ],
+            "answer": 0,
+            "explain": "开演在到达之前——压低 had begun。",
+            "level": 2
+          },
+          {
+            "q": "By the time Mum came back, I ___ the room.",
+            "options": [
+              "had cleaned",
+              "have cleaned",
+              "clean"
+            ],
+            "answer": 0,
+            "explain": "打扫在回来之前——had cleaned。",
+            "level": 2
+          },
+          {
+            "q": "The train ___ when they reached the station.",
+            "options": [
+              "had left",
+              "has left",
+              "leaves"
+            ],
+            "answer": 0,
+            "explain": "开走更早——had left。",
+            "level": 2
+          },
+          {
+            "q": "He told me he ___ his umbrella.",
+            "options": [
+              "had lost",
+              "has lost",
+              "loses"
+            ],
+            "answer": 0,
+            "explain": "told 在过去，丢伞更早——退到 had lost。",
+            "level": 2
+          },
+          {
+            "q": "She ___ the report by last Friday.",
+            "options": [
+              "had finished",
+              "has finished",
+              "finishes"
+            ],
+            "answer": 0,
+            "explain": "by + 过去时间——had finished。",
+            "level": 2
+          },
+          {
+            "q": "I ___ such a big ship before that day.",
+            "options": [
+              "had never seen",
+              "have never seen",
+              "never see"
+            ],
+            "answer": 0,
+            "explain": "「那天之前」的空白——had never seen。",
+            "level": 2
+          },
+          {
+            "q": "By the end of last term, we ___ five hundred words.",
+            "options": [
+              "had learned",
+              "have learned",
+              "learn"
+            ],
+            "answer": 0,
+            "explain": "参照点是上学期末（过去）——had learned。",
+            "level": 2
+          },
+          {
+            "q": "When I woke up, the rain ___.",
+            "options": [
+              "had stopped",
+              "has stopped",
+              "stops"
+            ],
+            "answer": 0,
+            "explain": "雨停在醒来之前——had stopped。",
+            "level": 2
+          },
+          {
+            "q": "He ___ lunch, so he only ordered tea.",
+            "options": [
+              "had already had",
+              "has already had",
+              "already has"
+            ],
+            "answer": 0,
+            "explain": "点茶在过去，吃午饭更早——had had（第二个 had 是分词）。",
+            "level": 2
+          },
+          {
+            "q": "The concert ___ when we found our seats.",
+            "options": [
+              "had already started",
+              "already starts",
+              "has already started"
+            ],
+            "answer": 0,
+            "explain": "开始在找到座位之前——压低。",
+            "level": 2
+          },
+          {
+            "q": "When the police arrived, the thief ___ away.",
+            "options": [
+              "had run",
+              "has run",
+              "runs"
+            ],
+            "answer": 0,
+            "explain": "跑在到达之前——had run（run→ran→run）。",
+            "level": 2
+          },
+          {
+            "q": "I found I ___ my book at home.",
+            "options": [
+              "had left",
+              "have left",
+              "leave"
+            ],
+            "answer": 0,
+            "explain": "落书在发现之前——had left。",
+            "level": 2
+          },
+          {
+            "q": "She said she ___ the factory twice.",
+            "options": [
+              "had visited",
+              "has visited",
+              "visits"
+            ],
+            "answer": 0,
+            "explain": "转述退一步——had visited。",
+            "level": 2
+          },
+          {
+            "q": "They ___ all the mooncakes before we came.",
+            "options": [
+              "had eaten",
+              "have eaten",
+              "eat"
+            ],
+            "answer": 0,
+            "explain": "吃光在我们来之前——had eaten。",
+            "level": 2
+          },
+          {
+            "q": "By 2019, my uncle ___ in three cities.",
+            "options": [
+              "had worked",
+              "has worked",
+              "works"
+            ],
+            "answer": 0,
+            "explain": "by + 过去年份——had worked。",
+            "level": 2
+          },
+          {
+            "q": "He went to bed after he ___ the door.",
+            "options": [
+              "had locked",
+              "has locked",
+              "will lock"
+            ],
+            "answer": 0,
+            "explain": "锁门在先——after 从句里 had locked（省 had 也对，但选项里它最准）。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 该压不该压",
         "questions": [
-          { "q": "哪一句说对了？（昨晚十点睡觉——单独一件事）", "options": ["I went to bed at ten last night.", "I had gone to bed at ten last night.", "I have gone to bed at ten last night."], "answer": 0, "explain": "没有参照点——别凭空压低。", "level": 3 },
-          { "q": "哪一句说对了？（我们到时会议早结束了）", "options": ["The meeting had ended by the time we got there.", "The meeting ended by the time we got there.", "The meeting has ended by the time we got there."], "answer": 0, "explain": "结束更早——had ended，否则先后全乱。", "level": 3 },
-          { "q": "哪一句说对了？（公共汽车早开走了）", "options": ["The bus had left when I arrived.", "The bus had leaved when I arrived.", "The bus has left when I arrived."], "answer": 0, "explain": "leave→left；主歌在过去，不能用 has。", "level": 3 },
-          { "q": "哪一句说对了？（我打电话之前她已出门）", "options": ["She had gone out when I called.", "She had went out when I called.", "She has gone out when I called."], "answer": 0, "explain": "had + gone——went 是过去式配不上 had。", "level": 3 },
-          { "q": "哪一句说对了？（到十岁他已学会游泳）", "options": ["He had learned to swim by the time he was ten.", "He learned to swim by the time he was ten already.", "He has learned to swim by the time he was ten."], "answer": 0, "explain": "by the time + 过去——压低 had learned。", "level": 3 },
-          { "q": "哪一句压对了地方？（到家时饭已做好）", "options": ["When I got home, Dad had cooked dinner.", "When I had got home, Dad cooked dinner.", "When I got home, Dad has cooked dinner."], "answer": 0, "explain": "更早的是做饭——had 要给做饭，不是到家。", "level": 3 },
-          { "q": "哪一句说对了？（我们来之前他们吃光了饺子）", "options": ["They had eaten all the dumplings before we came.", "They had ate all the dumplings before we came.", "They have eaten all the dumplings before we came."], "answer": 0, "explain": "had + eaten——第三形态。", "level": 3 },
-          { "q": "哪一句说对了？（他说他丢了票）", "options": ["He said he had lost his ticket.", "He said he has lost his ticket.", "He said he had lose his ticket."], "answer": 0, "explain": "said 在过去——转述退一步 had lost。", "level": 3 },
-          { "q": "哪一句说对了？（到上月底我已写了三封信）", "options": ["By the end of last month, I had written three letters.", "By the end of last month, I had wrote three letters.", "By the end of last month, I have written three letters."], "answer": 0, "explain": "had + written——wrote 是过去式。", "level": 3 },
-          { "q": "哪一句说对了？（顺叙：进来、脱外套、坐下）", "options": ["He came in, took off his coat and sat down.", "He had come in, had taken off his coat and had sat down.", "He came in, had taken off his coat and sat down."], "answer": 0, "explain": "顺叙断音接力——层层压低反而画蛇添足。", "level": 3 },
-          { "q": "哪一句说对了？（那天之前从没坐过飞机）", "options": ["I had never taken a plane before that day.", "I have never taken a plane before that day.", "I had never took a plane before that day."], "answer": 0, "explain": "参照点是那天（过去）——had never taken。", "level": 3 },
-          { "q": "哪一句说对了？（我醒来时雨已停）", "options": ["The rain had stopped when I woke up.", "The rain has stopped when I woke up.", "The rain had stop when I woke up."], "answer": 0, "explain": "雨停更早——had stopped，分词 -ed 不能丢。", "level": 3 },
-          { "q": "哪一句说对了？（吃完晚饭后他出门了——had 省略版）", "options": ["After he finished dinner, he went out.", "After he has finished dinner, he went out.", "After he will finish dinner, he went out."], "answer": 0, "explain": "after 已报先后——两个过去时接力即可（加 had 也对）。", "level": 3 },
-          { "q": "哪一句说对了？（警察到时小偷早跑了）", "options": ["The thief had run away when the police arrived.", "The thief had ran away when the police arrived.", "The thief has run away when the police arrived."], "answer": 0, "explain": "run→ran→run——had run。", "level": 3 },
-          { "q": "哪一句说对了？（她告诉我她已喂过猫）", "options": ["She told me she had fed the cat.", "She told me she has fed the cat.", "She told me she had feed the cat."], "answer": 0, "explain": "转述退一步——had fed（feed→fed）。", "level": 3 },
-          { "q": "哪一句说对了？（发现钱包忘家里了）", "options": ["I found that I had left my wallet at home.", "I found that I have left my wallet at home.", "I found that I had leave my wallet at home."], "answer": 0, "explain": "落钱包在发现之前——had left。", "level": 3 }
+          {
+            "q": "哪一句说对了？（昨晚十点睡觉——单独一件事）",
+            "options": [
+              "I went to bed at ten last night.",
+              "I had gone to bed at ten last night.",
+              "I have gone to bed at ten last night."
+            ],
+            "answer": 0,
+            "explain": "没有参照点——别凭空压低。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我们到时会议早结束了）",
+            "options": [
+              "The meeting had ended by the time we got there.",
+              "The meeting ended by the time we got there.",
+              "The meeting has ended by the time we got there."
+            ],
+            "answer": 0,
+            "explain": "结束更早——had ended，否则先后全乱。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（公共汽车早开走了）",
+            "options": [
+              "The bus had left when I arrived.",
+              "The bus had leaved when I arrived.",
+              "The bus has left when I arrived."
+            ],
+            "answer": 0,
+            "explain": "leave→left；主歌在过去，不能用 has。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我打电话之前她已出门）",
+            "options": [
+              "She had gone out when I called.",
+              "She had went out when I called.",
+              "She has gone out when I called."
+            ],
+            "answer": 0,
+            "explain": "had + gone——went 是过去式配不上 had。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（到十岁他已学会游泳）",
+            "options": [
+              "He had learned to swim by the time he was ten.",
+              "He learned to swim by the time he was ten already.",
+              "He has learned to swim by the time he was ten."
+            ],
+            "answer": 0,
+            "explain": "by the time + 过去——压低 had learned。",
+            "level": 3
+          },
+          {
+            "q": "哪一句压对了地方？（到家时饭已做好）",
+            "options": [
+              "When I got home, Dad had cooked dinner.",
+              "When I had got home, Dad cooked dinner.",
+              "When I got home, Dad has cooked dinner."
+            ],
+            "answer": 0,
+            "explain": "更早的是做饭——had 要给做饭，不是到家。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我们来之前他们吃光了饺子）",
+            "options": [
+              "They had eaten all the dumplings before we came.",
+              "They had ate all the dumplings before we came.",
+              "They have eaten all the dumplings before we came."
+            ],
+            "answer": 0,
+            "explain": "had + eaten——第三形态。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（他说他丢了票）",
+            "options": [
+              "He said he had lost his ticket.",
+              "He said he has lost his ticket.",
+              "He said he had lose his ticket."
+            ],
+            "answer": 0,
+            "explain": "said 在过去——转述退一步 had lost。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（到上月底我已写了三封信）",
+            "options": [
+              "By the end of last month, I had written three letters.",
+              "By the end of last month, I had wrote three letters.",
+              "By the end of last month, I have written three letters."
+            ],
+            "answer": 0,
+            "explain": "had + written——wrote 是过去式。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（顺叙：进来、脱外套、坐下）",
+            "options": [
+              "He came in, took off his coat and sat down.",
+              "He had come in, had taken off his coat and had sat down.",
+              "He came in, had taken off his coat and sat down."
+            ],
+            "answer": 0,
+            "explain": "顺叙断音接力——层层压低反而画蛇添足。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（那天之前从没坐过飞机）",
+            "options": [
+              "I had never taken a plane before that day.",
+              "I have never taken a plane before that day.",
+              "I had never took a plane before that day."
+            ],
+            "answer": 0,
+            "explain": "参照点是那天（过去）——had never taken。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（我醒来时雨已停）",
+            "options": [
+              "The rain had stopped when I woke up.",
+              "The rain has stopped when I woke up.",
+              "The rain had stop when I woke up."
+            ],
+            "answer": 0,
+            "explain": "雨停更早——had stopped，分词 -ed 不能丢。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（吃完晚饭后他出门了——had 省略版）",
+            "options": [
+              "After he finished dinner, he went out.",
+              "After he has finished dinner, he went out.",
+              "After he will finish dinner, he went out."
+            ],
+            "answer": 0,
+            "explain": "after 已报先后——两个过去时接力即可（加 had 也对）。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（警察到时小偷早跑了）",
+            "options": [
+              "The thief had run away when the police arrived.",
+              "The thief had ran away when the police arrived.",
+              "The thief has run away when the police arrived."
+            ],
+            "answer": 0,
+            "explain": "run→ran→run——had run。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（她告诉我她已喂过猫）",
+            "options": [
+              "She told me she had fed the cat.",
+              "She told me she has fed the cat.",
+              "She told me she had feed the cat."
+            ],
+            "answer": 0,
+            "explain": "转述退一步——had fed（feed→fed）。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（发现钱包忘家里了）",
+            "options": [
+              "I found that I had left my wallet at home.",
+              "I found that I have left my wallet at home.",
+              "I found that I had leave my wallet at home."
+            ],
+            "answer": 0,
+            "explain": "落钱包在发现之前——had left。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 双层混排",
         "questions": [
-          { "q": "When I ___ to the station, the train ___.", "options": ["got / had already left", "had got / already left", "get / had left"], "answer": 0, "explain": "到站是主歌 got；开走更早 had left。", "level": 4 },
-          { "q": "He ___ me that he ___ the film twice.", "options": ["told / had seen", "had told / saw", "tells / had seen"], "answer": 0, "explain": "told 是主歌；看过在先——had seen。", "level": 4 },
-          { "q": "By the time the bell ___, the students ___ their books.", "options": ["rang / had opened", "had rung / opened", "rings / had opened"], "answer": 0, "explain": "铃响是参照；翻书在先——had opened。", "level": 4 },
-          { "q": "She ___ sad because she ___ the singing contest.", "options": ["was / had lost", "had been / lost", "is / had lost"], "answer": 0, "explain": "难过在过去；输比赛更早——had lost。", "level": 4 },
-          { "q": "I ___ the door and then remembered I ___ my keys inside.", "options": ["closed / had left", "had closed / left", "close / had left"], "answer": 0, "explain": "关门是主歌；钥匙落在里面更早——had left。", "level": 4 },
-          { "q": "After he ___ his homework, he ___ out to play basketball.", "options": ["had finished / went", "finished / had gone", "has finished / went"], "answer": 0, "explain": "写作业在先（after 从句压低）；出门是主歌 went。", "level": 4 },
-          { "q": "The party ___ by the time we ___.", "options": ["had begun / arrived", "began / had arrived", "has begun / arrived"], "answer": 0, "explain": "开始更早 had begun；到达是主歌 arrived。", "level": 4 },
-          { "q": "I didn't laugh at the joke because I ___ it many times before.", "options": ["had heard", "have heard", "was hearing"], "answer": 0, "explain": "没笑在过去；听过更早——had heard。", "level": 4 },
-          { "q": "When we ___ the top of the hill, the sun ___.", "options": ["reached / had risen", "had reached / rose", "reach / had risen"], "answer": 0, "explain": "登顶是主歌；日出更早——had risen（rise→rose→risen）。", "level": 4 },
-          { "q": "He ___ hungry because he ___ nothing all day.", "options": ["felt / had eaten", "had felt / ate", "feels / had eaten"], "answer": 0, "explain": "饿是主歌；一整天没吃更早——had eaten nothing。", "level": 4 },
-          { "q": "By last summer, the band ___ together for six years.", "options": ["had played", "has played", "plays"], "answer": 0, "explain": "参照点在过去（去年夏天）——把 G27 的延音再往下压一层。", "level": 4 },
-          { "q": "She ___ me the book that she ___ in Beijing.", "options": ["showed / had bought", "had shown / bought", "shows / had bought"], "answer": 0, "explain": "给我看是主歌；买书更早——had bought。", "level": 4 },
-          { "q": "The ground was wet — it ___ the night before.", "options": ["had rained", "has rained", "rains"], "answer": 0, "explain": "地湿在过去；下雨在前一晚——had rained。", "level": 4 },
-          { "q": "The teacher asked who ___ the window.", "options": ["had broken", "has broken", "breaks"], "answer": 0, "explain": "问话在过去；打破在问之前——had broken。", "level": 4 },
-          { "q": "___ you ___ your ticket before the film started?", "options": ["Had / bought", "Have / bought", "Did / had bought"], "answer": 0, "explain": "参照点是开场（过去）——之前买票：Had you bought...?", "level": 4 },
-          { "q": "大考：When Grandma ___ back, she found we ___ dinner and ___ the dishes.", "options": ["came / had cooked / had washed", "had come / cooked / washed", "came / has cooked / has washed"], "answer": 0, "explain": "回来是主歌 came；做饭洗碗都更早——两处都压低。", "level": 4 }
+          {
+            "q": "When I ___ to the station, the train ___.",
+            "options": [
+              "got / had already left",
+              "had got / already left",
+              "get / had left"
+            ],
+            "answer": 0,
+            "explain": "到站是主歌 got；开走更早 had left。",
+            "level": 4
+          },
+          {
+            "q": "He ___ me that he ___ the film twice.",
+            "options": [
+              "told / had seen",
+              "had told / saw",
+              "tells / had seen"
+            ],
+            "answer": 0,
+            "explain": "told 是主歌；看过在先——had seen。",
+            "level": 4
+          },
+          {
+            "q": "By the time the bell ___, the students ___ their books.",
+            "options": [
+              "rang / had opened",
+              "had rung / opened",
+              "rings / had opened"
+            ],
+            "answer": 0,
+            "explain": "铃响是参照；翻书在先——had opened。",
+            "level": 4
+          },
+          {
+            "q": "She ___ sad because she ___ the singing contest.",
+            "options": [
+              "was / had lost",
+              "had been / lost",
+              "is / had lost"
+            ],
+            "answer": 0,
+            "explain": "难过在过去；输比赛更早——had lost。",
+            "level": 4
+          },
+          {
+            "q": "I ___ the door and then remembered I ___ my keys inside.",
+            "options": [
+              "closed / had left",
+              "had closed / left",
+              "close / had left"
+            ],
+            "answer": 0,
+            "explain": "关门是主歌；钥匙落在里面更早——had left。",
+            "level": 4
+          },
+          {
+            "q": "After he ___ his homework, he ___ out to play basketball.",
+            "options": [
+              "had finished / went",
+              "finished / had gone",
+              "has finished / went"
+            ],
+            "answer": 0,
+            "explain": "写作业在先（after 从句压低）；出门是主歌 went。",
+            "level": 4
+          },
+          {
+            "q": "The party ___ by the time we ___.",
+            "options": [
+              "had begun / arrived",
+              "began / had arrived",
+              "has begun / arrived"
+            ],
+            "answer": 0,
+            "explain": "开始更早 had begun；到达是主歌 arrived。",
+            "level": 4
+          },
+          {
+            "q": "I didn't laugh at the joke because I ___ it many times before.",
+            "options": [
+              "had heard",
+              "have heard",
+              "was hearing"
+            ],
+            "answer": 0,
+            "explain": "没笑在过去；听过更早——had heard。",
+            "level": 4
+          },
+          {
+            "q": "When we ___ the top of the hill, the sun ___.",
+            "options": [
+              "reached / had risen",
+              "had reached / rose",
+              "reach / had risen"
+            ],
+            "answer": 0,
+            "explain": "登顶是主歌；日出更早——had risen（rise→rose→risen）。",
+            "level": 4
+          },
+          {
+            "q": "He ___ hungry because he ___ nothing all day.",
+            "options": [
+              "felt / had eaten",
+              "had felt / ate",
+              "feels / had eaten"
+            ],
+            "answer": 0,
+            "explain": "饿是主歌；一整天没吃更早——had eaten nothing。",
+            "level": 4
+          },
+          {
+            "q": "By last summer, the band ___ together for six years.",
+            "options": [
+              "had played",
+              "has played",
+              "plays"
+            ],
+            "answer": 0,
+            "explain": "参照点在过去（去年夏天）——把 G27 的延音再往下压一层。",
+            "level": 4
+          },
+          {
+            "q": "She ___ me the book that she ___ in Beijing.",
+            "options": [
+              "showed / had bought",
+              "had shown / bought",
+              "shows / had bought"
+            ],
+            "answer": 0,
+            "explain": "给我看是主歌；买书更早——had bought。",
+            "level": 4
+          },
+          {
+            "q": "The ground was wet — it ___ the night before.",
+            "options": [
+              "had rained",
+              "has rained",
+              "rains"
+            ],
+            "answer": 0,
+            "explain": "地湿在过去；下雨在前一晚——had rained。",
+            "level": 4
+          },
+          {
+            "q": "The teacher asked who ___ the window.",
+            "options": [
+              "had broken",
+              "has broken",
+              "breaks"
+            ],
+            "answer": 0,
+            "explain": "问话在过去；打破在问之前——had broken。",
+            "level": 4
+          },
+          {
+            "q": "___ you ___ your ticket before the film started?",
+            "options": [
+              "Had / bought",
+              "Have / bought",
+              "Did / had bought"
+            ],
+            "answer": 0,
+            "explain": "参照点是开场（过去）——之前买票：Had you bought...?",
+            "level": 4
+          },
+          {
+            "q": "大考：When Grandma ___ back, she found we ___ dinner and ___ the dishes.",
+            "options": [
+              "came / had cooked / had washed",
+              "had come / cooked / washed",
+              "came / has cooked / has washed"
+            ],
+            "answer": 0,
+            "explain": "回来是主歌 came；做饭洗碗都更早——两处都压低。",
+            "level": 4
+          }
         ]
       }
     ]

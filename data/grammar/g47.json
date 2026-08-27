@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "Our band practises every Friday afternoon.", "cn": "我们乐队每周五下午排练。（现在 × 一般：常态格）" },
-          { "en": "They are practising in the hall right now.", "cn": "他们此刻正在礼堂排练。（现在 × 进行：灯亮着）" },
-          { "en": "We practised the new piece last night.", "cn": "我们昨晚练了新曲子。（过去 × 一般）" },
-          { "en": "We will practise twice next week.", "cn": "下周我们要练两次。（将来 × 一般：推子推一格）" },
-          { "en": "We have practised this piece ten times.", "cn": "这首我们已经练了十遍。（现在 × 完成：收工章盖到现在）" }
+          {
+            "en": "Our band practises every Friday afternoon.",
+            "cn": "我们乐队每周五下午排练。（现在 × 一般：常态格）"
+          },
+          {
+            "en": "They are practising in the hall right now.",
+            "cn": "他们此刻正在礼堂排练。（现在 × 进行：灯亮着）"
+          },
+          {
+            "en": "We practised the new piece last night.",
+            "cn": "我们昨晚练了新曲子。（过去 × 一般）"
+          },
+          {
+            "en": "We will practise twice next week.",
+            "cn": "下周我们要练两次。（将来 × 一般：推子推一格）"
+          },
+          {
+            "en": "We have practised this piece ten times.",
+            "cn": "这首我们已经练了十遍。（现在 × 完成：收工章盖到现在）"
+          }
         ],
         "mid": [
-          { "en": "I was doing my homework when the lights went out.", "cn": "灯灭的时候我正在写作业。（过去 × 进行：昨晚的灯亮到一半）" },
-          { "en": "By the time we arrived, the show had begun.", "cn": "我们到的时候，演出已经开始了。（过去 × 完成：过去的过去）" },
-          { "en": "She said she would join us the next day.", "cn": "她说她第二天会加入我们。（过去将来 × 一般：昨天说的明天）" },
-          { "en": "Don't call me at nine — I will be taking a shower.", "cn": "九点别打给我——那会儿我正在洗澡。（将来 × 进行：推子+进行灯）" },
-          { "en": "He has lived in this town since 2018.", "cn": "他从 2018 年起一直住在这个镇上。（since 挂完成）" }
+          {
+            "en": "I was doing my homework when the lights went out.",
+            "cn": "灯灭的时候我正在写作业。（过去 × 进行：昨晚的灯亮到一半）"
+          },
+          {
+            "en": "By the time we arrived, the show had begun.",
+            "cn": "我们到的时候，演出已经开始了。（过去 × 完成：过去的过去）"
+          },
+          {
+            "en": "She said she would join us the next day.",
+            "cn": "她说她第二天会加入我们。（过去将来 × 一般：昨天说的明天）"
+          },
+          {
+            "en": "Don't call me at nine — I will be taking a shower.",
+            "cn": "九点别打给我——那会儿我正在洗澡。（将来 × 进行：推子+进行灯）"
+          },
+          {
+            "en": "He has lived in this town since 2018.",
+            "cn": "他从 2018 年起一直住在这个镇上。（since 挂完成）"
+          }
         ],
         "trap": [
-          { "en": "I visited the science museum last Sunday.", "cn": "我上周日去了科技馆。", "note": "last Sunday 是具体过去时间——配一般过去，别盖现在完成的章。" },
-          { "en": "We will set off as soon as the rain stops.", "cn": "雨一停我们就出发。", "note": "时间从句用现在替将来——as soon as 后面不放 will（G35 的纪律）。" },
-          { "en": "He told me he would bring his camera.", "cn": "他跟我说他会带相机来。", "note": "主句 told 在过去——从句的将来要退成 would（过去将来格）。" },
-          { "en": "When Mum came in, I was cleaning the fish tank.", "cn": "妈妈进来时我正在刷鱼缸。", "note": "came 是整件事，was cleaning 是演到一半——同一句里两格并用。" },
-          { "en": "I really like this melody.", "cn": "我特别喜欢这段旋律。", "note": "like 是状态动词——进行灯点不亮，别写 am liking。" },
-          { "en": "The train had already left when they reached the station.", "cn": "他们赶到车站时火车已经开走了。", "note": "「过去的过去」才请 had done——没有更早的参照点就轮不到它。" }
+          {
+            "en": "I visited the science museum last Sunday.",
+            "cn": "我上周日去了科技馆。",
+            "note": "last Sunday 是具体过去时间——配一般过去，别盖现在完成的章。"
+          },
+          {
+            "en": "We will set off as soon as the rain stops.",
+            "cn": "雨一停我们就出发。",
+            "note": "时间从句用现在替将来——as soon as 后面不放 will（G35 的纪律）。"
+          },
+          {
+            "en": "He told me he would bring his camera.",
+            "cn": "他跟我说他会带相机来。",
+            "note": "主句 told 在过去——从句的将来要退成 would（过去将来格）。"
+          },
+          {
+            "en": "When Mum came in, I was cleaning the fish tank.",
+            "cn": "妈妈进来时我正在刷鱼缸。",
+            "note": "came 是整件事，was cleaning 是演到一半——同一句里两格并用。"
+          },
+          {
+            "en": "I really like this melody.",
+            "cn": "我特别喜欢这段旋律。",
+            "note": "like 是状态动词——进行灯点不亮，别写 am liking。"
+          },
+          {
+            "en": "The train had already left when they reached the station.",
+            "cn": "他们赶到车站时火车已经开走了。",
+            "note": "「过去的过去」才请 had done——没有更早的参照点就轮不到它。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "把十二个格子摆成一张表，才看清一件事：整张表的骨架，是由 be、have、will 三个词搭起来的——进行靠 be，完成靠 have，将来靠 will，第一个助动词永远负责报时。而这三个包工头，恰恰是英语里最不规则的三个词：be 有五副面孔（G25 数过），have 有 has 和 had，will 退一步变 would（G38、G40、G43 各用了一次）。英语把最规整的一张坐标系，挂在三个最不讲理的词身上——不是巧合，是分工的必然：正因为它们从古英语时代就天天出勤扛着报时的活儿，才磨出了这些别人没有的形态。规律与例外，从来是一对搭档。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='52' text-anchor='middle' font-size='28' font-weight='bold' fill='#9333EA'>G47 · 时态十二格</text><text x='360' y='84' text-anchor='middle' font-size='17' fill='#64748B'>一张总时间表：调 × 时刻的坐标系</text><rect x='36' y='100' width='648' height='236' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='196' y='130' text-anchor='middle' font-size='13' font-weight='bold' fill='#9333EA'>过去</text><text x='340' y='130' text-anchor='middle' font-size='13' font-weight='bold' fill='#9333EA'>现在</text><text x='484' y='130' text-anchor='middle' font-size='13' font-weight='bold' fill='#9333EA'>将来</text><text x='624' y='130' text-anchor='middle' font-size='13' font-weight='bold' fill='#9333EA'>过去将来</text><text x='84' y='166' text-anchor='middle' font-size='13' font-weight='bold' fill='#9333EA'>一般</text><text x='196' y='166' text-anchor='middle' font-size='14' fill='#5A4A42'>played</text><text x='340' y='166' text-anchor='middle' font-size='14' fill='#5A4A42'>play(s)</text><text x='484' y='166' text-anchor='middle' font-size='14' fill='#5A4A42'>will play</text><text x='624' y='166' text-anchor='middle' font-size='14' fill='#5A4A42'>would play</text><text x='84' y='214' text-anchor='middle' font-size='13' font-weight='bold' fill='#9333EA'>进行</text><text x='196' y='214' text-anchor='middle' font-size='14' fill='#5A4A42'>was playing</text><text x='340' y='214' text-anchor='middle' font-size='14' fill='#5A4A42'>is playing</text><text x='484' y='214' text-anchor='middle' font-size='14' fill='#94A3B8'>will be playing</text><text x='624' y='214' text-anchor='middle' font-size='14' fill='#CBD5E1'>（罕见）</text><text x='84' y='262' text-anchor='middle' font-size='13' font-weight='bold' fill='#9333EA'>完成</text><text x='196' y='262' text-anchor='middle' font-size='14' fill='#5A4A42'>had played</text><text x='340' y='262' text-anchor='middle' font-size='14' fill='#5A4A42'>has played</text><text x='484' y='262' text-anchor='middle' font-size='14' fill='#CBD5E1'>will have played</text><text x='624' y='262' text-anchor='middle' font-size='14' fill='#CBD5E1'>（高中见）</text><text x='360' y='308' text-anchor='middle' font-size='13' fill='#94A3B8'>零件三件套：will/would 挪时刻 · be+doing 进行灯 · have+done 收工章</text><rect x='36' y='352' width='648' height='84' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='380' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🧭 横向辨析三问 + 对表纪律</text><text x='360' y='406' text-anchor='middle' font-size='14' fill='#5A4A42'>①基准点在哪 ②动作与基准点啥关系 ③横竖一交格子落定</text><text x='360' y='428' text-anchor='middle' font-size='13' fill='#5A4A42'>具体过去时间→一般过去 · since/for→完成 · 时间从句现在替将来 · 主句过去从句退</text><rect x='36' y='452' width='648' height='46' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='481' text-anchor='middle' font-size='14' fill='#C0392B'>⚠️ have seen yesterday ✗ · when...will ✗ · said...will ✗ · am knowing ✗</text><text x='360' y='530' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只考常用五六格——总表视角为初中 / PET 打底，学到就是赚到</text><text x='360' y='572' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：最规整的表，挂在 be/have/will 三个最不规则的词上 · 英语奇遇记 🦊 G47</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='52' text-anchor='middle' font-size='30' font-weight='bold' fill='#9333EA'>G47 · 时态十二格</text><text x='360' y='84' text-anchor='middle' font-size='21' fill='#64748B'>一张总时间表：调 × 时刻的坐标系</text><rect x='36' y='100' width='648' height='236' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='196' y='130' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>过去</text><text x='340' y='130' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>现在</text><text x='484' y='130' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>将来</text><text x='624' y='130' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>过去将来</text><text x='84' y='166' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>一般</text><text x='196' y='166' text-anchor='middle' font-size='18' fill='#5A4A42'>played</text><text x='340' y='166' text-anchor='middle' font-size='18' fill='#5A4A42'>play(s)</text><text x='484' y='166' text-anchor='middle' font-size='18' fill='#5A4A42'>will play</text><text x='624' y='166' text-anchor='middle' font-size='18' fill='#5A4A42'>would play</text><text x='84' y='214' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>进行</text><text x='196' y='214' text-anchor='middle' font-size='18' fill='#5A4A42'>was playing</text><text x='340' y='214' text-anchor='middle' font-size='18' fill='#5A4A42'>is playing</text><text x='484' y='214' text-anchor='middle' font-size='18' fill='#94A3B8'>will be playing</text><text x='624' y='214' text-anchor='middle' font-size='18' fill='#CBD5E1'>（罕见）</text><text x='84' y='262' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>完成</text><text x='196' y='262' text-anchor='middle' font-size='18' fill='#5A4A42'>had played</text><text x='340' y='262' text-anchor='middle' font-size='18' fill='#5A4A42'>has played</text><text x='484' y='262' text-anchor='middle' font-size='18' fill='#CBD5E1'>will have played</text><text x='624' y='262' text-anchor='middle' font-size='18' fill='#CBD5E1'>（高中见）</text><text x='360' y='308' text-anchor='middle' font-size='17' fill='#94A3B8'>零件三件套：will/would 挪时刻 · be+doing 进行灯 · have+done 收工章</text><rect x='36' y='352' width='648' height='84' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='380' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🧭 横向辨析三问 + 对表纪律</text><text x='360' y='406' text-anchor='middle' font-size='18' fill='#5A4A42'>①基准点在哪 ②动作与基准点啥关系 ③横竖一交格子落定</text><text x='360' y='428' text-anchor='middle' font-size='16' fill='#5A4A42'>具体过去时间→一般过去 · since/for→完成 · 时间从句现在替将来 · 主句过去从句退</text><rect x='36' y='452' width='648' height='46' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='481' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ have seen yesterday ✗ · when...will ✗ · said...will ✗ · am knowing ✗</text><text x='360' y='530' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只考常用五六格——总表视角为初中 / PET 打底，学到就是赚到</text><text x='360' y='572' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：最规整的表，挂在 be/have/will 三个最不规则的词上 · 英语奇遇记 🦊 G47</text></svg>",
     "alt": "G47 记忆卡：时态十二格坐标系。横轴四时刻（过去/现在/将来/过去将来）×纵轴三状态（一般/进行/完成）；表格示例 play 填格，罕见三格标灰；零件三件套 will 挪时刻、be+doing 进行灯、have+done 收工章；横向辨析三问；对表纪律四条；警示 have seen yesterday、when will、said will、am knowing 四类错误；KET 只考常用格。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 坐标系读格",
         "questions": [
-          { "q": "总时间表的横轴管什么？", "options": ["时刻——你站在哪个时间点说话", "动作的状态", "动词的长短"], "answer": 0, "explain": "横轴四时刻：现在、过去、将来、过去将来。", "level": 1 },
-          { "q": "总时间表的纵轴管什么？", "options": ["状态——一般 / 进行 / 完成", "时刻", "单复数"], "answer": 0, "explain": "纵轴三状态：常态、演到一半、之前已收工。", "level": 1 },
-          { "q": "「把时刻往将来挪」的零件是？", "options": ["will / would", "be + doing", "have + done"], "answer": 0, "explain": "will 是推子——推一格进将来；would 是过去那栏的推子。", "level": 1 },
-          { "q": "「正演到一半」的进行灯用哪套零件？", "options": ["be + doing", "will + 原形", "have + done"], "answer": 0, "explain": "be 报时、doing 亮灯——is playing / was playing。", "level": 1 },
-          { "q": "「在那个时刻之前已收尾」的收工章是？", "options": ["have + done", "be + doing", "do + 原形"], "answer": 0, "explain": "have 报时、done 盖章——has played / had played。", "level": 1 },
-          { "q": "一句话里负责报时的是哪个词？", "options": ["第一个助动词", "最后一个动词", "时间副词"], "answer": 0, "explain": "will be doing 里报时的是 will——G29 就见过这条分工。", "level": 1 },
-          { "q": "She was reading at nine last night. 住哪个格？", "options": ["过去 × 进行", "现在 × 进行", "过去 × 完成"], "answer": 0, "explain": "昨晚九点（过去）+ 演到一半（进行）。", "level": 1 },
-          { "q": "He has finished the model. 住哪个格？", "options": ["现在 × 完成", "过去 × 一般", "将来 × 完成"], "answer": 0, "explain": "此刻之前已收工、影响延到现在——现在 × 完成。", "level": 1 },
-          { "q": "They will visit the farm next week. 住哪个格？", "options": ["将来 × 一般", "现在 × 进行", "过去将来 × 一般"], "answer": 0, "explain": "推子推到下周——将来 × 一般。", "level": 1 },
-          { "q": "She said she would write soon. 里的 would write 住哪个格？", "options": ["过去将来 × 一般", "将来 × 一般", "过去 × 完成"], "answer": 0, "explain": "站在过去朝后看——过去将来格（G40 的老朋友）。", "level": 1 },
-          { "q": "「过去的过去」该请哪个零件？", "options": ["had + done", "has + done", "was + doing"], "answer": 0, "explain": "过去那栏的收工章——had done（G28）。", "level": 1 },
-          { "q": "will be doing 是哪两个零件拼的？", "options": ["推子 will + 进行灯 be doing", "收工章 + 推子", "两个推子"], "answer": 0, "explain": "将来 × 进行——明晚八点正演到一半。", "level": 1 },
-          { "q": "十二格里初中常用的大约几格？剩下的怎么办？", "options": ["约九格；灰格认识即可，高中再学", "全部十二格必须精通", "只用两格"], "answer": 0, "explain": "诚实边界——will have done 那三格罕见，认得出就行。", "level": 1 },
-          { "q": "know、like、love 这类状态动词能点进行灯吗？", "options": ["一般不能——不写 am knowing", "随便点", "必须点"], "answer": 0, "explain": "状态不是动作——进行灯点不亮。", "level": 1 },
-          { "q": "横向辨析的第一问是什么？", "options": ["基准点在哪——扫时间词和上下文", "动词几个字母", "主语单复数"], "answer": 0, "explain": "先定横轴——基准点找错，后面全歪。", "level": 1 },
-          { "q": "Our school choir meets on Wednesdays. 住哪个格？", "options": ["现在 × 一般（常态格）", "现在 × 进行", "将来 × 一般"], "answer": 0, "explain": "每周三的常态——左上角的常态格。", "level": 1 }
+          {
+            "q": "总时间表的横轴管什么？",
+            "options": [
+              "时刻——你站在哪个时间点说话",
+              "动作的状态",
+              "动词的长短"
+            ],
+            "answer": 0,
+            "explain": "横轴四时刻：现在、过去、将来、过去将来。",
+            "level": 1
+          },
+          {
+            "q": "总时间表的纵轴管什么？",
+            "options": [
+              "状态——一般 / 进行 / 完成",
+              "时刻",
+              "单复数"
+            ],
+            "answer": 0,
+            "explain": "纵轴三状态：常态、演到一半、之前已收工。",
+            "level": 1
+          },
+          {
+            "q": "「把时刻往将来挪」的零件是？",
+            "options": [
+              "will / would",
+              "be + doing",
+              "have + done"
+            ],
+            "answer": 0,
+            "explain": "will 是推子——推一格进将来；would 是过去那栏的推子。",
+            "level": 1
+          },
+          {
+            "q": "「正演到一半」的进行灯用哪套零件？",
+            "options": [
+              "be + doing",
+              "will + 原形",
+              "have + done"
+            ],
+            "answer": 0,
+            "explain": "be 报时、doing 亮灯——is playing / was playing。",
+            "level": 1
+          },
+          {
+            "q": "「在那个时刻之前已收尾」的收工章是？",
+            "options": [
+              "have + done",
+              "be + doing",
+              "do + 原形"
+            ],
+            "answer": 0,
+            "explain": "have 报时、done 盖章——has played / had played。",
+            "level": 1
+          },
+          {
+            "q": "一句话里负责报时的是哪个词？",
+            "options": [
+              "第一个助动词",
+              "最后一个动词",
+              "时间副词"
+            ],
+            "answer": 0,
+            "explain": "will be doing 里报时的是 will——G29 就见过这条分工。",
+            "level": 1
+          },
+          {
+            "q": "She was reading at nine last night. 住哪个格？",
+            "options": [
+              "过去 × 进行",
+              "现在 × 进行",
+              "过去 × 完成"
+            ],
+            "answer": 0,
+            "explain": "昨晚九点（过去）+ 演到一半（进行）。",
+            "level": 1
+          },
+          {
+            "q": "He has finished the model. 住哪个格？",
+            "options": [
+              "现在 × 完成",
+              "过去 × 一般",
+              "将来 × 完成"
+            ],
+            "answer": 0,
+            "explain": "此刻之前已收工、影响延到现在——现在 × 完成。",
+            "level": 1
+          },
+          {
+            "q": "They will visit the farm next week. 住哪个格？",
+            "options": [
+              "将来 × 一般",
+              "现在 × 进行",
+              "过去将来 × 一般"
+            ],
+            "answer": 0,
+            "explain": "推子推到下周——将来 × 一般。",
+            "level": 1
+          },
+          {
+            "q": "She said she would write soon. 里的 would write 住哪个格？",
+            "options": [
+              "过去将来 × 一般",
+              "将来 × 一般",
+              "过去 × 完成"
+            ],
+            "answer": 0,
+            "explain": "站在过去朝后看——过去将来格（G40 的老朋友）。",
+            "level": 1
+          },
+          {
+            "q": "「过去的过去」该请哪个零件？",
+            "options": [
+              "had + done",
+              "has + done",
+              "was + doing"
+            ],
+            "answer": 0,
+            "explain": "过去那栏的收工章——had done（G28）。",
+            "level": 1
+          },
+          {
+            "q": "will be doing 是哪两个零件拼的？",
+            "options": [
+              "推子 will + 进行灯 be doing",
+              "收工章 + 推子",
+              "两个推子"
+            ],
+            "answer": 0,
+            "explain": "将来 × 进行——明晚八点正演到一半。",
+            "level": 1
+          },
+          {
+            "q": "十二格里初中常用的大约几格？剩下的怎么办？",
+            "options": [
+              "约九格；灰格认识即可，高中再学",
+              "全部十二格必须精通",
+              "只用两格"
+            ],
+            "answer": 0,
+            "explain": "诚实边界——will have done 那三格罕见，认得出就行。",
+            "level": 1
+          },
+          {
+            "q": "know、like、love 这类状态动词能点进行灯吗？",
+            "options": [
+              "一般不能——不写 am knowing",
+              "随便点",
+              "必须点"
+            ],
+            "answer": 0,
+            "explain": "状态不是动作——进行灯点不亮。",
+            "level": 1
+          },
+          {
+            "q": "横向辨析的第一问是什么？",
+            "options": [
+              "基准点在哪——扫时间词和上下文",
+              "动词几个字母",
+              "主语单复数"
+            ],
+            "answer": 0,
+            "explain": "先定横轴——基准点找错，后面全歪。",
+            "level": 1
+          },
+          {
+            "q": "Our school choir meets on Wednesdays. 住哪个格？",
+            "options": [
+              "现在 × 一般（常态格）",
+              "现在 × 进行",
+              "将来 × 一般"
+            ],
+            "answer": 0,
+            "explain": "每周三的常态——左上角的常态格。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 套格子",
         "questions": [
-          { "q": "Look! The little dancer ___ on one leg.", "options": ["is spinning", "spins", "spun"], "answer": 0, "explain": "Look 把基准点钉在此刻——现在 × 进行。", "level": 2 },
-          { "q": "My grandpa ___ tea every morning — never coffee.", "options": ["drinks", "is drinking", "drank"], "answer": 0, "explain": "常态格——一般现在 drinks。", "level": 2 },
-          { "q": "We ___ a sandcastle on the beach yesterday afternoon.", "options": ["built", "have built", "build"], "answer": 0, "explain": "yesterday afternoon 具体过去时间——一般过去。", "level": 2 },
-          { "q": "At eight last night, I ___ a shower, so I missed your call.", "options": ["was having", "had", "have had"], "answer": 0, "explain": "昨晚八点演到一半——过去 × 进行。", "level": 2 },
-          { "q": "Hurry up! The film ___ in five minutes.", "options": ["will start", "started", "has started"], "answer": 0, "explain": "五分钟后——推子推进将来。", "level": 2 },
-          { "q": "She ___ her homework already — she's free now.", "options": ["has finished", "finished being", "finishes"], "answer": 0, "explain": "already + 影响延到现在——现在 × 完成。", "level": 2 },
-          { "q": "When the phone rang, Dad ___ the dishes.", "options": ["was washing", "washed", "has washed"], "answer": 0, "explain": "电话响时演到一半——was washing；washed 就成了「响完才洗」。", "level": 2 },
-          { "q": "By the time we reached the stop, the last bus ___.", "options": ["had gone", "has gone", "goes"], "answer": 0, "explain": "「到站」之前就走了——过去的过去，had gone。", "level": 2 },
-          { "q": "He promised he ___ me the comic the next day.", "options": ["would lend", "will lend", "lends"], "answer": 0, "explain": "promised 站在过去——从句的将来退成 would。", "level": 2 },
-          { "q": "We'll go out as soon as the snow ___.", "options": ["stops", "will stop", "stopped"], "answer": 0, "explain": "时间从句现在替将来——will 不进 as soon as 的门。", "level": 2 },
-          { "q": "My cousin ___ in Kunming since last spring.", "options": ["has lived", "lived", "lives"], "answer": 0, "explain": "since 挂完成——从去年春天延到现在。", "level": 2 },
-          { "q": "Don't visit us at noon tomorrow — we ___ then.", "options": ["will be moving house", "moved house", "have moved house"], "answer": 0, "explain": "明天中午正忙到一半——will be doing（推子+进行灯）。", "level": 2 },
-          { "q": "I ___ the answer, so I put up my hand at once.", "options": ["knew", "was knowing", "have known being"], "answer": 0, "explain": "状态动词不点进行灯——过去的状态用 knew。", "level": 2 },
-          { "q": "The choir ___ that song three times this week.", "options": ["has sung", "sang", "sings"], "answer": 0, "explain": "this week 还没过完——次数累计到现在，现在 × 完成。", "level": 2 },
-          { "q": "While I ___ the floor, my brother was wiping the windows.", "options": ["was sweeping", "swept", "am sweeping"], "answer": 0, "explain": "while 两边同时演到一半——双进行灯。", "level": 2 },
-          { "q": "The coach said the team ___ hard enough that season.", "options": ["hadn't trained", "hasn't trained", "doesn't train"], "answer": 0, "explain": "said 之前的那段训练——过去的过去，hadn't trained。", "level": 2 }
+          {
+            "q": "Look! The little dancer ___ on one leg.",
+            "options": [
+              "is spinning",
+              "spins",
+              "spun"
+            ],
+            "answer": 0,
+            "explain": "Look 把基准点钉在此刻——现在 × 进行。",
+            "level": 2
+          },
+          {
+            "q": "My grandpa ___ tea every morning — never coffee.",
+            "options": [
+              "drinks",
+              "is drinking",
+              "drank"
+            ],
+            "answer": 0,
+            "explain": "常态格——一般现在 drinks。",
+            "level": 2
+          },
+          {
+            "q": "We ___ a sandcastle on the beach yesterday afternoon.",
+            "options": [
+              "built",
+              "have built",
+              "build"
+            ],
+            "answer": 0,
+            "explain": "yesterday afternoon 具体过去时间——一般过去。",
+            "level": 2
+          },
+          {
+            "q": "At eight last night, I ___ a shower, so I missed your call.",
+            "options": [
+              "was having",
+              "had",
+              "have had"
+            ],
+            "answer": 0,
+            "explain": "昨晚八点演到一半——过去 × 进行。",
+            "level": 2
+          },
+          {
+            "q": "Hurry up! The film ___ in five minutes.",
+            "options": [
+              "will start",
+              "started",
+              "has started"
+            ],
+            "answer": 0,
+            "explain": "五分钟后——推子推进将来。",
+            "level": 2
+          },
+          {
+            "q": "She ___ her homework already — she's free now.",
+            "options": [
+              "has finished",
+              "finished being",
+              "finishes"
+            ],
+            "answer": 0,
+            "explain": "already + 影响延到现在——现在 × 完成。",
+            "level": 2
+          },
+          {
+            "q": "When the phone rang, Dad ___ the dishes.",
+            "options": [
+              "was washing",
+              "washed",
+              "has washed"
+            ],
+            "answer": 0,
+            "explain": "电话响时演到一半——was washing；washed 就成了「响完才洗」。",
+            "level": 2
+          },
+          {
+            "q": "By the time we reached the stop, the last bus ___.",
+            "options": [
+              "had gone",
+              "has gone",
+              "goes"
+            ],
+            "answer": 0,
+            "explain": "「到站」之前就走了——过去的过去，had gone。",
+            "level": 2
+          },
+          {
+            "q": "He promised he ___ me the comic the next day.",
+            "options": [
+              "would lend",
+              "will lend",
+              "lends"
+            ],
+            "answer": 0,
+            "explain": "promised 站在过去——从句的将来退成 would。",
+            "level": 2
+          },
+          {
+            "q": "We'll go out as soon as the snow ___.",
+            "options": [
+              "stops",
+              "will stop",
+              "stopped"
+            ],
+            "answer": 0,
+            "explain": "时间从句现在替将来——will 不进 as soon as 的门。",
+            "level": 2
+          },
+          {
+            "q": "My cousin ___ in Kunming since last spring.",
+            "options": [
+              "has lived",
+              "lived",
+              "lives"
+            ],
+            "answer": 0,
+            "explain": "since 挂完成——从去年春天延到现在。",
+            "level": 2
+          },
+          {
+            "q": "Don't visit us at noon tomorrow — we ___ then.",
+            "options": [
+              "will be moving house",
+              "moved house",
+              "have moved house"
+            ],
+            "answer": 0,
+            "explain": "明天中午正忙到一半——will be doing（推子+进行灯）。",
+            "level": 2
+          },
+          {
+            "q": "I ___ the answer, so I put up my hand at once.",
+            "options": [
+              "knew",
+              "was knowing",
+              "have known being"
+            ],
+            "answer": 0,
+            "explain": "状态动词不点进行灯——过去的状态用 knew。",
+            "level": 2
+          },
+          {
+            "q": "The choir ___ that song three times this week.",
+            "options": [
+              "has sung",
+              "sang",
+              "sings"
+            ],
+            "answer": 0,
+            "explain": "this week 还没过完——次数累计到现在，现在 × 完成。",
+            "level": 2
+          },
+          {
+            "q": "While I ___ the floor, my brother was wiping the windows.",
+            "options": [
+              "was sweeping",
+              "swept",
+              "am sweeping"
+            ],
+            "answer": 0,
+            "explain": "while 两边同时演到一半——双进行灯。",
+            "level": 2
+          },
+          {
+            "q": "The coach said the team ___ hard enough that season.",
+            "options": [
+              "hadn't trained",
+              "hasn't trained",
+              "doesn't train"
+            ],
+            "answer": 0,
+            "explain": "said 之前的那段训练——过去的过去，hadn't trained。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 跳格纠错",
         "questions": [
-          { "q": "哪句对表了？（我上个月读完了这本小说）", "options": ["I finished the novel last month.", "I have finished the novel last month.", "I finish the novel last month."], "answer": 0, "explain": "last month 具体过去时间——一般过去，完成章盖不上。", "level": 3 },
-          { "q": "哪句对表了？（雨一停我们就出发）", "options": ["We'll set off when the rain stops.", "We'll set off when the rain will stop.", "We set off when the rain stopped tomorrow."], "answer": 0, "explain": "时间从句现在替将来。", "level": 3 },
-          { "q": "哪句对表了？（他说他第二天会还书）", "options": ["He said he would return the book the next day.", "He said he will return the book the next day.", "He says he would return the book tomorrow."], "answer": 0, "explain": "said 在过去——will 退成 would。", "level": 3 },
-          { "q": "哪句对表了？（听！合唱队正在排练）", "options": ["Listen! The choir is rehearsing.", "Listen! The choir rehearses.", "Listen! The choir rehearsed."], "answer": 0, "explain": "Listen 钉住此刻——进行灯亮。", "level": 3 },
-          { "q": "哪句对表了？（我们到影院时电影已经开场了）", "options": ["The film had started when we got to the cinema.", "The film started when we got to the cinema.", "The film has started when we got to the cinema."], "answer": 0, "explain": "比「到影院」更早——had started；用 started 就成了我们一到它才开场。", "level": 3 },
-          { "q": "哪句对表了？（她从三岁起就弹钢琴）", "options": ["She has played the piano since she was three.", "She plays the piano since she was three.", "She played the piano since she is three."], "answer": 0, "explain": "since 挂完成——has played；从句里的「三岁时」用过去。", "level": 3 },
-          { "q": "哪句对表了？（昨天这个时候我们正在爬山）", "options": ["We were climbing the hill at this time yesterday.", "We climbed the hill at this time yesterday.", "We have climbed the hill at this time yesterday."], "answer": 0, "explain": "昨天此刻演到一半——过去 × 进行。", "level": 3 },
-          { "q": "哪句对表了？（别担心，我明天会带伞的）", "options": ["Don't worry — I will take an umbrella tomorrow.", "Don't worry — I take an umbrella tomorrow.", "Don't worry — I took an umbrella tomorrow."], "answer": 0, "explain": "明天的事——推子 will。", "level": 3 },
-          { "q": "哪句对表了？（我特别喜欢这个新同桌）", "options": ["I like my new deskmate very much.", "I am liking my new deskmate very much.", "I have been liking my new deskmate."], "answer": 0, "explain": "like 是状态动词——不点进行灯。", "level": 3 },
-          { "q": "哪句对表了？（爸爸做饭时我在摆碗筷）", "options": ["While Dad was cooking, I was setting the table.", "While Dad cooked, I set the table tomorrow.", "While Dad was cooking, I have set the table."], "answer": 0, "explain": "两件事同时演到一半——双进行灯，同站过去。", "level": 3 },
-          { "q": "哪句对表了？（那时他已经学了两年小提琴）", "options": ["He had learned the violin for two years by then.", "He has learned the violin for two years by then.", "He learns the violin for two years by then."], "answer": 0, "explain": "by then 把参照点钉在过去——过去的完成 had learned。", "level": 3 },
-          { "q": "哪句对表了？（这周我已经迟到两次了——还没到周末）", "options": ["I have been late twice this week.", "I was late twice this week and it is over.", "I am late twice this week."], "answer": 0, "explain": "this week 未结束——累计到现在用现在完成。", "level": 3 },
-          { "q": "哪句对表了？（导游说大巴八点出发，让我们别迟到）", "options": ["The guide said the bus would leave at eight.", "The guide said the bus will leaves at eight.", "The guide says the bus would left at eight."], "answer": 0, "explain": "said 在过去——would leave；leave 保持原形。", "level": 3 },
-          { "q": "哪句对表了？（如果明天不下雨，我们就去放风筝）", "options": ["If it doesn't rain tomorrow, we will fly kites.", "If it won't rain tomorrow, we will fly kites.", "If it didn't rain tomorrow, we will fly kites."], "answer": 0, "explain": "条件从句同样现在替将来——if 里不放 will（G35；G43 的空想才退步）。", "level": 3 },
-          { "q": "哪句对表了？（讲故事：小狐狸跳过篱笆，钻进了菜园）", "options": ["The fox jumped over the fence and slipped into the garden.", "The fox jumps over the fence and slipped into the garden.", "The fox jumped over the fence and slips into the garden."], "answer": 0, "explain": "叙事全程一条时间线——两个动词同站过去格（G15 的纪律）。", "level": 3 },
-          { "q": "哪句对表了？（下周日上午十点，我们会正在彩排——别约我）", "options": ["We will be rehearsing at ten next Sunday morning.", "We rehearse at ten next Sunday and it was fun.", "We have rehearsed at ten next Sunday morning."], "answer": 0, "explain": "将来某刻演到一半——will be rehearsing。", "level": 3 }
+          {
+            "q": "哪句对表了？（我上个月读完了这本小说）",
+            "options": [
+              "I finished the novel last month.",
+              "I have finished the novel last month.",
+              "I finish the novel last month."
+            ],
+            "answer": 0,
+            "explain": "last month 具体过去时间——一般过去，完成章盖不上。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（雨一停我们就出发）",
+            "options": [
+              "We'll set off when the rain stops.",
+              "We'll set off when the rain will stop.",
+              "We set off when the rain stopped tomorrow."
+            ],
+            "answer": 0,
+            "explain": "时间从句现在替将来。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（他说他第二天会还书）",
+            "options": [
+              "He said he would return the book the next day.",
+              "He said he will return the book the next day.",
+              "He says he would return the book tomorrow."
+            ],
+            "answer": 0,
+            "explain": "said 在过去——will 退成 would。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（听！合唱队正在排练）",
+            "options": [
+              "Listen! The choir is rehearsing.",
+              "Listen! The choir rehearses.",
+              "Listen! The choir rehearsed."
+            ],
+            "answer": 0,
+            "explain": "Listen 钉住此刻——进行灯亮。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（我们到影院时电影已经开场了）",
+            "options": [
+              "The film had started when we got to the cinema.",
+              "The film started when we got to the cinema.",
+              "The film has started when we got to the cinema."
+            ],
+            "answer": 0,
+            "explain": "比「到影院」更早——had started；用 started 就成了我们一到它才开场。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（她从三岁起就弹钢琴）",
+            "options": [
+              "She has played the piano since she was three.",
+              "She plays the piano since she was three.",
+              "She played the piano since she is three."
+            ],
+            "answer": 0,
+            "explain": "since 挂完成——has played；从句里的「三岁时」用过去。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（昨天这个时候我们正在爬山）",
+            "options": [
+              "We were climbing the hill at this time yesterday.",
+              "We climbed the hill at this time yesterday.",
+              "We have climbed the hill at this time yesterday."
+            ],
+            "answer": 0,
+            "explain": "昨天此刻演到一半——过去 × 进行。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（别担心，我明天会带伞的）",
+            "options": [
+              "Don't worry — I will take an umbrella tomorrow.",
+              "Don't worry — I take an umbrella tomorrow.",
+              "Don't worry — I took an umbrella tomorrow."
+            ],
+            "answer": 0,
+            "explain": "明天的事——推子 will。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（我特别喜欢这个新同桌）",
+            "options": [
+              "I like my new deskmate very much.",
+              "I am liking my new deskmate very much.",
+              "I have been liking my new deskmate."
+            ],
+            "answer": 0,
+            "explain": "like 是状态动词——不点进行灯。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（爸爸做饭时我在摆碗筷）",
+            "options": [
+              "While Dad was cooking, I was setting the table.",
+              "While Dad cooked, I set the table tomorrow.",
+              "While Dad was cooking, I have set the table."
+            ],
+            "answer": 0,
+            "explain": "两件事同时演到一半——双进行灯，同站过去。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（那时他已经学了两年小提琴）",
+            "options": [
+              "He had learned the violin for two years by then.",
+              "He has learned the violin for two years by then.",
+              "He learns the violin for two years by then."
+            ],
+            "answer": 0,
+            "explain": "by then 把参照点钉在过去——过去的完成 had learned。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（这周我已经迟到两次了——还没到周末）",
+            "options": [
+              "I have been late twice this week.",
+              "I was late twice this week and it is over.",
+              "I am late twice this week."
+            ],
+            "answer": 0,
+            "explain": "this week 未结束——累计到现在用现在完成。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（导游说大巴八点出发，让我们别迟到）",
+            "options": [
+              "The guide said the bus would leave at eight.",
+              "The guide said the bus will leaves at eight.",
+              "The guide says the bus would left at eight."
+            ],
+            "answer": 0,
+            "explain": "said 在过去——would leave；leave 保持原形。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（如果明天不下雨，我们就去放风筝）",
+            "options": [
+              "If it doesn't rain tomorrow, we will fly kites.",
+              "If it won't rain tomorrow, we will fly kites.",
+              "If it didn't rain tomorrow, we will fly kites."
+            ],
+            "answer": 0,
+            "explain": "条件从句同样现在替将来——if 里不放 will（G35；G43 的空想才退步）。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（讲故事：小狐狸跳过篱笆，钻进了菜园）",
+            "options": [
+              "The fox jumped over the fence and slipped into the garden.",
+              "The fox jumps over the fence and slipped into the garden.",
+              "The fox jumped over the fence and slips into the garden."
+            ],
+            "answer": 0,
+            "explain": "叙事全程一条时间线——两个动词同站过去格（G15 的纪律）。",
+            "level": 3
+          },
+          {
+            "q": "哪句对表了？（下周日上午十点，我们会正在彩排——别约我）",
+            "options": [
+              "We will be rehearsing at ten next Sunday morning.",
+              "We rehearse at ten next Sunday and it was fun.",
+              "We have rehearsed at ten next Sunday morning."
+            ],
+            "answer": 0,
+            "explain": "将来某刻演到一半——will be rehearsing。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 横向大辨析",
         "questions": [
-          { "q": "同一个动作三种说法：哪组「格子—意思」全配对？", "options": ["She waters the flowers（常态）/ She is watering them（此刻）/ She watered them（昨天）", "She waters the flowers（此刻）/ She is watering them（常态）/ She watered them（明天）", "三种说法意思一样"], "answer": 0, "explain": "同一动作换格子换意思——常态 / 此刻 / 过去，各居其位。", "level": 4 },
-          { "q": "写周记开头「上周六我们去了植物园」，动词该站哪格？", "options": ["过去 × 一般——went", "现在 × 完成——have gone", "现在 × 一般——go"], "answer": 0, "explain": "上周六是具体过去时间——一般过去开场，后面全程别跳格。", "level": 4 },
-          { "q": "___ you ever ___ a hot spring? — Yes, twice.", "options": ["Have / tried", "Did / try being", "Will / try"], "answer": 0, "explain": "ever + 到现在为止的经历——现在 × 完成。", "level": 4 },
-          { "q": "When I opened the curtain, it ___ outside, so I put on my raincoat.", "options": ["was raining", "rained", "rains"], "answer": 0, "explain": "拉开窗帘那刻雨正下到一半——过去 × 进行。", "level": 4 },
-          { "q": "The librarian told us the reading room ___ at five that day.", "options": ["would close", "will close", "closes always"], "answer": 0, "explain": "told 在过去——将来退成 would close。", "level": 4 },
-          { "q": "先后排序：Before the guests arrived, Mum ___ the whole house.", "options": ["had tidied", "has tidied", "tidies"], "answer": 0, "explain": "打扫在客人到之前——过去的过去 had tidied。", "level": 4 },
-          { "q": "口头承诺：别催啦，我马上就洗碗！", "options": ["I will do the dishes right now!", "I did the dishes right now!", "I had done the dishes right now!"], "answer": 0, "explain": "当场作出的决定——will（G16：临时起意归 will）。", "level": 4 },
-          { "q": "My pen pal ___ me three postcards since we ___ writing to each other.", "options": ["has sent / started", "sent / have started", "sends / start"], "answer": 0, "explain": "主句挂 since 用完成；since 从句里的起点用一般过去。", "level": 4 },
-          { "q": "读日记判断格子：\"At 7:30 I was brushing my teeth.\" 为什么不用 brushed？", "options": ["因为想说 7:30 那一刻正刷到一半", "因为 brush 是状态动词", "因为日记必须用进行时"], "answer": 0, "explain": "选进行灯是为了「定格在动作中间」——brushed 只说做过这件事。", "level": 4 },
-          { "q": "Dad ___ in this factory for twenty years — he still works there.", "options": ["has worked", "worked", "had worked"], "answer": 0, "explain": "still works 说明延到现在——现在 × 完成；worked 就是已经不干了。", "level": 4 },
-          { "q": "转述接力：Lily said, \"I am practising for the contest.\" → Lily said she ___ for the contest.", "options": ["was practising", "is practising", "has practised"], "answer": 0, "explain": "转述退一步（G40）——现在进行退成过去进行。", "level": 4 },
-          { "q": "The plane ___ off when we rushed into the airport — we missed it by minutes.", "options": ["had taken", "has taken", "takes"], "answer": 0, "explain": "起飞在「冲进机场」之前——had taken off。", "level": 4 },
-          { "q": "哪句最能表达「已经约好、板上钉钉的安排」？", "options": ["We are visiting the fire station on Friday.", "We visited the fire station on Friday.", "We had visited the fire station on Friday."], "answer": 0, "explain": "现在进行表已定安排——地道用法（红黑榜灰区那条）。", "level": 4 },
-          { "q": "看图讲故事最稳的时态策略是？", "options": ["开头定一条时间线（通常过去），全程不跳格", "每句换一个格子显得丰富", "全部用将来时"], "answer": 0, "explain": "叙事一致是阅卷第一眼——G15 的纪律在总表里依然是铁律。", "level": 4 },
-          { "q": "Grandma says she ___ dumplings for us when we ___ her next month.", "options": ["will make / visit", "makes / will visit", "would make / visited"], "answer": 0, "explain": "says 是现在——主句 will make；时间从句 visit 现在替将来。", "level": 4 },
-          { "q": "大考：I ___ my homework when Mum came in; she said she ___ shopping and ___ back in an hour.", "options": ["was doing / was going / would be", "did / goes / will be", "was doing / will go / would be"], "answer": 0, "explain": "妈妈进来时演到一半（was doing）；她说的话全程退一步（was going / would be）——一句话横跨三个格子。", "level": 4 }
+          {
+            "q": "同一个动作三种说法：哪组「格子—意思」全配对？",
+            "options": [
+              "She waters the flowers（常态）/ She is watering them（此刻）/ She watered them（昨天）",
+              "She waters the flowers（此刻）/ She is watering them（常态）/ She watered them（明天）",
+              "三种说法意思一样"
+            ],
+            "answer": 0,
+            "explain": "同一动作换格子换意思——常态 / 此刻 / 过去，各居其位。",
+            "level": 4
+          },
+          {
+            "q": "写周记开头「上周六我们去了植物园」，动词该站哪格？",
+            "options": [
+              "过去 × 一般——went",
+              "现在 × 完成——have gone",
+              "现在 × 一般——go"
+            ],
+            "answer": 0,
+            "explain": "上周六是具体过去时间——一般过去开场，后面全程别跳格。",
+            "level": 4
+          },
+          {
+            "q": "___ you ever ___ a hot spring? — Yes, twice.",
+            "options": [
+              "Have / tried",
+              "Did / try being",
+              "Will / try"
+            ],
+            "answer": 0,
+            "explain": "ever + 到现在为止的经历——现在 × 完成。",
+            "level": 4
+          },
+          {
+            "q": "When I opened the curtain, it ___ outside, so I put on my raincoat.",
+            "options": [
+              "was raining",
+              "rained",
+              "rains"
+            ],
+            "answer": 0,
+            "explain": "拉开窗帘那刻雨正下到一半——过去 × 进行。",
+            "level": 4
+          },
+          {
+            "q": "The librarian told us the reading room ___ at five that day.",
+            "options": [
+              "would close",
+              "will close",
+              "closes always"
+            ],
+            "answer": 0,
+            "explain": "told 在过去——将来退成 would close。",
+            "level": 4
+          },
+          {
+            "q": "先后排序：Before the guests arrived, Mum ___ the whole house.",
+            "options": [
+              "had tidied",
+              "has tidied",
+              "tidies"
+            ],
+            "answer": 0,
+            "explain": "打扫在客人到之前——过去的过去 had tidied。",
+            "level": 4
+          },
+          {
+            "q": "口头承诺：别催啦，我马上就洗碗！",
+            "options": [
+              "I will do the dishes right now!",
+              "I did the dishes right now!",
+              "I had done the dishes right now!"
+            ],
+            "answer": 0,
+            "explain": "当场作出的决定——will（G16：临时起意归 will）。",
+            "level": 4
+          },
+          {
+            "q": "My pen pal ___ me three postcards since we ___ writing to each other.",
+            "options": [
+              "has sent / started",
+              "sent / have started",
+              "sends / start"
+            ],
+            "answer": 0,
+            "explain": "主句挂 since 用完成；since 从句里的起点用一般过去。",
+            "level": 4
+          },
+          {
+            "q": "读日记判断格子：\"At 7:30 I was brushing my teeth.\" 为什么不用 brushed？",
+            "options": [
+              "因为想说 7:30 那一刻正刷到一半",
+              "因为 brush 是状态动词",
+              "因为日记必须用进行时"
+            ],
+            "answer": 0,
+            "explain": "选进行灯是为了「定格在动作中间」——brushed 只说做过这件事。",
+            "level": 4
+          },
+          {
+            "q": "Dad ___ in this factory for twenty years — he still works there.",
+            "options": [
+              "has worked",
+              "worked",
+              "had worked"
+            ],
+            "answer": 0,
+            "explain": "still works 说明延到现在——现在 × 完成；worked 就是已经不干了。",
+            "level": 4
+          },
+          {
+            "q": "转述接力：Lily said, \"I am practising for the contest.\" → Lily said she ___ for the contest.",
+            "options": [
+              "was practising",
+              "is practising",
+              "has practised"
+            ],
+            "answer": 0,
+            "explain": "转述退一步（G40）——现在进行退成过去进行。",
+            "level": 4
+          },
+          {
+            "q": "The plane ___ off when we rushed into the airport — we missed it by minutes.",
+            "options": [
+              "had taken",
+              "has taken",
+              "takes"
+            ],
+            "answer": 0,
+            "explain": "起飞在「冲进机场」之前——had taken off。",
+            "level": 4
+          },
+          {
+            "q": "哪句最能表达「已经约好、板上钉钉的安排」？",
+            "options": [
+              "We are visiting the fire station on Friday.",
+              "We visited the fire station on Friday.",
+              "We had visited the fire station on Friday."
+            ],
+            "answer": 0,
+            "explain": "现在进行表已定安排——地道用法（红黑榜灰区那条）。",
+            "level": 4
+          },
+          {
+            "q": "看图讲故事最稳的时态策略是？",
+            "options": [
+              "开头定一条时间线（通常过去），全程不跳格",
+              "每句换一个格子显得丰富",
+              "全部用将来时"
+            ],
+            "answer": 0,
+            "explain": "叙事一致是阅卷第一眼——G15 的纪律在总表里依然是铁律。",
+            "level": 4
+          },
+          {
+            "q": "Grandma says she ___ dumplings for us when we ___ her next month.",
+            "options": [
+              "will make / visit",
+              "makes / will visit",
+              "would make / visited"
+            ],
+            "answer": 0,
+            "explain": "says 是现在——主句 will make；时间从句 visit 现在替将来。",
+            "level": 4
+          },
+          {
+            "q": "大考：I ___ my homework when Mum came in; she said she ___ shopping and ___ back in an hour.",
+            "options": [
+              "was doing / was going / would be",
+              "did / goes / will be",
+              "was doing / will go / would be"
+            ],
+            "answer": 0,
+            "explain": "妈妈进来时演到一半（was doing）；她说的话全程退一步（was going / would be）——一句话横跨三个格子。",
+            "level": 4
+          }
         ]
       }
     ]

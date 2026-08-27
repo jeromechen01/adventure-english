@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "When I got home, Mum was cooking.", "cn": "我到家时，妈妈正在做饭。" },
-          { "en": "If it rains tomorrow, we will stay at home.", "cn": "如果明天下雨，我们就待在家。（rains 用现在替将来）" },
-          { "en": "I'll call you as soon as I arrive.", "cn": "我一到就给你打电话。" },
-          { "en": "After we finish practice, we often play games.", "cn": "练完琴后我们常玩游戏。" },
-          { "en": "Wait here until the light turns green.", "cn": "在这儿等，直到绿灯亮。" }
+          {
+            "en": "When I got home, Mum was cooking.",
+            "cn": "我到家时，妈妈正在做饭。"
+          },
+          {
+            "en": "If it rains tomorrow, we will stay at home.",
+            "cn": "如果明天下雨，我们就待在家。（rains 用现在替将来）"
+          },
+          {
+            "en": "I'll call you as soon as I arrive.",
+            "cn": "我一到就给你打电话。"
+          },
+          {
+            "en": "After we finish practice, we often play games.",
+            "cn": "练完琴后我们常玩游戏。"
+          },
+          {
+            "en": "Wait here until the light turns green.",
+            "cn": "在这儿等，直到绿灯亮。"
+          }
         ],
         "mid": [
-          { "en": "While Dad was cooking, I was setting the table.", "cn": "爸爸做饭的那会儿，我在摆碗筷。（while 配一段）" },
-          { "en": "Unless you practise, you won't improve.", "cn": "除非你练习，否则不会进步。（unless 自带否定）" },
-          { "en": "The audience stood up as soon as the song ended.", "cn": "歌一结束，观众就站了起来。" },
-          { "en": "Please turn off the lights before you leave the hall.", "cn": "离开大厅之前请关灯。" },
-          { "en": "I didn't go to bed until I finished the letter.", "cn": "我直到写完信才去睡。（not ... until）" }
+          {
+            "en": "While Dad was cooking, I was setting the table.",
+            "cn": "爸爸做饭的那会儿，我在摆碗筷。（while 配一段）"
+          },
+          {
+            "en": "Unless you practise, you won't improve.",
+            "cn": "除非你练习，否则不会进步。（unless 自带否定）"
+          },
+          {
+            "en": "The audience stood up as soon as the song ended.",
+            "cn": "歌一结束，观众就站了起来。"
+          },
+          {
+            "en": "Please turn off the lights before you leave the hall.",
+            "cn": "离开大厅之前请关灯。"
+          },
+          {
+            "en": "I didn't go to bed until I finished the letter.",
+            "cn": "我直到写完信才去睡。（not ... until）"
+          }
         ],
         "trap": [
-          { "en": "I will tell him the news when he comes back.", "cn": "他一回来我就告诉他这个消息。", "note": "主将从现——提示里用 comes 替将来，不写 will。" },
-          { "en": "If it is sunny tomorrow, we'll have the picnic.", "cn": "明天天晴的话我们就去野餐。", "note": "明天的事，if 提示里照样用 is。" },
-          { "en": "I don't know if he will come; if he comes, I'll cheer.", "cn": "我不知道他来不来；他要是来，我就欢呼。", "note": "两个 if 同台——「是否」座位里用 will，「如果」提示里用现在。" },
-          { "en": "Unless you hurry, you'll miss the first song.", "cn": "除非你抓紧，否则会错过第一首歌。", "note": "unless 自带否定——后面不再加 not。" },
-          { "en": "The baby didn't stop crying until Mum picked her up.", "cn": "宝宝直到妈妈抱起来才不哭。", "note": "not ... until——「才」的否定落在主句上。" },
-          { "en": "While we were rehearsing, the lights went out.", "cn": "正当我们排练时，灯灭了。", "note": "while 配进行中的一段；突发的短动作留给主句。" }
+          {
+            "en": "I will tell him the news when he comes back.",
+            "cn": "他一回来我就告诉他这个消息。",
+            "note": "主将从现——提示里用 comes 替将来，不写 will。"
+          },
+          {
+            "en": "If it is sunny tomorrow, we'll have the picnic.",
+            "cn": "明天天晴的话我们就去野餐。",
+            "note": "明天的事，if 提示里照样用 is。"
+          },
+          {
+            "en": "I don't know if he will come; if he comes, I'll cheer.",
+            "cn": "我不知道他来不来；他要是来，我就欢呼。",
+            "note": "两个 if 同台——「是否」座位里用 will，「如果」提示里用现在。"
+          },
+          {
+            "en": "Unless you hurry, you'll miss the first song.",
+            "cn": "除非你抓紧，否则会错过第一首歌。",
+            "note": "unless 自带否定——后面不再加 not。"
+          },
+          {
+            "en": "The baby didn't stop crying until Mum picked her up.",
+            "cn": "宝宝直到妈妈抱起来才不哭。",
+            "note": "not ... until——「才」的否定落在主句上。"
+          },
+          {
+            "en": "While we were rehearsing, the lights went out.",
+            "cn": "正当我们排练时，灯灭了。",
+            "note": "while 配进行中的一段；突发的短动作留给主句。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "「主将从现」常被当成英语的怪例外，其实正是规律本身：舞台提示是给主句定位的坐标，一个坐标系只需要一个人报时——主句的 will 已经把「将来」说清，提示再报一遍就是重复。「一句话只发一张报时执照」这条分工，从 G30 的非谓语到这里的从句，换着面孔一再出现，这就是英语的秩序。而规律的另一面照旧：when、if、until 这些最常用的小词个个身兼数职——if 既是「如果」又是「是否」，when 既能提问又能当提示——越常用的词职务越多。演出说明还有其余几类：为什么进、进成什么样、顶着什么进、为了什么进，下一课 G36 接着讲。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G35 · 状语从句一（时间与条件）</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>舞台提示：什么时候进、什么条件下进</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎬 提示词</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>时间：when · while · before · after · as soon as · until ｜ 条件：if · unless</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>⏱️ 主将从现：提示定位不报时</text><text x='360' y='288' text-anchor='middle' font-size='15' fill='#5A4A42'>I'll call you when I arrive.（✗ when I will arrive）</text><text x='360' y='318' text-anchor='middle' font-size='15' fill='#5A4A42'>If it rains tomorrow, we'll stay in.（✗ if it will rain）</text><text x='360' y='348' text-anchor='middle' font-size='13' fill='#94A3B8'>主句的 will 已报过时——坐标不再报一遍</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🧭 三个专用件</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>unless 自带「不」｜「才」= not...until ｜ when 点 · while 段（配 be+-ing）</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ when he will come ✗ · unless you don't ✗ · I'll leave until nine ✗（少 not）</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只要求看懂——为初中 / PET 打底；其余提示类型见 G36</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：一句只发一张报时执照 · 英语奇遇记 🦊 G35</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G35 · 状语从句一（时间与条件）</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>舞台提示：什么时候进、什么条件下进</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>🎬 提示词</text><text x='360' y='176' text-anchor='middle' font-size='16' fill='#5A4A42'>时间：when · while · before · after · as soon as · until ｜ 条件：if · unless</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>⏱️ 主将从现：提示定位不报时</text><text x='360' y='288' text-anchor='middle' font-size='19' fill='#5A4A42'>I'll call you when I arrive.（✗ when I will arrive）</text><text x='360' y='318' text-anchor='middle' font-size='19' fill='#5A4A42'>If it rains tomorrow, we'll stay in.（✗ if it will rain）</text><text x='360' y='348' text-anchor='middle' font-size='17' fill='#94A3B8'>主句的 will 已报过时——坐标不再报一遍</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🧭 三个专用件</text><text x='360' y='450' text-anchor='middle' font-size='17' fill='#5A4A42'>unless 自带「不」｜「才」= not...until ｜ when 点 · while 段（配 be+-ing）</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ when he will come ✗ · unless you don't ✗ · I'll leave until nine ✗（少 not）</text><text x='360' y='556' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只要求看懂——为初中 / PET 打底；其余提示类型见 G36</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：一句只发一张报时执照 · 英语奇遇记 🦊 G35</text></svg>",
     "alt": "G35 记忆卡：状语从句=舞台提示；时间提示词六个+条件 if/unless；主将从现（提示定位不报时）；unless 自带否定、「才」=not...until、when 点 while 段；警示 when he will come、unless you don't、I'll leave until nine 三类错误。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 读懂舞台提示",
         "questions": [
-          { "q": "If it rains, we'll stay at home. 哪半句是舞台提示？", "options": ["If it rains", "we'll stay at home", "at home"], "answer": 0, "explain": "if 领起的半句给主句定条件——舞台提示。", "level": 1 },
-          { "q": "状语从句（舞台提示）的作用是？", "options": ["标注主句何时/什么条件下发生", "代替主语", "修饰名词"], "answer": 0, "explain": "它不是演出本身，只负责定位。", "level": 1 },
-          { "q": "「一…就…」用哪个提示词？", "options": ["as soon as", "until", "unless"], "answer": 0, "explain": "as soon as——一…就。", "level": 1 },
-          { "q": "「直到」用哪个提示词？", "options": ["until", "after", "while"], "answer": 0, "explain": "until——一直到某个时刻。", "level": 1 },
-          { "q": "「除非」用哪个提示词？", "options": ["unless", "if", "before"], "answer": 0, "explain": "unless = if ... not。", "level": 1 },
-          { "q": "unless 相当于？", "options": ["if ... not（如果不）", "if（如果）", "when（当）"], "answer": 0, "explain": "它自带一个「不」字。", "level": 1 },
-          { "q": "主句是将来时，when / if 提示里用什么时态？", "options": ["一般现在时", "一般将来时", "过去进行时"], "answer": 0, "explain": "主将从现——提示定位不报时。", "level": 1 },
-          { "q": "I'll call you when I ___.（我一到就打给你）", "options": ["arrive", "will arrive", "arrived"], "answer": 0, "explain": "when 提示里用现在替将来。", "level": 1 },
-          { "q": "If it ___ tomorrow, we'll go boating.（天晴的话）", "options": ["is sunny", "will be sunny", "was sunny"], "answer": 0, "explain": "if 提示里不写 will——is sunny。", "level": 1 },
-          { "q": "强调「正当…的一段时间里」，用哪个词？", "options": ["while", "until", "unless"], "answer": 0, "explain": "一段进行中的背景——while。", "level": 1 },
-          { "q": "while 后面常配什么形态？", "options": ["be + -ing（进行中）", "will + 原形", "have + 过去分词"], "answer": 0, "explain": "while 配一段——G14 的两件套。", "level": 1 },
-          { "q": "「直到妈妈回来我才睡」——「才」的 not 加在哪？", "options": ["主句上：I didn't sleep until...", "until 后面", "不用加"], "answer": 0, "explain": "not ... until——否定落在主句。", "level": 1 },
-          { "q": "提示放在句首时，和主句之间加什么标点？", "options": ["逗号", "句号", "问号"], "answer": 0, "explain": "If it rains, we'll stay in.——句首提示后加逗号。", "level": 1 },
-          { "q": "Wait here ___ the light turns green.（直到）", "options": ["until", "unless", "if"], "answer": 0, "explain": "一直等到绿灯亮——until。", "level": 1 },
-          { "q": "___ you hurry, you'll miss the bus.（除非）", "options": ["Unless", "Until", "While"], "answer": 0, "explain": "除非你抓紧——Unless。", "level": 1 },
-          { "q": "「如果」的 if 和「是否」的 if，哪个要遵守主将从现？", "options": ["「如果」的 if（舞台提示）", "「是否」的 if（宾语座位）", "两个都要"], "answer": 0, "explain": "宾语座位里该用 will 就用 will（G33）；舞台提示才不报时。", "level": 1 }
+          {
+            "q": "If it rains, we'll stay at home. 哪半句是舞台提示？",
+            "options": [
+              "If it rains",
+              "we'll stay at home",
+              "at home"
+            ],
+            "answer": 0,
+            "explain": "if 领起的半句给主句定条件——舞台提示。",
+            "level": 1
+          },
+          {
+            "q": "状语从句（舞台提示）的作用是？",
+            "options": [
+              "标注主句何时/什么条件下发生",
+              "代替主语",
+              "修饰名词"
+            ],
+            "answer": 0,
+            "explain": "它不是演出本身，只负责定位。",
+            "level": 1
+          },
+          {
+            "q": "「一…就…」用哪个提示词？",
+            "options": [
+              "as soon as",
+              "until",
+              "unless"
+            ],
+            "answer": 0,
+            "explain": "as soon as——一…就。",
+            "level": 1
+          },
+          {
+            "q": "「直到」用哪个提示词？",
+            "options": [
+              "until",
+              "after",
+              "while"
+            ],
+            "answer": 0,
+            "explain": "until——一直到某个时刻。",
+            "level": 1
+          },
+          {
+            "q": "「除非」用哪个提示词？",
+            "options": [
+              "unless",
+              "if",
+              "before"
+            ],
+            "answer": 0,
+            "explain": "unless = if ... not。",
+            "level": 1
+          },
+          {
+            "q": "unless 相当于？",
+            "options": [
+              "if ... not（如果不）",
+              "if（如果）",
+              "when（当）"
+            ],
+            "answer": 0,
+            "explain": "它自带一个「不」字。",
+            "level": 1
+          },
+          {
+            "q": "主句是将来时，when / if 提示里用什么时态？",
+            "options": [
+              "一般现在时",
+              "一般将来时",
+              "过去进行时"
+            ],
+            "answer": 0,
+            "explain": "主将从现——提示定位不报时。",
+            "level": 1
+          },
+          {
+            "q": "I'll call you when I ___.（我一到就打给你）",
+            "options": [
+              "arrive",
+              "will arrive",
+              "arrived"
+            ],
+            "answer": 0,
+            "explain": "when 提示里用现在替将来。",
+            "level": 1
+          },
+          {
+            "q": "If it ___ tomorrow, we'll go boating.（天晴的话）",
+            "options": [
+              "is sunny",
+              "will be sunny",
+              "was sunny"
+            ],
+            "answer": 0,
+            "explain": "if 提示里不写 will——is sunny。",
+            "level": 1
+          },
+          {
+            "q": "强调「正当…的一段时间里」，用哪个词？",
+            "options": [
+              "while",
+              "until",
+              "unless"
+            ],
+            "answer": 0,
+            "explain": "一段进行中的背景——while。",
+            "level": 1
+          },
+          {
+            "q": "while 后面常配什么形态？",
+            "options": [
+              "be + -ing（进行中）",
+              "will + 原形",
+              "have + 过去分词"
+            ],
+            "answer": 0,
+            "explain": "while 配一段——G14 的两件套。",
+            "level": 1
+          },
+          {
+            "q": "「直到妈妈回来我才睡」——「才」的 not 加在哪？",
+            "options": [
+              "主句上：I didn't sleep until...",
+              "until 后面",
+              "不用加"
+            ],
+            "answer": 0,
+            "explain": "not ... until——否定落在主句。",
+            "level": 1
+          },
+          {
+            "q": "提示放在句首时，和主句之间加什么标点？",
+            "options": [
+              "逗号",
+              "句号",
+              "问号"
+            ],
+            "answer": 0,
+            "explain": "If it rains, we'll stay in.——句首提示后加逗号。",
+            "level": 1
+          },
+          {
+            "q": "Wait here ___ the light turns green.（直到）",
+            "options": [
+              "until",
+              "unless",
+              "if"
+            ],
+            "answer": 0,
+            "explain": "一直等到绿灯亮——until。",
+            "level": 1
+          },
+          {
+            "q": "___ you hurry, you'll miss the bus.（除非）",
+            "options": [
+              "Unless",
+              "Until",
+              "While"
+            ],
+            "answer": 0,
+            "explain": "除非你抓紧——Unless。",
+            "level": 1
+          },
+          {
+            "q": "「如果」的 if 和「是否」的 if，哪个要遵守主将从现？",
+            "options": [
+              "「如果」的 if（舞台提示）",
+              "「是否」的 if（宾语座位）",
+              "两个都要"
+            ],
+            "answer": 0,
+            "explain": "宾语座位里该用 will 就用 will（G33）；舞台提示才不报时。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 提示不报时",
         "questions": [
-          { "q": "I will tell him the news when he ___ back.", "options": ["comes", "will come", "came"], "answer": 0, "explain": "主将从现——comes。", "level": 2 },
-          { "q": "If you ___ hard, your dream will come true.", "options": ["work", "will work", "worked"], "answer": 0, "explain": "if 提示里用现在——work。", "level": 2 },
-          { "q": "We'll start the show as soon as everyone ___ ready.", "options": ["is", "will be", "be"], "answer": 0, "explain": "as soon as 提示不报时——is。", "level": 2 },
-          { "q": "Please turn off the lights before you ___ the hall.", "options": ["leave", "will leave", "left"], "answer": 0, "explain": "before 提示里不写 will。", "level": 2 },
-          { "q": "___ it snows tomorrow, we will make a snowman.", "options": ["If", "Unless", "Until"], "answer": 0, "explain": "如果下雪——If；snows 用现在。", "level": 2 },
-          { "q": "You won't improve ___ you practise every day.", "options": ["unless", "if", "until"], "answer": 0, "explain": "除非天天练——unless 自带否定。", "level": 2 },
-          { "q": "I won't leave ___ the rain stops.", "options": ["until", "unless", "if"], "answer": 0, "explain": "not ... until——雨停才走。", "level": 2 },
-          { "q": "___ we were rehearsing, the lights went out.", "options": ["While", "Until", "Unless"], "answer": 0, "explain": "一段进行中的背景——While + were rehearsing。", "level": 2 },
-          { "q": "When the phone rang, I ___ a shower.", "options": ["was taking", "take", "am taking"], "answer": 0, "explain": "电话一响是点，正洗澡是段——was taking。", "level": 2 },
-          { "q": "After the concert ___, we'll go for noodles.", "options": ["ends", "will end", "ended"], "answer": 0, "explain": "after 提示里用现在替将来——ends。", "level": 2 },
-          { "q": "I'll wait here until you ___ back.", "options": ["come", "will come", "came"], "answer": 0, "explain": "until 提示不报时——come。", "level": 2 },
-          { "q": "When I was little, I ___ afraid of thunder.", "options": ["was", "am", "will be"], "answer": 0, "explain": "提示在过去，主句跟着在过去。", "level": 2 },
-          { "q": "We didn't start the game until everyone ___.", "options": ["arrived", "arrives", "will arrive"], "answer": 0, "explain": "整句在过去——arrived。", "level": 2 },
-          { "q": "___ you leave, please close the windows.", "options": ["Before", "Until", "Unless"], "answer": 0, "explain": "走之前关窗——Before。", "level": 2 },
-          { "q": "If Amy ___ free this Sunday, she will join us.", "options": ["is", "will be", "be"], "answer": 0, "explain": "if 提示里——is。", "level": 2 },
-          { "q": "The audience stood up as soon as the song ___.", "options": ["ended", "ends", "will end"], "answer": 0, "explain": "过去的叙事——ended。", "level": 2 }
+          {
+            "q": "I will tell him the news when he ___ back.",
+            "options": [
+              "comes",
+              "will come",
+              "came"
+            ],
+            "answer": 0,
+            "explain": "主将从现——comes。",
+            "level": 2
+          },
+          {
+            "q": "If you ___ hard, your dream will come true.",
+            "options": [
+              "work",
+              "will work",
+              "worked"
+            ],
+            "answer": 0,
+            "explain": "if 提示里用现在——work。",
+            "level": 2
+          },
+          {
+            "q": "We'll start the show as soon as everyone ___ ready.",
+            "options": [
+              "is",
+              "will be",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "as soon as 提示不报时——is。",
+            "level": 2
+          },
+          {
+            "q": "Please turn off the lights before you ___ the hall.",
+            "options": [
+              "leave",
+              "will leave",
+              "left"
+            ],
+            "answer": 0,
+            "explain": "before 提示里不写 will。",
+            "level": 2
+          },
+          {
+            "q": "___ it snows tomorrow, we will make a snowman.",
+            "options": [
+              "If",
+              "Unless",
+              "Until"
+            ],
+            "answer": 0,
+            "explain": "如果下雪——If；snows 用现在。",
+            "level": 2
+          },
+          {
+            "q": "You won't improve ___ you practise every day.",
+            "options": [
+              "unless",
+              "if",
+              "until"
+            ],
+            "answer": 0,
+            "explain": "除非天天练——unless 自带否定。",
+            "level": 2
+          },
+          {
+            "q": "I won't leave ___ the rain stops.",
+            "options": [
+              "until",
+              "unless",
+              "if"
+            ],
+            "answer": 0,
+            "explain": "not ... until——雨停才走。",
+            "level": 2
+          },
+          {
+            "q": "___ we were rehearsing, the lights went out.",
+            "options": [
+              "While",
+              "Until",
+              "Unless"
+            ],
+            "answer": 0,
+            "explain": "一段进行中的背景——While + were rehearsing。",
+            "level": 2
+          },
+          {
+            "q": "When the phone rang, I ___ a shower.",
+            "options": [
+              "was taking",
+              "take",
+              "am taking"
+            ],
+            "answer": 0,
+            "explain": "电话一响是点，正洗澡是段——was taking。",
+            "level": 2
+          },
+          {
+            "q": "After the concert ___, we'll go for noodles.",
+            "options": [
+              "ends",
+              "will end",
+              "ended"
+            ],
+            "answer": 0,
+            "explain": "after 提示里用现在替将来——ends。",
+            "level": 2
+          },
+          {
+            "q": "I'll wait here until you ___ back.",
+            "options": [
+              "come",
+              "will come",
+              "came"
+            ],
+            "answer": 0,
+            "explain": "until 提示不报时——come。",
+            "level": 2
+          },
+          {
+            "q": "When I was little, I ___ afraid of thunder.",
+            "options": [
+              "was",
+              "am",
+              "will be"
+            ],
+            "answer": 0,
+            "explain": "提示在过去，主句跟着在过去。",
+            "level": 2
+          },
+          {
+            "q": "We didn't start the game until everyone ___.",
+            "options": [
+              "arrived",
+              "arrives",
+              "will arrive"
+            ],
+            "answer": 0,
+            "explain": "整句在过去——arrived。",
+            "level": 2
+          },
+          {
+            "q": "___ you leave, please close the windows.",
+            "options": [
+              "Before",
+              "Until",
+              "Unless"
+            ],
+            "answer": 0,
+            "explain": "走之前关窗——Before。",
+            "level": 2
+          },
+          {
+            "q": "If Amy ___ free this Sunday, she will join us.",
+            "options": [
+              "is",
+              "will be",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "if 提示里——is。",
+            "level": 2
+          },
+          {
+            "q": "The audience stood up as soon as the song ___.",
+            "options": [
+              "ended",
+              "ends",
+              "will end"
+            ],
+            "answer": 0,
+            "explain": "过去的叙事——ended。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 划掉多余的 will",
         "questions": [
-          { "q": "哪一句提示写对了？（他一回来我就告诉他）", "options": ["I'll tell him as soon as he comes back.", "I'll tell him as soon as he will come back.", "I'll tell him as soon as he came back."], "answer": 0, "explain": "主将从现——comes。", "level": 3 },
-          { "q": "哪一句提示写对了？（明天下雨的话演出就取消）", "options": ["If it rains tomorrow, the show will be cancelled.", "If it will rain tomorrow, the show will be cancelled.", "If it rained tomorrow, the show will be cancelled."], "answer": 0, "explain": "if 提示里用 rains；主句 will be cancelled（G29 被动）。", "level": 3 },
-          { "q": "哪一句否定不重复？（除非你努力，否则不会进步）", "options": ["Unless you work hard, you won't improve.", "Unless you don't work hard, you won't improve.", "Until you work hard, you won't improve."], "answer": 0, "explain": "unless 自带「不」——不再加 don't。", "level": 3 },
-          { "q": "哪一句「才」写对了？（我直到十点才睡）", "options": ["I didn't go to bed until ten.", "I went to bed until ten.", "I didn't go to bed after ten."], "answer": 0, "explain": "not ... until——否定落在主句。", "level": 3 },
-          { "q": "哪一句提示写对了？（你走之前请关灯）", "options": ["Please turn off the lights before you leave.", "Please turn off the lights before you will leave.", "Please turn off the lights until you leave."], "answer": 0, "explain": "before 提示不报时；until 意思就变了。", "level": 3 },
-          { "q": "哪一句配段配对了？（正当我们排练时，停电了）", "options": ["While we were rehearsing, the power went off.", "While we rehearse, the power went off.", "When we were rehearsing the power will go off."], "answer": 0, "explain": "while + 两件套 were rehearsing；突发动作在主句。", "level": 3 },
-          { "q": "哪一句提示写对了？（等大家都到齐我们就开始）", "options": ["We'll begin when everyone is here.", "We'll begin when everyone will be here.", "We'll begin when everyone were here."], "answer": 0, "explain": "when 提示里用 is。", "level": 3 },
-          { "q": "哪一句写对了？（如果你觉得累就休息一下）", "options": ["If you feel tired, have a rest.", "If you will feel tired, have a rest.", "Unless you feel tired, have a rest."], "answer": 0, "explain": "if + 现在时；unless 意思就反了。", "level": 3 },
-          { "q": "哪一句点段分对了？（电话响的那一刻我正在做饭）", "options": ["When the phone rang, I was cooking.", "While the phone rang, I was cooking.", "When the phone rang, I cooked."], "answer": 0, "explain": "一响是点用 when；背景是段用 was cooking。", "level": 3 },
-          { "q": "哪一句「才」写对了？（直到雨停我们才出发）", "options": ["We didn't set off until the rain stopped.", "We set off until the rain stopped.", "We didn't set off unless the rain stopped."], "answer": 0, "explain": "not ... until 成对出现。", "level": 3 },
-          { "q": "哪一句不转调？（小时候我住在乡下）", "options": ["When I was young, I lived in the countryside.", "When I was young, I live in the countryside.", "When I am young, I lived in the countryside."], "answer": 0, "explain": "提示在过去，主句跟着在过去（G15）。", "level": 3 },
-          { "q": "哪一句写对了？（除非下雨，比赛照常进行）", "options": ["The match will go on unless it rains.", "The match will go on unless it will rain.", "The match will go on until it rains."], "answer": 0, "explain": "unless 提示里也不报时——rains。", "level": 3 },
-          { "q": "哪一句提示写对了？（演出结束后我们去吃面）", "options": ["After the show ends, we'll go for noodles.", "After the show will end, we'll go for noodles.", "After the show ending, we'll go for noodles."], "answer": 0, "explain": "after 提示里用 ends。", "level": 3 },
-          { "q": "哪一句提示写对了？（一收到票他就会告诉我们）", "options": ["As soon as he gets the ticket, he'll tell us.", "As soon as he will get the ticket, he'll tell us.", "As soon as he got the ticket, he'll tell us."], "answer": 0, "explain": "as soon as + gets——现在替将来。", "level": 3 },
-          { "q": "哪一句提示写对了？（如果她有空，她会来帮忙）", "options": ["If she is free, she will come to help.", "If she will be free, she will come to help.", "If she be free, she will come to help."], "answer": 0, "explain": "if + is；will 只留在主句。", "level": 3 },
-          { "q": "哪一句提示写对了？（等你到了给我发消息）", "options": ["Send me a message when you arrive.", "Send me a message when you will arrive.", "Send me a message if you arrived."], "answer": 0, "explain": "祈使主句 + when 提示用现在。", "level": 3 }
+          {
+            "q": "哪一句提示写对了？（他一回来我就告诉他）",
+            "options": [
+              "I'll tell him as soon as he comes back.",
+              "I'll tell him as soon as he will come back.",
+              "I'll tell him as soon as he came back."
+            ],
+            "answer": 0,
+            "explain": "主将从现——comes。",
+            "level": 3
+          },
+          {
+            "q": "哪一句提示写对了？（明天下雨的话演出就取消）",
+            "options": [
+              "If it rains tomorrow, the show will be cancelled.",
+              "If it will rain tomorrow, the show will be cancelled.",
+              "If it rained tomorrow, the show will be cancelled."
+            ],
+            "answer": 0,
+            "explain": "if 提示里用 rains；主句 will be cancelled（G29 被动）。",
+            "level": 3
+          },
+          {
+            "q": "哪一句否定不重复？（除非你努力，否则不会进步）",
+            "options": [
+              "Unless you work hard, you won't improve.",
+              "Unless you don't work hard, you won't improve.",
+              "Until you work hard, you won't improve."
+            ],
+            "answer": 0,
+            "explain": "unless 自带「不」——不再加 don't。",
+            "level": 3
+          },
+          {
+            "q": "哪一句「才」写对了？（我直到十点才睡）",
+            "options": [
+              "I didn't go to bed until ten.",
+              "I went to bed until ten.",
+              "I didn't go to bed after ten."
+            ],
+            "answer": 0,
+            "explain": "not ... until——否定落在主句。",
+            "level": 3
+          },
+          {
+            "q": "哪一句提示写对了？（你走之前请关灯）",
+            "options": [
+              "Please turn off the lights before you leave.",
+              "Please turn off the lights before you will leave.",
+              "Please turn off the lights until you leave."
+            ],
+            "answer": 0,
+            "explain": "before 提示不报时；until 意思就变了。",
+            "level": 3
+          },
+          {
+            "q": "哪一句配段配对了？（正当我们排练时，停电了）",
+            "options": [
+              "While we were rehearsing, the power went off.",
+              "While we rehearse, the power went off.",
+              "When we were rehearsing the power will go off."
+            ],
+            "answer": 0,
+            "explain": "while + 两件套 were rehearsing；突发动作在主句。",
+            "level": 3
+          },
+          {
+            "q": "哪一句提示写对了？（等大家都到齐我们就开始）",
+            "options": [
+              "We'll begin when everyone is here.",
+              "We'll begin when everyone will be here.",
+              "We'll begin when everyone were here."
+            ],
+            "answer": 0,
+            "explain": "when 提示里用 is。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（如果你觉得累就休息一下）",
+            "options": [
+              "If you feel tired, have a rest.",
+              "If you will feel tired, have a rest.",
+              "Unless you feel tired, have a rest."
+            ],
+            "answer": 0,
+            "explain": "if + 现在时；unless 意思就反了。",
+            "level": 3
+          },
+          {
+            "q": "哪一句点段分对了？（电话响的那一刻我正在做饭）",
+            "options": [
+              "When the phone rang, I was cooking.",
+              "While the phone rang, I was cooking.",
+              "When the phone rang, I cooked."
+            ],
+            "answer": 0,
+            "explain": "一响是点用 when；背景是段用 was cooking。",
+            "level": 3
+          },
+          {
+            "q": "哪一句「才」写对了？（直到雨停我们才出发）",
+            "options": [
+              "We didn't set off until the rain stopped.",
+              "We set off until the rain stopped.",
+              "We didn't set off unless the rain stopped."
+            ],
+            "answer": 0,
+            "explain": "not ... until 成对出现。",
+            "level": 3
+          },
+          {
+            "q": "哪一句不转调？（小时候我住在乡下）",
+            "options": [
+              "When I was young, I lived in the countryside.",
+              "When I was young, I live in the countryside.",
+              "When I am young, I lived in the countryside."
+            ],
+            "answer": 0,
+            "explain": "提示在过去，主句跟着在过去（G15）。",
+            "level": 3
+          },
+          {
+            "q": "哪一句写对了？（除非下雨，比赛照常进行）",
+            "options": [
+              "The match will go on unless it rains.",
+              "The match will go on unless it will rain.",
+              "The match will go on until it rains."
+            ],
+            "answer": 0,
+            "explain": "unless 提示里也不报时——rains。",
+            "level": 3
+          },
+          {
+            "q": "哪一句提示写对了？（演出结束后我们去吃面）",
+            "options": [
+              "After the show ends, we'll go for noodles.",
+              "After the show will end, we'll go for noodles.",
+              "After the show ending, we'll go for noodles."
+            ],
+            "answer": 0,
+            "explain": "after 提示里用 ends。",
+            "level": 3
+          },
+          {
+            "q": "哪一句提示写对了？（一收到票他就会告诉我们）",
+            "options": [
+              "As soon as he gets the ticket, he'll tell us.",
+              "As soon as he will get the ticket, he'll tell us.",
+              "As soon as he got the ticket, he'll tell us."
+            ],
+            "answer": 0,
+            "explain": "as soon as + gets——现在替将来。",
+            "level": 3
+          },
+          {
+            "q": "哪一句提示写对了？（如果她有空，她会来帮忙）",
+            "options": [
+              "If she is free, she will come to help.",
+              "If she will be free, she will come to help.",
+              "If she be free, she will come to help."
+            ],
+            "answer": 0,
+            "explain": "if + is；will 只留在主句。",
+            "level": 3
+          },
+          {
+            "q": "哪一句提示写对了？（等你到了给我发消息）",
+            "options": [
+              "Send me a message when you arrive.",
+              "Send me a message when you will arrive.",
+              "Send me a message if you arrived."
+            ],
+            "answer": 0,
+            "explain": "祈使主句 + when 提示用现在。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 按提示进场",
         "questions": [
-          { "q": "两空：If it ___ tomorrow, we ___ the picnic inside.", "options": ["rains / will have", "will rain / have", "rained / will have"], "answer": 0, "explain": "提示用现在 rains，主句报时 will have。", "level": 4 },
-          { "q": "大考：I'll stay with the drums ___ the truck comes, and ___ it arrives, we'll load them together.", "options": ["until / as soon as", "unless / until", "if / before"], "answer": 0, "explain": "先「一直守到卡车来」，再「它一到就装车」。", "level": 4 },
-          { "q": "You'll miss the beginning ___ you leave right now.", "options": ["unless", "if", "until"], "answer": 0, "explain": "除非你现在就走——unless。", "level": 4 },
-          { "q": "两空：___ I was practising, Mum came in and asked when I ___ finish.", "options": ["While / would", "When / will", "While / will"], "answer": 0, "explain": "while + 进行的一段；asked 过去→宾语座位里 would（G33 对表）。", "level": 4 },
-          { "q": "Don't open the door until the music ___.", "options": ["stops", "will stop", "stopped"], "answer": 0, "explain": "until 提示不报时——stops。", "level": 4 },
-          { "q": "When the bell ___, the students ___ out of the classroom.", "options": ["rang / rushed", "rings / rushed", "rang / rush"], "answer": 0, "explain": "过去叙事前后一致——rang / rushed（G15）。", "level": 4 },
-          { "q": "两空：He won't be happy ___ he hears the news, but he'll understand ___ we explain.", "options": ["when / if", "if / until", "until / unless"], "answer": 0, "explain": "听到时（when）不高兴；如果解释（if）就会理解。", "level": 4 },
-          { "q": "___ you finish your homework, you can't play games.（不写完不能玩）", "options": ["Unless", "If", "While"], "answer": 0, "explain": "除非写完——Unless you finish。", "level": 4 },
-          { "q": "I was listening to music ___ someone knocked at the door.", "options": ["when", "while", "unless"], "answer": 0, "explain": "敲门一声是点——when；前半句已是一段进行。", "level": 4 },
-          { "q": "两空：Please wait ___ the song is over; ___ you leave now, you'll disturb others.", "options": ["until / if", "if / until", "unless / when"], "answer": 0, "explain": "等到歌结束（until）；如果现在走（if）。", "level": 4 },
-          { "q": "As soon as the rain ___, the children ran out to play.", "options": ["stopped", "stops", "will stop"], "answer": 0, "explain": "过去的叙事——stopped。", "level": 4 },
-          { "q": "两空：___ it gets dark, the street lights come on; they stay on ___ the sun rises.", "options": ["When / until", "While / unless", "If / after"], "answer": 0, "explain": "天一黑就亮（when）；一直亮到日出（until）。", "level": 4 },
-          { "q": "找错：下面哪句的 will 放错了地方？", "options": ["I'll call you when I will get home.", "I don't know when he will get home.", "He will get home at six."], "answer": 0, "explain": "第一句「当…时」是舞台提示不报时；第二句「何时」坐宾语座位，will 合法（G33）。", "level": 4 },
-          { "q": "Mum didn't have dinner ___ Dad came back from work.", "options": ["until", "unless", "while"], "answer": 0, "explain": "直到爸爸回来才吃——not ... until。", "level": 4 },
-          { "q": "两空：___ you mix blue and yellow, you ___ green.", "options": ["If / get", "If / will get", "Unless / get"], "answer": 0, "explain": "普遍事实的条件句——两边都用一般现在。", "level": 4 },
-          { "q": "大考二：___ the concert began, the hall was full; ___ it ended, nobody wanted to leave.", "options": ["Before / After", "After / Before", "Until / Unless"], "answer": 0, "explain": "开演之前已坐满；结束之后没人想走。", "level": 4 }
+          {
+            "q": "两空：If it ___ tomorrow, we ___ the picnic inside.",
+            "options": [
+              "rains / will have",
+              "will rain / have",
+              "rained / will have"
+            ],
+            "answer": 0,
+            "explain": "提示用现在 rains，主句报时 will have。",
+            "level": 4
+          },
+          {
+            "q": "大考：I'll stay with the drums ___ the truck comes, and ___ it arrives, we'll load them together.",
+            "options": [
+              "until / as soon as",
+              "unless / until",
+              "if / before"
+            ],
+            "answer": 0,
+            "explain": "先「一直守到卡车来」，再「它一到就装车」。",
+            "level": 4
+          },
+          {
+            "q": "You'll miss the beginning ___ you leave right now.",
+            "options": [
+              "unless",
+              "if",
+              "until"
+            ],
+            "answer": 0,
+            "explain": "除非你现在就走——unless。",
+            "level": 4
+          },
+          {
+            "q": "两空：___ I was practising, Mum came in and asked when I ___ finish.",
+            "options": [
+              "While / would",
+              "When / will",
+              "While / will"
+            ],
+            "answer": 0,
+            "explain": "while + 进行的一段；asked 过去→宾语座位里 would（G33 对表）。",
+            "level": 4
+          },
+          {
+            "q": "Don't open the door until the music ___.",
+            "options": [
+              "stops",
+              "will stop",
+              "stopped"
+            ],
+            "answer": 0,
+            "explain": "until 提示不报时——stops。",
+            "level": 4
+          },
+          {
+            "q": "When the bell ___, the students ___ out of the classroom.",
+            "options": [
+              "rang / rushed",
+              "rings / rushed",
+              "rang / rush"
+            ],
+            "answer": 0,
+            "explain": "过去叙事前后一致——rang / rushed（G15）。",
+            "level": 4
+          },
+          {
+            "q": "两空：He won't be happy ___ he hears the news, but he'll understand ___ we explain.",
+            "options": [
+              "when / if",
+              "if / until",
+              "until / unless"
+            ],
+            "answer": 0,
+            "explain": "听到时（when）不高兴；如果解释（if）就会理解。",
+            "level": 4
+          },
+          {
+            "q": "___ you finish your homework, you can't play games.（不写完不能玩）",
+            "options": [
+              "Unless",
+              "If",
+              "While"
+            ],
+            "answer": 0,
+            "explain": "除非写完——Unless you finish。",
+            "level": 4
+          },
+          {
+            "q": "I was listening to music ___ someone knocked at the door.",
+            "options": [
+              "when",
+              "while",
+              "unless"
+            ],
+            "answer": 0,
+            "explain": "敲门一声是点——when；前半句已是一段进行。",
+            "level": 4
+          },
+          {
+            "q": "两空：Please wait ___ the song is over; ___ you leave now, you'll disturb others.",
+            "options": [
+              "until / if",
+              "if / until",
+              "unless / when"
+            ],
+            "answer": 0,
+            "explain": "等到歌结束（until）；如果现在走（if）。",
+            "level": 4
+          },
+          {
+            "q": "As soon as the rain ___, the children ran out to play.",
+            "options": [
+              "stopped",
+              "stops",
+              "will stop"
+            ],
+            "answer": 0,
+            "explain": "过去的叙事——stopped。",
+            "level": 4
+          },
+          {
+            "q": "两空：___ it gets dark, the street lights come on; they stay on ___ the sun rises.",
+            "options": [
+              "When / until",
+              "While / unless",
+              "If / after"
+            ],
+            "answer": 0,
+            "explain": "天一黑就亮（when）；一直亮到日出（until）。",
+            "level": 4
+          },
+          {
+            "q": "找错：下面哪句的 will 放错了地方？",
+            "options": [
+              "I'll call you when I will get home.",
+              "I don't know when he will get home.",
+              "He will get home at six."
+            ],
+            "answer": 0,
+            "explain": "第一句「当…时」是舞台提示不报时；第二句「何时」坐宾语座位，will 合法（G33）。",
+            "level": 4
+          },
+          {
+            "q": "Mum didn't have dinner ___ Dad came back from work.",
+            "options": [
+              "until",
+              "unless",
+              "while"
+            ],
+            "answer": 0,
+            "explain": "直到爸爸回来才吃——not ... until。",
+            "level": 4
+          },
+          {
+            "q": "两空：___ you mix blue and yellow, you ___ green.",
+            "options": [
+              "If / get",
+              "If / will get",
+              "Unless / get"
+            ],
+            "answer": 0,
+            "explain": "普遍事实的条件句——两边都用一般现在。",
+            "level": 4
+          },
+          {
+            "q": "大考二：___ the concert began, the hall was full; ___ it ended, nobody wanted to leave.",
+            "options": [
+              "Before / After",
+              "After / Before",
+              "Until / Unless"
+            ],
+            "answer": 0,
+            "explain": "开演之前已坐满；结束之后没人想走。",
+            "level": 4
+          }
         ]
       }
     ]

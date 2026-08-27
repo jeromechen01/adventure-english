@@ -1,0 +1,1849 @@
+{
+ "level": "KET",
+ "title": "KET 阅读题型专项（全原创题）",
+ "parts": {
+  "part1": {
+   "name": "Part 1 · 短文本抓主旨",
+   "desc": "6 篇简短真实场景文本（告示/短信/便条/标志），每篇 1 题三选一",
+   "sets": [
+    {
+     "id": "rp1-01",
+     "topic": "校园里",
+     "items": [
+      {
+       "context": "体育馆门口",
+       "text": "GYM\nWet floor today!\nPE lessons move to the playground.",
+       "q": "Where are PE lessons today?",
+       "options": [
+        "In the gym.",
+        "On the playground.",
+        "Nowhere — they stop."
+       ],
+       "answer": 1,
+       "explain": "move to the playground = 改到操场。"
+      },
+      {
+       "context": "同学的便条",
+       "text": "Ana — I took your maths book by mistake. It's in my bag. Come to Class 2 at lunch to get it. Rita",
+       "q": "What should Ana do?",
+       "options": [
+        "Look for the book in her bag.",
+        "Go to Class 2 at lunch time.",
+        "Buy a new maths book."
+       ],
+       "answer": 1,
+       "explain": "Come to Class 2 at lunch。"
+      },
+      {
+       "context": "食堂菜单板",
+       "text": "SCHOOL LUNCH\nMonday: noodles\nTuesday: rice & fish\nNo hot food on Friday — bring a sandwich.",
+       "q": "What happens on Friday?",
+       "options": [
+        "Students eat fish.",
+        "There is no hot food.",
+        "The lunch room is closed."
+       ],
+       "answer": 1,
+       "explain": "No hot food on Friday。"
+      },
+      {
+       "context": "布告栏",
+       "text": "LOST: small black cat, white ears.\nLast seen near the school gate.\nCall Ms Park, Room 5.",
+       "q": "What is this notice about?",
+       "options": [
+        "A cat that needs a home.",
+        "A missing pet.",
+        "A cat for sale."
+       ],
+       "answer": 1,
+       "explain": "LOST = 走失。"
+      },
+      {
+       "context": "老师发的短信",
+       "text": "Class 6: tomorrow's test moves from 9 am to 11 am. Same room. Bring two pencils.",
+       "q": "What has changed about the test?",
+       "options": [
+        "The time.",
+        "The room.",
+        "The number of pencils."
+       ],
+       "answer": 0,
+       "explain": "9 点改 11 点，只有时间变了。"
+      },
+      {
+       "context": "楼梯口的标志",
+       "text": "QUIET PLEASE\nExams in the hall this week.\nUse the back stairs.",
+       "q": "Why must students be quiet?",
+       "options": [
+        "Someone is sleeping.",
+        "There are exams in the hall.",
+        "The stairs are broken."
+       ],
+       "answer": 1,
+       "explain": "Exams in the hall this week。"
+      }
+     ]
+    },
+    {
+     "id": "rp1-02",
+     "topic": "生活场景",
+     "items": [
+      {
+       "context": "公交车站",
+       "text": "BUS 12\nDoes not stop here on Sundays.\nPlease use Bus 15 from Green Street.",
+       "q": "What should you do on Sundays?",
+       "options": [
+        "Wait longer for Bus 12.",
+        "Take Bus 15 from another street.",
+        "Walk to the park."
+       ],
+       "answer": 1,
+       "explain": "周日 12 路不停这站，改乘 Green Street 的 15 路。"
+      },
+      {
+       "context": "妈妈的便条",
+       "text": "Lin — Your piano teacher called. Tomorrow's lesson is one hour earlier, at 4 pm. Don't be late! Mum",
+       "q": "When is the piano lesson tomorrow?",
+       "options": [
+        "At 3 pm.",
+        "At 4 pm.",
+        "At 5 pm."
+       ],
+       "answer": 1,
+       "explain": "提前一小时后是 4 点。"
+      },
+      {
+       "context": "游泳馆售票处",
+       "text": "POOL TICKETS\nAdults £3, children £1.\nFamily ticket (2 adults + 2 children): £6",
+       "q": "How much is a family ticket?",
+       "options": [
+        "£3.",
+        "£6.",
+        "£8."
+       ],
+       "answer": 1,
+       "explain": "Family ticket: £6。"
+      },
+      {
+       "context": "朋友的短信",
+       "text": "Ben! My cousins are here so I can't play football today. Can we play tomorrow after school instead? Joe",
+       "q": "Why can't Joe play today?",
+       "options": [
+        "He has homework.",
+        "His cousins are visiting.",
+        "It is raining."
+       ],
+       "answer": 1,
+       "explain": "My cousins are here。"
+      },
+      {
+       "context": "面包店门上",
+       "text": "SORRY!\nNo bread until 10 am today.\nCakes and juice as usual.",
+       "q": "What can you buy at 9 am?",
+       "options": [
+        "Bread.",
+        "Cakes.",
+        "Nothing."
+       ],
+       "answer": 1,
+       "explain": "面包 10 点才有，蛋糕果汁照常。"
+      },
+      {
+       "context": "电影院屏幕上",
+       "text": "THE SPACE DOG 2\nToday's 3 pm film is full.\nTickets left for 5 pm and 7 pm.",
+       "q": "Which film can you still watch?",
+       "options": [
+        "The 3 pm film.",
+        "The 5 pm film.",
+        "No film today."
+       ],
+       "answer": 1,
+       "explain": "3 点满了，5 点和 7 点还有票。"
+      }
+     ]
+    },
+    {
+     "id": "rp1-03",
+     "topic": "活动通知",
+     "items": [
+      {
+       "context": "音乐教室门口",
+       "text": "ORCHESTRA MEMBERS\nExtra practice on Saturday 9-11 am for next week's concert. Everyone must come.",
+       "q": "What is this notice about?",
+       "options": [
+        "A concert on Saturday.",
+        "An extra practice for everyone.",
+        "A new music room."
+       ],
+       "answer": 1,
+       "explain": "Extra practice… Everyone must come。"
+      },
+      {
+       "context": "图书馆桌上的卡片",
+       "text": "BOOK WEEK\nWrite about your favourite book (100 words) and win a £20 book ticket! Give it to Mr Hall by Friday.",
+       "q": "How can you win the prize?",
+       "options": [
+        "By reading 100 books.",
+        "By writing about a book you like.",
+        "By buying a book ticket."
+       ],
+       "answer": 1,
+       "explain": "写一篇 100 词的favourite book 短文。"
+      },
+      {
+       "context": "奶奶发来的短信",
+       "text": "Sweetie, I made too many cakes today! Come after school and take some home for Mum and Dad. Grandma",
+       "q": "Why did Grandma write?",
+       "options": [
+        "She needs help making cakes.",
+        "She wants to give some cakes away.",
+        "She wants to visit after school."
+       ],
+       "answer": 1,
+       "explain": "蛋糕做多了，让孩子带回家。"
+      },
+      {
+       "context": "公园入口",
+       "text": "FREE MUSIC IN THE PARK\nEvery Sunday in June, 2-4 pm.\nBring something to sit on!",
+       "q": "What should visitors bring?",
+       "options": [
+        "Money for tickets.",
+        "Something to sit on.",
+        "Their own music."
+       ],
+       "answer": 1,
+       "explain": "Bring something to sit on。"
+      },
+      {
+       "context": "教室白板",
+       "text": "ART HOMEWORK\nDraw your family. Use colour! Give it in on Thursday, not Friday — Miss Ray is away Friday.",
+       "q": "When is the homework due?",
+       "options": [
+        "Thursday.",
+        "Friday.",
+        "Next Monday."
+       ],
+       "answer": 0,
+       "explain": "Give it in on Thursday。"
+      },
+      {
+       "context": "弟弟的便条",
+       "text": "I fed your fish because you were at violin. It ate a lot! You owe me one ice cream. Kai",
+       "q": "What did Kai do?",
+       "options": [
+        "He played the violin.",
+        "He gave food to the fish.",
+        "He bought an ice cream."
+       ],
+       "answer": 1,
+       "explain": "fed your fish = 喂了鱼。"
+      }
+     ]
+    },
+    {
+     "id": "rp1-04",
+     "topic": "出行与购物",
+     "items": [
+      {
+       "context": "火车车厢里",
+       "text": "QUIET CARRIAGE\nNo phone calls or loud music.\nPlease speak quietly.",
+       "q": "What can you do in this carriage?",
+       "options": [
+        "Call your friends.",
+        "Talk in a quiet voice.",
+        "Play music out loud."
+       ],
+       "answer": 1,
+       "explain": "speak quietly 可以，打电话和外放不行。"
+      },
+      {
+       "context": "商场电梯旁",
+       "text": "TOY SHOP — now on Floor 3 (next to the bookshop). The Floor 1 shop is now a café.",
+       "q": "Where is the toy shop now?",
+       "options": [
+        "On Floor 1.",
+        "On Floor 3.",
+        "Inside the café."
+       ],
+       "answer": 1,
+       "explain": "now on Floor 3。"
+      },
+      {
+       "context": "出租车公司短信",
+       "text": "Your taxi will arrive at 7.50, ten minutes late — sorry! Driver: Mr Chen, white car, number 88.",
+       "q": "What time was the taxi first going to come?",
+       "options": [
+        "At 7.40.",
+        "At 7.50.",
+        "At 8.00."
+       ],
+       "answer": 0,
+       "explain": "7:50 是晚了 10 分钟之后 → 原定 7:40。"
+      },
+      {
+       "context": "鞋店橱窗",
+       "text": "SPORTS SHOES SALE\nBuy one pair, get a second pair half price. Ends Sunday!",
+       "q": "What does the notice mean?",
+       "options": [
+        "All shoes are half price.",
+        "The second pair costs less.",
+        "The sale starts on Sunday."
+       ],
+       "answer": 1,
+       "explain": "第二双半价。"
+      },
+      {
+       "context": "机场屏幕",
+       "text": "FLIGHT CA88 to Beijing\nNow leaves 21.10 (not 20.30)\nGate B7 (not B2)",
+       "q": "What is true about flight CA88?",
+       "options": [
+        "It leaves earlier than planned.",
+        "It leaves from a different gate.",
+        "It is cancelled."
+       ],
+       "answer": 1,
+       "explain": "登机口 B2 改 B7；时间是推迟不是提前。"
+      },
+      {
+       "context": "超市货架上",
+       "text": "FRESH MILK\n2 bottles for £2\n(1 bottle: £1.40)",
+       "q": "How can you pay less for milk?",
+       "options": [
+        "By buying two bottles.",
+        "By coming early.",
+        "By buying one bottle."
+       ],
+       "answer": 0,
+       "explain": "两瓶 2 镑比单瓶 1.4 镑合算。"
+      }
+     ]
+    },
+    {
+     "id": "rp1-05",
+     "topic": "混合场景",
+     "items": [
+      {
+       "context": "牙医诊所短信",
+       "text": "Hi Mia! This is a message from Dr Lo's office. Your 4 pm visit tomorrow is now 3 pm. Reply YES if this is OK.",
+       "q": "What should Mia do if 3 pm is fine?",
+       "options": [
+        "Call Dr Lo.",
+        "Send back the word YES.",
+        "Arrive at 4 pm."
+       ],
+       "answer": 1,
+       "explain": "Reply YES。"
+      },
+      {
+       "context": "楼道通知",
+       "text": "TO ALL NEIGHBOURS\nNo water on Tuesday 9 am - 2 pm (pipe work).\nPlease keep some water ready.",
+       "q": "What should people do before Tuesday?",
+       "options": [
+        "Save some water at home.",
+        "Leave the building.",
+        "Fix the pipes."
+       ],
+       "answer": 0,
+       "explain": "keep some water ready = 提前存水。"
+      },
+      {
+       "context": "班群消息",
+       "text": "Reminder: school photo day is Wednesday! Wear your school jacket. Smile practice not needed 😄 — Mr Kim",
+       "q": "What must students wear on Wednesday?",
+       "options": [
+        "Sports clothes.",
+        "The school jacket.",
+        "A new smile."
+       ],
+       "answer": 1,
+       "explain": "Wear your school jacket。"
+      },
+      {
+       "context": "公园湖边",
+       "text": "PLEASE DO NOT FEED THE DUCKS BREAD.\nIt is bad for them. Duck food: £1 at the gate shop.",
+       "q": "What does the sign ask people to do?",
+       "options": [
+        "Never feed the ducks.",
+        "Not give bread to the ducks.",
+        "Buy bread at the gate."
+       ],
+       "answer": 1,
+       "explain": "不能喂面包；门口有专用鸭粮。"
+      },
+      {
+       "context": "爸爸的便条",
+       "text": "Gone running. Back at 8. Your breakfast is on the table — eat the egg while it's warm! Dad",
+       "q": "Where is Dad?",
+       "options": [
+        "In the kitchen.",
+        "Out running.",
+        "At work."
+       ],
+       "answer": 1,
+       "explain": "Gone running = 跑步去了。"
+      },
+      {
+       "context": "医院走廊",
+       "text": "VISITING HOURS\nMonday-Friday: 3-8 pm\nWeekends: 10 am - 8 pm\nChildren under 12 must come with an adult.",
+       "q": "When can you visit on Saturday?",
+       "options": [
+        "From 3 pm.",
+        "From 10 am.",
+        "Only after 8 pm."
+       ],
+       "answer": 1,
+       "explain": "周末 10 点开始。"
+      }
+     ]
+    }
+   ]
+  },
+  "part2": {
+   "name": "Part 2 · 多项匹配",
+   "desc": "7 个问题 + 3 篇同主题短文，判断谁/哪篇符合",
+   "sets": [
+    {
+     "id": "rp2-01",
+     "topic": "三个孩子的乐器",
+     "profiles": [
+      {
+       "label": "A",
+       "title": "Dana",
+       "text": "I play the flute. It is light, so I take it everywhere — I even played it on a mountain last summer! I practise in the morning before school because my evenings are full of homework."
+      },
+      {
+       "label": "B",
+       "title": "Eric",
+       "text": "My instrument is the cello. It is big and heavy, so Dad drives me to my lessons. I started when I was five. Last month I played alone on stage for the first time and I wasn't scared at all."
+      },
+      {
+       "label": "C",
+       "title": "Fay",
+       "text": "I play the drums! My parents bought me quiet electric drums because our flat is small. I watch videos to learn new beats and dream of starting a band with my cousins."
+      }
+     ],
+     "questions": [
+      {
+       "q": "Who practises early in the day?",
+       "options": [
+        "Dana",
+        "Eric",
+        "Fay"
+       ],
+       "answer": 0,
+       "explain": "in the morning before school。"
+      },
+      {
+       "q": "Who needs help to carry the instrument?",
+       "options": [
+        "Dana",
+        "Eric",
+        "Fay"
+       ],
+       "answer": 1,
+       "explain": "大提琴又大又重，爸爸开车送。"
+      },
+      {
+       "q": "Who learns from videos?",
+       "options": [
+        "Dana",
+        "Eric",
+        "Fay"
+       ],
+       "answer": 2,
+       "explain": "watch videos to learn new beats。"
+      },
+      {
+       "q": "Who played outdoors in an unusual place?",
+       "options": [
+        "Dana",
+        "Eric",
+        "Fay"
+       ],
+       "answer": 0,
+       "explain": "在山上吹过长笛。"
+      },
+      {
+       "q": "Who performed alone recently?",
+       "options": [
+        "Dana",
+        "Eric",
+        "Fay"
+       ],
+       "answer": 1,
+       "explain": "played alone on stage last month。"
+      },
+      {
+       "q": "Whose instrument makes little noise?",
+       "options": [
+        "Dana",
+        "Eric",
+        "Fay"
+       ],
+       "answer": 2,
+       "explain": "quiet electric drums。"
+      },
+      {
+       "q": "Who wants to make music with family members?",
+       "options": [
+        "Dana",
+        "Eric",
+        "Fay"
+       ],
+       "answer": 2,
+       "explain": "a band with my cousins。"
+      }
+     ]
+    },
+    {
+     "id": "rp2-02",
+     "topic": "三个孩子的假期",
+     "profiles": [
+      {
+       "label": "A",
+       "title": "Gus",
+       "text": "We went camping by a lake. Dad and I caught two fish and cooked them on a fire. At night we heard an owl. I lost my hat in the water, but it was still the best week ever."
+      },
+      {
+       "label": "B",
+       "title": "Holly",
+       "text": "I stayed in the city with Aunt Vera. We visited the big art museum twice because I loved it so much. She bought me a painting set, and I drew the tall buildings from her window."
+      },
+      {
+       "label": "C",
+       "title": "Ivan",
+       "text": "My family flew to an island. The sea was warm and full of little blue fish. I built the biggest sand castle on the beach. On the last day it rained, so we played cards in the hotel."
+      }
+     ],
+     "questions": [
+      {
+       "q": "Who travelled by plane?",
+       "options": [
+        "Gus",
+        "Holly",
+        "Ivan"
+       ],
+       "answer": 2,
+       "explain": "flew to an island。"
+      },
+      {
+       "q": "Who cooked outside?",
+       "options": [
+        "Gus",
+        "Holly",
+        "Ivan"
+       ],
+       "answer": 0,
+       "explain": "cooked them on a fire。"
+      },
+      {
+       "q": "Who went to the same place two times?",
+       "options": [
+        "Gus",
+        "Holly",
+        "Ivan"
+       ],
+       "answer": 1,
+       "explain": "visited the museum twice。"
+      },
+      {
+       "q": "Who lost something?",
+       "options": [
+        "Gus",
+        "Holly",
+        "Ivan"
+       ],
+       "answer": 0,
+       "explain": "lost my hat in the water。"
+      },
+      {
+       "q": "Who got a present?",
+       "options": [
+        "Gus",
+        "Holly",
+        "Ivan"
+       ],
+       "answer": 1,
+       "explain": "bought me a painting set。"
+      },
+      {
+       "q": "Who stayed inside because of the weather?",
+       "options": [
+        "Gus",
+        "Holly",
+        "Ivan"
+       ],
+       "answer": 2,
+       "explain": "it rained… played cards in the hotel。"
+      },
+      {
+       "q": "Who heard an animal at night?",
+       "options": [
+        "Gus",
+        "Holly",
+        "Ivan"
+       ],
+       "answer": 0,
+       "explain": "heard an owl 猫头鹰。"
+      }
+     ]
+    },
+    {
+     "id": "rp2-03",
+     "topic": "三个运动班",
+     "profiles": [
+      {
+       "label": "A",
+       "title": "Swim Stars",
+       "text": "Swim Stars meets on Monday and Thursday evenings at the town pool. New swimmers do a short test first. The class costs £5 a week, and you get a free swim cap when you join."
+      },
+      {
+       "label": "B",
+       "title": "Kick It",
+       "text": "Kick It is a football club for ages 9-12 on Saturday mornings in West Park. It is free! Just bring boots and water. When it rains hard, the coach sends a message and practice moves to the school gym."
+      },
+      {
+       "label": "C",
+       "title": "Ping Pong Plus",
+       "text": "We play table tennis every day at lunch time in the school hall. Beginners are welcome — old players teach new players. Once a month we have a small competition with chocolate prizes!"
+      }
+     ],
+     "questions": [
+      {
+       "q": "Which club costs nothing?",
+       "options": [
+        "Swim Stars",
+        "Kick It",
+        "Ping Pong Plus"
+       ],
+       "answer": 1,
+       "explain": "It is free!"
+      },
+      {
+       "q": "Which club gives you something free when you start?",
+       "options": [
+        "Swim Stars",
+        "Kick It",
+        "Ping Pong Plus"
+       ],
+       "answer": 0,
+       "explain": "a free swim cap when you join。"
+      },
+      {
+       "q": "Which club meets most often?",
+       "options": [
+        "Swim Stars",
+        "Kick It",
+        "Ping Pong Plus"
+       ],
+       "answer": 2,
+       "explain": "every day at lunch time。"
+      },
+      {
+       "q": "Where do new members take a test?",
+       "options": [
+        "Swim Stars",
+        "Kick It",
+        "Ping Pong Plus"
+       ],
+       "answer": 0,
+       "explain": "New swimmers do a short test first。"
+      },
+      {
+       "q": "Which club sometimes changes its place?",
+       "options": [
+        "Swim Stars",
+        "Kick It",
+        "Ping Pong Plus"
+       ],
+       "answer": 1,
+       "explain": "大雨时改到学校体育馆。"
+      },
+      {
+       "q": "Where can you win something sweet?",
+       "options": [
+        "Swim Stars",
+        "Kick It",
+        "Ping Pong Plus"
+       ],
+       "answer": 2,
+       "explain": "chocolate prizes。"
+      },
+      {
+       "q": "In which club do students teach each other?",
+       "options": [
+        "Swim Stars",
+        "Kick It",
+        "Ping Pong Plus"
+       ],
+       "answer": 2,
+       "explain": "old players teach new players。"
+      }
+     ]
+    },
+    {
+     "id": "rp2-04",
+     "topic": "三个孩子的宠物",
+     "profiles": [
+      {
+       "label": "A",
+       "title": "Jade",
+       "text": "My rabbit Biscuit lives in the garden. He is four years old. He loves carrot tops more than carrots! Every evening he runs to the kitchen door and waits for me to come and play."
+      },
+      {
+       "label": "B",
+       "title": "Ken",
+       "text": "I keep six little fish. They are orange and silver. I clean their tank every Sunday — it takes an hour, but I like doing it. My favourite fish always swims to the glass when I come near."
+      },
+      {
+       "label": "C",
+       "title": "Lara",
+       "text": "My dog Pepper is one year old and full of energy. We walk before school and after dinner, in all weather! She once ate my homework — really! My teacher laughed and gave me one more day."
+      }
+     ],
+     "questions": [
+      {
+       "q": "Whose pet lives outside?",
+       "options": [
+        "Jade",
+        "Ken",
+        "Lara"
+       ],
+       "answer": 0,
+       "explain": "lives in the garden。"
+      },
+      {
+       "q": "Who has the youngest pet?",
+       "options": [
+        "Jade",
+        "Ken",
+        "Lara"
+       ],
+       "answer": 2,
+       "explain": "Pepper is one year old（兔子 4 岁）。"
+      },
+      {
+       "q": "Who has more than one pet?",
+       "options": [
+        "Jade",
+        "Ken",
+        "Lara"
+       ],
+       "answer": 1,
+       "explain": "six little fish。"
+      },
+      {
+       "q": "Who does a cleaning job for the pet every week?",
+       "options": [
+        "Jade",
+        "Ken",
+        "Lara"
+       ],
+       "answer": 1,
+       "explain": "clean their tank every Sunday。"
+      },
+      {
+       "q": "Whose pet caused a school problem?",
+       "options": [
+        "Jade",
+        "Ken",
+        "Lara"
+       ],
+       "answer": 2,
+       "explain": "ate my homework。"
+      },
+      {
+       "q": "Whose pet waits at the same place every day?",
+       "options": [
+        "Jade",
+        "Ken",
+        "Lara"
+       ],
+       "answer": 0,
+       "explain": "runs to the kitchen door and waits。"
+      },
+      {
+       "q": "Who goes out with the pet twice a day?",
+       "options": [
+        "Jade",
+        "Ken",
+        "Lara"
+       ],
+       "answer": 2,
+       "explain": "before school and after dinner。"
+      }
+     ]
+    },
+    {
+     "id": "rp2-05",
+     "topic": "三个生日",
+     "profiles": [
+      {
+       "label": "A",
+       "title": "Mo",
+       "text": "For my birthday, we went to the science museum with three friends. We watched a show about stars and lay on the floor to see the whole sky! Mum made a moon cake — not the Chinese kind, a cake like the moon!"
+      },
+      {
+       "label": "B",
+       "title": "Nina",
+       "text": "I had a garden party. Dad cooked on the fire outside and we played hide and seek until dark. My best present was a red bike from my grandparents. I ride it to school now."
+      },
+      {
+       "label": "C",
+       "title": "Omar",
+       "text": "My birthday was on a school day, so we celebrated on the weekend. We saw a film about a singing lion, then ate pizza. My little sister paid for my ice cream with her own pocket money — so sweet!"
+      }
+     ],
+     "questions": [
+      {
+       "q": "Whose birthday party was at home?",
+       "options": [
+        "Mo",
+        "Nina",
+        "Omar"
+       ],
+       "answer": 1,
+       "explain": "a garden party 在自家花园。"
+      },
+      {
+       "q": "Who celebrated later than the real birthday?",
+       "options": [
+        "Mo",
+        "Nina",
+        "Omar"
+       ],
+       "answer": 2,
+       "explain": "生日在上学日，周末才庆祝。"
+      },
+      {
+       "q": "Who watched something about space?",
+       "options": [
+        "Mo",
+        "Nina",
+        "Omar"
+       ],
+       "answer": 0,
+       "explain": "a show about stars。"
+      },
+      {
+       "q": "Who got a present they use every day?",
+       "options": [
+        "Mo",
+        "Nina",
+        "Omar"
+       ],
+       "answer": 1,
+       "explain": "ride it to school now。"
+      },
+      {
+       "q": "Whose family member spent their own money?",
+       "options": [
+        "Mo",
+        "Nina",
+        "Omar"
+       ],
+       "answer": 2,
+       "explain": "妹妹用零花钱买冰淇淋。"
+      },
+      {
+       "q": "Who ate something that looked like the moon?",
+       "options": [
+        "Mo",
+        "Nina",
+        "Omar"
+       ],
+       "answer": 0,
+       "explain": "a cake like the moon。"
+      },
+      {
+       "q": "Who played a game outside in the evening?",
+       "options": [
+        "Mo",
+        "Nina",
+        "Omar"
+       ],
+       "answer": 1,
+       "explain": "hide and seek until dark。"
+      }
+     ]
+    }
+   ]
+  },
+  "part3": {
+   "name": "Part 3 · 长文理解",
+   "desc": "一篇 150-200 词长文 + 5 题三选一（细节与主旨）",
+   "sets": [
+    {
+     "id": "rp3-01",
+     "topic": "长文 · 爷爷的菜园",
+     "title": "Grandpa's Garden",
+     "passage": "My grandpa has a small garden behind his house, and he says it is his best friend. Every morning before breakfast, he walks between the plants and talks to them! Mum laughs at him, but Grandpa says plants grow better when they hear a kind voice.\nIn spring, I help him plant tomatoes and beans. He never uses gloves because he likes to feel the earth. \"Soft hands, soft heart,\" he always says. I don't really know what it means, but I like it.\nThe best time is summer. We pick tomatoes together, still warm from the sun, and eat them right there in the garden. They taste better than any tomatoes from a shop.\nLast winter, Grandpa was ill for a month and could not go outside. I visited every weekend and watered everything for him. When he got better and saw his garden green and healthy, he didn't say anything. He just held my hand. Soft hands, I thought.",
+     "questions": [
+      {
+       "q": "What does Grandpa do every morning?",
+       "options": [
+        "He eats tomatoes.",
+        "He speaks to his plants.",
+        "He laughs with Mum."
+       ],
+       "answer": 1,
+       "explain": "walks between the plants and talks to them。"
+      },
+      {
+       "q": "Why does Grandpa work without gloves?",
+       "options": [
+        "He cannot find them.",
+        "He wants to touch the earth.",
+        "His hands are too big."
+       ],
+       "answer": 1,
+       "explain": "he likes to feel the earth。"
+      },
+      {
+       "q": "Why do the summer tomatoes taste special?",
+       "options": [
+        "They come from a good shop.",
+        "They are eaten fresh in the garden.",
+        "Grandpa cooks them well."
+       ],
+       "answer": 1,
+       "explain": "刚摘的、带着太阳温度、当场吃。"
+      },
+      {
+       "q": "What happened last winter?",
+       "options": [
+        "The garden died.",
+        "Grandpa could not leave the house.",
+        "The writer was ill."
+       ],
+       "answer": 1,
+       "explain": "ill for a month and could not go outside。"
+      },
+      {
+       "q": "How did Grandpa feel at the end?",
+       "options": [
+        "Thankful but quiet.",
+        "Angry about the garden.",
+        "Sad about his hands."
+       ],
+       "answer": 0,
+       "explain": "没说话只是握手——无声的感谢。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-02",
+     "topic": "长文 · 夜市",
+     "title": "The Night Market",
+     "passage": "Once a month in summer, our town has a night market by the river. It opens when the sky gets dark and the street lights come on. My parents let me stay up late for it — it is the only night I go to bed after ten!\nYou can smell the market before you see it: sweet corn, fried noodles, and hot sugar. My favourite stand sells little fish-shaped cakes with chocolate inside. The man there knows me now and always gives me one extra.\nThere is music too. Students from the university play guitars near the bridge, and people put coins in their guitar case. Last time, my little brother danced in front of everyone, and a woman gave him a coin too! He wants to go back every night now.\nMum buys vegetables and cheap bowls; Dad just eats. Me? I like walking slowly through the lights and sounds, holding my warm fish cake. The market closes at midnight, but I never see it close — I am always asleep in the car long before that.",
+     "questions": [
+      {
+       "q": "How often is the night market?",
+       "options": [
+        "Every night in summer.",
+        "One time each month in summer.",
+        "Only once a year."
+       ],
+       "answer": 1,
+       "explain": "Once a month in summer。"
+      },
+      {
+       "q": "What is special about the writer's favourite food?",
+       "options": [
+        "It looks like a fish.",
+        "It is made of fish.",
+        "It is very big."
+       ],
+       "answer": 0,
+       "explain": "fish-shaped cakes 鱼形小蛋糕，巧克力馅。"
+      },
+      {
+       "q": "Why did a woman give the brother a coin?",
+       "options": [
+        "He played the guitar.",
+        "He danced in front of people.",
+        "He sold her a bowl."
+       ],
+       "answer": 1,
+       "explain": "danced in front of everyone。"
+      },
+      {
+       "q": "What does Dad do at the market?",
+       "options": [
+        "He buys bowls.",
+        "He eats food.",
+        "He plays music."
+       ],
+       "answer": 1,
+       "explain": "Dad just eats。"
+      },
+      {
+       "q": "Why does the writer never see the market close?",
+       "options": [
+        "It never closes.",
+        "The writer falls asleep before midnight.",
+        "The family leaves at ten."
+       ],
+       "answer": 1,
+       "explain": "always asleep in the car long before that。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-03",
+     "topic": "长文 · 双胞胎",
+     "title": "Twins",
+     "passage": "Ada and Ida are twins in my class, and for two years I could not tell them apart. Same brown eyes, same short hair, same way of laughing with their heads back. Even our teacher sometimes called Ada \"Ida\" and Ida \"Ada\". The twins never got angry; they just answered to both names.\nBut this year I learned their secret differences. Ada writes with her left hand and always has ink on her little finger. Ida draws tiny stars in the corner of her notebooks. Ada is afraid of dogs but loves thunder; Ida is the opposite — she runs to the window when a dog walks by, and hides under the desk in a storm.\nLast week, a new boy joined our class and asked me, \"How do you know who is who?\" I told him: \"You don't have to know. Just be their friend, and one day you will see two different people.\" He looked at me strangely. But he will understand, like I did.",
+     "questions": [
+      {
+       "q": "For a long time, how did the writer feel about the twins?",
+       "options": [
+        "They were impossible to tell apart.",
+        "They were not friendly.",
+        "They laughed too much."
+       ],
+       "answer": 0,
+       "explain": "could not tell them apart。"
+      },
+      {
+       "q": "What did the twins do when people mixed their names?",
+       "options": [
+        "They got angry.",
+        "They answered anyway.",
+        "They corrected the teacher."
+       ],
+       "answer": 1,
+       "explain": "just answered to both names。"
+      },
+      {
+       "q": "How can you know Ada by looking at her hand?",
+       "options": [
+        "She has ink on a finger.",
+        "She draws stars on it.",
+        "She hides it in storms."
+       ],
+       "answer": 0,
+       "explain": "左手写字，小指沾墨水。"
+      },
+      {
+       "q": "What does Ida do when there is thunder?",
+       "options": [
+        "She runs to the window.",
+        "She goes under the desk.",
+        "She laughs with her head back."
+       ],
+       "answer": 1,
+       "explain": "hides under the desk in a storm。"
+      },
+      {
+       "q": "What is the writer's advice to the new boy?",
+       "options": [
+        "Ask the teacher for help.",
+        "Become their friend first.",
+        "Look at their notebooks."
+       ],
+       "answer": 1,
+       "explain": "Just be their friend…。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-04",
+     "topic": "长文 · 我们的乐团去比赛",
+     "title": "The Big Competition",
+     "passage": "Last month, our school orchestra travelled to the city for a young musicians' competition. Forty children, twelve violins, one very heavy drum kit and Mr Tan, our conductor, all went in one bus. Mr Tan sang funny songs the whole way, maybe because he was more nervous than us.\nThe concert hall was the biggest room I have ever seen. Our shoes made little squeaky sounds on the shiny floor. When the team before us finished, everyone clapped for a long time, and my hands went cold. \"They are so good,\" whispered my friend Yu.\nThen something surprising happened. Mr Tan gathered us in a circle and said, \"Forget the prize. Play for the bus ride home — let's make it a happy one.\" So we did. We played our three songs and I made one small mistake, but nobody stopped, and the last note filled the hall like warm water.\nWe came second. On the bus home, we sang all the way — and this time, Mr Tan just listened, smiling with his eyes closed.",
+     "questions": [
+      {
+       "q": "Why did Mr Tan probably sing on the way there?",
+       "options": [
+        "He was feeling nervous.",
+        "The children asked him to.",
+        "He wanted to practise."
+       ],
+       "answer": 0,
+       "explain": "maybe because he was more nervous than us。"
+      },
+      {
+       "q": "How did the writer feel after hearing the team before them?",
+       "options": [
+        "Worried.",
+        "Bored.",
+        "Angry."
+       ],
+       "answer": 0,
+       "explain": "鼓掌很久+手发凉 → 紧张担心。"
+      },
+      {
+       "q": "What did Mr Tan tell the orchestra to do?",
+       "options": [
+        "Win the first prize.",
+        "Play to make themselves happy.",
+        "Play without mistakes."
+       ],
+       "answer": 1,
+       "explain": "Forget the prize… make it a happy one。"
+      },
+      {
+       "q": "What happened when the writer made a mistake?",
+       "options": [
+        "The music went on.",
+        "Mr Tan stopped the song.",
+        "The hall went quiet."
+       ],
+       "answer": 0,
+       "explain": "nobody stopped。"
+      },
+      {
+       "q": "What is the best title idea for the last part?",
+       "options": [
+        "A sad ride home.",
+        "Second place, first happiness.",
+        "Mr Tan's new song."
+       ],
+       "answer": 1,
+       "explain": "得了第二名，却收获了最快乐的归程。"
+      }
+     ]
+    },
+    {
+     "id": "rp3-05",
+     "topic": "长文 · 街角书店",
+     "title": "The Corner Bookshop",
+     "passage": "There is a little bookshop on the corner of our street, between the bank and the flower shop. It is easy to walk past it — but don't, because inside it is bigger than it looks, with stairs going down to a room full of children's books.\nThe owner, Mrs Petrova, remembers what every child likes. When I was eight, she gave me my first mystery book. \"Careful,\" she said, \"mysteries eat your sleep.\" She was right. I read it under my blanket with a torch.\nThe shop has one strange rule: if you finish a book and bring it back with a short letter about it, you get half your money back for the next book. The wall behind Mrs Petrova is covered with hundreds of these letters, some from children who are now grown up with children of their own.\nLast Saturday, I added my ninth letter to the wall. Mrs Petrova read it, smiled, and said, \"One more, and you get a special prize.\" I already know what I want: the big blue book of sea stories in the window. Five more days of reading. I had better start tonight.",
+     "questions": [
+      {
+       "q": "What is surprising about the shop?",
+       "options": [
+        "It has no children's books.",
+        "It is larger inside than it looks.",
+        "It is inside a bank."
+       ],
+       "answer": 1,
+       "explain": "bigger than it looks + 地下室。"
+      },
+      {
+       "q": "What did Mrs Petrova mean by \"mysteries eat your sleep\"?",
+       "options": [
+        "Mystery books are scary.",
+        "You will read instead of sleeping.",
+        "The books are too long."
+       ],
+       "answer": 1,
+       "explain": "看得停不下来，睡觉时间都被吃掉——作者果然打着手电看。"
+      },
+      {
+       "q": "How can children pay less for their next book?",
+       "options": [
+        "By writing about the last book.",
+        "By buying two books.",
+        "By coming on Saturdays."
+       ],
+       "answer": 0,
+       "explain": "带书回来+写一封短信 → 半价。"
+      },
+      {
+       "q": "What do the letters on the wall show?",
+       "options": [
+        "The shop is very old and loved.",
+        "The books are expensive.",
+        "Mrs Petrova writes many letters."
+       ],
+       "answer": 0,
+       "explain": "几百封信，有的作者已长大成家——老店与爱。"
+      },
+      {
+       "q": "What will the writer probably do tonight?",
+       "options": [
+        "Buy the blue book.",
+        "Start reading a book.",
+        "Write the tenth letter."
+       ],
+       "answer": 1,
+       "explain": "I had better start tonight = 今晚开始读。"
+      }
+     ]
+    }
+   ]
+  },
+  "part4": {
+   "name": "Part 4 · 多选完形",
+   "desc": "一篇说明文 + 6 空三选一，以词汇为主",
+   "sets": [
+    {
+     "id": "rp4-01",
+     "topic": "完形 · 蜜蜂",
+     "title": "Busy Bees",
+     "passage": "Bees are small but very important. They fly from flower to flower and (1) ___ sweet honey for us. One bee family can be very big — up to sixty thousand bees (2) ___ together in one home! Every bee has a job. Some look for food, some clean, and some (3) ___ the baby bees. When a bee finds good flowers, it does a little (4) ___ to tell the others where to go. Bees work all summer to (5) ___ food for the cold months. Without bees, we would have much (6) ___ fruit to eat, so we should be kind to them.",
+     "gaps": [
+      {
+       "options": [
+        "make",
+        "draw",
+        "wash"
+       ],
+       "answer": 0,
+       "explain": "make honey 酿蜜。"
+      },
+      {
+       "options": [
+        "sleep",
+        "live",
+        "shop"
+       ],
+       "answer": 1,
+       "explain": "住在一起 → live together。"
+      },
+      {
+       "options": [
+        "look after",
+        "look for",
+        "look at"
+       ],
+       "answer": 0,
+       "explain": "照顾幼蜂 → look after。"
+      },
+      {
+       "options": [
+        "song",
+        "dance",
+        "picture"
+       ],
+       "answer": 1,
+       "explain": "蜜蜂用「舞蹈」传递方向。"
+      },
+      {
+       "options": [
+        "keep",
+        "lose",
+        "sell"
+       ],
+       "answer": 0,
+       "explain": "为冬天存粮 → keep food。"
+      },
+      {
+       "options": [
+        "more",
+        "less",
+        "better"
+       ],
+       "answer": 1,
+       "explain": "没有蜜蜂水果会少得多 → much less。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-02",
+     "topic": "完形 · 自行车的历史",
+     "title": "Two Wheels",
+     "passage": "The first bicycles were very (1) ___ from the bikes we ride today. They were made of wood and had no pedals — riders pushed the ground with their (2) ___! Later, bikes got one huge front wheel. They were fast but not (3) ___, and riders often fell. About one hundred and forty years ago, bikes with two same-size wheels arrived, and soon everybody wanted one. Today, millions of people (4) ___ their bikes to school or work. Riding is cheap, quiet and good for your (5) ___. In some cities you can even (6) ___ a city bike with a phone and leave it anywhere.",
+     "gaps": [
+      {
+       "options": [
+        "different",
+        "far",
+        "heavy"
+       ],
+       "answer": 0,
+       "explain": "different from 与…不同。"
+      },
+      {
+       "options": [
+        "hands",
+        "feet",
+        "eyes"
+       ],
+       "answer": 1,
+       "explain": "没有脚踏板，用脚蹬地。"
+      },
+      {
+       "options": [
+        "cheap",
+        "safe",
+        "tall"
+       ],
+       "answer": 1,
+       "explain": "快但不安全，常摔倒。"
+      },
+      {
+       "options": [
+        "ride",
+        "drive",
+        "carry"
+       ],
+       "answer": 0,
+       "explain": "ride a bike 骑车。"
+      },
+      {
+       "options": [
+        "health",
+        "money",
+        "school"
+       ],
+       "answer": 0,
+       "explain": "good for your health。"
+      },
+      {
+       "options": [
+        "sell",
+        "break",
+        "take"
+       ],
+       "answer": 2,
+       "explain": "用手机取用共享单车 → take。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-03",
+     "topic": "完形 · 图书馆的一天",
+     "title": "A Day at the Library",
+     "passage": "Our town library is not just a place for books. In the morning, little children come with their parents to (1) ___ to story time. At lunch, students sit in the quiet room and (2) ___ their homework. There is a computer room where old people learn to send emails to their grandchildren — the young librarian (3) ___ them patiently. On Friday afternoons there is a chess club, and you can (4) ___ the games even if you don't play. Best of all, everything is (5) ___ — you never pay. You only need a library card, and you can get one in five (6) ___.",
+     "gaps": [
+      {
+       "options": [
+        "listen",
+        "watch",
+        "read"
+       ],
+       "answer": 0,
+       "explain": "listen to story time 听故事会。"
+      },
+      {
+       "options": [
+        "make",
+        "do",
+        "give"
+       ],
+       "answer": 1,
+       "explain": "do homework 固定搭配。"
+      },
+      {
+       "options": [
+        "helps",
+        "asks",
+        "pays"
+       ],
+       "answer": 0,
+       "explain": "图书管理员耐心帮助他们。"
+      },
+      {
+       "options": [
+        "play",
+        "watch",
+        "win"
+       ],
+       "answer": 1,
+       "explain": "不下棋也可以看 → watch the games。"
+      },
+      {
+       "options": [
+        "free",
+        "new",
+        "open"
+       ],
+       "answer": 0,
+       "explain": "全部免费 → everything is free。"
+      },
+      {
+       "options": [
+        "days",
+        "hours",
+        "minutes"
+       ],
+       "answer": 2,
+       "explain": "五分钟就能办卡。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-04",
+     "topic": "完形 · 声音与音乐",
+     "title": "What Is Sound?",
+     "passage": "Put your hand on your throat and say \"aaah\". Can you feel it moving? Sound is made when something moves very fast, again and again. Musicians use this idea every (1) ___. When you pull a guitar string, it moves and makes the air (2) ___ it move too. The moving air travels to your (3) ___ like small waves on water. Big, slow waves make (4) ___ sounds, like a drum. Small, fast waves make high sounds, like a little (5) ___. In space there is no air, so there are no waves and no sound at all. That is why films about space should really be (6) ___!",
+     "gaps": [
+      {
+       "options": [
+        "day",
+        "sound",
+        "string"
+       ],
+       "answer": 0,
+       "explain": "every day 每天都在用这个原理。"
+      },
+      {
+       "options": [
+        "under",
+        "around",
+        "after"
+       ],
+       "answer": 1,
+       "explain": "琴弦让周围的空气也动起来。"
+      },
+      {
+       "options": [
+        "ears",
+        "hands",
+        "mouth"
+       ],
+       "answer": 0,
+       "explain": "声波传到耳朵。"
+      },
+      {
+       "options": [
+        "high",
+        "low",
+        "sweet"
+       ],
+       "answer": 1,
+       "explain": "大而慢的波 → 低音（鼓）。"
+      },
+      {
+       "options": [
+        "bird",
+        "lion",
+        "fish"
+       ],
+       "answer": 0,
+       "explain": "高音像小鸟叫。"
+      },
+      {
+       "options": [
+        "loud",
+        "quiet",
+        "long"
+       ],
+       "answer": 1,
+       "explain": "太空没有声音，电影本该是安静的。"
+      }
+     ]
+    },
+    {
+     "id": "rp4-05",
+     "topic": "完形 · 早餐",
+     "title": "The First Meal",
+     "passage": "Many doctors say breakfast is the most important (1) ___ of the day. After a long night, your body is like a car with an empty tank — it needs something before it can (2) ___ well. Children who eat a good breakfast often (3) ___ better marks at school because it is easier for them to think. A good breakfast does not need to be big. An egg, some bread and a (4) ___ of milk are enough. Try not to eat too many sweet things in the morning: they wake you up fast, but soon you feel (5) ___ again. And here is a nice idea: get everything ready the night (6) ___, and you can sleep ten more minutes!",
+     "gaps": [
+      {
+       "options": [
+        "meal",
+        "lesson",
+        "game"
+       ],
+       "answer": 0,
+       "explain": "一天中最重要的一餐 → meal。"
+      },
+      {
+       "options": [
+        "sleep",
+        "work",
+        "stop"
+       ],
+       "answer": 1,
+       "explain": "身体需要能量才能好好运转 → work well。"
+      },
+      {
+       "options": [
+        "take",
+        "give",
+        "get"
+       ],
+       "answer": 2,
+       "explain": "get better marks 取得更好成绩。"
+      },
+      {
+       "options": [
+        "glass",
+        "piece",
+        "pair"
+       ],
+       "answer": 0,
+       "explain": "一杯牛奶 → a glass of milk。"
+      },
+      {
+       "options": [
+        "happy",
+        "tired",
+        "tall"
+       ],
+       "answer": 1,
+       "explain": "糖分让你快醒也快累 → tired。"
+      },
+      {
+       "options": [
+        "after",
+        "ago",
+        "before"
+       ],
+       "answer": 2,
+       "explain": "the night before 前一天晚上。"
+      }
+     ]
+    }
+   ]
+  },
+  "part5": {
+   "name": "Part 5 · 开放完形（语法小词，6 分可速成）",
+   "desc": "一封 A2 邮件 6 空，每空填一词无选项，答案全是 1-3 个字母的小词，拼写必须正确",
+   "sets": [
+    {
+     "id": "p5-01",
+     "topic": "周末去公园",
+     "passage": "Hi Anna,\nAre you free (1) ___ Saturday? My mum can take (2) ___ to the new park near the river. There is (3) ___ big lake and we can feed the ducks. My brother wants to come, too. We will have a lot (4) ___ food for a picnic. (5) ___ you like sandwiches? Please write back (6) ___ me soon.\nLove, Mei",
+     "gaps": [
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "星期几用 on：on Saturday。"
+      },
+      {
+       "answer": "us",
+       "category": "代词(宾格)",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "动词 take 后面用宾格：妈妈带「我们」→ us。"
+      },
+      {
+       "answer": "a",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到的可数单数 → a big lake。"
+      },
+      {
+       "answer": "of",
+       "category": "量词搭配",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "a lot of 固定搭配。"
+      },
+      {
+       "answer": "do",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词",
+       "explain": "句首+问号+动词 like → Do you like…?"
+      },
+      {
+       "answer": "to",
+       "category": "介词",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "write back to me 给我回信。"
+      }
+     ]
+    },
+    {
+     "id": "p5-02",
+     "topic": "谢谢生日礼物",
+     "passage": "Dear Ben,\nThank you (1) ___ the football shirt! It (2) ___ my favourite colour, blue. I wore it (3) ___ school yesterday and all my friends liked it. My old shirt was too small for (4) ___. Next week we have a big match. (5) ___ you come and watch it? The game starts (6) ___ four o'clock.\nFrom, Leo",
+     "gaps": [
+      {
+       "answer": "for",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "thank you for… 为…而感谢。"
+      },
+      {
+       "answer": "is",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "句子缺等号：It is my favourite colour。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(方向)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "wore it to school 穿去学校。"
+      },
+      {
+       "answer": "me",
+       "category": "代词(宾格)",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "for 后面用宾格 me。"
+      },
+      {
+       "answer": "can",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词",
+       "explain": "句首+问号 → Can you come…? 发出邀请。"
+      },
+      {
+       "answer": "at",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "几点钟是时间的「点」→ at four o'clock。"
+      }
+     ]
+    },
+    {
+     "id": "p5-03",
+     "topic": "邀请来我家",
+     "passage": "Hi Tom,\nWould you like to come to (1) ___ house on Sunday? We can play (2) ___ new computer game. My dad will make pizza (3) ___ lunch. You can bring your dog if you want — (4) ___ loves playing in our garden! We live next (5) ___ the bookshop. Please ask (6) ___ mum first.\nSee you, Jack",
+     "gaps": [
+      {
+       "answer": "my",
+       "alt": [
+        "our"
+       ],
+       "category": "限定词(物主)",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "来「我家」→ my house（our 也通）。"
+      },
+      {
+       "answer": "a",
+       "alt": [
+        "my",
+        "the"
+       ],
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到的游戏 → a new computer game。"
+      },
+      {
+       "answer": "for",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "make pizza for lunch 当午饭。"
+      },
+      {
+       "answer": "it",
+       "alt": [
+        "he",
+        "she"
+       ],
+       "category": "代词",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "指代前面的 your dog → it（he/she 也通）。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "next to 挨着，固定搭配。"
+      },
+      {
+       "answer": "your",
+       "category": "限定词(物主)",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "问「你的」妈妈 → your mum。"
+      }
+     ]
+    },
+    {
+     "id": "p5-04",
+     "topic": "学校音乐会",
+     "passage": "Dear Grandma,\nOur school concert is (1) ___ Friday evening. I am going to play (2) ___ violin! We practised a (3) ___ of songs this month. The concert is in the school hall and it is free, so you (4) ___ not need a ticket. Mum and Dad (5) ___ coming too. I hope you can come and listen (6) ___ us.\nLove, Yuan",
+     "gaps": [
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "具体某天(晚) → on Friday evening。"
+      },
+      {
+       "answer": "the",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "play the violin 演奏乐器加 the。"
+      },
+      {
+       "answer": "lot",
+       "category": "量词",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "a lot of songs 很多歌。"
+      },
+      {
+       "answer": "do",
+       "category": "助动词",
+       "shape": "否定句里动词前缺帮手 → do",
+       "explain": "you do not need… 否定要请 do。"
+      },
+      {
+       "answer": "are",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "进行时两件套：are coming。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "listen to us 听我们(演奏)。"
+      }
+     ]
+    },
+    {
+     "id": "p5-05",
+     "topic": "海边度假明信片",
+     "passage": "Hi Amy,\nWe are (1) ___ holiday in Hainan! Our hotel is near the sea and I swim every day. Yesterday we went (2) ___ a small island by boat. I saw (3) ___ old fisherman and lots of white birds. The food is great and I eat a (4) ___ of fruit. I bought a present (5) ___ you. See you (6) ___ Monday!\nFrom, Lily",
+     "gaps": [
+      {
+       "answer": "on",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "on holiday 在度假，整块背。"
+      },
+      {
+       "answer": "to",
+       "category": "介词(方向)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "went to a small island 去了小岛。"
+      },
+      {
+       "answer": "an",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your），注意元音开头",
+       "explain": "old 元音开头 → an old fisherman。"
+      },
+      {
+       "answer": "lot",
+       "category": "量词",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "a lot of fruit。"
+      },
+      {
+       "answer": "for",
+       "category": "介词",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "a present for you 给你的礼物。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "星期几 → on Monday。"
+      }
+     ]
+    },
+    {
+     "id": "p5-06",
+     "topic": "我的新宠物",
+     "passage": "Dear Sam,\nGuess what! I have (1) ___ new pet cat. Her name is Snow because she (2) ___ white. She likes sleeping (3) ___ my bed and playing with paper balls. Every morning she wakes me (4) ___ at six o'clock! (5) ___ your dog like cats? Maybe they can (6) ___ friends one day.\nFrom, Kiki",
+     "gaps": [
+      {
+       "answer": "a",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到 → a new pet cat。"
+      },
+      {
+       "answer": "is",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "she is white 缺等号。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(地点)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "睡在床「面」上 → on my bed。"
+      },
+      {
+       "answer": "up",
+       "category": "介词(短语)",
+       "shape": "动词后面的小尾巴 → 短语动词",
+       "explain": "wake me up 把我叫醒，整块背。"
+      },
+      {
+       "answer": "does",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词，主语是第三人称单数",
+       "explain": "句首+问号+your dog(单数) → Does。"
+      },
+      {
+       "answer": "be",
+       "category": "be 动词(原形)",
+       "shape": "can 后面要动词原形",
+       "explain": "can be friends：can 后用原形 be。"
+      }
+     ]
+    },
+    {
+     "id": "p5-07",
+     "topic": "搬家转学",
+     "passage": "Hi Emma,\nWe moved to Beijing last month and I go to (1) ___ new school now. It is very big and I like (2) ___ a lot. My classroom is (3) ___ the third floor. I made two new friends and they help (4) ___ with my homework. I can practise the violin (5) ___ school after class. (6) ___ you want to visit me in the holidays?\nWrite soon, Mia",
+     "gaps": [
+      {
+       "answer": "a",
+       "category": "限定词",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "第一次提到的学校 → a new school。"
+      },
+      {
+       "answer": "it",
+       "category": "代词",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "指代前面的 school → I like it。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(地点)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "楼层用 on：on the third floor。"
+      },
+      {
+       "answer": "me",
+       "category": "代词(宾格)",
+       "shape": "指代前文的人或物 → 代词",
+       "explain": "help me 帮我。"
+      },
+      {
+       "answer": "at",
+       "category": "介词(搭配)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "at school 在学校，整块背。"
+      },
+      {
+       "answer": "do",
+       "category": "助动词",
+       "shape": "空格在句首 + 句尾问号 → 助动词",
+       "explain": "句首+问号+want → Do you want…?"
+      }
+     ]
+    },
+    {
+     "id": "p5-08",
+     "topic": "运动会",
+     "passage": "Dear Uncle Wang,\nNext Thursday is our school sports day and I (1) ___ going to run in two races. Last year I (2) ___ second in the long race. This year I will try (3) ___ best! We do not have lessons (4) ___ that day. Mum will bring water and snacks for all (5) ___ us. Can you come (6) ___ watch me run?\nLove, Dong",
+     "gaps": [
+      {
+       "answer": "am",
+       "category": "be 动词",
+       "shape": "句子缺等号 → be 动词",
+       "explain": "I am going to… 将要做，缺等号 am。"
+      },
+      {
+       "answer": "was",
+       "category": "be 动词(过去)",
+       "shape": "last year → 过去的等号",
+       "explain": "Last year I was second 去年得第二。"
+      },
+      {
+       "answer": "my",
+       "category": "限定词(物主)",
+       "shape": "空格后是名词 → 限定词（a/the/my/your）",
+       "explain": "try my best 尽我全力，整块背。"
+      },
+      {
+       "answer": "on",
+       "category": "介词(时间)",
+       "shape": "空格前动词/名词、后面接时间或地点 → 介词",
+       "explain": "具体某一天 → on that day。"
+      },
+      {
+       "answer": "of",
+       "category": "量词搭配",
+       "shape": "空格后是 of → 量词（lot）",
+       "explain": "all of us 我们所有人。"
+      },
+      {
+       "answer": "and",
+       "alt": [
+        "to"
+       ],
+       "category": "连接词",
+       "shape": "两个动作手拉手 → and（to 也通）",
+       "explain": "come and watch / come to watch 都对。"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

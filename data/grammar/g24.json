@@ -5,7 +5,9 @@
   "title": "反义疑问句",
   "metaphor": "返场时确认一句「对吧？」",
   "ketRelevance": 1,
-  "ketLessonMap": ["L2"],
+  "ketLessonMap": [
+    "L2"
+  ],
   "ketNote": "KET 听力口语里高频出现；「Yes/No 跟事实走」的回答规则是听力理解的隐形考点。八课里的亲戚是 L2 的助动词家族。",
   "source": "original",
   "sections": {
@@ -47,26 +49,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "It's a lovely day, isn't it?", "cn": "天气真好，对吧？（be 配 be，前肯后否）" },
-          { "en": "You are in Class Three, aren't you?", "cn": "你在三班，对吧？" },
-          { "en": "She plays the violin, doesn't she?", "cn": "她拉小提琴，对吧？（实义动词请 does）" },
-          { "en": "He can ride a bike, can't he?", "cn": "他会骑车，对吧？（情态词原样上尾巴）" },
-          { "en": "They went home early, didn't they?", "cn": "他们回去得早，对吧？（过去时请 did）" }
+          {
+            "en": "It's a lovely day, isn't it?",
+            "cn": "天气真好，对吧？（be 配 be，前肯后否）"
+          },
+          {
+            "en": "You are in Class Three, aren't you?",
+            "cn": "你在三班，对吧？"
+          },
+          {
+            "en": "She plays the violin, doesn't she?",
+            "cn": "她拉小提琴，对吧？（实义动词请 does）"
+          },
+          {
+            "en": "He can ride a bike, can't he?",
+            "cn": "他会骑车，对吧？（情态词原样上尾巴）"
+          },
+          {
+            "en": "They went home early, didn't they?",
+            "cn": "他们回去得早，对吧？（过去时请 did）"
+          }
         ],
         "mid": [
-          { "en": "You aren't afraid of the dark, are you?", "cn": "你不怕黑，对吧？（前否后肯）" },
-          { "en": "Tom didn't come to the rehearsal, did he?", "cn": "汤姆没来排练，对吧？（主语缩成 he）" },
-          { "en": "There is a music room upstairs, isn't there?", "cn": "楼上有间音乐教室，对吧？（there 留在尾巴）" },
-          { "en": "I am on the list, aren't I?", "cn": "名单上有我，对吧？（I am 的特殊尾巴）" },
-          { "en": "Let's start from the chorus, shall we?", "cn": "咱们从副歌开始，好吗？（Let's 配 shall we）" }
+          {
+            "en": "You aren't afraid of the dark, are you?",
+            "cn": "你不怕黑，对吧？（前否后肯）"
+          },
+          {
+            "en": "Tom didn't come to the rehearsal, did he?",
+            "cn": "汤姆没来排练，对吧？（主语缩成 he）"
+          },
+          {
+            "en": "There is a music room upstairs, isn't there?",
+            "cn": "楼上有间音乐教室，对吧？（there 留在尾巴）"
+          },
+          {
+            "en": "I am on the list, aren't I?",
+            "cn": "名单上有我，对吧？（I am 的特殊尾巴）"
+          },
+          {
+            "en": "Let's start from the chorus, shall we?",
+            "cn": "咱们从副歌开始，好吗？（Let's 配 shall we）"
+          }
         ],
         "trap": [
-          { "en": "He never forgets his lines, does he?", "cn": "他从不忘词，对吧？", "note": "never 已是否定——尾巴反着用肯定 does he。" },
-          { "en": "— You didn't lose the ticket, did you? — No, I didn't.", "cn": "——票没丢吧？——对，没丢。", "note": "中文答「对」，英语答 No——Yes/No 跟事实走，不跟「你说得对」走。" },
-          { "en": "— She likes spicy food, doesn't she? — Yes, she does.", "cn": "——她爱吃辣，对吧？——对，爱吃。", "note": "事实是肯定就 Yes——前后半句必须配套，别说 Yes, she doesn't。" },
-          { "en": "Your parents work in a hospital, don't they?", "cn": "你父母在医院工作，对吧？", "note": "parents 复数缩成 they，助手是 don't。" },
-          { "en": "The little cat is hungry, isn't it?", "cn": "小猫饿了，对吧？", "note": "isn't it 只配 be 动词的 it 主语——它不是万能「对吧」。" },
-          { "en": "We had a great time, didn't we?", "cn": "咱们玩得很开心，对吧？", "note": "had 是实义动词「度过」——尾巴请 did，不是 hadn't we。" }
+          {
+            "en": "He never forgets his lines, does he?",
+            "cn": "他从不忘词，对吧？",
+            "note": "never 已是否定——尾巴反着用肯定 does he。"
+          },
+          {
+            "en": "— You didn't lose the ticket, did you? — No, I didn't.",
+            "cn": "——票没丢吧？——对，没丢。",
+            "note": "中文答「对」，英语答 No——Yes/No 跟事实走，不跟「你说得对」走。"
+          },
+          {
+            "en": "— She likes spicy food, doesn't she? — Yes, she does.",
+            "cn": "——她爱吃辣，对吧？——对，爱吃。",
+            "note": "事实是肯定就 Yes——前后半句必须配套，别说 Yes, she doesn't。"
+          },
+          {
+            "en": "Your parents work in a hospital, don't they?",
+            "cn": "你父母在医院工作，对吧？",
+            "note": "parents 复数缩成 they，助手是 don't。"
+          },
+          {
+            "en": "The little cat is hungry, isn't it?",
+            "cn": "小猫饿了，对吧？",
+            "note": "isn't it 只配 be 动词的 it 主语——它不是万能「对吧」。"
+          },
+          {
+            "en": "We had a great time, didn't we?",
+            "cn": "咱们玩得很开心，对吧？",
+            "note": "had 是实义动词「度过」——尾巴请 did，不是 hadn't we。"
+          }
         ]
       }
     },
@@ -192,7 +248,7 @@
     "echo": "求一声「对吧」是全人类的通病：中文说「对吧／是吧」，法语说 n'est-ce pas，西班牙语说 ¿verdad?，德语说 oder?——都是一个固定的小词，贴在哪句后面都行。唯独英语较真：尾巴要跟主句对齐助动词、人称、时态，还得反个方向——这是它给助动词系统付出的代价。有意思的是，伦敦街头的口语已经开始「偷懒」：isn't it 被磨成了 innit，而且越来越多人拿它当万能尾巴，贴在任何句子后面——你发现了吗？英语兜了一大圈，正在往「固定小词」的方向懒回去。越常用的东西，越被磨短磨平——那条暗线，又在你眼前发生了一次。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G24 · 反义疑问句</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>返场时确认一句「对吧？」——It was a good night, wasn't it?</text><rect x='36' y='110' width='648' height='128' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🪢 尾巴三规矩</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>① 同一位助手：be→be ｜ 实义动词→do/does/did ｜ 情态词原样搬</text><text x='360' y='202' text-anchor='middle' font-size='15' fill='#5A4A42'>② 方向相反：前肯后否，前否后肯（never/no 也算否定）</text><text x='360' y='228' text-anchor='middle' font-size='15' fill='#5A4A42'>③ 主语缩成代词：Tom→he ｜ there be→there</text><rect x='36' y='258' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='193' y='292' text-anchor='middle' font-size='16' font-weight='bold' fill='#0284C7'>🎯 三个样板</text><text x='193' y='320' text-anchor='middle' font-size='14' fill='#5A4A42'>It is..., isn't it?</text><text x='193' y='344' text-anchor='middle' font-size='14' fill='#5A4A42'>She likes..., doesn't she?</text><text x='193' y='368' text-anchor='middle' font-size='14' fill='#5A4A42'>He can..., can't he?</text><rect x='370' y='258' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='527' y='292' text-anchor='middle' font-size='16' font-weight='bold' fill='#0284C7'>⭐ 两个特殊尾巴</text><text x='527' y='320' text-anchor='middle' font-size='14' fill='#5A4A42'>I am..., aren't I?（没有 amn't）</text><text x='527' y='344' text-anchor='middle' font-size='14' fill='#5A4A42'>Let's..., shall we?</text><text x='527' y='368' text-anchor='middle' font-size='14' fill='#8A7568'>祈使句：..., will you?</text><rect x='36' y='398' width='648' height='96' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='430' text-anchor='middle' font-size='18' font-weight='bold' fill='#E65100'>🧭 回答跟事实走（最大陷阱）</text><text x='360' y='460' text-anchor='middle' font-size='15' fill='#5A4A42'>— You didn't go, did you? — 没去：No, I didn't（中文的「是啊没去」≠ Yes）</text><text x='360' y='484' text-anchor='middle' font-size='14' fill='#8A7568'>Yes 后面永远接肯定，No 后面永远接否定——不许混搭</text><rect x='36' y='514' width='648' height='40' rx='16' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='540' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ isn't it 不是万能「对吧」：She sings well, doesn't she?</text><text x='360' y='578' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线：isn't it 正被磨成 innit · 英语奇遇记 🦊 G24</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='32' font-weight='bold' fill='#0284C7'>G24 · 反义疑问句</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>返场时确认一句「对吧？」——It was a good night, wasn't it?</text><rect x='36' y='110' width='648' height='128' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='23' font-weight='bold' fill='#38B2AC'>🪢 尾巴三规矩</text><text x='360' y='176' text-anchor='middle' font-size='19' fill='#5A4A42'>① 同一位助手：be→be ｜ 实义动词→do/does/did ｜ 情态词原样搬</text><text x='360' y='202' text-anchor='middle' font-size='19' fill='#5A4A42'>② 方向相反：前肯后否，前否后肯（never/no 也算否定）</text><text x='360' y='228' text-anchor='middle' font-size='19' fill='#5A4A42'>③ 主语缩成代词：Tom→he ｜ there be→there</text><rect x='36' y='258' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='193' y='292' text-anchor='middle' font-size='20' font-weight='bold' fill='#0284C7'>🎯 三个样板</text><text x='193' y='320' text-anchor='middle' font-size='18' fill='#5A4A42'>It is..., isn't it?</text><text x='193' y='344' text-anchor='middle' font-size='18' fill='#5A4A42'>She likes..., doesn't she?</text><text x='193' y='368' text-anchor='middle' font-size='18' fill='#5A4A42'>He can..., can't he?</text><rect x='370' y='258' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='2'/><text x='527' y='292' text-anchor='middle' font-size='20' font-weight='bold' fill='#0284C7'>⭐ 两个特殊尾巴</text><text x='527' y='320' text-anchor='middle' font-size='18' fill='#5A4A42'>I am..., aren't I?（没有 amn't）</text><text x='527' y='344' text-anchor='middle' font-size='18' fill='#5A4A42'>Let's..., shall we?</text><text x='527' y='368' text-anchor='middle' font-size='18' fill='#8A7568'>祈使句：..., will you?</text><rect x='36' y='398' width='648' height='96' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='430' text-anchor='middle' font-size='22' font-weight='bold' fill='#E65100'>🧭 回答跟事实走（最大陷阱）</text><text x='360' y='460' text-anchor='middle' font-size='17' fill='#5A4A42'>— You didn't go, did you? — 没去：No, I didn't（中文的「是啊没去」≠ Yes）</text><text x='360' y='484' text-anchor='middle' font-size='18' fill='#8A7568'>Yes 后面永远接肯定，No 后面永远接否定——不许混搭</text><rect x='36' y='514' width='648' height='40' rx='16' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='540' text-anchor='middle' font-size='19' fill='#C0392B'>⚠️ isn't it 不是万能「对吧」：She sings well, doesn't she?</text><text x='360' y='578' text-anchor='middle' font-size='18' fill='#94A3B8'>暗线：isn't it 正被磨成 innit · 英语奇遇记 🦊 G24</text></svg>",
     "alt": "G24 记忆卡：反义疑问句尾巴三规矩——同一位助手、方向相反、主语缩成代词；特殊尾巴 aren't I 和 shall we；回答跟事实走（没去答 No, I didn't）；警示 isn't it 不是万能对吧。"
   },
   "practice": {
@@ -200,85 +256,725 @@
       {
         "name": "认一认 · 尾巴三规矩",
         "questions": [
-          { "q": "反义疑问句的尾巴和主句方向？", "options": ["相反（前肯后否）", "相同", "随便"], "answer": 0, "explain": "所以才叫「反义」——前肯后否，前否后肯。", "level": 1 },
-          { "q": "主句用 be 动词，尾巴用什么？", "options": ["同一个 be", "do", "have"], "answer": 0, "explain": "It is..., isn't it?——助手不换人。", "level": 1 },
-          { "q": "主句是实义动词（likes），尾巴请谁？", "options": ["does", "isn't", "can"], "answer": 0, "explain": "实义动词不上尾巴——请老搭档 do/does/did。", "level": 1 },
-          { "q": "主句有 can，尾巴用？", "options": ["can't", "doesn't", "isn't"], "answer": 0, "explain": "情态词原样搬上尾巴——can't he?", "level": 1 },
-          { "q": "尾巴里的主语要变成？", "options": ["代词", "全名", "名词复数"], "answer": 0, "explain": "Tom → he，the girls → they。", "level": 1 },
-          { "q": "I am late, ___? 的尾巴是？", "options": ["aren't I", "amn't I", "isn't I"], "answer": 0, "explain": "英语没有 amn't——借用 aren't I。", "level": 1 },
-          { "q": "Let's dance, ___? 的尾巴是？", "options": ["shall we", "will we", "don't we"], "answer": 0, "explain": "Let's 的专属尾巴——shall we。", "level": 1 },
-          { "q": "never 在主句里出现，尾巴用？", "options": ["肯定", "否定", "都行"], "answer": 0, "explain": "never 已算否定——尾巴反向用肯定。", "level": 1 },
-          { "q": "There is a shop here, ___? 尾巴主语是？", "options": ["isn't there", "isn't it", "isn't she"], "answer": 0, "explain": "there be 的尾巴还是 there。", "level": 1 },
-          { "q": "回答反义疑问句，Yes/No 跟着什么走？", "options": ["事实", "对方说得对不对", "语气"], "answer": 0, "explain": "事实肯定 Yes，事实否定 No——不看问法。", "level": 1 },
-          { "q": "It's hot today, ___?", "options": ["isn't it", "is it", "doesn't it"], "answer": 0, "explain": "be 配 be，前肯后否——isn't it。", "level": 1 },
-          { "q": "You aren't tired, ___?", "options": ["are you", "aren't you", "do you"], "answer": 0, "explain": "前否后肯——are you。", "level": 1 },
-          { "q": "尾巴降调说出来，表示什么？", "options": ["求确认（对吧）", "真的不知道", "生气"], "answer": 0, "explain": "降调是求共鸣；升调才是真没把握。", "level": 1 },
-          { "q": "She swims fast, ___?", "options": ["doesn't she", "isn't she", "isn't it"], "answer": 0, "explain": "swims 是实义动词——请 does。", "level": 1 },
-          { "q": "isn't it 能当万能「对吧」到处贴吗？", "options": ["不能——尾巴要跟主句配套", "能，很方便", "只有周末能"], "answer": 0, "explain": "中式万能尾巴是大坑——每条尾巴现做。", "level": 1 },
-          { "q": "Yes 后面接的半句必须是？", "options": ["肯定（Yes, I did）", "否定（Yes, I didn't）", "什么都行"], "answer": 0, "explain": "Yes+肯定、No+否定——不许混搭。", "level": 1 }
+          {
+            "q": "反义疑问句的尾巴和主句方向？",
+            "options": [
+              "相反（前肯后否）",
+              "相同",
+              "随便"
+            ],
+            "answer": 0,
+            "explain": "所以才叫「反义」——前肯后否，前否后肯。",
+            "level": 1
+          },
+          {
+            "q": "主句用 be 动词，尾巴用什么？",
+            "options": [
+              "同一个 be",
+              "do",
+              "have"
+            ],
+            "answer": 0,
+            "explain": "It is..., isn't it?——助手不换人。",
+            "level": 1
+          },
+          {
+            "q": "主句是实义动词（likes），尾巴请谁？",
+            "options": [
+              "does",
+              "isn't",
+              "can"
+            ],
+            "answer": 0,
+            "explain": "实义动词不上尾巴——请老搭档 do/does/did。",
+            "level": 1
+          },
+          {
+            "q": "主句有 can，尾巴用？",
+            "options": [
+              "can't",
+              "doesn't",
+              "isn't"
+            ],
+            "answer": 0,
+            "explain": "情态词原样搬上尾巴——can't he?",
+            "level": 1
+          },
+          {
+            "q": "尾巴里的主语要变成？",
+            "options": [
+              "代词",
+              "全名",
+              "名词复数"
+            ],
+            "answer": 0,
+            "explain": "Tom → he，the girls → they。",
+            "level": 1
+          },
+          {
+            "q": "I am late, ___? 的尾巴是？",
+            "options": [
+              "aren't I",
+              "amn't I",
+              "isn't I"
+            ],
+            "answer": 0,
+            "explain": "英语没有 amn't——借用 aren't I。",
+            "level": 1
+          },
+          {
+            "q": "Let's dance, ___? 的尾巴是？",
+            "options": [
+              "shall we",
+              "will we",
+              "don't we"
+            ],
+            "answer": 0,
+            "explain": "Let's 的专属尾巴——shall we。",
+            "level": 1
+          },
+          {
+            "q": "never 在主句里出现，尾巴用？",
+            "options": [
+              "肯定",
+              "否定",
+              "都行"
+            ],
+            "answer": 0,
+            "explain": "never 已算否定——尾巴反向用肯定。",
+            "level": 1
+          },
+          {
+            "q": "There is a shop here, ___? 尾巴主语是？",
+            "options": [
+              "isn't there",
+              "isn't it",
+              "isn't she"
+            ],
+            "answer": 0,
+            "explain": "there be 的尾巴还是 there。",
+            "level": 1
+          },
+          {
+            "q": "回答反义疑问句，Yes/No 跟着什么走？",
+            "options": [
+              "事实",
+              "对方说得对不对",
+              "语气"
+            ],
+            "answer": 0,
+            "explain": "事实肯定 Yes，事实否定 No——不看问法。",
+            "level": 1
+          },
+          {
+            "q": "It's hot today, ___?",
+            "options": [
+              "isn't it",
+              "is it",
+              "doesn't it"
+            ],
+            "answer": 0,
+            "explain": "be 配 be，前肯后否——isn't it。",
+            "level": 1
+          },
+          {
+            "q": "You aren't tired, ___?",
+            "options": [
+              "are you",
+              "aren't you",
+              "do you"
+            ],
+            "answer": 0,
+            "explain": "前否后肯——are you。",
+            "level": 1
+          },
+          {
+            "q": "尾巴降调说出来，表示什么？",
+            "options": [
+              "求确认（对吧）",
+              "真的不知道",
+              "生气"
+            ],
+            "answer": 0,
+            "explain": "降调是求共鸣；升调才是真没把握。",
+            "level": 1
+          },
+          {
+            "q": "She swims fast, ___?",
+            "options": [
+              "doesn't she",
+              "isn't she",
+              "isn't it"
+            ],
+            "answer": 0,
+            "explain": "swims 是实义动词——请 does。",
+            "level": 1
+          },
+          {
+            "q": "isn't it 能当万能「对吧」到处贴吗？",
+            "options": [
+              "不能——尾巴要跟主句配套",
+              "能，很方便",
+              "只有周末能"
+            ],
+            "answer": 0,
+            "explain": "中式万能尾巴是大坑——每条尾巴现做。",
+            "level": 1
+          },
+          {
+            "q": "Yes 后面接的半句必须是？",
+            "options": [
+              "肯定（Yes, I did）",
+              "否定（Yes, I didn't）",
+              "什么都行"
+            ],
+            "answer": 0,
+            "explain": "Yes+肯定、No+否定——不许混搭。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 接上尾巴",
         "questions": [
-          { "q": "Your sister plays the guitar, ___?", "options": ["doesn't she", "isn't she", "doesn't he"], "answer": 0, "explain": "实义动词 plays → doesn't；sister → she。", "level": 2 },
-          { "q": "The twins are in the choir, ___?", "options": ["aren't they", "isn't it", "don't they"], "answer": 0, "explain": "are → aren't；twins → they。", "level": 2 },
-          { "q": "Ben can't skate, ___?", "options": ["can he", "can't he", "does he"], "answer": 0, "explain": "前否后肯——can he。", "level": 2 },
-          { "q": "We watched this film last month, ___?", "options": ["didn't we", "don't we", "weren't we"], "answer": 0, "explain": "过去时实义动词——didn't we。", "level": 2 },
-          { "q": "Grandpa never drinks coffee, ___?", "options": ["does he", "doesn't he", "is he"], "answer": 0, "explain": "never 算否定——尾巴用肯定 does he。", "level": 2 },
-          { "q": "I am in the first group, ___?", "options": ["aren't I", "amn't I", "am I"], "answer": 0, "explain": "I am 的特殊尾巴——aren't I。", "level": 2 },
-          { "q": "Let's meet at the gate, ___?", "options": ["shall we", "will we", "won't us"], "answer": 0, "explain": "Let's → shall we。", "level": 2 },
-          { "q": "There isn't any juice left, ___?", "options": ["is there", "isn't there", "is it"], "answer": 0, "explain": "前否后肯，主语还是 there——is there。", "level": 2 },
-          { "q": "Miss Wang teaches us music, ___?", "options": ["doesn't she", "isn't it", "doesn't he"], "answer": 0, "explain": "teaches → doesn't；Miss Wang → she。", "level": 2 },
-          { "q": "You won't be late again, ___?", "options": ["will you", "won't you", "do you"], "answer": 0, "explain": "won't 是否定——尾巴用肯定 will you。", "level": 2 },
-          { "q": "Your parents like travelling, ___?", "options": ["don't they", "doesn't they", "aren't they"], "answer": 0, "explain": "parents 复数 → don't they。", "level": 2 },
-          { "q": "The concert was wonderful, ___?", "options": ["wasn't it", "isn't it", "didn't it"], "answer": 0, "explain": "was → wasn't it——时态对齐。", "level": 2 },
-          { "q": "Lily has a little brother, ___?（has＝拥有，按实义动词）", "options": ["doesn't she", "hasn't it", "isn't she"], "answer": 0, "explain": "has 当「拥有」是实义动词——请 does。", "level": 2 },
-          { "q": "It didn't snow last night, ___?", "options": ["did it", "didn't it", "was it"], "answer": 0, "explain": "前否后肯——did it。", "level": 2 },
-          { "q": "Close the window, ___?", "options": ["will you", "shall we", "do you"], "answer": 0, "explain": "祈使句尾巴——will you（won't you 也可）。", "level": 2 },
-          { "q": "Dolphins are very clever, ___?", "options": ["aren't they", "isn't it", "don't they"], "answer": 0, "explain": "are → aren't；dolphins → they。", "level": 2 }
+          {
+            "q": "Your sister plays the guitar, ___?",
+            "options": [
+              "doesn't she",
+              "isn't she",
+              "doesn't he"
+            ],
+            "answer": 0,
+            "explain": "实义动词 plays → doesn't；sister → she。",
+            "level": 2
+          },
+          {
+            "q": "The twins are in the choir, ___?",
+            "options": [
+              "aren't they",
+              "isn't it",
+              "don't they"
+            ],
+            "answer": 0,
+            "explain": "are → aren't；twins → they。",
+            "level": 2
+          },
+          {
+            "q": "Ben can't skate, ___?",
+            "options": [
+              "can he",
+              "can't he",
+              "does he"
+            ],
+            "answer": 0,
+            "explain": "前否后肯——can he。",
+            "level": 2
+          },
+          {
+            "q": "We watched this film last month, ___?",
+            "options": [
+              "didn't we",
+              "don't we",
+              "weren't we"
+            ],
+            "answer": 0,
+            "explain": "过去时实义动词——didn't we。",
+            "level": 2
+          },
+          {
+            "q": "Grandpa never drinks coffee, ___?",
+            "options": [
+              "does he",
+              "doesn't he",
+              "is he"
+            ],
+            "answer": 0,
+            "explain": "never 算否定——尾巴用肯定 does he。",
+            "level": 2
+          },
+          {
+            "q": "I am in the first group, ___?",
+            "options": [
+              "aren't I",
+              "amn't I",
+              "am I"
+            ],
+            "answer": 0,
+            "explain": "I am 的特殊尾巴——aren't I。",
+            "level": 2
+          },
+          {
+            "q": "Let's meet at the gate, ___?",
+            "options": [
+              "shall we",
+              "will we",
+              "won't us"
+            ],
+            "answer": 0,
+            "explain": "Let's → shall we。",
+            "level": 2
+          },
+          {
+            "q": "There isn't any juice left, ___?",
+            "options": [
+              "is there",
+              "isn't there",
+              "is it"
+            ],
+            "answer": 0,
+            "explain": "前否后肯，主语还是 there——is there。",
+            "level": 2
+          },
+          {
+            "q": "Miss Wang teaches us music, ___?",
+            "options": [
+              "doesn't she",
+              "isn't it",
+              "doesn't he"
+            ],
+            "answer": 0,
+            "explain": "teaches → doesn't；Miss Wang → she。",
+            "level": 2
+          },
+          {
+            "q": "You won't be late again, ___?",
+            "options": [
+              "will you",
+              "won't you",
+              "do you"
+            ],
+            "answer": 0,
+            "explain": "won't 是否定——尾巴用肯定 will you。",
+            "level": 2
+          },
+          {
+            "q": "Your parents like travelling, ___?",
+            "options": [
+              "don't they",
+              "doesn't they",
+              "aren't they"
+            ],
+            "answer": 0,
+            "explain": "parents 复数 → don't they。",
+            "level": 2
+          },
+          {
+            "q": "The concert was wonderful, ___?",
+            "options": [
+              "wasn't it",
+              "isn't it",
+              "didn't it"
+            ],
+            "answer": 0,
+            "explain": "was → wasn't it——时态对齐。",
+            "level": 2
+          },
+          {
+            "q": "Lily has a little brother, ___?（has＝拥有，按实义动词）",
+            "options": [
+              "doesn't she",
+              "hasn't it",
+              "isn't she"
+            ],
+            "answer": 0,
+            "explain": "has 当「拥有」是实义动词——请 does。",
+            "level": 2
+          },
+          {
+            "q": "It didn't snow last night, ___?",
+            "options": [
+              "did it",
+              "didn't it",
+              "was it"
+            ],
+            "answer": 0,
+            "explain": "前否后肯——did it。",
+            "level": 2
+          },
+          {
+            "q": "Close the window, ___?",
+            "options": [
+              "will you",
+              "shall we",
+              "do you"
+            ],
+            "answer": 0,
+            "explain": "祈使句尾巴——will you（won't you 也可）。",
+            "level": 2
+          },
+          {
+            "q": "Dolphins are very clever, ___?",
+            "options": [
+              "aren't they",
+              "isn't it",
+              "don't they"
+            ],
+            "answer": 0,
+            "explain": "are → aren't；dolphins → they。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 尾巴接错",
         "questions": [
-          { "q": "哪句的尾巴接对了？（她歌唱得好）", "options": ["She sings well, doesn't she?", "She sings well, isn't it?", "She sings well, is she?"], "answer": 0, "explain": "实义动词请 does——isn't it 是中式万能尾巴。", "level": 3 },
-          { "q": "哪句的尾巴接对了？（他会弹钢琴）", "options": ["He can play the piano, can't he?", "He can play the piano, doesn't he?", "He can play the piano, isn't he?"], "answer": 0, "explain": "主句的助手是 can——尾巴 can't。", "level": 3 },
-          { "q": "哪句的主语缩对了？", "options": ["Uncle Li grows vegetables, doesn't he?", "Uncle Li grows vegetables, doesn't Uncle Li?", "Uncle Li grows vegetables, doesn't it?"], "answer": 0, "explain": "Uncle Li → he。", "level": 3 },
-          { "q": "哪句的时态对齐了？", "options": ["You bought a new kite, didn't you?", "You bought a new kite, don't you?", "You bought a new kite, aren't you?"], "answer": 0, "explain": "bought 是过去——didn't you。", "level": 3 },
-          { "q": "哪句的方向对了？（他从不迟到）", "options": ["He is never late, is he?", "He is never late, isn't he?", "He is never late, does he?"], "answer": 0, "explain": "never 算否定 → 尾巴肯定；主句是 be → is he。", "level": 3 },
-          { "q": "哪句的特殊尾巴对了？", "options": ["I am your partner, aren't I?", "I am your partner, amn't I?", "I am your partner, am not I?"], "answer": 0, "explain": "aren't I——独一份的借用。", "level": 3 },
-          { "q": "哪句的 Let's 尾巴对了？", "options": ["Let's practise the duet, shall we?", "Let's practise the duet, will we?", "Let's practise the duet, do we?"], "answer": 0, "explain": "shall we。", "level": 3 },
-          { "q": "哪句的 there be 尾巴对了？", "options": ["There are many stars tonight, aren't there?", "There are many stars tonight, aren't they?", "There are many stars tonight, isn't it?"], "answer": 0, "explain": "尾巴主语还是 there。", "level": 3 },
-          { "q": "哪组问答配套没错？（事实：她确实在学画画）", "options": ["— She is learning to draw, isn't she? — Yes, she is.", "— She is learning to draw, isn't she? — Yes, she isn't.", "— She is learning to draw, isn't she? — No, she is."], "answer": 0, "explain": "Yes+肯定配套——Yes, she is。", "level": 3 },
-          { "q": "哪组问答对了？（事实：我没带伞）", "options": ["— You didn't bring an umbrella, did you? — No, I didn't.", "— You didn't bring an umbrella, did you? — Yes, I didn't.", "— You didn't bring an umbrella, did you? — Yes.（想说对，没带）"], "answer": 0, "explain": "没带就是 No, I didn't——中文「是啊」别翻成 Yes。", "level": 3 },
-          { "q": "哪句尾巴全对？（你哥哥不吃香菜）", "options": ["Your brother doesn't eat coriander, does he?", "Your brother doesn't eat coriander, doesn't he?", "Your brother doesn't eat coriander, is he?"], "answer": 0, "explain": "前否后肯——does he。", "level": 3 },
-          { "q": "哪句尾巴全对？（今晚月亮真亮）", "options": ["The moon is really bright tonight, isn't it?", "The moon is really bright tonight, doesn't it?", "The moon is really bright tonight, isn't there?"], "answer": 0, "explain": "be 配 be，moon → it。", "level": 3 },
-          { "q": "哪句尾巴全对？（他们上周赢了比赛）", "options": ["They won the match last week, didn't they?", "They won the match last week, don't they?", "They won the match last week, weren't they?"], "answer": 0, "explain": "won 过去时——didn't they。", "level": 3 },
-          { "q": "哪句尾巴全对？（外面没什么声音）", "options": ["There is nothing outside, is there?", "There is nothing outside, isn't there?", "There is nothing outside, is it?"], "answer": 0, "explain": "nothing 算否定 → 尾巴肯定 is there。", "level": 3 },
-          { "q": "哪句尾巴全对？（把门关上吧——祈使）", "options": ["Shut the door gently, will you?", "Shut the door gently, shall we?", "Shut the door gently, don't you?"], "answer": 0, "explain": "祈使句 → will you。", "level": 3 },
-          { "q": "哪句尾巴全对？（我们该出发了——Let's）", "options": ["Let's set off now, shall we?", "Let's set off now, will you?", "Let's set off now, do we?"], "answer": 0, "explain": "Let's → shall we。", "level": 3 }
+          {
+            "q": "哪句的尾巴接对了？（她歌唱得好）",
+            "options": [
+              "She sings well, doesn't she?",
+              "She sings well, isn't it?",
+              "She sings well, is she?"
+            ],
+            "answer": 0,
+            "explain": "实义动词请 does——isn't it 是中式万能尾巴。",
+            "level": 3
+          },
+          {
+            "q": "哪句的尾巴接对了？（他会弹钢琴）",
+            "options": [
+              "He can play the piano, can't he?",
+              "He can play the piano, doesn't he?",
+              "He can play the piano, isn't he?"
+            ],
+            "answer": 0,
+            "explain": "主句的助手是 can——尾巴 can't。",
+            "level": 3
+          },
+          {
+            "q": "哪句的主语缩对了？",
+            "options": [
+              "Uncle Li grows vegetables, doesn't he?",
+              "Uncle Li grows vegetables, doesn't Uncle Li?",
+              "Uncle Li grows vegetables, doesn't it?"
+            ],
+            "answer": 0,
+            "explain": "Uncle Li → he。",
+            "level": 3
+          },
+          {
+            "q": "哪句的时态对齐了？",
+            "options": [
+              "You bought a new kite, didn't you?",
+              "You bought a new kite, don't you?",
+              "You bought a new kite, aren't you?"
+            ],
+            "answer": 0,
+            "explain": "bought 是过去——didn't you。",
+            "level": 3
+          },
+          {
+            "q": "哪句的方向对了？（他从不迟到）",
+            "options": [
+              "He is never late, is he?",
+              "He is never late, isn't he?",
+              "He is never late, does he?"
+            ],
+            "answer": 0,
+            "explain": "never 算否定 → 尾巴肯定；主句是 be → is he。",
+            "level": 3
+          },
+          {
+            "q": "哪句的特殊尾巴对了？",
+            "options": [
+              "I am your partner, aren't I?",
+              "I am your partner, amn't I?",
+              "I am your partner, am not I?"
+            ],
+            "answer": 0,
+            "explain": "aren't I——独一份的借用。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 Let's 尾巴对了？",
+            "options": [
+              "Let's practise the duet, shall we?",
+              "Let's practise the duet, will we?",
+              "Let's practise the duet, do we?"
+            ],
+            "answer": 0,
+            "explain": "shall we。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 there be 尾巴对了？",
+            "options": [
+              "There are many stars tonight, aren't there?",
+              "There are many stars tonight, aren't they?",
+              "There are many stars tonight, isn't it?"
+            ],
+            "answer": 0,
+            "explain": "尾巴主语还是 there。",
+            "level": 3
+          },
+          {
+            "q": "哪组问答配套没错？（事实：她确实在学画画）",
+            "options": [
+              "— She is learning to draw, isn't she? — Yes, she is.",
+              "— She is learning to draw, isn't she? — Yes, she isn't.",
+              "— She is learning to draw, isn't she? — No, she is."
+            ],
+            "answer": 0,
+            "explain": "Yes+肯定配套——Yes, she is。",
+            "level": 3
+          },
+          {
+            "q": "哪组问答对了？（事实：我没带伞）",
+            "options": [
+              "— You didn't bring an umbrella, did you? — No, I didn't.",
+              "— You didn't bring an umbrella, did you? — Yes, I didn't.",
+              "— You didn't bring an umbrella, did you? — Yes.（想说对，没带）"
+            ],
+            "answer": 0,
+            "explain": "没带就是 No, I didn't——中文「是啊」别翻成 Yes。",
+            "level": 3
+          },
+          {
+            "q": "哪句尾巴全对？（你哥哥不吃香菜）",
+            "options": [
+              "Your brother doesn't eat coriander, does he?",
+              "Your brother doesn't eat coriander, doesn't he?",
+              "Your brother doesn't eat coriander, is he?"
+            ],
+            "answer": 0,
+            "explain": "前否后肯——does he。",
+            "level": 3
+          },
+          {
+            "q": "哪句尾巴全对？（今晚月亮真亮）",
+            "options": [
+              "The moon is really bright tonight, isn't it?",
+              "The moon is really bright tonight, doesn't it?",
+              "The moon is really bright tonight, isn't there?"
+            ],
+            "answer": 0,
+            "explain": "be 配 be，moon → it。",
+            "level": 3
+          },
+          {
+            "q": "哪句尾巴全对？（他们上周赢了比赛）",
+            "options": [
+              "They won the match last week, didn't they?",
+              "They won the match last week, don't they?",
+              "They won the match last week, weren't they?"
+            ],
+            "answer": 0,
+            "explain": "won 过去时——didn't they。",
+            "level": 3
+          },
+          {
+            "q": "哪句尾巴全对？（外面没什么声音）",
+            "options": [
+              "There is nothing outside, is there?",
+              "There is nothing outside, isn't there?",
+              "There is nothing outside, is it?"
+            ],
+            "answer": 0,
+            "explain": "nothing 算否定 → 尾巴肯定 is there。",
+            "level": 3
+          },
+          {
+            "q": "哪句尾巴全对？（把门关上吧——祈使）",
+            "options": [
+              "Shut the door gently, will you?",
+              "Shut the door gently, shall we?",
+              "Shut the door gently, don't you?"
+            ],
+            "answer": 0,
+            "explain": "祈使句 → will you。",
+            "level": 3
+          },
+          {
+            "q": "哪句尾巴全对？（我们该出发了——Let's）",
+            "options": [
+              "Let's set off now, shall we?",
+              "Let's set off now, will you?",
+              "Let's set off now, do we?"
+            ],
+            "answer": 0,
+            "explain": "Let's → shall we。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 返场现场",
         "questions": [
-          { "q": "演出结束想求共鸣「今晚真棒，对吧」：", "options": ["It was a great night, wasn't it?", "It was a great night, isn't it?", "It was a great night, was it?"], "answer": 0, "explain": "was → wasn't——时态对齐，前肯后否。", "level": 4 },
-          { "q": "确认朋友会来：「你明天会来的，对吧？」", "options": ["You will come tomorrow, won't you?", "You will come tomorrow, will you?", "You will come tomorrow, don't you?"], "answer": 0, "explain": "will → won't you。", "level": 4 },
-          { "q": "— The show starts at seven, doesn't it? — ___（事实：确实七点开始）", "options": ["Yes, it does.", "No, it does.", "Yes, it doesn't."], "answer": 0, "explain": "事实肯定 → Yes + 肯定配套。", "level": 4 },
-          { "q": "— You haven't seen my glasses, have you? — ___（事实：真没见过）", "options": ["No, I haven't.", "Yes, I haven't.", "Yes.（想说对，没见过）"], "answer": 0, "explain": "没见过＝事实否定 → No, I haven't。", "level": 4 },
-          { "q": "— Tom didn't break the string, did he? — ___（事实：还真是他弄断的）", "options": ["Yes, he did.", "No, he did.", "No, he didn't.（想说是他弄的）"], "answer": 0, "explain": "事实肯定 → Yes, he did——「不，是他弄的」英语说 Yes。", "level": 4 },
-          { "q": "和同学商量：「咱们课后加练一次，好吗？」", "options": ["Let's have one more practice after class, shall we?", "Let's have one more practice after class, will you?", "Let's have one more practice after class, do we?"], "answer": 0, "explain": "Let's → shall we。", "level": 4 },
-          { "q": "跟新同学套近乎：「你也是三年级的，对吧？」", "options": ["You are in Grade Three too, aren't you?", "You are in Grade Three too, are you?", "You are in Grade Three too, don't you?"], "answer": 0, "explain": "are → aren't you——求共鸣用反向尾巴。", "level": 4 },
-          { "q": "妈妈叮嘱出门的你：「别忘带钥匙，好吗？」（祈使）", "options": ["Don't forget your keys, will you?", "Don't forget your keys, shall we?", "Don't forget your keys, won't they?"], "answer": 0, "explain": "否定祈使句尾巴用 will you。", "level": 4 },
-          { "q": "确认排练厅还空着：「楼上没人在用琴房，对吧？」", "options": ["Nobody is using the piano room, are they?", "Nobody is using the piano room, is he?", "Nobody is using the piano room, isn't it?"], "answer": 0, "explain": "nobody 算否定 → 尾巴肯定；nobody 的尾巴代词习惯用 they。", "level": 4 },
-          { "q": "— I am the last one to perform, aren't I? — ___（事实：确实是）", "options": ["Yes, you are.", "No, you are.", "Yes, you aren't."], "answer": 0, "explain": "Yes + 肯定——Yes, you are。", "level": 4 },
-          { "q": "确认天气：「昨晚没下雨，对吧？」", "options": ["It didn't rain last night, did it?", "It didn't rain last night, didn't it?", "It didn't rain last night, does it?"], "answer": 0, "explain": "前否后肯 + 过去时——did it。", "level": 4 },
-          { "q": "夸完再确认：「你妹妹五岁就会拉琴了，对吧？」", "options": ["Your sister could play the violin at five, couldn't she?", "Your sister could play the violin at five, can't she?", "Your sister could play the violin at five, didn't she?"], "answer": 0, "explain": "could → couldn't she——情态词的过去形也原样搬。", "level": 4 },
-          { "q": "— There was a rainbow this morning, wasn't there? — ___（事实：有）", "options": ["Yes, there was.", "Yes, it was.", "No, there was."], "answer": 0, "explain": "there be 的回答也带 there——Yes, there was。", "level": 4 },
-          { "q": "哪句「同向尾巴」的理解是对的？——You like it, do you?", "options": ["带着「哦？是吗」的惊讶质疑腔", "和 don't you 完全一样", "是语法错误，任何时候都不能说"], "answer": 0, "explain": "同向尾巴合法但变了味——求共鸣要用反向。", "level": 4 },
-          { "q": "翻译陷阱：「——你没吃早饭吧？——是啊。」英语版是：", "options": ["— You didn't have breakfast, did you? — No, I didn't.", "— You didn't have breakfast, did you? — Yes, I didn't.", "— You didn't have breakfast, did you? — Yes.（附和对方）"], "answer": 0, "explain": "「是啊（没吃）」＝事实否定＝No, I didn't。", "level": 4 },
-          { "q": "大考：接尾巴三连——I am next, ___? / Let's warm up, ___? / You never get nervous, ___?", "options": ["aren't I / shall we / do you", "amn't I / will we / don't you", "aren't I / will you / doesn't you"], "answer": 0, "explain": "三个特殊点一次考齐：aren't I、shall we、never→肯定尾巴 do you。", "level": 4 }
+          {
+            "q": "演出结束想求共鸣「今晚真棒，对吧」：",
+            "options": [
+              "It was a great night, wasn't it?",
+              "It was a great night, isn't it?",
+              "It was a great night, was it?"
+            ],
+            "answer": 0,
+            "explain": "was → wasn't——时态对齐，前肯后否。",
+            "level": 4
+          },
+          {
+            "q": "确认朋友会来：「你明天会来的，对吧？」",
+            "options": [
+              "You will come tomorrow, won't you?",
+              "You will come tomorrow, will you?",
+              "You will come tomorrow, don't you?"
+            ],
+            "answer": 0,
+            "explain": "will → won't you。",
+            "level": 4
+          },
+          {
+            "q": "— The show starts at seven, doesn't it? — ___（事实：确实七点开始）",
+            "options": [
+              "Yes, it does.",
+              "No, it does.",
+              "Yes, it doesn't."
+            ],
+            "answer": 0,
+            "explain": "事实肯定 → Yes + 肯定配套。",
+            "level": 4
+          },
+          {
+            "q": "— You haven't seen my glasses, have you? — ___（事实：真没见过）",
+            "options": [
+              "No, I haven't.",
+              "Yes, I haven't.",
+              "Yes.（想说对，没见过）"
+            ],
+            "answer": 0,
+            "explain": "没见过＝事实否定 → No, I haven't。",
+            "level": 4
+          },
+          {
+            "q": "— Tom didn't break the string, did he? — ___（事实：还真是他弄断的）",
+            "options": [
+              "Yes, he did.",
+              "No, he did.",
+              "No, he didn't.（想说是他弄的）"
+            ],
+            "answer": 0,
+            "explain": "事实肯定 → Yes, he did——「不，是他弄的」英语说 Yes。",
+            "level": 4
+          },
+          {
+            "q": "和同学商量：「咱们课后加练一次，好吗？」",
+            "options": [
+              "Let's have one more practice after class, shall we?",
+              "Let's have one more practice after class, will you?",
+              "Let's have one more practice after class, do we?"
+            ],
+            "answer": 0,
+            "explain": "Let's → shall we。",
+            "level": 4
+          },
+          {
+            "q": "跟新同学套近乎：「你也是三年级的，对吧？」",
+            "options": [
+              "You are in Grade Three too, aren't you?",
+              "You are in Grade Three too, are you?",
+              "You are in Grade Three too, don't you?"
+            ],
+            "answer": 0,
+            "explain": "are → aren't you——求共鸣用反向尾巴。",
+            "level": 4
+          },
+          {
+            "q": "妈妈叮嘱出门的你：「别忘带钥匙，好吗？」（祈使）",
+            "options": [
+              "Don't forget your keys, will you?",
+              "Don't forget your keys, shall we?",
+              "Don't forget your keys, won't they?"
+            ],
+            "answer": 0,
+            "explain": "否定祈使句尾巴用 will you。",
+            "level": 4
+          },
+          {
+            "q": "确认排练厅还空着：「楼上没人在用琴房，对吧？」",
+            "options": [
+              "Nobody is using the piano room, are they?",
+              "Nobody is using the piano room, is he?",
+              "Nobody is using the piano room, isn't it?"
+            ],
+            "answer": 0,
+            "explain": "nobody 算否定 → 尾巴肯定；nobody 的尾巴代词习惯用 they。",
+            "level": 4
+          },
+          {
+            "q": "— I am the last one to perform, aren't I? — ___（事实：确实是）",
+            "options": [
+              "Yes, you are.",
+              "No, you are.",
+              "Yes, you aren't."
+            ],
+            "answer": 0,
+            "explain": "Yes + 肯定——Yes, you are。",
+            "level": 4
+          },
+          {
+            "q": "确认天气：「昨晚没下雨，对吧？」",
+            "options": [
+              "It didn't rain last night, did it?",
+              "It didn't rain last night, didn't it?",
+              "It didn't rain last night, does it?"
+            ],
+            "answer": 0,
+            "explain": "前否后肯 + 过去时——did it。",
+            "level": 4
+          },
+          {
+            "q": "夸完再确认：「你妹妹五岁就会拉琴了，对吧？」",
+            "options": [
+              "Your sister could play the violin at five, couldn't she?",
+              "Your sister could play the violin at five, can't she?",
+              "Your sister could play the violin at five, didn't she?"
+            ],
+            "answer": 0,
+            "explain": "could → couldn't she——情态词的过去形也原样搬。",
+            "level": 4
+          },
+          {
+            "q": "— There was a rainbow this morning, wasn't there? — ___（事实：有）",
+            "options": [
+              "Yes, there was.",
+              "Yes, it was.",
+              "No, there was."
+            ],
+            "answer": 0,
+            "explain": "there be 的回答也带 there——Yes, there was。",
+            "level": 4
+          },
+          {
+            "q": "哪句「同向尾巴」的理解是对的？——You like it, do you?",
+            "options": [
+              "带着「哦？是吗」的惊讶质疑腔",
+              "和 don't you 完全一样",
+              "是语法错误，任何时候都不能说"
+            ],
+            "answer": 0,
+            "explain": "同向尾巴合法但变了味——求共鸣要用反向。",
+            "level": 4
+          },
+          {
+            "q": "翻译陷阱：「——你没吃早饭吧？——是啊。」英语版是：",
+            "options": [
+              "— You didn't have breakfast, did you? — No, I didn't.",
+              "— You didn't have breakfast, did you? — Yes, I didn't.",
+              "— You didn't have breakfast, did you? — Yes.（附和对方）"
+            ],
+            "answer": 0,
+            "explain": "「是啊（没吃）」＝事实否定＝No, I didn't。",
+            "level": 4
+          },
+          {
+            "q": "大考：接尾巴三连——I am next, ___? / Let's warm up, ___? / You never get nervous, ___?",
+            "options": [
+              "aren't I / shall we / do you",
+              "amn't I / will we / don't you",
+              "aren't I / will you / doesn't you"
+            ],
+            "answer": 0,
+            "explain": "三个特殊点一次考齐：aren't I、shall we、never→肯定尾巴 do you。",
+            "level": 4
+          }
         ]
       }
     ]

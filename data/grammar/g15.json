@@ -5,7 +5,9 @@
   "title": "叙事时态一致",
   "metaphor": "别在半路转调（G大调拉一半转降E）",
   "ketRelevance": 3,
-  "ketLessonMap": ["L4"],
+  "ketLessonMap": [
+    "L4"
+  ],
   "ketNote": "时态一致是 KET Part 7 看图写故事的第一评分点：故事定了过去调，一个动词跳回现在就是最扎眼的失分。八课里的亲戚是 L4。",
   "source": "original",
   "sections": {
@@ -47,26 +49,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "Last night, Ben finished his homework and went to bed early.", "cn": "昨晚本写完作业就早早睡了。（finished、went 都在过去调）" },
-          { "en": "Yesterday morning, we cleaned the classroom and watered the plants.", "cn": "昨天早上我们打扫了教室，给植物浇了水。" },
-          { "en": "She opened her bag, took out a book and began to read.", "cn": "她打开书包，拿出一本书开始读。（三个动词三枚戳）" },
-          { "en": "Last week, my cousin visited us and stayed for two days.", "cn": "上周我表哥来看我们，住了两天。" },
-          { "en": "The little cat jumped onto the sofa and fell asleep.", "cn": "小猫跳上沙发睡着了。" }
+          {
+            "en": "Last night, Ben finished his homework and went to bed early.",
+            "cn": "昨晚本写完作业就早早睡了。（finished、went 都在过去调）"
+          },
+          {
+            "en": "Yesterday morning, we cleaned the classroom and watered the plants.",
+            "cn": "昨天早上我们打扫了教室，给植物浇了水。"
+          },
+          {
+            "en": "She opened her bag, took out a book and began to read.",
+            "cn": "她打开书包，拿出一本书开始读。（三个动词三枚戳）"
+          },
+          {
+            "en": "Last week, my cousin visited us and stayed for two days.",
+            "cn": "上周我表哥来看我们，住了两天。"
+          },
+          {
+            "en": "The little cat jumped onto the sofa and fell asleep.",
+            "cn": "小猫跳上沙发睡着了。"
+          }
         ],
         "mid": [
-          { "en": "One rainy afternoon, Tom found a wet kitten and carried it home.", "cn": "一个下雨的下午，汤姆发现一只淋湿的小猫，把它抱回了家。（开头定调，全篇跟着走）" },
-          { "en": "When the concert ended, everyone stood up and clapped.", "cn": "音乐会结束时，所有人起立鼓掌。" },
-          { "en": "He said, \"I like this song very much.\"", "cn": "他说：「我特别喜欢这首歌。」（引号里是合法的现在调）" },
-          { "en": "The teacher told us that light travels faster than sound.", "cn": "老师告诉我们光比声音跑得快。（永真事实不转调）" },
-          { "en": "While they were rowing, a fish jumped into the boat.", "cn": "他们划着船，一条鱼跳进了船里。（过去进行+一般过去，仍是过去调）" }
+          {
+            "en": "One rainy afternoon, Tom found a wet kitten and carried it home.",
+            "cn": "一个下雨的下午，汤姆发现一只淋湿的小猫，把它抱回了家。（开头定调，全篇跟着走）"
+          },
+          {
+            "en": "When the concert ended, everyone stood up and clapped.",
+            "cn": "音乐会结束时，所有人起立鼓掌。"
+          },
+          {
+            "en": "He said, \"I like this song very much.\"",
+            "cn": "他说：「我特别喜欢这首歌。」（引号里是合法的现在调）"
+          },
+          {
+            "en": "The teacher told us that light travels faster than sound.",
+            "cn": "老师告诉我们光比声音跑得快。（永真事实不转调）"
+          },
+          {
+            "en": "While they were rowing, a fish jumped into the boat.",
+            "cn": "他们划着船，一条鱼跳进了船里。（过去进行+一般过去，仍是过去调）"
+          }
         ],
         "trap": [
-          { "en": "Lily got up late, so she ran all the way to school.", "cn": "莉莉起晚了，所以一路跑去学校。", "note": "so 后面的动词也在过去调里——ran 别写成 runs。" },
-          { "en": "He turned off the light and lay down.", "cn": "他关了灯躺下。", "note": "lie 的过去式是 lay——第二个动词最容易漏戳或用错私章。" },
-          { "en": "Mum asked, \"Where is your coat?\"", "cn": "妈妈问：「你的外套呢？」", "note": "asked 在过去调；引号里的 is 是人物现场，不算转调。" },
-          { "en": "I knew the answer because I read the book last month.", "cn": "我知道答案，因为上个月我读过那本书。", "note": "read 的过去式拼写不变——看着像现在调，其实已经盖了戳。" },
-          { "en": "The guide said that the museum opens at nine every day.", "cn": "导游说博物馆每天九点开门。", "note": "「每天九点开门」是至今仍真的时刻表，保持现在调是合法转调。" },
-          { "en": "She was tired, but she still smiled at us.", "cn": "她很累，但仍冲我们微笑。", "note": "be 也是动词——was 和 smiled 一起待在过去调里，别把 was 写成 is。" }
+          {
+            "en": "Lily got up late, so she ran all the way to school.",
+            "cn": "莉莉起晚了，所以一路跑去学校。",
+            "note": "so 后面的动词也在过去调里——ran 别写成 runs。"
+          },
+          {
+            "en": "He turned off the light and lay down.",
+            "cn": "他关了灯躺下。",
+            "note": "lie 的过去式是 lay——第二个动词最容易漏戳或用错私章。"
+          },
+          {
+            "en": "Mum asked, \"Where is your coat?\"",
+            "cn": "妈妈问：「你的外套呢？」",
+            "note": "asked 在过去调；引号里的 is 是人物现场，不算转调。"
+          },
+          {
+            "en": "I knew the answer because I read the book last month.",
+            "cn": "我知道答案，因为上个月我读过那本书。",
+            "note": "read 的过去式拼写不变——看着像现在调，其实已经盖了戳。"
+          },
+          {
+            "en": "The guide said that the museum opens at nine every day.",
+            "cn": "导游说博物馆每天九点开门。",
+            "note": "「每天九点开门」是至今仍真的时刻表，保持现在调是合法转调。"
+          },
+          {
+            "en": "She was tired, but she still smiled at us.",
+            "cn": "她很累，但仍冲我们微笑。",
+            "note": "be 也是动词——was 和 smiled 一起待在过去调里，别把 was 写成 is。"
+          }
         ]
       }
     },
@@ -192,7 +248,7 @@
     "echo": "口语里其实一直有人「合法转调」：老一辈说书人讲到紧要处爱换现在时——「他推门就进，一看，桌上摆着一封信」——英语也一样，聊天讲故事常冒出 So he says to me...，语言学家管它叫「历史现在时」，用现在调把听众拽到现场。但书面叙事的规矩恰恰相反：一调到底才显功力。英语动词的变化尾巴几百年来磨掉了一大半，剩下的过去戳是少数还必须遵守的规矩——越是仅存的规矩，考试越盯得紧。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G15 · 叙事时态一致</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>别在半路转调——G 大调拉一半转降 E，全场皱眉</text><rect x='36' y='110' width='648' height='104' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🎼 第一个动词定调，全篇跟着走</text><text x='360' y='176' text-anchor='middle' font-size='16' fill='#5A4A42'>Last Sunday, Mia walked... → 全篇过去调，每个动词都盖戳</text><text x='360' y='202' text-anchor='middle' font-size='15' fill='#8A7568'>She saw a duck, picked up some bread and fed it.</text><rect x='36' y='234' width='648' height='96' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='268' text-anchor='middle' font-size='18' font-weight='bold' fill='#C0392B'>⚠️ 最容易转调的三个路口</text><text x='360' y='298' text-anchor='middle' font-size='15' fill='#C0392B'>and 后面的第二个动词 · so / then 后面的动作 · be 动词（was 写成 is）</text><text x='360' y='320' text-anchor='middle' font-size='14' fill='#C0392B'>went and sees ✗ → went and saw ✓</text><rect x='36' y='350' width='648' height='104' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='384' text-anchor='middle' font-size='18' font-weight='bold' fill='#0284C7'>🎵 两个合法转调记号</text><text x='360' y='414' text-anchor='middle' font-size='15' fill='#5A4A42'>① 引号里的对话：She said, &quot;I am so happy!&quot;（人物的现场）</text><text x='360' y='440' text-anchor='middle' font-size='15' fill='#5A4A42'>② 永真事实：Grandpa told me the sun rises in the east.</text><rect x='36' y='474' width='648' height='72' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='504' text-anchor='middle' font-size='16' fill='#B7791F'>✏️ 写完自查：圈出每个动词，问「它是过去形状吗？」</text><text x='360' y='530' text-anchor='middle' font-size='15' fill='#B7791F'>walked ✓ · sees ✗→saw · fed ✓ —— 一个不是，改成是</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>KET Part 7 第一评分点 · 英语奇遇记 🦊 G15</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='32' font-weight='bold' fill='#0284C7'>G15 · 叙事时态一致</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>别在半路转调——G 大调拉一半转降 E，全场皱眉</text><rect x='36' y='110' width='648' height='104' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='23' font-weight='bold' fill='#38B2AC'>🎼 第一个动词定调，全篇跟着走</text><text x='360' y='176' text-anchor='middle' font-size='20' fill='#5A4A42'>Last Sunday, Mia walked... → 全篇过去调，每个动词都盖戳</text><text x='360' y='202' text-anchor='middle' font-size='19' fill='#8A7568'>She saw a duck, picked up some bread and fed it.</text><rect x='36' y='234' width='648' height='96' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='268' text-anchor='middle' font-size='22' font-weight='bold' fill='#C0392B'>⚠️ 最容易转调的三个路口</text><text x='360' y='298' text-anchor='middle' font-size='19' fill='#C0392B'>and 后面的第二个动词 · so / then 后面的动作 · be 动词（was 写成 is）</text><text x='360' y='320' text-anchor='middle' font-size='18' fill='#C0392B'>went and sees ✗ → went and saw ✓</text><rect x='36' y='350' width='648' height='104' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='384' text-anchor='middle' font-size='22' font-weight='bold' fill='#0284C7'>🎵 两个合法转调记号</text><text x='360' y='414' text-anchor='middle' font-size='19' fill='#5A4A42'>① 引号里的对话：She said, &quot;I am so happy!&quot;（人物的现场）</text><text x='360' y='440' text-anchor='middle' font-size='19' fill='#5A4A42'>② 永真事实：Grandpa told me the sun rises in the east.</text><rect x='36' y='474' width='648' height='72' rx='20' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='504' text-anchor='middle' font-size='20' fill='#B7791F'>✏️ 写完自查：圈出每个动词，问「它是过去形状吗？」</text><text x='360' y='530' text-anchor='middle' font-size='19' fill='#B7791F'>walked ✓ · sees ✗→saw · fed ✓ —— 一个不是，改成是</text><text x='360' y='576' text-anchor='middle' font-size='18' fill='#94A3B8'>KET Part 7 第一评分点 · 英语奇遇记 🦊 G15</text></svg>",
     "alt": "G15 记忆卡：叙事时态一致=开头定调全篇跟走；and/so/then 后与 be 动词是最易转调路口；引号对话与永真事实是两个合法转调；写完圈动词自查。"
   },
   "practice": {
@@ -200,85 +256,725 @@
       {
         "name": "认一认 · 听出调号",
         "questions": [
-          { "q": "英语故事的「调」由什么定下来？", "options": ["开头的时间词和第一个动词", "最后一句话", "标点符号"], "answer": 0, "explain": "Last Sunday + walked 一落笔，全篇就是过去调。", "level": 1 },
-          { "q": "故事定了过去调后，后面的动词要怎么办？", "options": ["每个都用过去形状", "只有第一个用过去式", "随便，看心情"], "answer": 0, "explain": "每个动词各自盖戳，一个都不能漏。", "level": 1 },
-          { "q": "「半路转调」指的是什么毛病？", "options": ["过去的故事里混进现在时动词", "句子太长", "单词拼错"], "answer": 0, "explain": "全篇过去调里冒出一个现在形状的动词，就像 G 大调里蹦出降 E。", "level": 1 },
-          { "q": "Last night, Ben ___ his homework early. 调应该是？", "options": ["过去调（finished）", "现在调（finishes）", "进行调（is finishing）"], "answer": 0, "explain": "last night 定了过去调。", "level": 1 },
-          { "q": "引号里的人物对话可以用什么调？", "options": ["现在调（那是人物的现场）", "必须过去调", "必须将来调"], "answer": 0, "explain": "She said, \"I am happy!\"——引号里是合法转调。", "level": 1 },
-          { "q": "永远为真的事实写进过去的故事里，可以？", "options": ["保持现在调", "必须改过去调", "必须删掉"], "answer": 0, "explain": "the sun rises in the east——永真事实不转调。", "level": 1 },
-          { "q": "写完故事的自查法是？", "options": ["圈出每个动词问「它是过去形状吗」", "数一数单词个数", "把句子都改短"], "answer": 0, "explain": "L4 教的老办法：一个不是，改成是。", "level": 1 },
-          { "q": "一句里连着几个动作，哪个动词最容易漏戳？", "options": ["and 后面的第二个", "第一个", "都不会漏"], "answer": 0, "explain": "went and sees ✗——and 后面的动词同样要盖戳。", "level": 1 },
-          { "q": "went and sees 这个组合病在哪？", "options": ["sees 半路转调了", "went 用错了", "and 不能连动词"], "answer": 0, "explain": "went 在过去调，sees 跳回现在调——改 saw。", "level": 1 },
-          { "q": "be 动词在过去的故事里该长什么样？", "options": ["was / were", "is / are", "be"], "answer": 0, "explain": "be 也是动词，也要待在调里。", "level": 1 },
-          { "q": "She was tired, but she still ___ at us.", "options": ["smiled", "smiles", "smile"], "answer": 0, "explain": "was 已定过去调——smiled。", "level": 1 },
-          { "q": "下面哪句没有转调？", "options": ["He came in and sat down.", "He came in and sits down.", "He comes in and sat down."], "answer": 0, "explain": "came、sat 都在过去调里。", "level": 1 },
-          { "q": "「历史现在时」是什么？", "options": ["口语讲故事时故意用现在调助兴", "一种古代文字", "过去完成时的别名"], "answer": 0, "explain": "聊天可以，书面故事要一调到底。", "level": 1 },
-          { "q": "so / then 后面的动作在故事里要用？", "options": ["跟全篇一样的过去形状", "现在形状", "原形"], "answer": 0, "explain": "so、then 不是出口，后面还在故事里。", "level": 1 },
-          { "q": "read 出现在过去的故事里，怎么判断它盖没盖戳？", "options": ["拼写不变，靠上下文和读音 /red/", "看有没有 -ed", "read 不能进故事"], "answer": 0, "explain": "read 的过去式拼写完全一样——别误判它转调。", "level": 1 },
-          { "q": "检查这句：Mum asked, \"Where is your coat?\" 转调了吗？", "options": ["没有——引号里是人物现场", "转了——is 要改 was", "转了——asked 要改 asks"], "answer": 0, "explain": "asked 在过去调，引号里的 is 合法。", "level": 1 }
+          {
+            "q": "英语故事的「调」由什么定下来？",
+            "options": [
+              "开头的时间词和第一个动词",
+              "最后一句话",
+              "标点符号"
+            ],
+            "answer": 0,
+            "explain": "Last Sunday + walked 一落笔，全篇就是过去调。",
+            "level": 1
+          },
+          {
+            "q": "故事定了过去调后，后面的动词要怎么办？",
+            "options": [
+              "每个都用过去形状",
+              "只有第一个用过去式",
+              "随便，看心情"
+            ],
+            "answer": 0,
+            "explain": "每个动词各自盖戳，一个都不能漏。",
+            "level": 1
+          },
+          {
+            "q": "「半路转调」指的是什么毛病？",
+            "options": [
+              "过去的故事里混进现在时动词",
+              "句子太长",
+              "单词拼错"
+            ],
+            "answer": 0,
+            "explain": "全篇过去调里冒出一个现在形状的动词，就像 G 大调里蹦出降 E。",
+            "level": 1
+          },
+          {
+            "q": "Last night, Ben ___ his homework early. 调应该是？",
+            "options": [
+              "过去调（finished）",
+              "现在调（finishes）",
+              "进行调（is finishing）"
+            ],
+            "answer": 0,
+            "explain": "last night 定了过去调。",
+            "level": 1
+          },
+          {
+            "q": "引号里的人物对话可以用什么调？",
+            "options": [
+              "现在调（那是人物的现场）",
+              "必须过去调",
+              "必须将来调"
+            ],
+            "answer": 0,
+            "explain": "She said, \"I am happy!\"——引号里是合法转调。",
+            "level": 1
+          },
+          {
+            "q": "永远为真的事实写进过去的故事里，可以？",
+            "options": [
+              "保持现在调",
+              "必须改过去调",
+              "必须删掉"
+            ],
+            "answer": 0,
+            "explain": "the sun rises in the east——永真事实不转调。",
+            "level": 1
+          },
+          {
+            "q": "写完故事的自查法是？",
+            "options": [
+              "圈出每个动词问「它是过去形状吗」",
+              "数一数单词个数",
+              "把句子都改短"
+            ],
+            "answer": 0,
+            "explain": "L4 教的老办法：一个不是，改成是。",
+            "level": 1
+          },
+          {
+            "q": "一句里连着几个动作，哪个动词最容易漏戳？",
+            "options": [
+              "and 后面的第二个",
+              "第一个",
+              "都不会漏"
+            ],
+            "answer": 0,
+            "explain": "went and sees ✗——and 后面的动词同样要盖戳。",
+            "level": 1
+          },
+          {
+            "q": "went and sees 这个组合病在哪？",
+            "options": [
+              "sees 半路转调了",
+              "went 用错了",
+              "and 不能连动词"
+            ],
+            "answer": 0,
+            "explain": "went 在过去调，sees 跳回现在调——改 saw。",
+            "level": 1
+          },
+          {
+            "q": "be 动词在过去的故事里该长什么样？",
+            "options": [
+              "was / were",
+              "is / are",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "be 也是动词，也要待在调里。",
+            "level": 1
+          },
+          {
+            "q": "She was tired, but she still ___ at us.",
+            "options": [
+              "smiled",
+              "smiles",
+              "smile"
+            ],
+            "answer": 0,
+            "explain": "was 已定过去调——smiled。",
+            "level": 1
+          },
+          {
+            "q": "下面哪句没有转调？",
+            "options": [
+              "He came in and sat down.",
+              "He came in and sits down.",
+              "He comes in and sat down."
+            ],
+            "answer": 0,
+            "explain": "came、sat 都在过去调里。",
+            "level": 1
+          },
+          {
+            "q": "「历史现在时」是什么？",
+            "options": [
+              "口语讲故事时故意用现在调助兴",
+              "一种古代文字",
+              "过去完成时的别名"
+            ],
+            "answer": 0,
+            "explain": "聊天可以，书面故事要一调到底。",
+            "level": 1
+          },
+          {
+            "q": "so / then 后面的动作在故事里要用？",
+            "options": [
+              "跟全篇一样的过去形状",
+              "现在形状",
+              "原形"
+            ],
+            "answer": 0,
+            "explain": "so、then 不是出口，后面还在故事里。",
+            "level": 1
+          },
+          {
+            "q": "read 出现在过去的故事里，怎么判断它盖没盖戳？",
+            "options": [
+              "拼写不变，靠上下文和读音 /red/",
+              "看有没有 -ed",
+              "read 不能进故事"
+            ],
+            "answer": 0,
+            "explain": "read 的过去式拼写完全一样——别误判它转调。",
+            "level": 1
+          },
+          {
+            "q": "检查这句：Mum asked, \"Where is your coat?\" 转调了吗？",
+            "options": [
+              "没有——引号里是人物现场",
+              "转了——is 要改 was",
+              "转了——asked 要改 asks"
+            ],
+            "answer": 0,
+            "explain": "asked 在过去调，引号里的 is 合法。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 跟着调走",
         "questions": [
-          { "q": "Last Sunday, we went fishing and ___ three fish.", "options": ["caught", "catch", "catches"], "answer": 0, "explain": "went 定了调——and 后面照样盖戳：caught。", "level": 2 },
-          { "q": "She picked up the kitten and ___ it home.", "options": ["carried", "carries", "carry"], "answer": 0, "explain": "picked 在过去调——carried。", "level": 2 },
-          { "q": "Yesterday Tom got up late, so he ___ the school bus.", "options": ["missed", "misses", "miss"], "answer": 0, "explain": "so 后面还在故事里——missed。", "level": 2 },
-          { "q": "The music stopped and everyone ___ quiet.", "options": ["became", "becomes", "become"], "answer": 0, "explain": "stopped 定调——became。", "level": 2 },
-          { "q": "He opened the letter, ___ it twice and smiled.", "options": ["read", "reads", "reading"], "answer": 0, "explain": "read 过去式拼写不变——夹在 opened 和 smiled 中间正合调。", "level": 2 },
-          { "q": "When the rain stopped, the children ___ outside.", "options": ["ran", "run", "runs"], "answer": 0, "explain": "stopped 定过去调——ran。", "level": 2 },
-          { "q": "Last night the soup ___ too hot, so I waited.", "options": ["was", "is", "be"], "answer": 0, "explain": "be 动词也要在调里——was。", "level": 2 },
-          { "q": "Grandma smiled and said, \"You ___ taller every year!\"", "options": ["get", "got", "getting"], "answer": 0, "explain": "引号里是奶奶的现场——现在调 get 合法。", "level": 2 },
-          { "q": "The teacher told us that water ___ at 0 degrees.", "options": ["freezes", "froze", "freeze"], "answer": 0, "explain": "永真事实保持现在调——freezes。", "level": 2 },
-          { "q": "First she washed the apples, then she ___ them on the plate.", "options": ["put", "puts", "putting"], "answer": 0, "explain": "then 后面还在调里——put（过去式拼写不变）。", "level": 2 },
-          { "q": "While he was running, his hat ___ off.", "options": ["flew", "flies", "fly"], "answer": 0, "explain": "was running 已在过去调——快门动作 flew。", "level": 2 },
-          { "q": "The bird flew in, ___ around the room and went out.", "options": ["circled", "circles", "circle"], "answer": 0, "explain": "三个动作一条调：flew、circled、went。", "level": 2 },
-          { "q": "I dropped my ice cream and my little sister ___.", "options": ["laughed", "laughs", "laugh"], "answer": 0, "explain": "dropped 定调——laughed。", "level": 2 },
-          { "q": "Last week our team practised hard and ___ the match.", "options": ["won", "wins", "win"], "answer": 0, "explain": "practised 在过去调——won。", "level": 2 },
-          { "q": "He said, \"My favourite subject ___ music.\"", "options": ["is", "was long ago", "were"], "answer": 0, "explain": "引号里是他的现场——is 合法转调。", "level": 2 },
-          { "q": "The wind blew hard, and the door ___ shut.", "options": ["banged", "bangs", "bang"], "answer": 0, "explain": "blew 定调——banged。", "level": 2 }
+          {
+            "q": "Last Sunday, we went fishing and ___ three fish.",
+            "options": [
+              "caught",
+              "catch",
+              "catches"
+            ],
+            "answer": 0,
+            "explain": "went 定了调——and 后面照样盖戳：caught。",
+            "level": 2
+          },
+          {
+            "q": "She picked up the kitten and ___ it home.",
+            "options": [
+              "carried",
+              "carries",
+              "carry"
+            ],
+            "answer": 0,
+            "explain": "picked 在过去调——carried。",
+            "level": 2
+          },
+          {
+            "q": "Yesterday Tom got up late, so he ___ the school bus.",
+            "options": [
+              "missed",
+              "misses",
+              "miss"
+            ],
+            "answer": 0,
+            "explain": "so 后面还在故事里——missed。",
+            "level": 2
+          },
+          {
+            "q": "The music stopped and everyone ___ quiet.",
+            "options": [
+              "became",
+              "becomes",
+              "become"
+            ],
+            "answer": 0,
+            "explain": "stopped 定调——became。",
+            "level": 2
+          },
+          {
+            "q": "He opened the letter, ___ it twice and smiled.",
+            "options": [
+              "read",
+              "reads",
+              "reading"
+            ],
+            "answer": 0,
+            "explain": "read 过去式拼写不变——夹在 opened 和 smiled 中间正合调。",
+            "level": 2
+          },
+          {
+            "q": "When the rain stopped, the children ___ outside.",
+            "options": [
+              "ran",
+              "run",
+              "runs"
+            ],
+            "answer": 0,
+            "explain": "stopped 定过去调——ran。",
+            "level": 2
+          },
+          {
+            "q": "Last night the soup ___ too hot, so I waited.",
+            "options": [
+              "was",
+              "is",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "be 动词也要在调里——was。",
+            "level": 2
+          },
+          {
+            "q": "Grandma smiled and said, \"You ___ taller every year!\"",
+            "options": [
+              "get",
+              "got",
+              "getting"
+            ],
+            "answer": 0,
+            "explain": "引号里是奶奶的现场——现在调 get 合法。",
+            "level": 2
+          },
+          {
+            "q": "The teacher told us that water ___ at 0 degrees.",
+            "options": [
+              "freezes",
+              "froze",
+              "freeze"
+            ],
+            "answer": 0,
+            "explain": "永真事实保持现在调——freezes。",
+            "level": 2
+          },
+          {
+            "q": "First she washed the apples, then she ___ them on the plate.",
+            "options": [
+              "put",
+              "puts",
+              "putting"
+            ],
+            "answer": 0,
+            "explain": "then 后面还在调里——put（过去式拼写不变）。",
+            "level": 2
+          },
+          {
+            "q": "While he was running, his hat ___ off.",
+            "options": [
+              "flew",
+              "flies",
+              "fly"
+            ],
+            "answer": 0,
+            "explain": "was running 已在过去调——快门动作 flew。",
+            "level": 2
+          },
+          {
+            "q": "The bird flew in, ___ around the room and went out.",
+            "options": [
+              "circled",
+              "circles",
+              "circle"
+            ],
+            "answer": 0,
+            "explain": "三个动作一条调：flew、circled、went。",
+            "level": 2
+          },
+          {
+            "q": "I dropped my ice cream and my little sister ___.",
+            "options": [
+              "laughed",
+              "laughs",
+              "laugh"
+            ],
+            "answer": 0,
+            "explain": "dropped 定调——laughed。",
+            "level": 2
+          },
+          {
+            "q": "Last week our team practised hard and ___ the match.",
+            "options": [
+              "won",
+              "wins",
+              "win"
+            ],
+            "answer": 0,
+            "explain": "practised 在过去调——won。",
+            "level": 2
+          },
+          {
+            "q": "He said, \"My favourite subject ___ music.\"",
+            "options": [
+              "is",
+              "was long ago",
+              "were"
+            ],
+            "answer": 0,
+            "explain": "引号里是他的现场——is 合法转调。",
+            "level": 2
+          },
+          {
+            "q": "The wind blew hard, and the door ___ shut.",
+            "options": [
+              "banged",
+              "bangs",
+              "bang"
+            ],
+            "answer": 0,
+            "explain": "blew 定调——banged。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 揪出转调音",
         "questions": [
-          { "q": "哪句从头到尾没转调？", "options": ["We visited the farm and fed the sheep.", "We visited the farm and feed the sheep.", "We visit the farm and fed the sheep."], "answer": 0, "explain": "visited、fed 都在过去调。", "level": 3 },
-          { "q": "哪句从头到尾一个调？", "options": ["She heard a noise and turned around.", "She heard a noise and turns around.", "She hears a noise and turned around."], "answer": 0, "explain": "heard + turned——不转调。", "level": 3 },
-          { "q": "哪句的 be 动词没跳调？", "options": ["The street was wet because it rained all night.", "The street is wet because it rained all night yesterday.", "The street was wet because it rains all night."], "answer": 0, "explain": "was + rained 同调；另外两句各有一个动词跳去现在调。", "level": 3 },
-          { "q": "哪句的第二个动词盖了戳？", "options": ["He took out his key and unlocked the door.", "He took out his key and unlocks the door.", "He takes out his key and unlocked the door."], "answer": 0, "explain": "took + unlocked——and 后面照样盖戳。", "level": 3 },
-          { "q": "哪句的引号用法全对？", "options": ["Dad said, \"Dinner is ready.\"", "Dad says yesterday, \"Dinner is ready.\"", "Dad said, \"Dinner was ready.\"（想说：开饭啦）"], "answer": 0, "explain": "said 在过去调；引号里 is 是爸爸的现场。", "level": 3 },
-          { "q": "哪句把永真事实处理对了？", "options": ["Miss Li told us that the moon goes around the earth.", "Miss Li tells us last week that the moon went around the earth.", "Miss Li told us that the moon go around the earth."], "answer": 0, "explain": "told 在过去调；永真事实 goes 保持现在调。", "level": 3 },
-          { "q": "哪句的三个动词一条调？", "options": ["She came home, drank some milk and went to bed.", "She came home, drinks some milk and went to bed.", "She came home, drank some milk and goes to bed."], "answer": 0, "explain": "came、drank、went——三枚戳一个不少。", "level": 3 },
-          { "q": "哪句的 so 没带偏调？", "options": ["The box was heavy, so we carried it together.", "The box was heavy, so we carry it together.", "The box is heavy, so we carried it together yesterday."], "answer": 0, "explain": "was + carried 同调。", "level": 3 },
-          { "q": "哪句的快门动作盖了戳？", "options": ["While she was singing, the lights suddenly changed.", "While she was singing, the lights suddenly change.", "While she sings, the lights suddenly changed."], "answer": 0, "explain": "was singing 定调，快门 changed 同调。", "level": 3 },
-          { "q": "哪句不用改？", "options": ["Everyone was hungry, but nobody said a word.", "Everyone was hungry, but nobody says a word.", "Everyone is hungry, but nobody said a word.（讲昨晚）"], "answer": 0, "explain": "was + said——两个动词同在过去调。", "level": 3 },
-          { "q": "哪句的 then 后面没跳调？", "options": ["He fed the dog, then he swept the yard.", "He fed the dog, then he sweeps the yard.", "He feeds the dog, then he swept the yard."], "answer": 0, "explain": "fed + swept——then 不是出口。", "level": 3 },
-          { "q": "哪句的 because 前后同调？", "options": ["She was late because she forgot her bag.", "She was late because she forgets her bag.", "She is late because she forgot her bag yesterday."], "answer": 0, "explain": "was + forgot——原因也在故事里。", "level": 3 },
-          { "q": "哪句写对了？（他停下车，向我们招手）", "options": ["He stopped his bike and waved to us.", "He stopped his bike and waves to us.", "He stops his bike and waved to us."], "answer": 0, "explain": "stopped + waved 一条调。", "level": 3 },
-          { "q": "哪句写对了？（她说她八岁）", "options": ["She said, \"I am eight years old.\"", "She said, \"I was eight years old.\"（想说现在八岁）", "She says last year, \"I am eight.\""], "answer": 0, "explain": "引号里的自我介绍是现场——am。", "level": 3 },
-          { "q": "哪句写对了？（我们等了很久，车终于来了）", "options": ["We waited a long time, and the bus finally came.", "We waited a long time, and the bus finally comes.", "We wait a long time, and the bus finally came."], "answer": 0, "explain": "waited + came——「终于」也不许转调。", "level": 3 },
-          { "q": "哪句写对了？（灯灭了，全场安静下来）", "options": ["The lights went out, and the hall became quiet.", "The lights go out, and the hall became quiet.", "The lights went out, and the hall becomes quiet."], "answer": 0, "explain": "went + became——两个动词一条调。", "level": 3 }
+          {
+            "q": "哪句从头到尾没转调？",
+            "options": [
+              "We visited the farm and fed the sheep.",
+              "We visited the farm and feed the sheep.",
+              "We visit the farm and fed the sheep."
+            ],
+            "answer": 0,
+            "explain": "visited、fed 都在过去调。",
+            "level": 3
+          },
+          {
+            "q": "哪句从头到尾一个调？",
+            "options": [
+              "She heard a noise and turned around.",
+              "She heard a noise and turns around.",
+              "She hears a noise and turned around."
+            ],
+            "answer": 0,
+            "explain": "heard + turned——不转调。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 be 动词没跳调？",
+            "options": [
+              "The street was wet because it rained all night.",
+              "The street is wet because it rained all night yesterday.",
+              "The street was wet because it rains all night."
+            ],
+            "answer": 0,
+            "explain": "was + rained 同调；另外两句各有一个动词跳去现在调。",
+            "level": 3
+          },
+          {
+            "q": "哪句的第二个动词盖了戳？",
+            "options": [
+              "He took out his key and unlocked the door.",
+              "He took out his key and unlocks the door.",
+              "He takes out his key and unlocked the door."
+            ],
+            "answer": 0,
+            "explain": "took + unlocked——and 后面照样盖戳。",
+            "level": 3
+          },
+          {
+            "q": "哪句的引号用法全对？",
+            "options": [
+              "Dad said, \"Dinner is ready.\"",
+              "Dad says yesterday, \"Dinner is ready.\"",
+              "Dad said, \"Dinner was ready.\"（想说：开饭啦）"
+            ],
+            "answer": 0,
+            "explain": "said 在过去调；引号里 is 是爸爸的现场。",
+            "level": 3
+          },
+          {
+            "q": "哪句把永真事实处理对了？",
+            "options": [
+              "Miss Li told us that the moon goes around the earth.",
+              "Miss Li tells us last week that the moon went around the earth.",
+              "Miss Li told us that the moon go around the earth."
+            ],
+            "answer": 0,
+            "explain": "told 在过去调；永真事实 goes 保持现在调。",
+            "level": 3
+          },
+          {
+            "q": "哪句的三个动词一条调？",
+            "options": [
+              "She came home, drank some milk and went to bed.",
+              "She came home, drinks some milk and went to bed.",
+              "She came home, drank some milk and goes to bed."
+            ],
+            "answer": 0,
+            "explain": "came、drank、went——三枚戳一个不少。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 so 没带偏调？",
+            "options": [
+              "The box was heavy, so we carried it together.",
+              "The box was heavy, so we carry it together.",
+              "The box is heavy, so we carried it together yesterday."
+            ],
+            "answer": 0,
+            "explain": "was + carried 同调。",
+            "level": 3
+          },
+          {
+            "q": "哪句的快门动作盖了戳？",
+            "options": [
+              "While she was singing, the lights suddenly changed.",
+              "While she was singing, the lights suddenly change.",
+              "While she sings, the lights suddenly changed."
+            ],
+            "answer": 0,
+            "explain": "was singing 定调，快门 changed 同调。",
+            "level": 3
+          },
+          {
+            "q": "哪句不用改？",
+            "options": [
+              "Everyone was hungry, but nobody said a word.",
+              "Everyone was hungry, but nobody says a word.",
+              "Everyone is hungry, but nobody said a word.（讲昨晚）"
+            ],
+            "answer": 0,
+            "explain": "was + said——两个动词同在过去调。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 then 后面没跳调？",
+            "options": [
+              "He fed the dog, then he swept the yard.",
+              "He fed the dog, then he sweeps the yard.",
+              "He feeds the dog, then he swept the yard."
+            ],
+            "answer": 0,
+            "explain": "fed + swept——then 不是出口。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 because 前后同调？",
+            "options": [
+              "She was late because she forgot her bag.",
+              "She was late because she forgets her bag.",
+              "She is late because she forgot her bag yesterday."
+            ],
+            "answer": 0,
+            "explain": "was + forgot——原因也在故事里。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（他停下车，向我们招手）",
+            "options": [
+              "He stopped his bike and waved to us.",
+              "He stopped his bike and waves to us.",
+              "He stops his bike and waved to us."
+            ],
+            "answer": 0,
+            "explain": "stopped + waved 一条调。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（她说她八岁）",
+            "options": [
+              "She said, \"I am eight years old.\"",
+              "She said, \"I was eight years old.\"（想说现在八岁）",
+              "She says last year, \"I am eight.\""
+            ],
+            "answer": 0,
+            "explain": "引号里的自我介绍是现场——am。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我们等了很久，车终于来了）",
+            "options": [
+              "We waited a long time, and the bus finally came.",
+              "We waited a long time, and the bus finally comes.",
+              "We wait a long time, and the bus finally came."
+            ],
+            "answer": 0,
+            "explain": "waited + came——「终于」也不许转调。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（灯灭了，全场安静下来）",
+            "options": [
+              "The lights went out, and the hall became quiet.",
+              "The lights go out, and the hall became quiet.",
+              "The lights went out, and the hall becomes quiet."
+            ],
+            "answer": 0,
+            "explain": "went + became——两个动词一条调。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 整段不转调",
         "questions": [
-          { "q": "One morning, Mia ___ a strange box in the garden. She ___ it slowly.", "options": ["found / opened", "finds / opened", "found / opens"], "answer": 0, "explain": "开头 found 定调，opened 跟上——两枚戳齐。", "level": 4 },
-          { "q": "The dog ___ at the door because it ___ a stranger outside.", "options": ["barked / heard", "barked / hears", "barks / heard"], "answer": 0, "explain": "barked + heard——because 前后同调。", "level": 4 },
-          { "q": "When the show ended, we ___ our coats and ___ home.", "options": ["took / walked", "take / walked", "took / walk"], "answer": 0, "explain": "ended 定调——took、walked 都盖戳。", "level": 4 },
-          { "q": "He ___ the ladder, ___ the kite from the tree and climbed down.", "options": ["climbed / took", "climbs / took", "climbed / takes"], "answer": 0, "explain": "三个动作一条调：climbed、took、climbed down。", "level": 4 },
-          { "q": "She ___ nervous, but when the music started, she ___ beautifully.", "options": ["felt / danced", "feels / danced", "felt / dances"], "answer": 0, "explain": "felt + danced——情绪和动作都在过去调。", "level": 4 },
-          { "q": "Tom ___ to the shop, but it ___ closed.", "options": ["hurried / was", "hurried / is", "hurries / was"], "answer": 0, "explain": "hurried + was——be 动词也在调里。", "level": 4 },
-          { "q": "Dad ___ and said, \"This soup ___ delicious!\"", "options": ["smiled / is", "smiled / was（想说当场夸汤）", "smiles / is"], "answer": 0, "explain": "smiled 在过去调；引号里是爸爸的现场——is。", "level": 4 },
-          { "q": "The guide explained that this river ___ into the sea, and we ___ many photos.", "options": ["flows / took", "flowed / take", "flows / take"], "answer": 0, "explain": "河流入海是至今仍真的事实——flows；拍照在故事里——took。", "level": 4 },
-          { "q": "I ___ my homework, ___ my schoolbag and went to sleep.", "options": ["finished / packed", "finish / packed", "finished / pack"], "answer": 0, "explain": "三连动作全盖戳：finished、packed、went。", "level": 4 },
-          { "q": "While the children ___ sandcastles, a big wave ___ in.", "options": ["were building / came", "built / was coming", "were building / comes"], "answer": 0, "explain": "长镜头 were building + 快门 came——都在过去调。", "level": 4 },
-          { "q": "She lost her ticket, ___ everywhere, and finally ___ it in her shoe.", "options": ["looked / found", "looks / found", "looked / finds"], "answer": 0, "explain": "lost 定调——looked、found 一路跟到底。", "level": 4 },
-          { "q": "The old man ___ us that honey never ___ bad.", "options": ["told / goes", "tells yesterday / went", "told / go"], "answer": 0, "explain": "told 在故事里；「蜂蜜永不变质」是永真事实——goes。", "level": 4 },
-          { "q": "It ___ dark, so we ___ the lamp and kept reading.", "options": ["got / turned on", "gets / turned on", "got / turn on"], "answer": 0, "explain": "got + turned——so 后面不许转调。", "level": 4 },
-          { "q": "The phone rang. Lily ___ it up and ___, \"Hello?\"", "options": ["picked / said", "picks / said", "picked / says"], "answer": 0, "explain": "rang 定调——picked、said 同调；Hello 在引号里自由。", "level": 4 },
-          { "q": "找出全对的一段：", "options": ["Last Friday we baked cookies. The kitchen smelled sweet, and everyone wanted one.", "Last Friday we baked cookies. The kitchen smells sweet, and everyone wanted one.", "Last Friday we bake cookies. The kitchen smelled sweet, and everyone wants one."], "answer": 0, "explain": "baked、smelled、wanted——整段一条过去调。", "level": 4 },
-          { "q": "大考：One evening, a cat ___ into our yard, ___ at my dog, and they ___ friends.", "options": ["walked / looked / became", "walks / looked / became", "walked / looks / become"], "answer": 0, "explain": "一段三动词三枚戳：walked、looked、became——一个漏戳全段皱眉。", "level": 4 }
+          {
+            "q": "One morning, Mia ___ a strange box in the garden. She ___ it slowly.",
+            "options": [
+              "found / opened",
+              "finds / opened",
+              "found / opens"
+            ],
+            "answer": 0,
+            "explain": "开头 found 定调，opened 跟上——两枚戳齐。",
+            "level": 4
+          },
+          {
+            "q": "The dog ___ at the door because it ___ a stranger outside.",
+            "options": [
+              "barked / heard",
+              "barked / hears",
+              "barks / heard"
+            ],
+            "answer": 0,
+            "explain": "barked + heard——because 前后同调。",
+            "level": 4
+          },
+          {
+            "q": "When the show ended, we ___ our coats and ___ home.",
+            "options": [
+              "took / walked",
+              "take / walked",
+              "took / walk"
+            ],
+            "answer": 0,
+            "explain": "ended 定调——took、walked 都盖戳。",
+            "level": 4
+          },
+          {
+            "q": "He ___ the ladder, ___ the kite from the tree and climbed down.",
+            "options": [
+              "climbed / took",
+              "climbs / took",
+              "climbed / takes"
+            ],
+            "answer": 0,
+            "explain": "三个动作一条调：climbed、took、climbed down。",
+            "level": 4
+          },
+          {
+            "q": "She ___ nervous, but when the music started, she ___ beautifully.",
+            "options": [
+              "felt / danced",
+              "feels / danced",
+              "felt / dances"
+            ],
+            "answer": 0,
+            "explain": "felt + danced——情绪和动作都在过去调。",
+            "level": 4
+          },
+          {
+            "q": "Tom ___ to the shop, but it ___ closed.",
+            "options": [
+              "hurried / was",
+              "hurried / is",
+              "hurries / was"
+            ],
+            "answer": 0,
+            "explain": "hurried + was——be 动词也在调里。",
+            "level": 4
+          },
+          {
+            "q": "Dad ___ and said, \"This soup ___ delicious!\"",
+            "options": [
+              "smiled / is",
+              "smiled / was（想说当场夸汤）",
+              "smiles / is"
+            ],
+            "answer": 0,
+            "explain": "smiled 在过去调；引号里是爸爸的现场——is。",
+            "level": 4
+          },
+          {
+            "q": "The guide explained that this river ___ into the sea, and we ___ many photos.",
+            "options": [
+              "flows / took",
+              "flowed / take",
+              "flows / take"
+            ],
+            "answer": 0,
+            "explain": "河流入海是至今仍真的事实——flows；拍照在故事里——took。",
+            "level": 4
+          },
+          {
+            "q": "I ___ my homework, ___ my schoolbag and went to sleep.",
+            "options": [
+              "finished / packed",
+              "finish / packed",
+              "finished / pack"
+            ],
+            "answer": 0,
+            "explain": "三连动作全盖戳：finished、packed、went。",
+            "level": 4
+          },
+          {
+            "q": "While the children ___ sandcastles, a big wave ___ in.",
+            "options": [
+              "were building / came",
+              "built / was coming",
+              "were building / comes"
+            ],
+            "answer": 0,
+            "explain": "长镜头 were building + 快门 came——都在过去调。",
+            "level": 4
+          },
+          {
+            "q": "She lost her ticket, ___ everywhere, and finally ___ it in her shoe.",
+            "options": [
+              "looked / found",
+              "looks / found",
+              "looked / finds"
+            ],
+            "answer": 0,
+            "explain": "lost 定调——looked、found 一路跟到底。",
+            "level": 4
+          },
+          {
+            "q": "The old man ___ us that honey never ___ bad.",
+            "options": [
+              "told / goes",
+              "tells yesterday / went",
+              "told / go"
+            ],
+            "answer": 0,
+            "explain": "told 在故事里；「蜂蜜永不变质」是永真事实——goes。",
+            "level": 4
+          },
+          {
+            "q": "It ___ dark, so we ___ the lamp and kept reading.",
+            "options": [
+              "got / turned on",
+              "gets / turned on",
+              "got / turn on"
+            ],
+            "answer": 0,
+            "explain": "got + turned——so 后面不许转调。",
+            "level": 4
+          },
+          {
+            "q": "The phone rang. Lily ___ it up and ___, \"Hello?\"",
+            "options": [
+              "picked / said",
+              "picks / said",
+              "picked / says"
+            ],
+            "answer": 0,
+            "explain": "rang 定调——picked、said 同调；Hello 在引号里自由。",
+            "level": 4
+          },
+          {
+            "q": "找出全对的一段：",
+            "options": [
+              "Last Friday we baked cookies. The kitchen smelled sweet, and everyone wanted one.",
+              "Last Friday we baked cookies. The kitchen smells sweet, and everyone wanted one.",
+              "Last Friday we bake cookies. The kitchen smelled sweet, and everyone wants one."
+            ],
+            "answer": 0,
+            "explain": "baked、smelled、wanted——整段一条过去调。",
+            "level": 4
+          },
+          {
+            "q": "大考：One evening, a cat ___ into our yard, ___ at my dog, and they ___ friends.",
+            "options": [
+              "walked / looked / became",
+              "walks / looked / became",
+              "walked / looks / become"
+            ],
+            "answer": 0,
+            "explain": "一段三动词三枚戳：walked、looked、became——一个漏戳全段皱眉。",
+            "level": 4
+          }
         ]
       }
     ]

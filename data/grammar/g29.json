@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "English is spoken in many countries.", "cn": "很多国家都说英语。（is + spoken，聚光灯在英语上）" },
-          { "en": "The classroom is cleaned every day.", "cn": "教室每天都有人打扫。（挨动作的教室当主语）" },
-          { "en": "This song was written by our music teacher.", "cn": "这首歌是我们音乐老师写的。（write→written）" },
-          { "en": "My phone was made in Shenzhen.", "cn": "我的手机是深圳生产的。" },
-          { "en": "The guitar is played every evening.", "cn": "这把琴每天晚上都被弹响。（不管谁在弹）" }
+          {
+            "en": "English is spoken in many countries.",
+            "cn": "很多国家都说英语。（is + spoken，聚光灯在英语上）"
+          },
+          {
+            "en": "The classroom is cleaned every day.",
+            "cn": "教室每天都有人打扫。（挨动作的教室当主语）"
+          },
+          {
+            "en": "This song was written by our music teacher.",
+            "cn": "这首歌是我们音乐老师写的。（write→written）"
+          },
+          {
+            "en": "My phone was made in Shenzhen.",
+            "cn": "我的手机是深圳生产的。"
+          },
+          {
+            "en": "The guitar is played every evening.",
+            "cn": "这把琴每天晚上都被弹响。（不管谁在弹）"
+          }
         ],
         "mid": [
-          { "en": "A new concert hall is being built near our school.", "cn": "我们学校附近正在建一座新音乐厅。（is being + built）" },
-          { "en": "All the tickets have been sold out.", "cn": "票已经全部卖完了。（have been done）" },
-          { "en": "The results will be announced next Friday.", "cn": "结果将于下周五公布。（will be done）" },
-          { "en": "The stage must be checked before the show.", "cn": "演出前舞台必须检查一遍。（情态 + be done）" },
-          { "en": "These photos were taken at the school gate.", "cn": "这些照片是在校门口拍的。（take→taken）" }
+          {
+            "en": "A new concert hall is being built near our school.",
+            "cn": "我们学校附近正在建一座新音乐厅。（is being + built）"
+          },
+          {
+            "en": "All the tickets have been sold out.",
+            "cn": "票已经全部卖完了。（have been done）"
+          },
+          {
+            "en": "The results will be announced next Friday.",
+            "cn": "结果将于下周五公布。（will be done）"
+          },
+          {
+            "en": "The stage must be checked before the show.",
+            "cn": "演出前舞台必须检查一遍。（情态 + be done）"
+          },
+          {
+            "en": "These photos were taken at the school gate.",
+            "cn": "这些照片是在校门口拍的。（take→taken）"
+          }
         ],
         "trap": [
-          { "en": "The window was broken by the wind last night.", "cn": "窗户昨晚被风吹破了。", "note": "break 的过去分词是 broken 不是 broke——be 后面只认第三形态。" },
-          { "en": "The accident happened at the crossing.", "cn": "事故发生在路口。", "note": "happen 没有挨动作的对象——永远主动，was happened 是不存在的灯。" },
-          { "en": "The room was being cleaned when I came in.", "cn": "我进去时房间正在被打扫。", "note": "过去某刻正在被做：was being done——was cleaning 就成了房间自己在打扫。" },
-          { "en": "Rice is grown by farmers in the south.", "cn": "南方的农民种植水稻。", "note": "grow→grew→grown；「米被种」中文听着别扭，英文却最自然。" },
-          { "en": "The medicine must be kept away from children.", "cn": "药品必须放在孩子够不到的地方。", "note": "must 后面 be 用原形——不是 must is kept。" },
-          { "en": "My homework was eaten by our dog — really!", "cn": "我的作业真的被我家狗吃了！", "note": "eat→ate→eaten；这句的 by 短语是笑点担当，非说不可。" }
+          {
+            "en": "The window was broken by the wind last night.",
+            "cn": "窗户昨晚被风吹破了。",
+            "note": "break 的过去分词是 broken 不是 broke——be 后面只认第三形态。"
+          },
+          {
+            "en": "The accident happened at the crossing.",
+            "cn": "事故发生在路口。",
+            "note": "happen 没有挨动作的对象——永远主动，was happened 是不存在的灯。"
+          },
+          {
+            "en": "The room was being cleaned when I came in.",
+            "cn": "我进去时房间正在被打扫。",
+            "note": "过去某刻正在被做：was being done——was cleaning 就成了房间自己在打扫。"
+          },
+          {
+            "en": "Rice is grown by farmers in the south.",
+            "cn": "南方的农民种植水稻。",
+            "note": "grow→grew→grown；「米被种」中文听着别扭，英文却最自然。"
+          },
+          {
+            "en": "The medicine must be kept away from children.",
+            "cn": "药品必须放在孩子够不到的地方。",
+            "note": "must 后面 be 用原形——不是 must is kept。"
+          },
+          {
+            "en": "My homework was eaten by our dog — really!",
+            "cn": "我的作业真的被我家狗吃了！",
+            "note": "eat→ate→eaten；这句的 by 短语是笑点担当，非说不可。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "被动的两件套里藏着英语的一条分工规律：一个结构里，永远只有一个成员管时间——be 包揽全部变形（is/was/been/being），过去分词从换上那一刻起就再也不动，像一块只写着「挨动作」的状态牌。这种「一人报时、其余冻结」的分工，接下来还会一再遇到（G30-G32 的非谓语是同一条规律的另外三张脸）。而那些状态牌本身——done、made、taken、gone、written——恰恰又是 G13 里那批最常用的老团员，第三形态照样不讲理。规律性与不规则并不矛盾：框架永远规整，最常用的零件永远最任性——这就是英语的秩序。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G29 · 被动语态</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>聚光灯换人：不管谁在弹，琴被弹响了</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🔦 两件套：be + 过去分词</text><text x='360' y='176' text-anchor='middle' font-size='16' fill='#5A4A42'>Tom cleans the room. → The room is cleaned (by Tom). ｜ by 可留可省</text><rect x='36' y='222' width='648' height='168' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='256' text-anchor='middle' font-size='19' font-weight='bold' fill='#059669'>⏱️ be 管报时 · 分词永远冻结</text><text x='198' y='294' text-anchor='middle' font-size='15' fill='#5A4A42'>现在 is/are done</text><text x='522' y='294' text-anchor='middle' font-size='15' fill='#5A4A42'>过去 was/were done</text><text x='198' y='324' text-anchor='middle' font-size='15' fill='#5A4A42'>进行 is being done</text><text x='522' y='324' text-anchor='middle' font-size='15' fill='#5A4A42'>完成 have/has been done</text><text x='198' y='354' text-anchor='middle' font-size='15' fill='#5A4A42'>将来 will be done</text><text x='522' y='354' text-anchor='middle' font-size='15' fill='#5A4A42'>情态 must/can be done</text><text x='360' y='380' text-anchor='middle' font-size='13' fill='#94A3B8'>done 那一格从头到尾没变过——一人报时，其余冻结</text><rect x='36' y='410' width='648' height='60' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='434' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🔎 什么时候换灯</text><text x='360' y='460' text-anchor='middle' font-size='14' fill='#5A4A42'>不知道谁干的 · 谁干的不重要 · 挨动作的才是话题中心（Paper was invented in China.）</text><rect x='36' y='486' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ was wrote ✗ · was happened ✗ · can opened ✗ · was ate ✗（happen 类无被动）</text><text x='360' y='558' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 不直接考被动——这课为初中 / PET 打底，学到就是赚到</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：框架永远规整，最常用的零件最任性 · 英语奇遇记 🦊 G29</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G29 · 被动语态</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>聚光灯换人：不管谁在弹，琴被弹响了</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='23' font-weight='bold' fill='#38B2AC'>🔦 两件套：be + 过去分词</text><text x='360' y='176' text-anchor='middle' font-size='18' fill='#5A4A42'>Tom cleans the room. → The room is cleaned (by Tom). ｜ by 可留可省</text><rect x='36' y='222' width='648' height='168' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='256' text-anchor='middle' font-size='23' font-weight='bold' fill='#059669'>⏱️ be 管报时 · 分词永远冻结</text><text x='198' y='294' text-anchor='middle' font-size='19' fill='#5A4A42'>现在 is/are done</text><text x='522' y='294' text-anchor='middle' font-size='19' fill='#5A4A42'>过去 was/were done</text><text x='198' y='324' text-anchor='middle' font-size='19' fill='#5A4A42'>进行 is being done</text><text x='522' y='324' text-anchor='middle' font-size='19' fill='#5A4A42'>完成 have/has been done</text><text x='198' y='354' text-anchor='middle' font-size='19' fill='#5A4A42'>将来 will be done</text><text x='522' y='354' text-anchor='middle' font-size='19' fill='#5A4A42'>情态 must/can be done</text><text x='360' y='380' text-anchor='middle' font-size='17' fill='#94A3B8'>done 那一格从头到尾没变过——一人报时，其余冻结</text><rect x='36' y='410' width='648' height='60' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='434' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🔎 什么时候换灯</text><text x='360' y='460' text-anchor='middle' font-size='15' fill='#5A4A42'>不知道谁干的 · 谁干的不重要 · 挨动作的才是话题中心（Paper was invented in China.）</text><rect x='36' y='486' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ was wrote ✗ · was happened ✗ · can opened ✗ · was ate ✗（happen 类无被动）</text><text x='360' y='558' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 不直接考被动——这课为初中 / PET 打底，学到就是赚到</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：框架永远规整，最常用的零件最任性 · 英语奇遇记 🦊 G29</text></svg>",
     "alt": "G29 记忆卡：被动=聚光灯换人，两件套 be+过去分词；be 管报时（is/was/is being/have been/will be/情态+be），过去分词永远冻结；三种换灯时机（不知道谁干的/不重要/受事者是话题）；警示 was wrote、was happened、can opened、was ate 四类错误；KET 不直接考，为初中/PET 打底。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 聚光灯在谁身上",
         "questions": [
-          { "q": "The guitar is played every evening. 这句的聚光灯打在谁身上？", "options": ["琴（挨动作的一方）——被动", "弹琴的人——主动", "every evening"], "answer": 0, "explain": "主语 the guitar 是挨动作的一方——聚光灯在琴上，被动。", "level": 1 },
-          { "q": "Tom plays the guitar. 这句是主动还是被动？", "options": ["主动：聚光灯在 Tom 身上", "被动：聚光灯在琴上", "既主动又被动"], "answer": 0, "explain": "主语 Tom 是做动作的一方——主动。", "level": 1 },
-          { "q": "被动语态的「两件套」是？", "options": ["be + 过去分词", "do + 动词原形", "will + 动词原形"], "answer": 0, "explain": "聚光灯换人后，动词必须换上 be + 过去分词。", "level": 1 },
-          { "q": "两件套里负责报时（变时态）的是哪一件？", "options": ["be", "过去分词", "by 短语"], "answer": 0, "explain": "be 一场一换（is/was/will be…），分词纹丝不动。", "level": 1 },
-          { "q": "两件套里永远不变的是哪一件？", "options": ["过去分词", "be", "主语"], "answer": 0, "explain": "过去分词只举一块「我挨动作」的牌子，从不变形。", "level": 1 },
-          { "q": "clean 的过去分词是？", "options": ["cleaned", "clean", "cleans"], "answer": 0, "explain": "规则动词的过去分词和过去式同形——cleaned。", "level": 1 },
-          { "q": "write 的过去分词是？", "options": ["written", "wrote", "writes"], "answer": 0, "explain": "write→wrote→written——被动只认第三形态 written。", "level": 1 },
-          { "q": "steal（偷）的过去分词是？", "options": ["stolen", "stole", "steals"], "answer": 0, "explain": "steal→stole→stolen——was stolen 才是「被偷」。", "level": 1 },
-          { "q": "take 的过去分词是？", "options": ["taken", "took", "takes"], "answer": 0, "explain": "take→took→taken。", "level": 1 },
-          { "q": "break 的过去分词是？", "options": ["broken", "broke", "breaks"], "answer": 0, "explain": "break→broke→broken——was broken 才是「被打破」。", "level": 1 },
-          { "q": "make 的过去分词是？", "options": ["made", "maked", "makes"], "answer": 0, "explain": "make→made→made——过去式和过去分词同形。", "level": 1 },
-          { "q": "被动句里想补一句「是谁干的」，用哪个词？", "options": ["by", "for", "with"], "answer": 0, "explain": "by + 做事的人——想强调就说，不想说就省。", "level": 1 },
-          { "q": "The window was broken. 这句说没说是谁打破的？", "options": ["没说——by 短语省略了", "说了，是 window", "说了，是 was"], "answer": 0, "explain": "被动天生擅长把做事的人藏起来——by 短语可省。", "level": 1 },
-          { "q": "happen（发生）能不能用被动？", "options": ["不能——它没有挨动作的对象", "能——was happened", "口语能，书面不能"], "answer": 0, "explain": "没有宾语的动词打不了被动灯——was happened 不存在。", "level": 1 },
-          { "q": "My bike was stolen last night. 主语 my bike 是？", "options": ["挨动作的一方（被偷）", "做动作的一方（去偷）", "时间状语"], "answer": 0, "explain": "自行车是被偷的一方——聚光灯在它身上。", "level": 1 },
-          { "q": "下面哪一句是被动句？", "options": ["The song was sung by Amy.", "Amy sang the song.", "Amy sings very well."], "answer": 0, "explain": "was sung——两件套齐全，聚光灯在歌上。", "level": 1 }
+          {
+            "q": "The guitar is played every evening. 这句的聚光灯打在谁身上？",
+            "options": [
+              "琴（挨动作的一方）——被动",
+              "弹琴的人——主动",
+              "every evening"
+            ],
+            "answer": 0,
+            "explain": "主语 the guitar 是挨动作的一方——聚光灯在琴上，被动。",
+            "level": 1
+          },
+          {
+            "q": "Tom plays the guitar. 这句是主动还是被动？",
+            "options": [
+              "主动：聚光灯在 Tom 身上",
+              "被动：聚光灯在琴上",
+              "既主动又被动"
+            ],
+            "answer": 0,
+            "explain": "主语 Tom 是做动作的一方——主动。",
+            "level": 1
+          },
+          {
+            "q": "被动语态的「两件套」是？",
+            "options": [
+              "be + 过去分词",
+              "do + 动词原形",
+              "will + 动词原形"
+            ],
+            "answer": 0,
+            "explain": "聚光灯换人后，动词必须换上 be + 过去分词。",
+            "level": 1
+          },
+          {
+            "q": "两件套里负责报时（变时态）的是哪一件？",
+            "options": [
+              "be",
+              "过去分词",
+              "by 短语"
+            ],
+            "answer": 0,
+            "explain": "be 一场一换（is/was/will be…），分词纹丝不动。",
+            "level": 1
+          },
+          {
+            "q": "两件套里永远不变的是哪一件？",
+            "options": [
+              "过去分词",
+              "be",
+              "主语"
+            ],
+            "answer": 0,
+            "explain": "过去分词只举一块「我挨动作」的牌子，从不变形。",
+            "level": 1
+          },
+          {
+            "q": "clean 的过去分词是？",
+            "options": [
+              "cleaned",
+              "clean",
+              "cleans"
+            ],
+            "answer": 0,
+            "explain": "规则动词的过去分词和过去式同形——cleaned。",
+            "level": 1
+          },
+          {
+            "q": "write 的过去分词是？",
+            "options": [
+              "written",
+              "wrote",
+              "writes"
+            ],
+            "answer": 0,
+            "explain": "write→wrote→written——被动只认第三形态 written。",
+            "level": 1
+          },
+          {
+            "q": "steal（偷）的过去分词是？",
+            "options": [
+              "stolen",
+              "stole",
+              "steals"
+            ],
+            "answer": 0,
+            "explain": "steal→stole→stolen——was stolen 才是「被偷」。",
+            "level": 1
+          },
+          {
+            "q": "take 的过去分词是？",
+            "options": [
+              "taken",
+              "took",
+              "takes"
+            ],
+            "answer": 0,
+            "explain": "take→took→taken。",
+            "level": 1
+          },
+          {
+            "q": "break 的过去分词是？",
+            "options": [
+              "broken",
+              "broke",
+              "breaks"
+            ],
+            "answer": 0,
+            "explain": "break→broke→broken——was broken 才是「被打破」。",
+            "level": 1
+          },
+          {
+            "q": "make 的过去分词是？",
+            "options": [
+              "made",
+              "maked",
+              "makes"
+            ],
+            "answer": 0,
+            "explain": "make→made→made——过去式和过去分词同形。",
+            "level": 1
+          },
+          {
+            "q": "被动句里想补一句「是谁干的」，用哪个词？",
+            "options": [
+              "by",
+              "for",
+              "with"
+            ],
+            "answer": 0,
+            "explain": "by + 做事的人——想强调就说，不想说就省。",
+            "level": 1
+          },
+          {
+            "q": "The window was broken. 这句说没说是谁打破的？",
+            "options": [
+              "没说——by 短语省略了",
+              "说了，是 window",
+              "说了，是 was"
+            ],
+            "answer": 0,
+            "explain": "被动天生擅长把做事的人藏起来——by 短语可省。",
+            "level": 1
+          },
+          {
+            "q": "happen（发生）能不能用被动？",
+            "options": [
+              "不能——它没有挨动作的对象",
+              "能——was happened",
+              "口语能，书面不能"
+            ],
+            "answer": 0,
+            "explain": "没有宾语的动词打不了被动灯——was happened 不存在。",
+            "level": 1
+          },
+          {
+            "q": "My bike was stolen last night. 主语 my bike 是？",
+            "options": [
+              "挨动作的一方（被偷）",
+              "做动作的一方（去偷）",
+              "时间状语"
+            ],
+            "answer": 0,
+            "explain": "自行车是被偷的一方——聚光灯在它身上。",
+            "level": 1
+          },
+          {
+            "q": "下面哪一句是被动句？",
+            "options": [
+              "The song was sung by Amy.",
+              "Amy sang the song.",
+              "Amy sings very well."
+            ],
+            "answer": 0,
+            "explain": "was sung——两件套齐全，聚光灯在歌上。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · be 来报时",
         "questions": [
-          { "q": "English ___ in many countries.", "options": ["is spoken", "speaks", "is speaking"], "answer": 0, "explain": "英语是被说的一方——is + spoken。", "level": 2 },
-          { "q": "The classroom ___ every day after school.", "options": ["is cleaned", "cleans", "is cleaning"], "answer": 0, "explain": "教室不会自己打扫——is cleaned。", "level": 2 },
-          { "q": "This bridge ___ in 1958.", "options": ["was built", "built", "builds"], "answer": 0, "explain": "1958 年是过去——was + built（build→built）。", "level": 2 },
-          { "q": "These photos ___ at the school gate yesterday.", "options": ["were taken", "was taken", "took"], "answer": 0, "explain": "photos 复数配 were——be 要和主语对齐。", "level": 2 },
-          { "q": "A new hospital ___ near the park now.", "options": ["is being built", "is building", "builds"], "answer": 0, "explain": "此刻正在被建——is being + built；is building 成了医院自己在施工。", "level": 2 },
-          { "q": "The tickets ___ already ___ out.", "options": ["have / been sold", "have / sold", "has / been sold"], "answer": 0, "explain": "完成时被动 have been done；tickets 复数用 have。", "level": 2 },
-          { "q": "The results ___ next Friday.", "options": ["will be announced", "will announce", "will announced"], "answer": 0, "explain": "将来的被动 will be done——三件套 will + be + announced。", "level": 2 },
-          { "q": "The stage must ___ before the show.", "options": ["be checked", "checked", "is checked"], "answer": 0, "explain": "情态后 be 用原形——must be checked。", "level": 2 },
-          { "q": "This kind of phone ___ in Shenzhen.", "options": ["is made", "makes", "is making"], "answer": 0, "explain": "手机是被生产的一方——is made。", "level": 2 },
-          { "q": "The floor ___ just now — it's still wet.", "options": ["was washed", "washed", "washes"], "answer": 0, "explain": "just now 过去——was washed；地板不会自己洗地。", "level": 2 },
-          { "q": "Dinner ___ by Grandpa every Sunday.", "options": ["is cooked", "cooks", "is cooking"], "answer": 0, "explain": "by Grandpa 提示被动——is cooked。", "level": 2 },
-          { "q": "The letter ___ to the wrong address last week.", "options": ["was sent", "sent", "was send"], "answer": 0, "explain": "send→sent——was send 少了第三形态的变形。", "level": 2 },
-          { "q": "Your homework must ___ before nine o'clock.", "options": ["be finished", "finished", "be finish"], "answer": 0, "explain": "情态 + be + 过去分词——三件一件不能少。", "level": 2 },
-          { "q": "The song can ___ by everyone in our class.", "options": ["be sung", "sung", "be sing"], "answer": 0, "explain": "can be sung——sing→sang→sung。", "level": 2 },
-          { "q": "The window ___ by the wind last night.", "options": ["was broken", "was broke", "breaks"], "answer": 0, "explain": "be 后面要 broken——broke 是过去式不是分词。", "level": 2 },
-          { "q": "Rice ___ by farmers in the south.", "options": ["is grown", "grows", "is growing"], "answer": 0, "explain": "by farmers 提示被动——is grown（grow→grown）。", "level": 2 }
+          {
+            "q": "English ___ in many countries.",
+            "options": [
+              "is spoken",
+              "speaks",
+              "is speaking"
+            ],
+            "answer": 0,
+            "explain": "英语是被说的一方——is + spoken。",
+            "level": 2
+          },
+          {
+            "q": "The classroom ___ every day after school.",
+            "options": [
+              "is cleaned",
+              "cleans",
+              "is cleaning"
+            ],
+            "answer": 0,
+            "explain": "教室不会自己打扫——is cleaned。",
+            "level": 2
+          },
+          {
+            "q": "This bridge ___ in 1958.",
+            "options": [
+              "was built",
+              "built",
+              "builds"
+            ],
+            "answer": 0,
+            "explain": "1958 年是过去——was + built（build→built）。",
+            "level": 2
+          },
+          {
+            "q": "These photos ___ at the school gate yesterday.",
+            "options": [
+              "were taken",
+              "was taken",
+              "took"
+            ],
+            "answer": 0,
+            "explain": "photos 复数配 were——be 要和主语对齐。",
+            "level": 2
+          },
+          {
+            "q": "A new hospital ___ near the park now.",
+            "options": [
+              "is being built",
+              "is building",
+              "builds"
+            ],
+            "answer": 0,
+            "explain": "此刻正在被建——is being + built；is building 成了医院自己在施工。",
+            "level": 2
+          },
+          {
+            "q": "The tickets ___ already ___ out.",
+            "options": [
+              "have / been sold",
+              "have / sold",
+              "has / been sold"
+            ],
+            "answer": 0,
+            "explain": "完成时被动 have been done；tickets 复数用 have。",
+            "level": 2
+          },
+          {
+            "q": "The results ___ next Friday.",
+            "options": [
+              "will be announced",
+              "will announce",
+              "will announced"
+            ],
+            "answer": 0,
+            "explain": "将来的被动 will be done——三件套 will + be + announced。",
+            "level": 2
+          },
+          {
+            "q": "The stage must ___ before the show.",
+            "options": [
+              "be checked",
+              "checked",
+              "is checked"
+            ],
+            "answer": 0,
+            "explain": "情态后 be 用原形——must be checked。",
+            "level": 2
+          },
+          {
+            "q": "This kind of phone ___ in Shenzhen.",
+            "options": [
+              "is made",
+              "makes",
+              "is making"
+            ],
+            "answer": 0,
+            "explain": "手机是被生产的一方——is made。",
+            "level": 2
+          },
+          {
+            "q": "The floor ___ just now — it's still wet.",
+            "options": [
+              "was washed",
+              "washed",
+              "washes"
+            ],
+            "answer": 0,
+            "explain": "just now 过去——was washed；地板不会自己洗地。",
+            "level": 2
+          },
+          {
+            "q": "Dinner ___ by Grandpa every Sunday.",
+            "options": [
+              "is cooked",
+              "cooks",
+              "is cooking"
+            ],
+            "answer": 0,
+            "explain": "by Grandpa 提示被动——is cooked。",
+            "level": 2
+          },
+          {
+            "q": "The letter ___ to the wrong address last week.",
+            "options": [
+              "was sent",
+              "sent",
+              "was send"
+            ],
+            "answer": 0,
+            "explain": "send→sent——was send 少了第三形态的变形。",
+            "level": 2
+          },
+          {
+            "q": "Your homework must ___ before nine o'clock.",
+            "options": [
+              "be finished",
+              "finished",
+              "be finish"
+            ],
+            "answer": 0,
+            "explain": "情态 + be + 过去分词——三件一件不能少。",
+            "level": 2
+          },
+          {
+            "q": "The song can ___ by everyone in our class.",
+            "options": [
+              "be sung",
+              "sung",
+              "be sing"
+            ],
+            "answer": 0,
+            "explain": "can be sung——sing→sang→sung。",
+            "level": 2
+          },
+          {
+            "q": "The window ___ by the wind last night.",
+            "options": [
+              "was broken",
+              "was broke",
+              "breaks"
+            ],
+            "answer": 0,
+            "explain": "be 后面要 broken——broke 是过去式不是分词。",
+            "level": 2
+          },
+          {
+            "q": "Rice ___ by farmers in the south.",
+            "options": [
+              "is grown",
+              "grows",
+              "is growing"
+            ],
+            "answer": 0,
+            "explain": "by farmers 提示被动——is grown（grow→grown）。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 换灯纠错",
         "questions": [
-          { "q": "哪一句的灯换对了？（这本书是鲁迅写的）", "options": ["This book was written by Lu Xun.", "This book was wrote by Lu Xun.", "This book wrote by Lu Xun."], "answer": 0, "explain": "被动只认第三形态 written——wrote 是过去式。", "level": 3 },
-          { "q": "哪一句说对了？（事故昨晚发生）", "options": ["The accident happened last night.", "The accident was happened last night.", "The accident was happen last night."], "answer": 0, "explain": "happen 没有挨动作的对象——永远主动。", "level": 3 },
-          { "q": "哪一句的灯换对了？（蛋糕被妹妹吃了）", "options": ["The cake was eaten by my sister.", "The cake was ate by my sister.", "The cake was eat by my sister."], "answer": 0, "explain": "eat→ate→eaten——be 后面永远第三形态。", "level": 3 },
-          { "q": "哪一句的灯换对了？（门可以轻松打开）", "options": ["The door can be opened easily.", "The door can opened easily.", "The door can is opened easily."], "answer": 0, "explain": "情态后 be 不能省也不能变——can be opened。", "level": 3 },
-          { "q": "哪一句的灯换对了？（教室正在被打扫）", "options": ["The classroom is being cleaned now.", "The classroom is cleaning now.", "The classroom is been cleaned now."], "answer": 0, "explain": "进行被动 is being done——is cleaning 成了教室自己干活。", "level": 3 },
-          { "q": "哪一句的灯换对了？（很多树被砍掉了）", "options": ["Many trees have been cut down.", "Many trees have cut down.", "Many trees have been cutted down."], "answer": 0, "explain": "完成被动 have been done；cut 第三形态不变——cutted 是假章。", "level": 3 },
-          { "q": "哪一句的灯换对了？（信件昨天寄出了）", "options": ["The letters were sent yesterday.", "The letters was sent yesterday.", "The letters were send yesterday."], "answer": 0, "explain": "复数 letters 配 were；send→sent。", "level": 3 },
-          { "q": "哪一句的灯换对了？（规则必须人人遵守）", "options": ["The rules must be followed by everyone.", "The rules must be follow by everyone.", "The rules must followed by everyone."], "answer": 0, "explain": "情态 + be + 过去分词——followed 的 -ed 和 be 都不能丢。", "level": 3 },
-          { "q": "哪一句的灯换对了？（晚饭每天七点做好）", "options": ["Dinner is cooked at seven every day.", "Dinner is cook at seven every day.", "Dinner cooks at seven every day."], "answer": 0, "explain": "be 后面要过去分词 cooked——晚饭不会自己做饭。", "level": 3 },
-          { "q": "哪一句的灯换对了？（我的钱包在公交车上被偷了）", "options": ["My wallet was stolen on the bus.", "My wallet was stole on the bus.", "My wallet stole on the bus."], "answer": 0, "explain": "steal→stole→stolen——被动要 stolen。", "level": 3 },
-          { "q": "哪一句的灯换对了？（问题已经解决了）", "options": ["The problem has been solved.", "The problem has been solve.", "The problem has solved."], "answer": 0, "explain": "完成被动 has been solved——been 和 -ed 缺一不可。", "level": 3 },
-          { "q": "哪一句的灯换对了？（这些椅子是木头做的）", "options": ["These chairs are made of wood.", "These chairs are make of wood.", "These chairs made of wood."], "answer": 0, "explain": "be made of 也是两件套——are + made。", "level": 3 },
-          { "q": "哪一句的灯换对了？（比赛因雨被推迟）", "options": ["The match was put off because of the rain.", "The match put off because of the rain.", "The match was putted off because of the rain."], "answer": 0, "explain": "put 第三形态不变——was put off；putted 是假章。", "level": 3 },
-          { "q": "哪一句的灯换对了？（新歌下个月录制）", "options": ["A new song will be recorded next month.", "A new song will record next month.", "A new song will be record next month."], "answer": 0, "explain": "will be recorded——be 之后还得有第三形态。", "level": 3 },
-          { "q": "哪一句的灯换对了？（孩子们应该因诚实被表扬）", "options": ["The children should be praised for their honesty.", "The children should praised for their honesty.", "The children should be praise for their honesty."], "answer": 0, "explain": "被动不只用于倒霉事——表扬照样 should be praised。", "level": 3 },
-          { "q": "哪一句的灯换对了？（琴每天早上都响，不知道谁弹的）", "options": ["The piano is played every morning.", "The piano plays itself every morning.", "The piano is play every morning."], "answer": 0, "explain": "不知道谁干的正是被动的主场——is played，by 短语干脆不提。", "level": 3 }
+          {
+            "q": "哪一句的灯换对了？（这本书是鲁迅写的）",
+            "options": [
+              "This book was written by Lu Xun.",
+              "This book was wrote by Lu Xun.",
+              "This book wrote by Lu Xun."
+            ],
+            "answer": 0,
+            "explain": "被动只认第三形态 written——wrote 是过去式。",
+            "level": 3
+          },
+          {
+            "q": "哪一句说对了？（事故昨晚发生）",
+            "options": [
+              "The accident happened last night.",
+              "The accident was happened last night.",
+              "The accident was happen last night."
+            ],
+            "answer": 0,
+            "explain": "happen 没有挨动作的对象——永远主动。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（蛋糕被妹妹吃了）",
+            "options": [
+              "The cake was eaten by my sister.",
+              "The cake was ate by my sister.",
+              "The cake was eat by my sister."
+            ],
+            "answer": 0,
+            "explain": "eat→ate→eaten——be 后面永远第三形态。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（门可以轻松打开）",
+            "options": [
+              "The door can be opened easily.",
+              "The door can opened easily.",
+              "The door can is opened easily."
+            ],
+            "answer": 0,
+            "explain": "情态后 be 不能省也不能变——can be opened。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（教室正在被打扫）",
+            "options": [
+              "The classroom is being cleaned now.",
+              "The classroom is cleaning now.",
+              "The classroom is been cleaned now."
+            ],
+            "answer": 0,
+            "explain": "进行被动 is being done——is cleaning 成了教室自己干活。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（很多树被砍掉了）",
+            "options": [
+              "Many trees have been cut down.",
+              "Many trees have cut down.",
+              "Many trees have been cutted down."
+            ],
+            "answer": 0,
+            "explain": "完成被动 have been done；cut 第三形态不变——cutted 是假章。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（信件昨天寄出了）",
+            "options": [
+              "The letters were sent yesterday.",
+              "The letters was sent yesterday.",
+              "The letters were send yesterday."
+            ],
+            "answer": 0,
+            "explain": "复数 letters 配 were；send→sent。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（规则必须人人遵守）",
+            "options": [
+              "The rules must be followed by everyone.",
+              "The rules must be follow by everyone.",
+              "The rules must followed by everyone."
+            ],
+            "answer": 0,
+            "explain": "情态 + be + 过去分词——followed 的 -ed 和 be 都不能丢。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（晚饭每天七点做好）",
+            "options": [
+              "Dinner is cooked at seven every day.",
+              "Dinner is cook at seven every day.",
+              "Dinner cooks at seven every day."
+            ],
+            "answer": 0,
+            "explain": "be 后面要过去分词 cooked——晚饭不会自己做饭。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（我的钱包在公交车上被偷了）",
+            "options": [
+              "My wallet was stolen on the bus.",
+              "My wallet was stole on the bus.",
+              "My wallet stole on the bus."
+            ],
+            "answer": 0,
+            "explain": "steal→stole→stolen——被动要 stolen。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（问题已经解决了）",
+            "options": [
+              "The problem has been solved.",
+              "The problem has been solve.",
+              "The problem has solved."
+            ],
+            "answer": 0,
+            "explain": "完成被动 has been solved——been 和 -ed 缺一不可。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（这些椅子是木头做的）",
+            "options": [
+              "These chairs are made of wood.",
+              "These chairs are make of wood.",
+              "These chairs made of wood."
+            ],
+            "answer": 0,
+            "explain": "be made of 也是两件套——are + made。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（比赛因雨被推迟）",
+            "options": [
+              "The match was put off because of the rain.",
+              "The match put off because of the rain.",
+              "The match was putted off because of the rain."
+            ],
+            "answer": 0,
+            "explain": "put 第三形态不变——was put off；putted 是假章。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（新歌下个月录制）",
+            "options": [
+              "A new song will be recorded next month.",
+              "A new song will record next month.",
+              "A new song will be record next month."
+            ],
+            "answer": 0,
+            "explain": "will be recorded——be 之后还得有第三形态。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（孩子们应该因诚实被表扬）",
+            "options": [
+              "The children should be praised for their honesty.",
+              "The children should praised for their honesty.",
+              "The children should be praise for their honesty."
+            ],
+            "answer": 0,
+            "explain": "被动不只用于倒霉事——表扬照样 should be praised。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的灯换对了？（琴每天早上都响，不知道谁弹的）",
+            "options": [
+              "The piano is played every morning.",
+              "The piano plays itself every morning.",
+              "The piano is play every morning."
+            ],
+            "answer": 0,
+            "explain": "不知道谁干的正是被动的主场——is played，by 短语干脆不提。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "Paper ___ in China more than two thousand years ago.", "options": ["was invented", "invented", "is invented"], "answer": 0, "explain": "重点在纸不在人，且是两千年前——过去被动 was invented。", "level": 4 },
-          { "q": "My brother ___ the window, so he ___ by Mum.", "options": ["broke / was criticized", "was broken / criticized", "broke / criticized"], "answer": 0, "explain": "打破窗户是主动 broke；挨批评是被动 was criticized——一句两盏灯。", "level": 4 },
-          { "q": "The concert hall ___ five years ago and ___ by thousands of people every year.", "options": ["was built / is visited", "built / visits", "was built / visits"], "answer": 0, "explain": "两处都是被动：过去 was built，习惯 is visited。", "level": 4 },
-          { "q": "— Where ___ your watch ___? — In Shenzhen.", "options": ["was / made", "did / made", "was / make"], "answer": 0, "explain": "疑问句里的被动：Where was it made?——be 提前，made 不动。", "level": 4 },
-          { "q": "The lost dog ___ yet.", "options": ["hasn't been found", "hasn't found", "wasn't find"], "answer": 0, "explain": "狗是被找的一方——完成被动的否定 hasn't been found。", "level": 4 },
-          { "q": "Don't worry — your computer ___ right now.", "options": ["is being repaired", "is repairing", "repairs"], "answer": 0, "explain": "正在被修——is being repaired；is repairing 成了电脑自己在修东西。", "level": 4 },
-          { "q": "The medicine ___ away from children.", "options": ["must be kept", "must keep", "must be keep"], "answer": 0, "explain": "药是被收好的一方——must be kept（keep→kept）。", "level": 4 },
-          { "q": "A speech ___ by the headmaster tomorrow morning.", "options": ["will be given", "will give", "will be give"], "answer": 0, "explain": "give→gave→given——will be given。", "level": 4 },
-          { "q": "The room ___ when I came in, so I waited outside.", "options": ["was being cleaned", "was cleaning", "is being cleaned"], "answer": 0, "explain": "过去某刻正在被打扫——was being cleaned；came in 提示整句在过去。", "level": 4 },
-          { "q": "This word ___ in two different ways.", "options": ["can be pronounced", "can pronounce", "can be pronounce"], "answer": 0, "explain": "词是被读的一方——can be pronounced。", "level": 4 },
-          { "q": "The classroom ___ every day, but yesterday it ___ because we all left early.", "options": ["is cleaned / wasn't cleaned", "cleans / didn't clean", "is cleaned / didn't cleaned"], "answer": 0, "explain": "两处被动：习惯 is cleaned，昨天没被打扫 wasn't cleaned。", "level": 4 },
-          { "q": "— Who ___ this beautiful song? — It ___ by our music teacher.", "options": ["wrote / was written", "was written / wrote", "wrote / was wrote"], "answer": 0, "explain": "问「谁写的」灯在人身上用主动 wrote；答句灯在歌上用被动 was written。", "level": 4 },
-          { "q": "The accident ___ at the crossing, and two people ___ to hospital.", "options": ["happened / were taken", "was happened / were taken", "happened / took"], "answer": 0, "explain": "happen 永远主动；人被送医院——were taken。", "level": 4 },
-          { "q": "Hundreds of photos ___ since the band started the tour.", "options": ["have been taken", "have taken", "has been taken"], "answer": 0, "explain": "photos 复数 → have been taken；have taken 成了照片自己拍别人。", "level": 4 },
-          { "q": "Bikes ___ here — look at the sign.", "options": ["mustn't be parked", "mustn't park", "mustn't be park"], "answer": 0, "explain": "标志对「车」说话——车是被停的一方：mustn't be parked。", "level": 4 },
-          { "q": "大考：The song ___ last year, ___ by millions now, and ___ at our concert next week.", "options": ["was written / is loved / will be sung", "wrote / is loved / will sing", "was written / loves / will be sung"], "answer": 0, "explain": "三盏被动灯三种报时：过去 was written、现在 is loved、将来 will be sung——be 换脸，分词纹丝不动。", "level": 4 }
+          {
+            "q": "Paper ___ in China more than two thousand years ago.",
+            "options": [
+              "was invented",
+              "invented",
+              "is invented"
+            ],
+            "answer": 0,
+            "explain": "重点在纸不在人，且是两千年前——过去被动 was invented。",
+            "level": 4
+          },
+          {
+            "q": "My brother ___ the window, so he ___ by Mum.",
+            "options": [
+              "broke / was criticized",
+              "was broken / criticized",
+              "broke / criticized"
+            ],
+            "answer": 0,
+            "explain": "打破窗户是主动 broke；挨批评是被动 was criticized——一句两盏灯。",
+            "level": 4
+          },
+          {
+            "q": "The concert hall ___ five years ago and ___ by thousands of people every year.",
+            "options": [
+              "was built / is visited",
+              "built / visits",
+              "was built / visits"
+            ],
+            "answer": 0,
+            "explain": "两处都是被动：过去 was built，习惯 is visited。",
+            "level": 4
+          },
+          {
+            "q": "— Where ___ your watch ___? — In Shenzhen.",
+            "options": [
+              "was / made",
+              "did / made",
+              "was / make"
+            ],
+            "answer": 0,
+            "explain": "疑问句里的被动：Where was it made?——be 提前，made 不动。",
+            "level": 4
+          },
+          {
+            "q": "The lost dog ___ yet.",
+            "options": [
+              "hasn't been found",
+              "hasn't found",
+              "wasn't find"
+            ],
+            "answer": 0,
+            "explain": "狗是被找的一方——完成被动的否定 hasn't been found。",
+            "level": 4
+          },
+          {
+            "q": "Don't worry — your computer ___ right now.",
+            "options": [
+              "is being repaired",
+              "is repairing",
+              "repairs"
+            ],
+            "answer": 0,
+            "explain": "正在被修——is being repaired；is repairing 成了电脑自己在修东西。",
+            "level": 4
+          },
+          {
+            "q": "The medicine ___ away from children.",
+            "options": [
+              "must be kept",
+              "must keep",
+              "must be keep"
+            ],
+            "answer": 0,
+            "explain": "药是被收好的一方——must be kept（keep→kept）。",
+            "level": 4
+          },
+          {
+            "q": "A speech ___ by the headmaster tomorrow morning.",
+            "options": [
+              "will be given",
+              "will give",
+              "will be give"
+            ],
+            "answer": 0,
+            "explain": "give→gave→given——will be given。",
+            "level": 4
+          },
+          {
+            "q": "The room ___ when I came in, so I waited outside.",
+            "options": [
+              "was being cleaned",
+              "was cleaning",
+              "is being cleaned"
+            ],
+            "answer": 0,
+            "explain": "过去某刻正在被打扫——was being cleaned；came in 提示整句在过去。",
+            "level": 4
+          },
+          {
+            "q": "This word ___ in two different ways.",
+            "options": [
+              "can be pronounced",
+              "can pronounce",
+              "can be pronounce"
+            ],
+            "answer": 0,
+            "explain": "词是被读的一方——can be pronounced。",
+            "level": 4
+          },
+          {
+            "q": "The classroom ___ every day, but yesterday it ___ because we all left early.",
+            "options": [
+              "is cleaned / wasn't cleaned",
+              "cleans / didn't clean",
+              "is cleaned / didn't cleaned"
+            ],
+            "answer": 0,
+            "explain": "两处被动：习惯 is cleaned，昨天没被打扫 wasn't cleaned。",
+            "level": 4
+          },
+          {
+            "q": "— Who ___ this beautiful song? — It ___ by our music teacher.",
+            "options": [
+              "wrote / was written",
+              "was written / wrote",
+              "wrote / was wrote"
+            ],
+            "answer": 0,
+            "explain": "问「谁写的」灯在人身上用主动 wrote；答句灯在歌上用被动 was written。",
+            "level": 4
+          },
+          {
+            "q": "The accident ___ at the crossing, and two people ___ to hospital.",
+            "options": [
+              "happened / were taken",
+              "was happened / were taken",
+              "happened / took"
+            ],
+            "answer": 0,
+            "explain": "happen 永远主动；人被送医院——were taken。",
+            "level": 4
+          },
+          {
+            "q": "Hundreds of photos ___ since the band started the tour.",
+            "options": [
+              "have been taken",
+              "have taken",
+              "has been taken"
+            ],
+            "answer": 0,
+            "explain": "photos 复数 → have been taken；have taken 成了照片自己拍别人。",
+            "level": 4
+          },
+          {
+            "q": "Bikes ___ here — look at the sign.",
+            "options": [
+              "mustn't be parked",
+              "mustn't park",
+              "mustn't be park"
+            ],
+            "answer": 0,
+            "explain": "标志对「车」说话——车是被停的一方：mustn't be parked。",
+            "level": 4
+          },
+          {
+            "q": "大考：The song ___ last year, ___ by millions now, and ___ at our concert next week.",
+            "options": [
+              "was written / is loved / will be sung",
+              "wrote / is loved / will sing",
+              "was written / loves / will be sung"
+            ],
+            "answer": 0,
+            "explain": "三盏被动灯三种报时：过去 was written、现在 is loved、将来 will be sung——be 换脸，分词纹丝不动。",
+            "level": 4
+          }
         ]
       }
     ]

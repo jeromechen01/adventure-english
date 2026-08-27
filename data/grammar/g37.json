@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "What he said is true.", "cn": "他说的话是真的。（what 段当主语）" },
-          { "en": "That's why I love this song.", "cn": "这就是我爱这首歌的原因。（why 段当表语）" },
-          { "en": "It is said that the singer will come to our city.", "cn": "据说那位歌手要来我们市。（It 占位）" },
-          { "en": "The problem is that we have no time.", "cn": "问题是我们没时间。" },
-          { "en": "What you need is a good rest.", "cn": "你需要的是好好休息一下。" }
+          {
+            "en": "What he said is true.",
+            "cn": "他说的话是真的。（what 段当主语）"
+          },
+          {
+            "en": "That's why I love this song.",
+            "cn": "这就是我爱这首歌的原因。（why 段当表语）"
+          },
+          {
+            "en": "It is said that the singer will come to our city.",
+            "cn": "据说那位歌手要来我们市。（It 占位）"
+          },
+          {
+            "en": "The problem is that we have no time.",
+            "cn": "问题是我们没时间。"
+          },
+          {
+            "en": "What you need is a good rest.",
+            "cn": "你需要的是好好休息一下。"
+          }
         ],
         "mid": [
-          { "en": "Whether he will join us is not clear yet.", "cn": "他会不会加入还不清楚。（台前穿 whether）" },
-          { "en": "It is clear that she has practised a lot.", "cn": "显然她下了很多功夫练习。" },
-          { "en": "The question is whether we can finish in time.", "cn": "问题是我们能不能按时完成。" },
-          { "en": "What surprised me most was the ending of the story.", "cn": "最让我吃惊的是故事的结局。" },
-          { "en": "That's because the tickets were sold out.", "cn": "那是因为票卖完了。" }
+          {
+            "en": "Whether he will join us is not clear yet.",
+            "cn": "他会不会加入还不清楚。（台前穿 whether）"
+          },
+          {
+            "en": "It is clear that she has practised a lot.",
+            "cn": "显然她下了很多功夫练习。"
+          },
+          {
+            "en": "The question is whether we can finish in time.",
+            "cn": "问题是我们能不能按时完成。"
+          },
+          {
+            "en": "What surprised me most was the ending of the story.",
+            "cn": "最让我吃惊的是故事的结局。"
+          },
+          {
+            "en": "That's because the tickets were sold out.",
+            "cn": "那是因为票卖完了。"
+          }
         ],
         "trap": [
-          { "en": "What we need is more practice.", "cn": "我们需要的是更多练习。", "note": "整段算一件事——谓语 is 用单数，别被 more practice 带偏。" },
-          { "en": "Whether it will rain doesn't matter.", "cn": "下不下雨无所谓。", "note": "台前不用 if——「是不是」站句首要穿 whether。" },
-          { "en": "It is said that music helps memory.", "cn": "据说音乐有助于记忆。", "note": "It 只是占位报幕——真主语是 that 后面那一整段。" },
-          { "en": "What he did made everyone laugh.", "cn": "他做的事把大家逗笑了。", "note": "台前的整段照样坐正——What he did，不是 What did he do。" },
-          { "en": "The truth is that nobody checked the door.", "cn": "真相是没人检查过门。", "note": "表语位置的 that 习惯保留——别学宾语从句随手省掉。" },
-          { "en": "That she won first prize made us proud.", "cn": "她得了一等奖让我们骄傲。", "note": "陈述段当主语时 that 不能省——它是开场记号。" }
+          {
+            "en": "What we need is more practice.",
+            "cn": "我们需要的是更多练习。",
+            "note": "整段算一件事——谓语 is 用单数，别被 more practice 带偏。"
+          },
+          {
+            "en": "Whether it will rain doesn't matter.",
+            "cn": "下不下雨无所谓。",
+            "note": "台前不用 if——「是不是」站句首要穿 whether。"
+          },
+          {
+            "en": "It is said that music helps memory.",
+            "cn": "据说音乐有助于记忆。",
+            "note": "It 只是占位报幕——真主语是 that 后面那一整段。"
+          },
+          {
+            "en": "What he did made everyone laugh.",
+            "cn": "他做的事把大家逗笑了。",
+            "note": "台前的整段照样坐正——What he did，不是 What did he do。"
+          },
+          {
+            "en": "The truth is that nobody checked the door.",
+            "cn": "真相是没人检查过门。",
+            "note": "表语位置的 that 习惯保留——别学宾语从句随手省掉。"
+          },
+          {
+            "en": "That she won first prize made us proud.",
+            "cn": "她得了一等奖让我们骄傲。",
+            "note": "陈述段当主语时 that 不能省——它是开场记号。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "从句四课到此集齐：宾语座位（G33）、装饰音（G34）、舞台提示（G35/G36）、台前主奏（G37）——四个位置，一套通则：坐正、对表、一句一个领队。位置在变，纪律不变，这正是英语从句的规律性。而 It 占位，是英语「主奏位永远不能空」这条铁律的产物——连「下雨了」都得说 It rains（G04 见过的老朋友）。最常用的小词 it 因此攒下一堆职务：真代词、天气官、占位报幕员——越常用的词，职务越多，规律与例外仍是一体两面。几种从句叠在一个长句里怎么拆，留给精修层 G48（长难句拆解）。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G37 · 主语从句与表语从句</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>整段当主奏上台</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎤 两个位置</text><text x='360' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>主语：What he said is true. ｜ 表语：The problem is that we have no time.</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>📏 三条台风纪律</text><text x='360' y='288' text-anchor='middle' font-size='15' fill='#5A4A42'>① 坐正：What he did（✗ What did he do）</text><text x='360' y='318' text-anchor='middle' font-size='15' fill='#5A4A42'>② 谓语按单数：What we need is ... ③ 台前穿 whether，if 不上台</text><text x='360' y='348' text-anchor='middle' font-size='13' fill='#94A3B8'>陈述段当主语时 that 不能省——它是开场记号</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🎭 It 占位：头重脚轻的解药</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>It is said that ... · It is important that ...（It 报幕，正主在句尾）</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ If he will come is... ✗ · What we need are ✗ · It said that ✗（丢 is）</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只要求看懂 It is said that——为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：主奏位永远不能空——it 的一堆职务 · 英语奇遇记 🦊 G37</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G37 · 主语从句与表语从句</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>整段当主奏上台</text><rect x='36' y='110' width='648' height='92' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>🎤 两个位置</text><text x='360' y='176' text-anchor='middle' font-size='17' fill='#5A4A42'>主语：What he said is true. ｜ 表语：The problem is that we have no time.</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='254' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>📏 三条台风纪律</text><text x='360' y='288' text-anchor='middle' font-size='19' fill='#5A4A42'>① 坐正：What he did（✗ What did he do）</text><text x='360' y='318' text-anchor='middle' font-size='19' fill='#5A4A42'>② 谓语按单数：What we need is ... ③ 台前穿 whether，if 不上台</text><text x='360' y='348' text-anchor='middle' font-size='17' fill='#94A3B8'>陈述段当主语时 that 不能省——它是开场记号</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🎭 It 占位：头重脚轻的解药</text><text x='360' y='450' text-anchor='middle' font-size='18' fill='#5A4A42'>It is said that ... · It is important that ...（It 报幕，正主在句尾）</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ If he will come is... ✗ · What we need are ✗ · It said that ✗（丢 is）</text><text x='360' y='556' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只要求看懂 It is said that——为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：主奏位永远不能空——it 的一堆职务 · 英语奇遇记 🦊 G37</text></svg>",
     "alt": "G37 记忆卡：主语从句与表语从句=整段当主奏上台；三条纪律（坐正/谓语按单数/台前穿 whether）；It 占位解决头重脚轻（It is said that...）；陈述段当主语 that 不能省；警示 If he will come is、What we need are、It said that 三类错误。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 台前的整段",
         "questions": [
-          { "q": "What he said is true. 这句的主语是？", "options": ["What he said 一整段", "he 一个词", "true"], "answer": 0, "explain": "what 领起的整段坐上了主语位。", "level": 1 },
-          { "q": "主语从句指的是？", "options": ["一整段话当主语上台", "主语是代词的句子", "省略主语的句子"], "answer": 0, "explain": "整段旋律当主奏。", "level": 1 },
-          { "q": "表语从句常站在哪个词后面？", "options": ["be（is / was）后面", "名词前面", "介词后面"], "answer": 0, "explain": "The problem is that ...——be 后面那一段。", "level": 1 },
-          { "q": "整段当主语时，谓语用？", "options": ["单数（is / makes）", "复数（are / make）", "看段里名词的数"], "answer": 0, "explain": "一整段算一件事——按单数。", "level": 1 },
-          { "q": "「是不是」开头的主语从句用哪个词？", "options": ["whether", "if", "that"], "answer": 0, "explain": "台前穿正装 whether；if 上不了主语的台。", "level": 1 },
-          { "q": "It is said that he will come. 真正的主语是？", "options": ["that he will come 那一整段", "It", "he"], "answer": 0, "explain": "It 只是占位——正主在句尾。", "level": 1 },
-          { "q": "It is important that... 里的 It 是？", "options": ["占位的报幕员（形式主语）", "真正的主语", "宾语"], "answer": 0, "explain": "It 自己不含内容，只替长主语占位。", "level": 1 },
-          { "q": "What you need ___ a good rest. 填？", "options": ["is", "are", "be"], "answer": 0, "explain": "整段算一件事——is。", "level": 1 },
-          { "q": "主语从句里的语序要？", "options": ["坐正（陈述语序）", "倒装", "随意"], "answer": 0, "explain": "和宾语从句同一条纪律（G33）。", "level": 1 },
-          { "q": "The problem is ___ we have no time. 填？", "options": ["that", "if", "what"], "answer": 0, "explain": "确定的陈述——that 开场。", "level": 1 },
-          { "q": "「你来不来无所谓」的开头是？", "options": ["Whether you come", "If you come", "Do you come"], "answer": 0, "explain": "台前的「是不是」——Whether。", "level": 1 },
-          { "q": "That she won the prize made us proud. 开头的 That 能省吗？", "options": ["不能省——它是开场记号", "能随便省", "必须换成 what"], "answer": 0, "explain": "省了它，两个谓语就撞车了。", "level": 1 },
-          { "q": "英语为什么发明 It 占位？", "options": ["讨厌头重脚轻——大段主语后移", "为了押韵", "凑音节"], "answer": 0, "explain": "观众不用等半天才听到动词。", "level": 1 },
-          { "q": "That's why I was late. 里 why I was late 是？", "options": ["表语从句", "主语从句", "宾语从句"], "answer": 0, "explain": "站在 is 后面——表语从句。", "level": 1 },
-          { "q": "「据说」常用哪个句型？", "options": ["It is said that ...", "It says that ...", "It is saying ..."], "answer": 0, "explain": "It 占位 + 被动 is said（G29）。", "level": 1 },
-          { "q": "下面哪句包含主语从句？", "options": ["What surprised me was the ending.", "I was surprised at the ending.", "The ending was surprising."], "answer": 0, "explain": "What surprised me 整段当主语。", "level": 1 }
+          {
+            "q": "What he said is true. 这句的主语是？",
+            "options": [
+              "What he said 一整段",
+              "he 一个词",
+              "true"
+            ],
+            "answer": 0,
+            "explain": "what 领起的整段坐上了主语位。",
+            "level": 1
+          },
+          {
+            "q": "主语从句指的是？",
+            "options": [
+              "一整段话当主语上台",
+              "主语是代词的句子",
+              "省略主语的句子"
+            ],
+            "answer": 0,
+            "explain": "整段旋律当主奏。",
+            "level": 1
+          },
+          {
+            "q": "表语从句常站在哪个词后面？",
+            "options": [
+              "be（is / was）后面",
+              "名词前面",
+              "介词后面"
+            ],
+            "answer": 0,
+            "explain": "The problem is that ...——be 后面那一段。",
+            "level": 1
+          },
+          {
+            "q": "整段当主语时，谓语用？",
+            "options": [
+              "单数（is / makes）",
+              "复数（are / make）",
+              "看段里名词的数"
+            ],
+            "answer": 0,
+            "explain": "一整段算一件事——按单数。",
+            "level": 1
+          },
+          {
+            "q": "「是不是」开头的主语从句用哪个词？",
+            "options": [
+              "whether",
+              "if",
+              "that"
+            ],
+            "answer": 0,
+            "explain": "台前穿正装 whether；if 上不了主语的台。",
+            "level": 1
+          },
+          {
+            "q": "It is said that he will come. 真正的主语是？",
+            "options": [
+              "that he will come 那一整段",
+              "It",
+              "he"
+            ],
+            "answer": 0,
+            "explain": "It 只是占位——正主在句尾。",
+            "level": 1
+          },
+          {
+            "q": "It is important that... 里的 It 是？",
+            "options": [
+              "占位的报幕员（形式主语）",
+              "真正的主语",
+              "宾语"
+            ],
+            "answer": 0,
+            "explain": "It 自己不含内容，只替长主语占位。",
+            "level": 1
+          },
+          {
+            "q": "What you need ___ a good rest. 填？",
+            "options": [
+              "is",
+              "are",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "整段算一件事——is。",
+            "level": 1
+          },
+          {
+            "q": "主语从句里的语序要？",
+            "options": [
+              "坐正（陈述语序）",
+              "倒装",
+              "随意"
+            ],
+            "answer": 0,
+            "explain": "和宾语从句同一条纪律（G33）。",
+            "level": 1
+          },
+          {
+            "q": "The problem is ___ we have no time. 填？",
+            "options": [
+              "that",
+              "if",
+              "what"
+            ],
+            "answer": 0,
+            "explain": "确定的陈述——that 开场。",
+            "level": 1
+          },
+          {
+            "q": "「你来不来无所谓」的开头是？",
+            "options": [
+              "Whether you come",
+              "If you come",
+              "Do you come"
+            ],
+            "answer": 0,
+            "explain": "台前的「是不是」——Whether。",
+            "level": 1
+          },
+          {
+            "q": "That she won the prize made us proud. 开头的 That 能省吗？",
+            "options": [
+              "不能省——它是开场记号",
+              "能随便省",
+              "必须换成 what"
+            ],
+            "answer": 0,
+            "explain": "省了它，两个谓语就撞车了。",
+            "level": 1
+          },
+          {
+            "q": "英语为什么发明 It 占位？",
+            "options": [
+              "讨厌头重脚轻——大段主语后移",
+              "为了押韵",
+              "凑音节"
+            ],
+            "answer": 0,
+            "explain": "观众不用等半天才听到动词。",
+            "level": 1
+          },
+          {
+            "q": "That's why I was late. 里 why I was late 是？",
+            "options": [
+              "表语从句",
+              "主语从句",
+              "宾语从句"
+            ],
+            "answer": 0,
+            "explain": "站在 is 后面——表语从句。",
+            "level": 1
+          },
+          {
+            "q": "「据说」常用哪个句型？",
+            "options": [
+              "It is said that ...",
+              "It says that ...",
+              "It is saying ..."
+            ],
+            "answer": 0,
+            "explain": "It 占位 + 被动 is said（G29）。",
+            "level": 1
+          },
+          {
+            "q": "下面哪句包含主语从句？",
+            "options": [
+              "What surprised me was the ending.",
+              "I was surprised at the ending.",
+              "The ending was surprising."
+            ],
+            "answer": 0,
+            "explain": "What surprised me 整段当主语。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 请对报幕员",
         "questions": [
-          { "q": "___ he said at the meeting is true.", "options": ["What", "If", "Do"], "answer": 0, "explain": "「他说的话」——What 段当主语。", "level": 2 },
-          { "q": "___ he will join us is not clear yet.", "options": ["Whether", "If", "That"], "answer": 0, "explain": "台前的「是不是」——Whether。", "level": 2 },
-          { "q": "It is said ___ the singer will come to our city.", "options": ["that", "what", "whether"], "answer": 0, "explain": "It is said that ...——陈述内容。", "level": 2 },
-          { "q": "The question is ___ we can finish in time.", "options": ["whether", "that", "what"], "answer": 0, "explain": "「能不能」——whether。", "level": 2 },
-          { "q": "What surprised me most ___ the ending of the story.", "options": ["was", "were", "be"], "answer": 0, "explain": "整段算一件事——was。", "level": 2 },
-          { "q": "___ is important that everyone comes on time.", "options": ["It", "This", "What"], "answer": 0, "explain": "It 占位报幕——真主语在句尾。", "level": 2 },
-          { "q": "The truth is ___ nobody checked the door.", "options": ["that", "what", "if"], "answer": 0, "explain": "确定的陈述——that。", "level": 2 },
-          { "q": "What we need ___ more practice.", "options": ["is", "are", "am"], "answer": 0, "explain": "谓语按单数——is。", "level": 2 },
-          { "q": "___ she won first prize made her parents proud.", "options": ["That", "What", "If"], "answer": 0, "explain": "完整陈述段当主语——That 开场不能省。", "level": 2 },
-          { "q": "That's ___ I love this song — it tells my story.", "options": ["why", "because of", "whether"], "answer": 0, "explain": "这就是原因——That's why ...。", "level": 2 },
-          { "q": "It is clear ___ she has practised a lot.", "options": ["that", "what", "if"], "answer": 0, "explain": "It is clear that ...。", "level": 2 },
-          { "q": "___ you say sorry or not doesn't matter now.", "options": ["Whether", "If", "That"], "answer": 0, "explain": "or not 配 whether——台前更是如此。", "level": 2 },
-          { "q": "— Why are you so happy? — That's ___ our team won.", "options": ["because", "why", "that"], "answer": 0, "explain": "回答原因——That's because ...。", "level": 2 },
-          { "q": "What makes this band special ___ their real stories.", "options": ["is", "are", "were"], "answer": 0, "explain": "整段算一件事——is。", "level": 2 },
-          { "q": "___ is a pity that you missed the show.", "options": ["It", "That", "What"], "answer": 0, "explain": "It is a pity that ...——It 占位。", "level": 2 },
-          { "q": "The good news is ___ the tickets are free.", "options": ["that", "what", "whether"], "answer": 0, "explain": "好消息的内容是陈述——that。", "level": 2 }
+          {
+            "q": "___ he said at the meeting is true.",
+            "options": [
+              "What",
+              "If",
+              "Do"
+            ],
+            "answer": 0,
+            "explain": "「他说的话」——What 段当主语。",
+            "level": 2
+          },
+          {
+            "q": "___ he will join us is not clear yet.",
+            "options": [
+              "Whether",
+              "If",
+              "That"
+            ],
+            "answer": 0,
+            "explain": "台前的「是不是」——Whether。",
+            "level": 2
+          },
+          {
+            "q": "It is said ___ the singer will come to our city.",
+            "options": [
+              "that",
+              "what",
+              "whether"
+            ],
+            "answer": 0,
+            "explain": "It is said that ...——陈述内容。",
+            "level": 2
+          },
+          {
+            "q": "The question is ___ we can finish in time.",
+            "options": [
+              "whether",
+              "that",
+              "what"
+            ],
+            "answer": 0,
+            "explain": "「能不能」——whether。",
+            "level": 2
+          },
+          {
+            "q": "What surprised me most ___ the ending of the story.",
+            "options": [
+              "was",
+              "were",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "整段算一件事——was。",
+            "level": 2
+          },
+          {
+            "q": "___ is important that everyone comes on time.",
+            "options": [
+              "It",
+              "This",
+              "What"
+            ],
+            "answer": 0,
+            "explain": "It 占位报幕——真主语在句尾。",
+            "level": 2
+          },
+          {
+            "q": "The truth is ___ nobody checked the door.",
+            "options": [
+              "that",
+              "what",
+              "if"
+            ],
+            "answer": 0,
+            "explain": "确定的陈述——that。",
+            "level": 2
+          },
+          {
+            "q": "What we need ___ more practice.",
+            "options": [
+              "is",
+              "are",
+              "am"
+            ],
+            "answer": 0,
+            "explain": "谓语按单数——is。",
+            "level": 2
+          },
+          {
+            "q": "___ she won first prize made her parents proud.",
+            "options": [
+              "That",
+              "What",
+              "If"
+            ],
+            "answer": 0,
+            "explain": "完整陈述段当主语——That 开场不能省。",
+            "level": 2
+          },
+          {
+            "q": "That's ___ I love this song — it tells my story.",
+            "options": [
+              "why",
+              "because of",
+              "whether"
+            ],
+            "answer": 0,
+            "explain": "这就是原因——That's why ...。",
+            "level": 2
+          },
+          {
+            "q": "It is clear ___ she has practised a lot.",
+            "options": [
+              "that",
+              "what",
+              "if"
+            ],
+            "answer": 0,
+            "explain": "It is clear that ...。",
+            "level": 2
+          },
+          {
+            "q": "___ you say sorry or not doesn't matter now.",
+            "options": [
+              "Whether",
+              "If",
+              "That"
+            ],
+            "answer": 0,
+            "explain": "or not 配 whether——台前更是如此。",
+            "level": 2
+          },
+          {
+            "q": "— Why are you so happy? — That's ___ our team won.",
+            "options": [
+              "because",
+              "why",
+              "that"
+            ],
+            "answer": 0,
+            "explain": "回答原因——That's because ...。",
+            "level": 2
+          },
+          {
+            "q": "What makes this band special ___ their real stories.",
+            "options": [
+              "is",
+              "are",
+              "were"
+            ],
+            "answer": 0,
+            "explain": "整段算一件事——is。",
+            "level": 2
+          },
+          {
+            "q": "___ is a pity that you missed the show.",
+            "options": [
+              "It",
+              "That",
+              "What"
+            ],
+            "answer": 0,
+            "explain": "It is a pity that ...——It 占位。",
+            "level": 2
+          },
+          {
+            "q": "The good news is ___ the tickets are free.",
+            "options": [
+              "that",
+              "what",
+              "whether"
+            ],
+            "answer": 0,
+            "explain": "好消息的内容是陈述——that。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 端正台风",
         "questions": [
-          { "q": "哪一句台风正？（他说的话不重要）", "options": ["What he said is not important.", "What did he say is not important.", "What he said are not important."], "answer": 0, "explain": "坐正 + 谓语单数。", "level": 3 },
-          { "q": "哪一句台风正？（他会不会来还不清楚）", "options": ["Whether he will come is not clear.", "If he will come is not clear.", "Whether will he come is not clear."], "answer": 0, "explain": "台前穿 whether，后面照样坐正。", "level": 3 },
-          { "q": "哪一句台风正？（据说演出七点开始）", "options": ["It is said that the show starts at seven.", "It said that the show starts at seven.", "It is said whether the show starts at seven."], "answer": 0, "explain": "It is said that——be 不能丢。", "level": 3 },
-          { "q": "哪一句台风正？（我们需要的是更多练习）", "options": ["What we need is more practice.", "What we need are more practice.", "What do we need is more practice."], "answer": 0, "explain": "整段算一件事 is；段内坐正。", "level": 3 },
-          { "q": "哪一句台风正？（她获奖让我们骄傲）", "options": ["That she won the prize made us proud.", "She won the prize made us proud.", "What she won the prize made us proud."], "answer": 0, "explain": "陈述段当主语要 That 开场。", "level": 3 },
-          { "q": "哪一句台风正？（问题是我们能不能按时完成）", "options": ["The question is whether we can finish on time.", "The question is that we can finish on time.", "The question is whether can we finish on time."], "answer": 0, "explain": "「能不能」用 whether，从句坐正。", "level": 3 },
-          { "q": "哪一句台风正？（这就是她早退的原因）", "options": ["That is why she left early.", "That is why did she leave early.", "That is because of she left early."], "answer": 0, "explain": "why 段坐正；because of 不接句子。", "level": 3 },
-          { "q": "哪一句台风正？（重要的是别放弃）", "options": ["It is important that we don't give up.", "Is important that we don't give up.", "It important that we don't give up."], "answer": 0, "explain": "It 占位 + is 都不能少。", "level": 3 },
-          { "q": "哪一句台风正？（让我惊讶的是结局）", "options": ["What surprised me was the ending.", "What surprised me were the ending.", "What did surprise me was the ending."], "answer": 0, "explain": "整段单数 was；段内坐正。", "level": 3 },
-          { "q": "哪一句台风正？（你说不说实话很关键）", "options": ["Whether you tell the truth is important.", "If you tell the truth is important.", "Whether do you tell the truth is important."], "answer": 0, "explain": "台前 whether + 坐正。", "level": 3 },
-          { "q": "哪一句台风正？（真相是没人锁门）", "options": ["The truth is that nobody locked the door.", "The truth is that nobody locked it the door.", "The truth is what nobody locked the door."], "answer": 0, "explain": "that 开场；不重复代词。", "level": 3 },
-          { "q": "哪一句台风正？（很遗憾你错过了演出）", "options": ["It is a pity that you missed the show.", "It is a pity what you missed the show.", "Is a pity that you missed the show."], "answer": 0, "explain": "It is a pity that ...——It 与 is 都在场。", "level": 3 },
-          { "q": "哪一句台风正？（那是因为他起晚了）", "options": ["That's because he got up late.", "That's because of he got up late.", "That's because did he get up late."], "answer": 0, "explain": "because + 句子；坐正。", "level": 3 },
-          { "q": "哪一句台风正？（谁来当队长还没定）", "options": ["Who will be the captain hasn't been decided.", "Who will be the captain haven't been decided.", "Will who be the captain hasn't been decided."], "answer": 0, "explain": "who 段当主语——单数 hasn't；段内坐正。", "level": 3 },
-          { "q": "哪一句台风正？（好消息是门票免费）", "options": ["The good news is that the tickets are free.", "The good news is whether the tickets are free.", "The good news is that are the tickets free."], "answer": 0, "explain": "确定内容用 that；从句坐正。", "level": 3 },
-          { "q": "哪一句台风正？（据说音乐能帮助记忆）", "options": ["It is said that music helps memory.", "It said that music helps memory.", "It is said that music help memory."], "answer": 0, "explain": "It is said that + music helps（三单）。", "level": 3 }
+          {
+            "q": "哪一句台风正？（他说的话不重要）",
+            "options": [
+              "What he said is not important.",
+              "What did he say is not important.",
+              "What he said are not important."
+            ],
+            "answer": 0,
+            "explain": "坐正 + 谓语单数。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（他会不会来还不清楚）",
+            "options": [
+              "Whether he will come is not clear.",
+              "If he will come is not clear.",
+              "Whether will he come is not clear."
+            ],
+            "answer": 0,
+            "explain": "台前穿 whether，后面照样坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（据说演出七点开始）",
+            "options": [
+              "It is said that the show starts at seven.",
+              "It said that the show starts at seven.",
+              "It is said whether the show starts at seven."
+            ],
+            "answer": 0,
+            "explain": "It is said that——be 不能丢。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（我们需要的是更多练习）",
+            "options": [
+              "What we need is more practice.",
+              "What we need are more practice.",
+              "What do we need is more practice."
+            ],
+            "answer": 0,
+            "explain": "整段算一件事 is；段内坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（她获奖让我们骄傲）",
+            "options": [
+              "That she won the prize made us proud.",
+              "She won the prize made us proud.",
+              "What she won the prize made us proud."
+            ],
+            "answer": 0,
+            "explain": "陈述段当主语要 That 开场。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（问题是我们能不能按时完成）",
+            "options": [
+              "The question is whether we can finish on time.",
+              "The question is that we can finish on time.",
+              "The question is whether can we finish on time."
+            ],
+            "answer": 0,
+            "explain": "「能不能」用 whether，从句坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（这就是她早退的原因）",
+            "options": [
+              "That is why she left early.",
+              "That is why did she leave early.",
+              "That is because of she left early."
+            ],
+            "answer": 0,
+            "explain": "why 段坐正；because of 不接句子。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（重要的是别放弃）",
+            "options": [
+              "It is important that we don't give up.",
+              "Is important that we don't give up.",
+              "It important that we don't give up."
+            ],
+            "answer": 0,
+            "explain": "It 占位 + is 都不能少。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（让我惊讶的是结局）",
+            "options": [
+              "What surprised me was the ending.",
+              "What surprised me were the ending.",
+              "What did surprise me was the ending."
+            ],
+            "answer": 0,
+            "explain": "整段单数 was；段内坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（你说不说实话很关键）",
+            "options": [
+              "Whether you tell the truth is important.",
+              "If you tell the truth is important.",
+              "Whether do you tell the truth is important."
+            ],
+            "answer": 0,
+            "explain": "台前 whether + 坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（真相是没人锁门）",
+            "options": [
+              "The truth is that nobody locked the door.",
+              "The truth is that nobody locked it the door.",
+              "The truth is what nobody locked the door."
+            ],
+            "answer": 0,
+            "explain": "that 开场；不重复代词。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（很遗憾你错过了演出）",
+            "options": [
+              "It is a pity that you missed the show.",
+              "It is a pity what you missed the show.",
+              "Is a pity that you missed the show."
+            ],
+            "answer": 0,
+            "explain": "It is a pity that ...——It 与 is 都在场。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（那是因为他起晚了）",
+            "options": [
+              "That's because he got up late.",
+              "That's because of he got up late.",
+              "That's because did he get up late."
+            ],
+            "answer": 0,
+            "explain": "because + 句子；坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（谁来当队长还没定）",
+            "options": [
+              "Who will be the captain hasn't been decided.",
+              "Who will be the captain haven't been decided.",
+              "Will who be the captain hasn't been decided."
+            ],
+            "answer": 0,
+            "explain": "who 段当主语——单数 hasn't；段内坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（好消息是门票免费）",
+            "options": [
+              "The good news is that the tickets are free.",
+              "The good news is whether the tickets are free.",
+              "The good news is that are the tickets free."
+            ],
+            "answer": 0,
+            "explain": "确定内容用 that；从句坐正。",
+            "level": 3
+          },
+          {
+            "q": "哪一句台风正？（据说音乐能帮助记忆）",
+            "options": [
+              "It is said that music helps memory.",
+              "It said that music helps memory.",
+              "It is said that music help memory."
+            ],
+            "answer": 0,
+            "explain": "It is said that + music helps（三单）。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 整段登台",
         "questions": [
-          { "q": "两空：___ the concert will be held outside ___ on the weather.", "options": ["Whether / depends", "If / depends", "Whether / depend"], "answer": 0, "explain": "台前 Whether；整段单数 depends。", "level": 4 },
-          { "q": "大考：___ is amazing ___ the whole choir sings as one.", "options": ["It / that", "That / it", "What / that"], "answer": 0, "explain": "It 占位报幕，真主语是 that 段。", "level": 4 },
-          { "q": "___ we saw at the museum made us think a lot.", "options": ["What", "That", "If"], "answer": 0, "explain": "「我们看到的东西」——What 段当主语。", "level": 4 },
-          { "q": "The best part of the trip was ___ we watched the sunrise together.", "options": ["that", "what", "if"], "answer": 0, "explain": "表语从句陈述内容——that。", "level": 4 },
-          { "q": "两空：___ he failed doesn't matter; ___ matters is that he tried.", "options": ["That / what", "What / that", "If / what"], "answer": 0, "explain": "That he failed 当主语；what matters 当主语。", "level": 4 },
-          { "q": "It is well known ___ practice makes progress.", "options": ["that", "what", "whether"], "answer": 0, "explain": "众所周知——It is well known that。", "level": 4 },
-          { "q": "找错：哪句的开头穿错了衣服？", "options": ["If she will agree is still a question.", "Whether she will agree is still a question.", "I don't know if she will agree."], "answer": 0, "explain": "台前不用 if；第三句 if 在宾语座位合法（G33）。", "level": 4 },
-          { "q": "What the band needs most ___ new songs, not new clothes.", "options": ["is", "are", "were"], "answer": 0, "explain": "整段算一件事——is。", "level": 4 },
-          { "q": "两空：___ is strange ___ the lights were still on at midnight.", "options": ["It / that", "That / what", "It / what"], "answer": 0, "explain": "It is strange that ...。", "level": 4 },
-          { "q": "— Why is the hall so quiet? — That's ___ the exam has started.", "options": ["because", "why", "whether"], "answer": 0, "explain": "回答原因——That's because。", "level": 4 },
-          { "q": "He got full marks. That's ___ he practised all month.", "options": ["because", "why", "that"], "answer": 0, "explain": "满分的原因是苦练——That's because。", "level": 4 },
-          { "q": "___ we go by train or by bus makes little difference.", "options": ["Whether", "If", "That"], "answer": 0, "explain": "「坐火车还是大巴」的两可——Whether 上台。", "level": 4 },
-          { "q": "It is reported ___ the new hall will open next spring.", "options": ["that", "what", "if"], "answer": 0, "explain": "It is reported that——报道说。", "level": 4 },
-          { "q": "两空：The fact is ___ nobody knows ___ the old song came from.", "options": ["that / where", "what / where", "that / that"], "answer": 0, "explain": "表语 that；里面再套一个 where 的宾语从句。", "level": 4 },
-          { "q": "找错：哪句谓语用错了？", "options": ["What I want for dinner are noodles.", "What I want for dinner is noodles.", "Noodles are what I want for dinner."], "answer": 0, "explain": "what 段当主语按单数 is；第三句主语是 noodles，用 are 没错。", "level": 4 },
-          { "q": "大考二：___ is said ___ the singer once lived here, but ___ it is true is hard to prove.", "options": ["It / that / whether", "That / what / if", "It / whether / that"], "answer": 0, "explain": "It is said that ...；whether it is true 整段当主语。", "level": 4 }
+          {
+            "q": "两空：___ the concert will be held outside ___ on the weather.",
+            "options": [
+              "Whether / depends",
+              "If / depends",
+              "Whether / depend"
+            ],
+            "answer": 0,
+            "explain": "台前 Whether；整段单数 depends。",
+            "level": 4
+          },
+          {
+            "q": "大考：___ is amazing ___ the whole choir sings as one.",
+            "options": [
+              "It / that",
+              "That / it",
+              "What / that"
+            ],
+            "answer": 0,
+            "explain": "It 占位报幕，真主语是 that 段。",
+            "level": 4
+          },
+          {
+            "q": "___ we saw at the museum made us think a lot.",
+            "options": [
+              "What",
+              "That",
+              "If"
+            ],
+            "answer": 0,
+            "explain": "「我们看到的东西」——What 段当主语。",
+            "level": 4
+          },
+          {
+            "q": "The best part of the trip was ___ we watched the sunrise together.",
+            "options": [
+              "that",
+              "what",
+              "if"
+            ],
+            "answer": 0,
+            "explain": "表语从句陈述内容——that。",
+            "level": 4
+          },
+          {
+            "q": "两空：___ he failed doesn't matter; ___ matters is that he tried.",
+            "options": [
+              "That / what",
+              "What / that",
+              "If / what"
+            ],
+            "answer": 0,
+            "explain": "That he failed 当主语；what matters 当主语。",
+            "level": 4
+          },
+          {
+            "q": "It is well known ___ practice makes progress.",
+            "options": [
+              "that",
+              "what",
+              "whether"
+            ],
+            "answer": 0,
+            "explain": "众所周知——It is well known that。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句的开头穿错了衣服？",
+            "options": [
+              "If she will agree is still a question.",
+              "Whether she will agree is still a question.",
+              "I don't know if she will agree."
+            ],
+            "answer": 0,
+            "explain": "台前不用 if；第三句 if 在宾语座位合法（G33）。",
+            "level": 4
+          },
+          {
+            "q": "What the band needs most ___ new songs, not new clothes.",
+            "options": [
+              "is",
+              "are",
+              "were"
+            ],
+            "answer": 0,
+            "explain": "整段算一件事——is。",
+            "level": 4
+          },
+          {
+            "q": "两空：___ is strange ___ the lights were still on at midnight.",
+            "options": [
+              "It / that",
+              "That / what",
+              "It / what"
+            ],
+            "answer": 0,
+            "explain": "It is strange that ...。",
+            "level": 4
+          },
+          {
+            "q": "— Why is the hall so quiet? — That's ___ the exam has started.",
+            "options": [
+              "because",
+              "why",
+              "whether"
+            ],
+            "answer": 0,
+            "explain": "回答原因——That's because。",
+            "level": 4
+          },
+          {
+            "q": "He got full marks. That's ___ he practised all month.",
+            "options": [
+              "because",
+              "why",
+              "that"
+            ],
+            "answer": 0,
+            "explain": "满分的原因是苦练——That's because。",
+            "level": 4
+          },
+          {
+            "q": "___ we go by train or by bus makes little difference.",
+            "options": [
+              "Whether",
+              "If",
+              "That"
+            ],
+            "answer": 0,
+            "explain": "「坐火车还是大巴」的两可——Whether 上台。",
+            "level": 4
+          },
+          {
+            "q": "It is reported ___ the new hall will open next spring.",
+            "options": [
+              "that",
+              "what",
+              "if"
+            ],
+            "answer": 0,
+            "explain": "It is reported that——报道说。",
+            "level": 4
+          },
+          {
+            "q": "两空：The fact is ___ nobody knows ___ the old song came from.",
+            "options": [
+              "that / where",
+              "what / where",
+              "that / that"
+            ],
+            "answer": 0,
+            "explain": "表语 that；里面再套一个 where 的宾语从句。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句谓语用错了？",
+            "options": [
+              "What I want for dinner are noodles.",
+              "What I want for dinner is noodles.",
+              "Noodles are what I want for dinner."
+            ],
+            "answer": 0,
+            "explain": "what 段当主语按单数 is；第三句主语是 noodles，用 are 没错。",
+            "level": 4
+          },
+          {
+            "q": "大考二：___ is said ___ the singer once lived here, but ___ it is true is hard to prove.",
+            "options": [
+              "It / that / whether",
+              "That / what / if",
+              "It / whether / that"
+            ],
+            "answer": 0,
+            "explain": "It is said that ...；whether it is true 整段当主语。",
+            "level": 4
+          }
         ]
       }
     ]

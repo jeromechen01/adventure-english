@@ -5,7 +5,9 @@
   "title": "比较级与最高级",
   "metaphor": "beautifuler 念不出来 → 语言是懒的",
   "ketRelevance": 2,
-  "ketLessonMap": ["L8"],
+  "ketLessonMap": [
+    "L8"
+  ],
   "ketNote": "比较级是 KET Part 5 的常客，good/better/best 这几个不规则变化更是重点盯防对象。八课里的亲戚是 L8。",
   "source": "original",
   "sections": {
@@ -47,26 +49,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "My schoolbag is heavier than yours.", "cn": "我的书包比你的重。（heavy→heavier，y 变 i）" },
-          { "en": "This road is longer than that one.", "cn": "这条路比那条长。" },
-          { "en": "Amy is the tallest in the band.", "cn": "艾米是乐团里最高的。（the + est + 范围）" },
-          { "en": "Today is hotter than yesterday.", "cn": "今天比昨天热。（hot 双写 t）" },
-          { "en": "This film is more interesting than the last one.", "cn": "这部电影比上一部有意思。（长词请 more）" }
+          {
+            "en": "My schoolbag is heavier than yours.",
+            "cn": "我的书包比你的重。（heavy→heavier，y 变 i）"
+          },
+          {
+            "en": "This road is longer than that one.",
+            "cn": "这条路比那条长。"
+          },
+          {
+            "en": "Amy is the tallest in the band.",
+            "cn": "艾米是乐团里最高的。（the + est + 范围）"
+          },
+          {
+            "en": "Today is hotter than yesterday.",
+            "cn": "今天比昨天热。（hot 双写 t）"
+          },
+          {
+            "en": "This film is more interesting than the last one.",
+            "cn": "这部电影比上一部有意思。（长词请 more）"
+          }
         ],
         "mid": [
-          { "en": "Maths is more difficult than music for me.", "cn": "对我来说数学比音乐难。（difficult 是长词）" },
-          { "en": "This is the most beautiful park in our city.", "cn": "这是我们城市里最美的公园。（the most + 长词）" },
-          { "en": "Your handwriting is better than mine.", "cn": "你的字写得比我好。（good 换脸 better）" },
-          { "en": "The weather is getting worse and worse.", "cn": "天气越来越糟。（bad→worse）" },
-          { "en": "Of the three brothers, Dani is the youngest.", "cn": "三兄弟里达尼最小。（of the three 报范围）" }
+          {
+            "en": "Maths is more difficult than music for me.",
+            "cn": "对我来说数学比音乐难。（difficult 是长词）"
+          },
+          {
+            "en": "This is the most beautiful park in our city.",
+            "cn": "这是我们城市里最美的公园。（the most + 长词）"
+          },
+          {
+            "en": "Your handwriting is better than mine.",
+            "cn": "你的字写得比我好。（good 换脸 better）"
+          },
+          {
+            "en": "The weather is getting worse and worse.",
+            "cn": "天气越来越糟。（bad→worse）"
+          },
+          {
+            "en": "Of the three brothers, Dani is the youngest.",
+            "cn": "三兄弟里达尼最小。（of the three 报范围）"
+          }
         ],
         "trap": [
-          { "en": "This puzzle is easier than it looks.", "cn": "这个拼图比看上去容易。", "note": "easy 辅音+y → easier，别写成 easyer。" },
-          { "en": "My grandpa is the oldest person in our building.", "cn": "我爷爷是我们楼里年纪最大的人。", "note": "最高级别忘了 the——tallest/oldest 光着头不能上台。" },
-          { "en": "This song is much better than that one.", "cn": "这首歌比那首好得多。", "note": "「好得多」用 much better——不说 more better，more 和换脸不能叠加。" },
-          { "en": "I have more books than my cousin.", "cn": "我的书比我表弟多。", "note": "many 的比较级是换脸的 more——不存在 manyer。" },
-          { "en": "Winter days are shorter than summer days.", "cn": "冬天的白昼比夏天短。", "note": "比较的是「冬天的白昼」和「夏天的白昼」——两边要摆得对称。" },
-          { "en": "My kite flies as high as yours.", "cn": "我的风筝飞得和你的一样高。", "note": "「一样」用 as...as，中间是原形 high——不变形。" }
+          {
+            "en": "This puzzle is easier than it looks.",
+            "cn": "这个拼图比看上去容易。",
+            "note": "easy 辅音+y → easier，别写成 easyer。"
+          },
+          {
+            "en": "My grandpa is the oldest person in our building.",
+            "cn": "我爷爷是我们楼里年纪最大的人。",
+            "note": "最高级别忘了 the——tallest/oldest 光着头不能上台。"
+          },
+          {
+            "en": "This song is much better than that one.",
+            "cn": "这首歌比那首好得多。",
+            "note": "「好得多」用 much better——不说 more better，more 和换脸不能叠加。"
+          },
+          {
+            "en": "I have more books than my cousin.",
+            "cn": "我的书比我表弟多。",
+            "note": "many 的比较级是换脸的 more——不存在 manyer。"
+          },
+          {
+            "en": "Winter days are shorter than summer days.",
+            "cn": "冬天的白昼比夏天短。",
+            "note": "比较的是「冬天的白昼」和「夏天的白昼」——两边要摆得对称。"
+          },
+          {
+            "en": "My kite flies as high as yours.",
+            "cn": "我的风筝飞得和你的一样高。",
+            "note": "「一样」用 as...as，中间是原形 high——不变形。"
+          }
         ]
       }
     },
@@ -192,7 +248,7 @@
     "echo": "good→better→best、bad→worse→worst——注意到没有：英语里最常用的形容词，比较级偏偏最不规则。这不是巧合。better/best 和 good 压根不是一家人：good 是一族古词，bet-/bat-（「有利、合适」）是另一族，两族在漫长的岁月里被硬拼成一套；worse/worst 同样是外姓入赘。为什么偏偏是它们？因为「更好」「更糟」天天挂在每个人嘴边——老形态每天被念一遍，根本轮不到被 -er 规则收编；冷门词没人记得住旧形，早就乖乖加 -er 了。你已经不止一次遇见这条规律：越常用的词，越不规则。现在可以确认：这不是巧合，是英语的秩序。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G18 · 比较级与最高级</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>beautifuler 念不出来 → 语言是懒的，怎么顺口怎么来</text><rect x='36' y='110' width='314' height='150' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='144' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>📏 短词：长尾巴</text><text x='193' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>tall → taller → tallest</text><text x='193' y='202' text-anchor='middle' font-size='14' fill='#8A7568'>nice→nicer · happy→happier</text><text x='193' y='226' text-anchor='middle' font-size='14' fill='#8A7568'>big→bigger（双写）</text><rect x='370' y='110' width='314' height='150' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='144' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🎪 长词：请 more 站台</text><text x='527' y='176' text-anchor='middle' font-size='15' fill='#5A4A42'>more beautiful</text><text x='527' y='202' text-anchor='middle' font-size='15' fill='#5A4A42'>the most interesting</text><text x='527' y='226' text-anchor='middle' font-size='14' fill='#8A7568'>beautifuler 念十遍试试→打结</text><rect x='36' y='280' width='648' height='108' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='314' text-anchor='middle' font-size='18' font-weight='bold' fill='#E65100'>😤 换脸四大家（最常用 · 最不规则 · 暗线主打）</text><text x='360' y='346' text-anchor='middle' font-size='16' fill='#5A4A42'>good→better→best ｜ bad→worse→worst</text><text x='360' y='374' text-anchor='middle' font-size='16' fill='#5A4A42'>many/much→more→most ｜ little→less→least</text><rect x='36' y='408' width='648' height='76' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='438' text-anchor='middle' font-size='16' fill='#0284C7'>⚖️ 比要有 than：taller than Ben ｜ 最要有 the + 范围：the tallest in the band</text><text x='360' y='466' text-anchor='middle' font-size='15' fill='#5A4A42'>打平不变形：as tall as ｜「好得多」：much better</text><rect x='36' y='504' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='532' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ more taller ✗ · gooder ✗ · badder ✗ · than 别写成 then</text><text x='360' y='576' text-anchor='middle' font-size='14' fill='#94A3B8'>暗线确认：越常用的词，越不规则——这是英语的秩序 · 英语奇遇记 🦊 G18</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='32' font-weight='bold' fill='#0284C7'>G18 · 比较级与最高级</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>beautifuler 念不出来 → 语言是懒的，怎么顺口怎么来</text><rect x='36' y='110' width='314' height='150' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='144' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>📏 短词：长尾巴</text><text x='193' y='176' text-anchor='middle' font-size='19' fill='#5A4A42'>tall → taller → tallest</text><text x='193' y='202' text-anchor='middle' font-size='18' fill='#8A7568'>nice→nicer · happy→happier</text><text x='193' y='226' text-anchor='middle' font-size='18' fill='#8A7568'>big→bigger（双写）</text><rect x='370' y='110' width='314' height='150' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='144' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>🎪 长词：请 more 站台</text><text x='527' y='176' text-anchor='middle' font-size='19' fill='#5A4A42'>more beautiful</text><text x='527' y='202' text-anchor='middle' font-size='19' fill='#5A4A42'>the most interesting</text><text x='527' y='226' text-anchor='middle' font-size='18' fill='#8A7568'>beautifuler 念十遍试试→打结</text><rect x='36' y='280' width='648' height='108' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='314' text-anchor='middle' font-size='22' font-weight='bold' fill='#E65100'>😤 换脸四大家（最常用 · 最不规则 · 暗线主打）</text><text x='360' y='346' text-anchor='middle' font-size='20' fill='#5A4A42'>good→better→best ｜ bad→worse→worst</text><text x='360' y='374' text-anchor='middle' font-size='20' fill='#5A4A42'>many/much→more→most ｜ little→less→least</text><rect x='36' y='408' width='648' height='76' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='438' text-anchor='middle' font-size='16' fill='#0284C7'>⚖️ 比要有 than：taller than Ben ｜ 最要有 the + 范围：the tallest in the band</text><text x='360' y='466' text-anchor='middle' font-size='19' fill='#5A4A42'>打平不变形：as tall as ｜「好得多」：much better</text><rect x='36' y='504' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='532' text-anchor='middle' font-size='19' fill='#C0392B'>⚠️ more taller ✗ · gooder ✗ · badder ✗ · than 别写成 then</text><text x='360' y='576' text-anchor='middle' font-size='18' fill='#94A3B8'>暗线确认：越常用的词，越不规则——这是英语的秩序 · 英语奇遇记 🦊 G18</text></svg>",
     "alt": "G18 记忆卡：短词加 -er/-est（含拼写三规则），长词请 more/most（beautifuler 念不出来→语言是懒的）；换脸四大家 good/bad/many/little 最常用最不规则；比较要 than、最高级要 the+范围；警示 more taller、gooder、badder、then。"
   },
   "practice": {
@@ -200,85 +256,725 @@
       {
         "name": "认一认 · 变形入门",
         "questions": [
-          { "q": "tall 的比较级是？", "options": ["taller", "more tall", "tallest"], "answer": 0, "explain": "短词长尾巴——taller。", "level": 1 },
-          { "q": "tall 的最高级是？", "options": ["tallest", "taller", "most tall"], "answer": 0, "explain": "短词最高级加 -est——tallest。", "level": 1 },
-          { "q": "beautiful 的比较级是？", "options": ["more beautiful", "beautifuler", "beautifulest"], "answer": 0, "explain": "长词加尾巴念不动——请 more 站台。", "level": 1 },
-          { "q": "为什么 beautiful 不加 -er？", "options": ["加了念不顺口——语言是懒的", "因为它是名词", "因为它太短"], "answer": 0, "explain": "beautifuler 念十遍舌头打结——怎么顺口怎么来。", "level": 1 },
-          { "q": "good 的比较级是？", "options": ["better", "gooder", "more good"], "answer": 0, "explain": "good 一比就换脸——better。", "level": 1 },
-          { "q": "good 的最高级是？", "options": ["best", "goodest", "most good"], "answer": 0, "explain": "best——换脸家族没有规则尾巴。", "level": 1 },
-          { "q": "bad 的比较级是？", "options": ["worse", "badder", "more bad"], "answer": 0, "explain": "bad 换脸成 worse。", "level": 1 },
-          { "q": "bad 的最高级是？", "options": ["worst", "baddest", "most bad"], "answer": 0, "explain": "worst——最糟的那张脸。", "level": 1 },
-          { "q": "happy 的比较级怎么拼？", "options": ["happier", "happyer", "more happier"], "answer": 0, "explain": "辅音+y 变 i 再加 -er。", "level": 1 },
-          { "q": "big 的比较级怎么拼？", "options": ["bigger", "biger", "more big"], "answer": 0, "explain": "短元音+单辅音先双写——bigger。", "level": 1 },
-          { "q": "nice 的比较级怎么拼？", "options": ["nicer", "niceer", "more nice"], "answer": 0, "explain": "以 e 结尾只加 r——nicer。", "level": 1 },
-          { "q": "「A 比 B 高」中间少不了哪个词？", "options": ["than", "then", "as"], "answer": 0, "explain": "比一比要有 than——A is taller than B。", "level": 1 },
-          { "q": "最高级前面要戴什么？", "options": ["the", "a", "an"], "answer": 0, "explain": "冠军的皇冠——the tallest。", "level": 1 },
-          { "q": "many 的比较级是？", "options": ["more", "manyer", "much"], "answer": 0, "explain": "many/much 都换脸成 more。", "level": 1 },
-          { "q": "little（少）的比较级是？", "options": ["less", "littler", "more little"], "answer": 0, "explain": "little→less→least——换脸四大家之一。", "level": 1 },
-          { "q": "「一样高」用哪个句式？", "options": ["as tall as", "taller as", "so tall than"], "answer": 0, "explain": "打平用 as + 原形 + as，不变形。", "level": 1 }
+          {
+            "q": "tall 的比较级是？",
+            "options": [
+              "taller",
+              "more tall",
+              "tallest"
+            ],
+            "answer": 0,
+            "explain": "短词长尾巴——taller。",
+            "level": 1
+          },
+          {
+            "q": "tall 的最高级是？",
+            "options": [
+              "tallest",
+              "taller",
+              "most tall"
+            ],
+            "answer": 0,
+            "explain": "短词最高级加 -est——tallest。",
+            "level": 1
+          },
+          {
+            "q": "beautiful 的比较级是？",
+            "options": [
+              "more beautiful",
+              "beautifuler",
+              "beautifulest"
+            ],
+            "answer": 0,
+            "explain": "长词加尾巴念不动——请 more 站台。",
+            "level": 1
+          },
+          {
+            "q": "为什么 beautiful 不加 -er？",
+            "options": [
+              "加了念不顺口——语言是懒的",
+              "因为它是名词",
+              "因为它太短"
+            ],
+            "answer": 0,
+            "explain": "beautifuler 念十遍舌头打结——怎么顺口怎么来。",
+            "level": 1
+          },
+          {
+            "q": "good 的比较级是？",
+            "options": [
+              "better",
+              "gooder",
+              "more good"
+            ],
+            "answer": 0,
+            "explain": "good 一比就换脸——better。",
+            "level": 1
+          },
+          {
+            "q": "good 的最高级是？",
+            "options": [
+              "best",
+              "goodest",
+              "most good"
+            ],
+            "answer": 0,
+            "explain": "best——换脸家族没有规则尾巴。",
+            "level": 1
+          },
+          {
+            "q": "bad 的比较级是？",
+            "options": [
+              "worse",
+              "badder",
+              "more bad"
+            ],
+            "answer": 0,
+            "explain": "bad 换脸成 worse。",
+            "level": 1
+          },
+          {
+            "q": "bad 的最高级是？",
+            "options": [
+              "worst",
+              "baddest",
+              "most bad"
+            ],
+            "answer": 0,
+            "explain": "worst——最糟的那张脸。",
+            "level": 1
+          },
+          {
+            "q": "happy 的比较级怎么拼？",
+            "options": [
+              "happier",
+              "happyer",
+              "more happier"
+            ],
+            "answer": 0,
+            "explain": "辅音+y 变 i 再加 -er。",
+            "level": 1
+          },
+          {
+            "q": "big 的比较级怎么拼？",
+            "options": [
+              "bigger",
+              "biger",
+              "more big"
+            ],
+            "answer": 0,
+            "explain": "短元音+单辅音先双写——bigger。",
+            "level": 1
+          },
+          {
+            "q": "nice 的比较级怎么拼？",
+            "options": [
+              "nicer",
+              "niceer",
+              "more nice"
+            ],
+            "answer": 0,
+            "explain": "以 e 结尾只加 r——nicer。",
+            "level": 1
+          },
+          {
+            "q": "「A 比 B 高」中间少不了哪个词？",
+            "options": [
+              "than",
+              "then",
+              "as"
+            ],
+            "answer": 0,
+            "explain": "比一比要有 than——A is taller than B。",
+            "level": 1
+          },
+          {
+            "q": "最高级前面要戴什么？",
+            "options": [
+              "the",
+              "a",
+              "an"
+            ],
+            "answer": 0,
+            "explain": "冠军的皇冠——the tallest。",
+            "level": 1
+          },
+          {
+            "q": "many 的比较级是？",
+            "options": [
+              "more",
+              "manyer",
+              "much"
+            ],
+            "answer": 0,
+            "explain": "many/much 都换脸成 more。",
+            "level": 1
+          },
+          {
+            "q": "little（少）的比较级是？",
+            "options": [
+              "less",
+              "littler",
+              "more little"
+            ],
+            "answer": 0,
+            "explain": "little→less→least——换脸四大家之一。",
+            "level": 1
+          },
+          {
+            "q": "「一样高」用哪个句式？",
+            "options": [
+              "as tall as",
+              "taller as",
+              "so tall than"
+            ],
+            "answer": 0,
+            "explain": "打平用 as + 原形 + as，不变形。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 比一比",
         "questions": [
-          { "q": "A cello is ___ than a violin.", "options": ["bigger", "biger", "more big"], "answer": 0, "explain": "big 双写 g——bigger than。", "level": 2 },
-          { "q": "This maths problem is ___ than that one.", "options": ["more difficult", "difficulter", "most difficult"], "answer": 0, "explain": "difficult 是长词——more difficult。", "level": 2 },
-          { "q": "Amy is ___ girl in our band.", "options": ["the tallest", "the taller", "tallest"], "answer": 0, "explain": "全团第一——the tallest。", "level": 2 },
-          { "q": "My handwriting is ___ than last term. The teacher smiled!", "options": ["better", "gooder", "more good"], "answer": 0, "explain": "good 换脸——better。", "level": 2 },
-          { "q": "The weather today is ___ than yesterday — take your raincoat.", "options": ["worse", "badder", "more bad"], "answer": 0, "explain": "bad 换脸——worse。", "level": 2 },
-          { "q": "This is ___ story in the whole book.", "options": ["the most interesting", "the interestingest", "more interesting"], "answer": 0, "explain": "长词最高级——the most interesting。", "level": 2 },
-          { "q": "A rabbit is ___ than a tortoise.", "options": ["faster", "fastest", "more fast"], "answer": 0, "explain": "短词——faster than。", "level": 2 },
-          { "q": "I feel ___ today than yesterday. The medicine works!", "options": ["happier", "happyer", "more happy"], "answer": 0, "explain": "y 变 i——happier。", "level": 2 },
-          { "q": "Winter is ___ season of the year in Harbin.", "options": ["the coldest", "the colder", "coldest"], "answer": 0, "explain": "四季里的第一名——the coldest + of the year。", "level": 2 },
-          { "q": "I have ___ stickers than my deskmate.", "options": ["more", "manyer", "much"], "answer": 0, "explain": "many 换脸 more——more stickers than。", "level": 2 },
-          { "q": "This bottle holds ___ water than that one.（更少）", "options": ["less", "littler", "fewer little"], "answer": 0, "explain": "little 换脸 less——less water。", "level": 2 },
-          { "q": "Your idea is much ___ than mine. Let's use it!", "options": ["better", "more better", "well"], "answer": 0, "explain": "「好得多」much better——more 不能再叠上去。", "level": 2 },
-          { "q": "My scarf is as ___ as yours.", "options": ["long", "longer", "longest"], "answer": 0, "explain": "as...as 中间站原形——as long as。", "level": 2 },
-          { "q": "The Yangtze River is ___ river in China.", "options": ["the longest", "the longer", "longest of"], "answer": 0, "explain": "中国范围内的第一——the longest。", "level": 2 },
-          { "q": "This song sounds ___ than it looks on paper.", "options": ["nicer", "niceer", "more nice"], "answer": 0, "explain": "e 结尾只加 r——nicer。", "level": 2 },
-          { "q": "Of the four seasons, I like autumn ___.", "options": ["best", "better", "goodest"], "answer": 0, "explain": "四个里选最爱——like...best。", "level": 2 }
+          {
+            "q": "A cello is ___ than a violin.",
+            "options": [
+              "bigger",
+              "biger",
+              "more big"
+            ],
+            "answer": 0,
+            "explain": "big 双写 g——bigger than。",
+            "level": 2
+          },
+          {
+            "q": "This maths problem is ___ than that one.",
+            "options": [
+              "more difficult",
+              "difficulter",
+              "most difficult"
+            ],
+            "answer": 0,
+            "explain": "difficult 是长词——more difficult。",
+            "level": 2
+          },
+          {
+            "q": "Amy is ___ girl in our band.",
+            "options": [
+              "the tallest",
+              "the taller",
+              "tallest"
+            ],
+            "answer": 0,
+            "explain": "全团第一——the tallest。",
+            "level": 2
+          },
+          {
+            "q": "My handwriting is ___ than last term. The teacher smiled!",
+            "options": [
+              "better",
+              "gooder",
+              "more good"
+            ],
+            "answer": 0,
+            "explain": "good 换脸——better。",
+            "level": 2
+          },
+          {
+            "q": "The weather today is ___ than yesterday — take your raincoat.",
+            "options": [
+              "worse",
+              "badder",
+              "more bad"
+            ],
+            "answer": 0,
+            "explain": "bad 换脸——worse。",
+            "level": 2
+          },
+          {
+            "q": "This is ___ story in the whole book.",
+            "options": [
+              "the most interesting",
+              "the interestingest",
+              "more interesting"
+            ],
+            "answer": 0,
+            "explain": "长词最高级——the most interesting。",
+            "level": 2
+          },
+          {
+            "q": "A rabbit is ___ than a tortoise.",
+            "options": [
+              "faster",
+              "fastest",
+              "more fast"
+            ],
+            "answer": 0,
+            "explain": "短词——faster than。",
+            "level": 2
+          },
+          {
+            "q": "I feel ___ today than yesterday. The medicine works!",
+            "options": [
+              "happier",
+              "happyer",
+              "more happy"
+            ],
+            "answer": 0,
+            "explain": "y 变 i——happier。",
+            "level": 2
+          },
+          {
+            "q": "Winter is ___ season of the year in Harbin.",
+            "options": [
+              "the coldest",
+              "the colder",
+              "coldest"
+            ],
+            "answer": 0,
+            "explain": "四季里的第一名——the coldest + of the year。",
+            "level": 2
+          },
+          {
+            "q": "I have ___ stickers than my deskmate.",
+            "options": [
+              "more",
+              "manyer",
+              "much"
+            ],
+            "answer": 0,
+            "explain": "many 换脸 more——more stickers than。",
+            "level": 2
+          },
+          {
+            "q": "This bottle holds ___ water than that one.（更少）",
+            "options": [
+              "less",
+              "littler",
+              "fewer little"
+            ],
+            "answer": 0,
+            "explain": "little 换脸 less——less water。",
+            "level": 2
+          },
+          {
+            "q": "Your idea is much ___ than mine. Let's use it!",
+            "options": [
+              "better",
+              "more better",
+              "well"
+            ],
+            "answer": 0,
+            "explain": "「好得多」much better——more 不能再叠上去。",
+            "level": 2
+          },
+          {
+            "q": "My scarf is as ___ as yours.",
+            "options": [
+              "long",
+              "longer",
+              "longest"
+            ],
+            "answer": 0,
+            "explain": "as...as 中间站原形——as long as。",
+            "level": 2
+          },
+          {
+            "q": "The Yangtze River is ___ river in China.",
+            "options": [
+              "the longest",
+              "the longer",
+              "longest of"
+            ],
+            "answer": 0,
+            "explain": "中国范围内的第一——the longest。",
+            "level": 2
+          },
+          {
+            "q": "This song sounds ___ than it looks on paper.",
+            "options": [
+              "nicer",
+              "niceer",
+              "more nice"
+            ],
+            "answer": 0,
+            "explain": "e 结尾只加 r——nicer。",
+            "level": 2
+          },
+          {
+            "q": "Of the four seasons, I like autumn ___.",
+            "options": [
+              "best",
+              "better",
+              "goodest"
+            ],
+            "answer": 0,
+            "explain": "四个里选最爱——like...best。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 贪心警报",
         "questions": [
-          { "q": "哪句没犯贪心病？", "options": ["This train is faster than the bus.", "This train is more faster than the bus.", "This train is more fast than the bus."], "answer": 0, "explain": "more 和 -er 只能请一个——faster。", "level": 3 },
-          { "q": "哪句的脸换对了？", "options": ["Her cake tastes better than mine.", "Her cake tastes gooder than mine.", "Her cake tastes more good than mine."], "answer": 0, "explain": "good→better，没有 gooder。", "level": 3 },
-          { "q": "哪句拼对了尾巴？", "options": ["The sun is hotter in July.", "The sun is hoter in July.", "The sun is more hot in July."], "answer": 0, "explain": "hot 双写 t——hotter。", "level": 3 },
-          { "q": "哪句的 than 写对了？", "options": ["A whale is heavier than an elephant.", "A whale is heavier then an elephant.", "A whale is heavier as an elephant."], "answer": 0, "explain": "比较用 than——then 是「那时」。", "level": 3 },
-          { "q": "哪句的皇冠戴上了？", "options": ["Mount Qomolangma is the highest mountain in the world.", "Mount Qomolangma is highest mountain in the world.", "Mount Qomolangma is the higher mountain in the world."], "answer": 0, "explain": "世界第一——the highest。", "level": 3 },
-          { "q": "哪句给短词选对了路？", "options": ["This is the easiest way home.", "This is the most easy way home.", "This is the easyest way home."], "answer": 0, "explain": "easy 短词自己变——easiest（y 变 i）。", "level": 3 },
-          { "q": "哪句写对了？（我的感冒更糟了）", "options": ["My cold is worse than last night.", "My cold is badder than last night.", "My cold is more worse than last night."], "answer": 0, "explain": "worse 已是换好的脸——不加 more 不加 -er。", "level": 3 },
-          { "q": "哪句写对了？（弟弟比我小两岁）", "options": ["My brother is two years younger than me.", "My brother is two years young than me.", "My brother is two years the youngest than me."], "answer": 0, "explain": "「小两岁」＝数字 + younger than。", "level": 3 },
-          { "q": "哪句写对了？（这是三条围巾里最便宜的）", "options": ["This is the cheapest of the three scarves.", "This is the cheaper of the three scarves.", "This is cheapest in the three scarves."], "answer": 0, "explain": "三选一的第一名——the cheapest of the three。", "level": 3 },
-          { "q": "哪句写对了？（她和姐姐一样细心）", "options": ["She is as careful as her sister.", "She is as more careful as her sister.", "She is careful than her sister the same."], "answer": 0, "explain": "as + 原形 + as——打平不变形。", "level": 3 },
-          { "q": "哪句写对了？（我的作业错误更少）", "options": ["My homework has fewer mistakes than before.", "My homework has less mistakes than before.", "My homework has fewer mistake than before."], "answer": 0, "explain": "mistakes 数得清——用 fewer；数不清的才用 less。", "level": 3 },
-          { "q": "哪句写对了？（这个故事更有趣了）", "options": ["The story gets more interesting in chapter two.", "The story gets interestinger in chapter two.", "The story gets the most interesting in chapter two.（想说更有趣）"], "answer": 0, "explain": "长词比较级——more interesting；「更」不是「最」。", "level": 3 },
-          { "q": "哪句写对了？（今天的雨比早上大）", "options": ["The rain is heavier than it was this morning.", "The rain is heavyer than it was this morning.", "The rain is more heavy than it was this morning."], "answer": 0, "explain": "heavy y 变 i——heavier。", "level": 3 },
-          { "q": "哪句写对了？（他是两人里跑得较快的那个——两人对比）", "options": ["He is the faster of the two runners.", "He is the fastest of the two runners.", "He is faster of two runner."], "answer": 0, "explain": "两人对比用比较级 the faster of the two——「最」要三个起步。", "level": 3 },
-          { "q": "哪句写对了？（这是我听过最好的演出）", "options": ["It's the best concert I have ever heard.", "It's the goodest concert I have ever heard.", "It's the better concert I have ever heard."], "answer": 0, "explain": "最高级换脸——the best。", "level": 3 },
-          { "q": "哪句写对了？（问班里谁最高）", "options": ["Who is the tallest in your class?", "Who is taller in your class?", "Who is the most tall in your class?"], "answer": 0, "explain": "全班范围的第一名——the tallest in。", "level": 3 }
+          {
+            "q": "哪句没犯贪心病？",
+            "options": [
+              "This train is faster than the bus.",
+              "This train is more faster than the bus.",
+              "This train is more fast than the bus."
+            ],
+            "answer": 0,
+            "explain": "more 和 -er 只能请一个——faster。",
+            "level": 3
+          },
+          {
+            "q": "哪句的脸换对了？",
+            "options": [
+              "Her cake tastes better than mine.",
+              "Her cake tastes gooder than mine.",
+              "Her cake tastes more good than mine."
+            ],
+            "answer": 0,
+            "explain": "good→better，没有 gooder。",
+            "level": 3
+          },
+          {
+            "q": "哪句拼对了尾巴？",
+            "options": [
+              "The sun is hotter in July.",
+              "The sun is hoter in July.",
+              "The sun is more hot in July."
+            ],
+            "answer": 0,
+            "explain": "hot 双写 t——hotter。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 than 写对了？",
+            "options": [
+              "A whale is heavier than an elephant.",
+              "A whale is heavier then an elephant.",
+              "A whale is heavier as an elephant."
+            ],
+            "answer": 0,
+            "explain": "比较用 than——then 是「那时」。",
+            "level": 3
+          },
+          {
+            "q": "哪句的皇冠戴上了？",
+            "options": [
+              "Mount Qomolangma is the highest mountain in the world.",
+              "Mount Qomolangma is highest mountain in the world.",
+              "Mount Qomolangma is the higher mountain in the world."
+            ],
+            "answer": 0,
+            "explain": "世界第一——the highest。",
+            "level": 3
+          },
+          {
+            "q": "哪句给短词选对了路？",
+            "options": [
+              "This is the easiest way home.",
+              "This is the most easy way home.",
+              "This is the easyest way home."
+            ],
+            "answer": 0,
+            "explain": "easy 短词自己变——easiest（y 变 i）。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我的感冒更糟了）",
+            "options": [
+              "My cold is worse than last night.",
+              "My cold is badder than last night.",
+              "My cold is more worse than last night."
+            ],
+            "answer": 0,
+            "explain": "worse 已是换好的脸——不加 more 不加 -er。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（弟弟比我小两岁）",
+            "options": [
+              "My brother is two years younger than me.",
+              "My brother is two years young than me.",
+              "My brother is two years the youngest than me."
+            ],
+            "answer": 0,
+            "explain": "「小两岁」＝数字 + younger than。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（这是三条围巾里最便宜的）",
+            "options": [
+              "This is the cheapest of the three scarves.",
+              "This is the cheaper of the three scarves.",
+              "This is cheapest in the three scarves."
+            ],
+            "answer": 0,
+            "explain": "三选一的第一名——the cheapest of the three。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（她和姐姐一样细心）",
+            "options": [
+              "She is as careful as her sister.",
+              "She is as more careful as her sister.",
+              "She is careful than her sister the same."
+            ],
+            "answer": 0,
+            "explain": "as + 原形 + as——打平不变形。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我的作业错误更少）",
+            "options": [
+              "My homework has fewer mistakes than before.",
+              "My homework has less mistakes than before.",
+              "My homework has fewer mistake than before."
+            ],
+            "answer": 0,
+            "explain": "mistakes 数得清——用 fewer；数不清的才用 less。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（这个故事更有趣了）",
+            "options": [
+              "The story gets more interesting in chapter two.",
+              "The story gets interestinger in chapter two.",
+              "The story gets the most interesting in chapter two.（想说更有趣）"
+            ],
+            "answer": 0,
+            "explain": "长词比较级——more interesting；「更」不是「最」。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（今天的雨比早上大）",
+            "options": [
+              "The rain is heavier than it was this morning.",
+              "The rain is heavyer than it was this morning.",
+              "The rain is more heavy than it was this morning."
+            ],
+            "answer": 0,
+            "explain": "heavy y 变 i——heavier。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（他是两人里跑得较快的那个——两人对比）",
+            "options": [
+              "He is the faster of the two runners.",
+              "He is the fastest of the two runners.",
+              "He is faster of two runner."
+            ],
+            "answer": 0,
+            "explain": "两人对比用比较级 the faster of the two——「最」要三个起步。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（这是我听过最好的演出）",
+            "options": [
+              "It's the best concert I have ever heard.",
+              "It's the goodest concert I have ever heard.",
+              "It's the better concert I have ever heard."
+            ],
+            "answer": 0,
+            "explain": "最高级换脸——the best。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（问班里谁最高）",
+            "options": [
+              "Who is the tallest in your class?",
+              "Who is taller in your class?",
+              "Who is the most tall in your class?"
+            ],
+            "answer": 0,
+            "explain": "全班范围的第一名——the tallest in。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 排出名次",
         "questions": [
-          { "q": "Ben is tall. Tom is ___ than Ben. Amy is ___ of the three.", "options": ["taller / the tallest", "the tallest / taller", "more tall / most tall"], "answer": 0, "explain": "两人比用 -er；三人排名用 the -est。", "level": 4 },
-          { "q": "This piano piece is hard, that one is ___, and the last one is ___ in the book.", "options": ["harder / the hardest", "more hard / most hard", "harder / hardest"], "answer": 0, "explain": "hard→harder→the hardest，皇冠别丢。", "level": 4 },
-          { "q": "— Which do you like ___, spring or autumn? — Autumn, because the air is ___.", "options": ["better / cooler", "best / coolest", "gooder / cooler"], "answer": 0, "explain": "二选一用 better；说理由用 cooler。", "level": 4 },
-          { "q": "My old bike was slow. My new one is much ___, but Dad's is still ___ in our family.", "options": ["faster / the fastest", "more fast / fastest", "faster / faster"], "answer": 0, "explain": "much faster 强调差距；家里第一 the fastest。", "level": 4 },
-          { "q": "Lily sings ___ than me, but she says my drawing is ___ than hers.", "options": ["better / better", "gooder / weller", "more well / more good"], "answer": 0, "explain": "两处都是 good/well 换脸——better。", "level": 4 },
-          { "q": "The film was ___ than the book — in fact it was ___ film of the year.", "options": ["more exciting / the most exciting", "excitinger / the excitingest", "more exciting / most exciting"], "answer": 0, "explain": "长词全程请 more/most，最高级戴 the。", "level": 4 },
-          { "q": "My cold got ___ yesterday, but today it is a little ___.", "options": ["worse / better", "badder / gooder", "worse / more good"], "answer": 0, "explain": "先坏后好——worse 和 better 两张换好的脸。", "level": 4 },
-          { "q": "A mouse is small, a beetle is ___, and an ant is ___ of the three.", "options": ["smaller / the smallest", "more small / most small", "smaller / smallest"], "answer": 0, "explain": "smaller → the smallest，of the three 报范围。", "level": 4 },
-          { "q": "I spent ___ time on maths than on English this week, so my English got ___ marks.", "options": ["more / better", "manyer / gooder", "much / more better"], "answer": 0, "explain": "more time（much 换脸）+ better marks（good 换脸）。", "level": 4 },
-          { "q": "This street is as ___ as that one, but it has ___ cars, so it feels quieter.", "options": ["wide / fewer", "wider / less", "wide / fewer little"], "answer": 0, "explain": "as wide as 打平不变形；cars 数得清用 fewer。", "level": 4 },
-          { "q": "Today is the ___ day of the year — even ___ than last Sunday!", "options": ["hottest / hotter", "hotest / hoter", "most hot / more hot"], "answer": 0, "explain": "hot 双写 t：hottest / hotter。", "level": 4 },
-          { "q": "Of all the subjects, I think music is ___, and maths is ___ for me.", "options": ["the most interesting / the most difficult", "the interestingest / the difficultest", "more interesting / more difficult"], "answer": 0, "explain": "「所有科目里」是排名——两个长词都用 the most。", "level": 4 },
-          { "q": "My answer had ___ mistakes than yours — only two, the ___ in the class!", "options": ["fewer / fewest", "less / least many", "fewer / less"], "answer": 0, "explain": "mistakes 可数：fewer → the fewest。", "level": 4 },
-          { "q": "The blue whale is ___ animal on Earth — even ___ than the biggest dinosaur.", "options": ["the largest / larger", "the larger / largest", "largest / more large"], "answer": 0, "explain": "地球第一 the largest；跟恐龙单挑用 larger。", "level": 4 },
-          { "q": "— Was the test hard? — The last question was ___ one, but it was still ___ than I feared.", "options": ["the hardest / easier", "the harder / easyer", "hardest / more easy"], "answer": 0, "explain": "卷子里的第一难 the hardest；比想象容易 easier。", "level": 4 },
-          { "q": "大考：Our band played ___ than last year, made ___ mistakes, and won ___ prize of the night.", "options": ["better / fewer / the biggest", "gooder / less / the bigger", "more well / fewer / biggest"], "answer": 0, "explain": "better（换脸）+ fewer mistakes（可数）+ the biggest prize（最高级戴 the）——三关一次过。", "level": 4 }
+          {
+            "q": "Ben is tall. Tom is ___ than Ben. Amy is ___ of the three.",
+            "options": [
+              "taller / the tallest",
+              "the tallest / taller",
+              "more tall / most tall"
+            ],
+            "answer": 0,
+            "explain": "两人比用 -er；三人排名用 the -est。",
+            "level": 4
+          },
+          {
+            "q": "This piano piece is hard, that one is ___, and the last one is ___ in the book.",
+            "options": [
+              "harder / the hardest",
+              "more hard / most hard",
+              "harder / hardest"
+            ],
+            "answer": 0,
+            "explain": "hard→harder→the hardest，皇冠别丢。",
+            "level": 4
+          },
+          {
+            "q": "— Which do you like ___, spring or autumn? — Autumn, because the air is ___.",
+            "options": [
+              "better / cooler",
+              "best / coolest",
+              "gooder / cooler"
+            ],
+            "answer": 0,
+            "explain": "二选一用 better；说理由用 cooler。",
+            "level": 4
+          },
+          {
+            "q": "My old bike was slow. My new one is much ___, but Dad's is still ___ in our family.",
+            "options": [
+              "faster / the fastest",
+              "more fast / fastest",
+              "faster / faster"
+            ],
+            "answer": 0,
+            "explain": "much faster 强调差距；家里第一 the fastest。",
+            "level": 4
+          },
+          {
+            "q": "Lily sings ___ than me, but she says my drawing is ___ than hers.",
+            "options": [
+              "better / better",
+              "gooder / weller",
+              "more well / more good"
+            ],
+            "answer": 0,
+            "explain": "两处都是 good/well 换脸——better。",
+            "level": 4
+          },
+          {
+            "q": "The film was ___ than the book — in fact it was ___ film of the year.",
+            "options": [
+              "more exciting / the most exciting",
+              "excitinger / the excitingest",
+              "more exciting / most exciting"
+            ],
+            "answer": 0,
+            "explain": "长词全程请 more/most，最高级戴 the。",
+            "level": 4
+          },
+          {
+            "q": "My cold got ___ yesterday, but today it is a little ___.",
+            "options": [
+              "worse / better",
+              "badder / gooder",
+              "worse / more good"
+            ],
+            "answer": 0,
+            "explain": "先坏后好——worse 和 better 两张换好的脸。",
+            "level": 4
+          },
+          {
+            "q": "A mouse is small, a beetle is ___, and an ant is ___ of the three.",
+            "options": [
+              "smaller / the smallest",
+              "more small / most small",
+              "smaller / smallest"
+            ],
+            "answer": 0,
+            "explain": "smaller → the smallest，of the three 报范围。",
+            "level": 4
+          },
+          {
+            "q": "I spent ___ time on maths than on English this week, so my English got ___ marks.",
+            "options": [
+              "more / better",
+              "manyer / gooder",
+              "much / more better"
+            ],
+            "answer": 0,
+            "explain": "more time（much 换脸）+ better marks（good 换脸）。",
+            "level": 4
+          },
+          {
+            "q": "This street is as ___ as that one, but it has ___ cars, so it feels quieter.",
+            "options": [
+              "wide / fewer",
+              "wider / less",
+              "wide / fewer little"
+            ],
+            "answer": 0,
+            "explain": "as wide as 打平不变形；cars 数得清用 fewer。",
+            "level": 4
+          },
+          {
+            "q": "Today is the ___ day of the year — even ___ than last Sunday!",
+            "options": [
+              "hottest / hotter",
+              "hotest / hoter",
+              "most hot / more hot"
+            ],
+            "answer": 0,
+            "explain": "hot 双写 t：hottest / hotter。",
+            "level": 4
+          },
+          {
+            "q": "Of all the subjects, I think music is ___, and maths is ___ for me.",
+            "options": [
+              "the most interesting / the most difficult",
+              "the interestingest / the difficultest",
+              "more interesting / more difficult"
+            ],
+            "answer": 0,
+            "explain": "「所有科目里」是排名——两个长词都用 the most。",
+            "level": 4
+          },
+          {
+            "q": "My answer had ___ mistakes than yours — only two, the ___ in the class!",
+            "options": [
+              "fewer / fewest",
+              "less / least many",
+              "fewer / less"
+            ],
+            "answer": 0,
+            "explain": "mistakes 可数：fewer → the fewest。",
+            "level": 4
+          },
+          {
+            "q": "The blue whale is ___ animal on Earth — even ___ than the biggest dinosaur.",
+            "options": [
+              "the largest / larger",
+              "the larger / largest",
+              "largest / more large"
+            ],
+            "answer": 0,
+            "explain": "地球第一 the largest；跟恐龙单挑用 larger。",
+            "level": 4
+          },
+          {
+            "q": "— Was the test hard? — The last question was ___ one, but it was still ___ than I feared.",
+            "options": [
+              "the hardest / easier",
+              "the harder / easyer",
+              "hardest / more easy"
+            ],
+            "answer": 0,
+            "explain": "卷子里的第一难 the hardest；比想象容易 easier。",
+            "level": 4
+          },
+          {
+            "q": "大考：Our band played ___ than last year, made ___ mistakes, and won ___ prize of the night.",
+            "options": [
+              "better / fewer / the biggest",
+              "gooder / less / the bigger",
+              "more well / fewer / biggest"
+            ],
+            "answer": 0,
+            "explain": "better（换脸）+ fewer mistakes（可数）+ the biggest prize（最高级戴 the）——三关一次过。",
+            "level": 4
+          }
         ]
       }
     ]

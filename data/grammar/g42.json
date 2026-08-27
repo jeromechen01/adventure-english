@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "She looked unhappy after the match.", "cn": "比赛后她看起来不开心。（un- 前缀）" },
-          { "en": "The singer is also a good dancer.", "cn": "这位歌手也是出色的舞者。（-er 车间）" },
-          { "en": "Be careful — the floor is wet.", "cn": "小心——地板是湿的。（-ful）" },
-          { "en": "It's a sunny day. Let's play basketball.", "cn": "今天天晴，我们打篮球吧。（-y + 合成）" },
-          { "en": "Please water the flowers every day.", "cn": "请每天给花浇水。（转化：名词→动词）" }
+          {
+            "en": "She looked unhappy after the match.",
+            "cn": "比赛后她看起来不开心。（un- 前缀）"
+          },
+          {
+            "en": "The singer is also a good dancer.",
+            "cn": "这位歌手也是出色的舞者。（-er 车间）"
+          },
+          {
+            "en": "Be careful — the floor is wet.",
+            "cn": "小心——地板是湿的。（-ful）"
+          },
+          {
+            "en": "It's a sunny day. Let's play basketball.",
+            "cn": "今天天晴，我们打篮球吧。（-y + 合成）"
+          },
+          {
+            "en": "Please water the flowers every day.",
+            "cn": "请每天给花浇水。（转化：名词→动词）"
+          }
         ],
         "mid": [
-          { "en": "It's impossible to finish in five minutes.", "cn": "五分钟内完成是不可能的。（im- 配 p）" },
-          { "en": "Thank you for your invitation.", "cn": "谢谢你的邀请。（invite → invitation）" },
-          { "en": "He is careless, so he often loses his keys.", "cn": "他很粗心，常常丢钥匙。（-less）" },
-          { "en": "Could you hand me the scissors?", "cn": "把剪刀递给我好吗？（转化）" },
-          { "en": "I disagree with you, but I understand you.", "cn": "我不同意你，但我理解你。（dis-）" }
+          {
+            "en": "It's impossible to finish in five minutes.",
+            "cn": "五分钟内完成是不可能的。（im- 配 p）"
+          },
+          {
+            "en": "Thank you for your invitation.",
+            "cn": "谢谢你的邀请。（invite → invitation）"
+          },
+          {
+            "en": "He is careless, so he often loses his keys.",
+            "cn": "他很粗心，常常丢钥匙。（-less）"
+          },
+          {
+            "en": "Could you hand me the scissors?",
+            "cn": "把剪刀递给我好吗？（转化）"
+          },
+          {
+            "en": "I disagree with you, but I understand you.",
+            "cn": "我不同意你，但我理解你。（dis-）"
+          }
         ],
         "trap": [
-          { "en": "The little girl is friendly to everyone.", "cn": "这个小姑娘对谁都友好。", "note": "-ly 结尾不都是副词——friendly / lovely 是形容词。" },
-          { "en": "Please retell the story in your own words.", "cn": "请用自己的话把故事重讲一遍。", "note": "re- = 再一次——retell 重讲、rewrite 重写、reuse 再利用。" },
-          { "en": "It's impolite to shout in the library.", "cn": "在图书馆大喊大叫不礼貌。", "note": "p 开头爱配 im-——impolite / impossible。" },
-          { "en": "Her illness made everyone worried.", "cn": "她的病让大家很担心。", "note": "ill + -ness 造名词——「生病」这件事。" },
-          { "en": "We booked two tickets for the concert.", "cn": "我们订了两张音乐会的票。", "note": "book 转化上岗——从「书」到「预订」。" },
-          { "en": "The useless box turned out to be useful.", "cn": "那个没用的盒子结果派上了用场。", "note": "同一词根两条命运——-ful 满是 / -less 没有。" }
+          {
+            "en": "The little girl is friendly to everyone.",
+            "cn": "这个小姑娘对谁都友好。",
+            "note": "-ly 结尾不都是副词——friendly / lovely 是形容词。"
+          },
+          {
+            "en": "Please retell the story in your own words.",
+            "cn": "请用自己的话把故事重讲一遍。",
+            "note": "re- = 再一次——retell 重讲、rewrite 重写、reuse 再利用。"
+          },
+          {
+            "en": "It's impolite to shout in the library.",
+            "cn": "在图书馆大喊大叫不礼貌。",
+            "note": "p 开头爱配 im-——impolite / impossible。"
+          },
+          {
+            "en": "Her illness made everyone worried.",
+            "cn": "她的病让大家很担心。",
+            "note": "ill + -ness 造名词——「生病」这件事。"
+          },
+          {
+            "en": "We booked two tickets for the concert.",
+            "cn": "我们订了两张音乐会的票。",
+            "note": "book 转化上岗——从「书」到「预订」。"
+          },
+          {
+            "en": "The useless box turned out to be useful.",
+            "cn": "那个没用的盒子结果派上了用场。",
+            "note": "同一词根两条命运——-ful 满是 / -less 没有。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "造词工厂是「英语的规律性」最直观的证据：词汇表面浩如烟海，底层不过一套有限的零件和四个车间——认得五十个词缀，等于白拿几千个词。而暗线的另一半照旧成立：最常用的词恰恰最少走流水线——good 的反义词不是 ungood 而是 bad，「更好」不是 gooder 而是 better（G18 的异源替补）；高频词都是手工孤品，流水线只批量生产中低频词。这正是全程贯穿的双螺旋：框架永远规整，最常用的零件永远最任性。进阶层十六课到此收官——从延音线到造词厂，恭喜你把初中语法的主干走完了一遍；精修层 G43-G50 见。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G42 · 构词法</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>造词工厂：四个车间</text><rect x='36' y='110' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='142' text-anchor='middle' font-size='16' font-weight='bold' fill='#38B2AC'>🏭 前缀：改意思</text><text x='193' y='172' text-anchor='middle' font-size='13' fill='#5A4A42'>un-/im-/in-/dis- 否定</text><text x='193' y='198' text-anchor='middle' font-size='13' fill='#5A4A42'>re- 再次 ｜ unhappy · impolite</text><text x='193' y='222' text-anchor='middle' font-size='13' fill='#8A7568'>p 开头爱配 im-</text><rect x='370' y='110' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='142' text-anchor='middle' font-size='16' font-weight='bold' fill='#38B2AC'>🔧 后缀：换词性</text><text x='527' y='172' text-anchor='middle' font-size='13' fill='#5A4A42'>-er/-tion/-ness 名词</text><text x='527' y='198' text-anchor='middle' font-size='13' fill='#5A4A42'>-ful/-less/-y 形容词 · -ly 副词</text><text x='527' y='222' text-anchor='middle' font-size='13' fill='#8A7568'>friendly / lovely 是形容词</text><rect x='36' y='250' width='314' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='193' y='282' text-anchor='middle' font-size='16' font-weight='bold' fill='#059669'>🔩 合成：拼积木</text><text x='193' y='312' text-anchor='middle' font-size='13' fill='#5A4A42'>classroom · blackboard</text><text x='193' y='338' text-anchor='middle' font-size='13' fill='#5A4A42'>weekend · basketball（不留缝）</text><rect x='370' y='250' width='314' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='527' y='282' text-anchor='middle' font-size='16' font-weight='bold' fill='#059669'>🔄 转化：换岗位</text><text x='527' y='312' text-anchor='middle' font-size='13' fill='#5A4A42'>water 浇 · hand 递</text><text x='527' y='338' text-anchor='middle' font-size='13' fill='#5A4A42'>book 预订 · email 发邮件</text><rect x='36' y='380' width='648' height='88' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='410' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🔍 考场猜词三步</text><text x='360' y='438' text-anchor='middle' font-size='14' fill='#5A4A42'>① 去前缀（un=不 re=再）② 卸后缀定词性 ③ 认词根猜大意</text><text x='360' y='460' text-anchor='middle' font-size='13' fill='#94A3B8'>rewrite = re + write = 重写</text><rect x='36' y='484' width='648' height='46' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='514' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ cooker(厨师) ✗ · unpolite ✗ · very rain ✗ · basket ball ✗ · careless(当名词) ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只见成品词——构词法为初中 / PET 打底 · 进阶层收官</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线收束：流水线造低频词，高频词全是手工孤品 · 英语奇遇记 🦊 G42</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G42 · 构词法</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>造词工厂：四个车间</text><rect x='36' y='110' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='193' y='142' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>🏭 前缀：改意思</text><text x='193' y='172' text-anchor='middle' font-size='17' fill='#5A4A42'>un-/im-/in-/dis- 否定</text><text x='193' y='198' text-anchor='middle' font-size='17' fill='#5A4A42'>re- 再次 ｜ unhappy · impolite</text><text x='193' y='222' text-anchor='middle' font-size='17' fill='#8A7568'>p 开头爱配 im-</text><rect x='370' y='110' width='314' height='120' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='527' y='142' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>🔧 后缀：换词性</text><text x='527' y='172' text-anchor='middle' font-size='17' fill='#5A4A42'>-er/-tion/-ness 名词</text><text x='527' y='198' text-anchor='middle' font-size='17' fill='#5A4A42'>-ful/-less/-y 形容词 · -ly 副词</text><text x='527' y='222' text-anchor='middle' font-size='17' fill='#8A7568'>friendly / lovely 是形容词</text><rect x='36' y='250' width='314' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='193' y='282' text-anchor='middle' font-size='20' font-weight='bold' fill='#059669'>🔩 合成：拼积木</text><text x='193' y='312' text-anchor='middle' font-size='17' fill='#5A4A42'>classroom · blackboard</text><text x='193' y='338' text-anchor='middle' font-size='17' fill='#5A4A42'>weekend · basketball（不留缝）</text><rect x='370' y='250' width='314' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='527' y='282' text-anchor='middle' font-size='20' font-weight='bold' fill='#059669'>🔄 转化：换岗位</text><text x='527' y='312' text-anchor='middle' font-size='17' fill='#5A4A42'>water 浇 · hand 递</text><text x='527' y='338' text-anchor='middle' font-size='17' fill='#5A4A42'>book 预订 · email 发邮件</text><rect x='36' y='380' width='648' height='88' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='410' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🔍 考场猜词三步</text><text x='360' y='438' text-anchor='middle' font-size='18' fill='#5A4A42'>① 去前缀（un=不 re=再）② 卸后缀定词性 ③ 认词根猜大意</text><text x='360' y='460' text-anchor='middle' font-size='17' fill='#94A3B8'>rewrite = re + write = 重写</text><rect x='36' y='484' width='648' height='46' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='514' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ cooker(厨师) ✗ · unpolite ✗ · very rain ✗ · basket ball ✗ · careless(当名词) ✗</text><text x='360' y='556' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只见成品词——构词法为初中 / PET 打底 · 进阶层收官</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线收束：流水线造低频词，高频词全是手工孤品 · 英语奇遇记 🦊 G42</text></svg>",
     "alt": "G42 记忆卡：造词工厂四车间——前缀改意思（un-/im-/dis-/re-）、后缀换词性（-er/-tion/-ness 名词、-ful/-less/-y 形容词、-ly 副词）、合成拼积木（blackboard/weekend）、转化换岗位（water/hand/book/email）；考场猜词三步；警示 cooker、unpolite、very rain、basket ball、careless 当名词五类错误。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 四个车间",
         "questions": [
-          { "q": "unhappy 是怎么造出来的？", "options": ["un- 前缀 + happy", "happy 自己变形", "两个词合成"], "answer": 0, "explain": "前缀车间——un- 把意思反了个方向。", "level": 1 },
-          { "q": "前缀 un- / im- / dis- 的作用是？", "options": ["表否定（不）", "表将来", "换词性"], "answer": 0, "explain": "前缀改意思不改词性。", "level": 1 },
-          { "q": "前缀 re- 的意思是？", "options": ["再一次、重新", "不", "向外"], "answer": 0, "explain": "retell 重讲、reuse 再利用。", "level": 1 },
-          { "q": "后缀 -er / -or 造出什么词？", "options": ["做…的人（singer / actor）", "形容词", "副词"], "answer": 0, "explain": "名词车间的「人」流水线。", "level": 1 },
-          { "q": "后缀 -ful 的意思是？", "options": ["满是…的（careful）", "没有…的", "做…的人"], "answer": 0, "explain": "-ful 满是；-less 没有。", "level": 1 },
-          { "q": "后缀 -less 的意思是？", "options": ["没有…的（careless）", "满是…的", "更少但还有"], "answer": 0, "explain": "-less——「没有」。", "level": 1 },
-          { "q": "happiness 的后缀 -ness 造出的是？", "options": ["名词（开心这件事）", "形容词", "副词"], "answer": 0, "explain": "-ness 把形容词变成名词。", "level": 1 },
-          { "q": "classroom 出自哪个车间？", "options": ["合成（class + room）", "前缀", "转化"], "answer": 0, "explain": "两词相焊，不留缝。", "level": 1 },
-          { "q": "「转化」车间指的是？", "options": ["词不变形直接换岗位（water 浇水）", "加前缀", "两词相焊"], "answer": 0, "explain": "不动刀，从名词岗调到动词岗。", "level": 1 },
-          { "q": "impossible 里 im- 配的词根是？", "options": ["possible", "pose", "people"], "answer": 0, "explain": "im + possible——p 开头爱配 im-。", "level": 1 },
-          { "q": "invite 进 -tion 车间变成？", "options": ["invitation", "inviter", "inviteness"], "answer": 0, "explain": "invite → invitation（邀请函）。", "level": 1 },
-          { "q": "friendly 的词性是？", "options": ["形容词（-ly 不都是副词）", "副词", "动词"], "answer": 0, "explain": "friendly / lovely——-ly 也能造形容词。", "level": 1 },
-          { "q": "「重写」怎么造？", "options": ["rewrite", "unwrite", "diswrite"], "answer": 0, "explain": "re + write——再写一次。", "level": 1 },
-          { "q": "weekend 是哪两个零件焊的？", "options": ["week + end", "wee + kend", "weak + end"], "answer": 0, "explain": "一周的尾巴——周末。", "level": 1 },
-          { "q": "quick 装上 -ly 变成？", "options": ["quickly（副词）", "quickful", "unquick"], "answer": 0, "explain": "-ly 车间造副词。", "level": 1 },
-          { "q": "Please ___ the flowers.（浇花——转化车间）", "options": ["water", "watery", "waterful"], "answer": 0, "explain": "water 换岗当动词——浇。", "level": 1 }
+          {
+            "q": "unhappy 是怎么造出来的？",
+            "options": [
+              "un- 前缀 + happy",
+              "happy 自己变形",
+              "两个词合成"
+            ],
+            "answer": 0,
+            "explain": "前缀车间——un- 把意思反了个方向。",
+            "level": 1
+          },
+          {
+            "q": "前缀 un- / im- / dis- 的作用是？",
+            "options": [
+              "表否定（不）",
+              "表将来",
+              "换词性"
+            ],
+            "answer": 0,
+            "explain": "前缀改意思不改词性。",
+            "level": 1
+          },
+          {
+            "q": "前缀 re- 的意思是？",
+            "options": [
+              "再一次、重新",
+              "不",
+              "向外"
+            ],
+            "answer": 0,
+            "explain": "retell 重讲、reuse 再利用。",
+            "level": 1
+          },
+          {
+            "q": "后缀 -er / -or 造出什么词？",
+            "options": [
+              "做…的人（singer / actor）",
+              "形容词",
+              "副词"
+            ],
+            "answer": 0,
+            "explain": "名词车间的「人」流水线。",
+            "level": 1
+          },
+          {
+            "q": "后缀 -ful 的意思是？",
+            "options": [
+              "满是…的（careful）",
+              "没有…的",
+              "做…的人"
+            ],
+            "answer": 0,
+            "explain": "-ful 满是；-less 没有。",
+            "level": 1
+          },
+          {
+            "q": "后缀 -less 的意思是？",
+            "options": [
+              "没有…的（careless）",
+              "满是…的",
+              "更少但还有"
+            ],
+            "answer": 0,
+            "explain": "-less——「没有」。",
+            "level": 1
+          },
+          {
+            "q": "happiness 的后缀 -ness 造出的是？",
+            "options": [
+              "名词（开心这件事）",
+              "形容词",
+              "副词"
+            ],
+            "answer": 0,
+            "explain": "-ness 把形容词变成名词。",
+            "level": 1
+          },
+          {
+            "q": "classroom 出自哪个车间？",
+            "options": [
+              "合成（class + room）",
+              "前缀",
+              "转化"
+            ],
+            "answer": 0,
+            "explain": "两词相焊，不留缝。",
+            "level": 1
+          },
+          {
+            "q": "「转化」车间指的是？",
+            "options": [
+              "词不变形直接换岗位（water 浇水）",
+              "加前缀",
+              "两词相焊"
+            ],
+            "answer": 0,
+            "explain": "不动刀，从名词岗调到动词岗。",
+            "level": 1
+          },
+          {
+            "q": "impossible 里 im- 配的词根是？",
+            "options": [
+              "possible",
+              "pose",
+              "people"
+            ],
+            "answer": 0,
+            "explain": "im + possible——p 开头爱配 im-。",
+            "level": 1
+          },
+          {
+            "q": "invite 进 -tion 车间变成？",
+            "options": [
+              "invitation",
+              "inviter",
+              "inviteness"
+            ],
+            "answer": 0,
+            "explain": "invite → invitation（邀请函）。",
+            "level": 1
+          },
+          {
+            "q": "friendly 的词性是？",
+            "options": [
+              "形容词（-ly 不都是副词）",
+              "副词",
+              "动词"
+            ],
+            "answer": 0,
+            "explain": "friendly / lovely——-ly 也能造形容词。",
+            "level": 1
+          },
+          {
+            "q": "「重写」怎么造？",
+            "options": [
+              "rewrite",
+              "unwrite",
+              "diswrite"
+            ],
+            "answer": 0,
+            "explain": "re + write——再写一次。",
+            "level": 1
+          },
+          {
+            "q": "weekend 是哪两个零件焊的？",
+            "options": [
+              "week + end",
+              "wee + kend",
+              "weak + end"
+            ],
+            "answer": 0,
+            "explain": "一周的尾巴——周末。",
+            "level": 1
+          },
+          {
+            "q": "quick 装上 -ly 变成？",
+            "options": [
+              "quickly（副词）",
+              "quickful",
+              "unquick"
+            ],
+            "answer": 0,
+            "explain": "-ly 车间造副词。",
+            "level": 1
+          },
+          {
+            "q": "Please ___ the flowers.（浇花——转化车间）",
+            "options": [
+              "water",
+              "watery",
+              "waterful"
+            ],
+            "answer": 0,
+            "explain": "water 换岗当动词——浇。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 上对流水线",
         "questions": [
-          { "q": "The ending was so sad that everyone felt ___.（不开心）", "options": ["unhappy", "dishappy", "imhappy"], "answer": 0, "explain": "happy 的否定搭档是 un-。", "level": 2 },
-          { "q": "It's ___ to learn a language in one day.（不可能）", "options": ["impossible", "unpossible", "dispossible"], "answer": 0, "explain": "p 开头配 im-。", "level": 2 },
-          { "q": "I ___ with you — let's vote.（不同意）", "options": ["disagree", "unagree", "reagree"], "answer": 0, "explain": "agree 配 dis-。", "level": 2 },
-          { "q": "Please ___ the story in your own words.（重讲）", "options": ["retell", "untell", "distell"], "answer": 0, "explain": "re- 再一次。", "level": 2 },
-          { "q": "My aunt is a famous ___.（歌手）", "options": ["singer", "sing", "singness"], "answer": 0, "explain": "-er 车间——做这事的人。", "level": 2 },
-          { "q": "Thank you for your ___.（邀请）", "options": ["invitation", "invite-tion", "inviteness"], "answer": 0, "explain": "invite → invitation。", "level": 2 },
-          { "q": "Health brings ___.（幸福）", "options": ["happiness", "happyful", "happily"], "answer": 0, "explain": "-ness 造名词。", "level": 2 },
-          { "q": "Be ___ when you cross the road.（小心）", "options": ["careful", "careless", "carefully"], "answer": 0, "explain": "be 后面接形容词 careful。", "level": 2 },
-          { "q": "He is so ___ that he often loses things.（粗心）", "options": ["careless", "careful", "carefully"], "answer": 0, "explain": "没了小心——-less。", "level": 2 },
-          { "q": "It's a ___ day — let's fly kites.（有风）", "options": ["windy", "windful", "winded"], "answer": 0, "explain": "wind + -y——有风的。", "level": 2 },
-          { "q": "Walk ___ — the baby is sleeping.（轻轻地）", "options": ["quietly", "quiet", "quietness"], "answer": 0, "explain": "修饰动词——副词 quietly。", "level": 2 },
-          { "q": "We cleaned the ___ after class.（黑板）", "options": ["blackboard", "black board", "boardblack"], "answer": 0, "explain": "合成词焊成一个。", "level": 2 },
-          { "q": "Could you ___ me that cup?（递——转化）", "options": ["hand", "handy", "handful"], "answer": 0, "explain": "hand 换岗当动词——递。", "level": 2 },
-          { "q": "Dad ___ a table for dinner online.（预订）", "options": ["booked", "booky", "rebooked"], "answer": 0, "explain": "book 换岗当动词——预订。", "level": 2 },
-          { "q": "The old radio is ___ now — it doesn't work at all.（没用）", "options": ["useless", "useful", "usely"], "answer": 0, "explain": "没了用处——-less。", "level": 2 },
-          { "q": "My grandma is ___ to all the neighbours.（友好）", "options": ["friendly", "friendily", "friendful"], "answer": 0, "explain": "friend + -ly——形容词「友好的」。", "level": 2 }
+          {
+            "q": "The ending was so sad that everyone felt ___.（不开心）",
+            "options": [
+              "unhappy",
+              "dishappy",
+              "imhappy"
+            ],
+            "answer": 0,
+            "explain": "happy 的否定搭档是 un-。",
+            "level": 2
+          },
+          {
+            "q": "It's ___ to learn a language in one day.（不可能）",
+            "options": [
+              "impossible",
+              "unpossible",
+              "dispossible"
+            ],
+            "answer": 0,
+            "explain": "p 开头配 im-。",
+            "level": 2
+          },
+          {
+            "q": "I ___ with you — let's vote.（不同意）",
+            "options": [
+              "disagree",
+              "unagree",
+              "reagree"
+            ],
+            "answer": 0,
+            "explain": "agree 配 dis-。",
+            "level": 2
+          },
+          {
+            "q": "Please ___ the story in your own words.（重讲）",
+            "options": [
+              "retell",
+              "untell",
+              "distell"
+            ],
+            "answer": 0,
+            "explain": "re- 再一次。",
+            "level": 2
+          },
+          {
+            "q": "My aunt is a famous ___.（歌手）",
+            "options": [
+              "singer",
+              "sing",
+              "singness"
+            ],
+            "answer": 0,
+            "explain": "-er 车间——做这事的人。",
+            "level": 2
+          },
+          {
+            "q": "Thank you for your ___.（邀请）",
+            "options": [
+              "invitation",
+              "invite-tion",
+              "inviteness"
+            ],
+            "answer": 0,
+            "explain": "invite → invitation。",
+            "level": 2
+          },
+          {
+            "q": "Health brings ___.（幸福）",
+            "options": [
+              "happiness",
+              "happyful",
+              "happily"
+            ],
+            "answer": 0,
+            "explain": "-ness 造名词。",
+            "level": 2
+          },
+          {
+            "q": "Be ___ when you cross the road.（小心）",
+            "options": [
+              "careful",
+              "careless",
+              "carefully"
+            ],
+            "answer": 0,
+            "explain": "be 后面接形容词 careful。",
+            "level": 2
+          },
+          {
+            "q": "He is so ___ that he often loses things.（粗心）",
+            "options": [
+              "careless",
+              "careful",
+              "carefully"
+            ],
+            "answer": 0,
+            "explain": "没了小心——-less。",
+            "level": 2
+          },
+          {
+            "q": "It's a ___ day — let's fly kites.（有风）",
+            "options": [
+              "windy",
+              "windful",
+              "winded"
+            ],
+            "answer": 0,
+            "explain": "wind + -y——有风的。",
+            "level": 2
+          },
+          {
+            "q": "Walk ___ — the baby is sleeping.（轻轻地）",
+            "options": [
+              "quietly",
+              "quiet",
+              "quietness"
+            ],
+            "answer": 0,
+            "explain": "修饰动词——副词 quietly。",
+            "level": 2
+          },
+          {
+            "q": "We cleaned the ___ after class.（黑板）",
+            "options": [
+              "blackboard",
+              "black board",
+              "boardblack"
+            ],
+            "answer": 0,
+            "explain": "合成词焊成一个。",
+            "level": 2
+          },
+          {
+            "q": "Could you ___ me that cup?（递——转化）",
+            "options": [
+              "hand",
+              "handy",
+              "handful"
+            ],
+            "answer": 0,
+            "explain": "hand 换岗当动词——递。",
+            "level": 2
+          },
+          {
+            "q": "Dad ___ a table for dinner online.（预订）",
+            "options": [
+              "booked",
+              "booky",
+              "rebooked"
+            ],
+            "answer": 0,
+            "explain": "book 换岗当动词——预订。",
+            "level": 2
+          },
+          {
+            "q": "The old radio is ___ now — it doesn't work at all.（没用）",
+            "options": [
+              "useless",
+              "useful",
+              "usely"
+            ],
+            "answer": 0,
+            "explain": "没了用处——-less。",
+            "level": 2
+          },
+          {
+            "q": "My grandma is ___ to all the neighbours.（友好）",
+            "options": [
+              "friendly",
+              "friendily",
+              "friendful"
+            ],
+            "answer": 0,
+            "explain": "friend + -ly——形容词「友好的」。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 退回返工件",
         "questions": [
-          { "q": "哪一句出厂合格？（他叔叔是厨师）", "options": ["His uncle is a cook.", "His uncle is a cooker.", "His uncle is a cooking."], "answer": 0, "explain": "cooker 是炊具——「厨师」就是 cook。", "level": 3 },
-          { "q": "哪一句出厂合格？（在路口右转）", "options": ["Turn right at the crossing.", "Turn right at the cross.", "Turn right at the crossful."], "answer": 0, "explain": "路口是 crossing——cross 是十字架。", "level": 3 },
-          { "q": "哪一句前缀配对了？（指着别人不礼貌）", "options": ["It's impolite to point at people.", "It's unpolite to point at people.", "It's dispolite to point at people."], "answer": 0, "explain": "polite 配 im-。", "level": 3 },
-          { "q": "哪一句前缀配对了？（我不同意这个计划）", "options": ["I disagree with the plan.", "I unagree with the plan.", "I imagree with the plan."], "answer": 0, "explain": "agree 配 dis-。", "level": 3 },
-          { "q": "哪一句出厂合格？（她想当歌手）", "options": ["She wants to be a singer.", "She wants to be a sing.", "She wants to be a singor."], "answer": 0, "explain": "sing + -er——singer。", "level": 3 },
-          { "q": "哪一句工装穿对了？（今天是个雨天）", "options": ["It's a rainy day.", "It's a very rain day.", "It's a rainful day."], "answer": 0, "explain": "rain + -y——rainy。", "level": 3 },
-          { "q": "哪一句工装穿对了？（他做作业很认真）", "options": ["He does his homework carefully.", "He does his homework careful.", "He does his homework carefulness."], "answer": 0, "explain": "修饰动词——副词 carefully。", "level": 3 },
-          { "q": "哪一句出厂合格？（多可爱的小猫）", "options": ["What a lovely cat!", "What a love cat!", "What a lovily cat!"], "answer": 0, "explain": "lovely——-ly 造的形容词。", "level": 3 },
-          { "q": "哪一句焊接合格？（我们放学后打篮球）", "options": ["We play basketball after school.", "We play basket ball after school.", "We play ballbasket after school."], "answer": 0, "explain": "合成词不留缝，顺序不能反。", "level": 3 },
-          { "q": "哪一句零件齐全？（粗心让他丢了第一名）", "options": ["Carelessness cost him first place.", "Careless cost him first place.", "Carelessly cost him first place."], "answer": 0, "explain": "当主语要名词——careless + -ness。", "level": 3 },
-          { "q": "哪一句前缀配对了？（请重读这一段）", "options": ["Please reread this paragraph.", "Please unread this paragraph.", "Please disread this paragraph."], "answer": 0, "explain": "re- 再一次——重读。", "level": 3 },
-          { "q": "哪一句出厂合格？（这个盒子没用了）", "options": ["The box is useless now.", "The box is unuseful now.", "The box is uselessly now."], "answer": 0, "explain": "「没用的」——useless。", "level": 3 },
-          { "q": "哪一句出厂合格？（谢谢你的邀请）", "options": ["Thanks for your invitation.", "Thanks for your invition.", "Thanks for your inviteness."], "answer": 0, "explain": "invitation——-tion 车间的正品。", "level": 3 },
-          { "q": "哪一句零件齐全？（他的病让大家担心）", "options": ["His illness made everyone worried.", "His ill made everyone worried.", "His illy made everyone worried."], "answer": 0, "explain": "「病」这件事是名词——ill + -ness。", "level": 3 },
-          { "q": "哪一句出厂合格？（给花浇水是我的任务）", "options": ["Watering the flowers is my job.", "Water the flowers is my job.", "Waterful the flowers is my job."], "answer": 0, "explain": "转化 + G31 打包——Watering 当主语。", "level": 3 },
-          { "q": "哪一句焊接合格？（周末我们去爬山）", "options": ["We climb hills at the weekend.", "We climb hills at the week end.", "We climb hills at the endweek."], "answer": 0, "explain": "weekend——焊成一个词。", "level": 3 }
+          {
+            "q": "哪一句出厂合格？（他叔叔是厨师）",
+            "options": [
+              "His uncle is a cook.",
+              "His uncle is a cooker.",
+              "His uncle is a cooking."
+            ],
+            "answer": 0,
+            "explain": "cooker 是炊具——「厨师」就是 cook。",
+            "level": 3
+          },
+          {
+            "q": "哪一句出厂合格？（在路口右转）",
+            "options": [
+              "Turn right at the crossing.",
+              "Turn right at the cross.",
+              "Turn right at the crossful."
+            ],
+            "answer": 0,
+            "explain": "路口是 crossing——cross 是十字架。",
+            "level": 3
+          },
+          {
+            "q": "哪一句前缀配对了？（指着别人不礼貌）",
+            "options": [
+              "It's impolite to point at people.",
+              "It's unpolite to point at people.",
+              "It's dispolite to point at people."
+            ],
+            "answer": 0,
+            "explain": "polite 配 im-。",
+            "level": 3
+          },
+          {
+            "q": "哪一句前缀配对了？（我不同意这个计划）",
+            "options": [
+              "I disagree with the plan.",
+              "I unagree with the plan.",
+              "I imagree with the plan."
+            ],
+            "answer": 0,
+            "explain": "agree 配 dis-。",
+            "level": 3
+          },
+          {
+            "q": "哪一句出厂合格？（她想当歌手）",
+            "options": [
+              "She wants to be a singer.",
+              "She wants to be a sing.",
+              "She wants to be a singor."
+            ],
+            "answer": 0,
+            "explain": "sing + -er——singer。",
+            "level": 3
+          },
+          {
+            "q": "哪一句工装穿对了？（今天是个雨天）",
+            "options": [
+              "It's a rainy day.",
+              "It's a very rain day.",
+              "It's a rainful day."
+            ],
+            "answer": 0,
+            "explain": "rain + -y——rainy。",
+            "level": 3
+          },
+          {
+            "q": "哪一句工装穿对了？（他做作业很认真）",
+            "options": [
+              "He does his homework carefully.",
+              "He does his homework careful.",
+              "He does his homework carefulness."
+            ],
+            "answer": 0,
+            "explain": "修饰动词——副词 carefully。",
+            "level": 3
+          },
+          {
+            "q": "哪一句出厂合格？（多可爱的小猫）",
+            "options": [
+              "What a lovely cat!",
+              "What a love cat!",
+              "What a lovily cat!"
+            ],
+            "answer": 0,
+            "explain": "lovely——-ly 造的形容词。",
+            "level": 3
+          },
+          {
+            "q": "哪一句焊接合格？（我们放学后打篮球）",
+            "options": [
+              "We play basketball after school.",
+              "We play basket ball after school.",
+              "We play ballbasket after school."
+            ],
+            "answer": 0,
+            "explain": "合成词不留缝，顺序不能反。",
+            "level": 3
+          },
+          {
+            "q": "哪一句零件齐全？（粗心让他丢了第一名）",
+            "options": [
+              "Carelessness cost him first place.",
+              "Careless cost him first place.",
+              "Carelessly cost him first place."
+            ],
+            "answer": 0,
+            "explain": "当主语要名词——careless + -ness。",
+            "level": 3
+          },
+          {
+            "q": "哪一句前缀配对了？（请重读这一段）",
+            "options": [
+              "Please reread this paragraph.",
+              "Please unread this paragraph.",
+              "Please disread this paragraph."
+            ],
+            "answer": 0,
+            "explain": "re- 再一次——重读。",
+            "level": 3
+          },
+          {
+            "q": "哪一句出厂合格？（这个盒子没用了）",
+            "options": [
+              "The box is useless now.",
+              "The box is unuseful now.",
+              "The box is uselessly now."
+            ],
+            "answer": 0,
+            "explain": "「没用的」——useless。",
+            "level": 3
+          },
+          {
+            "q": "哪一句出厂合格？（谢谢你的邀请）",
+            "options": [
+              "Thanks for your invitation.",
+              "Thanks for your invition.",
+              "Thanks for your inviteness."
+            ],
+            "answer": 0,
+            "explain": "invitation——-tion 车间的正品。",
+            "level": 3
+          },
+          {
+            "q": "哪一句零件齐全？（他的病让大家担心）",
+            "options": [
+              "His illness made everyone worried.",
+              "His ill made everyone worried.",
+              "His illy made everyone worried."
+            ],
+            "answer": 0,
+            "explain": "「病」这件事是名词——ill + -ness。",
+            "level": 3
+          },
+          {
+            "q": "哪一句出厂合格？（给花浇水是我的任务）",
+            "options": [
+              "Watering the flowers is my job.",
+              "Water the flowers is my job.",
+              "Waterful the flowers is my job."
+            ],
+            "answer": 0,
+            "explain": "转化 + G31 打包——Watering 当主语。",
+            "level": 3
+          },
+          {
+            "q": "哪一句焊接合格？（周末我们去爬山）",
+            "options": [
+              "We climb hills at the weekend.",
+              "We climb hills at the week end.",
+              "We climb hills at the endweek."
+            ],
+            "answer": 0,
+            "explain": "weekend——焊成一个词。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 考场拆词",
         "questions": [
-          { "q": "猜词：reuse 最可能的意思是？", "options": ["再利用", "拒绝使用", "用坏"], "answer": 0, "explain": "re（再）+ use（用）。", "level": 4 },
-          { "q": "猜词：hopeless 最可能的意思是？", "options": ["没有希望的", "满怀希望的", "希望的人"], "answer": 0, "explain": "hope + -less（没有）。", "level": 4 },
-          { "q": "猜词：kindness 最可能的意思是？", "options": ["善良（这件事）", "善良的", "善良地"], "answer": 0, "explain": "-ness 把形容词打包成名词。", "level": 4 },
-          { "q": "两空：He spoke ___ and everyone listened ___.（polite / quiet 各变副词）", "options": ["politely / quietly", "polite / quiet", "politeness / quietness"], "answer": 0, "explain": "修饰动词——两处都装 -ly。", "level": 4 },
-          { "q": "「不幸的是」放句首常用哪个词？", "options": ["Unluckily", "Unlucky", "Luckiness"], "answer": 0, "explain": "un + lucky + ly——三个零件全装上。", "level": 4 },
-          { "q": "两空：The weather was ___ and a bit ___.（cloud / rain 各变形容词）", "options": ["cloudy / rainy", "cloudful / rainful", "clouded / rained"], "answer": 0, "explain": "天气词多用 -y 车间。", "level": 4 },
-          { "q": "找错：哪句的词性穿错了工装？", "options": ["She danced beautiful at the party.", "She danced beautifully at the party.", "Her dance was beautiful."], "answer": 0, "explain": "修饰 danced 要副词 beautifully。", "level": 4 },
-          { "q": "Please ___ me the photos tonight.（用邮件发——转化）", "options": ["email", "emailly", "emailful"], "answer": 0, "explain": "email 换岗当动词。", "level": 4 },
-          { "q": "两空：A ___ player checks everything twice; a ___ one loses points.", "options": ["careful / careless", "careless / careful", "carefully / carelessly"], "answer": 0, "explain": "同一词根两条命运——修饰名词用形容词。", "level": 4 },
-          { "q": "下面哪个是合成词？", "options": ["toothbrush", "tooth", "brushly"], "answer": 0, "explain": "tooth + brush 焊成牙刷。", "level": 4 },
-          { "q": "猜词：unforgettable 拆开是？", "options": ["un + forget + able（忘不掉的）", "unfor + get + table", "un + forge + ttable"], "answer": 0, "explain": "不 + 忘 + 能……的 = 难忘的。", "level": 4 },
-          { "q": "找错：哪句用错了前缀？", "options": ["Don't be unpatient — the bus is coming.", "Don't be impatient — the bus is coming.", "The line is moving slowly."], "answer": 0, "explain": "patient 的否定配 im-——impatient。", "level": 4 },
-          { "q": "两空：Mum ___ the plants every morning, and Dad ___ the tickets for our trip.（浇 / 订）", "options": ["waters / books", "watery / bookly", "waterings / bookings"], "answer": 0, "explain": "两个转化件上岗当动词，别忘三单 -s。", "level": 4 },
-          { "q": "猜词：seafood、seaside、seashell 的共同零件是？", "options": ["sea（海）", "food", "side"], "answer": 0, "explain": "认出共同零件，三个词一起猜。", "level": 4 },
-          { "q": "找错：哪句的「人」造错了？", "options": ["My cousin wants to be an actorer.", "My cousin wants to be an actor.", "My sister is a good dancer."], "answer": 0, "explain": "act 的「人」是 actor——车间不能叠着上。", "level": 4 },
-          { "q": "大考：三空：___, the ___ morning turned into a ___ afternoon.（幸运地 / 多雨的 / 晴朗的）", "options": ["Luckily / rainy / sunny", "Lucky / rainful / sunful", "Luckiness / rained / sunned"], "answer": 0, "explain": "句首副词 Luckily；天气形容词 rainy / sunny。", "level": 4 }
+          {
+            "q": "猜词：reuse 最可能的意思是？",
+            "options": [
+              "再利用",
+              "拒绝使用",
+              "用坏"
+            ],
+            "answer": 0,
+            "explain": "re（再）+ use（用）。",
+            "level": 4
+          },
+          {
+            "q": "猜词：hopeless 最可能的意思是？",
+            "options": [
+              "没有希望的",
+              "满怀希望的",
+              "希望的人"
+            ],
+            "answer": 0,
+            "explain": "hope + -less（没有）。",
+            "level": 4
+          },
+          {
+            "q": "猜词：kindness 最可能的意思是？",
+            "options": [
+              "善良（这件事）",
+              "善良的",
+              "善良地"
+            ],
+            "answer": 0,
+            "explain": "-ness 把形容词打包成名词。",
+            "level": 4
+          },
+          {
+            "q": "两空：He spoke ___ and everyone listened ___.（polite / quiet 各变副词）",
+            "options": [
+              "politely / quietly",
+              "polite / quiet",
+              "politeness / quietness"
+            ],
+            "answer": 0,
+            "explain": "修饰动词——两处都装 -ly。",
+            "level": 4
+          },
+          {
+            "q": "「不幸的是」放句首常用哪个词？",
+            "options": [
+              "Unluckily",
+              "Unlucky",
+              "Luckiness"
+            ],
+            "answer": 0,
+            "explain": "un + lucky + ly——三个零件全装上。",
+            "level": 4
+          },
+          {
+            "q": "两空：The weather was ___ and a bit ___.（cloud / rain 各变形容词）",
+            "options": [
+              "cloudy / rainy",
+              "cloudful / rainful",
+              "clouded / rained"
+            ],
+            "answer": 0,
+            "explain": "天气词多用 -y 车间。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句的词性穿错了工装？",
+            "options": [
+              "She danced beautiful at the party.",
+              "She danced beautifully at the party.",
+              "Her dance was beautiful."
+            ],
+            "answer": 0,
+            "explain": "修饰 danced 要副词 beautifully。",
+            "level": 4
+          },
+          {
+            "q": "Please ___ me the photos tonight.（用邮件发——转化）",
+            "options": [
+              "email",
+              "emailly",
+              "emailful"
+            ],
+            "answer": 0,
+            "explain": "email 换岗当动词。",
+            "level": 4
+          },
+          {
+            "q": "两空：A ___ player checks everything twice; a ___ one loses points.",
+            "options": [
+              "careful / careless",
+              "careless / careful",
+              "carefully / carelessly"
+            ],
+            "answer": 0,
+            "explain": "同一词根两条命运——修饰名词用形容词。",
+            "level": 4
+          },
+          {
+            "q": "下面哪个是合成词？",
+            "options": [
+              "toothbrush",
+              "tooth",
+              "brushly"
+            ],
+            "answer": 0,
+            "explain": "tooth + brush 焊成牙刷。",
+            "level": 4
+          },
+          {
+            "q": "猜词：unforgettable 拆开是？",
+            "options": [
+              "un + forget + able（忘不掉的）",
+              "unfor + get + table",
+              "un + forge + ttable"
+            ],
+            "answer": 0,
+            "explain": "不 + 忘 + 能……的 = 难忘的。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句用错了前缀？",
+            "options": [
+              "Don't be unpatient — the bus is coming.",
+              "Don't be impatient — the bus is coming.",
+              "The line is moving slowly."
+            ],
+            "answer": 0,
+            "explain": "patient 的否定配 im-——impatient。",
+            "level": 4
+          },
+          {
+            "q": "两空：Mum ___ the plants every morning, and Dad ___ the tickets for our trip.（浇 / 订）",
+            "options": [
+              "waters / books",
+              "watery / bookly",
+              "waterings / bookings"
+            ],
+            "answer": 0,
+            "explain": "两个转化件上岗当动词，别忘三单 -s。",
+            "level": 4
+          },
+          {
+            "q": "猜词：seafood、seaside、seashell 的共同零件是？",
+            "options": [
+              "sea（海）",
+              "food",
+              "side"
+            ],
+            "answer": 0,
+            "explain": "认出共同零件，三个词一起猜。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句的「人」造错了？",
+            "options": [
+              "My cousin wants to be an actorer.",
+              "My cousin wants to be an actor.",
+              "My sister is a good dancer."
+            ],
+            "answer": 0,
+            "explain": "act 的「人」是 actor——车间不能叠着上。",
+            "level": 4
+          },
+          {
+            "q": "大考：三空：___, the ___ morning turned into a ___ afternoon.（幸运地 / 多雨的 / 晴朗的）",
+            "options": [
+              "Luckily / rainy / sunny",
+              "Lucky / rainful / sunful",
+              "Luckiness / rained / sunned"
+            ],
+            "answer": 0,
+            "explain": "句首副词 Luckily；天气形容词 rainy / sunny。",
+            "level": 4
+          }
         ]
       }
     ]

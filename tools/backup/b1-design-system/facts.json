@@ -1,0 +1,77 @@
+{
+  "level": "KET",
+  "fullName": "A2 Key for Schools",
+  "note": "考试事实（题型/题数/分值/时长/评分档区间/CEFR 对应）不受版权保护，可以呈现。所有描述为要点转述，非官方原文。",
+  "overview": {
+    "papers": 3,
+    "totalTime": "全程约 1 小时 40 分钟",
+    "listeningTwice": "听力每段录音放两遍",
+    "speakingExaminers": "口语两名考官：interlocutor 负责对话并评 Global Achievement；assessor 不说话，评 Grammar and Vocabulary / Pronunciation / Interactive Communication",
+    "paperVsComputer": "A2 Key 成人版纸考已停只留机考；A2 Key for Schools 纸考与机考都保留"
+  },
+  "papers": [
+    {
+      "id": "rw",
+      "name": "阅读与写作",
+      "time": "60 分钟",
+      "structure": "7 部分 / 32 题",
+      "weight": "50%",
+      "scoring": "Q1-30 各 1 分，Q31(=P6)、Q32(=P7) 各 15 分，全卷原始分 60",
+      "timing": "官方建议配时：阅读约 40′ + 写作约 20′",
+      "parts": [
+        { "part": 1, "name": "多项选择", "questions": 6, "desc": "简短真实场景文本（告示/短信/标志）抓主旨，三选一" },
+        { "part": 2, "name": "多项匹配", "questions": 7, "desc": "7 个问题 + 3 篇同主题短文，判断谁/哪篇符合" },
+        { "part": 3, "name": "多项选择", "questions": 5, "desc": "一篇长文，考细节 + 主旨，三选一" },
+        { "part": 4, "name": "多选完形", "questions": 6, "desc": "说明文选词填空（三选一），词汇为主少量语法" },
+        { "part": 5, "name": "开放完形", "questions": 6, "desc": "一封邮件每空填一词，无选项。只考小词，全是 1-3 个字母的介词/限定词/代词/助动词/量词，拼写必须正确" },
+        { "part": 6, "name": "指导性写作", "questions": 1, "desc": "短邮件/便条，25 词以上，15 分，三个要点必须全覆盖" },
+        { "part": 7, "name": "看图写故事", "questions": 1, "desc": "据三幅图写故事，35 词以上，15 分，时态一致是命门" }
+      ]
+    },
+    {
+      "id": "listening",
+      "name": "听力",
+      "time": "约 30 分钟（含 6 分钟誊写）",
+      "structure": "5 部分 / 25 题",
+      "weight": "25%",
+      "scoring": "每题 1 分，共 25 分",
+      "timing": "每段录音放两遍",
+      "parts": [
+        { "part": 1, "name": "选正确图片", "questions": 5, "desc": "听短对话，三张图选一张" },
+        { "part": 2, "name": "填空", "questions": 5, "desc": "听独白补笔记：数字/时间/电话，拼写要对" },
+        { "part": 3, "name": "对话三选一", "questions": 5, "desc": "含观点态度题" },
+        { "part": 4, "name": "判断主旨", "questions": 5, "desc": "判断主旨、信息、大意或话题" },
+        { "part": 5, "name": "匹配", "questions": 5, "desc": "同一词汇集内匹配" }
+      ]
+    },
+    {
+      "id": "speaking",
+      "name": "口语",
+      "time": "每两名考生 8-10 分钟（三人组 13-15 分钟）",
+      "structure": "2 部分",
+      "weight": "25%",
+      "scoring": "四个维度：Grammar and Vocabulary / Pronunciation / Interactive Communication / Global Achievement",
+      "timing": "两名考官在场",
+      "parts": [
+        { "part": 1, "name": "面谈", "questions": 0, "desc": "3-4 分钟。事实性/个人信息问题，含一个 Tell me something about… 长回答。常见话题：住哪、学什么、家庭、学校、家乡、课余活动、喜好" },
+        { "part": 2, "name": "讨论", "questions": 0, "desc": "5-6 分钟。看图讨论喜好与厌恶并给出理由，两名考生互相交谈" }
+      ],
+      "tip": "官方提示：不要背套话——背出来不自然，而且往往答不到被问的具体问题"
+    }
+  ],
+  "scale": {
+    "name": "剑桥量表（Cambridge English Scale）100-150",
+    "rows": [
+      { "range": "140-150", "grade": "Grade A", "cert": "证明已达 Level B1 ← 捷径线", "highlight": true },
+      { "range": "133-139", "grade": "Grade B", "cert": "Level A2" },
+      { "range": "120-132", "grade": "Grade C", "cert": "Level A2" },
+      { "range": "100-119", "grade": "—", "cert": "Level A1" }
+    ],
+    "note": "总分 = 四项技能（reading / writing / listening / speaking）量表分的平均值"
+  },
+  "roi": [
+    "Part 6 + Part 7 合计 30/60 分，但只需写 60 个词 → 性价比最高，优先攻",
+    "Part 5 从不考大语法，只考小词（介词/限定词/代词/助动词/量词/不定式标记），全是 1-3 个字母，可速成",
+    "但官方明说：拼写必须正确，拼错不给分"
+  ]
+}

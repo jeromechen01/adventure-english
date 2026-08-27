@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "He said he was tired.", "cn": "他说他累了。（原话：\"I am tired.\"）" },
-          { "en": "She said she liked the song.", "cn": "她说她喜欢这首歌。（原话：\"I like this song.\"）" },
-          { "en": "Mum told me to wash my hands.", "cn": "妈妈叫我洗手。（原话：\"Wash your hands!\"）" },
-          { "en": "He asked if I was free.", "cn": "他问我是否有空。（原话：\"Are you free?\"）" },
-          { "en": "She asked where I lived.", "cn": "她问我住哪儿。（原话：\"Where do you live?\"）" }
+          {
+            "en": "He said he was tired.",
+            "cn": "他说他累了。（原话：\"I am tired.\"）"
+          },
+          {
+            "en": "She said she liked the song.",
+            "cn": "她说她喜欢这首歌。（原话：\"I like this song.\"）"
+          },
+          {
+            "en": "Mum told me to wash my hands.",
+            "cn": "妈妈叫我洗手。（原话：\"Wash your hands!\"）"
+          },
+          {
+            "en": "He asked if I was free.",
+            "cn": "他问我是否有空。（原话：\"Are you free?\"）"
+          },
+          {
+            "en": "She asked where I lived.",
+            "cn": "她问我住哪儿。（原话：\"Where do you live?\"）"
+          }
         ],
         "mid": [
-          { "en": "Tom said he would come the next day.", "cn": "汤姆说他第二天来。（原话：\"I will come tomorrow.\"）" },
-          { "en": "She said she was practising then.", "cn": "她说她当时正在练习。（原话：\"I am practising now.\"）" },
-          { "en": "The teacher told us not to be late.", "cn": "老师叫我们别迟到。（原话：\"Don't be late!\"）" },
-          { "en": "He asked what time the show started.", "cn": "他问演出几点开始。" },
-          { "en": "Amy said she had lost her ticket the day before.", "cn": "艾米说她前一天把票弄丢了。（原话：\"I lost my ticket yesterday.\"）" }
+          {
+            "en": "Tom said he would come the next day.",
+            "cn": "汤姆说他第二天来。（原话：\"I will come tomorrow.\"）"
+          },
+          {
+            "en": "She said she was practising then.",
+            "cn": "她说她当时正在练习。（原话：\"I am practising now.\"）"
+          },
+          {
+            "en": "The teacher told us not to be late.",
+            "cn": "老师叫我们别迟到。（原话：\"Don't be late!\"）"
+          },
+          {
+            "en": "He asked what time the show started.",
+            "cn": "他问演出几点开始。"
+          },
+          {
+            "en": "Amy said she had lost her ticket the day before.",
+            "cn": "艾米说她前一天把票弄丢了。（原话：\"I lost my ticket yesterday.\"）"
+          }
         ],
         "trap": [
-          { "en": "He said he would call me that evening.", "cn": "他说那天晚上会给我打电话。", "note": "原话 \"I will call you this evening.\"——will→would、this→that、you→me，三样各退。" },
-          { "en": "The teacher said the earth goes around the sun.", "cn": "老师说地球绕着太阳转。", "note": "客观真理豁免——转述也不退时态（G33 的老朋友）。" },
-          { "en": "She told me she was leaving.", "cn": "她告诉我她要走了。", "note": "tell 后面必须先带人（told me）；say 不带人。" },
-          { "en": "He asked me not to touch the drum.", "cn": "他叫我别碰那面鼓。", "note": "祈使的否定转述——not 站 to 前（G30），don't 不进转述。" },
-          { "en": "She asked if I had seen her scarf.", "cn": "她问我有没有见过她的围巾。", "note": "原话 \"Have you seen my scarf?\"——收起问句手势坐正，现完退成过完。" },
-          { "en": "He said he had finished the day before.", "cn": "他说他前一天就完成了。", "note": "「昨天」离开现场就失效——换算成 the day before。" }
+          {
+            "en": "He said he would call me that evening.",
+            "cn": "他说那天晚上会给我打电话。",
+            "note": "原话 \"I will call you this evening.\"——will→would、this→that、you→me，三样各退。"
+          },
+          {
+            "en": "The teacher said the earth goes around the sun.",
+            "cn": "老师说地球绕着太阳转。",
+            "note": "客观真理豁免——转述也不退时态（G33 的老朋友）。"
+          },
+          {
+            "en": "She told me she was leaving.",
+            "cn": "她告诉我她要走了。",
+            "note": "tell 后面必须先带人（told me）；say 不带人。"
+          },
+          {
+            "en": "He asked me not to touch the drum.",
+            "cn": "他叫我别碰那面鼓。",
+            "note": "祈使的否定转述——not 站 to 前（G30），don't 不进转述。"
+          },
+          {
+            "en": "She asked if I had seen her scarf.",
+            "cn": "她问我有没有见过她的围巾。",
+            "note": "原话 \"Have you seen my scarf?\"——收起问句手势坐正，现完退成过完。"
+          },
+          {
+            "en": "He said he had finished the day before.",
+            "cn": "他说他前一天就完成了。",
+            "note": "「昨天」离开现场就失效——换算成 the day before。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "「三样各退一步」其实是同一条规律的三个面：I、now、here、tomorrow 这些词全是「以说话人为圆心」的坐标——语言学里叫指示语。换人转述就是换圆心，所有坐标一起平移。英语把这次平移明明白白写在词形上（would、then、there），中文则让听的人自己脑补——两种策略，一个道理。而 say 和 tell 这对最常用的「说」，正是「越常用分工越细」的又一例：高频词从不肯合并，各自守着自己的句型。转述是把 G33 的坐正与对表、G30 的 to do 拼在一起的综合练习——学到这里，前面的零件开始互相咬合了。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#059669'>G40 · 直接引语与间接引语</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>转述：人称、时态、时空三样各退一步</text><rect x='36' y='110' width='648' height='132' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='18' font-weight='bold' fill='#38B2AC'>🔄 三样换算</text><text x='360' y='172' text-anchor='middle' font-size='14' fill='#5A4A42'>人称：I → he / she（换圆心）｜ 时态：is→was · will→would · can→could</text><text x='360' y='200' text-anchor='middle' font-size='14' fill='#5A4A42'>时空：now→then · today→that day · yesterday→the day before</text><text x='360' y='228' text-anchor='middle' font-size='14' fill='#5A4A42'>tomorrow→the next day · here→there · this→that ｜ 真理不退</text><rect x='36' y='262' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='294' text-anchor='middle' font-size='17' font-weight='bold' fill='#059669'>❓ 问句与命令</text><text x='360' y='322' text-anchor='middle' font-size='14' fill='#5A4A42'>一般疑问 asked if / whether ｜ 特殊疑问 asked + 疑问词——都要坐正</text><text x='360' y='350' text-anchor='middle' font-size='14' fill='#5A4A42'>命令 told / asked sb (not) to do——don't 不进转述</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>🗣️ say 与 tell 分家</text><text x='360' y='450' text-anchor='middle' font-size='14' fill='#5A4A42'>say + 内容：He said (that)... ｜ tell + 人：He told me (that)...</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ said me ✗ · asked me that ✗ · told us don't ✗ · where did I live ✗</text><text x='360' y='556' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 只要求看懂 He said——转述为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：换圆心，坐标一起平移 · 英语奇遇记 🦊 G40</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#ECFDF5' stroke='#34D399' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#059669'>G40 · 直接引语与间接引语</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>转述：人称、时态、时空三样各退一步</text><rect x='36' y='110' width='648' height='132' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='22' font-weight='bold' fill='#38B2AC'>🔄 三样换算</text><text x='360' y='172' text-anchor='middle' font-size='17' fill='#5A4A42'>人称：I → he / she（换圆心）｜ 时态：is→was · will→would · can→could</text><text x='360' y='200' text-anchor='middle' font-size='18' fill='#5A4A42'>时空：now→then · today→that day · yesterday→the day before</text><text x='360' y='228' text-anchor='middle' font-size='18' fill='#5A4A42'>tomorrow→the next day · here→there · this→that ｜ 真理不退</text><rect x='36' y='262' width='648' height='110' rx='20' fill='#FFFFFF' stroke='#34D399' stroke-width='3'/><text x='360' y='294' text-anchor='middle' font-size='21' font-weight='bold' fill='#059669'>❓ 问句与命令</text><text x='360' y='322' text-anchor='middle' font-size='18' fill='#5A4A42'>一般疑问 asked if / whether ｜ 特殊疑问 asked + 疑问词——都要坐正</text><text x='360' y='350' text-anchor='middle' font-size='18' fill='#5A4A42'>命令 told / asked sb (not) to do——don't 不进转述</text><rect x='36' y='392' width='648' height='76' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='422' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>🗣️ say 与 tell 分家</text><text x='360' y='450' text-anchor='middle' font-size='18' fill='#5A4A42'>say + 内容：He said (that)... ｜ tell + 人：He told me (that)...</text><rect x='36' y='488' width='648' height='44' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='516' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ said me ✗ · asked me that ✗ · told us don't ✗ · where did I live ✗</text><text x='360' y='556' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 只要求看懂 He said——转述为初中 / PET 打底</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：换圆心，坐标一起平移 · 英语奇遇记 🦊 G40</text></svg>",
     "alt": "G40 记忆卡：转述三样各退一步——人称换圆心、时态退一步（is→was/will→would/can→could）、时空词换算（now→then/today→that day/tomorrow→the next day/here→there）；问句转述坐正（if/whether 或疑问词）；命令转述 (not) to do；say+内容/tell+人；警示 said me、asked me that、told us don't、where did I live 四类错误。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 换算三样",
         "questions": [
-          { "q": "直接引语和间接引语的区别是？", "options": ["录音回放 vs 替他转述", "过去 vs 现在", "口语 vs 书面"], "answer": 0, "explain": "引号里原封不动；转述要换圆心。", "level": 1 },
-          { "q": "转述时「三样各退一步」指哪三样？", "options": ["人称、时态、时空词", "主语、谓语、宾语", "单数、复数、冠词"], "answer": 0, "explain": "换立场、退时态、换算时空词。", "level": 1 },
-          { "q": "He said, \"I am tired.\" 转述成？", "options": ["He said he was tired.", "He said I was tired.", "He said he is tired."], "answer": 0, "explain": "I→he，am→was。", "level": 1 },
-          { "q": "转述里 will 退成？", "options": ["would", "could", "should"], "answer": 0, "explain": "will → would。", "level": 1 },
-          { "q": "转述里 can 退成？", "options": ["could", "would", "might"], "answer": 0, "explain": "can → could。", "level": 1 },
-          { "q": "now 在转述里换算成？", "options": ["then", "here", "today"], "answer": 0, "explain": "「现在」离开现场成了「当时」。", "level": 1 },
-          { "q": "today 在转述里换算成？", "options": ["that day", "this day", "the next day"], "answer": 0, "explain": "today → that day。", "level": 1 },
-          { "q": "tomorrow 在转述里换算成？", "options": ["the next day", "that day", "the day before"], "answer": 0, "explain": "tomorrow → the next day。", "level": 1 },
-          { "q": "yesterday 在转述里换算成？", "options": ["the day before", "the next day", "last day"], "answer": 0, "explain": "yesterday → the day before。", "level": 1 },
-          { "q": "here 在转述里换算成？", "options": ["there", "where", "near"], "answer": 0, "explain": "here → there。", "level": 1 },
-          { "q": "转述一般疑问句（是不是）用？", "options": ["asked if / whether", "asked that", "said if"], "answer": 0, "explain": "问「是不是」——if / whether 领进门。", "level": 1 },
-          { "q": "转述特殊疑问句时，疑问词后面的语序？", "options": ["坐正（陈述语序）", "保持倒装", "随意"], "answer": 0, "explain": "收起问句手势——G33 的坐正。", "level": 1 },
-          { "q": "转述祈使句「别迟到」用？", "options": ["told us not to be late", "told us don't be late", "said us not to be late"], "answer": 0, "explain": "told sb not to do——don't 不进转述。", "level": 1 },
-          { "q": "say 和 tell 的分工是？", "options": ["say + 内容；tell + 人", "say + 人；tell + 内容", "完全一样"], "answer": 0, "explain": "tell 后面必须先有人。", "level": 1 },
-          { "q": "什么内容转述时不退时态？", "options": ["客观真理", "昨天的事", "打算做的事"], "answer": 0, "explain": "真理豁免——保持一般现在。", "level": 1 },
-          { "q": "\"I like music,\" she said. 转述时 I 换成？", "options": ["she", "I", "you"], "answer": 0, "explain": "换圆心——她嘴里的 I 是 she。", "level": 1 }
+          {
+            "q": "直接引语和间接引语的区别是？",
+            "options": [
+              "录音回放 vs 替他转述",
+              "过去 vs 现在",
+              "口语 vs 书面"
+            ],
+            "answer": 0,
+            "explain": "引号里原封不动；转述要换圆心。",
+            "level": 1
+          },
+          {
+            "q": "转述时「三样各退一步」指哪三样？",
+            "options": [
+              "人称、时态、时空词",
+              "主语、谓语、宾语",
+              "单数、复数、冠词"
+            ],
+            "answer": 0,
+            "explain": "换立场、退时态、换算时空词。",
+            "level": 1
+          },
+          {
+            "q": "He said, \"I am tired.\" 转述成？",
+            "options": [
+              "He said he was tired.",
+              "He said I was tired.",
+              "He said he is tired."
+            ],
+            "answer": 0,
+            "explain": "I→he，am→was。",
+            "level": 1
+          },
+          {
+            "q": "转述里 will 退成？",
+            "options": [
+              "would",
+              "could",
+              "should"
+            ],
+            "answer": 0,
+            "explain": "will → would。",
+            "level": 1
+          },
+          {
+            "q": "转述里 can 退成？",
+            "options": [
+              "could",
+              "would",
+              "might"
+            ],
+            "answer": 0,
+            "explain": "can → could。",
+            "level": 1
+          },
+          {
+            "q": "now 在转述里换算成？",
+            "options": [
+              "then",
+              "here",
+              "today"
+            ],
+            "answer": 0,
+            "explain": "「现在」离开现场成了「当时」。",
+            "level": 1
+          },
+          {
+            "q": "today 在转述里换算成？",
+            "options": [
+              "that day",
+              "this day",
+              "the next day"
+            ],
+            "answer": 0,
+            "explain": "today → that day。",
+            "level": 1
+          },
+          {
+            "q": "tomorrow 在转述里换算成？",
+            "options": [
+              "the next day",
+              "that day",
+              "the day before"
+            ],
+            "answer": 0,
+            "explain": "tomorrow → the next day。",
+            "level": 1
+          },
+          {
+            "q": "yesterday 在转述里换算成？",
+            "options": [
+              "the day before",
+              "the next day",
+              "last day"
+            ],
+            "answer": 0,
+            "explain": "yesterday → the day before。",
+            "level": 1
+          },
+          {
+            "q": "here 在转述里换算成？",
+            "options": [
+              "there",
+              "where",
+              "near"
+            ],
+            "answer": 0,
+            "explain": "here → there。",
+            "level": 1
+          },
+          {
+            "q": "转述一般疑问句（是不是）用？",
+            "options": [
+              "asked if / whether",
+              "asked that",
+              "said if"
+            ],
+            "answer": 0,
+            "explain": "问「是不是」——if / whether 领进门。",
+            "level": 1
+          },
+          {
+            "q": "转述特殊疑问句时，疑问词后面的语序？",
+            "options": [
+              "坐正（陈述语序）",
+              "保持倒装",
+              "随意"
+            ],
+            "answer": 0,
+            "explain": "收起问句手势——G33 的坐正。",
+            "level": 1
+          },
+          {
+            "q": "转述祈使句「别迟到」用？",
+            "options": [
+              "told us not to be late",
+              "told us don't be late",
+              "said us not to be late"
+            ],
+            "answer": 0,
+            "explain": "told sb not to do——don't 不进转述。",
+            "level": 1
+          },
+          {
+            "q": "say 和 tell 的分工是？",
+            "options": [
+              "say + 内容；tell + 人",
+              "say + 人；tell + 内容",
+              "完全一样"
+            ],
+            "answer": 0,
+            "explain": "tell 后面必须先有人。",
+            "level": 1
+          },
+          {
+            "q": "什么内容转述时不退时态？",
+            "options": [
+              "客观真理",
+              "昨天的事",
+              "打算做的事"
+            ],
+            "answer": 0,
+            "explain": "真理豁免——保持一般现在。",
+            "level": 1
+          },
+          {
+            "q": "\"I like music,\" she said. 转述时 I 换成？",
+            "options": [
+              "she",
+              "I",
+              "you"
+            ],
+            "answer": 0,
+            "explain": "换圆心——她嘴里的 I 是 she。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 退一步填空",
         "questions": [
-          { "q": "He said he ___ tired after the show.", "options": ["was", "is", "be"], "answer": 0, "explain": "said 过去——退成 was。", "level": 2 },
-          { "q": "She said she ___ come the next day.", "options": ["would", "will", "shall"], "answer": 0, "explain": "will → would。", "level": 2 },
-          { "q": "Tom said he ___ swim when he was five.", "options": ["could", "can", "may"], "answer": 0, "explain": "can → could。", "level": 2 },
-          { "q": "He told me he was practising ___.（原话：now）", "options": ["then", "now", "today"], "answer": 0, "explain": "now → then。", "level": 2 },
-          { "q": "She said she had seen the film ___.（原话：yesterday）", "options": ["the day before", "yesterday", "last day"], "answer": 0, "explain": "yesterday → the day before。", "level": 2 },
-          { "q": "He said he would leave ___.（原话：tomorrow）", "options": ["the next day", "tomorrow", "that day"], "answer": 0, "explain": "tomorrow → the next day。", "level": 2 },
-          { "q": "The teacher ___ us that practice makes progress.", "options": ["told", "said", "asked"], "answer": 0, "explain": "带人（us）——用 told。", "level": 2 },
-          { "q": "He asked ___ I liked the new song.", "options": ["if", "that", "what"], "answer": 0, "explain": "问「是不是喜欢」——if。", "level": 2 },
-          { "q": "She asked me where I ___.（原话：Where do you live?）", "options": ["lived", "live", "did live"], "answer": 0, "explain": "坐正 + 退一步——lived。", "level": 2 },
-          { "q": "Mum told me ___ up my room.", "options": ["to tidy", "tidy", "tidying"], "answer": 0, "explain": "祈使转述——told sb to do。", "level": 2 },
-          { "q": "The coach told us ___ give up.", "options": ["not to", "don't", "to not"], "answer": 0, "explain": "否定祈使转述——not to give up。", "level": 2 },
-          { "q": "He ___ that he was from Sichuan.", "options": ["said", "told", "asked"], "answer": 0, "explain": "不带人——say + 内容。", "level": 2 },
-          { "q": "He ___ me that he was from Sichuan.", "options": ["told", "said", "asked"], "answer": 0, "explain": "带人（me）——tell。", "level": 2 },
-          { "q": "She asked ___ time the concert started.", "options": ["what", "if", "that"], "answer": 0, "explain": "问几点——保留疑问词 what time。", "level": 2 },
-          { "q": "He said the sun ___ in the east.", "options": ["rises", "rose", "would rise"], "answer": 0, "explain": "客观真理不退——rises。", "level": 2 },
-          { "q": "\"Are you ready?\" → He asked ___ we were ready.", "options": ["whether", "that", "when"], "answer": 0, "explain": "一般疑问转述——whether / if。", "level": 2 }
+          {
+            "q": "He said he ___ tired after the show.",
+            "options": [
+              "was",
+              "is",
+              "be"
+            ],
+            "answer": 0,
+            "explain": "said 过去——退成 was。",
+            "level": 2
+          },
+          {
+            "q": "She said she ___ come the next day.",
+            "options": [
+              "would",
+              "will",
+              "shall"
+            ],
+            "answer": 0,
+            "explain": "will → would。",
+            "level": 2
+          },
+          {
+            "q": "Tom said he ___ swim when he was five.",
+            "options": [
+              "could",
+              "can",
+              "may"
+            ],
+            "answer": 0,
+            "explain": "can → could。",
+            "level": 2
+          },
+          {
+            "q": "He told me he was practising ___.（原话：now）",
+            "options": [
+              "then",
+              "now",
+              "today"
+            ],
+            "answer": 0,
+            "explain": "now → then。",
+            "level": 2
+          },
+          {
+            "q": "She said she had seen the film ___.（原话：yesterday）",
+            "options": [
+              "the day before",
+              "yesterday",
+              "last day"
+            ],
+            "answer": 0,
+            "explain": "yesterday → the day before。",
+            "level": 2
+          },
+          {
+            "q": "He said he would leave ___.（原话：tomorrow）",
+            "options": [
+              "the next day",
+              "tomorrow",
+              "that day"
+            ],
+            "answer": 0,
+            "explain": "tomorrow → the next day。",
+            "level": 2
+          },
+          {
+            "q": "The teacher ___ us that practice makes progress.",
+            "options": [
+              "told",
+              "said",
+              "asked"
+            ],
+            "answer": 0,
+            "explain": "带人（us）——用 told。",
+            "level": 2
+          },
+          {
+            "q": "He asked ___ I liked the new song.",
+            "options": [
+              "if",
+              "that",
+              "what"
+            ],
+            "answer": 0,
+            "explain": "问「是不是喜欢」——if。",
+            "level": 2
+          },
+          {
+            "q": "She asked me where I ___.（原话：Where do you live?）",
+            "options": [
+              "lived",
+              "live",
+              "did live"
+            ],
+            "answer": 0,
+            "explain": "坐正 + 退一步——lived。",
+            "level": 2
+          },
+          {
+            "q": "Mum told me ___ up my room.",
+            "options": [
+              "to tidy",
+              "tidy",
+              "tidying"
+            ],
+            "answer": 0,
+            "explain": "祈使转述——told sb to do。",
+            "level": 2
+          },
+          {
+            "q": "The coach told us ___ give up.",
+            "options": [
+              "not to",
+              "don't",
+              "to not"
+            ],
+            "answer": 0,
+            "explain": "否定祈使转述——not to give up。",
+            "level": 2
+          },
+          {
+            "q": "He ___ that he was from Sichuan.",
+            "options": [
+              "said",
+              "told",
+              "asked"
+            ],
+            "answer": 0,
+            "explain": "不带人——say + 内容。",
+            "level": 2
+          },
+          {
+            "q": "He ___ me that he was from Sichuan.",
+            "options": [
+              "told",
+              "said",
+              "asked"
+            ],
+            "answer": 0,
+            "explain": "带人（me）——tell。",
+            "level": 2
+          },
+          {
+            "q": "She asked ___ time the concert started.",
+            "options": [
+              "what",
+              "if",
+              "that"
+            ],
+            "answer": 0,
+            "explain": "问几点——保留疑问词 what time。",
+            "level": 2
+          },
+          {
+            "q": "He said the sun ___ in the east.",
+            "options": [
+              "rises",
+              "rose",
+              "would rise"
+            ],
+            "answer": 0,
+            "explain": "客观真理不退——rises。",
+            "level": 2
+          },
+          {
+            "q": "\"Are you ready?\" → He asked ___ we were ready.",
+            "options": [
+              "whether",
+              "that",
+              "when"
+            ],
+            "answer": 0,
+            "explain": "一般疑问转述——whether / if。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 信使纠错",
         "questions": [
-          { "q": "哪一句转述对了？（原话：\"I am happy here.\"）", "options": ["He said he was happy there.", "He said I was happy here.", "He said he is happy there."], "answer": 0, "explain": "I→he、am→was、here→there——三样各退。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"I will call you tonight.\"）", "options": ["He said he would call me that night.", "He said he will call you tonight.", "He said he would call you tonight."], "answer": 0, "explain": "will→would、you→me、tonight→that night。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"Where do you live?\"）", "options": ["She asked me where I lived.", "She asked me where did I live.", "She asked me where I live."], "answer": 0, "explain": "坐正 + 退一步 lived。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"Don't run in the hallway!\"）", "options": ["The teacher told us not to run in the hallway.", "The teacher told us don't run in the hallway.", "The teacher said us not to run in the hallway."], "answer": 0, "explain": "not to do；带人用 tell。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"Are you free this Sunday?\"）", "options": ["He asked if I was free that Sunday.", "He asked that I was free this Sunday.", "He asked if I am free this Sunday."], "answer": 0, "explain": "if + 坐正 + 退一步 + this→that。", "level": 3 },
-          { "q": "哪一句转述对了？（原话上周说：\"I lost my key yesterday.\"）", "options": ["She said she had lost her key the day before.", "She said she lost my key yesterday.", "She said she had lost her key yesterday."], "answer": 0, "explain": "退成过完 + yesterday 换算成 the day before。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"I can play the drums.\"）", "options": ["He said he could play the drums.", "He said he can play the drums.", "He said I could play the drums."], "answer": 0, "explain": "can→could；I→he。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"The earth goes around the sun.\"）", "options": ["The teacher said the earth goes around the sun.", "The teacher said the earth went around the sun.", "The teacher said the earth had gone around the sun."], "answer": 0, "explain": "真理豁免——不退。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"Please come early.\"）", "options": ["She asked me to come early.", "She asked me come early.", "She asked to me coming early."], "answer": 0, "explain": "客气的请求转述——asked sb to do。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"What time does the show begin?\"）", "options": ["He asked what time the show began.", "He asked what time did the show begin.", "He asked what time the show begins."], "answer": 0, "explain": "坐正 + begins 退成 began。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"I'm practising now.\"）", "options": ["She said she was practising then.", "She said she is practising now.", "She said she was practising now."], "answer": 0, "explain": "is→was；now→then。", "level": 3 },
-          { "q": "哪一句 say/tell 用对了？（他告诉我他很忙）", "options": ["He told me that he was busy.", "He said me that he was busy.", "He told that he was busy."], "answer": 0, "explain": "tell 必须带人；say 不带人。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"Do you have a spare ticket?\"）", "options": ["She asked whether I had a spare ticket.", "She asked that I had a spare ticket.", "She asked did I have a spare ticket."], "answer": 0, "explain": "whether + 坐正 + 退一步。", "level": 3 },
-          { "q": "哪一句转述对了？（原话妈妈对弟弟说：\"Don't touch the wires!\"）", "options": ["Mum told my brother not to touch the wires.", "Mum told my brother to not touch the wires.", "Mum told my brother don't touch the wires."], "answer": 0, "explain": "not to touch——not 站 to 前。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"I will wait for you here.\"）", "options": ["He said he would wait for me there.", "He said he would wait for you here.", "He said he will wait for me there."], "answer": 0, "explain": "would + me + there——三样齐退。", "level": 3 },
-          { "q": "哪一句转述对了？（原话：\"Why are you late?\"）", "options": ["The teacher asked why I was late.", "The teacher asked why was I late.", "The teacher asked why I am late."], "answer": 0, "explain": "why + 坐正 + 退一步。", "level": 3 }
+          {
+            "q": "哪一句转述对了？（原话：\"I am happy here.\"）",
+            "options": [
+              "He said he was happy there.",
+              "He said I was happy here.",
+              "He said he is happy there."
+            ],
+            "answer": 0,
+            "explain": "I→he、am→was、here→there——三样各退。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"I will call you tonight.\"）",
+            "options": [
+              "He said he would call me that night.",
+              "He said he will call you tonight.",
+              "He said he would call you tonight."
+            ],
+            "answer": 0,
+            "explain": "will→would、you→me、tonight→that night。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"Where do you live?\"）",
+            "options": [
+              "She asked me where I lived.",
+              "She asked me where did I live.",
+              "She asked me where I live."
+            ],
+            "answer": 0,
+            "explain": "坐正 + 退一步 lived。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"Don't run in the hallway!\"）",
+            "options": [
+              "The teacher told us not to run in the hallway.",
+              "The teacher told us don't run in the hallway.",
+              "The teacher said us not to run in the hallway."
+            ],
+            "answer": 0,
+            "explain": "not to do；带人用 tell。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"Are you free this Sunday?\"）",
+            "options": [
+              "He asked if I was free that Sunday.",
+              "He asked that I was free this Sunday.",
+              "He asked if I am free this Sunday."
+            ],
+            "answer": 0,
+            "explain": "if + 坐正 + 退一步 + this→that。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话上周说：\"I lost my key yesterday.\"）",
+            "options": [
+              "She said she had lost her key the day before.",
+              "She said she lost my key yesterday.",
+              "She said she had lost her key yesterday."
+            ],
+            "answer": 0,
+            "explain": "退成过完 + yesterday 换算成 the day before。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"I can play the drums.\"）",
+            "options": [
+              "He said he could play the drums.",
+              "He said he can play the drums.",
+              "He said I could play the drums."
+            ],
+            "answer": 0,
+            "explain": "can→could；I→he。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"The earth goes around the sun.\"）",
+            "options": [
+              "The teacher said the earth goes around the sun.",
+              "The teacher said the earth went around the sun.",
+              "The teacher said the earth had gone around the sun."
+            ],
+            "answer": 0,
+            "explain": "真理豁免——不退。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"Please come early.\"）",
+            "options": [
+              "She asked me to come early.",
+              "She asked me come early.",
+              "She asked to me coming early."
+            ],
+            "answer": 0,
+            "explain": "客气的请求转述——asked sb to do。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"What time does the show begin?\"）",
+            "options": [
+              "He asked what time the show began.",
+              "He asked what time did the show begin.",
+              "He asked what time the show begins."
+            ],
+            "answer": 0,
+            "explain": "坐正 + begins 退成 began。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"I'm practising now.\"）",
+            "options": [
+              "She said she was practising then.",
+              "She said she is practising now.",
+              "She said she was practising now."
+            ],
+            "answer": 0,
+            "explain": "is→was；now→then。",
+            "level": 3
+          },
+          {
+            "q": "哪一句 say/tell 用对了？（他告诉我他很忙）",
+            "options": [
+              "He told me that he was busy.",
+              "He said me that he was busy.",
+              "He told that he was busy."
+            ],
+            "answer": 0,
+            "explain": "tell 必须带人；say 不带人。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"Do you have a spare ticket?\"）",
+            "options": [
+              "She asked whether I had a spare ticket.",
+              "She asked that I had a spare ticket.",
+              "She asked did I have a spare ticket."
+            ],
+            "answer": 0,
+            "explain": "whether + 坐正 + 退一步。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话妈妈对弟弟说：\"Don't touch the wires!\"）",
+            "options": [
+              "Mum told my brother not to touch the wires.",
+              "Mum told my brother to not touch the wires.",
+              "Mum told my brother don't touch the wires."
+            ],
+            "answer": 0,
+            "explain": "not to touch——not 站 to 前。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"I will wait for you here.\"）",
+            "options": [
+              "He said he would wait for me there.",
+              "He said he would wait for you here.",
+              "He said he will wait for me there."
+            ],
+            "answer": 0,
+            "explain": "would + me + there——三样齐退。",
+            "level": 3
+          },
+          {
+            "q": "哪一句转述对了？（原话：\"Why are you late?\"）",
+            "options": [
+              "The teacher asked why I was late.",
+              "The teacher asked why was I late.",
+              "The teacher asked why I am late."
+            ],
+            "answer": 0,
+            "explain": "why + 坐正 + 退一步。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 完整传话",
         "questions": [
-          { "q": "大考：\"I will return the CD to you tomorrow,\" Tom said to me. → Tom told me ___.", "options": ["he would return the CD to me the next day", "he will return the CD to you tomorrow", "I would return the CD to him the next day"], "answer": 0, "explain": "三样齐换：he/would/me/the next day。", "level": 4 },
-          { "q": "\"Have you finished your homework?\" → Mum asked ___.", "options": ["if I had finished my homework", "that I had finished my homework", "if had I finished my homework"], "answer": 0, "explain": "if + 坐正 + 现完退过完。", "level": 4 },
-          { "q": "\"Practise here every day!\" the coach said. → The coach told us ___ every day.", "options": ["to practise there", "practise here", "to practising there"], "answer": 0, "explain": "to do + here→there。", "level": 4 },
-          { "q": "\"I saw the singer at the airport this morning,\" she said. → She said she ___ the singer at the airport ___ morning.", "options": ["had seen / that", "saw / this", "had seen / this"], "answer": 0, "explain": "退成过完；this→that。", "level": 4 },
-          { "q": "\"Where is the ticket office?\" → He asked ___.", "options": ["where the ticket office was", "where was the ticket office", "where is the ticket office"], "answer": 0, "explain": "坐正 + 退一步。", "level": 4 },
-          { "q": "\"Water boils at 100°C,\" the teacher said. → The teacher said water ___ at 100°C.", "options": ["boils", "boiled", "had boiled"], "answer": 0, "explain": "客观真理不退。", "level": 4 },
-          { "q": "\"Don't play games before homework,\" Dad said. → Dad told me ___ games before homework.", "options": ["not to play", "don't play", "not playing"], "answer": 0, "explain": "否定祈使——not to play。", "level": 4 },
-          { "q": "\"Can you help me move the piano?\" → He asked ___ him move the piano.", "options": ["if I could help", "that I could help", "if I can help"], "answer": 0, "explain": "if + can→could。", "level": 4 },
-          { "q": "\"I'm listening to the new album now,\" Amy said. → Amy said she ___ to the new album ___.", "options": ["was listening / then", "is listening / now", "was listening / now"], "answer": 0, "explain": "is→was；now→then。", "level": 4 },
-          { "q": "找错：哪句转述的人称错了？（原话 Lily 说：\"I will lend you my notes.\"）", "options": ["Lily said I would lend her my notes.", "Lily said she would lend me her notes.", "Lily said she would lend me the notes."], "answer": 0, "explain": "圆心没换——莉莉的许诺被转成了「我」的许诺。", "level": 4 },
-          { "q": "\"My parents took me to the concert last week,\" he said. → He said his parents ___ him to the concert ___.", "options": ["had taken / the week before", "took / last week", "had taken / last week"], "answer": 0, "explain": "退成过完；last week → the week before。", "level": 4 },
-          { "q": "\"Is there a music room here?\" → The new student asked ___ a music room there.", "options": ["if there was", "if there is", "that there was"], "answer": 0, "explain": "if + There be 退一步 + here→there。", "level": 4 },
-          { "q": "\"You'd better not be late,\" the conductor said to us. → The conductor told us ___ late.", "options": ["not to be", "don't be", "to not being"], "answer": 0, "explain": "劝告转述——told us not to be late。", "level": 4 },
-          { "q": "找错：哪句 say / tell 用错了？", "options": ["She said me the good news.", "She told me the good news.", "She said that the news was good."], "answer": 0, "explain": "say 不带人——said me 是串线。", "level": 4 },
-          { "q": "\"I have lived here for ten years,\" the old man said. → The old man said he ___ there for ten years.", "options": ["had lived", "has lived", "lived"], "answer": 0, "explain": "现完退过完（G28）；here→there。", "level": 4 },
-          { "q": "大考二：\"I can't find my sheet music. Did you see it yesterday?\" → She said she ___ find her sheet music and asked ___ it ___.", "options": ["couldn't / if I had seen / the day before", "can't / if I saw / yesterday", "couldn't / that I had seen / the day before"], "answer": 0, "explain": "can't→couldn't；问句用 if + 退一步；yesterday 换算。", "level": 4 }
+          {
+            "q": "大考：\"I will return the CD to you tomorrow,\" Tom said to me. → Tom told me ___.",
+            "options": [
+              "he would return the CD to me the next day",
+              "he will return the CD to you tomorrow",
+              "I would return the CD to him the next day"
+            ],
+            "answer": 0,
+            "explain": "三样齐换：he/would/me/the next day。",
+            "level": 4
+          },
+          {
+            "q": "\"Have you finished your homework?\" → Mum asked ___.",
+            "options": [
+              "if I had finished my homework",
+              "that I had finished my homework",
+              "if had I finished my homework"
+            ],
+            "answer": 0,
+            "explain": "if + 坐正 + 现完退过完。",
+            "level": 4
+          },
+          {
+            "q": "\"Practise here every day!\" the coach said. → The coach told us ___ every day.",
+            "options": [
+              "to practise there",
+              "practise here",
+              "to practising there"
+            ],
+            "answer": 0,
+            "explain": "to do + here→there。",
+            "level": 4
+          },
+          {
+            "q": "\"I saw the singer at the airport this morning,\" she said. → She said she ___ the singer at the airport ___ morning.",
+            "options": [
+              "had seen / that",
+              "saw / this",
+              "had seen / this"
+            ],
+            "answer": 0,
+            "explain": "退成过完；this→that。",
+            "level": 4
+          },
+          {
+            "q": "\"Where is the ticket office?\" → He asked ___.",
+            "options": [
+              "where the ticket office was",
+              "where was the ticket office",
+              "where is the ticket office"
+            ],
+            "answer": 0,
+            "explain": "坐正 + 退一步。",
+            "level": 4
+          },
+          {
+            "q": "\"Water boils at 100°C,\" the teacher said. → The teacher said water ___ at 100°C.",
+            "options": [
+              "boils",
+              "boiled",
+              "had boiled"
+            ],
+            "answer": 0,
+            "explain": "客观真理不退。",
+            "level": 4
+          },
+          {
+            "q": "\"Don't play games before homework,\" Dad said. → Dad told me ___ games before homework.",
+            "options": [
+              "not to play",
+              "don't play",
+              "not playing"
+            ],
+            "answer": 0,
+            "explain": "否定祈使——not to play。",
+            "level": 4
+          },
+          {
+            "q": "\"Can you help me move the piano?\" → He asked ___ him move the piano.",
+            "options": [
+              "if I could help",
+              "that I could help",
+              "if I can help"
+            ],
+            "answer": 0,
+            "explain": "if + can→could。",
+            "level": 4
+          },
+          {
+            "q": "\"I'm listening to the new album now,\" Amy said. → Amy said she ___ to the new album ___.",
+            "options": [
+              "was listening / then",
+              "is listening / now",
+              "was listening / now"
+            ],
+            "answer": 0,
+            "explain": "is→was；now→then。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句转述的人称错了？（原话 Lily 说：\"I will lend you my notes.\"）",
+            "options": [
+              "Lily said I would lend her my notes.",
+              "Lily said she would lend me her notes.",
+              "Lily said she would lend me the notes."
+            ],
+            "answer": 0,
+            "explain": "圆心没换——莉莉的许诺被转成了「我」的许诺。",
+            "level": 4
+          },
+          {
+            "q": "\"My parents took me to the concert last week,\" he said. → He said his parents ___ him to the concert ___.",
+            "options": [
+              "had taken / the week before",
+              "took / last week",
+              "had taken / last week"
+            ],
+            "answer": 0,
+            "explain": "退成过完；last week → the week before。",
+            "level": 4
+          },
+          {
+            "q": "\"Is there a music room here?\" → The new student asked ___ a music room there.",
+            "options": [
+              "if there was",
+              "if there is",
+              "that there was"
+            ],
+            "answer": 0,
+            "explain": "if + There be 退一步 + here→there。",
+            "level": 4
+          },
+          {
+            "q": "\"You'd better not be late,\" the conductor said to us. → The conductor told us ___ late.",
+            "options": [
+              "not to be",
+              "don't be",
+              "to not being"
+            ],
+            "answer": 0,
+            "explain": "劝告转述——told us not to be late。",
+            "level": 4
+          },
+          {
+            "q": "找错：哪句 say / tell 用错了？",
+            "options": [
+              "She said me the good news.",
+              "She told me the good news.",
+              "She said that the news was good."
+            ],
+            "answer": 0,
+            "explain": "say 不带人——said me 是串线。",
+            "level": 4
+          },
+          {
+            "q": "\"I have lived here for ten years,\" the old man said. → The old man said he ___ there for ten years.",
+            "options": [
+              "had lived",
+              "has lived",
+              "lived"
+            ],
+            "answer": 0,
+            "explain": "现完退过完（G28）；here→there。",
+            "level": 4
+          },
+          {
+            "q": "大考二：\"I can't find my sheet music. Did you see it yesterday?\" → She said she ___ find her sheet music and asked ___ it ___.",
+            "options": [
+              "couldn't / if I had seen / the day before",
+              "can't / if I saw / yesterday",
+              "couldn't / that I had seen / the day before"
+            ],
+            "answer": 0,
+            "explain": "can't→couldn't；问句用 if + 退一步；yesterday 换算。",
+            "level": 4
+          }
         ]
       }
     ]

@@ -52,26 +52,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I want to join the school band next term.", "cn": "我想下学期加入校乐队。（want 点号：朝前）" },
-          { "en": "She enjoys drawing comics after class.", "cn": "她喜欢课后画漫画。（enjoy 点箱：打包）" },
-          { "en": "Look at the broken umbrella in the corner.", "cn": "看墙角那把破了的伞。（伞挨了动作：挂牌）" },
-          { "en": "Getting up early is hard in winter.", "cn": "冬天早起很难。（动作装箱当主语，谓语单数）" },
-          { "en": "He ran all the way to catch the first bus.", "cn": "他一路跑是为了赶上头班车。（目的：喇叭口朝前）" }
+          {
+            "en": "I want to join the school band next term.",
+            "cn": "我想下学期加入校乐队。（want 点号：朝前）"
+          },
+          {
+            "en": "She enjoys drawing comics after class.",
+            "cn": "她喜欢课后画漫画。（enjoy 点箱：打包）"
+          },
+          {
+            "en": "Look at the broken umbrella in the corner.",
+            "cn": "看墙角那把破了的伞。（伞挨了动作：挂牌）"
+          },
+          {
+            "en": "Getting up early is hard in winter.",
+            "cn": "冬天早起很难。（动作装箱当主语，谓语单数）"
+          },
+          {
+            "en": "He ran all the way to catch the first bus.",
+            "cn": "他一路跑是为了赶上头班车。（目的：喇叭口朝前）"
+          }
         ],
         "mid": [
-          { "en": "The man repairing the piano is Mr Shen.", "cn": "正在修钢琴的那位是沈老师。（人自己在修 → doing）" },
-          { "en": "The songs chosen for the concert are all new.", "cn": "为音乐会选定的歌全是新的。（歌被选 → done）" },
-          { "en": "We still have three problems to solve before Friday.", "cn": "周五前我们还有三道题要解决。（待办 → to do）" },
-          { "en": "Thanks for reminding me about the meeting.", "cn": "谢谢你提醒我开会的事。（介词 for 后收箱）" },
-          { "en": "I'm looking forward to visiting the science museum.", "cn": "我盼着去参观科技馆。（这个 to 是介词——后面装箱）" }
+          {
+            "en": "The man repairing the piano is Mr Shen.",
+            "cn": "正在修钢琴的那位是沈老师。（人自己在修 → doing）"
+          },
+          {
+            "en": "The songs chosen for the concert are all new.",
+            "cn": "为音乐会选定的歌全是新的。（歌被选 → done）"
+          },
+          {
+            "en": "We still have three problems to solve before Friday.",
+            "cn": "周五前我们还有三道题要解决。（待办 → to do）"
+          },
+          {
+            "en": "Thanks for reminding me about the meeting.",
+            "cn": "谢谢你提醒我开会的事。（介词 for 后收箱）"
+          },
+          {
+            "en": "I'm looking forward to visiting the science museum.",
+            "cn": "我盼着去参观科技馆。（这个 to 是介词——后面装箱）"
+          }
         ],
         "trap": [
-          { "en": "He stopped drinking cola this year.", "cn": "他今年把可乐戒了。", "note": "stop doing = 停掉手里这件事；stop to do 是停下来去做另一件——双接法意思相反。" },
-          { "en": "Remember to lock the door when you leave.", "cn": "走的时候记得锁门。", "note": "remember to do = 记得去做（还没做）；remember doing = 记得做过（已发生）。" },
-          { "en": "The boy called Xiaoshi is good at chess.", "cn": "那个叫小石的男孩棋下得好。", "note": "男孩「被叫作」→ 挂牌 called；不是他在喊别人。" },
-          { "en": "Eating too fast is bad for your stomach.", "cn": "吃太快伤胃。", "note": "装箱当主语——一箱算一件事，谓语 is 用单数。" },
-          { "en": "I have no time to play games today.", "cn": "我今天没时间打游戏。", "note": "time to do——待办朝前拿号；time doing 不是这里的菜。" },
-          { "en": "The window cleaned this morning is dirty again.", "cn": "今早刚擦过的窗又脏了。", "note": "窗挨了擦 → cleaned 挂牌；cleaning 就成了窗自己在干活。" }
+          {
+            "en": "He stopped drinking cola this year.",
+            "cn": "他今年把可乐戒了。",
+            "note": "stop doing = 停掉手里这件事；stop to do 是停下来去做另一件——双接法意思相反。"
+          },
+          {
+            "en": "Remember to lock the door when you leave.",
+            "cn": "走的时候记得锁门。",
+            "note": "remember to do = 记得去做（还没做）；remember doing = 记得做过（已发生）。"
+          },
+          {
+            "en": "The boy called Xiaoshi is good at chess.",
+            "cn": "那个叫小石的男孩棋下得好。",
+            "note": "男孩「被叫作」→ 挂牌 called；不是他在喊别人。"
+          },
+          {
+            "en": "Eating too fast is bad for your stomach.",
+            "cn": "吃太快伤胃。",
+            "note": "装箱当主语——一箱算一件事，谓语 is 用单数。"
+          },
+          {
+            "en": "I have no time to play games today.",
+            "cn": "我今天没时间打游戏。",
+            "note": "time to do——待办朝前拿号；time doing 不是这里的菜。"
+          },
+          {
+            "en": "The window cleaned this morning is dirty again.",
+            "cn": "今早刚擦过的窗又脏了。",
+            "note": "窗挨了擦 → cleaned 挂牌；cleaning 就成了窗自己在干活。"
+          }
         ]
       }
     },
@@ -199,7 +253,7 @@
     "echo": "从 G30 到 G32 埋了三课的线，今天收口了。三张脸看着复杂，规则其实只有一句话：报时权一句只发一张，其余动词各拿一件乐器，各干各的活——这是英语规律性最漂亮的一次展示，一条铁律管住三种形态。但规律的另一面照旧成立：偏偏是 stop、remember、forget、try 这几个最常用的动词，攒出了双接法——一个词两张菜单，选错意思就反。越常用的词，用法攒得越多：G13 的不规则动词、G41 的多义短语动词、G45 的 it 和 that，说的都是同一件事。规整的框架，任性的常用词——两样合在一起，才是真实的英语。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#9333EA'>G46 · 非谓语三选一</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>同一乐手换三种乐器，认乐器不认人</text><rect x='36' y='110' width='648' height='64' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='136' text-anchor='middle' font-size='17' font-weight='bold' fill='#9333EA'>第零步：先找主奏——报时执照一句只有一张</text><text x='360' y='162' text-anchor='middle' font-size='14' fill='#94A3B8'>横线上的动词不是主奏 → 必须从三件乐器里挑一件</text><rect x='36' y='192' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='224' text-anchor='middle' font-size='19' font-weight='bold' fill='#9333EA'>🎺 认乐器三问</text><text x='360' y='256' text-anchor='middle' font-size='15' fill='#5A4A42'>朝前吗？→ 号 to do（将来 / 目的 / 待办）want to go · run to catch · time to play</text><text x='360' y='286' text-anchor='middle' font-size='15' fill='#5A4A42'>打包吗？→ 箱 doing（主语 / 介词后 / 进行）enjoy singing · for helping · the boy standing</text><text x='360' y='316' text-anchor='middle' font-size='15' fill='#5A4A42'>挨动作吗？→ 牌 done（被动 / 完成）the broken cup · photos taken · be excited</text><rect x='36' y='362' width='648' height='70' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='388' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>⚖️ 两个必考细节</text><text x='360' y='414' text-anchor='middle' font-size='14' fill='#5A4A42'>介词后只收箱（look forward to doing）｜ 双接法：stop/remember/forget——没做的拿号，做过的装箱</text><rect x='36' y='448' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='478' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ enjoy to do ✗ · for help me ✗ · Swim is fun ✗ · photos taking ✗ · to catching ✗</text><text x='360' y='530' text-anchor='middle' font-size='14' fill='#7DA7C4'>G30·G31·G32 埋的线在这里收口——为初中 / PET 打底，学到就是赚到</text><text x='360' y='572' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：一条铁律管三种形态，双接法的又全是最常用的词 · 英语奇遇记 🦊 G46</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#9333EA'>G46 · 非谓语三选一</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>同一乐手换三种乐器，认乐器不认人</text><rect x='36' y='110' width='648' height='64' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='136' text-anchor='middle' font-size='21' font-weight='bold' fill='#9333EA'>第零步：先找主奏——报时执照一句只有一张</text><text x='360' y='162' text-anchor='middle' font-size='18' fill='#94A3B8'>横线上的动词不是主奏 → 必须从三件乐器里挑一件</text><rect x='36' y='192' width='648' height='150' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='224' text-anchor='middle' font-size='23' font-weight='bold' fill='#9333EA'>🎺 认乐器三问</text><text x='360' y='256' text-anchor='middle' font-size='16' fill='#5A4A42'>朝前吗？→ 号 to do（将来 / 目的 / 待办）want to go · run to catch · time to play</text><text x='360' y='286' text-anchor='middle' font-size='15' fill='#5A4A42'>打包吗？→ 箱 doing（主语 / 介词后 / 进行）enjoy singing · for helping · the boy standing</text><text x='360' y='316' text-anchor='middle' font-size='16' fill='#5A4A42'>挨动作吗？→ 牌 done（被动 / 完成）the broken cup · photos taken · be excited</text><rect x='36' y='362' width='648' height='70' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='388' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>⚖️ 两个必考细节</text><text x='360' y='414' text-anchor='middle' font-size='14' fill='#5A4A42'>介词后只收箱（look forward to doing）｜ 双接法：stop/remember/forget——没做的拿号，做过的装箱</text><rect x='36' y='448' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='478' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ enjoy to do ✗ · for help me ✗ · Swim is fun ✗ · photos taking ✗ · to catching ✗</text><text x='360' y='530' text-anchor='middle' font-size='18' fill='#7DA7C4'>G30·G31·G32 埋的线在这里收口——为初中 / PET 打底，学到就是赚到</text><text x='360' y='572' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：一条铁律管三种形态，双接法的又全是最常用的词 · 英语奇遇记 🦊 G46</text></svg>",
     "alt": "G46 记忆卡：非谓语三选一。第零步先找主奏（报时执照一句一张）；认乐器三问——朝前拿号 to do（将来/目的/待办）、打包提箱 doing（主语/介词后/进行）、挨动作挂牌 done（被动/完成）；介词后只收箱；双接法 stop/remember/forget 没做的拿号做过的装箱；警示 enjoy to do、for help me、Swim is fun、photos taking、to catching 五类错误；G30-G32 的线在此收口。"
   },
   "practice": {
@@ -207,85 +261,725 @@
       {
         "name": "认一认 · 先找主奏再认乐器",
         "questions": [
-          { "q": "一句话里，报时执照发给谁？", "options": ["谓语（主奏）——一句只有一张", "每个动词都有", "第一个动词"], "answer": 0, "explain": "报时权一句一张——其余动词必须换乐器上场。", "level": 1 },
-          { "q": "The boy standing by the door is my cousin. 这句的主奏是？", "options": ["is", "standing", "boy"], "answer": 0, "explain": "拿报时执照的是 is——standing 拿的是箱子（装饰男孩）。", "level": 1 },
-          { "q": "三件乐器里，喇叭口朝前、管还没发生的是？", "options": ["to do", "doing", "done"], "answer": 0, "explain": "号——将来、目的、待办都归它。", "level": 1 },
-          { "q": "把动作打包成一件「东西」的乐器是？", "options": ["doing", "to do", "done"], "answer": 0, "explain": "收纳箱——当主语、进介词后、表进行都用它。", "level": 1 },
-          { "q": "挂给「挨动作、已完成」的乐器是？", "options": ["done", "doing", "to do"], "answer": 0, "explain": "状态牌——被动与完成归它。", "level": 1 },
-          { "q": "want、decide、hope 这批动词点菜时点什么？", "options": ["号——to do", "箱——doing", "牌——done"], "answer": 0, "explain": "它们都望着将来——点号。", "level": 1 },
-          { "q": "enjoy、finish、practise、mind 点菜时点什么？", "options": ["箱——doing", "号——to do", "牌——done"], "answer": 0, "explain": "这批只收打包好的动作——点箱。", "level": 1 },
-          { "q": "介词后面的动词一律拿哪件乐器？", "options": ["箱——doing", "号——to do", "牌——done"], "answer": 0, "explain": "介词后只收箱子——at/for/about/without 全一样。", "level": 1 },
-          { "q": "look forward to 里的 to 是什么？", "options": ["介词——后面要装箱 doing", "号嘴——后面接原形", "多余的词"], "answer": 0, "explain": "这个 to 是介词——look forward to hearing。", "level": 1 },
-          { "q": "动作要当主语，得先怎么处理？", "options": ["装箱成 doing，谓语按单数", "直接用原形", "加 to 再上台"], "answer": 0, "explain": "Reading is fun——一箱一件事，谓语单数。", "level": 1 },
-          { "q": "the girl singing on stage——女孩和 sing 是什么关系？", "options": ["她自己在唱 → doing", "她被唱 → done", "她将要唱 → to do"], "answer": 0, "explain": "名词自己在做 → 挂 doing 装饰。", "level": 1 },
-          { "q": "the trees planted last year——树和 plant 是什么关系？", "options": ["树挨了栽 → done", "树自己在栽 → doing", "树将要栽 → to do"], "answer": 0, "explain": "树是被栽的 → 挂牌 planted。", "level": 1 },
-          { "q": "homework to finish tonight——作业和 finish 是什么关系？", "options": ["今晚待办 → to do", "已经完成 → done", "正在完成 → doing"], "answer": 0, "explain": "还没做的待办 → 拿号 to finish。", "level": 1 },
-          { "q": "stop to do 和 stop doing，哪个是「停下手头的事、去做另一件」？", "options": ["stop to do", "stop doing", "两个一样"], "answer": 0, "explain": "号朝前——停下来「去做」；装箱——把手里这件「停掉」。", "level": 1 },
-          { "q": "remember doing 表示什么？", "options": ["记得做过（事已发生）", "记得去做（还没做）", "忘了做"], "answer": 0, "explain": "装箱的是做过的事；还没做的要拿号 remember to do。", "level": 1 },
-          { "q": "「认乐器不认人」的意思是？", "options": ["别管动词是谁，看形式判断它的角色", "记住每个动词的中文", "乐器随便换"], "answer": 0, "explain": "同一个动词三张脸——判断只看它拿的乐器。", "level": 1 }
+          {
+            "q": "一句话里，报时执照发给谁？",
+            "options": [
+              "谓语（主奏）——一句只有一张",
+              "每个动词都有",
+              "第一个动词"
+            ],
+            "answer": 0,
+            "explain": "报时权一句一张——其余动词必须换乐器上场。",
+            "level": 1
+          },
+          {
+            "q": "The boy standing by the door is my cousin. 这句的主奏是？",
+            "options": [
+              "is",
+              "standing",
+              "boy"
+            ],
+            "answer": 0,
+            "explain": "拿报时执照的是 is——standing 拿的是箱子（装饰男孩）。",
+            "level": 1
+          },
+          {
+            "q": "三件乐器里，喇叭口朝前、管还没发生的是？",
+            "options": [
+              "to do",
+              "doing",
+              "done"
+            ],
+            "answer": 0,
+            "explain": "号——将来、目的、待办都归它。",
+            "level": 1
+          },
+          {
+            "q": "把动作打包成一件「东西」的乐器是？",
+            "options": [
+              "doing",
+              "to do",
+              "done"
+            ],
+            "answer": 0,
+            "explain": "收纳箱——当主语、进介词后、表进行都用它。",
+            "level": 1
+          },
+          {
+            "q": "挂给「挨动作、已完成」的乐器是？",
+            "options": [
+              "done",
+              "doing",
+              "to do"
+            ],
+            "answer": 0,
+            "explain": "状态牌——被动与完成归它。",
+            "level": 1
+          },
+          {
+            "q": "want、decide、hope 这批动词点菜时点什么？",
+            "options": [
+              "号——to do",
+              "箱——doing",
+              "牌——done"
+            ],
+            "answer": 0,
+            "explain": "它们都望着将来——点号。",
+            "level": 1
+          },
+          {
+            "q": "enjoy、finish、practise、mind 点菜时点什么？",
+            "options": [
+              "箱——doing",
+              "号——to do",
+              "牌——done"
+            ],
+            "answer": 0,
+            "explain": "这批只收打包好的动作——点箱。",
+            "level": 1
+          },
+          {
+            "q": "介词后面的动词一律拿哪件乐器？",
+            "options": [
+              "箱——doing",
+              "号——to do",
+              "牌——done"
+            ],
+            "answer": 0,
+            "explain": "介词后只收箱子——at/for/about/without 全一样。",
+            "level": 1
+          },
+          {
+            "q": "look forward to 里的 to 是什么？",
+            "options": [
+              "介词——后面要装箱 doing",
+              "号嘴——后面接原形",
+              "多余的词"
+            ],
+            "answer": 0,
+            "explain": "这个 to 是介词——look forward to hearing。",
+            "level": 1
+          },
+          {
+            "q": "动作要当主语，得先怎么处理？",
+            "options": [
+              "装箱成 doing，谓语按单数",
+              "直接用原形",
+              "加 to 再上台"
+            ],
+            "answer": 0,
+            "explain": "Reading is fun——一箱一件事，谓语单数。",
+            "level": 1
+          },
+          {
+            "q": "the girl singing on stage——女孩和 sing 是什么关系？",
+            "options": [
+              "她自己在唱 → doing",
+              "她被唱 → done",
+              "她将要唱 → to do"
+            ],
+            "answer": 0,
+            "explain": "名词自己在做 → 挂 doing 装饰。",
+            "level": 1
+          },
+          {
+            "q": "the trees planted last year——树和 plant 是什么关系？",
+            "options": [
+              "树挨了栽 → done",
+              "树自己在栽 → doing",
+              "树将要栽 → to do"
+            ],
+            "answer": 0,
+            "explain": "树是被栽的 → 挂牌 planted。",
+            "level": 1
+          },
+          {
+            "q": "homework to finish tonight——作业和 finish 是什么关系？",
+            "options": [
+              "今晚待办 → to do",
+              "已经完成 → done",
+              "正在完成 → doing"
+            ],
+            "answer": 0,
+            "explain": "还没做的待办 → 拿号 to finish。",
+            "level": 1
+          },
+          {
+            "q": "stop to do 和 stop doing，哪个是「停下手头的事、去做另一件」？",
+            "options": [
+              "stop to do",
+              "stop doing",
+              "两个一样"
+            ],
+            "answer": 0,
+            "explain": "号朝前——停下来「去做」；装箱——把手里这件「停掉」。",
+            "level": 1
+          },
+          {
+            "q": "remember doing 表示什么？",
+            "options": [
+              "记得做过（事已发生）",
+              "记得去做（还没做）",
+              "忘了做"
+            ],
+            "answer": 0,
+            "explain": "装箱的是做过的事；还没做的要拿号 remember to do。",
+            "level": 1
+          },
+          {
+            "q": "「认乐器不认人」的意思是？",
+            "options": [
+              "别管动词是谁，看形式判断它的角色",
+              "记住每个动词的中文",
+              "乐器随便换"
+            ],
+            "answer": 0,
+            "explain": "同一个动词三张脸——判断只看它拿的乐器。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 点菜单与座位",
         "questions": [
-          { "q": "My little brother wants ___ a spaceman one day.", "options": ["to be", "being", "been"], "answer": 0, "explain": "want 望着将来点号——to be。", "level": 2 },
-          { "q": "Have you finished ___ the invitation cards?", "options": ["writing", "to write", "written"], "answer": 0, "explain": "finish 只收箱——writing。", "level": 2 },
-          { "q": "She is good at ___ stories with a surprise ending.", "options": ["telling", "to tell", "told"], "answer": 0, "explain": "介词 at 后装箱——telling。", "level": 2 },
-          { "q": "___ vegetables every day keeps you healthy.", "options": ["Eating", "Eat", "To eating"], "answer": 0, "explain": "动作当主语先装箱——Eating；谓语 keeps 单数。", "level": 2 },
-          { "q": "He saved money for months ___ a new bike.", "options": ["to buy", "buying", "bought"], "answer": 0, "explain": "存钱的目的——号朝前 to buy。", "level": 2 },
-          { "q": "The lady ___ a red scarf is our new coach.", "options": ["wearing", "worn", "to wear"], "answer": 0, "explain": "她自己戴着围巾 → doing 装饰。", "level": 2 },
-          { "q": "The bridge ___ two years ago is already crowded.", "options": ["built", "building", "to build"], "answer": 0, "explain": "桥是被建的 → 挂牌 built。", "level": 2 },
-          { "q": "We have a lot of new words ___ before the test.", "options": ["to review", "reviewing", "reviewed"], "answer": 0, "explain": "考前待办 → to review。", "level": 2 },
-          { "q": "I'm looking forward to ___ my pen friend in person.", "options": ["meeting", "meet", "met"], "answer": 0, "explain": "这个 to 是介词——装箱 meeting。", "level": 2 },
-          { "q": "Would you mind ___ the window? It's cold in here.", "options": ["closing", "to close", "closed"], "answer": 0, "explain": "mind 只收箱——closing。", "level": 2 },
-          { "q": "Remember ___ the plants while we're away.", "options": ["to water", "watering", "watered"], "answer": 0, "explain": "还没做的嘱咐——remember to do。", "level": 2 },
-          { "q": "I remember ___ this film with Grandpa years ago.", "options": ["watching", "to watch", "watched"], "answer": 0, "explain": "做过的回忆——remember doing。", "level": 2 },
-          { "q": "He stopped ___ a rest because his legs hurt.", "options": ["to have", "having", "had"], "answer": 0, "explain": "停下来「去休息」——号朝前 to have。", "level": 2 },
-          { "q": "You should stop ___ so many sweets.", "options": ["eating", "to eat", "eaten"], "answer": 0, "explain": "把「吃糖」这件事停掉——装箱 eating。", "level": 2 },
-          { "q": "The children were excited ___ the pandas so close.", "options": ["to see", "seeing", "seen"], "answer": 0, "explain": "excited to do——因将要/刚刚看到而兴奋，号朝前。", "level": 2 },
-          { "q": "He left without ___ goodbye to anyone.", "options": ["saying", "to say", "said"], "answer": 0, "explain": "介词 without 后装箱——saying。", "level": 2 }
+          {
+            "q": "My little brother wants ___ a spaceman one day.",
+            "options": [
+              "to be",
+              "being",
+              "been"
+            ],
+            "answer": 0,
+            "explain": "want 望着将来点号——to be。",
+            "level": 2
+          },
+          {
+            "q": "Have you finished ___ the invitation cards?",
+            "options": [
+              "writing",
+              "to write",
+              "written"
+            ],
+            "answer": 0,
+            "explain": "finish 只收箱——writing。",
+            "level": 2
+          },
+          {
+            "q": "She is good at ___ stories with a surprise ending.",
+            "options": [
+              "telling",
+              "to tell",
+              "told"
+            ],
+            "answer": 0,
+            "explain": "介词 at 后装箱——telling。",
+            "level": 2
+          },
+          {
+            "q": "___ vegetables every day keeps you healthy.",
+            "options": [
+              "Eating",
+              "Eat",
+              "To eating"
+            ],
+            "answer": 0,
+            "explain": "动作当主语先装箱——Eating；谓语 keeps 单数。",
+            "level": 2
+          },
+          {
+            "q": "He saved money for months ___ a new bike.",
+            "options": [
+              "to buy",
+              "buying",
+              "bought"
+            ],
+            "answer": 0,
+            "explain": "存钱的目的——号朝前 to buy。",
+            "level": 2
+          },
+          {
+            "q": "The lady ___ a red scarf is our new coach.",
+            "options": [
+              "wearing",
+              "worn",
+              "to wear"
+            ],
+            "answer": 0,
+            "explain": "她自己戴着围巾 → doing 装饰。",
+            "level": 2
+          },
+          {
+            "q": "The bridge ___ two years ago is already crowded.",
+            "options": [
+              "built",
+              "building",
+              "to build"
+            ],
+            "answer": 0,
+            "explain": "桥是被建的 → 挂牌 built。",
+            "level": 2
+          },
+          {
+            "q": "We have a lot of new words ___ before the test.",
+            "options": [
+              "to review",
+              "reviewing",
+              "reviewed"
+            ],
+            "answer": 0,
+            "explain": "考前待办 → to review。",
+            "level": 2
+          },
+          {
+            "q": "I'm looking forward to ___ my pen friend in person.",
+            "options": [
+              "meeting",
+              "meet",
+              "met"
+            ],
+            "answer": 0,
+            "explain": "这个 to 是介词——装箱 meeting。",
+            "level": 2
+          },
+          {
+            "q": "Would you mind ___ the window? It's cold in here.",
+            "options": [
+              "closing",
+              "to close",
+              "closed"
+            ],
+            "answer": 0,
+            "explain": "mind 只收箱——closing。",
+            "level": 2
+          },
+          {
+            "q": "Remember ___ the plants while we're away.",
+            "options": [
+              "to water",
+              "watering",
+              "watered"
+            ],
+            "answer": 0,
+            "explain": "还没做的嘱咐——remember to do。",
+            "level": 2
+          },
+          {
+            "q": "I remember ___ this film with Grandpa years ago.",
+            "options": [
+              "watching",
+              "to watch",
+              "watched"
+            ],
+            "answer": 0,
+            "explain": "做过的回忆——remember doing。",
+            "level": 2
+          },
+          {
+            "q": "He stopped ___ a rest because his legs hurt.",
+            "options": [
+              "to have",
+              "having",
+              "had"
+            ],
+            "answer": 0,
+            "explain": "停下来「去休息」——号朝前 to have。",
+            "level": 2
+          },
+          {
+            "q": "You should stop ___ so many sweets.",
+            "options": [
+              "eating",
+              "to eat",
+              "eaten"
+            ],
+            "answer": 0,
+            "explain": "把「吃糖」这件事停掉——装箱 eating。",
+            "level": 2
+          },
+          {
+            "q": "The children were excited ___ the pandas so close.",
+            "options": [
+              "to see",
+              "seeing",
+              "seen"
+            ],
+            "answer": 0,
+            "explain": "excited to do——因将要/刚刚看到而兴奋，号朝前。",
+            "level": 2
+          },
+          {
+            "q": "He left without ___ goodbye to anyone.",
+            "options": [
+              "saying",
+              "to say",
+              "said"
+            ],
+            "answer": 0,
+            "explain": "介词 without 后装箱——saying。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 换错乐器",
         "questions": [
-          { "q": "哪句乐器拿对了？（我叔叔喜欢钓鱼）", "options": ["My uncle enjoys fishing.", "My uncle enjoys to fish.", "My uncle enjoys fish being."], "answer": 0, "explain": "enjoy 只收箱——fishing。", "level": 3 },
-          { "q": "哪句乐器拿对了？（她决定参加朗读比赛）", "options": ["She decided to enter the reading contest.", "She decided entering the reading contest.", "She decided enter the reading contest."], "answer": 0, "explain": "decide 点号——to enter。", "level": 3 },
-          { "q": "哪句乐器拿对了？（谢谢你借我字典）", "options": ["Thanks for lending me your dictionary.", "Thanks for lend me your dictionary.", "Thanks for to lend me your dictionary."], "answer": 0, "explain": "介词 for 后装箱——lending。", "level": 3 },
-          { "q": "哪句乐器拿对了？（每天跑步让我精力充沛）", "options": ["Running every day gives me energy.", "Run every day gives me energy.", "Running every day give me energy."], "answer": 0, "explain": "装箱当主语 Running；一箱一件事，gives 单数。", "level": 3 },
-          { "q": "哪句乐器拿对了？（站在校门口的那位是保安叔叔）", "options": ["The man standing at the school gate is the guard.", "The man stood at the school gate is the guard.", "The man stands at the school gate is the guard."], "answer": 0, "explain": "主奏是 is——stand 要装箱当装饰：standing。", "level": 3 },
-          { "q": "哪句乐器拿对了？（昨天拍的照片都很好看）", "options": ["The photos taken yesterday are all lovely.", "The photos taking yesterday are all lovely.", "The photos took yesterday are all lovely."], "answer": 0, "explain": "照片挨拍 → 挂牌 taken。", "level": 3 },
-          { "q": "哪句乐器拿对了？（他早起是为了赶头班地铁）", "options": ["He got up early to catch the first metro.", "He got up early to catching the first metro.", "He got up early for catch the first metro."], "answer": 0, "explain": "目的拿号——to + 原形 catch。", "level": 3 },
-          { "q": "哪句乐器拿对了？（我盼着收到你的来信）", "options": ["I'm looking forward to hearing from you.", "I'm looking forward to hear from you.", "I'm looking forward hearing from you."], "answer": 0, "explain": "to 是介词——装箱 hearing，to 也不能丢。", "level": 3 },
-          { "q": "哪句乐器拿对了？（别说话了，电影开始了）", "options": ["Stop talking — the film is starting.", "Stop to talk — the film is starting.", "Stop talk — the film is starting."], "answer": 0, "explain": "把「讲话」停掉——装箱 talking；stop to talk 意思全反。", "level": 3 },
-          { "q": "哪句乐器拿对了？（那个叫豆豆的小狗会握手）", "options": ["The puppy called Doudou can shake hands.", "The puppy calling Doudou can shake hands.", "The puppy to call Doudou can shake hands."], "answer": 0, "explain": "小狗被叫作豆豆 → 挂牌 called。", "level": 3 },
-          { "q": "哪句乐器拿对了？（练完琴他才出去玩）", "options": ["He went out to play after he finished practising.", "He went out to play after he finished to practise.", "He went out playing after he finished practising."], "answer": 0, "explain": "finish 收箱 practising；出去「玩」是目的拿号 to play。", "level": 3 },
-          { "q": "哪句乐器拿对了？（这消息真令人激动，我们都激动坏了）", "options": ["The news is exciting — we are all excited.", "The news is excited — we are all exciting.", "The news is exciting — we are all exciting."], "answer": 0, "explain": "消息发出影响 -ing，人接受影响 -ed——成对不换位。", "level": 3 },
-          { "q": "哪句乐器拿对了？（我记得关过灯，怎么还亮着？）", "options": ["I remember turning off the light — why is it still on?", "I remember to turn off the light — why is it still on?", "I remember turned off the light — why is it still on?"], "answer": 0, "explain": "做过的事装箱——remember turning off。", "level": 3 },
-          { "q": "哪句乐器拿对了？（学游泳最好的办法是下水练）", "options": ["The best way to learn swimming is to practise in the water.", "The best way learning swimming is practise in the water.", "The best way to learn swimming is practising being in water."], "answer": 0, "explain": "way to do 拿号；is 后再接 to practise——两把号一个箱各就各位。", "level": 3 },
-          { "q": "哪句乐器拿对了？（被雨困住的游客在亭子里等）", "options": ["The visitors caught in the rain waited in the pavilion.", "The visitors catching in the rain waited in the pavilion.", "The visitors to catch in the rain waited in the pavilion."], "answer": 0, "explain": "游客是被困的 → 挂牌 caught；主奏是 waited。", "level": 3 },
-          { "q": "哪句乐器拿对了？（他试着用左手写字，太难了）", "options": ["He tried writing with his left hand — it was too hard.", "He tried write with his left hand — it was too hard.", "He tried written with his left hand — it was too hard."], "answer": 0, "explain": "try doing = 试试看这种做法（做了）；try to do 是努力争取——这里他真试了，装箱。", "level": 3 }
+          {
+            "q": "哪句乐器拿对了？（我叔叔喜欢钓鱼）",
+            "options": [
+              "My uncle enjoys fishing.",
+              "My uncle enjoys to fish.",
+              "My uncle enjoys fish being."
+            ],
+            "answer": 0,
+            "explain": "enjoy 只收箱——fishing。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（她决定参加朗读比赛）",
+            "options": [
+              "She decided to enter the reading contest.",
+              "She decided entering the reading contest.",
+              "She decided enter the reading contest."
+            ],
+            "answer": 0,
+            "explain": "decide 点号——to enter。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（谢谢你借我字典）",
+            "options": [
+              "Thanks for lending me your dictionary.",
+              "Thanks for lend me your dictionary.",
+              "Thanks for to lend me your dictionary."
+            ],
+            "answer": 0,
+            "explain": "介词 for 后装箱——lending。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（每天跑步让我精力充沛）",
+            "options": [
+              "Running every day gives me energy.",
+              "Run every day gives me energy.",
+              "Running every day give me energy."
+            ],
+            "answer": 0,
+            "explain": "装箱当主语 Running；一箱一件事，gives 单数。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（站在校门口的那位是保安叔叔）",
+            "options": [
+              "The man standing at the school gate is the guard.",
+              "The man stood at the school gate is the guard.",
+              "The man stands at the school gate is the guard."
+            ],
+            "answer": 0,
+            "explain": "主奏是 is——stand 要装箱当装饰：standing。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（昨天拍的照片都很好看）",
+            "options": [
+              "The photos taken yesterday are all lovely.",
+              "The photos taking yesterday are all lovely.",
+              "The photos took yesterday are all lovely."
+            ],
+            "answer": 0,
+            "explain": "照片挨拍 → 挂牌 taken。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（他早起是为了赶头班地铁）",
+            "options": [
+              "He got up early to catch the first metro.",
+              "He got up early to catching the first metro.",
+              "He got up early for catch the first metro."
+            ],
+            "answer": 0,
+            "explain": "目的拿号——to + 原形 catch。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（我盼着收到你的来信）",
+            "options": [
+              "I'm looking forward to hearing from you.",
+              "I'm looking forward to hear from you.",
+              "I'm looking forward hearing from you."
+            ],
+            "answer": 0,
+            "explain": "to 是介词——装箱 hearing，to 也不能丢。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（别说话了，电影开始了）",
+            "options": [
+              "Stop talking — the film is starting.",
+              "Stop to talk — the film is starting.",
+              "Stop talk — the film is starting."
+            ],
+            "answer": 0,
+            "explain": "把「讲话」停掉——装箱 talking；stop to talk 意思全反。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（那个叫豆豆的小狗会握手）",
+            "options": [
+              "The puppy called Doudou can shake hands.",
+              "The puppy calling Doudou can shake hands.",
+              "The puppy to call Doudou can shake hands."
+            ],
+            "answer": 0,
+            "explain": "小狗被叫作豆豆 → 挂牌 called。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（练完琴他才出去玩）",
+            "options": [
+              "He went out to play after he finished practising.",
+              "He went out to play after he finished to practise.",
+              "He went out playing after he finished practising."
+            ],
+            "answer": 0,
+            "explain": "finish 收箱 practising；出去「玩」是目的拿号 to play。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（这消息真令人激动，我们都激动坏了）",
+            "options": [
+              "The news is exciting — we are all excited.",
+              "The news is excited — we are all exciting.",
+              "The news is exciting — we are all exciting."
+            ],
+            "answer": 0,
+            "explain": "消息发出影响 -ing，人接受影响 -ed——成对不换位。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（我记得关过灯，怎么还亮着？）",
+            "options": [
+              "I remember turning off the light — why is it still on?",
+              "I remember to turn off the light — why is it still on?",
+              "I remember turned off the light — why is it still on?"
+            ],
+            "answer": 0,
+            "explain": "做过的事装箱——remember turning off。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（学游泳最好的办法是下水练）",
+            "options": [
+              "The best way to learn swimming is to practise in the water.",
+              "The best way learning swimming is practise in the water.",
+              "The best way to learn swimming is practising being in water."
+            ],
+            "answer": 0,
+            "explain": "way to do 拿号；is 后再接 to practise——两把号一个箱各就各位。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（被雨困住的游客在亭子里等）",
+            "options": [
+              "The visitors caught in the rain waited in the pavilion.",
+              "The visitors catching in the rain waited in the pavilion.",
+              "The visitors to catch in the rain waited in the pavilion."
+            ],
+            "answer": 0,
+            "explain": "游客是被困的 → 挂牌 caught；主奏是 waited。",
+            "level": 3
+          },
+          {
+            "q": "哪句乐器拿对了？（他试着用左手写字，太难了）",
+            "options": [
+              "He tried writing with his left hand — it was too hard.",
+              "He tried write with his left hand — it was too hard.",
+              "He tried written with his left hand — it was too hard."
+            ],
+            "answer": 0,
+            "explain": "try doing = 试试看这种做法（做了）；try to do 是努力争取——这里他真试了，装箱。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 三选一大合流",
         "questions": [
-          { "q": "___ (keep) a diary in English is a good habit.", "options": ["Keeping", "To keeping", "Kept"], "answer": 0, "explain": "当主语装箱——Keeping；谓语 is 单数。", "level": 4 },
-          { "q": "The song ___ (play) on the radio reminds me of last summer.", "options": ["being played", "playing", "to play"], "answer": 0, "explain": "歌正被播放——being played（挨动作+正在进行）；playing 成了歌自己在演奏别人。", "level": 4 },
-          { "q": "Our teacher asked us ___ (hand) in the reports before Friday.", "options": ["to hand", "handing", "handed"], "answer": 0, "explain": "ask sb to do——还没做的要求，拿号。", "level": 4 },
-          { "q": "The kids practised ___ (row) the boat all afternoon ___ (win) the race.", "options": ["rowing / to win", "to row / winning", "rowing / winning"], "answer": 0, "explain": "practise 收箱 rowing；为了赢是目的拿号 to win——一句两件乐器。", "level": 4 },
-          { "q": "Don't forget ___ (feed) the cat — she hasn't eaten today.", "options": ["to feed", "feeding", "fed"], "answer": 0, "explain": "还没喂——forget to do 提醒待办。", "level": 4 },
-          { "q": "I'll never forget ___ (see) the sunrise on the mountain top last year.", "options": ["seeing", "to see", "seen"], "answer": 0, "explain": "去年看过的回忆——装箱 seeing。", "level": 4 },
-          { "q": "The library has hundreds of new books ___ (borrow).", "options": ["to borrow", "borrowing", "borrowed"], "answer": 0, "explain": "待借的书——朝前拿号 to borrow。", "level": 4 },
-          { "q": "___ (lose) in thought, he didn't hear the bell.", "options": ["Lost", "Losing", "To lose"], "answer": 0, "explain": "他陷入沉思（被动状态）——挂牌 Lost in thought。", "level": 4 },
-          { "q": "My grandma spends an hour ___ (do) taiji in the park every morning.", "options": ["doing", "to do", "done"], "answer": 0, "explain": "spend time doing——时间花在打包好的动作上。", "level": 4 },
-          { "q": "It's important ___ (drink) enough water in summer.", "options": ["to drink", "drinking", "drunk"], "answer": 0, "explain": "It's + 形容词 + to do——It 占位（G37），真主语拿号排后面。", "level": 4 },
-          { "q": "The man ___ (interview) by the reporter is a firefighter ___ (save) three lives last month.", "options": ["being interviewed / who saved", "interviewing / saving", "interviewed being / to save"], "answer": 0, "explain": "他正被采访 → being interviewed；救人的是他自己、还带时间戳 → 干脆用定语从句 who saved（G34 的装饰音也能上场）。", "level": 4 },
-          { "q": "She turned down the music ___ (not wake) the baby.", "options": ["so as not to wake", "not waking", "for not wake"], "answer": 0, "explain": "目的的否定——not 放在号嘴前：so as not to wake（G30 的 not to do）。", "level": 4 },
-          { "q": "Do you feel like ___ (go) for a walk after dinner?", "options": ["going", "to go", "gone"], "answer": 0, "explain": "feel like 的 like 是介词——装箱 going。", "level": 4 },
-          { "q": "The first student ___ (answer) the question got a sticker.", "options": ["to answer", "answering", "answered"], "answer": 0, "explain": "the first ... to do——排序词后拿号，指「率先去做」。", "level": 4 },
-          { "q": "选出三件乐器全拿对的一句：", "options": ["Invited to the party, she spent the evening singing and had a great time to remember.", "Inviting to the party, she spent the evening to sing and had a great time remembered.", "Invited to the party, she spent the evening to sing and had a time to remembering."], "answer": 0, "explain": "她被邀请 → Invited；spend + doing → singing；值得记住的时光 → to remember——号、箱、牌各就各位。", "level": 4 },
-          { "q": "大考：___ (read) aloud, ___ (check) by your deskmate, and having a wrong-answer notebook ___ (go) over before tests — these three habits work.", "options": ["Reading / getting checked / to go", "To read / checked / going", "Read / checking / gone"], "answer": 0, "explain": "朗读打包当主语 Reading；让同桌检查 getting checked（挨动作）；考前待翻的错题本 to go over（待办）——三张脸同台，认乐器不认人。", "level": 4 }
+          {
+            "q": "___ (keep) a diary in English is a good habit.",
+            "options": [
+              "Keeping",
+              "To keeping",
+              "Kept"
+            ],
+            "answer": 0,
+            "explain": "当主语装箱——Keeping；谓语 is 单数。",
+            "level": 4
+          },
+          {
+            "q": "The song ___ (play) on the radio reminds me of last summer.",
+            "options": [
+              "being played",
+              "playing",
+              "to play"
+            ],
+            "answer": 0,
+            "explain": "歌正被播放——being played（挨动作+正在进行）；playing 成了歌自己在演奏别人。",
+            "level": 4
+          },
+          {
+            "q": "Our teacher asked us ___ (hand) in the reports before Friday.",
+            "options": [
+              "to hand",
+              "handing",
+              "handed"
+            ],
+            "answer": 0,
+            "explain": "ask sb to do——还没做的要求，拿号。",
+            "level": 4
+          },
+          {
+            "q": "The kids practised ___ (row) the boat all afternoon ___ (win) the race.",
+            "options": [
+              "rowing / to win",
+              "to row / winning",
+              "rowing / winning"
+            ],
+            "answer": 0,
+            "explain": "practise 收箱 rowing；为了赢是目的拿号 to win——一句两件乐器。",
+            "level": 4
+          },
+          {
+            "q": "Don't forget ___ (feed) the cat — she hasn't eaten today.",
+            "options": [
+              "to feed",
+              "feeding",
+              "fed"
+            ],
+            "answer": 0,
+            "explain": "还没喂——forget to do 提醒待办。",
+            "level": 4
+          },
+          {
+            "q": "I'll never forget ___ (see) the sunrise on the mountain top last year.",
+            "options": [
+              "seeing",
+              "to see",
+              "seen"
+            ],
+            "answer": 0,
+            "explain": "去年看过的回忆——装箱 seeing。",
+            "level": 4
+          },
+          {
+            "q": "The library has hundreds of new books ___ (borrow).",
+            "options": [
+              "to borrow",
+              "borrowing",
+              "borrowed"
+            ],
+            "answer": 0,
+            "explain": "待借的书——朝前拿号 to borrow。",
+            "level": 4
+          },
+          {
+            "q": "___ (lose) in thought, he didn't hear the bell.",
+            "options": [
+              "Lost",
+              "Losing",
+              "To lose"
+            ],
+            "answer": 0,
+            "explain": "他陷入沉思（被动状态）——挂牌 Lost in thought。",
+            "level": 4
+          },
+          {
+            "q": "My grandma spends an hour ___ (do) taiji in the park every morning.",
+            "options": [
+              "doing",
+              "to do",
+              "done"
+            ],
+            "answer": 0,
+            "explain": "spend time doing——时间花在打包好的动作上。",
+            "level": 4
+          },
+          {
+            "q": "It's important ___ (drink) enough water in summer.",
+            "options": [
+              "to drink",
+              "drinking",
+              "drunk"
+            ],
+            "answer": 0,
+            "explain": "It's + 形容词 + to do——It 占位（G37），真主语拿号排后面。",
+            "level": 4
+          },
+          {
+            "q": "The man ___ (interview) by the reporter is a firefighter ___ (save) three lives last month.",
+            "options": [
+              "being interviewed / who saved",
+              "interviewing / saving",
+              "interviewed being / to save"
+            ],
+            "answer": 0,
+            "explain": "他正被采访 → being interviewed；救人的是他自己、还带时间戳 → 干脆用定语从句 who saved（G34 的装饰音也能上场）。",
+            "level": 4
+          },
+          {
+            "q": "She turned down the music ___ (not wake) the baby.",
+            "options": [
+              "so as not to wake",
+              "not waking",
+              "for not wake"
+            ],
+            "answer": 0,
+            "explain": "目的的否定——not 放在号嘴前：so as not to wake（G30 的 not to do）。",
+            "level": 4
+          },
+          {
+            "q": "Do you feel like ___ (go) for a walk after dinner?",
+            "options": [
+              "going",
+              "to go",
+              "gone"
+            ],
+            "answer": 0,
+            "explain": "feel like 的 like 是介词——装箱 going。",
+            "level": 4
+          },
+          {
+            "q": "The first student ___ (answer) the question got a sticker.",
+            "options": [
+              "to answer",
+              "answering",
+              "answered"
+            ],
+            "answer": 0,
+            "explain": "the first ... to do——排序词后拿号，指「率先去做」。",
+            "level": 4
+          },
+          {
+            "q": "选出三件乐器全拿对的一句：",
+            "options": [
+              "Invited to the party, she spent the evening singing and had a great time to remember.",
+              "Inviting to the party, she spent the evening to sing and had a great time remembered.",
+              "Invited to the party, she spent the evening to sing and had a time to remembering."
+            ],
+            "answer": 0,
+            "explain": "她被邀请 → Invited；spend + doing → singing；值得记住的时光 → to remember——号、箱、牌各就各位。",
+            "level": 4
+          },
+          {
+            "q": "大考：___ (read) aloud, ___ (check) by your deskmate, and having a wrong-answer notebook ___ (go) over before tests — these three habits work.",
+            "options": [
+              "Reading / getting checked / to go",
+              "To read / checked / going",
+              "Read / checking / gone"
+            ],
+            "answer": 0,
+            "explain": "朗读打包当主语 Reading；让同桌检查 getting checked（挨动作）；考前待翻的错题本 to go over（待办）——三张脸同台，认乐器不认人。",
+            "level": 4
+          }
         ]
       }
     ]

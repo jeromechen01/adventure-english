@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "I have just finished my homework.", "cn": "我刚写完作业。（just 站中间）" },
-          { "en": "She has already fed the cat.", "cn": "她已经喂过猫了。（already 肯定句）" },
-          { "en": "We haven't had dinner yet.", "cn": "我们还没吃晚饭。（yet 押句尾）" },
-          { "en": "I have never seen the sea.", "cn": "我从来没见过大海。（never 一次也没有）" },
-          { "en": "Have you ever tried dumplings with fish?", "cn": "你吃过鱼肉馅的饺子吗？（ever 问「有没有过」）" }
+          {
+            "en": "I have just finished my homework.",
+            "cn": "我刚写完作业。（just 站中间）"
+          },
+          {
+            "en": "She has already fed the cat.",
+            "cn": "她已经喂过猫了。（already 肯定句）"
+          },
+          {
+            "en": "We haven't had dinner yet.",
+            "cn": "我们还没吃晚饭。（yet 押句尾）"
+          },
+          {
+            "en": "I have never seen the sea.",
+            "cn": "我从来没见过大海。（never 一次也没有）"
+          },
+          {
+            "en": "Have you ever tried dumplings with fish?",
+            "cn": "你吃过鱼肉馅的饺子吗？（ever 问「有没有过」）"
+          }
         ],
         "mid": [
-          { "en": "My uncle has worked in the bookshop for eight years.", "cn": "我叔叔在书店工作八年了。（for + 时长，现在还在干）" },
-          { "en": "It has rained since Tuesday.", "cn": "从周二起雨就没停过。（since + 起点）" },
-          { "en": "— Have you finished the poster yet? — Not yet.", "cn": "——海报做完了吗？——还没。（yet 一问一答）" },
-          { "en": "The little tree has grown a lot since spring.", "cn": "小树从春天到现在长高了不少。（grow-grew-grown）" },
-          { "en": "I have lost my library card, so I can't borrow books.", "cn": "我把借书卡弄丢了，所以现在借不了书。（延音：丢了→现在受影响）" }
+          {
+            "en": "My uncle has worked in the bookshop for eight years.",
+            "cn": "我叔叔在书店工作八年了。（for + 时长，现在还在干）"
+          },
+          {
+            "en": "It has rained since Tuesday.",
+            "cn": "从周二起雨就没停过。（since + 起点）"
+          },
+          {
+            "en": "— Have you finished the poster yet? — Not yet.",
+            "cn": "——海报做完了吗？——还没。（yet 一问一答）"
+          },
+          {
+            "en": "The little tree has grown a lot since spring.",
+            "cn": "小树从春天到现在长高了不少。（grow-grew-grown）"
+          },
+          {
+            "en": "I have lost my library card, so I can't borrow books.",
+            "cn": "我把借书卡弄丢了，所以现在借不了书。（延音：丢了→现在受影响）"
+          }
         ],
         "trap": [
-          { "en": "I saw that film last Saturday.", "cn": "我上周六看了那部电影。", "note": "last Saturday 是翻篇的日子——用过去戳 saw，不用 have seen。" },
-          { "en": "She has kept this photo for twenty years.", "cn": "这张照片她保存二十年了。", "note": "for + 一段时长——「二十年」是时长不是起点，别写 since twenty years。" },
-          { "en": "He has played the drums since he was six.", "cn": "他六岁起就打鼓了。", "note": "since 也能挂一个过去的小句——小句里用过去时 was。" },
-          { "en": "Have you ever eaten mooncakes with egg yolk?", "cn": "你吃过蛋黄月饼吗？", "note": "eat 的第三枚私章是 eaten——ever 站在主语后。" },
-          { "en": "I have already returned the books, so my bag is light.", "cn": "书我已经还了，所以书包很轻。", "note": "already 站中间；「现在书包轻」正是延音线还在响。" },
-          { "en": "My cousin has broken his arm, so he can't play this week.", "cn": "我表哥胳膊骨折了，这周不能上场。", "note": "break-broke-broken——说「现在打不了」用延音线，不是翻篇的旧闻。" }
+          {
+            "en": "I saw that film last Saturday.",
+            "cn": "我上周六看了那部电影。",
+            "note": "last Saturday 是翻篇的日子——用过去戳 saw，不用 have seen。"
+          },
+          {
+            "en": "She has kept this photo for twenty years.",
+            "cn": "这张照片她保存二十年了。",
+            "note": "for + 一段时长——「二十年」是时长不是起点，别写 since twenty years。"
+          },
+          {
+            "en": "He has played the drums since he was six.",
+            "cn": "他六岁起就打鼓了。",
+            "note": "since 也能挂一个过去的小句——小句里用过去时 was。"
+          },
+          {
+            "en": "Have you ever eaten mooncakes with egg yolk?",
+            "cn": "你吃过蛋黄月饼吗？",
+            "note": "eat 的第三枚私章是 eaten——ever 站在主语后。"
+          },
+          {
+            "en": "I have already returned the books, so my bag is light.",
+            "cn": "书我已经还了，所以书包很轻。",
+            "note": "already 站中间；「现在书包轻」正是延音线还在响。"
+          },
+          {
+            "en": "My cousin has broken his arm, so he can't play this week.",
+            "cn": "我表哥胳膊骨折了，这周不能上场。",
+            "note": "break-broke-broken——说「现在打不了」用延音线，不是翻篇的旧闻。"
+          }
         ]
       }
     },
@@ -192,7 +246,7 @@
     "echo": "have + 过去分词这套装备，最初真是「拥有」：古人说 I have the letter written——「我手里有一封写好了的信」。说得多了，「拥有」的意思被磨空，have 从实义动词退成了纯语法零件，专门负责把过去的事挂到现在——又是你熟悉的「语法化」：常用词被磨成工具（will、going to、because 都走过这条路）。所以完成时的骨子里还留着那层意思：I have finished ≈ 我「手握」一个已完成的结果。至于 been 和 gone 的分工、比过去更早的过去完成时——那些更深的延音技法，都留在进阶层 G27，等你上去再拉。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='30' font-weight='bold' fill='#0284C7'>G26 · 现在完成时</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>延音线：过去按下的音，现在还在响</text><rect x='36' y='110' width='648' height='90' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='19' font-weight='bold' fill='#38B2AC'>🎵 装备：have / has + 过去分词（第三枚私章）</text><text x='360' y='172' text-anchor='middle' font-size='15' fill='#5A4A42'>I have finished. · She has seen it. ｜ go-went-gone · eat-ate-eaten</text><text x='360' y='192' text-anchor='middle' font-size='13' fill='#8A7568'>排练日志（翻篇）vs 荣誉墙（奖杯现在还在发光）</text><rect x='36' y='218' width='648' height='168' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='250' text-anchor='middle' font-size='18' font-weight='bold' fill='#0284C7'>🏷️ KET 只考七个搭档</text><text x='200' y='282' text-anchor='middle' font-size='15' fill='#5A4A42'>just 刚刚（站中间）</text><text x='520' y='282' text-anchor='middle' font-size='15' fill='#5A4A42'>already 已经（肯定句）</text><text x='200' y='310' text-anchor='middle' font-size='15' fill='#5A4A42'>yet 还没/了吗（否定问句句尾）</text><text x='520' y='310' text-anchor='middle' font-size='15' fill='#5A4A42'>never 从来没有</text><text x='200' y='338' text-anchor='middle' font-size='15' fill='#5A4A42'>ever 曾经（Have you ever...?）</text><text x='520' y='338' text-anchor='middle' font-size='15' fill='#5A4A42'>for + 一段时长</text><text x='360' y='366' text-anchor='middle' font-size='15' fill='#5A4A42'>since + 一个起点（since 2023 / since he was six）</text><rect x='36' y='406' width='648' height='68' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='436' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ 天条：不跟翻篇时间词同台——have seen it yesterday ✗ → saw it yesterday ✓</text><text x='360' y='462' text-anchor='middle' font-size='14' fill='#C0392B'>has went ✗ · since two hours ✗ · 肯定句用 yet ✗（该用 already）</text><rect x='36' y='494' width='648' height='42' rx='16' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='521' text-anchor='middle' font-size='14' fill='#B7791F'>been/gone 的分工与过去完成时 → 进阶层 G27 再见</text><text x='360' y='560' text-anchor='middle' font-size='15' fill='#7DA7C4'>先问一句：这事现在还响吗？</text><text x='360' y='582' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：I have the letter written——「拥有」磨成了语法 · 英语奇遇记 🦊 G26</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#F0F9FF' stroke='#38BDF8' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='32' font-weight='bold' fill='#0284C7'>G26 · 现在完成时</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>延音线：过去按下的音，现在还在响</text><rect x='36' y='110' width='648' height='90' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='360' y='142' text-anchor='middle' font-size='23' font-weight='bold' fill='#38B2AC'>🎵 装备：have / has + 过去分词（第三枚私章）</text><text x='360' y='172' text-anchor='middle' font-size='18' fill='#5A4A42'>I have finished. · She has seen it. ｜ go-went-gone · eat-ate-eaten</text><text x='360' y='192' text-anchor='middle' font-size='17' fill='#8A7568'>排练日志（翻篇）vs 荣誉墙（奖杯现在还在发光）</text><rect x='36' y='218' width='648' height='168' rx='20' fill='#FFFFFF' stroke='#38BDF8' stroke-width='3'/><text x='360' y='250' text-anchor='middle' font-size='22' font-weight='bold' fill='#0284C7'>🏷️ KET 只考七个搭档</text><text x='200' y='282' text-anchor='middle' font-size='19' fill='#5A4A42'>just 刚刚（站中间）</text><text x='520' y='282' text-anchor='middle' font-size='19' fill='#5A4A42'>already 已经（肯定句）</text><text x='200' y='310' text-anchor='middle' font-size='19' fill='#5A4A42'>yet 还没/了吗（否定问句句尾）</text><text x='520' y='310' text-anchor='middle' font-size='19' fill='#5A4A42'>never 从来没有</text><text x='200' y='338' text-anchor='middle' font-size='19' fill='#5A4A42'>ever 曾经（Have you ever...?）</text><text x='520' y='338' text-anchor='middle' font-size='19' fill='#5A4A42'>for + 一段时长</text><text x='360' y='366' text-anchor='middle' font-size='19' fill='#5A4A42'>since + 一个起点（since 2023 / since he was six）</text><rect x='36' y='406' width='648' height='68' rx='20' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='436' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ 天条：不跟翻篇时间词同台——have seen it yesterday ✗ → saw it yesterday ✓</text><text x='360' y='462' text-anchor='middle' font-size='18' fill='#C0392B'>has went ✗ · since two hours ✗ · 肯定句用 yet ✗（该用 already）</text><rect x='36' y='494' width='648' height='42' rx='16' fill='#FFF7E6' stroke='#F5C26B' stroke-width='2'/><text x='360' y='521' text-anchor='middle' font-size='18' fill='#B7791F'>been/gone 的分工与过去完成时 → 进阶层 G27 再见</text><text x='360' y='560' text-anchor='middle' font-size='19' fill='#7DA7C4'>先问一句：这事现在还响吗？</text><text x='360' y='582' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：I have the letter written——「拥有」磨成了语法 · 英语奇遇记 🦊 G26</text></svg>",
     "alt": "G26 记忆卡：现在完成时=延音线，have/has+过去分词；KET 七搭档 just/already/yet/never/ever/for/since 各自的位置与分工；天条：不与 yesterday 等翻篇时间词同台；been/gone 与过去完成时留给 G27。"
   },
   "practice": {
@@ -200,85 +254,725 @@
       {
         "name": "认一认 · 延音线入门",
         "questions": [
-          { "q": "现在完成时的装备是？", "options": ["have/has + 过去分词", "will + 原形", "be + -ing"], "answer": 0, "explain": "延音线两件套：have/has + 第三枚私章。", "level": 1 },
-          { "q": "延音线说的是哪种事？", "options": ["过去发生、现在还有影响", "纯粹翻篇的旧事", "明天的计划"], "answer": 0, "explain": "过去按下的音，现在还在响。", "level": 1 },
-          { "q": "she/he/it 后面用 have 还是 has？", "options": ["has", "have", "都行"], "answer": 0, "explain": "G25 的对齐规矩——单数配 has。", "level": 1 },
-          { "q": "go 的第三枚私章（过去分词）是？", "options": ["gone", "went", "goes"], "answer": 0, "explain": "go-went-gone——has gone。", "level": 1 },
-          { "q": "eat 的过去分词是？", "options": ["eaten", "ate", "eated"], "answer": 0, "explain": "eat-ate-eaten。", "level": 1 },
-          { "q": "see 的过去分词是？", "options": ["seen", "saw", "seed"], "answer": 0, "explain": "see-saw-seen。", "level": 1 },
-          { "q": "「刚刚」用哪个搭档？", "options": ["just", "yet", "since"], "answer": 0, "explain": "I have just finished——just 站中间。", "level": 1 },
-          { "q": "肯定句里的「已经」用？", "options": ["already", "yet", "ever"], "answer": 0, "explain": "She has already packed。", "level": 1 },
-          { "q": "yet 站在句子的什么位置？", "options": ["否定句和问句的句尾", "have 和分词中间", "句首"], "answer": 0, "explain": "I haven't finished yet. / Have you eaten yet?", "level": 1 },
-          { "q": "「从来没有」用哪个搭档？", "options": ["never", "ever", "for"], "answer": 0, "explain": "I have never tried it。", "level": 1 },
-          { "q": "问「有没有过某经历」用？", "options": ["ever", "yet", "since"], "answer": 0, "explain": "Have you ever seen snow?", "level": 1 },
-          { "q": "for 后面跟什么？", "options": ["一段时长（two years）", "一个起点（2023）", "地点"], "answer": 0, "explain": "for + 多久。", "level": 1 },
-          { "q": "since 后面跟什么？", "options": ["一个起点（Monday / 2023）", "一段时长", "人名"], "answer": 0, "explain": "since + 从哪一刻起。", "level": 1 },
-          { "q": "完成时能和 yesterday 同台吗？", "options": ["不能——翻篇的日子用过去时", "能，随便配", "只有周末能"], "answer": 0, "explain": "天条：延音线不跟旧日历同台。", "level": 1 },
-          { "q": "完成时提问谁举手搬家？", "options": ["have/has 自己", "do/does", "will"], "answer": 0, "explain": "Have you finished?——不请 do。", "level": 1 },
-          { "q": "KET 考纲要求完成时配几个搭档？", "options": ["7 个", "17 个", "2 个"], "answer": 0, "explain": "just/already/yet/never/ever/for/since——七个拉稳就是满分线。", "level": 1 }
+          {
+            "q": "现在完成时的装备是？",
+            "options": [
+              "have/has + 过去分词",
+              "will + 原形",
+              "be + -ing"
+            ],
+            "answer": 0,
+            "explain": "延音线两件套：have/has + 第三枚私章。",
+            "level": 1
+          },
+          {
+            "q": "延音线说的是哪种事？",
+            "options": [
+              "过去发生、现在还有影响",
+              "纯粹翻篇的旧事",
+              "明天的计划"
+            ],
+            "answer": 0,
+            "explain": "过去按下的音，现在还在响。",
+            "level": 1
+          },
+          {
+            "q": "she/he/it 后面用 have 还是 has？",
+            "options": [
+              "has",
+              "have",
+              "都行"
+            ],
+            "answer": 0,
+            "explain": "G25 的对齐规矩——单数配 has。",
+            "level": 1
+          },
+          {
+            "q": "go 的第三枚私章（过去分词）是？",
+            "options": [
+              "gone",
+              "went",
+              "goes"
+            ],
+            "answer": 0,
+            "explain": "go-went-gone——has gone。",
+            "level": 1
+          },
+          {
+            "q": "eat 的过去分词是？",
+            "options": [
+              "eaten",
+              "ate",
+              "eated"
+            ],
+            "answer": 0,
+            "explain": "eat-ate-eaten。",
+            "level": 1
+          },
+          {
+            "q": "see 的过去分词是？",
+            "options": [
+              "seen",
+              "saw",
+              "seed"
+            ],
+            "answer": 0,
+            "explain": "see-saw-seen。",
+            "level": 1
+          },
+          {
+            "q": "「刚刚」用哪个搭档？",
+            "options": [
+              "just",
+              "yet",
+              "since"
+            ],
+            "answer": 0,
+            "explain": "I have just finished——just 站中间。",
+            "level": 1
+          },
+          {
+            "q": "肯定句里的「已经」用？",
+            "options": [
+              "already",
+              "yet",
+              "ever"
+            ],
+            "answer": 0,
+            "explain": "She has already packed。",
+            "level": 1
+          },
+          {
+            "q": "yet 站在句子的什么位置？",
+            "options": [
+              "否定句和问句的句尾",
+              "have 和分词中间",
+              "句首"
+            ],
+            "answer": 0,
+            "explain": "I haven't finished yet. / Have you eaten yet?",
+            "level": 1
+          },
+          {
+            "q": "「从来没有」用哪个搭档？",
+            "options": [
+              "never",
+              "ever",
+              "for"
+            ],
+            "answer": 0,
+            "explain": "I have never tried it。",
+            "level": 1
+          },
+          {
+            "q": "问「有没有过某经历」用？",
+            "options": [
+              "ever",
+              "yet",
+              "since"
+            ],
+            "answer": 0,
+            "explain": "Have you ever seen snow?",
+            "level": 1
+          },
+          {
+            "q": "for 后面跟什么？",
+            "options": [
+              "一段时长（two years）",
+              "一个起点（2023）",
+              "地点"
+            ],
+            "answer": 0,
+            "explain": "for + 多久。",
+            "level": 1
+          },
+          {
+            "q": "since 后面跟什么？",
+            "options": [
+              "一个起点（Monday / 2023）",
+              "一段时长",
+              "人名"
+            ],
+            "answer": 0,
+            "explain": "since + 从哪一刻起。",
+            "level": 1
+          },
+          {
+            "q": "完成时能和 yesterday 同台吗？",
+            "options": [
+              "不能——翻篇的日子用过去时",
+              "能，随便配",
+              "只有周末能"
+            ],
+            "answer": 0,
+            "explain": "天条：延音线不跟旧日历同台。",
+            "level": 1
+          },
+          {
+            "q": "完成时提问谁举手搬家？",
+            "options": [
+              "have/has 自己",
+              "do/does",
+              "will"
+            ],
+            "answer": 0,
+            "explain": "Have you finished?——不请 do。",
+            "level": 1
+          },
+          {
+            "q": "KET 考纲要求完成时配几个搭档？",
+            "options": [
+              "7 个",
+              "17 个",
+              "2 个"
+            ],
+            "answer": 0,
+            "explain": "just/already/yet/never/ever/for/since——七个拉稳就是满分线。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 七个搭档",
         "questions": [
-          { "q": "I have ___ finished the last page — one second ago!", "options": ["just", "yet", "since"], "answer": 0, "explain": "一秒前＝刚刚——just。", "level": 2 },
-          { "q": "She has ___ packed her schoolbag, so she is free now.", "options": ["already", "yet", "ever"], "answer": 0, "explain": "肯定句的「已经」——already。", "level": 2 },
-          { "q": "We haven't watered the flowers ___.", "options": ["yet", "already", "just"], "answer": 0, "explain": "否定句句尾——yet。", "level": 2 },
-          { "q": "Have you cleaned your room ___?", "options": ["yet", "never", "for"], "answer": 0, "explain": "问句句尾——yet。", "level": 2 },
-          { "q": "I have ___ ridden a horse — not even once.", "options": ["never", "ever", "already"], "answer": 0, "explain": "一次也没有——never。", "level": 2 },
-          { "q": "Have you ___ tasted grandma's plum soup?", "options": ["ever", "yet", "since"], "answer": 0, "explain": "问经历——ever。", "level": 2 },
-          { "q": "My parents have known each other ___ twenty years.", "options": ["for", "since", "at"], "answer": 0, "explain": "二十年是时长——for。", "level": 2 },
-          { "q": "It has snowed ___ Friday night.", "options": ["since", "for", "just"], "answer": 0, "explain": "周五晚是起点——since。", "level": 2 },
-          { "q": "He has ___ his key, so he is waiting at the door.", "options": ["lost", "losed", "lose"], "answer": 0, "explain": "lose-lost-lost——延音：现在进不了门。", "level": 2 },
-          { "q": "The baby has ___ asleep — please walk quietly.", "options": ["fallen", "fell", "fall"], "answer": 0, "explain": "fall-fell-fallen——has fallen asleep。", "level": 2 },
-          { "q": "I have ___ this cartoon three times!", "options": ["seen", "saw", "see"], "answer": 0, "explain": "have + seen——第三枚私章。", "level": 2 },
-          { "q": "___ you finished your milk yet?", "options": ["Have", "Do", "Did"], "answer": 0, "explain": "have 自己举手——Have you...yet?", "level": 2 },
-          { "q": "She has played table tennis ___ she was seven.", "options": ["since", "for", "when"], "answer": 0, "explain": "since 挂过去起点小句——since she was seven。", "level": 2 },
-          { "q": "We have ___ a big paper star for the party.", "options": ["made", "maked", "make"], "answer": 0, "explain": "make-made-made——have made。", "level": 2 },
-          { "q": "My cousin has ___ in that band for two years.", "options": ["drummed", "drum", "drums"], "answer": 0, "explain": "规则分词照旧 -ed——has drummed for。", "level": 2 },
-          { "q": "The show has ___ started — hurry up!", "options": ["just", "yet", "for"], "answer": 0, "explain": "刚开场——just 站中间。", "level": 2 }
+          {
+            "q": "I have ___ finished the last page — one second ago!",
+            "options": [
+              "just",
+              "yet",
+              "since"
+            ],
+            "answer": 0,
+            "explain": "一秒前＝刚刚——just。",
+            "level": 2
+          },
+          {
+            "q": "She has ___ packed her schoolbag, so she is free now.",
+            "options": [
+              "already",
+              "yet",
+              "ever"
+            ],
+            "answer": 0,
+            "explain": "肯定句的「已经」——already。",
+            "level": 2
+          },
+          {
+            "q": "We haven't watered the flowers ___.",
+            "options": [
+              "yet",
+              "already",
+              "just"
+            ],
+            "answer": 0,
+            "explain": "否定句句尾——yet。",
+            "level": 2
+          },
+          {
+            "q": "Have you cleaned your room ___?",
+            "options": [
+              "yet",
+              "never",
+              "for"
+            ],
+            "answer": 0,
+            "explain": "问句句尾——yet。",
+            "level": 2
+          },
+          {
+            "q": "I have ___ ridden a horse — not even once.",
+            "options": [
+              "never",
+              "ever",
+              "already"
+            ],
+            "answer": 0,
+            "explain": "一次也没有——never。",
+            "level": 2
+          },
+          {
+            "q": "Have you ___ tasted grandma's plum soup?",
+            "options": [
+              "ever",
+              "yet",
+              "since"
+            ],
+            "answer": 0,
+            "explain": "问经历——ever。",
+            "level": 2
+          },
+          {
+            "q": "My parents have known each other ___ twenty years.",
+            "options": [
+              "for",
+              "since",
+              "at"
+            ],
+            "answer": 0,
+            "explain": "二十年是时长——for。",
+            "level": 2
+          },
+          {
+            "q": "It has snowed ___ Friday night.",
+            "options": [
+              "since",
+              "for",
+              "just"
+            ],
+            "answer": 0,
+            "explain": "周五晚是起点——since。",
+            "level": 2
+          },
+          {
+            "q": "He has ___ his key, so he is waiting at the door.",
+            "options": [
+              "lost",
+              "losed",
+              "lose"
+            ],
+            "answer": 0,
+            "explain": "lose-lost-lost——延音：现在进不了门。",
+            "level": 2
+          },
+          {
+            "q": "The baby has ___ asleep — please walk quietly.",
+            "options": [
+              "fallen",
+              "fell",
+              "fall"
+            ],
+            "answer": 0,
+            "explain": "fall-fell-fallen——has fallen asleep。",
+            "level": 2
+          },
+          {
+            "q": "I have ___ this cartoon three times!",
+            "options": [
+              "seen",
+              "saw",
+              "see"
+            ],
+            "answer": 0,
+            "explain": "have + seen——第三枚私章。",
+            "level": 2
+          },
+          {
+            "q": "___ you finished your milk yet?",
+            "options": [
+              "Have",
+              "Do",
+              "Did"
+            ],
+            "answer": 0,
+            "explain": "have 自己举手——Have you...yet?",
+            "level": 2
+          },
+          {
+            "q": "She has played table tennis ___ she was seven.",
+            "options": [
+              "since",
+              "for",
+              "when"
+            ],
+            "answer": 0,
+            "explain": "since 挂过去起点小句——since she was seven。",
+            "level": 2
+          },
+          {
+            "q": "We have ___ a big paper star for the party.",
+            "options": [
+              "made",
+              "maked",
+              "make"
+            ],
+            "answer": 0,
+            "explain": "make-made-made——have made。",
+            "level": 2
+          },
+          {
+            "q": "My cousin has ___ in that band for two years.",
+            "options": [
+              "drummed",
+              "drum",
+              "drums"
+            ],
+            "answer": 0,
+            "explain": "规则分词照旧 -ed——has drummed for。",
+            "level": 2
+          },
+          {
+            "q": "The show has ___ started — hurry up!",
+            "options": [
+              "just",
+              "yet",
+              "for"
+            ],
+            "answer": 0,
+            "explain": "刚开场——just 站中间。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 断线警报",
         "questions": [
-          { "q": "哪句没违反天条？", "options": ["I visited the zoo last Sunday.", "I have visited the zoo last Sunday.", "I have visit the zoo last Sunday."], "answer": 0, "explain": "last Sunday 翻篇——过去戳 visited。", "level": 3 },
-          { "q": "哪句的私章拿对了？", "options": ["He has gone to bed.", "He has went to bed.", "He has goed to bed."], "answer": 0, "explain": "has + 第三枚私章 gone。", "level": 3 },
-          { "q": "哪句的「已经」用对了？", "options": ["I have already learned this song.", "I have yet learned this song.", "I have learned already this song yet."], "answer": 0, "explain": "肯定句用 already 站中间。", "level": 3 },
-          { "q": "哪句的 yet 站对了岗？", "options": ["They haven't arrived yet.", "They haven't yet arrived they.", "They have arrived yet."], "answer": 0, "explain": "否定句句尾——haven't...yet。", "level": 3 },
-          { "q": "哪句的 have/has 对齐了？", "options": ["My sister has just washed her hands.", "My sister have just washed her hands.", "My sister has just wash her hands."], "answer": 0, "explain": "sister→has；分词 washed。", "level": 3 },
-          { "q": "哪句提问的手举对了？", "options": ["Have you found your glasses?", "Do you have found your glasses?", "Did you have found your glasses?"], "answer": 0, "explain": "have 自己搬家——Have you found...?", "level": 3 },
-          { "q": "哪句的 for/since 分工对了？", "options": ["We have waited for half an hour.", "We have waited since half an hour.", "We have waited for since Monday."], "answer": 0, "explain": "半小时是时长——for。", "level": 3 },
-          { "q": "哪句的起点挂对了？", "options": ["She has kept a diary since 2024.", "She has kept a diary for 2024.", "She keeps a diary since 2024."], "answer": 0, "explain": "2024 是起点——since + 完成时。", "level": 3 },
-          { "q": "哪句的 never 用得全对？", "options": ["I have never eaten durian.", "I have never ate durian.", "I never have eaten not durian."], "answer": 0, "explain": "never 站中间 + 分词 eaten。", "level": 3 },
-          { "q": "哪句的 ever 问得对？", "options": ["Has she ever won a prize?", "Does she ever has won a prize?", "Has she won ever a prize?"], "answer": 0, "explain": "Has + 主语 + ever + 分词。", "level": 3 },
-          { "q": "哪句写对了？（我刚接到你的电话）", "options": ["I have just got your call.", "I have just get your call.", "I just have got your call yesterday."], "answer": 0, "explain": "just 站中间 + 分词 got；别再拖上 yesterday。", "level": 3 },
-          { "q": "哪句写对了？（他从六岁起就住在这条街）", "options": ["He has lived on this street since he was six.", "He has lived on this street for he was six.", "He lived on this street since he was six.（想说现在还住）"], "answer": 0, "explain": "since + 过去小句；主句拉延音线 has lived。", "level": 3 },
-          { "q": "哪句写对了？（作业写完了吗？——还没）", "options": ["— Have you done your homework yet? — Not yet.", "— Do you done your homework yet? — Not already.", "— Have you done your homework already yet? — Not."], "answer": 0, "explain": "Have...yet? 答 Not yet——一对搭档。", "level": 3 },
-          { "q": "哪句写对了？（这块表我戴三年了）", "options": ["I have worn this watch for three years.", "I have worn this watch since three years.", "I wear this watch for three years already yesterday."], "answer": 0, "explain": "wear-wore-worn + for 时长。", "level": 3 },
-          { "q": "哪句写对了？（雪从早上下到现在）", "options": ["It has snowed since this morning.", "It has snowed for this morning.", "It snowed since this morning and stopped.（想说还在下）"], "answer": 0, "explain": "this morning 是起点——since + 延音线。", "level": 3 },
-          { "q": "哪句写对了？（我上周读完了这本书——翻篇陈述）", "options": ["I finished this book last week.", "I have finished this book last week.", "I have finish this book last week."], "answer": 0, "explain": "last week 在场——老实用过去戳。", "level": 3 }
+          {
+            "q": "哪句没违反天条？",
+            "options": [
+              "I visited the zoo last Sunday.",
+              "I have visited the zoo last Sunday.",
+              "I have visit the zoo last Sunday."
+            ],
+            "answer": 0,
+            "explain": "last Sunday 翻篇——过去戳 visited。",
+            "level": 3
+          },
+          {
+            "q": "哪句的私章拿对了？",
+            "options": [
+              "He has gone to bed.",
+              "He has went to bed.",
+              "He has goed to bed."
+            ],
+            "answer": 0,
+            "explain": "has + 第三枚私章 gone。",
+            "level": 3
+          },
+          {
+            "q": "哪句的「已经」用对了？",
+            "options": [
+              "I have already learned this song.",
+              "I have yet learned this song.",
+              "I have learned already this song yet."
+            ],
+            "answer": 0,
+            "explain": "肯定句用 already 站中间。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 yet 站对了岗？",
+            "options": [
+              "They haven't arrived yet.",
+              "They haven't yet arrived they.",
+              "They have arrived yet."
+            ],
+            "answer": 0,
+            "explain": "否定句句尾——haven't...yet。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 have/has 对齐了？",
+            "options": [
+              "My sister has just washed her hands.",
+              "My sister have just washed her hands.",
+              "My sister has just wash her hands."
+            ],
+            "answer": 0,
+            "explain": "sister→has；分词 washed。",
+            "level": 3
+          },
+          {
+            "q": "哪句提问的手举对了？",
+            "options": [
+              "Have you found your glasses?",
+              "Do you have found your glasses?",
+              "Did you have found your glasses?"
+            ],
+            "answer": 0,
+            "explain": "have 自己搬家——Have you found...?",
+            "level": 3
+          },
+          {
+            "q": "哪句的 for/since 分工对了？",
+            "options": [
+              "We have waited for half an hour.",
+              "We have waited since half an hour.",
+              "We have waited for since Monday."
+            ],
+            "answer": 0,
+            "explain": "半小时是时长——for。",
+            "level": 3
+          },
+          {
+            "q": "哪句的起点挂对了？",
+            "options": [
+              "She has kept a diary since 2024.",
+              "She has kept a diary for 2024.",
+              "She keeps a diary since 2024."
+            ],
+            "answer": 0,
+            "explain": "2024 是起点——since + 完成时。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 never 用得全对？",
+            "options": [
+              "I have never eaten durian.",
+              "I have never ate durian.",
+              "I never have eaten not durian."
+            ],
+            "answer": 0,
+            "explain": "never 站中间 + 分词 eaten。",
+            "level": 3
+          },
+          {
+            "q": "哪句的 ever 问得对？",
+            "options": [
+              "Has she ever won a prize?",
+              "Does she ever has won a prize?",
+              "Has she won ever a prize?"
+            ],
+            "answer": 0,
+            "explain": "Has + 主语 + ever + 分词。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我刚接到你的电话）",
+            "options": [
+              "I have just got your call.",
+              "I have just get your call.",
+              "I just have got your call yesterday."
+            ],
+            "answer": 0,
+            "explain": "just 站中间 + 分词 got；别再拖上 yesterday。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（他从六岁起就住在这条街）",
+            "options": [
+              "He has lived on this street since he was six.",
+              "He has lived on this street for he was six.",
+              "He lived on this street since he was six.（想说现在还住）"
+            ],
+            "answer": 0,
+            "explain": "since + 过去小句；主句拉延音线 has lived。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（作业写完了吗？——还没）",
+            "options": [
+              "— Have you done your homework yet? — Not yet.",
+              "— Do you done your homework yet? — Not already.",
+              "— Have you done your homework already yet? — Not."
+            ],
+            "answer": 0,
+            "explain": "Have...yet? 答 Not yet——一对搭档。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（这块表我戴三年了）",
+            "options": [
+              "I have worn this watch for three years.",
+              "I have worn this watch since three years.",
+              "I wear this watch for three years already yesterday."
+            ],
+            "answer": 0,
+            "explain": "wear-wore-worn + for 时长。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（雪从早上下到现在）",
+            "options": [
+              "It has snowed since this morning.",
+              "It has snowed for this morning.",
+              "It snowed since this morning and stopped.（想说还在下）"
+            ],
+            "answer": 0,
+            "explain": "this morning 是起点——since + 延音线。",
+            "level": 3
+          },
+          {
+            "q": "哪句写对了？（我上周读完了这本书——翻篇陈述）",
+            "options": [
+              "I finished this book last week.",
+              "I have finished this book last week.",
+              "I have finish this book last week."
+            ],
+            "answer": 0,
+            "explain": "last week 在场——老实用过去戳。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 荣誉墙前",
         "questions": [
-          { "q": "— Why is Ben so happy? — He ___ his first medal!", "options": ["has just won", "just won yesterday and", "has just win"], "answer": 0, "explain": "刚拿奖、现在还乐着——has just won。", "level": 4 },
-          { "q": "— Is Lily still at school? — No, she ___ home.", "options": ["has gone", "has went", "goed"], "answer": 0, "explain": "人不在＝走了还没回——has gone home。", "level": 4 },
-          { "q": "I can't open the door because I ___ my key.", "options": ["have lost", "lost it long ago so", "have lose"], "answer": 0, "explain": "现在进不了门——延音线 have lost。", "level": 4 },
-          { "q": "— ___ you ever ___ a night train? — Never, but I'd love to!", "options": ["Have / taken", "Did / take ever", "Have / took"], "answer": 0, "explain": "问经历 Have you ever taken；答 Never。", "level": 4 },
-          { "q": "My grandpa ___ tai chi ___ ten years, and he still practises daily.", "options": ["has done / for", "did / for", "has done / since"], "answer": 0, "explain": "还在练——延音线 + for 十年时长。", "level": 4 },
-          { "q": "— Have you fed the goldfish yet? — Yes, I ___ them.", "options": ["have already fed", "already feed", "have fed yet"], "answer": 0, "explain": "肯定回答换 already——have already fed。", "level": 4 },
-          { "q": "The city ___ a lot since my last visit — look at the new bridges!", "options": ["has changed", "changed and finished", "has change"], "answer": 0, "explain": "since + 延音线——变化持续到眼前。", "level": 4 },
-          { "q": "先分辨再选：— When did you buy this kite? — I ___ it two weeks ago.", "options": ["bought", "have bought", "have buyed"], "answer": 0, "explain": "问 when、答 two weeks ago——翻篇事件用过去戳。", "level": 4 },
-          { "q": "再分辨：— How long have you had this kite? — I ___ it ___ two weeks.", "options": ["have had / for", "had / since", "have had / since"], "answer": 0, "explain": "How long + 延音线——have had it for two weeks。", "level": 4 },
-          { "q": "— Hurry, the film ___! — Don't worry, only the ads have started.", "options": ["has already begun", "already began yesterday", "has already began"], "answer": 0, "explain": "begin-began-begun——has already begun。", "level": 4 },
-          { "q": "We ___ each other ___ we were in kindergarten.", "options": ["have known / since", "knew / since still", "have known / for"], "answer": 0, "explain": "认识延续到现在——have known since + 过去小句。", "level": 4 },
-          { "q": "— Why is the kitchen so clean? — Mum ___ it.", "options": ["has just cleaned", "just cleans always", "has just clean"], "answer": 0, "explain": "眼前的干净是延音——has just cleaned。", "level": 4 },
-          { "q": "I ___ my homework, ___ I haven't checked it ___.", "options": ["have finished / but / yet", "finished yesterday have / but / already", "have finished / because / already"], "answer": 0, "explain": "已完成 + 转折 + 还没检查：but...yet。", "level": 4 },
-          { "q": "— Has your class picked a song for the show yet? — ___", "options": ["Not yet. We are still choosing.", "Yes, we haven't.", "No, we have already."], "answer": 0, "explain": "还没选好——Not yet + 补充。", "level": 4 },
-          { "q": "选出「经历访谈」全对的一组：", "options": ["— Have you ever climbed a snow mountain? — No, I never have. But my dad has climbed two!", "— Did you ever climbed a snow mountain? — No, I never. But my dad has climb two!", "— Have you ever climb a snow mountain? — No, I haven't ever never."], "answer": 0, "explain": "ever 问、never 答、has climbed 接力——七搭档的标准用法。", "level": 4 },
-          { "q": "大考：Our band ___ together ___ 2023. We ___ thirty songs, but we haven't performed on TV ___.", "options": ["has played / since / have learned / yet", "played / for / learned / already", "has played / for / have learned / never"], "answer": 0, "explain": "since 2023 起点 + 延音线；成果 have learned；否定句尾 yet——收官大考四关全过。", "level": 4 }
+          {
+            "q": "— Why is Ben so happy? — He ___ his first medal!",
+            "options": [
+              "has just won",
+              "just won yesterday and",
+              "has just win"
+            ],
+            "answer": 0,
+            "explain": "刚拿奖、现在还乐着——has just won。",
+            "level": 4
+          },
+          {
+            "q": "— Is Lily still at school? — No, she ___ home.",
+            "options": [
+              "has gone",
+              "has went",
+              "goed"
+            ],
+            "answer": 0,
+            "explain": "人不在＝走了还没回——has gone home。",
+            "level": 4
+          },
+          {
+            "q": "I can't open the door because I ___ my key.",
+            "options": [
+              "have lost",
+              "lost it long ago so",
+              "have lose"
+            ],
+            "answer": 0,
+            "explain": "现在进不了门——延音线 have lost。",
+            "level": 4
+          },
+          {
+            "q": "— ___ you ever ___ a night train? — Never, but I'd love to!",
+            "options": [
+              "Have / taken",
+              "Did / take ever",
+              "Have / took"
+            ],
+            "answer": 0,
+            "explain": "问经历 Have you ever taken；答 Never。",
+            "level": 4
+          },
+          {
+            "q": "My grandpa ___ tai chi ___ ten years, and he still practises daily.",
+            "options": [
+              "has done / for",
+              "did / for",
+              "has done / since"
+            ],
+            "answer": 0,
+            "explain": "还在练——延音线 + for 十年时长。",
+            "level": 4
+          },
+          {
+            "q": "— Have you fed the goldfish yet? — Yes, I ___ them.",
+            "options": [
+              "have already fed",
+              "already feed",
+              "have fed yet"
+            ],
+            "answer": 0,
+            "explain": "肯定回答换 already——have already fed。",
+            "level": 4
+          },
+          {
+            "q": "The city ___ a lot since my last visit — look at the new bridges!",
+            "options": [
+              "has changed",
+              "changed and finished",
+              "has change"
+            ],
+            "answer": 0,
+            "explain": "since + 延音线——变化持续到眼前。",
+            "level": 4
+          },
+          {
+            "q": "先分辨再选：— When did you buy this kite? — I ___ it two weeks ago.",
+            "options": [
+              "bought",
+              "have bought",
+              "have buyed"
+            ],
+            "answer": 0,
+            "explain": "问 when、答 two weeks ago——翻篇事件用过去戳。",
+            "level": 4
+          },
+          {
+            "q": "再分辨：— How long have you had this kite? — I ___ it ___ two weeks.",
+            "options": [
+              "have had / for",
+              "had / since",
+              "have had / since"
+            ],
+            "answer": 0,
+            "explain": "How long + 延音线——have had it for two weeks。",
+            "level": 4
+          },
+          {
+            "q": "— Hurry, the film ___! — Don't worry, only the ads have started.",
+            "options": [
+              "has already begun",
+              "already began yesterday",
+              "has already began"
+            ],
+            "answer": 0,
+            "explain": "begin-began-begun——has already begun。",
+            "level": 4
+          },
+          {
+            "q": "We ___ each other ___ we were in kindergarten.",
+            "options": [
+              "have known / since",
+              "knew / since still",
+              "have known / for"
+            ],
+            "answer": 0,
+            "explain": "认识延续到现在——have known since + 过去小句。",
+            "level": 4
+          },
+          {
+            "q": "— Why is the kitchen so clean? — Mum ___ it.",
+            "options": [
+              "has just cleaned",
+              "just cleans always",
+              "has just clean"
+            ],
+            "answer": 0,
+            "explain": "眼前的干净是延音——has just cleaned。",
+            "level": 4
+          },
+          {
+            "q": "I ___ my homework, ___ I haven't checked it ___.",
+            "options": [
+              "have finished / but / yet",
+              "finished yesterday have / but / already",
+              "have finished / because / already"
+            ],
+            "answer": 0,
+            "explain": "已完成 + 转折 + 还没检查：but...yet。",
+            "level": 4
+          },
+          {
+            "q": "— Has your class picked a song for the show yet? — ___",
+            "options": [
+              "Not yet. We are still choosing.",
+              "Yes, we haven't.",
+              "No, we have already."
+            ],
+            "answer": 0,
+            "explain": "还没选好——Not yet + 补充。",
+            "level": 4
+          },
+          {
+            "q": "选出「经历访谈」全对的一组：",
+            "options": [
+              "— Have you ever climbed a snow mountain? — No, I never have. But my dad has climbed two!",
+              "— Did you ever climbed a snow mountain? — No, I never. But my dad has climb two!",
+              "— Have you ever climb a snow mountain? — No, I haven't ever never."
+            ],
+            "answer": 0,
+            "explain": "ever 问、never 答、has climbed 接力——七搭档的标准用法。",
+            "level": 4
+          },
+          {
+            "q": "大考：Our band ___ together ___ 2023. We ___ thirty songs, but we haven't performed on TV ___.",
+            "options": [
+              "has played / since / have learned / yet",
+              "played / for / learned / already",
+              "has played / for / have learned / never"
+            ],
+            "answer": 0,
+            "explain": "since 2023 起点 + 延音线；成果 have learned；否定句尾 yet——收官大考四关全过。",
+            "level": 4
+          }
         ]
       }
     ]

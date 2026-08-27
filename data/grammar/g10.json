@@ -5,7 +5,9 @@
   "title": "形容词与副词",
   "metaphor": "形容词写音色，副词写演奏方式",
   "ketRelevance": 1,
-  "ketLessonMap": ["L8"],
+  "ketLessonMap": [
+    "L8"
+  ],
   "ketNote": "KET Part 5 常考 -ly 的有无；good/well 混用是写作黄区常客。比较级在八课 L8 展开，这里打地基。",
   "source": "original",
   "sections": {
@@ -47,26 +49,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "She is a careful girl.", "cn": "她是个细心的姑娘。（形容词贴名词）" },
-          { "en": "She does her homework carefully.", "cn": "她细心地写作业。（副词跟动词）" },
-          { "en": "The song is beautiful.", "cn": "这首歌很美。" },
-          { "en": "She sings beautifully.", "cn": "她唱得很美。" },
-          { "en": "He is a fast runner and he runs fast.", "cn": "他是个飞毛腿，跑得也快。（fast 两职一词）" }
+          {
+            "en": "She is a careful girl.",
+            "cn": "她是个细心的姑娘。（形容词贴名词）"
+          },
+          {
+            "en": "She does her homework carefully.",
+            "cn": "她细心地写作业。（副词跟动词）"
+          },
+          {
+            "en": "The song is beautiful.",
+            "cn": "这首歌很美。"
+          },
+          {
+            "en": "She sings beautifully.",
+            "cn": "她唱得很美。"
+          },
+          {
+            "en": "He is a fast runner and he runs fast.",
+            "cn": "他是个飞毛腿，跑得也快。（fast 两职一词）"
+          }
         ],
         "mid": [
-          { "en": "The children are laughing happily.", "cn": "孩子们开心地笑着。（y 变 i 加 ly）" },
-          { "en": "He plays the drum well, so he is a good drummer.", "cn": "他鼓打得好，所以是个好鼓手。（well 与 good 各就各位）" },
-          { "en": "They work hard every day.", "cn": "他们每天努力练习。（hard 不穿 -ly）" },
-          { "en": "Speak slowly, please. Grandpa can't follow.", "cn": "请说慢点，爷爷跟不上。" },
-          { "en": "The maths problem is easy, and I solved it easily.", "cn": "这道数学题很容易，我轻松解了出来。" }
+          {
+            "en": "The children are laughing happily.",
+            "cn": "孩子们开心地笑着。（y 变 i 加 ly）"
+          },
+          {
+            "en": "He plays the drum well, so he is a good drummer.",
+            "cn": "他鼓打得好，所以是个好鼓手。（well 与 good 各就各位）"
+          },
+          {
+            "en": "They work hard every day.",
+            "cn": "他们每天努力练习。（hard 不穿 -ly）"
+          },
+          {
+            "en": "Speak slowly, please. Grandpa can't follow.",
+            "cn": "请说慢点，爷爷跟不上。"
+          },
+          {
+            "en": "The maths problem is easy, and I solved it easily.",
+            "cn": "这道数学题很容易，我轻松解了出来。"
+          }
         ],
         "trap": [
-          { "en": "He works hard.", "cn": "他工作很努力。", "note": "hard 是双职词；hardly 是另一个词，意思是「几乎不」——加错 -ly 意思全反。" },
-          { "en": "The cake tastes delicious.", "cn": "蛋糕尝起来很好吃。", "note": "taste 是感官动词，后面贴形容词——不说 tastes deliciously。" },
-          { "en": "She looks happy today.", "cn": "她今天看起来很开心。", "note": "look 表「看起来」时接形容词；「开心地看」才是 look happily（意思完全不同）。" },
-          { "en": "The train arrived late.", "cn": "火车到晚了。", "note": "late 双职；lately 是「最近」——又一对差之毫厘的词。" },
-          { "en": "She is a friendly girl.", "cn": "她是个友善的姑娘。", "note": "friendly、lovely 尾巴带 -ly 却是形容词——别被制服骗了。" },
-          { "en": "He speaks English very well.", "cn": "他英语说得很好。", "note": "good 的副词岗位是 well——speak good English 说的是「好英语」，speak English well 说的是「说得好」。" }
+          {
+            "en": "He works hard.",
+            "cn": "他工作很努力。",
+            "note": "hard 是双职词；hardly 是另一个词，意思是「几乎不」——加错 -ly 意思全反。"
+          },
+          {
+            "en": "The cake tastes delicious.",
+            "cn": "蛋糕尝起来很好吃。",
+            "note": "taste 是感官动词，后面贴形容词——不说 tastes deliciously。"
+          },
+          {
+            "en": "She looks happy today.",
+            "cn": "她今天看起来很开心。",
+            "note": "look 表「看起来」时接形容词；「开心地看」才是 look happily（意思完全不同）。"
+          },
+          {
+            "en": "The train arrived late.",
+            "cn": "火车到晚了。",
+            "note": "late 双职；lately 是「最近」——又一对差之毫厘的词。"
+          },
+          {
+            "en": "She is a friendly girl.",
+            "cn": "她是个友善的姑娘。",
+            "note": "friendly、lovely 尾巴带 -ly 却是形容词——别被制服骗了。"
+          },
+          {
+            "en": "He speaks English very well.",
+            "cn": "他英语说得很好。",
+            "note": "good 的副词岗位是 well——speak good English 说的是「好英语」，speak English well 说的是「说得好」。"
+          }
         ]
       }
     },
@@ -192,7 +248,7 @@
     "echo": "good–better–best 是一窝缝合怪：better 和 best 来自另一个古词根 bat-（好处、补救，今天的 boot「补偿」还是它的远亲），good 自己的比较级早在一千多年前就丢了。同样，bad 的比较级 worse 也是外姓人。为什么最基础的「好、坏」反而最不规则？因为它们是评价世界用得最多的词——天天挂在嘴边，旧搭档来不及被规则化就焊死了。越常用的词，越不规则：be 如此（G04）、first 如此（G09）、good 也如此——基石层的暗线，到这里你已经见过三次了。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='30' font-weight='bold' fill='#E76F33'>G10 · 形容词与副词</text><text x='360' y='92' text-anchor='middle' font-size='19' fill='#8A7568'>形容词写音色 · 副词写演奏方式</text><rect x='36' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#38B2AC'>🎵 形容词 · 贴名词</text><text x='194' y='190' text-anchor='middle' font-size='17' fill='#5A4A42'>a sweet voice</text><text x='194' y='222' text-anchor='middle' font-size='17' fill='#5A4A42'>The song is beautiful.</text><text x='194' y='254' text-anchor='middle' font-size='16' fill='#8A7568'>位置：名词前 · be 后</text><text x='194' y='286' text-anchor='middle' font-size='16' fill='#C0392B'>感官动词后也是它：sounds sweet</text><rect x='368' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='152' text-anchor='middle' font-size='20' font-weight='bold' fill='#E76F33'>🎻 副词 · 跟动词</text><text x='526' y='190' text-anchor='middle' font-size='17' fill='#5A4A42'>sing beautifully</text><text x='526' y='222' text-anchor='middle' font-size='17' fill='#5A4A42'>listen carefully</text><text x='526' y='254' text-anchor='middle' font-size='16' fill='#8A7568'>制服：形容词 + ly（happy→happily）</text><text x='526' y='286' text-anchor='middle' font-size='16' fill='#C0392B'>双职不穿：fast · hard · late</text><rect x='36' y='330' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='362' text-anchor='middle' font-size='18' font-weight='bold' fill='#E76F33'>good 的副词岗位是 well：a good drummer · plays well</text><text x='360' y='392' text-anchor='middle' font-size='17' fill='#C0392B'>⚠️ hardly = 几乎不 ≠ hard · lately = 最近 ≠ late</text><text x='360' y='452' text-anchor='middle' font-size='16' fill='#8A7568'>暗线：good–better–best 异源缝合——越常用的词，越不规则（第三次见它了）</text><text x='360' y='522' text-anchor='middle' font-size='14' fill='#B8A79B'>英语奇遇记 🦊 · G10</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 560' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='552' rx='28' fill='#FFF8F0' stroke='#FF8A4C' stroke-width='4'/><text x='360' y='58' text-anchor='middle' font-size='32' font-weight='bold' fill='#E76F33'>G10 · 形容词与副词</text><text x='360' y='92' text-anchor='middle' font-size='23' fill='#8A7568'>形容词写音色 · 副词写演奏方式</text><rect x='36' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#4ECDC4' stroke-width='3'/><text x='194' y='152' text-anchor='middle' font-size='24' font-weight='bold' fill='#38B2AC'>🎵 形容词 · 贴名词</text><text x='194' y='190' text-anchor='middle' font-size='21' fill='#5A4A42'>a sweet voice</text><text x='194' y='222' text-anchor='middle' font-size='21' fill='#5A4A42'>The song is beautiful.</text><text x='194' y='254' text-anchor='middle' font-size='20' fill='#8A7568'>位置：名词前 · be 后</text><text x='194' y='286' text-anchor='middle' font-size='19' fill='#C0392B'>感官动词后也是它：sounds sweet</text><rect x='368' y='116' width='316' height='190' rx='20' fill='#FFFFFF' stroke='#FF8A4C' stroke-width='3'/><text x='526' y='152' text-anchor='middle' font-size='24' font-weight='bold' fill='#E76F33'>🎻 副词 · 跟动词</text><text x='526' y='190' text-anchor='middle' font-size='21' fill='#5A4A42'>sing beautifully</text><text x='526' y='222' text-anchor='middle' font-size='21' fill='#5A4A42'>listen carefully</text><text x='526' y='254' text-anchor='middle' font-size='16' fill='#8A7568'>制服：形容词 + ly（happy→happily）</text><text x='526' y='286' text-anchor='middle' font-size='20' fill='#C0392B'>双职不穿：fast · hard · late</text><rect x='36' y='330' width='648' height='76' rx='20' fill='#FFF1E5' stroke='#FFB68A' stroke-width='2'/><text x='360' y='362' text-anchor='middle' font-size='22' font-weight='bold' fill='#E76F33'>good 的副词岗位是 well：a good drummer · plays well</text><text x='360' y='392' text-anchor='middle' font-size='21' fill='#C0392B'>⚠️ hardly = 几乎不 ≠ hard · lately = 最近 ≠ late</text><text x='360' y='452' text-anchor='middle' font-size='19' fill='#8A7568'>暗线：good–better–best 异源缝合——越常用的词，越不规则（第三次见它了）</text><text x='360' y='522' text-anchor='middle' font-size='18' fill='#B8A79B'>英语奇遇记 🦊 · G10</text></svg>",
     "alt": "G10 记忆卡：左列形容词贴名词（位置与感官动词），右列副词跟动词（-ly 制服与双职词 fast/hard/late），底部 good/well 分工与 hardly/lately 陷阱，暗线 good-better-best。"
   },
   "practice": {
@@ -200,85 +256,712 @@
       {
         "name": "认一认 · 两支笔",
         "questions": [
-          { "q": "「quickly」是哪支笔？", "options": ["副词（写演奏方式）", "形容词（写音色）"], "answer": 0, "explain": "-ly 制服在身，跟着动词跑。", "level": 1 },
-          { "q": "「quick」是哪支笔？", "options": ["形容词（写音色）", "副词（写演奏方式）"], "answer": 0, "explain": "没穿制服，贴名词：a quick answer。", "level": 1 },
-          { "q": "「beautiful」是哪支笔？", "options": ["形容词（写音色）", "副词（写演奏方式）"], "answer": 0, "explain": "贴名词：a beautiful song。", "level": 1 },
-          { "q": "「beautifully」是哪支笔？", "options": ["副词（写演奏方式）", "形容词（写音色）"], "answer": 0, "explain": "跟动词：sing beautifully。", "level": 1 },
-          { "q": "「careful」是哪支笔？", "options": ["形容词（写音色）", "副词（写演奏方式）"], "answer": 0, "explain": "a careful girl——形容词。", "level": 1 },
-          { "q": "「carefully」是哪支笔？", "options": ["副词（写演奏方式）", "形容词（写音色）"], "answer": 0, "explain": "listen carefully——副词。", "level": 1 },
-          { "q": "「slowly」是哪支笔？", "options": ["副词（写演奏方式）", "形容词（写音色）"], "answer": 0, "explain": "walk slowly——副词。", "level": 1 },
-          { "q": "「happy」是哪支笔？", "options": ["形容词（写音色）", "副词（写演奏方式）"], "answer": 0, "explain": "a happy child——形容词；副词要变 happily。", "level": 1 },
-          { "q": "「happily」是哪支笔？", "options": ["副词（写演奏方式）", "形容词（写音色）"], "answer": 0, "explain": "laugh happily——y 变 i 穿 -ly。", "level": 1 },
-          { "q": "「good」是哪支笔？", "options": ["形容词（写音色）", "副词（写演奏方式）"], "answer": 0, "explain": "good 只当形容词；副词岗位归 well。", "level": 1 },
-          { "q": "「well」在「He plays well」里是哪支笔？", "options": ["副词（写演奏方式）", "形容词（写音色）"], "answer": 0, "explain": "夸「弹」这个动作——副词 well。", "level": 1 },
-          { "q": "「fast」是哪支笔？", "options": ["双职：形容词、副词同形", "只是形容词", "只是副词"], "answer": 0, "explain": "a fast train / run fast——双职一词，没有 fastly。", "level": 1 },
-          { "q": "「hard」是哪支笔？", "options": ["双职：形容词、副词同形", "只是形容词", "只是副词"], "answer": 0, "explain": "hard work / work hard——双职；hardly 是「几乎不」。", "level": 1 },
-          { "q": "「easily」是哪支笔？", "options": ["副词（写演奏方式）", "形容词（写音色）"], "answer": 0, "explain": "easy 变 easily——y 变 i 穿 -ly。", "level": 1 },
-          { "q": "「friendly」是哪支笔？", "options": ["形容词（写音色）", "副词（写演奏方式）"], "answer": 0, "explain": "尾巴带 -ly 却是形容词——lovely、lively 同理，别被制服骗。", "level": 1 },
-          { "q": "「late」是哪支笔？", "options": ["双职：形容词、副词同形", "只是副词", "只是形容词"], "answer": 0, "explain": "be late / arrive late——双职；lately 是「最近」。", "level": 1 }
+          {
+            "q": "「quickly」是哪支笔？",
+            "options": [
+              "副词（写演奏方式）",
+              "形容词（写音色）"
+            ],
+            "answer": 0,
+            "explain": "-ly 制服在身，跟着动词跑。",
+            "level": 1
+          },
+          {
+            "q": "「quick」是哪支笔？",
+            "options": [
+              "形容词（写音色）",
+              "副词（写演奏方式）"
+            ],
+            "answer": 0,
+            "explain": "没穿制服，贴名词：a quick answer。",
+            "level": 1
+          },
+          {
+            "q": "「beautiful」是哪支笔？",
+            "options": [
+              "形容词（写音色）",
+              "副词（写演奏方式）"
+            ],
+            "answer": 0,
+            "explain": "贴名词：a beautiful song。",
+            "level": 1
+          },
+          {
+            "q": "「beautifully」是哪支笔？",
+            "options": [
+              "副词（写演奏方式）",
+              "形容词（写音色）"
+            ],
+            "answer": 0,
+            "explain": "跟动词：sing beautifully。",
+            "level": 1
+          },
+          {
+            "q": "「careful」是哪支笔？",
+            "options": [
+              "形容词（写音色）",
+              "副词（写演奏方式）"
+            ],
+            "answer": 0,
+            "explain": "a careful girl——形容词。",
+            "level": 1
+          },
+          {
+            "q": "「carefully」是哪支笔？",
+            "options": [
+              "副词（写演奏方式）",
+              "形容词（写音色）"
+            ],
+            "answer": 0,
+            "explain": "listen carefully——副词。",
+            "level": 1
+          },
+          {
+            "q": "「slowly」是哪支笔？",
+            "options": [
+              "副词（写演奏方式）",
+              "形容词（写音色）"
+            ],
+            "answer": 0,
+            "explain": "walk slowly——副词。",
+            "level": 1
+          },
+          {
+            "q": "「happy」是哪支笔？",
+            "options": [
+              "形容词（写音色）",
+              "副词（写演奏方式）"
+            ],
+            "answer": 0,
+            "explain": "a happy child——形容词；副词要变 happily。",
+            "level": 1
+          },
+          {
+            "q": "「happily」是哪支笔？",
+            "options": [
+              "副词（写演奏方式）",
+              "形容词（写音色）"
+            ],
+            "answer": 0,
+            "explain": "laugh happily——y 变 i 穿 -ly。",
+            "level": 1
+          },
+          {
+            "q": "「good」是哪支笔？",
+            "options": [
+              "形容词（写音色）",
+              "副词（写演奏方式）"
+            ],
+            "answer": 0,
+            "explain": "good 只当形容词；副词岗位归 well。",
+            "level": 1
+          },
+          {
+            "q": "「well」在「He plays well」里是哪支笔？",
+            "options": [
+              "副词（写演奏方式）",
+              "形容词（写音色）"
+            ],
+            "answer": 0,
+            "explain": "夸「弹」这个动作——副词 well。",
+            "level": 1
+          },
+          {
+            "q": "「fast」是哪支笔？",
+            "options": [
+              "双职：形容词、副词同形",
+              "只是形容词",
+              "只是副词"
+            ],
+            "answer": 0,
+            "explain": "a fast train / run fast——双职一词，没有 fastly。",
+            "level": 1
+          },
+          {
+            "q": "「hard」是哪支笔？",
+            "options": [
+              "双职：形容词、副词同形",
+              "只是形容词",
+              "只是副词"
+            ],
+            "answer": 0,
+            "explain": "hard work / work hard——双职；hardly 是「几乎不」。",
+            "level": 1
+          },
+          {
+            "q": "「easily」是哪支笔？",
+            "options": [
+              "副词（写演奏方式）",
+              "形容词（写音色）"
+            ],
+            "answer": 0,
+            "explain": "easy 变 easily——y 变 i 穿 -ly。",
+            "level": 1
+          },
+          {
+            "q": "「friendly」是哪支笔？",
+            "options": [
+              "形容词（写音色）",
+              "副词（写演奏方式）"
+            ],
+            "answer": 0,
+            "explain": "尾巴带 -ly 却是形容词——lovely、lively 同理，别被制服骗。",
+            "level": 1
+          },
+          {
+            "q": "「late」是哪支笔？",
+            "options": [
+              "双职：形容词、副词同形",
+              "只是副词",
+              "只是形容词"
+            ],
+            "answer": 0,
+            "explain": "be late / arrive late——双职；lately 是「最近」。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 贴对标签",
         "questions": [
-          { "q": "She is a ___ girl.", "options": ["careful", "carefully", "carefulness"], "answer": 0, "explain": "贴名词 girl——形容词 careful。", "level": 2 },
-          { "q": "Please listen ___ in class.", "options": ["carefully", "careful", "carefull"], "answer": 0, "explain": "listen 是动作——副词 carefully。", "level": 2 },
-          { "q": "The song is ___.", "options": ["beautiful", "beautifully", "beauty"], "answer": 0, "explain": "be 后面贴形容词。", "level": 2 },
-          { "q": "She dances ___.", "options": ["beautifully", "beautiful", "beauty"], "answer": 0, "explain": "夸「跳」这个动作——beautifully。", "level": 2 },
-          { "q": "He is a ___ runner.", "options": ["fast", "fastly", "fasting"], "answer": 0, "explain": "贴名词——fast；fastly 不存在。", "level": 2 },
-          { "q": "He runs very ___.", "options": ["fast", "fastly", "fasten"], "answer": 0, "explain": "双职词 fast 直接当副词。", "level": 2 },
-          { "q": "They practise ___ every day.", "options": ["hard", "hardly", "hardness"], "answer": 0, "explain": "努力练习——hard；hardly 意思相反。", "level": 2 },
-          { "q": "The maths problem is ___.", "options": ["easy", "easily", "ease"], "answer": 0, "explain": "be 后形容词——easy。", "level": 2 },
-          { "q": "I can finish the work ___.", "options": ["easily", "easy", "ease"], "answer": 0, "explain": "「轻松地完成」——easily。", "level": 2 },
-          { "q": "He plays the drum ___.", "options": ["well", "good", "goodly"], "answer": 0, "explain": "夸动作用 well——good 的副词岗位。", "level": 2 },
-          { "q": "He is a ___ drummer.", "options": ["good", "well", "better done"], "answer": 0, "explain": "贴名词 drummer——good。", "level": 2 },
-          { "q": "The children are laughing ___.", "options": ["happily", "happy", "happyly"], "answer": 0, "explain": "y 变 i 穿 -ly——happily。", "level": 2 },
-          { "q": "Walk ___, the floor is wet.", "options": ["slowly", "slow", "slowness"], "answer": 0, "explain": "「慢慢走」——副词 slowly。", "level": 2 },
-          { "q": "Her voice sounds ___.", "options": ["sweet", "sweetly", "sweets"], "answer": 0, "explain": "sound 是感官动词——接形容词 sweet。", "level": 2 },
-          { "q": "I feel ___ today.", "options": ["bad", "badly", "bads"], "answer": 0, "explain": "feel 是感官动词——接形容词 bad。", "level": 2 },
-          { "q": "The soup smells ___.", "options": ["nice", "nicely", "niceness"], "answer": 0, "explain": "smell 感官动词——nice。", "level": 2 }
+          {
+            "q": "She is a ___ girl.",
+            "options": [
+              "careful",
+              "carefully",
+              "carefulness"
+            ],
+            "answer": 0,
+            "explain": "贴名词 girl——形容词 careful。",
+            "level": 2
+          },
+          {
+            "q": "Please listen ___ in class.",
+            "options": [
+              "carefully",
+              "careful",
+              "carefull"
+            ],
+            "answer": 0,
+            "explain": "listen 是动作——副词 carefully。",
+            "level": 2
+          },
+          {
+            "q": "The song is ___.",
+            "options": [
+              "beautiful",
+              "beautifully",
+              "beauty"
+            ],
+            "answer": 0,
+            "explain": "be 后面贴形容词。",
+            "level": 2
+          },
+          {
+            "q": "She dances ___.",
+            "options": [
+              "beautifully",
+              "beautiful",
+              "beauty"
+            ],
+            "answer": 0,
+            "explain": "夸「跳」这个动作——beautifully。",
+            "level": 2
+          },
+          {
+            "q": "He is a ___ runner.",
+            "options": [
+              "fast",
+              "fastly",
+              "fasting"
+            ],
+            "answer": 0,
+            "explain": "贴名词——fast；fastly 不存在。",
+            "level": 2
+          },
+          {
+            "q": "He runs very ___.",
+            "options": [
+              "fast",
+              "fastly",
+              "fasten"
+            ],
+            "answer": 0,
+            "explain": "双职词 fast 直接当副词。",
+            "level": 2
+          },
+          {
+            "q": "They practise ___ every day.",
+            "options": [
+              "hard",
+              "hardly",
+              "hardness"
+            ],
+            "answer": 0,
+            "explain": "努力练习——hard；hardly 意思相反。",
+            "level": 2
+          },
+          {
+            "q": "The maths problem is ___.",
+            "options": [
+              "easy",
+              "easily",
+              "ease"
+            ],
+            "answer": 0,
+            "explain": "be 后形容词——easy。",
+            "level": 2
+          },
+          {
+            "q": "I can finish the work ___.",
+            "options": [
+              "easily",
+              "easy",
+              "ease"
+            ],
+            "answer": 0,
+            "explain": "「轻松地完成」——easily。",
+            "level": 2
+          },
+          {
+            "q": "He plays the drum ___.",
+            "options": [
+              "well",
+              "good",
+              "goodly"
+            ],
+            "answer": 0,
+            "explain": "夸动作用 well——good 的副词岗位。",
+            "level": 2
+          },
+          {
+            "q": "He is a ___ drummer.",
+            "options": [
+              "good",
+              "well",
+              "better done"
+            ],
+            "answer": 0,
+            "explain": "贴名词 drummer——good。",
+            "level": 2
+          },
+          {
+            "q": "The children are laughing ___.",
+            "options": [
+              "happily",
+              "happy",
+              "happyly"
+            ],
+            "answer": 0,
+            "explain": "y 变 i 穿 -ly——happily。",
+            "level": 2
+          },
+          {
+            "q": "Walk ___, the floor is wet.",
+            "options": [
+              "slowly",
+              "slow",
+              "slowness"
+            ],
+            "answer": 0,
+            "explain": "「慢慢走」——副词 slowly。",
+            "level": 2
+          },
+          {
+            "q": "Her voice sounds ___.",
+            "options": [
+              "sweet",
+              "sweetly",
+              "sweets"
+            ],
+            "answer": 0,
+            "explain": "sound 是感官动词——接形容词 sweet。",
+            "level": 2
+          },
+          {
+            "q": "I feel ___ today.",
+            "options": [
+              "bad",
+              "badly",
+              "bads"
+            ],
+            "answer": 0,
+            "explain": "feel 是感官动词——接形容词 bad。",
+            "level": 2
+          },
+          {
+            "q": "The soup smells ___.",
+            "options": [
+              "nice",
+              "nicely",
+              "niceness"
+            ],
+            "answer": 0,
+            "explain": "smell 感官动词——nice。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 火眼金睛",
         "questions": [
-          { "q": "哪一句的标签贴对了？（她唱歌）", "options": ["She sings beautifully.", "She sings beautiful.", "She beautifully sings beautiful."], "answer": 0, "explain": "夸「唱」这个动作——副词。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（他跑步）", "options": ["He runs quickly.", "He runs quick.", "He runs quickness."], "answer": 0, "explain": "run 是动作——quickly。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（弹得好）", "options": ["He plays the piano well.", "He plays the piano good.", "He plays the piano goodly."], "answer": 0, "explain": "夸动作——well。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（努力工作）", "options": ["My mother works hard.", "My mother works hardly.", "My mother hardly works hard."], "answer": 0, "explain": "hard 不穿制服；hardly 意思是「几乎不」。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（开车快）", "options": ["He drives very fast.", "He drives very fastly.", "He drives very fasten."], "answer": 0, "explain": "fast 双职——fastly 不存在。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（好歌手）", "options": ["She is a good singer.", "She is a well singer.", "She is a goodly singer."], "answer": 0, "explain": "贴名词——good singer。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（音乐好听）", "options": ["The music sounds sweet.", "The music sounds sweetly.", "The music sound sweetly."], "answer": 0, "explain": "感官动词 sound 接形容词。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（她看起来开心）", "options": ["She looks happy today.", "She looks happily today.", "She look happy today."], "answer": 0, "explain": "look「看起来」接形容词 happy。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（安静地进教室）", "options": ["He came in quietly.", "He came in quiet.", "He came in quietness."], "answer": 0, "explain": "「进来」的方式——quietly。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（雨下得大）", "options": ["It is raining heavily.", "It is raining heavy.", "It is raining heavily rain."], "answer": 0, "explain": "下雨的「方式」——heavily（y 变 i）。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（蛋糕好吃）", "options": ["The cake tastes delicious.", "The cake tastes deliciously.", "The cake taste deliciously."], "answer": 0, "explain": "taste 感官动词——delicious。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（大声朗读）", "options": ["Read the text loudly.", "Read the text loud voice.", "Read the text in loudly voice."], "answer": 0, "explain": "朗读的方式——loudly。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（英语说得好）", "options": ["He speaks English very well.", "He speaks English very good.", "He speaks very well English."], "answer": 0, "explain": "夸「说」——well，位置在宾语后。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（火车到晚了）", "options": ["The train arrived late.", "The train arrived lately.", "The train arrived lateness."], "answer": 0, "explain": "late 双职直接用；lately 是「最近」。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（认真的学生）", "options": ["She is a careful student and she writes carefully.", "She is a carefully student and she writes careful.", "She is a careful student and she writes careful."], "answer": 0, "explain": "名词边 careful，动词边 carefully——各就各位。", "level": 3 },
-          { "q": "哪一句的标签贴对了？（身体好）", "options": ["— How are you? — I'm very well.", "— How are you? — I'm very good person.", "— How are you? — I'm very goodly."], "answer": 0, "explain": "well 当形容词专表「身体好」——问候的标准答案。", "level": 3 }
+          {
+            "q": "哪一句的标签贴对了？（她唱歌）",
+            "options": [
+              "She sings beautifully.",
+              "She sings beautiful.",
+              "She beautifully sings beautiful."
+            ],
+            "answer": 0,
+            "explain": "夸「唱」这个动作——副词。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（他跑步）",
+            "options": [
+              "He runs quickly.",
+              "He runs quick.",
+              "He runs quickness."
+            ],
+            "answer": 0,
+            "explain": "run 是动作——quickly。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（弹得好）",
+            "options": [
+              "He plays the piano well.",
+              "He plays the piano good.",
+              "He plays the piano goodly."
+            ],
+            "answer": 0,
+            "explain": "夸动作——well。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（努力工作）",
+            "options": [
+              "My mother works hard.",
+              "My mother works hardly.",
+              "My mother hardly works hard."
+            ],
+            "answer": 0,
+            "explain": "hard 不穿制服；hardly 意思是「几乎不」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（开车快）",
+            "options": [
+              "He drives very fast.",
+              "He drives very fastly.",
+              "He drives very fasten."
+            ],
+            "answer": 0,
+            "explain": "fast 双职——fastly 不存在。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（好歌手）",
+            "options": [
+              "She is a good singer.",
+              "She is a well singer.",
+              "She is a goodly singer."
+            ],
+            "answer": 0,
+            "explain": "贴名词——good singer。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（音乐好听）",
+            "options": [
+              "The music sounds sweet.",
+              "The music sounds sweetly.",
+              "The music sound sweetly."
+            ],
+            "answer": 0,
+            "explain": "感官动词 sound 接形容词。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（她看起来开心）",
+            "options": [
+              "She looks happy today.",
+              "She looks happily today.",
+              "She look happy today."
+            ],
+            "answer": 0,
+            "explain": "look「看起来」接形容词 happy。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（安静地进教室）",
+            "options": [
+              "He came in quietly.",
+              "He came in quiet.",
+              "He came in quietness."
+            ],
+            "answer": 0,
+            "explain": "「进来」的方式——quietly。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（雨下得大）",
+            "options": [
+              "It is raining heavily.",
+              "It is raining heavy.",
+              "It is raining heavily rain."
+            ],
+            "answer": 0,
+            "explain": "下雨的「方式」——heavily（y 变 i）。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（蛋糕好吃）",
+            "options": [
+              "The cake tastes delicious.",
+              "The cake tastes deliciously.",
+              "The cake taste deliciously."
+            ],
+            "answer": 0,
+            "explain": "taste 感官动词——delicious。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（大声朗读）",
+            "options": [
+              "Read the text loudly.",
+              "Read the text loud voice.",
+              "Read the text in loudly voice."
+            ],
+            "answer": 0,
+            "explain": "朗读的方式——loudly。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（英语说得好）",
+            "options": [
+              "He speaks English very well.",
+              "He speaks English very good.",
+              "He speaks very well English."
+            ],
+            "answer": 0,
+            "explain": "夸「说」——well，位置在宾语后。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（火车到晚了）",
+            "options": [
+              "The train arrived late.",
+              "The train arrived lately.",
+              "The train arrived lateness."
+            ],
+            "answer": 0,
+            "explain": "late 双职直接用；lately 是「最近」。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（认真的学生）",
+            "options": [
+              "She is a careful student and she writes carefully.",
+              "She is a carefully student and she writes careful.",
+              "She is a careful student and she writes careful."
+            ],
+            "answer": 0,
+            "explain": "名词边 careful，动词边 carefully——各就各位。",
+            "level": 3
+          },
+          {
+            "q": "哪一句的标签贴对了？（身体好）",
+            "options": [
+              "— How are you? — I'm very well.",
+              "— How are you? — I'm very good person.",
+              "— How are you? — I'm very goodly."
+            ],
+            "answer": 0,
+            "explain": "well 当形容词专表「身体好」——问候的标准答案。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "「He works hard.」和「He hardly works.」——哪句是夸他勤快？", "options": ["He works hard.", "He hardly works.", "两句一样"], "answer": 0, "explain": "hard=努力；hardly=几乎不——第二句是在说他偷懒。", "level": 4 },
-          { "q": "乐评：The melody is ___ and the band plays it ___.", "options": ["sweet / sweetly", "sweetly / sweet", "sweet / sweet"], "answer": 0, "explain": "旋律本身用形容词；演奏方式用副词。", "level": 4 },
-          { "q": "「她朋友很多」：She is ___ to everyone, so she has many friends.", "options": ["friendly", "friendlily", "friend"], "answer": 0, "explain": "friendly 是形容词（-ly 假制服），贴在 she 身上。", "level": 4 },
-          { "q": "The drummer is ___, and he drums ___.", "options": ["good / well", "well / good", "good / goodly"], "answer": 0, "explain": "名词边 good；动作边 well。", "level": 4 },
-          { "q": "「快车开得快」：The ___ train runs ___.", "options": ["fast / fast", "fastly / fast", "fast / fastly"], "answer": 0, "explain": "fast 双职一词，两个位置同一副面孔。", "level": 4 },
-          { "q": "「今天感觉不舒服」：I don't feel ___ today.", "options": ["well", "goodly", "nicely"], "answer": 0, "explain": "feel 接形容词；well 当形容词=身体好。", "level": 4 },
-          { "q": "「他最近很忙」：He has been very busy ___.", "options": ["lately", "late", "later on late"], "answer": 0, "explain": "「最近」= lately——这里才轮到它出场。", "level": 4 },
-          { "q": "「轻轻地关门」：Close the door ___, the baby is sleeping.", "options": ["gently", "gentle", "gentleness"], "answer": 0, "explain": "关门的方式——gently（le 变 ly）。", "level": 4 },
-          { "q": "看图写话：The girl in the picture looks ___ and smiles ___.", "options": ["happy / happily", "happily / happy", "happy / happy"], "answer": 0, "explain": "looks 接形容词；smiles 是动作接副词。", "level": 4 },
-          { "q": "「考试要仔细读题」：Read the questions ___ before you answer.", "options": ["carefully", "careful", "carefulness"], "answer": 0, "explain": "读题的方式——carefully。", "level": 4 },
-          { "q": "「起得早的鸟」：The ___ bird gets up ___.", "options": ["early / early", "earlily / early", "early / earlily"], "answer": 0, "explain": "early 双职一词——earlily 不存在。", "level": 4 },
-          { "q": "「音乐听起来很奇怪」：The music sounds ___ tonight.", "options": ["strange", "strangely", "stranger person"], "answer": 0, "explain": "sound 感官动词——strange。", "level": 4 },
-          { "q": "「她做题又快又对」：She answers questions ___ and ___.", "options": ["quickly / correctly", "quick / correct", "quickly / correct"], "answer": 0, "explain": "两个都修饰 answer 这个动作——都穿 -ly。", "level": 4 },
-          { "q": "「他嗓门大但唱得温柔」：His voice is ___, but he sings ___.", "options": ["loud / softly", "loudly / soft", "loud / soft"], "answer": 0, "explain": "嗓音本身 loud（形）；唱的方式 softly（副）。", "level": 4 },
-          { "q": "「几乎听不见」：I can ___ hear the flute from here.", "options": ["hardly", "hard", "hardly ever never"], "answer": 0, "explain": "这里要的正是 hardly（几乎不）——它自己是个正经词，只是别冒充 hard。", "level": 4 },
-          { "q": "大考：She is a ___ pianist. She plays ___ and practises ___ every day.", "options": ["good / well / hard", "well / good / hardly", "good / goodly / hard"], "answer": 0, "explain": "名词边 good；动作边 well；努力是 hard——三个岗位一次到位。", "level": 4 }
+          {
+            "q": "「He works hard.」和「He hardly works.」——哪句是夸他勤快？",
+            "options": [
+              "He works hard.",
+              "He hardly works.",
+              "两句一样"
+            ],
+            "answer": 0,
+            "explain": "hard=努力；hardly=几乎不——第二句是在说他偷懒。",
+            "level": 4
+          },
+          {
+            "q": "乐评：The melody is ___ and the band plays it ___.",
+            "options": [
+              "sweet / sweetly",
+              "sweetly / sweet",
+              "sweet / sweet"
+            ],
+            "answer": 0,
+            "explain": "旋律本身用形容词；演奏方式用副词。",
+            "level": 4
+          },
+          {
+            "q": "「她朋友很多」：She is ___ to everyone, so she has many friends.",
+            "options": [
+              "friendly",
+              "friendlily",
+              "friend"
+            ],
+            "answer": 0,
+            "explain": "friendly 是形容词（-ly 假制服），贴在 she 身上。",
+            "level": 4
+          },
+          {
+            "q": "The drummer is ___, and he drums ___.",
+            "options": [
+              "good / well",
+              "well / good",
+              "good / goodly"
+            ],
+            "answer": 0,
+            "explain": "名词边 good；动作边 well。",
+            "level": 4
+          },
+          {
+            "q": "「快车开得快」：The ___ train runs ___.",
+            "options": [
+              "fast / fast",
+              "fastly / fast",
+              "fast / fastly"
+            ],
+            "answer": 0,
+            "explain": "fast 双职一词，两个位置同一副面孔。",
+            "level": 4
+          },
+          {
+            "q": "「今天感觉不舒服」：I don't feel ___ today.",
+            "options": [
+              "well",
+              "goodly",
+              "nicely"
+            ],
+            "answer": 0,
+            "explain": "feel 接形容词；well 当形容词=身体好。",
+            "level": 4
+          },
+          {
+            "q": "「他最近很忙」：He has been very busy ___.",
+            "options": [
+              "lately",
+              "late",
+              "later on late"
+            ],
+            "answer": 0,
+            "explain": "「最近」= lately——这里才轮到它出场。",
+            "level": 4
+          },
+          {
+            "q": "「轻轻地关门」：Close the door ___, the baby is sleeping.",
+            "options": [
+              "gently",
+              "gentle",
+              "gentleness"
+            ],
+            "answer": 0,
+            "explain": "关门的方式——gently（le 变 ly）。",
+            "level": 4
+          },
+          {
+            "q": "看图写话：The girl in the picture looks ___ and smiles ___.",
+            "options": [
+              "happy / happily",
+              "happily / happy",
+              "happy / happy"
+            ],
+            "answer": 0,
+            "explain": "looks 接形容词；smiles 是动作接副词。",
+            "level": 4
+          },
+          {
+            "q": "「考试要仔细读题」：Read the questions ___ before you answer.",
+            "options": [
+              "carefully",
+              "careful",
+              "carefulness"
+            ],
+            "answer": 0,
+            "explain": "读题的方式——carefully。",
+            "level": 4
+          },
+          {
+            "q": "「起得早的鸟」：The ___ bird gets up ___.",
+            "options": [
+              "early / early",
+              "earlily / early",
+              "early / earlily"
+            ],
+            "answer": 0,
+            "explain": "early 双职一词——earlily 不存在。",
+            "level": 4
+          },
+          {
+            "q": "「音乐听起来很奇怪」：The music sounds ___ tonight.",
+            "options": [
+              "strange",
+              "strangely",
+              "stranger person"
+            ],
+            "answer": 0,
+            "explain": "sound 感官动词——strange。",
+            "level": 4
+          },
+          {
+            "q": "「她做题又快又对」：She answers questions ___ and ___.",
+            "options": [
+              "quickly / correctly",
+              "quick / correct",
+              "quickly / correct"
+            ],
+            "answer": 0,
+            "explain": "两个都修饰 answer 这个动作——都穿 -ly。",
+            "level": 4
+          },
+          {
+            "q": "「他嗓门大但唱得温柔」：His voice is ___, but he sings ___.",
+            "options": [
+              "loud / softly",
+              "loudly / soft",
+              "loud / soft"
+            ],
+            "answer": 0,
+            "explain": "嗓音本身 loud（形）；唱的方式 softly（副）。",
+            "level": 4
+          },
+          {
+            "q": "「几乎听不见」：I can ___ hear the flute from here.",
+            "options": [
+              "hardly",
+              "hard",
+              "hardly ever never"
+            ],
+            "answer": 0,
+            "explain": "这里要的正是 hardly（几乎不）——它自己是个正经词，只是别冒充 hard。",
+            "level": 4
+          },
+          {
+            "q": "大考：She is a ___ pianist. She plays ___ and practises ___ every day.",
+            "options": [
+              "good / well / hard",
+              "well / good / hardly",
+              "good / goodly / hard"
+            ],
+            "answer": 0,
+            "explain": "名词边 good；动作边 well；努力是 hard——三个岗位一次到位。",
+            "level": 4
+          }
         ]
       }
     ]

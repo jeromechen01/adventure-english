@@ -93,14 +93,14 @@ function lessonViews(app, l, opts = {}) {
   function drawIntro() {
     exitFocus(); // 讲解页不是答题态，恢复导航（从闯练/侦探关回来时）
     const stars = l.ketRelevance > 0
-      ? `<span class="text-amber-500">${'★'.repeat(l.ketRelevance)}</span><span class="text-gray-300">${'★'.repeat(3 - l.ketRelevance)}</span>`
+      ? `<span class="text-amber-700">${'★'.repeat(l.ketRelevance)}</span><span class="text-gray-300">${'★'.repeat(3 - l.ketRelevance)}</span>`
       : '不考';
     app.innerHTML = `
       ${headerHtml(`${l.id} · ${esc(l.title)}`)}
       ${hallGuardHTML()}
       ${opts.fromKet ? `
       <button id="backKetBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3 bg-amber-50 border-2 border-amber-200" style="padding:10px 12px;min-height:48px">
-        <span class="text-xl text-amber-500">‹</span>
+        <span class="text-xl text-amber-700">‹</span>
         <span class="flex-1 text-sm font-bold" style="min-width:0">返回 KET 备考中心 ${esc(ketLessonLabel(opts.fromKet))}</span>
       </button>` : ''}
       <div class="text-xs text-gray-400 mb-3">${esc(l.tier)}层 · KET 相关度 ${stars}</div>
@@ -128,10 +128,10 @@ function lessonViews(app, l, opts = {}) {
       <div class="card-cartoon mb-3">
         <div class="font-bold text-sm mb-2">🎵 规则卡</div>
         ${s.rules.cards.map((c, i) => `
-          <div class="mb-2.5 pb-2.5 border-b border-gray-50 last:border-0 last:mb-0 last:pb-0">
-            <div class="font-bold text-sm text-primary-dark">${i + 1}. ${esc(c.rule)}</div>
-            <p class="text-sm text-gray-700 mt-0.5">${esc(c.detail)}</p>
-            ${c.example ? `<div class="text-xs font-en text-gray-500 mt-1 bg-gray-50 rounded-xl px-3 py-1.5">${esc(c.example)}</div>` : ''}
+          <div class="mb-3 pb-3 border-b border-gray-50 last:border-0 last:mb-0 last:pb-0">
+            <div class="font-bold text-sm text-primary-ink">${i + 1}. ${esc(c.rule)}</div>
+            <p class="text-sm text-gray-700 mt-1">${esc(c.detail)}</p>
+            ${c.example ? `<div class="text-xs font-en text-gray-500 mt-1 bg-gray-50 rounded-xl px-3 py-2">${esc(c.example)}</div>` : ''}
           </div>`).join('')}
       </div>
       ${ladderHTML('🌱 例句梯 · 基础', s.rules.ladder.basic, 'from-green-50 to-emerald-50 border-green-200')}
@@ -146,10 +146,10 @@ function lessonViews(app, l, opts = {}) {
           const z = ZONE[e.zone] || ZONE.minor;
           return `
           <div class="mb-3 pb-3 border-b border-gray-100 last:border-0 last:mb-0 last:pb-0">
-            <div class="text-sm font-en">❌ <s class="text-red-400">${esc(e.bad)}</s></div>
-            <div class="text-sm font-en">✅ <b class="text-green-600">${esc(e.good)}</b></div>
+            <div class="text-sm font-en">❌ <s class="text-red-600">${esc(e.bad)}</s></div>
+            <div class="text-sm font-en">✅ <b class="text-green-700">${esc(e.good)}</b></div>
             <p class="text-xs text-gray-600 mt-1">${esc(e.why)}</p>
-            <span class="inline-block rounded-full px-2 py-0.5 border text-[11px] mt-1 ${z.cls}">${z.badge}</span>
+            <span class="inline-block rounded-full px-2 py-1 border text-cap mt-1 ${z.cls}">${z.badge}</span>
           </div>`;
         }).join('')}
       </div>
@@ -158,10 +158,10 @@ function lessonViews(app, l, opts = {}) {
       <div class="card-cartoon mb-3">
         <div class="font-bold text-sm mb-2">🀄 中英差异对照</div>
         ${s.contrast.map(r => `
-          <div class="mb-2.5 pb-2.5 border-b border-gray-50 last:border-0 last:mb-0 last:pb-0 text-sm">
-            <div><span class="text-[11px] text-gray-400" style="min-width:52px;display:inline-block">中文</span>${esc(r.cn)}</div>
-            <div class="font-en"><span class="text-[11px] text-gray-400 font-sans" style="min-width:52px;display:inline-block">英语</span>${esc(r.en)}</div>
-            <div class="text-xs text-primary-dark mt-0.5"><span class="text-[11px] text-gray-400" style="min-width:52px;display:inline-block">差在哪</span>${esc(r.diff)}</div>
+          <div class="mb-3 pb-3 border-b border-gray-50 last:border-0 last:mb-0 last:pb-0 text-sm">
+            <div><span class="text-cap text-gray-400" style="min-width:52px;display:inline-block">中文</span>${esc(r.cn)}</div>
+            <div class="font-en"><span class="text-cap text-gray-400 font-sans" style="min-width:52px;display:inline-block">英语</span>${esc(r.en)}</div>
+            <div class="text-xs text-primary-ink mt-1"><span class="text-cap text-gray-400" style="min-width:52px;display:inline-block">差在哪</span>${esc(r.diff)}</div>
           </div>`).join('')}
       </div>
 
@@ -170,15 +170,15 @@ function lessonViews(app, l, opts = {}) {
         <div class="font-bold text-sm mb-1">⚡ 5 秒判断法（考场直接用）</div>
         <p class="text-sm font-bold text-gray-800 mb-2">「${esc(s.quickJudge.mnemonic)}」</p>
         <ol class="space-y-1">
-          ${s.quickJudge.steps.map((st, i) => `<li class="text-sm text-gray-700 flex gap-2"><span class="font-black text-cyan-600" style="min-width:20px">${i + 1}</span><span class="flex-1">${esc(st)}</span></li>`).join('')}
+          ${s.quickJudge.steps.map((st, i) => `<li class="text-sm text-gray-700 flex gap-2"><span class="font-black text-cyan-700" style="min-width:20px">${i + 1}</span><span class="flex-1">${esc(st)}</span></li>`).join('')}
         </ol>
       </div>
 
       <!-- 记忆卡（可截图） -->
       <div class="card-cartoon mb-3">
         <div class="font-bold text-sm mb-2">🖼 记忆卡</div>
-        <div style="max-width:560px;margin:0 auto" role="img" aria-label="${esc(l.memoryCard.alt || l.title + ' 记忆卡')}">${l.memoryCard.svg}</div>
-        <p class="text-xs text-gray-400 mt-2 text-center">📸 截图存进相册，考前翻一翻</p>
+        <div class="memory-card-wrap" role="img" aria-label="${esc(l.memoryCard.alt || l.title + ' 记忆卡')}"><div class="memory-card-inner">${l.memoryCard.svg}</div></div>
+        <p class="text-cap text-gray-400 mt-2 text-center"><span class="memory-card-hint hidden">👈 卡片可以左右滑动看全图 · </span>📸 截图存进相册，考前翻一翻</p>
       </div>
 
       <!-- ⑧ 家长话术 -->
@@ -199,6 +199,11 @@ function lessonViews(app, l, opts = {}) {
       <button id="toStagesBtn" class="w-full btn-cartoon" style="min-height:48px">✏️ 四环节闯练（4 × 16 题）</button>
     `;
     bindBack(app, 'grammar-hall');
+    const mcWrap = app.querySelector('.memory-card-wrap');
+    if (mcWrap && mcWrap.scrollWidth > mcWrap.clientWidth + 4) {
+      const hint = app.querySelector('.memory-card-hint');
+      if (hint) hint.classList.remove('hidden');
+    }
     app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
     app.querySelector('#detectiveBtn').addEventListener('click', () => drawDetective());
     const backKet = app.querySelector('#backKetBtn');
@@ -215,7 +220,7 @@ function lessonViews(app, l, opts = {}) {
           <div class="mb-2 pb-2 border-b border-white last:border-0 last:mb-0 last:pb-0">
             <div class="font-en text-sm font-bold">${esc(x.en)}</div>
             <div class="text-xs text-gray-600">${esc(x.cn)}</div>
-            ${x.note ? `<div class="text-xs text-amber-700 mt-0.5">💡 ${esc(x.note)}</div>` : ''}
+            ${x.note ? `<div class="text-xs text-amber-700 mt-1">💡 ${esc(x.note)}</div>` : ''}
           </div>`).join('')}
       </div>`;
   }
@@ -239,7 +244,7 @@ function lessonViews(app, l, opts = {}) {
             <div class="flex items-center gap-3">
               <span class="text-2xl">${locked ? '🔒' : passed ? '✅' : STAGE_ICONS[i] || '📝'}</span>
               <div class="flex-1">
-                <div class="font-bold text-sm">环节 ${i + 1} · ${esc(st.name)} <span class="text-amber-500">${stars}</span></div>
+                <div class="font-bold text-sm">环节 ${i + 1} · ${esc(st.name)} <span class="text-amber-700">${stars}</span></div>
                 <div class="text-xs text-gray-500">${best !== null ? `最好成绩 ${best}/${Math.min(STAGE_TAKE, st.questions.length)}${passed ? ' · 已通过' : ''}` : locked ? '先通过上一环节解锁' : `${Math.min(STAGE_TAKE, st.questions.length)} 题 · 未挑战`}</div>
               </div>
               <span class="text-xl text-gray-300">›</span>
@@ -282,7 +287,7 @@ function lessonViews(app, l, opts = {}) {
         ${headerHtml(`${isRetry ? '错题重练' : `环节 ${stageIdx + 1} · ${esc(st.name)}`} ${idx + 1}/${questions.length}`)}
         <div class="progress-bar mb-4"><div class="progress-bar-fill" style="width:${idx / questions.length * 100}%"></div></div>
         <div class="card-cartoon mb-4">
-          <div class="text-xs text-gray-400 mb-2">选一选 · 难度 <span class="text-amber-500">${'★'.repeat(q.level || stageIdx + 1)}</span></div>
+          <div class="text-xs text-gray-400 mb-2">选一选 · 难度 <span class="text-amber-700">${'★'.repeat(q.level || stageIdx + 1)}</span></div>
           <div class="text-base font-bold mb-3">${esc(q.q)}</div>
           <div class="space-y-2">
             ${q.options.map((o, oi) => `<button data-oi="${oi}" class="opt-btn w-full border-2 border-gray-200 rounded-2xl px-4 py-3 text-left font-en tap-bounce" style="min-height:48px">${esc(o)}</button>`).join('')}
@@ -407,7 +412,7 @@ function lessonViews(app, l, opts = {}) {
           fb.innerHTML = `
             <div class="card-cartoon bg-amber-50 border-2 border-amber-300 mb-3">
               <div class="font-bold text-sm mb-1">🔎 和参考答案对一对</div>
-              <div class="text-sm font-en mb-1">参考答案：<b class="text-green-600">${esc(c.fixed)}</b></div>
+              <div class="text-sm font-en mb-1">参考答案：<b class="text-green-700">${esc(c.fixed)}</b></div>
               <div class="text-xs text-gray-600 mb-2">病在哪：${esc(c.clue)}</div>
               <div class="text-xs text-gray-500">你的改法和参考不一样。只要病灶改对了（写法不同没关系），也算破案。</div>
             </div>

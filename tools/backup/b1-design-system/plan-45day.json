@@ -1,0 +1,2954 @@
+{
+ "level": "KET",
+ "title": "KET 45 天核心期计划（进度制）",
+ "note": "★ 进度制：Day N 只在完成一天时 +1，绝不由日期差计算。跳过一天 → 进度原地等你，不惩罚、不断签、无欠账。每天约 90 分钟。",
+ "totalDays": 45,
+ "minDoneSlots": 4,
+ "weeks": [
+  {
+   "week": 1,
+   "days": "D1-7",
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammar": "L1 be 动词",
+   "milestone": "模考1（D1 基线）"
+  },
+  {
+   "week": 2,
+   "days": "D8-14",
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammar": "L2 疑问句与助动词",
+   "milestone": ""
+  },
+  {
+   "week": 3,
+   "days": "D15-21",
+   "theme": "听说主攻（短板周）",
+   "grammar": "L3 一般现在 vs 过去",
+   "milestone": ""
+  },
+  {
+   "week": 4,
+   "days": "D22-28",
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammar": "L4 时态一致",
+   "milestone": "模考2（D23 校准）"
+  },
+  {
+   "week": 5,
+   "days": "D29-35",
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammar": "L5 介词 · L6 代词+限定词",
+   "milestone": ""
+  },
+  {
+   "week": 6,
+   "days": "D36-42",
+   "theme": "全卷合练 + 提速",
+   "grammar": "L7 连接词 · L8 量词+比较级",
+   "milestone": "40 不规则动词总复习（D42）"
+  },
+  {
+   "week": 7,
+   "days": "D43-45",
+   "theme": "模考3 → 报考决策 → 成果盘点",
+   "grammar": "—",
+   "milestone": "模考3（D43）"
+  }
+ ],
+ "days": [
+  {
+   "day": 1,
+   "week": 1,
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammarLesson": "L1",
+   "note": "今天先做模考1 定基线，别怕分低",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "模考1 · 基线",
+     "minutes": 60,
+     "detail": "第一次做 KET，正确率 40-50% 完全正常——这是基线，不是审判",
+     "nav": "exam-mock",
+     "params": {
+      "mock": "mock-01"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "week": 1,
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammarLesson": "L1",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L1 be 动词",
+     "minutes": 15,
+     "detail": "语法课 L1 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "week": 1,
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammarLesson": "L1",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L1 be 动词",
+     "minutes": 15,
+     "detail": "语法课 L1 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "week": 1,
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammarLesson": "L1",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L1 be 动词",
+     "minutes": 15,
+     "detail": "语法课 L1 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "week": 1,
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammarLesson": "L1",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L1 be 动词",
+     "minutes": 15,
+     "detail": "语法课 L1 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "week": 1,
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammarLesson": "L1",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L1 be 动词",
+     "minutes": 15,
+     "detail": "语法课 L1 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 7,
+   "week": 1,
+   "theme": "拼读打底 + 词汇启动 + 见识 KET",
+   "grammarLesson": "L1",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L1 be 动词",
+     "minutes": 15,
+     "detail": "语法课 L1 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 8,
+   "week": 2,
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammarLesson": "L2",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L2 疑问句与助动词",
+     "minutes": 15,
+     "detail": "语法课 L2 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 9,
+   "week": 2,
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammarLesson": "L2",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L2 疑问句与助动词",
+     "minutes": 15,
+     "detail": "语法课 L2 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 10,
+   "week": 2,
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammarLesson": "L2",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L2 疑问句与助动词",
+     "minutes": 15,
+     "detail": "语法课 L2 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 11,
+   "week": 2,
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammarLesson": "L2",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L2 疑问句与助动词",
+     "minutes": 15,
+     "detail": "语法课 L2 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 12,
+   "week": 2,
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammarLesson": "L2",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L2 疑问句与助动词",
+     "minutes": 15,
+     "detail": "语法课 L2 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 13,
+   "week": 2,
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammarLesson": "L2",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L2 疑问句与助动词",
+     "minutes": 15,
+     "detail": "语法课 L2 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 14,
+   "week": 2,
+   "theme": "拼读收尾 + 听力建立 + 词汇加速",
+   "grammarLesson": "L2",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "phonics",
+     "icon": "🔤",
+     "title": "自然拼读",
+     "minutes": 10,
+     "detail": "拼读不牢会同时卡住听力和背词，回报最高",
+     "nav": "exam-knowledge",
+     "params": {
+      "card": "phonics"
+     }
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L2 疑问句与助动词",
+     "minutes": 15,
+     "detail": "语法课 L2 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 20,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 15,
+   "week": 3,
+   "theme": "听说主攻（短板周）",
+   "grammarLesson": "L3",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L3 一般现在 vs 过去",
+     "minutes": 15,
+     "detail": "语法课 L3 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 16,
+   "week": 3,
+   "theme": "听说主攻（短板周）",
+   "grammarLesson": "L3",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L3 一般现在 vs 过去",
+     "minutes": 15,
+     "detail": "语法课 L3 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 17,
+   "week": 3,
+   "theme": "听说主攻（短板周）",
+   "grammarLesson": "L3",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L3 一般现在 vs 过去",
+     "minutes": 15,
+     "detail": "语法课 L3 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 18,
+   "week": 3,
+   "theme": "听说主攻（短板周）",
+   "grammarLesson": "L3",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L3 一般现在 vs 过去",
+     "minutes": 15,
+     "detail": "语法课 L3 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 19,
+   "week": 3,
+   "theme": "听说主攻（短板周）",
+   "grammarLesson": "L3",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L3 一般现在 vs 过去",
+     "minutes": 15,
+     "detail": "语法课 L3 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 20,
+   "week": 3,
+   "theme": "听说主攻（短板周）",
+   "grammarLesson": "L3",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L3 一般现在 vs 过去",
+     "minutes": 15,
+     "detail": "语法课 L3 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 21,
+   "week": 3,
+   "theme": "听说主攻（短板周）",
+   "grammarLesson": "L3",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L3 一般现在 vs 过去",
+     "minutes": 15,
+     "detail": "语法课 L3 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 22,
+   "week": 4,
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammarLesson": "L4",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L4 时态一致",
+     "minutes": 15,
+     "detail": "语法课 L4 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L4"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 23,
+   "week": 4,
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammarLesson": "L4",
+   "note": "模考2：和 Day 1 比，看涨了多少",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "模考2 · 中期校准",
+     "minutes": 60,
+     "detail": "和模考1 对比三项正确率，没动就立刻调方法",
+     "nav": "exam-mock",
+     "params": {
+      "mock": "mock-02"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 24,
+   "week": 4,
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammarLesson": "L4",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L4 时态一致",
+     "minutes": 15,
+     "detail": "语法课 L4 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L4"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 25,
+   "week": 4,
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammarLesson": "L4",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L4 时态一致",
+     "minutes": 15,
+     "detail": "语法课 L4 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L4"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 26,
+   "week": 4,
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammarLesson": "L4",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L4 时态一致",
+     "minutes": 15,
+     "detail": "语法课 L4 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L4"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 27,
+   "week": 4,
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammarLesson": "L4",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L4 时态一致",
+     "minutes": 15,
+     "detail": "语法课 L4 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L4"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 28,
+   "week": 4,
+   "theme": "写作攻坚（P6+P7 = 30/60 分只需 60 词）",
+   "grammarLesson": "L4",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "题型精练 + L4 时态一致",
+     "minutes": 15,
+     "detail": "语法课 L4 一小节 + 对应练习（语法主线塞这格，不额外加时）",
+     "nav": "exam-grammar",
+     "params": {
+      "lesson": "L4"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 29,
+   "week": 5,
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammarLesson": "L5",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L5 介词",
+     "minutes": 15,
+     "detail": "Part 1 专项一套 + 语法课 L5",
+     "nav": "exam-reading",
+     "params": {
+      "part": "part1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 30,
+   "week": 5,
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammarLesson": "L5",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L5 介词",
+     "minutes": 15,
+     "detail": "Part 2 专项一套 + 语法课 L5",
+     "nav": "exam-reading",
+     "params": {
+      "part": "part2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 31,
+   "week": 5,
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammarLesson": "L5",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L5 介词",
+     "minutes": 15,
+     "detail": "Part 3 专项一套 + 语法课 L5",
+     "nav": "exam-reading",
+     "params": {
+      "part": "part3"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 32,
+   "week": 5,
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammarLesson": "L5",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L5 介词",
+     "minutes": 15,
+     "detail": "Part 4 专项一套 + 语法课 L5",
+     "nav": "exam-reading",
+     "params": {
+      "part": "part4"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 33,
+   "week": 5,
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammarLesson": "L6",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L6 代词+限定词",
+     "minutes": 15,
+     "detail": "Part 5 专项一套 + 语法课 L6",
+     "nav": "exam-reading",
+     "params": {
+      "part": "part5"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 34,
+   "week": 5,
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammarLesson": "L6",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L6 代词+限定词",
+     "minutes": 15,
+     "detail": "Part 1 专项一套 + 语法课 L6",
+     "nav": "exam-reading",
+     "params": {
+      "part": "part1"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 35,
+   "week": 5,
+   "theme": "阅读 Part 1-5 专项（含 Part 5 速成）",
+   "grammarLesson": "L6",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L6 代词+限定词",
+     "minutes": 15,
+     "detail": "Part 2 专项一套 + 语法课 L6",
+     "nav": "exam-reading",
+     "params": {
+      "part": "part2"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 36,
+   "week": 6,
+   "theme": "全卷合练 + 提速",
+   "grammarLesson": "L7",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L7 连接词",
+     "minutes": 15,
+     "detail": "限时合练 + 语法课 L7",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "timed"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 37,
+   "week": 6,
+   "theme": "全卷合练 + 提速",
+   "grammarLesson": "L7",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L7 连接词",
+     "minutes": 15,
+     "detail": "限时合练 + 语法课 L7",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "timed"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 38,
+   "week": 6,
+   "theme": "全卷合练 + 提速",
+   "grammarLesson": "L7",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L7 连接词",
+     "minutes": 15,
+     "detail": "限时合练 + 语法课 L7",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "timed"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 39,
+   "week": 6,
+   "theme": "全卷合练 + 提速",
+   "grammarLesson": "L7",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L7 连接词",
+     "minutes": 15,
+     "detail": "限时合练 + 语法课 L7",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "timed"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 40,
+   "week": 6,
+   "theme": "全卷合练 + 提速",
+   "grammarLesson": "L8",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L8 量词+比较级",
+     "minutes": 15,
+     "detail": "限时合练 + 语法课 L8",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "timed"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 41,
+   "week": 6,
+   "theme": "全卷合练 + 提速",
+   "grammarLesson": "L8",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "阅读专项 + L8 量词+比较级",
+     "minutes": 15,
+     "detail": "限时合练 + 语法课 L8",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "timed"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 42,
+   "week": 6,
+   "theme": "全卷合练 + 提速",
+   "grammarLesson": "L8",
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🔁",
+     "title": "40 不规则动词总复习",
+     "minutes": 15,
+     "detail": "六组混起来抽查（第七天混查法）",
+     "nav": "exam-grammar",
+     "params": {
+      "view": "verbs"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 43,
+   "week": 7,
+   "theme": "模考3 → 报考决策 → 成果盘点",
+   "grammarLesson": null,
+   "note": "模考3：45 天成果验收",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🎯",
+     "title": "模考3 · 成果盘点",
+     "minutes": 60,
+     "detail": "做完自动给报考建议",
+     "nav": "exam-mock",
+     "params": {
+      "mock": "mock-03"
+     }
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 44,
+   "week": 7,
+   "theme": "模考3 → 报考决策 → 成果盘点",
+   "grammarLesson": null,
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🧭",
+     "title": "报考决策",
+     "minutes": 15,
+     "detail": "看模考3 报告 + 决策矩阵，定下{本考季}报名计划",
+     "nav": "exam-report",
+     "params": {}
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "🗣️",
+     "title": "口语",
+     "minutes": 15,
+     "detail": "口语 Part 1 问题练习：谈喜好 + 给理由，别背套话",
+     "nav": "exam-writing",
+     "params": {
+      "tab": "speaking"
+     }
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  },
+  {
+   "day": 45,
+   "week": 7,
+   "theme": "模考3 → 报考决策 → 成果盘点",
+   "grammarLesson": null,
+   "note": "",
+   "slots": [
+    {
+     "id": "vocab",
+     "icon": "📚",
+     "title": "词汇",
+     "minutes": 25,
+     "detail": "20 新 + 40 复现（45天×20=+900，正好跨 KET 线）",
+     "nav": "words",
+     "params": {}
+    },
+    {
+     "id": "drill",
+     "icon": "🏆",
+     "title": "成果盘点",
+     "minutes": 15,
+     "detail": "回看 45 天：词汇 +900、三张卷题型全通——转入巩固期",
+     "nav": "exam-report",
+     "params": {}
+    },
+    {
+     "id": "listening",
+     "icon": "🎧",
+     "title": "听力",
+     "minutes": 30,
+     "detail": "三步法：盲听 → 对答案+看原文 → 跟读（每段两遍）",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "listening"
+     }
+    },
+    {
+     "id": "output",
+     "icon": "✍️",
+     "title": "写作",
+     "minutes": 15,
+     "detail": "Part 6/7 各练一题，写完用 Write & Improve 批改",
+     "nav": "exam-writing",
+     "params": {}
+    },
+    {
+     "id": "reader",
+     "icon": "📖",
+     "title": "读物+复盘",
+     "minutes": 5,
+     "detail": "读一篇分级读物（几乎不查词才有效）；错题只记 3 条",
+     "nav": "exam-reading",
+     "params": {
+      "tab": "readers"
+     }
+    }
+   ]
+  }
+ ]
+}

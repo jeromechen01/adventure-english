@@ -47,26 +47,80 @@
       ],
       "ladder": {
         "basic": [
-          { "en": "— I like music. — So do I.", "cn": "——我喜欢音乐。——我也是。（do 抄一般动词的表）" },
-          { "en": "— I'm in Grade Six. — So am I.", "cn": "——我上六年级。——我也是。（be 抄 be）" },
-          { "en": "— I can't play chess. — Neither can I.", "cn": "——我不会下棋。——我也不会。（否定用 Neither）" },
-          { "en": "Here comes the school bus!", "cn": "看，校车来了！（comes 抢先出声）" },
-          { "en": "There goes the bell.", "cn": "铃响了。（报幕倒装）" }
+          {
+            "en": "— I like music. — So do I.",
+            "cn": "——我喜欢音乐。——我也是。（do 抄一般动词的表）"
+          },
+          {
+            "en": "— I'm in Grade Six. — So am I.",
+            "cn": "——我上六年级。——我也是。（be 抄 be）"
+          },
+          {
+            "en": "— I can't play chess. — Neither can I.",
+            "cn": "——我不会下棋。——我也不会。（否定用 Neither）"
+          },
+          {
+            "en": "Here comes the school bus!",
+            "cn": "看，校车来了！（comes 抢先出声）"
+          },
+          {
+            "en": "There goes the bell.",
+            "cn": "铃响了。（报幕倒装）"
+          }
         ],
         "mid": [
-          { "en": "— My sister has read this book. — So has mine.", "cn": "——我姐姐读过这本书。——我姐姐也读过。（have/has 抄完成时的表）" },
-          { "en": "— I didn't watch the match last night. — Neither did we.", "cn": "——我昨晚没看比赛。——我们也没看。（did 抄过去的表）" },
-          { "en": "— Tom will join the art club. — So will Lily.", "cn": "——汤姆要加入美术社。——莉莉也要。（will 抄 will）" },
-          { "en": "— I've never been late. — Neither have I.", "cn": "——我从没迟到过。——我也没有。（never 算否定，用 Neither）" },
-          { "en": "— You promised to help. — So I did.", "cn": "——你答应过要帮忙的。——我确实答应过。（不换序 = 承认）" }
+          {
+            "en": "— My sister has read this book. — So has mine.",
+            "cn": "——我姐姐读过这本书。——我姐姐也读过。（have/has 抄完成时的表）"
+          },
+          {
+            "en": "— I didn't watch the match last night. — Neither did we.",
+            "cn": "——我昨晚没看比赛。——我们也没看。（did 抄过去的表）"
+          },
+          {
+            "en": "— Tom will join the art club. — So will Lily.",
+            "cn": "——汤姆要加入美术社。——莉莉也要。（will 抄 will）"
+          },
+          {
+            "en": "— I've never been late. — Neither have I.",
+            "cn": "——我从没迟到过。——我也没有。（never 算否定，用 Neither）"
+          },
+          {
+            "en": "— You promised to help. — So I did.",
+            "cn": "——你答应过要帮忙的。——我确实答应过。（不换序 = 承认）"
+          }
         ],
         "trap": [
-          { "en": "— I don't eat carrots. — Neither do I.", "cn": "——我不吃胡萝卜。——我也不吃。", "note": "对方带 not，附和要用 Neither——用 So do I 就成了「我吃」，方向全反。" },
-          { "en": "— She is good at maths. — So she is.", "cn": "——她数学很好。——她确实很好。", "note": "不换序的 So she is 是「确实如此」，不是「我也是」——信号灯别看错。" },
-          { "en": "Here comes the train — stand back!", "cn": "火车来了——往后站！", "note": "名词主语放动词后；要是代词就不倒：Here it comes." },
-          { "en": "— He has been to Beijing. — So have I.", "cn": "——他去过北京。——我也去过。", "note": "完成时抄 have 的表——So do I 就抄错表了。" },
-          { "en": "— I can play the drums. — So can my brother.", "cn": "——我会打鼓。——我弟弟也会。", "note": "附和的主语可以换人——助动词照样抢在前面。" },
-          { "en": "— They weren't at the party. — Neither was I.", "cn": "——他们没参加聚会。——我也没有。", "note": "was 要跟新主语 I 对齐——抄表之后还得对人称。" }
+          {
+            "en": "— I don't eat carrots. — Neither do I.",
+            "cn": "——我不吃胡萝卜。——我也不吃。",
+            "note": "对方带 not，附和要用 Neither——用 So do I 就成了「我吃」，方向全反。"
+          },
+          {
+            "en": "— She is good at maths. — So she is.",
+            "cn": "——她数学很好。——她确实很好。",
+            "note": "不换序的 So she is 是「确实如此」，不是「我也是」——信号灯别看错。"
+          },
+          {
+            "en": "Here comes the train — stand back!",
+            "cn": "火车来了——往后站！",
+            "note": "名词主语放动词后；要是代词就不倒：Here it comes."
+          },
+          {
+            "en": "— He has been to Beijing. — So have I.",
+            "cn": "——他去过北京。——我也去过。",
+            "note": "完成时抄 have 的表——So do I 就抄错表了。"
+          },
+          {
+            "en": "— I can play the drums. — So can my brother.",
+            "cn": "——我会打鼓。——我弟弟也会。",
+            "note": "附和的主语可以换人——助动词照样抢在前面。"
+          },
+          {
+            "en": "— They weren't at the party. — Neither was I.",
+            "cn": "——他们没参加聚会。——我也没有。",
+            "note": "was 要跟新主语 I 对齐——抄表之后还得对人称。"
+          }
         ]
       }
     },
@@ -193,7 +247,7 @@
     "echo": "这几盏换序信号灯，其实是英语语序史的活标本。一千年前的古英语像今天的德语：动词固定站在句子的第二个位置，主语常常排在动词后面——那时「倒装」根本不算特殊，就是日常语序。后来英语的语序渐渐定型成「主语先行」，老语序被大面积淘汰，只在几个出场率最高的小句式里活了下来：So do I、Neither can I、Here comes the bus、There goes the bell。这已经是熟悉的配方了：G13 的 went、G43 的 were，都是「用得最勤，才保得住老形态」——现在再添一批：用得最勤的句式，也保得住老语序。英语的例外从来不是乱来，是历史在最常用的角落里留了几件纪念品。"
   },
   "memoryCard": {
-    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='29' font-weight='bold' fill='#9333EA'>G44 · 倒装初步</text><text x='360' y='90' text-anchor='middle' font-size='18' fill='#64748B'>变奏换序：谁先出声换了个人</text><rect x='36' y='110' width='648' height='118' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='19' font-weight='bold' fill='#9333EA'>🚦 附和两盏灯</text><text x='198' y='178' text-anchor='middle' font-size='16' fill='#5A4A42'>肯定：So + 助 + 主语</text><text x='522' y='178' text-anchor='middle' font-size='16' fill='#5A4A42'>否定：Neither + 助 + 主语</text><text x='198' y='206' text-anchor='middle' font-size='14' fill='#94A3B8'>— I like spring. — So do I.</text><text x='522' y='206' text-anchor='middle' font-size='14' fill='#94A3B8'>— I can't swim. — Neither can I.</text><rect x='36' y='248' width='648' height='108' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='282' text-anchor='middle' font-size='19' font-weight='bold' fill='#9333EA'>⌚ 抄对方的表</text><text x='360' y='312' text-anchor='middle' font-size='15' fill='#5A4A42'>be 抄 be · 情态抄情态 · have 抄完成 · 一般动词换 do/does/did</text><text x='360' y='340' text-anchor='middle' font-size='14' fill='#94A3B8'>— She is tired. — So am I. ｜ — He has seen it. — So have I.</text><rect x='36' y='376' width='648' height='66' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='402' text-anchor='middle' font-size='16' font-weight='bold' fill='#E65100'>📢 报幕倒装 &amp; 一对双胞胎</text><text x='360' y='428' text-anchor='middle' font-size='14' fill='#5A4A42'>Here comes the bus（代词不倒：Here it comes）｜ So do I 我也是 ≠ So I do 确实如此</text><rect x='36' y='458' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='488' text-anchor='middle' font-size='15' fill='#C0392B'>⚠️ 否定后说 So do I ✗ · Neither don't ✗ · So speaks he ✗ · Here comes it ✗</text><text x='360' y='540' text-anchor='middle' font-size='14' fill='#7DA7C4'>KET 不直接考倒装——为初中 / PET 打底，学到就是赚到</text><text x='360' y='576' text-anchor='middle' font-size='13' fill='#94A3B8'>暗线：最常用的小句式，保住了一千年前的老语序 · 英语奇遇记 🦊 G44</text></svg>",
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 600' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='592' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='56' text-anchor='middle' font-size='31' font-weight='bold' fill='#9333EA'>G44 · 倒装初步</text><text x='360' y='90' text-anchor='middle' font-size='22' fill='#64748B'>变奏换序：谁先出声换了个人</text><rect x='36' y='110' width='648' height='118' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='144' text-anchor='middle' font-size='23' font-weight='bold' fill='#9333EA'>🚦 附和两盏灯</text><text x='198' y='178' text-anchor='middle' font-size='20' fill='#5A4A42'>肯定：So + 助 + 主语</text><text x='522' y='178' text-anchor='middle' font-size='20' fill='#5A4A42'>否定：Neither + 助 + 主语</text><text x='198' y='206' text-anchor='middle' font-size='18' fill='#94A3B8'>— I like spring. — So do I.</text><text x='522' y='206' text-anchor='middle' font-size='18' fill='#94A3B8'>— I can't swim. — Neither can I.</text><rect x='36' y='248' width='648' height='108' rx='20' fill='#FFFFFF' stroke='#C084FC' stroke-width='3'/><text x='360' y='282' text-anchor='middle' font-size='23' font-weight='bold' fill='#9333EA'>⌚ 抄对方的表</text><text x='360' y='312' text-anchor='middle' font-size='19' fill='#5A4A42'>be 抄 be · 情态抄情态 · have 抄完成 · 一般动词换 do/does/did</text><text x='360' y='340' text-anchor='middle' font-size='18' fill='#94A3B8'>— She is tired. — So am I. ｜ — He has seen it. — So have I.</text><rect x='36' y='376' width='648' height='66' rx='20' fill='#FFF3E0' stroke='#FFB74D' stroke-width='3'/><text x='360' y='402' text-anchor='middle' font-size='20' font-weight='bold' fill='#E65100'>📢 报幕倒装 &amp; 一对双胞胎</text><text x='360' y='428' text-anchor='middle' font-size='15' fill='#5A4A42'>Here comes the bus（代词不倒：Here it comes）｜ So do I 我也是 ≠ So I do 确实如此</text><rect x='36' y='458' width='648' height='48' rx='18' fill='#FFEBEE' stroke='#F8BBD0' stroke-width='2'/><text x='360' y='488' text-anchor='middle' font-size='16' fill='#C0392B'>⚠️ 否定后说 So do I ✗ · Neither don't ✗ · So speaks he ✗ · Here comes it ✗</text><text x='360' y='540' text-anchor='middle' font-size='18' fill='#7DA7C4'>KET 不直接考倒装——为初中 / PET 打底，学到就是赚到</text><text x='360' y='576' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线：最常用的小句式，保住了一千年前的老语序 · 英语奇遇记 🦊 G44</text></svg>",
     "alt": "G44 记忆卡：倒装=换序当信号。附和两盏灯：肯定 So+助动词+主语、否定 Neither+助动词+主语；助动词要抄对方的表（be/情态/have/do）；报幕倒装 Here comes the bus 代词不倒；So do I 我也是≠So I do 确实如此；警示否定后用 So、Neither don't、实义动词亲自倒装、Here comes it 四类错误；KET 不直接考，为初中/PET 打底。"
   },
   "practice": {
@@ -201,85 +255,725 @@
       {
         "name": "认一认 · 信号灯是哪盏",
         "questions": [
-          { "q": "So do I 这盏信号灯表示什么？", "options": ["我也是（附和肯定的话）", "我确实如此", "我不同意"], "answer": 0, "explain": "So + 助动词 + 主语——附和别人肯定的话。", "level": 1 },
-          { "q": "Neither do I 这盏信号灯表示什么？", "options": ["我也不（附和否定的话）", "我也是", "我不知道"], "answer": 0, "explain": "Neither 起头——对方不怎样，我也不怎样。", "level": 1 },
-          { "q": "附和句里谁抢在主语前面出声？", "options": ["助动词（do/be/情态/have）", "实义动词", "副词"], "answer": 0, "explain": "换序的就是助动词——它一抢先，附和信号就亮了。", "level": 1 },
-          { "q": "对方的话带 not 或 never，附和要用哪个词起头？", "options": ["Neither（或 Nor）", "So", "Also"], "answer": 0, "explain": "否定的「也」归 Neither 管——So 是肯定专用。", "level": 1 },
-          { "q": "对方说 I am hungry.，你附和时该抄哪块表？", "options": ["be 的表——So am I", "do 的表——So do I", "have 的表——So have I"], "answer": 0, "explain": "be 抄 be——对方用 am，你换成自己的 am。", "level": 1 },
-          { "q": "对方说 I can skate.，你附和时该带哪个助动词？", "options": ["can——So can I", "do——So do I", "am——So am I"], "answer": 0, "explain": "情态抄情态——can 直接搬过来。", "level": 1 },
-          { "q": "对方说 I walk to school.（一般动词），附和时用什么代班？", "options": ["do/does/did", "walk 自己上", "be 动词"], "answer": 0, "explain": "一般动词不亲自抢位——请 do 家族代班：So do I。", "level": 1 },
-          { "q": "So I do（不换序）表示什么？", "options": ["我确实如此——承认对方说得对", "我也是", "我不这么想"], "answer": 0, "explain": "不换序就不是附和灯——是点头承认「确实如此」。", "level": 1 },
-          { "q": "Here comes the bus! 里谁先出声了？", "options": ["动词 comes 抢在主语前", "主语 the bus 先出声", "Here 是主语"], "answer": 0, "explain": "报幕倒装——动词提前，提醒大家抬头看。", "level": 1 },
-          { "q": "主语是代词 it 时，报幕句怎么说？", "options": ["Here it comes.（代词不倒）", "Here comes it.", "It here comes."], "answer": 0, "explain": "代词不折腾——坐回动词前的原位。", "level": 1 },
-          { "q": "Neither 后面的助动词还要不要加 not？", "options": ["不要——否定的活儿 Neither 已经干了", "要——双保险", "看心情"], "answer": 0, "explain": "Neither do I——再加 not 就双重否定翻车了。", "level": 1 },
-          { "q": "There goes the bell. 是什么意思？", "options": ["铃响了（报幕倒装）", "铃坏了", "把铃拿走"], "answer": 0, "explain": "There goes... 报幕：那声音正响着呢。", "level": 1 },
-          { "q": "对方说 I have been to the museum.，附和该抄哪块表？", "options": ["have 的表——So have I", "do 的表——So do I", "will 的表——So will I"], "answer": 0, "explain": "完成时抄 have/has——So have I。", "level": 1 },
-          { "q": "附和句的主语可以换成别人吗？", "options": ["可以——So does my sister（我妹妹也是）", "不行，只能说 I", "只能用代词"], "answer": 0, "explain": "附和的主语随便换——助动词跟着新主语对齐就行。", "level": 1 },
-          { "q": "Never have I seen such a show. 这种否定词开头的倒装，本课怎么处理？", "options": ["先认识不展开——高中内容", "必须全部掌握", "它是错句"], "answer": 0, "explain": "部分倒装留给高中——本课只管附和句和报幕句。", "level": 1 },
-          { "q": "口语里的 Me too 相当于哪盏灯？", "options": ["So + 助动词 + 主语（肯定附和）", "Neither + 助动词 + 主语", "So I do"], "answer": 0, "explain": "Me too = 肯定附和的口语版；否定要说 Me neither。", "level": 1 }
+          {
+            "q": "So do I 这盏信号灯表示什么？",
+            "options": [
+              "我也是（附和肯定的话）",
+              "我确实如此",
+              "我不同意"
+            ],
+            "answer": 0,
+            "explain": "So + 助动词 + 主语——附和别人肯定的话。",
+            "level": 1
+          },
+          {
+            "q": "Neither do I 这盏信号灯表示什么？",
+            "options": [
+              "我也不（附和否定的话）",
+              "我也是",
+              "我不知道"
+            ],
+            "answer": 0,
+            "explain": "Neither 起头——对方不怎样，我也不怎样。",
+            "level": 1
+          },
+          {
+            "q": "附和句里谁抢在主语前面出声？",
+            "options": [
+              "助动词（do/be/情态/have）",
+              "实义动词",
+              "副词"
+            ],
+            "answer": 0,
+            "explain": "换序的就是助动词——它一抢先，附和信号就亮了。",
+            "level": 1
+          },
+          {
+            "q": "对方的话带 not 或 never，附和要用哪个词起头？",
+            "options": [
+              "Neither（或 Nor）",
+              "So",
+              "Also"
+            ],
+            "answer": 0,
+            "explain": "否定的「也」归 Neither 管——So 是肯定专用。",
+            "level": 1
+          },
+          {
+            "q": "对方说 I am hungry.，你附和时该抄哪块表？",
+            "options": [
+              "be 的表——So am I",
+              "do 的表——So do I",
+              "have 的表——So have I"
+            ],
+            "answer": 0,
+            "explain": "be 抄 be——对方用 am，你换成自己的 am。",
+            "level": 1
+          },
+          {
+            "q": "对方说 I can skate.，你附和时该带哪个助动词？",
+            "options": [
+              "can——So can I",
+              "do——So do I",
+              "am——So am I"
+            ],
+            "answer": 0,
+            "explain": "情态抄情态——can 直接搬过来。",
+            "level": 1
+          },
+          {
+            "q": "对方说 I walk to school.（一般动词），附和时用什么代班？",
+            "options": [
+              "do/does/did",
+              "walk 自己上",
+              "be 动词"
+            ],
+            "answer": 0,
+            "explain": "一般动词不亲自抢位——请 do 家族代班：So do I。",
+            "level": 1
+          },
+          {
+            "q": "So I do（不换序）表示什么？",
+            "options": [
+              "我确实如此——承认对方说得对",
+              "我也是",
+              "我不这么想"
+            ],
+            "answer": 0,
+            "explain": "不换序就不是附和灯——是点头承认「确实如此」。",
+            "level": 1
+          },
+          {
+            "q": "Here comes the bus! 里谁先出声了？",
+            "options": [
+              "动词 comes 抢在主语前",
+              "主语 the bus 先出声",
+              "Here 是主语"
+            ],
+            "answer": 0,
+            "explain": "报幕倒装——动词提前，提醒大家抬头看。",
+            "level": 1
+          },
+          {
+            "q": "主语是代词 it 时，报幕句怎么说？",
+            "options": [
+              "Here it comes.（代词不倒）",
+              "Here comes it.",
+              "It here comes."
+            ],
+            "answer": 0,
+            "explain": "代词不折腾——坐回动词前的原位。",
+            "level": 1
+          },
+          {
+            "q": "Neither 后面的助动词还要不要加 not？",
+            "options": [
+              "不要——否定的活儿 Neither 已经干了",
+              "要——双保险",
+              "看心情"
+            ],
+            "answer": 0,
+            "explain": "Neither do I——再加 not 就双重否定翻车了。",
+            "level": 1
+          },
+          {
+            "q": "There goes the bell. 是什么意思？",
+            "options": [
+              "铃响了（报幕倒装）",
+              "铃坏了",
+              "把铃拿走"
+            ],
+            "answer": 0,
+            "explain": "There goes... 报幕：那声音正响着呢。",
+            "level": 1
+          },
+          {
+            "q": "对方说 I have been to the museum.，附和该抄哪块表？",
+            "options": [
+              "have 的表——So have I",
+              "do 的表——So do I",
+              "will 的表——So will I"
+            ],
+            "answer": 0,
+            "explain": "完成时抄 have/has——So have I。",
+            "level": 1
+          },
+          {
+            "q": "附和句的主语可以换成别人吗？",
+            "options": [
+              "可以——So does my sister（我妹妹也是）",
+              "不行，只能说 I",
+              "只能用代词"
+            ],
+            "answer": 0,
+            "explain": "附和的主语随便换——助动词跟着新主语对齐就行。",
+            "level": 1
+          },
+          {
+            "q": "Never have I seen such a show. 这种否定词开头的倒装，本课怎么处理？",
+            "options": [
+              "先认识不展开——高中内容",
+              "必须全部掌握",
+              "它是错句"
+            ],
+            "answer": 0,
+            "explain": "部分倒装留给高中——本课只管附和句和报幕句。",
+            "level": 1
+          },
+          {
+            "q": "口语里的 Me too 相当于哪盏灯？",
+            "options": [
+              "So + 助动词 + 主语（肯定附和）",
+              "Neither + 助动词 + 主语",
+              "So I do"
+            ],
+            "answer": 0,
+            "explain": "Me too = 肯定附和的口语版；否定要说 Me neither。",
+            "level": 1
+          }
         ]
       },
       {
         "name": "选一选 · 抄对表",
         "questions": [
-          { "q": "— I like autumn best. — ___", "options": ["So do I.", "So am I.", "So I like."], "answer": 0, "explain": "一般动词 like → 请 do 代班：So do I。", "level": 2 },
-          { "q": "— I'm a little nervous. — ___", "options": ["So am I.", "So do I.", "So I am nervous."], "answer": 0, "explain": "对方用 am → 抄 be 的表：So am I。", "level": 2 },
-          { "q": "— I can't reach the top shelf. — ___", "options": ["Neither can I.", "So can I.", "Neither can't I."], "answer": 0, "explain": "否定附和：Neither + can（转回肯定形）+ I。", "level": 2 },
-          { "q": "— My brother has seen this film. — ___", "options": ["So have I.", "So do I.", "So has I."], "answer": 0, "explain": "完成时抄 have，还要跟 I 对齐——So have I。", "level": 2 },
-          { "q": "— I didn't sleep well last night. — ___", "options": ["Neither did I.", "So did I.", "Neither didn't I."], "answer": 0, "explain": "对方带 didn't → Neither did I，not 不再出现。", "level": 2 },
-          { "q": "— We will visit the science museum. — ___", "options": ["So will we.", "So do we.", "So we will visit."], "answer": 0, "explain": "will 抄 will——So will we。", "level": 2 },
-          { "q": "— Lucy speaks French very well. — ___ her brother.", "options": ["So does", "So speaks", "So do"], "answer": 0, "explain": "一般动词三单 → does 代班，跟 her brother 对齐。", "level": 2 },
-          { "q": "— I've never eaten durian. — ___", "options": ["Neither have I.", "So have I.", "Neither I have."], "answer": 0, "explain": "never 算否定 → Neither have I，助动词抢在主语前。", "level": 2 },
-          { "q": "— They were late for the rehearsal. — ___", "options": ["So was I.", "So did I.", "So were I."], "answer": 0, "explain": "抄 be 的表再跟 I 对齐——was。", "level": 2 },
-          { "q": "— I don't like getting up early. — ___", "options": ["Neither does my dad.", "So does my dad.", "Neither doesn't my dad."], "answer": 0, "explain": "否定附和换个主语——Neither does my dad。", "level": 2 },
-          { "q": "看，出租车来了！", "options": ["Here comes the taxi!", "Here the taxi comes!", "Comes here the taxi!"], "answer": 0, "explain": "报幕倒装：Here + 动词 + 名词主语。", "level": 2 },
-          { "q": "（指着远处的火车）它来了！", "options": ["Here it comes!", "Here comes it!", "It comes here!"], "answer": 0, "explain": "主语是代词 → 不倒装：Here it comes。", "level": 2 },
-          { "q": "— You said you'd lend me the comic. — ___ I'll bring it tomorrow.", "options": ["So I did.", "So did I.", "Neither did I."], "answer": 0, "explain": "承认自己确实说过——不换序的 So I did。", "level": 2 },
-          { "q": "— I won't give up. — ___", "options": ["Neither will I.", "So won't I.", "Neither won't I."], "answer": 0, "explain": "否定附和：Neither + will（肯定形）+ I。", "level": 2 },
-          { "q": "— My mum is good at cooking. — ___", "options": ["So is mine.", "So does mine.", "So is my."], "answer": 0, "explain": "be 抄 be；「我妈妈」用 mine 收尾。", "level": 2 },
-          { "q": "铃响了——快进教室！", "options": ["There goes the bell — hurry in!", "There the bell goes — hurry in!", "Goes there the bell!"], "answer": 0, "explain": "There goes + 名词主语——报幕倒装。", "level": 2 }
+          {
+            "q": "— I like autumn best. — ___",
+            "options": [
+              "So do I.",
+              "So am I.",
+              "So I like."
+            ],
+            "answer": 0,
+            "explain": "一般动词 like → 请 do 代班：So do I。",
+            "level": 2
+          },
+          {
+            "q": "— I'm a little nervous. — ___",
+            "options": [
+              "So am I.",
+              "So do I.",
+              "So I am nervous."
+            ],
+            "answer": 0,
+            "explain": "对方用 am → 抄 be 的表：So am I。",
+            "level": 2
+          },
+          {
+            "q": "— I can't reach the top shelf. — ___",
+            "options": [
+              "Neither can I.",
+              "So can I.",
+              "Neither can't I."
+            ],
+            "answer": 0,
+            "explain": "否定附和：Neither + can（转回肯定形）+ I。",
+            "level": 2
+          },
+          {
+            "q": "— My brother has seen this film. — ___",
+            "options": [
+              "So have I.",
+              "So do I.",
+              "So has I."
+            ],
+            "answer": 0,
+            "explain": "完成时抄 have，还要跟 I 对齐——So have I。",
+            "level": 2
+          },
+          {
+            "q": "— I didn't sleep well last night. — ___",
+            "options": [
+              "Neither did I.",
+              "So did I.",
+              "Neither didn't I."
+            ],
+            "answer": 0,
+            "explain": "对方带 didn't → Neither did I，not 不再出现。",
+            "level": 2
+          },
+          {
+            "q": "— We will visit the science museum. — ___",
+            "options": [
+              "So will we.",
+              "So do we.",
+              "So we will visit."
+            ],
+            "answer": 0,
+            "explain": "will 抄 will——So will we。",
+            "level": 2
+          },
+          {
+            "q": "— Lucy speaks French very well. — ___ her brother.",
+            "options": [
+              "So does",
+              "So speaks",
+              "So do"
+            ],
+            "answer": 0,
+            "explain": "一般动词三单 → does 代班，跟 her brother 对齐。",
+            "level": 2
+          },
+          {
+            "q": "— I've never eaten durian. — ___",
+            "options": [
+              "Neither have I.",
+              "So have I.",
+              "Neither I have."
+            ],
+            "answer": 0,
+            "explain": "never 算否定 → Neither have I，助动词抢在主语前。",
+            "level": 2
+          },
+          {
+            "q": "— They were late for the rehearsal. — ___",
+            "options": [
+              "So was I.",
+              "So did I.",
+              "So were I."
+            ],
+            "answer": 0,
+            "explain": "抄 be 的表再跟 I 对齐——was。",
+            "level": 2
+          },
+          {
+            "q": "— I don't like getting up early. — ___",
+            "options": [
+              "Neither does my dad.",
+              "So does my dad.",
+              "Neither doesn't my dad."
+            ],
+            "answer": 0,
+            "explain": "否定附和换个主语——Neither does my dad。",
+            "level": 2
+          },
+          {
+            "q": "看，出租车来了！",
+            "options": [
+              "Here comes the taxi!",
+              "Here the taxi comes!",
+              "Comes here the taxi!"
+            ],
+            "answer": 0,
+            "explain": "报幕倒装：Here + 动词 + 名词主语。",
+            "level": 2
+          },
+          {
+            "q": "（指着远处的火车）它来了！",
+            "options": [
+              "Here it comes!",
+              "Here comes it!",
+              "It comes here!"
+            ],
+            "answer": 0,
+            "explain": "主语是代词 → 不倒装：Here it comes。",
+            "level": 2
+          },
+          {
+            "q": "— You said you'd lend me the comic. — ___ I'll bring it tomorrow.",
+            "options": [
+              "So I did.",
+              "So did I.",
+              "Neither did I."
+            ],
+            "answer": 0,
+            "explain": "承认自己确实说过——不换序的 So I did。",
+            "level": 2
+          },
+          {
+            "q": "— I won't give up. — ___",
+            "options": [
+              "Neither will I.",
+              "So won't I.",
+              "Neither won't I."
+            ],
+            "answer": 0,
+            "explain": "否定附和：Neither + will（肯定形）+ I。",
+            "level": 2
+          },
+          {
+            "q": "— My mum is good at cooking. — ___",
+            "options": [
+              "So is mine.",
+              "So does mine.",
+              "So is my."
+            ],
+            "answer": 0,
+            "explain": "be 抄 be；「我妈妈」用 mine 收尾。",
+            "level": 2
+          },
+          {
+            "q": "铃响了——快进教室！",
+            "options": [
+              "There goes the bell — hurry in!",
+              "There the bell goes — hurry in!",
+              "Goes there the bell!"
+            ],
+            "answer": 0,
+            "explain": "There goes + 名词主语——报幕倒装。",
+            "level": 2
+          }
         ]
       },
       {
         "name": "改一改 · 换序纠错",
         "questions": [
-          { "q": "哪个回答对了？（——我不吃香菜。——我也不吃。）", "options": ["Neither do I.", "So do I.", "Neither don't I."], "answer": 0, "explain": "对方带否定 → Neither 起头；So do I 成了「我吃」。", "level": 3 },
-          { "q": "哪个回答对了？（——她来自四川。——我也是。）", "options": ["So am I.", "So do I.", "So I am."], "answer": 0, "explain": "is from → 抄 be 的表：So am I。", "level": 3 },
-          { "q": "哪个回答对了？（——我已经交作业了。——我也交了。）", "options": ["So have I.", "So do I.", "So I have."], "answer": 0, "explain": "完成时抄 have——换序才是「我也是」。", "level": 3 },
-          { "q": "哪个回答对了？（——我弟弟不敢坐过山车。——我也不敢。）", "options": ["Neither dare I. / Neither do I.", "So do I.", "Neither don't I."], "answer": 0, "explain": "否定附和 Neither 起头、不再加 not——So do I 方向反了。", "level": 3 },
-          { "q": "哪句报幕对了？（看，校长来了！）", "options": ["Here comes the headmaster!", "Here the headmaster comes!", "Here comes he!"], "answer": 0, "explain": "名词主语倒装排动词后——代词才不倒。", "level": 3 },
-          { "q": "哪个回答对了？（——你昨天答应帮我搬书的。——我确实答应了。）", "options": ["So I did.", "So did I.", "Neither did I."], "answer": 0, "explain": "承认「确实如此」→ 不换序 So I did；换序就成「我也是」。", "level": 3 },
-          { "q": "哪个回答对了？（——我妈妈会弹古筝。——我妈妈也会。）", "options": ["So can mine.", "So can my.", "So does mine can."], "answer": 0, "explain": "情态抄情态：So can mine——「我的（妈妈）」用 mine。", "level": 3 },
-          { "q": "哪个回答对了？（——我周末不熬夜。——我也不。）", "options": ["Neither do I.", "So don't I.", "Neither am I."], "answer": 0, "explain": "一般动词的否定附和：Neither do I——So don't I 不存在这盏灯。", "level": 3 },
-          { "q": "哪个回答对了？（——他去年就加入合唱团了。——我妹妹也是。）", "options": ["So did my sister.", "So does my sister.", "So my sister did."], "answer": 0, "explain": "joined 是过去式 → 抄 did；助动词还要抢在主语前。", "level": 3 },
-          { "q": "哪个回答对了？（——我从没坐过飞机。——我也没有。）", "options": ["Neither have I.", "So have I.", "Neither have not I."], "answer": 0, "explain": "never 算否定 → Neither have I，干净利落不加 not。", "level": 3 },
-          { "q": "哪句对了？（它走了——快看！那只猫。）", "options": ["There it goes!", "There goes it!", "It there goes!"], "answer": 0, "explain": "代词不倒装——There it goes。", "level": 3 },
-          { "q": "哪个回答对了？（——我不太喜欢这首新歌。——说实话我也不喜欢。）", "options": ["Neither do I, to be honest.", "So do I, to be honest.", "Neither I do, to be honest."], "answer": 0, "explain": "否定附和 + 助动词抢位——Neither do I。", "level": 3 },
-          { "q": "哪个回答对了？（——我们明天不用穿校服。——我们也不用。）", "options": ["Neither do we.", "So do we.", "Neither we do."], "answer": 0, "explain": "don't have to → 否定附和 Neither do we。", "level": 3 },
-          { "q": "哪个回答对了？（——爸爸在减肥。——爷爷也在减。）", "options": ["So is Grandpa.", "So does Grandpa.", "So Grandpa is."], "answer": 0, "explain": "is on a diet / is trying → 抄 be 的表：So is Grandpa。", "level": 3 },
-          { "q": "哪句对了？（——莉莉不会迟到的。——她的同桌也不会。）", "options": ["Neither will her deskmate.", "So will her deskmate.", "Neither won't her deskmate."], "answer": 0, "explain": "won't → Neither will + 主语——否定交给 Neither。", "level": 3 },
-          { "q": "哪个回答对了？（——你看起来很累。——我确实很累。）", "options": ["So I am.", "So am I.", "Neither am I."], "answer": 0, "explain": "承认对方对「你」的评价 → 不换序 So I am；So am I 成了「我也累」——可这里没第二个人累。", "level": 3 }
+          {
+            "q": "哪个回答对了？（——我不吃香菜。——我也不吃。）",
+            "options": [
+              "Neither do I.",
+              "So do I.",
+              "Neither don't I."
+            ],
+            "answer": 0,
+            "explain": "对方带否定 → Neither 起头；So do I 成了「我吃」。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——她来自四川。——我也是。）",
+            "options": [
+              "So am I.",
+              "So do I.",
+              "So I am."
+            ],
+            "answer": 0,
+            "explain": "is from → 抄 be 的表：So am I。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——我已经交作业了。——我也交了。）",
+            "options": [
+              "So have I.",
+              "So do I.",
+              "So I have."
+            ],
+            "answer": 0,
+            "explain": "完成时抄 have——换序才是「我也是」。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——我弟弟不敢坐过山车。——我也不敢。）",
+            "options": [
+              "Neither dare I. / Neither do I.",
+              "So do I.",
+              "Neither don't I."
+            ],
+            "answer": 0,
+            "explain": "否定附和 Neither 起头、不再加 not——So do I 方向反了。",
+            "level": 3
+          },
+          {
+            "q": "哪句报幕对了？（看，校长来了！）",
+            "options": [
+              "Here comes the headmaster!",
+              "Here the headmaster comes!",
+              "Here comes he!"
+            ],
+            "answer": 0,
+            "explain": "名词主语倒装排动词后——代词才不倒。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——你昨天答应帮我搬书的。——我确实答应了。）",
+            "options": [
+              "So I did.",
+              "So did I.",
+              "Neither did I."
+            ],
+            "answer": 0,
+            "explain": "承认「确实如此」→ 不换序 So I did；换序就成「我也是」。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——我妈妈会弹古筝。——我妈妈也会。）",
+            "options": [
+              "So can mine.",
+              "So can my.",
+              "So does mine can."
+            ],
+            "answer": 0,
+            "explain": "情态抄情态：So can mine——「我的（妈妈）」用 mine。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——我周末不熬夜。——我也不。）",
+            "options": [
+              "Neither do I.",
+              "So don't I.",
+              "Neither am I."
+            ],
+            "answer": 0,
+            "explain": "一般动词的否定附和：Neither do I——So don't I 不存在这盏灯。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——他去年就加入合唱团了。——我妹妹也是。）",
+            "options": [
+              "So did my sister.",
+              "So does my sister.",
+              "So my sister did."
+            ],
+            "answer": 0,
+            "explain": "joined 是过去式 → 抄 did；助动词还要抢在主语前。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——我从没坐过飞机。——我也没有。）",
+            "options": [
+              "Neither have I.",
+              "So have I.",
+              "Neither have not I."
+            ],
+            "answer": 0,
+            "explain": "never 算否定 → Neither have I，干净利落不加 not。",
+            "level": 3
+          },
+          {
+            "q": "哪句对了？（它走了——快看！那只猫。）",
+            "options": [
+              "There it goes!",
+              "There goes it!",
+              "It there goes!"
+            ],
+            "answer": 0,
+            "explain": "代词不倒装——There it goes。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——我不太喜欢这首新歌。——说实话我也不喜欢。）",
+            "options": [
+              "Neither do I, to be honest.",
+              "So do I, to be honest.",
+              "Neither I do, to be honest."
+            ],
+            "answer": 0,
+            "explain": "否定附和 + 助动词抢位——Neither do I。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——我们明天不用穿校服。——我们也不用。）",
+            "options": [
+              "Neither do we.",
+              "So do we.",
+              "Neither we do."
+            ],
+            "answer": 0,
+            "explain": "don't have to → 否定附和 Neither do we。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——爸爸在减肥。——爷爷也在减。）",
+            "options": [
+              "So is Grandpa.",
+              "So does Grandpa.",
+              "So Grandpa is."
+            ],
+            "answer": 0,
+            "explain": "is on a diet / is trying → 抄 be 的表：So is Grandpa。",
+            "level": 3
+          },
+          {
+            "q": "哪句对了？（——莉莉不会迟到的。——她的同桌也不会。）",
+            "options": [
+              "Neither will her deskmate.",
+              "So will her deskmate.",
+              "Neither won't her deskmate."
+            ],
+            "answer": 0,
+            "explain": "won't → Neither will + 主语——否定交给 Neither。",
+            "level": 3
+          },
+          {
+            "q": "哪个回答对了？（——你看起来很累。——我确实很累。）",
+            "options": [
+              "So I am.",
+              "So am I.",
+              "Neither am I."
+            ],
+            "answer": 0,
+            "explain": "承认对方对「你」的评价 → 不换序 So I am；So am I 成了「我也累」——可这里没第二个人累。",
+            "level": 3
+          }
         ]
       },
       {
         "name": "用一用 · 上场演出",
         "questions": [
-          { "q": "同学说 I love the school library.，你也爱去——最地道的附和是？", "options": ["So do I.", "I also love the school library very much too.", "So I do."], "answer": 0, "explain": "一盏灯解决——So do I，短而准。", "level": 4 },
-          { "q": "— I haven't finished the poster. — ___ Let's stay and do it together.", "options": ["Neither have I.", "So have I.", "So do I."], "answer": 0, "explain": "haven't → 否定附和 Neither have I。", "level": 4 },
-          { "q": "站台上你先看见公交车进站，提醒同伴：", "options": ["Here comes our bus!", "Here our bus comes!", "Our bus here comes!"], "answer": 0, "explain": "报幕倒装抢时间——Here comes our bus!", "level": 4 },
-          { "q": "— You promised not to tell anyone! — ___, and I kept my word.", "options": ["So I did", "So did I", "Neither did I"], "answer": 0, "explain": "承认自己确实承诺过——不换序 So I did。", "level": 4 },
-          { "q": "— My cousin can't eat peanuts. — ___ My doctor told me the same thing.", "options": ["Neither can I.", "So can I.", "Neither can't I."], "answer": 0, "explain": "对方否定，我也不能——Neither can I。", "level": 4 },
-          { "q": "— I was really moved by the ending. — ___, I almost cried.", "options": ["So was I", "So did I", "So I was"], "answer": 0, "explain": "was moved → 抄 be：So was I。", "level": 4 },
-          { "q": "连续附和：— I like dumplings. — So do I. — And I don't like onions. — ___", "options": ["Neither do I.", "So do I.", "So don't I."], "answer": 0, "explain": "后半句转否定了——信号灯要跟着换成 Neither，别被惯性带偏。", "level": 4 },
-          { "q": "— Mr Lin has taught here for ten years. — ___ Mrs Yang. They came together.", "options": ["So has", "So does", "So have"], "answer": 0, "explain": "has taught → 抄 has，跟单数 Mrs Yang 对齐。", "level": 4 },
-          { "q": "（下课铃声响起）你说一句报幕：", "options": ["There goes the bell!", "There the bell goes!", "The bell there goes!"], "answer": 0, "explain": "There goes + 名词主语——铃声正响。", "level": 4 },
-          { "q": "— I didn't bring an umbrella. — ___ We'll have to run home.", "options": ["Neither did I.", "So did I.", "Neither I did."], "answer": 0, "explain": "didn't → Neither did I，助动词抢位。", "level": 4 },
-          { "q": "— Your handwriting is really neat. — ___ I practise every day.", "options": ["So it is, thanks!", "So is it, thanks!", "Neither is it."], "answer": 0, "explain": "承认对「它」的评价——不换序 So it is（确实很整齐）。", "level": 4 },
-          { "q": "— We're going to plant trees on Sunday. — ___ Maybe we'll meet there!", "options": ["So are we.", "So do we.", "So we are going."], "answer": 0, "explain": "are going to → 抄 be：So are we。", "level": 4 },
-          { "q": "选出信号灯全用对的一组：", "options": ["— I can swim. — So can I. ／ — I can't dive. — Neither can I.", "— I can swim. — So I can. ／ — I can't dive. — So can't I.", "— I can swim. — Neither can I. ／ — I can't dive. — So can I."], "answer": 0, "explain": "肯定 So can I、否定 Neither can I——两盏灯各就各位。", "level": 4 },
-          { "q": "— Dad never checks his phone at dinner. — ___ Good habit!", "options": ["Neither does Mum.", "So does Mum.", "Neither Mum does."], "answer": 0, "explain": "never 算否定 → Neither does Mum（妈妈也从不）。", "level": 4 },
-          { "q": "（表演开始，主角登场）报幕最带感的一句：", "options": ["Here comes the star of tonight!", "Here the star of tonight comes!", "The star comes here tonight!"], "answer": 0, "explain": "Here comes + 名词主语——聚光灯和语序一起打向主角。", "level": 4 },
-          { "q": "大考：— I'm tired and I haven't had dinner. — ___, and ___. Let's go home!", "options": ["So am I / neither have I", "So do I / so have I", "So am I / so have I"], "answer": 0, "explain": "前半肯定抄 be（So am I），后半否定抄 have（neither have I）——一句话两盏灯都要打对。", "level": 4 }
+          {
+            "q": "同学说 I love the school library.，你也爱去——最地道的附和是？",
+            "options": [
+              "So do I.",
+              "I also love the school library very much too.",
+              "So I do."
+            ],
+            "answer": 0,
+            "explain": "一盏灯解决——So do I，短而准。",
+            "level": 4
+          },
+          {
+            "q": "— I haven't finished the poster. — ___ Let's stay and do it together.",
+            "options": [
+              "Neither have I.",
+              "So have I.",
+              "So do I."
+            ],
+            "answer": 0,
+            "explain": "haven't → 否定附和 Neither have I。",
+            "level": 4
+          },
+          {
+            "q": "站台上你先看见公交车进站，提醒同伴：",
+            "options": [
+              "Here comes our bus!",
+              "Here our bus comes!",
+              "Our bus here comes!"
+            ],
+            "answer": 0,
+            "explain": "报幕倒装抢时间——Here comes our bus!",
+            "level": 4
+          },
+          {
+            "q": "— You promised not to tell anyone! — ___, and I kept my word.",
+            "options": [
+              "So I did",
+              "So did I",
+              "Neither did I"
+            ],
+            "answer": 0,
+            "explain": "承认自己确实承诺过——不换序 So I did。",
+            "level": 4
+          },
+          {
+            "q": "— My cousin can't eat peanuts. — ___ My doctor told me the same thing.",
+            "options": [
+              "Neither can I.",
+              "So can I.",
+              "Neither can't I."
+            ],
+            "answer": 0,
+            "explain": "对方否定，我也不能——Neither can I。",
+            "level": 4
+          },
+          {
+            "q": "— I was really moved by the ending. — ___, I almost cried.",
+            "options": [
+              "So was I",
+              "So did I",
+              "So I was"
+            ],
+            "answer": 0,
+            "explain": "was moved → 抄 be：So was I。",
+            "level": 4
+          },
+          {
+            "q": "连续附和：— I like dumplings. — So do I. — And I don't like onions. — ___",
+            "options": [
+              "Neither do I.",
+              "So do I.",
+              "So don't I."
+            ],
+            "answer": 0,
+            "explain": "后半句转否定了——信号灯要跟着换成 Neither，别被惯性带偏。",
+            "level": 4
+          },
+          {
+            "q": "— Mr Lin has taught here for ten years. — ___ Mrs Yang. They came together.",
+            "options": [
+              "So has",
+              "So does",
+              "So have"
+            ],
+            "answer": 0,
+            "explain": "has taught → 抄 has，跟单数 Mrs Yang 对齐。",
+            "level": 4
+          },
+          {
+            "q": "（下课铃声响起）你说一句报幕：",
+            "options": [
+              "There goes the bell!",
+              "There the bell goes!",
+              "The bell there goes!"
+            ],
+            "answer": 0,
+            "explain": "There goes + 名词主语——铃声正响。",
+            "level": 4
+          },
+          {
+            "q": "— I didn't bring an umbrella. — ___ We'll have to run home.",
+            "options": [
+              "Neither did I.",
+              "So did I.",
+              "Neither I did."
+            ],
+            "answer": 0,
+            "explain": "didn't → Neither did I，助动词抢位。",
+            "level": 4
+          },
+          {
+            "q": "— Your handwriting is really neat. — ___ I practise every day.",
+            "options": [
+              "So it is, thanks!",
+              "So is it, thanks!",
+              "Neither is it."
+            ],
+            "answer": 0,
+            "explain": "承认对「它」的评价——不换序 So it is（确实很整齐）。",
+            "level": 4
+          },
+          {
+            "q": "— We're going to plant trees on Sunday. — ___ Maybe we'll meet there!",
+            "options": [
+              "So are we.",
+              "So do we.",
+              "So we are going."
+            ],
+            "answer": 0,
+            "explain": "are going to → 抄 be：So are we。",
+            "level": 4
+          },
+          {
+            "q": "选出信号灯全用对的一组：",
+            "options": [
+              "— I can swim. — So can I. ／ — I can't dive. — Neither can I.",
+              "— I can swim. — So I can. ／ — I can't dive. — So can't I.",
+              "— I can swim. — Neither can I. ／ — I can't dive. — So can I."
+            ],
+            "answer": 0,
+            "explain": "肯定 So can I、否定 Neither can I——两盏灯各就各位。",
+            "level": 4
+          },
+          {
+            "q": "— Dad never checks his phone at dinner. — ___ Good habit!",
+            "options": [
+              "Neither does Mum.",
+              "So does Mum.",
+              "Neither Mum does."
+            ],
+            "answer": 0,
+            "explain": "never 算否定 → Neither does Mum（妈妈也从不）。",
+            "level": 4
+          },
+          {
+            "q": "（表演开始，主角登场）报幕最带感的一句：",
+            "options": [
+              "Here comes the star of tonight!",
+              "Here the star of tonight comes!",
+              "The star comes here tonight!"
+            ],
+            "answer": 0,
+            "explain": "Here comes + 名词主语——聚光灯和语序一起打向主角。",
+            "level": 4
+          },
+          {
+            "q": "大考：— I'm tired and I haven't had dinner. — ___, and ___. Let's go home!",
+            "options": [
+              "So am I / neither have I",
+              "So do I / so have I",
+              "So am I / so have I"
+            ],
+            "answer": 0,
+            "explain": "前半肯定抄 be（So am I），后半否定抄 have（neither have I）——一句话两盏灯都要打对。",
+            "level": 4
+          }
         ]
       }
     ]
