@@ -68,8 +68,14 @@
         .filter(el => el.getBoundingClientRect().right > limit + 1)
         .filter(el => !inScroller(el))
         .slice(0, 8)
-        .map(el => ({ cls: (el.className || '').toString().slice(0, 60), right: Math.round(el.getBoundingClientRect().right) }));
-      const report = { page, viewport: de.clientWidth, scrollWidth: de.scrollWidth, overflow: de.scrollWidth > de.clientWidth, wide };
+        .map(el => ({ cls: (el.className || '').toString().slice(0, 60), right: Math.round(el.getBoundingClientRect().right), text: (el.textContent || '').trim().slice(0, 50) }));
+      // B1：触控热区抽测——可点按钮高度 <44px 的记下来（标准 ≥48，44-48 记警告）
+      const smallBtns = [...document.querySelectorAll('#app button, #modalRoot button')]
+        .map(b => ({ b, r: b.getBoundingClientRect() }))
+        .filter(x => x.r.width > 0 && x.r.height > 0 && x.r.height < 48)
+        .slice(0, 8)
+        .map(x => ({ cls: (x.b.className || '').toString().slice(0, 50), h: Math.round(x.r.height), text: (x.b.textContent || '').trim().slice(0, 20) }));
+      const report = { page, viewport: de.clientWidth, scrollWidth: de.scrollWidth, overflow: de.scrollWidth > de.clientWidth, wide, smallBtns };
       try { await fetch('/__result', { method: 'POST', body: JSON.stringify(report, null, 1) }); } catch (e) {}
     })();
   </script>

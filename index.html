@@ -163,12 +163,12 @@
         deferredPrompt = e;
         if (isStandalone()) return;
         const bar = showBanner(
-          '<span style="font-size:22px">📲</span>' +
+          '<span style="font-size:var(--fs-h2)">📲</span>' +
           '<div style="flex:1">把<b>英语奇遇记</b>添加到桌面，像 App 一样打开</div>' +
           '<button data-ea-install style="background:var(--c-primary-600);color:#fff;border:none;' +
           'padding:7px 14px;border-radius:999px;font-weight:700;font-size:var(--fs-cap);min-height:44px">添加</button>' +
           '<button data-ea-close aria-label="关闭" style="background:none;border:none;' +
-          'font-size:18px;color:#bbb;cursor:pointer">×</button>'
+          'font-size:var(--fs-h2);color:var(--c-ink-400);cursor:pointer;padding:6px 10px">×</button>'
         );
         if (bar) {
           bar.querySelector('[data-ea-install]').addEventListener('click', async () => {
@@ -190,11 +190,11 @@
       window.addEventListener('load', () => {
         if (isiOS() && !isStandalone()) {
           setTimeout(() => showBanner(
-            '<span style="font-size:22px">📲</span>' +
-            '<div style="flex:1">点击底部<b>分享</b>按钮 <span style="font-size:15px">⬆️</span>，' +
+            '<span style="font-size:var(--fs-h2)">📲</span>' +
+            '<div style="flex:1">点击底部<b>分享</b>按钮 <span style="font-size:var(--fs-body-sm)">⬆️</span>，' +
             '再选「<b>添加到主屏幕</b>」即可安装</div>' +
             '<button data-ea-close aria-label="关闭" style="background:none;border:none;' +
-            'font-size:18px;color:#bbb;cursor:pointer">×</button>'
+            'font-size:var(--fs-h2);color:var(--c-ink-400);cursor:pointer;padding:6px 10px">×</button>'
           ), 2500);
         }
       });

@@ -651,6 +651,28 @@
 9. **并行会话禁止同时改 `sw.js` CACHE_VERSION**——两个会话各自 bump 会互相覆写，且低版本覆写高版本能触发一次刷新（不立即报错），但会埋下日后版本号重名、缓存静默失效的雷。规则：UI 批次与内容批次要么串行，要么约定只有一个会话碰 sw.js；CACHE_VERSION 必须全局单调递增，绝不复用已发布过的号。
 10. **KET 八课（`data/exam/ket/grammar-lessons.json` 等）是「一个字不动」的红线**（P2b 起）。任何批次动手前先把它复制到 `tools/backup/<批次名>/`，收尾跑 `node tools/check-ket-lessons-untouched.mjs [备份目录]` 逐字段深比对（比 hash 严：字段相同但被重新格式化/换编码也会被抓出来）。要给八课加入口，只改渲染层 `assets/js/modules/exam/grammar-course.js`，绝不碰数据文件。
 11. **`data/grammar/index.json` 在 sw 壳缓存预取清单里（sw.js:73），走 cache-first。** 凡是新增/修改课程导致 index.json 变动，必须同时 bump CACHE_VERSION，否则老客户端读到旧索引、新课在目录里根本不出现（课文件已上线也看不到），是静默失效，不报错。
+12. **无头 Chrome 测完必须确认进程真的退光**（`Get-CimInstance Win32_Process` 按 CommandLine 里的 `eap` 过滤）——残留的无头实例会占住 `--user-data-dir` 锁，下一轮启动只是把 URL 递给旧实例然后退出，页面根本没加载，结果文件永远等不到。bash 里 `kill $!` 只杀得掉启动壳，杀不掉 Chrome 子进程树。
+13. **虚拟时钟跑法（`--virtual-time-budget` + shot.html/modal-check）速度快、自动退出，但会产生几何测量伪差**——热区/尺寸类断言（如 hot48）报 false 时必须用真实时钟（`Start-Process` + 轮询结果文件）单页复测确认，不能直接采信（B1 中 gradePicker hot48:false 即为伪差，真实时钟为 true）。同族坑：测量页不带 Tailwind 会几何失真（坑 6 注）、无头 Chrome viewport 最小约 492px（坑 6）、virtual-time-budget 挂住 SW 线程（坑 5，验 SW 时禁用虚拟时钟）。
+
+---
+
+## 🎨 设计系统规范（B1 / V0.9.6 起，全站唯一标准）
+
+**此后全站禁止硬编码字号 / 颜色 / 间距 / 圆角 / 阴影，只准引用 token 变量。**
+两个配套事实源（改一处必须同步另一处）：`assets/css/style.css` 的 `:root`（token 定义）+ `assets/js/tw-config.js`（Tailwind class 映射；index.html 与 tools/smoke 测量页都必须引用它，否则渲染与测量失真）。
+
+- **字号 8 级**（clamp 响应式，手机端不缩水；可读文字只准取这 8 值，不许中间值）：
+  `--fs-display`(34-44) / `--fs-h1`(26-33) / `--fs-h2`(23-28) / `--fs-body-lg`(21-24) / `--fs-body`(19-21) / `--fs-body-sm`(17-18) / `--fs-cap`(15-16) / `--fs-micro`(13-14)。
+  Tailwind 映射：`text-2xl→display, xl→h1, lg→h2, base→body-lg, sm→body, xs→body-sm, text-cap, text-micro`。
+  ★ cap/micro 只准用于徽标/角标/时间戳/频率标签等辅助信息，**禁止用于任何需要阅读的正文**；`text-[Npx]` 任意值全站禁止（现存 0 处）。
+  `text-3xl~6xl` = emoji/插图尺寸（`--emoji-sm/md/lg/xl` 32/40/52/64），禁止用于文字。
+- **色板**（46 个 `--c-*`，语义化；文字色全部对白/米底实测 ≥4.5:1 WCAG AA）：
+  品牌橙 `--c-primary-50..700`（500 品牌识别装饰用、600 按钮填充白字、700 浅底文字）；品牌青 `--c-secondary-*` 同构；语义 success/danger/warning/info 各 50/500/600/700；糖果点缀 lemon/pink/sky/grape（配 `-ink` 可读文字色）；暖棕灰阶 `--c-ink-900..400` + `--c-line-300/200` + `--c-fill-100/50`（300 及以下仅装饰/边框，400 起才可做文字）。
+  Tailwind `gray-*` 已重映射为暖棕灰阶；`text-primary/secondary` 已全站改为 `text-primary-ink/secondary-ink`（brand 500 色对比度不足，不做文字）。
+- **间距 8 级**：`--sp-1..6, --sp-8, --sp-12`（4/8/12/16/20/24/32/48px）；Tailwind 半档（-0.5/-1.5/-2.5）已归一，不再新增。
+- **圆角 6 级**：`--r-xs/sm/md/lg/xl/pill`（8/12/16/22/28/999px）；**阴影 4 个**：`--shadow-card/card-hover/pop/soft`；**触控**：`--tap-min: 48px`。
+- 豁免记录（仅此三类，新增豁免须在此登记）：①装饰插画渐变（段位/稀有度/大区/关卡节点）②瞬时动效大数字（.count-num 90px）③记忆卡 SVG 内部色值（自带 #FFF8F0 底，深浅模式自含）。
+- 记忆卡 SVG：50 课字号已放大（最小 14px、主体 17-23px），渲染层 `.memory-card-wrap` 横滑容器（窄屏保有效字号）；新增课卡片沿用该字号带宽 + 逐框防溢出。
 
 ---
 

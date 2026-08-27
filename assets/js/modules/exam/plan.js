@@ -81,7 +81,7 @@ export async function renderPlan(app) {
       ].map(([t, m, d]) => `
         <div class="flex gap-2 py-2 border-b border-gray-50 last:border-0">
           <div class="font-bold text-sm" style="min-width:150px">${t} <span class="text-xs font-normal text-gray-400">${m}</span></div>
-          <div class="text-xs text-gray-600 flex-1">${d}</div>
+          <div class="text-xs text-gray-600 flex-1 wrap-any">${d}</div>
         </div>`).join('')}
       <div class="text-xs text-gray-400 mt-2">合计：W1-W2 = 90′；W3 起 = 90′（拼读 10′ 转给听力）</div>
     </div>

@@ -165,6 +165,11 @@ input, textarea, select { font-size: max(1em, 16px); }
 .t-cap   { font-size: var(--fs-cap);   line-height: 1.5; }
 .t-micro { font-size: var(--fs-micro); line-height: 1.4; }
 
+/* 弹性换行：flex 子项里的长 token 连排（如 buy/die/come/join）窄屏可断行，
+   不许撑破容器（B1 单元4：优先弹性换行，不降字号） */
+.wrap-any { min-width: 0; overflow-wrap: anywhere; word-break: normal; }
+#app .flex-1, #modalRoot .flex-1 { min-width: 0; }
+
 /* 卡通按钮 */
 .btn-cartoon {
   background: var(--c-primary-600);

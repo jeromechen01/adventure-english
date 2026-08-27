@@ -170,7 +170,7 @@ function lessonViews(app, l, opts = {}) {
         <div class="font-bold text-sm mb-1">⚡ 5 秒判断法（考场直接用）</div>
         <p class="text-sm font-bold text-gray-800 mb-2">「${esc(s.quickJudge.mnemonic)}」</p>
         <ol class="space-y-1">
-          ${s.quickJudge.steps.map((st, i) => `<li class="text-sm text-gray-700 flex gap-2"><span class="font-black text-cyan-700" style="min-width:20px">${i + 1}</span><span class="flex-1">${esc(st)}</span></li>`).join('')}
+          ${s.quickJudge.steps.map((st, i) => `<li class="text-sm text-gray-700 flex gap-2"><span class="font-black text-cyan-700" style="min-width:20px">${i + 1}</span><span class="flex-1 wrap-any">${esc(st)}</span></li>`).join('')}
         </ol>
       </div>
 
