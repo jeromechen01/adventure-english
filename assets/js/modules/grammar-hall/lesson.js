@@ -255,7 +255,7 @@ function lessonViews(app, l, opts = {}) {
       ${passedAll ? '<div class="card-cartoon mb-3 bg-green-50 border-2 border-green-300 text-center"><p class="text-sm font-bold">🎉 四个环节全部通过，这课已标记为掌握！</p></div>' : ''}
       <button id="backIntroBtn" class="w-full btn-cartoon btn-cartoon-secondary" style="min-height:48px">📖 回看讲解</button>
     `;
-    bindBack(app, 'grammar-hall');
+    // ‹ 只走 onclick 单一路径：叠加 bindBack 会双绑定竞态、异步跳回大厅列表（B2 修复）
     app.querySelector('#examBackBtn').onclick = drawIntro;
     app.querySelector('#backIntroBtn').addEventListener('click', drawIntro);
     app.querySelectorAll('[data-stage]').forEach(b => b.addEventListener('click', () => {
@@ -346,7 +346,7 @@ function lessonViews(app, l, opts = {}) {
         <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🎲 换一批重做（题目会变）</button>
         <button id="stagesBtn" class="w-full btn-cartoon" style="min-height:48px">回环节列表</button>
       `;
-      bindBack(app, 'grammar-hall');
+      // ‹ 只走 onclick 单一路径（同 drawStageSelect，防双绑定竞态）
       app.querySelector('#examBackBtn').onclick = drawStageSelect;
       const rw = app.querySelector('#retryWrongBtn');
       if (rw) rw.addEventListener('click', () => runQuiz(stageIdx, wrongList.slice(), true));
@@ -446,7 +446,7 @@ function lessonViews(app, l, opts = {}) {
         <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🔁 再查一轮（顺序会变）</button>
         <button id="introBtn" class="w-full btn-cartoon" style="min-height:48px">回讲解</button>
       `;
-      bindBack(app, 'grammar-hall');
+      // ‹ 只走 onclick 单一路径（同 drawStageSelect，防双绑定竞态）
       app.querySelector('#examBackBtn').onclick = drawIntro;
       app.querySelector('#againBtn').addEventListener('click', () => drawDetective());
       app.querySelector('#introBtn').addEventListener('click', drawIntro);

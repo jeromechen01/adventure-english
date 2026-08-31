@@ -190,7 +190,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
 
       ${hallDeepDiveHTML(l.id, hallIndex)}
     `;
-    bindBack(app, 'exam-grammar');
+    // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
     app.querySelector('#startExBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; reshuffleExercises(); drawExercise(); });
     bindDeepDive(app, l.id);
@@ -261,7 +261,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
       <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3">再练一遍</button>
       <button id="homeBtn" class="w-full btn-cartoon">回语法学院</button>
     `;
-    bindBack(app, 'exam-grammar');
+    // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
     app.querySelector('#againBtn').addEventListener('click', () => { exIdx = 0; correctN = 0; reshuffleExercises(); drawExercise(); });
     app.querySelector('#homeBtn').addEventListener('click', () => renderGrammarCourse(app, {}));
@@ -374,7 +374,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
 
       ${hallDeepDiveHTML(l.id, hallIndex)}
     `;
-    bindBack(app, 'exam-grammar');
+    // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
     app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
     const swBtn = app.querySelector('#specialWordsBtn');
@@ -419,7 +419,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
           ${g.words.length >= 4 ? `<button data-spgroup="${gi}" class="w-full btn-cartoon btn-cartoon-secondary" style="min-height:48px">🎯 练这组（${g.words.length} 词）</button>` : ''}
         </div>`).join('')}
     `;
-    bindBack(app, 'exam-grammar');
+    // ‹ 只走 onclick 单一路径：叠加 bindBack 会双绑定竞态、异步跳回八课主页（B2 修复）
     app.querySelector('#examBackBtn').onclick = drawIntro;
 
     // 点行朗读（读变化形；斜杠读成停顿）
@@ -477,7 +477,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
       ${passedAll ? `<div class="card-cartoon mb-3 bg-green-50 border-2 border-green-300 text-center"><p class="text-sm font-bold">🎉 四个环节全部通过，这课真的掌握了！</p></div>` : ''}
       <button id="backIntroBtn" class="w-full btn-cartoon btn-cartoon-secondary">📖 回看讲解</button>
     `;
-    bindBack(app, 'exam-grammar');
+    // ‹ 只走 onclick 单一路径（同特殊单词表页，防双绑定竞态）
     app.querySelector('#examBackBtn').onclick = drawIntro;
     app.querySelector('#backIntroBtn').addEventListener('click', drawIntro);
     app.querySelectorAll('[data-stage]').forEach(b => b.addEventListener('click', () => {
@@ -623,7 +623,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
         <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🎲 换一批重做（题目会变）</button>
         <button id="stagesBtn" class="w-full btn-cartoon" style="min-height:48px">回环节列表</button>
       `;
-      bindBack(app, 'exam-grammar');
+      // ‹ 只走 onclick 单一路径（同环节选择页，防双绑定竞态）
       app.querySelector('#examBackBtn').onclick = drawStageSelect;
       const rw = app.querySelector('#retryWrongBtn');
       if (rw) rw.addEventListener('click', () => runQuiz(s, wrongList.slice(), true));
@@ -664,7 +664,7 @@ function renderVerbs(app, level, verbs) {
     </div>
     <button id="mixBtn" class="w-full btn-cartoon">🎲 第七天 · 混合抽查闯关</button>
   `;
-  bindBack(app, 'exam-grammar');
+  // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
   app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
 
   // 把动词组转成闯关用的"单词"对象（word=原形，meaning=中文+过去式，考记忆配对）
@@ -735,7 +735,7 @@ function renderErrors(app, errors) {
       ${errors.parentGuide.rules.map(r => `<p class="text-sm text-gray-700 mb-2">${r}</p>`).join('')}
     </div>
   `;
-  bindBack(app, 'exam-grammar');
+  // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
   app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
 }
 
@@ -789,6 +789,6 @@ function renderInventory(app, inv) {
       <div class="text-cap text-gray-400">${inv.note}</div>
     </div>
   `;
-  bindBack(app, 'exam-grammar');
+  // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
   app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
 }
