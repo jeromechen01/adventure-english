@@ -206,6 +206,7 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
   function done() {
     const pct = Math.round(correct / total * 100);
     storage.saveDrillResult(level, set.id, pct);
+    storage.progressDailyTask('reading1', 1); // 首页任务：KET 阅读专项完成一组算一篇阅读（B2 模式适配；听力不算）
     if (onFinish) return onFinish(correct, total); // 模考/限时流程继续，答题态不退
     exitFocus();
     app.innerHTML = `

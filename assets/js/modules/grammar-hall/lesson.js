@@ -307,6 +307,7 @@ function lessonViews(app, l, opts = {}) {
         const ok = Number(b.dataset.oi) === q.answer;
         storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先
         if (ok) correctN++; else wrongList.push(q);
+        if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：大厅闯练也算语法题（B2 模式适配）
         const fb = app.querySelector('#feedback');
         fb.innerHTML = `
           <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">

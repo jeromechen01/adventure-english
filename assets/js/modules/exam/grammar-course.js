@@ -227,6 +227,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
       const norm = s => String(s).trim().toLowerCase().replace(/\s+/g, ' ').replace(/[.!?]$/, '');
       const ok = norm(userRaw) === norm(ex.answer);
       if (ok) correctN++;
+      if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：老流程练习也算语法题（B2 模式适配）
       const fb = app.querySelector('#feedback');
       fb.innerHTML = `
         <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
@@ -562,6 +563,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
         answered = true;
         storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先
         if (ok) correctN++; else wrongList.push(q);
+        if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：八课闯练也算语法题（B2 模式适配）
         const fb = app.querySelector('#feedback');
         fb.innerHTML = `
           <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
