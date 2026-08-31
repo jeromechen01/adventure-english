@@ -6,7 +6,11 @@ import { pickQuiz, presentQuestion } from '../utils/shuffle.js';
 
 export async function renderGrammarPage(app, params) {
   const profile = storage.getProfile();
-  const level = profile.grade <= 2 ? 'kindergarten' : profile.grade <= 6 ? 'primary' : 'junior';
+  const g = profile.grade;
+  // B2：grade 可能是字符串 'PET'（KET 在 navigate 已改道八课，到不了这里）。
+  // 'PET' <= 6 恒为 false 会静默落 junior——改为显式兜底，并在列表页说明+给语法大厅入口。
+  const isPet = g === 'PET';
+  const level = isPet ? 'junior' : g <= 2 ? 'kindergarten' : g <= 6 ? 'primary' : 'junior';
   const data = await loadJSON(`data/grammar/${level}.json`);
   if (!data) {
     app.innerHTML = '<div class="text-center py-12 text-gray-400">数据加载失败</div>';
@@ -24,7 +28,12 @@ export async function renderGrammarPage(app, params) {
       <h2 class="text-xl font-bold">🎓 语法学院</h2>
     </div>
     <div class="text-xs text-gray-500 mb-3">${level === 'kindergarten' ? '启蒙句型' : level === 'primary' ? '小学语法' : '初中语法'} · 共 ${data.topics.length} 个语法点</div>
-
+    ${isPet ? `
+    <div class="card-cartoon mb-3 bg-gradient-to-r from-sky-50 to-cyan-50 border-2 border-sky-200">
+      <div class="font-bold text-sm mb-1">📌 PET 模式说明</div>
+      <p class="text-xs text-gray-600 mb-2">PET 专属语法课还在准备中，这里先用「初中语法」打底。想系统学语法，推荐 50 课全景的语法大厅。</p>
+      <button id="toHallBtn" class="w-full btn-cartoon btn-cartoon-secondary" style="min-height:48px">🏛️ 去语法大厅（50 课全景）</button>
+    </div>` : ''}
     <div class="space-y-2">
       ${data.topics.map(t => `
         <button data-topic="${t.id}" class="w-full card-cartoon tap-bounce text-left flex items-center gap-3">
@@ -39,6 +48,8 @@ export async function renderGrammarPage(app, params) {
     </div>
   `;
   app.querySelector('#backBtn').addEventListener('click', () => window.__nav('home'));
+  const hallBtn = app.querySelector('#toHallBtn');
+  if (hallBtn) hallBtn.addEventListener('click', () => window.__nav('grammar-hall'));
   app.querySelectorAll('[data-topic]').forEach(btn => {
     btn.addEventListener('click', () => window.__nav('grammar', { topicId: btn.dataset.topic }));
   });
