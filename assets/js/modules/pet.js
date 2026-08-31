@@ -102,6 +102,8 @@ export async function renderPetWordsHome(app) {
   }
 
   const readyCount = topics.filter(t => t.status === 'ready').length;
+  // B2：KET/PET 档此前没有错词突击入口（KET 只能绕道报告页，PET 完全不可达）——与数字年级同款入口补齐
+  const reinforceCount = storage.getReinforceQueue().length;
 
   app.innerHTML = `
     <div class="flex items-center gap-2 mb-3">
@@ -113,6 +115,17 @@ export async function renderPetWordsHome(app) {
       <div class="font-bold mb-1">${src.intro}</div>
       <div class="text-sm text-gray-600">按话题分组，选一个话题开始闯关记词。已开放 ${readyCount} / ${topics.length} 个话题。</div>
     </div>
+
+    <!-- 🔥 错词突击入口（与数字年级 words 主页同款） -->
+    <button id="reinforceBtn" class="w-full card-cartoon tap-bounce flex items-center gap-3 mb-4 text-left"
+      style="background:linear-gradient(135deg,#FFE0E0,#FFD0C2)">
+      <div class="text-4xl">🔥</div>
+      <div class="flex-1">
+        <div class="font-bold text-red-600">错词突击</div>
+        <div class="text-xs text-gray-600">连对 3 次让错词毕业</div>
+      </div>
+      <span class="text-sm font-bold ${reinforceCount > 0 ? 'bg-red-500 text-white' : 'bg-gray-200 text-gray-500'} px-3 py-1 rounded-full">${reinforceCount} 待强化</span>
+    </button>
 
     <div class="pet-topic-grid">
       ${topics.map(t => {
@@ -128,6 +141,7 @@ export async function renderPetWordsHome(app) {
   `;
 
   app.querySelector('#backBtn').addEventListener('click', () => window.__nav(src.backPage));
+  app.querySelector('#reinforceBtn').addEventListener('click', () => window.__nav('reinforce'));
   app.querySelectorAll('[data-topic]').forEach(btn => {
     btn.addEventListener('click', () => {
       if (btn.dataset.ready === '1') {
