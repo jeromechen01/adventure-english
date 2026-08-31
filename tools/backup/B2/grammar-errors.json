@@ -1,0 +1,54 @@
+{
+  "level": "KET",
+  "title": "8 类中式错误 · 三色分区",
+  "readingKey": [
+    "只有 1、2、3 会挡意思 → 只打这三类。",
+    "4、5、6 不挡意思但 Part 5 直接考 → 为那 6 分单独练（练熟即可，不必讲道理）。",
+    "7、8 既不挡也几乎不考 → 不要反复纠正她。那是把孩子说到闭嘴最快的办法，而回报接近零。"
+  ],
+  "errors": [
+    { "no": 1, "zone": "red", "name": "疑问句缺助动词/语序", "wrong": "You like music?", "right": "Do you like music?", "impedes": "会", "where": "Part 5 + 口语 + 写作" },
+    { "no": 2, "zone": "red", "name": "be 动词缺失", "wrong": "I very happy.", "right": "I am very happy.", "impedes": "会", "where": "写作 + 口语" },
+    { "no": 3, "zone": "red", "name": "叙事时态跳", "wrong": "When they are in the lake they ate…", "right": "When they were in the lake they ate…", "impedes": "会", "where": "Part 7" },
+    { "no": 4, "zone": "yellow", "name": "介词用错", "wrong": "in Saturday", "right": "on Saturday", "impedes": "通常不会", "where": "Part 5" },
+    { "no": 5, "zone": "yellow", "name": "代词格错", "wrong": "Me and Tom", "right": "Tom and I", "impedes": "通常不会", "where": "Part 5" },
+    { "no": 6, "zone": "yellow", "name": "冠词 a/an/the", "wrong": "I have book.", "right": "I have a book.", "impedes": "通常不会", "where": "Part 5" },
+    { "no": 7, "zone": "gray", "name": "第三人称 -s", "wrong": "He go", "right": "He goes", "impedes": "不会", "where": "写作" },
+    { "no": 8, "zone": "gray", "name": "单复数/可数不可数", "wrong": "three book / many water", "right": "three books / much water", "impedes": "不会", "where": "Part 5 偶尔" }
+  ],
+  "priorities": [
+    {
+      "level": "第一级 · 骨架（会挡意思）",
+      "zone": "red",
+      "items": "be 动词 · 疑问句助动词与语序 · 三个基本时态 + 叙事时态一致",
+      "accept": "验收：任给陈述句 3 秒改成疑问句/否定句；看三幅图讲故事时态不跳"
+    },
+    {
+      "level": "第二级 · 小词（为 Part 5 的 6 分）",
+      "zone": "yellow",
+      "items": "介词 · 代词 · 限定词 · 量词 · 连接词",
+      "accept": "验收：Part 5 格式填空 4/6 以上。注：连接词一举两得，还影响写作 Organisation 维度"
+    },
+    {
+      "level": "第三级 · 有余力再碰",
+      "zone": "gray",
+      "items": "第三人称 -s · 单复数 · 比较级最高级 · 情态动词 · 现在完成（只练 7 个搭配）· going to / will",
+      "accept": ""
+    },
+    {
+      "level": "明确不碰",
+      "zone": "none",
+      "items": "被动语态复杂用法 · 关系从句复杂用法 · 虚拟语气 · 完成进行时",
+      "accept": ""
+    }
+  ],
+  "parentGuide": {
+    "title": "家长教法四条（家长不需要会英语）",
+    "rules": [
+      "① 用例句教，不用规则教。语法是肌肉，不是知识。",
+      "② 中英对照，让她自己看出差别。她中文强，这是资产。",
+      "③ 只纠三类错（上面的 1/2/3），其余记在本上不当场打断。",
+      "④ 每个考点当天必须「用出来」。只做题不输出 = 没学。"
+    ]
+  }
+}

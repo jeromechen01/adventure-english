@@ -637,6 +637,20 @@
 
 ---
 
+## B2：全站体检后高危 Bug 修复 4 项（缓存 `ea-v0.9.7`，2026-09-01，✅ 完成，⏸ 硬停机等家长验收）
+
+> 依据 2026-09-01 全站只读体检报告。只碰渲染层 JS；大厅 50 课与八课数据零改动（untouched 守卫对 `tools/backup/B2/` 全过）。
+
+- [x] **B2-1 双绑定返回竞态 12 处**：`bindBack`(addEventListener) 与 `onclick` 并存，异步 `navigate(模块根)` 覆盖同步局部返回 → 中间层 ‹ 必跳层。统一为 onclick 单一路径（与 V0.9.33 答题页 requestLeaveFocus 写法对齐）。跳层高危 6 处：大厅环节选择/闯练结果/侦探结案（lesson.js）+ 八课特殊单词表/环节选择/结果页（grammar-course.js）；同目标重复渲染 6 处：八课老流程各返回站点。**规矩升级：`bindBack` 之后禁止再赋 `#examBackBtn.onclick`——要局部返回就只用 onclick，不叠 bindBack**
+- [x] **B2-2 PET 语法兜底**：`'PET' <= 6` 恒 false 静默落 junior → 显式判定 + PET 模式列表页说明卡（初中语法打底）+ 语法大厅直达按钮（grammar.js）
+- [x] **B2-3 KET/PET 错词突击入口**：话题词库主页补数字年级同款 🔥 入口（含待强化角标，pet.js）——此前 PET 完全不可达、KET 需绕报告页 4 步；reinforce 词索引本就含话题词
+- [x] **B2-4 首页任务模式适配**：grammar3 只有年级语法推进（KET 被改道永不可完成）→ 大厅闯练/八课新旧判分挂 `progressDailyTask('grammar3')`；reading1 在 KET 阅读专项结算处补挂（听力不算阅读）。三项任务现在 1-9/KET/PET 全模式可完成
+- [x] 回归：preflight 四项 ✔；八课 untouched（字节级 sha256）✔；smoke 在线 41 + 离线 30 路由零失败（console 仅预期 g51 探针）✔；sw-check（缓存名 `english-adventure-ea-v0.9.7`、离线 504 兜底、清缓存）✔；modal-check 双跑（默认宽 + w=360，真实时钟、全新短路径 profile）全绿——0.9.33 答题态 17 项 / 孤儿计时器 / 写作草稿回填 / 无死弹窗 ✔；大厅闯练 + 八课⇄大厅双向跳转（含离线）✔
+- [x] 行为级定向验证（临时检查页，跑完已删）：大厅「环节选择 ‹→讲解页」「结果页 ‹→环节选择」、八课「环节选择 ‹→讲解页」等 700ms 后仍停在正确层，9/9 全真
+- CACHE_VERSION **ea-v0.9.65 → ea-v0.9.7**（全局单调递增不复用）
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
