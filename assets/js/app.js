@@ -11,6 +11,7 @@ import { renderWritingPage } from './modules/writing.js';
 import { renderPetTopicMap, collectPetWordsById } from './modules/pet.js';
 import { trackPage } from './study-time.js'; // V0.7 学习时长计时（前台停留，路由打点）
 import { loadData } from './utils/lazy-data.js'; // V0.9 分片懒加载器（loadJSON 的底座）
+import { aiEnabled, askAI, aiFailText, buildExplainPrompt, getCachedExplain, setCachedExplain } from './utils/ai-chat.js'; // B6b AI 小助教（增强不替代，无 key 时按钮不渲染）
 // V0.4 剑桥备考中心：模块按需动态 import（减小首屏体积），路由见 navigate()
 
 // 全局状态
@@ -564,6 +565,31 @@ async function renderMistakes(app, params = {}) {
         if (src === 'hall') navigate('grammar-hall', { lesson: e.lesson, fromMistakes: 1, scrollTo: 'rules' });
         else navigate('exam-grammar', { lesson: e.lesson, fromMistakes: 1 });
       });
+      // B6b-1 错因解释：孩子主动点击才调用；同题结果缓存（省钱）；失败平静降级回考点解析
+      const aiBtn = card.querySelector('[data-act="aiexplain"]');
+      if (aiBtn) aiBtn.addEventListener('click', async () => {
+        const out = card.querySelector('[data-aiout]');
+        const qk = card.dataset.qk;
+        const entry = storage.getQuizMistakes()[qk];
+        if (!entry || aiBtn.disabled) return;
+        const cached = getCachedExplain(qk);
+        if (cached) { out.hidden = false; out.textContent = '🤖 ' + cached; aiBtn.hidden = true; return; }
+        aiBtn.disabled = true;
+        const label = aiBtn.textContent;
+        aiBtn.textContent = '🤖 想一想…';
+        const r = await askAI(buildExplainPrompt(entry));
+        aiBtn.disabled = false;
+        if (r.ok) {
+          setCachedExplain(qk, r.text);
+          out.hidden = false; out.textContent = '🤖 ' + r.text;
+          aiBtn.hidden = true;
+        } else {
+          aiBtn.textContent = label;
+          out.hidden = false;
+          out.className = 'text-xs mt-2 text-gray-500';
+          out.textContent = aiFailText(r.reason);
+        }
+      });
     });
   }
 }
@@ -581,6 +607,9 @@ function quizMistakeCardHtml(e, srcLabel) {
       <div class="text-sm mt-2"><span class="text-red-600">${isDet ? '我的改法' : '我的答案'}：</span><span class="font-en" style="word-break:break-word">${esc2(e.picked || '（未作答）')}</span></div>
       <div class="text-sm"><span class="text-green-700">${isDet ? '参考答案' : '正确答案'}：</span><span class="font-en" style="word-break:break-word">${esc2(e.correct)}</span></div>
       ${e.explain ? `<div class="text-xs text-gray-500 mt-1">🔎 ${esc2(e.explain)}</div>` : ''}
+      ${aiEnabled() ? `
+      <button data-act="aiexplain" class="w-full btn-cartoon btn-cartoon-secondary text-sm mt-2" style="min-height:44px">🤖 让 AI 讲讲我这个错法</button>
+      <div data-aiout class="text-sm mt-2 text-gray-700" style="line-height:1.8;white-space:pre-wrap;word-break:break-word" hidden></div>` : ''}
       <div class="flex items-center gap-2 mt-2">
         ${e.lesson ? `<button data-act="golesson" class="flex-1 btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px">📖 回看本课讲解 → ${e.lesson}</button>` : '<span class="flex-1"></span>'}
         <button data-act="remove" class="p-2 text-green-700 text-xl tap-bounce" title="移出错题本" style="min-width:44px;min-height:44px">✓</button>

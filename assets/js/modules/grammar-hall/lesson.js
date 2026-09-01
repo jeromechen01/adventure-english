@@ -11,6 +11,7 @@ import { loadGrammarLesson, skeletonHTML } from '../../utils/lazy-data.js';
 import { shuffle, pickQuiz, presentQuestion, questionKey } from '../../utils/shuffle.js';
 import { ketLessonLabel, ketLessonsForHall } from '../../utils/ket-hall-map.js';
 import { examLevel, headerHtml, bindBack, esc } from '../exam/exam-common.js';
+import { aiEnabled, askAI, aiFailText, buildExplainPrompt, buildRetellPrompt, buildDetectivePrompt, getCachedExplain, setCachedExplain } from '../../utils/ai-chat.js'; // B6b AI 小助教（增强不替代，无 key 时按钮不渲染）
 
 export const HALL_LEVEL = 'HALL';
 const STAGE_PASS = 0.7;  // 环节通过线（与 KET 八课口径一致）
@@ -378,6 +379,16 @@ function lessonViews(app, l, opts = {}) {
           <p class="text-sm text-gray-600 mt-2">${pass ? (msg || '通过！记得今天把它「用出来」——说一句、写一句，用出来才算真的会。') : '差一点点，看看错题讲解，重练一遍就能过。'}</p>
         </div>
         ${wrongList.length ? `<button id="retryWrongBtn" class="w-full btn-cartoon mb-3" style="min-height:48px">🔁 错题重练（${wrongList.length} 题）</button>` : ''}
+        ${wrongList.length && aiEnabled() ? `
+        <div class="card-cartoon mb-3">
+          <div class="font-bold text-sm mb-2">🤖 做错的题，可以让 AI 讲讲你的错法</div>
+          ${wrongList.map((q, i) => `
+            <div class="mb-3 pb-3 border-b border-gray-50 last:border-0 last:mb-0 last:pb-0">
+              <div class="text-sm font-en mb-2" style="word-break:break-word">${esc(q.q)}</div>
+              <button data-aiw="${i}" class="w-full btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px">🤖 解释我的错法</button>
+              <div data-aiwout="${i}" class="text-sm mt-2 text-gray-700" style="line-height:1.8;white-space:pre-wrap;word-break:break-word" hidden></div>
+            </div>`).join('')}
+        </div>` : ''}
         <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🎲 换一批重做（题目会变）</button>
         <button id="stagesBtn" class="w-full btn-cartoon" style="min-height:48px">回环节列表</button>
       `;
@@ -385,6 +396,34 @@ function lessonViews(app, l, opts = {}) {
       app.querySelector('#examBackBtn').onclick = drawStageSelect;
       const rw = app.querySelector('#retryWrongBtn');
       if (rw) rw.addEventListener('click', () => runQuiz(stageIdx, wrongList.slice(), true));
+      // B6b-1 错因解释（做完题后主动点击；与错题本共用同一份缓存，同题不重复花钱）
+      app.querySelectorAll('[data-aiw]').forEach(btn => btn.addEventListener('click', async () => {
+        const i = Number(btn.dataset.aiw);
+        const q = wrongList[i];
+        const out = app.querySelector(`[data-aiwout="${i}"]`);
+        const entry = storage.getQuizMistakes()[q.__qk] || {
+          src: 'hall', kind: 'choice', lesson: l.id, lessonTitle: l.title || '', stage: stageIdx + 1,
+          q: q.q, options: q.options, picked: '', correct: q.options[q.answer], explain: q.explain || ''
+        };
+        if (btn.disabled) return;
+        const cached = getCachedExplain(q.__qk);
+        if (cached) { out.hidden = false; out.textContent = '🤖 ' + cached; btn.hidden = true; return; }
+        btn.disabled = true;
+        const label = btn.textContent;
+        btn.textContent = '🤖 想一想…';
+        const r = await askAI(buildExplainPrompt(entry));
+        btn.disabled = false;
+        if (r.ok) {
+          setCachedExplain(q.__qk, r.text);
+          out.hidden = false; out.textContent = '🤖 ' + r.text;
+          btn.hidden = true;
+        } else {
+          btn.textContent = label;
+          out.hidden = false;
+          out.className = 'text-xs mt-2 text-gray-500';
+          out.textContent = aiFailText(r.reason);
+        }
+      }));
       app.querySelector('#againBtn').addEventListener('click', () => runQuiz(stageIdx, null, false));
       app.querySelector('#stagesBtn').addEventListener('click', drawStageSelect);
     }
