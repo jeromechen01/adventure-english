@@ -211,7 +211,7 @@ async function navigate(page, params = {}) {
   switch (page) {
     case 'home':       await renderHome(app); break;
     case 'learn':      renderLearn(app); break;
-    case 'mistakes':   await renderMistakes(app); break;
+    case 'mistakes':   await renderMistakes(app, params); break;
     case 'me':         renderMe(app); break;
     case 'words':      await renderWordsPage(app, params); break;
     case 'levels':     await renderLevelMap(app); break;
@@ -438,70 +438,158 @@ function renderLearn(app) {
   });
 }
 
-// === 错题本 ===
-async function renderMistakes(app) {
-  const profile = storage.getProfile();
-  const mistakes = storage.getMistakes();
+// === 错题本（B4：分区收录 单词 / 语法大厅 / KET八课 / 阅读 / 模考）===
+const MISTAKE_SRC_DEFS = [
+  ['words', '🔤 单词'], ['hall', '🏛️ 语法大厅'], ['ket', '🎼 KET 八课'], ['read', '📖 阅读'], ['mock', '📝 模考']
+];
 
-  if (mistakes.length === 0) {
+async function renderMistakes(app, params = {}) {
+  const wordIds = storage.getMistakes();
+  const quiz = storage.getQuizMistakes();
+  const bySrc = { hall: [], ket: [], read: [], mock: [] };
+  Object.entries(quiz).forEach(([qk, e]) => { if (bySrc[e.src]) bySrc[e.src].push({ qk, ...e }); });
+  Object.values(bySrc).forEach(list => list.sort((a, b) => (b.t || 0) - (a.t || 0)));
+  const counts = { words: wordIds.length, hall: bySrc.hall.length, ket: bySrc.ket.length, read: bySrc.read.length, mock: bySrc.mock.length };
+  const total = counts.words + counts.hall + counts.ket + counts.read + counts.mock;
+
+  // 当前分区：来路指定 > 单词 > 第一个非空区（护栏：不催促，空态文案保持平静）
+  let src = params.src && counts[params.src] !== undefined ? params.src
+    : (MISTAKE_SRC_DEFS.find(([k]) => counts[k] > 0) || ['words'])[0];
+  const lessonFilter = params.lesson || null; // 反向入口：只看某课
+
+  if (total === 0) {
     app.innerHTML = `
       <h2 class="text-xl font-bold mb-4">📝 错题本</h2>
       <div class="card-cartoon empty-state">
-        <span class="empty-emoji">🦊🎉</span>
-        <div class="empty-text">太棒啦，一道错题都没有！</div>
-        <div class="empty-sub">继续保持，你超厉害的，加油！💪</div>
+        <span class="empty-emoji">🦊</span>
+        <div class="empty-text">现在这里是空的</div>
+        <div class="empty-sub">做题中出错的单词和题目，会安静地收在这里，方便回头看看。</div>
       </div>
     `;
     return;
   }
 
-  // 加载所有年级的词找出错词
-  const wordMap = {};
-  for (let g = 1; g <= 9; g++) {
-    const data = await loadJSON(`data/words/grade${g}.json`);
-    if (!data) continue;
-    data.units.forEach(u => u.words.forEach(w => { wordMap[w.id] = { ...w, grade: g }; }));
-  }
-  // PET 话题词也纳入，错题本才能显示 PET 单词
-  await collectPetWordsById(wordMap);
+  const chipsHtml = MISTAKE_SRC_DEFS.map(([k, label]) => `
+    <button data-src="${k}" class="px-3 py-2 rounded-full border-2 text-sm tap-bounce ${k === src ? 'bg-orange-100 border-orange-300 font-bold' : 'border-gray-200 text-gray-500'}" style="min-height:44px">
+      ${label} <span class="text-xs ${counts[k] ? 'text-gray-600' : 'text-gray-300'}">${counts[k]}</span>
+    </button>`).join('');
 
-  const items = mistakes.map(id => wordMap[id]).filter(Boolean);
+  let sectionHtml = '';
+  const wordMap = {};
+  if (src === 'words') {
+    // 加载所有年级的词找出错词；PET/KET 话题词也纳入
+    for (let g = 1; g <= 9; g++) {
+      const data = await loadJSON(`data/words/grade${g}.json`);
+      if (!data) continue;
+      data.units.forEach(u => u.words.forEach(w => { wordMap[w.id] = { ...w, grade: g }; }));
+    }
+    await collectPetWordsById(wordMap);
+    const items = wordIds.map(id => wordMap[id]).filter(Boolean);
+    sectionHtml = items.length === 0
+      ? '<div class="card-cartoon text-center py-8 text-sm text-gray-400">这个分区现在是空的。</div>'
+      : `
+      <button id="reinforceBtn" class="w-full card-cartoon tap-bounce flex items-center gap-3 mb-3 text-left" style="background:linear-gradient(135deg,#FFE0E0,#FFD0C2)">
+        <div class="text-3xl">🔥</div>
+        <div class="flex-1"><div class="font-bold text-red-600">错词突击</div><div class="text-xs text-gray-600">连对 3 次让错词毕业</div></div>
+        <span class="text-xl text-gray-300">›</span>
+      </button>
+      <div class="space-y-2">
+        ${items.map(w => `
+          <div class="card-cartoon flex items-center gap-3" data-word-id="${w.id}">
+            <div class="flex-1" style="min-width:0">
+              <div class="font-bold font-en">${w.word} <span class="text-xs text-gray-400 font-sans">${w.phonetic}</span></div>
+              <div class="text-sm text-gray-600">${w.pos} ${w.meaning}</div>
+              <div class="text-xs text-gray-400 mt-1">${w.petTopic ? 'PET · ' + w.petTopic : w.ketTopic ? 'KET · ' + w.ketTopic : gradeLabel(w.grade)}</div>
+            </div>
+            <button data-act="speak" class="p-2 text-primary-ink text-2xl">🔊</button>
+            <button data-act="remove" class="p-2 text-green-700 text-xl">✓</button>
+          </div>`).join('')}
+      </div>`;
+  } else {
+    let list = bySrc[src];
+    const filtered = lessonFilter ? list.filter(e => e.lesson === lessonFilter) : list;
+    const srcLabel = (MISTAKE_SRC_DEFS.find(([k]) => k === src) || [])[1] || '';
+    sectionHtml = `
+      ${lessonFilter ? `<div class="flex items-center gap-2 mb-3 text-sm"><span class="text-gray-500">只看 ${lessonFilter} 这一课</span><button id="clearLessonBtn" class="text-primary-ink font-bold tap-bounce px-2 py-1">显示全部 ›</button></div>` : ''}
+      ${filtered.length === 0
+        ? '<div class="card-cartoon text-center py-8 text-sm text-gray-400">这个分区现在是空的。</div>'
+        : `<div class="space-y-2">${filtered.map(e => quizMistakeCardHtml(e, srcLabel)).join('')}</div>`}`;
+  }
 
   app.innerHTML = `
-    <div class="flex items-center justify-between mb-4">
+    <div class="flex items-center justify-between mb-3">
       <h2 class="text-xl font-bold">📝 错题本</h2>
-      <span class="text-sm text-gray-500">${items.length} 个待强化</span>
+      <span class="text-sm text-gray-500">共 ${total} 条</span>
     </div>
-    <div class="space-y-2">
-      ${items.map(w => `
-        <div class="card-cartoon flex items-center gap-3" data-word-id="${w.id}">
-          <div class="flex-1">
-            <div class="font-bold font-en">${w.word} <span class="text-xs text-gray-400 font-sans">${w.phonetic}</span></div>
-            <div class="text-sm text-gray-600">${w.pos} ${w.meaning}</div>
-            <div class="text-xs text-gray-400 mt-1">${w.petTopic ? 'PET · ' + w.petTopic : w.ketTopic ? 'KET · ' + w.ketTopic : gradeLabel(w.grade)}</div>
-          </div>
-          <button data-act="speak" class="p-2 text-primary-ink text-2xl">🔊</button>
-          <button data-act="remove" class="p-2 text-green-700 text-xl">✓</button>
-        </div>
-      `).join('')}
-    </div>
+    <div class="flex flex-wrap gap-2 mb-4">${chipsHtml}</div>
+    ${sectionHtml}
   `;
 
-  app.querySelectorAll('[data-word-id]').forEach(card => {
-    const wid = card.dataset.wordId;
-    const word = wordMap[wid];
-    card.querySelector('[data-act="speak"]').addEventListener('click', () => {
-      speak(word.word);
-      playSound('click');
+  // 分区切换
+  app.querySelectorAll('[data-src]').forEach(b => b.addEventListener('click', () => {
+    if (b.dataset.src !== src) renderMistakes(app, { src: b.dataset.src });
+  }));
+  const clearBtn = app.querySelector('#clearLessonBtn');
+  if (clearBtn) clearBtn.addEventListener('click', () => renderMistakes(app, { src }));
+
+  if (src === 'words') {
+    const rb = app.querySelector('#reinforceBtn');
+    if (rb) rb.addEventListener('click', () => navigate('reinforce', { back: 'mistakes' }));
+    app.querySelectorAll('[data-word-id]').forEach(card => {
+      const wid = card.dataset.wordId;
+      const word = wordMap[wid];
+      card.querySelector('[data-act="speak"]').addEventListener('click', () => {
+        speak(word.word);
+        playSound('click');
+      });
+      card.querySelector('[data-act="remove"]').addEventListener('click', () => {
+        storage.removeMistake(wid);
+        card.remove();
+        toast('已移出错题本', 'success');
+        if (app.querySelectorAll('[data-word-id]').length === 0) renderMistakes(app, { src });
+      });
     });
-    card.querySelector('[data-act="remove"]').addEventListener('click', () => {
-      storage.removeMistake(wid);
-      card.remove();
-      toast('已移出错题本', 'success');
-      const remaining = app.querySelectorAll('[data-word-id]').length;
-      if (remaining === 0) renderMistakes(app);
+  } else {
+    app.querySelectorAll('[data-qk]').forEach(card => {
+      card.querySelector('[data-act="remove"]').addEventListener('click', () => {
+        storage.removeQuizMistake(card.dataset.qk);
+        card.remove();
+        toast('已移出错题本', 'success');
+        if (app.querySelectorAll('[data-qk]').length === 0) renderMistakes(app, { src });
+      });
+      const goBtn = card.querySelector('[data-act="golesson"]');
+      if (goBtn) goBtn.addEventListener('click', () => {
+        const e = { lesson: card.dataset.lesson, src };
+        if (src === 'hall') navigate('grammar-hall', { lesson: e.lesson, fromMistakes: 1, scrollTo: 'rules' });
+        else navigate('exam-grammar', { lesson: e.lesson, fromMistakes: 1 });
+      });
     });
-  });
+  }
+}
+
+// 单条题目错题卡（choice / detective 两种形态）
+function quizMistakeCardHtml(e, srcLabel) {
+  const isDet = e.kind === 'detective';
+  const from = [e.lesson, e.lessonTitle].filter(Boolean).join(' · ') || e.lessonTitle || '';
+  const meta = [srcLabel.replace(/^[^\s]+\s/, ''), from, e.stage ? `环节 ${e.stage}` : '', e.n > 1 ? `错过 ${e.n} 次` : '']
+    .filter(Boolean).join(' · ');
+  return `
+    <div class="card-cartoon" data-qk="${esc2(e.qk)}" data-lesson="${e.lesson || ''}">
+      <div class="text-xs text-gray-400">${esc2(meta)}</div>
+      <div class="font-bold text-sm font-en mt-1" style="word-break:break-word">${isDet ? '🤒 ' : ''}${esc2(e.q)}</div>
+      <div class="text-sm mt-2"><span class="text-red-600">${isDet ? '我的改法' : '我的答案'}：</span><span class="font-en" style="word-break:break-word">${esc2(e.picked || '（未作答）')}</span></div>
+      <div class="text-sm"><span class="text-green-700">${isDet ? '参考答案' : '正确答案'}：</span><span class="font-en" style="word-break:break-word">${esc2(e.correct)}</span></div>
+      ${e.explain ? `<div class="text-xs text-gray-500 mt-1">🔎 ${esc2(e.explain)}</div>` : ''}
+      <div class="flex items-center gap-2 mt-2">
+        ${e.lesson ? `<button data-act="golesson" class="flex-1 btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px">📖 回看本课讲解 → ${e.lesson}</button>` : '<span class="flex-1"></span>'}
+        <button data-act="remove" class="p-2 text-green-700 text-xl tap-bounce" title="移出错题本" style="min-width:44px;min-height:44px">✓</button>
+      </div>
+    </div>`;
+}
+
+// 错题本专用转义（避免与模块内其它 esc 命名冲突）
+function esc2(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
 // === 我的 ===
