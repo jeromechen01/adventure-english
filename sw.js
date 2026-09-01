@@ -32,6 +32,7 @@ const SHELL_URLS = [
   './assets/js/utils/lazy-data.js',
   './assets/js/utils/exam-season.js',
   './assets/js/utils/ket-hall-map.js',
+  './assets/js/utils/ai-key.js',
   './assets/js/games/card-collect.js',
   './assets/js/games/level-play.js',
   './assets/js/games/match-game.js',
