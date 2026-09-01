@@ -131,7 +131,7 @@ export function renderStudyStats(app) {
     </div>
 
     <!-- 诚实声明 -->
-    <p class="text-cap text-gray-400 text-center mb-4">统计的是页面前台停留时长，仅供参考，不代表"有效学习时间"。<br>数据仅存本设备，不上传。</p>
+    <p class="text-cap text-gray-400 text-center mb-4">统计的是页面前台停留时长，仅供参考，不代表「有效学习时间」。<br>数据仅存本设备，不上传。</p>
   `;
 
   app.querySelector('#statsBackBtn').addEventListener('click', () => window.__nav('me'));

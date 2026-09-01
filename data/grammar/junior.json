@@ -82,7 +82,7 @@
         "who 指人作主语或宾语",
         "which 指物或动物",
         "that 指人或物，常可代替 who/which",
-        "whose 表示\"...的\"，可指人或物",
+        "whose 表示「...的」，可指人或物",
         "where 指地点，when 指时间"
       ],
       "examples": [
@@ -95,14 +95,14 @@
         {"question": "The book ___ is on the desk is mine.", "options": ["who", "which", "what", "whose"], "answer": 1, "explanation": "先行词是 the book (物)，用 which。"},
         {"question": "This is the place ___ I was born.", "options": ["which", "that", "where", "when"], "answer": 2, "explanation": "先行词是地点 the place，用 where。"},
         {"question": "I'll never forget the day ___ we met.", "options": ["which", "where", "when", "who"], "answer": 2, "explanation": "先行词是时间 the day，用 when。"},
-        {"question": "The girl ___ bag is red is Lisa.", "options": ["who", "whose", "which", "that"], "answer": 1, "explanation": "表示\"...的\"用 whose。"}
+        {"question": "The girl ___ bag is red is Lisa.", "options": ["who", "whose", "which", "that"], "answer": 1, "explanation": "表示「...的」用 whose。"}
       ]
     },
     {
       "id": "gj-005",
       "title": "if 条件句",
       "grade": [8, 9],
-      "summary": "if 引导真实条件状语从句，遵循 \"主将从现\" 原则。",
+      "summary": "if 引导真实条件状语从句，遵循 「主将从现」 原则。",
       "rules": [
         "主将从现：主句用一般将来时，从句用一般现在时",
         "If + 主语 + V现在式, 主语 + will + V原",
@@ -232,10 +232,10 @@
         {"en": "Although it rained, we went out.", "zh": "尽管下雨，我们还是出去了。"}
       ],
       "quiz": [
-        {"question": "I'll wait ___ you come back.", "options": ["since", "until", "because", "although"], "answer": 1, "explanation": "until 表示 \"直到\"。"},
+        {"question": "I'll wait ___ you come back.", "options": ["since", "until", "because", "although"], "answer": 1, "explanation": "until 表示 「直到」。"},
         {"question": "He stayed at home ___ he was ill.", "options": ["because", "if", "although", "when"], "answer": 0, "explanation": "原因状语用 because。"},
         {"question": "___ it was cold, he went swimming.", "options": ["Because", "If", "Although", "When"], "answer": 2, "explanation": "让步关系用 Although。"},
-        {"question": "I won't go ___ you go with me.", "options": ["if", "unless", "because", "when"], "answer": 1, "explanation": "unless = if not，意为\"除非\"。"},
+        {"question": "I won't go ___ you go with me.", "options": ["if", "unless", "because", "when"], "answer": 1, "explanation": "unless = if not，意为「除非」。"},
         {"question": "Don't talk ___ the teacher is speaking.", "options": ["when", "while", "since", "if"], "answer": 1, "explanation": "while 强调一段时间内同时进行。"}
       ]
     }

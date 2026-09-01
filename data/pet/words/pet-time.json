@@ -65,7 +65,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "minute 谐音\"觅你特\"——分秒必争地\"觅\"你,60 秒就是一分钟。"
+        "tip": "minute 谐音「觅你特」——分秒必争地「觅」你,60 秒就是一分钟。"
       },
       "petExam": {
         "frequency": "high",
@@ -100,7 +100,7 @@
       ],
       "mnemonic": {
         "type": "image",
-        "tip": "second 既是\"秒\"又是\"第二\"——时间里最小、走在分钟后面的第二级就是秒。"
+        "tip": "second 既是「秒」又是「第二」——时间里最小、走在分钟后面的第二级就是秒。"
       },
       "petExam": {
         "frequency": "medium",
@@ -172,7 +172,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "week 谐音\"喂克\"——和 weak(虚弱)同音;七天为一\"周\"。"
+        "tip": "week 谐音「喂克」——和 weak(虚弱)同音;七天为一「周」。"
       },
       "petExam": {
         "frequency": "high",
@@ -242,7 +242,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "year 谐音\"意尔\"——地球绕太阳一圈、十二个月就是一年。"
+        "tip": "year 谐音「意尔」——地球绕太阳一圈、十二个月就是一年。"
       },
       "petExam": {
         "frequency": "high",
@@ -501,7 +501,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "dawn 谐音\"当\"——天\"当\"地一下亮了、太阳快出来的那刻就是黎明。"
+        "tip": "dawn 谐音「当」——天「当」地一下亮了、太阳快出来的那刻就是黎明。"
       },
       "petExam": {
         "frequency": "low",
@@ -536,7 +536,7 @@
       ],
       "mnemonic": {
         "type": "split",
-        "tip": "to+day(日),说的就是眼下这一\"日\"——今天。"
+        "tip": "to+day(日),说的就是眼下这一「日」——今天。"
       },
       "petExam": {
         "frequency": "high",
@@ -573,7 +573,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "tomorrow 谐音\"图猫肉\"——今天的下一天就是明天(注意 m 单 r 双)。"
+        "tip": "tomorrow 谐音「图猫肉」——今天的下一天就是明天(注意 m 单 r 双)。"
       },
       "petExam": {
         "frequency": "high",
@@ -719,7 +719,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "date 谐音\"呆特\"——写在日历上的年月日就是日期;也指男女\"约会\"。"
+        "tip": "date 谐音「呆特」——写在日历上的年月日就是日期;也指男女「约会」。"
       },
       "petExam": {
         "frequency": "high",
@@ -754,7 +754,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "calendar 谐音\"卡林德\"——一张张标着日期、供查日子的表就是日历。"
+        "tip": "calendar 谐音「卡林德」——一张张标着日期、供查日子的表就是日历。"
       },
       "petExam": {
         "frequency": "low",
@@ -789,7 +789,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "clock 谐音\"克劳克\"——\"滴答滴答\"走、报时的挂钟就是 clock。"
+        "tip": "clock 谐音「克劳克」——「滴答滴答」走、报时的挂钟就是 clock。"
       },
       "petExam": {
         "frequency": "medium",
@@ -824,7 +824,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "alarm 谐音\"啊懒\"——闹钟一响\"啊\"地把懒觉叫醒;也指\"警报\"。"
+        "tip": "alarm 谐音「啊懒」——闹钟一响「啊」地把懒觉叫醒;也指「警报」。"
       },
       "petExam": {
         "frequency": "medium",
@@ -861,7 +861,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "early 谐音\"耳立\"——鸡叫头遍就竖起耳朵起床,那就是早。"
+        "tip": "early 谐音「耳立」——鸡叫头遍就竖起耳朵起床,那就是早。"
       },
       "petExam": {
         "frequency": "high",
@@ -898,7 +898,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "late 谐音\"累特\"——磨蹭到最后、累得赶不上就是迟到。"
+        "tip": "late 谐音「累特」——磨蹭到最后、累得赶不上就是迟到。"
       },
       "petExam": {
         "frequency": "high",
@@ -933,7 +933,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "soon 谐音\"苏恩\"——两个 o 像连着的一小段,时间上很快就到。"
+        "tip": "soon 谐音「苏恩」——两个 o 像连着的一小段,时间上很快就到。"
       },
       "petExam": {
         "frequency": "high",
@@ -1118,7 +1118,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "future 谐音\"缪彻\"——还没到、往前望去的日子就是未来。"
+        "tip": "future 谐音「缪彻」——还没到、往前望去的日子就是未来。"
       },
       "petExam": {
         "frequency": "high",
@@ -1155,7 +1155,7 @@
       ],
       "mnemonic": {
         "type": "assoc",
-        "tip": "past 和 pass(经过)同源,已经\"过\"去了的时光就是过去。"
+        "tip": "past 和 pass(经过)同源,已经「过」去了的时光就是过去。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1190,7 +1190,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "period 谐音\"劈瑞额的\"——被划成一段一段的时间就是时期。"
+        "tip": "period 谐音「劈瑞额的」——被划成一段一段的时间就是时期。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1225,7 +1225,7 @@
       ],
       "mnemonic": {
         "type": "image",
-        "tip": "ago 放在时间后面表\"...以前\"(如 long ago 很久以前),往回数的时间点。"
+        "tip": "ago 放在时间后面表「...以前」(如 long ago 很久以前),往回数的时间点。"
       },
       "petExam": {
         "frequency": "high",

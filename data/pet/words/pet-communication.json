@@ -42,7 +42,7 @@
         { "en": "She called for help.", "zh": "她大声呼救。" }
       ],
       "synonyms": ["phone", "ring"], "antonyms": [], "difficulty": 1, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "call 谐音\"扣\"——一\"扣\"号码就接通、喊人就是 call。" },
+      "mnemonic": { "type": "sound", "tip": "call 谐音「扣」——一「扣」号码就接通、喊人就是 call。" },
       "petExam": { "frequency": "high", "collocations": ["call someone", "make a call"] }
     },
     {
@@ -52,7 +52,7 @@
         { "en": "The phone rang three times.", "zh": "电话响了三声。" }
       ],
       "synonyms": ["call", "phone"], "antonyms": [], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "image", "tip": "ring 本义\"铃响\",电话\"叮铃铃\"响起,所以打电话也叫 ring(过去式 rang)。" },
+      "mnemonic": { "type": "image", "tip": "ring 本义「铃响」,电话「叮铃铃」响起,所以打电话也叫 ring(过去式 rang)。" },
       "petExam": { "frequency": "medium", "collocations": ["ring someone", "give someone a ring"] }
     },
     {
@@ -72,7 +72,7 @@
         { "en": "No one answered the phone.", "zh": "没人接电话。" }
       ],
       "synonyms": ["reply"], "antonyms": ["ask"], "difficulty": 1, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "answer 谐音\"安色\"——w不发音;别人一问就作声回应就是回答。" },
+      "mnemonic": { "type": "sound", "tip": "answer 谐音「安色」——w不发音;别人一问就作声回应就是回答。" },
       "petExam": { "frequency": "high", "collocations": ["answer a question", "answer the phone"] }
     },
     {
@@ -82,7 +82,7 @@
         { "en": "She described her holiday to us.", "zh": "她向我们描述了她的假期。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "root", "tip": "de(向下)+scribe(写,同 script),把样子一笔笔\"写\"出来就是描述。" },
+      "mnemonic": { "type": "root", "tip": "de(向下)+scribe(写,同 script),把样子一笔笔「写」出来就是描述。" },
       "petExam": { "frequency": "medium", "collocations": ["describe something", "describe in detail"] }
     },
     {
@@ -92,7 +92,7 @@
         { "en": "He didn't mention the problem.", "zh": "他没提这个问题。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "mention 谐音\"面神\"——把某事在嘴边\"面\"上带一句就是提到。" },
+      "mnemonic": { "type": "sound", "tip": "mention 谐音「面神」——把某事在嘴边「面」上带一句就是提到。" },
       "petExam": { "frequency": "medium", "collocations": ["mention something", "as mentioned"] }
     },
     {
@@ -112,7 +112,7 @@
         { "en": "She advised him not to go.", "zh": "她劝他别去。" }
       ],
       "synonyms": ["suggest"], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "assoc", "tip": "动词 advise(带 s,读 /z/) 是\"劝告\";名词 advice(带 c) 是\"建议\",别拼混。" },
+      "mnemonic": { "type": "assoc", "tip": "动词 advise(带 s,读 /z/) 是「劝告」;名词 advice(带 c) 是「建议」,别拼混。" },
       "petExam": { "frequency": "medium", "collocations": ["advise someone to", "advise against"] }
     },
     {
@@ -122,7 +122,7 @@
         { "en": "She complained to the manager.", "zh": "她向经理投诉。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "complain 谐音\"抠不烂\"——翻来覆去挑毛病、发牢骚就是抱怨。" },
+      "mnemonic": { "type": "sound", "tip": "complain 谐音「抠不烂」——翻来覆去挑毛病、发牢骚就是抱怨。" },
       "petExam": { "frequency": "medium", "collocations": ["complain about", "complain to"] }
     },
     {
@@ -132,7 +132,7 @@
         { "en": "They agreed to meet on Friday.", "zh": "他们约定周五见面。" }
       ],
       "synonyms": [], "antonyms": ["disagree"], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "agree 谐音\"我给\"——点头\"我给\"你面子、赞成就是同意。" },
+      "mnemonic": { "type": "sound", "tip": "agree 谐音「我给」——点头「我给」你面子、赞成就是同意。" },
       "petExam": { "frequency": "high", "collocations": ["agree with", "agree to"] }
     },
     {
@@ -152,7 +152,7 @@
         { "en": "She apologised to her friend.", "zh": "她向朋友道了歉。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 4, "tags": ["communication"],
-      "mnemonic": { "type": "root", "tip": "apolog(申辩,同 apology)+ise,认错说\"对不起\"就是道歉(英式拼 -ise)。" },
+      "mnemonic": { "type": "root", "tip": "apolog(申辩,同 apology)+ise,认错说「对不起」就是道歉(英式拼 -ise)。" },
       "petExam": { "frequency": "medium", "collocations": ["apologise for", "apologise to"] }
     },
     {
@@ -162,7 +162,7 @@
         { "en": "He greeted his guests at the door.", "zh": "他在门口迎接客人。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "greet 谐音\"格瑞特\"——一见面就\"嗨\"一声打招呼就是问候。" },
+      "mnemonic": { "type": "sound", "tip": "greet 谐音「格瑞特」——一见面就「嗨」一声打招呼就是问候。" },
       "petExam": { "frequency": "low", "collocations": ["greet someone", "greet warmly"] }
     },
     {
@@ -172,7 +172,7 @@
         { "en": "She introduced herself to the class.", "zh": "她向全班做了自我介绍。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "root", "tip": "intro(向内)+duce(引导,同 conduct),把人\"引\"进彼此认识就是介绍。" },
+      "mnemonic": { "type": "root", "tip": "intro(向内)+duce(引导,同 conduct),把人「引」进彼此认识就是介绍。" },
       "petExam": { "frequency": "medium", "collocations": ["introduce someone", "introduce yourself"] }
     },
     {
@@ -182,7 +182,7 @@
         { "en": "She translated the book into Chinese.", "zh": "她把这本书翻译成了中文。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "root", "tip": "trans(横跨)+late(带,同 relate的late),把意思从一种语言\"搬\"到另一种就是翻译。" },
+      "mnemonic": { "type": "root", "tip": "trans(横跨)+late(带,同 relate的late),把意思从一种语言「搬」到另一种就是翻译。" },
       "petExam": { "frequency": "low", "collocations": ["translate into", "translate a word"] }
     },
     {
@@ -202,7 +202,7 @@
         { "en": "The word has five letters.", "zh": "这个词有五个字母。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "image", "tip": "letter 一词两义:一封\"信\"和一个\"字母\";信正是由字母写成的。" },
+      "mnemonic": { "type": "image", "tip": "letter 一词两义:一封「信」和一个「字母」;信正是由字母写成的。" },
       "petExam": { "frequency": "medium", "collocations": ["write a letter", "send a letter"] }
     },
     {
@@ -222,7 +222,7 @@
         { "en": "He collects stamps from many countries.", "zh": "他收集许多国家的邮票。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "stamp 谐音\"斯坦普\"——一\"戳\"盖上、贴信寄出的小纸片就是邮票。" },
+      "mnemonic": { "type": "sound", "tip": "stamp 谐音「斯坦普」——一「戳」盖上、贴信寄出的小纸片就是邮票。" },
       "petExam": { "frequency": "low", "collocations": ["stick a stamp", "a postage stamp"] }
     },
     {
@@ -252,7 +252,7 @@
         { "en": "Please contact us for more details.", "zh": "详情请与我们联系。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "root", "tip": "con(共同)+tact(触碰,同 tactile),彼此\"搭上话\"接触上就是联系。" },
+      "mnemonic": { "type": "root", "tip": "con(共同)+tact(触碰,同 tactile),彼此「搭上话」接触上就是联系。" },
       "petExam": { "frequency": "medium", "collocations": ["contact someone", "keep in contact"] }
     },
     {
@@ -262,7 +262,7 @@
         { "en": "It's hard to express my feelings.", "zh": "我很难表达我的感受。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "root", "tip": "ex(向外)+press(压),把心里的想法\"压\"出来说给别人听就是表达。" },
+      "mnemonic": { "type": "root", "tip": "ex(向外)+press(压),把心里的想法「压」出来说给别人听就是表达。" },
       "petExam": { "frequency": "medium", "collocations": ["express feelings", "express an opinion"] }
     },
     {
@@ -272,7 +272,7 @@
         { "en": "Please don't whisper in class.", "zh": "上课时别交头接耳。" }
       ],
       "synonyms": [], "antonyms": ["shout"], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "whisper 谐音\"喂斯泼\"——凑到耳边\"嘶嘶\"地小声说就是低语。" },
+      "mnemonic": { "type": "sound", "tip": "whisper 谐音「喂斯泼」——凑到耳边「嘶嘶」地小声说就是低语。" },
       "petExam": { "frequency": "low", "collocations": ["whisper to", "whisper a secret"] }
     },
     {
@@ -282,7 +282,7 @@
         { "en": "He shouted for help.", "zh": "他大声呼救。" }
       ],
       "synonyms": ["yell"], "antonyms": ["whisper"], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "shout 谐音\"筛奥特\"——扯着嗓子\"吼\"出来就是喊叫。" },
+      "mnemonic": { "type": "sound", "tip": "shout 谐音「筛奥特」——扯着嗓子「吼」出来就是喊叫。" },
       "petExam": { "frequency": "medium", "collocations": ["shout at", "shout for help"] }
     },
     {
@@ -302,7 +302,7 @@
         { "en": "Let's discuss it later.", "zh": "我们待会儿再商量。" }
       ],
       "synonyms": ["talk about"], "antonyms": [], "difficulty": 3, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "discuss 谐音\"底可思\"——把问题掰到底、大家一起思考就是讨论。" },
+      "mnemonic": { "type": "sound", "tip": "discuss 谐音「底可思」——把问题掰到底、大家一起思考就是讨论。" },
       "petExam": { "frequency": "high", "collocations": ["discuss a problem", "discuss with"] }
     },
     {
@@ -312,7 +312,7 @@
         { "en": "She texted her mum the news.", "zh": "她把消息发短信告诉了妈妈。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "image", "tip": "text 本义\"文字\",在手机上敲文字发出去就是发短信。" },
+      "mnemonic": { "type": "image", "tip": "text 本义「文字」,在手机上敲文字发出去就是发短信。" },
       "petExam": { "frequency": "high", "collocations": ["text someone", "send a text"] }
     },
     {
@@ -342,7 +342,7 @@
         { "en": "Please lower your voice.", "zh": "请小声点。" }
       ],
       "synonyms": [], "antonyms": [], "difficulty": 2, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "voice 谐音\"沃伊斯\"——从嗓子里发出、说话唱歌的声就是嗓音。" },
+      "mnemonic": { "type": "sound", "tip": "voice 谐音「沃伊斯」——从嗓子里发出、说话唱歌的声就是嗓音。" },
       "petExam": { "frequency": "medium", "collocations": ["a loud voice", "lower your voice"] }
     },
     {
@@ -362,7 +362,7 @@
         { "en": "They chat online every night.", "zh": "他们每晚在网上聊天。" }
       ],
       "synonyms": ["talk"], "antonyms": [], "difficulty": 1, "tags": ["communication"],
-      "mnemonic": { "type": "sound", "tip": "chat 谐音\"恰\"——三两句\"恰\"上话、轻松地聊就是闲聊。" },
+      "mnemonic": { "type": "sound", "tip": "chat 谐音「恰」——三两句「恰」上话、轻松地聊就是闲聊。" },
       "petExam": { "frequency": "medium", "collocations": ["chat with", "have a chat"] }
     }
   ]

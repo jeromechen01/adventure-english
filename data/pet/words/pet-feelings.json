@@ -35,7 +35,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "happy 谐音\"哈皮\"——乐得咧嘴\"哈哈\"、皮一下就是高兴。"
+        "tip": "happy 谐音「哈皮」——乐得咧嘴「哈哈」、皮一下就是高兴。"
       },
       "petExam": {
         "frequency": "high",
@@ -74,7 +74,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "sad 谐音\"塞的\"——心里堵得慌、闷闷的就是难过。"
+        "tip": "sad 谐音「塞的」——心里堵得慌、闷闷的就是难过。"
       },
       "petExam": {
         "frequency": "high",
@@ -150,7 +150,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "afraid 谐音\"啊,怕的\"——一\"啊\"就是被吓到、害怕。"
+        "tip": "afraid 谐音「啊,怕的」——一「啊」就是被吓到、害怕。"
       },
       "petExam": {
         "frequency": "high",
@@ -300,7 +300,7 @@
       ],
       "mnemonic": {
         "type": "assoc",
-        "tip": "bored 由 bore(使厌烦)来,被无聊\"钻\"得直打哈欠就是 bored;bored 指人,boring 指事物。"
+        "tip": "bored 由 bore(使厌烦)来,被无聊「钻」得直打哈欠就是 bored;bored 指人,boring 指事物。"
       },
       "petExam": {
         "frequency": "high",
@@ -374,7 +374,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "proud 谐音\"炮的\"——挺起胸膛像放炮一样神气就是自豪。"
+        "tip": "proud 谐音「炮的」——挺起胸膛像放炮一样神气就是自豪。"
       },
       "petExam": {
         "frequency": "medium",
@@ -411,7 +411,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "jealous 谐音\"接勒斯\"——看别人好,心里\"结\"个疙瘩就是嫉妒。"
+        "tip": "jealous 谐音「接勒斯」——看别人好,心里「结」个疙瘩就是嫉妒。"
       },
       "petExam": {
         "frequency": "low",
@@ -522,7 +522,7 @@
       ],
       "mnemonic": {
         "type": "split",
-        "tip": "up(向上)+set(放),心情被\"掀\"翻、七上八下就是心烦难过。"
+        "tip": "up(向上)+set(放),心情被「掀」翻、七上八下就是心烦难过。"
       },
       "petExam": {
         "frequency": "medium",
@@ -561,7 +561,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "calm 谐音\"卡姆\"——l不发音;心如止水、稳稳当当就是冷静。"
+        "tip": "calm 谐音「卡姆」——l不发音;心如止水、稳稳当当就是冷静。"
       },
       "petExam": {
         "frequency": "medium",
@@ -635,7 +635,7 @@
       ],
       "mnemonic": {
         "type": "assoc",
-        "tip": "stressed 由 stress(压力)来,被压力\"压\"得喘不过气就是 stressed。"
+        "tip": "stressed 由 stress(压力)来,被压力「压」得喘不过气就是 stressed。"
       },
       "petExam": {
         "frequency": "medium",
@@ -711,7 +711,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "shy 谐音\"孩\"——像小孩见生人躲起来一样就是害羞。"
+        "tip": "shy 谐音「孩」——像小孩见生人躲起来一样就是害羞。"
       },
       "petExam": {
         "frequency": "medium",
@@ -746,7 +746,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "curious 谐音\"克瑞额斯\"——像猫一样\"咦这是啥\"到处探头就是好奇。"
+        "tip": "curious 谐音「克瑞额斯」——像猫一样「咦这是啥」到处探头就是好奇。"
       },
       "petExam": {
         "frequency": "medium",
@@ -816,7 +816,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "embarrassed 谐音\"俺巴热死\"——脸\"巴\"地一下涨红、热得慌就是尴尬。"
+        "tip": "embarrassed 谐音「俺巴热死」——脸「巴」地一下涨红、热得慌就是尴尬。"
       },
       "petExam": {
         "frequency": "low",
@@ -890,7 +890,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "annoyed 谐音\"额闹的\"——被人\"闹\"得心烦、有点上火就是恼火。"
+        "tip": "annoyed 谐音「额闹的」——被人「闹」得心烦、有点上火就是恼火。"
       },
       "petExam": {
         "frequency": "medium",
@@ -999,7 +999,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "glad 谐音\"哥来的\"——听说\"哥来的\",心里一喜就是高兴。"
+        "tip": "glad 谐音「哥来的」——听说「哥来的」,心里一喜就是高兴。"
       },
       "petExam": {
         "frequency": "high",
@@ -1109,7 +1109,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "mood 谐音\"目的\"反着想——藏 mo+od,内心此刻的状态就是心情。"
+        "tip": "mood 谐音「目的」反着想——藏 mo+od,内心此刻的状态就是心情。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1146,7 +1146,7 @@
       ],
       "mnemonic": {
         "type": "root",
-        "tip": "e(向外)+mot(动,同 motion/move)+ion,心里\"动\"起来、涌出来的就是情感。"
+        "tip": "e(向外)+mot(动,同 motion/move)+ion,心里「动」起来、涌出来的就是情感。"
       },
       "petExam": {
         "frequency": "low",
@@ -1183,7 +1183,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "laugh 谐音\"拉夫\"——gh不发音,\"哈哈\"出声地就是笑。"
+        "tip": "laugh 谐音「拉夫」——gh不发音,「哈哈」出声地就是笑。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1222,7 +1222,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "cry 谐音\"卡莱\"——\"哇\"地一声掉眼泪就是哭。"
+        "tip": "cry 谐音「卡莱」——「哇」地一声掉眼泪就是哭。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1257,7 +1257,7 @@
       ],
       "mnemonic": {
         "type": "sound",
-        "tip": "smile 谐音\"斯迈欧\"——嘴角轻轻上扬、不出声地就是微笑。"
+        "tip": "smile 谐音「斯迈欧」——嘴角轻轻上扬、不出声地就是微笑。"
       },
       "petExam": {
         "frequency": "medium",
@@ -1295,7 +1295,7 @@
       ],
       "mnemonic": {
         "type": "assoc",
-        "tip": "scared 由 scare(惊吓)来,被吓得心里\"咯噔\"一下就是害怕。"
+        "tip": "scared 由 scare(惊吓)来,被吓得心里「咯噔」一下就是害怕。"
       },
       "petExam": {
         "frequency": "medium",
