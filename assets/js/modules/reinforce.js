@@ -43,7 +43,7 @@ export async function renderReinforce(app, params = {}) {
       <div class="card-cartoon text-center py-12">
         <div class="text-5xl mb-3">🎉</div>
         <div class="font-bold mb-1">太棒了，没有待强化的错词！</div>
-        <div class="text-sm text-gray-500">继续闯关，遇到难词会自动收集到这里</div>
+        <div class="text-sm text-gray-500">继续闯关，答错的词会自动收进这里</div>
       </div>
     `;
     app.querySelector('#backBtn').addEventListener('click', goBack);
@@ -150,7 +150,7 @@ export async function renderReinforce(app, params = {}) {
         <div class="text-7xl mb-3 bounce-in">🏆</div>
         <div class="big-title mb-2">突击完成！</div>
         <div class="card-cartoon my-4 bg-gradient-to-br from-green-50 to-cyan-50">
-          <div class="text-sm text-gray-600">本次毕业错词</div>
+          <div class="text-sm text-gray-600">这次毕业的错词</div>
           <div class="text-2xl font-bold text-secondary-ink my-1">${graduatedThisSession}<span class="text-lg text-gray-400"> / ${startTotal}</span></div>
           <div class="text-sm text-gray-600">个，已从错题本移除</div>
         </div>

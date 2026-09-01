@@ -113,7 +113,7 @@ export async function renderPetWordsHome(app) {
 
     <div class="card-cartoon mb-4 bg-gradient-to-r from-orange-50 to-yellow-50">
       <div class="font-bold mb-1">${src.intro}</div>
-      <div class="text-sm text-gray-600">按话题分组，选一个话题开始闯关记词。已开放 ${readyCount} / ${topics.length} 个话题。</div>
+      <div class="text-sm text-gray-600">按话题分组，选一个话题开始闯关记单词。已开放 ${readyCount} / ${topics.length} 个话题。</div>
     </div>
 
     <!-- 🔥 错词突击入口（与数字年级 words 主页同款） -->
@@ -134,7 +134,7 @@ export async function renderPetWordsHome(app) {
           <button class="pet-topic-card tap-bounce ${ready ? '' : 'pet-topic-locked'}" data-topic="${t.id}" data-ready="${ready ? 1 : 0}">
             <div class="pet-topic-icon">${t.icon || '📘'}</div>
             <div class="pet-topic-name">${t.name}</div>
-            <div class="pet-topic-status">${ready ? '▶ 开始' : '🔒 敬请期待'}</div>
+            <div class="pet-topic-status">${ready ? '▶ 开始' : '🔒 还没开放'}</div>
           </button>`;
       }).join('')}
     </div>
@@ -148,7 +148,7 @@ export async function renderPetWordsHome(app) {
         window.__nav('petlevels', { topic: btn.dataset.topic });
       } else {
         playSound('click');
-        toast('这个话题正在准备中，敬请期待～', 'info');
+        toast('这个话题还在准备中，做好了就能玩啦～', 'info');
       }
     });
   });
@@ -164,7 +164,7 @@ export async function renderPetTopicMap(app, topicId) {
   const topics = await loadTopics(src);
   const topic = topics.find(t => t.id === topicId);
   if (!topic || topic.status !== 'ready') {
-    toast('该话题暂未开放', 'info');
+    toast('这个话题还没开放哦', 'info');
     return window.__nav('words');
   }
 
@@ -178,7 +178,7 @@ export async function renderPetTopicMap(app, topicId) {
       <div class="card-cartoon empty-state">
         <span class="empty-emoji">📭</span>
         <div class="empty-text">该话题词库还在准备中</div>
-        <div class="empty-sub">敬请期待后续更新</div>
+        <div class="empty-sub">做好了就会在这里出现</div>
       </div>`;
     app.querySelector('#backBtn').addEventListener('click', () => window.__nav('words'));
     return;
@@ -202,7 +202,7 @@ export async function renderPetTopicMap(app, topicId) {
     <div class="card-cartoon mb-4 bg-gradient-to-r from-orange-50 to-yellow-50">
       <div class="flex items-center justify-between mb-2">
         <span class="font-bold">本话题进度</span>
-        <span class="text-sm text-gray-500">${learnedCount}/${words.length} 词 · ⭐${stars}</span>
+        <span class="text-sm text-gray-500">${learnedCount}/${words.length} 词 · ⭐${stars} 星</span>
       </div>
       <div class="progress-bar">
         <div class="progress-bar-fill" style="width:${words.length ? (learnedCount/words.length)*100 : 0}%"></div>
@@ -223,7 +223,7 @@ export async function renderPetTopicMap(app, topicId) {
       <div class="absolute right-3 top-3 text-5xl opacity-30">🗺️</div>
       <div class="text-xs font-bold text-orange-700 mb-1">🔥 话题闯关</div>
       <div class="text-2xl font-extrabold mb-1">${numLevels} 关 · 已通 ${cleared}</div>
-      <div class="text-xs text-gray-600 mb-3">每关 8 个单词，闯关记单词</div>
+      <div class="text-xs text-gray-600 mb-3">每关 8 个单词，边闯关边记</div>
       <div class="inline-block btn-cartoon" style="padding:8px 22px;pointer-events:none">▶ 开始闯关</div>
     </button>
   `;

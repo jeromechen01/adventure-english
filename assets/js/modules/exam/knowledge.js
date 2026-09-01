@@ -33,7 +33,7 @@ export async function renderKnowledge(app, params = {}) {
     </div>
 
     <!-- 2.2 三张卷 -->
-    <h3 class="font-bold mb-2">📄 三张卷</h3>
+    <h3 class="font-bold mb-2">📄 考卷构成</h3>
     ${facts.papers.map(p => `
       <div class="card-cartoon mb-3">
         <div class="flex items-center justify-between mb-1">
@@ -82,8 +82,8 @@ export async function renderKnowledge(app, params = {}) {
     <button id="phonicsBtn" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-br from-cyan-50 to-blue-50 mb-3">
       <div class="text-4xl">🔤</div>
       <div class="flex-1">
-        <div class="font-bold">自然拼读速修</div>
-        <div class="text-xs text-gray-500">W1-W2 每天 10 分钟 · 回报最高的一格</div>
+        <div class="font-bold">自然拼读速成</div>
+        <div class="text-xs text-gray-500">W1-W2 每天 10 分钟 · 最划算的一格</div>
       </div>
       <div class="text-2xl text-gray-300">›</div>
     </button>` : ''}
@@ -115,7 +115,7 @@ function renderPhonics(app, know) {
   function draw() {
     const c = ph.cards[idx];
     app.innerHTML = `
-      ${headerHtml('🔤 自然拼读速修')}
+      ${headerHtml('🔤 自然拼读速成')}
       <div class="text-xs text-gray-500 mb-3">${ph.why}</div>
       <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-cyan-50 to-blue-50" style="min-height:220px">
         <div class="text-xs text-gray-400 mb-2">卡片 ${idx + 1} / ${ph.cards.length}</div>

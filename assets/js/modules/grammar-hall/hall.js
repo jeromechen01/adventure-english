@@ -29,7 +29,7 @@ export async function renderGrammarHall(app, params = {}) {
 
     <div class="card-cartoon mb-4 bg-gradient-to-br from-orange-50 to-amber-50 border-2 border-orange-200">
       <div class="font-bold text-sm mb-1">🎼 英语句子 = 一支乐队</div>
-      <p class="text-sm text-gray-700">这里是 1-9 年级 50 课语法的全景地图，每一课认识乐队的一位新成员。它和 KET 备考中心的「语法八课」不冲突——八课是考前最短路径，大厅是把地基一块块补齐的长期地图。</p>
+      <p class="text-sm text-gray-700">这里是 1-9 年级 50 课语法的全景地图，每一课你会认识乐队的一位新成员。它和 KET 备考中心的「语法八课」不冲突——八课是考前的最短路径，大厅是把地基一块块补齐的长期路线。</p>
       <div class="text-xs text-gray-500 mt-2">已开放 ${openN}/50 课 · 已掌握 ${doneN} 课 · ★ = KET 相关度（0-3 星）</div>
     </div>
 

@@ -158,7 +158,7 @@ export async function renderWordsPage(app, params) {
 function renderStudyFlow(app, data, grade, unitId) {
   const unit = data.units.find(u => u.unitId === unitId);
   if (!unit) {
-    app.innerHTML = '<div class="text-center py-12 text-gray-400">单元未找到</div>';
+    app.innerHTML = '<div class="text-center py-12 text-gray-400">没找到这个单元，回去重新选一个吧</div>';
     return;
   }
 
@@ -202,8 +202,8 @@ function renderStudyFlow(app, data, grade, unitId) {
           </div>
         ` : ''}
 
-        ${(w.synonyms && w.synonyms.length) ? `<div class="mt-3 text-xs"><span class="text-gray-400">近义</span>: <span class="font-en">${w.synonyms.join(', ')}</span></div>` : ''}
-        ${(w.antonyms && w.antonyms.length) ? `<div class="text-xs"><span class="text-gray-400">反义</span>: <span class="font-en">${w.antonyms.join(', ')}</span></div>` : ''}
+        ${(w.synonyms && w.synonyms.length) ? `<div class="mt-3 text-xs"><span class="text-gray-400">近义</span>：<span class="font-en">${w.synonyms.join(', ')}</span></div>` : ''}
+        ${(w.antonyms && w.antonyms.length) ? `<div class="text-xs"><span class="text-gray-400">反义</span>：<span class="font-en">${w.antonyms.join(', ')}</span></div>` : ''}
 
         ${mnemonicHtml(w)}
       </div>
@@ -239,7 +239,7 @@ function renderStudyFlow(app, data, grade, unitId) {
       storage.markWordLearned(w.id);
       storage.recordWordResult(w.id, false);
       playSound('wrong');
-      toast('已加入错题本，下次再练习', 'warn');
+      toast('已收进错题本，之后可以去那里再练', 'warn');
       idx++;
       renderCurrent();
     });
@@ -247,7 +247,7 @@ function renderStudyFlow(app, data, grade, unitId) {
     const readBtn = app.querySelector('#readAloudBtn');
     if (readBtn) {
       readBtn.addEventListener('click', async () => {
-        readBtn.textContent = '🎤 请说: ' + w.word;
+        readBtn.textContent = '🎤 请说：' + w.word;
         readBtn.disabled = true;
         try {
           const handle = recognize();
@@ -259,10 +259,10 @@ function renderStudyFlow(app, data, grade, unitId) {
           } else if (score >= 50) {
             toast(`不错！${score} 分，可以更好`, 'info');
           } else {
-            toast(`再试一次，${score} 分`, 'warn');
+            toast(`${score} 分，再试一次吧`, 'warn');
           }
         } catch (e) {
-          toast('未识别，请重试', 'error');
+          toast('没听清，再说一次', 'error');
         }
         readBtn.textContent = '🎤 跟读这个单词';
         readBtn.disabled = false;

@@ -320,7 +320,7 @@ export function getDailyTasks() {
     data = {
       date: today,
       tasks: [
-        { id: 'words10', title: '今日学习 10 个新单词', target: 10, current: 0, reward: 30, done: false },
+        { id: 'words10', title: '今天学 10 个新单词', target: 10, current: 0, reward: 30, done: false },
         { id: 'reading1', title: '完成 1 篇阅读', target: 1, current: 0, reward: 20, done: false },
         { id: 'grammar3', title: '答对 3 道语法题', target: 3, current: 0, reward: 20, done: false }
       ]
@@ -732,10 +732,10 @@ export function getExamDecision(level) {
   const last = list[list.length - 1][1];
   const scaled = last.scaled || 0;
   const say = (verdict, tpl) => ({ scaled, verdict, action: fillSeason(tpl) });
-  if (scaled >= 134) return say('超预期', '报{本考季}并冲 A（140+）→ 认定 B1');
+  if (scaled >= 134) return say('超预期', '报{本考季}，冲 A（140+，证书上会标 B1）');
   if (scaled >= 120) return say('已过 A2 线', '报{本考季}，冲 B（133+）');
   if (scaled >= 110) return say('接近及格', '报{本考季}，争 120+');
-  return say('尚未到位', '暂不报{本考季}，目标{下一考季}');
+  return say('再练一练', '先不报{本考季}，把目标放到{下一考季}');
 }
 
 // === 写作草稿 ===

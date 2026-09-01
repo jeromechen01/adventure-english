@@ -17,9 +17,9 @@ function todayISO() {
 
 // 护栏状态：与备考中心 120 分钟护栏同一口径、同一话术方向（超时=劝休息，绝不鼓励继续）
 function guardStatus(totalMin) {
-  if (totalMin > 150) return { cls: 'border-orange-300 bg-orange-50', text: '今天时间已经很长了，请一定休息 🌿 记忆效率在下降，明天再学效果更好。' };
-  if (totalMin > 120) return { cls: 'border-orange-300 bg-orange-50', text: '今天已经够了，该休息啦 💪 明年还愿意学，比这个月学到饱重要。' };
-  if (totalMin >= 90) return { cls: 'border-yellow-300 bg-yellow-50', text: '今天学得不错，注意劳逸结合，到 120 分钟就收。' };
+  if (totalMin > 150) return { cls: 'border-orange-300 bg-orange-50', text: '今天已经学了很久，一定要休息了 🌿 记忆效率在下降，明天再学效果更好。' };
+  if (totalMin > 120) return { cls: 'border-orange-300 bg-orange-50', text: '今天已经够了，该休息啦 💪 明年还愿意学，比这个月学得多更重要。' };
+  if (totalMin >= 90) return { cls: 'border-yellow-300 bg-yellow-50', text: '今天学得不错，注意劳逸结合，到 120 分钟就先停下来。' };
   return { cls: 'border-gray-200', text: '每天 90 分钟是合理节奏，120 分钟是上限。' };
 }
 
@@ -78,7 +78,7 @@ export function renderStudyStats(app) {
       <button id="statsBackBtn" class="text-2xl tap-bounce" style="min-width:48px;min-height:48px">‹</button>
       <h2 class="text-xl font-bold">⏱ 学习时长</h2>
     </div>
-    <p class="text-xs text-gray-400 mb-4">给家长的了解工具：看时间分布和趋势，不比多、不比快。</p>
+    <p class="text-xs text-gray-400 mb-4">这一页是给家长看的：只看时间分布和趋势，不比多、不比快。</p>
 
     <!-- 今日概览 + 护栏状态 -->
     <div class="card-cartoon mb-4 border-2 ${guard.cls}">
@@ -117,7 +117,7 @@ export function renderStudyStats(app) {
           return `<div class="flex-1 text-center text-cap ${isToday ? 'font-bold text-primary-ink' : 'text-gray-400'}">${isToday ? '今天' : '周' + weekdays[dt.getDay()]}</div>`;
         }).join('')}
       </div>
-      <p class="text-cap text-gray-400 mt-2">数字为分钟；橙色表示超过 120 分钟（提醒休息，不是成就）。</p>
+      <p class="text-cap text-gray-400 mt-2">数字是分钟；橙色表示超过 120 分钟（提醒休息，不是成就）。</p>
     </div>
 
     <!-- 近 30 天模块累计：帮家长发现盲区 -->

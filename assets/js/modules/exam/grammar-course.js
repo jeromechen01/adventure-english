@@ -91,12 +91,12 @@ export async function renderGrammarCourse(app, params = {}) {
       </button>
       <button data-view="errors" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-red-50 to-pink-50">
         <span class="text-3xl">🚦</span>
-        <div class="flex-1"><div class="font-bold text-sm">8 类中式错误 · 三色分区</div><div class="text-xs text-gray-500">只有红区会挡意思，只打红区</div></div>
+        <div class="flex-1"><div class="font-bold text-sm">8 类中式错误 · 三色分区</div><div class="text-xs text-gray-500">只有红区会挡住意思，先集中改红区</div></div>
         <span class="text-xl text-gray-300">›</span>
       </button>
       <button data-view="inventory" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-cyan-50 to-blue-50">
         <span class="text-3xl">📜</span>
-        <div class="flex-1"><div class="font-bold text-sm">考纲语法项 + Part 5 速成 + 满分档事实</div><div class="text-xs text-gray-500">语法值多少分，一张表看清</div></div>
+        <div class="flex-1"><div class="font-bold text-sm">考纲语法项 + Part 5 速成 + 满分卷长什么样</div><div class="text-xs text-gray-500">语法值多少分，一张表看清</div></div>
         <span class="text-xl text-gray-300">›</span>
       </button>
     </div>
@@ -257,7 +257,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex, fromMistakes) {
       <div class="card-cartoon text-center mb-4 ${pass ? 'bg-green-50' : 'bg-yellow-50'}">
         <div class="text-6xl mb-2">${pass ? '🎉' : '💪'}</div>
         <div class="text-2xl font-black">${correctN} / ${total}</div>
-        <p class="text-sm text-gray-600 mt-2">${pass ? '这课掌握了！记得今天把它「用出来」——只做题不输出＝没学。' : '没关系，回讲解再看一遍，明天再来一次。'}</p>
+        <p class="text-sm text-gray-600 mt-2">${pass ? '这课掌握了！记得今天把它「用出来」——说一句、写一句，用出来才算真的会。' : '没关系，回讲解再看一遍，明天再来一次。'}</p>
       </div>
       <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3">再练一遍</button>
       <button id="homeBtn" class="w-full btn-cartoon">回语法八课</button>
@@ -486,7 +486,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex, fromMistakes) {
               <span class="text-2xl">${locked ? '🔒' : passed ? '✅' : ['🌱', '🎯', '⚔️', '🏆'][i] || '📝'}</span>
               <div class="flex-1">
                 <div class="font-bold text-sm">环节 ${s.stage} · ${s.name} <span class="text-amber-700">${stars}</span></div>
-                <div class="text-xs text-gray-500">${best !== null ? `最好成绩 ${best}/${Math.min(STAGE_TAKE, s.questions.length)}${passed ? ' · 已通过' : ''}` : locked ? '先通过上一环节解锁' : `${Math.min(STAGE_TAKE, s.questions.length)} 题 · 未挑战`}</div>
+                <div class="text-xs text-gray-500">${best !== null ? `最好成绩 ${best}/${Math.min(STAGE_TAKE, s.questions.length)}${passed ? ' · 已通过' : ''}` : locked ? '通过上一环节才能解锁' : `${Math.min(STAGE_TAKE, s.questions.length)} 题 · 未挑战`}</div>
               </div>
               <span class="text-xl text-gray-300">›</span>
             </div>
@@ -517,7 +517,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex, fromMistakes) {
     } else {
       const picked = pickQuiz(scope, srcQuestions, STAGE_TAKE, storage.getQuizStats());
       questions = picked.questions.map(q => presentQuestion(scope, q));
-      if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+      if (picked.focusedWrong) toast('🎯 这一轮多放了几道你之前做错的题');
     }
     let idx = 0, correctN = 0, answered = false;
     const wrongList = [];
@@ -643,7 +643,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex, fromMistakes) {
         <div class="card-cartoon text-center mb-4 ${pass ? 'bg-green-50' : 'bg-yellow-50'}">
           <div class="text-6xl mb-2">${pass ? '🎉' : '💪'}</div>
           <div class="text-2xl font-black">${correctN} / ${total}</div>
-          <p class="text-sm text-gray-600 mt-2">${pass ? (unlockedMsg || '通过！记得今天把它「用出来」——只做题不输出＝没学。') : '差一点点，看看下面的错题，重练一遍就能过。'}</p>
+          <p class="text-sm text-gray-600 mt-2">${pass ? (unlockedMsg || '通过！记得今天把它「用出来」——说一句、写一句，用出来才算真的会。') : '差一点点，看看下面的错题，重练一遍就能过。'}</p>
         </div>
         ${wrongList.length ? `<button id="retryWrongBtn" class="w-full btn-cartoon mb-3" style="min-height:48px">🔁 错题重练（${wrongList.length} 题）</button>` : ''}
         <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🎲 换一批重做（题目会变）</button>
@@ -729,7 +729,7 @@ function renderErrors(app, errors) {
   app.innerHTML = `
     ${headerHtml('🚦 8 类中式错误 · 三色分区')}
     <div class="card-cartoon mb-4 border-2 border-amber-300 bg-amber-50">
-      <div class="font-bold text-sm mb-2">读表关键</div>
+      <div class="font-bold text-sm mb-2">怎么看这张表</div>
       ${errors.readingKey.map(k => `<p class="text-sm text-gray-700 mb-2">· ${k}</p>`).join('')}
     </div>
     <div class="space-y-2 mb-4">

@@ -132,7 +132,7 @@ function topicCard(t) {
 
 function renderTopic(app, topic, samplesData) {
   if (!topic) {
-    app.innerHTML = '<div class="text-center py-12 text-gray-400">话题未找到</div>';
+    app.innerHTML = '<div class="text-center py-12 text-gray-400">没找到这个话题，回列表重新选一个吧</div>';
     return;
   }
 
@@ -361,9 +361,9 @@ function grade(text, topic) {
   let spellingScore = Math.round(25 * (1 - Math.min(spellingErrorRate * 3, 1)));
   spellingScore = Math.max(0, spellingScore);
   if (suspicious.length > 0 && suspicious.length <= 5) {
-    issues.push({ type: 'warn', message: `可能拼写有误: ${suspicious.slice(0,5).join(', ')}` });
+    issues.push({ type: 'warn', message: `这几个词可能拼错了：${suspicious.slice(0,5).join(', ')}` });
   } else if (suspicious.length > 5) {
-    issues.push({ type: 'error', message: `较多可能拼写错误，请仔细检查: ${suspicious.slice(0,5).join(', ')}...` });
+    issues.push({ type: 'error', message: `可能有较多拼写错误，仔细检查一下：${suspicious.slice(0,5).join(', ')}...` });
   }
 
   // 维度 2: 语法 (满分 25)
@@ -395,7 +395,7 @@ function grade(text, topic) {
     const has3rdSingS = /\b(he|she|it)\s+\w+s\b/i.test(text);
     if (has3rdSingS && !/\bwas\b|\bwere\b|\bdid\b|ed\b/i.test(text)) {
       grammarScore -= 4;
-      issues.push({ type: 'warn', message: '出现表示过去的时间词，但部分动词可能没有用过去式' });
+      issues.push({ type: 'warn', message: '文章里有表示过去的时间词，但有些动词还没改成过去式' });
     }
   }
 
@@ -447,7 +447,7 @@ function grade(text, topic) {
   const repetitive = Object.entries(wordFreq).filter(([,c]) => c >= 4);
   if (repetitive.length > 0) {
     vocabScore -= 2;
-    issues.push({ type: 'info', message: `这些词重复较多: ${repetitive.slice(0,3).map(([w])=>w).join(', ')}，可换近义词` });
+    issues.push({ type: 'info', message: `这几个词用得有点多：${repetitive.slice(0,3).map(([w])=>w).join(', ')}，可以换成近义词` });
   }
   vocabScore = Math.min(25, Math.max(0, vocabScore));
 
@@ -467,7 +467,7 @@ function grade(text, topic) {
   }
   // 句子数
   if (sentences.length >= 4) structureScore += 5;
-  else { structureScore += sentences.length; issues.push({ type: 'warn', message: '句子数量较少，建议拓展内容' }); }
+  else { structureScore += sentences.length; issues.push({ type: 'warn', message: '句子有点少，可以再多写几句' }); }
   // 连接词
   const connectors = ['first','second','third','then','finally','however','therefore','because','also','besides','moreover','in addition','for example','but','and'];
   const connectorHits = connectors.filter(c => new RegExp(`\\b${escapeRegex(c)}\\b`, 'i').test(text)).length;

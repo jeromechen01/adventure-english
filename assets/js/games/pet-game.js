@@ -53,7 +53,7 @@ export function renderPetGame(app) {
         <div>
           <div class="flex justify-between text-xs">
             <span>⭐ 经验</span>
-            <span>${pet.exp}${nextStage ? ' / ' + nextStage.minExp : ' (满级)'}</span>
+            <span>${pet.exp}${nextStage ? ' / ' + nextStage.minExp : '（满级）'}</span>
           </div>
           <div class="progress-bar mt-1"><div class="progress-bar-fill" style="width:${expProgress}%"></div></div>
         </div>
@@ -67,7 +67,7 @@ export function renderPetGame(app) {
         <button id="feedBtn" class="card-cartoon tap-bounce text-center bg-orange-50">
           <div class="text-3xl">🍞</div>
           <div class="text-xs font-bold mt-1">单词面包</div>
-          <div class="text-cap text-gray-500">5🪙 +20饱食</div>
+          <div class="text-cap text-gray-500">5🪙 +20 饱食度</div>
         </button>
         <button id="playBtn" class="card-cartoon tap-bounce text-center bg-cyan-50">
           <div class="text-3xl">🎾</div>
@@ -90,7 +90,7 @@ export function renderPetGame(app) {
         `).join('')}
       </div>
       <div class="text-xs text-gray-500 text-center mt-3">
-        ${nextStage ? `还差 ${expToNext} 经验进化为 ${nextStage.name}` : '已达到最终形态！'}
+        ${nextStage ? `再攒 ${expToNext} 点经验就能进化成 ${nextStage.name}` : '已达到最终形态！'}
       </div>
       <div class="text-xs text-gray-400 text-center mt-1">每学一个新单词宠物 +2 经验</div>
     </div>
@@ -100,7 +100,7 @@ export function renderPetGame(app) {
 
   app.querySelector('#feedBtn').addEventListener('click', () => {
     if (!storage.spendCoins(5)) {
-      toast('金币不足！多学单词赚金币吧', 'warn');
+      toast('金币不够啦，去闯几关就有了～', 'warn');
       return;
     }
     storage.feedPet(20);

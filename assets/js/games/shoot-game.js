@@ -7,7 +7,7 @@ import { enterFocus, exitFocus } from '../app.js';
 export function renderShootGame(app, data, grade) {
   const allWords = data.units.flatMap(u => u.words);
   if (allWords.length < 6) {
-    app.innerHTML = '<div class="text-center py-12 text-gray-400">单词数量不足</div>';
+    app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">🎯</span><div class="empty-text">这里的单词还不够玩</div><div class="empty-sub">先去学几个新单词再来挑战吧！</div></div>';
     return;
   }
 
@@ -41,7 +41,7 @@ export function renderShootGame(app, data, grade) {
         <h3 class="text-xl font-bold mb-2">60 秒挑战</h3>
         <p class="text-sm text-gray-600 mb-1">屏幕显示中文，点击正确的英文单词</p>
         <p class="text-sm text-gray-600 mb-1">每答对一个 +10 🪙，连击有奖励</p>
-        <p class="text-sm text-gray-600 mb-6">错 3 次或时间到游戏结束</p>
+        <p class="text-sm text-gray-600 mb-6">错 3 次，或者时间到，这一局就结束</p>
         <button id="startBtn" class="btn-cartoon">🚀 开始挑战</button>
       </div>
     `;

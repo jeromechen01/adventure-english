@@ -26,7 +26,7 @@ export async function renderExamHub(app) {
 
   const t = await getTodayTasks(level);
   if (!t) {
-    app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">📚</span><div class="empty-text">计划数据加载失败</div><div class="empty-sub">请检查网络后刷新</div></div>';
+    app.innerHTML = '<div class="card-cartoon empty-state"><span class="empty-emoji">📚</span><div class="empty-text">计划数据加载失败</div><div class="empty-sub">请检查网络后刷新重试</div></div>';
     return;
   }
   const { plan, day, dayData, doneMap } = t;
@@ -102,7 +102,7 @@ export async function renderExamHub(app) {
       ${doneCount >= dayData.slots.length ? `
         <button id="finishDayBtn" class="w-full btn-cartoon mt-3">🎉 完成今天 → 进入 Day ${Math.min(day + 1, plan.totalDays)}</button>
       ` : doneCount >= minDone ? `
-        <button id="finishDayBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-3">已完成 ${doneCount} 格，也可以收工 → Day ${Math.min(day + 1, plan.totalDays)}</button>
+        <button id="finishDayBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-3">已完成 ${doneCount} 格，够了就收工 → Day ${Math.min(day + 1, plan.totalDays)}</button>
       ` : ''}
     </div>
 
@@ -200,7 +200,7 @@ async function renderPetHub(app) {
         ['words', '🚀', 'PET 话题词库闯关', '22 个话题，主线任务'],
         ['reading', '📖', 'PET 阅读', '15 篇 B1 阅读'],
         ['exam-knowledge', '💡', 'PET 考试知识点', '4 张卷 / 量表 153+ 目标'],
-        ['exam-mock', '📝', 'PET 体验卷', '感受 B1 跨度（KET 后再正式练）'],
+        ['exam-mock', '📝', 'PET 体验卷', '先感受 B1 的难度（KET 之后再正式练）'],
         ['exam-resources', '🔗', '官方资源', 'PET 样卷/词表/评分标准外链']
       ].map(([page, icon, name, desc]) => `
         <button data-nav="${page}" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left" style="padding:12px 14px">
@@ -220,7 +220,7 @@ function renderSetup(app, level, ep) {
     <div class="card-cartoon text-center mb-4 bg-gradient-to-br from-amber-50 to-orange-50">
       <div class="text-6xl mb-2">🗝️</div>
       <h2 class="text-xl font-bold mb-1">KET 备考中心</h2>
-      <p class="text-sm text-gray-600">45 天核心期 · 每天 90 分钟 · 目标 ${c.targetScore}+（A 等 = 证书认定 B1）</p>
+      <p class="text-sm text-gray-600">45 天核心期 · 每天 90 分钟 · 目标 ${c.targetScore}+（A 等 = 证书上标 B1）</p>
     </div>
     <div class="card-cartoon mb-4">
       <div class="font-bold text-sm mb-2">① 考试日期（可以随时改）</div>
@@ -229,7 +229,7 @@ function renderSetup(app, level, ep) {
       <div class="text-xs text-gray-500 mt-2">📍 ${esc(c.registerTip || '')}</div>
     </div>
     <div class="card-cartoon mb-4 bg-blue-50">
-      <div class="text-sm text-gray-700">② 没有「起始日期」这回事——计划进度由完成度推进：<b>学了就前进，没学就原地等你，永远不欠账。</b></div>
+      <div class="text-sm text-gray-700">② 这里不设「起始日期」——计划进度由完成度推进：<b>学了就前进，没学就原地等你，永远不欠账。</b></div>
     </div>
     <button id="startBtn" class="w-full btn-cartoon">🚀 开始第 1 天</button>
   `;

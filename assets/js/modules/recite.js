@@ -20,7 +20,7 @@ export function renderRecite(app, article, onBack) {
     </div>
     ${!isSpeechRecognitionSupported() ? `
       <div class="card-cartoon mb-3 bg-yellow-50 text-sm text-orange-700">
-        ⚠️ 当前浏览器不支持语音识别，跟读/背诵打分可能无法使用。建议用手机或电脑版 Chrome。
+        ⚠️ 当前浏览器不支持语音识别，跟读和背诵打分用不了；换手机或电脑版 Chrome 就可以。
       </div>` : ''}
     <div class="space-y-3">
       <button id="followBtn" class="w-full card-cartoon tap-bounce flex items-center gap-4 text-left bg-gradient-to-br from-cyan-50 to-blue-50">
@@ -93,7 +93,7 @@ function renderFollow(app, article, onBack) {
     const recBtn = app.querySelector('#recBtn');
     recBtn.addEventListener('click', async () => {
       if (!isSpeechRecognitionSupported()) { toast('当前浏览器不支持语音识别', 'error'); return; }
-      recBtn.textContent = '🎤 录音中…请朗读';
+      recBtn.textContent = '🎤 录音中…开始读吧';
       recBtn.disabled = true;
       try {
         const handle = recognize();

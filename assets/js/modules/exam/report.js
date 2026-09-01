@@ -29,7 +29,7 @@ export async function renderReport(app) {
 
   // 三项趋势柱状
   const trendHtml = done.length === 0
-    ? '<div class="text-sm text-gray-400 text-center py-4">还没有模考记录——Day 1 的模考 1 做完就有了</div>'
+    ? '<div class="text-sm text-gray-400 text-center py-4">还没有模考记录——做完 Day 1 的模考 1 就有了</div>'
     : `
     <div class="flex items-end gap-4 justify-around" style="height:150px">
       ${done.map(m => {
@@ -69,7 +69,7 @@ export async function renderReport(app) {
         <button id="weakBtn" class="w-full btn-cartoon">直达 ${PART_NAMES[weakest.part] || weakest.part} 专项 ›</button>
       ` : '<p class="text-sm text-gray-400">做过模考后，这里会告诉你先补哪个 Part。</p>'}
       ${mistakes > 0 ? `
-      <button id="mistakeBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-2">错词突击（${mistakes} 个待毕业）›</button>` : ''}
+      <button id="mistakeBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-2">错词突击（${mistakes} 个待强化）›</button>` : ''}
     </div>
 
     <div class="card-cartoon mb-4">

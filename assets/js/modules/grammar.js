@@ -31,7 +31,7 @@ export async function renderGrammarPage(app, params) {
     ${isPet ? `
     <div class="card-cartoon mb-3 bg-gradient-to-r from-sky-50 to-cyan-50 border-2 border-sky-200">
       <div class="font-bold text-sm mb-1">📌 PET 模式说明</div>
-      <p class="text-xs text-gray-600 mb-2">PET 专属语法课还在准备中，这里先用「初中语法」打底。想系统学语法，推荐 50 课全景的语法大厅。</p>
+      <p class="text-xs text-gray-600 mb-2">PET 专属语法课还在准备中，这里先用「初中语法」打底。想系统学语法，可以去语法大厅——50 课一张全景地图。</p>
       <button id="toHallBtn" class="w-full btn-cartoon btn-cartoon-secondary" style="min-height:48px">🏛️ 去语法大厅（50 课全景）</button>
     </div>` : ''}
     <div class="space-y-2">
@@ -58,7 +58,7 @@ export async function renderGrammarPage(app, params) {
 function renderTopic(app, data, topicId) {
   const topic = data.topics.find(t => t.id === topicId);
   if (!topic) {
-    app.innerHTML = '<div class="text-center py-12 text-gray-400">语法点未找到</div>';
+    app.innerHTML = '<div class="text-center py-12 text-gray-400">没找到这个语法点，回列表重新选一个吧</div>';
     return;
   }
 
@@ -72,7 +72,7 @@ function renderTopic(app, data, topicId) {
     const scope = `g19:${topicId}`;
     const picked = pickQuiz(scope, topic.quiz, topic.quiz.length, storage.getQuizStats());
     quizList = picked.questions.map(q => presentQuestion(scope, q));
-    if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+    if (picked.focusedWrong) toast('🎯 这一轮多放了几道你之前做错的题');
   }
 
   function render() {
@@ -110,7 +110,7 @@ function renderTopic(app, data, topicId) {
         `).join('')}
       </div>
 
-      <button id="quizBtn" class="w-full btn-cartoon">🎯 开始练习 (${topic.quiz.length} 题)</button>
+      <button id="quizBtn" class="w-full btn-cartoon">🎯 开始练习（${topic.quiz.length} 题）</button>
     `;
     app.querySelector('#backBtn').addEventListener('click', () => window.__nav('grammar'));
     app.querySelector('#quizBtn').addEventListener('click', () => {
@@ -208,7 +208,7 @@ function renderTopic(app, data, topicId) {
         <div class="card-cartoon my-4 bg-gradient-to-br from-cyan-50 to-blue-50">
           <div class="text-sm">${topic.title}</div>
           <div class="text-2xl font-bold text-primary-ink my-2">${qScore} / ${total}</div>
-          <div class="text-sm">${percent === 100 ? '满分！知识点掌握得很扎实' : percent >= 60 ? '通过了，再练几遍会更好' : '建议再回去复习一下规则'}</div>
+          <div class="text-sm">${percent === 100 ? '满分！知识点掌握得很扎实' : percent >= 60 ? '通过了，再练几遍会更好' : '先回去把规则再看一遍，再来挑战'}</div>
         </div>
         <button id="redoBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-6">🎲 换一批重做（题目会变）</button>
         <div class="flex gap-3 mt-3">

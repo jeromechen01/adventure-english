@@ -107,13 +107,13 @@ function renderTask(app, level, g, task, partKey) {
           ${task.points.map(pt => `<div class="text-xs text-gray-600">· ${esc(pt)}</div>`).join('')}
           <div class="text-xs text-orange-700 mt-2">写 ${minWords} 词以上</div>
         ` : `
-          <div class="text-xs font-bold mb-2">三幅图（文字描述的原创场景）：</div>
+          <div class="text-xs font-bold mb-2">三幅图（用文字描述的场景）：</div>
           ${task.scenes.map((s, i) => `
             <div class="flex gap-2 mb-2">
               <span class="text-2xl">${['1️⃣', '2️⃣', '3️⃣'][i]}</span>
               <span class="text-sm text-gray-700 flex-1">${esc(s)}</span>
             </div>`).join('')}
-          <div class="text-xs text-orange-700 mt-1">写 ${minWords} 词以上 · 时态全程一致（过去调）</div>
+          <div class="text-xs text-orange-700 mt-1">写 ${minWords} 词以上 · 时态全程用过去时</div>
         `}
       </div>
 

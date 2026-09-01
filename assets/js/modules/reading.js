@@ -125,7 +125,7 @@ export async function renderReadingPage(app, params) {
 async function renderArticle(app, data, articleId) {
   const article = data.articles.find(a => a.id === articleId);
   if (!article) {
-    app.innerHTML = '<div class="text-center py-12 text-gray-400">文章未找到</div>';
+    app.innerHTML = '<div class="text-center py-12 text-gray-400">没找到这篇文章，回列表重新选一篇吧</div>';
     return;
   }
 
@@ -166,7 +166,7 @@ async function renderArticle(app, data, articleId) {
         <button id="reciteBtn" class="btn-cartoon text-sm">🎤 跟读背诵</button>
       </div>
 
-      <button id="quizBtn" class="w-full btn-cartoon">📝 完成阅读后做题 (${quizQuestions.length} 题)</button>
+      <button id="quizBtn" class="w-full btn-cartoon">📝 读完了，去做题（${quizQuestions.length} 题）</button>
     `;
 
     app.querySelector('#backBtn').addEventListener('click', () => { stopSpeaking(); window.__nav('reading'); });
@@ -222,7 +222,7 @@ async function renderArticle(app, data, articleId) {
         <div class="text-sm">${info.pos || ''} ${info.meaning}</div>
       ` : `
         <div class="font-en font-bold" style="padding-right:36px">${word}</div>
-        <div class="text-xs text-gray-500 mt-1">该词不在本地词库中</div>
+        <div class="text-xs text-gray-500 mt-1">这个词还没收进词库里</div>
       `}
     `;
 
@@ -247,7 +247,7 @@ async function renderArticle(app, data, articleId) {
     const scope = `read:${article.id}`;
     const picked = pickQuiz(scope, quizQuestions, quizQuestions.length, storage.getQuizStats());
     const qs = picked.questions.map(q => presentQuestion(scope, q));
-    if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+    if (picked.focusedWrong) toast('🎯 这一轮多放了几道你之前做错的题');
     let answers = new Array(qs.length).fill(null);
     let submitted = false;
 

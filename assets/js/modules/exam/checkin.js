@@ -38,7 +38,7 @@ export async function renderCheckin(app) {
     <!-- 状态卡：不做连续天数，不做欠账 -->
     <div class="card-cartoon mb-4 bg-gradient-to-br from-green-50 to-emerald-50">
       <div class="grid grid-cols-2 gap-3 text-center">
-        <div><div class="text-2xl font-black text-primary-ink">Day ${day}/${plan.totalDays}</div><div class="text-xs text-gray-500">已完成进度（学了才前进）</div></div>
+        <div><div class="text-2xl font-black text-primary-ink">Day ${day}/${plan.totalDays}</div><div class="text-xs text-gray-500">计划进度（学了才往前）</div></div>
         <div><div class="text-2xl font-black text-green-700">${weekDays} 天</div><div class="text-xs text-gray-500">本周学习</div></div>
       </div>
     </div>
@@ -59,7 +59,7 @@ export async function renderCheckin(app) {
           </div>`;
         }).join('')}
       </div>
-      <div class="text-xs text-gray-400 mt-2">今日已投入约 ${Math.max(todayMin, storage.getStudyTodayMinutes())} 分钟${Math.max(todayMin, storage.getStudyTodayMinutes()) > 120 ? ' · 今天已经够了，明天再来 💪' : ''} · <button id="toTimeStatsBtn" class="underline">查看时长分布</button></div>
+      <div class="text-xs text-gray-400 mt-2">今天已经学了约 ${Math.max(todayMin, storage.getStudyTodayMinutes())} 分钟${Math.max(todayMin, storage.getStudyTodayMinutes()) > 120 ? ' · 今天已经够了，明天再来 💪' : ''} · <button id="toTimeStatsBtn" class="underline">查看时长分布</button></div>
     </div>
 
     <!-- 热力图日历（真实日期，如实显示） -->
@@ -87,10 +87,10 @@ export async function renderCheckin(app) {
     <!-- ★ 健康护栏（刚性需求，不是装饰） -->
     <div class="card-cartoon border-2 border-green-300 bg-green-50">
       <h3 class="font-bold mb-2">🌿 健康护栏</h3>
-      <p class="text-sm text-gray-700 mb-2">每天 90 分钟、每周建议至少休一天，是 11 岁孩子的合理节奏。</p>
-      <p class="text-sm text-gray-700 mb-2">再往上加，三件事会同时发生：记忆效率下降、对英语产生抵触、生活被榨干。</p>
-      <p class="text-sm text-gray-700 mb-2">这是一场要打很久的仗——<b>一年后还愿意学的孩子，比这个月被榨干的孩子走得远得多。</b></p>
-      <p class="text-sm text-gray-700">乐团练习、每天户外、充足睡眠，一样都别砍。</p>
+      <p class="text-sm text-gray-700 mb-2">每天 90 分钟、每周至少休息一天，是这个年纪的孩子合理的节奏。</p>
+      <p class="text-sm text-gray-700 mb-2">再往上加，往往同时出现三个问题：记忆效率下降、对英语产生抵触、休息和玩的时间被挤掉。</p>
+      <p class="text-sm text-gray-700 mb-2">这是一条要走很久的路——<b>一年后还愿意学的孩子，比这个月学到厌烦的孩子走得远得多。</b></p>
+      <p class="text-sm text-gray-700">乐团练习、每天的户外活动、充足的睡眠，一样都不能少。</p>
     </div>
   `;
 

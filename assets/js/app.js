@@ -463,7 +463,7 @@ async function renderMistakes(app, params = {}) {
       <div class="card-cartoon empty-state">
         <span class="empty-emoji">🦊</span>
         <div class="empty-text">现在这里是空的</div>
-        <div class="empty-sub">做题中出错的单词和题目，会安静地收在这里，方便回头看看。</div>
+        <div class="empty-sub">做错的单词和题目会安静地收在这里，方便回头看看。</div>
       </div>
     `;
     return;
@@ -571,7 +571,7 @@ async function renderMistakes(app, params = {}) {
 function quizMistakeCardHtml(e, srcLabel) {
   const isDet = e.kind === 'detective';
   const from = [e.lesson, e.lessonTitle].filter(Boolean).join(' · ') || e.lessonTitle || '';
-  const meta = [srcLabel.replace(/^[^\s]+\s/, ''), from, e.stage ? `环节 ${e.stage}` : '', e.n > 1 ? `错过 ${e.n} 次` : '']
+  const meta = [srcLabel.replace(/^[^\s]+\s/, ''), from, e.stage ? `环节 ${e.stage}` : '', e.n > 1 ? `答错 ${e.n} 次` : '']
     .filter(Boolean).join(' · ');
   return `
     <div class="card-cartoon" data-qk="${esc2(e.qk)}" data-lesson="${e.lesson || ''}">
@@ -675,7 +675,7 @@ function renderMe(app) {
     </div>
 
     <div class="text-center text-xs text-gray-400 mt-6">
-      英语奇遇记 v0.3 · PET 备考框架版<br>
+      英语奇遇记 · KET/PET 备考版<br>
       数据全部保存在本机，不上传任何信息
     </div>
   `;
@@ -768,7 +768,7 @@ async function showGradePicker() {
       <h3 class="font-bold text-lg text-center mb-4">选择你的年级</h3>
       <div class="grid grid-cols-3 gap-2">
         ${[1,2,3,4,5,6,7,8,9].map(g => {
-          const stage = g <= 2 ? '学前' : g <= 6 ? '小学' : '初中';
+          const stage = g <= 2 ? '低年级' : g <= 6 ? '小学' : '初中';
           const icon = g <= 2 ? '🌱' : g <= 6 ? '📗' : '📘';
           return `
             <button data-grade="${g}" class="card-cartoon tap-bounce ${profile.grade===g?'ring-2 ring-primary':''}" style="padding:10px 6px">
@@ -793,7 +793,7 @@ async function showGradePicker() {
         <div class="text-3xl">🎓</div>
         <div class="flex-1">
           <div class="font-bold text-sm">PET (B1 Preliminary)</div>
-          <div class="text-cap text-gray-500">B1 话题词汇 + 阅读，KET 拿证后再来</div>
+          <div class="text-cap text-gray-500">B1 话题词汇 + 阅读，适合考完 KET 再开始</div>
         </div>
       </button>
     </div>
@@ -832,7 +832,7 @@ async function bootstrap() {
   if (newBadges.length > 0) {
     setTimeout(() => {
       newBadges.forEach((b, i) => {
-        setTimeout(() => toast(`🎉 解锁勋章: ${b.icon} ${b.name}`, 'success'), i * 1500);
+        setTimeout(() => toast(`🎉 解锁勋章：${b.icon} ${b.name}`, 'success'), i * 1500);
       });
     }, 600);
   }
@@ -912,7 +912,7 @@ function showBootError(err) {
       <div style="max-width:480px;margin:40px auto;padding:24px;background:#FFF5F5;border-radius:24px;border:2px solid #FCA5A5">
         <div style="font-size:var(--emoji-md);text-align:center">😣</div>
         <h3 style="font-size:var(--fs-h2);font-weight:bold;margin:12px 0;color:var(--c-danger-700);text-align:center">启动失败</h3>
-        <p style="font-size:var(--fs-body-sm);color:var(--c-ink-600);text-align:center;margin-bottom:12px">如果你是直接双击 HTML 打开,请改用 HTTP 服务器访问 (见 README)</p>
+        <p style="font-size:var(--fs-body-sm);color:var(--c-ink-600);text-align:center;margin-bottom:12px">如果是直接双击网页文件打开的，请改用本地服务器访问（方法见 README）</p>
         <pre style="background:#fff;padding:12px;border-radius:var(--r-xs);font-size:var(--fs-cap);color:var(--c-ink-600);overflow:auto;white-space:pre-wrap;word-break:break-all">${(err && (err.stack || err.message)) || err}</pre>
       </div>
     `;

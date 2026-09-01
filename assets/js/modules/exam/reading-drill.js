@@ -120,7 +120,7 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
   if (!positional) {
     const picked = pickQuiz(scope, items, items.length, storage.getQuizStats());
     items = picked.questions;
-    if (picked.focusedWrong) toast('🎯 本次重点安排了你之前做错的题');
+    if (picked.focusedWrong) toast('🎯 这一轮多放了几道你之前做错的题');
   }
   items = items.map(it => presentQuestion(scope, it));
 
@@ -194,7 +194,7 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
       const fb = app.querySelector('#feedback');
       fb.innerHTML = `
         <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
-          <div class="font-bold text-sm mb-1">${ok ? '✅ 对啦！' : '❌ 记下来'}</div>
+          <div class="font-bold text-sm mb-1">${ok ? '✅ 对啦！' : '❌ 再看看'}</div>
           ${ok ? '' : `<div class="text-sm mb-1">正确答案：<b class="font-en">${esc(it.options ? `${'ABC'[it.answer]}. ${it.options[it.answer]}` : it.answer)}</b></div>`}
           ${it.category ? `<div class="text-xs text-gray-500 mb-1">考点：${esc(it.category)}</div>` : ''}
           <div class="text-xs text-gray-600">${esc(it.explain || '')}</div>
@@ -244,7 +244,7 @@ async function renderReaders(app, level) {
   app.innerHTML = `
     ${headerHtml('📚 分级读物')}
     <div class="card-cartoon mb-3 bg-green-50 text-xs text-gray-600">
-      起点蓝思 200-400L，45 天内爬到 400-500L。读物必须「几乎不用查词」才有效——查词太多说明超纲了，先退一档。
+      起点蓝思 200-400L，45 天内爬到 400-500L。读物必须「几乎不用查词」才有效——查词太多说明这本太难了，先退一档。
     </div>
     ${articles.length === 0 ? '<div class="card-cartoon empty-state"><span class="empty-emoji">🚧</span><div class="empty-text">读物补充中</div></div>' : `
     <div class="space-y-2">
@@ -521,7 +521,7 @@ function renderTimed(app, level, drills) {
     ${headerHtml('⏱️ 限时模式')}
     <div class="card-cartoon mb-4 text-center">
       <div class="text-5xl mb-2">⏱️</div>
-      <p class="text-sm text-gray-600 mb-1">Part 1-5 各一套连着做，倒计时 40 分钟（官方建议阅读配时）。</p>
+      <p class="text-sm text-gray-600 mb-1">Part 1-5 各一套连着做，倒计时 40 分钟（和真考的阅读时长一致）。</p>
       <p class="text-xs text-gray-400">中途退出不保存成绩。</p>
     </div>
     <button id="goBtn" class="w-full btn-cartoon">开始！</button>

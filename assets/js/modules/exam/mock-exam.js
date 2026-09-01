@@ -87,7 +87,7 @@ function removeBar() { document.body.querySelectorAll('#mockBar').forEach(e => e
 async function startFlow(app, level, idx, meta) {
   const paper = await loadJSON(meta.file);
   if (!paper || !paper.parts) {
-    app.innerHTML = `${headerHtml('📝 ' + meta.name)}<div class="card-cartoon empty-state"><span class="empty-emoji">🚧</span><div class="empty-text">这套卷还在填充中</div></div>`;
+    app.innerHTML = `${headerHtml('📝 ' + meta.name)}<div class="card-cartoon empty-state"><span class="empty-emoji">🚧</span><div class="empty-text">这套卷还在准备中</div></div>`;
     bindBack(app, 'exam-mock');
     app.querySelector('#examBackBtn').onclick = () => renderMockExam(app, {});
     return;
@@ -189,13 +189,13 @@ async function startFlow(app, level, idx, meta) {
   function selfScore(which, text) {
     const words = (text.trim().match(/[A-Za-z']+/g) || []).length;
     app.innerHTML = `
-      ${headerHtml('自评打分（可让家长按清单判）')}
+      ${headerHtml('自评打分（也可以请家长照着清单打）')}
       <div class="card-cartoon mb-3">
         <div class="text-xs text-gray-400 mb-1">你写了 ${words} 词</div>
         <p class="font-en text-sm" style="white-space:pre-wrap">${esc(text) || '（空白）'}</p>
       </div>
       <div class="card-cartoon mb-3 text-xs text-gray-600">
-        打分参考（要点转述）：<br>
+        打分参考（按官方评分要点改写）：<br>
         · <b>12-15</b>：要点全回应/三图全写到，意思全程清楚（有小错没关系）<br>
         · <b>8-11</b>：缺一个要点，或个别句子要猜才懂<br>
         · <b>4-7</b>：只写了一半，或多处看不懂<br>
@@ -294,7 +294,7 @@ async function startFlow(app, level, idx, meta) {
         <div class="font-bold text-sm mb-1">🧭 ${fillSeason("报考决策建议（目标{本考季}）")}</div>
         <div class="text-sm">${decision.verdict} → <b>${decision.action}</b></div>
       </div>` : ''}
-      ${meta.id === 'mock-01' ? '<div class="card-cartoon mb-4 bg-green-50 text-sm text-gray-700">记住：这是起点坐标，不是审判。45 天后的模考 3 才是验收。</div>' : ''}
+      ${meta.id === 'mock-01' ? '<div class="card-cartoon mb-4 bg-green-50 text-sm text-gray-700">记住：这是起点坐标，不是成绩单。45 天后的模考 3，再看看自己走了多远。</div>' : ''}
 
       <button id="reportBtn" class="w-full btn-cartoon mb-2">看学习报告（三次模考趋势）</button>
       <button id="backBtn2" class="w-full btn-cartoon btn-cartoon-secondary">返回模考中心</button>

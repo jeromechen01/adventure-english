@@ -33,7 +33,7 @@ export function renderMatchGame(app, data, grade) {
       <div class="flex items-center justify-between mb-3">
         <button id="backBtn" class="text-2xl">‹</button>
         <div class="flex gap-3 text-sm">
-          <span>题目: ${idx + 1}/${queue.length}</span>
+          <span>题目：${idx + 1}/${queue.length}</span>
           <span class="text-primary-ink font-bold">⭐ ${score}</span>
           ${combo >= 2 ? `<span class="text-orange-700 font-bold">🔥${combo}连击</span>` : ''}
         </div>
@@ -114,7 +114,7 @@ export function renderMatchGame(app, data, grade) {
     });
     app.querySelector('#hintBtn').addEventListener('click', () => {
       if (storage.spendCoins(2)) {
-        toast(`提示: ${w.word}`, 'info');
+        toast(`提示：${w.word}`, 'info');
         speak(w.word);
       } else {
         toast('金币不足', 'warn');
@@ -137,7 +137,7 @@ export function renderMatchGame(app, data, grade) {
     // 爆炸特效
     const card = app.querySelector('#answerArea');
     card.classList.add('bounce-in');
-    showFloatingText(card, `+${reward} 🪙 ${combo >= 2 ? '🔥连击!' : ''}`, '#48BB78');
+    showFloatingText(card, `+${reward} 🪙 ${combo >= 2 ? '🔥连击！' : ''}`, '#48BB78');
 
     setTimeout(() => {
       idx++;

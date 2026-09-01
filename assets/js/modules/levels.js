@@ -105,7 +105,7 @@ export async function renderLevelMap(app, opts = {}) {
   // 进入某关
   function enterLevel(lv) {
     if (!storage.isLevelUnlocked(grade, lv)) {
-      toast('先通关前一关解锁哦', 'warn');
+      toast('先通过上一关，才能解锁这一关哦', 'warn');
       return;
     }
     const levelWords = words.slice((lv - 1) * WORDS_PER_LEVEL, lv * WORDS_PER_LEVEL);

@@ -712,7 +712,7 @@ export function startLevel(app, opts) {
         <div class="card-cartoon my-4 bg-gradient-to-br from-cyan-50 to-blue-50">
           <div class="text-sm text-gray-600">这次答对了</div>
           <div class="text-2xl font-bold text-secondary-ink my-1">${correctCount}<span class="text-lg text-gray-400"> / ${totalQ}</span></div>
-          <div class="text-sm text-gray-600">个单词，金币照样到账 🪙${coinsEarned}</div>
+          <div class="text-sm text-gray-600">个单词，金币照样归你 🪙${coinsEarned}</div>
         </div>
         <div class="text-sm text-gray-500 mb-5">再试一次说不定就过了！</div>
         <div class="flex gap-3">

@@ -17,7 +17,7 @@ export async function renderResources(app) {
   app.innerHTML = `
     ${headerHtml('🔗 官方资源中心')}
     <div class="card-cartoon mb-4 bg-blue-50 text-xs text-gray-600">
-      ${data.note} 点击即在新窗口打开官方页面；访问过的会打 ✓。
+      ${data.note} 点一下会在新窗口打开官方页面；看过的会标上 ✓。
     </div>
 
     ${data.groups.map(g => `
