@@ -128,7 +128,7 @@ export async function renderExamHub(app) {
     <!-- 九宫格入口 -->
     <div class="grid grid-cols-3 gap-3">
       ${[
-        ['exam-plan', '🗺️', '规划'], ['exam-knowledge', '💡', '知识点'], ['exam-grammar', '🎼', '语法'],
+        ['exam-plan', '🗺️', '规划'], ['exam-knowledge', '💡', '知识点'], ['exam-grammar', '🎼', '语法八课'],
         ['exam-reading', '📖', '阅读'], ['exam-writing', '✍️', '写作'], ['exam-mock', '📝', '模考'],
         ['exam-checkin', '📅', '打卡'], ['exam-resources', '🔗', '资源'], ['exam-report', '📊', '报告']
       ].map(([page, icon, name]) => `

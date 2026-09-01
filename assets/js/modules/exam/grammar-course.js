@@ -45,7 +45,7 @@ export async function renderGrammarCourse(app, params = {}) {
   const doneN = lessons.lessons.filter(l => prog[l.id] === 'done').length;
 
   app.innerHTML = `
-    ${headerHtml('🎼 语法学院 · 乐队八课')}
+    ${headerHtml('🎼 KET 语法八课')}
 
     <!-- 乐队比喻总卡 -->
     <div class="card-cartoon mb-4 bg-gradient-to-br from-indigo-50 to-purple-50">
@@ -260,7 +260,7 @@ function renderLesson(app, level, lessonsData, l, hallIndex) {
         <p class="text-sm text-gray-600 mt-2">${pass ? '这课掌握了！记得今天把它「用出来」——只做题不输出＝没学。' : '没关系，回讲解再看一遍，明天再来一次。'}</p>
       </div>
       <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3">再练一遍</button>
-      <button id="homeBtn" class="w-full btn-cartoon">回语法学院</button>
+      <button id="homeBtn" class="w-full btn-cartoon">回语法八课</button>
     `;
     // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
