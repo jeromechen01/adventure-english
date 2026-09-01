@@ -96,7 +96,7 @@ export async function renderReport(app) {
   const wb = app.querySelector('#weakBtn');
   if (wb) wb.addEventListener('click', () => window.__nav('exam-reading', { part: weakest.part }));
   const mb = app.querySelector('#mistakeBtn');
-  if (mb) mb.addEventListener('click', () => window.__nav('reinforce'));
+  if (mb) mb.addEventListener('click', () => window.__nav('reinforce', { back: 'exam-report' }));
   app.querySelector('#checkinBtn').addEventListener('click', () => window.__nav('exam-checkin'));
 }
 

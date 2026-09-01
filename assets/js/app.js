@@ -215,7 +215,7 @@ async function navigate(page, params = {}) {
     case 'me':         renderMe(app); break;
     case 'words':      await renderWordsPage(app, params); break;
     case 'levels':     await renderLevelMap(app); break;
-    case 'reinforce':  await renderReinforce(app); break;
+    case 'reinforce':  await renderReinforce(app, params); break;
     case 'grammar':    await renderGrammarPage(app, params); break;
     case 'reading':    await renderReadingPage(app, params); break;
     case 'writing':    await renderWritingPage(app, params); break;

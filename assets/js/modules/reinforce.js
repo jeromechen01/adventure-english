@@ -22,7 +22,10 @@ async function buildWordIndex() {
   return idx;
 }
 
-export async function renderReinforce(app) {
+export async function renderReinforce(app, params = {}) {
+  // B4：回来路——从错题本/报告页进来的，练完/退出回原处，不甩回 words
+  const goBack = () => params.back === 'mistakes' ? window.__nav('mistakes', { src: 'words' })
+    : window.__nav(params.back || 'words');
   const idx = await buildWordIndex();
   const allWords = Object.values(idx);
 
@@ -43,7 +46,7 @@ export async function renderReinforce(app) {
         <div class="text-sm text-gray-500">继续闯关，遇到难词会自动收集到这里</div>
       </div>
     `;
-    app.querySelector('#backBtn').addEventListener('click', () => window.__nav('words'));
+    app.querySelector('#backBtn').addEventListener('click', goBack);
     return;
   }
 
@@ -82,7 +85,7 @@ export async function renderReinforce(app) {
       </div>
     `;
 
-    app.querySelector('#backBtn').addEventListener('click', () => window.__nav('words'));
+    app.querySelector('#backBtn').addEventListener('click', goBack);
 
     app.querySelectorAll('.opt-btn').forEach(b => {
       b.addEventListener('click', () => {
@@ -154,7 +157,7 @@ export async function renderReinforce(app) {
         <button id="doneBtn" class="w-full btn-cartoon">返回</button>
       </div>
     `;
-    app.querySelector('#doneBtn').addEventListener('click', () => window.__nav('words'));
+    app.querySelector('#doneBtn').addEventListener('click', goBack);
   }
 
   renderQuestion();
