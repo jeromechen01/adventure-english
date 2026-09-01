@@ -249,6 +249,37 @@ async function examModule(page) {
 }
 
 // === 首页 ===
+// B3-1：首页四张入口卡按模式如实标注去向（KET 的语法/阅读/写作会被 navigate 改道到备考模块）
+function homeCardsHtml(grade) {
+  const mode = grade === 'KET' ? 'KET' : grade === 'PET' ? 'PET' : 'NUM';
+  const cards = {
+    NUM: [
+      ['goto-words', '🚀', '单词大冒险', '玩游戏背单词', 'from-orange-100 to-orange-50'],
+      ['goto-grammar', '🎓', '语法学院', '边学边练', 'from-cyan-100 to-cyan-50'],
+      ['goto-reading', '📖', '阅读乐园', '点词查义、跟读评分', 'from-green-100 to-green-50'],
+      ['goto-writing', '✍️', '写作工坊', '智能批改', 'from-pink-100 to-pink-50']
+    ],
+    KET: [
+      ['goto-words', '🗝️', 'KET 单词闯关', '20 话题 · 识词 + 闯关', 'from-orange-100 to-orange-50'],
+      ['goto-grammar', '🎼', 'KET 语法八课', '考前最短路径 L1-L8', 'from-cyan-100 to-cyan-50'],
+      ['goto-reading', '📖', 'KET 阅读听力', 'Part 1-5 专项 + 听力', 'from-green-100 to-green-50'],
+      ['goto-writing', '✍️', 'KET 写作实验室', 'Part 6-7 任务', 'from-pink-100 to-pink-50']
+    ],
+    PET: [
+      ['goto-words', '🎓', 'PET 单词闯关', '22 话题 · 识词 + 闯关', 'from-orange-100 to-orange-50'],
+      ['goto-grammar', '🎓', '语法学院', 'PET 暂用初中语法打底', 'from-cyan-100 to-cyan-50'],
+      ['goto-reading', '📰', 'PET 阅读', 'B1 文章 · 点词查义', 'from-green-100 to-green-50'],
+      ['goto-writing', '✍️', '写作工坊', '话题写作 + 批改', 'from-pink-100 to-pink-50']
+    ]
+  };
+  return cards[mode].map(([action, icon, title, sub, bg]) => `
+      <button data-action="${action}" class="card-cartoon tap-bounce text-left bg-gradient-to-br ${bg}">
+        <div class="text-4xl">${icon}</div>
+        <div class="font-bold mt-2">${title}</div>
+        <div class="text-xs text-gray-500 mt-1">${sub}</div>
+      </button>`).join('');
+}
+
 async function renderHome(app) {
   const profile = storage.getProfile();
   const pet = storage.getPet();
@@ -295,28 +326,11 @@ async function renderHome(app) {
       `).join('')}
     </div>
 
-    <!-- 5 个学习入口（语法大厅为顶层入口，不依赖年级/KET 模式，见护栏修复-1） -->
+    <!-- 5 个学习入口（语法大厅为顶层入口，不依赖年级/KET 模式，见护栏修复-1）
+         B3-1：KET/PET 下 navigate 会改道（app.js V0.4 映射），卡片文案必须如实标注实际去向——
+         不允许「入口叫语法学院、落地是八课」的静默改道。文案随模式动态生成。 -->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
-      <button data-action="goto-words" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-orange-100 to-orange-50">
-        <div class="text-4xl">🚀</div>
-        <div class="font-bold mt-2">单词大冒险</div>
-        <div class="text-xs text-gray-500 mt-1">玩游戏背单词</div>
-      </button>
-      <button data-action="goto-grammar" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-cyan-100 to-cyan-50">
-        <div class="text-4xl">🎓</div>
-        <div class="font-bold mt-2">语法学院</div>
-        <div class="text-xs text-gray-500 mt-1">边学边练</div>
-      </button>
-      <button data-action="goto-reading" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-green-100 to-green-50">
-        <div class="text-4xl">📖</div>
-        <div class="font-bold mt-2">阅读乐园</div>
-        <div class="text-xs text-gray-500 mt-1">点词查义、跟读评分</div>
-      </button>
-      <button data-action="goto-writing" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-pink-100 to-pink-50">
-        <div class="text-4xl">✍️</div>
-        <div class="font-bold mt-2">写作工坊</div>
-        <div class="text-xs text-gray-500 mt-1">AI 智能批改</div>
-      </button>
+      ${homeCardsHtml(profile.grade)}
       <button data-action="goto-grammar-hall" class="card-cartoon tap-bounce text-left bg-gradient-to-br from-sky-100 to-sky-50 col-span-2 md:col-span-4 flex items-center gap-3">
         <div class="text-4xl">🏛️</div>
         <div class="flex-1">
