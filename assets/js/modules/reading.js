@@ -305,7 +305,16 @@ async function renderArticle(app, data, articleId) {
           submitted = true;
           // 计分 + 题目级统计（错题下次优先出）
           const correct = answers.filter((a, i) => a === qs[i].answer).length;
-          qs.forEach((q, i) => storage.recordQuizAnswer(q.__qk, answers[i] === q.answer));
+          qs.forEach((q, i) => {
+            const ok = answers[i] === q.answer;
+            storage.recordQuizAnswer(q.__qk, ok);
+            // B4：错题落盘（阅读理解题，含文章名与题面摘要）
+            if (!ok) storage.recordQuizMistake(q.__qk, {
+              src: 'read', kind: 'choice', lesson: null, lessonTitle: article.title || '', stage: null,
+              q: q.q, options: q.options, picked: q.options[answers[i]],
+              correct: q.options[q.answer], explain: q.explain || ''
+            });
+          });
           const reward = correct * 5;
           storage.addCoins(reward);
           storage.progressDailyTask('reading1', 1);

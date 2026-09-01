@@ -558,12 +558,18 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
       enterFocus({ remain: () => questions.length - idx, leave: drawStageSelect });
       app.querySelector('#examBackBtn').onclick = () => requestLeaveFocus(drawStageSelect);
 
-      function finish(ok, correctShown) {
+      function finish(ok, correctShown, pickedText) {
         if (answered) return;
         answered = true;
-        storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先
+        storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先（答对会自动从错题本毕业）
         if (ok) correctN++; else wrongList.push(q);
         if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：八课闯关也算语法题（B2 模式适配）
+        // B4：错题落盘（题面摘要+课号+环节，字段口径供 B6 AI 复用）
+        if (!ok) storage.recordQuizMistake(q.__qk, {
+          src: 'ket', kind: 'choice', lesson: l.id, lessonTitle: l.title || '', stage: s.stage,
+          q: q.q, options: q.options || null, picked: pickedText == null ? '' : String(pickedText),
+          correct: String(correctShown), explain: q.explain || ''
+        });
         const fb = app.querySelector('#feedback');
         fb.innerHTML = `
           <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
@@ -579,19 +585,19 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
       if (q.type === 'choice') {
         app.querySelectorAll('[data-oi]').forEach(b => b.addEventListener('click', () => {
           b.classList.add('ring-2', 'ring-primary');
-          finish(Number(b.dataset.oi) === q.answer, q.options[q.answer]);
+          finish(Number(b.dataset.oi) === q.answer, q.options[q.answer], q.options[Number(b.dataset.oi)]);
         }));
       } else if (q.type === 'tf') {
         app.querySelectorAll('[data-tf]').forEach(b => b.addEventListener('click', () => {
           b.classList.add('ring-2', 'ring-primary');
-          finish((b.dataset.tf === 'true') === q.answer, q.answer ? '对' : '错');
+          finish((b.dataset.tf === 'true') === q.answer, q.answer ? '对' : '错', b.dataset.tf === 'true' ? '对' : '错');
         }));
       } else {
         const judgeText = () => {
           const user = app.querySelector('#ansInput').value;
           if (!user.trim()) { toast('先写一写再提交哦'); answered = false; return; }
           const cands = [q.answer].concat(q.alt || []);
-          finish(cands.some(c => norm(c) === norm(user)), q.answer);
+          finish(cands.some(c => norm(c) === norm(user)), q.answer, user);
         };
         app.querySelector('#submitBtn').addEventListener('click', judgeText);
         app.querySelector('#ansInput').addEventListener('keydown', e => { if (e.key === 'Enter') judgeText(); });

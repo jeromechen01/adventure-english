@@ -8,7 +8,7 @@
 import { toast, enterFocus, exitFocus, requestLeaveFocus } from '../../app.js';
 import * as storage from '../../storage.js';
 import { loadGrammarLesson, skeletonHTML } from '../../utils/lazy-data.js';
-import { shuffle, pickQuiz, presentQuestion } from '../../utils/shuffle.js';
+import { shuffle, pickQuiz, presentQuestion, questionKey } from '../../utils/shuffle.js';
 import { ketLessonLabel, ketLessonsForHall } from '../../utils/ket-hall-map.js';
 import { examLevel, headerHtml, bindBack, esc } from '../exam/exam-common.js';
 
@@ -305,9 +305,15 @@ function lessonViews(app, l, opts = {}) {
         answered = true;
         b.classList.add('ring-2', 'ring-primary');
         const ok = Number(b.dataset.oi) === q.answer;
-        storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先
+        storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先（答对会自动从错题本毕业）
         if (ok) correctN++; else wrongList.push(q);
         if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：大厅闯关也算语法题（B2 模式适配）
+        // B4：错题落盘（题面摘要+课号+环节，字段口径供 B6 AI 复用）
+        if (!ok) storage.recordQuizMistake(q.__qk, {
+          src: 'hall', kind: 'choice', lesson: l.id, lessonTitle: l.title || '', stage: stageIdx + 1,
+          q: q.q, options: q.options, picked: q.options[Number(b.dataset.oi)],
+          correct: q.options[q.answer], explain: q.explain || ''
+        });
         const fb = app.querySelector('#feedback');
         fb.innerHTML = `
           <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
@@ -400,8 +406,11 @@ function lessonViews(app, l, opts = {}) {
         answered = true;
         const fb = app.querySelector('#feedback');
         const nextLabel = idx + 1 >= cases.length ? '看结案报告' : '下一个病人 ›';
+        // B4：侦探关落盘用的稳定指纹（病句+参考答案哈希，与 QUIZ_STATS 同一套 key 风格）
+        const detKey = questionKey(`det:${l.id}`, { q: c.sentence, answer: c.fixed });
         if (norm(user) === norm(c.fixed)) {
           solved++;
+          storage.removeQuizMistake(detKey); // 这次改对了 → 毕业
           fb.innerHTML = `
             <div class="card-cartoon bg-green-50 border-2 border-green-300 mb-3">
               <div class="font-bold text-sm mb-1">✅ 破案！病人痊愈</div>
@@ -422,8 +431,15 @@ function lessonViews(app, l, opts = {}) {
               <button id="selfNo" class="btn-cartoon btn-cartoon-secondary" style="min-height:48px">😅 还没改对</button>
             </div>
             <div id="afterSelf"></div>`;
-          fb.querySelector('#selfOk').addEventListener('click', () => { solved++; goNext(fb); });
-          fb.querySelector('#selfNo').addEventListener('click', () => goNext(fb));
+          fb.querySelector('#selfOk').addEventListener('click', () => { solved++; storage.removeQuizMistake(detKey); goNext(fb); });
+          fb.querySelector('#selfNo').addEventListener('click', () => {
+            // B4：自评没改对 → 病句进错题本（病句+她的改法+参考+病在哪）
+            storage.recordQuizMistake(detKey, {
+              src: 'hall', kind: 'detective', lesson: l.id, lessonTitle: l.title || '', stage: null,
+              q: c.sentence, options: null, picked: user, correct: c.fixed, explain: c.clue || ''
+            });
+            goNext(fb);
+          });
           function goNext(fbEl) {
             fbEl.innerHTML = next(nextLabel);
             bindNext(fbEl);

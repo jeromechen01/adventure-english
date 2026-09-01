@@ -36,7 +36,10 @@ const KEYS = {
   // === V0.7 学习时长统计 ===
   STUDY_TIME: 'studyTime',       // { [dateISO]: { [moduleId]: seconds } } 前台停留秒数，按天按模块
   // === V0.8 题目级作答统计（错题加权抽题用）===
-  QUIZ_STATS: 'quizStats'        // { [qKey]: { r:对, w:错, lw:最近一次是否错, t:最后作答时间 } }
+  QUIZ_STATS: 'quizStats',       // { [qKey]: { r:对, w:错, lw:最近一次是否错, t:最后作答时间 } }
+  // === B4 题目错题本（语法大厅/KET八课/阅读/模考；与错词 MISTAKES 并列，qKey 与 QUIZ_STATS 同源）===
+  // 字段为 B6 AI「针对这次错法解释」一次到位：题干+她选+正确+考点+课号+环节。
+  QUIZ_MISTAKES: 'quizMistakes'  // { [qKey]: { src,kind,lesson,lessonTitle,stage,q,options,picked,correct,explain,t,n } }
 };
 
 // 通用读写
@@ -798,6 +801,39 @@ export function recordQuizAnswer(qKey, correct) {
       .forEach(k => delete all[k]);
   }
   set(KEYS.QUIZ_STATS, all);
+  // B4：同一道题（同 qKey）后来答对了 → 自动从题目错题本毕业
+  if (correct) removeQuizMistake(qKey);
+}
+
+// === B4 题目错题本 ===
+const QUIZ_MISTAKES_MAX = 200; // 超出后按时间淘汰最旧的（防 localStorage 膨胀）
+
+export function getQuizMistakes() {
+  return get(KEYS.QUIZ_MISTAKES, {}) || {};
+}
+
+// info: { src:'hall'|'ket'|'read'|'mock', kind:'choice'|'detective', lesson, lessonTitle,
+//         stage, q, options, picked, correct, explain } —— 字段口径见 KEYS 注释，B6 依赖，勿删字段
+export function recordQuizMistake(qKey, info) {
+  if (!qKey || !info) return;
+  const all = getQuizMistakes();
+  const prev = all[qKey];
+  all[qKey] = { ...info, t: Date.now(), n: (prev ? prev.n : 0) + 1 };
+  const keys = Object.keys(all);
+  if (keys.length > QUIZ_MISTAKES_MAX) {
+    keys.sort((a, b) => (all[a].t || 0) - (all[b].t || 0))
+      .slice(0, keys.length - QUIZ_MISTAKES_MAX)
+      .forEach(k => delete all[k]);
+  }
+  set(KEYS.QUIZ_MISTAKES, all);
+}
+
+export function removeQuizMistake(qKey) {
+  if (!qKey) return;
+  const all = getQuizMistakes();
+  if (!(qKey in all)) return;
+  delete all[qKey];
+  set(KEYS.QUIZ_MISTAKES, all);
 }
 
 // === 数据导入导出 ===

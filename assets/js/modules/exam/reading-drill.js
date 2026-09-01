@@ -182,6 +182,15 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
       }
       storage.recordQuizAnswer(it.__qk, ok);
       if (ok) correct++;
+      // B4：错题落盘。onFinish 存在 = 模考/限时流程（分区记 mock），普通专项记 read
+      if (!ok) storage.recordQuizMistake(it.__qk, {
+        src: onFinish ? 'mock' : 'read', kind: 'choice', lesson: null,
+        lessonTitle: set.topic || set.title || set.id || '', stage: null,
+        q: it.q || `第 (${idx + 1}) 空`, options: it.options || null,
+        picked: (isOpen || !it.options) ? String(user) : (it.options[Number(user)] != null ? it.options[Number(user)] : String(user)),
+        correct: (isOpen || !it.options) ? String(it.answer) : String(it.options[it.answer]),
+        explain: (it.category ? `考点：${it.category}。` : '') + (it.explain || '')
+      });
       const fb = app.querySelector('#feedback');
       fb.innerHTML = `
         <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">
