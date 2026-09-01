@@ -131,6 +131,15 @@ function lessonViews(app, l, opts = {}) {
         <p class="text-sm text-gray-700" style="line-height:1.85">${esc(s.metaphorStory)}</p>
       </div>
 
+      <!-- B6b-2 换个说法重讲（AI 增强，无 key 不渲染；重讲被本课九段内容约束，不引入课外语法） -->
+      ${aiEnabled() ? `
+      <button id="aiRetellBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3" style="min-height:48px">
+        <span class="text-xl">🤖</span>
+        <span class="flex-1 text-sm font-bold" style="min-width:0">没听懂？让 AI 换个说法再讲一遍</span>
+        <span class="text-xl text-gray-300">›</span>
+      </button>
+      <div id="aiRetellOut" class="card-cartoon mb-3 text-sm text-gray-700" style="line-height:1.85;white-space:pre-wrap;word-break:break-word" hidden></div>` : ''}
+
       <!-- ④ 规则卡 + 例句梯 -->
       <div class="card-cartoon mb-3" id="rulesCard">
         <div class="font-bold text-sm mb-2">🎵 规则卡</div>
@@ -213,6 +222,29 @@ function lessonViews(app, l, opts = {}) {
     }
     app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
     app.querySelector('#detectiveBtn').addEventListener('click', () => drawDetective());
+    // B6b-2 换个说法：主动点击才调用；可反复换（每次重新生成）；失败平静降级回九段讲解
+    const rtBtn = app.querySelector('#aiRetellBtn');
+    if (rtBtn) rtBtn.addEventListener('click', async () => {
+      if (rtBtn.disabled) return;
+      const out = app.querySelector('#aiRetellOut');
+      rtBtn.disabled = true;
+      const label = rtBtn.querySelector('.flex-1');
+      const old = label.textContent;
+      label.textContent = '🤖 想一想怎么讲……';
+      const r = await askAI(buildRetellPrompt(l));
+      rtBtn.disabled = false;
+      out.hidden = false;
+      if (r.ok) {
+        out.className = 'card-cartoon mb-3 text-sm text-gray-700 bg-gradient-to-br from-cyan-50 to-blue-50 border-2 border-cyan-200';
+        out.style.cssText = 'line-height:1.85;white-space:pre-wrap;word-break:break-word';
+        out.textContent = '🤖 ' + r.text;
+        label.textContent = '还想听？让 AI 再换一个说法';
+      } else {
+        label.textContent = old;
+        out.className = 'text-xs text-gray-500 mb-3';
+        out.textContent = aiFailText(r.reason);
+      }
+    });
     const backKet = app.querySelector('#backKetBtn');
     if (backKet) backKet.addEventListener('click', () => window.__nav('exam-grammar', { lesson: opts.fromKet }));
     // B4：错题本来路返回 + 反向入口 + 定位到规则段（只在首次进入滚动，环节返回不再跳）
