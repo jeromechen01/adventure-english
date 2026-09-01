@@ -672,6 +672,32 @@
 
 ---
 
+## B4：学习闭环打通（缓存 `ea-v0.9.8`，2026-09-01，✅ 完成，⏸ 硬停机等家长验收）
+
+> 学→练→错→复习 在「错」这环接通：做错的题不再消失。八课/大厅数据零改动（untouched 对 `tools/backup/B4/` 全过），全部在渲染层+存储层实现。
+
+- [x] **B4-1 错题落盘**：新 `KEYS.QUIZ_MISTAKES`（qKey 与 QUIZ_STATS 同源；上限 200 FIFO；随导出/导入/重置走既有规范）。埋点：大厅闯关、侦探关（自评「还没改对」落盘；改对/自评改对自动毕业）、八课三题型（choice/tf/text，finish 增 pickedText）、年级/PET 阅读、KET 专项与模考（`onFinish` 存在与否区分 mock/read）。`recordQuizAnswer` 答对同 qKey 自动从错题本毕业
+- [x] **B4-2 错题本分区**：五分区 chips（单词/语法大厅/KET八课/阅读/模考）；题目卡=题面+来自哪课（GXX·课名·环节）+我的答案+正确答案+考点解析+错过次数+✓移除；`?src=` 指定分区、`?lesson=` 只看某课；空状态平静化（不催促）
+- [x] **B4-3 回课直达与反向**：错题卡「回看本课讲解→GXX」跳大厅课内**并定位规则段**（scrollTo=rules 只滚一次）/八课课内；课内 fromMistakes 显示「返回错题本·对应分区」（与 fromKet 同款琥珀按钮，onclick 单一路径）；反向：讲解页「本课你有 N 道错题」→ 错题本该课过滤视图
+- [x] **B4-4 突击回来路**：renderReinforce 接 `params.back`，空态/中途‹/练完统一 goBack——错题本进来回单词区、报告页进来回报告；错题本单词区并入突击按钮
+- [x] 回归：preflight ✔ 八课 untouched ✔ smoke 41+30 零失败 ✔ sw-check（ea-v0.9.8）✔ modal 双跑全绿（0.9.33 答题态/孤儿计时器/写作草稿/死弹窗未改坏）✔
+- [x] 行为级验证 **30/30**：B4 闭环 13 项（答错落盘字段完整→答对自动毕业→侦探关自评落盘→错题本分区显示→回课直达落 G01 规则段→返回回分区→反向 chip→只看 G01 过滤→突击进出回单词区）+ 错题本 360 窄屏零溢出 + B2 返回 5 项 + B3 模式/改名/术语 9 项
+- CACHE_VERSION **ea-v0.9.75 → ea-v0.9.8**
+
+### 📌 B6 可直接使用的错题字段（B4 已备好，勿改口径）
+`QUIZ_MISTAKES[qKey] = { src:'hall'|'ket'|'read'|'mock', kind:'choice'|'detective', lesson:'G01'|'L1'|null, lessonTitle, stage, q:题干/病句, options:数组|null, picked:她选的/她的改法, correct:正确答案/参考答案, explain:考点解析/病在哪, t:时间戳, n:错误次数 }`——「针对这次错法解释」所需上下文齐备；配合 `data/grammar/gXX.json` 的九段讲解即为完整 prompt 素材。
+
+### 📌 B5 续跑说明（文案清扫，家长验收 B4 后开工）
+- 依据 2026-09-01 体检报告第三节，总量 ≈390 处，其中约 2/3 可脚本化：
+  ① 词库 tips 中英标点 ~260 处（`data/pet/words/*.json` + `data/exam/ket/words/*.json`，写正则转换脚本：中文间半角逗号/冒号/分号/引号→全角、三点省略号→……，**node utf8 读写 + check-data 编码守卫**，改前备份）
+  ② UI 层 28 处（体检报告 UI 实例表 20 条 + 余项；含 app.js:559 版本号 v0.3 陈旧）
+  ③ 三个早期文件标点/英文语病 ~34 处（grammar/kindergarten|junior|primary.json、reading/kindergarten.json 的 What does I do 类）
+  ④ 点状硬伤：g33.json:583 语义反转题、g50.json:1019 自相矛盾选项、g26.json:239 缺谓语、writing-lab.js:116「过去调」、讲解层网络语 7 处（送命题/躺平/断气 等）、话术层 14 条
+- 红线照旧：KET 八课数据一字不动（其中 6 处「乐团」与半角标点也**不修**）；大厅数据可改但逐文件 diff 审计；版权红线不碰
+- 收尾照旧：备份+untouched、preflight、三件套、sw → ea-v0.9.85 或按当时序号
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
