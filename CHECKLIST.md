@@ -764,6 +764,29 @@
 
 ---
 
+## B6a：AI 设置页 + key 存储（缓存 `ea-v0.9.95`，2026-09-01，✅ 完成，⏸ 硬停机等家长验收）
+
+> 只做设置页/key 存储/连通性测试，不接任何 AI 功能点（B6b）、不做离线降级（B6c）。八课零改动（untouched 对 `tools/backup/B5c/` 复跑全过，本批未碰任何数据文件）。
+
+- [x] **B6a-2 key 存储接口**（依赖序先做）：`utils/ai-key.js`——独立裸键 `eaAiKey`/`eaAiCfg`，**不进 KEYS 枚举**，exportAllData/importAllData/resetAll 均触及不到（「清空全部数据」不清 key——key 是家长设置，设置页有专属清除按钮）；`hasKey()/getKey()/setKey()/clearKey()/keyTail4()`（UI 只显示后 4 位）+ 服务商注册表（本期 DeepSeek，加服务商=加一条记录）+ `getAiConfig()/setAiConfig()`；全部读写兜 try/catch 防隐私模式
+- [x] **B6a-1 设置页**：`modules/ai-settings.js`，入口在「我的」页（不进首页防孩子误触，标注「可选 · 家长设置」）；服务商选择/密码型 key 输入（👁 按住临时明文，松开复原）/模型名（默认 deepseek-chat）/保存/清除；家长向说明卡：哪里申请（链官网+三步图文）、费用量级（按量计费月几元内、以官网为准）、只存本机不上传、换设备重填、**可选功能不填不影响现有全部功能**
+- [x] **B6a-3 连通性测试**：最小请求（让模型只回一个字，max_tokens=5），15 秒 AbortController 超时不卡 UI，测试中按钮禁用防连点；结果三态+增值态：成功 / key 未通过验证(401/403) / 网络不可达（fetch 失败与超时分开提示）/ 402 余额不足指向充值 / 400/404 模型名不对指向默认值；文案平静，零 key 回显
+- [x] **★ 安全红线六项全过**：①key 只由家长手动粘贴、只存本机 ②源码/配置/注释/测试零 key（真实 key 模式 `sk-[A-Za-z0-9]{20+}` 全仓库扫描零命中）③sw.js 仅登记模块文件本身，key 不在任何 URL 枚举（且 SW `req.method !== 'GET'` 直接放行——DeepSeek POST 完全不经过 SW）④新模块零 console.log、错误信息零 key 回显 ⑤.gitignore 复核（结果文件已忽略、无含 key 本地文件风险）⑥本批 3 个 commit 的 diff 全文扫描零可疑串
+- [x] 回归全绿：preflight 四项 ✔ 八课 untouched ✔ smoke 41+30 零失败（全新 profile 无 key 状态跑完全程 = 与 0.9.9 行为等价的实证）✔ sw-check（唯一缓存 `ea-v0.9.95`、壳 54→56 两个新模块入壳、真断网 504、清内容缓存不动壳）✔ modal 双跑全绿（0.9.33 答题态 17 项；设置页无弹层无死弹窗风险）✔
+- [x] 行为级 **20/20 + B6a 专项 9/9**（临时页跑完已删）：B2 返回 5 + B3 模式术语 9 + B4 闭环 6 全部在**无 key 状态**下通过；B6a：keyless 基线 ✓ 我的页入口 ✓ 设置页渲染 ✓ key 存→尾号 abcd→清除往返 ✓ exportAllData 不含 key 与键名 ✓ 重渲染 UI 不回显完整 key ✓ 无 key 点测试平静提示不发请求 ✓ 配置默认值 ✓
+- [x] 窄屏 shot：ai-settings 360/320 + me 360 + home 360 零溢出（key 输入框 flex-1+min-width:0，长 key 不撑破；已存 key 时 UI 只显示尾号更不会溢出）
+- CACHE_VERSION **ea-v0.9.9 → ea-v0.9.95**
+
+### 📌 B6b 续跑说明（三个 AI 接入点，家长验收 B6a 后开工）
+- **可调用的 key 接口**（`assets/js/utils/ai-key.js`）：`hasKey()` 判断是否启用 AI 增强；`getKey()` **只准在组装 fetch 请求头时调用**（`Authorization: Bearer`）；`getAiConfig()` 取 `{provider, model}`；`PROVIDERS[provider].endpoint` 取接口地址。UI/日志一律 `keyTail4()`
+- **三个接入点**（0901 体检盘好，行号会漂移，开工时以内容定位）：语法大厅 `lesson.js` ①闯关答错处「AI 解释我这个错法」②讲解页「换个说法再讲一遍」③侦探关自评处「AI 帮我判改得对不对」
+- **错题上下文**：`storage.getQuizMistakes()` 的 `QUIZ_MISTAKES[qKey] = { src,kind,lesson,lessonTitle,stage,q,options,picked,correct,explain,t,n }`（B4 口径**勿改**）；配 `data/grammar/gXX.json` 九段讲解即完整 prompt 素材（版权红线：prompt 里只用自家原创内容）
+- **健康护栏**：AI 回复是增强不是依赖——无 key/请求失败时静默隐藏 AI 按钮或平静降级（详细降级逻辑属 B6c）；不打断答题态（0.9.33），不加流式打字机效果制造停留
+- 红线照旧：八课零改动、新增答题交互接 enterFocus 不 bindBack、`bindBack` 后禁再赋 onclick、中文 node utf8；「智能批改」命名在 B6b 一并定
+- 收尾照旧：preflight、三件套全新 profile、行为级回归（B2/B3/B4/B6a 全复跑）、key 泄漏 grep、sw → ea-v0.9.96 或按当时序号
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
