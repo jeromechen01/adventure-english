@@ -249,6 +249,22 @@ async function examModule(page) {
 }
 
 // === 首页 ===
+// B3-3：模式横幅——让人随时清楚「我现在在哪个模式下、哪些入口内容随之变了」
+function modeBannerHtml(grade) {
+  const b = grade === 'KET'
+    ? ['🗝️', 'KET 备考模式', '学习 / 语法 / 阅读 / 写作已切换为备考内容', 'bg-cyan-50 border-cyan-200 text-cyan-800']
+    : grade === 'PET'
+      ? ['🎓', 'PET 备考模式', '单词 / 阅读为 PET 专属 · 学习页是备考中心', 'bg-purple-50 border-purple-200 text-purple-800']
+      : ['📚', `${gradeLabel(grade)}模式`, '单词 / 语法 / 阅读按年级显示', 'bg-orange-50 border-orange-200 text-orange-800'];
+  return `
+    <div class="flex items-center gap-2 mb-3 px-3 py-2 rounded-2xl border-2 ${b[3]}">
+      <span>${b[0]}</span>
+      <span class="text-xs font-bold">${b[1]}</span>
+      <span class="text-xs flex-1" style="min-width:0">· ${b[2]}</span>
+      <span class="text-xs text-gray-400" style="white-space:nowrap">右上角可切换</span>
+    </div>`;
+}
+
 // B3-1：首页四张入口卡按模式如实标注去向（KET 的语法/阅读/写作会被 navigate 改道到备考模块）
 function homeCardsHtml(grade) {
   const mode = grade === 'KET' ? 'KET' : grade === 'PET' ? 'PET' : 'NUM';
@@ -292,6 +308,7 @@ async function renderHome(app) {
   const petEmoji = petStages[Math.min(pet.level - 1, 4)];
 
   app.innerHTML = `
+    ${modeBannerHtml(profile.grade)}
     <!-- 宠物展示 -->
     <div class="card-cartoon mb-4 text-center bg-gradient-to-br from-orange-50 to-yellow-50">
       <div class="text-7xl float">${petEmoji}</div>
