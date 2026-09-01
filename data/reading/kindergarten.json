@@ -29,7 +29,7 @@
       "questions": [
         {"type": "choice", "q": "Who is in the family?", "options": ["Dad, Mom, baby brother", "Dad only", "Mom and dad", "Just baby"], "answer": 0},
         {"type": "choice", "q": "How does the family feel?", "options": ["Sad", "Happy", "Tired", "Angry"], "answer": 1},
-        {"type": "choice", "q": "What does I do?", "options": ["Hate my family", "Love my family", "Leave family", "Cry"], "answer": 1}
+        {"type": "choice", "q": "What does the writer do?", "options": ["Hate my family", "Love my family", "Leave family", "Cry"], "answer": 1}
       ],
       "keyWords": ["family", "dad", "mom", "baby", "happy"]
     },
@@ -43,9 +43,9 @@
       "content": "I am five. I can run. I can jump. I can sing. I can dance. I can read books. I cannot fly. But I can dream!",
       "translation": "我五岁。我能跑。我能跳。我会唱歌。我会跳舞。我会读书。我不能飞。但我能做梦！",
       "questions": [
-        {"type": "choice", "q": "How old is I?", "options": ["Three", "Four", "Five", "Six"], "answer": 2},
+        {"type": "choice", "q": "How old is the writer?", "options": ["Three", "Four", "Five", "Six"], "answer": 2},
         {"type": "choice", "q": "What can the writer NOT do?", "options": ["Run", "Jump", "Fly", "Sing"], "answer": 2},
-        {"type": "choice", "q": "What CAN the writer still do though they can't fly?", "options": ["Drive", "Cook", "Dream", "Swim"], "answer": 2}
+        {"type": "choice", "q": "The writer can't fly. What can the writer do?", "options": ["Drive", "Cook", "Dream", "Swim"], "answer": 2}
       ],
       "keyWords": ["can", "run", "jump", "sing", "dream"]
     },
@@ -139,7 +139,7 @@
       "content": "I go to school. I see my teacher. I see my friends. We read books. We sing songs. We play games. School is fun. I like my school.",
       "translation": "我去学校。我看见我的老师。我看见我的朋友。我们读书。我们唱歌。我们玩游戏。学校很有趣。我喜欢我的学校。",
       "questions": [
-        {"type": "choice", "q": "Who does I see at school?", "options": ["Mom and Dad", "Teacher and friends", "Brother", "Baby"], "answer": 1},
+        {"type": "choice", "q": "Who does the writer see at school?", "options": ["Mom and Dad", "Teacher and friends", "Brother", "Baby"], "answer": 1},
         {"type": "choice", "q": "What do they do at school?", "options": ["Sleep", "Eat only", "Read, sing, play", "Cry"], "answer": 2},
         {"type": "choice", "q": "How does the writer feel about school?", "options": ["Sad", "Boring", "Fun", "Tired"], "answer": 2}
       ],
@@ -156,8 +156,8 @@
       "translation": "这是我妈妈。她很善良。她人很好。她会唱歌。她会做饭。她爱我。我爱我的妈妈。妈妈是最棒的。",
       "questions": [
         {"type": "choice", "q": "What can mom do?", "options": ["Fly and swim", "Sing and cook", "Run only", "Drive"], "answer": 1},
-        {"type": "choice", "q": "How is mom?", "options": ["Mean", "Kind and nice", "Sad", "Tired"], "answer": 1},
-        {"type": "choice", "q": "Who loves me?", "options": ["Dad", "Mom", "Cat", "Friend"], "answer": 1}
+        {"type": "choice", "q": "What is mom like?", "options": ["Mean", "Kind and nice", "Sad", "Tired"], "answer": 1},
+        {"type": "choice", "q": "Who loves the writer?", "options": ["Dad", "Mom", "Cat", "Friend"], "answer": 1}
       ],
       "keyWords": ["mom", "kind", "sing", "cook", "love"]
     },
@@ -188,7 +188,7 @@
       "translation": "我会跑。我跑得快。我和我的狗一起跑。我们在公园里跑。公园很大。我们很开心。我喜欢跑步。",
       "questions": [
         {"type": "choice", "q": "Where do they run?", "options": ["At home", "In the park", "At school", "On the bed"], "answer": 1},
-        {"type": "choice", "q": "Who runs with me?", "options": ["My cat", "My dog", "My mom", "My friend"], "answer": 1},
+        {"type": "choice", "q": "Who runs with the writer?", "options": ["My cat", "My dog", "My mom", "My friend"], "answer": 1},
         {"type": "choice", "q": "How do they feel?", "options": ["Sad", "Tired", "Happy", "Angry"], "answer": 2}
       ],
       "keyWords": ["run", "fast", "dog", "park", "happy"]
@@ -237,7 +237,7 @@
       "questions": [
         {"type": "choice", "q": "What is small?", "options": ["Elephant", "House", "Mouse", "Dad"], "answer": 2},
         {"type": "choice", "q": "Is dad big or small?", "options": ["Big", "Small", "Tiny", "Short"], "answer": 0},
-        {"type": "choice", "q": "Where is I?", "options": ["At the top", "In the middle", "At home", "At school"], "answer": 1}
+        {"type": "choice", "q": "Where is the writer?", "options": ["At the top", "In the middle", "At home", "At school"], "answer": 1}
       ],
       "keyWords": ["big", "small", "elephant", "mouse", "dad"]
     }

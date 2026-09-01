@@ -45,7 +45,7 @@
         {"question": "There ___ a pen on the table.", "options": ["is", "are", "am", "be"], "answer": 0, "explanation": "a pen 是单数，用 is。"},
         {"question": "There ___ five apples in the box.", "options": ["is", "are", "am", "be"], "answer": 1, "explanation": "five apples 是复数，用 are。"},
         {"question": "There ___ some water in the bottle.", "options": ["is", "are", "am", "be"], "answer": 0, "explanation": "water 是不可数名词，用 is。"},
-        {"question": "There ___ two dogs and a cat.", "options": ["is", "are", "am", "be"], "answer": 1, "explanation": "就近原则不适用此处主谓位置；离 be 最近的是 two dogs，复数用 are。"},
+        {"question": "There ___ two dogs and a cat.", "options": ["is", "are", "am", "be"], "answer": 1, "explanation": "就近原则：be 跟离它最近的名词一致——最近的是 two dogs（复数），用 are。"},
         {"question": "There ___ many books in my bag.", "options": ["is", "are", "am", "be"], "answer": 1, "explanation": "many books 是复数，用 are。"}
       ]
     },
@@ -103,9 +103,9 @@
       "grade": [5, 6],
       "summary": "现在进行时表示此刻或现阶段正在进行的动作，由 be + 动词-ing 构成。",
       "rules": [
-        "结构: am/is/are + V-ing",
-        "时间标志: now, at this moment, Look!, Listen!",
-        "动词加 -ing 规则: 一般直接加 ing；以不发音 e 结尾去 e 加 ing；重读闭音节双写末字母加 ing"
+        "结构：am/is/are + V-ing",
+        "时间标志：now, at this moment, Look!, Listen!",
+        "动词加 -ing 规则：一般直接加 ing；以不发音 e 结尾去 e 加 ing；重读闭音节双写末字母加 ing"
       ],
       "examples": [
         {"en": "I am reading a book now.", "zh": "我现在正在读书。"},
@@ -127,8 +127,8 @@
       "summary": "can 表示能力或可能性，意思是 \"能够、可以\"。",
       "rules": [
         "can + 动词原形",
-        "否定: cannot / can't",
-        "疑问句: Can + 主语 + 动词原形?",
+        "否定：cannot / can't",
+        "疑问句：Can + 主语 + 动词原形?",
         "can 没有人称和数的变化"
       ],
       "examples": [
@@ -150,10 +150,10 @@
       "grade": [3, 4],
       "summary": "人称代词分主格和宾格，要根据在句中作主语还是宾语来选用。",
       "rules": [
-        "主格做主语: I, you, he, she, it, we, they",
-        "宾格做宾语: me, you, him, her, it, us, them",
-        "形容词性物主代词: my, your, his, her, its, our, their",
-        "名词性物主代词: mine, yours, his, hers, its, ours, theirs"
+        "主格做主语：I, you, he, she, it, we, they",
+        "宾格做宾语：me, you, him, her, it, us, them",
+        "形容词性物主代词：my, your, his, her, its, our, their",
+        "名词性物主代词：mine, yours, his, hers, its, ours, theirs"
       ],
       "examples": [
         {"en": "He likes me.", "zh": "他喜欢我。"},
@@ -203,12 +203,12 @@
         "辅音+y 变 y 为 i 加 -er：happy → happier",
         "重读闭音节双写末字母加 -er：big → bigger",
         "多音节词前加 more：beautiful → more beautiful",
-        "不规则: good → better, bad → worse, many/much → more"
+        "不规则：good → better, bad → worse, many/much → more"
       ],
       "examples": [
         {"en": "Tom is taller than Mike.", "zh": "汤姆比迈克高。"},
         {"en": "This book is more interesting than that one.", "zh": "这本书比那本书更有趣。"},
-        {"en": "I am better than yesterday.", "zh": "我比昨天好些了。"}
+        {"en": "I feel better than yesterday.", "zh": "我感觉比昨天好些了。"}
       ],
       "quiz": [
         {"question": "He is ___ than me.", "options": ["tall", "taller", "tallest", "more tall"], "answer": 1, "explanation": "than 前用比较级 taller。"},
@@ -224,7 +224,7 @@
       "grade": [3, 4, 5],
       "summary": "一般疑问句以 be 动词、助动词或情态动词开头，可以用 yes 或 no 回答。",
       "rules": [
-        "be 动词开头: Is/Am/Are + 主语 + ...?",
+        "be 动词开头：Is/Am/Are + 主语 + ...?",
         "实义动词用助动词 do/does/did 开头",
         "情态动词 can/will 开头时直接前置",
         "肯定回答 Yes, 主语 + be/do/can.",

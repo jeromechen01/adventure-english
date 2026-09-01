@@ -9,7 +9,7 @@
       "rules": [
         "I 后面用 am",
         "可以说 I am + 名字 / I am + 数字(年龄) / I am + 形容词",
-        "缩写: I am = I'm"
+        "缩写：I am = I'm"
       ],
       "examples": [
         {"en": "I am Tom.", "zh": "我是汤姆。"},
@@ -33,7 +33,7 @@
         "It 后面用 is",
         "It is a/an + 名词",
         "辅音开头用 a，元音开头用 an",
-        "缩写: It is = It's"
+        "缩写：It is = It's"
       ],
       "examples": [
         {"en": "It is a cat.", "zh": "这是一只猫。"},
@@ -89,9 +89,9 @@
       "quiz": [
         {"question": "I ___ cats.", "options": ["like", "likes", "is", "am"], "answer": 0, "explanation": "I 后面用 like。"},
         {"question": "I like ___.", "options": ["apple", "apples", "a apple", "is apple"], "answer": 1, "explanation": "喜欢一类水果用复数 apples。"},
-        {"question": "我不喜欢 = I ___ like.", "options": ["am not", "don't", "no", "not"], "answer": 1, "explanation": "I 不喜欢用 I don't like。"},
-        {"question": "I like ___.", "options": ["sing", "to sing", "singing", "sang"], "answer": 2, "explanation": "I like 后接动词 -ing 形式表示喜欢做某事。"},
-        {"question": "选错误的: ", "options": ["I like cats.", "I like fish.", "I likes dogs.", "I like apples."], "answer": 2, "explanation": "I 后面用 like，不是 likes。"}
+        {"question": "我不喜欢 = I ___ like.", "options": ["am not", "don't", "no", "not"], "answer": 1, "explanation": "「我不喜欢」用 I don't like。"},
+        {"question": "I like ___.", "options": ["sing", "sings", "singing", "sang"], "answer": 2, "explanation": "like 后面接 -ing 形式表示喜欢做某事：I like singing。"},
+        {"question": "选出错误的句子", "options": ["I like cats.", "I like fish.", "I likes dogs.", "I like apples."], "answer": 2, "explanation": "I 后面用 like，不是 likes。"}
       ]
     },
     {
@@ -112,7 +112,7 @@
       "quiz": [
         {"question": "I can ___.", "options": ["run", "runs", "running", "ran"], "answer": 0, "explanation": "can 后面用动词原形。"},
         {"question": "I ___ sing.", "options": ["can", "cans", "is", "am can"], "answer": 0, "explanation": "can 没有变化形式。"},
-        {"question": "我不能 = I ___", "options": ["can not", "can't", "no can", "don't can"], "answer": 1, "explanation": "I 不能用 I can't。"},
+        {"question": "我不能 = I ___", "options": ["can not", "can't", "no can", "don't can"], "answer": 1, "explanation": "「我不能」用 I can't。"},
         {"question": "选正确的句子", "options": ["I can sings.", "I can sing.", "I can singing.", "I cans sing."], "answer": 1, "explanation": "can 后接动词原形 sing。"},
         {"question": "I can ___ a kite.", "options": ["fly", "flies", "flying", "flew"], "answer": 0, "explanation": "can 后面用动词原形 fly。"}
       ]
@@ -136,8 +136,8 @@
         {"question": "This ___ Tom.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "This 后面用 is。"},
         {"question": "___ is my dad.", "options": ["This", "I", "You", "Are"], "answer": 0, "explanation": "介绍近处的人用 This。"},
         {"question": "This is ___ pen.", "options": ["I", "me", "my", "are"], "answer": 2, "explanation": "我的用 my。"},
-        {"question": "选正确: ", "options": ["This is mom my.", "This is my mom.", "This my is mom.", "This are my mom."], "answer": 1, "explanation": "正确语序是 This is my mom.。"},
-        {"question": "This is = ", "options": ["This are", "this's (不常用)", "These is", "Those are"], "answer": 1, "explanation": "This is 通常不缩写,口语中偶尔说 this's 但书写很少用。"}
+        {"question": "选出正确的句子", "options": ["This is mom my.", "This is my mom.", "This my is mom.", "This are my mom."], "answer": 1, "explanation": "正确语序是 This is my mom。"},
+        {"question": "介绍近处的东西，用哪个开头？", "options": ["This is", "That is", "It am", "You is"], "answer": 0, "explanation": "近处用 This is；That is 用来说远处的东西。"}
       ]
     },
     {
@@ -146,8 +146,8 @@
       "grade": [1, 2],
       "summary": "一个东西用 a/an，多个要在名词后加 s。",
       "rules": [
-        "一个: a cat / a dog / an apple",
-        "两个或更多: two cats / three dogs / many apples",
+        "一个：a cat / a dog / an apple",
+        "两个或更多：two cats / three dogs / many apples",
         "名词后加 -s 变复数",
         "辅音开头用 a，元音开头用 an"
       ],
@@ -170,9 +170,9 @@
       "grade": [1, 2],
       "summary": "用 The X is + 颜色 来描述东西的颜色。",
       "rules": [
-        "结构: The + 名词 + is + 颜色",
+        "结构：The + 名词 + is + 颜色",
         "The apple is red. = 苹果是红色的",
-        "也可以说: It is red.",
+        "也可以说：It is red.",
         "颜色词放在 is 后面"
       ],
       "examples": [
@@ -183,7 +183,7 @@
       "quiz": [
         {"question": "The apple ___ red.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "The apple 是单数，用 is。"},
         {"question": "The sky is ___.", "options": ["blue", "a blue", "blues", "is blue"], "answer": 0, "explanation": "is 后面直接加颜色词。"},
-        {"question": "选正确的: ", "options": ["The cat is black.", "The cat black.", "The cat are black.", "Cat is black the."], "answer": 0, "explanation": "正确语序: The + 名词 + is + 颜色。"},
+        {"question": "选出正确的句子", "options": ["The cat is black.", "The cat black.", "The cat are black.", "Cat is black the."], "answer": 0, "explanation": "正确语序: The + 名词 + is + 颜色。"},
         {"question": "___ is yellow.", "options": ["The sun", "Sun the", "Sun is", "The is sun"], "answer": 0, "explanation": "主语是 The sun。"},
         {"question": "The grape is ___.", "options": ["a purple", "purple", "purples", "is purple"], "answer": 1, "explanation": "is 后直接加颜色 purple。"}
       ]
@@ -194,9 +194,9 @@
       "grade": [1, 2],
       "summary": "用 How many 问数量，回答用数字+复数名词。",
       "rules": [
-        "结构: How many + 复数名词?",
-        "How many apples? = 多少个苹果?",
-        "回答: 数字 + 复数名词",
+        "结构：How many + 复数名词？",
+        "How many apples? = 多少个苹果？",
+        "回答：数字 + 复数名词",
         "Five apples. = 五个苹果"
       ],
       "examples": [
@@ -209,7 +209,7 @@
         {"question": "How many ___?", "options": ["dog", "dogs", "a dog", "is dog"], "answer": 1, "explanation": "How many 后面用复数 dogs。"},
         {"question": "How many cats? — ___ cats.", "options": ["A", "Three", "Cat", "Is"], "answer": 1, "explanation": "回答用数字 + 复数。"},
         {"question": "How many ___ in your bag?", "options": ["book", "books", "a book", "is book"], "answer": 1, "explanation": "How many 后接复数。"},
-        {"question": "选正确的回答: How many fish?", "options": ["Three.", "A fish.", "Fish.", "Yes."], "answer": 0, "explanation": "回答数量用数字。"}
+        {"question": "选出正确的回答：How many fish?", "options": ["Three.", "A fish.", "Fish.", "Yes."], "answer": 0, "explanation": "回答数量用数字。"}
       ]
     },
     {
@@ -218,9 +218,9 @@
       "grade": [1, 2],
       "summary": "用 What's this? 问近处的东西，回答用 It's a/an + 名词。",
       "rules": [
-        "What's this? = 这是什么?",
+        "What's this? = 这是什么？",
         "What's = What is",
-        "回答: It's a/an + 名词",
+        "回答：It's a/an + 名词",
         "It's = It is"
       ],
       "examples": [
@@ -256,7 +256,7 @@
         {"question": "___ at me!", "options": ["Look", "See", "Listen", "Hear"], "answer": 0, "explanation": "看用 Look at。"},
         {"question": "Listen ___ Mom.", "options": ["at", "to", "in", "on"], "answer": 1, "explanation": "Listen 后面用 to。"},
         {"question": "Look ___ the bird.", "options": ["at", "to", "in", "on"], "answer": 0, "explanation": "Look 后面用 at。"},
-        {"question": "选正确的: ", "options": ["Look me at!", "Look at me!", "I look at!", "At look me!"], "answer": 1, "explanation": "正确语序是 Look at + 人。"},
+        {"question": "选出正确的句子", "options": ["Look me at!", "Look at me!", "I look at!", "At look me!"], "answer": 1, "explanation": "正确语序是 Look at + 人。"},
         {"question": "___ to the song.", "options": ["Look", "Listen", "See", "Read"], "answer": 1, "explanation": "听歌用 Listen to。"}
       ]
     },
@@ -267,9 +267,9 @@
       "summary": "用 Are you...? 问对方是不是，回答用 Yes, I am. 或 No, I'm not.",
       "rules": [
         "Are you + 名词/形容词?",
-        "Are you Tom? = 你是汤姆吗?",
-        "肯定回答: Yes, I am.",
-        "否定回答: No, I'm not."
+        "Are you Tom? = 你是汤姆吗？",
+        "肯定回答：Yes, I am.",
+        "否定回答：No, I'm not."
       ],
       "examples": [
         {"en": "Are you Tom? Yes, I am.", "zh": "你是汤姆吗？是的，我是。"},

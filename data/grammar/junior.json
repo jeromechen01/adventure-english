@@ -7,10 +7,10 @@
       "grade": [8, 9],
       "summary": "现在完成时表示过去的动作对现在造成的影响或结果，结构为 have/has + 过去分词。",
       "rules": [
-        "结构: have/has + V-ed (过去分词)",
-        "He/She/It 用 has, 其他主语用 have",
-        "时间标志: already, yet, just, ever, never, since, for",
-        "since + 时间点; for + 时间段"
+        "结构：have/has + V-ed (过去分词)",
+        "He/She/It 用 has，其他主语用 have",
+        "时间标志：already, yet, just, ever, never, since, for",
+        "since + 时间点；for + 时间段"
       ],
       "examples": [
         {"en": "I have finished my homework.", "zh": "我已经完成了作业。"},
@@ -31,9 +31,9 @@
       "grade": [8, 9],
       "summary": "被动语态强调动作的承受者，结构为 be + 过去分词，时态由 be 动词体现。",
       "rules": [
-        "一般现在时被动: am/is/are + V-ed",
-        "一般过去时被动: was/were + V-ed",
-        "情态动词被动: 情态动词 + be + V-ed",
+        "一般现在时被动：am/is/are + V-ed",
+        "一般过去时被动：was/were + V-ed",
+        "情态动词被动：情态动词 + be + V-ed",
         "动作执行者用 by + 名词/宾格代词引出"
       ],
       "examples": [
@@ -42,7 +42,7 @@
         {"en": "Books should be read every day.", "zh": "每天都应该读书。"}
       ],
       "quiz": [
-        {"question": "The book ___ by many students.", "options": ["read", "reads", "is read", "reading"], "answer": 2, "explanation": "书 是被读，用被动 is read。"},
+        {"question": "The book ___ by many students.", "options": ["read", "reads", "is read", "reading"], "answer": 2, "explanation": "书是「被读」的，用被动 is read。"},
         {"question": "The room ___ cleaned yesterday.", "options": ["is", "was", "were", "are"], "answer": 1, "explanation": "yesterday 过去时，单数主语用 was。"},
         {"question": "Apples ___ in autumn.", "options": ["pick", "picks", "are picked", "is picked"], "answer": 2, "explanation": "苹果是被采摘的，复数用 are picked。"},
         {"question": "The work must ___ done today.", "options": ["be", "is", "was", "been"], "answer": 0, "explanation": "情态动词 must + be + 过去分词。"},
@@ -53,7 +53,7 @@
       "id": "gj-003",
       "title": "宾语从句",
       "grade": [8, 9],
-      "summary": "宾语从句作动词或介词的宾语，连接词常用 that, if/whether, 以及特殊疑问词。",
+      "summary": "宾语从句作动词或介词的宾语，连接词常用 that、if/whether 以及特殊疑问词。",
       "rules": [
         "陈述句作宾语从句用 that 引导，that 可省略",
         "一般疑问句作宾语从句用 if 或 whether 引导，从句用陈述语序",
@@ -128,7 +128,7 @@
       "rules": [
         "will + 动词原形 (适用于所有人称)",
         "be going to + 动词原形 (强调计划、打算或迹象)",
-        "时间标志: tomorrow, next week, in the future, soon"
+        "时间标志：tomorrow, next week, in the future, soon"
       ],
       "examples": [
         {"en": "I will visit my grandma next Sunday.", "zh": "下周日我要去看望奶奶。"},
@@ -176,7 +176,7 @@
         "比较级 + than",
         "the + 最高级 + (in/of 范围)",
         "最高级前一般加 the，但物主代词后不加 the",
-        "irregular: good/well → better → best; bad/badly → worse → worst"
+        "不规则：good/well → better → best；bad/badly → worse → worst"
       ],
       "examples": [
         {"en": "Tom is taller than Jim.", "zh": "汤姆比吉姆高。"},
@@ -221,10 +221,10 @@
       "grade": [8, 9],
       "summary": "状语从句修饰主句的谓语，常见有时间、原因、条件、让步等类型。",
       "rules": [
-        "时间状语: when, while, as, before, after, since, until",
-        "原因状语: because, since, as",
-        "条件状语: if, unless",
-        "让步状语: although, though, even though"
+        "时间状语：when, while, as, before, after, since, until",
+        "原因状语：because, since, as",
+        "条件状语：if, unless",
+        "让步状语：although, though, even though"
       ],
       "examples": [
         {"en": "I was reading when she came in.", "zh": "她进来时我正在读书。"},
