@@ -1,0 +1,1073 @@
+{
+  "$comment": "语法大厅 G50（V0.9 P4 精修层收官，三笔债之三，全 50 课终点）。比喻锚点：最后一次总排练：把老毛病一次点完。以备考知识库 6.5 节 8 类中式错误表为底升级 16 类，保持三色分区逻辑（会挡意思/不挡但考/不挡也不考）；保留原表最关键的判断：只打红区，灰区（三单-s、单复数）不反复纠正——官方满分范文里就有这类错照样 15/15（原创等效表述）。echo 段承担全套暗线收束，平静收尾。全部内容原创。",
+  "id": "G50",
+  "tier": "精修",
+  "title": "中式英语专项（16 类总表）",
+  "metaphor": "最后一次总排练：把老毛病一次点完",
+  "ketRelevance": 1,
+  "ketLessonMap": null,
+  "ketNote": "老实说：这一课不是新考点，是全套课程的总排练。KET 备考中心那张 8 类错误表管 KET 够用；这张 16 类总表是为初中/PET 打底。不用焦虑，学到就是赚到。",
+  "source": "original",
+  "sections": {
+    "essence": "16 类老毛病三色点名：红区四类立即改，黄区九类按考点练，灰区三类别打断。",
+    "why": "KET 备考中心里有一张 8 类中式错误表，那是为 KET 准备的急救包。从基石层一路练到进阶层，新的毛病也陆续露头：从句忘了坐正、转述忘了退一步、enjoy 后面接了 to do、被动丢了 be……今天把新老毛病合成一张 16 类总表，作为 50 课的最后一次总排练。三色分区的逻辑一个字不改：红区是「会挡住意思」的——听的人会误解或听不懂，必须立即改；黄区是「不挡意思但考试要考」的——为分数练，练熟即可，不必上纲上线；灰区是「不挡意思也几乎不考」的——第三人称 -s、单复数这类，只有内行才注意，交流毫发无损。最关键的那条判断也原样保留：只打红区。灰区的错不要反复纠正——那是把孩子说到不敢开口最快的办法，而回报接近零。",
+    "metaphorStory": "首演前夜，银帆乐团最后一次总排练。指挥没有教任何新曲子，只拿着三色便签在谱架间走了一圈。红色便签贴了四张：「这几处会让观众听不懂——今晚必须改。」黄色便签贴了九张：「这几处观众听不出来，但评委会扣分——按曲目单各自加练。」还剩三张灰色的，指挥捏在手里没贴出去。学徒问为什么，指挥说：「这三处只有坐在第一排的老乐师才听得出来，观众毫无感觉。要是我为这个喊停，全团的士气比这三个音值钱得多。」他顿了顿：「我见过评委给有小瑕疵的演出打满分——因为音乐是完整的、动人的。记住：排练的目标从来不是零错误，是让观众听懂你要说的话。」",
+    "rules": {
+      "cards": [
+        {
+          "rule": "🔴 1 · 疑问句缺助动词/语序",
+          "detail": "问句不请起拍手势，听的人不知道你在提问（G12）。",
+          "example": "You like music? → Do you like music?"
+        },
+        {
+          "rule": "🔴 2 · be 动词缺失",
+          "detail": "英语的等号不能省——形容词前必须有 be（G04）。",
+          "example": "I very happy. → I am very happy."
+        },
+        {
+          "rule": "🔴 3 · 叙事时态跳",
+          "detail": "讲故事半路转调，听的人时间线全乱（G15）。",
+          "example": "Yesterday he sees a dog and ran. → saw ... ran"
+        },
+        {
+          "rule": "🔴 4 · 主被动颠倒",
+          "detail": "该换灯不换灯，谁对谁做的全反了（G29）。",
+          "example": "The fish ate. → The fish was eaten."
+        },
+        {
+          "rule": "🟡 5 · 介词用错",
+          "detail": "点/面/盒子拿错（G11）——通常不挡意思，但考试直接考。",
+          "example": "in Saturday → on Saturday"
+        },
+        {
+          "rule": "🟡 6 · 代词格用错",
+          "detail": "台上台下的身份牌拿反（G03）。",
+          "example": "Me and Tom went out. → Tom and I went out."
+        },
+        {
+          "rule": "🟡 7 · 冠词丢失",
+          "detail": "单数可数名词不能光着上台（G02）。",
+          "example": "I have book. → I have a book."
+        },
+        {
+          "rule": "🟡 8 · 双重连词",
+          "detail": "一句只要一个领队——because 和 so 只能留一个（G20/G36）。",
+          "example": "Because it rained, so we stayed in. → 去掉 so"
+        },
+        {
+          "rule": "🟡 9 · 从句语序不回正",
+          "detail": "进了座位还举着问句手势（G33）。",
+          "example": "I don't know where is he. → where he is"
+        },
+        {
+          "rule": "🟡 10 · 时态呼应不退",
+          "detail": "主句在过去，从句的将来要退成 would（G40/G47）。",
+          "example": "He said he will come. → he would come"
+        },
+        {
+          "rule": "🟡 11 · 非谓语搭配错",
+          "detail": "点菜单拿错——enjoy 只收箱，decide 只点号（G46）。",
+          "example": "enjoy to swim → enjoy swimming"
+        },
+        {
+          "rule": "🟡 12 · very 直接压在动词上",
+          "detail": "very 只修饰形容词副词——动词的「很」用 very much 收尾。",
+          "example": "I very like it. → I like it very much."
+        },
+        {
+          "rule": "🟡 13 · There be 与 have 杂交",
+          "detail": "报幕用 There is/are，拥有用 sb has——两句式不能焊在一起（G05）。",
+          "example": "There has a book on the desk. → There is a book"
+        },
+        {
+          "rule": "⚪ 14 · 第三人称 -s 丢失",
+          "detail": "不挡意思、写作里也只算小瑕疵——记在本上，别当场打断。",
+          "example": "He go to school early. → goes"
+        },
+        {
+          "rule": "⚪ 15 · 单复数/可数不可数",
+          "detail": "同上——意思毫发无损，慢慢磨（G01/G19）。",
+          "example": "three book / many water → three books / much water"
+        },
+        {
+          "rule": "⚪ 16 · 冗余表达",
+          "detail": "词义里已含的成分再说一遍——不挡意思，初中也几乎不考。",
+          "example": "return back → return ／ discuss about → discuss"
+        }
+      ],
+      "ladder": {
+        "basic": [
+          {
+            "en": "Do you often come here by bike?",
+            "cn": "你常骑车来这儿吗？（红1 改对：起拍手势 Do 到位）"
+          },
+          {
+            "en": "My little sister is afraid of thunder.",
+            "cn": "我妹妹怕打雷。（红2 改对：be 在场）"
+          },
+          {
+            "en": "Last night I heard a noise, got up and looked outside.",
+            "cn": "昨晚我听到响声，起床朝外看。（红3 改对：全程过去格）"
+          },
+          {
+            "en": "All the mooncakes were eaten before nine.",
+            "cn": "月饼九点前就被吃光了。（红4 改对：聚光灯换对了）"
+          },
+          {
+            "en": "The window was broken, so Dad fixed it.",
+            "cn": "窗户破了，爸爸把它修好了。（红4：被动主动各归各位）"
+          }
+        ],
+        "mid": [
+          {
+            "en": "We have a picnic on the first Sunday of May.",
+            "cn": "五月的第一个周日我们去野餐。（黄5：日子用 on）"
+          },
+          {
+            "en": "Lily and I are in charge of the class library.",
+            "cn": "莉莉和我负责班级图书角。（黄6：主语位用 I，还把对方放前面）"
+          },
+          {
+            "en": "Because the bus was late, we ran to school.",
+            "cn": "因为公交晚点，我们跑着去学校。（黄8：so 已让位）"
+          },
+          {
+            "en": "Could you tell me how much the ticket costs?",
+            "cn": "请问票价多少？（黄9：从句坐正）"
+          },
+          {
+            "en": "She said she would show us her stamp collection.",
+            "cn": "她说她会给我们看集邮册。（黄10：will 退成 would）"
+          }
+        ],
+        "trap": [
+          {
+            "en": "He like noodles very much.（有小错，但该不该打断？）",
+            "cn": "他很爱吃面条。",
+            "note": "三单 -s 丢了——灰区。意思零损失，记在本上就好，不当场打断。"
+          },
+          {
+            "en": "I bought three apple and some waters.（灰区双错）",
+            "cn": "我买了三个苹果和一些水。",
+            "note": "单复数错两处——听的人照样全懂。灰区的错，攒着慢慢磨。"
+          },
+          {
+            "en": "I like this song very much.",
+            "cn": "我非常喜欢这首歌。",
+            "note": "「很喜欢」的正确落点——very much 在句尾，very 不压在 like 上。"
+          },
+          {
+            "en": "There is a new bookshop near the station.",
+            "cn": "车站附近有家新书店。",
+            "note": "报幕用 There is——别跟 have 杂交成 There has。"
+          },
+          {
+            "en": "We finished cleaning and decided to have a rest.",
+            "cn": "我们打扫完，决定歇一会儿。",
+            "note": "finish 收箱、decide 点号——黄11 的两张菜单一句用对。"
+          },
+          {
+            "en": "Please return the ruler to me after class.",
+            "cn": "下课后请把尺子还我。",
+            "note": "return 自带「回」——不再加 back；加了也只是灰区冗余，不必大惊小怪。"
+          }
+        ]
+      }
+    },
+    "redBlack": [
+      {
+        "bad": "You finish your homework?（想问：你写完了吗）",
+        "good": "Have you finished your homework? / Did you finish your homework?",
+        "zone": "blocks",
+        "why": "红1：不请助动词、语序不动，问意送不出去——听的人以为你在陈述。"
+      },
+      {
+        "bad": "My grandpa very strict about study.",
+        "good": "My grandpa is very strict about study.",
+        "zone": "blocks",
+        "why": "红2：等号 be 一丢，句子当场散架——中文「爷爷很严」不用「是」，英语必须有。"
+      },
+      {
+        "bad": "Last Sunday we go to the beach and swam all afternoon.",
+        "good": "Last Sunday we went to the beach and swam all afternoon.",
+        "zone": "blocks",
+        "why": "红3：叙事半路转调——go 和 swam 一今一昔，听的人时间线断裂。"
+      },
+      {
+        "bad": "My ice cream ate, so I cried.（想说：冰激凌被吃了）",
+        "good": "My ice cream was eaten, so I cried.",
+        "zone": "blocks",
+        "why": "红4：不换灯，冰激凌成了吃东西的一方——谁吃谁全反。"
+      },
+      {
+        "bad": "We have an English test in Friday morning.",
+        "good": "We have an English test on Friday morning.",
+        "zone": "tested",
+        "why": "黄5：具体某天的早上是「面」——用 on（G11 的点面盒）。"
+      },
+      {
+        "bad": "Me and my cousin built a sandcastle.",
+        "good": "My cousin and I built a sandcastle.",
+        "zone": "tested",
+        "why": "黄6：主语位用 I，并把对方放前面——考试和礼貌一起到位。"
+      },
+      {
+        "bad": "Although it was cold, but we still went camping.",
+        "good": "Although it was cold, we still went camping.",
+        "zone": "tested",
+        "why": "黄8：although 和 but 一山不容二虎——领队只留一个。"
+      },
+      {
+        "bad": "Do you know when does the museum open?",
+        "good": "Do you know when the museum opens?",
+        "zone": "tested",
+        "why": "黄9：从句进了座位要坐正——does 的手势要收回去。"
+      },
+      {
+        "bad": "The coach told us the match will start at nine that day.",
+        "good": "The coach told us the match would start at nine that day.",
+        "zone": "tested",
+        "why": "黄10：told 站在过去——从句的 will 跟着退成 would。"
+      },
+      {
+        "bad": "I very miss my old classmates.",
+        "good": "I miss my old classmates very much.",
+        "zone": "tested",
+        "why": "黄12：very 不能直接压在动词上——「很想念」的 very much 放句尾。"
+      },
+      {
+        "bad": "She often forget to water the plants.（要不要当场纠正？）",
+        "good": "forgets——但灰区的错记在本上就行，别打断她说话。",
+        "zone": "minor",
+        "why": "⚪14：三单 -s 丢失意思零损失——官方满分范文里也有这类小错，照样拿满分。"
+      },
+      {
+        "bad": "Let's discuss about the plan and then return back the books.",
+        "good": "Let's discuss the plan and then return the books.",
+        "zone": "minor",
+        "why": "⚪16：discuss 和 return 词义里已含 about/back——冗余不挡意思，知道即可。"
+      }
+    ],
+    "contrast": [
+      {
+        "cn": "你喜欢音乐吗？（「吗」字报问意）",
+        "en": "Do you like music?（助动词 + 语序报问意）",
+        "diff": "红1 的病根：中文问句靠句尾小词，英语靠句首手势——手势不打，问意丢失。"
+      },
+      {
+        "cn": "我很开心。（「很」直接接形容词）",
+        "en": "I am very happy.（中间必须有 be）",
+        "diff": "红2 的病根：中文形容词自己能当谓语，英语的形容词必须挂在 be 上。"
+      },
+      {
+        "cn": "昨天他看见一只狗，跑了。（动词永远不变）",
+        "en": "Yesterday he saw a dog and ran.",
+        "diff": "红3 的病根：中文动词没有日期戳，英语每个动词都要对表——而且全程对同一块表。"
+      },
+      {
+        "cn": "因为下雨，所以我们没去。（成对出现才舒服）",
+        "en": "Because it rained, we didn't go.",
+        "diff": "黄8 的病根：中文「因为……所以」是标配套装，英语一句只发一个领队。"
+      },
+      {
+        "cn": "我很喜欢这首歌。（「很」压在动词前）",
+        "en": "I like this song very much.（very much 收尾）",
+        "diff": "黄12 的病根：中文的「很」是万能强度词，英语的 very 只肯站在形容词副词前面。"
+      }
+    ],
+    "quickJudge": {
+      "mnemonic": "改错先问三句话：挡意思吗？考吗？都不？——红区立即改，黄区专项练，灰区记本别打断。",
+      "steps": [
+        "听到或写出一个错，先问：会让人误解或听不懂吗？会 → 红区（缺 be、缺助动词、时态跳、主被动反），当场改。",
+        "不挡意思，再问：考试考吗？考 → 黄区（介词、代词格、冠词、双重连词、从句语序、时态呼应、非谓语、very、There be），记进错题本，按对应课号回炉专项。",
+        "既不挡也不考 → 灰区（三单 -s、单复数、冗余表达），记录但绝不当场打断。",
+        "拿不准归哪区？默认灰区——宁可放过，不可错杀开口的勇气。",
+        "自查作文时反着用：先扫红区四类，再扫黄区，灰区最后顺手看一眼。",
+        "每类病都有主治的课——卡片上标了课号，哪类反复犯就回哪课重练一轮。"
+      ]
+    },
+    "parentScript": {
+      "script": "「宝贝的英语，我只管四件事。」这是给家长的总排练手册：孩子说英语或读作文时，只盯红区四类——① 问句开头有没有 Do/Did/Is 这类小词；② 形容词前有没有 is/am/was 的音；③ 讲昨天的事，动词是不是一路都是过去的调（听到 go、see 混进 went、saw 里就是跳了）；④ 「被」的事有没有 was/been 的音。这四类当场温和地提一句「再说一遍试试？」。黄区的错——介词、冠词这些——记在小本上，周末挑一类回对应的课练；灰区的错——go 没加 s、book 没加 s——只记不提。最要紧的一条：官方的满分作文里也有灰区小错，照样拿满分。纠错的目标不是完美，是让人听懂。孩子敢开口，比全对值钱。",
+      "questions": [
+        "红区四类是哪四类？为什么只有它们要当场改？",
+        "孩子说 He go to school by bike，你该打断吗？为什么？",
+        "拿不准一个错归哪区的时候，默认按哪个区处理？"
+      ]
+    },
+    "echo": "十六类毛病点完，五十课也到了终点。回头看这一路：be 收集了五副面孔，go 的过去式是借来不还的 went，good 的比较级是别家的 better，get、take、put 一个词攒下十几个意思，I 独享大写，were 独守虚拟的礼服——当初它们一个个冒出来的时候，都像是英语在故意刁难。但走完五十课再看，它们不是一堆乱七八糟的例外，而是同一条规律反复现身：越常用的词，被时间磨得越多，攒下的兼职越多，保住的老形态也越多。语言像一条河，水流最急的河心，石头被磨得最圆。往后再遇到任何一个「不规则」，都可以先问一句：是不是因为它太常用了？十有八九，是的。英语不是没有秩序——它的秩序，连例外都排得整整齐齐。总排练结束，灯光交给你。"
+  },
+  "memoryCard": {
+    "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 620' style='width:100%;height:auto;display:block'><rect x='4' y='4' width='712' height='612' rx='28' fill='#FAF5FF' stroke='#C084FC' stroke-width='4'/><text x='360' y='54' text-anchor='middle' font-size='30' font-weight='bold' fill='#9333EA'>G50 · 中式英语 16 类总表</text><text x='360' y='86' text-anchor='middle' font-size='21' fill='#64748B'>最后一次总排练：把老毛病一次点完</text><rect x='36' y='104' width='648' height='106' rx='20' fill='#FFEBEE' stroke='#EF9A9A' stroke-width='3'/><text x='360' y='132' text-anchor='middle' font-size='21' font-weight='bold' fill='#C0392B'>🔴 会挡意思 · 只打这四类（当场改）</text><text x='360' y='160' text-anchor='middle' font-size='18' fill='#5A4A42'>①疑问句缺助动词 You like it? ②缺 be：I very happy ③叙事时态跳</text><text x='360' y='186' text-anchor='middle' font-size='18' fill='#5A4A42'>④主被动颠倒：The fish ate.（想说鱼被吃了）</text><rect x='36' y='222' width='648' height='150' rx='20' fill='#FFFDE7' stroke='#FBC02D' stroke-width='3'/><text x='360' y='250' text-anchor='middle' font-size='21' font-weight='bold' fill='#B7791F'>🟡 不挡但考 · 九类按专项练</text><text x='360' y='278' text-anchor='middle' font-size='18' fill='#5A4A42'>⑤介词 in Saturday ⑥代词格 Me and Tom ⑦冠词 I have book</text><text x='360' y='304' text-anchor='middle' font-size='18' fill='#5A4A42'>⑧Because...so 双领队 ⑨从句 where is he ⑩said...will 不退</text><text x='360' y='330' text-anchor='middle' font-size='18' fill='#5A4A42'>⑪enjoy to do ⑫very like ⑬There has a book</text><text x='360' y='356' text-anchor='middle' font-size='17' fill='#94A3B8'>每类都有主治课号——反复犯哪类，回哪课重练</text><rect x='36' y='384' width='648' height='96' rx='20' fill='#F5F5F5' stroke='#BDBDBD' stroke-width='3'/><text x='360' y='412' text-anchor='middle' font-size='21' font-weight='bold' fill='#757575'>⚪ 不挡也不考 · 三类只记不打断</text><text x='360' y='440' text-anchor='middle' font-size='18' fill='#5A4A42'>⑭三单 He go ⑮单复数 three book ⑯冗余 return back</text><text x='360' y='466' text-anchor='middle' font-size='17' fill='#C0392B'>★ 官方满分范文里就有这类错，照样 15/15——别把孩子纠到不敢开口</text><rect x='36' y='496' width='648' height='50' rx='18' fill='#FFFFFF' stroke='#C084FC' stroke-width='2'/><text x='360' y='527' text-anchor='middle' font-size='17' fill='#9333EA'>改错三问：挡意思吗？考吗？都不？——红区立即改 · 黄区专项练 · 灰区记本别打断</text><text x='360' y='572' text-anchor='middle' font-size='18' fill='#7DA7C4'>50 课总排练收官——纠错的目标不是完美，是让人听懂</text><text x='360' y='600' text-anchor='middle' font-size='17' fill='#94A3B8'>暗线终章：越常用的词，磨得越圆——英语的秩序连例外都排得整整齐齐 🦊 G50</text></svg>",
+    "alt": "G50 记忆卡：中式英语 16 类三色总表。红区四类会挡意思当场改（疑问句缺助动词/缺be/叙事时态跳/主被动颠倒）；黄区九类不挡但考按专项练（介词/代词格/冠词/双重连词/从句语序/时态呼应/非谓语/very like/There has）；灰区三类只记不打断（三单-s/单复数/冗余），官方满分范文也有此类错照样满分；改错三问口诀；暗线终章：越常用的词磨得越圆。"
+  },
+  "practice": {
+    "stages": [
+      {
+        "name": "认一认 · 三色分区",
+        "questions": [
+          {
+            "q": "16 类总表里，「红区」的判断标准是？",
+            "options": [
+              "会挡住意思——听的人误解或听不懂",
+              "考试要考",
+              "看起来不顺眼"
+            ],
+            "answer": 0,
+            "explain": "红区只看一条：意思传没传到。",
+            "level": 1
+          },
+          {
+            "q": "红区一共几类？该怎么处理？",
+            "options": [
+              "四类——当场温和地改",
+              "九类——慢慢练",
+              "三类——不用管"
+            ],
+            "answer": 0,
+            "explain": "缺助动词、缺 be、时态跳、主被动反——只有这四类值得当场改。",
+            "level": 1
+          },
+          {
+            "q": "「不挡意思但考试要考」的是哪个区？",
+            "options": [
+              "黄区",
+              "红区",
+              "灰区"
+            ],
+            "answer": 0,
+            "explain": "黄区九类——为分数练，练熟即可。",
+            "level": 1
+          },
+          {
+            "q": "灰区的错（三单 -s、单复数）该怎么处理？",
+            "options": [
+              "记在本上，绝不当场打断",
+              "每次都立刻纠正",
+              "假装没看见永远不提"
+            ],
+            "answer": 0,
+            "explain": "记录但不打断——反复纠灰区是把人说到不敢开口最快的办法。",
+            "level": 1
+          },
+          {
+            "q": "官方满分范文里有没有灰区小错？",
+            "options": [
+              "有——照样拿满分",
+              "绝对没有",
+              "有就不可能满分"
+            ],
+            "answer": 0,
+            "explain": "满分标准是内容完整、意思清楚——不是零错误。",
+            "level": 1
+          },
+          {
+            "q": "You want some tea? 这个错归哪区？",
+            "options": [
+              "红区——问句缺助动词",
+              "黄区",
+              "灰区"
+            ],
+            "answer": 0,
+            "explain": "红1：不请 Do，问意送不出去。",
+            "level": 1
+          },
+          {
+            "q": "The classroom very big. 这个错归哪区？",
+            "options": [
+              "红区——be 缺失",
+              "黄区",
+              "灰区"
+            ],
+            "answer": 0,
+            "explain": "红2：等号 be 一丢句子散架。",
+            "level": 1
+          },
+          {
+            "q": "He play basketball after school. 这个错归哪区？",
+            "options": [
+              "灰区——三单 -s 丢失",
+              "红区",
+              "黄区"
+            ],
+            "answer": 0,
+            "explain": "⚪14：意思零损失——记本上就好。",
+            "level": 1
+          },
+          {
+            "q": "Because I was ill, so I stayed at home. 这个错归哪区？",
+            "options": [
+              "黄区——双重连词",
+              "红区",
+              "灰区"
+            ],
+            "answer": 0,
+            "explain": "🟡8：意思照样懂，但考试爱考——去掉 so。",
+            "level": 1
+          },
+          {
+            "q": "The homework did by me last night. 这个错归哪区？",
+            "options": [
+              "红区——主被动颠倒/被动缺件",
+              "灰区",
+              "黄区"
+            ],
+            "answer": 0,
+            "explain": "红4：was done 的灯没换对——谁做谁挨全糊了。",
+            "level": 1
+          },
+          {
+            "q": "I very love my hometown. 这个错归哪区？",
+            "options": [
+              "黄区——very 不能直接压动词",
+              "红区",
+              "灰区"
+            ],
+            "answer": 0,
+            "explain": "🟡12：意思能懂，但考试考——very much 放句尾。",
+            "level": 1
+          },
+          {
+            "q": "拿不准一个错归哪区时，默认按哪个区处理？",
+            "options": [
+              "灰区——宁可放过，不可错杀",
+              "红区——从严",
+              "随机"
+            ],
+            "answer": 0,
+            "explain": "错杀的代价是孩子不敢开口——默认从宽。",
+            "level": 1
+          },
+          {
+            "q": "There have many trees in the park. 病根是哪类？",
+            "options": [
+              "🟡13 There be 与 have 杂交",
+              "🔴2 be 缺失",
+              "⚪16 冗余"
+            ],
+            "answer": 0,
+            "explain": "报幕句式是 There are——不跟 have 焊在一起。",
+            "level": 1
+          },
+          {
+            "q": "纠错的最终目标是？",
+            "options": [
+              "让人听懂——不是零错误",
+              "一个错都不许有",
+              "说得越慢越好"
+            ],
+            "answer": 0,
+            "explain": "总排练的目标是观众听懂你要说的话。",
+            "level": 1
+          },
+          {
+            "q": "黄区的错该怎么练最有效？",
+            "options": [
+              "按类回对应的课重练一轮",
+              "每次说错都打断",
+              "抄写一百遍"
+            ],
+            "answer": 0,
+            "explain": "每类病都有主治的课号——介词回 G11、从句语序回 G33。",
+            "level": 1
+          },
+          {
+            "q": "这张 16 类总表和 KET 备考中心的 8 类表是什么关系？",
+            "options": [
+              "同一套三色逻辑，8 类升级成 16 类",
+              "互相矛盾",
+              "毫无关系"
+            ],
+            "answer": 0,
+            "explain": "老表管 KET，新表加了进阶层暴露的 8 类新毛病——逻辑一脉相承。",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "name": "选一选 · 红区急诊",
+        "questions": [
+          {
+            "q": "想问同桌借不借你橡皮，哪句问意送得出去？",
+            "options": [
+              "Did you take my eraser?",
+              "You take my eraser?",
+              "You took my eraser."
+            ],
+            "answer": 0,
+            "explain": "红1 急诊：请 Did 起拍，语序到位。",
+            "level": 2
+          },
+          {
+            "q": "「我爷爷八十岁了，身体很棒。」哪句 be 没丢？",
+            "options": [
+              "My grandpa is eighty and he is very healthy.",
+              "My grandpa eighty and he very healthy.",
+              "My grandpa is eighty and he very healthy."
+            ],
+            "answer": 0,
+            "explain": "红2 急诊：两个形容词前都要有 be。",
+            "level": 2
+          },
+          {
+            "q": "讲昨天的事，哪句没在半路转调？",
+            "options": [
+              "I woke up late, missed the bus and ran to school.",
+              "I woke up late, miss the bus and ran to school.",
+              "I wake up late, missed the bus and run to school."
+            ],
+            "answer": 0,
+            "explain": "红3 急诊：三个动词一路都在过去格。",
+            "level": 2
+          },
+          {
+            "q": "「蛋糕被吃光了。」哪句灯换对了？",
+            "options": [
+              "The cake was eaten up.",
+              "The cake ate up.",
+              "The cake eaten up."
+            ],
+            "answer": 0,
+            "explain": "红4 急诊：was + eaten 两件套齐全。",
+            "level": 2
+          },
+          {
+            "q": "「你妹妹会游泳吗？」哪句对？",
+            "options": [
+              "Can your sister swim?",
+              "Your sister can swim?",
+              "Your sister swims?"
+            ],
+            "answer": 0,
+            "explain": "红1：情态动词自己会搬家提问（G17）——Can 提前。",
+            "level": 2
+          },
+          {
+            "q": "「今天的汤有点咸。」哪句对？",
+            "options": [
+              "The soup is a little salty today.",
+              "The soup a little salty today.",
+              "The soup very salty today, yes."
+            ],
+            "answer": 0,
+            "explain": "红2：形容词 salty 必须挂在 is 上。",
+            "level": 2
+          },
+          {
+            "q": "「上周我们参观了消防站，学到很多。」哪句对？",
+            "options": [
+              "Last week we visited the fire station and learned a lot.",
+              "Last week we visit the fire station and learned a lot.",
+              "Last week we visited the fire station and learn a lot."
+            ],
+            "answer": 0,
+            "explain": "红3：visited 和 learned 同站过去格。",
+            "level": 2
+          },
+          {
+            "q": "「我的作文被老师表扬了。」哪句对？",
+            "options": [
+              "My composition was praised by the teacher.",
+              "My composition praised by the teacher.",
+              "My composition praised the teacher."
+            ],
+            "answer": 0,
+            "explain": "红4：第三句意思全反——作文表扬了老师。",
+            "level": 2
+          },
+          {
+            "q": "「他们昨晚为什么没来？」哪句对？",
+            "options": [
+              "Why didn't they come last night?",
+              "Why they didn't come last night?",
+              "Why they not come last night?"
+            ],
+            "answer": 0,
+            "explain": "红1：疑问词后仍要倒——didn't they。",
+            "level": 2
+          },
+          {
+            "q": "「这些饺子是外婆包的。」哪句对？",
+            "options": [
+              "These dumplings were made by Grandma.",
+              "These dumplings made by Grandma.",
+              "These dumplings were make by Grandma."
+            ],
+            "answer": 0,
+            "explain": "红4：were + made——报时和状态牌都在。",
+            "level": 2
+          },
+          {
+            "q": "「我小时候特别怕黑。」哪句对？",
+            "options": [
+              "I was very afraid of the dark when I was little.",
+              "I very afraid of the dark when I little.",
+              "I was very afraid of the dark when I little."
+            ],
+            "answer": 0,
+            "explain": "红2：主句从句两个 be 一个都不能少。",
+            "level": 2
+          },
+          {
+            "q": "「弟弟打翻了牛奶，妈妈擦了地板。」哪句对？",
+            "options": [
+              "My brother knocked over the milk, and Mum wiped the floor.",
+              "My brother knocks over the milk, and Mum wiped the floor.",
+              "My brother knocked over the milk, and Mum wipes the floor."
+            ],
+            "answer": 0,
+            "explain": "红3：叙事两件事同一块表。",
+            "level": 2
+          },
+          {
+            "q": "「你冷不冷？」哪句对？",
+            "options": [
+              "Are you cold?",
+              "You cold?",
+              "Do you cold?"
+            ],
+            "answer": 0,
+            "explain": "红1+红2：形容词问句请 be 搬家——不是 Do。",
+            "level": 2
+          },
+          {
+            "q": "「教室每天放学后都有人打扫。」哪句对？",
+            "options": [
+              "The classroom is cleaned after school every day.",
+              "The classroom cleans after school every day.",
+              "The classroom cleaned after school every day, always."
+            ],
+            "answer": 0,
+            "explain": "红4：教室不会自己打扫——is cleaned。",
+            "level": 2
+          },
+          {
+            "q": "「那时我不知道他的名字。」哪句对？",
+            "options": [
+              "I didn't know his name then.",
+              "I don't knew his name then.",
+              "I not know his name then."
+            ],
+            "answer": 0,
+            "explain": "红1 变体：否定也要请 did——didn't + 原形。",
+            "level": 2
+          },
+          {
+            "q": "「演出很精彩，我们都站起来鼓掌了。」哪句对？",
+            "options": [
+              "The show was wonderful, and we all stood up and clapped.",
+              "The show wonderful, and we all stood up and clapped.",
+              "The show was wonderful, and we all stand up and clap."
+            ],
+            "answer": 0,
+            "explain": "红2+红3 联查：be 在场，动词全程过去格。",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "name": "改一改 · 黄区专项",
+        "questions": [
+          {
+            "q": "病句 We play football in Sunday afternoon. 主治方案是？",
+            "options": [
+              "in → on（具体某天下午）",
+              "play → plays",
+              "去掉 afternoon"
+            ],
+            "answer": 0,
+            "explain": "🟡5 介词：具体某天的下午用 on——回 G11。",
+            "level": 3
+          },
+          {
+            "q": "病句 Me and Lily water the flowers every day. 主治方案是？",
+            "options": [
+              "Me and Lily → Lily and I",
+              "water → waters",
+              "every day → everyday"
+            ],
+            "answer": 0,
+            "explain": "🟡6 代词格：主语位用 I，对方在前——回 G03。",
+            "level": 3
+          },
+          {
+            "q": "病句 My father is engineer. 主治方案是？",
+            "options": [
+              "engineer 前加 an",
+              "engineer 加 -s",
+              "is → are"
+            ],
+            "answer": 0,
+            "explain": "🟡7 冠词：单数职业名词不能光着上台——an engineer，回 G02。",
+            "level": 3
+          },
+          {
+            "q": "病句 Because he was tired, so he went to bed early. 主治方案是？",
+            "options": [
+              "去掉 so（或去掉 Because）",
+              "把 so 换成 but",
+              "两个都保留"
+            ],
+            "answer": 0,
+            "explain": "🟡8 双重连词：领队只留一个——回 G20/G36。",
+            "level": 3
+          },
+          {
+            "q": "病句 I wonder what time is it now. 主治方案是？",
+            "options": [
+              "is it → it is（从句坐正）",
+              "what → when",
+              "去掉 now"
+            ],
+            "answer": 0,
+            "explain": "🟡9 从句语序：进座位要坐正——回 G33。",
+            "level": 3
+          },
+          {
+            "q": "病句 She told me she will lend me the novel. 主治方案是？",
+            "options": [
+              "will → would",
+              "told → tells",
+              "lend → lent"
+            ],
+            "answer": 0,
+            "explain": "🟡10 时态呼应：主句过去，从句退一步——回 G40。",
+            "level": 3
+          },
+          {
+            "q": "病句 They enjoy to play chess after lunch. 主治方案是？",
+            "options": [
+              "to play → playing",
+              "enjoy → enjoys",
+              "去掉 after lunch"
+            ],
+            "answer": 0,
+            "explain": "🟡11 非谓语：enjoy 只收箱——回 G46。",
+            "level": 3
+          },
+          {
+            "q": "病句 I very enjoy the school trip. 主治方案是？",
+            "options": [
+              "改成 I enjoy the school trip very much.",
+              "very → much very",
+              "enjoy → enjoys"
+            ],
+            "answer": 0,
+            "explain": "🟡12：very 不压动词——very much 收尾。",
+            "level": 3
+          },
+          {
+            "q": "病句 There has a music room on the second floor. 主治方案是？",
+            "options": [
+              "There has → There is",
+              "has → have",
+              "去掉 There"
+            ],
+            "answer": 0,
+            "explain": "🟡13：报幕句式用 There is——回 G05。",
+            "level": 3
+          },
+          {
+            "q": "病句 My cousin is good at play the drums. 主治方案是？",
+            "options": [
+              "play → playing（介词后装箱）",
+              "at → in",
+              "good → well"
+            ],
+            "answer": 0,
+            "explain": "🟡11 变体：介词 at 后收箱——回 G46。",
+            "level": 3
+          },
+          {
+            "q": "病句 We arrived Beijing in the morning of June 1st. 有几处黄区病？",
+            "options": [
+              "两处——arrived 后加 in，in the morning → on the morning",
+              "一处",
+              "三处"
+            ],
+            "answer": 0,
+            "explain": "🟡5 连环：arrive in + 具体某天早上用 on。",
+            "level": 3
+          },
+          {
+            "q": "病句 Neither my parents or I likes horror films. 最要紧的黄区病是？",
+            "options": [
+              "or → nor（neither...nor 配对）",
+              "likes 保持",
+              "去掉 I"
+            ],
+            "answer": 0,
+            "explain": "🟡8 变体：配对连词别拆散——neither...nor（G20）。",
+            "level": 3
+          },
+          {
+            "q": "病句 Could you tell me how can I get to the underground station? 主治方案是？",
+            "options": [
+              "how can I → how I can",
+              "Could → Can",
+              "去掉 tell me"
+            ],
+            "answer": 0,
+            "explain": "🟡9：从句坐正——can 收回主语后面。",
+            "level": 3
+          },
+          {
+            "q": "病句 The teacher asked us don't be late again. 主治方案是？",
+            "options": [
+              "don't be → not to be",
+              "asked → ask",
+              "again → against"
+            ],
+            "answer": 0,
+            "explain": "🟡11 变体：ask sb not to do——否定的号嘴（G30/G46）。",
+            "level": 3
+          },
+          {
+            "q": "病句 He said he has already saw that film the day before. 有几处黄区病？",
+            "options": [
+              "两处——has → had（呼应退步），saw → seen（第三形态）",
+              "一处",
+              "没有病"
+            ],
+            "answer": 0,
+            "explain": "🟡10 连环：said 之前的事用 had seen。",
+            "level": 3
+          },
+          {
+            "q": "病句 I look forward to see you in the summer holiday. 主治方案是？",
+            "options": [
+              "see → seeing（这个 to 是介词）",
+              "look → looking",
+              "in → on"
+            ],
+            "answer": 0,
+            "explain": "🟡11：look forward to 后装箱——回 G46。",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "name": "用一用 · 当总排练指挥",
+        "questions": [
+          {
+            "q": "弟弟说 He go to school by bike every day.——你该？",
+            "options": [
+              "不打断——三单 -s 是灰区，记在本上",
+              "立刻打断纠正",
+              "罚他抄十遍"
+            ],
+            "answer": 0,
+            "explain": "⚪14：意思零损失——打断的代价比错本身大。",
+            "level": 4
+          },
+          {
+            "q": "同学说 My mother very angry yesterday.——你该？",
+            "options": [
+              "温和提醒——缺 be 是红区，当场改成 was very angry",
+              "不用管",
+              "只记本上下周再说"
+            ],
+            "answer": 0,
+            "explain": "红2 当场改：形容词前必须有 be——这是四类之一。",
+            "level": 4
+          },
+          {
+            "q": "作文自查的正确顺序是？",
+            "options": [
+              "先扫红区四类，再扫黄区九类，灰区最后看一眼",
+              "从灰区开始逐字抠",
+              "只检查拼写"
+            ],
+            "answer": 0,
+            "explain": "先保「听得懂」，再保分数，最后顺手。",
+            "level": 4
+          },
+          {
+            "q": "判断：I have two dog and a cat. 哪个说法准确？",
+            "options": [
+              "灰区错——意思全懂，不必当场纠",
+              "红区错——必须立即改",
+              "没有错"
+            ],
+            "answer": 0,
+            "explain": "⚪15 单复数：dogs 丢了 s——听的人照样明白。",
+            "level": 4
+          },
+          {
+            "q": "判断：The thief caught by the police last night. 哪个说法准确？",
+            "options": [
+              "红区错——被动缺 was，小偷成了抓人的",
+              "灰区错",
+              "黄区错"
+            ],
+            "answer": 0,
+            "explain": "红4：was caught 的 was 丢了——谁抓谁全糊。",
+            "level": 4
+          },
+          {
+            "q": "一句话里红黄同时出现：Yesterday he see a snake and he very scared. 先治哪个？",
+            "options": [
+              "都要治——see→saw（红3）、very scared 前补 was（红2）",
+              "只治 see",
+              "都是灰区不用治"
+            ],
+            "answer": 0,
+            "explain": "两处都是红区——时态跳 + 缺 be，一次改齐。",
+            "level": 4
+          },
+          {
+            "q": "Because our team lost, so everyone very sad. 这句红黄各几处？",
+            "options": [
+              "黄一处（去 so）+ 红一处（sad 前补 was）",
+              "全是黄区",
+              "全是红区"
+            ],
+            "answer": 0,
+            "explain": "🟡8 双领队 + 红2 缺 be——分区诊断再下手。",
+            "level": 4
+          },
+          {
+            "q": "妹妹兴冲冲讲完一段英语故事，里面有 3 个三单错、1 个单复数错。最好的反馈是？",
+            "options": [
+              "先夸她讲完整了，错记在本上改天练",
+              "逐个错误重放一遍",
+              "让她重讲到全对为止"
+            ],
+            "answer": 0,
+            "explain": "全是灰区——完整开口比零错误值钱得多。",
+            "level": 4
+          },
+          {
+            "q": "There have many old photos in the album, they very precious. 两处病分别是？",
+            "options": [
+              "There have → There are（黄13）；very precious 前补 are（红2）",
+              "都是灰区",
+              "只有一处病"
+            ],
+            "answer": 0,
+            "explain": "杂交句式 + 缺 be——黄红各一。",
+            "level": 4
+          },
+          {
+            "q": "写信开头 I very miss you. 该怎么升级？",
+            "options": [
+              "I miss you very much.",
+              "I very much miss you very.",
+              "I miss very you."
+            ],
+            "answer": 0,
+            "explain": "🟡12：very much 收尾——「很想你」的正确落点。",
+            "level": 4
+          },
+          {
+            "q": "口语里说 Let's return back to the topic. 准确的评价是？",
+            "options": [
+              "灰区冗余——能懂、几乎不考，知道 return 自带「回」即可",
+              "红区必须当场改",
+              "这句完全没问题"
+            ],
+            "answer": 0,
+            "explain": "⚪16：词义已含的成分重复——最轻的一类。",
+            "level": 4
+          },
+          {
+            "q": "考场改错题给你一句：Tom said he will visit the museum where he can saw old coins. 改几处？",
+            "options": [
+              "两处——will → would（黄10）、can saw → can see（情态后原形）",
+              "一处",
+              "三处"
+            ],
+            "answer": 0,
+            "explain": "呼应退步 + 情态后原形——黄区连环但都不挡意思。",
+            "level": 4
+          },
+          {
+            "q": "你当一天「小指挥」，红区口袋里该装哪四张便签？",
+            "options": [
+              "缺助动词、缺 be、时态跳、主被动反",
+              "介词、冠词、代词、连词",
+              "三单、单复数、冗余、拼写"
+            ],
+            "answer": 0,
+            "explain": "红区四类——只有它们会挡住观众的耳朵。",
+            "level": 4
+          },
+          {
+            "q": "朋友作文得了高分但有两个 he go 式小错，他很沮丧。你该告诉他？",
+            "options": [
+              "满分范文里也有这类小错——内容完整意思清楚才是评分核心",
+              "有错就不该得高分",
+              "下次背范文别自己写"
+            ],
+            "answer": 0,
+            "explain": "评分看的是把话说清楚——灰区小错不掩盖好文章。",
+            "level": 4
+          },
+          {
+            "q": "16 类总表用了一年后，最理想的状态是？",
+            "options": [
+              "红区绝迹，黄区少见，灰区顺其自然减少",
+              "十六类同时归零",
+              "只保住灰区不错"
+            ],
+            "answer": 0,
+            "explain": "分区推进——先保意思，再保分数，最后水到渠成。",
+            "level": 4
+          },
+          {
+            "q": "大考：Yesterday I very tired, because I stay up late, so I sleep in class and the teacher criticize me. 红黄灰各几处？",
+            "options": [
+              "红 2 处（tired 前缺 was、stay/sleep 时态跳）+ 黄 1 处（because...so 双领队）+ 灰 1 处（criticize 该 criticized 属时态跳一并算红）",
+              "全是灰区",
+              "只有一处红区"
+            ],
+            "answer": 0,
+            "explain": "先补 was（红2），再把 stay/sleep/criticize 全部对回过去表（红3），最后去掉 so（黄8）——总排练收官，一句点完三类。",
+            "level": 4
+          }
+        ]
+      }
+    ]
+  },
+  "detective": [
+    {
+      "sentence": "Because the film was boring, so we left early.",
+      "fixed": "Because the film was boring, we left early.",
+      "clue": "🟡8 双重连词——because 和 so 一山不容二虎，领队只留一个。"
+    },
+    {
+      "sentence": "I very like the new song of our band.",
+      "fixed": "I like the new song of our band very much.",
+      "clue": "🟡12——very 不能直接压在动词上，「很喜欢」的 very much 放句尾。"
+    },
+    {
+      "sentence": "Yesterday Tom tells me a joke and we laugh for a long time.",
+      "fixed": "Yesterday Tom told me a joke and we laughed for a long time.",
+      "clue": "🔴3 叙事时态跳——昨天的事，动词一路都要在过去格。"
+    },
+    {
+      "sentence": "There has a big playground behind our teaching building.",
+      "fixed": "There is a big playground behind our teaching building.",
+      "clue": "🟡13——报幕用 There is，别跟 have 杂交成 There has。"
+    },
+    {
+      "sentence": "Could you tell me where is the nearest bus stop?",
+      "fixed": "Could you tell me where the nearest bus stop is?",
+      "clue": "🟡9 从句语序——进了座位就要坐正，is 收回主语后面。"
+    },
+    {
+      "sentence": "She afraid of dogs when she was little.",
+      "fixed": "She was afraid of dogs when she was little.",
+      "clue": "🔴2 be 缺失——形容词 afraid 必须挂在 was 上，等号不能省。"
+    },
+    {
+      "sentence": "The birthday cake ate by my little brother before the party.",
+      "fixed": "The birthday cake was eaten by my little brother before the party.",
+      "clue": "🔴4 主被动颠倒——was 一丢，蛋糕成了吃东西的一方。"
+    },
+    {
+      "sentence": "Our monitor said she will collect the papers the next morning.",
+      "fixed": "Our monitor said she would collect the papers the next morning.",
+      "clue": "🟡10 时态呼应——said 站在过去，从句的 will 跟着退成 would。"
+    }
+  ]
+}

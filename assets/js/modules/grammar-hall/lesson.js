@@ -118,7 +118,7 @@ function lessonViews(app, l, opts = {}) {
         <p class="text-sm text-gray-700" style="line-height:1.85">${esc(s.why)}</p>
       </div>
 
-      <!-- ③ 乐团比喻 -->
+      <!-- ③ 乐队比喻 -->
       <div class="card-cartoon mb-3 bg-gradient-to-br from-orange-50 to-amber-50 border-2 border-orange-200">
         <div class="font-bold text-sm mb-1">🎻 乐队里的故事</div>
         <p class="text-sm text-gray-700" style="line-height:1.85">${esc(s.metaphorStory)}</p>

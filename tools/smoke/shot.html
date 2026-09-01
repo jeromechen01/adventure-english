@@ -32,6 +32,11 @@
       for (let i = 0; i < 40 && !window.__nav; i++) await sleep(100);
       document.getElementById('modalRoot').innerHTML = '';
       const storage = await import('./assets/js/storage.js');
+      // B3：&grade=3 / &grade=KET / &grade=PET——测模式相关页面（如首页横幅/模式卡片）用
+      if (q.get('grade')) {
+        const g = q.get('grade');
+        storage.setGrade(/^\d+$/.test(g) ? Number(g) : g);
+      }
       if (page.startsWith('exam-')) {
         storage.setGrade('KET');
         storage.setExamProfile({ ...storage.getExamProfile(), level: 'KET', started: true });
