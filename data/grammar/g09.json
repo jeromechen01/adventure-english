@@ -6,7 +6,7 @@
   "metaphor": "第几声部、第几小节",
   "ketRelevance": 1,
   "ketLessonMap": null,
-  "ketNote": "KET 听力天天报数字（价格/时间/日期），thirteen 和 thirty 的重音是送命题；日期要用序数。",
+  "ketNote": "KET 听力天天报数字（价格/时间/日期），thirteen 和 thirty 的重音最容易听混丢分；日期要用序数。",
   "source": "original",
   "sections": {
     "essence": "数数用 one/two，排队用 first/second——数量和顺序是两套词。",
@@ -113,7 +113,7 @@
           },
           {
             "en": "thirteen（13）重音在后，thirty（30）重音在前。",
-            "cn": "十三 / 三十——听力送命题。",
+            "cn": "十三 / 三十——听力里最容易听混的一对。",
             "note": "-teen 家族重音在后半，-ty 家族重音在前半，听重音位置分辨。"
           }
         ]

@@ -580,14 +580,14 @@
             "level": 2
           },
           {
-            "q": "I ___ he is wrong.（我觉得他不对）",
+            "q": "I ___ he is right.（我觉得他不对）",
             "options": [
               "don't think",
               "think",
               "am not think"
             ],
             "answer": 0,
-            "explain": "否定前移：I don't think he is wrong？——注意从句里不再加 not。",
+            "explain": "否定前移：中文的否定在「觉得」后面，英语习惯提到 think 前——I don't think he is right，从句里不再加 not。",
             "level": 2
           },
           {

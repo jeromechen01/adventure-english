@@ -1014,9 +1014,9 @@
             "level": 4
           },
           {
-            "q": "大考：Yesterday I very tired, because I stay up late, so I sleep in class and the teacher criticize me. 红黄灰各几处？",
+            "q": "大考：Yesterday I very tired, because I stay up late, so I sleep in class and the teacher criticize me. 红黄灰怎么分？",
             "options": [
-              "红 2 处（tired 前缺 was、stay/sleep 时态跳）+ 黄 1 处（because...so 双领队）+ 灰 1 处（criticize 该 criticized 属时态跳一并算红）",
+              "红：tired 前缺 was＋stay/sleep/criticize 时态全跳；黄：because...so 双领队；灰区没有",
               "全是灰区",
               "只有一处红区"
             ],

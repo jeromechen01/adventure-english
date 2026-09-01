@@ -153,7 +153,7 @@
         "bad": "— He doesn't do sports. — Neither don't I.",
         "good": "— He doesn't do sports. — Neither do I.",
         "zone": "tested",
-        "why": "Neither 本身已带否定——后面不再加 not，双重否定就翻车了。"
+        "why": "Neither 本身已带否定——后面不再加 not，加了就成双重否定的病句。"
       },
       {
         "bad": "— I like this song. — So I do.（想说：我也喜欢）",
@@ -373,7 +373,7 @@
               "看心情"
             ],
             "answer": 0,
-            "explain": "Neither do I——再加 not 就双重否定翻车了。",
+            "explain": "Neither do I——再加 not 就成双重否定的病句了。",
             "level": 1
           },
           {
