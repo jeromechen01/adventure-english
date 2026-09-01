@@ -34,7 +34,7 @@ export async function renderGrammarCourse(app, params = {}) {
 
   if (params.lesson) {
     const l = lessons.lessons.find(x => x.id === params.lesson);
-    if (l) return renderLesson(app, level, lessons, l, hallIndex);
+    if (l) return renderLesson(app, level, lessons, l, hallIndex, params.fromMistakes);
   }
   if (params.view === 'verbs' && verbs) return renderVerbs(app, level, verbs);
   if (params.view === 'errors' && errors) return renderErrors(app, errors);
@@ -137,14 +137,14 @@ function bindDeepDive(app, ketId) {
 }
 
 // === 课程详情 ===
-function renderLesson(app, level, lessonsData, l, hallIndex) {
+function renderLesson(app, level, lessonsData, l, hallIndex, fromMistakes) {
   // 进入即标记「学习中」（若未掌握）
   const prog = storage.getLessonProgress(level);
   if (!prog[l.id]) storage.markLessonDone(level, l.id, 'learning');
 
   // V0.6：有增强讲解+四环节的课走新渲染；老数据兜底走原流程
   if (l.teaching && Array.isArray(l.stages) && l.stages.length) {
-    return renderLessonV2(app, level, lessonsData, l, hallIndex);
+    return renderLessonV2(app, level, lessonsData, l, hallIndex, fromMistakes);
   }
 
   let exIdx = 0, correctN = 0, answered = false;
@@ -277,7 +277,7 @@ const STAGE_TAKE = 16;  // 每次实际做的题数（题库超量时随机抽�
 
 function stageKey(lessonId, stage) { return `grammar-${lessonId}-s${stage}`; }
 
-function renderLessonV2(app, level, lessonsData, l, hallIndex) {
+function renderLessonV2(app, level, lessonsData, l, hallIndex, fromMistakes) {
   const t = l.teaching;
 
   function stageBest(stage) {
@@ -294,8 +294,21 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
   // --- 讲解页 ---
   function drawIntro() {
     exitFocus(); // 讲解页不是答题态
+    // B4：本课在错题本 KET 分区的条数（反向入口）
+    const misN = Object.values(storage.getQuizMistakes()).filter(e => e.src === 'ket' && e.lesson === l.id).length;
     app.innerHTML = `
       ${headerHtml(`${l.id} · ${l.title}`)}
+      ${fromMistakes ? `
+      <button id="backMistakesBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3 bg-amber-50 border-2 border-amber-200" style="padding:10px 12px;min-height:48px">
+        <span class="text-xl text-amber-700">‹</span>
+        <span class="flex-1 text-sm font-bold" style="min-width:0">返回错题本 · KET 八课分区</span>
+      </button>` : ''}
+      ${misN ? `
+      <button id="lessonMistakesBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3 bg-red-50 border-2 border-red-200" style="padding:10px 12px;min-height:48px">
+        <span class="text-xl">📝</span>
+        <span class="flex-1 text-sm font-bold" style="min-width:0">本课你有 ${misN} 道错题</span>
+        <span class="text-xl text-gray-300">›</span>
+      </button>` : ''}
 
       <!-- 一句话抓住本质 -->
       <div class="card-cartoon mb-3 bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-200">
@@ -377,6 +390,11 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
     `;
     // ‹ 只走 onclick 单一路径（防双绑定重复触发/二次渲染，B2 修复）
     app.querySelector('#examBackBtn').onclick = () => renderGrammarCourse(app, {});
+    // B4：错题本来路返回 + 反向入口
+    const backMis = app.querySelector('#backMistakesBtn');
+    if (backMis) backMis.addEventListener('click', () => window.__nav('mistakes', { src: 'ket' }));
+    const misChip = app.querySelector('#lessonMistakesBtn');
+    if (misChip) misChip.addEventListener('click', () => window.__nav('mistakes', { src: 'ket', lesson: l.id }));
     app.querySelector('#toStagesBtn').addEventListener('click', drawStageSelect);
     const swBtn = app.querySelector('#specialWordsBtn');
     if (swBtn) swBtn.addEventListener('click', drawSpecialWords);

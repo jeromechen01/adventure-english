@@ -103,6 +103,12 @@ function lessonViews(app, l, opts = {}) {
         <span class="text-xl text-amber-700">‹</span>
         <span class="flex-1 text-sm font-bold" style="min-width:0">返回 KET 备考中心 ${esc(ketLessonLabel(opts.fromKet))}</span>
       </button>` : ''}
+      ${opts.fromMistakes ? `
+      <button id="backMistakesBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3 bg-amber-50 border-2 border-amber-200" style="padding:10px 12px;min-height:48px">
+        <span class="text-xl text-amber-700">‹</span>
+        <span class="flex-1 text-sm font-bold" style="min-width:0">返回错题本 · 语法大厅分区</span>
+      </button>` : ''}
+      ${mistakeChipHTML()}
       <div class="text-xs text-gray-400 mb-3">${esc(l.tier)}层 · KET 相关度 ${stars}</div>
       ${ketBackLinkHTML(l.id, opts.fromKet)}
 
@@ -125,7 +131,7 @@ function lessonViews(app, l, opts = {}) {
       </div>
 
       <!-- ④ 规则卡 + 例句梯 -->
-      <div class="card-cartoon mb-3">
+      <div class="card-cartoon mb-3" id="rulesCard">
         <div class="font-bold text-sm mb-2">🎵 规则卡</div>
         ${s.rules.cards.map((c, i) => `
           <div class="mb-3 pb-3 border-b border-gray-50 last:border-0 last:mb-0 last:pb-0">
@@ -208,8 +214,30 @@ function lessonViews(app, l, opts = {}) {
     app.querySelector('#detectiveBtn').addEventListener('click', () => drawDetective());
     const backKet = app.querySelector('#backKetBtn');
     if (backKet) backKet.addEventListener('click', () => window.__nav('exam-grammar', { lesson: opts.fromKet }));
+    // B4：错题本来路返回 + 反向入口 + 定位到规则段（只在首次进入滚动，环节返回不再跳）
+    const backMis = app.querySelector('#backMistakesBtn');
+    if (backMis) backMis.addEventListener('click', () => window.__nav('mistakes', { src: 'hall' }));
+    const misChip = app.querySelector('#lessonMistakesBtn');
+    if (misChip) misChip.addEventListener('click', () => window.__nav('mistakes', { src: 'hall', lesson: l.id }));
+    if (opts.scrollTo === 'rules') {
+      opts.scrollTo = null;
+      const rc = app.querySelector('#rulesCard');
+      if (rc) setTimeout(() => rc.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    }
     app.querySelectorAll('[data-ket]').forEach(b => b.addEventListener('click', () =>
       window.__nav('exam-grammar', { lesson: b.dataset.ket })));
+  }
+
+  // B4 反向入口：本课在错题本里有几条（闯关+侦探关）
+  function mistakeChipHTML() {
+    const n = Object.values(storage.getQuizMistakes()).filter(e => e.src === 'hall' && e.lesson === l.id).length;
+    if (!n) return '';
+    return `
+      <button id="lessonMistakesBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3 bg-red-50 border-2 border-red-200" style="padding:10px 12px;min-height:48px">
+        <span class="text-xl">📝</span>
+        <span class="flex-1 text-sm font-bold" style="min-width:0">本课你有 ${n} 道错题</span>
+        <span class="text-xl text-gray-300">›</span>
+      </button>`;
   }
 
   function ladderHTML(title, list, tone) {

@@ -10,7 +10,7 @@ import { renderHallLesson, hallGuardHTML, HALL_LEVEL } from './lesson.js';
 
 export async function renderGrammarHall(app, params = {}) {
   // P2b：params.fromKet = 从 KET 八课「深挖」跳来的来路课号（L1-L8），用于课内页显示返回入口
-  if (params.lesson) return renderHallLesson(app, params.lesson, { fromKet: params.fromKet });
+  if (params.lesson) return renderHallLesson(app, params.lesson, { fromKet: params.fromKet, fromMistakes: params.fromMistakes, scrollTo: params.scrollTo });
 
   const index = await loadIndex('grammar');
   if (!index) {
