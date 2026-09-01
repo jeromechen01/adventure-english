@@ -698,6 +698,26 @@
 
 ---
 
+## B5a：词库 tips 标点脚本批量修正（缓存 `ea-v0.9.82`，2026-09-01，✅ 完成，⏸ 硬停机等家长验收）
+
+> 范围仅 `data/pet/words` + `data/exam/ket/words` 的 `mnemonic.tip` 字段。全程 node `fs.writeFileSync(utf8)`，零 PowerShell 管道；每批跑 check-data 编码守卫。
+
+- [x] 只读扫描分类（43 文件 / 2066 条 tip）：C1 中文,中文 184｜C2 中文,英文 3｜C3 英文,中文 109｜S 分号 13｜K 冒号 1｜E 三点省略号 8｜补充 R1 括号后 159｜R2 英文后分号 6 —— **共替换 483 处，落在 370 条 tip / 15 个文件（全部为 PET 词库；KET 词库 V0.5 制作时已规范，零命中）**
+- [x] 正则保守三原则：只动 tip 字段值（`\"` 先占位再还原，写盘前 JSON.parse 验结构）；标点两侧必须有中文语境证据；英文短语内标点（`Say cheese!` 等 14 条）一律不碰
+- [x] 全量字段审计（对 git HEAD 逐词条比对）：**非 tip 字段零字节变化**（例句/词义/音标/搭配全未动）；抽查 30 条无误伤
+- [x] 回归：preflight 四项 ✔ 八课守卫（对 tools/backup/B5a）✔ smoke 41+30 零失败 ✔ sw-check（ea-v0.9.82）✔ 渲染 probe：PET/KET 各抽 3 话题识词页零 U+FFFD、全角标点正常显示 ✔
+- CACHE_VERSION **ea-v0.9.8 → ea-v0.9.82**（词库 JSON 走内容缓存，bump 保证老客户端拿到新 tips）
+
+### 📌 交给 B5b 的人工清单（正则不安全/需拍板，B5a 未改）
+1. **英文字符间标点 5 条**（中文句内但两侧都是拉丁字符，机改有误伤风险）：
+   - pet-environment.json`只有一个 s,dessert(甜点)`、pet-sport.json`一个 o,loose(松的)`（letter,letter）
+   - pet-entertainment.json`amusing;amusement park`、pet-clothes.json`(过去式 wore);put on`（letter;letter）
+   - pet-shopping.json`/kjuː/,后面四个字母`（音标斜杠后逗号）
+2. **半角引号包中文 900 处**（`谐音"给他"`类）：与半角括号同属全站既有排版风格，体检判"内部一致不算错"；是否统一改「」属风格决策，**请家长拍板后再动**（改则 tips/讲解/题目全站一起改，工作量大）
+3. 英文短语自带标点 14 条（`Brilliant!`/`a sheep, two sheep` 等）——**正确英文标点，非问题，永不修**
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。

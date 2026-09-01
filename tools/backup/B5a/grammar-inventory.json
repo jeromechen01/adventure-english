@@ -1,0 +1,54 @@
+{
+  "level": "KET",
+  "title": "KET 考纲语法项清单（事实清单，可呈现）",
+  "note": "尾注：学生会遇到下列之外的语法形式，但不会被直接考到。",
+  "groups": [
+    { "name": "情态动词", "highlight": true, "items": ["can（能力/请求/许可）", "could", "would", "will", "shall", "should", "may", "have (got) to", "must", "mustn't", "need", "needn't"] },
+    { "name": "时态", "highlight": true, "items": ["一般现在（含表将来）", "现在进行（含表将来）", "现在完成（仅 just / yet / already / never / ever / for / since）", "一般过去", "过去进行", "going to", "will / shall"] },
+    { "name": "动词形式", "items": ["肯定/疑问/否定", "祈使句", "不定式（带 to 与不带 to）", "动名词", "被动：仅一般现在与一般过去", "简短问答"] },
+    { "name": "从句", "items": ["主句", "并列 (and)", "sure / certain 后", "know / think / believe / hope 后", "say / tell 后", "if / when / where / because 引导"] },
+    { "name": "疑问词", "items": ["What", "What + 名词", "Where", "When", "Who", "Whose", "Which", "How", "How much / many / often / long", "Why"] },
+    { "name": "名词", "items": ["单复数", "可数不可数配 some / any", "抽象名词", "复合名词", "所有格 's / s'", "双重所有格"] },
+    { "name": "代词", "items": ["人称（主/宾/物主）", "it, there", "this / that / these / those", "one, something, everybody", "关系代词 who, which, that"] },
+    { "name": "限定词", "highlight": true, "items": ["只有两个 —— a + 可数；the + 可数/不可数"] },
+    { "name": "形容词", "items": ["颜色大小形状性质国籍", "表语定语", "基数序数", "物主", "指示", "数量", "比较级最高级", "语序", "分词作形容词"] },
+    { "name": "副词", "items": ["方式", "频率", "确定/不定时间", "程度", "地点", "方向", "顺序", "位置", "比较级最高级"] },
+    { "name": "介词", "items": ["地点", "时间 at / on / in / during", "方向", "工具 by / with", "短语", "搭配（by car, on holiday）"] },
+    { "name": "连接词", "highlight": true, "items": ["只有 7 个 —— and, but, or / when, where, because, if"] }
+  ],
+  "lowLevelNote": "官方口径要点转述：在较低级别（A2 Key for Schools / B1 Preliminary），考生只需掌握所列语法项中最简单的用法 → 别买初中语法大全。",
+  "scoreTable": {
+    "title": "语法值多少分",
+    "rows": [
+      { "where": "阅读 Part 5", "score": "6 分（纯语法）", "note": "考语法形式（动词形式、限定词、代词）与结构关系", "highlight": true },
+      { "where": "写作 P6+P7", "score": "30 分（含 Language 维度）", "note": "但允许错误明显、意思清楚" },
+      { "where": "阅读 Part 4", "score": "6 分", "note": "以词汇为主，可能少量语法" },
+      { "where": "口语", "score": "25% 的四维之一", "note": "Grammar and Vocabulary" }
+    ]
+  },
+  "bandFact": {
+    "title": "★ 核心事实卡：KET 写作满分允许有错",
+    "points": [
+      "官方 Language Band 5（满分档）要点转述：使用简单语法形式且掌控良好；即便错误明显，只要意思仍可判断即可。",
+      "Band 3 要点转述：错误有时会妨碍理解。",
+      "术语 Impeding error = 妨碍读者理解某词或短语的错误。",
+      "→ 补语法的目标不是「消灭所有错误」，是「消灭会挡住意思的那几类错误」。"
+    ],
+    "originalExample": {
+      "intro": "原创等效示例：下面这段 A2 短文有好几处明显小错，但每句意思都完全清楚——按满分档口径，这样也能拿 Language Band 5：",
+      "text": "Last Sunday I go to the park with my two friend. We playing badminton for one hour. Then we eat a ice cream near the lake. The weather were sunny and we was very happy. I want go there again next week!",
+      "note": "错处：go→went、friend→friends、playing→played、a→an、were→was、was→were、want go→want to go。全都不挡意思 → 内容和组织到位的话，语言档仍可到满分档。"
+    }
+  },
+  "part5Method": {
+    "title": "Part 5 速成 · 四步法 + 形状判断",
+    "steps": ["① 通读全文", "② 看空格前后两词判断缺哪类小词", "③ 填完读整句", "④ 检查拼写（拼错不给分）"],
+    "shapes": [
+      { "shape": "空格在句首 + 句尾问号", "fill": "助动词（Do / Does / Is / Are / Can）" },
+      { "shape": "空格后是名词", "fill": "限定词（a / the / my / your / this）" },
+      { "shape": "空格后是 of", "fill": "量词（lot / kind）" },
+      { "shape": "空格前动词后名词", "fill": "介词" },
+      { "shape": "空格在动词前、指代前文的人", "fill": "代词" }
+    ]
+  }
+}
