@@ -47,6 +47,7 @@ const SHELL_URLS = [
   './assets/js/modules/recite.js',
   './assets/js/modules/reinforce.js',
   './assets/js/modules/study-stats.js',
+  './assets/js/modules/ai-settings.js',
   './assets/js/modules/words.js',
   './assets/js/modules/writing.js',
   './assets/js/modules/exam/exam-common.js',

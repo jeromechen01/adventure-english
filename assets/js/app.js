@@ -222,6 +222,7 @@ async function navigate(page, params = {}) {
     case 'petlevels':  await renderPetTopicMap(app, params.topic); break;
     case 'grammar-hall': await (await import('./modules/grammar-hall/hall.js')).renderGrammarHall(app, params); break;
     case 'timestats':  (await import('./modules/study-stats.js')).renderStudyStats(app); break;
+    case 'ai-settings': (await import('./modules/ai-settings.js')).renderAiSettings(app); break; // B6a：AI 助手设置（入口在「我的」）
     default:           await renderHome(app);
   }
 
@@ -661,6 +662,16 @@ function renderMe(app) {
       <span class="text-xl text-gray-300">›</span>
     </button>
 
+    <!-- B6a AI 助手设置入口（家长设置，放「我的」不进首页，避免孩子误触） -->
+    <button id="aiSettingsBtn" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left mb-4" style="min-height:48px">
+      <span class="text-3xl">🤖</span>
+      <div class="flex-1">
+        <div class="font-bold text-sm">AI 助手设置</div>
+        <div class="text-xs text-gray-500">可选 · 家长设置（不设置也不影响任何功能）</div>
+      </div>
+      <span class="text-xl text-gray-300">›</span>
+    </button>
+
     <!-- 数据管理 -->
     <div class="card-cartoon mb-4">
       <h3 class="font-bold mb-3">⚙️ 数据管理</h3>
@@ -682,6 +693,9 @@ function renderMe(app) {
 
   // V0.7 学习时长入口
   app.querySelector('#timeStatsBtn').addEventListener('click', () => navigate('timestats'));
+
+  // B6a AI 助手设置入口
+  app.querySelector('#aiSettingsBtn').addEventListener('click', () => navigate('ai-settings'));
 
   // 切换头像
   app.querySelector('#avatarBtn').addEventListener('click', () => {
