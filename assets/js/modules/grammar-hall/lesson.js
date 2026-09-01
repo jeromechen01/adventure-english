@@ -525,11 +525,34 @@ function lessonViews(app, l, opts = {}) {
               <div class="text-xs text-gray-600 mb-2">病在哪：${esc(c.clue)}</div>
               <div class="text-xs text-gray-500">你的改法和参考不一样。只要病灶改对了（写法不同没关系），也算破案。</div>
             </div>
+            ${aiEnabled() ? `
+            <button id="aiJudgeBtn" class="w-full btn-cartoon mb-2" style="min-height:48px">🤖 拿不准？让 AI 帮你看看你的改法</button>
+            <div id="aiJudgeOut" class="card-cartoon mb-2 text-sm text-gray-700" style="line-height:1.8;white-space:pre-wrap;word-break:break-word" hidden></div>` : ''}
             <div class="grid grid-cols-2 gap-2 mb-3">
               <button id="selfOk" class="btn-cartoon" style="min-height:48px">✅ 病灶改对了</button>
               <button id="selfNo" class="btn-cartoon btn-cartoon-secondary" style="min-height:48px">😅 还没改对</button>
             </div>
             <div id="afterSelf"></div>`;
+          // B6b-3 侦探判定：AI 给参考意见，最终仍由孩子按下面两个自评按钮定夺（AI 是助手不是裁判）
+          const judgeBtn = fb.querySelector('#aiJudgeBtn');
+          if (judgeBtn) judgeBtn.addEventListener('click', async () => {
+            if (judgeBtn.disabled) return;
+            const out = fb.querySelector('#aiJudgeOut');
+            judgeBtn.disabled = true;
+            const label = judgeBtn.textContent;
+            judgeBtn.textContent = '🤖 看一看……';
+            const r = await askAI(buildDetectivePrompt({ sentence: c.sentence, clue: c.clue, fixed: c.fixed, answer: user }));
+            judgeBtn.disabled = false;
+            out.hidden = false;
+            if (r.ok) {
+              out.textContent = '🤖 ' + r.text + '\n（最后由你来定：病灶改对了吗？）';
+              judgeBtn.hidden = true;
+            } else {
+              judgeBtn.textContent = label;
+              out.className = 'text-xs text-gray-500 mb-2';
+              out.textContent = aiFailText(r.reason).replace('先看现有讲解', '按上面的病因自己比一比');
+            }
+          });
           fb.querySelector('#selfOk').addEventListener('click', () => { solved++; storage.removeQuizMistake(detKey); goNext(fb); });
           fb.querySelector('#selfNo').addEventListener('click', () => {
             // B4：自评没改对 → 病句进错题本（病句+她的改法+参考+病在哪）
