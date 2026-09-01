@@ -214,14 +214,16 @@ export function runDrillSet(app, level, partKey, set, onBack, onFinish, focus = 
 
   function done() {
     const pct = Math.round(correct / total * 100);
+    // Part 5 通过线 = 验收线 4/6（备考知识库第二级验收标准原文），其余题型 70%（B5c 家长拍板③：改阈值不改文案）
+    const passed = partKey === 'part5' ? correct / total >= 4 / 6 : pct >= 70;
     storage.saveDrillResult(level, set.id, pct);
     storage.progressDailyTask('reading1', 1); // 首页任务：KET 阅读专项完成一组算一篇阅读（B2 模式适配；听力不算）
     if (onFinish) return onFinish(correct, total); // 模考/限时流程继续，答题态不退
     exitFocus();
     app.innerHTML = `
       ${headerHtml('结果')}
-      <div class="card-cartoon text-center mb-4 ${pct >= 70 ? 'bg-green-50' : 'bg-yellow-50'}">
-        <div class="text-6xl mb-2">${pct >= 70 ? '🎉' : '💪'}</div>
+      <div class="card-cartoon text-center mb-4 ${passed ? 'bg-green-50' : 'bg-yellow-50'}">
+        <div class="text-6xl mb-2">${passed ? '🎉' : '💪'}</div>
         <div class="text-2xl font-black">${correct} / ${total}</div>
         <div class="text-sm text-gray-600 mt-1">正确率 ${pct}%${partKey === 'part5' ? '（验收线：4/6 以上）' : ''}</div>
       </div>
