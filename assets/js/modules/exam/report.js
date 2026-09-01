@@ -69,7 +69,7 @@ export async function renderReport(app) {
         <button id="weakBtn" class="w-full btn-cartoon">直达 ${PART_NAMES[weakest.part] || weakest.part} 专项 ›</button>
       ` : '<p class="text-sm text-gray-400">做过模考后，这里会告诉你先补哪个 Part。</p>'}
       ${mistakes > 0 ? `
-      <button id="mistakeBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-2">错词强化（${mistakes} 个待毕业）›</button>` : ''}
+      <button id="mistakeBtn" class="w-full btn-cartoon btn-cartoon-secondary mt-2">错词突击（${mistakes} 个待毕业）›</button>` : ''}
     </div>
 
     <div class="card-cartoon mb-4">

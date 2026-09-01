@@ -589,7 +589,7 @@
               "is"
             ],
             "answer": 0,
-            "explain": "乐团「拥有」十二名成员——has。",
+            "explain": "乐队「拥有」十二名成员——has。",
             "level": 2
           }
         ]
@@ -741,7 +741,7 @@
             "level": 3
           },
           {
-            "q": "哪一句是健康的？（乐团有十二人）",
+            "q": "哪一句是健康的？（乐队有十二人）",
             "options": [
               "There are twelve members in our band.",
               "There have twelve members in our band.",

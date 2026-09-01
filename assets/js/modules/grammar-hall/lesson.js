@@ -1,7 +1,7 @@
 // modules/grammar-hall/lesson.js —— 语法大厅课内页（V0.9 P1a）
 // 按 data/grammar/_schema.lesson.json 的九段结构渲染讲解，另有：
 //   · 记忆卡（纯 SVG，可截图）
-//   · 四环节闯练：16 题/环节，答对 70% 解锁下一环节；接 utils/shuffle.js 四层随机
+//   · 四环节闯关：16 题/环节，答对 70% 解锁下一环节；接 utils/shuffle.js 四层随机
 //     （题池抽样 + 错题加权 + 题序洗牌 + 选项洗牌 answer 同步重算）
 //   · 侦探关：找病句并改正，自动比对 + 病灶自评兜底
 // 进度存储与 KET 八课同一套 storage API，但 level 固定为 'HALL'，两边互不串档。
@@ -74,7 +74,7 @@ export async function renderHallLesson(app, id, opts = {}) {
   lessonViews(app, l, opts).drawIntro();
 }
 
-// 一课的全部视图闭包：讲解页 / 环节选择 / 闯练 / 侦探关
+// 一课的全部视图闭包：讲解页 / 环节选择 / 闯关 / 侦探关
 function lessonViews(app, l, opts = {}) {
   const s = l.sections;
 
@@ -91,7 +91,7 @@ function lessonViews(app, l, opts = {}) {
 
   // ============ 讲解页：九段 + 记忆卡 ============
   function drawIntro() {
-    exitFocus(); // 讲解页不是答题态，恢复导航（从闯练/侦探关回来时）
+    exitFocus(); // 讲解页不是答题态，恢复导航（从闯关/侦探关回来时）
     const stars = l.ketRelevance > 0
       ? `<span class="text-amber-700">${'★'.repeat(l.ketRelevance)}</span><span class="text-gray-300">${'★'.repeat(3 - l.ketRelevance)}</span>`
       : '不考';
@@ -120,7 +120,7 @@ function lessonViews(app, l, opts = {}) {
 
       <!-- ③ 乐团比喻 -->
       <div class="card-cartoon mb-3 bg-gradient-to-br from-orange-50 to-amber-50 border-2 border-orange-200">
-        <div class="font-bold text-sm mb-1">🎻 乐团里的故事</div>
+        <div class="font-bold text-sm mb-1">🎻 乐队里的故事</div>
         <p class="text-sm text-gray-700" style="line-height:1.85">${esc(s.metaphorStory)}</p>
       </div>
 
@@ -196,7 +196,7 @@ function lessonViews(app, l, opts = {}) {
       </div>
 
       <button id="detectiveBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🕵️ 侦探关（${l.detective.length} 个病句等你来救）</button>
-      <button id="toStagesBtn" class="w-full btn-cartoon" style="min-height:48px">✏️ 四环节闯练（4 × 16 题）</button>
+      <button id="toStagesBtn" class="w-full btn-cartoon" style="min-height:48px">✏️ 四环节闯关（4 × 16 题）</button>
     `;
     bindBack(app, 'grammar-hall');
     const mcWrap = app.querySelector('.memory-card-wrap');
@@ -230,7 +230,7 @@ function lessonViews(app, l, opts = {}) {
     exitFocus(); // 环节列表不是答题态
     const passedAll = l.practice.stages.every((_, i) => stagePassed(i));
     app.innerHTML = `
-      ${headerHtml(`${l.id} · 四环节闯练`)}
+      ${headerHtml(`${l.id} · 四环节闯关`)}
       ${hallGuardHTML()}
       <p class="text-xs text-gray-500 mb-3">每环节 16 题，答对 70% 通过并解锁下一环节。重做会换题目、换顺序，背答案没用哦。</p>
       <div class="space-y-2 mb-4">
@@ -264,7 +264,7 @@ function lessonViews(app, l, opts = {}) {
     }));
   }
 
-  // ============ 闯练引擎（choice 题型，接 shuffle.js 四层随机）============
+  // ============ 闯关引擎（choice 题型，接 shuffle.js 四层随机）============
   function runQuiz(stageIdx, retryQuestions, isRetry) {
     const st = l.practice.stages[stageIdx];
     const scope = `${HALL_LEVEL}:${l.id}:s${stageIdx + 1}`;
@@ -307,7 +307,7 @@ function lessonViews(app, l, opts = {}) {
         const ok = Number(b.dataset.oi) === q.answer;
         storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先
         if (ok) correctN++; else wrongList.push(q);
-        if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：大厅闯练也算语法题（B2 模式适配）
+        if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：大厅闯关也算语法题（B2 模式适配）
         const fb = app.querySelector('#feedback');
         fb.innerHTML = `
           <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">

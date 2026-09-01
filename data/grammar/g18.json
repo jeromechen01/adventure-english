@@ -13,7 +13,7 @@
   "sections": {
     "essence": "短词加 -er，长词请 more；语言是懒的，怎么顺口怎么来。",
     "why": "中文比东西，形容词纹丝不动，前面摆个「更」或「最」就完事：更高、最高。英语却让形容词自己变形：tall→taller→tallest。可为什么 beautiful 不变成 beautifuler？你念念看——舌头直接打结。这就是英语的分工逻辑：语言是懒的，怎么顺口怎么来。短词加个尾巴不费劲，就加 -er/-est；长词加了尾巴念不动，就请 more/most 站在前面帮忙。而用得最狠的那几个词——good、bad——连尾巴都懒得加，直接换一张脸：better/best、worse/worst。KET Part 5 年年在这儿设题：短词长词分工、than 和 the 的到场、还有那几张「换脸」的不规则面孔，全是送分点，也全是丢分点。",
-    "metaphorStory": "银帆乐团要做新演出服，裁缝挨个量身高。卷尺一拉：Tom is taller than Ben.——比一比，tall 尾巴上长出 -er，后面还得跟个 than，不然不知道跟谁比。量到最后，裁缝宣布：Amy is the tallest in the band.——全团范围里的第一名，头上要戴 the 这顶冠冕，身后要报出范围 in the band。选演出服那天起了争论：这条裙子和那条哪个更好看？造型师说 This one is more beautiful.——鼓手小北不服气：「为什么不说 beautifuler？」团长笑着说：「你念十遍试试。」小北念到第三遍舌头就绕住了。团长说：「语言是懒的，怎么顺口怎么来——短词加尾巴，长词请 more 站台。」这时老团长补了一句：「还有几位连尾巴都不肯加的——good 一比就换脸成 better，最好干脆叫 best；bad 一比变 worse，最糟是 worst。它们被用得太多，脾气最大。」",
+    "metaphorStory": "银帆乐队要做新演出服，裁缝挨个量身高。卷尺一拉：Tom is taller than Ben.——比一比，tall 尾巴上长出 -er，后面还得跟个 than，不然不知道跟谁比。量到最后，裁缝宣布：Amy is the tallest in the band.——全团范围里的第一名，头上要戴 the 这顶冠冕，身后要报出范围 in the band。选演出服那天起了争论：这条裙子和那条哪个更好看？造型师说 This one is more beautiful.——鼓手小北不服气：「为什么不说 beautifuler？」团长笑着说：「你念十遍试试。」小北念到第三遍舌头就绕住了。团长说：「语言是懒的，怎么顺口怎么来——短词加尾巴，长词请 more 站台。」这时老团长补了一句：「还有几位连尾巴都不肯加的——good 一比就换脸成 better，最好干脆叫 best；bad 一比变 worse，最糟是 worst。它们被用得太多，脾气最大。」",
     "rules": {
       "cards": [
         {
@@ -59,7 +59,7 @@
           },
           {
             "en": "Amy is the tallest in the band.",
-            "cn": "艾米是乐团里最高的。（the + est + 范围）"
+            "cn": "艾米是乐队里最高的。（the + est + 范围）"
           },
           {
             "en": "Today is hotter than yesterday.",

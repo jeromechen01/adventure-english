@@ -239,7 +239,7 @@ function renderStudyFlow(app, data, grade, unitId) {
       storage.markWordLearned(w.id);
       storage.recordWordResult(w.id, false);
       playSound('wrong');
-      toast('已加入错词本，下次再练习', 'warn');
+      toast('已加入错题本，下次再练习', 'warn');
       idx++;
       renderCurrent();
     });

@@ -9,7 +9,7 @@
     "id": { "type": "string", "pattern": "^G[0-9]{2}$" },
     "tier": { "enum": ["基石", "骨架", "进阶", "精修"] },
     "title": { "type": "string" },
-    "metaphor": { "type": "string", "description": "乐团比喻锚点一句话，与 index.json 保持一致" },
+    "metaphor": { "type": "string", "description": "乐队比喻锚点一句话，与 index.json 保持一致" },
     "ketRelevance": { "type": "integer", "minimum": 0, "maximum": 3 },
     "ketLessonMap": { "type": ["array", "null"], "items": { "type": "string", "pattern": "^L[1-8]$" } },
     "ketNote": { "type": "string", "description": "「KET 考不考 / 在哪考 / 值多少分」标签文案（P2 单元 X 用）" },
@@ -21,7 +21,7 @@
       "properties": {
         "essence": { "type": "string", "maxLength": 40, "description": "① 一句话本质，≤40 字" },
         "why": { "type": "string", "description": "② 为什么英语要这样：与中文对比讲底层逻辑，不是背规则，150-250 字" },
-        "metaphorStory": { "type": "string", "description": "③ 乐团比喻锚点展开，200-300 字，可写成小故事" },
+        "metaphorStory": { "type": "string", "description": "③ 乐队比喻锚点展开，200-300 字，可写成小故事" },
         "rules": {
           "type": "object",
           "description": "④ 规则卡 + 例句梯",

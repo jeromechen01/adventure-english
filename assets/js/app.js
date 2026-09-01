@@ -71,7 +71,7 @@ export function closeModal() {
 }
 
 // === 答题态（V0.9.33 防误触退出）===
-// 进行中（闯练/模考/闯关/写作等）隐藏底部导航 + 年级切换（隐藏而非禁用），
+// 进行中（闯关/模考/闯关/写作等）隐藏底部导航 + 年级切换（隐藏而非禁用），
 // 左上 ‹ 返回是唯一出口；confirm 页面（#1-13）离开前弹确认，★ 级轻场景只隐藏不拦。
 // cleanup 在任何离开路径（确认离开 / navigate 兜底）都会执行，用来清倒计时等，
 // 防止孤儿计时器在跳走后继续跑、把别的页面 DOM 覆盖掉。
@@ -462,7 +462,7 @@ async function renderMistakes(app) {
     if (!data) continue;
     data.units.forEach(u => u.words.forEach(w => { wordMap[w.id] = { ...w, grade: g }; }));
   }
-  // PET 话题词也纳入，错词本才能显示 PET 单词
+  // PET 话题词也纳入，错题本才能显示 PET 单词
   await collectPetWordsById(wordMap);
 
   const items = mistakes.map(id => wordMap[id]).filter(Boolean);
@@ -470,7 +470,7 @@ async function renderMistakes(app) {
   app.innerHTML = `
     <div class="flex items-center justify-between mb-4">
       <h2 class="text-xl font-bold">📝 错题本</h2>
-      <span class="text-sm text-gray-500">${items.length} 个待巩固</span>
+      <span class="text-sm text-gray-500">${items.length} 个待强化</span>
     </div>
     <div class="space-y-2">
       ${items.map(w => `

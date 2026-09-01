@@ -132,7 +132,7 @@ export function recordWordResult(wordId, correct) {
     p[wordId].wrongCount++;
     p[wordId].consecutiveCorrect = 0; // 连对中断
     p[wordId].nextReview = Date.now() + 60 * 60 * 1000; // 1小时后再来
-    // 错误多于3次进入错词本
+    // 错误多于3次进入错题本
     if (p[wordId].wrongCount >= 1) {
       addMistake(wordId);
     }

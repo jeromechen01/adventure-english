@@ -9,14 +9,14 @@ const MAX_GAP_SEC = 45;          // 单次累加上限（防休眠等异常大�
 
 // 模块元信息：id → { label, icon }（学习时长页展示用）
 export const STUDY_MODULES = {
-  'vocab':         { label: '词汇闯关', icon: '🧗' },
+  'vocab':         { label: '单词大冒险', icon: '🧗' },
   'grammar':       { label: '语法', icon: '🧩' },
   'grammar-hall':  { label: '语法大厅', icon: '🏛️' },
   'reading':       { label: '阅读', icon: '📖' },
   'writing':       { label: '写作', icon: '✍️' },
   'pet-vocab':     { label: 'PET 词库', icon: '🎓' },
   'pet-reading':   { label: 'PET 阅读', icon: '📰' },
-  'ket-vocab':     { label: 'KET 词汇', icon: '🎯' },
+  'ket-vocab':     { label: 'KET 词库', icon: '🎯' },
   'ket-knowledge': { label: 'KET 知识点', icon: '💡' },
   'ket-grammar':   { label: 'KET 语法课', icon: '🎼' },
   'ket-reading':   { label: 'KET 阅读训练', icon: '📖' },

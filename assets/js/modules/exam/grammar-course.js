@@ -117,7 +117,7 @@ function hallDeepDiveHTML(ketId, hallIndex) {
   return `
     <div class="card-cartoon mb-3 bg-gradient-to-br from-sky-50 to-cyan-50 border-2 border-sky-200">
       <div class="font-bold text-sm mb-1">🏛️ 想更深入？</div>
-      <p class="text-xs text-gray-600 mb-2">八课是考前最短路径；语法大厅把同一个点讲透（九段讲解 + 记忆卡 + 四环节闯练 + 侦探关）。看完可以直接返回这一课。</p>
+      <p class="text-xs text-gray-600 mb-2">八课是考前最短路径；语法大厅把同一个点讲透（九段讲解 + 记忆卡 + 四环节闯关 + 侦探关）。看完可以直接返回这一课。</p>
       ${targets.map(m => `
         <button data-hall="${m.id}" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left mb-2 last:mb-0" style="padding:10px 12px;min-height:48px">
           <span class="font-black text-sky-700" style="min-width:40px">${m.id}</span>
@@ -371,7 +371,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
         <span class="text-xl text-gray-300">›</span>
       </button>` : ''}
 
-      <button id="toStagesBtn" class="w-full btn-cartoon mb-3">✏️ 四环节闯练（${l.stages.length} 环节 × 16 题）</button>
+      <button id="toStagesBtn" class="w-full btn-cartoon mb-3">✏️ 四环节闯关（${l.stages.length} 环节 × 16 题）</button>
 
       ${hallDeepDiveHTML(l.id, hallIndex)}
     `;
@@ -563,7 +563,7 @@ function renderLessonV2(app, level, lessonsData, l, hallIndex) {
         answered = true;
         storage.recordQuizAnswer(q.__qk, ok); // 题目级统计：下次抽题时错题优先
         if (ok) correctN++; else wrongList.push(q);
-        if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：八课闯练也算语法题（B2 模式适配）
+        if (ok) storage.progressDailyTask('grammar3', 1); // 首页任务：八课闯关也算语法题（B2 模式适配）
         const fb = app.querySelector('#feedback');
         fb.innerHTML = `
           <div class="card-cartoon ${ok ? 'bg-green-50 border-2 border-green-300' : 'bg-red-50 border-2 border-red-200'} mb-3">

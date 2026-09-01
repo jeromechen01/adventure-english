@@ -1,5 +1,5 @@
 // modules/reinforce.js - 🔥 错词突击（错词智能强化 V0.2 模块2）
-// 针对错词本里的词快速练习，连对 3 次毕业，毕业给奖励+特效。
+// 针对错题本里的词快速练习，连对 3 次毕业，毕业给奖励+特效。
 import { loadJSON, toast, enterFocus, exitFocus } from '../app.js';
 import * as storage from '../storage.js';
 import { speak, playSound } from '../speech.js';
@@ -149,7 +149,7 @@ export async function renderReinforce(app) {
         <div class="card-cartoon my-4 bg-gradient-to-br from-green-50 to-cyan-50">
           <div class="text-sm text-gray-600">本次毕业错词</div>
           <div class="text-2xl font-bold text-secondary-ink my-1">${graduatedThisSession}<span class="text-lg text-gray-400"> / ${startTotal}</span></div>
-          <div class="text-sm text-gray-600">个，已从错词本移除</div>
+          <div class="text-sm text-gray-600">个，已从错题本移除</div>
         </div>
         <button id="doneBtn" class="w-full btn-cartoon">返回</button>
       </div>

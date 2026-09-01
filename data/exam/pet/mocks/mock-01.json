@@ -19,7 +19,7 @@
       "passage": "Dear Marta,\nI'm sorry I haven't written (1) ___ such a long time — this term has been so busy! Our orchestra (2) ___ chosen to play at the regional festival, so we have practised twice a week (3) ___ September. I have never worked so hard, but I love it. The festival takes place next month, and if we play well, we (4) ___ go to the national round in the capital. My violin teacher says I should not worry so much, (5) ___ worrying is what I do best! I'll tell you everything (6) ___ soon as it's over.\nLove, Siyu",
       "gaps": [
         { "answer": "for", "category": "介词(时间段)", "shape": "一段时间 → for", "explain": "for such a long time。" },
-        { "answer": "was", "alt": ["got", "has"], "category": "被动/完成", "shape": "乐团「被」选中", "explain": "was chosen 被动语态（has been chosen 亦通，此处填一词 was/got）。" },
+        { "answer": "was", "alt": ["got", "has"], "category": "被动/完成", "shape": "乐队「被」选中", "explain": "was chosen 被动语态（has been chosen 亦通，此处填一词 was/got）。" },
         { "answer": "since", "category": "介词(起点)", "shape": "从某时间点开始 → since", "explain": "since September 自九月以来（配合完成时）。" },
         { "answer": "will", "alt": ["can", "may"], "category": "情态/将来", "shape": "条件句主句 → will", "explain": "第一条件句：if we play well, we will go。" },
         { "answer": "but", "category": "连接词", "shape": "转折 → but", "explain": "老师让别担心，「但」担心是我的强项——自嘲转折。" },

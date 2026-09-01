@@ -206,7 +206,7 @@ export function startLevel(app, opts) {
     } else {
       combo = 0;
       hp--;
-      storage.recordWordResult(word.id, false); // 自动进错词本
+      storage.recordWordResult(word.id, false); // 自动进错题本
       playSound('wrong');
       const hud = app.querySelector('#hud');
       if (hud) { hud.classList.add('shake'); later(() => hud.classList.remove('shake'), 400); }

@@ -35,7 +35,7 @@
           "id": { "type": "string", "pattern": "^G[0-9]{2}$", "description": "课号 G01-G50" },
           "tier": { "enum": ["基石", "骨架", "进阶", "精修"] },
           "title": { "type": "string", "description": "课题，如 冠词 a/an/the" },
-          "metaphor": { "type": "string", "description": "乐团比喻锚点一句话，如 「a 的前世是 one（新朋友），the 的前世是 that（老朋友）」" },
+          "metaphor": { "type": "string", "description": "乐队比喻锚点一句话，如 「a 的前世是 one（新朋友），the 的前世是 that（老朋友）」" },
           "ketRelevance": { "type": "integer", "minimum": 0, "maximum": 3, "description": "KET 相关度星级 0-3，0 = KET 不考" },
           "ketLessonMap": {
             "type": ["array", "null"],

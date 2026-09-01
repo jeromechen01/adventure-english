@@ -11,7 +11,7 @@
   "sections": {
     "essence": "舞台提示写「何时进、什么条件下进」；主句将来，提示里用现在。",
     "why": "演出脚本上除了乐谱，还有一类小字：「主唱进副歌时，鼓手加入」「如果观众安静下来，灯光调暗」。这就是状语从句——它不是演出本身，只负责给主句定位：什么时候发生、什么条件下发生。中文里这类话随口就说，动词也不用变；英语却有一条反直觉的规矩：主句是将来时，when/if 提示里偏偏用一般现在——I'll call you when I arrive，不说 when I will arrive。道理其实简单：主句的 will 已经把「将来」报过了，提示只是坐标，坐标不用再报一遍时。初中和 PET 大量考这条；KET 只要求看懂。",
-    "metaphorStory": "银帆乐团排新曲，指挥让学徒把进场安排写成舞台提示。学徒写：「When the singer will start the chorus, the drummer joins.」指挥把 will 划掉：「提示是给演出定位的坐标——演出报时（will），坐标不报时。将来的事，提示里也写现在：When the singer starts...」学徒又写条件提示：「Unless the hall doesn't get quiet...」指挥又划：「unless 这个词自带一个『不』字，你再塞一个 don't，等于把否定叠了两层，谁也看不懂到底要不要安静。」最后一条：鼓手问自己几点能走。指挥写下：You won't leave until the last note fades——「until 是『一直到』；想说『才』，就得让主句先背上 not。」",
+    "metaphorStory": "银帆乐队排新曲，指挥让学徒把进场安排写成舞台提示。学徒写：「When the singer will start the chorus, the drummer joins.」指挥把 will 划掉：「提示是给演出定位的坐标——演出报时（will），坐标不报时。将来的事，提示里也写现在：When the singer starts...」学徒又写条件提示：「Unless the hall doesn't get quiet...」指挥又划：「unless 这个词自带一个『不』字，你再塞一个 don't，等于把否定叠了两层，谁也看不懂到底要不要安静。」最后一条：鼓手问自己几点能走。指挥写下：You won't leave until the last note fades——「until 是『一直到』；想说『才』，就得让主句先背上 not。」",
     "rules": {
       "cards": [
         {
