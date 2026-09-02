@@ -3,7 +3,7 @@
   "topicName": "Money 金钱",
   "icon": "💰",
   "level": "B1",
-  "totalWords": 36,
+  "totalWords": 127,
   "words": [
     {
       "id": "pet-money-001",
@@ -1323,6 +1323,3286 @@
         "collocations": [
           "a valuable ring",
           "valuable advice"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-037",
+      "word": "banknote",
+      "phonetic": "/ˈbæŋknəʊt/",
+      "pos": "n.",
+      "meaning": "纸币；钞票",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This old banknote is worth more than its price.",
+          "zh": "这张旧钞票的价值超过了它的面额。"
+        },
+        {
+          "en": "He checked the banknote carefully under the light.",
+          "zh": "他对着光仔细查看那张钞票。"
+        }
+      ],
+      "synonyms": [
+        "note"
+      ],
+      "antonyms": [
+        "coin"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bank(银行)+note(纸条)→银行发的纸条→纸币。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a ten-pound banknote",
+          "old banknotes"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-038",
+      "word": "payment",
+      "phonetic": "/ˈpeɪmənt/",
+      "pos": "n.",
+      "meaning": "付款；支付",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "You can make the payment online or in the shop.",
+          "zh": "你可以在网上或店里付款。"
+        },
+        {
+          "en": "The hotel asks for payment in advance.",
+          "zh": "这家旅馆要求提前付款。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "pay(付)+ment(名词)→付出去的那笔钱。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "make a payment",
+          "payment for"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-039",
+      "word": "pay back",
+      "phonetic": "/peɪ bæk/",
+      "pos": "phr.",
+      "meaning": "偿还；还钱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I'll pay back the five pounds next week, I promise.",
+          "zh": "我保证下周把那五英镑还你。"
+        },
+        {
+          "en": "He worked all summer to pay back the loan.",
+          "zh": "他打了一夏天工来还那笔借款。"
+        }
+      ],
+      "synonyms": [
+        "repay"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "pay(付)+back(回去)→把钱付「回去」→偿还。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "pay back a loan",
+          "pay sb back"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-040",
+      "word": "deposit",
+      "phonetic": "/dɪˈpɒzɪt/",
+      "pos": "n./v.",
+      "meaning": "存款；押金；存入",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We paid a small deposit to book the campsite.",
+          "zh": "我们付了一小笔押金预订营地。"
+        },
+        {
+          "en": "She deposits half her pocket money every month.",
+          "zh": "她每个月把一半零花钱存起来。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "de(放下)+posit(放置)→把钱「放」进银行→存款。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "pay a deposit",
+          "deposit money"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-041",
+      "word": "withdraw",
+      "phonetic": "/wɪðˈdrɔː/",
+      "pos": "v.",
+      "meaning": "取钱；撤回",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dad withdrew some money from the cash machine.",
+          "zh": "爸爸从取款机里取了些钱。"
+        },
+        {
+          "en": "You can withdraw cash with this bank card.",
+          "zh": "用这张银行卡可以取现金。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "deposit"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "with(向回)+draw(拉)→把钱从银行「拉」回来→取钱。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "withdraw money",
+          "withdraw from"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-042",
+      "word": "savings",
+      "phonetic": "/ˈseɪvɪŋz/",
+      "pos": "n.",
+      "meaning": "存款；积蓄",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She spent all her savings on a new telescope.",
+          "zh": "她把积蓄全花在了一台新望远镜上。"
+        },
+        {
+          "en": "Put a little into your savings every week.",
+          "zh": "每周往积蓄里存一点吧。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "save(省下)的复数名词——一点点省出来的钱堆成 savings。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "spend one's savings",
+          "a savings account"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-043",
+      "word": "invest",
+      "phonetic": "/ɪnˈvest/",
+      "pos": "v.",
+      "meaning": "投资；投入",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The town invested a lot of money in new schools.",
+          "zh": "镇上投入大笔资金建新学校。"
+        },
+        {
+          "en": "It's wise to invest time in reading.",
+          "zh": "把时间投入阅读是明智的。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "in(进)+vest(马甲)→把钱「穿」进项目里→投资。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "invest in",
+          "invest money"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-044",
+      "word": "investment",
+      "phonetic": "/ɪnˈvestmənt/",
+      "pos": "n.",
+      "meaning": "投资",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Good books are an investment in your future.",
+          "zh": "好书是对你未来的投资。"
+        },
+        {
+          "en": "The new factory was a big investment for the company.",
+          "zh": "新工厂是这家公司的一大笔投资。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "invest(投资)+ment→投进去的那笔钱。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a good investment",
+          "make an investment"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-045",
+      "word": "loss",
+      "phonetic": "/lɒs/",
+      "pos": "n.",
+      "meaning": "亏损；损失",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The little shop made a loss in its first year.",
+          "zh": "小店头一年亏了本。"
+        },
+        {
+          "en": "Losing the old photos was a great loss to her.",
+          "zh": "弄丢那些老照片对她是巨大的损失。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "profit"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "lose(失去)的名词——丢掉的那部分就是 loss。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "make a loss",
+          "a great loss"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-046",
+      "word": "debt",
+      "phonetic": "/det/",
+      "pos": "n.",
+      "meaning": "债务；欠款",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He worked hard to pay off his debts.",
+          "zh": "他努力工作还清了欠债。"
+        },
+        {
+          "en": "Don't borrow more than you can pay — avoid debt.",
+          "zh": "别借超出能力的钱——避免欠债。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "debt 谐音「呆特」——b 不发音；欠着钱，心里发「呆」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "pay off a debt",
+          "be in debt"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-047",
+      "word": "in debt",
+      "phonetic": "/ɪn ˈdet/",
+      "pos": "phr.",
+      "meaning": "负债；欠钱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He was in debt after buying too many games.",
+          "zh": "买了太多游戏之后，他欠了钱。"
+        },
+        {
+          "en": "The club is no longer in debt thanks to the fair.",
+          "zh": "多亏了义卖会，俱乐部不再负债了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "泡「在」debt(债)里→欠着钱没还清。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "be in debt",
+          "get into debt"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-048",
+      "word": "earnings",
+      "phonetic": "/ˈɜːnɪŋz/",
+      "pos": "n.",
+      "meaning": "收入；挣得的钱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She keeps her earnings from the weekend job in a jar.",
+          "zh": "她把周末打工挣的钱存在罐子里。"
+        },
+        {
+          "en": "His earnings grew after he changed jobs.",
+          "zh": "换工作后他的收入涨了。"
+        }
+      ],
+      "synonyms": [
+        "income"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "earn(挣)的复数名词——一笔笔挣来的钱。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "annual earnings",
+          "keep one's earnings"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-049",
+      "word": "cheque",
+      "phonetic": "/tʃek/",
+      "pos": "n.",
+      "meaning": "支票",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Grandma sent me a cheque for my birthday.",
+          "zh": "奶奶寄给我一张支票作生日礼物。"
+        },
+        {
+          "en": "You can pay by cheque or by card here.",
+          "zh": "这里可以用支票或刷卡付款。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "英式写 cheque，美式写 check——发音相同，都是「支票」。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "pay by cheque",
+          "write a cheque"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-050",
+      "word": "treasure",
+      "phonetic": "/ˈtreʒə/",
+      "pos": "n./v.",
+      "meaning": "财宝；珍藏",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The pirates buried their treasure on the island.",
+          "zh": "海盗把财宝埋在了岛上。"
+        },
+        {
+          "en": "I treasure the watch my grandfather gave me.",
+          "zh": "我珍藏着爷爷给我的手表。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "treasure 谐音「揣着」——把宝贝紧紧「揣」在怀里。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "buried treasure",
+          "treasure the memory"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-051",
+      "word": "treasure hunt",
+      "phonetic": "/ˈtreʒə hʌnt/",
+      "pos": "n.",
+      "meaning": "寻宝游戏",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We played a treasure hunt in the park on Sports Day.",
+          "zh": "运动会那天我们在公园玩了寻宝游戏。"
+        },
+        {
+          "en": "The clues of the treasure hunt were hidden in books.",
+          "zh": "寻宝游戏的线索藏在书里。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "treasure(宝藏)+hunt(搜寻)→按线索找宝藏的游戏。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "play a treasure hunt",
+          "a treasure hunt clue"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-052",
+      "word": "fortune",
+      "phonetic": "/ˈfɔːtʃuːn/",
+      "pos": "n.",
+      "meaning": "大笔钱；运气",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "That football card is worth a fortune now.",
+          "zh": "那张球星卡现在值一大笔钱。"
+        },
+        {
+          "en": "She had the good fortune to meet her favourite writer.",
+          "zh": "她运气好，遇到了最喜欢的作家。"
+        }
+      ],
+      "synonyms": [
+        "wealth"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "fortune 谐音「福气」——有福气的人既有好运又有财富。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "cost a fortune",
+          "make a fortune"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-053",
+      "word": "wealth",
+      "phonetic": "/welθ/",
+      "pos": "n.",
+      "meaning": "财富",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Health is worth more than wealth.",
+          "zh": "健康比财富更宝贵。"
+        },
+        {
+          "en": "The old city shows the wealth of its past.",
+          "zh": "这座古城展现着昔日的富庶。"
+        }
+      ],
+      "synonyms": [
+        "fortune"
+      ],
+      "antonyms": [
+        "poverty"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "wealthy(富有的)的名词——well(好)过日子攒下的就是 wealth。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "health and wealth",
+          "great wealth"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-054",
+      "word": "luxurious",
+      "phonetic": "/lʌɡˈʒʊəriəs/",
+      "pos": "adj.",
+      "meaning": "豪华的；奢侈的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The film star lives in a luxurious house by the sea.",
+          "zh": "那位影星住在海边一栋豪宅里。"
+        },
+        {
+          "en": "The hotel room was too luxurious for a school trip.",
+          "zh": "这间客房对研学旅行来说太奢华了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "simple"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "luxury(奢华)+ious→处处都是奢华味儿→豪华的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a luxurious hotel",
+          "luxurious life"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-055",
+      "word": "greedy",
+      "phonetic": "/ˈɡriːdi/",
+      "pos": "adj.",
+      "meaning": "贪心的；贪吃的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The greedy king wanted every coin in the land.",
+          "zh": "贪心的国王想要全国每一枚金币。"
+        },
+        {
+          "en": "Don't be greedy — leave some cake for others.",
+          "zh": "别贪嘴，给别人留点蛋糕。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "generous"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "greedy 谐音「贵的一」——见到贵的东西一样都想要→贪心。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "greedy for",
+          "a greedy look"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-056",
+      "word": "broke",
+      "phonetic": "/brəʊk/",
+      "pos": "adj.",
+      "meaning": "身无分文的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I'm broke until I get my pocket money on Sunday.",
+          "zh": "周日拿到零花钱之前，我一分钱都没有。"
+        },
+        {
+          "en": "The trip left us completely broke.",
+          "zh": "那次旅行把我们花得精光。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "well-off"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "break 的过去式——钱包「碎了」空空如也→身无分文。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "go broke",
+          "completely broke"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-057",
+      "word": "well-off",
+      "phonetic": "/ˌwel ˈɒf/",
+      "pos": "adj.",
+      "meaning": "富裕的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Her family is well-off but she still saves carefully.",
+          "zh": "她家挺富裕，但她仍精打细算地存钱。"
+        },
+        {
+          "en": "The town became well-off thanks to tourism.",
+          "zh": "靠着旅游业，小镇富了起来。"
+        }
+      ],
+      "synonyms": [
+        "rich",
+        "wealthy"
+      ],
+      "antonyms": [
+        "broke"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "well(好)+off(处境)→日子过得好→富裕的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a well-off family",
+          "become well-off"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-058",
+      "word": "economical",
+      "phonetic": "/ˌiːkəˈnɒmɪkl/",
+      "pos": "adj.",
+      "meaning": "节约的；省钱的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Taking the bus is more economical than a taxi.",
+          "zh": "坐公交比打车省钱。"
+        },
+        {
+          "en": "She is economical with both money and time.",
+          "zh": "她花钱和用时间都很节省。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "wasteful"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "economy(经济)+ical→会过日子、花得省→节约的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "economical with",
+          "an economical way"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-059",
+      "word": "economy",
+      "phonetic": "/ɪˈkɒnəmi/",
+      "pos": "n.",
+      "meaning": "经济；节约",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The tourist season is good for the local economy.",
+          "zh": "旅游旺季对当地经济有好处。"
+        },
+        {
+          "en": "For economy, we cook at home instead of eating out.",
+          "zh": "为了省钱，我们在家做饭不下馆子。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "eco(家)+nomy(管理)→管好一个「家」的收支→经济。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "the local economy",
+          "economy class"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-060",
+      "word": "financial",
+      "phonetic": "/faɪˈnænʃl/",
+      "pos": "adj.",
+      "meaning": "金融的；财务的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The family made a financial plan for the new year.",
+          "zh": "这家人制定了新年的财务计划。"
+        },
+        {
+          "en": "London is a big financial centre.",
+          "zh": "伦敦是一个重要的金融中心。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "finance(金融)+ial→跟钱打交道的→金融的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "financial plan",
+          "financial help"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-061",
+      "word": "allowance",
+      "phonetic": "/əˈlaʊəns/",
+      "pos": "n.",
+      "meaning": "零用钱；津贴",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He gets a weekly allowance for helping with housework.",
+          "zh": "他因帮忙做家务每周有零用钱。"
+        },
+        {
+          "en": "Her allowance goes mostly on comic books.",
+          "zh": "她的零花钱大多花在漫画书上。"
+        }
+      ],
+      "synonyms": [
+        "pocket money"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "allow(允许)+ance→大人「允许」你支配的钱→零用钱。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a weekly allowance",
+          "spend one's allowance"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-062",
+      "word": "pay rise",
+      "phonetic": "/ˈpeɪ raɪz/",
+      "pos": "n.",
+      "meaning": "加薪",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Mum got a pay rise after her project succeeded.",
+          "zh": "项目成功后，妈妈加了薪。"
+        },
+        {
+          "en": "He asked his boss for a small pay rise.",
+          "zh": "他向老板提出小幅加薪。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "pay(工资)+rise(上涨)→工资涨了→加薪；美式说 pay raise。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "get a pay rise",
+          "ask for a pay rise"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-063",
+      "word": "lottery",
+      "phonetic": "/ˈlɒtəri/",
+      "pos": "n.",
+      "meaning": "彩票；抽彩",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Winning the lottery is far rarer than people think.",
+          "zh": "中彩票远比人们想的稀罕。"
+        },
+        {
+          "en": "The school lottery raised money for the library.",
+          "zh": "学校抽奖活动为图书馆筹了款。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "lottery 谐音「捞得利」——想不劳而「捞」利的游戏，别指望它。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "win the lottery",
+          "a lottery ticket"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-064",
+      "word": "win the lottery",
+      "phonetic": "/ˌwɪn ðə ˈlɒtəri/",
+      "pos": "phr.",
+      "meaning": "中彩票",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Even if you win the lottery, saving still matters.",
+          "zh": "就算中了彩票，储蓄依然重要。"
+        },
+        {
+          "en": "He joked that he would win the lottery some day.",
+          "zh": "他开玩笑说总有一天会中彩票。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "win(赢)+lottery(彩票)→运气砸中头顶——概率极小，勿当真。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "dream of winning the lottery"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-065",
+      "word": "poverty",
+      "phonetic": "/ˈpɒvəti/",
+      "pos": "n.",
+      "meaning": "贫穷",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The charity helps children living in poverty.",
+          "zh": "这家慈善机构帮助贫困儿童。"
+        },
+        {
+          "en": "The writer grew up in poverty but never gave up.",
+          "zh": "那位作家在贫困中长大，却从未放弃。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "wealth"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "pover(穷,同 poor)+ty→穷的状态→贫穷。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "live in poverty",
+          "fight poverty"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-066",
+      "word": "bankrupt",
+      "phonetic": "/ˈbæŋkrʌpt/",
+      "pos": "adj.",
+      "meaning": "破产的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The old toy factory went bankrupt last year.",
+          "zh": "那家老玩具厂去年破产了。"
+        },
+        {
+          "en": "Spending without planning can make a company bankrupt.",
+          "zh": "花钱没有规划会让公司破产。"
+        }
+      ],
+      "synonyms": [
+        "broke"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bank(银行)+rupt(断裂,同 break)→资金链断了→破产的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "go bankrupt",
+          "nearly bankrupt"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-067",
+      "word": "amount",
+      "phonetic": "/əˈmaʊnt/",
+      "pos": "n.",
+      "meaning": "数额；数量",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Write the amount of money on the envelope.",
+          "zh": "把金额写在信封上。"
+        },
+        {
+          "en": "A small amount of practice every day works wonders.",
+          "zh": "每天一点点练习就能创造奇迹。"
+        }
+      ],
+      "synonyms": [
+        "sum"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "a+mount(山)→堆成小山的数量→数额。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a large amount of",
+          "the amount of"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-068",
+      "word": "sum",
+      "phonetic": "/sʌm/",
+      "pos": "n.",
+      "meaning": "金额；总数",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "That bike costs a large sum of money.",
+          "zh": "那辆自行车要花一大笔钱。"
+        },
+        {
+          "en": "The sum of five and three is eight.",
+          "zh": "五加三的总数是八。"
+        }
+      ],
+      "synonyms": [
+        "amount"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "数学课上的 sum(和)——把数字加在一起的总数，也指一笔钱。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a large sum of",
+          "the sum of"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-069",
+      "word": "priceless",
+      "phonetic": "/ˈpraɪsləs/",
+      "pos": "adj.",
+      "meaning": "无价的；极珍贵的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The museum keeps a priceless golden crown.",
+          "zh": "博物馆收藏着一顶无价的金冠。"
+        },
+        {
+          "en": "Your friendship is priceless to me.",
+          "zh": "你的友谊对我来说无比珍贵。"
+        }
+      ],
+      "synonyms": [
+        "valuable"
+      ],
+      "antonyms": [
+        "worthless"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "price(价格)+less(无法标)→贵到标不出价→无价的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a priceless painting",
+          "priceless memories"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-070",
+      "word": "worthless",
+      "phonetic": "/ˈwɜːθləs/",
+      "pos": "adj.",
+      "meaning": "毫无价值的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The old coins turned out to be worthless copies.",
+          "zh": "那些旧硬币结果是不值钱的仿品。"
+        },
+        {
+          "en": "Don't call any effort worthless — you always learn something.",
+          "zh": "别说哪次努力毫无价值——你总能学到点什么。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "priceless"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "worth(价值)+less(没有)→一文不值的；小心：priceless 反而是「无价之宝」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "worthless paper",
+          "feel worthless"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-071",
+      "word": "donation",
+      "phonetic": "/dəʊˈneɪʃn/",
+      "pos": "n.",
+      "meaning": "捐款；捐赠",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The library was built with donations from the town.",
+          "zh": "图书馆是靠镇上的捐款建起来的。"
+        },
+        {
+          "en": "She made a donation of books to the village school.",
+          "zh": "她向乡村小学捐赠了图书。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "donate(捐)+ion→捐出去的那份→捐款。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "make a donation",
+          "a donation to"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-072",
+      "word": "fund",
+      "phonetic": "/fʌnd/",
+      "pos": "n./v.",
+      "meaning": "基金；资助",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The class set up a fund for the school garden.",
+          "zh": "班里为校园花圃设立了一笔基金。"
+        },
+        {
+          "en": "The city funds free swimming lessons in summer.",
+          "zh": "市里出资开设夏季免费游泳课。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "fund 谐音「放的」——专门「放」钱的地方→基金。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "set up a fund",
+          "raise funds"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-073",
+      "word": "raise money",
+      "phonetic": "/reɪz ˈmʌni/",
+      "pos": "phr.",
+      "meaning": "筹款",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We sold cookies to raise money for the animal shelter.",
+          "zh": "我们卖饼干为动物收容所筹款。"
+        },
+        {
+          "en": "The concert raised money for sick children.",
+          "zh": "音乐会为患病儿童筹集了善款。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "raise(举起)+money→把善款一点点「举」起来→筹款。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "raise money for",
+          "help raise money"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-074",
+      "word": "debit card",
+      "phonetic": "/ˈdebɪt kɑːd/",
+      "pos": "n.",
+      "meaning": "借记卡",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A debit card spends only the money you already have.",
+          "zh": "借记卡只能花你已有的钱。"
+        },
+        {
+          "en": "She paid for the books with her debit card.",
+          "zh": "她用借记卡付了书钱。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "credit card"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "debit=直接扣账——卡里有多少花多少；credit 才是先借后还。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "pay by debit card",
+          "use a debit card"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-075",
+      "word": "bank card",
+      "phonetic": "/ˈbæŋk kɑːd/",
+      "pos": "n.",
+      "meaning": "银行卡",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Keep your bank card and password in different places.",
+          "zh": "银行卡和密码要分开放。"
+        },
+        {
+          "en": "He tapped his bank card to pay the bus fare.",
+          "zh": "他刷了下银行卡付公交车费。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bank(银行)+card(卡)→银行发的卡。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "tap a bank card",
+          "lose one's bank card"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-076",
+      "word": "bank account",
+      "phonetic": "/ˈbæŋk əkaʊnt/",
+      "pos": "n.",
+      "meaning": "银行账户",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Mum opened a bank account for me on my birthday.",
+          "zh": "生日那天妈妈给我开了个银行账户。"
+        },
+        {
+          "en": "The money goes into his bank account every month.",
+          "zh": "钱每个月打进他的银行账户。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bank(银行)+account(账户)→存钱记账的户头。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "open a bank account",
+          "in one's bank account"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-077",
+      "word": "savings account",
+      "phonetic": "/ˈseɪvɪŋz əkaʊnt/",
+      "pos": "n.",
+      "meaning": "储蓄账户",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A savings account pays you a little interest.",
+          "zh": "储蓄账户会付给你一点利息。"
+        },
+        {
+          "en": "She moved her birthday money into her savings account.",
+          "zh": "她把生日收到的钱转进了储蓄账户。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "savings(积蓄)+account(账户)→专门存积蓄的账户。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "open a savings account"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-078",
+      "word": "online banking",
+      "phonetic": "/ˌɒnlaɪn ˈbæŋkɪŋ/",
+      "pos": "n.",
+      "meaning": "网上银行",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "With online banking you can check your money anywhere.",
+          "zh": "有了网银，随时随地都能查账。"
+        },
+        {
+          "en": "Dad uses online banking to pay the bills.",
+          "zh": "爸爸用网上银行付账单。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "online(在线)+banking(银行业务)→手机上办银行的事。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "use online banking",
+          "log into online banking"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-079",
+      "word": "banking",
+      "phonetic": "/ˈbæŋkɪŋ/",
+      "pos": "n.",
+      "meaning": "银行业务",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Mobile banking makes saving money much easier.",
+          "zh": "手机银行让存钱方便多了。"
+        },
+        {
+          "en": "She wants to work in banking when she grows up.",
+          "zh": "她长大后想从事银行业。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bank(银行)+ing→银行做的那摊事→银行业务。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "mobile banking",
+          "the banking system"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-080",
+      "word": "banker",
+      "phonetic": "/ˈbæŋkə/",
+      "pos": "n.",
+      "meaning": "银行家",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The banker explained how interest grows over time.",
+          "zh": "银行家讲解了利息如何随时间增长。"
+        },
+        {
+          "en": "Her aunt is a banker in the city centre.",
+          "zh": "她姑姑是市中心的一名银行职员。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bank(银行)+er(人)→在银行管钱的人。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a rich banker",
+          "talk to a banker"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-081",
+      "word": "cost of living",
+      "phonetic": "/ˌkɒst əv ˈlɪvɪŋ/",
+      "pos": "n.",
+      "meaning": "生活成本",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The cost of living is higher in big cities.",
+          "zh": "大城市的生活成本更高。"
+        },
+        {
+          "en": "They moved because of the rising cost of living.",
+          "zh": "因为生活成本上涨，他们搬了家。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "cost(花费)+living(生活)→过日子要花的钱。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "the rising cost of living"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-082",
+      "word": "percentage",
+      "phonetic": "/pəˈsentɪdʒ/",
+      "pos": "n.",
+      "meaning": "百分比",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A small percentage of the ticket money goes to charity.",
+          "zh": "票款的一小部分捐给慈善机构。"
+        },
+        {
+          "en": "What percentage of your allowance do you save?",
+          "zh": "你的零花钱有百分之多少存起来？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "per(每)+cent(百)+age→每一百里占几份→百分比。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a high percentage of",
+          "the percentage of"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-083",
+      "word": "half price",
+      "phonetic": "/ˌhɑːf ˈpraɪs/",
+      "pos": "n.",
+      "meaning": "半价",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Children under twelve get tickets at half price.",
+          "zh": "十二岁以下儿童票半价。"
+        },
+        {
+          "en": "The bookshop sells old magazines at half price.",
+          "zh": "书店里的旧杂志半价出售。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "half(一半)+price(价格)→只要一半的钱。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "at half price",
+          "half-price tickets"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-084",
+      "word": "overcharge",
+      "phonetic": "/ˌəʊvəˈtʃɑːdʒ/",
+      "pos": "v.",
+      "meaning": "多收钱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The taxi driver overcharged the tourists badly.",
+          "zh": "出租车司机狠狠多收了游客的钱。"
+        },
+        {
+          "en": "Check the bill so you are not overcharged.",
+          "zh": "核对账单，免得被多收钱。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "over(超过)+charge(收费)→收得超过该收的→多收钱。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "overcharge sb for",
+          "be overcharged"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-085",
+      "word": "advertising",
+      "phonetic": "/ˈædvətaɪzɪŋ/",
+      "pos": "n.",
+      "meaning": "广告；广告业",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Advertising makes people want things they don't need.",
+          "zh": "广告让人想要并不需要的东西。"
+        },
+        {
+          "en": "The company spends a lot of money on advertising.",
+          "zh": "这家公司在广告上花很多钱。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "advertise(做广告)+ing→吆喝买卖这门生意。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "spend money on advertising",
+          "an advertising campaign"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-086",
+      "word": "on sale",
+      "phonetic": "/ɒn ˈseɪl/",
+      "pos": "phr.",
+      "meaning": "出售中；打折",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The new comic book is on sale from Friday.",
+          "zh": "新一期漫画周五开始发售。"
+        },
+        {
+          "en": "Winter coats are on sale at the moment.",
+          "zh": "冬衣现在正打折。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "挂「在」sale(销售)上→正在卖；英式里常兼指打折。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "be on sale",
+          "go on sale"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-087",
+      "word": "for sale",
+      "phonetic": "/fə ˈseɪl/",
+      "pos": "phr.",
+      "meaning": "待售",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The house next door has been for sale for months.",
+          "zh": "隔壁的房子挂牌好几个月了。"
+        },
+        {
+          "en": "Sorry, this model plane is not for sale.",
+          "zh": "抱歉，这架模型飞机是非卖品。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "为了(for)卖出去→贴着「出售」牌子的待售。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "be for sale",
+          "a for-sale sign"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-088",
+      "word": "belong to",
+      "phonetic": "/bɪˈlɒŋ tə/",
+      "pos": "phr.",
+      "meaning": "属于",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This purse must belong to someone in our class.",
+          "zh": "这个钱包一定是我们班哪位同学的。"
+        },
+        {
+          "en": "The garden belongs to the whole building.",
+          "zh": "花园归整栋楼共有。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "be+long——长(long)在谁那里，就属于(belong to)谁。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "belong to sb",
+          "belong to the school"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-089",
+      "word": "possession",
+      "phonetic": "/pəˈzeʃn/",
+      "pos": "n.",
+      "meaning": "所有物；财产",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The old letters are her most precious possessions.",
+          "zh": "那些旧信是她最珍贵的物件。"
+        },
+        {
+          "en": "He packed all his possessions into two boxes.",
+          "zh": "他把全部家当装进两个箱子。"
+        }
+      ],
+      "synonyms": [
+        "belongings"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "possess(拥有)+ion→握在手里的东西→所有物。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "personal possessions",
+          "one's most precious possession"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-090",
+      "word": "property",
+      "phonetic": "/ˈprɒpəti/",
+      "pos": "n.",
+      "meaning": "财产；房产",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This bike is school property, so take good care of it.",
+          "zh": "这辆车是学校财产，要爱惜。"
+        },
+        {
+          "en": "They sold the old property by the river.",
+          "zh": "他们卖掉了河边的旧房产。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "proper(自己的)+ty→归自己所有的东西→财产。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "private property",
+          "school property"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-091",
+      "word": "owner",
+      "phonetic": "/ˈəʊnə/",
+      "pos": "n.",
+      "meaning": "物主；所有人",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The owner of the lost dog offered a reward.",
+          "zh": "走失小狗的主人悬赏寻狗。"
+        },
+        {
+          "en": "Who is the owner of this blue umbrella?",
+          "zh": "这把蓝伞的主人是谁？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "own(拥有)+er(人)→东西归他的那个人。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "the owner of",
+          "a shop owner"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-092",
+      "word": "reduction",
+      "phonetic": "/rɪˈdʌkʃn/",
+      "pos": "n.",
+      "meaning": "降价；减少",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is a big reduction on school bags this week.",
+          "zh": "本周书包大降价。"
+        },
+        {
+          "en": "The shop offers a reduction for students.",
+          "zh": "这家店给学生打折。"
+        }
+      ],
+      "synonyms": [
+        "discount"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "reduce(减少)+tion→往下减的那部分→降价。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a price reduction",
+          "a reduction on"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-093",
+      "word": "increase",
+      "phonetic": "/ɪnˈkriːs/",
+      "pos": "v./n.",
+      "meaning": "增加；上涨",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Bus fares will increase by ten pence next month.",
+          "zh": "下个月公交票价将上涨十便士。"
+        },
+        {
+          "en": "There was a big increase in ticket prices.",
+          "zh": "票价大幅上涨。"
+        }
+      ],
+      "synonyms": [
+        "rise"
+      ],
+      "antonyms": [
+        "reduction"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "in(向内)+crease(生长)→越长越多→增加。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "increase by",
+          "an increase in"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-094",
+      "word": "rise",
+      "phonetic": "/raɪz/",
+      "pos": "v./n.",
+      "meaning": "上涨；升起",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Prices rise before the holidays every year.",
+          "zh": "每年假期前物价都会上涨。"
+        },
+        {
+          "en": "The rise in food prices worried everyone.",
+          "zh": "食品价格上涨让大家忧心。"
+        }
+      ],
+      "synonyms": [
+        "increase"
+      ],
+      "antonyms": [
+        "fall"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "太阳升起(sunrise)的 rise——物价也会像太阳一样「升」。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "prices rise",
+          "a rise in"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-095",
+      "word": "be worth",
+      "phonetic": "/bi wɜːθ/",
+      "pos": "phr.",
+      "meaning": "值……钱；值得",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This old stamp is worth fifty pounds now.",
+          "zh": "这张旧邮票现在值五十英镑。"
+        },
+        {
+          "en": "The museum is well worth a visit.",
+          "zh": "这座博物馆很值得一看。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "worth 前必带 be——东西「是」多少价值，后接钱数或 doing。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "be worth doing",
+          "be worth the money"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-096",
+      "word": "spend on",
+      "phonetic": "/spend ɒn/",
+      "pos": "phr.",
+      "meaning": "把钱花在……上",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She spends most of her pocket money on stickers.",
+          "zh": "她的零花钱大多花在贴纸上。"
+        },
+        {
+          "en": "Don't spend too much on things you rarely use.",
+          "zh": "别在很少用的东西上花太多钱。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "spend(花)+on(在……上面)→钱落「在」哪样东西上。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "spend money on",
+          "spend too much on"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-097",
+      "word": "lend out",
+      "phonetic": "/lend aʊt/",
+      "pos": "phr.",
+      "meaning": "把……借出去",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The library lends out board games at weekends.",
+          "zh": "图书馆周末外借桌游。"
+        },
+        {
+          "en": "I lent out my ruler and never got it back.",
+          "zh": "我把尺子借出去就再没要回来。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "lend(借给别人)+out(出去)→东西从自己手里「出去」了。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "lend out books",
+          "lend sth out"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-098",
+      "word": "piggy bank",
+      "phonetic": "/ˈpɪɡi bæŋk/",
+      "pos": "n.",
+      "meaning": "存钱罐",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Every coin in the piggy bank tells a little story.",
+          "zh": "存钱罐里每枚硬币都有个小故事。"
+        },
+        {
+          "en": "He broke his piggy bank to buy mum a gift.",
+          "zh": "他砸开存钱罐给妈妈买礼物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "piggy(小猪)+bank(银行)→小猪肚子就是你的第一家「银行」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "put coins in a piggy bank",
+          "break a piggy bank"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-099",
+      "word": "coin collection",
+      "phonetic": "/ˈkɔɪn kəˌlekʃn/",
+      "pos": "n.",
+      "meaning": "硬币收藏",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Grandpa's coin collection includes coins from thirty countries.",
+          "zh": "爷爷的硬币收藏有三十个国家的硬币。"
+        },
+        {
+          "en": "She showed her coin collection at the school fair.",
+          "zh": "她在校园集市上展示了硬币收藏。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "coin(硬币)+collection(收藏)→攒起来的一盒子硬币。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "start a coin collection",
+          "add to a coin collection"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-100",
+      "word": "exchange rate",
+      "phonetic": "/ɪksˈtʃeɪndʒ reɪt/",
+      "pos": "n.",
+      "meaning": "汇率",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Check the exchange rate before you change your money.",
+          "zh": "换钱前先查一下汇率。"
+        },
+        {
+          "en": "The exchange rate between the pound and the yuan changed.",
+          "zh": "英镑和人民币的汇率变了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "exchange(兑换)+rate(比率)→两种钱互换的比价。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a good exchange rate",
+          "check the exchange rate"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-101",
+      "word": "precious",
+      "phonetic": "/ˈpreʃəs/",
+      "pos": "adj.",
+      "meaning": "宝贵的；贵重的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Clean water is precious in the desert.",
+          "zh": "在沙漠里，干净的水非常宝贵。"
+        },
+        {
+          "en": "She keeps her most precious photos in a small box.",
+          "zh": "她把最珍贵的照片存放在小盒子里。"
+        }
+      ],
+      "synonyms": [
+        "valuable"
+      ],
+      "antonyms": [
+        "worthless"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "preci(价格,同 price)+ous→价格高高的→宝贵的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "precious time",
+          "a precious gift"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-102",
+      "word": "jewel",
+      "phonetic": "/ˈdʒuːəl/",
+      "pos": "n.",
+      "meaning": "宝石",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The crown in the story shines with red jewels.",
+          "zh": "故事里的王冠上闪着红宝石。"
+        },
+        {
+          "en": "The queen kept her jewels in a locked box.",
+          "zh": "王后把宝石锁在盒子里。"
+        }
+      ],
+      "synonyms": [
+        "gem"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "jewel 谐音「珠儿」——亮晶晶的小「珠儿」就是宝石。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a precious jewel",
+          "a crown of jewels"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-103",
+      "word": "billionaire",
+      "phonetic": "/ˌbɪljəˈneə/",
+      "pos": "n.",
+      "meaning": "亿万富翁",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The billionaire gave most of his money to schools.",
+          "zh": "那位亿万富翁把大部分钱捐给了学校。"
+        },
+        {
+          "en": "Being a billionaire doesn't mean being happy.",
+          "zh": "身为亿万富翁并不等于幸福。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "billion(十亿)+aire(人)→家产以十亿计的人；对照 millionaire。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "become a billionaire",
+          "a young billionaire"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-104",
+      "word": "earn a living",
+      "phonetic": "/ˌɜːn ə ˈlɪvɪŋ/",
+      "pos": "phr.",
+      "meaning": "谋生",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He earns a living by fixing bicycles.",
+          "zh": "他靠修自行车谋生。"
+        },
+        {
+          "en": "It's not easy to earn a living as a painter.",
+          "zh": "靠画画谋生并不容易。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "earn(挣)+a living(生计)→把日子「挣」出来→谋生。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "earn a living by doing",
+          "earn one's living"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-105",
+      "word": "make money",
+      "phonetic": "/meɪk ˈmʌni/",
+      "pos": "phr.",
+      "meaning": "挣钱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The lemonade stand made money on the hot afternoon.",
+          "zh": "炎热的下午，柠檬水小摊挣到了钱。"
+        },
+        {
+          "en": "You can't make money without working for it.",
+          "zh": "不付出劳动就挣不到钱。"
+        }
+      ],
+      "synonyms": [
+        "earn"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "make(做出)+money(钱)→靠本事把钱「做」出来。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "make money by doing",
+          "make a lot of money"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-106",
+      "word": "repay",
+      "phonetic": "/rɪˈpeɪ/",
+      "pos": "v.",
+      "meaning": "偿还；报答",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I will repay the money before the end of term.",
+          "zh": "期末前我会把钱还上。"
+        },
+        {
+          "en": "How can I ever repay your kindness?",
+          "zh": "你的好意我该怎么报答呢？"
+        }
+      ],
+      "synonyms": [
+        "pay back"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "re(回)+pay(付)→把钱付回去→偿还；也指报答人情。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "repay a loan",
+          "repay sb for"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-107",
+      "word": "bet",
+      "phonetic": "/bet/",
+      "pos": "v./n.",
+      "meaning": "打赌；赌注",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I bet it will rain before the match ends.",
+          "zh": "我打赌比赛结束前会下雨。"
+        },
+        {
+          "en": "They made a friendly bet over the quiz result.",
+          "zh": "他们就竞赛结果友好地打了个赌。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "bet 谐音「掰特」——为一件事掰扯不清，干脆打个赌。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "bet on",
+          "make a bet"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-108",
+      "word": "gain",
+      "phonetic": "/ɡeɪn/",
+      "pos": "v./n.",
+      "meaning": "获得；收益",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She gained a lot of experience from the small job.",
+          "zh": "这份小工作让她收获了很多经验。"
+        },
+        {
+          "en": "No pain, no gain, as the saying goes.",
+          "zh": "俗话说，一分耕耘一分收获。"
+        }
+      ],
+      "synonyms": [
+        "get"
+      ],
+      "antonyms": [
+        "loss"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "gain 谐音「给恩」——别人「给」你的恩惠与收获。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "gain experience",
+          "no pain no gain"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-109",
+      "word": "costly",
+      "phonetic": "/ˈkɒstli/",
+      "pos": "adj.",
+      "meaning": "昂贵的；代价大的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Repairing the broken window was a costly lesson.",
+          "zh": "修那扇打碎的窗户是个代价不小的教训。"
+        },
+        {
+          "en": "Flying is faster but more costly than the train.",
+          "zh": "坐飞机比火车快，但花费更高。"
+        }
+      ],
+      "synonyms": [
+        "expensive"
+      ],
+      "antonyms": [
+        "cheap"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "cost(花费)+ly→花费大的；亏了钱也亏了心的「代价大」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a costly mistake",
+          "too costly"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-110",
+      "word": "free of charge",
+      "phonetic": "/ˌfriː əv ˈtʃɑːdʒ/",
+      "pos": "phr.",
+      "meaning": "免费",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The museum is free of charge on Mondays.",
+          "zh": "博物馆周一免费开放。"
+        },
+        {
+          "en": "Students can borrow laptops free of charge.",
+          "zh": "学生可以免费借用笔记本电脑。"
+        }
+      ],
+      "synonyms": [
+        "free"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "free(免)+of charge(收费)→一分钱不收→免费。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "be free of charge",
+          "enter free of charge"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-111",
+      "word": "pay off",
+      "phonetic": "/peɪ ɒf/",
+      "pos": "phr.",
+      "meaning": "还清；取得成效",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "They finally paid off the money for the house.",
+          "zh": "他们终于还清了房款。"
+        },
+        {
+          "en": "All those early mornings of practice paid off.",
+          "zh": "那些早起练习终于有了回报。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "pay(付)+off(完结)→账付「完」了；引申为努力见效。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "pay off a debt",
+          "hard work pays off"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-112",
+      "word": "bid",
+      "phonetic": "/bɪd/",
+      "pos": "v./n.",
+      "meaning": "出价；投标",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Several people bid for the old painting.",
+          "zh": "好几个人竞拍那幅旧画。"
+        },
+        {
+          "en": "Her bid of twenty pounds won the school auction.",
+          "zh": "她出价二十英镑，在学校拍卖会上胜出。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "bid 谐音「比的」——拍卖场上「比」着出价。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "bid for",
+          "make a bid"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-113",
+      "word": "buyer",
+      "phonetic": "/ˈbaɪə/",
+      "pos": "n.",
+      "meaning": "买主",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The buyer asked many questions about the second-hand bike.",
+          "zh": "买主对这辆二手车问了很多问题。"
+        },
+        {
+          "en": "Online shops send messages to their buyers.",
+          "zh": "网店会给买家发消息。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "seller"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "buy(买)+er(人)→掏钱的那位→买主。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "find a buyer",
+          "the first buyer"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-114",
+      "word": "seller",
+      "phonetic": "/ˈselə/",
+      "pos": "n.",
+      "meaning": "卖主；卖家",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The seller wrapped the vase carefully for us.",
+          "zh": "卖家为我们仔细包好了花瓶。"
+        },
+        {
+          "en": "A good seller always tells the truth about the goods.",
+          "zh": "好卖家总会如实介绍商品。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "buyer"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sell(卖)+er(人)→收钱的那位→卖主。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a street seller",
+          "an honest seller"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-115",
+      "word": "small change",
+      "phonetic": "/ˌsmɔːl ˈtʃeɪndʒ/",
+      "pos": "n.",
+      "meaning": "零钱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Keep some small change for the bus ride home.",
+          "zh": "留点零钱坐车回家。"
+        },
+        {
+          "en": "The jar by the door is full of small change.",
+          "zh": "门边的罐子里全是零钱。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "small(小)+change(找零)→叮当作响的小硬币→零钱。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "keep small change",
+          "a pocket of small change"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-116",
+      "word": "prize money",
+      "phonetic": "/ˈpraɪz mʌni/",
+      "pos": "n.",
+      "meaning": "奖金",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The team shared the prize money from the competition.",
+          "zh": "队员们分了比赛奖金。"
+        },
+        {
+          "en": "She spent her prize money on new paintbrushes.",
+          "zh": "她用奖金买了新画笔。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "prize(奖)+money(钱)→比赛赢来的钱。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "win prize money",
+          "share the prize money"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-117",
+      "word": "valuables",
+      "phonetic": "/ˈvæljuəblz/",
+      "pos": "n.",
+      "meaning": "贵重物品",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please leave your valuables in the hotel safe.",
+          "zh": "请把贵重物品存放在酒店保险箱里。"
+        },
+        {
+          "en": "Don't bring valuables to the swimming pool.",
+          "zh": "别带贵重物品去游泳池。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "valuable(贵重的)加 s 变名词——那些值钱的随身物。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "keep valuables safe",
+          "personal valuables"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-118",
+      "word": "spare",
+      "phonetic": "/speə/",
+      "pos": "adj./v.",
+      "meaning": "多余的；抽出（时间/钱）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Have you got a spare coin for the locker?",
+          "zh": "你有多余的硬币开储物柜吗？"
+        },
+        {
+          "en": "Can you spare five minutes to help me?",
+          "zh": "你能抽五分钟帮帮我吗？"
+        }
+      ],
+      "synonyms": [
+        "extra"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "spare time(空闲)、spare key(备用钥匙)——多出来备着的，就是 spare。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "spare money",
+          "spare some time"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-119",
+      "word": "cash desk",
+      "phonetic": "/ˈkæʃ desk/",
+      "pos": "n.",
+      "meaning": "收银台",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please pay for the books at the cash desk.",
+          "zh": "请到收银台付书款。"
+        },
+        {
+          "en": "There was a long queue at the cash desk.",
+          "zh": "收银台前排起了长队。"
+        }
+      ],
+      "synonyms": [
+        "checkout"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "cash(现金)+desk(台子)→收钱的台子→收银台。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "at the cash desk",
+          "queue at the cash desk"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-120",
+      "word": "in cash",
+      "phonetic": "/ɪn ˈkæʃ/",
+      "pos": "phr.",
+      "meaning": "用现金",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The market stall only takes payment in cash.",
+          "zh": "这个集市摊位只收现金。"
+        },
+        {
+          "en": "He paid for the melon in cash.",
+          "zh": "他付现金买了那个瓜。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "「用」现金支付固定说 in cash——刷卡则是 by card。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "pay in cash",
+          "in cash only"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-121",
+      "word": "generously",
+      "phonetic": "/ˈdʒenərəsli/",
+      "pos": "adv.",
+      "meaning": "慷慨地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The visitors gave generously to the school fund.",
+          "zh": "来访者慷慨地为校基金捐款。"
+        },
+        {
+          "en": "She generously shared her umbrella with a stranger.",
+          "zh": "她大方地和陌生人共用一把伞。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "generous(慷慨的)+ly→大大方方地。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "give generously",
+          "generously share"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-122",
+      "word": "tight-fisted",
+      "phonetic": "/ˌtaɪt ˈfɪstɪd/",
+      "pos": "adj.",
+      "meaning": "吝啬的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The tight-fisted old man never bought anyone a gift.",
+          "zh": "那个吝啬的老头从不给人买礼物。"
+        },
+        {
+          "en": "Don't be tight-fisted when friends really need help.",
+          "zh": "朋友真需要帮助时别小气。"
+        }
+      ],
+      "synonyms": [
+        "mean"
+      ],
+      "antonyms": [
+        "generous"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "tight(紧)+fisted(拳头)→拳头攥得紧紧的，一毛不拔→吝啬。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a tight-fisted man"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-123",
+      "word": "spending",
+      "phonetic": "/ˈspendɪŋ/",
+      "pos": "n.",
+      "meaning": "开销；支出",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Write down your spending for one month and check it.",
+          "zh": "把一个月的开销记下来看看。"
+        },
+        {
+          "en": "Holiday spending is always higher than planned.",
+          "zh": "假期开销总比计划的高。"
+        }
+      ],
+      "synonyms": [
+        "expense"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "spend(花)+ing→花出去的总账→开销。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "cut spending",
+          "holiday spending"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-124",
+      "word": "pricey",
+      "phonetic": "/ˈpraɪsi/",
+      "pos": "adj.",
+      "meaning": "价格高的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The seaside restaurants are a bit pricey in summer.",
+          "zh": "夏天海边的餐馆有点贵。"
+        },
+        {
+          "en": "Nice trainers can be really pricey these days.",
+          "zh": "如今好看的运动鞋可真不便宜。"
+        }
+      ],
+      "synonyms": [
+        "expensive"
+      ],
+      "antonyms": [
+        "cheap"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "price(价格)+y→价格「冒尖」的；口语常用。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a bit pricey",
+          "too pricey"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-125",
+      "word": "cheaply",
+      "phonetic": "/ˈtʃiːpli/",
+      "pos": "adv.",
+      "meaning": "便宜地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "You can travel cheaply by booking early.",
+          "zh": "早点订票就能省钱出行。"
+        },
+        {
+          "en": "The market sells fruit and vegetables cheaply.",
+          "zh": "这个市场的果蔬卖得便宜。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "cheap(便宜的)+ly→花小钱办成事地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "travel cheaply",
+          "buy cheaply"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-126",
+      "word": "pence",
+      "phonetic": "/pens/",
+      "pos": "n.",
+      "meaning": "便士（penny 的复数）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sticker costs fifty pence at the corner shop.",
+          "zh": "这张贴纸在街角小店卖五十便士。"
+        },
+        {
+          "en": "He found twenty pence under the sofa.",
+          "zh": "他在沙发下找到二十便士。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "penny(便士)的复数——一枚是 penny，几枚就是 pence。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "fifty pence",
+          "a few pence"
+        ]
+      }
+    },
+    {
+      "id": "pet-money-127",
+      "word": "get paid",
+      "phonetic": "/ɡet ˈpeɪd/",
+      "pos": "phr.",
+      "meaning": "领工资；拿到报酬",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Workers get paid at the end of each month.",
+          "zh": "工人们每月底领工资。"
+        },
+        {
+          "en": "She gets paid for walking the neighbours' dogs.",
+          "zh": "她帮邻居遛狗能拿到报酬。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "money"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "get(得到)+paid(被支付)→钱到手→领到工资。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "get paid for",
+          "get paid monthly"
         ]
       }
     }
