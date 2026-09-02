@@ -3,7 +3,7 @@
   "topicName": "Feelings 情感情绪",
   "icon": "😊",
   "level": "B1",
-  "totalWords": 36,
+  "totalWords": 152,
   "words": [
     {
       "id": "pet-feelings-001",
@@ -1357,6 +1357,4311 @@
         ]
       },
       "inKet": true
+    },
+    {
+      "id": "pet-feelings-037",
+      "word": "anxious",
+      "phonetic": "/ˈæŋkʃəs/",
+      "pos": "adj.",
+      "meaning": "焦虑的；担忧的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She always feels anxious before a big exam.",
+          "zh": "大考前她总是感到焦虑。"
+        },
+        {
+          "en": "There is no need to be anxious about the results.",
+          "zh": "不必为结果担忧。"
+        }
+      ],
+      "synonyms": [
+        "worried",
+        "nervous"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "anx(掐紧)+ious→心像被掐住、喘不过气→焦虑的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "anxious about",
+          "feel anxious"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-038",
+      "word": "ashamed",
+      "phonetic": "/əˈʃeɪmd/",
+      "pos": "adj.",
+      "meaning": "羞愧的；惭愧的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He felt ashamed of telling a lie to his mum.",
+          "zh": "对妈妈撒了谎，他感到很羞愧。"
+        },
+        {
+          "en": "You should be ashamed of laughing at others.",
+          "zh": "嘲笑别人，你应该感到惭愧。"
+        }
+      ],
+      "synonyms": [
+        "guilty"
+      ],
+      "antonyms": [
+        "proud"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "a+shame(羞耻)+d，心里装着 shame 就是羞愧的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "ashamed of",
+          "feel ashamed"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-039",
+      "word": "amused",
+      "phonetic": "/əˈmjuːzd/",
+      "pos": "adj.",
+      "meaning": "被逗乐的；觉得好笑的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Everyone was amused by the monkey's funny tricks.",
+          "zh": "猴子滑稽的把戏把大家都逗乐了。"
+        },
+        {
+          "en": "The teacher looked amused at my strange answer.",
+          "zh": "听到我古怪的答案，老师觉得很好笑。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "bored"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "a+muse(逗乐,同 amusement)+d→被逗得咯咯笑→被逗乐的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "amused by",
+          "look amused"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-040",
+      "word": "astonished",
+      "phonetic": "/əˈstɒnɪʃt/",
+      "pos": "adj.",
+      "meaning": "大为惊讶的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We were astonished to see snow in early autumn.",
+          "zh": "初秋就下雪，我们大为惊讶。"
+        },
+        {
+          "en": "She was astonished at how much he had grown.",
+          "zh": "他长高了那么多，她惊讶极了。"
+        }
+      ],
+      "synonyms": [
+        "amazed"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "as+ton(雷,同 thunder 的拉丁亲戚)+ished→像被雷劈到一样→大吃一惊。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "astonished at",
+          "astonished to see"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-041",
+      "word": "shocked",
+      "phonetic": "/ʃɒkt/",
+      "pos": "adj.",
+      "meaning": "震惊的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I was shocked by the news of the accident.",
+          "zh": "事故的消息让我很震惊。"
+        },
+        {
+          "en": "They looked shocked when they saw the broken window.",
+          "zh": "看到破碎的窗户，他们一脸震惊。"
+        }
+      ],
+      "synonyms": [
+        "surprised"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "shock 本义是电击——像被电到一下，就是震惊。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "shocked by",
+          "shocked at"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-042",
+      "word": "terrified",
+      "phonetic": "/ˈterɪfaɪd/",
+      "pos": "adj.",
+      "meaning": "吓坏的；非常害怕的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The little girl was terrified of the big dog.",
+          "zh": "小女孩被那条大狗吓坏了。"
+        },
+        {
+          "en": "He was too terrified to move in the dark.",
+          "zh": "黑暗中他吓得一动也不敢动。"
+        }
+      ],
+      "synonyms": [
+        "scared"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "terr(吓,同 terrible)+ified→被吓到极点→吓坏的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "terrified of",
+          "too terrified to"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-043",
+      "word": "thrilled",
+      "phonetic": "/θrɪld/",
+      "pos": "adj.",
+      "meaning": "非常兴奋的；激动万分的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was thrilled to win first prize in the contest.",
+          "zh": "比赛得了一等奖，她激动万分。"
+        },
+        {
+          "en": "We were thrilled about the school trip to the sea.",
+          "zh": "要去海边研学，我们兴奋极了。"
+        }
+      ],
+      "synonyms": [
+        "excited"
+      ],
+      "antonyms": [
+        "disappointed"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "thrill(战栗)+ed——兴奋得起鸡皮疙瘩、微微发抖→激动万分。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "thrilled to do",
+          "thrilled about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-044",
+      "word": "miserable",
+      "phonetic": "/ˈmɪzrəbl/",
+      "pos": "adj.",
+      "meaning": "痛苦的；悲惨的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He felt miserable when his best friend moved away.",
+          "zh": "最好的朋友搬走了，他难受极了。"
+        },
+        {
+          "en": "The rainy weather made the whole trip miserable.",
+          "zh": "阴雨天让整个旅行变得很糟心。"
+        }
+      ],
+      "synonyms": [
+        "unhappy"
+      ],
+      "antonyms": [
+        "cheerful"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "miser(可怜的)+able→可怜巴巴、苦哈哈→痛苦的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel miserable",
+          "a miserable day"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-045",
+      "word": "gloomy",
+      "phonetic": "/ˈɡluːmi/",
+      "pos": "adj.",
+      "meaning": "忧郁的；阴暗的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Why do you look so gloomy on such a sunny day?",
+          "zh": "大晴天的，你怎么一脸忧郁？"
+        },
+        {
+          "en": "The old house was cold and gloomy inside.",
+          "zh": "老房子里又冷又阴暗。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "cheerful"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "gloom(昏暗)+y——天色暗下来，心情也跟着暗下来→忧郁的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "look gloomy",
+          "a gloomy day"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-046",
+      "word": "depressed",
+      "phonetic": "/dɪˈprest/",
+      "pos": "adj.",
+      "meaning": "沮丧的；消沉的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He felt depressed after failing the driving test again.",
+          "zh": "又一次没通过考试，他很沮丧。"
+        },
+        {
+          "en": "Talking to friends helps when you feel depressed.",
+          "zh": "情绪低落时，和朋友聊聊会有帮助。"
+        }
+      ],
+      "synonyms": [
+        "down"
+      ],
+      "antonyms": [
+        "cheerful"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "de(向下)+press(压)+ed→心情被往下压→沮丧的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel depressed",
+          "get depressed"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-047",
+      "word": "desperate",
+      "phonetic": "/ˈdespərət/",
+      "pos": "adj.",
+      "meaning": "绝望的；极想要的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The lost climber grew desperate as night fell.",
+          "zh": "夜幕降临，迷路的登山者越来越绝望。"
+        },
+        {
+          "en": "She was desperate for a ticket to the concert.",
+          "zh": "她太想要一张演唱会的票了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "hopeful"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "de(失去)+sper(希望)+ate→希望丢光了→绝望的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "desperate for",
+          "grow desperate"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-048",
+      "word": "furious",
+      "phonetic": "/ˈfjʊəriəs/",
+      "pos": "adj.",
+      "meaning": "狂怒的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dad was furious when he saw the broken vase.",
+          "zh": "看到打碎的花瓶，爸爸勃然大怒。"
+        },
+        {
+          "en": "She was furious with me for losing her book.",
+          "zh": "我弄丢了她的书，她气坏了。"
+        }
+      ],
+      "synonyms": [
+        "angry"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "fury(怒火)+ious→怒火烧到顶点→狂怒的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "furious with",
+          "furious at"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-049",
+      "word": "guilty",
+      "phonetic": "/ˈɡɪlti/",
+      "pos": "adj.",
+      "meaning": "内疚的；有罪的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I felt guilty about eating my sister's chocolate.",
+          "zh": "偷吃了妹妹的巧克力，我很内疚。"
+        },
+        {
+          "en": "He gave the teacher a guilty look.",
+          "zh": "他心虚地看了老师一眼。"
+        }
+      ],
+      "synonyms": [
+        "ashamed"
+      ],
+      "antonyms": [
+        "innocent"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "guilty 谐音「鬼提」——做了亏心事，总觉得有「鬼」在提着你→内疚。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel guilty",
+          "guilty about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-050",
+      "word": "satisfied",
+      "phonetic": "/ˈsætɪsfaɪd/",
+      "pos": "adj.",
+      "meaning": "满意的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The coach was satisfied with our performance today.",
+          "zh": "教练对我们今天的表现很满意。"
+        },
+        {
+          "en": "I won't be satisfied until I get it right.",
+          "zh": "不做对我是不会满足的。"
+        }
+      ],
+      "synonyms": [
+        "pleased"
+      ],
+      "antonyms": [
+        "disappointed"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "satis(足够)+fied→心里觉得够了→满意的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "satisfied with",
+          "feel satisfied"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-051",
+      "word": "content",
+      "phonetic": "/kənˈtent/",
+      "pos": "adj.",
+      "meaning": "满足的；知足的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Grandpa is content with his quiet life in the countryside.",
+          "zh": "爷爷对乡下安静的生活很知足。"
+        },
+        {
+          "en": "She seemed content to sit and watch the rain.",
+          "zh": "她似乎很满足于坐着看雨。"
+        }
+      ],
+      "synonyms": [
+        "satisfied"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "内容(content)装满了容器——心被装满、不再多求，就是知足。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "content with",
+          "seem content"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-052",
+      "word": "pleased",
+      "phonetic": "/pliːzd/",
+      "pos": "adj.",
+      "meaning": "高兴的；满意的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Mum was pleased with my progress in maths.",
+          "zh": "妈妈对我数学上的进步很满意。"
+        },
+        {
+          "en": "I'm pleased to meet you at last.",
+          "zh": "终于见到你，我很高兴。"
+        }
+      ],
+      "synonyms": [
+        "glad"
+      ],
+      "antonyms": [
+        "annoyed"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "please(使高兴)+d→被取悦了→高兴的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "pleased with",
+          "pleased to do"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-053",
+      "word": "impressed",
+      "phonetic": "/ɪmˈprest/",
+      "pos": "adj.",
+      "meaning": "印象深刻的；佩服的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The judges were impressed by her confident speech.",
+          "zh": "评委对她自信的演讲印象深刻。"
+        },
+        {
+          "en": "I was really impressed with your drawing skills.",
+          "zh": "你的绘画功夫真让我佩服。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "im(向内)+press(压)+ed→在心上压了个印子→印象深刻。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "impressed by",
+          "impressed with"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-054",
+      "word": "eager",
+      "phonetic": "/ˈiːɡə/",
+      "pos": "adj.",
+      "meaning": "热切的；渴望的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The students were eager to know their test results.",
+          "zh": "学生们急切地想知道考试结果。"
+        },
+        {
+          "en": "He is always eager for new challenges.",
+          "zh": "他总是渴望新的挑战。"
+        }
+      ],
+      "synonyms": [
+        "keen"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "eager 谐音「易饿」——像饿坏的人见到饭，迫不及待→热切的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "eager to do",
+          "eager for"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-055",
+      "word": "enthusiastic",
+      "phonetic": "/ɪnˌθjuːziˈæstɪk/",
+      "pos": "adj.",
+      "meaning": "热情的；热心的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She is enthusiastic about every school activity.",
+          "zh": "她对每项学校活动都很热情。"
+        },
+        {
+          "en": "The new coach gave us an enthusiastic welcome.",
+          "zh": "新教练热情地欢迎了我们。"
+        }
+      ],
+      "synonyms": [
+        "keen"
+      ],
+      "antonyms": [
+        "bored"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "enthusiasm(热情)+tic→浑身是劲、眼里放光→热情的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "enthusiastic about",
+          "an enthusiastic welcome"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-056",
+      "word": "optimistic",
+      "phonetic": "/ˌɒptɪˈmɪstɪk/",
+      "pos": "adj.",
+      "meaning": "乐观的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Stay optimistic even when things go wrong.",
+          "zh": "即使事情不顺，也要保持乐观。"
+        },
+        {
+          "en": "She is optimistic about passing the exam.",
+          "zh": "她乐观地认为自己能通过考试。"
+        }
+      ],
+      "synonyms": [
+        "positive"
+      ],
+      "antonyms": [
+        "pessimistic"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "optim(最好)+istic→总往最好处想→乐观的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "optimistic about",
+          "stay optimistic"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-057",
+      "word": "pessimistic",
+      "phonetic": "/ˌpesɪˈmɪstɪk/",
+      "pos": "adj.",
+      "meaning": "悲观的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't be so pessimistic about your chances.",
+          "zh": "别对自己的机会这么悲观。"
+        },
+        {
+          "en": "He takes a pessimistic view of everything.",
+          "zh": "他看什么都很悲观。"
+        }
+      ],
+      "synonyms": [
+        "negative"
+      ],
+      "antonyms": [
+        "optimistic"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "pessim(最坏)+istic→总往最坏处想→悲观的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "pessimistic about",
+          "a pessimistic view"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-058",
+      "word": "sensitive",
+      "phonetic": "/ˈsensətɪv/",
+      "pos": "adj.",
+      "meaning": "敏感的；体贴的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She is sensitive about her height, so don't joke about it.",
+          "zh": "她对身高很敏感，别拿这个开玩笑。"
+        },
+        {
+          "en": "A good friend is sensitive to your feelings.",
+          "zh": "好朋友会体察你的感受。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "sens(感觉)+itive→感觉特别灵→敏感的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "sensitive about",
+          "sensitive to"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-059",
+      "word": "emotional",
+      "phonetic": "/ɪˈməʊʃənl/",
+      "pos": "adj.",
+      "meaning": "情绪激动的；情感的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She got emotional when saying goodbye to her class.",
+          "zh": "和全班道别时，她激动得说不出话。"
+        },
+        {
+          "en": "Music is an emotional language that everyone understands.",
+          "zh": "音乐是人人都懂的情感语言。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "emotion(情感)+al→情感涌上来→情绪激动的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "get emotional",
+          "emotional support"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-060",
+      "word": "moody",
+      "phonetic": "/ˈmuːdi/",
+      "pos": "adj.",
+      "meaning": "喜怒无常的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My brother gets moody when he is tired.",
+          "zh": "我弟弟一累就阴晴不定。"
+        },
+        {
+          "en": "Teenagers are sometimes moody for no reason.",
+          "zh": "青少年有时会无缘无故闹情绪。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "cheerful"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "mood(心情)+y→心情说变就变→喜怒无常的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "get moody",
+          "a moody teenager"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-061",
+      "word": "grumpy",
+      "phonetic": "/ˈɡrʌmpi/",
+      "pos": "adj.",
+      "meaning": "脾气坏的；爱抱怨的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Grandad gets grumpy when he misses his nap.",
+          "zh": "爷爷没睡午觉就爱发脾气。"
+        },
+        {
+          "en": "Don't be grumpy — it's only a little rain.",
+          "zh": "别气呼呼的，不过是下点小雨。"
+        }
+      ],
+      "synonyms": [
+        "bad-tempered"
+      ],
+      "antonyms": [
+        "cheerful"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "grumpy 谐音「咕噜比」——嘴里咕咕哝哝，一肚子不高兴。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "get grumpy",
+          "a grumpy old man"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-062",
+      "word": "bad-tempered",
+      "phonetic": "/ˌbæd ˈtempəd/",
+      "pos": "adj.",
+      "meaning": "脾气暴躁的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The bad-tempered driver shouted at everyone.",
+          "zh": "那个暴脾气的司机对谁都嚷嚷。"
+        },
+        {
+          "en": "He gets bad-tempered when he is hungry.",
+          "zh": "他一饿就容易发火。"
+        }
+      ],
+      "synonyms": [
+        "grumpy"
+      ],
+      "antonyms": [
+        "gentle"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bad(坏)+tempered(脾气的)→坏脾气的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "get bad-tempered",
+          "a bad-tempered man"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-063",
+      "word": "impatient",
+      "phonetic": "/ɪmˈpeɪʃnt/",
+      "pos": "adj.",
+      "meaning": "不耐烦的；急躁的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't be impatient — the bus will come soon.",
+          "zh": "别不耐烦，公交马上就来。"
+        },
+        {
+          "en": "He was impatient to open his birthday presents.",
+          "zh": "他急着想拆生日礼物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "patient"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "im(不)+patient(耐心的)→没耐心→不耐烦的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "impatient with",
+          "impatient to do"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-064",
+      "word": "panic",
+      "phonetic": "/ˈpænɪk/",
+      "pos": "v./n.",
+      "meaning": "惊慌；恐慌",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't panic if you hear the fire alarm — walk out calmly.",
+          "zh": "听到火警别慌，冷静走出去。"
+        },
+        {
+          "en": "There was a moment of panic when the lights went out.",
+          "zh": "灯灭的那一刻，大家一阵恐慌。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "传说希腊牧神潘(Pan)一声吼把人吓得四散奔逃——panic 由他得名。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "get into a panic",
+          "in panic"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-065",
+      "word": "fear",
+      "phonetic": "/fɪə/",
+      "pos": "n./v.",
+      "meaning": "恐惧；害怕",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She overcame her fear of speaking on stage.",
+          "zh": "她克服了上台讲话的恐惧。"
+        },
+        {
+          "en": "There is nothing to fear in the dark room.",
+          "zh": "黑屋子里没什么可怕的。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "fear 谐音「非儿」——「非要一个人走夜路」，心里直发怵。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "fear of",
+          "overcome one's fear"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-066",
+      "word": "joy",
+      "phonetic": "/dʒɔɪ/",
+      "pos": "n.",
+      "meaning": "欢乐；喜悦",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The children jumped for joy at the news.",
+          "zh": "听到消息，孩子们高兴得跳了起来。"
+        },
+        {
+          "en": "Reading brings me great joy every day.",
+          "zh": "阅读每天都带给我极大的快乐。"
+        }
+      ],
+      "synonyms": [
+        "delight"
+      ],
+      "antonyms": [
+        "sorrow"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "joy 谐音「就爱」——就爱笑哈哈，满心欢喜。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "jump for joy",
+          "bring joy"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-067",
+      "word": "delight",
+      "phonetic": "/dɪˈlaɪt/",
+      "pos": "n./v.",
+      "meaning": "高兴；使愉快",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "To our delight, the match was not cancelled.",
+          "zh": "让我们高兴的是，比赛没有取消。"
+        },
+        {
+          "en": "The magic show delighted every child there.",
+          "zh": "魔术表演让在场的每个孩子都很开心。"
+        }
+      ],
+      "synonyms": [
+        "joy"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "delight 里有 light(光)——心里被点亮，满脸放光就是高兴。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "to one's delight",
+          "with delight"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-068",
+      "word": "pride",
+      "phonetic": "/praɪd/",
+      "pos": "n.",
+      "meaning": "自豪；骄傲",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She looked at her model plane with pride.",
+          "zh": "她自豪地看着自己做的飞机模型。"
+        },
+        {
+          "en": "The whole town takes pride in its old bridge.",
+          "zh": "全镇人都为那座老桥感到骄傲。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "shame"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "proud(自豪的)的名词就是 pride——挺起的胸膛里装着它。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "take pride in",
+          "with pride"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-069",
+      "word": "anger",
+      "phonetic": "/ˈæŋɡə/",
+      "pos": "n.",
+      "meaning": "愤怒",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He counted to ten to control his anger.",
+          "zh": "他数到十来控制自己的怒气。"
+        },
+        {
+          "en": "Her face turned red with anger.",
+          "zh": "她气得满脸通红。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "angry(生气的)的名词——anger 是胸口那团火。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "control one's anger",
+          "in anger"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-070",
+      "word": "grief",
+      "phonetic": "/ɡriːf/",
+      "pos": "n.",
+      "meaning": "悲伤；悲痛",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The old man was filled with grief for his lost dog.",
+          "zh": "老人为走失的狗满心悲伤。"
+        },
+        {
+          "en": "Time slowly healed her grief.",
+          "zh": "时间慢慢抚平了她的悲痛。"
+        }
+      ],
+      "synonyms": [
+        "sorrow"
+      ],
+      "antonyms": [
+        "joy"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "grief 谐音「割里夫」——心口像被割了一下，疼得说不出话。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "be filled with grief",
+          "deep grief"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-071",
+      "word": "pity",
+      "phonetic": "/ˈpɪti/",
+      "pos": "n./v.",
+      "meaning": "同情；遗憾",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "What a pity that you missed the wonderful show!",
+          "zh": "你错过了那场精彩演出，太遗憾了！"
+        },
+        {
+          "en": "She felt pity for the bird with a broken wing.",
+          "zh": "她很同情那只折了翅膀的鸟。"
+        }
+      ],
+      "synonyms": [
+        "sympathy"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "pity 谐音「陪替」——陪着叹气、替人难过，就是同情。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "what a pity",
+          "feel pity for"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-072",
+      "word": "sympathy",
+      "phonetic": "/ˈsɪmpəθi/",
+      "pos": "n.",
+      "meaning": "同情；慰问",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We all felt sympathy for the losing team.",
+          "zh": "我们都很同情输掉比赛的那支队。"
+        },
+        {
+          "en": "She wrote a letter of sympathy to her sick friend.",
+          "zh": "她给生病的朋友写了封慰问信。"
+        }
+      ],
+      "synonyms": [
+        "pity"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "sym(相同)+pathy(感受)→和你感同身受→同情。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel sympathy for",
+          "in sympathy"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-073",
+      "word": "sympathetic",
+      "phonetic": "/ˌsɪmpəˈθetɪk/",
+      "pos": "adj.",
+      "meaning": "同情的；体谅的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The nurse gave the crying boy a sympathetic smile.",
+          "zh": "护士对哭泣的男孩投以体谅的微笑。"
+        },
+        {
+          "en": "Try to be sympathetic when a friend is in trouble.",
+          "zh": "朋友有难时，要多体谅他。"
+        }
+      ],
+      "synonyms": [
+        "understanding"
+      ],
+      "antonyms": [
+        "cruel"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "sympathy(同情)+etic→带着同情的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "sympathetic to",
+          "a sympathetic smile"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-074",
+      "word": "relief",
+      "phonetic": "/rɪˈliːf/",
+      "pos": "n.",
+      "meaning": "宽慰；松了口气",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "To my relief, my lost keys were in my coat pocket.",
+          "zh": "让我松口气的是，钥匙就在大衣口袋里。"
+        },
+        {
+          "en": "She gave a sigh of relief when the test ended.",
+          "zh": "考试结束，她长舒了一口气。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "re(再)+lief(轻,同 light)→心头一轻→宽慰。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "to one's relief",
+          "a sigh of relief"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-075",
+      "word": "relieved",
+      "phonetic": "/rɪˈliːvd/",
+      "pos": "adj.",
+      "meaning": "如释重负的；宽慰的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I was relieved to hear that everyone was safe.",
+          "zh": "听说大家都平安，我如释重负。"
+        },
+        {
+          "en": "He looked relieved when the plane finally landed.",
+          "zh": "飞机终于落地，他一脸轻松。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "worried"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "relieve(减轻)+d→压在心上的石头落了地→宽慰的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "relieved to hear",
+          "feel relieved"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-076",
+      "word": "regret",
+      "phonetic": "/rɪˈɡret/",
+      "pos": "v./n.",
+      "meaning": "后悔；遗憾",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "You will regret it if you give up now.",
+          "zh": "现在放弃，你会后悔的。"
+        },
+        {
+          "en": "To my regret, I never learned to swim.",
+          "zh": "遗憾的是，我一直没学会游泳。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "re(一再)+gret(哭)→一想起来就想哭一场→后悔。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "regret doing",
+          "to one's regret"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-077",
+      "word": "envy",
+      "phonetic": "/ˈenvi/",
+      "pos": "n./v.",
+      "meaning": "羡慕；嫉妒",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I envy her chance to travel around the world.",
+          "zh": "我羡慕她能环游世界的机会。"
+        },
+        {
+          "en": "His new bike was the envy of the whole class.",
+          "zh": "他的新自行车让全班同学眼红。"
+        }
+      ],
+      "synonyms": [
+        "jealousy"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "en(向内)+vy(看，同 video 的 vid)→眼睛老往别人那儿瞟→羡慕。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "envy sb sth",
+          "the envy of"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-078",
+      "word": "admiration",
+      "phonetic": "/ˌædməˈreɪʃn/",
+      "pos": "n.",
+      "meaning": "钦佩；赞赏",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The students watched the astronaut with admiration.",
+          "zh": "学生们钦佩地望着宇航员。"
+        },
+        {
+          "en": "I'm full of admiration for firefighters.",
+          "zh": "我对消防员满怀敬佩。"
+        }
+      ],
+      "synonyms": [
+        "respect"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "admire(钦佩)+ation→抬头仰望的那份心情→钦佩。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "with admiration",
+          "full of admiration"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-079",
+      "word": "doubt",
+      "phonetic": "/daʊt/",
+      "pos": "n./v.",
+      "meaning": "怀疑；疑问",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is no doubt that practice makes perfect.",
+          "zh": "毫无疑问，熟能生巧。"
+        },
+        {
+          "en": "I doubt whether the shop is still open.",
+          "zh": "我怀疑那家店还开不开着。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "trust"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "doubt 谐音「刀特」——b 不发音；心里打了个问号，拿不准。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "no doubt",
+          "without doubt"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-080",
+      "word": "hopeful",
+      "phonetic": "/ˈhəʊpfl/",
+      "pos": "adj.",
+      "meaning": "抱有希望的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We are hopeful about winning the final match.",
+          "zh": "我们对赢下决赛抱有希望。"
+        },
+        {
+          "en": "She gave me a hopeful smile before the interview.",
+          "zh": "面试前她给了我一个充满希望的微笑。"
+        }
+      ],
+      "synonyms": [
+        "optimistic"
+      ],
+      "antonyms": [
+        "hopeless"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "hope(希望)+ful(充满)→满怀希望的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "hopeful about",
+          "a hopeful smile"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-081",
+      "word": "hopeless",
+      "phonetic": "/ˈhəʊpləs/",
+      "pos": "adj.",
+      "meaning": "没希望的；很差劲的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The situation is difficult but not hopeless.",
+          "zh": "情况很难，但并非没有希望。"
+        },
+        {
+          "en": "I'm hopeless at remembering names.",
+          "zh": "我记名字差劲极了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "hopeful"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "hope(希望)+less(没有)→没希望的；口语里也指「太不擅长」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "hopeless at",
+          "a hopeless case"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-082",
+      "word": "courage",
+      "phonetic": "/ˈkʌrɪdʒ/",
+      "pos": "n.",
+      "meaning": "勇气",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "It takes courage to admit your own mistakes.",
+          "zh": "承认自己的错误是需要勇气的。"
+        },
+        {
+          "en": "She finally found the courage to speak on stage.",
+          "zh": "她终于鼓起勇气登台发言。"
+        }
+      ],
+      "synonyms": [
+        "bravery"
+      ],
+      "antonyms": [
+        "fear"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "cour(心,同法语 coeur)+age→打心底冒出来的劲→勇气。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "have the courage to",
+          "take courage"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-083",
+      "word": "tense",
+      "phonetic": "/tens/",
+      "pos": "adj.",
+      "meaning": "紧张的；绷紧的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The room went tense before the winner was announced.",
+          "zh": "宣布获胜者前，屋里气氛紧张起来。"
+        },
+        {
+          "en": "My shoulders get tense when I sit too long.",
+          "zh": "坐久了我的肩膀就发紧。"
+        }
+      ],
+      "synonyms": [
+        "nervous"
+      ],
+      "antonyms": [
+        "relaxed"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "语法的「时态」也叫 tense——考试一问时态，神经立刻绷紧。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a tense moment",
+          "feel tense"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-084",
+      "word": "uneasy",
+      "phonetic": "/ʌnˈiːzi/",
+      "pos": "adj.",
+      "meaning": "不安的；担心的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I felt uneasy about walking home alone at night.",
+          "zh": "夜里独自走回家，我心里不安。"
+        },
+        {
+          "en": "There was an uneasy silence in the classroom.",
+          "zh": "教室里一片令人不安的寂静。"
+        }
+      ],
+      "synonyms": [
+        "worried"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "un(不)+easy(安心)→心里不踏实→不安的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "uneasy about",
+          "an uneasy silence"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-085",
+      "word": "restless",
+      "phonetic": "/ˈrestləs/",
+      "pos": "adj.",
+      "meaning": "坐立不安的；不安分的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The children grew restless during the long speech.",
+          "zh": "冗长的讲话让孩子们坐不住了。"
+        },
+        {
+          "en": "He spent a restless night before the competition.",
+          "zh": "比赛前夜他翻来覆去睡不安稳。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "calm"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "rest(休息)+less(无)→歇不下来→坐立不安的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "grow restless",
+          "a restless night"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-086",
+      "word": "frustrated",
+      "phonetic": "/frʌˈstreɪtɪd/",
+      "pos": "adj.",
+      "meaning": "沮丧的；泄气的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He got frustrated when the puzzle wouldn't work out.",
+          "zh": "拼图老拼不好，他泄气了。"
+        },
+        {
+          "en": "Don't feel frustrated — mistakes help you learn.",
+          "zh": "别灰心，错误能帮你学习。"
+        }
+      ],
+      "synonyms": [
+        "disappointed"
+      ],
+      "antonyms": [
+        "satisfied"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "frustr(白费)+ated→努力全白费了→泄气的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "get frustrated",
+          "frustrated with"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-087",
+      "word": "offended",
+      "phonetic": "/əˈfendɪd/",
+      "pos": "adj.",
+      "meaning": "被冒犯的；生气的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She felt offended by his rude jokes.",
+          "zh": "他粗鲁的玩笑让她觉得被冒犯了。"
+        },
+        {
+          "en": "Please don't be offended — I was only asking.",
+          "zh": "请别见怪，我只是问问。"
+        }
+      ],
+      "synonyms": [
+        "hurt"
+      ],
+      "antonyms": [
+        "pleased"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "offend(冒犯)+ed→被戳到了痛处→生气的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "feel offended",
+          "offended by"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-088",
+      "word": "uncomfortable",
+      "phonetic": "/ʌnˈkʌmftəbl/",
+      "pos": "adj.",
+      "meaning": "不舒服的；不自在的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The new shoes are beautiful but uncomfortable.",
+          "zh": "新鞋好看，穿着却不舒服。"
+        },
+        {
+          "en": "He felt uncomfortable talking in front of strangers.",
+          "zh": "在陌生人面前讲话，他觉得不自在。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "comfortable"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "un(不)+comfortable(舒服的)→不舒服的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel uncomfortable",
+          "an uncomfortable seat"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-089",
+      "word": "temper",
+      "phonetic": "/ˈtempə/",
+      "pos": "n.",
+      "meaning": "脾气",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He needs to learn to control his temper.",
+          "zh": "他得学会控制自己的脾气。"
+        },
+        {
+          "en": "She is in a bad temper because she slept badly.",
+          "zh": "她没睡好，正在气头上。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "temper 谐音「太泼」——脾气一上来就太「泼」辣。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "control one's temper",
+          "in a bad temper"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-090",
+      "word": "anxiety",
+      "phonetic": "/æŋˈzaɪəti/",
+      "pos": "n.",
+      "meaning": "焦虑",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Deep breathing can help reduce anxiety before exams.",
+          "zh": "深呼吸有助于缓解考前焦虑。"
+        },
+        {
+          "en": "Her anxiety about the future slowly went away.",
+          "zh": "她对未来的焦虑慢慢消散了。"
+        }
+      ],
+      "synonyms": [
+        "worry"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "anxious(焦虑的)的名词——揪着的那颗心就是 anxiety。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "reduce anxiety",
+          "anxiety about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-091",
+      "word": "horrified",
+      "phonetic": "/ˈhɒrɪfaɪd/",
+      "pos": "adj.",
+      "meaning": "惊骇的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We were horrified to see the mess in the kitchen.",
+          "zh": "看到厨房乱成那样，我们惊呆了。"
+        },
+        {
+          "en": "She gave a horrified look at the huge spider.",
+          "zh": "看到那只大蜘蛛，她一脸惊骇。"
+        }
+      ],
+      "synonyms": [
+        "shocked"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "horror(恐怖)+ified→被恐怖画面吓到→惊骇的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "horrified to see",
+          "a horrified look"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-092",
+      "word": "shame",
+      "phonetic": "/ʃeɪm/",
+      "pos": "n.",
+      "meaning": "羞愧；可惜的事",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "It's a shame that the picnic was cancelled.",
+          "zh": "野餐取消了，真可惜。"
+        },
+        {
+          "en": "His face burned with shame after the lie.",
+          "zh": "撒谎之后，他羞愧得满脸发烫。"
+        }
+      ],
+      "synonyms": [
+        "pity"
+      ],
+      "antonyms": [
+        "pride"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "shame 谐音「羞么」——臊得脸红，就是羞愧。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "what a shame",
+          "burn with shame"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-093",
+      "word": "fright",
+      "phonetic": "/fraɪt/",
+      "pos": "n.",
+      "meaning": "惊吓",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sudden thunder gave me a real fright.",
+          "zh": "突然的雷声着实吓了我一跳。"
+        },
+        {
+          "en": "The cat jumped back in fright at the balloon.",
+          "zh": "猫被气球吓得往后一跳。"
+        }
+      ],
+      "synonyms": [
+        "scare"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "frightened(受惊的)的源头——fright 就是那一下「哇」的惊吓。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "give sb a fright",
+          "in fright"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-094",
+      "word": "jealousy",
+      "phonetic": "/ˈdʒeləsi/",
+      "pos": "n.",
+      "meaning": "嫉妒",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Jealousy can slowly ruin a good friendship.",
+          "zh": "嫉妒会慢慢毁掉一段好友谊。"
+        },
+        {
+          "en": "He felt a touch of jealousy at her success.",
+          "zh": "看到她的成功，他有点儿泛酸。"
+        }
+      ],
+      "synonyms": [
+        "envy"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "jealous(嫉妒的)的名词——心里那点酸溜溜就是 jealousy。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "out of jealousy",
+          "a touch of jealousy"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-095",
+      "word": "scream",
+      "phonetic": "/skriːm/",
+      "pos": "v./n.",
+      "meaning": "尖叫",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She screamed when the lights suddenly went out.",
+          "zh": "灯突然灭了，她尖叫起来。"
+        },
+        {
+          "en": "We heard a scream from the haunted house ride.",
+          "zh": "鬼屋项目里传来一声尖叫。"
+        }
+      ],
+      "synonyms": [
+        "shout"
+      ],
+      "antonyms": [
+        "whisper"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "scream 里藏着 cream(奶油)——冰淇淋掉地上，忍不住尖叫。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "scream at",
+          "let out a scream"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-096",
+      "word": "sob",
+      "phonetic": "/sɒb/",
+      "pos": "v./n.",
+      "meaning": "抽泣；啜泣",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The little boy sobbed over his broken toy.",
+          "zh": "小男孩对着摔坏的玩具抽泣。"
+        },
+        {
+          "en": "She told the sad story between sobs.",
+          "zh": "她一边啜泣一边讲那个伤心的故事。"
+        }
+      ],
+      "synonyms": [
+        "cry"
+      ],
+      "antonyms": [
+        "laugh"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "sob 读音短促低沉——像一抽一抽的哭声，拟声好记。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "sob quietly",
+          "between sobs"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-097",
+      "word": "sigh",
+      "phonetic": "/saɪ/",
+      "pos": "v./n.",
+      "meaning": "叹气",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He sighed and started his homework again.",
+          "zh": "他叹了口气，重新开始写作业。"
+        },
+        {
+          "en": "With a sigh, she closed the empty fridge.",
+          "zh": "她叹着气关上了空空的冰箱。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "sigh 谐音「唉」——「唉」的一声就是叹气。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "sigh deeply",
+          "give a sigh"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-098",
+      "word": "tremble",
+      "phonetic": "/ˈtrembl/",
+      "pos": "v.",
+      "meaning": "发抖；颤抖",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Her hands trembled as she opened the letter.",
+          "zh": "拆信时她的手直发抖。"
+        },
+        {
+          "en": "The puppy trembled with cold in the rain.",
+          "zh": "小狗在雨里冻得瑟瑟发抖。"
+        }
+      ],
+      "synonyms": [
+        "shake"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "tremble 谐音「穿薄」——穿得太薄，冷得发抖。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "tremble with",
+          "tremble all over"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-099",
+      "word": "blush",
+      "phonetic": "/blʌʃ/",
+      "pos": "v.",
+      "meaning": "脸红",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He blushed when the teacher praised him in class.",
+          "zh": "老师当堂表扬他，他脸红了。"
+        },
+        {
+          "en": "She blushes easily in front of strangers.",
+          "zh": "她在陌生人面前动不动就脸红。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "像 blood(血)+rush(涌)的合体——血「唰」地涌上脸→脸红。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "blush with",
+          "make sb blush"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-100",
+      "word": "frown",
+      "phonetic": "/fraʊn/",
+      "pos": "v./n.",
+      "meaning": "皱眉",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dad frowned at the low mark on my report.",
+          "zh": "看到成绩单上的低分，爸爸皱起了眉。"
+        },
+        {
+          "en": "She looked at the strange bill with a frown.",
+          "zh": "她皱着眉打量那张奇怪的账单。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "smile"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "frown at",
+          "with a frown"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-101",
+      "word": "grin",
+      "phonetic": "/ɡrɪn/",
+      "pos": "v./n.",
+      "meaning": "咧嘴笑",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The boy grinned from ear to ear at the prize.",
+          "zh": "男孩看着奖品，咧开嘴直乐。"
+        },
+        {
+          "en": "She gave me a friendly grin and waved.",
+          "zh": "她冲我咧嘴一笑，挥了挥手。"
+        }
+      ],
+      "synonyms": [
+        "smile"
+      ],
+      "antonyms": [
+        "frown"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "grin 谐音「格印」——笑得咧到耳根，牙齿都「印」出来了。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "grin at",
+          "a big grin"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-102",
+      "word": "weep",
+      "phonetic": "/wiːp/",
+      "pos": "v.",
+      "meaning": "哭泣；流泪",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The old man wept at the sight of his hometown.",
+          "zh": "看到故乡，老人流下了眼泪。"
+        },
+        {
+          "en": "She wept quietly at the end of the film.",
+          "zh": "电影结尾，她默默流泪。"
+        }
+      ],
+      "synonyms": [
+        "cry"
+      ],
+      "antonyms": [
+        "laugh"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "weep 谐音「呜噗」——「呜呜」地掉眼泪。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "weep for",
+          "weep quietly"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-103",
+      "word": "gasp",
+      "phonetic": "/ɡɑːsp/",
+      "pos": "v./n.",
+      "meaning": "倒吸一口气；喘气",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The crowd gasped when the acrobat slipped.",
+          "zh": "杂技演员脚下一滑，全场倒吸一口气。"
+        },
+        {
+          "en": "He reached the mountain top with a gasp.",
+          "zh": "他喘着粗气登上了山顶。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "gasp 谐音「嘎斯」——「嘎」地倒吸一口凉气，惊得说不出话。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "gasp in surprise",
+          "with a gasp"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-104",
+      "word": "excitement",
+      "phonetic": "/ɪkˈsaɪtmənt/",
+      "pos": "n.",
+      "meaning": "兴奋；激动",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The stadium was full of excitement before the game.",
+          "zh": "开赛前，体育场里一片沸腾。"
+        },
+        {
+          "en": "She could hardly hide her excitement about the trip.",
+          "zh": "她抑制不住对旅行的兴奋。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "excite(使兴奋)+ment→兴奋劲儿。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in excitement",
+          "full of excitement"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-105",
+      "word": "happiness",
+      "phonetic": "/ˈhæpinəs/",
+      "pos": "n.",
+      "meaning": "幸福；快乐",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Money alone cannot buy happiness.",
+          "zh": "光有钱买不来幸福。"
+        },
+        {
+          "en": "Sharing brings more happiness than keeping things.",
+          "zh": "分享比独占带来更多快乐。"
+        }
+      ],
+      "synonyms": [
+        "joy"
+      ],
+      "antonyms": [
+        "sadness"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "happy(快乐的)+ness(名词)→快乐本身。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "bring happiness",
+          "true happiness"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-106",
+      "word": "sadness",
+      "phonetic": "/ˈsædnəs/",
+      "pos": "n.",
+      "meaning": "悲伤",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A feeling of sadness came over her at the farewell.",
+          "zh": "告别时，一阵悲伤涌上她心头。"
+        },
+        {
+          "en": "He hid his sadness behind a big smile.",
+          "zh": "他用大大的笑容掩住悲伤。"
+        }
+      ],
+      "synonyms": [
+        "sorrow"
+      ],
+      "antonyms": [
+        "happiness"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sad(悲伤的)+ness→悲伤这件事。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a feeling of sadness",
+          "hide one's sadness"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-107",
+      "word": "loneliness",
+      "phonetic": "/ˈləʊnlinəs/",
+      "pos": "n.",
+      "meaning": "孤独",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Writing letters helped the sailor forget his loneliness.",
+          "zh": "写信帮水手忘掉孤独。"
+        },
+        {
+          "en": "A pet can take away much of the loneliness.",
+          "zh": "养只宠物能赶走大半孤独。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "lonely(孤独的)+ness→孤零零的感觉。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a sense of loneliness",
+          "escape loneliness"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-108",
+      "word": "embarrassment",
+      "phonetic": "/ɪmˈbærəsmənt/",
+      "pos": "n.",
+      "meaning": "尴尬；难为情",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "His face turned red with embarrassment at the mistake.",
+          "zh": "出了错，他尴尬得涨红了脸。"
+        },
+        {
+          "en": "To avoid embarrassment, she changed the topic quickly.",
+          "zh": "为免尴尬，她赶紧换了话题。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "embarrass(使尴尬)+ment→那股想找地缝钻的劲儿。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "with embarrassment",
+          "avoid embarrassment"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-109",
+      "word": "disappointment",
+      "phonetic": "/ˌdɪsəˈpɔɪntmənt/",
+      "pos": "n.",
+      "meaning": "失望",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "To our disappointment, the museum was closed.",
+          "zh": "让我们失望的是，博物馆闭馆了。"
+        },
+        {
+          "en": "She couldn't hide her disappointment at the score.",
+          "zh": "看到分数，她掩饰不住失望。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "disappoint(使失望)+ment→落空的那份心情。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "to one's disappointment",
+          "hide one's disappointment"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-110",
+      "word": "satisfaction",
+      "phonetic": "/ˌsætɪsˈfækʃn/",
+      "pos": "n.",
+      "meaning": "满意；满足感",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He looked at his tidy room with satisfaction.",
+          "zh": "他满意地看着整洁的房间。"
+        },
+        {
+          "en": "Helping others gives me a real sense of satisfaction.",
+          "zh": "帮助别人给我真切的满足感。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "satisfy(使满意)+action→心满意足那一下。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "with satisfaction",
+          "a sense of satisfaction"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-111",
+      "word": "confidence",
+      "phonetic": "/ˈkɒnfɪdəns/",
+      "pos": "n.",
+      "meaning": "信心；自信",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Practice gave her the confidence to sing solo.",
+          "zh": "练习给了她独唱的信心。"
+        },
+        {
+          "en": "He answered every question with confidence.",
+          "zh": "他自信地回答了每一个问题。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "doubt"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "confident(自信的)的名词——心里那股「我能行」。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "with confidence",
+          "build confidence"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-112",
+      "word": "enthusiasm",
+      "phonetic": "/ɪnˈθjuːziæzəm/",
+      "pos": "n.",
+      "meaning": "热情",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The volunteers worked with great enthusiasm.",
+          "zh": "志愿者们干劲十足。"
+        },
+        {
+          "en": "His enthusiasm for science started with a telescope.",
+          "zh": "他对科学的热情始于一台望远镜。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "en(在内)+thus(神)+iasm→神在心中→浑身来劲→热情。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "with enthusiasm",
+          "enthusiasm for"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-113",
+      "word": "curiosity",
+      "phonetic": "/ˌkjʊəriˈɒsəti/",
+      "pos": "n.",
+      "meaning": "好奇心",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Out of curiosity, she opened the old wooden box.",
+          "zh": "出于好奇，她打开了那个旧木箱。"
+        },
+        {
+          "en": "Good questions come from curiosity.",
+          "zh": "好问题源自好奇心。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "curious(好奇的)+ity→那颗东张西望的心。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "out of curiosity",
+          "satisfy one's curiosity"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-114",
+      "word": "amusement",
+      "phonetic": "/əˈmjuːzmənt/",
+      "pos": "n.",
+      "meaning": "乐趣；娱乐",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "To everyone's amusement, the parrot repeated the teacher.",
+          "zh": "鹦鹉学老师说话，把大家逗乐了。"
+        },
+        {
+          "en": "The old pier is now a park full of amusements.",
+          "zh": "旧码头如今成了满是游乐设施的乐园。"
+        }
+      ],
+      "synonyms": [
+        "fun"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "amuse(逗乐)+ment→被逗出来的乐子；amusement park=游乐园。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "to one's amusement",
+          "amusement park"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-115",
+      "word": "boredom",
+      "phonetic": "/ˈbɔːdəm/",
+      "pos": "n.",
+      "meaning": "无聊；厌倦",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He drew little pictures to fight the boredom.",
+          "zh": "他画小画打发无聊。"
+        },
+        {
+          "en": "Long waits at the airport are pure boredom.",
+          "zh": "在机场干等实在无聊透顶。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "excitement"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "bore(使无聊)+dom(状态)→无聊的状态。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "out of boredom",
+          "die of boredom"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-116",
+      "word": "tearful",
+      "phonetic": "/ˈtɪəfl/",
+      "pos": "adj.",
+      "meaning": "含泪的；想哭的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She said a tearful goodbye to her host family.",
+          "zh": "她含泪与寄宿家庭道别。"
+        },
+        {
+          "en": "The boy grew tearful when his kite flew away.",
+          "zh": "风筝飞走了，男孩眼泪汪汪。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "cheerful"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "tear(眼泪)+ful(满)→眼里噙满泪的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a tearful goodbye",
+          "grow tearful"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-117",
+      "word": "positive",
+      "phonetic": "/ˈpɒzətɪv/",
+      "pos": "adj.",
+      "meaning": "积极的；肯定的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Keep a positive attitude even on bad days.",
+          "zh": "哪怕日子不顺，也要保持积极心态。"
+        },
+        {
+          "en": "Are you positive that you locked the door?",
+          "zh": "你确定锁门了吗？"
+        }
+      ],
+      "synonyms": [
+        "optimistic"
+      ],
+      "antonyms": [
+        "negative"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "posit(放置)+ive→凡事往好处放→积极的；反义 negative。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a positive attitude",
+          "be positive about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-118",
+      "word": "negative",
+      "phonetic": "/ˈneɡətɪv/",
+      "pos": "adj.",
+      "meaning": "消极的；否定的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't let one bad mark make you negative.",
+          "zh": "别让一次低分弄得你灰心丧气。"
+        },
+        {
+          "en": "He gave a negative answer to my request.",
+          "zh": "他对我的请求给了否定的答复。"
+        }
+      ],
+      "synonyms": [
+        "pessimistic"
+      ],
+      "antonyms": [
+        "positive"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "neg(否定)+ative→摇头说「不」→消极的、否定的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a negative attitude",
+          "negative feelings"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-119",
+      "word": "touched",
+      "phonetic": "/tʌtʃt/",
+      "pos": "adj.",
+      "meaning": "感动的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was touched by the card her classmates made.",
+          "zh": "同学们做的卡片让她很感动。"
+        },
+        {
+          "en": "I was deeply touched that you remembered my birthday.",
+          "zh": "你记得我的生日，我深受感动。"
+        }
+      ],
+      "synonyms": [
+        "moved"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "touch(触摸)+ed→心被轻轻碰了一下→感动的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "be touched by",
+          "deeply touched"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-120",
+      "word": "touching",
+      "phonetic": "/ˈtʌtʃɪŋ/",
+      "pos": "adj.",
+      "meaning": "感人的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The film tells a touching story about a guide dog.",
+          "zh": "这部电影讲了导盲犬的感人故事。"
+        },
+        {
+          "en": "It was touching to see the birds feed their babies.",
+          "zh": "看鸟儿喂雏鸟的样子很让人动容。"
+        }
+      ],
+      "synonyms": [
+        "moving"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "touched 是人被感动，touching 是事很感人——ing 形容事物。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a touching story",
+          "a touching moment"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-121",
+      "word": "frightening",
+      "phonetic": "/ˈfraɪtnɪŋ/",
+      "pos": "adj.",
+      "meaning": "吓人的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The storm last night was really frightening.",
+          "zh": "昨晚的暴风雨真吓人。"
+        },
+        {
+          "en": "He told a frightening story around the campfire.",
+          "zh": "他在篝火旁讲了个吓人的故事。"
+        }
+      ],
+      "synonyms": [
+        "scary"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "frighten(吓唬)+ing→事物本身吓人；frightened 才是人被吓到。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a frightening story",
+          "really frightening"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-122",
+      "word": "annoying",
+      "phonetic": "/əˈnɔɪɪŋ/",
+      "pos": "adj.",
+      "meaning": "恼人的；烦人的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The dripping tap made an annoying sound all night.",
+          "zh": "滴水的龙头响了一夜，烦死人。"
+        },
+        {
+          "en": "It's annoying when people talk during the film.",
+          "zh": "看电影时有人讲话很招人烦。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "pleasant"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "annoy(使恼火)+ing→事物本身烦人；annoyed 是人被惹恼。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an annoying habit",
+          "really annoying"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-123",
+      "word": "disappointing",
+      "phonetic": "/ˌdɪsəˈpɔɪntɪŋ/",
+      "pos": "adj.",
+      "meaning": "令人失望的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The end of the story was a bit disappointing.",
+          "zh": "故事的结尾有点令人失望。"
+        },
+        {
+          "en": "It was a disappointing result after so much practice.",
+          "zh": "练了那么久却是这个结果，真让人失望。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "satisfying"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "disappoint+ing→事让人失望；disappointed 是人感到失望。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a disappointing result",
+          "slightly disappointing"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-124",
+      "word": "embarrassing",
+      "phonetic": "/ɪmˈbærəsɪŋ/",
+      "pos": "adj.",
+      "meaning": "令人尴尬的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Falling asleep in class was really embarrassing.",
+          "zh": "上课睡着了，真是太尴尬了。"
+        },
+        {
+          "en": "He told an embarrassing story about his childhood.",
+          "zh": "他讲了自己小时候一件糗事。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "embarrass+ing→事让人尴尬；embarrassed 是人觉得尴尬。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an embarrassing moment",
+          "how embarrassing"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-125",
+      "word": "overjoyed",
+      "phonetic": "/ˌəʊvəˈdʒɔɪd/",
+      "pos": "adj.",
+      "meaning": "欣喜若狂的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was overjoyed to be chosen for the team.",
+          "zh": "入选队伍，她欣喜若狂。"
+        },
+        {
+          "en": "The family were overjoyed at the good news.",
+          "zh": "这个好消息让全家人喜出望外。"
+        }
+      ],
+      "synonyms": [
+        "delighted"
+      ],
+      "antonyms": [
+        "heartbroken"
+      ],
+      "difficulty": 4,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "over(超过)+joy(欢喜)+ed→高兴过了头→欣喜若狂。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "overjoyed to hear",
+          "overjoyed at"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-126",
+      "word": "down",
+      "phonetic": "/daʊn/",
+      "pos": "adj.",
+      "meaning": "情绪低落的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He has been feeling down since the match.",
+          "zh": "比赛之后他一直情绪低落。"
+        },
+        {
+          "en": "When you feel down, go for a walk outside.",
+          "zh": "心情低落时，出去走走吧。"
+        }
+      ],
+      "synonyms": [
+        "depressed"
+      ],
+      "antonyms": [
+        "cheerful"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "down 本义向下——心情也「往下掉」，就是低落。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel down",
+          "a bit down"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-127",
+      "word": "heartbroken",
+      "phonetic": "/ˈhɑːtbrəʊkən/",
+      "pos": "adj.",
+      "meaning": "心碎的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was heartbroken when her cat went missing.",
+          "zh": "猫走丢了，她伤心欲绝。"
+        },
+        {
+          "en": "The fans were heartbroken after the last-minute goal.",
+          "zh": "最后一分钟丢球，球迷们心都碎了。"
+        }
+      ],
+      "synonyms": [
+        "miserable"
+      ],
+      "antonyms": [
+        "overjoyed"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "heart(心)+broken(碎了)→心碎的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "be heartbroken at",
+          "leave sb heartbroken"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-128",
+      "word": "delightful",
+      "phonetic": "/dɪˈlaɪtfl/",
+      "pos": "adj.",
+      "meaning": "令人愉快的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We spent a delightful afternoon by the lake.",
+          "zh": "我们在湖边度过了一个愉快的下午。"
+        },
+        {
+          "en": "The bakery is full of delightful smells.",
+          "zh": "面包店里满是好闻的香味。"
+        }
+      ],
+      "synonyms": [
+        "pleasant"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "delight(愉快)+ful(充满)→处处让人开心的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a delightful day",
+          "simply delightful"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-129",
+      "word": "homesick",
+      "phonetic": "/ˈhəʊmsɪk/",
+      "pos": "adj.",
+      "meaning": "想家的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She felt homesick during her first week at camp.",
+          "zh": "夏令营第一周她很想家。"
+        },
+        {
+          "en": "Photos of his mum's cooking made him homesick.",
+          "zh": "妈妈做饭的照片勾起了他的乡愁。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "home(家)+sick(病)→想家想到「生病」→想家的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "feel homesick",
+          "get homesick"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-130",
+      "word": "thankful",
+      "phonetic": "/ˈθæŋkfl/",
+      "pos": "adj.",
+      "meaning": "感激的；庆幸的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I'm thankful for all the help you gave me.",
+          "zh": "我很感激你给我的所有帮助。"
+        },
+        {
+          "en": "We were thankful that no one was hurt.",
+          "zh": "我们庆幸没有人受伤。"
+        }
+      ],
+      "synonyms": [
+        "grateful"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "thank(感谢)+ful(满)→满心感谢的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "thankful for",
+          "thankful that"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-131",
+      "word": "puzzled",
+      "phonetic": "/ˈpʌzld/",
+      "pos": "adj.",
+      "meaning": "困惑的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The teacher looked puzzled at my strange question.",
+          "zh": "老师被我古怪的问题问得一头雾水。"
+        },
+        {
+          "en": "I'm still puzzled about how the trick works.",
+          "zh": "我还是想不通这个魔术是怎么变的。"
+        }
+      ],
+      "synonyms": [
+        "confused"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "puzzle 是拼图——对着拼不上的图直挠头，就是困惑。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "look puzzled",
+          "puzzled about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-132",
+      "word": "puzzling",
+      "phonetic": "/ˈpʌzlɪŋ/",
+      "pos": "adj.",
+      "meaning": "令人费解的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The disappearing socks are a puzzling mystery.",
+          "zh": "袜子总是失踪，真是个费解的谜。"
+        },
+        {
+          "en": "It's puzzling that the shop closes at noon.",
+          "zh": "那家店中午就关门，让人想不明白。"
+        }
+      ],
+      "synonyms": [
+        "confusing"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "puzzled 是人犯迷糊，puzzling 是事让人迷糊——ing 形容事物。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a puzzling question",
+          "find sth puzzling"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-133",
+      "word": "cruel",
+      "phonetic": "/ˈkruːəl/",
+      "pos": "adj.",
+      "meaning": "残忍的；刻薄的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "It is cruel to keep a wild bird in a tiny cage.",
+          "zh": "把野鸟关在小笼子里很残忍。"
+        },
+        {
+          "en": "Her cruel words hurt him deeply.",
+          "zh": "她刻薄的话深深伤了他。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "kind"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "cru(生硬，同 crude 生的)+el→心硬邦邦、冷冰冰→残忍的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "cruel to",
+          "cruel words"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-134",
+      "word": "sincere",
+      "phonetic": "/sɪnˈsɪə/",
+      "pos": "adj.",
+      "meaning": "真诚的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please accept my sincere thanks for your kindness.",
+          "zh": "请接受我对你善意的真诚感谢。"
+        },
+        {
+          "en": "Her apology sounded completely sincere.",
+          "zh": "她的道歉听起来十分诚恳。"
+        }
+      ],
+      "synonyms": [
+        "honest"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "sincere 谐音「心透儿」——把心掏出来给你看，就是真诚。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "sincere thanks",
+          "a sincere apology"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-135",
+      "word": "stubborn",
+      "phonetic": "/ˈstʌbən/",
+      "pos": "adj.",
+      "meaning": "固执的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The stubborn donkey refused to move a step.",
+          "zh": "那头犟驴一步也不肯走。"
+        },
+        {
+          "en": "He is too stubborn to say sorry first.",
+          "zh": "他太固执，不肯先道歉。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "stub(树桩)+born——像树桩一样定在原地，拉都拉不动→固执。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "as stubborn as a mule",
+          "too stubborn to"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-136",
+      "word": "sensible",
+      "phonetic": "/ˈsensəbl/",
+      "pos": "adj.",
+      "meaning": "明智的；理智的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "It's sensible to check the weather before hiking.",
+          "zh": "远足前查看天气是明智的。"
+        },
+        {
+          "en": "Be sensible and save some pocket money.",
+          "zh": "理智点，存些零花钱吧。"
+        }
+      ],
+      "synonyms": [
+        "wise"
+      ],
+      "antonyms": [
+        "silly"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "sens(感觉)+ible→懂得掂量轻重→明智的；别和 sensitive(敏感的)混。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a sensible choice",
+          "be sensible about"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-137",
+      "word": "sense of humour",
+      "phonetic": "/ˌsens əv ˈhjuːmə/",
+      "pos": "n.",
+      "meaning": "幽默感",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Our teacher has a great sense of humour.",
+          "zh": "我们老师很有幽默感。"
+        },
+        {
+          "en": "A good sense of humour makes friends quickly.",
+          "zh": "有幽默感的人交朋友很快。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "sense(感觉)+humour(幽默)→接得住玩笑、抛得出包袱的本事。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a good sense of humour",
+          "lose one's sense of humour"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-138",
+      "word": "cheer up",
+      "phonetic": "/tʃɪər ʌp/",
+      "pos": "phr.",
+      "meaning": "振作起来；使高兴",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Cheer up! Things will get better tomorrow.",
+          "zh": "振作点！明天会好起来的。"
+        },
+        {
+          "en": "We made funny faces to cheer her up.",
+          "zh": "我们做鬼脸逗她开心。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "cheer(欢呼)+up(向上)→把心情「呼」地拉上去→振作。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "cheer sb up",
+          "cheer up quickly"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-139",
+      "word": "calm down",
+      "phonetic": "/kɑːm daʊn/",
+      "pos": "phr.",
+      "meaning": "冷静下来",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Take a deep breath and calm down first.",
+          "zh": "先深呼吸，冷静下来。"
+        },
+        {
+          "en": "The baby finally calmed down in mum's arms.",
+          "zh": "宝宝在妈妈怀里终于安静下来。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "calm(平静)+down(下来)→把火气按下去→冷静下来。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "calm down slowly",
+          "calm sb down"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-140",
+      "word": "fed up",
+      "phonetic": "/ˌfed ˈʌp/",
+      "pos": "adj.",
+      "meaning": "厌烦的；受够了的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I'm fed up with doing the dishes every day.",
+          "zh": "天天洗碗，我烦透了。"
+        },
+        {
+          "en": "She looked fed up with the endless rain.",
+          "zh": "没完没了的雨让她一脸厌烦。"
+        }
+      ],
+      "synonyms": [
+        "bored"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "feed 的过去分词——被「喂」到嗓子眼，再也装不下→受够了。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "fed up with",
+          "get fed up"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-141",
+      "word": "burst into tears",
+      "phonetic": "/bɜːst ˈɪntə tɪəz/",
+      "pos": "phr.",
+      "meaning": "突然大哭",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She burst into tears when she saw her lost puppy again.",
+          "zh": "再次见到走失的小狗，她一下子哭了出来。"
+        },
+        {
+          "en": "The little boy burst into tears at the loud bang.",
+          "zh": "巨响吓得小男孩哇地大哭。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "burst(爆发)+into tears(进入眼泪)→眼泪像开闸一样冲出来。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "burst into tears suddenly",
+          "almost burst into tears"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-142",
+      "word": "in tears",
+      "phonetic": "/ɪn ˈtɪəz/",
+      "pos": "phr.",
+      "meaning": "流着泪；哭着",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She was in tears over the sad ending of the book.",
+          "zh": "书的悲伤结局看得她直掉泪。"
+        },
+        {
+          "en": "Half the class were in tears at the farewell party.",
+          "zh": "欢送会上半个班都哭了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "泡「在」眼泪里→正流着泪。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "be in tears",
+          "end in tears"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-143",
+      "word": "lose one's temper",
+      "phonetic": "/luːz wʌnz ˈtempə/",
+      "pos": "phr.",
+      "meaning": "发脾气",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dad never loses his temper, even in traffic jams.",
+          "zh": "哪怕堵车，爸爸也从不发火。"
+        },
+        {
+          "en": "She lost her temper when the printer broke again.",
+          "zh": "打印机又坏了，她一下子火了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "把 temper(脾气)「弄丢」→管不住脾气→发火。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "lose one's temper easily",
+          "never lose one's temper"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-144",
+      "word": "look forward to",
+      "phonetic": "/lʊk ˈfɔːwəd tə/",
+      "pos": "phr.",
+      "meaning": "期待；盼望",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We are all looking forward to the summer holiday.",
+          "zh": "我们都盼着暑假。"
+        },
+        {
+          "en": "I look forward to hearing from you soon.",
+          "zh": "期待早日收到你的来信。"
+        }
+      ],
+      "synonyms": [
+        "expect"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "look(看)+forward(向前)→伸长脖子往前望→期待；后接 doing。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "look forward to doing",
+          "really look forward to"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-145",
+      "word": "can't stand",
+      "phonetic": "/kɑːnt stænd/",
+      "pos": "phr.",
+      "meaning": "受不了",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I can't stand the noise from the building site.",
+          "zh": "工地的噪音我实在受不了。"
+        },
+        {
+          "en": "She can't stand being late for anything.",
+          "zh": "她受不了任何事迟到。"
+        }
+      ],
+      "synonyms": [
+        "hate"
+      ],
+      "antonyms": [
+        "enjoy"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "stand 本义站立——「站都站不住了」→忍无可忍。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "can't stand doing",
+          "can't stand the noise"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-146",
+      "word": "be sick of",
+      "phonetic": "/bi sɪk əv/",
+      "pos": "phr.",
+      "meaning": "对……厌倦",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I'm sick of hearing the same excuse every time.",
+          "zh": "同样的借口听得我耳朵起茧了。"
+        },
+        {
+          "en": "He is sick of waiting for the late bus.",
+          "zh": "老等这趟晚点的公交，他烦透了。"
+        }
+      ],
+      "synonyms": [
+        "be tired of"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "sick(生病)+of→烦到「想吐」→厌倦。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "be sick of doing",
+          "sick and tired of"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-147",
+      "word": "calmly",
+      "phonetic": "/ˈkɑːmli/",
+      "pos": "adv.",
+      "meaning": "冷静地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She calmly explained what had happened.",
+          "zh": "她冷静地解释了发生的事。"
+        },
+        {
+          "en": "Walk calmly to the exit during a fire drill.",
+          "zh": "消防演习时要镇定地走向出口。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "calm(冷静)+ly(副词)→冷静地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "speak calmly",
+          "calmly explain"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-148",
+      "word": "nervously",
+      "phonetic": "/ˈnɜːvəsli/",
+      "pos": "adv.",
+      "meaning": "紧张地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He waited nervously outside the head teacher's office.",
+          "zh": "他紧张地在校长办公室外等着。"
+        },
+        {
+          "en": "She nervously checked her ticket again and again.",
+          "zh": "她紧张地一遍遍查看车票。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "calmly"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "nervous(紧张的)+ly→紧张地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "wait nervously",
+          "smile nervously"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-149",
+      "word": "proudly",
+      "phonetic": "/ˈpraʊdli/",
+      "pos": "adv.",
+      "meaning": "自豪地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He proudly showed us his medal collection.",
+          "zh": "他自豪地向我们展示他的奖牌收藏。"
+        },
+        {
+          "en": "The winners walked proudly onto the stage.",
+          "zh": "获胜者们昂首走上领奖台。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "proud(自豪的)+ly→自豪地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "proudly show",
+          "stand proudly"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-150",
+      "word": "angrily",
+      "phonetic": "/ˈæŋɡrəli/",
+      "pos": "adv.",
+      "meaning": "愤怒地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The driver shouted angrily at the careless rider.",
+          "zh": "司机愤怒地朝那个粗心的骑车人喊。"
+        },
+        {
+          "en": "She angrily threw the broken pen into the bin.",
+          "zh": "她气呼呼地把坏笔扔进垃圾桶。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "calmly"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "angry(生气的)+ly→气冲冲地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "shout angrily",
+          "say angrily"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-151",
+      "word": "sadly",
+      "phonetic": "/ˈsædli/",
+      "pos": "adv.",
+      "meaning": "悲伤地；遗憾的是",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The dog looked up sadly at the empty bowl.",
+          "zh": "狗悲伤地望着空食盆。"
+        },
+        {
+          "en": "Sadly, the old cinema closed down last year.",
+          "zh": "遗憾的是，那家老电影院去年停业了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "happily"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sad(悲伤的)+ly→悲伤地；句首=「遗憾的是」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "smile sadly",
+          "sadly for us"
+        ]
+      }
+    },
+    {
+      "id": "pet-feelings-152",
+      "word": "happily",
+      "phonetic": "/ˈhæpɪli/",
+      "pos": "adv.",
+      "meaning": "快乐地；幸运的是",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The children played happily in the snow all morning.",
+          "zh": "孩子们在雪地里快活地玩了一上午。"
+        },
+        {
+          "en": "Happily, the rain stopped before the picnic.",
+          "zh": "幸运的是，野餐前雨停了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "sadly"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "feelings"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "happy(快乐的)+ly→开开心心地；句首=「幸运的是」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "live happily",
+          "play happily"
+        ]
+      }
     }
   ]
 }
