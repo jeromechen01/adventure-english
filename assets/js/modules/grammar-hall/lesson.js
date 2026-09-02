@@ -11,7 +11,7 @@ import { loadGrammarLesson, skeletonHTML } from '../../utils/lazy-data.js';
 import { shuffle, pickQuiz, presentQuestion, questionKey } from '../../utils/shuffle.js';
 import { ketLessonLabel, ketLessonsForHall } from '../../utils/ket-hall-map.js';
 import { examLevel, headerHtml, bindBack, esc } from '../exam/exam-common.js';
-import { aiEnabled, askAI, aiFailText, buildExplainPrompt, buildRetellPrompt, buildDetectivePrompt, getCachedExplain, setCachedExplain } from '../../utils/ai-chat.js'; // B6b AI 小助教（增强不替代，无 key 时按钮不渲染）
+import { aiEnabled, askAI, aiFailText, buildExplainPrompt, buildRetellPrompt, buildDetectivePrompt, getCachedExplain, setCachedExplain, isOffline, aiSuspended, aiRestText, onBackOnline } from '../../utils/ai-chat.js'; // B6b AI 小助教（增强不替代，无 key 时按钮不渲染）；B6c 离线/退避态
 
 export const HALL_LEVEL = 'HALL';
 const STAGE_PASS = 0.7;  // 环节通过线（与 KET 八课口径一致）
@@ -131,14 +131,16 @@ function lessonViews(app, l, opts = {}) {
         <p class="text-sm text-gray-700" style="line-height:1.85">${esc(s.metaphorStory)}</p>
       </div>
 
-      <!-- B6b-2 换个说法重讲（AI 增强，无 key 不渲染；重讲被本课九段内容约束，不引入课外语法） -->
-      ${aiEnabled() ? `
-      <button id="aiRetellBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3" style="min-height:48px">
+      <!-- B6b-2 换个说法重讲（AI 增强，无 key 不渲染；重讲被本课九段内容约束，不引入课外语法；B6c 离线/退避态） -->
+      ${aiEnabled() ? (aiSuspended()
+        ? `<div class="text-xs text-gray-400 mb-3">${aiRestText()}</div>`
+        : `
+      <button id="aiRetellBtn" class="w-full card-cartoon tap-bounce flex items-center gap-2 text-left mb-3" style="min-height:48px" ${isOffline() ? 'data-ai-off="1" disabled' : ''}>
         <span class="text-xl">🤖</span>
-        <span class="flex-1 text-sm font-bold" style="min-width:0">没听懂？让 AI 换个说法再讲一遍</span>
+        <span class="flex-1 text-sm font-bold" style="min-width:0">${isOffline() ? '联网后可用 · AI 换个说法' : '没听懂？让 AI 换个说法再讲一遍'}</span>
         <span class="text-xl text-gray-300">›</span>
       </button>
-      <div id="aiRetellOut" class="card-cartoon mb-3 text-sm text-gray-700" style="line-height:1.85;white-space:pre-wrap;word-break:break-word" hidden></div>` : ''}
+      <div id="aiRetellOut" class="card-cartoon mb-3 text-sm text-gray-700" style="line-height:1.85;white-space:pre-wrap;word-break:break-word" hidden></div>`) : ''}
 
       <!-- ④ 规则卡 + 例句梯 -->
       <div class="card-cartoon mb-3" id="rulesCard">
@@ -224,6 +226,13 @@ function lessonViews(app, l, opts = {}) {
     app.querySelector('#detectiveBtn').addEventListener('click', () => drawDetective());
     // B6b-2 换个说法：主动点击才调用；可反复换（每次重新生成）；失败平静降级回九段讲解
     const rtBtn = app.querySelector('#aiRetellBtn');
+    // B6c-1：离线渲染的按钮在网络恢复时自动复原
+    if (rtBtn && rtBtn.dataset.aiOff) onBackOnline(() => {
+      if (document.contains(rtBtn)) {
+        rtBtn.disabled = false; rtBtn.removeAttribute('data-ai-off');
+        rtBtn.querySelector('.flex-1').textContent = '没听懂？让 AI 换个说法再讲一遍';
+      }
+    });
     if (rtBtn) rtBtn.addEventListener('click', async () => {
       if (rtBtn.disabled) return;
       const out = app.querySelector('#aiRetellOut');
@@ -243,6 +252,7 @@ function lessonViews(app, l, opts = {}) {
         label.textContent = old;
         out.className = 'text-xs text-gray-500 mb-3';
         out.textContent = aiFailText(r.reason);
+        if (r.reason === 'suspended') rtBtn.hidden = true; // B6c-2：会话内暂停按钮
       }
     });
     const backKet = app.querySelector('#backKetBtn');
@@ -411,16 +421,20 @@ function lessonViews(app, l, opts = {}) {
           <p class="text-sm text-gray-600 mt-2">${pass ? (msg || '通过！记得今天把它「用出来」——说一句、写一句，用出来才算真的会。') : '差一点点，看看错题讲解，重练一遍就能过。'}</p>
         </div>
         ${wrongList.length ? `<button id="retryWrongBtn" class="w-full btn-cartoon mb-3" style="min-height:48px">🔁 错题重练（${wrongList.length} 题）</button>` : ''}
-        ${wrongList.length && aiEnabled() ? `
+        ${wrongList.length && aiEnabled() ? (aiSuspended()
+          ? `<div class="text-xs text-gray-400 mb-3">${aiRestText()}</div>`
+          : `
         <div class="card-cartoon mb-3">
           <div class="font-bold text-sm mb-2">🤖 做错的题，可以让 AI 讲讲你的错法</div>
           ${wrongList.map((q, i) => `
             <div class="mb-3 pb-3 border-b border-gray-50 last:border-0 last:mb-0 last:pb-0">
               <div class="text-sm font-en mb-2" style="word-break:break-word">${esc(q.q)}</div>
-              <button data-aiw="${i}" class="w-full btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px">🤖 解释我的错法</button>
+              ${isOffline() && !getCachedExplain(q.__qk)
+                ? `<button data-aiw="${i}" data-ai-off="1" class="w-full btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px" disabled>🤖 联网后可用</button>`
+                : `<button data-aiw="${i}" class="w-full btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px">🤖 解释我的错法</button>`}
               <div data-aiwout="${i}" class="text-sm mt-2 text-gray-700" style="line-height:1.8;white-space:pre-wrap;word-break:break-word" hidden></div>
             </div>`).join('')}
-        </div>` : ''}
+        </div>`) : ''}
         <button id="againBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px">🎲 换一批重做（题目会变）</button>
         <button id="stagesBtn" class="w-full btn-cartoon" style="min-height:48px">回环节列表</button>
       `;
@@ -439,7 +453,12 @@ function lessonViews(app, l, opts = {}) {
         };
         if (btn.disabled) return;
         const cached = getCachedExplain(q.__qk);
-        if (cached) { out.hidden = false; out.textContent = '🤖 ' + cached; btn.hidden = true; return; }
+        if (cached) { // B6c-3：离线也能读，加标注
+          out.hidden = false;
+          out.textContent = '🤖 ' + cached + (isOffline() ? '\n（离线 · 上次的解释）' : '');
+          btn.hidden = true;
+          return;
+        }
         btn.disabled = true;
         const label = btn.textContent;
         btn.textContent = '🤖 想一想…';
@@ -454,7 +473,13 @@ function lessonViews(app, l, opts = {}) {
           out.hidden = false;
           out.className = 'text-xs mt-2 text-gray-500';
           out.textContent = aiFailText(r.reason);
+          if (r.reason === 'suspended') btn.hidden = true; // B6c-2
         }
+      }));
+      // B6c-1：离线禁用的解释按钮，网络恢复自动复原
+      const offW = app.querySelectorAll('[data-aiw][data-ai-off]');
+      if (offW.length) onBackOnline(() => offW.forEach(b => {
+        if (document.contains(b)) { b.disabled = false; b.removeAttribute('data-ai-off'); b.textContent = '🤖 解释我的错法'; }
       }));
       app.querySelector('#againBtn').addEventListener('click', () => runQuiz(stageIdx, null, false));
       app.querySelector('#stagesBtn').addEventListener('click', drawStageSelect);
@@ -525,9 +550,11 @@ function lessonViews(app, l, opts = {}) {
               <div class="text-xs text-gray-600 mb-2">病在哪：${esc(c.clue)}</div>
               <div class="text-xs text-gray-500">你的改法和参考不一样。只要病灶改对了（写法不同没关系），也算破案。</div>
             </div>
-            ${aiEnabled() ? `
-            <button id="aiJudgeBtn" class="w-full btn-cartoon mb-2" style="min-height:48px">🤖 拿不准？让 AI 帮你看看你的改法</button>
-            <div id="aiJudgeOut" class="card-cartoon mb-2 text-sm text-gray-700" style="line-height:1.8;white-space:pre-wrap;word-break:break-word" hidden></div>` : ''}
+            ${aiEnabled() ? (aiSuspended()
+              ? `<div class="text-xs text-gray-400 mb-2">${aiRestText()}</div>`
+              : `
+            <button id="aiJudgeBtn" class="w-full btn-cartoon mb-2" style="min-height:48px" ${isOffline() ? 'data-ai-off="1" disabled' : ''}>${isOffline() ? '🤖 联网后可用' : '🤖 拿不准？让 AI 帮你看看你的改法'}</button>
+            <div id="aiJudgeOut" class="card-cartoon mb-2 text-sm text-gray-700" style="line-height:1.8;white-space:pre-wrap;word-break:break-word" hidden></div>`) : ''}
             <div class="grid grid-cols-2 gap-2 mb-3">
               <button id="selfOk" class="btn-cartoon" style="min-height:48px">✅ 病灶改对了</button>
               <button id="selfNo" class="btn-cartoon btn-cartoon-secondary" style="min-height:48px">😅 还没改对</button>
@@ -535,6 +562,13 @@ function lessonViews(app, l, opts = {}) {
             <div id="afterSelf"></div>`;
           // B6b-3 侦探判定：AI 给参考意见，最终仍由孩子按下面两个自评按钮定夺（AI 是助手不是裁判）
           const judgeBtn = fb.querySelector('#aiJudgeBtn');
+          // B6c-1：离线禁用的判定按钮，网络恢复自动复原
+          if (judgeBtn && judgeBtn.dataset.aiOff) onBackOnline(() => {
+            if (document.contains(judgeBtn)) {
+              judgeBtn.disabled = false; judgeBtn.removeAttribute('data-ai-off');
+              judgeBtn.textContent = '🤖 拿不准？让 AI 帮你看看你的改法';
+            }
+          });
           if (judgeBtn) judgeBtn.addEventListener('click', async () => {
             if (judgeBtn.disabled) return;
             const out = fb.querySelector('#aiJudgeOut');
@@ -551,6 +585,7 @@ function lessonViews(app, l, opts = {}) {
               judgeBtn.textContent = label;
               out.className = 'text-xs text-gray-500 mb-2';
               out.textContent = aiFailText(r.reason).replace('先看现有讲解', '按上面的病因自己比一比');
+              if (r.reason === 'suspended') judgeBtn.hidden = true; // B6c-2
             }
           });
           fb.querySelector('#selfOk').addEventListener('click', () => { solved++; storage.removeQuizMistake(detKey); goNext(fb); });
