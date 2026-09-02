@@ -183,6 +183,64 @@ for (const idx of files.filter((f) => f.replace(/\\/g, '/').endsWith('index.json
   });
 }
 
+// ============================================================
+// PET 词库常驻校验（V0.5 扩充批起）：data/pet/words/pet-*.json 全量
+//   字段口径以既有 22 话题为准；inKet 必须与 shared-a2-words.json 一致；
+//   跨话题重复有 54 处历史保留（V0.5 之前形成，见 CHECKLIST），基线只准降不准升。
+// ============================================================
+const PET_CROSS_DUP_BASELINE = 54;
+function checkPetWords() {
+  const dir = 'data/pet/words';
+  if (!existsSync(dir) || !existsSync('data/exam/shared-a2-words.json')) return;
+  const shared = new Set((readJSON('data/exam/shared-a2-words.json') || { words: [] }).words);
+  const POS = new Set(['n.', 'adj.', 'v.', 'adv.', 'phr.', 'v./n.', 'n./v.', 'v./adj.', 'n./adj.', 'adj./adv.', 'adj./v.', 'adv./adj.', 'adj./n.', 'v./adv.', 'adj./prep.']);
+  const MNTYPES = new Set(['sound', 'root', 'split', 'assoc', 'image']);
+  const global = new Map(); // word → 首见话题
+  let crossDups = 0, total = 0, topics = 0;
+  for (const f of readdirSync(dir).filter((x) => /^pet-[a-z-]+\.json$/.test(x))) {
+    const file = `${dir}/${f}`;
+    const d = readJSON(file);
+    if (!d) continue;
+    topics++;
+    const topic = f.replace(/^pet-|\.json$/g, '');
+    const err = (m) => errors.push(`${file}: ${m}`);
+    if (d.topic !== topic) err(`topic 字段 ${d.topic} ≠ 文件名 ${topic}`);
+    if (!Array.isArray(d.words)) { err('words 不是数组'); continue; }
+    if (d.totalWords !== d.words.length) err(`totalWords ${d.totalWords} ≠ 实际 ${d.words.length}`);
+    const seen = new Set();
+    d.words.forEach((x, i) => {
+      const at = `#${i + 1} ${x.word || '?'}`;
+      const wantId = `pet-${topic}-${String(i + 1).padStart(3, '0')}`;
+      if (x.id !== wantId) err(`${at}: id ${x.id} 应为 ${wantId}`);
+      const lw = String(x.word || '').toLowerCase();
+      if (!lw) err(`${at}: word 缺失`);
+      if (seen.has(lw)) err(`${at}: 话题内重复`);
+      seen.add(lw);
+      if (global.has(lw)) crossDups++; else global.set(lw, topic);
+      if (!/^\/.+\/$/.test(x.phonetic || '')) err(`${at}: phonetic 须 /…/ 包裹`);
+      if (!POS.has(x.pos)) err(`${at}: pos 不在既有口径 ${JSON.stringify(x.pos)}`);
+      if (!/[一-鿿]/.test(x.meaning || '')) err(`${at}: meaning 须含中文`);
+      if (!['A2', 'B1'].includes(x.level)) err(`${at}: level ${x.level}`);
+      if (!(Number.isInteger(x.difficulty) && x.difficulty >= 1 && x.difficulty <= 5)) err(`${at}: difficulty ${x.difficulty}`);
+      if (!Array.isArray(x.examples) || x.examples.length !== 2 || x.examples.some((ex) => !ex || !ex.en || !ex.zh)) err(`${at}: examples 须 2 条且各含 en/zh`);
+      if (!Array.isArray(x.synonyms) || !Array.isArray(x.antonyms) || !Array.isArray(x.tags)) err(`${at}: synonyms/antonyms/tags 须为数组`);
+      if (x.mnemonic && (!MNTYPES.has(x.mnemonic.type) || !/[一-鿿]/.test(x.mnemonic.tip || ''))) err(`${at}: mnemonic 类型/内容非法`);
+      if (!x.petExam || !['high', 'medium', 'low'].includes(x.petExam.frequency) || !Array.isArray(x.petExam.collocations)) err(`${at}: petExam 缺失/非法`);
+      const inShared = shared.has(lw);
+      if (inShared && !x.inKet) err(`${at}: 在 A2 表但缺 inKet 标`);
+      if (!inShared && x.inKet) err(`${at}: 不在 A2 表却标了 inKet`);
+      total++;
+    });
+  }
+  if (crossDups > PET_CROSS_DUP_BASELINE) {
+    errors.push(`data/pet/words: 跨话题重复 ${crossDups} 处 > 历史基线 ${PET_CROSS_DUP_BASELINE}——新词引入了重复`);
+  } else if (crossDups < PET_CROSS_DUP_BASELINE) {
+    warnings.push(`data/pet/words: 跨话题重复 ${crossDups} 处 < 基线 ${PET_CROSS_DUP_BASELINE}，可在 check-data.mjs 下调 PET_CROSS_DUP_BASELINE`);
+  }
+  if (topics) console.log(`✔ PET 词库校验：${topics} 话题 ${total} 词（跨话题重复 ${crossDups}/基线 ${PET_CROSS_DUP_BASELINE}）`);
+}
+checkPetWords();
+
 // 编码守卫全量扫描（无论校验目标是什么，data/ 下所有 .json 都过一遍）
 const encFiles = existsSync('data') ? walkJSON('data') : [];
 encFiles.forEach(checkEncoding);

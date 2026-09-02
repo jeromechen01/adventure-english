@@ -38,7 +38,8 @@
           "an hour",
           "half an hour"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-002",
@@ -73,7 +74,8 @@
           "a few minutes",
           "in a minute"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-003",
@@ -108,7 +110,8 @@
           "a few seconds",
           "in seconds"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-004",
@@ -145,7 +148,8 @@
           "at the moment",
           "in a moment"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-005",
@@ -180,7 +184,8 @@
           "next week",
           "last week"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-006",
@@ -215,7 +220,8 @@
           "last month",
           "every month"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-007",
@@ -250,7 +256,8 @@
           "last year",
           "every year"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-008",
@@ -285,7 +292,8 @@
           "the 21st century",
           "a century ago"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-009",
@@ -322,7 +330,8 @@
           "in the morning",
           "tomorrow morning"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-010",
@@ -357,7 +366,8 @@
           "in the afternoon",
           "this afternoon"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-011",
@@ -394,7 +404,8 @@
           "in the evening",
           "this evening"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-012",
@@ -431,7 +442,8 @@
           "at midnight",
           "before midnight"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-013",
@@ -470,7 +482,8 @@
           "at noon",
           "before noon"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-014",
@@ -544,7 +557,8 @@
           "today's news",
           "later today"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-016",
@@ -581,7 +595,8 @@
           "tomorrow morning",
           "see you tomorrow"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-017",
@@ -618,7 +633,8 @@
           "yesterday morning",
           "the day before yesterday"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-018",
@@ -655,7 +671,8 @@
           "at the weekend",
           "this weekend"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-019",
@@ -692,7 +709,8 @@
           "on weekdays",
           "a weekday morning"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-020",
@@ -727,7 +745,8 @@
           "the date of",
           "today's date"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-021",
@@ -762,7 +781,8 @@
           "on the calendar",
           "a wall calendar"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-022",
@@ -797,7 +817,8 @@
           "an alarm clock",
           "the clock says"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-023",
@@ -832,7 +853,8 @@
           "set an alarm",
           "an alarm clock"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-024",
@@ -869,7 +891,8 @@
           "get up early",
           "an early start"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-025",
@@ -906,7 +929,8 @@
           "be late for",
           "too late"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-026",
@@ -941,7 +965,8 @@
           "as soon as",
           "see you soon"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-027",
@@ -1013,7 +1038,8 @@
           "already done",
           "already here"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-029",
@@ -1050,7 +1076,8 @@
           "usually do",
           "as usual"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-030",
@@ -1089,7 +1116,8 @@
           "sometimes do",
           "only sometimes"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-031",
@@ -1126,7 +1154,8 @@
           "in the future",
           "a bright future"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-032",
@@ -1163,7 +1192,8 @@
           "in the past",
           "the recent past"
         ]
-      }
+      },
+      "inKet": true
     },
     {
       "id": "pet-time-033",
@@ -1233,7 +1263,8 @@
           "long ago",
           "a moment ago"
         ]
-      }
+      },
+      "inKet": true
     }
   ]
 }
