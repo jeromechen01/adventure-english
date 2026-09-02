@@ -5,6 +5,7 @@ import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../..
 import * as storage from '../../storage.js';
 import { speak } from '../../speech.js';
 import { examLevel, headerHtml, bindBack, esc } from './exam-common.js';
+import { aiEnabled, askAI, aiFailText, buildWritingPrompt, isOffline, aiSuspended, aiRestText, onBackOnline } from '../../utils/ai-chat.js'; // B6c-4 AI 老师点评（写作是 KET 30/60 大头；不打分，分数仍交 Write & Improve/家长）
 
 export async function renderWritingLab(app, params = {}) {
   const level = examLevel();
@@ -134,6 +135,13 @@ function renderTask(app, level, g, task, partKey) {
           </label>`).join('')}
       </div>
 
+      <!-- B6c-4 AI 老师点评（主动点击；只给方向不打分——分数交给 Write & Improve 或家长） -->
+      ${aiEnabled() ? (aiSuspended()
+        ? `<div class="text-xs text-gray-400 mb-3">${aiRestText()}</div>`
+        : `
+      <button id="aiReviewBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px" ${isOffline() ? 'data-ai-off="1" disabled' : ''}>${isOffline() ? '🤖 联网后可用' : '🤖 让 AI 老师点评几句（不打分）'}</button>
+      <div id="aiReviewOut" class="card-cartoon mb-3 text-sm text-gray-700" style="line-height:1.85;white-space:pre-wrap;word-break:break-word" hidden></div>`) : ''}
+
       <a href="${esc(g.wi.url)}" target="_blank" rel="noopener noreferrer" class="block btn-cartoon text-center mb-3" style="text-decoration:none">🚀 复制到 Write & Improve 批改 ↗</a>
 
       <button id="sampleBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-2">${showSample ? '收起范文' : '👀 看原创范文（先自己写完再看）'}</button>
@@ -170,6 +178,35 @@ function renderTask(app, level, g, task, partKey) {
     app.querySelector('#saveBtn').addEventListener('click', () => {
       storage.saveWritingDraft(level, task.id, ta.value);
       toast('草稿已保存', 'success');
+    });
+
+    // B6c-4 AI 老师点评：带任务要求进 prompt，写不到 10 词先不点评
+    const arBtn = app.querySelector('#aiReviewBtn');
+    if (arBtn && arBtn.dataset.aiOff) onBackOnline(() => {
+      if (document.contains(arBtn)) { arBtn.disabled = false; arBtn.removeAttribute('data-ai-off'); arBtn.textContent = '🤖 让 AI 老师点评几句（不打分）'; }
+    });
+    if (arBtn) arBtn.addEventListener('click', async () => {
+      if (arBtn.disabled) return;
+      if (countWords(ta.value) < 10) { toast('先写上 10 个词，再请 AI 老师来看', 'warn'); return; }
+      const out = app.querySelector('#aiReviewOut');
+      arBtn.disabled = true;
+      const label = arBtn.textContent;
+      arBtn.textContent = '🤖 认真读一读你的作文…';
+      const taskDesc = partKey === 'part6'
+        ? `KET Part 6 短信写作（${minWords} 词以上）：${task.prompt || ''}${task.points && task.points.length ? `；必须回应的要点：${task.points.join('；')}` : ''}`
+        : `KET Part 7 三图故事（${minWords} 词以上，全程过去时）：${(task.scenes || []).join(' → ')}`;
+      const r = await askAI(buildWritingPrompt({ taskDesc, text: ta.value }));
+      arBtn.disabled = false;
+      out.hidden = false;
+      if (r.ok) {
+        out.textContent = '🤖 ' + r.text;
+        arBtn.hidden = true;
+      } else {
+        arBtn.textContent = label;
+        out.className = 'text-xs text-gray-500 mb-3';
+        out.textContent = aiFailText(r.reason).replace('现有讲解', '自评清单');
+        if (r.reason === 'suspended') arBtn.hidden = true;
+      }
     });
     app.querySelector('#sampleBtn').addEventListener('click', () => {
       // 看范文前顺手保存草稿，避免丢字

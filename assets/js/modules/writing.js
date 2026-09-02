@@ -2,6 +2,7 @@
 import { loadJSON, toast, enterFocus, exitFocus, requestLeaveFocus } from '../app.js';
 import * as storage from '../storage.js';
 import { playSound } from '../speech.js';
+import { aiEnabled, askAI, aiFailText, buildWritingPrompt, isOffline, aiSuspended, aiRestText, onBackOnline } from '../utils/ai-chat.js'; // B6c-4 AI 老师点评（增强不替代：规则引擎照旧，AI 只给方向不打分）
 
 // 词汇升级建议表 (低级→高级)
 const WORD_UPGRADES = {
@@ -292,6 +293,13 @@ function renderTopic(app, topic, samplesData) {
         </div>
       ` : ''}
 
+      <!-- B6c-4 AI 老师点评（主动点击；不打分不改写不代写；无 key 不渲染） -->
+      ${aiEnabled() ? (aiSuspended()
+        ? `<div class="text-xs text-gray-400 mb-3">${aiRestText()}</div>`
+        : `
+      <button id="aiReviewBtn" class="w-full btn-cartoon btn-cartoon-secondary mb-3" style="min-height:48px" ${isOffline() ? 'data-ai-off="1" disabled' : ''}>${isOffline() ? '🤖 联网后可用' : '🤖 让 AI 老师点评几句（不打分）'}</button>
+      <div id="aiReviewOut" class="card-cartoon mb-3 text-sm text-gray-700" style="line-height:1.85;white-space:pre-wrap;word-break:break-word" hidden></div>`) : ''}
+
       <!-- 范文对比 -->
       ${sample ? `
         <div class="card-cartoon mb-3 bg-gradient-to-br from-green-50 to-cyan-50">
@@ -318,6 +326,34 @@ function renderTopic(app, topic, samplesData) {
     app.querySelector('#backBtn').addEventListener('click', () => window.__nav('writing'));
     app.querySelector('#reviseBtn').addEventListener('click', () => { result = null; render(); });
     app.querySelector('#doneBtn').addEventListener('click', () => window.__nav('writing'));
+
+    // B6c-4 AI 老师点评：规则引擎结果照旧在上面，AI 只补方向性反馈
+    const arBtn = app.querySelector('#aiReviewBtn');
+    if (arBtn && arBtn.dataset.aiOff) onBackOnline(() => {
+      if (document.contains(arBtn)) { arBtn.disabled = false; arBtn.removeAttribute('data-ai-off'); arBtn.textContent = '🤖 让 AI 老师点评几句（不打分）'; }
+    });
+    if (arBtn) arBtn.addEventListener('click', async () => {
+      if (arBtn.disabled) return;
+      const out = app.querySelector('#aiReviewOut');
+      arBtn.disabled = true;
+      const label = arBtn.textContent;
+      arBtn.textContent = '🤖 认真读一读你的作文…';
+      const r = await askAI(buildWritingPrompt({
+        taskDesc: `话题「${topic.title}」的自由写作（建议 ${topic.wordCount[0]}-${topic.wordCount[1]} 词）`,
+        text: userText,
+      }));
+      arBtn.disabled = false;
+      out.hidden = false;
+      if (r.ok) {
+        out.textContent = '🤖 ' + r.text;
+        arBtn.hidden = true;
+      } else {
+        arBtn.textContent = label;
+        out.className = 'text-xs text-gray-500 mb-3';
+        out.textContent = aiFailText(r.reason);
+        if (r.reason === 'suspended') arBtn.hidden = true;
+      }
+    });
   }
 
   render();
