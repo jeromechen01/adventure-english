@@ -242,6 +242,7 @@ async function examModule(page) {
     case 'exam-knowledge': return (await import('./modules/exam/knowledge.js')).renderKnowledge;
     case 'exam-grammar':   return (await import('./modules/exam/grammar-course.js')).renderGrammarCourse;
     case 'exam-reading':   return (await import('./modules/exam/reading-drill.js')).renderReadingDrill;
+    case 'exam-listening': return (await import('./modules/exam/listening.js')).renderListeningCourse; // PL0-2 听力训练营
     case 'exam-writing':   return (await import('./modules/exam/writing-lab.js')).renderWritingLab;
     case 'exam-mock':      return (await import('./modules/exam/mock-exam.js')).renderMockExam;
     case 'exam-checkin':   return (await import('./modules/exam/checkin.js')).renderCheckin;
@@ -443,17 +444,17 @@ function renderLearn(app) {
 
 // === 错题本（B4：分区收录 单词 / 语法大厅 / KET八课 / 阅读 / 模考）===
 const MISTAKE_SRC_DEFS = [
-  ['words', '🔤 单词'], ['hall', '🏛️ 语法大厅'], ['ket', '🎼 KET 八课'], ['read', '📖 阅读'], ['mock', '📝 模考']
+  ['words', '🔤 单词'], ['hall', '🏛️ 语法大厅'], ['ket', '🎼 KET 八课'], ['read', '📖 阅读'], ['listen', '🎧 听力'], ['mock', '📝 模考']
 ];
 
 async function renderMistakes(app, params = {}) {
   const wordIds = storage.getMistakes();
   const quiz = storage.getQuizMistakes();
-  const bySrc = { hall: [], ket: [], read: [], mock: [] };
+  const bySrc = { hall: [], ket: [], read: [], listen: [], mock: [] }; // PL0-2：听力训练营错题进「听力」分区
   Object.entries(quiz).forEach(([qk, e]) => { if (bySrc[e.src]) bySrc[e.src].push({ qk, ...e }); });
   Object.values(bySrc).forEach(list => list.sort((a, b) => (b.t || 0) - (a.t || 0)));
-  const counts = { words: wordIds.length, hall: bySrc.hall.length, ket: bySrc.ket.length, read: bySrc.read.length, mock: bySrc.mock.length };
-  const total = counts.words + counts.hall + counts.ket + counts.read + counts.mock;
+  const counts = { words: wordIds.length, hall: bySrc.hall.length, ket: bySrc.ket.length, read: bySrc.read.length, listen: bySrc.listen.length, mock: bySrc.mock.length };
+  const total = counts.words + counts.hall + counts.ket + counts.read + counts.listen + counts.mock;
 
   // 当前分区：来路指定 > 单词 > 第一个非空区（护栏：不催促，空态文案保持平静）
   let src = params.src && counts[params.src] !== undefined ? params.src
@@ -564,6 +565,7 @@ async function renderMistakes(app, params = {}) {
       if (goBtn) goBtn.addEventListener('click', () => {
         const e = { lesson: card.dataset.lesson, src };
         if (src === 'hall') navigate('grammar-hall', { lesson: e.lesson, fromMistakes: 1, scrollTo: 'rules' });
+        else if (src === 'listen') navigate('exam-listening', { lesson: e.lesson }); // PL0-2：回到那一课重新走四步
         else navigate('exam-grammar', { lesson: e.lesson, fromMistakes: 1 });
       });
       // B6b-1 错因解释：孩子主动点击才调用；同题结果缓存（省钱）；失败平静降级回考点解析
@@ -610,8 +612,9 @@ async function renderMistakes(app, params = {}) {
 function quizMistakeCardHtml(e, srcLabel) {
   const isDet = e.kind === 'detective';
   const from = [e.lesson, e.lessonTitle].filter(Boolean).join(' · ') || e.lessonTitle || '';
-  const meta = [srcLabel.replace(/^[^\s]+\s/, ''), from, e.stage ? `环节 ${e.stage}` : '', e.n > 1 ? `答错 ${e.n} 次` : '']
+  const meta = [srcLabel.replace(/^[^\s]+\s/, ''), from, e.stage ? (/^Part/.test(String(e.stage)) ? String(e.stage) : `环节 ${e.stage}`) : '', e.n > 1 ? `答错 ${e.n} 次` : '']
     .filter(Boolean).join(' · ');
+  const goLabel = e.src === 'listen' ? `🎧 回到这一课再听 → ${e.lesson}` : `📖 回看本课讲解 → ${e.lesson}`;
   return `
     <div class="card-cartoon" data-qk="${esc2(e.qk)}" data-lesson="${e.lesson || ''}">
       <div class="text-xs text-gray-400">${esc2(meta)}</div>
@@ -626,7 +629,7 @@ function quizMistakeCardHtml(e, srcLabel) {
           : `<button data-act="aiexplain" class="w-full btn-cartoon btn-cartoon-secondary text-sm mt-2" style="min-height:44px">🤖 让 AI 讲讲我这个错法</button>`)
         + `<div data-aiout class="text-sm mt-2 text-gray-700" style="line-height:1.8;white-space:pre-wrap;word-break:break-word" hidden></div>`) : ''}
       <div class="flex items-center gap-2 mt-2">
-        ${e.lesson ? `<button data-act="golesson" class="flex-1 btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px">📖 回看本课讲解 → ${e.lesson}</button>` : '<span class="flex-1"></span>'}
+        ${e.lesson ? `<button data-act="golesson" class="flex-1 btn-cartoon btn-cartoon-secondary text-sm" style="min-height:44px">${goLabel}</button>` : '<span class="flex-1"></span>'}
         <button data-act="remove" class="p-2 text-green-700 text-xl tap-bounce" title="移出错题本" style="min-width:44px;min-height:44px">✓</button>
       </div>
     </div>`;

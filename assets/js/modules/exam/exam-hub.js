@@ -125,6 +125,16 @@ export async function renderExamHub(app) {
       <div class="text-xs text-gray-600">20 个话题 · 1416 词 · 识词 + 闯关 + 错词突击</div>
     </button>
 
+    <!-- PL0 听力训练营入口（三步法：盲听 → 对答案看原文 → 跟读；设备实时朗读） -->
+    <button data-nav="exam-listening" class="w-full card-cartoon tap-bounce text-left mb-4 flex items-center gap-3 bg-gradient-to-r from-purple-50 to-indigo-50" style="padding:14px 16px">
+      <span class="text-4xl">🎧</span>
+      <div class="flex-1" style="min-width:0">
+        <div class="font-bold">听力训练营</div>
+        <div class="text-xs text-gray-600 mt-1">每课四步：热身 → 盲听 → 对答案看原文 → 跟读 · 每段只放两遍</div>
+      </div>
+      <span class="text-2xl text-gray-300">›</span>
+    </button>
+
     <!-- 九宫格入口 -->
     <div class="grid grid-cols-3 gap-3">
       ${[

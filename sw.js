@@ -58,6 +58,7 @@ const SHELL_URLS = [
   './assets/js/modules/exam/knowledge.js',
   './assets/js/modules/exam/grammar-course.js',
   './assets/js/modules/exam/reading-drill.js',
+  './assets/js/modules/exam/listening.js',
   './assets/js/modules/exam/writing-lab.js',
   './assets/js/modules/exam/mock-exam.js',
   './assets/js/modules/exam/checkin.js',
@@ -77,6 +78,8 @@ const INDEX_URLS = [
   './data/pet/topics.json',       // PET 话题目录，功能上等同 index
   './data/grammar/index.json',    // V0.9 语法大厅索引
   './data/reader/index.json',     // V1.0 四阶读本索引
+  './data/exam/ket/listening/index.json', // PL0 听力训练营课程索引（课文件 lXX.json 走运行时缓存）
+  './data/exam/ket/listening/icons.json', // PL0 Part 1 图标库清单（alt 文本）
 ];
 
 const PRECACHE_URLS = [...SHELL_URLS, ...INDEX_URLS];

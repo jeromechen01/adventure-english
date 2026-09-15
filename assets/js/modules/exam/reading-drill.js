@@ -44,9 +44,14 @@ export async function renderReadingDrill(app, params = {}) {
       }).join('')}
     </div>
     <div class="grid grid-cols-1 gap-2">
-      <button data-tab="listening" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-purple-50 to-indigo-50">
+      <button data-nav="exam-listening" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-purple-50 to-indigo-50">
         <span class="text-3xl">🎧</span>
-        <div class="flex-1"><div class="font-bold text-sm">听力训练</div><div class="text-xs text-gray-500">原创对话朗读 · 每段两遍 · 三步法</div></div>
+        <div class="flex-1"><div class="font-bold text-sm">听力训练营</div><div class="text-xs text-gray-500">分课四步：热身 → 盲听 → 对答案看原文 → 跟读</div></div>
+        <span class="text-xl text-gray-300">›</span>
+      </button>
+      <button data-tab="listening" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-purple-50 to-indigo-50">
+        <span class="text-3xl">📚</span>
+        <div class="flex-1"><div class="font-bold text-sm">听力套题</div><div class="text-xs text-gray-500">5 部分 25 题整套连做 · 每段自动读两遍</div></div>
         <span class="text-xl text-gray-300">›</span>
       </button>
       <button data-tab="readers" class="card-cartoon tap-bounce flex items-center gap-3 text-left bg-gradient-to-r from-green-50 to-emerald-50">
@@ -64,6 +69,7 @@ export async function renderReadingDrill(app, params = {}) {
   bindBack(app);
   app.querySelectorAll('[data-part]').forEach(b => b.addEventListener('click', () => renderReadingDrill(app, { part: b.dataset.part })));
   app.querySelectorAll('[data-tab]').forEach(b => b.addEventListener('click', () => renderReadingDrill(app, { tab: b.dataset.tab })));
+  app.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => window.__nav(b.dataset.nav))); // PL0：听力训练营
 }
 
 // === 某 Part 的套题列表 ===
@@ -313,10 +319,15 @@ async function renderListening(app, level, params) {
   }
   const results = storage.getDrillResults(level);
   app.innerHTML = `
-    ${headerHtml('🎧 听力训练')}
+    ${headerHtml('🎧 听力套题')}
     <div class="card-cartoon mb-3 bg-purple-50 text-xs text-gray-600">
       三步法：① 盲听 → ② 对答案+看原文 → ③ 跟读。真考每段放两遍，这里也一样（自动读两遍）。
     </div>
+    <button data-nav="exam-listening" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left mb-3" style="padding:12px 14px">
+      <span class="text-2xl">🎧</span>
+      <div class="flex-1"><div class="font-bold text-sm">想分课慢慢练？去听力训练营</div><div class="text-xs text-gray-500">一课 5 题 · 听前热身 · 三图选一 · 跟读打分</div></div>
+      <span class="text-xl text-gray-300">›</span>
+    </button>
     ${sets.length === 0 ? '<div class="card-cartoon empty-state"><span class="empty-emoji">🚧</span><div class="empty-text">听力题库补充中</div></div>' : `
     <div class="space-y-2">
       ${sets.map((s, i) => {
@@ -335,6 +346,7 @@ async function renderListening(app, level, params) {
   `;
   bindBack(app, 'exam-reading');
   app.querySelector('#examBackBtn').onclick = () => renderReadingDrill(app, {});
+  app.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => window.__nav(b.dataset.nav)));
   sets.forEach(s => {
     const b = app.querySelector(`[data-set="${s.id}"]`);
     if (b) b.addEventListener('click', () => renderListening(app, level, { set: s.id }));
