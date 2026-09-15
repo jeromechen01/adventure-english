@@ -224,6 +224,7 @@ async function navigate(page, params = {}) {
     case 'grammar-hall': await (await import('./modules/grammar-hall/hall.js')).renderGrammarHall(app, params); break;
     case 'timestats':  (await import('./modules/study-stats.js')).renderStudyStats(app); break;
     case 'ai-settings': (await import('./modules/ai-settings.js')).renderAiSettings(app); break; // B6a：AI 助手设置（入口在「我的」）
+    case 'voice-check': await (await import('./modules/voice-check.js')).renderVoiceCheck(app); break; // PL0-1：听力语音检查（入口在「我的」）
     default:           await renderHome(app);
   }
 
@@ -715,6 +716,16 @@ function renderMe(app) {
       <span class="text-xl text-gray-300">›</span>
     </button>
 
+    <!-- PL0-1 听力语音检查入口（家长确认设备有英文语音，听力训练营的对话靠它朗读） -->
+    <button id="voiceCheckBtn" class="w-full card-cartoon tap-bounce flex items-center gap-3 text-left mb-4" style="min-height:48px">
+      <span class="text-3xl">🎧</span>
+      <div class="flex-1">
+        <div class="font-bold text-sm">听力语音检查</div>
+        <div class="text-xs text-gray-500">${storage.getListeningPrefs().voiceOk ? '已确认能用 · 可随时再听一遍' : '看看这台设备能不能朗读英文对话（听力训练营用）'}</div>
+      </div>
+      <span class="text-xl text-gray-300">›</span>
+    </button>
+
     <!-- 数据管理 -->
     <div class="card-cartoon mb-4">
       <h3 class="font-bold mb-3">⚙️ 数据管理</h3>
@@ -739,6 +750,9 @@ function renderMe(app) {
 
   // B6a AI 助手设置入口
   app.querySelector('#aiSettingsBtn').addEventListener('click', () => navigate('ai-settings'));
+
+  // PL0-1 听力语音检查入口
+  app.querySelector('#voiceCheckBtn').addEventListener('click', () => navigate('voice-check'));
 
   // 切换头像
   app.querySelector('#avatarBtn').addEventListener('click', () => {

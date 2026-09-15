@@ -270,3 +270,140 @@ export function playSound(type) {
     // 静默失败
   }
 }
+
+// ============================================================
+// PL0 听力训练：英文语音清单 + 双声道对话朗读（Web Speech 实时合成，不入库任何音频）
+// ============================================================
+
+export function isTTSSupported() {
+  return typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance === 'function';
+}
+
+// 直接取当前可用的英文语音（不走 voicesCache，语音检查页要看最新状态）
+export function listEnglishVoices() {
+  if (!isTTSSupported()) return [];
+  try {
+    return window.speechSynthesis.getVoices().filter(v => /^en([-_]|$)/i.test(v.lang || ''));
+  } catch (e) { return []; }
+}
+
+// Chrome/Android 的 getVoices() 首次可能为空，要等 voiceschanged；最多等 timeout 毫秒
+export function waitForVoices(timeout = 1500) {
+  return new Promise(resolve => {
+    if (!isTTSSupported()) return resolve([]);
+    const now = listEnglishVoices();
+    if (now.length) return resolve(now);
+    let done = false;
+    const finish = () => { if (done) return; done = true; resolve(listEnglishVoices()); };
+    try { window.speechSynthesis.addEventListener('voiceschanged', finish, { once: true }); } catch (e) { /* 旧实现无 addEventListener */ }
+    setTimeout(finish, timeout);
+  });
+}
+
+// 按名字猜性别（各平台命名不统一，只做优先级，猜不到就按顺序取两个不同的声音）
+const MALE_RE = /male|\b(david|daniel|mark|george|james|alex|fred|ryan|guy|arthur|aaron|thomas|tom|rishi|eddy|oliver|liam|william|brian|christopher|matthew|andrew|jamie|ravi|prabhat|sonoo|kevin|lee|bruce|ralph|junior|reed|rocko|grandpa|jacques)\b/i;
+const FEMALE_RE = /female|\b(samantha|karen|moira|zira|susan|hazel|libby|sonia|victoria|fiona|tessa|kate|serena|allison|ava|nicky|martha|emma|jenny|aria|ana|natasha|catherine|clara|mia|sara|sarah|linda|susan|joanna|amy|kendra|kimberly|salli|olivia|heera|neerja|ivy|molly|maisie|abbi|bella|hollie|libby|ella|zoe|flo|shelley|sandy|grandma|kathy|princess|whisper)\b/i;
+function guessSex(v) {
+  const n = String(v.name || '');
+  if (/\bfemale\b/i.test(n)) return 'f';
+  if (/\bmale\b/i.test(n)) return 'm';
+  if (FEMALE_RE.test(n)) return 'f';
+  if (MALE_RE.test(n)) return 'm';
+  // Google 的两个默认声：US English 是女声，UK English Male/Female 已由上面覆盖
+  if (/google us english/i.test(n)) return 'f';
+  return '?';
+}
+
+// 挑两个声音分饰对话双方：优先一男一女；不够就取两个不同的英文声；只有一个时用音调差异区分。
+// 返回 { m:{voice,pitch}, f:{voice,pitch}, single:boolean, count }
+export function pickDialogueVoices(voices) {
+  const list = voices || listEnglishVoices();
+  const withSex = list.map(v => ({ v, sex: guessSex(v), local: v.localService !== false }));
+  // 本机语音优先（离线可用、延迟低）
+  withSex.sort((a, b) => (b.local - a.local));
+  const male = withSex.find(x => x.sex === 'm');
+  const female = withSex.find(x => x.sex === 'f');
+  if (male && female) {
+    return { m: { voice: male.v, pitch: 1 }, f: { voice: female.v, pitch: 1 }, single: false, count: list.length };
+  }
+  if (list.length >= 2) {
+    // 至少两个不同声音：第一个给 A（男/第一说话人），第二个给 B
+    const a = (male || female || withSex[0]).v;
+    const b = withSex.find(x => x.v !== a).v;
+    return male
+      ? { m: { voice: a, pitch: 1 }, f: { voice: b, pitch: 1.1 }, single: false, count: list.length }
+      : { m: { voice: b, pitch: 0.9 }, f: { voice: a, pitch: 1 }, single: false, count: list.length };
+  }
+  if (list.length === 1) {
+    // 只有一个声：低音调当男声、高音调当女声
+    return { m: { voice: list[0], pitch: 0.75 }, f: { voice: list[0], pitch: 1.25 }, single: true, count: 1 };
+  }
+  return { m: { voice: null, pitch: 0.75 }, f: { voice: null, pitch: 1.25 }, single: true, count: 0 };
+}
+
+// 逐 turn 朗读对话：turns = [{ sex:'m'|'f', text }]，turn 之间停 gap 毫秒（默认 700，规范 0.6-0.8 秒）。
+// 只提供「播放 / 取消」——iOS 的 speechSynthesis.pause/resume 不可靠，故意不做拖动与暂停。
+// 返回 { cancel() }；onTurn(i) 每段开始时回调，onEnd(finished:boolean) 结束或取消时回调一次。
+let dialogueSeq = 0;
+const utterKeep = []; // Chrome 会在 utterance 被 GC 后不触发 onend，先攥住引用
+export function speakDialogue(turns, options = {}) {
+  const seq = ++dialogueSeq;
+  const rate = options.rate || 0.9;
+  const gap = options.gap == null ? 700 : options.gap;
+  const voices = options.voices || pickDialogueVoices();
+  let ended = false, timer = null, guard = null;
+  const finish = (finished) => {
+    if (ended) return;
+    ended = true;
+    clearTimeout(timer); clearTimeout(guard);
+    utterKeep.length = 0;
+    if (options.onEnd) { try { options.onEnd(finished); } catch (e) { console.error(e); } }
+  };
+  const cancel = () => {
+    if (ended) return;
+    clearTimeout(timer); clearTimeout(guard);
+    if (isTTSSupported()) { try { window.speechSynthesis.cancel(); } catch (e) { /* 忽略 */ } }
+    finish(false);
+  };
+  if (!isTTSSupported() || !turns || !turns.length) {
+    setTimeout(() => finish(false), 0);
+    return { cancel };
+  }
+  try { window.speechSynthesis.cancel(); } catch (e) { /* 忽略 */ }
+
+  const playTurn = (i) => {
+    if (ended || seq !== dialogueSeq) return;
+    if (i >= turns.length) return finish(true);
+    const t = turns[i];
+    const slot = t.sex === 'm' ? voices.m : voices.f;
+    const u = new SpeechSynthesisUtterance(t.text);
+    u.lang = (slot.voice && slot.voice.lang) || 'en-GB';
+    if (slot.voice) u.voice = slot.voice;
+    u.rate = rate;
+    u.pitch = slot.pitch;
+    u.volume = 1;
+    let moved = false;
+    const next = () => {
+      if (moved || ended) return;
+      moved = true;
+      clearTimeout(guard);
+      timer = setTimeout(() => playTurn(i + 1), gap);
+    };
+    u.onend = next;
+    u.onerror = (ev) => {
+      // 用户取消（cancel()）会触发 interrupted/canceled，此时已 finish；其余错误跳到下一段
+      if (ev && (ev.error === 'interrupted' || ev.error === 'canceled')) return;
+      if (options.onError) { try { options.onError(ev); } catch (e) { /* 忽略 */ } }
+      next();
+    };
+    // 兜底：个别平台不触发 onend（无声音/合成失败），按字数估时长后强制推进，避免播放态卡死
+    const est = Math.min(20000, Math.max(2500, t.text.length * 90 / rate)) + 2500;
+    guard = setTimeout(next, est);
+    utterKeep.push(u);
+    if (options.onTurn) { try { options.onTurn(i, t); } catch (e) { /* 忽略 */ } }
+    try { window.speechSynthesis.speak(u); } catch (e) { next(); }
+  };
+  // cancel() 之后立刻 speak 在部分 Chrome 版本会被吞掉，稍等再开口
+  timer = setTimeout(() => playTurn(0), 120);
+  return { cancel };
+}

@@ -39,7 +39,9 @@ const KEYS = {
   QUIZ_STATS: 'quizStats',       // { [qKey]: { r:对, w:错, lw:最近一次是否错, t:最后作答时间 } }
   // === B4 题目错题本（语法大厅/KET八课/阅读/模考；与错词 MISTAKES 并列，qKey 与 QUIZ_STATS 同源）===
   // 字段为 B6 AI「针对这次错法解释」一次到位：题干+她选+正确+考点+课号+环节。
-  QUIZ_MISTAKES: 'quizMistakes'  // { [qKey]: { src,kind,lesson,lessonTitle,stage,q,options,picked,correct,explain,t,n } }
+  QUIZ_MISTAKES: 'quizMistakes', // { [qKey]: { src,kind,lesson,lessonTitle,stage,q,options,picked,correct,explain,t,n } }
+  // === PL0 听力训练营：语音检查结论 + 练习/模拟模式（课程成绩仍走 EXAM_DRILLS，id = lis-LXX）===
+  LISTENING: 'listening'         // { voiceOk:boolean, voiceCheckedAt, voiceNames:[], mode:'practice'|'mock' }
 };
 
 // 通用读写
@@ -834,6 +836,17 @@ export function removeQuizMistake(qKey) {
   if (!(qKey in all)) return;
   delete all[qKey];
   set(KEYS.QUIZ_MISTAKES, all);
+}
+
+// === PL0 听力训练营偏好（语音检查结论 / 练习或模拟模式）===
+export function getListeningPrefs() {
+  return { voiceOk: false, voiceCheckedAt: null, voiceNames: [], mode: 'practice', ...(get(KEYS.LISTENING, {}) || {}) };
+}
+
+export function setListeningPrefs(patch) {
+  const next = { ...getListeningPrefs(), ...(patch || {}) };
+  set(KEYS.LISTENING, next);
+  return next;
 }
 
 // === 数据导入导出 ===
