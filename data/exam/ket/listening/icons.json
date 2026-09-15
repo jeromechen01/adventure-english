@@ -1,0 +1,326 @@
+{
+  "$comment": "听力 Part 1 图标清单（PL0-3）。由 tools/gen-listening-icons.mjs 生成，改图标改脚本不手改 SVG。命名 <类别>-<细项>.svg，viewBox 0 0 120 120。课文件里 options[].icon 只写 id。",
+  "version": "1.0",
+  "dir": "assets/img/listening/",
+  "viewBox": "0 0 120 120",
+  "categories": [
+    "clock",
+    "price",
+    "weather",
+    "transport",
+    "food",
+    "activity",
+    "place"
+  ],
+  "count": 44,
+  "icons": [
+    {
+      "id": "clock-0700",
+      "category": "clock",
+      "file": "clock-0700.svg",
+      "alt": "a clock showing seven o'clock (7:00)",
+      "zh": "时钟 7:00（7 点整）"
+    },
+    {
+      "id": "clock-0730",
+      "category": "clock",
+      "file": "clock-0730.svg",
+      "alt": "a clock showing half past seven (7:30)",
+      "zh": "时钟 7:30（7 点半）"
+    },
+    {
+      "id": "clock-0800",
+      "category": "clock",
+      "file": "clock-0800.svg",
+      "alt": "a clock showing eight o'clock (8:00)",
+      "zh": "时钟 8:00（8 点整）"
+    },
+    {
+      "id": "clock-0815",
+      "category": "clock",
+      "file": "clock-0815.svg",
+      "alt": "a clock showing quarter past eight (8:15)",
+      "zh": "时钟 8:15（8 点一刻）"
+    },
+    {
+      "id": "clock-0845",
+      "category": "clock",
+      "file": "clock-0845.svg",
+      "alt": "a clock showing quarter to nine (8:45)",
+      "zh": "时钟 8:45（9 点差一刻）"
+    },
+    {
+      "id": "clock-0330",
+      "category": "clock",
+      "file": "clock-0330.svg",
+      "alt": "a clock showing half past three (3:30)",
+      "zh": "时钟 3:30（3 点半）"
+    },
+    {
+      "id": "price-2-50",
+      "category": "price",
+      "file": "price-2-50.svg",
+      "alt": "a price tag showing £2.50",
+      "zh": "价格牌 £2.50"
+    },
+    {
+      "id": "price-5",
+      "category": "price",
+      "file": "price-5.svg",
+      "alt": "a price tag showing £5",
+      "zh": "价格牌 £5"
+    },
+    {
+      "id": "price-10",
+      "category": "price",
+      "file": "price-10.svg",
+      "alt": "a price tag showing £10",
+      "zh": "价格牌 £10"
+    },
+    {
+      "id": "price-15",
+      "category": "price",
+      "file": "price-15.svg",
+      "alt": "a price tag showing £15",
+      "zh": "价格牌 £15"
+    },
+    {
+      "id": "weather-sunny",
+      "category": "weather",
+      "file": "weather-sunny.svg",
+      "alt": "sunny weather, a bright sun",
+      "zh": "晴天（太阳）"
+    },
+    {
+      "id": "weather-cloudy",
+      "category": "weather",
+      "file": "weather-cloudy.svg",
+      "alt": "cloudy weather, clouds",
+      "zh": "多云"
+    },
+    {
+      "id": "weather-rainy",
+      "category": "weather",
+      "file": "weather-rainy.svg",
+      "alt": "rainy weather, a cloud with rain",
+      "zh": "下雨"
+    },
+    {
+      "id": "weather-windy",
+      "category": "weather",
+      "file": "weather-windy.svg",
+      "alt": "windy weather, wind blowing",
+      "zh": "刮风"
+    },
+    {
+      "id": "weather-snowy",
+      "category": "weather",
+      "file": "weather-snowy.svg",
+      "alt": "snowy weather, a cloud with snowflakes",
+      "zh": "下雪"
+    },
+    {
+      "id": "weather-stormy",
+      "category": "weather",
+      "file": "weather-stormy.svg",
+      "alt": "stormy weather, a cloud with lightning",
+      "zh": "雷雨（闪电）"
+    },
+    {
+      "id": "transport-bus",
+      "category": "transport",
+      "file": "transport-bus.svg",
+      "alt": "a bus",
+      "zh": "公共汽车"
+    },
+    {
+      "id": "transport-car",
+      "category": "transport",
+      "file": "transport-car.svg",
+      "alt": "a car",
+      "zh": "小汽车"
+    },
+    {
+      "id": "transport-bike",
+      "category": "transport",
+      "file": "transport-bike.svg",
+      "alt": "a bicycle",
+      "zh": "自行车"
+    },
+    {
+      "id": "transport-train",
+      "category": "transport",
+      "file": "transport-train.svg",
+      "alt": "a train",
+      "zh": "火车"
+    },
+    {
+      "id": "transport-plane",
+      "category": "transport",
+      "file": "transport-plane.svg",
+      "alt": "an aeroplane",
+      "zh": "飞机"
+    },
+    {
+      "id": "transport-boat",
+      "category": "transport",
+      "file": "transport-boat.svg",
+      "alt": "a boat",
+      "zh": "船"
+    },
+    {
+      "id": "food-apple",
+      "category": "food",
+      "file": "food-apple.svg",
+      "alt": "an apple",
+      "zh": "苹果"
+    },
+    {
+      "id": "food-banana",
+      "category": "food",
+      "file": "food-banana.svg",
+      "alt": "a banana",
+      "zh": "香蕉"
+    },
+    {
+      "id": "food-pizza",
+      "category": "food",
+      "file": "food-pizza.svg",
+      "alt": "a slice of pizza",
+      "zh": "披萨"
+    },
+    {
+      "id": "food-sandwich",
+      "category": "food",
+      "file": "food-sandwich.svg",
+      "alt": "a sandwich",
+      "zh": "三明治"
+    },
+    {
+      "id": "food-pasta",
+      "category": "food",
+      "file": "food-pasta.svg",
+      "alt": "a plate of pasta (spaghetti)",
+      "zh": "意面"
+    },
+    {
+      "id": "food-cake",
+      "category": "food",
+      "file": "food-cake.svg",
+      "alt": "a cake with a candle",
+      "zh": "蛋糕"
+    },
+    {
+      "id": "food-ice-cream",
+      "category": "food",
+      "file": "food-ice-cream.svg",
+      "alt": "an ice cream",
+      "zh": "冰淇淋"
+    },
+    {
+      "id": "food-milk",
+      "category": "food",
+      "file": "food-milk.svg",
+      "alt": "a glass of milk",
+      "zh": "牛奶"
+    },
+    {
+      "id": "activity-football",
+      "category": "activity",
+      "file": "activity-football.svg",
+      "alt": "playing football",
+      "zh": "踢足球"
+    },
+    {
+      "id": "activity-swimming",
+      "category": "activity",
+      "file": "activity-swimming.svg",
+      "alt": "swimming",
+      "zh": "游泳"
+    },
+    {
+      "id": "activity-reading",
+      "category": "activity",
+      "file": "activity-reading.svg",
+      "alt": "reading a book",
+      "zh": "看书"
+    },
+    {
+      "id": "activity-painting",
+      "category": "activity",
+      "file": "activity-painting.svg",
+      "alt": "painting a picture",
+      "zh": "画画"
+    },
+    {
+      "id": "activity-music",
+      "category": "activity",
+      "file": "activity-music.svg",
+      "alt": "playing music, a guitar",
+      "zh": "弹吉他"
+    },
+    {
+      "id": "activity-dancing",
+      "category": "activity",
+      "file": "activity-dancing.svg",
+      "alt": "dancing",
+      "zh": "跳舞"
+    },
+    {
+      "id": "activity-running",
+      "category": "activity",
+      "file": "activity-running.svg",
+      "alt": "running",
+      "zh": "跑步"
+    },
+    {
+      "id": "activity-computer",
+      "category": "activity",
+      "file": "activity-computer.svg",
+      "alt": "using a computer",
+      "zh": "用电脑"
+    },
+    {
+      "id": "place-school",
+      "category": "place",
+      "file": "place-school.svg",
+      "alt": "a school building",
+      "zh": "学校"
+    },
+    {
+      "id": "place-library",
+      "category": "place",
+      "file": "place-library.svg",
+      "alt": "a library with books",
+      "zh": "图书馆"
+    },
+    {
+      "id": "place-park",
+      "category": "place",
+      "file": "place-park.svg",
+      "alt": "a park with a tree and a bench",
+      "zh": "公园"
+    },
+    {
+      "id": "place-shop",
+      "category": "place",
+      "file": "place-shop.svg",
+      "alt": "a shop",
+      "zh": "商店"
+    },
+    {
+      "id": "place-cinema",
+      "category": "place",
+      "file": "place-cinema.svg",
+      "alt": "a cinema, a film screen",
+      "zh": "电影院"
+    },
+    {
+      "id": "place-beach",
+      "category": "place",
+      "file": "place-beach.svg",
+      "alt": "a beach with the sea and a sun umbrella",
+      "zh": "海滩"
+    }
+  ]
+}
