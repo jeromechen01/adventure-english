@@ -3,7 +3,7 @@
   "topicName": "Communication 沟通交流",
   "icon": "💬",
   "level": "B1",
-  "totalWords": 36,
+  "totalWords": 151,
   "words": [
     {
       "id": "pet-communication-001",
@@ -1323,6 +1323,4150 @@
         ]
       },
       "inKet": true
+    },
+    {
+      "id": "pet-communication-037",
+      "word": "announce",
+      "phonetic": "/əˈnaʊns/",
+      "pos": "v.",
+      "meaning": "宣布；通知",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The head teacher will announce the winners after lunch today.",
+          "zh": "校长今天午饭后会宣布获奖者。"
+        },
+        {
+          "en": "They announced that the school trip was moved to Friday.",
+          "zh": "他们宣布学校旅行改到了周五。"
+        }
+      ],
+      "synonyms": [
+        "declare"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "an(向)+nounce(说,同 pronounce)→向大家说出来→宣布。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "announce the results",
+          "announce that"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-038",
+      "word": "inform",
+      "phonetic": "/ɪnˈfɔːm/",
+      "pos": "v.",
+      "meaning": "通知；告知",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please inform the office if you are going to be late.",
+          "zh": "如果你会迟到，请通知办公室。"
+        },
+        {
+          "en": "The coach informed us of the new training times.",
+          "zh": "教练把新的训练时间告知了我们。"
+        }
+      ],
+      "synonyms": [
+        "tell"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "in(进)+form(形成)→把消息「输入」到别人脑子里→告知。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "inform sb of sth",
+          "inform sb that"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-039",
+      "word": "information",
+      "phonetic": "/ˌɪnfəˈmeɪʃn/",
+      "pos": "n.",
+      "meaning": "信息；资料",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The website gives useful information about the museum opening hours.",
+          "zh": "这个网站提供了博物馆开放时间的有用信息。"
+        },
+        {
+          "en": "Can you find more information about this animal for the project?",
+          "zh": "你能为这个项目找到更多关于这种动物的信息吗？"
+        }
+      ],
+      "synonyms": [
+        "facts"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "inform(告知)+ation(名词)→被告知的内容→信息；不可数，一条要说 a piece of。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a piece of information",
+          "information about"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-040",
+      "word": "warn",
+      "phonetic": "/wɔːn/",
+      "pos": "v.",
+      "meaning": "警告；提醒",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sign warns swimmers about the strong waves here.",
+          "zh": "这块牌子提醒游泳者注意这里的大浪。"
+        },
+        {
+          "en": "Mum warned me not to touch the hot pan.",
+          "zh": "妈妈警告我别碰那个热锅。"
+        }
+      ],
+      "synonyms": [
+        "alert"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "warn 里藏着 war(战争)——战争要来了，赶紧警告大家。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "warn sb about",
+          "warn sb not to do"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-041",
+      "word": "warning",
+      "phonetic": "/ˈwɔːnɪŋ/",
+      "pos": "n.",
+      "meaning": "警告；警示",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is a warning on the packet about small parts.",
+          "zh": "包装上有一条关于小零件的警告。"
+        },
+        {
+          "en": "The teacher gave him a final warning for talking in class.",
+          "zh": "老师因他上课讲话给了他最后一次警告。"
+        }
+      ],
+      "synonyms": [
+        "alert"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "warn(警告)+ing(名词)→警告这件事本身。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a warning sign",
+          "give sb a warning"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-042",
+      "word": "remind",
+      "phonetic": "/rɪˈmaɪnd/",
+      "pos": "v.",
+      "meaning": "提醒",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please remind me to bring my PE kit tomorrow.",
+          "zh": "请提醒我明天带体育服。"
+        },
+        {
+          "en": "This song reminds me of our summer camp last year.",
+          "zh": "这首歌让我想起去年的夏令营。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "re(再)+mind(脑子)→再往脑子里放一次→提醒。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "remind sb to do",
+          "remind sb of sth"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-043",
+      "word": "reminder",
+      "phonetic": "/rɪˈmaɪndə(r)/",
+      "pos": "n.",
+      "meaning": "提醒物；提示",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I set a reminder on my phone for the dentist appointment.",
+          "zh": "我在手机上给牙医预约设了提醒。"
+        },
+        {
+          "en": "The note on the fridge is a reminder to feed the cat.",
+          "zh": "冰箱上的便条是提醒喂猫的。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "remind(提醒)+er(东西)→用来提醒你的东西。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "set a reminder",
+          "a gentle reminder"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-044",
+      "word": "persuade",
+      "phonetic": "/pəˈsweɪd/",
+      "pos": "v.",
+      "meaning": "说服；劝服",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She persuaded her parents to let her join the club.",
+          "zh": "她说服父母让她加入了社团。"
+        },
+        {
+          "en": "It was hard to persuade Tom to try the new food.",
+          "zh": "要说服汤姆尝尝这种新食物很难。"
+        }
+      ],
+      "synonyms": [
+        "convince"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "per(彻底)+suade(劝,同 sweet 甜)→用甜言把人彻底劝动→说服。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "persuade sb to do",
+          "try to persuade"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-045",
+      "word": "convince",
+      "phonetic": "/kənˈvɪns/",
+      "pos": "v.",
+      "meaning": "使相信；说服",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The photos convinced everyone that the story was true.",
+          "zh": "这些照片让大家相信这个故事是真的。"
+        },
+        {
+          "en": "I couldn't convince my brother to come to the concert.",
+          "zh": "我没能说服弟弟来听音乐会。"
+        }
+      ],
+      "synonyms": [
+        "persuade"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "con(完全)+vince(赢,同 victory)→在争论里完全赢了对方→使他相信。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "convince sb that",
+          "convince sb of"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-046",
+      "word": "recommend",
+      "phonetic": "/ˌrekəˈmend/",
+      "pos": "v.",
+      "meaning": "推荐；建议",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My teacher recommended this book for the summer holiday.",
+          "zh": "老师推荐这本书作为暑假读物。"
+        },
+        {
+          "en": "Which pizza would you recommend to a first-time visitor?",
+          "zh": "你会给第一次来的客人推荐哪种披萨？"
+        }
+      ],
+      "synonyms": [
+        "suggest"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "re(再)+commend(称赞)→一再称赞某样东西→推荐给你。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "recommend sth to sb",
+          "highly recommend"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-047",
+      "word": "recommendation",
+      "phonetic": "/ˌrekəmenˈdeɪʃn/",
+      "pos": "n.",
+      "meaning": "推荐；建议",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We chose the restaurant on a friend's recommendation.",
+          "zh": "我们根据朋友的推荐选了这家餐厅。"
+        },
+        {
+          "en": "The doctor made a recommendation about how much sleep I need.",
+          "zh": "医生就我需要多少睡眠给了建议。"
+        }
+      ],
+      "synonyms": [
+        "suggestion"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "recommend(推荐)+ation(名词)→推荐这件事。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "on sb's recommendation",
+          "make a recommendation"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-048",
+      "word": "request",
+      "phonetic": "/rɪˈkwest/",
+      "pos": "n./v.",
+      "meaning": "请求；要求",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The library received a request for more comic books.",
+          "zh": "图书馆收到了一个要更多漫画书的请求。"
+        },
+        {
+          "en": "Visitors are requested to keep quiet inside the gallery.",
+          "zh": "请参观者在展馆内保持安静。"
+        }
+      ],
+      "synonyms": [
+        "ask"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "re(再)+quest(寻求,同 question)→再三寻求→请求。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "make a request",
+          "on request"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-049",
+      "word": "response",
+      "phonetic": "/rɪˈspɒns/",
+      "pos": "n.",
+      "meaning": "回答；回应",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I sent three messages but got no response from him.",
+          "zh": "我发了三条消息，但没收到他的回应。"
+        },
+        {
+          "en": "Her response to the bad news was surprisingly calm.",
+          "zh": "她对这个坏消息的反应出奇地平静。"
+        }
+      ],
+      "synonyms": [
+        "reply",
+        "answer"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "respond(回应)+se→回应的内容；in response to 是「作为对…的回应」。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in response to",
+          "get a response"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-050",
+      "word": "repeat",
+      "phonetic": "/rɪˈpiːt/",
+      "pos": "v.",
+      "meaning": "重复；重说",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Could you repeat the question, please? I didn't hear.",
+          "zh": "请你再说一遍问题好吗？我没听见。"
+        },
+        {
+          "en": "The parrot repeats everything my grandad says.",
+          "zh": "那只鹦鹉会重复我爷爷说的每句话。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "re(再)+peat(寻求)→再来一遍→重复。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "repeat after me",
+          "repeat the question"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-051",
+      "word": "interrupt",
+      "phonetic": "/ˌɪntəˈrʌpt/",
+      "pos": "v.",
+      "meaning": "打断；插嘴",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please don't interrupt while your sister is speaking.",
+          "zh": "你姐姐说话时请不要打断。"
+        },
+        {
+          "en": "A phone call interrupted our game of chess.",
+          "zh": "一个电话打断了我们的棋局。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "inter(中间)+rupt(断裂)→从中间弄断→打断别人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "interrupt sb",
+          "sorry to interrupt"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-052",
+      "word": "congratulate",
+      "phonetic": "/kənˈɡrætʃuleɪt/",
+      "pos": "v.",
+      "meaning": "祝贺",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Everyone congratulated Amy on winning the spelling competition.",
+          "zh": "大家都祝贺艾米赢了拼写比赛。"
+        },
+        {
+          "en": "I want to congratulate you on your excellent results.",
+          "zh": "我想祝贺你取得了优异的成绩。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "congratulations(恭喜)去掉尾巴就是动词——祝贺时后面接 on。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "congratulate sb on sth",
+          "congratulate yourself"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-053",
+      "word": "invitation",
+      "phonetic": "/ˌɪnvɪˈteɪʃn/",
+      "pos": "n.",
+      "meaning": "邀请；请柬",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Thanks for the invitation to your birthday party next week.",
+          "zh": "谢谢你邀请我参加下周的生日聚会。"
+        },
+        {
+          "en": "She sent out twenty invitations for the school show.",
+          "zh": "她为学校演出发出了二十份请柬。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "invite(邀请)+ation(名词)→邀请这件事；也指那张请柬。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "an invitation to",
+          "accept an invitation"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-054",
+      "word": "admit",
+      "phonetic": "/ədˈmɪt/",
+      "pos": "v.",
+      "meaning": "承认",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He finally admitted that he had broken the window.",
+          "zh": "他最终承认是他打破了窗户。"
+        },
+        {
+          "en": "I must admit the film was better than I expected.",
+          "zh": "我得承认这部电影比我预想的好。"
+        }
+      ],
+      "synonyms": [
+        "confess"
+      ],
+      "antonyms": [
+        "deny"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "ad(向)+mit(送出)→把真相送出口→承认。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "admit doing sth",
+          "admit that"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-055",
+      "word": "deny",
+      "phonetic": "/dɪˈnaɪ/",
+      "pos": "v.",
+      "meaning": "否认",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The boy denied taking the last biscuit from the tin.",
+          "zh": "那个男孩否认从饼干盒里拿了最后一块饼干。"
+        },
+        {
+          "en": "She denied that she had seen the message.",
+          "zh": "她否认看到过那条消息。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "admit"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "deny 谐音「抵赖」——死不承认就是抵赖，否认。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "deny doing sth",
+          "strongly deny"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-056",
+      "word": "claim",
+      "phonetic": "/kleɪm/",
+      "pos": "v.",
+      "meaning": "声称；宣称",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He claims he can hold his breath for three minutes.",
+          "zh": "他声称自己能憋气三分钟。"
+        },
+        {
+          "en": "The advert claims that the shoes make you run faster.",
+          "zh": "广告宣称这双鞋能让你跑得更快。"
+        }
+      ],
+      "synonyms": [
+        "say"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "claim 是「说得很肯定、但不一定是真的」——广告和吹牛常用它。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "claim that",
+          "claim to be"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-057",
+      "word": "insist",
+      "phonetic": "/ɪnˈsɪst/",
+      "pos": "v.",
+      "meaning": "坚持（说/要求）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Grandma insisted that we stay for dinner.",
+          "zh": "奶奶坚持要我们留下来吃晚饭。"
+        },
+        {
+          "en": "He insists on doing his homework before playing games.",
+          "zh": "他坚持先写完作业再玩游戏。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "in(在)+sist(站,同 assist)→站定不动→坚持自己的说法。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "insist on doing",
+          "insist that"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-058",
+      "word": "beg",
+      "phonetic": "/beɡ/",
+      "pos": "v.",
+      "meaning": "恳求；乞求",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The puppy begged for a piece of my sandwich.",
+          "zh": "小狗恳求着想要一块我的三明治。"
+        },
+        {
+          "en": "I begged my mum to let me stay up late.",
+          "zh": "我恳求妈妈让我晚点睡。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "beg 谐音「白给」——求你「白给」我一点吧，就是恳求。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "beg sb to do",
+          "beg for"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-059",
+      "word": "blame",
+      "phonetic": "/bleɪm/",
+      "pos": "v.",
+      "meaning": "责备；把…归咎于",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't blame me for the mess; the dog did it.",
+          "zh": "别怪我弄得这么乱，是狗干的。"
+        },
+        {
+          "en": "She blamed the rain for our late arrival.",
+          "zh": "她把我们迟到归咎于下雨。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "blame 谐音「不赖姆」——姆妈说「这不赖你」，就是不责备你。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "blame sb for sth",
+          "be to blame"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-060",
+      "word": "lie",
+      "phonetic": "/laɪ/",
+      "pos": "v./n.",
+      "meaning": "说谎；谎言",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Please don't lie to me about where you went.",
+          "zh": "请别在你去了哪儿这件事上对我说谎。"
+        },
+        {
+          "en": "Telling a small lie can lead to a bigger problem.",
+          "zh": "撒一个小谎可能带来更大的问题。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "truth"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "lie 说谎（lied, lied）和 lie 躺（lay, lain）拼写相同——看过去式分清。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "tell a lie",
+          "lie to sb"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-061",
+      "word": "tell the truth",
+      "phonetic": "/tel ðə truːθ/",
+      "pos": "phr.",
+      "meaning": "说实话",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "To tell the truth, I forgot to do the reading homework.",
+          "zh": "说实话，我忘了做阅读作业。"
+        },
+        {
+          "en": "Always tell the truth, even when it is difficult.",
+          "zh": "即使很难，也要永远说实话。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "lie"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "truth 是 true(真)的名词——把真的说出来就是说实话。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "to tell the truth",
+          "tell the truth about"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-062",
+      "word": "mutter",
+      "phonetic": "/ˈmʌtə(r)/",
+      "pos": "v.",
+      "meaning": "咕哝；小声嘀咕",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He muttered something and walked out of the room.",
+          "zh": "他嘀咕了一句就走出了房间。"
+        },
+        {
+          "en": "Stop muttering and tell me clearly what is wrong.",
+          "zh": "别嘀咕了，清楚地告诉我哪里不对。"
+        }
+      ],
+      "synonyms": [
+        "mumble"
+      ],
+      "antonyms": [
+        "shout"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "mutter 谐音「嘛特」——嘴里含糊地「嘛…特…」，别人听不清。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "mutter to yourself",
+          "mutter under your breath"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-063",
+      "word": "yell",
+      "phonetic": "/jel/",
+      "pos": "v.",
+      "meaning": "大喊；叫嚷",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The fans yelled with joy when the team scored.",
+          "zh": "球队进球时球迷们高兴地大喊。"
+        },
+        {
+          "en": "Don't yell at your little brother; explain calmly.",
+          "zh": "别冲你弟弟嚷嚷，平静地解释。"
+        }
+      ],
+      "synonyms": [
+        "shout"
+      ],
+      "antonyms": [
+        "whisper"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "yell 谐音「噎哦」——喊得太大声，自己都噎了一下。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "yell at sb",
+          "yell for help"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-064",
+      "word": "spell",
+      "phonetic": "/spel/",
+      "pos": "v.",
+      "meaning": "拼写",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "How do you spell your surname, please?",
+          "zh": "请问你的姓怎么拼？"
+        },
+        {
+          "en": "I can spell most words, but some are tricky.",
+          "zh": "大多数单词我都会拼，但有些很难。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "spelling(拼写)去掉 ing 就是动词 spell——一个字母一个字母说出来。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "spell a word",
+          "spell out"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-065",
+      "word": "misunderstand",
+      "phonetic": "/ˌmɪsʌndəˈstænd/",
+      "pos": "v.",
+      "meaning": "误解；误会",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I think you misunderstood what the teacher meant.",
+          "zh": "我觉得你误解了老师的意思。"
+        },
+        {
+          "en": "Don't misunderstand me; I really like your idea.",
+          "zh": "别误会我，我真的喜欢你的主意。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "mis(错)+understand(理解)→理解错了→误解。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "misunderstand sb",
+          "misunderstand the question"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-066",
+      "word": "misunderstanding",
+      "phonetic": "/ˌmɪsʌndəˈstændɪŋ/",
+      "pos": "n.",
+      "meaning": "误会；误解",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There was a misunderstanding about the meeting time.",
+          "zh": "关于开会时间有一个误会。"
+        },
+        {
+          "en": "A quick phone call cleared up the misunderstanding.",
+          "zh": "一通简短的电话就把误会说清楚了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "misunderstand(误解)+ing(名词)→误解这件事。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "clear up a misunderstanding",
+          "a small misunderstanding"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-067",
+      "word": "apology",
+      "phonetic": "/əˈpɒlədʒi/",
+      "pos": "n.",
+      "meaning": "道歉",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He wrote a short apology for missing the practice.",
+          "zh": "他为错过训练写了一封简短的道歉信。"
+        },
+        {
+          "en": "Please accept my apology for the noise last night.",
+          "zh": "请接受我为昨晚噪音的道歉。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "apologise(道歉)的名词——记住英式动词是 -ise，名词是 -gy。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "make an apology",
+          "accept an apology"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-068",
+      "word": "greeting",
+      "phonetic": "/ˈɡriːtɪŋ/",
+      "pos": "n.",
+      "meaning": "问候；招呼",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A friendly greeting makes new students feel welcome.",
+          "zh": "一句友好的问候能让新同学感到受欢迎。"
+        },
+        {
+          "en": "In Japan, a bow is a common greeting.",
+          "zh": "在日本，鞠躬是常见的问候方式。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "greet(问候)+ing(名词)→打招呼这件事；卡片上写 Greetings!"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a warm greeting",
+          "exchange greetings"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-069",
+      "word": "communication",
+      "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+      "pos": "n.",
+      "meaning": "交流；沟通；通信",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Good communication between players helps the team win.",
+          "zh": "队员之间的良好沟通有助于球队获胜。"
+        },
+        {
+          "en": "Email is still an important form of communication.",
+          "zh": "电子邮件仍是一种重要的通信方式。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "communicate(交流)+ion(名词)→交流这件事。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "communication skills",
+          "a means of communication"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-070",
+      "word": "dialogue",
+      "phonetic": "/ˈdaɪəlɒɡ/",
+      "pos": "n.",
+      "meaning": "对话",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We practised the dialogue in pairs before the test.",
+          "zh": "考试前我们两人一组练习了对话。"
+        },
+        {
+          "en": "The film has very funny dialogue between the two brothers.",
+          "zh": "这部电影里两兄弟的对话非常搞笑。"
+        }
+      ],
+      "synonyms": [
+        "conversation"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "dia(穿过,两者之间)+logue(说话)→两人之间的说话→对话。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "practise a dialogue",
+          "a dialogue between"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-071",
+      "word": "accent",
+      "phonetic": "/ˈæksent/",
+      "pos": "n.",
+      "meaning": "口音",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She speaks English with a soft Scottish accent.",
+          "zh": "她说英语带着柔和的苏格兰口音。"
+        },
+        {
+          "en": "I can tell where he comes from by his accent.",
+          "zh": "我能从口音听出他来自哪里。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "accent 谐音「爱克森」——「爱克森」先生一开口，口音就露出来了。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a strong accent",
+          "speak with an accent"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-072",
+      "word": "dialect",
+      "phonetic": "/ˈdaɪəlekt/",
+      "pos": "n.",
+      "meaning": "方言",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My grandmother speaks a dialect that I only partly understand.",
+          "zh": "我奶奶说的方言我只能听懂一部分。"
+        },
+        {
+          "en": "Some words in this dialect are not used in standard English.",
+          "zh": "这种方言里的一些词在标准英语里不用。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "dia(之间)+lect(说,同 lecture)→一个地区之间的说法→方言。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a local dialect",
+          "speak a dialect"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-073",
+      "word": "slang",
+      "phonetic": "/slæŋ/",
+      "pos": "n.",
+      "meaning": "俚语",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Teenagers often use slang that adults don't understand.",
+          "zh": "青少年常用大人听不懂的俚语。"
+        },
+        {
+          "en": "Avoid slang when you write a formal letter.",
+          "zh": "写正式信件时避免使用俚语。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "s+lang(uage 的前半)→把 language 剪掉一半、随口说的话→俚语。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "use slang",
+          "a slang word"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-074",
+      "word": "rumour",
+      "phonetic": "/ˈruːmə(r)/",
+      "pos": "n.",
+      "meaning": "谣言；传闻",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is a rumour that our teacher is leaving next term.",
+          "zh": "有传闻说我们老师下学期要走。"
+        },
+        {
+          "en": "Don't spread rumours before you know the facts.",
+          "zh": "在了解事实之前不要传播谣言。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "rumour 谐音「乱嘛」——「乱嘛」乱传的话就是谣言。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "spread a rumour",
+          "a rumour that"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-075",
+      "word": "secret",
+      "phonetic": "/ˈsiːkrət/",
+      "pos": "n./adj.",
+      "meaning": "秘密；秘密的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Can you keep a secret about the surprise party?",
+          "zh": "你能为惊喜派对保守秘密吗？"
+        },
+        {
+          "en": "They planned a secret trip for their mum's birthday.",
+          "zh": "他们为妈妈的生日策划了一次秘密旅行。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "public"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "secret 开头和 secretary(秘书)一样——秘书管的都是老板的秘密。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "keep a secret",
+          "in secret"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-076",
+      "word": "tone",
+      "phonetic": "/təʊn/",
+      "pos": "n.",
+      "meaning": "语气；声调",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I could tell from her tone that she was upset.",
+          "zh": "我从她的语气听出她不高兴。"
+        },
+        {
+          "en": "Please use a polite tone when you talk to customers.",
+          "zh": "跟顾客说话时请用礼貌的语气。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "tone 和 telephone 的 phone 一样都跟「声音」有关——说话的声音味道就是语气。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "tone of voice",
+          "in a friendly tone"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-077",
+      "word": "silence",
+      "phonetic": "/ˈsaɪləns/",
+      "pos": "n.",
+      "meaning": "沉默；寂静",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There was complete silence when the results were read out.",
+          "zh": "宣读结果时全场一片寂静。"
+        },
+        {
+          "en": "We sat in silence and watched the sunset together.",
+          "zh": "我们默默坐着，一起看日落。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "noise"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "silence 谐音「塞冷死」——嘴被「塞」住，冷场到死一般安静。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "in silence",
+          "break the silence"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-078",
+      "word": "silent",
+      "phonetic": "/ˈsaɪlənt/",
+      "pos": "adj.",
+      "meaning": "沉默的；无声的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The class fell silent when the head teacher walked in.",
+          "zh": "校长走进来时全班安静了下来。"
+        },
+        {
+          "en": "Please keep your phone silent during the concert.",
+          "zh": "音乐会期间请把手机调成静音。"
+        }
+      ],
+      "synonyms": [
+        "quiet"
+      ],
+      "antonyms": [
+        "noisy"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "silence(寂静)的形容词——把 ce 换成 t 就是「安静的」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "fall silent",
+          "stay silent"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-079",
+      "word": "pause",
+      "phonetic": "/pɔːz/",
+      "pos": "n./v.",
+      "meaning": "停顿；暂停",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "After a short pause, she answered the difficult question.",
+          "zh": "短暂停顿后，她回答了那个难题。"
+        },
+        {
+          "en": "Let's pause the video and talk about this part.",
+          "zh": "我们把视频暂停，聊聊这一段。"
+        }
+      ],
+      "synonyms": [
+        "stop"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "pause 谐音「跑死」——跑得要死了，先停一停。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a short pause",
+          "pause for a moment"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-080",
+      "word": "meaning",
+      "phonetic": "/ˈmiːnɪŋ/",
+      "pos": "n.",
+      "meaning": "意思；含义",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Look up the meaning of the word in your dictionary.",
+          "zh": "在词典里查一下这个词的意思。"
+        },
+        {
+          "en": "The meaning of the poem is not easy to explain.",
+          "zh": "这首诗的含义不容易解释。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "mean(意思是)+ing(名词)→所指的意思。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "the meaning of",
+          "look up the meaning"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-081",
+      "word": "listener",
+      "phonetic": "/ˈlɪsənə(r)/",
+      "pos": "n.",
+      "meaning": "听者；听众",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A good listener lets you finish before giving advice.",
+          "zh": "一个好的倾听者会等你说完再给建议。"
+        },
+        {
+          "en": "The radio show has thousands of young listeners.",
+          "zh": "这个广播节目有成千上万的年轻听众。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "speaker"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "listen(听)+er(人)→听的人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a good listener",
+          "radio listeners"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-082",
+      "word": "interpreter",
+      "phonetic": "/ɪnˈtɜːprɪtə(r)/",
+      "pos": "n.",
+      "meaning": "口译员",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The interpreter helped the visitors understand the tour guide.",
+          "zh": "口译员帮助游客听懂了导游的话。"
+        },
+        {
+          "en": "My aunt works as an interpreter at international meetings.",
+          "zh": "我姑姑在国际会议上做口译员。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "interpret(口译,解释)+er(人)→当场把话翻过去的人。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "work as an interpreter",
+          "a sign language interpreter"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-083",
+      "word": "translator",
+      "phonetic": "/trænzˈleɪtə(r)/",
+      "pos": "n.",
+      "meaning": "翻译；译者",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The translator turned the story from French into English.",
+          "zh": "译者把这个故事从法语翻译成了英语。"
+        },
+        {
+          "en": "I used an online translator to read the menu.",
+          "zh": "我用在线翻译工具看懂了菜单。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "translate(翻译)+or(人/工具)→做翻译的人或工具；口译是 interpreter。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an online translator",
+          "work as a translator"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-084",
+      "word": "dial",
+      "phonetic": "/ˈdaɪəl/",
+      "pos": "v.",
+      "meaning": "拨（电话号码）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dial 999 if there is an emergency in the UK.",
+          "zh": "在英国如果有紧急情况就拨打 999。"
+        },
+        {
+          "en": "I dialled the wrong number and woke up a stranger.",
+          "zh": "我拨错了号码，吵醒了一个陌生人。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "dial 谐音「呆哦」——按错号码呆住了，再重新拨。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "dial a number",
+          "dial 999"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-085",
+      "word": "call back",
+      "phonetic": "/kɔːl bæk/",
+      "pos": "phr.",
+      "meaning": "回电话",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dad is busy now; can he call you back later?",
+          "zh": "爸爸现在忙，他能晚点给你回电话吗？"
+        },
+        {
+          "en": "I called back twice but nobody answered the phone.",
+          "zh": "我回拨了两次，但没人接电话。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "call(打电话)+back(回)→把电话打回去→回电。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "call sb back",
+          "call back later"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-086",
+      "word": "put through",
+      "phonetic": "/pʊt θruː/",
+      "pos": "phr.",
+      "meaning": "接通（电话）；转接",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Hold on, I'll put you through to the manager.",
+          "zh": "请稍等，我给你转接经理。"
+        },
+        {
+          "en": "The receptionist put me through to the right department.",
+          "zh": "前台把我的电话转接到了正确的部门。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "put(放)+through(穿过)→把你的电话「穿」过去给另一个人→转接。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "put sb through to",
+          "be put through"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-087",
+      "word": "hold on",
+      "phonetic": "/həʊld ɒn/",
+      "pos": "phr.",
+      "meaning": "（电话）别挂断；稍等",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Hold on a moment while I find a pen.",
+          "zh": "稍等一下，我找支笔。"
+        },
+        {
+          "en": "Can you hold on? Someone is at the door.",
+          "zh": "你能别挂断吗？有人在敲门。"
+        }
+      ],
+      "synonyms": [
+        "wait"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "hold(抓着)+on(继续)→继续抓着听筒别放→别挂断。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "hold on a moment",
+          "hold on a second"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-088",
+      "word": "get through",
+      "phonetic": "/ɡet θruː/",
+      "pos": "phr.",
+      "meaning": "打通（电话）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I tried all morning but couldn't get through to the shop.",
+          "zh": "我试了一上午，但打不通那家店的电话。"
+        },
+        {
+          "en": "She finally got through to her cousin in Australia.",
+          "zh": "她终于打通了在澳大利亚的表哥的电话。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "get(到达)+through(穿过)→声音穿过电话线到达对方→打通。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "get through to sb",
+          "can't get through"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-089",
+      "word": "leave a message",
+      "phonetic": "/liːv ə ˈmesɪdʒ/",
+      "pos": "phr.",
+      "meaning": "留言",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Nobody answered, so I left a message on the answerphone.",
+          "zh": "没人接，所以我在答录机上留了言。"
+        },
+        {
+          "en": "Please leave a message after the tone.",
+          "zh": "请在提示音后留言。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "leave(留下)+message(消息)→把话留下等对方听→留言。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "leave a message for sb",
+          "leave a message on"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-090",
+      "word": "phone call",
+      "phonetic": "/ˈfəʊn kɔːl/",
+      "pos": "n.",
+      "meaning": "电话（通话）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I got a phone call from my grandad this morning.",
+          "zh": "今早我接到爷爷打来的电话。"
+        },
+        {
+          "en": "A quick phone call is faster than sending ten texts.",
+          "zh": "打个简短的电话比发十条短信快。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "phone(电话)+call(呼叫)→一次通话；动词用 make。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "make a phone call",
+          "get a phone call"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-091",
+      "word": "landline",
+      "phonetic": "/ˈlændlaɪn/",
+      "pos": "n.",
+      "meaning": "固定电话；座机",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My grandparents still use a landline in the hall.",
+          "zh": "我祖父母还在用走廊里的座机。"
+        },
+        {
+          "en": "If my mobile has no signal, call the landline.",
+          "zh": "如果我的手机没信号，就打座机。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "mobile"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "land(陆地)+line(线)→线埋在地里、搬不走的电话→座机。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a landline number",
+          "call the landline"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-092",
+      "word": "phone number",
+      "phonetic": "/ˈfəʊn ˌnʌmbə(r)/",
+      "pos": "n.",
+      "meaning": "电话号码",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Write your phone number on the form so we can contact you.",
+          "zh": "把你的电话号码写在表格上，以便我们联系你。"
+        },
+        {
+          "en": "I have changed my phone number since last year.",
+          "zh": "从去年起我换了电话号码。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "phone(电话)+number(号码)→电话号码；换号码用 change。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "exchange phone numbers",
+          "a mobile phone number"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-093",
+      "word": "ringtone",
+      "phonetic": "/ˈrɪŋtəʊn/",
+      "pos": "n.",
+      "meaning": "手机铃声",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "His ringtone is a funny song from a cartoon.",
+          "zh": "他的手机铃声是一首动画片里的搞笑歌。"
+        },
+        {
+          "en": "Please turn your ringtone off during the exam.",
+          "zh": "考试期间请把手机铃声关掉。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "ring(响)+tone(音调)→手机响时的音调→铃声。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "change your ringtone",
+          "a loud ringtone"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-094",
+      "word": "voicemail",
+      "phonetic": "/ˈvɔɪsmeɪl/",
+      "pos": "n.",
+      "meaning": "语音信箱；语音留言",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I left a voicemail because she didn't pick up.",
+          "zh": "她没接电话，所以我留了语音留言。"
+        },
+        {
+          "en": "Check your voicemail; the coach called about tomorrow's match.",
+          "zh": "查一下你的语音信箱，教练来电说明天比赛的事。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "voice(声音)+mail(邮件)→用声音留下的邮件→语音留言。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "leave a voicemail",
+          "check your voicemail"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-095",
+      "word": "text message",
+      "phonetic": "/ˈtekst ˌmesɪdʒ/",
+      "pos": "n.",
+      "meaning": "短信",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Send me a text message when you arrive at the station.",
+          "zh": "你到车站时给我发条短信。"
+        },
+        {
+          "en": "I got a text message from the library about my books.",
+          "zh": "我收到图书馆关于我借的书的短信。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "text(文字)+message(消息)→文字消息→短信。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "send a text message",
+          "get a text message"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-096",
+      "word": "engaged",
+      "phonetic": "/ɪnˈɡeɪdʒd/",
+      "pos": "adj.",
+      "meaning": "（电话）占线的；忙的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I rang the office but the line was engaged.",
+          "zh": "我打给办公室，但电话占线。"
+        },
+        {
+          "en": "Her number has been engaged for the last twenty minutes.",
+          "zh": "过去二十分钟她的电话一直占线。"
+        }
+      ],
+      "synonyms": [
+        "busy"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "engaged 本义「被占用」——电话被占着就是占线；也指「订婚了」（人被占了）。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "the line is engaged",
+          "an engaged tone"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-097",
+      "word": "mobile phone",
+      "phonetic": "/ˌməʊbaɪl ˈfəʊn/",
+      "pos": "n.",
+      "meaning": "手机",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Mobile phones must be switched off in the exam hall.",
+          "zh": "考场内必须关闭手机。"
+        },
+        {
+          "en": "My mobile phone battery dies too quickly these days.",
+          "zh": "这些天我的手机电池耗得太快了。"
+        }
+      ],
+      "synonyms": [
+        "mobile"
+      ],
+      "antonyms": [
+        "landline"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "mobile(可移动的)+phone(电话)→能带着走的电话→手机；英式说 mobile，美式说 cell phone。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "switch off your mobile phone",
+          "a mobile phone number"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-098",
+      "word": "get in touch",
+      "phonetic": "/ɡet ɪn tʌtʃ/",
+      "pos": "phr.",
+      "meaning": "取得联系",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Get in touch with me if you have any questions.",
+          "zh": "如果有任何问题，请联系我。"
+        },
+        {
+          "en": "I want to get in touch with my old classmates from primary school.",
+          "zh": "我想联系上我小学的老同学。"
+        }
+      ],
+      "synonyms": [
+        "contact"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "touch(碰)→伸手能碰到对方→联系上了；get 是「取得」。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "get in touch with",
+          "get in touch by email"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-099",
+      "word": "keep in touch",
+      "phonetic": "/kiːp ɪn tʌtʃ/",
+      "pos": "phr.",
+      "meaning": "保持联系",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We promised to keep in touch after the summer camp.",
+          "zh": "夏令营结束后我们约定保持联系。"
+        },
+        {
+          "en": "Video calls help me keep in touch with my cousins abroad.",
+          "zh": "视频通话帮我和国外的表亲保持联系。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "keep(保持)+in touch(在联系中)→一直碰得到对方→保持联系。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "keep in touch with",
+          "keep in touch by"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-100",
+      "word": "lose touch",
+      "phonetic": "/luːz tʌtʃ/",
+      "pos": "phr.",
+      "meaning": "失去联系",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I lost touch with Ben after he moved to Canada.",
+          "zh": "本搬去加拿大后，我和他失去了联系。"
+        },
+        {
+          "en": "Don't lose touch; write to me sometimes.",
+          "zh": "别断了联系，偶尔给我写信。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "keep in touch"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "lose(失去)+touch(联系)→再也碰不到对方→失联。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "lose touch with",
+          "lose touch completely"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-101",
+      "word": "contact details",
+      "phonetic": "/ˈkɒntækt ˌdiːteɪlz/",
+      "pos": "n.",
+      "meaning": "联系方式",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please write your contact details at the bottom of the form.",
+          "zh": "请在表格底部写上你的联系方式。"
+        },
+        {
+          "en": "The club keeps the contact details of every member.",
+          "zh": "俱乐部保存着每位成员的联系方式。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "contact(联系)+details(细节)→联系用的详细信息：电话、邮箱、地址。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "give your contact details",
+          "update your contact details"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-102",
+      "word": "in person",
+      "phonetic": "/ɪn ˈpɜːsn/",
+      "pos": "phr.",
+      "meaning": "亲自；当面",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "It's better to say sorry in person than by text.",
+          "zh": "当面道歉比发短信道歉好。"
+        },
+        {
+          "en": "You must collect the prize in person at the office.",
+          "zh": "你必须亲自到办公室领奖。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "online"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "in person→「以本人的形式」出现→亲自、当面。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "meet in person",
+          "in person or online"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-103",
+      "word": "face to face",
+      "phonetic": "/ˌfeɪs tə ˈfeɪs/",
+      "pos": "phr.",
+      "meaning": "面对面",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We finally met face to face after chatting online for months.",
+          "zh": "网聊了几个月后，我们终于面对面见了。"
+        },
+        {
+          "en": "A face-to-face talk solves problems faster than messages.",
+          "zh": "面对面交谈比发消息解决问题更快。"
+        }
+      ],
+      "synonyms": [
+        "in person"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "face(脸)对着 face(脸)→两张脸对着→面对面；做定语加连字符。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "meet face to face",
+          "a face-to-face conversation"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-104",
+      "word": "postbox",
+      "phonetic": "/ˈpəʊstbɒks/",
+      "pos": "n.",
+      "meaning": "邮筒；信箱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Drop the letter in the red postbox on the corner.",
+          "zh": "把信投进拐角处的红色邮筒。"
+        },
+        {
+          "en": "The postbox is emptied twice a day on weekdays.",
+          "zh": "工作日邮筒每天清空两次。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "post(邮寄)+box(箱子)→寄信的箱子→邮筒；英国的是红色的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a red postbox",
+          "put a letter in the postbox"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-105",
+      "word": "postman",
+      "phonetic": "/ˈpəʊstmən/",
+      "pos": "n.",
+      "meaning": "邮递员",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The postman brings our letters at about nine every morning.",
+          "zh": "邮递员每天早上九点左右送信来。"
+        },
+        {
+          "en": "Our postman knows the name of every dog in the street.",
+          "zh": "我们的邮递员认识这条街上每条狗的名字。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "post(邮件)+man(人)→送邮件的人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "the postman comes",
+          "a friendly postman"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-106",
+      "word": "package",
+      "phonetic": "/ˈpækɪdʒ/",
+      "pos": "n.",
+      "meaning": "包裹",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A package arrived for you while you were at school.",
+          "zh": "你上学时有个包裹送来了。"
+        },
+        {
+          "en": "I need to post this package to my pen friend in Spain.",
+          "zh": "我要把这个包裹寄给我在西班牙的笔友。"
+        }
+      ],
+      "synonyms": [
+        "parcel"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "pack(打包)+age(名词)→打包好的东西→包裹；英式更常说 parcel。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "send a package",
+          "a package arrives"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-107",
+      "word": "postcode",
+      "phonetic": "/ˈpəʊstkəʊd/",
+      "pos": "n.",
+      "meaning": "邮政编码",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't forget to write the postcode on the envelope.",
+          "zh": "别忘了在信封上写邮政编码。"
+        },
+        {
+          "en": "Type your postcode to find the nearest library.",
+          "zh": "输入你的邮政编码，找到最近的图书馆。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "post(邮政)+code(代码)→邮政用的代码→邮编；美式叫 zip code。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "write the postcode",
+          "enter your postcode"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-108",
+      "word": "sender",
+      "phonetic": "/ˈsendə(r)/",
+      "pos": "n.",
+      "meaning": "发件人；寄件人",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sender forgot to put a stamp on the letter.",
+          "zh": "寄件人忘了在信上贴邮票。"
+        },
+        {
+          "en": "Check the sender before you open a strange email.",
+          "zh": "打开奇怪的邮件前先看看发件人。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "receiver"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "send(寄)+er(人)→寄东西的人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "the sender's address",
+          "return to sender"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-109",
+      "word": "receiver",
+      "phonetic": "/rɪˈsiːvə(r)/",
+      "pos": "n.",
+      "meaning": "接收者；收件人；听筒",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The receiver of the parcel must sign for it.",
+          "zh": "包裹的收件人必须签收。"
+        },
+        {
+          "en": "She picked up the receiver and said hello.",
+          "zh": "她拿起听筒说了声喂。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "sender"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "receive(收到)+er(人/物)→收东西的人；也指拿在手里「接收」声音的听筒。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "the receiver's name",
+          "pick up the receiver"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-110",
+      "word": "notice",
+      "phonetic": "/ˈnəʊtɪs/",
+      "pos": "n./v.",
+      "meaning": "通知；布告；注意到",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "There is a notice on the door about the closed pool.",
+          "zh": "门上有一张关于游泳池关闭的通知。"
+        },
+        {
+          "en": "Did you notice the new poster in the corridor?",
+          "zh": "你注意到走廊里的新海报了吗？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "not(知道,同 note)+ice→让人知道的东西→通知；作动词就是「注意到」。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "put up a notice",
+          "notice that"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-111",
+      "word": "symbol",
+      "phonetic": "/ˈsɪmbl/",
+      "pos": "n.",
+      "meaning": "符号；象征",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The heart symbol on the map shows the first-aid room.",
+          "zh": "地图上的心形符号表示急救室。"
+        },
+        {
+          "en": "A dove is often used as a symbol of peace.",
+          "zh": "鸽子常被用作和平的象征。"
+        }
+      ],
+      "synonyms": [
+        "sign"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "symbol 谐音「醒目」——符号要「醒目」，一眼看懂。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a symbol of",
+          "use a symbol"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-112",
+      "word": "alphabet",
+      "phonetic": "/ˈælfəbet/",
+      "pos": "n.",
+      "meaning": "字母表",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The English alphabet has twenty-six letters, and I know them all.",
+          "zh": "英语字母表有二十六个字母，我全都认识。"
+        },
+        {
+          "en": "My little sister can sing the whole alphabet now.",
+          "zh": "我妹妹现在能唱完整个字母表了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "alpha+beta 是希腊字母的前两个——连起来就是「字母表」。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "the English alphabet",
+          "learn the alphabet"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-113",
+      "word": "capital letter",
+      "phonetic": "/ˌkæpɪtl ˈletə(r)/",
+      "pos": "n.",
+      "meaning": "大写字母",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Every sentence should begin with a capital letter.",
+          "zh": "每个句子都应以大写字母开头。"
+        },
+        {
+          "en": "Names of countries are written with a capital letter.",
+          "zh": "国家名要用大写字母书写。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "capital 是「首都、首要的」——排在最「首」的大字母就是大写。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "begin with a capital letter",
+          "in capital letters"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-114",
+      "word": "comma",
+      "phonetic": "/ˈkɒmə/",
+      "pos": "n.",
+      "meaning": "逗号",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Put a comma between the items in a list.",
+          "zh": "在列表的各项之间加逗号。"
+        },
+        {
+          "en": "You need a comma after the word however here.",
+          "zh": "这里 however 后面需要一个逗号。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "comma 谐音「靠嘛」——「靠嘛，先停一下」，逗号就是句中的小停顿。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "put a comma",
+          "a comma after"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-115",
+      "word": "full stop",
+      "phonetic": "/ˌfʊl ˈstɒp/",
+      "pos": "n.",
+      "meaning": "句号",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Remember to end each sentence with a full stop.",
+          "zh": "记得每个句子结尾加句号。"
+        },
+        {
+          "en": "A full stop tells the reader the idea is finished.",
+          "zh": "句号告诉读者这个意思说完了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "full(完全)+stop(停)→完全停下→句号；美式叫 period。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "end with a full stop",
+          "put a full stop"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-116",
+      "word": "question mark",
+      "phonetic": "/ˈkwestʃən mɑːk/",
+      "pos": "n.",
+      "meaning": "问号",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Add a question mark at the end of your question.",
+          "zh": "在你的问句末尾加上问号。"
+        },
+        {
+          "en": "The message ended with three question marks.",
+          "zh": "那条消息以三个问号结尾。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "question(问题)+mark(标记)→问题的标记→问号。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a question mark at the end",
+          "put a question mark"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-117",
+      "word": "exclamation mark",
+      "phonetic": "/ˌekskləˈmeɪʃn mɑːk/",
+      "pos": "n.",
+      "meaning": "感叹号",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Use an exclamation mark to show strong feeling.",
+          "zh": "用感叹号来表达强烈的情感。"
+        },
+        {
+          "en": "Don't put an exclamation mark after every sentence in your essay.",
+          "zh": "别在作文里每句话后都加感叹号。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "ex(向外)+claim(喊)+ation→喊出来的标记→感叹号。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an exclamation mark",
+          "end with an exclamation mark"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-118",
+      "word": "sentence",
+      "phonetic": "/ˈsentəns/",
+      "pos": "n.",
+      "meaning": "句子",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Write a sentence using the new word from today.",
+          "zh": "用今天的新单词写一个句子。"
+        },
+        {
+          "en": "Her first sentence made the whole class laugh.",
+          "zh": "她的第一句话就让全班笑了起来。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "sentence 里有 sense(意思)——能表达一个完整意思的一串词就是句子。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "write a sentence",
+          "a complete sentence"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-119",
+      "word": "signature",
+      "phonetic": "/ˈsɪɡnətʃə(r)/",
+      "pos": "n.",
+      "meaning": "签名",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The form needs your parent's signature at the bottom.",
+          "zh": "表格底部需要你家长的签名。"
+        },
+        {
+          "en": "I practised my signature so it looks more grown-up.",
+          "zh": "我练习了签名，让它看起来更成熟。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sign(签)+ature(名词)→签下的名字→签名。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "put your signature",
+          "a parent's signature"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-120",
+      "word": "sign language",
+      "phonetic": "/ˈsaɪn ˌlæŋɡwɪdʒ/",
+      "pos": "n.",
+      "meaning": "手语",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Our school is starting a sign language club this term.",
+          "zh": "我们学校本学期要开设手语社团。"
+        },
+        {
+          "en": "She uses sign language to talk with her deaf friend.",
+          "zh": "她用手语和失聪的朋友交流。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sign(手势)+language(语言)→用手势说的语言→手语。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "learn sign language",
+          "use sign language"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-121",
+      "word": "body language",
+      "phonetic": "/ˈbɒdi ˌlæŋɡwɪdʒ/",
+      "pos": "n.",
+      "meaning": "肢体语言",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "His body language showed he was nervous about the speech.",
+          "zh": "他的肢体语言显示他对演讲很紧张。"
+        },
+        {
+          "en": "Crossed arms are body language that can look unfriendly.",
+          "zh": "双臂交叉这种肢体语言可能显得不友好。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "body(身体)+language(语言)→身体在「说话」→肢体语言。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "read body language",
+          "positive body language"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-122",
+      "word": "nod",
+      "phonetic": "/nɒd/",
+      "pos": "v.",
+      "meaning": "点头",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She nodded to show that she agreed with the plan.",
+          "zh": "她点头表示同意这个计划。"
+        },
+        {
+          "en": "The teacher nodded and let me go to the toilet.",
+          "zh": "老师点了点头，让我去上厕所。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "shake your head"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "nod 谐音「挪的」——脑袋往下「挪的」一下就是点头。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "nod your head",
+          "nod in agreement"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-123",
+      "word": "shake hands",
+      "phonetic": "/ʃeɪk hændz/",
+      "pos": "phr.",
+      "meaning": "握手",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The two captains shook hands before the match began.",
+          "zh": "比赛开始前两位队长握了手。"
+        },
+        {
+          "en": "In Britain people usually shake hands when they first meet.",
+          "zh": "在英国，人们初次见面通常握手。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "shake(摇)+hands(手)→两只手握在一起摇→握手。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "shake hands with sb",
+          "shake hands firmly"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-124",
+      "word": "eye contact",
+      "phonetic": "/ˈaɪ ˌkɒntækt/",
+      "pos": "n.",
+      "meaning": "目光接触；眼神交流",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Make eye contact with the audience when you give a talk.",
+          "zh": "演讲时要和观众有眼神交流。"
+        },
+        {
+          "en": "The shy boy avoided eye contact with the new teacher.",
+          "zh": "那个害羞的男孩避开了新老师的目光。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "eye(眼睛)+contact(接触)→眼睛碰眼睛→目光交流。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "make eye contact",
+          "avoid eye contact"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-125",
+      "word": "polite",
+      "phonetic": "/pəˈlaɪt/",
+      "pos": "adj.",
+      "meaning": "有礼貌的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "It is polite to say thank you when someone helps you.",
+          "zh": "别人帮助你时说谢谢是有礼貌的。"
+        },
+        {
+          "en": "The polite waiter opened the door for the old lady.",
+          "zh": "那位有礼貌的服务员为老太太开了门。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "rude"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "polite 里有 lite(轻)——说话轻声细语、客客气气→有礼貌的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "be polite to sb",
+          "a polite way"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-126",
+      "word": "politely",
+      "phonetic": "/pəˈlaɪtli/",
+      "pos": "adv.",
+      "meaning": "有礼貌地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He politely asked the man to move his bag.",
+          "zh": "他礼貌地请那个人挪一下包。"
+        },
+        {
+          "en": "Always answer the phone politely at work.",
+          "zh": "上班时接电话一定要有礼貌。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "rudely"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "polite(礼貌的)+ly(副词)→有礼貌地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "ask politely",
+          "politely refuse"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-127",
+      "word": "fluent",
+      "phonetic": "/ˈfluːənt/",
+      "pos": "adj.",
+      "meaning": "流利的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "After two years in London, she is fluent in English.",
+          "zh": "在伦敦两年后，她英语说得很流利。"
+        },
+        {
+          "en": "I want to be a fluent speaker of Spanish one day.",
+          "zh": "我希望有一天能说一口流利的西班牙语。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "flu(流,同 flow)+ent(形容词)→话像水一样流出来→流利的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "fluent in",
+          "a fluent speaker"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-128",
+      "word": "fluently",
+      "phonetic": "/ˈfluːəntli/",
+      "pos": "adv.",
+      "meaning": "流利地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My cousin speaks three languages fluently after living abroad.",
+          "zh": "我表姐在国外生活后能流利地说三种语言。"
+        },
+        {
+          "en": "Read the paragraph fluently without stopping at every word.",
+          "zh": "流利地读这一段，别每个词都停顿。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "fluent(流利的)+ly(副词)→流利地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "speak fluently",
+          "read fluently"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-129",
+      "word": "clear",
+      "phonetic": "/klɪə(r)/",
+      "pos": "adj.",
+      "meaning": "清楚的；清晰的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The instructions were clear, so we finished the model quickly.",
+          "zh": "说明很清楚，所以我们很快就完成了模型。"
+        },
+        {
+          "en": "Is it clear what you need to do for homework?",
+          "zh": "作业要做什么，你清楚了吗？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "confusing"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "clear 本义「透明、干净」——话说得像清水一样透明，就是清楚的。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "make sth clear",
+          "a clear explanation"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-communication-130",
+      "word": "clearly",
+      "phonetic": "/ˈklɪəli/",
+      "pos": "adv.",
+      "meaning": "清楚地；显然",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please speak clearly so everyone at the back can hear.",
+          "zh": "请说清楚些，让后排的人都能听见。"
+        },
+        {
+          "en": "Clearly, the dog had eaten the whole cake.",
+          "zh": "显然，狗把整个蛋糕都吃了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "clear(清楚的)+ly(副词)→清楚地；句首用表示「显然」。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "speak clearly",
+          "explain clearly"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-131",
+      "word": "confusing",
+      "phonetic": "/kənˈfjuːzɪŋ/",
+      "pos": "adj.",
+      "meaning": "令人困惑的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The map was so confusing that we got lost twice.",
+          "zh": "这张地图太令人困惑了，我们迷路了两次。"
+        },
+        {
+          "en": "His confusing message made me miss the meeting.",
+          "zh": "他那条含糊不清的消息害我错过了会议。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "clear"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "confused 是人糊涂了，confusing 是事让人糊涂——ing 形容事物。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a confusing message",
+          "confusing instructions"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-132",
+      "word": "chatty",
+      "phonetic": "/ˈtʃæti/",
+      "pos": "adj.",
+      "meaning": "爱聊天的；健谈的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The chatty girl next to me talked all the way home.",
+          "zh": "坐我旁边那个爱聊天的女孩一路上都在说话。"
+        },
+        {
+          "en": "My grandad gets very chatty after a cup of tea.",
+          "zh": "我爷爷喝了一杯茶后变得非常健谈。"
+        }
+      ],
+      "synonyms": [
+        "talkative"
+      ],
+      "antonyms": [
+        "quiet"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "chat(聊天)+ty(形容词)→老想聊天的→健谈的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a chatty person",
+          "get chatty"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-133",
+      "word": "talkative",
+      "phonetic": "/ˈtɔːkətɪv/",
+      "pos": "adj.",
+      "meaning": "健谈的；话多的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "He is so talkative that the teacher moved his seat.",
+          "zh": "他话太多了，老师把他的座位换了。"
+        },
+        {
+          "en": "I'm not very talkative in the morning before breakfast.",
+          "zh": "早餐前的早晨我不太爱说话。"
+        }
+      ],
+      "synonyms": [
+        "chatty"
+      ],
+      "antonyms": [
+        "silent"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "talk(说话)+ative(形容词,同 active)→一直在说话的→健谈的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a talkative child",
+          "become talkative"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-134",
+      "word": "aloud",
+      "phonetic": "/əˈlaʊd/",
+      "pos": "adv.",
+      "meaning": "出声地；大声地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Read the poem aloud so the class can hear the rhythm.",
+          "zh": "把这首诗读出声来，让全班听到节奏。"
+        },
+        {
+          "en": "I laughed aloud when the cat fell off the chair.",
+          "zh": "猫从椅子上掉下来时我笑出了声。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "a+loud(大声的)→声音大到能听见→出声地；不是 allowed(允许)。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "read aloud",
+          "think aloud"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-135",
+      "word": "bilingual",
+      "phonetic": "/ˌbaɪˈlɪŋɡwəl/",
+      "pos": "adj.",
+      "meaning": "双语的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My bilingual friend speaks Welsh at home and English at school.",
+          "zh": "我那位会双语的朋友在家说威尔士语，在学校说英语。"
+        },
+        {
+          "en": "The museum has bilingual signs in English and French.",
+          "zh": "博物馆有英法双语的标牌。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "bi(二,同 bicycle)+lingual(语言的)→会两种语言的→双语的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a bilingual school",
+          "be bilingual in"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-136",
+      "word": "native",
+      "phonetic": "/ˈneɪtɪv/",
+      "pos": "adj.",
+      "meaning": "本土的；母语的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Our English teacher is a native speaker from Ireland.",
+          "zh": "我们的英语老师是来自爱尔兰的母语使用者。"
+        },
+        {
+          "en": "Kangaroos are native to Australia and live nowhere else in the wild.",
+          "zh": "袋鼠原产于澳大利亚，野外别处都没有。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "nat(出生,同 nation)+ive(形容词)→从出生就带着的→本土的、母语的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a native speaker",
+          "native to"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-137",
+      "word": "briefly",
+      "phonetic": "/ˈbriːfli/",
+      "pos": "adv.",
+      "meaning": "简短地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Briefly explain why you chose this book for the project.",
+          "zh": "简短地解释一下你为什么为这个项目选了这本书。"
+        },
+        {
+          "en": "We spoke briefly on the phone before she left.",
+          "zh": "她离开前我们在电话里简短地聊了几句。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "brief(简短的)+ly(副词)→简短地。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "explain briefly",
+          "speak briefly"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-138",
+      "word": "frankly",
+      "phonetic": "/ˈfræŋkli/",
+      "pos": "adv.",
+      "meaning": "坦率地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Frankly, I think the second story is much better.",
+          "zh": "坦率地说，我觉得第二个故事好得多。"
+        },
+        {
+          "en": "She spoke frankly about how hard the exam was.",
+          "zh": "她坦率地谈了考试有多难。"
+        }
+      ],
+      "synonyms": [
+        "honestly"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "frankly 谐音「放开了」——「放开了」说，就是坦率地说。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "frankly speaking",
+          "speak frankly"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-139",
+      "word": "speak up",
+      "phonetic": "/spiːk ʌp/",
+      "pos": "phr.",
+      "meaning": "大声点说；说出想法",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Speak up, please; we can't hear you at the back.",
+          "zh": "请大声点，后面听不见。"
+        },
+        {
+          "en": "If you think something is unfair, you should speak up.",
+          "zh": "如果你觉得有什么不公平，就应该说出来。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "speak(说)+up(向上)→把声音抬高→大声说；也指勇敢地把想法说出来。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "speak up for",
+          "speak up about"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-140",
+      "word": "point out",
+      "phonetic": "/pɔɪnt aʊt/",
+      "pos": "phr.",
+      "meaning": "指出",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The teacher pointed out two mistakes in my essay.",
+          "zh": "老师指出了我作文里的两个错误。"
+        },
+        {
+          "en": "Can you point out the town hall on this map?",
+          "zh": "你能在这张地图上指出市政厅吗？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "point(用手指)+out(出来)→用手指出来→指出。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "point out that",
+          "point out a mistake"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-141",
+      "word": "make sense",
+      "phonetic": "/meɪk sens/",
+      "pos": "phr.",
+      "meaning": "讲得通；有道理",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Her explanation makes sense now that I've seen the photo.",
+          "zh": "看了照片以后，她的解释就说得通了。"
+        },
+        {
+          "en": "This sentence doesn't make sense without a verb.",
+          "zh": "这个句子没有动词就讲不通。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "make(制造)+sense(意义)→造出意义来→讲得通。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "make sense of",
+          "it makes sense to"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-142",
+      "word": "small talk",
+      "phonetic": "/ˈsmɔːl tɔːk/",
+      "pos": "n.",
+      "meaning": "闲聊；寒暄",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We made small talk about the weather while we waited.",
+          "zh": "我们等待时闲聊了几句天气。"
+        },
+        {
+          "en": "Some people find small talk at parties really difficult.",
+          "zh": "有些人觉得在聚会上寒暄真的很难。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "small(小)+talk(谈话)→不重要的小谈话→寒暄。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "make small talk",
+          "small talk about"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-143",
+      "word": "catch up",
+      "phonetic": "/kætʃ ʌp/",
+      "pos": "phr.",
+      "meaning": "叙旧；补上（近况）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Let's catch up over lunch; I haven't seen you for ages.",
+          "zh": "我们午饭时叙叙旧吧，好久没见你了。"
+        },
+        {
+          "en": "I need to catch up on the news from the last week.",
+          "zh": "我需要补一补上周的新闻。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "catch(抓住)+up(赶上)→把错过的消息赶上来→叙旧、补上。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "catch up with sb",
+          "catch up on"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-144",
+      "word": "let someone know",
+      "phonetic": "/let ˈsʌmwʌn nəʊ/",
+      "pos": "phr.",
+      "meaning": "告诉某人；通知某人",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Let me know if you can come to the picnic on Sunday.",
+          "zh": "如果你周日能来野餐就告诉我。"
+        },
+        {
+          "en": "I'll let the teacher know that you are ill.",
+          "zh": "我会告诉老师你病了。"
+        }
+      ],
+      "synonyms": [
+        "inform"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "let(让)+someone(某人)+know(知道)→让他知道→告知。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "let me know",
+          "let sb know about"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-145",
+      "word": "get across",
+      "phonetic": "/ɡet əˈkrɒs/",
+      "pos": "phr.",
+      "meaning": "把…讲清楚；传达",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Use pictures to get your idea across to the class.",
+          "zh": "用图片把你的想法向全班讲清楚。"
+        },
+        {
+          "en": "He struggled to get his message across in French.",
+          "zh": "他很难用法语把意思表达清楚。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "get(使到达)+across(穿过)→让想法穿过去到达对方脑子→讲清楚。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "get sth across",
+          "get your point across"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-146",
+      "word": "bring up",
+      "phonetic": "/brɪŋ ʌp/",
+      "pos": "phr.",
+      "meaning": "提起（话题）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Please don't bring up the lost match at dinner.",
+          "zh": "请别在晚饭时提输掉的那场比赛。"
+        },
+        {
+          "en": "She brought up a good question about the school rules.",
+          "zh": "她提出了一个关于校规的好问题。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "bring(带)+up(上来)→把话题带上桌面→提起。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "bring up a subject",
+          "bring up a question"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-147",
+      "word": "foreign language",
+      "phonetic": "/ˌfɒrən ˈlæŋɡwɪdʒ/",
+      "pos": "n.",
+      "meaning": "外语",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Learning a foreign language opens the door to new friends.",
+          "zh": "学一门外语能打开结交新朋友的大门。"
+        },
+        {
+          "en": "Which foreign language would you like to study next year?",
+          "zh": "明年你想学哪门外语？"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "foreign(外国的)+language(语言)→外国的语言→外语。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "learn a foreign language",
+          "speak a foreign language"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-148",
+      "word": "mother tongue",
+      "phonetic": "/ˈmʌðə tʌŋ/",
+      "pos": "n.",
+      "meaning": "母语",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Her mother tongue is Portuguese, but she also speaks English.",
+          "zh": "她的母语是葡萄牙语，但她也会说英语。"
+        },
+        {
+          "en": "Children learn their mother tongue without any lessons.",
+          "zh": "孩子们不用上课就能学会母语。"
+        }
+      ],
+      "synonyms": [
+        "first language"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "mother(母亲)+tongue(舌头)→从妈妈那里学来的话→母语。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "your mother tongue",
+          "speak in your mother tongue"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-149",
+      "word": "voice message",
+      "phonetic": "/ˈvɔɪs ˌmesɪdʒ/",
+      "pos": "n.",
+      "meaning": "语音消息",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She sent me a voice message instead of typing.",
+          "zh": "她没打字，而是给我发了条语音消息。"
+        },
+        {
+          "en": "I prefer a voice message when my hands are busy.",
+          "zh": "手忙的时候我更喜欢发语音消息。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "voice(声音)+message(消息)→用声音发的消息。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "send a voice message",
+          "listen to a voice message"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-150",
+      "word": "inbox",
+      "phonetic": "/ˈɪnbɒks/",
+      "pos": "n.",
+      "meaning": "收件箱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My inbox is full of emails from the school.",
+          "zh": "我的收件箱里全是学校发来的邮件。"
+        },
+        {
+          "en": "Check your inbox for the link to the online lesson.",
+          "zh": "查看你的收件箱，找到在线课程的链接。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "in(进来)+box(箱子)→进来的邮件放的箱子→收件箱。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "check your inbox",
+          "an empty inbox"
+        ]
+      }
+    },
+    {
+      "id": "pet-communication-151",
+      "word": "spam",
+      "phonetic": "/spæm/",
+      "pos": "n.",
+      "meaning": "垃圾邮件（信息）",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't open spam; it may contain a virus.",
+          "zh": "别打开垃圾邮件，里面可能有病毒。"
+        },
+        {
+          "en": "Most of the messages in this folder are spam.",
+          "zh": "这个文件夹里的大多数消息都是垃圾信息。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "communication"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "spam 谐音「死盘」——一「死盘」没用的广告信塞满信箱。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "spam emails",
+          "a spam folder"
+        ]
+      }
     }
   ]
 }

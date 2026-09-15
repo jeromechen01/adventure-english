@@ -859,7 +859,7 @@
 - [x] **feelings 36→152（fe62ee1）**：情绪形容词/名词化、-ed·-ing 辨析对 5 对、身体反应动词、情绪短语 9 条、情绪副词 6 个
 - [x] **money 36→127（a2d82a6）**：银行动作链/财务名词/价格变动/金钱短语 12 条/财富形容词；博彩词条配审慎文案
 - [x] 2026-09-15 进度文件对齐磁盘：PET 全库累计 **2350 词**（22 话题，跨话题重复 54=基线，check-data 全绿）
-- [ ] communication 36→~120
+- [x] **communication 36→151（+115）**：言语行为动词(announce·inform·warn·remind·persuade·convince·recommend·interrupt·admit·deny·claim·insist·beg·blame)/名词化(warning·reminder·recommendation·response·invitation·apology·misunderstanding)/电话动作链(dial·call back·put through·hold on·get through·leave a message·engaged·voicemail·landline)/联系短语(get·keep·lose in touch·in person·face to face)/邮政(postbox·postcode·sender·receiver·package)/书写符号(capital letter·comma·full stop·question mark·exclamation mark·alphabet·signature)/非语言(sign·body language·nod·shake hands·eye contact)/口语形容副词(fluent·chatty·talkative·aloud·bilingual·native·briefly·frankly)/沟通短语(speak up·point out·make sense·small talk·catch up·get across·bring up)；Schema+编码+去重全过（跨话题重复 54=基线），累计 2465
 - [ ] nature 36→~120
 - [ ] 收尾：全库校验 / smoke PET 页面实跑 / sw bump（topics.json 在壳预取清单 sw.js:76，且词库文件走内容缓存 cache-first）/ 八课零改动守卫 / preflight / 行为级回归 / 窄屏 / push
 
