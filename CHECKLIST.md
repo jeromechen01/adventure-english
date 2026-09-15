@@ -850,6 +850,21 @@
 
 ---
 
+## V0.5-PET-s1：PET 词库补完 · 第 1 会话（缓存 待收尾 bump，2026-09-02 开工 / 2026-09-15 续跑，🔄 进行中）
+
+> B 系列总结遗留待办 ③ 开工。范围：五个未扩话题 feelings / money / communication / nature（本会话）+ time 与新增 3 个 B1 话题（第 2 会话）。
+> 规则：官方 B1 词表不入库不粘贴，音标/中文/例句/记忆法/搭配 100% 原创；与 A2 重叠标 inKet（shared-a2-words.json 只读）；跨话题重复基线 54 只降不升；Schema 与既有 22 话题完全对齐不新增字段。
+
+- [x] **开工（1b0c8cf）**：五个未扩话题 inKet 背填 104 处（补齐 shared-a2 机制存量欠账）+ check-data.mjs 增 PET 词库常驻校验（字段口径/id 连号/totalWords/inKet 一致性/跨话题重复基线 54，preflight ② 项内生效）
+- [x] **feelings 36→152（fe62ee1）**：情绪形容词/名词化、-ed·-ing 辨析对 5 对、身体反应动词、情绪短语 9 条、情绪副词 6 个
+- [x] **money 36→127（a2d82a6）**：银行动作链/财务名词/价格变动/金钱短语 12 条/财富形容词；博彩词条配审慎文案
+- [x] 2026-09-15 进度文件对齐磁盘：PET 全库累计 **2350 词**（22 话题，跨话题重复 54=基线，check-data 全绿）
+- [ ] communication 36→~120
+- [ ] nature 36→~120
+- [ ] 收尾：全库校验 / smoke PET 页面实跑 / sw bump（topics.json 在壳预取清单 sw.js:76，且词库文件走内容缓存 cache-first）/ 八课零改动守卫 / preflight / 行为级回归 / 窄屏 / push
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
