@@ -1,0 +1,146 @@
+{
+  "$comment": "听力训练营 L01（PL0-4 样课）。脚本 100% 原创，题材：学校的一天；只练 Part 1 三图单选，5 题，每题一段 4-6 句短对话 + 3 张 SVG 图（icon 见 icons.json）。词汇 ≥95% 落在 KET A2 词表内，超出的词进 warmup。语速 0.8x（阶段一）。",
+  "id": "L01",
+  "title": "A Day at School",
+  "titleZh": "学校的一天",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [1],
+  "theme": "school",
+  "names": ["Tom", "Anna", "Ben", "Lucy", "Sam", "Green"],
+  "intro": "今天听的是校园里的五段小对话：几点出发、怎么去学校、午饭吃什么、下午做什么、放学在哪儿见。先把下面的词听熟。",
+  "warmup": [
+    { "word": "leave", "phonetic": "/liːv/", "meaning": "出发；离开" },
+    { "word": "early", "phonetic": "/ˈɜːli/", "meaning": "早的；早地" },
+    { "word": "garage", "phonetic": "/ˈɡærɑːʒ/", "meaning": "修车厂；车库" },
+    { "word": "raincoat", "phonetic": "/ˈreɪnkəʊt/", "meaning": "雨衣" },
+    { "word": "sandwich", "phonetic": "/ˈsænwɪtʃ/", "meaning": "三明治" },
+    { "word": "pasta", "phonetic": "/ˈpæstə/", "meaning": "意大利面" },
+    { "word": "sports hall", "phonetic": "/ˈspɔːts hɔːl/", "meaning": "体育馆" },
+    { "word": "paint", "phonetic": "/peɪnt/", "meaning": "画画；涂颜色" },
+    { "word": "library", "phonetic": "/ˈlaɪbrəri/", "meaning": "图书馆" },
+    { "word": "gate", "phonetic": "/ɡeɪt/", "meaning": "大门" }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        { "who": "Tom", "sex": "m", "text": "Mum, what time does the school bus leave tomorrow?" },
+        { "who": "Mum", "sex": "f", "text": "It usually leaves at eight o'clock, but tomorrow it's leaving at half past seven because of the school trip." },
+        { "who": "Tom", "sex": "m", "text": "Half past seven? That's early!" },
+        { "who": "Mum", "sex": "f", "text": "Yes, so you must get up at seven. I'll call you." }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What time does the school bus leave tomorrow?",
+          "options": [
+            { "icon": "clock-0700", "alt": "7:00" },
+            { "icon": "clock-0730", "alt": "7:30" },
+            { "icon": "clock-0800", "alt": "8:00" }
+          ],
+          "answer": 1,
+          "explain": "关键句是 but 后面的 tomorrow it's leaving at half past seven（7:30）。8 点是平时（usually）的出发时间，7 点是起床时间。听到 usually… but… 要警觉：答案常在 but 后面。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        { "who": "Anna", "sex": "f", "text": "Dad, can you drive me to school today? It's raining." },
+        { "who": "Dad", "sex": "m", "text": "Sorry, Anna, the car is at the garage today. Why don't you take the bus?" },
+        { "who": "Anna", "sex": "f", "text": "The bus is always late. I'll go by bike and wear my raincoat." },
+        { "who": "Dad", "sex": "m", "text": "All right. Be careful on the road." }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "How is Anna going to school today?",
+          "options": [
+            { "icon": "transport-car", "alt": "by car" },
+            { "icon": "transport-bus", "alt": "by bus" },
+            { "icon": "transport-bike", "alt": "by bike" }
+          ],
+          "answer": 2,
+          "explain": "三种交通工具都出现了：car 在修车厂去不了，bus 总是迟到，最后 Anna 说 I'll go by bike。选图题要听到最后一句再决定。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        { "who": "Lucy", "sex": "f", "text": "What are you having for lunch, Ben? Pizza again?" },
+        { "who": "Ben", "sex": "m", "text": "No, there's no pizza today. I wanted a sandwich, but they only had egg sandwiches, and I don't like eggs." },
+        { "who": "Lucy", "sex": "f", "text": "So what did you get?" },
+        { "who": "Ben", "sex": "m", "text": "Pasta with cheese. It's really nice!" }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is Ben having for lunch?",
+          "options": [
+            { "icon": "food-pizza", "alt": "pizza" },
+            { "icon": "food-sandwich", "alt": "a sandwich" },
+            { "icon": "food-pasta", "alt": "pasta" }
+          ],
+          "answer": 2,
+          "explain": "pizza 今天没有（there's no pizza today），sandwich 只有鸡蛋味的他不喜欢，最后拿的是 pasta。被问 what did you get 之后的那句才是答案。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        { "who": "Miss Green", "sex": "f", "text": "Listen, everyone. We can't use the sports hall this afternoon, so there's no football." },
+        { "who": "Sam", "sex": "m", "text": "Can we go swimming then, Miss Green?" },
+        { "who": "Miss Green", "sex": "f", "text": "The swimming pool is closed on Mondays. We're going to paint pictures in the art room." },
+        { "who": "Sam", "sex": "m", "text": "Great! I love painting." }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the class going to do this afternoon?",
+          "options": [
+            { "icon": "activity-football", "alt": "play football" },
+            { "icon": "activity-swimming", "alt": "go swimming" },
+            { "icon": "activity-painting", "alt": "paint pictures" }
+          ],
+          "answer": 2,
+          "explain": "football 因为体育馆用不了取消了，游泳池周一关门，老师最后说 We're going to paint pictures。going to 后面的动作才是要做的事。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        { "who": "Lucy", "sex": "f", "text": "Mum, where shall I meet you after school? At the school gate?" },
+        { "who": "Mum", "sex": "f", "text": "No, I have to go to the library first. Meet me in the park next to the library, near the big tree." },
+        { "who": "Lucy", "sex": "f", "text": "OK, and can we go to the shop after that? I need a new pen." },
+        { "who": "Mum", "sex": "f", "text": "Yes, if we have time." }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "Where is Lucy going to meet her mum after school?",
+          "options": [
+            { "icon": "place-library", "alt": "at the library" },
+            { "icon": "place-park", "alt": "in the park" },
+            { "icon": "place-shop", "alt": "at the shop" }
+          ],
+          "answer": 1,
+          "explain": "library 是妈妈自己先去的地方，shop 是见面之后可能去的地方，见面地点是 Meet me in the park。注意 first / after that 这些先后顺序词。"
+        }
+      ]
+    }
+  ]
+}

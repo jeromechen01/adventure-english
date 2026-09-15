@@ -85,6 +85,8 @@ function schemaFor(file) {
   if (p.endsWith('data/reader/index.json')) return 'data/reader/_schema.index.json';
   if (/data\/grammar\/g\d{2}\.json$/.test(p)) return 'data/grammar/_schema.lesson.json';
   if (/data\/reader\/v[1-4]\/r\d{3}\.json$/.test(p)) return 'data/reader/_schema.piece.json';
+  if (p.endsWith('data/exam/ket/listening/index.json')) return 'data/exam/ket/listening/_schema.index.json'; // PL0 听力训练营
+  if (/data\/exam\/ket\/listening\/l\d{2}\.json$/.test(p)) return 'data/exam/ket/listening/_schema.lesson.json';
   return null;
 }
 
@@ -159,7 +161,8 @@ function checkEncoding(file) {
 }
 
 const targets = process.argv.slice(2);
-const files = targets.length ? targets : ['data/grammar/index.json', 'data/reader/index.json'];
+const files = targets.length ? targets : ['data/grammar/index.json', 'data/reader/index.json', 'data/exam/ket/listening/index.json',
+  ...(existsSync('data/exam/ket/listening') ? readdirSync('data/exam/ket/listening').filter((f) => /^l\d{2}\.json$/.test(f)).map((f) => 'data/exam/ket/listening/' + f) : [])]; // PL0：听力课文件全量过 Schema
 
 let checked = 0;
 for (const f of files) {

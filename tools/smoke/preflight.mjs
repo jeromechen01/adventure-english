@@ -5,6 +5,7 @@
 //      （UTF-8 无 BOM / U+FFFD / mojibake 指纹 / 讲解文件 CJK 占比）
 //   ③ sw.js 登记核对        新增的 data/grammar/gXX.json、data/reader/**/rXXX.json
 //                            不需要登记（走运行时缓存）；但新增 JS 模块必须在 SHELL_URLS 里
+//   ⑤ check-listening.mjs 听力课题型/词汇边界（PL0 起）
 //   ④ ketLessonMap 核对     index.json 里的 ketLessonMap 只是副本，唯一事实源是
 //                            assets/js/utils/ket-hall-map.js；两处必须逐课一致（P2b 补丁）
 //
@@ -27,6 +28,7 @@ function run(name, args) {
 
 run('check-esm', ['--experimental-vm-modules', 'tools/check-esm.mjs']);
 run('check-data', ['tools/check-data.mjs']);
+run('check-listening', ['tools/check-listening.mjs']); // ⑤ PL0：听力课题型口径 + A2 词汇边界（≥95%，超纲词必须进 warmup）
 
 // ③ sw.js 登记核对：assets/js 下每个 .js 都应出现在 sw.js 里（壳文件全量预缓存）
 const sw = readFileSync('sw.js', 'utf8');

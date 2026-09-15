@@ -1,0 +1,20 @@
+{
+  "$comment": "KET 听力训练营课程索引（PL0）。只存元信息，正文在同目录 lXX.json 按需懒加载（运行时缓存）；本文件在 sw 壳预取清单，改动必须 bump CACHE_VERSION。字段定义见 _schema.index.json。全部脚本 100% 原创，音频由 Web Speech API 实时合成，不入库任何音频。",
+  "type": "ket-listening",
+  "version": "1.0",
+  "updated": "2026-09-16",
+  "rules": {
+    "maxPlaysMock": 2,
+    "maxPlaysPractice": 3,
+    "vocabCoverageMin": 0.95,
+    "steps": ["听前热身", "盲听答题", "对答案 + tapescript", "跟读"]
+  },
+  "stages": [
+    { "stage": 1, "name": "阶段一 · 起步", "rate": 0.8, "range": "L01-L10", "desc": "先攻 Part 1 三图选一，专抓时间、数字、地点、价格。语速 0.8x。" },
+    { "stage": 2, "name": "阶段二 · 加速", "rate": 0.9, "range": "L11-L30", "desc": "加入 Part 2 填空与 Part 3 三选一。语速 0.9x。" },
+    { "stage": 3, "name": "阶段三 · 全卷", "rate": 1.0, "range": "L31-L50", "desc": "Part 4 主旨与 Part 5 匹配，五部分连做。语速 1.0x。" }
+  ],
+  "lessons": [
+    { "id": "L01", "title": "A Day at School", "titleZh": "学校的一天", "stage": 1, "parts": [1], "questionCount": 5, "theme": "school", "file": "data/exam/ket/listening/l01.json", "status": "ready" }
+  ]
+}
