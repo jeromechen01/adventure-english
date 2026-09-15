@@ -844,13 +844,13 @@
 **遗留待办（V1.0 后按优先级）**：
 1. **浏览器后退 history 哨兵**——体检 IA 根因之一「无 history 栈」只做了 onclick 单一路径治理，浏览器物理后退键仍直接退出应用；需 pushState 哨兵方案
 2. **闯练/模考进度快照**——大厅闯关与模考中途退出不保存进度（答题态确认弹窗已防误触，但确认离开后本轮作废）；可做每题落盘的会话快照
-3. **PET 词库补完到 3500**——现 2143 词/22 话题（V0.5 扩充中断在 B 系列前）；PET 阅读 15 篇同步扩
+3. **PET 词库补完到 3500**——现 2571 词/22 话题（V0.5-PET-s1 第 1 会话：feelings/money/communication/nature 已扩，余 time + 新增 B1 话题）；PET 阅读 15 篇同步扩
 4. 内容主线（V0.9~1.0 扩容总纲）：四阶读本 P5-P7（reader 数据层 P0 已就位）
 5. 真实模型输出质量调优——家长实测四个 AI 点位后，按反馈迭代提示词（提示词全部集中在 utils/ai-chat.js）
 
 ---
 
-## V0.5-PET-s1：PET 词库补完 · 第 1 会话（缓存 待收尾 bump，2026-09-02 开工 / 2026-09-15 续跑，🔄 进行中）
+## V0.5-PET-s1：PET 词库补完 · 第 1 会话（缓存 `ea-v1.0.1`，2026-09-02 开工 / 2026-09-15~16 续跑，✅ 第 1 会话完成，⏸ 硬停机等家长验收）
 
 > B 系列总结遗留待办 ③ 开工。范围：五个未扩话题 feelings / money / communication / nature（本会话）+ time 与新增 3 个 B1 话题（第 2 会话）。
 > 规则：官方 B1 词表不入库不粘贴，音标/中文/例句/记忆法/搭配 100% 原创；与 A2 重叠标 inKet（shared-a2-words.json 只读）；跨话题重复基线 54 只降不升；Schema 与既有 22 话题完全对齐不新增字段。
@@ -861,7 +861,21 @@
 - [x] 2026-09-15 进度文件对齐磁盘：PET 全库累计 **2350 词**（22 话题，跨话题重复 54=基线，check-data 全绿）
 - [x] **communication 36→151（+115）**：言语行为动词(announce·inform·warn·remind·persuade·convince·recommend·interrupt·admit·deny·claim·insist·beg·blame)/名词化(warning·reminder·recommendation·response·invitation·apology·misunderstanding)/电话动作链(dial·call back·put through·hold on·get through·leave a message·engaged·voicemail·landline)/联系短语(get·keep·lose in touch·in person·face to face)/邮政(postbox·postcode·sender·receiver·package)/书写符号(capital letter·comma·full stop·question mark·exclamation mark·alphabet·signature)/非语言(sign·body language·nod·shake hands·eye contact)/口语形容副词(fluent·chatty·talkative·aloud·bilingual·native·briefly·frankly)/沟通短语(speak up·point out·make sense·small talk·catch up·get across·bring up)；Schema+编码+去重全过（跨话题重复 54=基线），累计 2465
 - [x] **nature 36→142（+106）**：地貌水体(volcano·lava·erupt·canyon·gorge·peak·summit·slope·ridge·mountain range·bay·shore·tide·current·seabed·coral·rock pool·sand dune·oasis·swamp·marsh·meadow·landscape·horizon·wilderness·nature reserve)/石头化石(pebble·boulder·crystal·fossil·dinosaur)/植物部件与种类(bush·hedge·trunk·twig·blossom·petal·bud·stem·thorn·moss·fern·weed·vine·pine·oak·palm tree·bamboo·cactus·rose·tulip·daisy·sunflower·acorn·pine cone·berry)/农事动词(harvest·bloom·grow·dig·pick·water·farmer·orchard)/天象(shadow·fog·dusk·universe·moonlight·full moon)/户外活动(camp·go camping·go hiking·trail·footpath·explorer·climber·viewpoint·hut·cottage·log·firewood·footprint·in the open air·in the wild)/地形形容词(rocky·sandy·steep·shallow·deep·leafy·shady)；Schema+编码+去重全过（跨话题重复 54=基线），累计 2571
-- [ ] 收尾：全库校验 / smoke PET 页面实跑 / sw bump（topics.json 在壳预取清单 sw.js:76，且词库文件走内容缓存 cache-first）/ 八课零改动守卫 / preflight / 行为级回归 / 窄屏 / push
+- [x] **全库校验**：check-data PET 常驻校验 22 话题 **2571 词**、跨话题重复 **54 = 基线**（四话题新词零引入重复）；Schema 全过；编码守卫 144 文件全过；四话题 inKet 与 shared-a2 只读清单一致（money 15 / communication 32 / nature 35）
+- [x] **PET 页面实跑**（临时页 _petcheck.html，真实时钟全新短路径 profile，跑完已删）：话题网格 22/22 ready 且四话题在列；四话题落地页词数 = 文件 totalWords = words.length（152/127/151/142），关数 = ⌈n/8⌉（19/16/19/18）；词卡：nature 第 1 词 mountain → 连点 36 次到第 37 词 volcano（本批首个新词）释义/例句/记忆法/搭配 chips×2/频率标签全渲染，进卡自动发音 + 🔊 手动发音均触发真实 speechSynthesis（非桩）；闯关引擎：communication 地图 19 节点、第 1 关 #playArea/#hud 加载、答错落盘 pet-communication-001、✕→确认→离开回地图且导航恢复；错题本：闯关错词 + 直接落盘的 pet-nature-100 都以「PET · 话题名」标签显示，单词分区计数 2，卡内 🔊 可发音
+- [x] **sw → ea-v1.0.1**（依据两条，任一都够）：① topics.json 在壳预取清单 sw.js:76（本批未改它，因为它没有词数字段，词数只在各 pet-*.json 的 totalWords）；② 词库 pet-*.json 走内容缓存 **cache-first**（sw.js handleContent 命中即回，不回源），不 bump 则访问过这四个话题的老客户端永远读 36 词旧文件——这是必须 bump 的真正原因，上一会话 feelings/money 扩完未 bump 也一并由本次覆盖
+- [x] 八课零改动守卫（对 tools/backup/v05-pet-s1，逐字段 + sha256）✔ preflight 四项 ✔（ESM 40 文件 / Schema+编码 / sw 登记 / ketLessonMap）
+- [x] **行为级回归**：B4 闭环 **6/6**（G01 环节 1 答 16 题→10 条 hall 错题 12 字段齐全→错题本 hall 分区显示→回看本课讲解落 G01 且带返回按钮→返回回 hall 分区→反向 chip「本课你有 10 道错题」→只看 G01 过滤视图）；modal-check 双跑（默认宽 + ?w=360）**0 false / 0 溢出 / 无死弹窗**（0.9.33 答题态 17 项、孤儿计时器、写作草稿回填未改坏）
+- [x] smoke **41 在线 + 30 离线零失败**（唯一 console error 为预期 g51 探针）；sw-check：唯一缓存 `english-adventure-ea-v1.0.1`、壳 57 项、真断网 504 兜底、清内容缓存不动壳 ✔
+- [x] 窄屏 shot ?w=360：PET 话题落地页（petlevels·nature）与词卡页（communication·识词）**零溢出零小热区**；话题网格页在默认无头窗口（viewport 970 触发 4 列媒体查询）报 4 列右缘 385——属坑 6/13 同族伪差，改 --window-size=500 让 2 列规则生效后复测 **零溢出**（真机 360 走 2 列）
+- 本批 commit：cf8b1e6 进度对齐 → bd8ec89 communication → 43b3f3f nature → 收尾 sw+CHECKLIST；连同上一会话 1b0c8cf/fe62ee1/a2d82a6 一次 push
+
+### 📌 第 2 会话续跑说明（家长验收本批后开工）
+- 范围：**time 34→~110** + **新增 3 个 B1 话题**（候选 society / science-tech / arts-culture / media / law-rules / abstract-concepts 中选 3，各 ~130 词）→ 目标累计 ~3100
+- 新话题要做的登记：新建 `data/pet/words/pet-<id>.json`（topic 字段 = 文件名，id 连号 pet-<id>-001 起）+ `data/pet/topics.json` 追加 {id,name,icon,file,status:'ready'}；check-data 按文件名 pet-*.json 自动纳入校验；topics.json 在壳预取清单 → 收尾必 bump sw（ea-v1.0.2 或按当时序号）
+- 去重：跨话题重复基线 54 只降不升；候选先过全库词表再写（communication 剔 67 处、nature 剔 130 处候选冲突，命中率高，务必先筛）；A2 重叠由 merge 自动打 inKet
+- 工艺：scratchpad petlib.mjs（globalMap / W() 构造式 / validate / merge 自动 id·inKet·totalWords）+ run.mjs；例句 8-15 词贴 11-13 岁生活；谐音「」内纯汉字；弱谐音宁改 root/assoc；一话题一 commit 同步 CHECKLIST 与 memory 进度文件；★ 改 CHECKLIST 用脚本文件 + replace 函数替换器（字符串里的 $ 与反引号会被 String.replace 当特殊模式，本批踩过一次）
+- 收尾照旧：check-data + preflight + untouched + 三件套（真实时钟、全新短路径 profile、测完杀光 eap 进程）+ PET 页面实跑 + B4 闭环 6 + 窄屏 shot（网格页记得 --window-size=500 复测）+ push 后硬停机
 
 ---
 
@@ -921,9 +935,9 @@
 - JS 模块：**36 个**（assets/js，含 exam/ 11 个 + grammar-hall/ 2 个 + utils/ 4 个，全部 check-esm 通过）+ `sw.js`
 - 数据文件：**144 个 JSON**（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
 - 语法大厅：**50/50 课全部完工**（基石 G01-G12 + 骨架 G13-G26 + 进阶 G27-G42 + 精修 G43-G50，共 3200 题 + 352 侦探病句 = 3552 个题干全局无重复）
-- KET 词库：**1416 词 / 20 话题**；PET 词库：**2143 词 / 22 话题**（V0.5 扩充中）；PET 阅读：**15 篇**
+- KET 词库：**1416 词 / 20 话题**；PET 词库：**2571 词 / 22 话题**（V0.5-PET-s1 第 1 会话后，第 2 会话续扩 time + 新话题）；PET 阅读：**15 篇**
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v0.9.5**（壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v1.0.1**（V0.5-PET-s1；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
 - 预缓存体积：**452 KB**（壳 44 项 + 索引 9 项；P2b 新增 `utils/ket-hall-map.js` 2 KB）；`data/` 内容 2,878 KB 走运行时缓存
 - 模块互链：KET 八课 ⇄ 语法大厅 双向跳转（P2b，映射表 `assets/js/utils/ket-hall-map.js`，八课内容零改动）
 - 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读
