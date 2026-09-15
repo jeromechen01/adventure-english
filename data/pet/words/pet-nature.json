@@ -3,7 +3,7 @@
   "topicName": "Nature 大自然",
   "icon": "🌳",
   "level": "B1",
-  "totalWords": 36,
+  "totalWords": 142,
   "words": [
     {
       "id": "pet-nature-001",
@@ -1302,6 +1302,3786 @@
         "collocations": [
           "get some fresh air",
           "breathe fresh air"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-037",
+      "word": "volcano",
+      "phonetic": "/vɒlˈkeɪnəʊ/",
+      "pos": "n.",
+      "meaning": "火山",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The volcano has not erupted for over two hundred years.",
+          "zh": "这座火山已经两百多年没有喷发了。"
+        },
+        {
+          "en": "We climbed to the top of the volcano to see the crater.",
+          "zh": "我们爬到火山顶去看火山口。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "volcano 来自罗马火神 Vulcan(伏尔甘)——火神住的山就是火山。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an active volcano",
+          "climb a volcano"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-038",
+      "word": "lava",
+      "phonetic": "/ˈlɑːvə/",
+      "pos": "n.",
+      "meaning": "熔岩；岩浆",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Red-hot lava flowed slowly down the side of the mountain.",
+          "zh": "炽热的熔岩沿着山坡缓缓流下。"
+        },
+        {
+          "en": "When lava cools, it turns into hard black rock.",
+          "zh": "熔岩冷却后会变成坚硬的黑色岩石。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "lava 谐音「辣哇」——烫得「辣哇」叫的岩浆。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "hot lava",
+          "a lava flow"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-039",
+      "word": "erupt",
+      "phonetic": "/ɪˈrʌpt/",
+      "pos": "v.",
+      "meaning": "（火山）喷发；爆发",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Scientists warned that the volcano could erupt at any time.",
+          "zh": "科学家警告说火山随时可能喷发。"
+        },
+        {
+          "en": "When the volcano erupted, ash covered the whole town.",
+          "zh": "火山喷发时，火山灰覆盖了整座城镇。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "e(向外)+rupt(破裂,同 interrupt)→向外炸裂开→喷发。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a volcano erupts",
+          "erupt suddenly"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-040",
+      "word": "canyon",
+      "phonetic": "/ˈkænjən/",
+      "pos": "n.",
+      "meaning": "峡谷",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The river cut a deep canyon through the red rock.",
+          "zh": "这条河在红色岩石中切出了一道深深的峡谷。"
+        },
+        {
+          "en": "We stood at the edge of the canyon and looked down.",
+          "zh": "我们站在峡谷边缘往下看。"
+        }
+      ],
+      "synonyms": [
+        "gorge"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "canyon 谐音「看眼」——站在边上「看一眼」都腿软的大峡谷。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a deep canyon",
+          "the bottom of the canyon"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-041",
+      "word": "gorge",
+      "phonetic": "/ɡɔːdʒ/",
+      "pos": "n.",
+      "meaning": "峡谷；山峡",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A narrow path runs along the side of the gorge.",
+          "zh": "一条窄路沿着山峡的一侧延伸。"
+        },
+        {
+          "en": "The stream at the bottom of the gorge is icy cold.",
+          "zh": "山峡底部的小溪冰冷刺骨。"
+        }
+      ],
+      "synonyms": [
+        "canyon"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "gorge 谐音「够挤」——两边山壁「够挤」的窄峡谷。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a narrow gorge",
+          "walk through the gorge"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-042",
+      "word": "peak",
+      "phonetic": "/piːk/",
+      "pos": "n.",
+      "meaning": "山峰；顶点",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Snow covers the highest peaks even in summer.",
+          "zh": "即使在夏天，最高的山峰也覆盖着雪。"
+        },
+        {
+          "en": "From the peak you can see three different lakes.",
+          "zh": "从山峰上你能看到三个不同的湖。"
+        }
+      ],
+      "synonyms": [
+        "summit",
+        "top"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "peak 的形状像尖尖的 A——山的尖顶就是山峰。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a mountain peak",
+          "reach the peak"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-043",
+      "word": "summit",
+      "phonetic": "/ˈsʌmɪt/",
+      "pos": "n.",
+      "meaning": "山顶；峰顶",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The climbers reached the summit just before sunrise.",
+          "zh": "登山者在日出前刚好抵达山顶。"
+        },
+        {
+          "en": "It took us six hours to get to the summit.",
+          "zh": "我们花了六个小时才到达峰顶。"
+        }
+      ],
+      "synonyms": [
+        "peak",
+        "top"
+      ],
+      "antonyms": [
+        "foot"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "sum(最高,同 sum 总和)+mit→最高的那一点→山顶。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "reach the summit",
+          "the summit of a mountain"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-044",
+      "word": "slope",
+      "phonetic": "/sləʊp/",
+      "pos": "n.",
+      "meaning": "斜坡；坡地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sheep were eating grass on the grassy slope.",
+          "zh": "羊群在长满草的斜坡上吃草。"
+        },
+        {
+          "en": "Be careful, the slope gets very steep near the top.",
+          "zh": "小心，靠近顶部的坡变得很陡。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "sl- 开头的词常和「滑」有关(slip, slide)——会滑下去的坡就是 slope。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a steep slope",
+          "a gentle slope"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-045",
+      "word": "ridge",
+      "phonetic": "/rɪdʒ/",
+      "pos": "n.",
+      "meaning": "山脊；山脉",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We walked along the ridge with valleys on both sides.",
+          "zh": "我们沿着山脊走，两边都是山谷。"
+        },
+        {
+          "en": "A line of trees grows along the top of the ridge.",
+          "zh": "一排树沿着山脊的顶部生长。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "ridge 和 bridge 只差一个字母——山脊像一座连接两座山的「桥」。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a mountain ridge",
+          "walk along the ridge"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-046",
+      "word": "mountain range",
+      "phonetic": "/ˈmaʊntɪn reɪndʒ/",
+      "pos": "n.",
+      "meaning": "山脉",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The Alps are the most famous mountain range in Europe.",
+          "zh": "阿尔卑斯山是欧洲最著名的山脉。"
+        },
+        {
+          "en": "A long mountain range separates the two countries.",
+          "zh": "一条长长的山脉把两个国家隔开。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "mountain(山)+range(一排,范围)→一排连着的山→山脉。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a mountain range",
+          "cross the mountain range"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-047",
+      "word": "hilltop",
+      "phonetic": "/ˈhɪltɒp/",
+      "pos": "n.",
+      "meaning": "山顶；小山顶",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "An old castle stands on the hilltop above the village.",
+          "zh": "一座古堡矗立在村庄上方的山顶上。"
+        },
+        {
+          "en": "We had a picnic on the hilltop and watched the clouds.",
+          "zh": "我们在小山顶上野餐，看着云朵。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "hill(小山)+top(顶)→小山的顶。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "on the hilltop",
+          "a hilltop village"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-048",
+      "word": "bay",
+      "phonetic": "/beɪ/",
+      "pos": "n.",
+      "meaning": "海湾",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Small fishing boats were floating quietly in the bay.",
+          "zh": "小渔船静静地漂在海湾里。"
+        },
+        {
+          "en": "The water in the bay is calm enough for swimming.",
+          "zh": "海湾里的水平静得可以游泳。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "bay 和 bye 同音——船说 bye 出海前停靠的弯弯海湾。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a quiet bay",
+          "across the bay"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-049",
+      "word": "shore",
+      "phonetic": "/ʃɔː(r)/",
+      "pos": "n.",
+      "meaning": "岸；海岸",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We walked along the shore and collected pretty shells.",
+          "zh": "我们沿着海岸走，捡漂亮的贝壳。"
+        },
+        {
+          "en": "The boat slowly came back to the shore before dark.",
+          "zh": "天黑前船慢慢回到了岸边。"
+        }
+      ],
+      "synonyms": [
+        "coast"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "shore 和 sure 同音——船上了岸，心里才 sure(踏实)。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "on the shore",
+          "walk along the shore"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-050",
+      "word": "seaside",
+      "phonetic": "/ˈsiːsaɪd/",
+      "pos": "n.",
+      "meaning": "海边；海滨",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Every August we spend a week at the seaside.",
+          "zh": "每年八月我们都去海边住一周。"
+        },
+        {
+          "en": "The seaside town is quiet in winter but busy in summer.",
+          "zh": "这个海滨小镇冬天安静，夏天热闹。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sea(海)+side(边)→海的旁边→海边。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "at the seaside",
+          "a seaside town"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-051",
+      "word": "sea",
+      "phonetic": "/siː/",
+      "pos": "n.",
+      "meaning": "海；海洋",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The sea was so calm that it looked like glass.",
+          "zh": "海面平静得像玻璃一样。"
+        },
+        {
+          "en": "We could hear the sea from our hotel window.",
+          "zh": "我们从酒店窗户就能听到海浪声。"
+        }
+      ],
+      "synonyms": [
+        "ocean"
+      ],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "see(看)和 sea(海)同音——站在岸边「看」到的一大片水就是海。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "by the sea",
+          "swim in the sea"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-052",
+      "word": "tide",
+      "phonetic": "/taɪd/",
+      "pos": "n.",
+      "meaning": "潮汐；潮水",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "When the tide goes out, you can walk to the island.",
+          "zh": "退潮时，你可以走到那座岛上。"
+        },
+        {
+          "en": "Check the tide times before you go to the beach.",
+          "zh": "去海滩前先查一下潮汐时间。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "tide 和 time 一样有规律——潮水按时间来去→潮汐。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "high tide",
+          "the tide comes in"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-053",
+      "word": "current",
+      "phonetic": "/ˈkʌrənt/",
+      "pos": "n.",
+      "meaning": "水流；气流",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Don't swim there; the current is too strong.",
+          "zh": "别在那里游泳，水流太急了。"
+        },
+        {
+          "en": "The current carried our little boat down the river.",
+          "zh": "水流把我们的小船带向河的下游。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "curr(跑)+ent→水在跑→水流；作形容词是「当前的」(正在跑着的时间)。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a strong current",
+          "swim against the current"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-054",
+      "word": "seabed",
+      "phonetic": "/ˈsiːbed/",
+      "pos": "n.",
+      "meaning": "海底；海床",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Divers found an old ship lying on the seabed.",
+          "zh": "潜水员发现了一艘躺在海底的古船。"
+        },
+        {
+          "en": "Strange fish live in the darkness of the seabed.",
+          "zh": "奇怪的鱼生活在海底的黑暗中。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sea(海)+bed(床)→海的床→海底。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "on the seabed",
+          "the deep seabed"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-055",
+      "word": "seashell",
+      "phonetic": "/ˈsiːʃel/",
+      "pos": "n.",
+      "meaning": "海贝壳",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My sister keeps every seashell she finds on holiday.",
+          "zh": "我妹妹把度假时捡到的每个海贝壳都留着。"
+        },
+        {
+          "en": "Hold the seashell to your ear and listen.",
+          "zh": "把海贝壳贴在耳边听一听。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sea(海)+shell(壳)→海里的壳→贝壳。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "collect seashells",
+          "a pretty seashell"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-056",
+      "word": "seaweed",
+      "phonetic": "/ˈsiːwiːd/",
+      "pos": "n.",
+      "meaning": "海草；海藻",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Green seaweed covered the rocks near the water.",
+          "zh": "水边的岩石上覆盖着绿色海藻。"
+        },
+        {
+          "en": "In Japan, seaweed is a common food.",
+          "zh": "在日本，海藻是一种常见的食物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sea(海)+weed(杂草)→海里的杂草→海藻。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a piece of seaweed",
+          "dried seaweed"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-057",
+      "word": "coral",
+      "phonetic": "/ˈkɒrəl/",
+      "pos": "n.",
+      "meaning": "珊瑚",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Bright fish swim between the pink and orange coral.",
+          "zh": "色彩鲜艳的鱼在粉色和橙色的珊瑚间游动。"
+        },
+        {
+          "en": "Warm water is slowly killing the coral in this area.",
+          "zh": "温暖的海水正在慢慢杀死这一带的珊瑚。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "coral 谐音「靠绕」——潜水要「靠绕」着珊瑚游，不能碰。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a coral reef",
+          "colourful coral"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-058",
+      "word": "rock pool",
+      "phonetic": "/ˈrɒk puːl/",
+      "pos": "n.",
+      "meaning": "岩石潮池",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We found tiny crabs hiding in a rock pool.",
+          "zh": "我们在岩石潮池里发现了藏着的小螃蟹。"
+        },
+        {
+          "en": "The rock pool fills with sea water when the tide comes in.",
+          "zh": "涨潮时岩石潮池会灌满海水。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "rock(岩石)+pool(水池)→岩石间留下的小水池。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "explore a rock pool",
+          "in the rock pool"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-059",
+      "word": "pool",
+      "phonetic": "/puːl/",
+      "pos": "n.",
+      "meaning": "水池；水塘",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A clear pool of water lay at the foot of the waterfall.",
+          "zh": "瀑布脚下有一汪清澈的水池。"
+        },
+        {
+          "en": "After the rain, there were pools of water on the path.",
+          "zh": "雨后小路上有一个个水洼。"
+        }
+      ],
+      "synonyms": [
+        "pond"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "swimming pool 的 pool 就是「一池水」——大自然里的也叫 pool。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a pool of water",
+          "a natural pool"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-060",
+      "word": "sand dune",
+      "phonetic": "/ˈsænd djuːn/",
+      "pos": "n.",
+      "meaning": "沙丘",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The children ran up and down the tall sand dunes.",
+          "zh": "孩子们在高高的沙丘上跑上跑下。"
+        },
+        {
+          "en": "Wind shapes the sand dunes differently every day.",
+          "zh": "风每天都把沙丘塑造成不同的形状。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sand(沙)+dune(丘)→沙堆成的小山→沙丘。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "climb a sand dune",
+          "tall sand dunes"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-061",
+      "word": "oasis",
+      "phonetic": "/əʊˈeɪsɪs/",
+      "pos": "n.",
+      "meaning": "绿洲",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The travellers rested at an oasis with palm trees and water.",
+          "zh": "旅行者在有棕榈树和水的绿洲休息。"
+        },
+        {
+          "en": "Finding an oasis in the desert felt like a miracle.",
+          "zh": "在沙漠里找到绿洲感觉像个奇迹。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "oasis 谐音「哦爱死」——沙漠里见到水，「哦，爱死了」。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a desert oasis",
+          "reach an oasis"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-062",
+      "word": "riverbank",
+      "phonetic": "/ˈrɪvəbæŋk/",
+      "pos": "n.",
+      "meaning": "河岸",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We sat on the riverbank and watched the ducks.",
+          "zh": "我们坐在河岸上看鸭子。"
+        },
+        {
+          "en": "Wild flowers grow all along the riverbank in spring.",
+          "zh": "春天河岸上开满了野花。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "river(河)+bank(岸)→河的岸；bank 不只是银行！"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "on the riverbank",
+          "along the riverbank"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-063",
+      "word": "swamp",
+      "phonetic": "/swɒmp/",
+      "pos": "n.",
+      "meaning": "沼泽；湿地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Tall grass and strange birds fill the swamp.",
+          "zh": "沼泽里长满了高高的草，还有奇怪的鸟。"
+        },
+        {
+          "en": "Our boots sank into the mud of the swamp.",
+          "zh": "我们的靴子陷进了沼泽的泥里。"
+        }
+      ],
+      "synonyms": [
+        "marsh"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "swamp 谐音「死网铺」——沼泽像一张泥「网」，一踩就陷。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a muddy swamp",
+          "cross the swamp"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-064",
+      "word": "marsh",
+      "phonetic": "/mɑːʃ/",
+      "pos": "n.",
+      "meaning": "沼泽；湿地",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Many birds come to the marsh to build their nests.",
+          "zh": "许多鸟来到湿地筑巢。"
+        },
+        {
+          "en": "The marsh floods every winter when the river rises.",
+          "zh": "每年冬天河水上涨时湿地都会被淹。"
+        }
+      ],
+      "synonyms": [
+        "swamp"
+      ],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "marsh 谐音「马湿」——马走过去腿都湿了的地方→沼泽。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a salt marsh",
+          "marsh birds"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-065",
+      "word": "meadow",
+      "phonetic": "/ˈmedəʊ/",
+      "pos": "n.",
+      "meaning": "草地；牧场",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Cows were lying in the meadow under the warm sun.",
+          "zh": "牛群躺在温暖阳光下的草地上。"
+        },
+        {
+          "en": "We picked flowers in the meadow behind the farm.",
+          "zh": "我们在农场后面的草地上采花。"
+        }
+      ],
+      "synonyms": [
+        "field"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "meadow 谐音「没道」——大草地上「没道」路，随便跑。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a green meadow",
+          "flowers in the meadow"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-066",
+      "word": "countryside",
+      "phonetic": "/ˈkʌntrisaɪd/",
+      "pos": "n.",
+      "meaning": "乡村；农村",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "My grandparents live in the countryside near a small river.",
+          "zh": "我祖父母住在一条小河附近的乡村。"
+        },
+        {
+          "en": "The air in the countryside smells fresh and clean.",
+          "zh": "乡村的空气闻起来清新干净。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "city"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "country(国家/乡下)+side(一边)→远离城市的那一边→乡村。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "in the countryside",
+          "the open countryside"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-067",
+      "word": "landscape",
+      "phonetic": "/ˈlændskeɪp/",
+      "pos": "n.",
+      "meaning": "风景；地貌",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The landscape changed from green hills to dry desert.",
+          "zh": "风景从绿色山丘变成了干旱的沙漠。"
+        },
+        {
+          "en": "She likes painting the landscape around her village.",
+          "zh": "她喜欢画村子周围的风景。"
+        }
+      ],
+      "synonyms": [
+        "scenery"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "land(陆地)+scape(景象)→陆地的景象→风景。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a beautiful landscape",
+          "a mountain landscape"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-068",
+      "word": "horizon",
+      "phonetic": "/həˈraɪzn/",
+      "pos": "n.",
+      "meaning": "地平线",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sun slowly sank below the horizon.",
+          "zh": "太阳慢慢沉到地平线以下。"
+        },
+        {
+          "en": "A tiny ship appeared on the horizon.",
+          "zh": "一艘小船出现在地平线上。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "horizon 本义「边界」——天和地的边界线→地平线。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "on the horizon",
+          "below the horizon"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-069",
+      "word": "wilderness",
+      "phonetic": "/ˈwɪldənəs/",
+      "pos": "n.",
+      "meaning": "荒野；旷野",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "They spent a week camping in the wilderness with no phones.",
+          "zh": "他们在荒野里露营了一周，没带手机。"
+        },
+        {
+          "en": "The wilderness is home to bears, wolves and eagles.",
+          "zh": "荒野是熊、狼和鹰的家。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "wild(野的)+er+ness(名词)→野得没人住的地方→荒野。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "in the wilderness",
+          "a wilderness area"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-070",
+      "word": "nature reserve",
+      "phonetic": "/ˈneɪtʃə rɪˌzɜːv/",
+      "pos": "n.",
+      "meaning": "自然保护区",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The nature reserve protects rare birds and their eggs.",
+          "zh": "这个自然保护区保护珍稀鸟类和它们的蛋。"
+        },
+        {
+          "en": "You cannot pick flowers inside the nature reserve.",
+          "zh": "在自然保护区内不能采花。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "nature(自然)+reserve(保留)→为自然保留的地方→自然保护区。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "visit a nature reserve",
+          "a nature reserve for birds"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-071",
+      "word": "ground",
+      "phonetic": "/ɡraʊnd/",
+      "pos": "n.",
+      "meaning": "地面；土地",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The ground was wet and soft after the rain.",
+          "zh": "雨后地面又湿又软。"
+        },
+        {
+          "en": "We sat on the ground and ate our sandwiches.",
+          "zh": "我们坐在地上吃三明治。"
+        }
+      ],
+      "synonyms": [
+        "earth"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "g+round(圆的)→地球圆圆的表面→地面。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "on the ground",
+          "fall to the ground"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-072",
+      "word": "stone",
+      "phonetic": "/stəʊn/",
+      "pos": "n.",
+      "meaning": "石头；石子",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "He threw a small stone into the lake and counted the rings.",
+          "zh": "他往湖里扔了一块小石头，数着水圈。"
+        },
+        {
+          "en": "The old bridge is made of grey stone.",
+          "zh": "这座古老的桥是灰色石头砌的。"
+        }
+      ],
+      "synonyms": [
+        "rock"
+      ],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "s+tone(声调)→敲一下会发出声调的硬东西→石头。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "throw a stone",
+          "made of stone"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-073",
+      "word": "pebble",
+      "phonetic": "/ˈpebl/",
+      "pos": "n.",
+      "meaning": "鹅卵石；小圆石",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The beach is covered with smooth grey pebbles instead of sand.",
+          "zh": "这片海滩铺满光滑的灰色鹅卵石，而不是沙子。"
+        },
+        {
+          "en": "I skipped a flat pebble across the water five times.",
+          "zh": "我让一块扁平的小石子在水面上跳了五次。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "pebble 里有 bb 两个小圆肚子——圆圆的小石子。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a smooth pebble",
+          "a pebble beach"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-074",
+      "word": "boulder",
+      "phonetic": "/ˈbəʊldə(r)/",
+      "pos": "n.",
+      "meaning": "巨石；大圆石",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A huge boulder blocked the path up the mountain.",
+          "zh": "一块巨石挡住了上山的路。"
+        },
+        {
+          "en": "We climbed onto the boulder to get a better view.",
+          "zh": "我们爬上那块大石头，视野更好。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "boulder 谐音「抱的」——大到「抱」不动的石头。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a huge boulder",
+          "climb a boulder"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-075",
+      "word": "crystal",
+      "phonetic": "/ˈkrɪstl/",
+      "pos": "n.",
+      "meaning": "水晶；晶体",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The cave walls sparkled with white crystals.",
+          "zh": "洞穴的墙壁上白色的晶体闪闪发光。"
+        },
+        {
+          "en": "My aunt gave me a purple crystal from the mountains.",
+          "zh": "我姑姑送了我一块来自山里的紫水晶。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "crystal 谐音「克里斯透」——透明得像玻璃的石头→水晶。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a clear crystal",
+          "crystal clear"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-076",
+      "word": "fossil",
+      "phonetic": "/ˈfɒsl/",
+      "pos": "n.",
+      "meaning": "化石",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We found a fossil of a fish in the cliff.",
+          "zh": "我们在悬崖上发现了一块鱼的化石。"
+        },
+        {
+          "en": "The museum has a dinosaur fossil that is millions of years old.",
+          "zh": "博物馆有一块几百万年前的恐龙化石。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "fossil 谐音「佛石」——像佛像一样静静躺了万年的石头。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "find a fossil",
+          "a dinosaur fossil"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-077",
+      "word": "dinosaur",
+      "phonetic": "/ˈdaɪnəsɔː(r)/",
+      "pos": "n.",
+      "meaning": "恐龙",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Dinosaurs lived on Earth long before people did.",
+          "zh": "恐龙比人类早很久就生活在地球上。"
+        },
+        {
+          "en": "My little brother knows the names of fifty dinosaurs.",
+          "zh": "我弟弟知道五十种恐龙的名字。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "dino(可怕的)+saur(蜥蜴)→可怕的大蜥蜴→恐龙。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a dinosaur skeleton",
+          "dinosaur bones"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-078",
+      "word": "bush",
+      "phonetic": "/bʊʃ/",
+      "pos": "n.",
+      "meaning": "灌木；矮树丛",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A small bird was hiding in the bush by the gate.",
+          "zh": "一只小鸟藏在大门旁的灌木丛里。"
+        },
+        {
+          "en": "We picked sweet berries from the bushes along the path.",
+          "zh": "我们从小路边的灌木上摘甜浆果。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "bush 谐音「不树」——它「不」是高大的树，是矮矮的灌木。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a rose bush",
+          "hide in the bushes"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-079",
+      "word": "hedge",
+      "phonetic": "/hedʒ/",
+      "pos": "n.",
+      "meaning": "树篱",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A tall green hedge grows around our garden.",
+          "zh": "我们花园四周长着一道高高的绿树篱。"
+        },
+        {
+          "en": "Dad cuts the hedge every summer to keep it neat.",
+          "zh": "爸爸每年夏天都修剪树篱，让它保持整齐。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "hedge 和 edge(边缘)只差一个 h——种在花园「边缘」的一排小树→树篱。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "cut the hedge",
+          "a garden hedge"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-080",
+      "word": "trunk",
+      "phonetic": "/trʌŋk/",
+      "pos": "n.",
+      "meaning": "树干",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The trunk of the old oak is too wide to hug.",
+          "zh": "那棵老橡树的树干粗得抱不过来。"
+        },
+        {
+          "en": "Someone had carved a heart into the tree trunk.",
+          "zh": "有人在树干上刻了一颗心。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "trunk 也是大象的鼻子、汽车的后备箱——都是「粗粗的一大段」，树干也一样。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a tree trunk",
+          "a thick trunk"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-081",
+      "word": "twig",
+      "phonetic": "/twɪɡ/",
+      "pos": "n.",
+      "meaning": "细枝；小树枝",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The bird built its nest with twigs and dry grass.",
+          "zh": "那只鸟用细枝和干草筑巢。"
+        },
+        {
+          "en": "A twig snapped under my foot in the quiet forest.",
+          "zh": "在寂静的森林里，一根细枝在我脚下折断了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "twig 里的 tw 和 two 一样——分成两根小叉的细树枝。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a dry twig",
+          "collect twigs"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-082",
+      "word": "blossom",
+      "phonetic": "/ˈblɒsəm/",
+      "pos": "n./v.",
+      "meaning": "花（果树的）；开花",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "In April the apple trees are covered in pink blossom.",
+          "zh": "四月苹果树开满了粉色的花。"
+        },
+        {
+          "en": "The cherry trees blossom for only about two weeks.",
+          "zh": "樱花树只开大约两周的花。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "blossom 谐音「不落伞」——树上开满像小伞一样「不落」的花。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "cherry blossom",
+          "in blossom"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-083",
+      "word": "petal",
+      "phonetic": "/ˈpetl/",
+      "pos": "n.",
+      "meaning": "花瓣",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The wind blew the rose petals across the garden.",
+          "zh": "风把玫瑰花瓣吹得满花园都是。"
+        },
+        {
+          "en": "Each sunflower has dozens of bright yellow petals.",
+          "zh": "每朵向日葵都有几十片亮黄色的花瓣。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "petal 谐音「拍它」——轻轻「拍它」一下，花瓣就落了。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "rose petals",
+          "a soft petal"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-084",
+      "word": "bud",
+      "phonetic": "/bʌd/",
+      "pos": "n.",
+      "meaning": "花蕾；芽",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The rose buds will open in a few warm days.",
+          "zh": "再过几个暖和的日子，玫瑰花蕾就会绽放。"
+        },
+        {
+          "en": "Tiny green buds appeared on the branches in March.",
+          "zh": "三月，树枝上冒出了小小的绿芽。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "bud 是 buddy(伙伴)的开头——小花蕾是花的「小伙伴」，还没长开。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a flower bud",
+          "in bud"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-085",
+      "word": "stem",
+      "phonetic": "/stem/",
+      "pos": "n.",
+      "meaning": "茎；梗",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Cut the stem of the flower before putting it in water.",
+          "zh": "把花插进水里前先剪一下花茎。"
+        },
+        {
+          "en": "The plant has a thick stem and wide green leaves.",
+          "zh": "这株植物茎很粗，叶子宽大碧绿。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "stem 谐音「死挺」——花茎「死挺」着，把花举高高。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a long stem",
+          "the stem of a plant"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-086",
+      "word": "thorn",
+      "phonetic": "/θɔːn/",
+      "pos": "n.",
+      "meaning": "刺；荆棘",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Be careful, the rose bush is full of sharp thorns.",
+          "zh": "小心，玫瑰丛上全是尖刺。"
+        },
+        {
+          "en": "I got a thorn in my finger while picking blackberries.",
+          "zh": "摘黑莓时我手指扎进了一根刺。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "thorn 谐音「扎人」——玫瑰上「扎人」的就是刺。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a sharp thorn",
+          "thorns on a rose"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-087",
+      "word": "moss",
+      "phonetic": "/mɒs/",
+      "pos": "n.",
+      "meaning": "苔藓",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Soft green moss grows on the shady side of the rocks.",
+          "zh": "柔软的绿色苔藓长在岩石背阴的一面。"
+        },
+        {
+          "en": "The old stone wall is covered in thick moss.",
+          "zh": "古老的石墙上覆盖着厚厚的苔藓。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "moss 谐音「摸湿」——「摸」一下，湿湿软软的就是苔藓。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "green moss",
+          "covered in moss"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-088",
+      "word": "fern",
+      "phonetic": "/fɜːn/",
+      "pos": "n.",
+      "meaning": "蕨类植物",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Ferns grow well in the cool, damp forest.",
+          "zh": "蕨类在凉爽潮湿的森林里长得很好。"
+        },
+        {
+          "en": "The fern has long green leaves but no flowers.",
+          "zh": "蕨类有长长的绿叶，但不开花。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "fern 和 feather(羽毛)开头一样——叶子像羽毛的植物→蕨。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a green fern",
+          "ferns and moss"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-089",
+      "word": "weed",
+      "phonetic": "/wiːd/",
+      "pos": "n.",
+      "meaning": "杂草",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Grandad spends every Sunday pulling weeds out of the garden.",
+          "zh": "爷爷每个周日都在花园里拔杂草。"
+        },
+        {
+          "en": "Weeds grow faster than the vegetables we planted.",
+          "zh": "杂草长得比我们种的蔬菜还快。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "weed 和 seed(种子)只差一个字母——没人种(seed)却自己长出来的草→杂草。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "pull up weeds",
+          "full of weeds"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-090",
+      "word": "vine",
+      "phonetic": "/vaɪn/",
+      "pos": "n.",
+      "meaning": "藤；葡萄藤",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Green vines climbed all the way up the old wall.",
+          "zh": "绿色的藤蔓一路爬上了老墙。"
+        },
+        {
+          "en": "Grapes grow on vines in long rows on the hillside.",
+          "zh": "葡萄长在山坡上一排排的葡萄藤上。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "wine(葡萄酒)来自 vine(葡萄藤)——v 和 w 一换，酒变藤。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a grape vine",
+          "vines climb"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-091",
+      "word": "pine",
+      "phonetic": "/paɪn/",
+      "pos": "n.",
+      "meaning": "松树",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The forest smelled of pine after the rain.",
+          "zh": "雨后森林里有一股松树的气味。"
+        },
+        {
+          "en": "Pine trees stay green all winter long.",
+          "zh": "松树整个冬天都保持绿色。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "pine 和 pin(针)长得像——叶子像针一样的树→松树。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a pine tree",
+          "a pine forest"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-092",
+      "word": "oak",
+      "phonetic": "/əʊk/",
+      "pos": "n.",
+      "meaning": "橡树",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The old oak in the park is over three hundred years old.",
+          "zh": "公园里那棵老橡树已经三百多岁了。"
+        },
+        {
+          "en": "Squirrels collect acorns from the oak every autumn.",
+          "zh": "每年秋天松鼠都从橡树上收集橡子。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "oak 只有三个字母，橡树却能活三百年——名字最短，树最老。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "an oak tree",
+          "made of oak"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-093",
+      "word": "palm tree",
+      "phonetic": "/ˈpɑːm triː/",
+      "pos": "n.",
+      "meaning": "棕榈树",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Tall palm trees grow along the beach in the hot sun.",
+          "zh": "高高的棕榈树在烈日下沿海滩生长。"
+        },
+        {
+          "en": "We rested in the shade of a palm tree.",
+          "zh": "我们在一棵棕榈树的树荫下休息。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "palm 也是「手掌」——棕榈叶张开像手掌一样的树。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "under a palm tree",
+          "a row of palm trees"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-094",
+      "word": "bamboo",
+      "phonetic": "/ˌbæmˈbuː/",
+      "pos": "n.",
+      "meaning": "竹子",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Pandas eat bamboo for up to fourteen hours a day.",
+          "zh": "熊猫每天吃竹子长达十四个小时。"
+        },
+        {
+          "en": "This bamboo grows almost a metre in a single week.",
+          "zh": "这种竹子一周就能长将近一米。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "bamboo 谐音「班布」——熊猫最爱嚼的「班布」就是竹子。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a bamboo forest",
+          "eat bamboo"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-095",
+      "word": "cactus",
+      "phonetic": "/ˈkæktəs/",
+      "pos": "n.",
+      "meaning": "仙人掌",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A cactus can live for months without any rain.",
+          "zh": "仙人掌几个月不下雨也能活。"
+        },
+        {
+          "en": "Don't touch the cactus; it has sharp needles.",
+          "zh": "别碰仙人掌，它有尖刺。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "cactus 谐音「卡刺死」——一碰就被「卡」上刺的沙漠植物。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a desert cactus",
+          "a cactus plant"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-096",
+      "word": "rose",
+      "phonetic": "/rəʊz/",
+      "pos": "n.",
+      "meaning": "玫瑰",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Dad gave Mum a red rose for her birthday.",
+          "zh": "爸爸送给妈妈一朵红玫瑰当生日礼物。"
+        },
+        {
+          "en": "The roses in our garden smell wonderful in June.",
+          "zh": "我们花园里的玫瑰六月时香极了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "rose 也是 rise(升起)的过去式——玫瑰是花中「升起」的女王。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a red rose",
+          "a bunch of roses"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-097",
+      "word": "tulip",
+      "phonetic": "/ˈtjuːlɪp/",
+      "pos": "n.",
+      "meaning": "郁金香",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Thousands of red and yellow tulips bloom in the park every spring.",
+          "zh": "每年春天公园里都有成千上万朵红色和黄色的郁金香绽放。"
+        },
+        {
+          "en": "Tulips are a famous flower of the Netherlands.",
+          "zh": "郁金香是荷兰的著名花卉。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "tulip 来自「头巾」一词——花形像一顶小小的头巾。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a field of tulips",
+          "plant tulips"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-098",
+      "word": "daisy",
+      "phonetic": "/ˈdeɪzi/",
+      "pos": "n.",
+      "meaning": "雏菊",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Little white daisies grow all over the school field.",
+          "zh": "学校操场上到处长着白色的小雏菊。"
+        },
+        {
+          "en": "We made a daisy chain and wore it as a crown.",
+          "zh": "我们编了一条雏菊链，当作王冠戴着。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "daisy 来自 day's eye(白天的眼睛)——白天张开、晚上合上的小花。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a daisy chain",
+          "pick daisies"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-099",
+      "word": "sunflower",
+      "phonetic": "/ˈsʌnflaʊə(r)/",
+      "pos": "n.",
+      "meaning": "向日葵",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sunflowers in our garden grew taller than me.",
+          "zh": "我们花园里的向日葵长得比我还高。"
+        },
+        {
+          "en": "A sunflower turns its head to follow the sun.",
+          "zh": "向日葵会转动花盘跟着太阳走。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sun(太阳)+flower(花)→跟着太阳转的花→向日葵。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "grow sunflowers",
+          "sunflower seeds"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-100",
+      "word": "acorn",
+      "phonetic": "/ˈeɪkɔːn/",
+      "pos": "n.",
+      "meaning": "橡子；橡果",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The squirrel buried an acorn under the leaves for winter.",
+          "zh": "松鼠把一颗橡子埋在树叶下过冬。"
+        },
+        {
+          "en": "A whole oak tree can grow from one small acorn.",
+          "zh": "一棵完整的橡树可以从一颗小橡子长出来。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "acorn 里有 corn(谷粒)——橡树结的小「谷粒」就是橡子。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "collect acorns",
+          "an acorn falls"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-101",
+      "word": "pine cone",
+      "phonetic": "/ˈpaɪn kəʊn/",
+      "pos": "n.",
+      "meaning": "松果",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We collected pine cones to decorate the classroom for winter.",
+          "zh": "我们收集松果来装饰教室过冬。"
+        },
+        {
+          "en": "A pine cone opens when the weather is dry.",
+          "zh": "天气干燥时松果会张开。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "pine(松树)+cone(圆锥)→松树上的小圆锥→松果。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "collect pine cones",
+          "a dry pine cone"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-102",
+      "word": "berry",
+      "phonetic": "/ˈberi/",
+      "pos": "n.",
+      "meaning": "浆果；莓果",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Never eat a wild berry unless an adult says it is safe.",
+          "zh": "除非大人说安全，否则绝不要吃野生浆果。"
+        },
+        {
+          "en": "Birds love the red berries on this bush in winter.",
+          "zh": "冬天鸟儿喜欢这丛灌木上的红色浆果。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "strawberry、blueberry 的尾巴都是 berry——小小圆圆的果子。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "pick berries",
+          "a wild berry"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-103",
+      "word": "harvest",
+      "phonetic": "/ˈhɑːvɪst/",
+      "pos": "n./v.",
+      "meaning": "收获；收割",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The farmers finished the apple harvest before the first frost.",
+          "zh": "农民们在第一场霜之前完成了苹果收获。"
+        },
+        {
+          "en": "We helped harvest the potatoes on my uncle's farm.",
+          "zh": "我们在舅舅的农场帮忙收土豆。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "harvest 在古英语里就是「秋天」——秋天做的事就是收割。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a good harvest",
+          "harvest time"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-104",
+      "word": "rice",
+      "phonetic": "/raɪs/",
+      "pos": "n.",
+      "meaning": "稻；米",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Rice grows in wet fields in the south of China.",
+          "zh": "水稻生长在中国南方的水田里。"
+        },
+        {
+          "en": "Farmers plant the rice by hand in the muddy water.",
+          "zh": "农民们在泥水里用手插秧。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "rice 长在水里、吃进碗里——田里是稻，碗里是米，都叫 rice。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a rice field",
+          "grow rice"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-105",
+      "word": "orchard",
+      "phonetic": "/ˈɔːtʃəd/",
+      "pos": "n.",
+      "meaning": "果园",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "In autumn the orchard is full of ripe red apples.",
+          "zh": "秋天果园里挂满了成熟的红苹果。"
+        },
+        {
+          "en": "We walked through the orchard and picked pears.",
+          "zh": "我们穿过果园，摘了梨。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 4,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "orchard 后半像 yard(院子)——种满果树的院子→果园。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "an apple orchard",
+          "walk through the orchard"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-106",
+      "word": "bloom",
+      "phonetic": "/bluːm/",
+      "pos": "v./n.",
+      "meaning": "开花；花",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The cherry trees bloom for a short time each spring.",
+          "zh": "每年春天樱花树只开一小段时间的花。"
+        },
+        {
+          "en": "The garden is in full bloom in the middle of May.",
+          "zh": "五月中旬花园里百花盛开。"
+        }
+      ],
+      "synonyms": [
+        "blossom"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "bloom 谐音「不露嘛」——花蕾先「不露」，一开就是 bloom。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "in full bloom",
+          "begin to bloom"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-107",
+      "word": "grow",
+      "phonetic": "/ɡrəʊ/",
+      "pos": "v.",
+      "meaning": "生长；种植",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Tomatoes grow best in a warm, sunny spot.",
+          "zh": "番茄在温暖、阳光充足的地方长得最好。"
+        },
+        {
+          "en": "We grow our own vegetables in the back garden.",
+          "zh": "我们在后花园自己种蔬菜。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "grow(长)→grew→grown；green(绿)的东西都在 grow。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "grow vegetables",
+          "grow up"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-108",
+      "word": "dig",
+      "phonetic": "/dɪɡ/",
+      "pos": "v.",
+      "meaning": "挖；掘",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The dog dug a deep hole under the fence.",
+          "zh": "狗在栅栏下挖了一个深洞。"
+        },
+        {
+          "en": "We had to dig in the hard ground to plant the tree.",
+          "zh": "我们得在坚硬的地上挖坑种树。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "dig 谐音「地格」——在「地」上挖出一「格」一格的坑。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "dig a hole",
+          "dig up"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-109",
+      "word": "pick",
+      "phonetic": "/pɪk/",
+      "pos": "v.",
+      "meaning": "采摘；挑选",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We picked strawberries at the farm all morning.",
+          "zh": "我们在农场摘了一上午草莓。"
+        },
+        {
+          "en": "Please don't pick the flowers in the park.",
+          "zh": "请不要采摘公园里的花。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "pick 用手指一「掐」——掐下果子是采摘，掐中最好的是挑选。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "pick flowers",
+          "pick fruit"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-110",
+      "word": "water",
+      "phonetic": "/ˈwɔːtə(r)/",
+      "pos": "v.",
+      "meaning": "浇水；给…喝水",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Remember to water the plants while we are away.",
+          "zh": "我们不在的时候记得给植物浇水。"
+        },
+        {
+          "en": "Grandma waters her roses every evening in summer.",
+          "zh": "夏天奶奶每天傍晚都给玫瑰浇水。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "water 作动词就是「给水」——给花给水就是浇水。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "water the plants",
+          "water the garden"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-111",
+      "word": "farmer",
+      "phonetic": "/ˈfɑːmə(r)/",
+      "pos": "n.",
+      "meaning": "农民；农场主",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The farmer gets up at five to milk the cows.",
+          "zh": "农民五点起床挤牛奶。"
+        },
+        {
+          "en": "A local farmer sells fresh eggs at the Saturday market.",
+          "zh": "一位当地农民在周六集市上卖新鲜鸡蛋。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "farm(农场)+er(人)→在农场干活的人。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "a local farmer",
+          "a dairy farmer"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-112",
+      "word": "shadow",
+      "phonetic": "/ˈʃædəʊ/",
+      "pos": "n.",
+      "meaning": "影子；阴影",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My shadow grew longer as the sun went down.",
+          "zh": "太阳落山时我的影子越来越长。"
+        },
+        {
+          "en": "The tall trees cast cool shadows across the path.",
+          "zh": "高大的树在小路上投下凉爽的阴影。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "shade(阴凉)+ow→有阴凉的地方就有影子。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "cast a shadow",
+          "in the shadow of"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-113",
+      "word": "fog",
+      "phonetic": "/fɒɡ/",
+      "pos": "n.",
+      "meaning": "雾",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "Thick fog covered the valley until late morning.",
+          "zh": "浓雾笼罩着山谷，直到上午晚些时候。"
+        },
+        {
+          "en": "We could hardly see the road through the fog.",
+          "zh": "隔着雾我们几乎看不见路。"
+        }
+      ],
+      "synonyms": [
+        "mist"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "fog 谐音「浮个」——空气里「浮」着一层白，就是雾。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "thick fog",
+          "in the fog"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-114",
+      "word": "dusk",
+      "phonetic": "/dʌsk/",
+      "pos": "n.",
+      "meaning": "黄昏；傍晚",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Bats come out to hunt at dusk.",
+          "zh": "蝙蝠在黄昏时出来觅食。"
+        },
+        {
+          "en": "We must be home before dusk, Mum said.",
+          "zh": "妈妈说我们必须在天黑前回家。"
+        }
+      ],
+      "synonyms": [
+        "sunset"
+      ],
+      "antonyms": [
+        "dawn"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "dusk 和 dust(灰尘)只差一个字母——天色像蒙了灰一样暗下来→黄昏。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "at dusk",
+          "from dawn to dusk"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-115",
+      "word": "universe",
+      "phonetic": "/ˈjuːnɪvɜːs/",
+      "pos": "n.",
+      "meaning": "宇宙",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Nobody knows how big the universe really is.",
+          "zh": "没人知道宇宙到底有多大。"
+        },
+        {
+          "en": "Our planet is a tiny part of the universe.",
+          "zh": "我们的星球只是宇宙中很小的一部分。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "root",
+        "tip": "uni(一)+verse(转)→转成一个整体的一切→宇宙。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "the whole universe",
+          "the centre of the universe"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-116",
+      "word": "moonlight",
+      "phonetic": "/ˈmuːnlaɪt/",
+      "pos": "n.",
+      "meaning": "月光",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The lake shone silver in the bright moonlight.",
+          "zh": "湖面在明亮的月光下泛着银光。"
+        },
+        {
+          "en": "We walked home by moonlight after the campfire.",
+          "zh": "篝火晚会后我们借着月光走回家。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "moon(月亮)+light(光)→月亮的光。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "in the moonlight",
+          "by moonlight"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-117",
+      "word": "full moon",
+      "phonetic": "/ˌfʊl ˈmuːn/",
+      "pos": "n.",
+      "meaning": "满月",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "There is a full moon tonight, so the sky is bright.",
+          "zh": "今晚是满月，所以天空很亮。"
+        },
+        {
+          "en": "The wolves howl louder when there is a full moon.",
+          "zh": "满月时狼叫得更响。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "full(满的)+moon(月亮)→圆满的月亮→满月。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a full moon",
+          "under the full moon"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-118",
+      "word": "camp",
+      "phonetic": "/kæmp/",
+      "pos": "v./n.",
+      "meaning": "露营；营地",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We camped beside the river for three nights.",
+          "zh": "我们在河边露营了三个晚上。"
+        },
+        {
+          "en": "The camp was in a quiet field surrounded by trees.",
+          "zh": "营地在一片被树环绕的安静田野里。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "camp 和 campus(校园)同源——一块可以搭帐篷的空地→营地。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "camp by the lake",
+          "a summer camp"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-119",
+      "word": "go camping",
+      "phonetic": "/ɡəʊ ˈkæmpɪŋ/",
+      "pos": "phr.",
+      "meaning": "去露营",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Every summer we go camping in the mountains.",
+          "zh": "每年夏天我们都去山里露营。"
+        },
+        {
+          "en": "If it rains, we won't go camping this weekend.",
+          "zh": "如果下雨，这个周末我们就不去露营了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "go+动词 ing 表示「去做某项活动」——go camping、go hiking、go fishing。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "go camping with friends",
+          "go camping in the forest"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-120",
+      "word": "go hiking",
+      "phonetic": "/ɡəʊ ˈhaɪkɪŋ/",
+      "pos": "phr.",
+      "meaning": "去远足；去徒步",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We go hiking in the hills whenever the weather is good.",
+          "zh": "天气好的时候我们就去山里徒步。"
+        },
+        {
+          "en": "Take plenty of water when you go hiking in summer.",
+          "zh": "夏天去远足要带足够的水。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "hike 是「长距离步行」——go hiking 就是背包走进大自然。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "go hiking in the hills",
+          "go hiking with friends"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-121",
+      "word": "trail",
+      "phonetic": "/treɪl/",
+      "pos": "n.",
+      "meaning": "小径；步道",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The trail leads through the forest to a small waterfall.",
+          "zh": "这条步道穿过森林通向一个小瀑布。"
+        },
+        {
+          "en": "Follow the yellow signs to stay on the trail.",
+          "zh": "跟着黄色标志走，别偏离步道。"
+        }
+      ],
+      "synonyms": [
+        "path"
+      ],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "trail 谐音「踹哦」——被人「踹」出来的一条小路。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a walking trail",
+          "follow the trail"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-122",
+      "word": "footpath",
+      "phonetic": "/ˈfʊtpɑːθ/",
+      "pos": "n.",
+      "meaning": "人行小路；步行道",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A footpath runs along the river all the way to the town.",
+          "zh": "一条人行小路沿着河一直通到镇上。"
+        },
+        {
+          "en": "Keep to the footpath so you don't damage the crops.",
+          "zh": "走人行小路，别踩坏庄稼。"
+        }
+      ],
+      "synonyms": [
+        "path"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "foot(脚)+path(小路)→给脚走的小路。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a public footpath",
+          "follow the footpath"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-123",
+      "word": "explorer",
+      "phonetic": "/ɪkˈsplɔːrə(r)/",
+      "pos": "n.",
+      "meaning": "探险家",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The explorer crossed the desert with only a camel.",
+          "zh": "那位探险家只带一头骆驼穿越了沙漠。"
+        },
+        {
+          "en": "I want to be an explorer and find new caves.",
+          "zh": "我想成为探险家，去发现新的洞穴。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "explore(探索)+r(人)→到处探索的人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a famous explorer",
+          "a polar explorer"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-124",
+      "word": "climb",
+      "phonetic": "/klaɪm/",
+      "pos": "v.",
+      "meaning": "攀登；爬",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "We climbed the hill to watch the sunrise.",
+          "zh": "我们爬上山去看日出。"
+        },
+        {
+          "en": "The goat climbed the rocky slope without any trouble.",
+          "zh": "那只山羊毫不费力地爬上了石坡。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "climb 结尾的 b 不发音——像爬山时最后一步悄悄用力。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "climb a mountain",
+          "climb a tree"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-125",
+      "word": "climber",
+      "phonetic": "/ˈklaɪmə(r)/",
+      "pos": "n.",
+      "meaning": "登山者；攀登者",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The climbers reached the top after a nine-hour journey.",
+          "zh": "登山者经过九个小时的跋涉到达了山顶。"
+        },
+        {
+          "en": "A rock climber needs strong hands and a calm mind.",
+          "zh": "攀岩者需要有力的手和冷静的头脑。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "climb(爬)+er(人)→爬山的人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a rock climber",
+          "an experienced climber"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-126",
+      "word": "viewpoint",
+      "phonetic": "/ˈvjuːpɔɪnt/",
+      "pos": "n.",
+      "meaning": "观景点；观点",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "From the viewpoint you can see the whole bay.",
+          "zh": "从观景点你能看到整个海湾。"
+        },
+        {
+          "en": "We stopped at the viewpoint to take some photos.",
+          "zh": "我们在观景点停下来拍了几张照片。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "view(景色)+point(点)→看景色的点→观景点。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a viewpoint over the valley",
+          "stop at the viewpoint"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-127",
+      "word": "hut",
+      "phonetic": "/hʌt/",
+      "pos": "n.",
+      "meaning": "小屋；棚屋",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "A wooden hut at the top of the mountain gives shelter to walkers.",
+          "zh": "山顶上的一间木屋为徒步者提供庇护。"
+        },
+        {
+          "en": "The fisherman keeps his nets in a small hut on the beach.",
+          "zh": "渔夫把渔网放在海滩上的一间小棚屋里。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "hut 比 house 少了一大半字母——最小最简单的房子→小屋。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a wooden hut",
+          "a mountain hut"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-128",
+      "word": "cottage",
+      "phonetic": "/ˈkɒtɪdʒ/",
+      "pos": "n.",
+      "meaning": "村舍；小屋",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "My aunt lives in a stone cottage at the edge of the village.",
+          "zh": "我姑姑住在村边的一栋石头小屋里。"
+        },
+        {
+          "en": "We rented a cottage by the lake for the holidays.",
+          "zh": "假期我们租了一栋湖边的小屋。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "cottage 里有 cot(小床)——只放得下一张小床的乡下小屋。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a country cottage",
+          "a holiday cottage"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-129",
+      "word": "log",
+      "phonetic": "/lɒɡ/",
+      "pos": "n.",
+      "meaning": "原木；木柴",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We sat on a log by the fire and told stories.",
+          "zh": "我们坐在火边的一根原木上讲故事。"
+        },
+        {
+          "en": "Dad cut the fallen tree into logs for the winter.",
+          "zh": "爸爸把倒下的树砍成木柴过冬。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "log 也是「日志」——古时把日志刻在木头上，所以木头和记录都叫 log。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a wooden log",
+          "a log fire"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-130",
+      "word": "firewood",
+      "phonetic": "/ˈfaɪəwʊd/",
+      "pos": "n.",
+      "meaning": "柴火；木柴",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We collected dry firewood before it got dark.",
+          "zh": "天黑前我们收集了干柴火。"
+        },
+        {
+          "en": "There is enough firewood to keep us warm all night.",
+          "zh": "柴火够我们暖和一整夜了。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "fire(火)+wood(木头)→用来生火的木头。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "collect firewood",
+          "chop firewood"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-131",
+      "word": "hunter",
+      "phonetic": "/ˈhʌntə(r)/",
+      "pos": "n.",
+      "meaning": "猎人",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Long ago, hunters lived in these caves.",
+          "zh": "很久以前，猎人们住在这些洞穴里。"
+        },
+        {
+          "en": "The hunter followed the deer's footprints through the snow.",
+          "zh": "猎人循着鹿的脚印穿过雪地。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "hunt(打猎)+er(人)→打猎的人。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a skilled hunter",
+          "hunters and fishermen"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-132",
+      "word": "go fishing",
+      "phonetic": "/ɡəʊ ˈfɪʃɪŋ/",
+      "pos": "phr.",
+      "meaning": "去钓鱼",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Grandad and I go fishing at the lake every Sunday.",
+          "zh": "爷爷和我每个周日都去湖边钓鱼。"
+        },
+        {
+          "en": "We went fishing but only caught an old boot.",
+          "zh": "我们去钓鱼了，但只钓上来一只旧靴子。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "go+fishing→去做钓鱼这项活动；和 go swimming 同款。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "go fishing with",
+          "go fishing in the river"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-133",
+      "word": "footprint",
+      "phonetic": "/ˈfʊtprɪnt/",
+      "pos": "n.",
+      "meaning": "脚印；足迹",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We saw fox footprints in the fresh snow.",
+          "zh": "我们在新雪上看到了狐狸的脚印。"
+        },
+        {
+          "en": "The children left wet footprints all over the floor.",
+          "zh": "孩子们在地板上留下了一串湿脚印。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "foot(脚)+print(印)→脚的印记。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "leave footprints",
+          "animal footprints"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-134",
+      "word": "in the open air",
+      "phonetic": "/ɪn ði ˌəʊpən ˈeə(r)/",
+      "pos": "phr.",
+      "meaning": "在户外；露天",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We had our lunch in the open air by the river.",
+          "zh": "我们在河边露天吃了午饭。"
+        },
+        {
+          "en": "The concert takes place in the open air if the weather is dry.",
+          "zh": "如果天气干燥，音乐会就在露天举行。"
+        }
+      ],
+      "synonyms": [
+        "outdoors"
+      ],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "open(敞开的)+air(空气)→在敞开的空气里→户外。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "eat in the open air",
+          "in the open air"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-135",
+      "word": "in the wild",
+      "phonetic": "/ɪn ðə waɪld/",
+      "pos": "phr.",
+      "meaning": "在野外；在自然环境中",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Pandas are very hard to see in the wild.",
+          "zh": "在野外很难见到熊猫。"
+        },
+        {
+          "en": "The bear was born in a zoo and cannot live in the wild.",
+          "zh": "这只熊出生在动物园，无法在野外生存。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "in captivity"
+      ],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "wild 作名词就是「野外」——in the wild 与 in the zoo 相对。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "live in the wild",
+          "animals in the wild"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-136",
+      "word": "rocky",
+      "phonetic": "/ˈrɒki/",
+      "pos": "adj.",
+      "meaning": "多岩石的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The rocky path was hard to walk on in sandals.",
+          "zh": "穿凉鞋走在多石的小路上很难。"
+        },
+        {
+          "en": "Only a few plants grow on the rocky hillside.",
+          "zh": "多岩石的山坡上只长了几株植物。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "rock(岩石)+y(形容词)→全是岩石的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a rocky path",
+          "a rocky coast"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-137",
+      "word": "sandy",
+      "phonetic": "/ˈsændi/",
+      "pos": "adj.",
+      "meaning": "多沙的；沙质的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The sandy beach stretches for miles along the coast.",
+          "zh": "沙滩沿着海岸绵延数英里。"
+        },
+        {
+          "en": "My shoes were full of sand after the sandy walk.",
+          "zh": "走过沙路后，我的鞋里全是沙子。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 2,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "sand(沙)+y(形容词)→全是沙子的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a sandy beach",
+          "sandy soil"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-138",
+      "word": "steep",
+      "phonetic": "/stiːp/",
+      "pos": "adj.",
+      "meaning": "陡峭的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The path became so steep that we had to use our hands.",
+          "zh": "小路变得太陡了，我们不得不用手攀爬。"
+        },
+        {
+          "en": "Riding a bike down a steep hill can be dangerous.",
+          "zh": "骑自行车下陡坡可能很危险。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "gentle",
+        "flat"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "sound",
+        "tip": "steep 谐音「死踢坡」——陡得要「死」，只能一步步踢上去。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "a steep hill",
+          "a steep slope"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-139",
+      "word": "shallow",
+      "phonetic": "/ˈʃæləʊ/",
+      "pos": "adj.",
+      "meaning": "浅的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "The water is shallow here, so small children can play safely.",
+          "zh": "这里的水很浅，所以小孩子可以安全地玩耍。"
+        },
+        {
+          "en": "We crossed the stream where it was shallow.",
+          "zh": "我们在小溪水浅的地方过了河。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "deep"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "shallow 和 hollow(凹的)押韵——像浅碟子一样一眼见底的水→浅的。"
+      },
+      "petExam": {
+        "frequency": "medium",
+        "collocations": [
+          "shallow water",
+          "a shallow river"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-140",
+      "word": "deep",
+      "phonetic": "/diːp/",
+      "pos": "adj.",
+      "meaning": "深的",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "The lake is so deep that nobody has reached the bottom.",
+          "zh": "这个湖深得没有人到过湖底。"
+        },
+        {
+          "en": "Don't go into the deep end unless you can swim well.",
+          "zh": "除非你游得很好，否则别去深水区。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "shallow"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "assoc",
+        "tip": "deep 里两个 e 像两只往下看的眼睛——往下看不到底就是深。"
+      },
+      "petExam": {
+        "frequency": "high",
+        "collocations": [
+          "deep water",
+          "a deep hole"
+        ]
+      },
+      "inKet": true
+    },
+    {
+      "id": "pet-nature-141",
+      "word": "leafy",
+      "phonetic": "/ˈliːfi/",
+      "pos": "adj.",
+      "meaning": "多叶的；绿树成荫的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We cycled along a leafy lane full of birdsong.",
+          "zh": "我们沿着一条绿树成荫、鸟鸣不断的小巷骑车。"
+        },
+        {
+          "en": "The leafy branches kept us cool in the afternoon heat.",
+          "zh": "茂密的树枝让我们在午后的热浪中保持凉爽。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "leaf(叶子)+y(形容词)→叶子很多的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a leafy lane",
+          "leafy trees"
+        ]
+      }
+    },
+    {
+      "id": "pet-nature-142",
+      "word": "shady",
+      "phonetic": "/ˈʃeɪdi/",
+      "pos": "adj.",
+      "meaning": "背阴的；成荫的",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "We ate our sandwiches in a shady spot under the trees.",
+          "zh": "我们在树下一处阴凉的地方吃三明治。"
+        },
+        {
+          "en": "The shady side of the valley stays cool all day.",
+          "zh": "山谷背阴的一面整天都很凉爽。"
+        }
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "sunny"
+      ],
+      "difficulty": 3,
+      "tags": [
+        "nature"
+      ],
+      "mnemonic": {
+        "type": "split",
+        "tip": "shade(阴凉)+y(形容词)→有阴凉的。"
+      },
+      "petExam": {
+        "frequency": "low",
+        "collocations": [
+          "a shady spot",
+          "a shady garden"
         ]
       }
     }
