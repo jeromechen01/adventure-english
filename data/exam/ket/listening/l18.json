@@ -1,0 +1,332 @@
+{
+  "$comment": "听力训练营 L18（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，每段含转折「本来想…但是…」，答案在 but 之后）+ Part 2 笔记填空（一段电话留言 5 空，五类混合：姓名拼读 S-A-S-H-A、日期（用 first/third 序数词）、地名拼读 G-R-E-E-N-W-A-Y、时间、电话号码）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L18",
+  "title": "Birthday Plans",
+  "titleZh": "生日计划",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "party",
+  "names": [
+    "Sasha",
+    "Greenway",
+    "Lucy",
+    "Tom",
+    "Amy",
+    "Ben",
+    "Kate"
+  ],
+  "intro": "五段都在说生日，但每段都有一个「本来想…但是…」，答案在 but 后面。再听一条派对邀请留言，五个空五种类型：名字、日期、地点、时间、电话。",
+  "warmup": [
+    {
+      "word": "birthday",
+      "phonetic": "/ˈbɜːθdeɪ/",
+      "meaning": "生日"
+    },
+    {
+      "word": "swimming pool",
+      "phonetic": "/ˈswɪmɪŋ puːl/",
+      "meaning": "游泳池"
+    },
+    {
+      "word": "expensive",
+      "phonetic": "/ɪkˈspensɪv/",
+      "meaning": "贵的"
+    },
+    {
+      "word": "oven",
+      "phonetic": "/ˈʌvn/",
+      "meaning": "烤箱"
+    },
+    {
+      "word": "picnic",
+      "phonetic": "/ˈpɪknɪk/",
+      "meaning": "野餐"
+    },
+    {
+      "word": "balloon",
+      "phonetic": "/bəˈluːn/",
+      "meaning": "气球"
+    },
+    {
+      "word": "invite",
+      "phonetic": "/ɪnˈvaɪt/",
+      "meaning": "邀请"
+    },
+    {
+      "word": "farm",
+      "phonetic": "/fɑːm/",
+      "meaning": "农场"
+    },
+    {
+      "word": "date",
+      "phonetic": "/deɪt/",
+      "meaning": "日期"
+    },
+    {
+      "word": "May",
+      "phonetic": "/meɪ/",
+      "meaning": "五月"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "I wanted to have my birthday party at home this year, with all my class. But Mum said thirty people is too many for our flat."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "So we're having it at the swimming pool. They have a big room for the food, and we can swim for two hours."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the girl saying about her party?",
+          "options": [
+            "It will be at the swimming pool.",
+            "It will be at her home.",
+            "There won't be a party this year."
+          ],
+          "answer": 0,
+          "explain": "at home 是本来的想法，But Mum said… 之后改成 at the swimming pool。派对照开，只是换了地方。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Mum, can I still have the new bike for my birthday?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "I'm sorry, Tom. I was going to buy it, but the price has gone up, and it's too expensive now."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Oh. So what will I get?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The football game you wanted, and we'll save for the bike next year."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What will Tom get for his birthday?",
+          "options": [
+            "a game",
+            "a bike",
+            "a new phone"
+          ],
+          "answer": 0,
+          "explain": "I was going to buy it, but… too expensive——自行车买不成了；So what will I get? → the football game。自行车留到明年。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I was going to make Amy's birthday cake myself this year. I bought the eggs, the sugar, everything."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "But this morning the oven stopped working. So I'll buy a cake from the shop on the way home, a chocolate one, her favourite."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What does the man say about the birthday cake?",
+          "options": [
+            "He will buy it.",
+            "He will make it himself.",
+            "He doesn't need one."
+          ],
+          "answer": 0,
+          "explain": "I was going to make… But the oven stopped working. So I'll buy a cake——转折之后是买。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Ben, is your birthday picnic still on Saturday? The weather looks bad."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "I know. We planned Saturday, but it's going to rain all day, so Mum moved it to Sunday."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Sunday is fine for me. Same place, the park by the river?"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Yes, same place, twelve o'clock. Bring a ball!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "When will the picnic be?",
+          "options": [
+            "on Sunday",
+            "on Saturday",
+            "next week"
+          ],
+          "answer": 0,
+          "explain": "We planned Saturday, but it's going to rain… moved it to Sunday。地点和时间没变，只改了日子。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "Hi Lucy, it's Kate. My party card says three o'clock, and that's right for everyone else."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "But could you come at two? I need help with the balloons and the table, and you're the best at that. Thanks!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What does Kate want Lucy to do?",
+          "options": [
+            "come earlier than the others",
+            "bring some balloons",
+            "come at three o'clock"
+          ],
+          "answer": 0,
+          "explain": "three o'clock 是给大家的时间，But could you come at two? 让 Lucy 早一个小时来帮忙。气球是要帮忙布置，不是带来。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一条派对邀请留言，把笔记补全。五个空五种类型：名字、日期、地名、时间、电话，名字和地名会拼出来。",
+      "script": [
+        {
+          "who": "Mrs Hill",
+          "sex": "f",
+          "text": "Hello, this is a message for Amy from Sasha's mum. Sasha would like to invite you to her birthday party. That's Sasha, S-A-S-H-A."
+        },
+        {
+          "who": "Mrs Hill",
+          "sex": "f",
+          "text": "Her birthday is on the first of May, but that's a Wednesday, so the party is on Saturday the third of May."
+        },
+        {
+          "who": "Mrs Hill",
+          "sex": "f",
+          "text": "We're having it at Greenway Farm, that's G-R-E-E-N-W-A-Y, where you can feed the animals. Not Hill Farm, that's closed now."
+        },
+        {
+          "who": "Mrs Hill",
+          "sex": "f",
+          "text": "The party starts at half past two and finishes at five. We'll have the birthday cake at four."
+        },
+        {
+          "who": "Mrs Hill",
+          "sex": "f",
+          "text": "Please call me to say if you can come. My number is seven seven one, four oh eight two. That's seven seven one, four oh eight two."
+        },
+        {
+          "who": "Mrs Hill",
+          "sex": "f",
+          "text": "Hope to see you there. Bye!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Party — Birthday girl: ______",
+          "answer": "Sasha",
+          "explain": "That's Sasha, S-A-S-H-A，照拼读写。"
+        },
+        {
+          "id": "q7",
+          "q": "Date: ______",
+          "answer": "3 May",
+          "alt": [
+            "May 3",
+            "3rd May",
+            "May 3rd",
+            "the third of May",
+            "third of May"
+          ],
+          "explain": "the party is on Saturday the third of May = 3 May。the first 是生日当天，但那天是周三，派对不在那天。"
+        },
+        {
+          "id": "q8",
+          "q": "Place: ______ Farm",
+          "answer": "Greenway",
+          "explain": "at Greenway Farm, that's G-R-E-E-N-W-A-Y。Hill Farm 已经关了。"
+        },
+        {
+          "id": "q9",
+          "q": "Starts at: ______",
+          "answer": "2:30",
+          "alt": [
+            "2.30",
+            "half past two",
+            "two thirty"
+          ],
+          "explain": "the party starts at half past two = 2:30。five 是结束时间，four 是切蛋糕时间。"
+        },
+        {
+          "id": "q10",
+          "q": "Phone number: ______",
+          "answer": "771 4082",
+          "alt": [
+            "7714082",
+            "771-4082"
+          ],
+          "explain": "seven seven one, four oh eight two = 771 4082。号码会重复一遍。"
+        }
+      ]
+    }
+  ]
+}

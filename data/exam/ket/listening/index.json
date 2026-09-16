@@ -265,6 +265,20 @@
       "theme": "library",
       "file": "data/exam/ket/listening/l17.json",
       "status": "ready"
+    },
+    {
+      "id": "L18",
+      "title": "Birthday Plans",
+      "titleZh": "生日计划",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "party",
+      "file": "data/exam/ket/listening/l18.json",
+      "status": "ready"
     }
   ]
 }
