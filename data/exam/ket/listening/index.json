@@ -489,6 +489,20 @@
       "theme": "music",
       "file": "data/exam/ket/listening/l32.json",
       "status": "ready"
+    },
+    {
+      "id": "L33",
+      "title": "The Camping Trip",
+      "titleZh": "露营",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "camping",
+      "file": "data/exam/ket/listening/l33.json",
+      "status": "ready"
     }
   ]
 }

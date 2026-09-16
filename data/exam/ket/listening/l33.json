@@ -1,0 +1,325 @@
+{
+  "$comment": "听力训练营 L33（P-L3 续跑，阶段三第十三课，综合两句判断段）。脚本 100% 原创；Part 3 每题需综合前后两句判断（帐篷暖睡袋好+一闭眼就听到动静→问为什么没睡好；生火一小时香肠烤黑+和大家一起吃自己做的最棒→问感受；大家都想爬山天气好+山路暴风雨后关闭→问为什么去湖边；第一小时找手机+第二天不想它了→问看法；很想去父母同意+睡袋薄要借暖的→问态度）+ Part 5 匹配（Jamie 告诉妈妈五个朋友露营各带什么，8 样东西 A-H 全部被反复提到，靠「最后决定」判断，选项为短语）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L33",
+  "title": "The Camping Trip",
+  "titleZh": "露营",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "camping",
+  "names": [
+    "Isla",
+    "Jamie",
+    "Ben",
+    "Amy",
+    "Noah",
+    "Ruby",
+    "Leo"
+  ],
+  "intro": "先听 Isla 和 Jamie 聊周末的露营：为什么没睡好？在火上做饭是什么感受？为什么没去爬山？没有手机的周末怎么样？答案都要把前后两句合起来想——前一句常是「好的一面」，后一句才是真正的原因和感受。再听 Jamie 告诉妈妈下次露营五个朋友各带什么——8 样东西都会被反复提到，有人先说带一样，后来换了，要听「最后定下来带什么」。",
+  "warmup": [
+    {
+      "word": "tent",
+      "phonetic": "/tent/",
+      "meaning": "帐篷"
+    },
+    {
+      "word": "sleeping bag",
+      "phonetic": "/ˈsliːpɪŋ bæɡ/",
+      "meaning": "睡袋"
+    },
+    {
+      "word": "torch",
+      "phonetic": "/tɔːtʃ/",
+      "meaning": "手电筒"
+    },
+    {
+      "word": "matches",
+      "phonetic": "/ˈmætʃɪz/",
+      "meaning": "火柴"
+    },
+    {
+      "word": "blanket",
+      "phonetic": "/ˈblæŋkɪt/",
+      "meaning": "毯子"
+    },
+    {
+      "word": "path",
+      "phonetic": "/pɑːθ/",
+      "meaning": "小路"
+    },
+    {
+      "word": "storm",
+      "phonetic": "/stɔːm/",
+      "meaning": "暴风雨"
+    },
+    {
+      "word": "wind",
+      "phonetic": "/wɪnd/",
+      "meaning": "风"
+    },
+    {
+      "word": "strange",
+      "phonetic": "/streɪndʒ/",
+      "meaning": "奇怪的"
+    },
+    {
+      "word": "thin",
+      "phonetic": "/θɪn/",
+      "meaning": "薄的"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Isla 和 Jamie 聊周末的露营。五道题的答案都要把前后两句合起来想：前一句常是「好的一面」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Isla",
+          "sex": "f",
+          "text": "Jamie, you look tired. Didn't you sleep in the tent on Saturday?"
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "Not much. The tent was warm, and my sleeping bag was great. But every time I closed my eyes, I heard a noise outside. It was only the wind, I know that now, but at three in the morning I didn't know that."
+        },
+        {
+          "who": "Isla",
+          "sex": "f",
+          "text": "It was the wind all night. I slept like a baby."
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "You were busy cooking, that's why. How was that? The fire took an hour to light."
+        },
+        {
+          "who": "Isla",
+          "sex": "f",
+          "text": "It did, and the sausages were black on the outside. But sitting there with everyone, eating something you cooked yourself, was the best part of the weekend. I'd do it every night."
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "The walk on Sunday was good too. But why did we go to the lake? Everyone wanted the mountain, and the weather was perfect."
+        },
+        {
+          "who": "Isla",
+          "sex": "f",
+          "text": "Ben's dad looked at the map in the morning. The path up the mountain was closed after the storm last week. So it was the lake or nothing."
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "I didn't know that. Well, the lake was beautiful."
+        },
+        {
+          "who": "Isla",
+          "sex": "f",
+          "text": "And no phones all weekend! How was that for you? You always have yours in your hand."
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "For the first hour I kept looking for it. It felt strange. But by Sunday I didn't miss it at all, and I talked to people much more. I think everyone should try it."
+        },
+        {
+          "who": "Isla",
+          "sex": "f",
+          "text": "I agree."
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "So, are you coming again next month? Ben's dad is taking a group to the forest."
+        },
+        {
+          "who": "Isla",
+          "sex": "f",
+          "text": "I'd love to, and my parents have already said yes. The thing is, it'll be colder next month, and my sleeping bag is thin. If I can borrow a warmer one, I'll be there."
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "My sister has one. I'll ask her tonight."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why didn't Jamie sleep well on Saturday?",
+          "options": [
+            "He was cold in the tent.",
+            "He was worried about the noises.",
+            "His sleeping bag was not very good."
+          ],
+          "answer": 1,
+          "explain": "前一句 The tent was warm, and my sleeping bag was great（帐篷暖、睡袋好）+ 后一句 every time I closed my eyes, I heard a noise outside… at three in the morning I didn't know that——是外面的动静让他不敢睡。冷和睡袋都被前一句排除了。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Isla feel about cooking on the fire?",
+          "options": [
+            "It took too long.",
+            "The food was bad.",
+            "She enjoyed it."
+          ],
+          "answer": 2,
+          "explain": "前一句 The fire took an hour to light… the sausages were black（麻烦、烤糊）+ 后一句 But sitting there with everyone… was the best part of the weekend. I'd do it every night——虽然麻烦，她很享受。"
+        },
+        {
+          "id": "q3",
+          "q": "Why did they walk to the lake and not the mountain?",
+          "options": [
+            "The path was closed.",
+            "The weather was bad.",
+            "Nobody wanted to climb."
+          ],
+          "answer": 0,
+          "explain": "前一句 Everyone wanted the mountain, and the weather was perfect（都想爬山、天气好）+ 后一句 The path up the mountain was closed after the storm——山路关了，只能去湖边。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Jamie think about camping without phones?",
+          "options": [
+            "He found it very difficult.",
+            "He missed his phone all weekend.",
+            "He thinks it was a good thing."
+          ],
+          "answer": 2,
+          "explain": "前一句 For the first hour I kept looking for it. It felt strange（一开始不习惯）+ 后一句 by Sunday I didn't miss it at all… I think everyone should try it——最后觉得很好。「整个周末都想手机」不对，只有第一个小时。"
+        },
+        {
+          "id": "q5",
+          "q": "What does Isla say about going camping next month?",
+          "options": [
+            "She will go if she can get a warmer sleeping bag.",
+            "She can't go because of her parents.",
+            "She doesn't want to go when it is cold."
+          ],
+          "answer": 0,
+          "explain": "前一句 I'd love to, and my parents have already said yes（想去、父母同意）+ 后一句 my sleeping bag is thin. If I can borrow a warmer one, I'll be there——条件是借到暖和的睡袋。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Jamie 告诉妈妈下次露营五个朋友各带什么。把每个人和右边 A-H 的东西配起来。8 样东西都会被反复提到，有人先说带一样，后来换了——要听「最后定下来带什么」。",
+      "options": [
+        "a big torch",
+        "a football",
+        "a guitar",
+        "a map",
+        "the food",
+        "the matches",
+        "the tent",
+        "warm blankets"
+      ],
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Jamie, is everything ready for the camping trip on Friday? Who's bringing what?"
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "Yes, Mum. Ben is bringing the tent, his dad's big one. Everyone thought he'd bring a football too, but there's no room in the car for a football."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "And Amy? She said something about a map."
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "She wanted to bring a map, but Ben's dad has a better one, so Amy is bringing the food. She's making sandwiches and a big cake."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Good. And who's bringing the matches for the fire?"
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "Noah said he'd bring the matches, but his mum said no, he's too young. Ben's dad will bring the matches. So Noah is bringing a big torch, so we can see at night."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "That's better. What about Ruby?"
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "Ruby wanted to bring a football at first, for the evenings. But there's no room, so she's bringing warm blankets. It'll be cold at night."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Very good. And Leo?"
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "Leo said he'd bring the food, but he can't cook, and Amy's doing it. So Leo is bringing a guitar, and we'll sing by the fire."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "A guitar, but no football. And you?"
+        },
+        {
+          "who": "Jamie",
+          "sex": "m",
+          "text": "Me? Just my sleeping bag, and the warm one from my sister for Isla."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Then let's hope it doesn't rain."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ben",
+          "answer": 6,
+          "explain": "Ben is bringing the tent, his dad's big one——足球是大家以为的，车里没地方。"
+        },
+        {
+          "id": "q7",
+          "q": "Amy",
+          "answer": 4,
+          "explain": "She wanted to bring a map, but Ben's dad has a better one, so Amy is bringing the food——先说地图，后改成食物。"
+        },
+        {
+          "id": "q8",
+          "q": "Noah",
+          "answer": 0,
+          "explain": "Noah said he'd bring the matches, but his mum said no… So Noah is bringing a big torch——先说火柴，妈妈不让，改成手电筒。火柴由 Ben 爸爸带。"
+        },
+        {
+          "id": "q9",
+          "q": "Ruby",
+          "answer": 7,
+          "explain": "Ruby wanted to bring a football at first… But there's no room, so she's bringing warm blankets——先说足球，后改成毯子。"
+        },
+        {
+          "id": "q10",
+          "q": "Leo",
+          "answer": 2,
+          "explain": "Leo said he'd bring the food, but he can't cook… So Leo is bringing a guitar——先说食物，后改成吉他。足球、地图、火柴三样都被提到多次，但没有人带。"
+        }
+      ]
+    }
+  ]
+}
