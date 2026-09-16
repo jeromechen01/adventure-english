@@ -1,0 +1,313 @@
+{
+  "$comment": "听力训练营 L08（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L08",
+  "title": "Holiday Plans",
+  "titleZh": "假期计划",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "holiday",
+  "names": [
+    "Tom",
+    "Anna",
+    "Emma",
+    "London"
+  ],
+  "intro": "一家人计划假期。这一课三个选项都会在对话里出现，要听到最后的决定（final decision）再选。",
+  "warmup": [
+    {
+      "word": "holiday",
+      "phonetic": "/ˈhɒlədeɪ/",
+      "meaning": "假期"
+    },
+    {
+      "word": "mountain",
+      "phonetic": "/ˈmaʊntən/",
+      "meaning": "山"
+    },
+    {
+      "word": "city",
+      "phonetic": "/ˈsɪti/",
+      "meaning": "城市"
+    },
+    {
+      "word": "expensive",
+      "phonetic": "/ɪkˈspensɪv/",
+      "meaning": "贵的"
+    },
+    {
+      "word": "tablet",
+      "phonetic": "/ˈtæblət/",
+      "meaning": "平板电脑"
+    },
+    {
+      "word": "camera",
+      "phonetic": "/ˈkæmərə/",
+      "meaning": "相机"
+    },
+    {
+      "word": "station",
+      "phonetic": "/ˈsteɪʃn/",
+      "meaning": "车站"
+    },
+    {
+      "word": "ticket",
+      "phonetic": "/ˈtɪkɪt/",
+      "meaning": "票"
+    },
+    {
+      "word": "weekend",
+      "phonetic": "/ˌwiːkˈend/",
+      "meaning": "周末"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Are we going to the beach this summer, Dad?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "We went to the beach last year. I thought about the mountains, but Mum wants to see a big city."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "So we're going to a city?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, we're going to London for a week."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Where is the family going on holiday?",
+          "options": [
+            {
+              "icon": "place-beach",
+              "alt": "the beach"
+            },
+            {
+              "icon": "place-mountains",
+              "alt": "the mountains"
+            },
+            {
+              "icon": "place-city",
+              "alt": "a city"
+            }
+          ],
+          "answer": 2,
+          "explain": "海滩是去年去的，山只是爸爸想过（thought about），最后 we're going to London——一座大城市。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Shall we drive to London?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "It's too far to drive, and the plane is expensive."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The train, then?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, the train. I'll book the tickets tonight."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "How is the family going to travel?",
+          "options": [
+            {
+              "icon": "transport-car",
+              "alt": "by car"
+            },
+            {
+              "icon": "transport-plane",
+              "alt": "by plane"
+            },
+            {
+              "icon": "transport-train",
+              "alt": "by train"
+            }
+          ],
+          "answer": 2,
+          "explain": "开车太远，飞机太贵，最后 Yes, the train。三个都出现了，只有一个是最终决定。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Can I take my tablet on holiday?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "No, leave it at home."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "My camera, then?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The camera is Dad's, and he's taking it. Take a book to read on the train."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is Anna going to take on holiday?",
+          "options": [
+            {
+              "icon": "object-tablet",
+              "alt": "a tablet"
+            },
+            {
+              "icon": "object-camera",
+              "alt": "a camera"
+            },
+            {
+              "icon": "activity-reading",
+              "alt": "a book"
+            }
+          ],
+          "answer": 2,
+          "explain": "平板：No；相机：是爸爸的、爸爸带；最后妈妈说 Take a book。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "The train leaves at quarter to nine, so we must be at the station by eight."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Not quarter past eight?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "No, eight o'clock. We need time to find the right platform."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "OK, I'll get up early."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What time does the train leave?",
+          "options": [
+            {
+              "icon": "clock-0800",
+              "alt": "8:00"
+            },
+            {
+              "icon": "clock-0815",
+              "alt": "8:15"
+            },
+            {
+              "icon": "clock-0845",
+              "alt": "8:45"
+            }
+          ],
+          "answer": 2,
+          "explain": "问火车几点开：quarter to nine = 8:45。八点是到车站的时间，8:15 是 Emma 问错的时间。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Is it going to be sunny in London?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The first day will be rainy, and then cloudy for two days."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "And at the weekend?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Sunny and warm, so we can go to the park."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What will the weather be like at the weekend?",
+          "options": [
+            {
+              "icon": "weather-rainy",
+              "alt": "rainy"
+            },
+            {
+              "icon": "weather-cloudy",
+              "alt": "cloudy"
+            },
+            {
+              "icon": "weather-sunny",
+              "alt": "sunny"
+            }
+          ],
+          "answer": 2,
+          "explain": "三种天气都说了：第一天雨、然后两天多云、周末 Sunny and warm。题目问的是周末。"
+        }
+      ]
+    }
+  ]
+}
