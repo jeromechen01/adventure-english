@@ -1,0 +1,312 @@
+{
+  "$comment": "听力训练营 L03（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L03",
+  "title": "At the Supermarket",
+  "titleZh": "去超市",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "shopping",
+  "names": [
+    "Ben",
+    "Lucy",
+    "Mia"
+  ],
+  "intro": "今天在超市里：买什么、多少钱、想吃什么、几点关门、怎么回家。价格和时间要听清数字。",
+  "warmup": [
+    {
+      "word": "supermarket",
+      "phonetic": "/ˈsuːpəmɑːkɪt/",
+      "meaning": "超市"
+    },
+    {
+      "word": "egg",
+      "phonetic": "/eɡ/",
+      "meaning": "鸡蛋"
+    },
+    {
+      "word": "kilo",
+      "phonetic": "/ˈkiːləʊ/",
+      "meaning": "公斤"
+    },
+    {
+      "word": "pound",
+      "phonetic": "/paʊnd/",
+      "meaning": "英镑"
+    },
+    {
+      "word": "choose",
+      "phonetic": "/tʃuːz/",
+      "meaning": "选择"
+    },
+    {
+      "word": "close",
+      "phonetic": "/kləʊz/",
+      "meaning": "关门"
+    },
+    {
+      "word": "taxi",
+      "phonetic": "/ˈtæksi/",
+      "meaning": "出租车"
+    },
+    {
+      "word": "heavy",
+      "phonetic": "/ˈhevi/",
+      "meaning": "重的"
+    },
+    {
+      "word": "bag",
+      "phonetic": "/bæɡ/",
+      "meaning": "袋子"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Mum, what do we need from the supermarket?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Six eggs. We've got lots of milk at home."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "What about apples?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "No, we've still got apples. Just the eggs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What are Ben and his mum going to buy?",
+          "options": [
+            {
+              "icon": "food-milk",
+              "alt": "milk"
+            },
+            {
+              "icon": "food-egg",
+              "alt": "eggs"
+            },
+            {
+              "icon": "food-apple",
+              "alt": "apples"
+            }
+          ],
+          "answer": 1,
+          "explain": "Six eggs… Just the eggs 说了两遍。牛奶和苹果家里都有（we've got），不用买。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Excuse me, how much are the bananas?"
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "They're two pounds fifty a kilo today."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "And the oranges?"
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "Three pounds a kilo. The bananas are cheaper."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "How much are the bananas?",
+          "options": [
+            {
+              "icon": "price-2-50",
+              "alt": "£2.50"
+            },
+            {
+              "icon": "price-3",
+              "alt": "£3"
+            },
+            {
+              "icon": "price-5",
+              "alt": "£5"
+            }
+          ],
+          "answer": 0,
+          "explain": "问香蕉：two pounds fifty = £2.50。三镑是橙子的价格。听价格时要把数字和东西对上。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Mum, can I have some ice cream?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Not today. You can choose some fruit."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "OK, bananas, please."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Good. And no cake either!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is Mia going to have?",
+          "options": [
+            {
+              "icon": "food-ice-cream",
+              "alt": "ice cream"
+            },
+            {
+              "icon": "food-banana",
+              "alt": "bananas"
+            },
+            {
+              "icon": "food-cake",
+              "alt": "cake"
+            }
+          ],
+          "answer": 1,
+          "explain": "冰淇淋 Not today，蛋糕 no cake either，Mia 自己选了 bananas。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "What time does the supermarket close today, Dad?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "At eight o'clock on Saturdays."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Good. It's only half past seven now."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, but let's be quick."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What time does the supermarket close?",
+          "options": [
+            {
+              "icon": "clock-0730",
+              "alt": "7:30"
+            },
+            {
+              "icon": "clock-0800",
+              "alt": "8:00"
+            },
+            {
+              "icon": "clock-0845",
+              "alt": "8:45"
+            }
+          ],
+          "answer": 1,
+          "explain": "问关门时间：At eight o'clock。7:30 是现在的时间（now）。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "These bags are so heavy. Let's take a taxi home."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Can't we go on the bus?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Not with all these bags. A taxi is easier."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "OK, I'll wait here with the bags."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "How are they going home?",
+          "options": [
+            {
+              "icon": "transport-bus",
+              "alt": "by bus"
+            },
+            {
+              "icon": "transport-taxi",
+              "alt": "by taxi"
+            },
+            {
+              "icon": "transport-walk",
+              "alt": "on foot"
+            }
+          ],
+          "answer": 1,
+          "explain": "Let's take a taxi home，之后又说 A taxi is easier。公交车被 Not with all these bags 否定了。"
+        }
+      ]
+    }
+  ]
+}
