@@ -293,6 +293,20 @@
       "theme": "sport",
       "file": "data/exam/ket/listening/l19.json",
       "status": "ready"
+    },
+    {
+      "id": "L20",
+      "title": "A Day at the Museum",
+      "titleZh": "博物馆参观",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "museum",
+      "file": "data/exam/ket/listening/l20.json",
+      "status": "ready"
     }
   ]
 }

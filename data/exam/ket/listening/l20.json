@@ -1,0 +1,331 @@
+{
+  "$comment": "听力训练营 L20（P-L2 阶段二末课）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，每段含转折，接近真考）+ Part 2 笔记填空（一段独白 5 空，五类混合：地名拼读 H-A-R-T-L-E-Y、时间、价格 £4.50、姓名拼读 N-O-L-A-N、电话号码）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L20",
+  "title": "A Day at the Museum",
+  "titleZh": "博物馆参观",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "museum",
+  "names": [
+    "Hartley",
+    "Nolan",
+    "Tom",
+    "Mia",
+    "Ben",
+    "Amy"
+  ],
+  "intro": "阶段二最后一课，接近真考：五段都在博物馆，每段有转折——换了博物馆、恐龙馆关了、哪里能拍照、以为无聊结果很棒、餐厅满了改野餐。再听一段博物馆讲解员的开场，五个空五种类型。",
+  "warmup": [
+    {
+      "word": "museum",
+      "phonetic": "/mjuˈziːəm/",
+      "meaning": "博物馆"
+    },
+    {
+      "word": "science",
+      "phonetic": "/ˈsaɪəns/",
+      "meaning": "科学"
+    },
+    {
+      "word": "art",
+      "phonetic": "/ɑːt/",
+      "meaning": "艺术"
+    },
+    {
+      "word": "dinosaur",
+      "phonetic": "/ˈdaɪnəsɔː/",
+      "meaning": "恐龙"
+    },
+    {
+      "word": "ship",
+      "phonetic": "/ʃɪp/",
+      "meaning": "船"
+    },
+    {
+      "word": "painting",
+      "phonetic": "/ˈpeɪntɪŋ/",
+      "meaning": "油画"
+    },
+    {
+      "word": "guide",
+      "phonetic": "/ɡaɪd/",
+      "meaning": "讲解员；导游"
+    },
+    {
+      "word": "café",
+      "phonetic": "/ˈkæfeɪ/",
+      "meaning": "咖啡馆；小餐厅"
+    },
+    {
+      "word": "boring",
+      "phonetic": "/ˈbɔːrɪŋ/",
+      "meaning": "无聊的"
+    },
+    {
+      "word": "adult",
+      "phonetic": "/ˈædʌlt/",
+      "meaning": "成人"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Class, a change to Friday's trip. We were going to the science museum, but it's closed for building work until June."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "So we're going to the art museum on Friday. It's the same day, and the bus still leaves at nine, so nothing else changes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the teacher telling the class?",
+          "options": [
+            "They will go to a different museum.",
+            "The trip is on a different day.",
+            "The trip will cost more."
+          ],
+          "answer": 0,
+          "explain": "were going to the science museum, but it's closed… So we're going to the art museum——换了博物馆。same day / nothing else changes 说明日子和车都没变。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Mia, let's go to the dinosaur room first. It's the best part of the museum."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "I wanted to, but look at the sign. It's closed today, they're cleaning it."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Oh no! What about the old ships, then? They're upstairs."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "OK, ships first, and we can see the old cars after lunch."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What are Tom and Mia going to see first?",
+          "options": [
+            "the ships",
+            "the dinosaurs",
+            "the old cars"
+          ],
+          "answer": 0,
+          "explain": "恐龙馆 closed today；What about the old ships? → OK, ships first。老爷车是午饭后看。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Guide",
+          "sex": "f",
+          "text": "Welcome, everyone. You can take photos in most of the museum, and we love seeing them online."
+        },
+        {
+          "who": "Guide",
+          "sex": "f",
+          "text": "But not in the painting rooms on the first floor, the light is bad for the old paintings. Thank you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is the woman telling the visitors?",
+          "options": [
+            "where they can take photos",
+            "where they can buy photos",
+            "how much the photos cost"
+          ],
+          "answer": 0,
+          "explain": "can take photos in most of the museum, But not in the painting rooms——在说哪里能拍、哪里不能拍。买照片和价格没提。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "I thought the museum would be boring, just old things in glass boxes. I didn't want to go."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "But the old cars were great, you can sit in them! I want to go back with my dad next weekend."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What does the boy say about the museum?",
+          "options": [
+            "It was better than he thought.",
+            "It was boring.",
+            "It was too small."
+          ],
+          "answer": 0,
+          "explain": "I thought… boring 是去之前的想法，But the old cars were great / want to go back——比想的好得多。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Mum, I'm hungry. Can we have lunch in the museum café now?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "I wanted to, but it's full, there's a queue out of the door."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "So what do we do?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "I've got sandwiches in my bag. Let's eat them in the garden outside, it's sunny."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "Where will Amy and her mum have lunch?",
+          "options": [
+            "in the garden",
+            "in the café",
+            "at home"
+          ],
+          "answer": 0,
+          "explain": "wanted to（想去 café），but it's full → Let's eat them in the garden outside，改在外面花园吃。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段博物馆讲解员的开场，把笔记补全。五个空五种类型：地名拼读、时间、价格、姓名拼读、电话。",
+      "script": [
+        {
+          "who": "Guide",
+          "sex": "m",
+          "text": "Good morning, and welcome to the Hartley Museum. That's H-A-R-T-L-E-Y. My name is Mr Nolan, and I'm your guide today."
+        },
+        {
+          "who": "Guide",
+          "sex": "m",
+          "text": "The museum opens at half past nine every day and closes at five. On Thursdays we stay open until eight."
+        },
+        {
+          "who": "Guide",
+          "sex": "m",
+          "text": "Tickets are nine pounds for adults and four pounds fifty for children. Under fives are free, and so are school groups on Fridays."
+        },
+        {
+          "who": "Guide",
+          "sex": "m",
+          "text": "If you have questions later, ask me or Mrs Nolan, my wife. She works in the shop. Nolan is N-O-L-A-N."
+        },
+        {
+          "who": "Guide",
+          "sex": "m",
+          "text": "To book a guide for your next visit, call the museum on two two oh, six one eight three. That's two two oh, six one eight three."
+        },
+        {
+          "who": "Guide",
+          "sex": "m",
+          "text": "Now, let's start with the dinosaurs. Follow me, please."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "The ______ Museum",
+          "answer": "Hartley",
+          "explain": "welcome to the Hartley Museum. That's H-A-R-T-L-E-Y，照拼读写。"
+        },
+        {
+          "id": "q7",
+          "q": "Opens at: ______",
+          "answer": "9:30",
+          "alt": [
+            "9.30",
+            "half past nine",
+            "nine thirty"
+          ],
+          "explain": "opens at half past nine = 9:30。five 和 eight 是关门时间。"
+        },
+        {
+          "id": "q8",
+          "q": "Child's ticket: £______",
+          "answer": "4.50",
+          "alt": [
+            "£4.50",
+            "four pounds fifty",
+            "4 pounds 50",
+            "four fifty",
+            "4:50"
+          ],
+          "explain": "four pounds fifty for children = £4.50。nine pounds 是成人票。"
+        },
+        {
+          "id": "q9",
+          "q": "Guide's name: Mr ______",
+          "answer": "Nolan",
+          "explain": "My name is Mr Nolan … Nolan is N-O-L-A-N，拼读在后面才出现，先记下听到的名字再对拼读。"
+        },
+        {
+          "id": "q10",
+          "q": "Phone: ______",
+          "answer": "220 6183",
+          "alt": [
+            "2206183",
+            "220-6183"
+          ],
+          "explain": "two two oh, six one eight three = 220 6183。号码会重复一遍。"
+        }
+      ]
+    }
+  ]
+}
