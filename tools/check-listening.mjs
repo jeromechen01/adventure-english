@@ -19,8 +19,9 @@ const widx = JSON.parse(readFileSync('data/exam/ket/words/index.json', 'utf8'));
 const LEX = new Set();
 for (const t of widx.topics) {
   const d = JSON.parse(readFileSync(`data/exam/ket/words/${t.file}`, 'utf8'));
-  d.words.forEach(w => LEX.add(String(w.word).toLowerCase().trim()));
+  d.words.forEach(w => { const lw = String(w.word).toLowerCase().trim(); LEX.add(lw); LEX.add(deaccent(lw)); });
 }
+function deaccent(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, ''); } // café → cafe（脚本与词表两边都去音符再比）
 const PHRASES = [...LEX].filter(w => w.includes(' '));
 // 词表之外但 A2 听力材料里必然出现的功能词/称呼/极高频词（Cambridge A2 词表本身收录，本地话题词库未单列）
 const FUNCTION_WORDS = new Set(['a', 'an', 'the', 'and', 'or', 'but', 'so', 'if', 'of', 'to', 'in', 'on', 'at', 'by', 'for', 'with', 'from', 'about', 'after', 'before', 'because', 'then', 'than', 'as', 'not', 'no', 'yes', 'ok', 'okay', 'oh', 'hi', 'hello', 'please', 'thanks', 'thank', 'sorry',
@@ -28,11 +29,16 @@ const FUNCTION_WORDS = new Set(['a', 'an', 'the', 'and', 'or', 'but', 'so', 'if'
   'is', 'am', 'are', 'was', 'were', 'be', 'been', 'being', 'do', 'does', 'did', 'have', 'has', 'had', 'can', 'cannot', 'could', 'will', 'would', 'shall', 'should', 'must', 'may', 'might', 'let',
   'very', 'too', 'also', 'just', 'only', 'again', 'always', 'never', 'sometimes', 'usually', 'often', 'still', 'really', 'well', 'all', 'some', 'any', 'every', 'each', 'much', 'many', 'more', 'most', 'other', 'another', 'both', 'few', 'little', 'lot', 'lots',
   'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'thirty', 'forty', 'fifty', 'hundred', 'first', 'second', 'third',
+  'tv', // Cambridge A2 词表收录 TV，本地话题词库只收 television
   'mum', 'dad', 'mr', 'mrs', 'miss', 'sir', 'madam', 'everyone', 'everybody', 'something', 'anything', 'nothing', 'someone', 'anyone', 'today', 'tomorrow', 'yesterday', 'tonight', 'now', 'later', 'soon', 'up', 'down', 'out', 'off', 'over', 'back', 'away', 'into', 'onto', 'next', 'last', 'same', 'right', 'left', 'new', 'old', 'big', 'good', 'great', 'nice', 'fine', 'bad', 'best', 'better']);
-const CONTRACTIONS = { "i'm": 'i am', "i'll": 'i will', "i've": 'i have', "i'd": 'i would', "you're": 'you are', "you'll": 'you will', "you've": 'you have', "we're": 'we are', "we'll": 'we will', "we've": 'we have', "they're": 'they are', "they'll": 'they will', "he's": 'he is', "she's": 'she is', "it's": 'it is', "that's": 'that is', "there's": 'there is', "what's": 'what is', "where's": 'where is', "who's": 'who is', "here's": 'here is', "let's": 'let us', "isn't": 'is not', "aren't": 'are not', "wasn't": 'was not', "weren't": 'were not', "don't": 'do not', "doesn't": 'does not', "didn't": 'did not', "can't": 'cannot', "couldn't": 'could not', "won't": 'will not', "wouldn't": 'would not', "shouldn't": 'should not', "haven't": 'have not', "hasn't": 'has not', "o'clock": "o'clock" };
+const CONTRACTIONS = { "i'm": 'i am', "i'll": 'i will', "i've": 'i have', "i'd": 'i would', "you're": 'you are', "you'll": 'you will', "you've": 'you have', "you'd": 'you would', "she'll": 'she will', "he'll": 'he will', "it'll": 'it will', "that'll": 'that will', "we'd": 'we would', "they'd": 'they would', "he'd": 'he would', "she'd": 'she would', "we're": 'we are', "we'll": 'we will', "we've": 'we have', "they're": 'they are', "they'll": 'they will', "he's": 'he is', "she's": 'she is', "it's": 'it is', "that's": 'that is', "there's": 'there is', "what's": 'what is', "where's": 'where is', "who's": 'who is', "here's": 'here is', "let's": 'let us', "isn't": 'is not', "aren't": 'are not', "wasn't": 'was not', "weren't": 'were not', "don't": 'do not', "doesn't": 'does not', "didn't": 'did not', "can't": 'cannot', "couldn't": 'could not', "won't": 'will not', "wouldn't": 'would not', "shouldn't": 'should not', "haven't": 'have not', "hasn't": 'has not', "o'clock": "o'clock" };
+
+// 不规则动词过去式/过去分词 → 原形（P-L1：脚本里的叙述会用到 fell / went / bought 等）
+const IRREGULAR = { fell: 'fall', fallen: 'fall', went: 'go', gone: 'go', got: 'get', bought: 'buy', made: 'make', saw: 'see', seen: 'see', came: 'come', took: 'take', taken: 'take', had: 'have', said: 'say', told: 'tell', ate: 'eat', eaten: 'eat', drank: 'drink', drunk: 'drink', ran: 'run', wore: 'wear', worn: 'wear', brought: 'bring', forgot: 'forget', forgotten: 'forget', lost: 'lose', found: 'find', gave: 'give', given: 'give', left: 'leave', sat: 'sit', slept: 'sleep', spent: 'spend', stood: 'stand', swam: 'swim', swum: 'swim', thought: 'think', won: 'win', wrote: 'write', written: 'write', broke: 'break', broken: 'break', chose: 'choose', chosen: 'choose', drove: 'drive', driven: 'drive', fed: 'feed', felt: 'feel', flew: 'fly', flown: 'fly', heard: 'hear', kept: 'keep', knew: 'know', known: 'know', met: 'meet', paid: 'pay', rode: 'ride', ridden: 'ride', sold: 'sell', sent: 'send', taught: 'teach', threw: 'throw', thrown: 'throw', woke: 'wake', woken: 'wake', began: 'begin', begun: 'begin', built: 'build', caught: 'catch', cost: 'cost', cut: 'cut', did: 'do', done: 'do', grew: 'grow', grown: 'grow', held: 'hold', hid: 'hide', hit: 'hit', hurt: 'hurt', learnt: 'learn', lent: 'lend', lit: 'light', meant: 'mean', put: 'put', read: 'read', rang: 'ring', rung: 'ring', rose: 'rise', sang: 'sing', sung: 'sing', shone: 'shine', shut: 'shut', spoke: 'speak', spoken: 'speak', stuck: 'stick', swept: 'sweep', understood: 'understand', wound: 'wind', children: 'child', feet: 'foot', teeth: 'tooth', men: 'man', women: 'woman', mice: 'mouse', people: 'person' };
 
 function inLex(w) {
   if (LEX.has(w) || FUNCTION_WORDS.has(w)) return true;
+  if (IRREGULAR[w] && (LEX.has(IRREGULAR[w]) || FUNCTION_WORDS.has(IRREGULAR[w]))) return true;
   if (/^\d+([.:]\d+)?$/.test(w)) return true;
   const c = [];
   if (w.endsWith('ies')) c.push(w.slice(0, -3) + 'y');
@@ -43,12 +49,15 @@ function inLex(w) {
   if (w.endsWith('er')) c.push(w.slice(0, -2), w.slice(0, -1));
   if (w.endsWith('est')) c.push(w.slice(0, -3), w.slice(0, -2));
   if (w.endsWith('ly')) c.push(w.slice(0, -2));
+  if (w.endsWith('ier')) c.push(w.slice(0, -3) + 'y');   // easier → easy
+  if (w.endsWith('iest')) c.push(w.slice(0, -4) + 'y');  // easiest → easy
+  if (w.endsWith('y')) c.push(w.slice(0, -1));           // stormy → storm
   return c.some(x => x.length >= 2 && (LEX.has(x) || FUNCTION_WORDS.has(x)));
 }
 
 // 文本 → 词元数组（先吃掉多词条目，再逐词）；names 里的人名跳过
 function tokenize(text, names) {
-  let s = ' ' + String(text).replace(/[’]/g, "'").replace(/[^A-Za-z0-9' .:-]/g, ' ') + ' ';
+  let s = ' ' + deaccent(String(text)).replace(/[’]/g, "'").replace(/[^A-Za-z0-9' .:-]/g, ' ') + ' ';
   const nameSet = new Set((names || []).map(n => n.toLowerCase()));
   s = s.toLowerCase().replace(/[a-z]+'[a-z]+/g, m => CONTRACTIONS[m] || m);
   const found = [];

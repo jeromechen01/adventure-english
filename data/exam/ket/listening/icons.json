@@ -10,9 +10,12 @@
     "transport",
     "food",
     "activity",
-    "place"
+    "place",
+    "clothes",
+    "object",
+    "body"
   ],
-  "count": 44,
+  "count": 81,
   "icons": [
     {
       "id": "clock-0700",
@@ -57,6 +60,34 @@
       "zh": "时钟 3:30（3 点半）"
     },
     {
+      "id": "clock-0300",
+      "category": "clock",
+      "file": "clock-0300.svg",
+      "alt": "a clock showing three o'clock (3:00)",
+      "zh": "时钟 3:00（3 点整）"
+    },
+    {
+      "id": "clock-0400",
+      "category": "clock",
+      "file": "clock-0400.svg",
+      "alt": "a clock showing four o'clock (4:00)",
+      "zh": "时钟 4:00（4 点整）"
+    },
+    {
+      "id": "clock-0430",
+      "category": "clock",
+      "file": "clock-0430.svg",
+      "alt": "a clock showing half past four (4:30)",
+      "zh": "时钟 4:30（4 点半）"
+    },
+    {
+      "id": "clock-0830",
+      "category": "clock",
+      "file": "clock-0830.svg",
+      "alt": "a clock showing half past eight (8:30)",
+      "zh": "时钟 8:30（8 点半）"
+    },
+    {
       "id": "price-2-50",
       "category": "price",
       "file": "price-2-50.svg",
@@ -83,6 +114,27 @@
       "file": "price-15.svg",
       "alt": "a price tag showing £15",
       "zh": "价格牌 £15"
+    },
+    {
+      "id": "price-3",
+      "category": "price",
+      "file": "price-3.svg",
+      "alt": "a price tag showing £3",
+      "zh": "价格牌 £3"
+    },
+    {
+      "id": "price-8",
+      "category": "price",
+      "file": "price-8.svg",
+      "alt": "a price tag showing £8",
+      "zh": "价格牌 £8"
+    },
+    {
+      "id": "price-free",
+      "category": "price",
+      "file": "price-free.svg",
+      "alt": "a price tag saying FREE (no charge)",
+      "zh": "价格牌 FREE（免费）"
     },
     {
       "id": "weather-sunny",
@@ -321,6 +373,216 @@
       "file": "place-beach.svg",
       "alt": "a beach with the sea and a sun umbrella",
       "zh": "海滩"
+    },
+    {
+      "id": "food-egg",
+      "category": "food",
+      "file": "food-egg.svg",
+      "alt": "eggs",
+      "zh": "鸡蛋"
+    },
+    {
+      "id": "food-juice",
+      "category": "food",
+      "file": "food-juice.svg",
+      "alt": "a glass of orange juice",
+      "zh": "果汁"
+    },
+    {
+      "id": "food-tea",
+      "category": "food",
+      "file": "food-tea.svg",
+      "alt": "a cup of tea",
+      "zh": "一杯茶"
+    },
+    {
+      "id": "activity-cleaning",
+      "category": "activity",
+      "file": "activity-cleaning.svg",
+      "alt": "cleaning a room with a broom",
+      "zh": "打扫房间"
+    },
+    {
+      "id": "activity-boardgame",
+      "category": "activity",
+      "file": "activity-boardgame.svg",
+      "alt": "playing a board game",
+      "zh": "玩桌游"
+    },
+    {
+      "id": "activity-tv",
+      "category": "activity",
+      "file": "activity-tv.svg",
+      "alt": "watching TV",
+      "zh": "看电视"
+    },
+    {
+      "id": "clothes-boots",
+      "category": "clothes",
+      "file": "clothes-boots.svg",
+      "alt": "a pair of boots",
+      "zh": "靴子"
+    },
+    {
+      "id": "clothes-trainers",
+      "category": "clothes",
+      "file": "clothes-trainers.svg",
+      "alt": "a pair of trainers (sports shoes)",
+      "zh": "运动鞋"
+    },
+    {
+      "id": "clothes-shoes",
+      "category": "clothes",
+      "file": "clothes-shoes.svg",
+      "alt": "a pair of smart shoes",
+      "zh": "皮鞋"
+    },
+    {
+      "id": "clothes-jacket",
+      "category": "clothes",
+      "file": "clothes-jacket.svg",
+      "alt": "a jacket",
+      "zh": "夹克"
+    },
+    {
+      "id": "clothes-jumper",
+      "category": "clothes",
+      "file": "clothes-jumper.svg",
+      "alt": "a warm jumper (sweater)",
+      "zh": "毛衣"
+    },
+    {
+      "id": "clothes-t-shirt",
+      "category": "clothes",
+      "file": "clothes-t-shirt.svg",
+      "alt": "a T-shirt",
+      "zh": "T 恤"
+    },
+    {
+      "id": "object-umbrella",
+      "category": "object",
+      "file": "object-umbrella.svg",
+      "alt": "an umbrella",
+      "zh": "雨伞"
+    },
+    {
+      "id": "object-kite",
+      "category": "object",
+      "file": "object-kite.svg",
+      "alt": "a kite",
+      "zh": "风筝"
+    },
+    {
+      "id": "object-ball",
+      "category": "object",
+      "file": "object-ball.svg",
+      "alt": "a football (ball)",
+      "zh": "足球"
+    },
+    {
+      "id": "object-camera",
+      "category": "object",
+      "file": "object-camera.svg",
+      "alt": "a camera",
+      "zh": "相机"
+    },
+    {
+      "id": "object-tablet",
+      "category": "object",
+      "file": "object-tablet.svg",
+      "alt": "a tablet computer",
+      "zh": "平板电脑"
+    },
+    {
+      "id": "object-medicine",
+      "category": "object",
+      "file": "object-medicine.svg",
+      "alt": "a bottle of medicine",
+      "zh": "药（药瓶）"
+    },
+    {
+      "id": "place-museum",
+      "category": "place",
+      "file": "place-museum.svg",
+      "alt": "a museum with columns",
+      "zh": "博物馆"
+    },
+    {
+      "id": "place-cafe",
+      "category": "place",
+      "file": "place-cafe.svg",
+      "alt": "a café with a cup sign",
+      "zh": "咖啡店"
+    },
+    {
+      "id": "place-lake",
+      "category": "place",
+      "file": "place-lake.svg",
+      "alt": "a lake with a duck",
+      "zh": "湖"
+    },
+    {
+      "id": "place-mountains",
+      "category": "place",
+      "file": "place-mountains.svg",
+      "alt": "mountains with snow on top",
+      "zh": "山"
+    },
+    {
+      "id": "place-city",
+      "category": "place",
+      "file": "place-city.svg",
+      "alt": "a big city with tall buildings",
+      "zh": "大城市"
+    },
+    {
+      "id": "place-zoo",
+      "category": "place",
+      "file": "place-zoo.svg",
+      "alt": "a zoo with an animal behind a fence",
+      "zh": "动物园"
+    },
+    {
+      "id": "place-castle",
+      "category": "place",
+      "file": "place-castle.svg",
+      "alt": "a castle with towers",
+      "zh": "城堡"
+    },
+    {
+      "id": "transport-taxi",
+      "category": "transport",
+      "file": "transport-taxi.svg",
+      "alt": "a taxi",
+      "zh": "出租车"
+    },
+    {
+      "id": "transport-walk",
+      "category": "transport",
+      "file": "transport-walk.svg",
+      "alt": "walking (on foot)",
+      "zh": "步行"
+    },
+    {
+      "id": "body-head",
+      "category": "body",
+      "file": "body-head.svg",
+      "alt": "a person with a headache (head hurts)",
+      "zh": "头（头疼）"
+    },
+    {
+      "id": "body-arm",
+      "category": "body",
+      "file": "body-arm.svg",
+      "alt": "a person with a hurt arm",
+      "zh": "胳膊（胳膊疼）"
+    },
+    {
+      "id": "body-stomach",
+      "category": "body",
+      "file": "body-stomach.svg",
+      "alt": "a person with a stomach ache",
+      "zh": "肚子（肚子疼）"
     }
   ]
 }

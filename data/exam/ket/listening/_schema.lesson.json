@@ -21,7 +21,7 @@
         "type": "object",
         "required": ["word", "meaning"],
         "properties": {
-          "word": { "type": "string", "pattern": "^[a-z][a-z' -]*$" },
+          "word": { "type": "string", "pattern": "^[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ' -]*$" },
           "phonetic": { "type": "string", "pattern": "^/.+/$" },
           "meaning": { "type": "string", "pattern": "[\\u4e00-\\u9fff]" }
         }
