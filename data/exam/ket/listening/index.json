@@ -377,6 +377,20 @@
       "theme": "cinema",
       "file": "data/exam/ket/listening/l24.json",
       "status": "ready"
+    },
+    {
+      "id": "L25",
+      "title": "Clubs Day",
+      "titleZh": "学校社团",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "school",
+      "file": "data/exam/ket/listening/l25.json",
+      "status": "ready"
     }
   ]
 }

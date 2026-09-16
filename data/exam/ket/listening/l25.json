@@ -1,0 +1,311 @@
+{
+  "$comment": "听力训练营 L25（P-L3 续跑，阶段三第五课，L22-L25「直说/直给」段末课）。脚本 100% 原创；Part 3 观点直说（一段长对话 5 题：为什么加入摄影社 / 觉得舞蹈社怎么样 / 对当社长什么感受 / 为什么周四不能来 / 觉得学校社团日怎么样）+ Part 5 匹配直给（Ryan 告诉老师五个社团成员在社团开放日各在学校哪个地方，8 个地点 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L25",
+  "title": "Clubs Day",
+  "titleZh": "学校社团",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "school",
+  "names": [
+    "Ryan",
+    "Holly",
+    "Bell",
+    "Amy",
+    "Owen",
+    "Chloe",
+    "Josh",
+    "Nina"
+  ],
+  "intro": "先听 Holly 和 Ryan 聊学校社团：为什么选摄影社、舞蹈社好不好、当社长担不担心？题目问的是理由、看法和感受，注意「别人觉得」和「我觉得」不一样。再听 Ryan 告诉 Bell 老师社团开放日那天五个同学各在学校哪个地方帮忙，把人和地点配起来——8 个地点都会被提到，有 3 个没人去。",
+  "warmup": [
+    {
+      "word": "club",
+      "phonetic": "/klʌb/",
+      "meaning": "社团；俱乐部"
+    },
+    {
+      "word": "photo",
+      "phonetic": "/ˈfəʊtəʊ/",
+      "meaning": "照片"
+    },
+    {
+      "word": "camera",
+      "phonetic": "/ˈkæmərə/",
+      "meaning": "相机"
+    },
+    {
+      "word": "worried",
+      "phonetic": "/ˈwʌrid/",
+      "meaning": "担心的"
+    },
+    {
+      "word": "hall",
+      "phonetic": "/hɔːl/",
+      "meaning": "礼堂；大厅"
+    },
+    {
+      "word": "gym",
+      "phonetic": "/dʒɪm/",
+      "meaning": "体育馆"
+    },
+    {
+      "word": "playground",
+      "phonetic": "/ˈpleɪɡraʊnd/",
+      "meaning": "操场"
+    },
+    {
+      "word": "office",
+      "phonetic": "/ˈɒfɪs/",
+      "meaning": "办公室"
+    },
+    {
+      "word": "robot",
+      "phonetic": "/ˈrəʊbɒt/",
+      "meaning": "机器人"
+    },
+    {
+      "word": "poster",
+      "phonetic": "/ˈpəʊstə/",
+      "meaning": "海报"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Holly 和 Ryan 聊学校社团。五道题问的是理由、看法和感受，注意分清「别人觉得」和「我觉得」。",
+      "script": [
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Ryan, I heard you joined the photo club. Is that because your dad gave you that new camera?"
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "No, I still use my old one. My cousin is in the club and she said the trips are great. Last month they went to the river to take pictures of birds. That's why I joined. The teacher is nice too, but that's not why I joined."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "I'm in the dance club this year. Some people say it's just for girls, and my brother thinks it's too easy, but I love it. Every week we learn a new dance, and it's really good exercise."
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "And you're the head of the club now, aren't you? How do you feel about that?"
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Everyone thinks I'm excited, and my mum is so happy about it. But really, I'm worried. I have to speak in front of thirty people every Friday."
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "You'll be fine. Are you coming to the photo club meeting on Thursday? We're planning the school clubs day."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "I can't on Thursday. I'm not ill any more, and I haven't got dance that day, but my grandmother is coming for dinner, and I have to be home by four."
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "That's OK. I'll tell you what we decide."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "What do you think of clubs day? Last year my friend Amy said it was boring. Just tables and posters."
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "I thought it was fun last year. I saw the robot club and the cooking club, and I ate some cake. It was a long day, but I didn't want it to end."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Well, the dance club is doing a show in the hall this year, so it won't be boring."
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "Great. I'll take some photos of the show for the school website."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Perfect. Just don't take one when I fall over!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why did Ryan join the photo club?",
+          "options": [
+            "He has a new camera.",
+            "He likes the club trips.",
+            "He likes the teacher."
+          ],
+          "answer": 1,
+          "explain": "she said the trips are great… That's why I joined——因为社团的外出活动。新相机是 Holly 猜的，他说 I still use my old one；老师 nice 但 that's not why I joined。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Holly think about the dance club?",
+          "options": [
+            "It is only for girls.",
+            "It is too easy.",
+            "It is good exercise."
+          ],
+          "answer": 2,
+          "explain": "I love it… it's really good exercise——她自己的看法。「只适合女生」是 some people say；「太简单」是她哥哥觉得的。"
+        },
+        {
+          "id": "q3",
+          "q": "How does Holly feel about being head of the dance club?",
+          "options": [
+            "She is worried.",
+            "She is excited.",
+            "She is happy."
+          ],
+          "answer": 0,
+          "explain": "But really, I'm worried——每周五要在三十个人面前讲话。「兴奋」是 everyone thinks；「高兴」的是她妈妈。"
+        },
+        {
+          "id": "q4",
+          "q": "Why can't Holly go to the meeting on Thursday?",
+          "options": [
+            "She is ill.",
+            "She has dance that day.",
+            "Her grandmother is visiting."
+          ],
+          "answer": 2,
+          "explain": "my grandmother is coming for dinner, and I have to be home by four——奶奶来吃饭。她说 I'm not ill any more，周四也没有舞蹈课。"
+        },
+        {
+          "id": "q5",
+          "q": "What did Ryan think of clubs day last year?",
+          "options": [
+            "It was boring.",
+            "It was fun.",
+            "It was too long."
+          ],
+          "answer": 1,
+          "explain": "I thought it was fun last year——他自己觉得好玩。「无聊」是 Amy 说的；「一整天」他提到了，但 I didn't want it to end，不是嫌长。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Ryan 告诉 Bell 老师社团开放日那天五个同学各在学校哪个地方帮忙。把每个人和右边 A-H 的地点配起来。8 个地点都会被提到，有 3 个没人去——注意听「最后在哪里」。",
+      "options": [
+        "garden",
+        "gym",
+        "hall",
+        "kitchen",
+        "library",
+        "office",
+        "playground",
+        "classroom"
+      ],
+      "script": [
+        {
+          "who": "Bell",
+          "sex": "f",
+          "text": "Ryan, it's clubs day tomorrow. Can you tell me where everyone is going to be? I need to write it on the poster."
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "Yes, Miss Bell. Amy is with the cooking club. They wanted the hall, but the dance show is there, so Amy will be in the kitchen all day."
+        },
+        {
+          "who": "Bell",
+          "sex": "f",
+          "text": "Good, that's the best place for cakes. What about Owen and the robot club?"
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "Owen is in the gym. The robots need a lot of space to move, and the floor there is nice and flat."
+        },
+        {
+          "who": "Bell",
+          "sex": "f",
+          "text": "Fine. And Chloe? She's in the garden club, isn't she?"
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "She is, but it might rain, so she isn't going to be in the garden. She's in the library, showing photos of the plants."
+        },
+        {
+          "who": "Bell",
+          "sex": "f",
+          "text": "Clever girl. And Josh? He's helping the football club, I think."
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "Yes. Josh is in the playground with a ball, so people can try some games. Not in a classroom, he says football needs fresh air."
+        },
+        {
+          "who": "Bell",
+          "sex": "f",
+          "text": "Of course. And Nina from the photo club? Is she with you?"
+        },
+        {
+          "who": "Ryan",
+          "sex": "m",
+          "text": "No, Nina is in the office next to the front door. She's giving everyone a map when they come in. I'll be in the hall taking photos of the dance show."
+        },
+        {
+          "who": "Bell",
+          "sex": "f",
+          "text": "Perfect. That's everyone. Thank you, Ryan."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Amy",
+          "answer": 3,
+          "explain": "They wanted the hall, but the dance show is there, so Amy will be in the kitchen——礼堂是干扰，最后在厨房。"
+        },
+        {
+          "id": "q7",
+          "q": "Owen",
+          "answer": 1,
+          "explain": "Owen is in the gym——机器人需要大地方，地板平。"
+        },
+        {
+          "id": "q8",
+          "q": "Chloe",
+          "answer": 4,
+          "explain": "she isn't going to be in the garden. She's in the library——花园是干扰（怕下雨），最后在图书馆放照片。"
+        },
+        {
+          "id": "q9",
+          "q": "Josh",
+          "answer": 6,
+          "explain": "Josh is in the playground with a ball——教室是干扰，他说踢球要在户外。"
+        },
+        {
+          "id": "q10",
+          "q": "Nina",
+          "answer": 5,
+          "explain": "Nina is in the office next to the front door——在办公室发地图。礼堂是 Ryan 自己去的地方。"
+        }
+      ]
+    }
+  ]
+}
