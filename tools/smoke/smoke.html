@@ -122,6 +122,7 @@
       await visit('KET', 'exam-listening');
       await visit('KET', 'exam-listening', { lesson: 'L01' });
       await visit('KET', 'exam-listening', { lesson: 'L10' }); // P-L1：阶段一末课
+      await visit('KET', 'exam-listening', { lesson: 'L11' }); // P-L2：阶段二样课（Part 4 + Part 2 填空）
       await visit('KET', 'exam-reading', { tab: 'listening' });
       await visit('KET', 'voice-check');
 
@@ -286,6 +287,8 @@
       p2b.offlineListeningWarmup = !!app.querySelector('#startBtn');
       await visit('offline-KET', 'exam-listening', { lesson: 'L10' });
       p2b.offlineListeningL10 = !!app.querySelector('#startBtn');
+      await visit('offline-KET', 'exam-listening', { lesson: 'L11' });
+      p2b.offlineListeningL11 = !!app.querySelector('#startBtn');
       const offlineRoutes = out.slice(onlineCount);
       await fetch('/__online?t=' + Date.now() + Math.random()).catch(() => {});
 
