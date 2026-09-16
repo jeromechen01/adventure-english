@@ -1,0 +1,336 @@
+{
+  "$comment": "听力训练营 L12（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，主旨直白）+ Part 2 笔记填空（一段独白 5 空，本课只填数字和时间）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L12",
+  "title": "School Radio",
+  "titleZh": "学校广播",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "school",
+  "names": [
+    "Green",
+    "Tom",
+    "Anna",
+    "Jack",
+    "Mia",
+    "Ben",
+    "Lucy",
+    "Lee"
+  ],
+  "intro": "学校广播站的一天：先听五段校园短话，每段只问「在讲什么」；再听一段运动会通知，把笔记里的五个数字和时间补上。",
+  "warmup": [
+    {
+      "word": "photo",
+      "phonetic": "/ˈfəʊtəʊ/",
+      "meaning": "照片"
+    },
+    {
+      "word": "uniform",
+      "phonetic": "/ˈjuːnɪfɔːm/",
+      "meaning": "校服"
+    },
+    {
+      "word": "homework",
+      "phonetic": "/ˈhəʊmwɜːk/",
+      "meaning": "作业"
+    },
+    {
+      "word": "team",
+      "phonetic": "/tiːm/",
+      "meaning": "队"
+    },
+    {
+      "word": "score",
+      "phonetic": "/skɔː/",
+      "meaning": "比分；得分"
+    },
+    {
+      "word": "library",
+      "phonetic": "/ˈlaɪbrəri/",
+      "meaning": "图书馆"
+    },
+    {
+      "word": "menu",
+      "phonetic": "/ˈmenjuː/",
+      "meaning": "菜单"
+    },
+    {
+      "word": "race",
+      "phonetic": "/reɪs/",
+      "meaning": "赛跑"
+    },
+    {
+      "word": "metre",
+      "phonetic": "/ˈmiːtə/",
+      "meaning": "米"
+    },
+    {
+      "word": "bottle",
+      "phonetic": "/ˈbɒtl/",
+      "meaning": "瓶子"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "Good morning, everyone. Tomorrow is school photo day, so please come in your full uniform."
+        },
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "Class photos are at ten, and you can buy a copy for your family next week."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the woman talking about?",
+          "options": [
+            "the school photo",
+            "a new teacher",
+            "the school bus"
+          ],
+          "answer": 0,
+          "explain": "第一句就点题 tomorrow is school photo day，后面 uniform / class photos / buy a copy 都围绕拍照。老师和校车都没提。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Anna, did you do the maths homework? I can't do question five."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Yes, I finished it last night. Question five is about the shapes."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Can you show me at break? I don't want to get it wrong."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Sure, meet me in the library at half past ten."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What are Tom and Anna talking about?",
+          "options": [
+            "their maths homework",
+            "a maths test",
+            "a new maths teacher"
+          ],
+          "answer": 0,
+          "explain": "开头 did you do the maths homework，后面 question five / finished it / show me 都是在说作业。没有考试，也没有新老师。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Here's the sports news. On Saturday our football team played Hill School and won three-one!"
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Ben scored two goals and Lucy scored one. Well done, everyone, the next match is at home on Friday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is the boy talking about?",
+          "options": [
+            "a match the school team won",
+            "a new sports hall",
+            "a football lesson"
+          ],
+          "answer": 0,
+          "explain": "sports news / played Hill School / won three-one / scored goals——整段是在报一场赢了的比赛。体育馆和足球课都没出现。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Mr Lee",
+          "sex": "m",
+          "text": "A message from the library. The library is closed all this week because the walls are being painted."
+        },
+        {
+          "who": "Mr Lee",
+          "sex": "m",
+          "text": "If you need to give a book back, put it in the box by the office. We open again next Monday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the man telling the students?",
+          "options": [
+            "The library is closed this week.",
+            "There are new books in the library.",
+            "The library opens later today."
+          ],
+          "answer": 0,
+          "explain": "closed all this week + being painted + open again next Monday，讲的是本周关门。没说新书，也不是今天晚点开。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Ben, have you seen the menu today? It's pizza day!"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Great, I love pizza. Is there any salad with it?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Yes, and there's apple cake after. Let's go early before the queue gets long."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "OK, I'll meet you at the door at twelve."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What are Mia and Ben talking about?",
+          "options": [
+            "today's school lunch",
+            "a pizza restaurant",
+            "cooking at home"
+          ],
+          "answer": 0,
+          "explain": "the menu today / pizza day / salad / apple cake / queue——说的是学校今天的午饭。不是餐厅，也不是在家做饭。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段学校广播通知，把笔记补全。每个空填一个数字或一个时间。",
+      "script": [
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "Hello, everyone, this is Mrs Green with some news about Sports Day on Friday."
+        },
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "Sports Day starts at half past nine, not nine o'clock as it says on the poster, so please be on the field by quarter past nine."
+        },
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "This year there are six teams, not four, so every team has a colour: red, blue, green, yellow, white and black."
+        },
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "The longest race is eight hundred metres. Last year it was four hundred, but you are all older now!"
+        },
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "Lunch is at quarter past twelve, and your parents can come and watch from two o'clock."
+        },
+        {
+          "who": "Mrs Green",
+          "sex": "f",
+          "text": "It will be hot, so bring two bottles of water, and a hat. See you on Friday!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Sports Day — Starts at: ______",
+          "answer": "9:30",
+          "alt": [
+            "9.30",
+            "half past nine",
+            "nine thirty"
+          ],
+          "explain": "starts at half past nine = 9:30。nine o'clock 是海报上写错的时间，quarter past nine 是到场时间。"
+        },
+        {
+          "id": "q7",
+          "q": "Number of teams: ______",
+          "answer": "6",
+          "alt": [
+            "six"
+          ],
+          "explain": "there are six teams, not four。four 被 not 否定。"
+        },
+        {
+          "id": "q8",
+          "q": "Longest race: ______ metres",
+          "answer": "800",
+          "alt": [
+            "eight hundred"
+          ],
+          "explain": "the longest race is eight hundred metres = 800。four hundred 是去年的。"
+        },
+        {
+          "id": "q9",
+          "q": "Lunch at: ______",
+          "answer": "12:15",
+          "alt": [
+            "12.15",
+            "quarter past twelve",
+            "twelve fifteen"
+          ],
+          "explain": "lunch is at quarter past twelve = 12:15。two o'clock 是家长来看的时间。"
+        },
+        {
+          "id": "q10",
+          "q": "Bring: ______ bottles of water",
+          "answer": "2",
+          "alt": [
+            "two"
+          ],
+          "explain": "bring two bottles of water = 2，每人带两瓶水。"
+        }
+      ]
+    }
+  ]
+}
