@@ -363,6 +363,20 @@
       "theme": "present",
       "file": "data/exam/ket/listening/l23.json",
       "status": "ready"
+    },
+    {
+      "id": "L24",
+      "title": "After the Film",
+      "titleZh": "看电影",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "cinema",
+      "file": "data/exam/ket/listening/l24.json",
+      "status": "ready"
     }
   ]
 }

@@ -1,0 +1,325 @@
+{
+  "$comment": "听力训练营 L24（P-L3 续跑，阶段三第四课）。脚本 100% 原创；Part 3 观点直说（一段长对话 5 题：觉得电影怎么样 / 觉得座位怎么样 / 对票价什么感受 / 为什么不要爆米花 / 为什么想去电影院看下一部）+ Part 5 匹配直给（Mia 告诉爸爸五个朋友来家里看电影各带什么吃的，8 种食物 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L24",
+  "title": "After the Film",
+  "titleZh": "看电影",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "cinema",
+  "names": [
+    "Mia",
+    "Jake",
+    "Ella",
+    "Noah",
+    "Zoe",
+    "Liam",
+    "Grace"
+  ],
+  "intro": "先听 Mia 和 Jake 看完电影后聊感受：电影好不好看、座位舒不舒服、票价贵不贵？题目问的是「觉得怎么样」「什么感受」「为什么」，注意有些看法是别人的（姐姐说、爸爸说、哥哥说），题目问的是说话人自己。再听 Mia 告诉爸爸周六来家里看电影的五个朋友各带什么吃的，把人和食物配起来——8 种食物都会被提到，有 3 种没人带。",
+  "warmup": [
+    {
+      "word": "comfortable",
+      "phonetic": "/ˈkʌmftəbl/",
+      "meaning": "舒服的"
+    },
+    {
+      "word": "surprised",
+      "phonetic": "/səˈpraɪzd/",
+      "meaning": "吃惊的"
+    },
+    {
+      "word": "angry",
+      "phonetic": "/ˈæŋɡri/",
+      "meaning": "生气的"
+    },
+    {
+      "word": "screen",
+      "phonetic": "/skriːn/",
+      "meaning": "屏幕；银幕"
+    },
+    {
+      "word": "popcorn",
+      "phonetic": "/ˈpɒpkɔːn/",
+      "meaning": "爆米花"
+    },
+    {
+      "word": "smell",
+      "phonetic": "/smel/",
+      "meaning": "气味；闻起来"
+    },
+    {
+      "word": "loud",
+      "phonetic": "/laʊd/",
+      "meaning": "大声的"
+    },
+    {
+      "word": "sofa",
+      "phonetic": "/ˈsəʊfə/",
+      "meaning": "沙发"
+    },
+    {
+      "word": "fridge",
+      "phonetic": "/frɪdʒ/",
+      "meaning": "冰箱"
+    },
+    {
+      "word": "biscuit",
+      "phonetic": "/ˈbɪskɪt/",
+      "meaning": "饼干"
+    },
+    {
+      "word": "healthy",
+      "phonetic": "/ˈhelθi/",
+      "meaning": "健康的"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Mia 和 Jake 看完电影后聊感受。五道题问的是看法和理由，注意分清「别人说」和「我觉得」。",
+      "script": [
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "So, Jake, what did you think of the film?"
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "My sister told me it was too long, but I didn't think so. I laughed from the start to the end. The ending was a little sad, but I loved it."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Me too. And I thought the seats were really comfortable. We were near the front, but I like being close to the screen."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "My dad says the seats there are too small, but he's very tall. They were fine for me."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Did you know the tickets are eight pounds now? My brother got really angry about that last month."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Eight? I'm not angry. It's a good cinema and I'm happy to pay. But I was surprised. I thought they were still five pounds."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "They went up in the summer."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Next time I'll buy the popcorn. Do you want some?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "No, thanks. It's not the price, I just don't like the smell of it. I had a big lunch today, but I could still eat some ice cream."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Ice cream, then. What about the next film? It comes out next month."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "We could watch it at my house. My TV is big, and it's cheaper. And it's more fun with friends on the sofa."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Friends are nice, but what I really like about the cinema is the sound. It's so loud you can feel it. My TV works fine, but it just isn't the same."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "OK, the cinema, then. I'll ask Mum for the money tonight."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What did Jake think of the film?",
+          "options": [
+            "It was funny.",
+            "It was too long.",
+            "It was sad."
+          ],
+          "answer": 0,
+          "explain": "I laughed from the start to the end——他从头笑到尾。「太长」是姐姐说的，他 didn't think so；「有点伤感」只是结尾，he loved it。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Mia think about the seats?",
+          "options": [
+            "They are too small.",
+            "They are too near the screen.",
+            "They are comfortable."
+          ],
+          "answer": 2,
+          "explain": "I thought the seats were really comfortable——她觉得舒服。「太小」是 Jake 爸爸说的；「离屏幕近」她说 I like being close to the screen，是喜欢不是抱怨。"
+        },
+        {
+          "id": "q3",
+          "q": "How does Jake feel about the price of the tickets?",
+          "options": [
+            "He is angry.",
+            "He is surprised.",
+            "He is happy to pay."
+          ],
+          "answer": 1,
+          "explain": "I was surprised. I thought they were still five pounds——他很吃惊。「生气」的是 Mia 的哥哥，Jake 说 I'm not angry；「乐意付钱」他说了，但题目问对价格的感受，重点是 surprised。"
+        },
+        {
+          "id": "q4",
+          "q": "Why doesn't Mia want any popcorn?",
+          "options": [
+            "It costs too much.",
+            "She has already eaten a lot.",
+            "She doesn't like it."
+          ],
+          "answer": 2,
+          "explain": "It's not the price, I just don't like the smell of it——她不喜欢爆米花的味道。价钱她说不是原因；午饭吃得多但还能吃冰淇淋，说明不是吃饱了。"
+        },
+        {
+          "id": "q5",
+          "q": "Why does Jake want to see the next film at the cinema?",
+          "options": [
+            "His TV is broken.",
+            "The sound is better there.",
+            "He wants to be with friends."
+          ],
+          "answer": 1,
+          "explain": "what I really like about the cinema is the sound. It's so loud you can feel it——真正喜欢的是音效。他的电视 works fine 没坏；「和朋友一起」是 Mia 说在家看的好处。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Mia 告诉爸爸周六来家里看电影的五个朋友各带什么吃的。把每个人和右边 A-H 的食物配起来。8 种食物都会被提到，有 3 种没人带——注意听「最后带的是什么」。",
+      "options": [
+        "biscuits",
+        "chocolate",
+        "fruit",
+        "ice cream",
+        "juice",
+        "pizza",
+        "popcorn",
+        "sandwiches"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Mia, how many friends are coming to your film night on Saturday? And what are they bringing?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Five, Dad, and Jake. Don't worry, nobody's bringing chocolate. I know you don't want it on the new sofa."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good. So who's bringing what?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Ella is bringing popcorn. Her mum has a machine that makes it, so it'll be warm."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Nice. And Noah? He always eats a lot."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "He wanted to bring ice cream, but there's no room in our fridge. So he's bringing a pizza from his uncle's restaurant."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "That's the best pizza in town. What about Zoe?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Zoe is bringing juice. Orange and apple, two big bottles."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Liam?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Liam is bringing fruit. His mum says we should eat something healthy, so he's cutting up apples and bananas."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Grace? Is she making sandwiches again? They were lovely last time."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "No, you're making the sandwiches this time, Dad! Grace is bringing biscuits. She made them herself yesterday."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Sandwiches. Right. I'd better go to the shop."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ella",
+          "answer": 6,
+          "explain": "Ella is bringing popcorn——直接说了，她妈妈有爆米花机。"
+        },
+        {
+          "id": "q7",
+          "q": "Noah",
+          "answer": 5,
+          "explain": "He wanted to bring ice cream, but there's no room in our fridge. So he's bringing a pizza——冰淇淋是干扰，最后带的是披萨。"
+        },
+        {
+          "id": "q8",
+          "q": "Zoe",
+          "answer": 4,
+          "explain": "Zoe is bringing juice——两大瓶橙汁和苹果汁。"
+        },
+        {
+          "id": "q9",
+          "q": "Liam",
+          "answer": 2,
+          "explain": "Liam is bringing fruit——妈妈让带健康的，切好的苹果和香蕉。"
+        },
+        {
+          "id": "q10",
+          "q": "Grace",
+          "answer": 0,
+          "explain": "Is she making sandwiches again? No… Grace is bringing biscuits——三明治是干扰（这次是爸爸做），Grace 带的是自己做的饼干。巧克力没人带。"
+        }
+      ]
+    }
+  ]
+}
