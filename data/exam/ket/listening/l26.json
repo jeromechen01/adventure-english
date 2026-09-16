@@ -1,0 +1,311 @@
+{
+  "$comment": "听力训练营 L26（P-L3 续跑，阶段三第六课，L26-L30「委婉表达 / 先选后改」段首课）。脚本 100% 原创；Part 3 首次引入委婉表达（It's OK, but… = 不太喜欢；I'm not sure about… = 不想；一段长对话 5 题：觉得再去山区怎么样 / 对海边酒店什么感受 / 为什么想坐火车 / 觉得坐船环岛怎么样 / 觉得住两周怎么样）+ Part 5 匹配首次加入「先选 A 后改 B」（Grace 告诉爸爸五个朋友暑假各去哪里，8 个地点 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L26",
+  "title": "Summer Holiday Plans",
+  "titleZh": "假期旅行",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "holiday",
+  "names": [
+    "Grace",
+    "Ben",
+    "Ella",
+    "Ruby",
+    "Alex",
+    "Molly",
+    "Toby",
+    "Ivy"
+  ],
+  "intro": "从这一课开始，说话人不再直接说「喜欢」「不喜欢」：「It's OK, but…」意思是不太想要，「I'm not sure about…」意思是不想。先听 Grace 和弟弟 Ben 商量暑假去哪里，注意这些委婉的说法后面真正的意思。再听 Grace 告诉爸爸五个朋友暑假各去哪里——这次有人先说了一个地方，后来又改了，要听「最后去的是哪里」。8 个地点都会被提到，有 3 个没人去。",
+  "warmup": [
+    {
+      "word": "mountain",
+      "phonetic": "/ˈmaʊntən/",
+      "meaning": "山"
+    },
+    {
+      "word": "island",
+      "phonetic": "/ˈaɪlənd/",
+      "meaning": "岛"
+    },
+    {
+      "word": "lake",
+      "phonetic": "/leɪk/",
+      "meaning": "湖"
+    },
+    {
+      "word": "countryside",
+      "phonetic": "/ˈkʌntrisaɪd/",
+      "meaning": "乡村；郊外"
+    },
+    {
+      "word": "village",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "meaning": "村庄"
+    },
+    {
+      "word": "castle",
+      "phonetic": "/ˈkɑːsl/",
+      "meaning": "城堡"
+    },
+    {
+      "word": "tiny",
+      "phonetic": "/ˈtaɪni/",
+      "meaning": "极小的"
+    },
+    {
+      "word": "boat",
+      "phonetic": "/bəʊt/",
+      "meaning": "船"
+    },
+    {
+      "word": "plane",
+      "phonetic": "/pleɪn/",
+      "meaning": "飞机"
+    },
+    {
+      "word": "grandparents",
+      "phonetic": "/ˈɡrænpeərənts/",
+      "meaning": "祖父母；外祖父母"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Grace 和 Ben 商量暑假去哪里。五道题问的是看法和理由，注意「It's OK, but…」和「I'm not sure」这样的委婉说法，真正的意思在后面。",
+      "script": [
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "Ben, Mum and Dad want us to choose where to go this summer. Dad says the mountains again. You always say you love it there."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "The mountains are OK, but we've been there three times. The walks are nice, and it isn't too far, but I'd really like to see somewhere new this year."
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "Me too. There's a hotel by the beach in the pictures Mum showed us. It looks lovely."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "So let's go there! What do you think?"
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "I'm not sure about that hotel. It does look nice in the photos, but my friend Ella stayed there last year. She said the rooms were tiny and you could hear the road all night. I've already asked her everything."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "OK, a different hotel, then. And can we go by train, not by plane?"
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "Mum says the train is cheaper, so she'll be happy. Is that why?"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "It is cheaper, but that's not the big thing. Flying is fast, but I always feel ill on planes. I hate it. And the train goes right into the city centre, which is nice. Oh, and look, there's a boat trip to the little island. It's only ten pounds, and Dad says it'll be great fun. Shall we book it?"
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "It's OK, but four hours on a boat is a long time. I don't like boats very much. I think I'd like the old castle more."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "The castle is fine. We can do both. And how long shall we stay? Mum says two weeks."
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "Mum said two weeks costs a lot, but I could stay there for a month!"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "The money isn't my problem, Mum and Dad are paying. Two weeks is OK, but I'll miss my football matches at home. One week is enough for me."
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "All right, one week. Let's tell Dad tonight, before he books the mountains again."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What does Ben think about going to the mountains again?",
+          "options": [
+            "He would like to go somewhere new.",
+            "He thinks it is too far.",
+            "He enjoys it every time."
+          ],
+          "answer": 0,
+          "explain": "The mountains are OK, but… I'd really like to see somewhere new——「are OK, but」是委婉的不想去。「太远」不对，他说 it isn't too far；「每次都喜欢」是 Grace 说的 you always say you love it。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Grace feel about the hotel by the beach?",
+          "options": [
+            "She wants to ask her friend about it.",
+            "She is happy to stay there.",
+            "She doesn't really want to stay there."
+          ],
+          "answer": 2,
+          "explain": "I'm not sure about that hotel——「不确定」就是不想。后面说房间小、整夜有车声。「问朋友」她已经问过了，I've already asked her everything；「看起来不错」只是照片。"
+        },
+        {
+          "id": "q3",
+          "q": "Why does Ben want to go by train?",
+          "options": [
+            "Trains are cheaper.",
+            "He doesn't like flying.",
+            "The station is in the city centre."
+          ],
+          "answer": 1,
+          "explain": "I always feel ill on planes. I hate it——他不喜欢坐飞机。「便宜」他承认了，但 that's not the big thing；「市中心」是顺带说的好处。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Grace think about the boat trip?",
+          "options": [
+            "It costs too much.",
+            "She is not very interested in it.",
+            "It will be great fun."
+          ],
+          "answer": 1,
+          "explain": "It's OK, but four hours on a boat is a long time. I don't like boats very much——「It's OK, but」= 不太想去，她更想看城堡。「贵」不对，只要十镑；「great fun」是爸爸说的。"
+        },
+        {
+          "id": "q5",
+          "q": "What does Ben think about staying for two weeks?",
+          "options": [
+            "He is worried about the cost.",
+            "He wants to stay longer.",
+            "He thinks one week is enough."
+          ],
+          "answer": 2,
+          "explain": "Two weeks is OK, but I'll miss my football matches… One week is enough for me——又是「is OK, but」，其实想一周。「担心钱」不对，he says the money isn't my problem；「想待更久」是 Grace 说想待一个月。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Grace 告诉爸爸五个朋友暑假各去哪里。把每个人和右边 A-H 的地点配起来。这次有人先说了一个地方后来又改了，要听「最后去哪里」。8 个地点都会被提到，有 3 个没人去。",
+      "options": [
+        "beach",
+        "city",
+        "countryside",
+        "farm",
+        "island",
+        "lake",
+        "mountains",
+        "village"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So, Grace, we're going to the beach for a week. Are your friends going anywhere this summer?"
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "Yes, everyone. Ruby wanted to go to the beach too, the same one as us, but the hotel was full. So her family are going to a lake in the north. Her dad wants to go fishing."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "A lake sounds nice and quiet. And Alex?"
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "Alex is going to the mountains. He's going to walk every day. Toby said he'd go with him at first, but now Toby has to help his uncle on the farm all summer, so he's going there."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Poor Toby. Well, farm work is good for you. What about Molly?"
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "Molly's mum wanted a quiet week in a village, but Molly said no. She wants shops and museums. So they're going to a big city."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Molly always wins. And Ivy? She usually goes to her grandparents in the countryside."
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "She does, every year. But this year her grandparents are coming too, and they're all going to an island. You have to take a boat to get there."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "That sounds great."
+        },
+        {
+          "who": "Grace",
+          "sex": "f",
+          "text": "It does. Can we go to an island next year, Dad?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Let's see how the beach goes first."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ruby",
+          "answer": 5,
+          "explain": "Ruby wanted to go to the beach too… but the hotel was full. So her family are going to a lake——先说海滩，后改成湖。"
+        },
+        {
+          "id": "q7",
+          "q": "Alex",
+          "answer": 6,
+          "explain": "Alex is going to the mountains——直接说了，每天去走山路。"
+        },
+        {
+          "id": "q8",
+          "q": "Molly",
+          "answer": 1,
+          "explain": "Molly's mum wanted a quiet week in a village, but Molly said no… So they're going to a big city——村庄是妈妈想的，最后去的是城市。"
+        },
+        {
+          "id": "q9",
+          "q": "Toby",
+          "answer": 3,
+          "explain": "Toby said he'd go with him at first, but now Toby has to help his uncle on the farm——先说和 Alex 去山区，后改成农场。"
+        },
+        {
+          "id": "q10",
+          "q": "Ivy",
+          "answer": 4,
+          "explain": "She usually goes to her grandparents in the countryside… But this year… they're all going to an island——乡村是往年，今年去岛上。"
+        }
+      ]
+    }
+  ]
+}

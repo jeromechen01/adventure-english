@@ -391,6 +391,20 @@
       "theme": "school",
       "file": "data/exam/ket/listening/l25.json",
       "status": "ready"
+    },
+    {
+      "id": "L26",
+      "title": "Summer Holiday Plans",
+      "titleZh": "假期旅行",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "holiday",
+      "file": "data/exam/ket/listening/l26.json",
+      "status": "ready"
     }
   ]
 }
