@@ -1,0 +1,316 @@
+{
+  "$comment": "听力训练营 L28（P-L3 续跑，阶段三第八课，委婉表达段）。脚本 100% 原创；Part 3 委婉表达（A restaurant is OK, but… / I'm not sure I can… / That's OK, but…；一段长对话 5 题：觉得去餐厅怎么样 / 对给十二个人做饭什么感受 / 觉得让大家带菜怎么样 / 对做蛋糕什么感受 / 觉得相册礼物怎么样）+ Part 5 匹配含「先选 A 后改 B」（Jack 告诉姐姐 Emily 五个亲友各带什么菜来奶奶的生日聚餐，8 种食物 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L28",
+  "title": "Grandma's Birthday Dinner",
+  "titleZh": "家庭聚餐",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "family",
+  "names": [
+    "Jack",
+    "Emily",
+    "Sue",
+    "Pete",
+    "Leo",
+    "Meg",
+    "Rosa",
+    "Hill"
+  ],
+  "intro": "先听 Jack 和妈妈商量奶奶的生日聚餐：去餐厅还是在家？谁做饭？送什么礼物？说话人常用「is OK, but…」「I'm not sure」这样的委婉说法，真正的意思在后面，也要分清「别人说」和「我觉得」。再听 Jack 告诉姐姐 Emily 五个亲友各带什么菜——有人先说了一样后来又改了，要听「最后带的是什么」。8 种食物都会被提到，有 3 种没人带。",
+  "warmup": [
+    {
+      "word": "restaurant",
+      "phonetic": "/ˈrestrɒnt/",
+      "meaning": "餐厅"
+    },
+    {
+      "word": "candle",
+      "phonetic": "/ˈkændl/",
+      "meaning": "蜡烛"
+    },
+    {
+      "word": "lazy",
+      "phonetic": "/ˈleɪzi/",
+      "meaning": "懒的"
+    },
+    {
+      "word": "terrible",
+      "phonetic": "/ˈterəbl/",
+      "meaning": "糟糕的"
+    },
+    {
+      "word": "salad",
+      "phonetic": "/ˈsæləd/",
+      "meaning": "沙拉"
+    },
+    {
+      "word": "soup",
+      "phonetic": "/suːp/",
+      "meaning": "汤"
+    },
+    {
+      "word": "pasta",
+      "phonetic": "/ˈpæstə/",
+      "meaning": "意大利面"
+    },
+    {
+      "word": "chicken",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "meaning": "鸡肉"
+    },
+    {
+      "word": "cheese",
+      "phonetic": "/tʃiːz/",
+      "meaning": "奶酪"
+    },
+    {
+      "word": "hungry",
+      "phonetic": "/ˈhʌŋɡri/",
+      "meaning": "饿的"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Jack 和妈妈商量奶奶的生日聚餐。五道题问的是看法和感受，注意「is OK, but…」「I'm not sure」后面才是真正的意思，也要分清「别人说」和「我觉得」。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Jack, it's Grandma's birthday on Saturday, and twelve people are coming. Dad thinks we should go to a restaurant. He says he'll pay, and Grandma said last year that she'd like that."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "A restaurant is OK, but Grandma says lots of things. She loves sitting in our kitchen with everyone talking at once. I think home is better. It's not about the money."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Maybe you're right. But I'm not sure I can cook for twelve. It's not the cooking, I love cooking. It's the time. I finish work at six on Saturday."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "And our kitchen is tiny."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The kitchen's fine, we did Christmas dinner in it. Time is the problem. What if we ask everyone to bring something?"
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "That's OK, but Aunt Sue always brings something, and her food is terrible. Remember her green soup? Nobody ate it."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "We'll just ask her to bring bread. Grandma will love the idea. She did the same at her house last summer, so she won't think we're lazy."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Fine. And I'll make the birthday cake."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Are you worried about that? The last one was a little flat."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "I'm not worried at all. I've made three now, and the last one was fine. I don't need any help. The candles are the problem. Grandma needs a lot of candles!"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "One big candle, then. And what about a present?"
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Emily and I want to make a big book of family photos. It only costs fifteen pounds to make."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "I'm not sure. It's a lovely idea, and the price is fine, but Grandma's eyes aren't good now, and she already has hundreds of photos in boxes. A day out on the river boat would be better. She loves the river."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "OK. A boat trip, then. I'll look at the times tonight."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What does Jack think about having the dinner at a restaurant?",
+          "options": [
+            "He thinks home is better.",
+            "He thinks it costs too much.",
+            "He thinks Grandma would like a restaurant."
+          ],
+          "answer": 0,
+          "explain": "A restaurant is OK, but… I think home is better——「is OK, but」= 不想去餐厅。「贵」不对，he says it's not about the money；「奶奶想去餐厅」是奶奶去年说的，Jack 说 Grandma says lots of things。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Mum feel about cooking for twelve people?",
+          "options": [
+            "She doesn't enjoy cooking for so many.",
+            "She thinks the kitchen is too small.",
+            "She is worried about the time."
+          ],
+          "answer": 2,
+          "explain": "I'm not sure I can cook for twelve. It's not the cooking, I love cooking. It's the time——担心的是时间。「厨房小」是 Jack 说的，妈妈说 The kitchen's fine。"
+        },
+        {
+          "id": "q3",
+          "q": "What does Jack think about asking everyone to bring some food?",
+          "options": [
+            "He thinks Grandma will like it.",
+            "He is worried about Aunt Sue's cooking.",
+            "He thinks it is a lazy idea."
+          ],
+          "answer": 1,
+          "explain": "That's OK, but Aunt Sue always brings something, and her food is terrible——担心 Sue 阿姨做的菜。「奶奶会喜欢」是妈妈说的；「懒」是妈妈说奶奶 won't think we're lazy。"
+        },
+        {
+          "id": "q4",
+          "q": "How does Jack feel about making the birthday cake?",
+          "options": [
+            "He is worried it will go wrong.",
+            "He is happy to make it.",
+            "He wants Mum to help him."
+          ],
+          "answer": 1,
+          "explain": "I'm not worried at all. I've made three now… I don't need any help——他很有信心。「担心」是妈妈问的；「要帮忙」他说不需要。"
+        },
+        {
+          "id": "q5",
+          "q": "What does Mum think about the book of family photos?",
+          "options": [
+            "It is a lovely idea.",
+            "It costs too much.",
+            "Grandma has enough photos already."
+          ],
+          "answer": 2,
+          "explain": "I'm not sure… she already has hundreds of photos in boxes——「I'm not sure」= 不想要，理由是奶奶照片已经太多、眼睛也不好。「好主意」「价钱」只是客气话 It's a lovely idea, and the price is fine, but。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Jack 告诉姐姐 Emily 五个亲友各带什么菜来奶奶的生日聚餐。把每个人和右边 A-H 的食物配起来。有人先说了一样后来又改了，要听「最后带的是什么」。8 种食物都会被提到，有 3 种没人带。",
+      "options": [
+        "bread",
+        "cake",
+        "chicken",
+        "fish",
+        "pasta",
+        "rice",
+        "salad",
+        "soup"
+      ],
+      "script": [
+        {
+          "who": "Emily",
+          "sex": "f",
+          "text": "Jack, Mum said everyone's bringing food on Saturday. Do you know who's bringing what? I want to make a list."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Yes. Aunt Sue wanted to bring her soup again, the green one, but Mum said no very quickly. So Sue is bringing bread. She can't go wrong with bread."
+        },
+        {
+          "who": "Emily",
+          "sex": "f",
+          "text": "Good. And Uncle Pete?"
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Pete said rice at first, but then he remembered that Grandma ate rice every day when she was a girl, and she's tired of it. So he's bringing chicken from that place on Hill Street."
+        },
+        {
+          "who": "Emily",
+          "sex": "f",
+          "text": "The one with the yellow sign? Great. What about Leo?"
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Leo is making a big salad. He's got tomatoes and everything from his garden."
+        },
+        {
+          "who": "Emily",
+          "sex": "f",
+          "text": "And Aunt Meg? She always brings something sweet."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Not this time, because I'm making the cake. Meg is bringing pasta, the one with cheese that Grandma likes."
+        },
+        {
+          "who": "Emily",
+          "sex": "f",
+          "text": "And Rosa from next door? Is she coming?"
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "She is, and she's bringing fish. She makes it with potatoes on top. Grandma asks for it every year."
+        },
+        {
+          "who": "Emily",
+          "sex": "f",
+          "text": "Bread, chicken, salad, pasta, fish and your cake. Nobody will be hungry!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Sue",
+          "answer": 0,
+          "explain": "Aunt Sue wanted to bring her soup again… but Mum said no… So Sue is bringing bread——先说汤，后改成面包。"
+        },
+        {
+          "id": "q7",
+          "q": "Pete",
+          "answer": 2,
+          "explain": "Pete said rice at first, but… So he's bringing chicken——先说米饭，后改成鸡肉。"
+        },
+        {
+          "id": "q8",
+          "q": "Leo",
+          "answer": 6,
+          "explain": "Leo is making a big salad——直接说了，用自家花园的番茄。"
+        },
+        {
+          "id": "q9",
+          "q": "Meg",
+          "answer": 4,
+          "explain": "Meg is bringing pasta——「甜的」这次不带，因为蛋糕是 Jack 做。"
+        },
+        {
+          "id": "q10",
+          "q": "Rosa",
+          "answer": 3,
+          "explain": "she's bringing fish. She makes it with potatoes on top——邻居带的是鱼。汤、米饭、蛋糕是干扰。"
+        }
+      ]
+    }
+  ]
+}
