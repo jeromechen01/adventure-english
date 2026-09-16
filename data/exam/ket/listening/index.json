@@ -89,6 +89,19 @@
       "theme": "weather",
       "file": "data/exam/ket/listening/l04.json",
       "status": "ready"
+    },
+    {
+      "id": "L05",
+      "title": "After-School Clubs",
+      "titleZh": "课外活动",
+      "stage": 1,
+      "parts": [
+        1
+      ],
+      "questionCount": 5,
+      "theme": "clubs",
+      "file": "data/exam/ket/listening/l05.json",
+      "status": "ready"
     }
   ]
 }

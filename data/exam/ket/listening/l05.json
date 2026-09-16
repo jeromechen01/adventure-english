@@ -1,0 +1,314 @@
+{
+  "$comment": "听力训练营 L05（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L05",
+  "title": "After-School Clubs",
+  "titleZh": "课外活动",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "clubs",
+  "names": [
+    "Ben",
+    "Emma",
+    "Anna",
+    "Sam",
+    "Green"
+  ],
+  "intro": "课外社团的五段对话。这一课开始，答案不一定直接说出来：注意 but、instead、then 后面的改口。",
+  "warmup": [
+    {
+      "word": "club",
+      "phonetic": "/klʌb/",
+      "meaning": "社团；俱乐部"
+    },
+    {
+      "word": "piano",
+      "phonetic": "/piˈænəʊ/",
+      "meaning": "钢琴"
+    },
+    {
+      "word": "busy",
+      "phonetic": "/ˈbɪzi/",
+      "meaning": "忙的；繁忙的"
+    },
+    {
+      "word": "flour",
+      "phonetic": "/ˈflaʊə/",
+      "meaning": "面粉"
+    },
+    {
+      "word": "photo",
+      "phonetic": "/ˈfəʊtəʊ/",
+      "meaning": "照片"
+    },
+    {
+      "word": "museum",
+      "phonetic": "/mjuˈziːəm/",
+      "meaning": "博物馆"
+    },
+    {
+      "word": "join",
+      "phonetic": "/dʒɔɪn/",
+      "meaning": "加入；参加"
+    },
+    {
+      "word": "free",
+      "phonetic": "/friː/",
+      "meaning": "免费的"
+    },
+    {
+      "word": "own",
+      "phonetic": "/əʊn/",
+      "meaning": "自己的"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "I want to join the art club, but it's on Tuesdays, and I have piano on Tuesdays."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "The dance club is on Thursdays. You like dancing."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "That's true. OK, I'll join the dance club."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Great, see you there!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Which club is Ben going to join?",
+          "options": [
+            {
+              "icon": "activity-painting",
+              "alt": "the art club"
+            },
+            {
+              "icon": "activity-music",
+              "alt": "the piano club"
+            },
+            {
+              "icon": "activity-dancing",
+              "alt": "the dance club"
+            }
+          ],
+          "answer": 2,
+          "explain": "美术社和钢琴课撞在周二，所以去不了；最后 I'll join the dance club。先说 A 再改口 B，答案在改口之后。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Does the swimming club start at four?"
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "It did, but now it's half past four, because the swimming pool is busy at four."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Half past four. OK, thanks."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "Don't be late."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What time does the swimming club start now?",
+          "options": [
+            {
+              "icon": "clock-0400",
+              "alt": "4:00"
+            },
+            {
+              "icon": "clock-0430",
+              "alt": "4:30"
+            },
+            {
+              "icon": "clock-0330",
+              "alt": "3:30"
+            }
+          ],
+          "answer": 1,
+          "explain": "It did, but now it's half past four：四点是以前的时间，but 之后才是现在的时间。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "What do I need to bring to cooking club?"
+        },
+        {
+          "who": "Miss Green",
+          "sex": "f",
+          "text": "Some eggs, please. We've got flour and milk at school."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Just eggs? Anna's bringing apples for the cake."
+        },
+        {
+          "who": "Miss Green",
+          "sex": "f",
+          "text": "Yes, just six eggs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What does Emma need to bring?",
+          "options": [
+            {
+              "icon": "food-egg",
+              "alt": "eggs"
+            },
+            {
+              "icon": "food-milk",
+              "alt": "milk"
+            },
+            {
+              "icon": "food-apple",
+              "alt": "apples"
+            }
+          ],
+          "answer": 0,
+          "explain": "要推断一步：牛奶学校有，苹果是 Anna 带，Emma 只需要带鸡蛋（just six eggs）。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Where's the photo club going on Saturday? The park?"
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "It was the park, but it's going to rain, so we're going to the museum."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Not the beach?"
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "No, the museum. Bring your camera."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "Where is the photo club going on Saturday?",
+          "options": [
+            {
+              "icon": "place-park",
+              "alt": "the park"
+            },
+            {
+              "icon": "place-museum",
+              "alt": "the museum"
+            },
+            {
+              "icon": "place-beach",
+              "alt": "the beach"
+            }
+          ],
+          "answer": 1,
+          "explain": "It was the park, but…：原计划是公园，因为下雨改成博物馆。海滩被 No 否定。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "How much is the football club, Miss?"
+        },
+        {
+          "who": "Miss Green",
+          "sex": "f",
+          "text": "It's five pounds a year, but if you bring your own ball, it's free."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "I've got my own ball!"
+        },
+        {
+          "who": "Miss Green",
+          "sex": "f",
+          "text": "Then it's free for you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "How much does Ben pay for the football club?",
+          "options": [
+            {
+              "icon": "price-5",
+              "alt": "£5"
+            },
+            {
+              "icon": "price-free",
+              "alt": "free"
+            },
+            {
+              "icon": "price-10",
+              "alt": "£10"
+            }
+          ],
+          "answer": 1,
+          "explain": "五镑是没有球的人交的；Ben 有自己的球，所以 it's free for you。要把条件（if）和 Ben 的情况对上。"
+        }
+      ]
+    }
+  ]
+}
