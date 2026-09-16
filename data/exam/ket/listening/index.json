@@ -223,6 +223,20 @@
       "theme": "travel",
       "file": "data/exam/ket/listening/l14.json",
       "status": "ready"
+    },
+    {
+      "id": "L15",
+      "title": "Phone Messages",
+      "titleZh": "电话留言",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "phone",
+      "file": "data/exam/ket/listening/l15.json",
+      "status": "ready"
     }
   ]
 }

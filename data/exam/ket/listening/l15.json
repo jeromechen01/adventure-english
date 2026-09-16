@@ -1,0 +1,313 @@
+{
+  "$comment": "听力训练营 L15（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段电话留言，相似话题干扰：都是留言，各自要点不同）+ Part 2 笔记填空（一段电话留言 5 空：姓名拼读 D-A-W-S-O-N、地名、时间、价格、时间）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L15",
+  "title": "Phone Messages",
+  "titleZh": "电话留言",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "phone",
+  "names": [
+    "Dawson",
+    "Ben",
+    "Amy",
+    "Lucy",
+    "Alex",
+    "Kate",
+    "Harry"
+  ],
+  "intro": "五条电话留言，每条只问「留言的人想说什么」；再听一条完整留言，记下打电话的人（要拼名字）、地点、时间和要带的钱。",
+  "warmup": [
+    {
+      "word": "message",
+      "phonetic": "/ˈmesɪdʒ/",
+      "meaning": "留言；信息"
+    },
+    {
+      "word": "dentist",
+      "phonetic": "/ˈdentɪst/",
+      "meaning": "牙医"
+    },
+    {
+      "word": "cinema",
+      "phonetic": "/ˈsɪnəmə/",
+      "meaning": "电影院"
+    },
+    {
+      "word": "ill",
+      "phonetic": "/ɪl/",
+      "meaning": "生病的"
+    },
+    {
+      "word": "sign",
+      "phonetic": "/saɪn/",
+      "meaning": "签名"
+    },
+    {
+      "word": "ready",
+      "phonetic": "/ˈredi/",
+      "meaning": "准备好的"
+    },
+    {
+      "word": "swimming pool",
+      "phonetic": "/ˈswɪmɪŋ puːl/",
+      "meaning": "游泳池"
+    },
+    {
+      "word": "towel",
+      "phonetic": "/ˈtaʊəl/",
+      "meaning": "毛巾"
+    },
+    {
+      "word": "call back",
+      "phonetic": "/ˌkɔːl ˈbæk/",
+      "meaning": "回电话"
+    },
+    {
+      "word": "collect",
+      "phonetic": "/kəˈlekt/",
+      "meaning": "取；领取"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一条电话留言，选出留言的人想说什么。",
+      "script": [
+        {
+          "who": "Dentist",
+          "sex": "f",
+          "text": "Hello, this is a message for Ben from the dentist. Your visit was on Tuesday at four, but the dentist is away that day."
+        },
+        {
+          "who": "Dentist",
+          "sex": "f",
+          "text": "So we have moved it to Thursday at four, same time, same place. Please call us if that is a problem."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the woman telling Ben?",
+          "options": [
+            "His visit is on a different day.",
+            "His visit is in a different place.",
+            "His visit will cost more."
+          ],
+          "answer": 0,
+          "explain": "moved it to Thursday / same time, same place——只有日期变了。地点没变，价格没提。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一条电话留言，选出留言的人想说什么。",
+      "script": [
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Hi Lucy, it's Amy. I'm really sorry, but I can't come to the cinema tonight. I've got a bad cold and Mum says I must stay in bed."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Go with your sister, and tell me about the film tomorrow. Bye!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "Why is Amy calling?",
+          "options": [
+            "She can't go to the cinema.",
+            "She will be late for the cinema.",
+            "The film has changed."
+          ],
+          "answer": 0,
+          "explain": "I can't come to the cinema tonight + a bad cold——她来不了。不是迟到，电影也没变。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一条电话留言，选出留言的人想说什么。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Alex, it's Mum. I'm still at work, so can you go to the shop on your way home and get some bread and milk?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "There's money on the kitchen table. I'll cook dinner when I get back at six. Thanks, love."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What does Mum want Alex to do?",
+          "options": [
+            "buy some food",
+            "cook the dinner",
+            "wait for her at work"
+          ],
+          "answer": 0,
+          "explain": "go to the shop … get some bread and milk——让他买东西。做饭是妈妈自己回来做（I'll cook），没让他去单位等。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一条电话留言，选出留言的人想说什么。",
+      "script": [
+        {
+          "who": "Teacher",
+          "sex": "m",
+          "text": "Hello, this is Mr Hall from school with a message for Kate's parents. Kate has a letter about the swimming lessons in her bag."
+        },
+        {
+          "who": "Teacher",
+          "sex": "m",
+          "text": "Please sign it and send it back with Kate tomorrow. Without it, she can't swim on Friday. Thank you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the teacher asking Kate's parents to do?",
+          "options": [
+            "sign a letter",
+            "buy a swimming hat",
+            "come to the school"
+          ],
+          "answer": 0,
+          "explain": "please sign it and send it back——要家长签字。没说买泳帽，也没请家长来学校。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一条电话留言，选出留言的人想说什么。",
+      "script": [
+        {
+          "who": "Shop",
+          "sex": "m",
+          "text": "Good afternoon, this is the bike shop. Harry's bike is ready now, the new wheel is on and it rides really well."
+        },
+        {
+          "who": "Shop",
+          "sex": "m",
+          "text": "You can collect it any time before six today, or tomorrow morning. It's twenty-five pounds, as we said."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What is the man telling Harry?",
+          "options": [
+            "His bike is ready to collect.",
+            "His bike needs a new wheel.",
+            "The shop is closing early."
+          ],
+          "answer": 0,
+          "explain": "Harry's bike is ready now / you can collect it——车修好了来取。新轮子已经装上（the new wheel is on），不是还需要换。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一条完整的电话留言，把笔记补全。打电话的人会拼出自己的名字。",
+      "script": [
+        {
+          "who": "Mrs Dawson",
+          "sex": "f",
+          "text": "Hello, this is a message for Ben. It's Mrs Dawson here, Harry's mum. That's D-A-W-S-O-N."
+        },
+        {
+          "who": "Mrs Dawson",
+          "sex": "f",
+          "text": "Harry would like you to come swimming with us on Saturday. We're going to the new pool on Bridge Road, not the old one on Park Road."
+        },
+        {
+          "who": "Mrs Dawson",
+          "sex": "f",
+          "text": "We'll meet you outside the pool at quarter past two. The pool opens at two, but it's always busy then."
+        },
+        {
+          "who": "Mrs Dawson",
+          "sex": "f",
+          "text": "It costs three pounds for children, so bring three pounds, and a towel. We have another swimming hat if you need one."
+        },
+        {
+          "who": "Mrs Dawson",
+          "sex": "f",
+          "text": "Can you call me back before six o'clock this evening to say yes or no? After six we're going out."
+        },
+        {
+          "who": "Mrs Dawson",
+          "sex": "f",
+          "text": "Thanks, Ben. Hope to see you on Saturday. Bye!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Message from: Mrs ______",
+          "answer": "Dawson",
+          "explain": "It's Mrs Dawson here … That's D-A-W-S-O-N，听拼读写名字。"
+        },
+        {
+          "id": "q7",
+          "q": "Swimming pool on: ______ Road",
+          "answer": "Bridge",
+          "explain": "the new pool on Bridge Road, not the old one on Park Road。Park Road 被 not 否定。"
+        },
+        {
+          "id": "q8",
+          "q": "Meet outside the pool at: ______",
+          "answer": "2:15",
+          "alt": [
+            "2.15",
+            "quarter past two",
+            "two fifteen"
+          ],
+          "explain": "meet you outside the pool at quarter past two = 2:15。two 是开门时间。"
+        },
+        {
+          "id": "q9",
+          "q": "Bring: £______ and a towel",
+          "answer": "3",
+          "alt": [
+            "three",
+            "£3",
+            "three pounds"
+          ],
+          "explain": "it costs three pounds for children, so bring three pounds = 3，儿童票三镑。"
+        },
+        {
+          "id": "q10",
+          "q": "Call back before: ______",
+          "answer": "6",
+          "alt": [
+            "6:00",
+            "6.00",
+            "six",
+            "six o'clock",
+            "6 o'clock"
+          ],
+          "explain": "call me back before six o'clock = 6，六点以后他们要出门。"
+        }
+      ]
+    }
+  ]
+}
