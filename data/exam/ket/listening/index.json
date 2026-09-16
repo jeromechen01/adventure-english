@@ -209,6 +209,20 @@
       "theme": "shopping",
       "file": "data/exam/ket/listening/l13.json",
       "status": "ready"
+    },
+    {
+      "id": "L14",
+      "title": "Travel Plans",
+      "titleZh": "旅行安排",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "travel",
+      "file": "data/exam/ket/listening/l14.json",
+      "status": "ready"
     }
   ]
 }

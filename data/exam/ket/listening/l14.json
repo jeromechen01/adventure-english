@@ -1,0 +1,332 @@
+{
+  "$comment": "听力训练营 L14（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，引入相似话题干扰：两段都讲出行，一段讲带什么一段讲票价）+ Part 2 笔记填空（一段独白 5 空，首次加入姓名拼读 P-A-R-K-E-R 与地名拼读 M-I-L-F-O-R-D，朗读器按连字符逐字母拆读）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L14",
+  "title": "Travel Plans",
+  "titleZh": "旅行安排",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "travel",
+  "names": [
+    "Parker",
+    "Milford",
+    "Tom",
+    "Emma",
+    "Jack",
+    "Sam",
+    "Lucy"
+  ],
+  "intro": "五段都和出门有关，但每段讲的重点不一样：带什么、票多少钱、去哪儿、怎么去、车晚点。再听一段春游通知，第一次要把人名和地名一个字母一个字母拼出来。",
+  "warmup": [
+    {
+      "word": "packed lunch",
+      "phonetic": "/ˌpækt ˈlʌntʃ/",
+      "meaning": "自带的午饭"
+    },
+    {
+      "word": "ticket",
+      "phonetic": "/ˈtɪkɪt/",
+      "meaning": "票"
+    },
+    {
+      "word": "return",
+      "phonetic": "/rɪˈtɜːn/",
+      "meaning": "往返的；返回"
+    },
+    {
+      "word": "farm",
+      "phonetic": "/fɑːm/",
+      "meaning": "农场"
+    },
+    {
+      "word": "platform",
+      "phonetic": "/ˈplætfɔːm/",
+      "meaning": "站台"
+    },
+    {
+      "word": "late",
+      "phonetic": "/leɪt/",
+      "meaning": "晚点的；迟的"
+    },
+    {
+      "word": "castle",
+      "phonetic": "/ˈkɑːsl/",
+      "meaning": "城堡"
+    },
+    {
+      "word": "coach",
+      "phonetic": "/kəʊtʃ/",
+      "meaning": "长途大巴"
+    },
+    {
+      "word": "gate",
+      "phonetic": "/ɡeɪt/",
+      "meaning": "大门"
+    },
+    {
+      "word": "spell",
+      "phonetic": "/spel/",
+      "meaning": "拼写"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Before our trip on Thursday, listen carefully. Everyone needs a packed lunch, a bottle of water and a hat, because we'll be outside all day."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "You don't need any money, the school is paying. And please don't bring phones or games."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the teacher talking about?",
+          "options": [
+            "what to bring on the trip",
+            "how much the trip costs",
+            "what time the bus leaves"
+          ],
+          "answer": 0,
+          "explain": "needs a packed lunch, a bottle of water and a hat / don't bring phones——整段在说带什么。钱只说了一句「不用带」，出发时间根本没提。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Mum, how much is the train to the city? I want to go with Jack on Saturday."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "A return ticket is twelve pounds, but if you go after ten o'clock it's only eight."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Eight pounds is fine. Can I use my pocket money?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Yes, but buy the ticket online, it's cheaper than at the station."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What are Tom and his mum talking about?",
+          "options": [
+            "the price of train tickets",
+            "the time of the train",
+            "where to sit on the train"
+          ],
+          "answer": 0,
+          "explain": "how much is the train / twelve pounds / only eight / cheaper——一直在说票价。ten o'clock 只是「几点之后更便宜」的条件，不是在讨论时间。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Every summer we go to the beach, but this year we're going to a farm in the hills. My dad's friend has horses there."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "I can ride every morning and help with the animals. I think it will be much better than the beach."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is the girl talking about?",
+          "options": [
+            "where her family is going this summer",
+            "how her family will travel",
+            "what she will wear on holiday"
+          ],
+          "answer": 0,
+          "explain": "this year we're going to a farm——在说今年去哪儿。beach 是往年的地方，用来对比；怎么去和穿什么都没说。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Sam, shall we take the bus or the train to the museum tomorrow?"
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "The train is faster, only twenty minutes. The bus takes an hour."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "But the bus stops right outside the museum. The station is a long walk away."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "OK, let's take the bus, then. We can read on the way."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What are Jack and Sam talking about?",
+          "options": [
+            "how to get to the museum",
+            "where to stay in the city",
+            "what to see in the museum"
+          ],
+          "answer": 0,
+          "explain": "the bus or the train / faster / stops right outside / let's take the bus——在选怎么去。博物馆只是目的地，看什么和住哪儿都没讨论。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Station",
+          "sex": "m",
+          "text": "This is a message for people waiting for the quarter past ten train to the city. The train is running twenty minutes late."
+        },
+        {
+          "who": "Station",
+          "sex": "m",
+          "text": "It will now leave from platform four, not platform two. We are sorry for the wait."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What is the man telling the people at the station?",
+          "options": [
+            "The train is late.",
+            "The train is not running today.",
+            "The train is full."
+          ],
+          "answer": 0,
+          "explain": "running twenty minutes late / sorry for the wait——车晚点了。它还在开（会从 4 号站台走），没说满员。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段春游通知，把笔记补全。人名和地名会一个字母一个字母拼出来，拼写要完全正确。",
+      "script": [
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Good morning, Class Six. Here is everything you need to know about our trip next week."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "We are going to Milford Castle. Milford is spelled M-I-L-F-O-R-D. It's an old castle by a river, about an hour away."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "The coach leaves the school gate at quarter to nine, so be here by half past eight. If you are late, the coach will not wait."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "The trip costs twelve pounds. That's for the coach and the ticket to the castle. It does not pay for lunch, so bring a packed lunch."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Mrs Parker is coming with us. That's P-A-R-K-E-R. She will look after the girls, and I will look after the boys."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "We will be back at school at half past four, not four o'clock, so tell your parents. Any questions? No? Great."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Class Six Trip — Going to: ______ Castle",
+          "answer": "Milford",
+          "explain": "Milford is spelled M-I-L-F-O-R-D，逐字母拼出来，照抄就行，拼错一个字母都不算。"
+        },
+        {
+          "id": "q7",
+          "q": "Coach leaves at: ______",
+          "answer": "8:45",
+          "alt": [
+            "8.45",
+            "quarter to nine",
+            "eight forty-five",
+            "eight forty five"
+          ],
+          "explain": "leaves at quarter to nine = 8:45。half past eight 是到校时间。"
+        },
+        {
+          "id": "q8",
+          "q": "Cost: £______",
+          "answer": "12",
+          "alt": [
+            "twelve",
+            "£12",
+            "twelve pounds"
+          ],
+          "explain": "the trip costs twelve pounds = 12，包含大巴和城堡门票。"
+        },
+        {
+          "id": "q9",
+          "q": "Other teacher: Mrs ______",
+          "answer": "Parker",
+          "explain": "Mrs Parker … That's P-A-R-K-E-R。听拼读写名字，P-A-R-K-E-R。"
+        },
+        {
+          "id": "q10",
+          "q": "Back at school at: ______",
+          "answer": "4:30",
+          "alt": [
+            "4.30",
+            "half past four",
+            "four thirty"
+          ],
+          "explain": "back at school at half past four, not four o'clock = 4:30。four o'clock 被 not 否定。"
+        }
+      ]
+    }
+  ]
+}
