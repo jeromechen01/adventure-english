@@ -1,0 +1,337 @@
+{
+  "$comment": "听力训练营 L13（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，主旨直白）+ Part 2 笔记填空（一段独白 5 空，本课只填数字和时间，含一个价格数字）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L13",
+  "title": "The Big Sale",
+  "titleZh": "商店促销",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "shopping",
+  "names": [
+    "Emma",
+    "Sam",
+    "Kate",
+    "Dan",
+    "Lucy"
+  ],
+  "intro": "商店里的五段短话：促销、买礼物、营业时间、丢东西、找玩具；再听一段商店促销广播，记下时间、天数、价格和人数。",
+  "warmup": [
+    {
+      "word": "sale",
+      "phonetic": "/seɪl/",
+      "meaning": "打折促销"
+    },
+    {
+      "word": "half price",
+      "phonetic": "/ˌhɑːf ˈpraɪs/",
+      "meaning": "半价"
+    },
+    {
+      "word": "present",
+      "phonetic": "/ˈpreznt/",
+      "meaning": "礼物"
+    },
+    {
+      "word": "customer",
+      "phonetic": "/ˈkʌstəmə/",
+      "meaning": "顾客"
+    },
+    {
+      "word": "purse",
+      "phonetic": "/pɜːs/",
+      "meaning": "钱包（女式）"
+    },
+    {
+      "word": "toy",
+      "phonetic": "/tɔɪ/",
+      "meaning": "玩具"
+    },
+    {
+      "word": "floor",
+      "phonetic": "/flɔː/",
+      "meaning": "楼层"
+    },
+    {
+      "word": "lift",
+      "phonetic": "/lɪft/",
+      "meaning": "电梯"
+    },
+    {
+      "word": "trainers",
+      "phonetic": "/ˈtreɪnəz/",
+      "meaning": "运动鞋"
+    },
+    {
+      "word": "free",
+      "phonetic": "/friː/",
+      "meaning": "免费的"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "Good afternoon, everyone. This week all sports clothes are half price, so a T-shirt is only five pounds."
+        },
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "You can find them on the second floor, next to the shoes. The sale ends on Sunday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the woman talking about?",
+          "options": [
+            "a sale on sports clothes",
+            "a new sports shop",
+            "the shop's opening hours"
+          ],
+          "answer": 0,
+          "explain": "half price / only five pounds / the sale ends on Sunday——在说打折。不是新店，也没讲几点开门。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Sam, it's Mum's birthday on Saturday. What can we get her?"
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "She likes reading. What about a book, or a nice bag?"
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "A bag is too expensive. Let's get a book and some chocolate."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Good idea. The bookshop is on the first floor."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What are Emma and Sam talking about?",
+          "options": [
+            "a present for their mum",
+            "a birthday party",
+            "a new bookshop"
+          ],
+          "answer": 0,
+          "explain": "What can we get her / a book, or a bag / let's get a book and some chocolate——在商量买什么礼物。没有说派对，书店只是去买书的地方。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Hello, this is Dan from Dan's Sports Shop. From next Monday we are open from eight in the morning until eight at night."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "On Sundays we open at ten and close at four. So now you can shop before school or after work."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is the man talking about?",
+          "options": [
+            "the shop's new opening times",
+            "a new shop in the town",
+            "a sale on Sunday"
+          ],
+          "answer": 0,
+          "explain": "open from eight until eight / on Sundays we open at ten and close at four——全是营业时间。不是新店，也没有说打折。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "Excuse me, I think I left my purse in your shop. It's small and red."
+        },
+        {
+          "who": "Shop",
+          "sex": "m",
+          "text": "Let me look. Was it near the shoes?"
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "Yes, I was looking at some trainers there about ten minutes ago."
+        },
+        {
+          "who": "Shop",
+          "sex": "m",
+          "text": "Here it is! Someone found it on the chair."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "Why is the girl talking to the man?",
+          "options": [
+            "She lost something in the shop.",
+            "She wants to buy some trainers.",
+            "She wants to change her shoes."
+          ],
+          "answer": 0,
+          "explain": "I think I left my purse in your shop——她来找丢的钱包。试鞋只是刚才做过的事，不是现在的目的。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Shop",
+          "sex": "m",
+          "text": "Are you looking for toys? They are not on the ground floor any more."
+        },
+        {
+          "who": "Shop",
+          "sex": "m",
+          "text": "Take the lift to the third floor. Games and books are there too, on your left when you come out of the lift."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What is the man telling the customers?",
+          "options": [
+            "where to find the toys",
+            "how much the toys cost",
+            "which toys are new"
+          ],
+          "answer": 0,
+          "explain": "not on the ground floor / take the lift to the third floor / on your left——在说玩具在哪儿。价格和新品一个字没提。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段商店促销广播，把笔记补全。每个空填一个数字或一个时间。",
+      "script": [
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "Hello, everyone, and welcome to our big summer sale."
+        },
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "The sale starts tomorrow, and the doors open at half past eight, one hour earlier than on other days, so come early."
+        },
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "The sale is on for three days, Friday, Saturday and Sunday. On Sunday we close at six, not four."
+        },
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "The best thing in the sale is the trainers. They were thirty pounds, and now they are only twenty pounds."
+        },
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "And the first fifty customers on Friday morning get a free bag. Last year it was the first twenty, so this year more people will get one."
+        },
+        {
+          "who": "Shop",
+          "sex": "f",
+          "text": "Thank you for shopping with us, and see you tomorrow!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Summer Sale — Doors open at: ______",
+          "answer": "8:30",
+          "alt": [
+            "8.30",
+            "half past eight",
+            "eight thirty"
+          ],
+          "explain": "the doors open at half past eight = 8:30。one hour earlier 说的是比平时早一小时，不是时间本身。"
+        },
+        {
+          "id": "q7",
+          "q": "The sale is on for: ______ days",
+          "answer": "3",
+          "alt": [
+            "three"
+          ],
+          "explain": "on for three days = 3，后面还数了 Friday, Saturday and Sunday。"
+        },
+        {
+          "id": "q8",
+          "q": "Sunday closing time: ______",
+          "answer": "6",
+          "alt": [
+            "6:00",
+            "6.00",
+            "six",
+            "six o'clock",
+            "6 o'clock"
+          ],
+          "explain": "on Sunday we close at six, not four。four 被 not 否定。"
+        },
+        {
+          "id": "q9",
+          "q": "Trainers now cost: £______",
+          "answer": "20",
+          "alt": [
+            "twenty",
+            "£20",
+            "twenty pounds"
+          ],
+          "explain": "now they are only twenty pounds = 20。thirty 是原价。"
+        },
+        {
+          "id": "q10",
+          "q": "Free bag for the first ______ customers",
+          "answer": "50",
+          "alt": [
+            "fifty"
+          ],
+          "explain": "the first fifty customers = 50。twenty 是去年的人数。"
+        }
+      ]
+    }
+  ]
+}

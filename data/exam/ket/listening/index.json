@@ -195,6 +195,20 @@
       "theme": "school",
       "file": "data/exam/ket/listening/l12.json",
       "status": "ready"
+    },
+    {
+      "id": "L13",
+      "title": "The Big Sale",
+      "titleZh": "商店促销",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "shopping",
+      "file": "data/exam/ket/listening/l13.json",
+      "status": "ready"
     }
   ]
 }
