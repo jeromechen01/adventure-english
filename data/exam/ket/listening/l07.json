@@ -1,0 +1,313 @@
+{
+  "$comment": "听力训练营 L07（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L07",
+  "title": "A Day in the Park",
+  "titleZh": "去公园",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "park",
+  "names": [
+    "Jack",
+    "Emma",
+    "Sam",
+    "Lucy"
+  ],
+  "intro": "公园里的五段对话：带什么去、在哪儿碰头、现在什么天气、公园几点关门、在小卖部买什么。",
+  "warmup": [
+    {
+      "word": "kite",
+      "phonetic": "/kaɪt/",
+      "meaning": "风筝"
+    },
+    {
+      "word": "ball",
+      "phonetic": "/bɔːl/",
+      "meaning": "球"
+    },
+    {
+      "word": "café",
+      "phonetic": "/ˈkæfeɪ/",
+      "meaning": "小餐馆；咖啡店"
+    },
+    {
+      "word": "gate",
+      "phonetic": "/ɡeɪt/",
+      "meaning": "大门"
+    },
+    {
+      "word": "far",
+      "phonetic": "/fɑː/",
+      "meaning": "远的"
+    },
+    {
+      "word": "change",
+      "phonetic": "/tʃeɪndʒ/",
+      "meaning": "变化"
+    },
+    {
+      "word": "until",
+      "phonetic": "/ənˈtɪl/",
+      "meaning": "直到"
+    },
+    {
+      "word": "winter",
+      "phonetic": "/ˈwɪntə/",
+      "meaning": "冬天"
+    },
+    {
+      "word": "gone",
+      "phonetic": "/ɡɒn/",
+      "meaning": "没了；卖完了"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "I'm taking my kite to the park."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "It isn't windy today. Take your ball."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "OK, the ball then. Can I ride my bike there?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "No, we'll walk together."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is Jack taking to the park?",
+          "options": [
+            {
+              "icon": "object-kite",
+              "alt": "a kite"
+            },
+            {
+              "icon": "object-ball",
+              "alt": "a ball"
+            },
+            {
+              "icon": "transport-bike",
+              "alt": "a bike"
+            }
+          ],
+          "answer": 1,
+          "explain": "风筝因为没风被换掉（Take your ball），自行车被 No 否定，最后带的是 the ball。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Where shall we meet in the park? By the lake?"
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "The lake is too far. Let's meet at the café near the gate."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Not at the cinema by the bus stop?"
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "No, the café. See you at ten."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "Where are Emma and Sam going to meet?",
+          "options": [
+            {
+              "icon": "place-lake",
+              "alt": "by the lake"
+            },
+            {
+              "icon": "place-cafe",
+              "alt": "at the café"
+            },
+            {
+              "icon": "place-cinema",
+              "alt": "at the cinema"
+            }
+          ],
+          "answer": 1,
+          "explain": "湖太远，电影院被 No 否定，Let's meet at the café 是决定，最后再确认 the café。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Take your jacket. It's cloudy, and it might rain later."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "But it's sunny now, Dad!"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, it's sunny now, but the weather changes fast here."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "OK, I'll take it."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What's the weather like now?",
+          "options": [
+            {
+              "icon": "weather-sunny",
+              "alt": "sunny"
+            },
+            {
+              "icon": "weather-cloudy",
+              "alt": "cloudy"
+            },
+            {
+              "icon": "weather-rainy",
+              "alt": "rainy"
+            }
+          ],
+          "answer": 0,
+          "explain": "题目问的是现在（now）：it's sunny now 说了两次。多云和下雨都是爸爸说的“之后可能”。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "What time does the park close?"
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "At seven in winter, but it's summer now, so it's open until eight."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Great, it's only half past seven."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "Yes, you still have some time."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What time does the park close today?",
+          "options": [
+            {
+              "icon": "clock-0700",
+              "alt": "7:00"
+            },
+            {
+              "icon": "clock-0730",
+              "alt": "7:30"
+            },
+            {
+              "icon": "clock-0800",
+              "alt": "8:00"
+            }
+          ],
+          "answer": 2,
+          "explain": "七点是冬天的关门时间，现在是夏天，open until eight。7:30 是现在的时间。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Can I have an ice cream, please?"
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "Sorry, the ice creams have all gone. We've got cold drinks and cakes."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "A juice, then, please. I'm not hungry."
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "Here you are. That's one pound."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What does Lucy buy at the café?",
+          "options": [
+            {
+              "icon": "food-ice-cream",
+              "alt": "an ice cream"
+            },
+            {
+              "icon": "food-juice",
+              "alt": "a juice"
+            },
+            {
+              "icon": "food-cake",
+              "alt": "a cake"
+            }
+          ],
+          "answer": 1,
+          "explain": "冰淇淋卖完了（all gone），蛋糕她不饿不要，A juice, then 是最后的选择。"
+        }
+      ]
+    }
+  ]
+}

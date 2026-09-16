@@ -115,6 +115,19 @@
       "theme": "party",
       "file": "data/exam/ket/listening/l06.json",
       "status": "ready"
+    },
+    {
+      "id": "L07",
+      "title": "A Day in the Park",
+      "titleZh": "去公园",
+      "stage": 1,
+      "parts": [
+        1
+      ],
+      "questionCount": 5,
+      "theme": "park",
+      "file": "data/exam/ket/listening/l07.json",
+      "status": "ready"
     }
   ]
 }
