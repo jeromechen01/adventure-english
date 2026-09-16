@@ -1,0 +1,320 @@
+{
+  "$comment": "听力训练营 L30（P-L3 续跑，阶段三第十课，L26-L30 委婉表达段末课）。脚本 100% 原创；Part 3 委婉表达（A dog is OK, but… / He's OK, but… / Fish are OK, but… / I'm not sure；一段长对话 5 题：觉得养狗怎么样 / 对自己的兔子什么感受 / 为什么不能养猫 / 觉得养鱼怎么样 / 对帮忙照看兔子什么态度；其中「像看没声音的电视」需要推断=无聊）+ Part 5 匹配含「先选 A 后改 B」（Nora 告诉爸爸五个同学各养什么宠物，8 种动物 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L30",
+  "title": "Choosing a Pet",
+  "titleZh": "宠物",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "pets",
+  "names": [
+    "Nora",
+    "Finn",
+    "Ella",
+    "Oscar",
+    "Ruby",
+    "Sam",
+    "Lucy"
+  ],
+  "intro": "先听 Nora 和 Finn 聊养宠物：狗太麻烦？兔子好不好玩？为什么不能养猫？鱼怎么样？说话人常用「is OK, but…」「I'm not sure」这样的委婉说法，真正的意思在后面；有一题说「看鱼像看没声音的电视」，要自己想一想这是什么意思。再听 Nora 告诉爸爸五个同学各养什么宠物——有人先养过一种后来换了，要听「现在养的是什么」。8 种动物都会被提到，有 3 种没人养。",
+  "warmup": [
+    {
+      "word": "pet",
+      "phonetic": "/pet/",
+      "meaning": "宠物"
+    },
+    {
+      "word": "rabbit",
+      "phonetic": "/ˈræbɪt/",
+      "meaning": "兔子"
+    },
+    {
+      "word": "snake",
+      "phonetic": "/sneɪk/",
+      "meaning": "蛇"
+    },
+    {
+      "word": "mouse",
+      "phonetic": "/maʊs/",
+      "meaning": "老鼠（复数 mice）"
+    },
+    {
+      "word": "feed",
+      "phonetic": "/fiːd/",
+      "meaning": "喂"
+    },
+    {
+      "word": "hold",
+      "phonetic": "/həʊld/",
+      "meaning": "抱着；拿着"
+    },
+    {
+      "word": "pretty",
+      "phonetic": "/ˈprɪti/",
+      "meaning": "漂亮的"
+    },
+    {
+      "word": "themselves",
+      "phonetic": "/ðəmˈselvz/",
+      "meaning": "它们自己"
+    },
+    {
+      "word": "twice",
+      "phonetic": "/twaɪs/",
+      "meaning": "两次"
+    },
+    {
+      "word": "message",
+      "phonetic": "/ˈmesɪdʒ/",
+      "meaning": "消息；短信"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Nora 和 Finn 聊养什么宠物。五道题问的是看法、感受和理由，注意「is OK, but…」「I'm not sure」后面才是真正的意思；有一句要靠上下文推断。",
+      "script": [
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Finn, your mum said you can have a pet at last! What are you going to get? You always said you wanted a big dog."
+        },
+        {
+          "who": "Finn",
+          "sex": "m",
+          "text": "When I was six! A dog is OK, but you have to walk it twice a day, in the rain too. Dad says dogs are noisy, but that's not it. It's just a lot of work. I'd like a cat. Cats look after themselves."
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "That's true. I wish my rabbit could do that."
+        },
+        {
+          "who": "Finn",
+          "sex": "m",
+          "text": "Don't you like him? Your sister says he's the best pet in the world."
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "He's OK, but he isn't much fun. He just sits in the garden and eats all day. My little sister loves him, and that's fine. But I'd like a pet I can play with."
+        },
+        {
+          "who": "Finn",
+          "sex": "m",
+          "text": "Then get a dog!"
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Maybe one day. So, a cat for you. Doesn't your mum hate cats?"
+        },
+        {
+          "who": "Finn",
+          "sex": "m",
+          "text": "No, she loves them, and she says they're cheap to keep. The money isn't a problem. It's my brother. When a cat comes near him, his eyes go red and he feels ill. So no cat."
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Oh no. What about fish? My cousin has ten."
+        },
+        {
+          "who": "Finn",
+          "sex": "m",
+          "text": "Well, what do you think of fish?"
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Fish are OK, but you can't hold them. They're pretty to look at, and they don't cost much. But watching them is like watching TV with no sound. Nothing happens."
+        },
+        {
+          "who": "Finn",
+          "sex": "m",
+          "text": "Very funny. OK, I'll think about a bird, then."
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Good. Now, can you look after my rabbit next week? We're going to my grandmother's for five days."
+        },
+        {
+          "who": "Finn",
+          "sex": "m",
+          "text": "I'm not sure. I'm happy to help, and I've got a lot of homework, but that's not the problem. I'm worried I'll forget to feed him. I forget everything."
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "I'll send you a message every morning. He only needs some green food and water."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What does Finn think about getting a dog?",
+          "options": [
+            "It is too much work.",
+            "Dogs are too noisy.",
+            "He would like a very big one."
+          ],
+          "answer": 0,
+          "explain": "A dog is OK, but you have to walk it twice a day… It's just a lot of work——「is OK, but」后面是真心话：太麻烦。「吵」是爸爸说的，他说 that's not it；「想要大狗」是六岁时候的事。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Nora feel about her rabbit?",
+          "options": [
+            "She loves him.",
+            "She thinks he eats too much.",
+            "She would like a pet that plays more."
+          ],
+          "answer": 2,
+          "explain": "He's OK, but he isn't much fun… I'd like a pet I can play with——「He's OK, but」= 不太满意，想要能一起玩的宠物。「爱他」的是妹妹；「吃」只是描述他整天坐着吃，没说吃太多。"
+        },
+        {
+          "id": "q3",
+          "q": "Why can't Finn have a cat?",
+          "options": [
+            "Cats cost too much to keep.",
+            "His brother gets ill near cats.",
+            "His mum doesn't like cats."
+          ],
+          "answer": 1,
+          "explain": "When a cat comes near him, his eyes go red and he feels ill——哥哥对猫过敏。「贵」不对，妈妈说 cheap to keep；「妈妈讨厌猫」是 Nora 问的，Finn 说 she loves them。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Nora think about fish?",
+          "options": [
+            "They are pretty.",
+            "They are cheap.",
+            "They are boring."
+          ],
+          "answer": 2,
+          "explain": "watching them is like watching TV with no sound. Nothing happens——「像看没声音的电视，什么都不发生」= 无聊，要靠推断。「漂亮」「便宜」都是 but 前面的客气话。"
+        },
+        {
+          "id": "q5",
+          "q": "How does Finn feel about looking after Nora's rabbit?",
+          "options": [
+            "He is happy to do it.",
+            "He is worried he might forget to feed it.",
+            "He has too much homework."
+          ],
+          "answer": 1,
+          "explain": "I'm not sure… I'm worried I'll forget to feed him——担心忘了喂。「乐意帮」是客气话；「作业多」他说 that's not the problem。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Nora 告诉爸爸五个同学各养什么宠物。把每个人和右边 A-H 的动物配起来。有人先养过一种后来换了，要听「现在养的是什么」。8 种动物都会被提到，有 3 种没人养。",
+      "options": [
+        "bird",
+        "cat",
+        "dog",
+        "fish",
+        "horse",
+        "mouse",
+        "rabbit",
+        "snake"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Nora, your teacher wants everyone to bring a photo of their pet on Friday. Does everyone in your class have one?"
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Most people. I'll take a photo of the rabbit. Ella wanted a dog for years, but their flat is too small, so last month she got a cat. It sleeps on her bed."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Clever. And Oscar? I remember he had a mouse."
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "He did, but it ran away, and his mum said no more mice. So now he has a snake! It's small and green, and it only eats once a week."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "A snake! I hope he doesn't bring it to school. What about Ruby?"
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Ruby lives on a farm, so she has a horse. She rides it every morning before school."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Lucky girl. And Sam?"
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Sam has fish. Six of them, in a big glass box in the living room. He says they're easy."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "They are. And your friend Lucy?"
+        },
+        {
+          "who": "Nora",
+          "sex": "f",
+          "text": "Lucy has a bird. It talks! It says hello when you come in and goodbye when you leave."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I'd like to meet that bird. Now go and find the rabbit for your photo."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ella",
+          "answer": 1,
+          "explain": "Ella wanted a dog for years, but their flat is too small, so last month she got a cat——想要狗，最后养的是猫。"
+        },
+        {
+          "id": "q7",
+          "q": "Oscar",
+          "answer": 7,
+          "explain": "he had a mouse… but it ran away… So now he has a snake——以前养老鼠，现在养蛇。"
+        },
+        {
+          "id": "q8",
+          "q": "Ruby",
+          "answer": 4,
+          "explain": "Ruby lives on a farm, so she has a horse——住农场，养马。"
+        },
+        {
+          "id": "q9",
+          "q": "Sam",
+          "answer": 3,
+          "explain": "Sam has fish. Six of them——养了六条鱼。"
+        },
+        {
+          "id": "q10",
+          "q": "Lucy",
+          "answer": 0,
+          "explain": "Lucy has a bird. It talks!——会说话的鸟。狗、老鼠是干扰，兔子是 Nora 自己的。"
+        }
+      ]
+    }
+  ]
+}

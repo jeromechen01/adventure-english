@@ -447,6 +447,20 @@
       "theme": "sport",
       "file": "data/exam/ket/listening/l29.json",
       "status": "ready"
+    },
+    {
+      "id": "L30",
+      "title": "Choosing a Pet",
+      "titleZh": "宠物",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "pets",
+      "file": "data/exam/ket/listening/l30.json",
+      "status": "ready"
     }
   ]
 }
