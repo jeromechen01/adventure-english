@@ -251,6 +251,20 @@
       "theme": "clubs",
       "file": "data/exam/ket/listening/l16.json",
       "status": "ready"
+    },
+    {
+      "id": "L17",
+      "title": "Library News",
+      "titleZh": "图书馆通知",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "library",
+      "file": "data/exam/ket/listening/l17.json",
+      "status": "ready"
     }
   ]
 }

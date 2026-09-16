@@ -1,0 +1,317 @@
+{
+  "$comment": "听力训练营 L17（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，相似话题干扰：五段都在图书馆，分别讲开放时间/等一本书/儿童活动/丢书赔钱/电脑不能用）+ Part 2 笔记填空（一段独白 5 空：数字、时间、姓名拼读 W-R-I-G-H-T、地名拼读 O-A-K-W-O-O-D、价格）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L17",
+  "title": "Library News",
+  "titleZh": "图书馆通知",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "library",
+  "names": [
+    "Wright",
+    "Oakwood",
+    "Sam",
+    "Emma",
+    "Dan"
+  ],
+  "intro": "五段都发生在图书馆：开到几点、想借的书被借走了、周六讲故事、书丢了要赔、电脑今天用不了。再听一段暑期阅读俱乐部的通知，记下本数、时间、老师、公园和奖品。",
+  "warmup": [
+    {
+      "word": "library",
+      "phonetic": "/ˈlaɪbrəri/",
+      "meaning": "图书馆"
+    },
+    {
+      "word": "borrow",
+      "phonetic": "/ˈbɒrəʊ/",
+      "meaning": "借"
+    },
+    {
+      "word": "return",
+      "phonetic": "/rɪˈtɜːn/",
+      "meaning": "归还"
+    },
+    {
+      "word": "list",
+      "phonetic": "/lɪst/",
+      "meaning": "名单；清单"
+    },
+    {
+      "word": "story",
+      "phonetic": "/ˈstɔːri/",
+      "meaning": "故事"
+    },
+    {
+      "word": "pay",
+      "phonetic": "/peɪ/",
+      "meaning": "付钱"
+    },
+    {
+      "word": "card",
+      "phonetic": "/kɑːd/",
+      "meaning": "卡；借书证"
+    },
+    {
+      "word": "prize",
+      "phonetic": "/praɪz/",
+      "meaning": "奖品"
+    },
+    {
+      "word": "shelf",
+      "phonetic": "/ʃelf/",
+      "meaning": "书架"
+    },
+    {
+      "word": "party",
+      "phonetic": "/ˈpɑːti/",
+      "meaning": "聚会"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "Welcome to the town library. From this month we are open until seven on Tuesdays and Thursdays, so you can come after work or school."
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "On other days we close at five, and we are closed on Sundays."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the woman talking about?",
+          "options": [
+            "the library's opening times",
+            "the library's new books",
+            "a library competition"
+          ],
+          "answer": 0,
+          "explain": "open until seven / close at five / closed on Sundays——全是开放时间。新书和比赛都没说。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Excuse me, I'm looking for the new book about space. I can't find it on the shelf."
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "Someone borrowed it yesterday. It will be back next Friday."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Can I put my name down for it, so nobody else takes it?"
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "Of course. Write your name on this list, and we'll call you when it's back."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What is the boy doing?",
+          "options": [
+            "waiting for a book someone else has",
+            "buying a new book",
+            "returning a book late"
+          ],
+          "answer": 0,
+          "explain": "someone borrowed it / back next Friday / put my name down——书被别人借走了，他排队等。不是买书，也不是还书。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "Every Saturday morning from ten to eleven we have story time for children aged five to eight."
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "We read two stories and then draw pictures. It's free, and parents can wait in the café next door."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is the woman talking about?",
+          "options": [
+            "a club for young children",
+            "a class for parents",
+            "a film for teenagers"
+          ],
+          "answer": 0,
+          "explain": "story time for children aged five to eight / read two stories and draw——是给小孩子的活动。家长只是在隔壁等，电影没有。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "I've looked everywhere for my library book, in my bag, under my bed, and in the car, but I can't find it."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "The library says I have to pay six pounds for a new one. That's all my pocket money for two weeks!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the boy talking about?",
+          "options": [
+            "paying for a lost book",
+            "finding a book in his bag",
+            "getting a new library card"
+          ],
+          "answer": 0,
+          "explain": "can't find it / have to pay six pounds for a new one——书丢了要赔钱。他没找到书，借书证也没提。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Library",
+          "sex": "m",
+          "text": "Sorry, everyone, the library computers are not working this afternoon. A man is coming to look at them at four."
+        },
+        {
+          "who": "Library",
+          "sex": "m",
+          "text": "If you need a computer for homework, the school library is open until five. We hope they will work again tomorrow."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What is the man telling the people in the library?",
+          "options": [
+            "The computers can't be used today.",
+            "There are new computers today.",
+            "There is a computer class at four."
+          ],
+          "answer": 0,
+          "explain": "the computers are not working this afternoon——今天用不了。四点来的是修电脑的人，不是新电脑也不是上课。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段图书馆暑期阅读俱乐部的通知，把笔记补全。老师和公园的名字会拼出来。",
+      "script": [
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "Hello, and welcome to the Summer Reading Club. Here's how it works."
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "Over the summer, you read six books or more. Last year it was four, but you all read so fast that we made it six!"
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "We meet every Friday at half past four to talk about the books. The library closes at five on Fridays, so we finish on time."
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "The club teacher is Miss Wright. That's W-R-I-G-H-T. She knows every book in the library."
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "At the end of the summer there's a party. It's not in the library this year, it's at Oakwood Park, O-A-K-W-O-O-D, by the lake."
+        },
+        {
+          "who": "Library",
+          "sex": "f",
+          "text": "Everyone who finishes gets a free book, and the best reader wins twenty pounds to spend in the bookshop. Happy reading!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Summer Reading Club — Read: ______ books or more",
+          "answer": "6",
+          "alt": [
+            "six"
+          ],
+          "explain": "read six books or more = 6。four 是去年的。"
+        },
+        {
+          "id": "q7",
+          "q": "Meet every Friday at: ______",
+          "answer": "4:30",
+          "alt": [
+            "4.30",
+            "half past four",
+            "four thirty"
+          ],
+          "explain": "every Friday at half past four = 4:30。five 是图书馆关门时间。"
+        },
+        {
+          "id": "q8",
+          "q": "Club teacher: Miss ______",
+          "answer": "Wright",
+          "explain": "Miss Wright. That's W-R-I-G-H-T——注意开头的 W 不发音，必须写上。"
+        },
+        {
+          "id": "q9",
+          "q": "Party at: ______ Park",
+          "answer": "Oakwood",
+          "explain": "at Oakwood Park, O-A-K-W-O-O-D，照拼读写。今年不在图书馆办（not in the library）。"
+        },
+        {
+          "id": "q10",
+          "q": "Best reader wins: £______ to spend in the bookshop",
+          "answer": "20",
+          "alt": [
+            "twenty",
+            "£20",
+            "twenty pounds"
+          ],
+          "explain": "the best reader wins twenty pounds = 20。free book 是每个完成的人都有的。"
+        }
+      ]
+    }
+  ]
+}
