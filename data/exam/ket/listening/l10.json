@@ -1,0 +1,318 @@
+{
+  "$comment": "听力训练营 L10（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L10",
+  "title": "The School Trip",
+  "titleZh": "学校旅行",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "trip",
+  "names": [
+    "Brown",
+    "Emma",
+    "Jack",
+    "Mia"
+  ],
+  "intro": "班级出游前老师的说明：去哪儿、几点出发、带什么午饭、穿什么鞋、多少钱。三个选项都会出现，抓住老师的最后决定。",
+  "warmup": [
+    {
+      "word": "trip",
+      "phonetic": "/trɪp/",
+      "meaning": "短途旅行"
+    },
+    {
+      "word": "zoo",
+      "phonetic": "/zuː/",
+      "meaning": "动物园"
+    },
+    {
+      "word": "castle",
+      "phonetic": "/ˈkɑːsl/",
+      "meaning": "城堡"
+    },
+    {
+      "word": "museum",
+      "phonetic": "/mjuˈziːəm/",
+      "meaning": "博物馆"
+    },
+    {
+      "word": "full",
+      "phonetic": "/fʊl/",
+      "meaning": "满的"
+    },
+    {
+      "word": "coach",
+      "phonetic": "/kəʊtʃ/",
+      "meaning": "长途大巴"
+    },
+    {
+      "word": "packed lunch",
+      "phonetic": "/ˌpækt ˈlʌntʃ/",
+      "meaning": "自带的午饭"
+    },
+    {
+      "word": "trainers",
+      "phonetic": "/ˈtreɪnəz/",
+      "meaning": "运动鞋"
+    },
+    {
+      "word": "parents",
+      "phonetic": "/ˈpeərənts/",
+      "meaning": "父母"
+    },
+    {
+      "word": "sign",
+      "phonetic": "/saɪn/",
+      "meaning": "签名"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "Listen, everyone. We were going to the zoo on Friday, but it's closed that day."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Are we going to the museum, then?"
+        },
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "The museum is full on Friday, so we're going to the castle."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Great, I love castles!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Where is the class going on the trip?",
+          "options": [
+            {
+              "icon": "place-zoo",
+              "alt": "the zoo"
+            },
+            {
+              "icon": "place-museum",
+              "alt": "the museum"
+            },
+            {
+              "icon": "place-castle",
+              "alt": "the castle"
+            }
+          ],
+          "answer": 2,
+          "explain": "动物园那天关门，博物馆已满，最后 we're going to the castle。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "The coach leaves at quarter past eight, not half past eight as it says on the letter."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "So we must be at school by eight?"
+        },
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "Yes, eight o'clock at the school gate."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "OK, I'll be there."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What time does the coach leave?",
+          "options": [
+            {
+              "icon": "clock-0800",
+              "alt": "8:00"
+            },
+            {
+              "icon": "clock-0815",
+              "alt": "8:15"
+            },
+            {
+              "icon": "clock-0830",
+              "alt": "8:30"
+            }
+          ],
+          "answer": 1,
+          "explain": "问大巴几点开：quarter past eight = 8:15。8:30 是信上写错的时间，8:00 是到校时间。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "The castle café is expensive, so bring a packed lunch. Sandwiches are best, not pizza."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Can I bring a cake?"
+        },
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "A small one is fine, but you must have sandwiches too."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "OK, Mr Brown."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What must everyone bring for lunch?",
+          "options": [
+            {
+              "icon": "food-pizza",
+              "alt": "pizza"
+            },
+            {
+              "icon": "food-sandwich",
+              "alt": "sandwiches"
+            },
+            {
+              "icon": "food-cake",
+              "alt": "a cake"
+            }
+          ],
+          "answer": 1,
+          "explain": "披萨 not，蛋糕只是“可以带一个小的”，必须带（must have）的是 sandwiches。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "It might rain, so bring a jacket. You don't need boots, trainers are fine."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Can I wear my new shoes?"
+        },
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "No, we're walking a lot. Trainers, please."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "OK, trainers."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What must the students wear on their feet?",
+          "options": [
+            {
+              "icon": "clothes-boots",
+              "alt": "boots"
+            },
+            {
+              "icon": "clothes-trainers",
+              "alt": "trainers"
+            },
+            {
+              "icon": "clothes-shoes",
+              "alt": "shoes"
+            }
+          ],
+          "answer": 1,
+          "explain": "靴子不需要，新鞋被 No 否定，Trainers, please 是老师的要求。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Is the trip fifteen pounds, Mr Brown?"
+        },
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "It was, but the school is paying for the coach, so it's only eight pounds now."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Not ten?"
+        },
+        {
+          "who": "Mr Brown",
+          "sex": "m",
+          "text": "No, eight. Bring the money and the letter signed by your parents on Monday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "How much does the trip cost now?",
+          "options": [
+            {
+              "icon": "price-8",
+              "alt": "£8"
+            },
+            {
+              "icon": "price-10",
+              "alt": "£10"
+            },
+            {
+              "icon": "price-15",
+              "alt": "£15"
+            }
+          ],
+          "answer": 0,
+          "explain": "十五镑是以前的价格（It was），十镑被 No 否定，现在是 only eight pounds now。"
+        }
+      ]
+    }
+  ]
+}

@@ -154,6 +154,19 @@
       "theme": "health",
       "file": "data/exam/ket/listening/l09.json",
       "status": "ready"
+    },
+    {
+      "id": "L10",
+      "title": "The School Trip",
+      "titleZh": "学校旅行",
+      "stage": 1,
+      "parts": [
+        1
+      ],
+      "questionCount": 5,
+      "theme": "trip",
+      "file": "data/exam/ket/listening/l10.json",
+      "status": "ready"
     }
   ]
 }
