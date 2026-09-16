@@ -164,10 +164,10 @@ function runLesson(app, level, index, meta, lesson, params) {
         <div class="text-xs text-gray-400 mb-2">🔑 本课词汇（${words.length}）</div>
         <div class="space-y-1">
           ${words.map((w, i) => `
-            <button data-wu="${i}" class="w-full flex items-center gap-3 text-left rounded-2xl px-3 py-2 tap-bounce hover:bg-gray-50" style="min-height:48px">
+            <button data-wu="${i}" class="w-full flex items-center gap-3 text-left rounded-2xl px-3 py-2 tap-bounce hover:bg-gray-50" style="min-height:48px;flex-wrap:wrap">
               <span class="text-xl">🔊</span>
               <span class="font-bold font-en text-base">${esc(w.word)}</span>
-              ${w.phonetic ? `<span class="text-cap text-gray-400 font-en">${esc(w.phonetic)}</span>` : ''}
+              ${w.phonetic ? `<span class="text-cap text-gray-400 font-en" style="min-width:0;overflow-wrap:anywhere">${esc(w.phonetic)}</span>` : ''}
               <span class="text-sm text-gray-600 flex-1 text-right" style="min-width:0">${esc(w.meaning)}</span>
             </button>`).join('')}
         </div>

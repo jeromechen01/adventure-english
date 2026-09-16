@@ -121,6 +121,7 @@
       // PL0 听力训练营：首页 / L01 热身页 / 语音检查页（无头 Chrome 无英文语音 → 走降级分支，也要能渲染）
       await visit('KET', 'exam-listening');
       await visit('KET', 'exam-listening', { lesson: 'L01' });
+      await visit('KET', 'exam-listening', { lesson: 'L10' }); // P-L1：阶段一末课
       await visit('KET', 'exam-reading', { tab: 'listening' });
       await visit('KET', 'voice-check');
 
@@ -283,6 +284,8 @@
       await visit('offline-KET', 'exam-listening');
       await visit('offline-KET', 'exam-listening', { lesson: 'L01' });
       p2b.offlineListeningWarmup = !!app.querySelector('#startBtn');
+      await visit('offline-KET', 'exam-listening', { lesson: 'L10' });
+      p2b.offlineListeningL10 = !!app.querySelector('#startBtn');
       const offlineRoutes = out.slice(onlineCount);
       await fetch('/__online?t=' + Date.now() + Math.random()).catch(() => {});
 

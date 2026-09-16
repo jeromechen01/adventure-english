@@ -925,6 +925,189 @@
 
 ---
 
+## P-L1：听力阶段一 L02-L10（缓存 `ea-v1.1.1`，2026-09-16，✅ 阶段一 10 课完成，⏸ 硬停机等家长手机验收）
+
+> 只产数据不改引擎（引擎唯一改动是 L03 暴露的热身页音标溢出修复）。规则同 P-L0：脚本 100% 原创、官方 tapescript 一字不读；音频只用 Web Speech 实时合成不入库；每课 `tools/check-listening.mjs` A2 覆盖 **9 课全部 100%**（超纲词全进 warmup）。八课数据零改动（untouched 对 `tools/backup/pl1/` 全过）。
+
+### 单元 0 · 图标补充 37 个 + 校验器增强（01608f0）
+- [x] `tools/gen-listening-icons.mjs` 新增 37 条，图标 **44 → 81**，新类别 **clothes / object / body**（`icons.json` 的 categories 同步）；全部由生成器产出、同规范同风格（viewBox 120、米色底、粗描边），白底/深底 contact sheet 目测清晰；body 类用红色虚线标不舒服处
+- [x] `check-listening.mjs` 增强：不规则动词/复数还原表（fell→fall 等 90 条）、-ier/-iest/-y 还原、更多缩写、café 去音符匹配、TV 白名单；lesson Schema 的 `warmup.word` 允许大写与重音（T-shirt / café）
+- 完整 81 图标清单见下方「★ 图标清单」
+
+### 单元 1 · 九课数据（一课一 commit，规格与 L01 完全一致：Part 1 · 5 题 · 每题 4 轮原创对话 + 3 图 · 0.8x · warmup 9-10 词）
+难度坡度分三档，专抓点（时间 · 数字/价格 · 地点 · 交通 · 食物 · 活动）每类至少两课：
+
+| 课 | 题材 | 难度档 | 五题答案要点 | commit |
+|---|---|---|---|---|
+| L02 | A Weekend at Home 家里的周末 | 直给型 | 先做什么 / 早餐喝什么 / 奶奶带蛋糕 / 几点到 / 下午桌游 | e1b6160 |
+| L03 | At the Supermarket 去超市 | 直给型 | 买鸡蛋 / 香蕉 £2.50 / 选香蕉 / 8 点关门 / 打车回家 | dc1d322 |
+| L04 | Weather and Clothes 天气和穿衣 | 直给型 | 刮风 / 穿靴子 / 带伞 / 海边晴 / 穿毛衣 | d506cf0 |
+| L05 | After-School Clubs 课外活动 | 一步推断 + 改口 | 舞蹈社 / 4:30 / 带鸡蛋 / 博物馆 / 免费 | 678d9e7 |
+| L06 | A Birthday Party 生日聚会 | 一步推断 + 改口 | 送足球 / 3 点 / 三明治 / 公园 / 步行 | 26f8240 |
+| L07 | A Day in the Park 去公园 | 一步推断 + 改口 | 带球 / 咖啡店碰头 / 现在晴 / 8 点关门 / 买果汁 | 8487310 |
+| L08 | Holiday Plans 假期计划 | 三选项全出现，靠最终决定 | 去城市 / 坐火车 / 带书 / 8:45 发车 / 周末晴 | d6e55b4 |
+| L09 | At the Doctor's 看病和身体 | 三选项全出现 | 肚子疼 / 3:30 看医生 / 只能看书 / 买药 / 骑车摔的 | fbe766e |
+| L10 | The School Trip 学校旅行 | 接近真考 | 去城堡 / 8:15 发车 / 必带三明治 / 穿运动鞋 / £8 | b790618 |
+
+- **直给型**（L02-L04）：答案句直接说出，干扰项靠 not / but 排除；**一步推断 + 改口**（L05-L07）：先说一个再改口，或要从两句拼出答案；**三选项全出现**（L08-L09）：三个选项都在对话里出现，只有最终决定是答案；**接近真考**（L10）：干扰更密、改口更晚，为阶段二 0.9x 做铺垫
+- [x] 每课 `index.json` 追加登记 `status: ready` + questionCount 5；人名进 `names`；干扰项三个都在对话里出现，答案落在 but / then / going to 之后
+
+### 单元 2 · L03 暴露的引擎小修（本收尾 commit，`modules/exam/listening.js`）
+- [x] 热身页词表一行 = 🔊 + 单词 + 音标 + 中文；L03 的 supermarket 音标 `/ˈsuːpəmɑːkɪt/` 在 360 宽把整行撑出屏幕。修法：行容器加 `flex-wrap:wrap`，音标 span 加 `min-width:0; overflow-wrap:anywhere`，长音标折到下一行而不是溢出；其他课不受影响（单词 + 短音标仍一行）
+- [x] 改了线上 JS → sw bump **ea-v1.1.1**（索引 `index.json` 与 `icons.json` 都在壳预取清单，加课也必须 bump）
+
+### ★ 图标清单（81 个，P-L2 起先查这张表再决定是否加图标）
+文件 `assets/img/listening/<id>.svg`，清单 `data/exam/ket/listening/icons.json`；「首用」= 第一次用到的课，「复用」= 其他也用到的课，空 = 至今未用。**加图标只改 `tools/gen-listening-icons.mjs` 再生成，不手改 SVG**；新图标标 ★（P-L1 新增 37 个）。
+
+**clock 时钟（10）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| clock-0700 | 7:00 | L01 | L07 |
+| clock-0730 | 7:30 | L01 | L03 L07 |
+| clock-0800 | 8:00 | L01 | L03 L07 L08 L10 |
+| clock-0815 | 8:15 | L08 | L10 |
+| clock-0845 | 8:45 | L03 | L08 |
+| clock-0330 | 3:30 | L02 | L05 L06 L09 |
+| ★ clock-0300 | 3:00 | L02 | L06 L09 |
+| ★ clock-0400 | 4:00 | L02 | L05 L06 L09 |
+| ★ clock-0430 | 4:30 | L05 | — |
+| ★ clock-0830 | 8:30 | L10 | — |
+
+**price 价格牌（7）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| price-2-50 | £2.50 | L03 | — |
+| price-5 | £5 | L03 | L05 |
+| price-10 | £10 | L05 | L10 |
+| price-15 | £15 | L10 | — |
+| ★ price-3 | £3 | L03 | — |
+| ★ price-8 | £8 | L10 | — |
+| ★ price-free | FREE 免费 | L05 | — |
+
+**weather 天气（6）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| weather-sunny | 晴 | L04 | L07 L08 |
+| weather-cloudy | 多云 | L04 | L07 L08 |
+| weather-rainy | 下雨 | L04 | L07 L08 |
+| weather-windy | 刮风 | L04 | — |
+| weather-snowy | 下雪 | （未用） | — |
+| weather-stormy | 雷雨 | L04 | — |
+
+**transport 交通（8）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| transport-bus | 公共汽车 | L01 | L03 |
+| transport-car | 小汽车 | L01 | L06 L08 |
+| transport-bike | 自行车 | L01 | L06 L07 L09 |
+| transport-train | 火车 | L08 | — |
+| transport-plane | 飞机 | L08 | — |
+| transport-boat | 船 | （未用） | — |
+| ★ transport-taxi | 出租车 | L03 | — |
+| ★ transport-walk | 步行 | L03 | L06 |
+
+**food 食物（11）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| food-apple | 苹果 | L03 | L05 |
+| food-banana | 香蕉 | L03 | — |
+| food-pizza | 披萨 | L01 | L06 L10 |
+| food-sandwich | 三明治 | L01 | L02 L06 L10 |
+| food-pasta | 意面 | L01 | L06 |
+| food-cake | 蛋糕 | L02 | L03 L07 L10 |
+| food-ice-cream | 冰淇淋 | L02 | L03 L07 |
+| food-milk | 牛奶 | L02 | L03 L05 |
+| ★ food-egg | 鸡蛋 | L03 | L05 |
+| ★ food-juice | 果汁 | L02 | L07 L09 |
+| ★ food-tea | 一杯茶 | L02 | L09 |
+
+**activity 活动（11）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| activity-football | 踢足球 | L01 | L02 L09 |
+| activity-swimming | 游泳 | L01 | — |
+| activity-reading | 看书 | L06 | L08 L09 |
+| activity-painting | 画画 | L01 | L05 |
+| activity-music | 弹吉他 | L05 | — |
+| activity-dancing | 跳舞 | L05 | — |
+| activity-running | 跑步 | L09 | — |
+| activity-computer | 用电脑 | L02 | L09 |
+| ★ activity-cleaning | 打扫房间 | L02 | — |
+| ★ activity-boardgame | 玩桌游 | L02 | L06 |
+| ★ activity-tv | 看电视 | L02 | — |
+
+**place 场所（13）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| place-school | 学校 | L06 | — |
+| place-library | 图书馆 | L01 | — |
+| place-park | 公园 | L01 | L02 L05 L06 |
+| place-shop | 商店 | L01 | — |
+| place-cinema | 电影院 | L06 | L07 |
+| place-beach | 海滩 | L05 | L08 |
+| ★ place-museum | 博物馆 | L05 | L10 |
+| ★ place-cafe | 咖啡店 | L07 | — |
+| ★ place-lake | 湖 | L07 | — |
+| ★ place-mountains | 山 | L08 | — |
+| ★ place-city | 大城市 | L08 | — |
+| ★ place-zoo | 动物园 | L10 | — |
+| ★ place-castle | 城堡 | L10 | — |
+
+**clothes 衣物（6，P-L1 新类别）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| ★ clothes-boots | 靴子 | L04 | L10 |
+| ★ clothes-trainers | 运动鞋 | L04 | L10 |
+| ★ clothes-shoes | 皮鞋 | L04 | L10 |
+| ★ clothes-jacket | 夹克 | L04 | — |
+| ★ clothes-jumper | 毛衣 | L04 | — |
+| ★ clothes-t-shirt | T 恤 | L04 | — |
+
+**object 物品（6，P-L1 新类别）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| ★ object-umbrella | 雨伞 | L04 | — |
+| ★ object-kite | 风筝 | L07 | — |
+| ★ object-ball | 足球（实物） | L06 | L07 |
+| ★ object-camera | 相机 | L08 | — |
+| ★ object-tablet | 平板电脑 | L08 | — |
+| ★ object-medicine | 药瓶 | L09 | — |
+
+**body 身体（3，P-L1 新类别，红色虚线标不舒服处）**
+
+| id | 说明 | 首用 | 复用 |
+|---|---|---|---|
+| ★ body-head | 头（头疼） | L09 | — |
+| ★ body-arm | 胳膊（胳膊疼） | L09 | — |
+| ★ body-stomach | 肚子（肚子疼） | L09 | — |
+
+- 复用提示：weather-snowy / transport-boat 至今未用；阶段二起 Part 2/3/4 不用图标，Part 1 若仍编入则优先从上表选，价格牌与时钟缺什么值再加
+
+### 收尾（本 commit）
+- [x] preflight 五项 ✔（ESM 42 文件 / Schema + 编码 158 文件 / 听力课 10 课 A2 覆盖 100% / sw 登记 / ketLessonMap 50 课）；八课 untouched 对 `tools/backup/pl1` ✔；三份文档（CHECKLIST / 交接文档 / MEMORY）编码守卫（BOM + 乱码特征）✔
+- [x] smoke 用例 +2：在线 `exam-listening?lesson=L10`、离线 L10 热身页 `#startBtn`（阶段一末课；本收尾会话未复跑浏览器三件套，家长验收前如需复核按环境坑 4/5/6/12/13 跑）
+- [x] sw → **ea-v1.1.1**
+- 本批 commit：01608f0 PL1-0 图标 → e1b6160 L02 → dc1d322 L03 → d506cf0 L04 → 678d9e7 L05 → 26f8240 L06 → 8487310 L07 → d6e55b4 L08 → fbe766e L09 → b790618 L10 → 收尾（sw + L03 修复 + smoke 用例 + 三份文档）
+
+### 📌 P-L2 续跑说明（L11-L20 阶段二，家长在手机上验收阶段一后开工）
+- 范围：阶段二前 10 课 **L11-L20，语速 0.9x（由 `stage.rate` 决定）**，题型 = **Part 4 主旨三选一 + Part 2 填空**（家长定）。★ 注意 `index.json` 的 stages[1].desc 现写「加入 Part 2 填空与 Part 3 三选一」，与本说明不一致，开工时请家长拍板是否把 desc 改成 Part 4 + Part 2（index 在壳预取清单，改了要 bump）
+- ★ **填空题型首次投入（P-L0 只用合成课 L99 验过判分，没有真课）：先做 L11 一课样课，push 后停机等家长手机验收，验收通过再批量 L12-L20**。样课要覆盖的判分点：数字词 ↔ 阿拉伯数字互认、连字符、`alt` 备选答案、大小写；一课内每空答案在 A2 表内且拼写唯一
+- 工艺：课结构仍复制 `l01.json` 骨架（id/title/titleZh/stage/rate/parts/theme/names/intro/warmup/sections）；Part 4 每段一题三选一（口径：一段独白或对话问主旨/态度/原因），Part 2 一段独白 5 空（口径见 P-L0 单元 2）；题型题数选项严格对齐真考不自创；每课跑 `node tools/check-listening.mjs L1X` 到 ≥95% 且超纲词全进 warmup；索引追加 `status: ready` + questionCount；一课一 commit
+- 图标：Part 2/4 不用图标；若某课编入 Part 1 段，先查上面「★ 图标清单」，缺的再在 `tools/gen-listening-icons.mjs` 加条再生成
+- 收尾照旧：preflight（含 ⑤）+ untouched（开工先备份八课到 `tools/backup/pl2/`）+ 三件套 + 窄屏 shot（填空页与 Part 4 页各一张）+ 行为级页（`_pl0check.html` 写法：mock speechSynthesis + fetch 覆盖；★测播放按钮先等 disabled 再等恢复）+ sw bump + push 后硬停机
+- 阶段二/三引擎能力已就位（Part 2 填空 / Part 3·4 三选一 / Part 5 匹配、0.9x/1.0x 由 stage.rate 决定），只需产数据
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
@@ -980,12 +1163,12 @@
 ## 📊 统计
 
 - JS 模块：**42 个**（assets/js，check-esm 计数；P-L0 新增 modules/voice-check.js + modules/exam/listening.js，全部 check-esm 通过）+ `sw.js`
-- 数据文件：**149 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
+- 数据文件：**158 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema；P-L1 +9：L02-L10）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
 - 语法大厅：**50/50 课全部完工**（基石 G01-G12 + 骨架 G13-G26 + 进阶 G27-G42 + 精修 G43-G50，共 3200 题 + 352 侦探病句 = 3552 个题干全局无重复）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2571 词 / 22 话题**（V0.5-PET-s1 第 1 会话后，第 2 会话续扩 time + 新话题）；PET 阅读：**15 篇**
-- 听力训练营（P-L0）：**1/50 课**（L01 · Part 1 · 5 题）+ SVG 图标 **44 个**（tools/gen-listening-icons.mjs 生成）+ check-listening 词汇守卫（A2 覆盖 ≥95%）
+- 听力训练营（P-L0 + P-L1）：**10/50 课**（阶段一 L01-L10 全部 · Part 1 · 每课 5 题，共 50 题）+ SVG 图标 **81 个 / 10 类**（tools/gen-listening-icons.mjs 生成，清单见 P-L1「★ 图标清单」）+ check-listening 词汇守卫（A2 覆盖 ≥95%，10 课实测 100%）
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.0**（P-L0 听力训练营；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.1**（P-L1 听力阶段一 10 课 + L03 音标溢出修复；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
 - 预缓存体积：**452 KB**（壳 44 项 + 索引 9 项；P2b 新增 `utils/ket-hall-map.js` 2 KB）；`data/` 内容 2,878 KB 走运行时缓存
 - 模块互链：KET 八课 ⇄ 语法大厅 双向跳转（P2b，映射表 `assets/js/utils/ket-hall-map.js`，八课内容零改动）
 - 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读
