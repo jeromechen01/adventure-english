@@ -1220,6 +1220,55 @@
 
 ---
 
+## P-L3 续跑：听力阶段三 L22-L35（缓存 `ea-v1.1.5`，2026-09-17，✅ 阶段三 15 课全部完成 35/50，⏸ 硬停机等家长验收，不进入 P-L4）
+
+> 家长验收 L21 后开工。**只产课程数据 + 索引，引擎零改动**（`listening.js` / `speech.js` / `check-listening.mjs` / Schema 本批未动）。14 课脚本 100% 原创，官方音频/tapescript/样卷一字不读；音频只用 Web Speech 实时合成不入库；八课数据零改动（untouched 对 `tools/backup/pl4/` 全过）。一课一 commit，格式与判分基线 = 已验收的 `l21.json`。
+
+### 单元 1 · 14 课（每课 Part 3 一段长对话 5 题三选一 + Part 5 一段长对话 5 人配 8 选项 A-H，`parts [3,5]` · 10 题 · stage 3 · rate 1）
+| 课 | 题材 / theme | Part 3（轮数 · 答案 · 干扰手法） | Part 5（轮数 · 答案 · 选定 / 干扰） | commit |
+|---|---|---|---|---|
+| L22 周末去哪玩 | weekend | 13 轮 · B A C B C · 直说；「离家远 but 不是问题」「贵 but 不是真问题」 | 11 轮 · F C E G D · museum/farm/market/park/library；beach·cinema·zoo | 1960952 |
+| L23 买生日礼物 | present | 14 轮 · C B A C A · 直说；「书架满不是问题」「容易是 Grandma 说的」 | 13 轮 · D B E A G · hat/camera/plant/bag/tickets；flowers·scarf·watch | ac8c459 |
+| L24 看电影 | cinema | 13 轮 · A C B C B · 直说；「太长是姐姐说」「生气的是哥哥」 | 13 轮 · G F E C A · popcorn/pizza/juice/fruit/biscuits；chocolate·ice cream·sandwiches | 56f7901 |
+| L25 学校社团 | school | 13 轮 · B C A C B · 直说；「兴奋是大家以为」「无聊是 Amy 说」 | 11 轮 · D B E G F · kitchen/gym/library/playground/office；garden·hall·classroom | f8b8574 |
+| L26 假期旅行 | holiday | 13 轮 · A C B B C · ★ 委婉首现：are OK, but / I'm not sure about | 11 轮 · F G B D E · lake/mountains/city/farm/island；beach·countryside·village；★ 先选后改首现（Ruby 海滩→湖、Toby 山区→农场） | 2659212 |
+| L27 新同学 | classmates | 14 轮 · A B A C C · It's OK, but / I'm not sure（帮补英语=没时间） | 11 轮 · H B D G F · sport/English/history/science/music；art·geography·maths；三人先选后改 | 2f4ca1d |
+| L28 家庭聚餐 | family | 14 轮 · A C B B C · A restaurant is OK, but / I'm not sure I can（担心时间） | 11 轮 · A C G E D · bread/chicken/salad/pasta/fish；cake·rice·soup；两人先选后改 | 3fa5fd6 |
+| L29 运动比赛 | sport | 14 轮 · B C A C A · I'm not sure / She's OK, but / It's fine, but / Books are OK, but | 11 轮 · F E G C H · table tennis/swimming/tennis/hockey/volleyball；basketball·football·running；三人先选后改（tennis 与 table tennis 同时在选项里） | fe08a5c |
+| L30 宠物 | pets | 15 轮 · A C B C B · is OK, but ×3 + I'm not sure；★「像看没声音的电视」需推断=无聊 | 11 轮 · B H E D A · cat/snake/horse/fish/bird；dog·mouse·rabbit | 17fa50c |
+| L31 搬家 | home | 15 轮 · B C C A C · ★ 综合两句首现（房子小没关系+爸爸上班两小时→工作远；嘴上说没事+睡不着→担心） | 13 轮 · A C D B F · ★ 短语选项首现：carry the boxes / drive the van / look after the dog / clean the kitchen / pack the books；干扰 make the lunch · paint the bedroom · phone the neighbours 各被提到 ≥2 次；四人先选后改 | 49cf6f5 |
+| L32 学乐器 | music | 13 轮 · C B B A C · 综合两句（老师好+撞足球→选足球；很严想哭+进步大→高兴） | 11 轮 · C F G H D · play the guitar / sell the tickets / sing a song / take the photos / play the piano；干扰 make the posters · play the drums · play the violin；五人四改 | 7c423e9 |
+| L33 露营 | camping | 14 轮 · B C A C A · 综合两句（帐篷暖睡袋好+一闭眼听到动静→担心动静） | 13 轮 · G E A H C · the tent / the food / a big torch / warm blankets / a guitar；干扰 a football · a map · the matches；四人先选后改 | db457d8 |
+| L34 科技产品 | technology | 15 轮 · B C A C B · 综合两句（大的相机好钱够+太重→更轻；起初生气+考最好→好事） | 13 轮 · F B C H A · take photos / do homework / listen to music / watch films / buy clothes；干扰 play games · read the news · talk to friends | 36586c7 |
+| L35 志愿活动 | helping | 15 轮 · C B B C A · ★ 顶格：五题全部综合两句（妈妈在医院+爷爷住过→认识人；周日累踢球少+从没这么开心→更开心） | 13 轮 · C H B E F · help at the animal home / wash cars / cook at the lunch club / plant trees / read to children；干扰 clean the beach · paint the fence · visit old people 各被反复提到；五人四改 | 9027375 |
+
+- [x] 坡度按任务书：**L22-L25** 观点直说 + 匹配直给 → **L26-L30** 委婉表达（It's OK, but… = 不太喜欢 / I'm not sure = 不想）+ 先选 A 后改 B → **L31-L35** 综合前后两句判断 + 8 个干扰项反复提到靠「最终决定」判断 + 选项改短语，接近真考
+- [x] Part 3 三个选项在对话里都有依据，只有一个是最终态度；干扰手法轮换（先说 A 再改口 / 别人的看法 / 字面肯定语气否定 / 前半句客气后半句真心）；题干只用 Why does… / What does…think about… / How does…feel about… / What does…say about…；没有一题能靠听到关键词直接选（explain 全部写明前后两句怎么合）
+- [x] Part 5 每课 8 个选项同类（地点 / 物品 / 食物 / 科目 / 项目 / 动物 / 短语），全部在对话里逐字出现（selftest 强制 `text.includes(option)`，L32 因此把 "playing the piano" 改成 "play the piano"）；5 个人名全部出现且登记 `names`；答案 0-7 不重复
+- [x] 词汇 A2 覆盖 **14 课全部 100%**（528-757 词/课），warmup 每课 10 词、全部在 A2 表内；每课 `node tools/check-listening.mjs L2X` + `check-data`（Schema + 编码）+ 判分自测（临时 `selftest.mjs`：索引元信息一致 / stage·rate·parts / 双声道交替 / Part 3 轮数 11-15 与答案分布 / Part 5 轮数 10-13、8 选项、答案不重复、选项与人名全出现 / q1-q10 顺序 / explain 含中文 / 模拟引擎逐项判分：全对 5、全选 A、第 2 项重复第 1 项答案 4）全过
+- [x] ★ 词汇踩坑新增（不在 A2 表、也进不了 warmup，脚本必须绕开；P-L2 表与 P-L3 样课表继续有效）：`since / through / reason / nervous / proud / honest / sensible / bored / main / around / seem / unfriendly / helper(s) / print / suppose / hmm / ha / captain / practice(n.) / ankle / final / cage / bite / fur / bark / tank / care / lay / fourth / fourteenth（序数词只有 first-third）/ imagine / pianist / corridor / exciting（excited 在）/ strict / patient / audience / wake / woke（"woke up" 也不认，用 got up）/ scared / wild / view / uncomfortable / plug / charge / annoy / tried / ever / even / instead / quite / rather / bit / mind / probably / perhaps / anyway / however / although / decision / worse / worst / volunteer / charity / company / mad / crazy / worth / picking / less / continue / there'll（缩写表没有）`；`pool` 仍只能靠 `swimming pool` 短语；国名（Spain/France…）不在表，新同学只说 from another country
+
+### 收尾（本 commit）
+- [x] preflight 五项 ✔（ESM 42 / Schema 38 + 编码 183 文件 / 听力 **35 课** / sw 登记 / ketLessonMap 50 课）；八课 untouched 对 `tools/backup/pl4` ✔
+- [x] ★ **行为级**（临时页 `_pl3check.html`，写法同样课：`Object.defineProperty` 覆盖 speechSynthesis + 假 SpeechSynthesisUtterance + 从课文件自动取答案；跑完已删、alias 已撤）——**L26（委婉首现）与 L35（阶段三顶格）全流程 + 匹配专项各 66 项**，默认宽 / ?w=360 / 无语音三种组合共 6 跑 **全部 0 失败、0 console 错误**：热身 10 词逐词发音 rate 0.9 · Part 3 15 个文字选项 ≥48 高（360 宽右边界 322）· 一段 13/15 utterance 男女声按 turn 交替、rate 1、turn 间隔实测 701-716ms、播放先 disabled 后恢复「已听 1 遍 · 还可以听 2 遍」· Part 5 8 选项两列网格 + 5 下拉各 9 项、高 48、360 宽右边界 322 · 四轮判分：① 全对 10/10 绿卡 10、tapescript 24/28 轮 + 2 个再听键、首页 best 100% ② Part 3 全错 + Part 5 全选 A → 0/10、对答案页「我的答案 A. beach / 正确答案 F. lake」、错题本 10 条 12 字段（Part 5 `[听力 Part 5 匹配] Ruby` + options 8 项，Part 3 `[听力 Part 3 三选一]`）③ Part 5 留两空交卷 → toast「还有 2 题没作答」+ 按钮变「📝 确定交卷」+ 已选 3 项不丢 → 8/10 两题「（没作答）」④ 第 2 项重复选第 1 项答案 → 9/10 只一张红卡 · 首页五阶段、「已上线 35 课」、L22-L35 全部出现、阶段四/五「还在准备中」
+- [x] ★ **14 课全扫描**（同页 `?sweep=L22,…,L35`，真实时钟 344s）：每课 Part 3 + Part 5 各播一遍，utterance 数 = 轮数（P3 13-15 / P5 11-13）、全部 rate 1、男女声逐 turn 交替、文本逐 turn 一致、间隔 ≈700ms、全对 10/10——**308 项 0 失败**（抽听 Part 3 双声道与 1.0x 语速的自动化替代）
+- [x] **无语音降级复测**（novoice：getVoices 返回空）L26 默认宽 + L35 360 宽：`#noVoiceHint` 出现、单声按音调分男女（m 0.75 / f 1.25）、utterance 数与判分四轮与有声完全一致
+- [x] 三件套（真实时钟、每页全新 profile）：smoke **50 在线 + 37 离线零失败**（+2：在线 L35、离线 L35 热身页 `offlineListeningL35: true`），唯一 console error 为预期 g51 探针；sw-check：唯一缓存 `english-adventure-ea-v1.1.5`、壳 61 项、离线内容/索引/壳 JS 命中、未缓存 504、清内容缓存不动壳 ✔；modal-check 默认宽 + ?w=360 **0 false**（听力答题态全绿）
+- [x] 窄屏 shot ?w=360 抽 3 课：L28 / L31 / L35 各 Part 3 页（`&click=%23startBtn`）与 Part 5 页（+`%23nextBtn`）+ L35 对答案页（含空题二次确认）——**7 张零溢出零小热区**
+- [x] `index.json` +14 课（updated 2026-09-17）→ sw **ea-v1.1.5**（索引在壳预取清单）
+- 本批 commit：1960952 L22 → … → 9027375 L35（14 个，一课一 commit）→ 收尾（sw + smoke 用例 + CHECKLIST + 交接文档）
+
+### 📌 P-L4 续跑说明（L36-L45 阶段四「混合」，家长验收阶段三后开工）
+- **定位**：阶段四每课混 **2-3 个 Part**，**不再有新题型**（五种题型引擎与 check-listening 口径都已就位：Part 1 每段 1 题 3 图 · Part 2 一段 5 空 · Part 3 一段 5 题 · Part 4 每段 1 题 · Part 5 一段 5 项配 A-H），目的是练「切换」：一课里先选图再填空、先听态度再配对
+- **每课按真考顺序排 Part**：sections 顺序必须是 Part 号升序（1 → 2 → 3 → 4 → 5），索引 `parts` 写实际出现的 Part 升序数组，`questionCount` = 各 Part 题数之和（两 Part 10 题、三 Part 15 题）；stage 4、rate 1（索引阶段四已定 1.0x，`check-listening` 核 rate）
+- **搭配建议**（十课把十种组合轮一遍，每种 Part 至少出现 4 次）：L36 P1+P2 / L37 P3+P4 / L38 P1+P5 / L39 P2+P4 / L40 P1+P3 / L41 P2+P5 / L42 P4+P5 / L43 P1+P2+P4 / L44 P2+P3+P5 / L45 P1+P3+P4+P5（四 Part 20 题，阶段四顶格）；题材续用未用过的场景（机场 / 医院 / 图书馆借书 / 天气与出行 / 学校旅行 / 生日聚会 / 城市一日游 / 家务分工 / 学校比赛报名 / 新学期）
+- **各 Part 规格照旧**：Part 1 每段 4-6 轮（`check-listening` ② 对任何 Part 1 段都强制）、图标只能用 `icons.json` 81 个（先查 P-L1「★ 图标清单」，缺图先加 `tools/gen-listening-icons.mjs` 再登记）；Part 2 答案写法与 alt（价格 / 电话 / 日期 / 时间三写法）见 P-L2 续跑说明，拼读串 `B-R-O-W-N` 引擎自动逐字母；Part 3/5 照本批（Part 5 `options` 8 个全出现、答案不重复、人名进 `names`）；Part 4 每段 1 题 3 选项、5 段
+- **难度**：阶段四整体维持阶段三顶格（Part 3 综合两句、Part 5 干扰反复），Part 1/2/4 用各自阶段末课的难度（L10 / L20 水平），不再加新干扰手法
+- 工艺同本批：一课一 commit；每课 check-listening + check-data + 判分自测（本批 `selftest.mjs` 写法扩到多 Part：Part 1 图标在清单、Part 2 answer 字符串、Part 4 每段 1 题）；词汇踩坑表（P-L2 + P-L3 样课 + 本批）先看一遍；收尾 preflight + untouched（备份仍在 `tools/backup/pl4/`）+ 三件套 + 行为级页（本批 `_pl3check.html` 写法：`Object.defineProperty` 覆盖 speechSynthesis + 从课文件取答案自动跑；抽三 Part 课与四 Part 课各一，含 Part 1 图标渲染与 Part 2 填空归一）+ 无语音 + 窄屏 shot（三 Part 课每段一张）+ sw bump（索引变动）+ push 后硬停机
+- 阶段五 L46-L50（全真模拟）在 P-L4 之后另开批次：每课五 Part 25 题按真考顺序，questionCount 25；引擎已支持多段，只需确认 `_schema.lesson.json` sections 上限 25 够用（五 Part 最多 5+1+1+5+1 = 13 段）
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
@@ -1276,12 +1325,12 @@
 ## 📊 统计
 
 - JS 模块：**42 个**（assets/js，check-esm 计数；P-L0 新增 modules/voice-check.js + modules/exam/listening.js，全部 check-esm 通过）+ `sw.js`
-- 数据文件：**169 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema；P-L1 +9：L02-L10；P-L2 +10：L11-L20；P-L3 +1：L21）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
+- 数据文件：**183 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema；P-L1 +9：L02-L10；P-L2 +10：L11-L20；P-L3 +1：L21；P-L3 续跑 +14：L22-L35）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
 - 语法大厅：**50/50 课全部完工**（基石 G01-G12 + 骨架 G13-G26 + 进阶 G27-G42 + 精修 G43-G50，共 3200 题 + 352 侦探病句 = 3552 个题干全局无重复）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2571 词 / 22 话题**（V0.5-PET-s1 第 1 会话后，第 2 会话续扩 time + 新话题）；PET 阅读：**15 篇**
-- 听力训练营（P-L0 ~ P-L3）：**21/50 课**，索引五阶段（一 L01-L10 · Part 1 · 每课 5 题，共 50 题；二 L11-L20 · Part 4 主旨 + Part 2 填空 · 每课 10 题，共 100 题；三 L21-L35 · Part 3 观点态度 + Part 5 匹配 · 每课 10 题，已上 L21 样课 10 题；四 L36-L45 混合 / 五 L46-L50 全真 待产）+ SVG 图标 **81 个 / 10 类**（tools/gen-listening-icons.mjs 生成，清单见 P-L1「★ 图标清单」）+ check-listening 词汇守卫（A2 覆盖 ≥95%，21 课实测 19 课 100%、L15/L19 99%+）
+- 听力训练营（P-L0 ~ P-L3 续跑）：**35/50 课**，索引五阶段（一 L01-L10 · Part 1 · 每课 5 题，共 50 题；二 L11-L20 · Part 4 主旨 + Part 2 填空 · 每课 10 题，共 100 题；三 L21-L35 · Part 3 观点态度 + Part 5 匹配 · 每课 10 题，共 150 题，全部完成；四 L36-L45 混合 / 五 L46-L50 全真 待产）+ SVG 图标 **81 个 / 10 类**（tools/gen-listening-icons.mjs 生成，清单见 P-L1「★ 图标清单」）+ check-listening 词汇守卫（A2 覆盖 ≥95%，35 课实测 33 课 100%、L15/L19 99%+）
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.4**（P-L3 样课 L21 + 听力索引改五阶段；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.5**（P-L3 续跑 L22-L35 阶段三完成；1.1.4 为 P-L3 样课 L21 + 听力索引改五阶段；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
 - 预缓存体积：**452 KB**（壳 44 项 + 索引 9 项；P2b 新增 `utils/ket-hall-map.js` 2 KB）；`data/` 内容 2,878 KB 走运行时缓存
 - 模块互链：KET 八课 ⇄ 语法大厅 双向跳转（P2b，映射表 `assets/js/utils/ket-hall-map.js`，八课内容零改动）
 - 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读
