@@ -1,0 +1,329 @@
+{
+  "$comment": "听力训练营 L31（P-L3 续跑，阶段三第十一课，L31-L35「综合两句判断 / 干扰反复出现」段首课）。脚本 100% 原创；Part 3 每题需综合前后两句判断（前一句说房子小、后一句说爸爸上班两小时→问为什么搬家；先说喜欢新房、看了以后失望→问感受；很想要床、妈妈看了价钱说等→问为什么没买；想帮忙但要看奶奶、会去问→问态度；嘴上说没事、晚上睡不着→问感受）+ Part 5 匹配（Hannah 和爸爸排搬家日分工，8 件事 A-H 全部被反复提到，靠「最后决定」判断，选项为短语）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L31",
+  "title": "Moving House",
+  "titleZh": "搬家",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "home",
+  "names": [
+    "Hannah",
+    "Dan",
+    "Mike",
+    "Grandma",
+    "Kate",
+    "Tom"
+  ],
+  "intro": "从这一课开始接近真考：答案不再写在一句话里，要把前后两句合起来想。先听 Hannah 告诉 Dan 家里要搬家：为什么搬？新房子怎么样？为什么没买新床？转学担不担心？每道题都要听完整段再判断。再听 Hannah 和爸爸安排搬家那天谁做什么——8 件事都会被反复提到，有人先说要做一件事，后来被换掉，要听「最后定下来的是什么」。",
+  "warmup": [
+    {
+      "word": "neighbour",
+      "phonetic": "/ˈneɪbə/",
+      "meaning": "邻居"
+    },
+    {
+      "word": "van",
+      "phonetic": "/væn/",
+      "meaning": "小货车"
+    },
+    {
+      "word": "lorry",
+      "phonetic": "/ˈlɒri/",
+      "meaning": "卡车"
+    },
+    {
+      "word": "carry",
+      "phonetic": "/ˈkæri/",
+      "meaning": "搬；拿"
+    },
+    {
+      "word": "pack",
+      "phonetic": "/pæk/",
+      "meaning": "打包"
+    },
+    {
+      "word": "paint",
+      "phonetic": "/peɪnt/",
+      "meaning": "刷漆；油漆"
+    },
+    {
+      "word": "drawer",
+      "phonetic": "/drɔː/",
+      "meaning": "抽屉"
+    },
+    {
+      "word": "above",
+      "phonetic": "/əˈbʌv/",
+      "meaning": "在……上面"
+    },
+    {
+      "word": "keys",
+      "phonetic": "/kiːz/",
+      "meaning": "钥匙"
+    },
+    {
+      "word": "rest",
+      "phonetic": "/rest/",
+      "meaning": "休息"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Hannah 告诉 Dan 家里要搬家。五道题的答案都要把前后两句合起来想：前一句常是「好的一面」或「嘴上说的」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Hannah, is it true that you're moving house next month? Why? I thought you loved your house."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "I do. The house is small, but that's fine for us, and everyone likes the neighbours. But Dad got a new job in the city, and it takes him two hours to get to work now. He leaves before I get up."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Two hours! That's a long way. What's the new house like?"
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "When I first saw the photos, I loved it. A big garden, and my own room at last. Then we went to see it on Sunday. The garden is next to a busy road, and my room is right above the kitchen, so it smells of dinner all day."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Oh. So you're not so happy now."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Not really. But I'm getting a new room, so I wanted a new bed. I saw a great one in the shop on Saturday, blue with big drawers under it. I really wanted it."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Was it too big for the room?"
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "No, it was the right size, and the shop still has it. But when Mum saw the price, she said we should wait until after the move. So I've still got my old bed."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Beds are expensive. When is the big day? I could help you carry boxes."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Next Saturday. Are you sure? The boxes are heavy."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "I'm strong enough, and I'm free on Saturday. The only thing is, Mum wants me to visit my grandmother that day. But I'll ask if we can go on Sunday. I think she'll say yes."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Thanks, Dan. You're a good friend."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "And what about school? You'll have to leave. How do you feel about that?"
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Everyone says I'll make new friends fast, and the new school has a swimming pool, which I love. I keep telling everyone I'm fine. But last night I couldn't sleep at all. I just thought about it all night."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "You'll be OK. And it's only forty minutes on the train, so you can come back at weekends."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why is Hannah's family moving house?",
+          "options": [
+            "Their house is too small.",
+            "Her dad's new job is a long way away.",
+            "They don't like the neighbours."
+          ],
+          "answer": 1,
+          "explain": "前一句 The house is small, but that's fine for us（小但没关系）+ 后一句 Dad got a new job in the city, and it takes him two hours to get to work——合起来：搬家是因为爸爸上班太远。邻居大家都喜欢。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Hannah feel about the new house now?",
+          "options": [
+            "She loves the big garden.",
+            "She likes her new room.",
+            "She is not as happy as she was."
+          ],
+          "answer": 2,
+          "explain": "前一句 When I first saw the photos, I loved it（起初喜欢）+ 后一句 Then we went to see it… next to a busy road… smells of dinner all day（看了之后失望）——现在没那么喜欢了，Dan 也说 you're not so happy now，她答 Not really。"
+        },
+        {
+          "id": "q3",
+          "q": "Why didn't Hannah buy the new bed?",
+          "options": [
+            "It was too big for the room.",
+            "The shop had sold it.",
+            "It cost too much."
+          ],
+          "answer": 2,
+          "explain": "前一句 I really wanted it（很想要）+ 后一句 when Mum saw the price, she said we should wait——没买是因为价钱。尺寸 the right size，店里 still has it。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Dan think about helping on moving day?",
+          "options": [
+            "He will try to come.",
+            "He is too busy that day.",
+            "He can't carry heavy things."
+          ],
+          "answer": 0,
+          "explain": "前一句 Mum wants me to visit my grandmother that day（有困难）+ 后一句 But I'll ask if we can go on Sunday. I think she'll say yes——合起来：他会想办法来。他说 I'm strong enough、I'm free on Saturday。"
+        },
+        {
+          "id": "q5",
+          "q": "How does Hannah feel about leaving her school?",
+          "options": [
+            "She is excited about the swimming pool.",
+            "She is fine about it.",
+            "She is worried."
+          ],
+          "answer": 2,
+          "explain": "前一句 I keep telling everyone I'm fine（嘴上说没事）+ 后一句 But last night I couldn't sleep at all（睡不着）——其实是担心。游泳池只是新学校的一个好处。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Hannah 和爸爸安排搬家那天谁做什么。把每个人和右边 A-H 的事情配起来。8 件事都会被反复提到，有人先说要做一件事，后来被换掉——要听「最后定下来的是什么」。",
+      "options": [
+        "carry the boxes",
+        "clean the kitchen",
+        "drive the van",
+        "look after the dog",
+        "make the lunch",
+        "pack the books",
+        "paint the bedroom",
+        "phone the neighbours"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Hannah, let's make a list for Saturday. Your friend Dan said he'd come. What can he do?"
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "He wants to carry the boxes. He says he's strong. He can't drive the van, he's only fourteen."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Boxes for Dan, then. Uncle Mike said he'd carry the boxes too, but his back hurts again, so I said no."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Then Uncle Mike can drive the van. He drives a lorry for work, so a van is easy for him."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good idea. Uncle Mike drives the van. Now, Grandma wants to make the lunch for everyone."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Grandma should rest, Dad. Let's get pizza for lunch, and Grandma can look after the dog. He hates all the noise."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Pizza it is. So Grandma looks after the dog. What about Aunt Kate? She wanted to paint the bedroom."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "The paint isn't coming until next week, so nobody can paint the bedroom on Saturday. Kate could clean the kitchen. The old kitchen has to be clean before we give back the keys."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Right. Kate cleans the kitchen. And Tom? He said he'd make the lunch."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Tom can't cook, Dad. And we're having pizza. Tom can pack the books. There are hundreds, and they're all his."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "True. Tom packs the books. And I'll phone the neighbours to say goodbye."
+        },
+        {
+          "who": "Hannah",
+          "sex": "f",
+          "text": "Mum already did that yesterday. She phoned all of them. You can just carry boxes with Dan."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Fine. Boxes with Dan. Let's hope it doesn't rain."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Dan",
+          "answer": 0,
+          "explain": "He wants to carry the boxes… Boxes for Dan, then——搬箱子。开车被排除（他才十四岁）。"
+        },
+        {
+          "id": "q7",
+          "q": "Mike",
+          "answer": 2,
+          "explain": "Uncle Mike said he'd carry the boxes too, but his back hurts… Then Uncle Mike can drive the van——先说搬箱子，因为腰疼改成开车。"
+        },
+        {
+          "id": "q8",
+          "q": "Grandma",
+          "answer": 3,
+          "explain": "Grandma wants to make the lunch… Grandma should rest… Grandma can look after the dog——先说做午饭，最后定的是看狗。午饭改成叫披萨。"
+        },
+        {
+          "id": "q9",
+          "q": "Kate",
+          "answer": 1,
+          "explain": "She wanted to paint the bedroom… The paint isn't coming until next week… Kate could clean the kitchen——先说刷房间，油漆没到，改成打扫厨房。"
+        },
+        {
+          "id": "q10",
+          "q": "Tom",
+          "answer": 5,
+          "explain": "He said he'd make the lunch… Tom can't cook… Tom can pack the books——先说做午饭，最后定的是打包书。做午饭、刷房间、打电话给邻居三件事都被提到但没人做（披萨 / 下周 / 妈妈昨天已打）。"
+        }
+      ]
+    }
+  ]
+}

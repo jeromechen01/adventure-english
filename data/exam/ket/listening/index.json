@@ -461,6 +461,20 @@
       "theme": "pets",
       "file": "data/exam/ket/listening/l30.json",
       "status": "ready"
+    },
+    {
+      "id": "L31",
+      "title": "Moving House",
+      "titleZh": "搬家",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "home",
+      "file": "data/exam/ket/listening/l31.json",
+      "status": "ready"
     }
   ]
 }
