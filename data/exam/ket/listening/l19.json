@@ -1,0 +1,334 @@
+{
+  "$comment": "听力训练营 L19（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，每段含转折，答案在 but 之后）+ Part 2 笔记填空（一段独白 5 空，五类混合：地名拼读 B-A-R-T-O-N、数字、时间、价格 £2.50、电话号码）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L19",
+  "title": "The Big Match",
+  "titleZh": "体育比赛",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "sport",
+  "names": [
+    "Barton",
+    "Jack",
+    "Kate",
+    "Sam",
+    "Ben",
+    "Dan"
+  ],
+  "intro": "五段都和比赛有关，每段都有转折：本来要守门但受伤了、本来在本校比但场地太湿、以为输了其实赢了、游泳赛推迟、电视没转播改听广播。再听一段杯赛通知，五个空五种类型。",
+  "warmup": [
+    {
+      "word": "match",
+      "phonetic": "/mætʃ/",
+      "meaning": "比赛"
+    },
+    {
+      "word": "goal",
+      "phonetic": "/ɡəʊl/",
+      "meaning": "球门；进球"
+    },
+    {
+      "word": "hurt",
+      "phonetic": "/hɜːt/",
+      "meaning": "弄伤"
+    },
+    {
+      "word": "field",
+      "phonetic": "/fiːld/",
+      "meaning": "球场；场地"
+    },
+    {
+      "word": "wet",
+      "phonetic": "/wet/",
+      "meaning": "湿的"
+    },
+    {
+      "word": "score",
+      "phonetic": "/skɔː/",
+      "meaning": "得分；比分"
+    },
+    {
+      "word": "race",
+      "phonetic": "/reɪs/",
+      "meaning": "比赛（赛跑、游泳）"
+    },
+    {
+      "word": "cup",
+      "phonetic": "/kʌp/",
+      "meaning": "杯赛；奖杯"
+    },
+    {
+      "word": "swimming pool",
+      "phonetic": "/ˈswɪmɪŋ puːl/",
+      "meaning": "游泳池"
+    },
+    {
+      "word": "adult",
+      "phonetic": "/ˈædʌlt/",
+      "meaning": "成人"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "I was going to be in goal for the school team on Saturday. I've practised all month."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "But yesterday I fell off my bike and hurt my hand, so I can't play. I'll go and watch, and take photos for the school website."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the boy going to do on Saturday?",
+          "options": [
+            "watch the match",
+            "play in goal",
+            "stay at home"
+          ],
+          "answer": 0,
+          "explain": "was going to be in goal… But… hurt my hand, so I can't play. I'll go and watch——转折后是去看。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Coach",
+          "sex": "f",
+          "text": "Team, listen. Saturday's match was going to be here at our school, but it rained all week and our field is too wet."
+        },
+        {
+          "who": "Coach",
+          "sex": "f",
+          "text": "So we're playing at Park School. The bus leaves from here at one o'clock, same day, same time."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What is the woman telling the team?",
+          "options": [
+            "The match is in a different place.",
+            "The match is on a different day.",
+            "There is no match on Saturday."
+          ],
+          "answer": 0,
+          "explain": "was going to be here… but… too wet. So we're playing at Park School——换了地方。same day, same time 说明日子没变，比赛照打。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Kate, how was the match? You look tired."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "They had two goals and we had none at half time, and I thought we were going to lose."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Oh no. So you lost?"
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "No! We scored three goals in the last ten minutes, so we won three-two. Everyone was jumping!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is Kate saying about the match?",
+          "options": [
+            "Her team won at the end.",
+            "Her team lost.",
+            "The match was boring."
+          ],
+          "answer": 0,
+          "explain": "I thought we were going to lose 是中场的想法，转折在 No! We scored three goals… we won three-two。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Pool",
+          "sex": "m",
+          "text": "A message for everyone in the children's swimming race. The race was going to start at ten."
+        },
+        {
+          "who": "Pool",
+          "sex": "m",
+          "text": "But the pool is being cleaned, so it will now start at eleven. Same pool, same race, just one hour later. Sorry about that."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the man telling the swimmers?",
+          "options": [
+            "The race starts later.",
+            "The race is in a different pool.",
+            "The race is shorter."
+          ],
+          "answer": 0,
+          "explain": "was going to start at ten. But… will now start at eleven——推迟了一小时。same pool 说明泳池没换，长度没提。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Ben, are you coming to mine to watch the big match on TV tonight?"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "I wanted to, but my dad says it's not on TV, only on the radio."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Really? Then let's listen to it on the radio in my room. It's better than nothing."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "OK, I'll bring some biscuits. See you at seven."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "How will the boys follow the match?",
+          "options": [
+            "on the radio",
+            "on TV",
+            "at the football ground"
+          ],
+          "answer": 0,
+          "explain": "wanted to (watch on TV), but… not on TV, only on the radio. Then let's listen to it on the radio——转折后改听广播。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段体育中心的杯赛通知，把笔记补全。五个空五种类型：地名拼读、数字、时间、价格、电话。",
+      "script": [
+        {
+          "who": "Sports Centre",
+          "sex": "m",
+          "text": "Hello, everyone. Here is some news about this year's football cup for schools."
+        },
+        {
+          "who": "Sports Centre",
+          "sex": "m",
+          "text": "It's called the Barton Cup, that's B-A-R-T-O-N, because it's played at Barton Sports Centre."
+        },
+        {
+          "who": "Sports Centre",
+          "sex": "m",
+          "text": "Last year there were eight teams, but this year there are twelve teams, so it's a big day."
+        },
+        {
+          "who": "Sports Centre",
+          "sex": "m",
+          "text": "The gates open at half past eight, and the first match starts at quarter past nine. The last match is at four."
+        },
+        {
+          "who": "Sports Centre",
+          "sex": "m",
+          "text": "Tickets are five pounds for adults and two pounds fifty for children, and children under five come in free."
+        },
+        {
+          "who": "Sports Centre",
+          "sex": "m",
+          "text": "For tickets, call the sports centre on five five four, three one seven oh. That's five five four, three one seven oh. See you there!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Football Cup — Name: the ______ Cup",
+          "answer": "Barton",
+          "explain": "the Barton Cup, that's B-A-R-T-O-N，照拼读写。"
+        },
+        {
+          "id": "q7",
+          "q": "Number of teams this year: ______",
+          "answer": "12",
+          "alt": [
+            "twelve"
+          ],
+          "explain": "this year there are twelve teams = 12。eight 是去年的。"
+        },
+        {
+          "id": "q8",
+          "q": "First match starts at: ______",
+          "answer": "9:15",
+          "alt": [
+            "9.15",
+            "quarter past nine",
+            "nine fifteen"
+          ],
+          "explain": "the first match starts at quarter past nine = 9:15。half past eight 是开门时间，four 是最后一场。"
+        },
+        {
+          "id": "q9",
+          "q": "Ticket for a child: £______",
+          "answer": "2.50",
+          "alt": [
+            "£2.50",
+            "two pounds fifty",
+            "2 pounds 50",
+            "two fifty",
+            "2:50"
+          ],
+          "explain": "two pounds fifty for children = £2.50。five pounds 是成人票。"
+        },
+        {
+          "id": "q10",
+          "q": "Phone for tickets: ______",
+          "answer": "554 3170",
+          "alt": [
+            "5543170",
+            "554-3170"
+          ],
+          "explain": "five five four, three one seven oh = 554 3170。号码会重复一遍。"
+        }
+      ]
+    }
+  ]
+}

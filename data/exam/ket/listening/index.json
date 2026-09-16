@@ -279,6 +279,20 @@
       "theme": "party",
       "file": "data/exam/ket/listening/l18.json",
       "status": "ready"
+    },
+    {
+      "id": "L19",
+      "title": "The Big Match",
+      "titleZh": "体育比赛",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "sport",
+      "file": "data/exam/ket/listening/l19.json",
+      "status": "ready"
     }
   ]
 }
