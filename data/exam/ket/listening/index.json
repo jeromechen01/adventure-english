@@ -167,6 +167,20 @@
       "theme": "trip",
       "file": "data/exam/ket/listening/l10.json",
       "status": "ready"
+    },
+    {
+      "id": "L11",
+      "title": "The Weather Report",
+      "titleZh": "天气预报",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "weather",
+      "file": "data/exam/ket/listening/l11.json",
+      "status": "ready"
     }
   ]
 }

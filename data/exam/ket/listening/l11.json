@@ -1,0 +1,336 @@
+{
+  "$comment": "听力训练营 L11（P-L2 样课）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段短独白/对话，每段 1 题）+ Part 2 笔记填空（一段独白，5 个空，本课只填数字和时间）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。拼读串写法 B-R-O-W-N 由 speech.js 逐字母朗读。",
+  "id": "L11",
+  "title": "The Weather Report",
+  "titleZh": "天气预报",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "weather",
+  "names": [
+    "Kate",
+    "Dan",
+    "Lucy",
+    "Ben",
+    "Amy",
+    "Alex",
+    "Sam",
+    "Brown"
+  ],
+  "intro": "阶段二第一课：先听五段短话，每段只问一个问题——说话的人在讲什么；再听一段周末天气预报，把笔记里的五个数字和时间补上。拼写要对，数字可以写阿拉伯数字。",
+  "warmup": [
+    {
+      "word": "weather",
+      "phonetic": "/ˈweðə/",
+      "meaning": "天气"
+    },
+    {
+      "word": "cloudy",
+      "phonetic": "/ˈklaʊdi/",
+      "meaning": "多云的"
+    },
+    {
+      "word": "degree",
+      "phonetic": "/dɪˈɡriː/",
+      "meaning": "度（温度）"
+    },
+    {
+      "word": "temperature",
+      "phonetic": "/ˈtemprətʃə/",
+      "meaning": "温度"
+    },
+    {
+      "word": "windy",
+      "phonetic": "/ˈwɪndi/",
+      "meaning": "刮风的"
+    },
+    {
+      "word": "storm",
+      "phonetic": "/stɔːm/",
+      "meaning": "暴风雨"
+    },
+    {
+      "word": "umbrella",
+      "phonetic": "/ʌmˈbrelə/",
+      "meaning": "雨伞"
+    },
+    {
+      "word": "picnic",
+      "phonetic": "/ˈpɪknɪk/",
+      "meaning": "野餐"
+    },
+    {
+      "word": "snowman",
+      "phonetic": "/ˈsnəʊmæn/",
+      "meaning": "雪人"
+    },
+    {
+      "word": "poster",
+      "phonetic": "/ˈpəʊstə/",
+      "meaning": "海报"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "Good morning, this is Kate with the weather for today. It's cloudy now, but the sun will come out after lunch."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "It will be warm, about twenty degrees, so it's a good afternoon for the park. Tonight it will be cold again, so take a jacket if you go out."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the woman talking about?",
+          "options": [
+            "today's weather",
+            "a new park",
+            "a jacket shop"
+          ],
+          "answer": 0,
+          "explain": "开头就说 this is Kate with the weather for today，后面全是 cloudy / sun / warm / cold。公园和夹克只是顺带提到的地方和东西，不是她在讲的话题。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Lucy, what are you wearing for the trip tomorrow? The radio says it will be very cold and windy."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Really? I was going to wear my new dress."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "A dress? You'll need a warm coat and a hat, or you'll be cold all day."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "OK, coat and hat. Thanks for telling me."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What are Dan and Lucy talking about?",
+          "options": [
+            "what to wear tomorrow",
+            "where to go tomorrow",
+            "what time the trip starts"
+          ],
+          "answer": 0,
+          "explain": "第一句就问 what are you wearing，后面 dress / coat / hat 都是衣服。去哪儿和几点出发对话里一句没提。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Last week we went to the beach for our holiday. On the first day it rained all day, and the next day there was a big storm."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "We stayed in the hotel and played cards. On the last day the sun came out, but it was time to go home. What a holiday!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is the boy saying about his holiday?",
+          "options": [
+            "The hotel was very nice.",
+            "The weather was bad.",
+            "He played on the beach every day."
+          ],
+          "answer": 1,
+          "explain": "rained all day / a big storm / stayed in the hotel——整段都在说天气糟糕。酒店只是躲雨的地方，没说好不好；沙滩一天也没玩成。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Listen, everyone. Tomorrow's school picnic is still happening, but not in the park. There will be heavy rain all morning, so we're going to have it inside, in the sports hall."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Bring your food and games like always. We start at twelve o'clock, the same as before."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the teacher telling the class?",
+          "options": [
+            "The picnic will be inside.",
+            "The picnic is on a different day.",
+            "The picnic starts later."
+          ],
+          "answer": 0,
+          "explain": "still happening 说明还是明天，the same as before 说明时间没变；变的只有地点：not in the park → inside, in the sports hall。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Alex",
+          "sex": "m",
+          "text": "Amy, look out of the window! It's snowing!"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Wow, everything is white. Can we go out and play?"
+        },
+        {
+          "who": "Alex",
+          "sex": "m",
+          "text": "Not now, it's too cold, and you haven't had breakfast. After lunch, when it stops, we can build a snowman."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "OK! I'll get my coat ready."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What does Alex tell Amy?",
+          "options": [
+            "They can play in the snow later.",
+            "They can't go out today.",
+            "They must go out now."
+          ],
+          "answer": 0,
+          "explain": "Not now 只是现在不行；关键在 After lunch, when it stops, we can build a snowman——等会儿可以出去玩。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段周末天气预报，把笔记补全。每个空填一个数字或一个时间（7.30 / 7:30 / half past seven 都算对）。",
+      "script": [
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Hello, this is Sam Brown, that's B-R-O-W-N, with the weather for the weekend."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Saturday morning will be cloudy and cool. It will be about fourteen degrees, so you will need a jacket, but not a coat."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "In the afternoon it will start to rain. It will be dry until three o'clock, and the rain will start at half past three, so bring an umbrella if you're going to the football."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Sunday will be much better. It will be sunny all day, and the temperature will go up to twenty-one degrees. Last Sunday it was only twenty, so this will be the warmest day of the month."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "The beach games start at quarter past ten on Sunday morning, not ten o'clock as it says on the poster."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "If you want to hear this again, call the weather line on four oh five, nine nine oh. That's four oh five, nine nine oh. Have a great weekend!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Weekend Weather — Saturday morning: cloudy and cool, about ______ degrees",
+          "answer": "14",
+          "alt": [
+            "fourteen"
+          ],
+          "explain": "about fourteen degrees = 14。写 14 或 fourteen 都对。"
+        },
+        {
+          "id": "q7",
+          "q": "Saturday afternoon: rain starts at ______",
+          "answer": "3:30",
+          "alt": [
+            "3.30",
+            "half past three"
+          ],
+          "explain": "three o'clock 是「一直干到三点」，雨是 half past three 才开始下 = 3:30。写 3.30 / 3:30 / half past three 都对。"
+        },
+        {
+          "id": "q8",
+          "q": "Sunday: sunny, temperature up to ______ degrees",
+          "answer": "21",
+          "alt": [
+            "twenty-one",
+            "twenty one"
+          ],
+          "explain": "go up to twenty-one degrees = 21。twenty 是上周日的温度，不是这周。"
+        },
+        {
+          "id": "q9",
+          "q": "Beach games on Sunday start at ______",
+          "answer": "10:15",
+          "alt": [
+            "10.15",
+            "quarter past ten"
+          ],
+          "explain": "quarter past ten = 10:15。ten o'clock 是海报上写错的时间，被 not 否定。"
+        },
+        {
+          "id": "q10",
+          "q": "Weather line phone number: ______",
+          "answer": "405 990",
+          "alt": [
+            "405990",
+            "405-990"
+          ],
+          "explain": "four oh five, nine nine oh = 405 990（英国人读电话号码里的 0 常说 oh）。号码会重复一遍，第一遍没记全等第二遍。"
+        }
+      ]
+    }
+  ]
+}
