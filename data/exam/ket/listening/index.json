@@ -26,15 +26,29 @@
       "stage": 2,
       "name": "阶段二 · 加速",
       "rate": 0.9,
-      "range": "L11-L30",
+      "range": "L11-L20",
       "desc": "加入 Part 4 主旨三选一与 Part 2 笔记填空。语速 0.9x。"
     },
     {
       "stage": 3,
-      "name": "阶段三 · 全卷",
+      "name": "阶段三 · 真速",
       "rate": 1,
-      "range": "L31-L50",
-      "desc": "Part 3 观点态度与 Part 5 匹配，五部分连做。语速 1.0x。"
+      "range": "L21-L35",
+      "desc": "Part 3 观点态度三选一与 Part 5 人物匹配（5 项配 A-H）。语速 1.0x，和真考一样快。"
+    },
+    {
+      "stage": 4,
+      "name": "阶段四 · 混合",
+      "rate": 1,
+      "range": "L36-L45",
+      "desc": "五部分题型混合出现，每课换搭配，练切换。语速 1.0x。"
+    },
+    {
+      "stage": 5,
+      "name": "阶段五 · 全真",
+      "rate": 1,
+      "range": "L46-L50",
+      "desc": "整卷五部分 25 题连做，按真考顺序与时间，模拟考场。语速 1.0x。"
     }
   ],
   "lessons": [
@@ -306,6 +320,20 @@
       "questionCount": 10,
       "theme": "museum",
       "file": "data/exam/ket/listening/l20.json",
+      "status": "ready"
+    },
+    {
+      "id": "L21",
+      "title": "Choosing a Club",
+      "titleZh": "选课外班",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "clubs",
+      "file": "data/exam/ket/listening/l21.json",
       "status": "ready"
     }
   ]
