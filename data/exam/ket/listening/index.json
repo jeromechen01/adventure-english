@@ -433,6 +433,20 @@
       "theme": "family",
       "file": "data/exam/ket/listening/l28.json",
       "status": "ready"
+    },
+    {
+      "id": "L29",
+      "title": "Sports Day",
+      "titleZh": "运动比赛",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "sport",
+      "file": "data/exam/ket/listening/l29.json",
+      "status": "ready"
     }
   ]
 }

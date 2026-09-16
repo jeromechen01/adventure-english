@@ -1,0 +1,316 @@
+{
+  "$comment": "听力训练营 L29（P-L3 续跑，阶段三第九课，委婉表达段）。脚本 100% 原创；Part 3 委婉表达（I'm not sure about it / She's OK, but… / It's fine, but… / Books are OK, but…；一段长对话 5 题：对跑步比赛什么感受 / 觉得新体育老师怎么样 / 为什么觉得球队赢不了 / 对爸爸来看比赛什么感受 / 觉得今年的奖品怎么样）+ Part 5 匹配含「先选 A 后改 B」（Amy 告诉爸爸五个朋友运动会各参加什么项目，8 个项目 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L29",
+  "title": "Sports Day",
+  "titleZh": "运动比赛",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "sport",
+  "names": [
+    "Amy",
+    "Luke",
+    "Hall",
+    "Zoe",
+    "Ben",
+    "Mia",
+    "Oscar",
+    "Lily"
+  ],
+  "intro": "先听 Amy 和 Luke 聊周六的运动会：要不要参加跑步、新老师怎么样、球队能不能赢、爸爸来看比赛好不好？说话人常用「I'm not sure」「is OK, but…」「It's fine, but…」这样的委婉说法，真正的意思在后面。再听 Amy 告诉爸爸五个朋友各参加什么项目——有人先报了一项后来又换了，要听「最后参加的是哪一项」。8 个项目都会被提到，有 3 个没人参加。",
+  "warmup": [
+    {
+      "word": "race",
+      "phonetic": "/reɪs/",
+      "meaning": "赛跑；比赛"
+    },
+    {
+      "word": "coach",
+      "phonetic": "/kəʊtʃ/",
+      "meaning": "教练"
+    },
+    {
+      "word": "practise",
+      "phonetic": "/ˈpræktɪs/",
+      "meaning": "练习"
+    },
+    {
+      "word": "medal",
+      "phonetic": "/ˈmedl/",
+      "meaning": "奖牌"
+    },
+    {
+      "word": "shout",
+      "phonetic": "/ʃaʊt/",
+      "meaning": "大喊"
+    },
+    {
+      "word": "hurt",
+      "phonetic": "/hɜːt/",
+      "meaning": "弄伤；疼"
+    },
+    {
+      "word": "volleyball",
+      "phonetic": "/ˈvɒlibɔːl/",
+      "meaning": "排球"
+    },
+    {
+      "word": "hockey",
+      "phonetic": "/ˈhɒki/",
+      "meaning": "曲棍球"
+    },
+    {
+      "word": "table tennis",
+      "phonetic": "/ˈteɪbl ˌtenɪs/",
+      "meaning": "乒乓球"
+    },
+    {
+      "word": "racket",
+      "phonetic": "/ˈrækɪt/",
+      "meaning": "球拍"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Amy 和 Luke 聊周六的运动会。五道题问的是感受、看法和理由，注意「I'm not sure」「is OK, but…」后面才是真正的意思，也要分清「别人说」和「我觉得」。",
+      "script": [
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Luke, are you running in the big race on Saturday? Sports day is only three days away."
+        },
+        {
+          "who": "Luke",
+          "sex": "m",
+          "text": "I'm not sure about it. I ran last year and came last. My coach says I've got faster, and Mum says I should just enjoy it, but I think I'd like to try the swimming race this year."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "You'd be good at that. Is the new sports teacher, Mrs Hall, doing the swimming?"
+        },
+        {
+          "who": "Luke",
+          "sex": "m",
+          "text": "Yes. She looks friendly to me. What do you think of her?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "She's OK, but she makes us practise for an hour before school every day, and she shouts a lot. My brother thinks she's great, but that's only because his team won last week."
+        },
+        {
+          "who": "Luke",
+          "sex": "m",
+          "text": "Is your basketball team ready for the big match? The other team are all taller than you, and they won last year."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Being tall doesn't matter, and we've practised every day this month, so that's not the problem. But Zoe hurt her leg on Tuesday, and she scores all our points. Without her, I don't think we can win."
+        },
+        {
+          "who": "Luke",
+          "sex": "m",
+          "text": "That's bad luck. Is your dad coming to watch?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Yes. Is yours? You said last year you didn't want him there."
+        },
+        {
+          "who": "Luke",
+          "sex": "m",
+          "text": "It's not that I don't want him to come. I'm happy he's interested. It's fine, but he shouts my name so loudly, and everyone looks at me. I'd like him to sit at the back and be quiet this time."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Dads are like that. Did you hear that the people who win get books this year, not medals?"
+        },
+        {
+          "who": "Luke",
+          "sex": "m",
+          "text": "I heard. The books cost more than the medals did, so the school is being kind."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Maybe. Books are OK, but I loved my medal last year. I wore it for a week. I'd really like another one."
+        },
+        {
+          "who": "Luke",
+          "sex": "m",
+          "text": "Then you'll just have to win. Good luck!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "How does Luke feel about running in the race?",
+          "options": [
+            "He thinks he will win this year.",
+            "He doesn't really want to do it.",
+            "He is excited about it."
+          ],
+          "answer": 1,
+          "explain": "I'm not sure about it… I think I'd like to try the swimming race——「I'm not sure」= 不想跑，想改游泳。「变快了」是教练说的；「enjoy」是妈妈说的。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Amy think about Mrs Hall?",
+          "options": [
+            "She is great.",
+            "She is friendly.",
+            "She makes them work too hard."
+          ],
+          "answer": 2,
+          "explain": "She's OK, but she makes us practise for an hour before school every day, and she shouts a lot——「is OK, but」后面才是真心话。「great」是哥哥说的；「friendly」是 Luke 说的。"
+        },
+        {
+          "id": "q3",
+          "q": "Why does Amy think her team might not win?",
+          "options": [
+            "Their best player is hurt.",
+            "They haven't practised enough.",
+            "The other team are taller."
+          ],
+          "answer": 0,
+          "explain": "Zoe hurt her leg on Tuesday, and she scores all our points. Without her, I don't think we can win——主力受伤。「个子高」她说 doesn't matter；「练得少」不对，每天都练，that's not the problem。"
+        },
+        {
+          "id": "q4",
+          "q": "How does Luke feel about his dad coming to watch?",
+          "options": [
+            "He is happy that he is coming.",
+            "He doesn't want him to come.",
+            "He would like him to be quieter."
+          ],
+          "answer": 2,
+          "explain": "It's fine, but he shouts my name so loudly… I'd like him to sit at the back and be quiet——「It's fine, but」，真正想的是爸爸安静点。「不想他来」他自己否定了；「高兴他关心」只是前半句。"
+        },
+        {
+          "id": "q5",
+          "q": "What does Amy think about the prizes this year?",
+          "options": [
+            "She would prefer a medal.",
+            "She thinks the books cost too much.",
+            "She thinks the school is kind."
+          ],
+          "answer": 0,
+          "explain": "Books are OK, but I loved my medal last year… I'd really like another one——「are OK, but」，其实更想要奖牌。「书更贵」「学校好心」都是 Luke 说的。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Amy 告诉爸爸五个朋友运动会各参加什么项目。把每个人和右边 A-H 的项目配起来。有人先报了一项后来又换了，要听「最后参加的是哪一项」。8 个项目都会被提到，有 3 个没人参加。",
+      "options": [
+        "basketball",
+        "football",
+        "hockey",
+        "running",
+        "swimming",
+        "table tennis",
+        "tennis",
+        "volleyball"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Amy, I'm making a list for Saturday so I can watch all your friends. You're in the basketball match at two. What's everyone else doing?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Zoe was going to play basketball with me, but she hurt her leg, so she can't run. She's playing table tennis now. You don't have to run for that."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Clever. And Ben? He's always running somewhere."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "He wanted the running race, but it was full by the time he put his name down. So he's doing swimming. He isn't happy about it, but he's fast in the water."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Mia?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Mia is playing tennis. She's got a new racket, and she has practised every day this month."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "What about Oscar? He's in the football team, isn't he?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "He was going to play football, but the team already has too many players, so Mrs Hall moved him to hockey. He says he likes it more now."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good for him. And Lily? Swimming, like Ben?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "No, Lily's doing volleyball. She's the tallest in our class, so she's the best at it."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Table tennis, swimming, tennis, hockey, volleyball and your basketball. That's a busy day. I'll bring a big bottle of water."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Zoe",
+          "answer": 5,
+          "explain": "Zoe was going to play basketball… but she hurt her leg… She's playing table tennis now——先篮球，后改乒乓球。"
+        },
+        {
+          "id": "q7",
+          "q": "Ben",
+          "answer": 4,
+          "explain": "He wanted the running race, but it was full… So he's doing swimming——先跑步，后改游泳。"
+        },
+        {
+          "id": "q8",
+          "q": "Mia",
+          "answer": 6,
+          "explain": "Mia is playing tennis——直接说了，新球拍练了一个月。注意和 table tennis 分开。"
+        },
+        {
+          "id": "q9",
+          "q": "Oscar",
+          "answer": 2,
+          "explain": "He was going to play football, but the team already has too many players, so Mrs Hall moved him to hockey——先足球，后改曲棍球。"
+        },
+        {
+          "id": "q10",
+          "q": "Lily",
+          "answer": 7,
+          "explain": "Swimming, like Ben? No, Lily's doing volleyball——游泳是爸爸猜的，最后是排球。篮球、跑步、足球是干扰。"
+        }
+      ]
+    }
+  ]
+}
