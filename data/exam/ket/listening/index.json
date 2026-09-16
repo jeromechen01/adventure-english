@@ -141,6 +141,19 @@
       "theme": "holiday",
       "file": "data/exam/ket/listening/l08.json",
       "status": "ready"
+    },
+    {
+      "id": "L09",
+      "title": "At the Doctor's",
+      "titleZh": "看病和身体",
+      "stage": 1,
+      "parts": [
+        1
+      ],
+      "questionCount": 5,
+      "theme": "health",
+      "file": "data/exam/ket/listening/l09.json",
+      "status": "ready"
     }
   ]
 }

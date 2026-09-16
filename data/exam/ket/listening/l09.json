@@ -1,0 +1,314 @@
+{
+  "$comment": "听力训练营 L09（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L09",
+  "title": "At the Doctor's",
+  "titleZh": "看病和身体",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "health",
+  "names": [
+    "Ben",
+    "Lucy",
+    "Sam",
+    "Anna",
+    "Tom"
+  ],
+  "intro": "身体不舒服的五段对话：哪里疼、几点看医生、今天能做什么、买什么药、腿是怎么伤的。三个选项都会出现，听清真正发生的事。",
+  "warmup": [
+    {
+      "word": "stomach",
+      "phonetic": "/ˈstʌmək/",
+      "meaning": "肚子；胃"
+    },
+    {
+      "word": "hurt",
+      "phonetic": "/hɜːt/",
+      "meaning": "疼；受伤"
+    },
+    {
+      "word": "nurse",
+      "phonetic": "/nɜːs/",
+      "meaning": "护士"
+    },
+    {
+      "word": "doctor",
+      "phonetic": "/ˈdɒktə/",
+      "meaning": "医生"
+    },
+    {
+      "word": "medicine",
+      "phonetic": "/ˈmedsn/",
+      "meaning": "药"
+    },
+    {
+      "word": "cough",
+      "phonetic": "/kɒf/",
+      "meaning": "咳嗽"
+    },
+    {
+      "word": "lemon",
+      "phonetic": "/ˈlemən/",
+      "meaning": "柠檬"
+    },
+    {
+      "word": "fell off",
+      "phonetic": "/fel ɒf/",
+      "meaning": "从……上摔下来（fall 的过去式）"
+    },
+    {
+      "word": "stay in bed",
+      "phonetic": "/steɪ ɪn bed/",
+      "meaning": "卧床休息"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Ben, is it your head again?"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "No, my head is fine now, and my arm doesn't hurt any more."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "So what's the matter?"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "It's my stomach. It really hurts."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What's the matter with Ben?",
+          "options": [
+            {
+              "icon": "body-head",
+              "alt": "his head"
+            },
+            {
+              "icon": "body-arm",
+              "alt": "his arm"
+            },
+            {
+              "icon": "body-stomach",
+              "alt": "his stomach"
+            }
+          ],
+          "answer": 2,
+          "explain": "头好了（fine now），胳膊不疼了（doesn't hurt any more），真正疼的是 my stomach。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "The doctor can see Lucy at half past three."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Is there anything earlier?"
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "There's three o'clock, but that's with the nurse, not the doctor."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Half past three with the doctor is fine. And four is too late."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What time is Lucy going to see the doctor?",
+          "options": [
+            {
+              "icon": "clock-0300",
+              "alt": "3:00"
+            },
+            {
+              "icon": "clock-0330",
+              "alt": "3:30"
+            },
+            {
+              "icon": "clock-0400",
+              "alt": "4:00"
+            }
+          ],
+          "answer": 1,
+          "explain": "三点是护士，四点太晚，看医生的时间是 half past three——妈妈最后确认 is fine。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Doctor",
+          "sex": "m",
+          "text": "Sam, stay in bed today. No computer games, and no football this week."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Can I read my new book?"
+        },
+        {
+          "who": "Doctor",
+          "sex": "m",
+          "text": "Yes, reading is fine. Drink lots of water, too."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "OK, doctor."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What can Sam do today?",
+          "options": [
+            {
+              "icon": "activity-computer",
+              "alt": "play computer games"
+            },
+            {
+              "icon": "activity-reading",
+              "alt": "read a book"
+            },
+            {
+              "icon": "activity-football",
+              "alt": "play football"
+            }
+          ],
+          "answer": 1,
+          "explain": "电脑游戏 No，足球 No，只有 reading is fine。三个都出现，只有一个是允许的。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Have you got something for my daughter's cough?"
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "This medicine is good. Or you could try hot tea with lemon."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "We've got tea at home, and she doesn't like juice. I'll take the medicine."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "That's four pounds, please."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What does Mum buy for Anna?",
+          "options": [
+            {
+              "icon": "object-medicine",
+              "alt": "medicine"
+            },
+            {
+              "icon": "food-tea",
+              "alt": "tea"
+            },
+            {
+              "icon": "food-juice",
+              "alt": "juice"
+            }
+          ],
+          "answer": 0,
+          "explain": "茶家里有，果汁她不喜欢，妈妈说 I'll take the medicine。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Doctor",
+          "sex": "f",
+          "text": "So, Tom, how did you hurt your leg? Playing football?"
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "No, I fell off my bike on the way to school."
+        },
+        {
+          "who": "Doctor",
+          "sex": "f",
+          "text": "Were you running late?"
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "No, I wasn't running. I just didn't see the stone."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "How did Tom hurt his leg?",
+          "options": [
+            {
+              "icon": "activity-football",
+              "alt": "playing football"
+            },
+            {
+              "icon": "transport-bike",
+              "alt": "riding his bike"
+            },
+            {
+              "icon": "activity-running",
+              "alt": "running"
+            }
+          ],
+          "answer": 1,
+          "explain": "踢足球 No，跑步 No，真正的原因是 I fell off my bike。"
+        }
+      ]
+    }
+  ]
+}
