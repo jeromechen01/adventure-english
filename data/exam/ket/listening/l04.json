@@ -1,0 +1,313 @@
+{
+  "$comment": "听力训练营 L04（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L04",
+  "title": "Weather and Clothes",
+  "titleZh": "天气和穿衣",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "weather",
+  "names": [
+    "Sam",
+    "Anna",
+    "Lucy",
+    "Jack"
+  ],
+  "intro": "五段关于天气和穿什么的对话：今天什么天气、穿什么鞋、带什么出门、海边天气、聚会穿什么。",
+  "warmup": [
+    {
+      "word": "windy",
+      "phonetic": "/ˈwɪndi/",
+      "meaning": "刮风的"
+    },
+    {
+      "word": "boots",
+      "phonetic": "/buːts/",
+      "meaning": "靴子"
+    },
+    {
+      "word": "trainers",
+      "phonetic": "/ˈtreɪnəz/",
+      "meaning": "运动鞋"
+    },
+    {
+      "word": "umbrella",
+      "phonetic": "/ʌmˈbrelə/",
+      "meaning": "雨伞"
+    },
+    {
+      "word": "jacket",
+      "phonetic": "/ˈdʒækɪt/",
+      "meaning": "夹克；短外套"
+    },
+    {
+      "word": "jumper",
+      "phonetic": "/ˈdʒʌmpə/",
+      "meaning": "毛衣"
+    },
+    {
+      "word": "T-shirt",
+      "phonetic": "/ˈtiː ʃɜːt/",
+      "meaning": "T 恤"
+    },
+    {
+      "word": "warm",
+      "phonetic": "/wɔːm/",
+      "meaning": "暖和的"
+    },
+    {
+      "word": "put on",
+      "phonetic": "/pʊt ɒn/",
+      "meaning": "穿上"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "It's very windy today, Dad."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, but it isn't cold, and it isn't raining."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Can I still ride my bike to school?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, just be careful."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What's the weather like today?",
+          "options": [
+            {
+              "icon": "weather-sunny",
+              "alt": "sunny"
+            },
+            {
+              "icon": "weather-windy",
+              "alt": "windy"
+            },
+            {
+              "icon": "weather-rainy",
+              "alt": "rainy"
+            }
+          ],
+          "answer": 1,
+          "explain": "第一句就说了 It's very windy today。爸爸说 it isn't raining，所以不是雨天。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Sam, it's snowing! Put on your boots."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Can I wear my trainers?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "No, boots. Your feet will get wet."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "OK, boots then."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What is Sam going to wear?",
+          "options": [
+            {
+              "icon": "clothes-boots",
+              "alt": "boots"
+            },
+            {
+              "icon": "clothes-trainers",
+              "alt": "trainers"
+            },
+            {
+              "icon": "clothes-shoes",
+              "alt": "shoes"
+            }
+          ],
+          "answer": 0,
+          "explain": "妈妈说 Put on your boots，Sam 想穿运动鞋被拒绝（No, boots），最后 OK, boots then。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Do I need my umbrella today?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, it's going to rain later."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "And my jacket?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "No, it's warm. Just the umbrella."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is Lucy taking to school?",
+          "options": [
+            {
+              "icon": "object-umbrella",
+              "alt": "an umbrella"
+            },
+            {
+              "icon": "clothes-jacket",
+              "alt": "a jacket"
+            },
+            {
+              "icon": "clothes-boots",
+              "alt": "boots"
+            }
+          ],
+          "answer": 0,
+          "explain": "雨伞：Yes；夹克：No, it's warm。最后 Just the umbrella 再确认一次。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Is it sunny at the beach today, Mum?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Yes, sunny and hot. Put on your sun hat."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Will it be cloudy later?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "No, sunny all day."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What's the weather like at the beach?",
+          "options": [
+            {
+              "icon": "weather-sunny",
+              "alt": "sunny"
+            },
+            {
+              "icon": "weather-cloudy",
+              "alt": "cloudy"
+            },
+            {
+              "icon": "weather-stormy",
+              "alt": "stormy"
+            }
+          ],
+          "answer": 0,
+          "explain": "sunny and hot，后面又说 sunny all day。cloudy 只是 Jack 的疑问，妈妈回答 No。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Can I wear my new T-shirt to the party?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "It's cold tonight. Wear your blue jumper."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "What about my jacket?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "You won't need it inside. The jumper is enough."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What is Anna going to wear to the party?",
+          "options": [
+            {
+              "icon": "clothes-t-shirt",
+              "alt": "a T-shirt"
+            },
+            {
+              "icon": "clothes-jumper",
+              "alt": "a jumper"
+            },
+            {
+              "icon": "clothes-jacket",
+              "alt": "a jacket"
+            }
+          ],
+          "answer": 1,
+          "explain": "Wear your blue jumper 是妈妈的决定，最后 The jumper is enough。T 恤太冷，夹克在室内不需要。"
+        }
+      ]
+    }
+  ]
+}

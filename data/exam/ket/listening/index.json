@@ -76,6 +76,19 @@
       "theme": "shopping",
       "file": "data/exam/ket/listening/l03.json",
       "status": "ready"
+    },
+    {
+      "id": "L04",
+      "title": "Weather and Clothes",
+      "titleZh": "天气和穿衣",
+      "stage": 1,
+      "parts": [
+        1
+      ],
+      "questionCount": 5,
+      "theme": "weather",
+      "file": "data/exam/ket/listening/l04.json",
+      "status": "ready"
     }
   ]
 }
