@@ -1,0 +1,331 @@
+{
+  "$comment": "听力训练营 L34（P-L3 续跑，阶段三第十四课，综合两句判断段）。脚本 100% 原创；Part 3 每题需综合前后两句判断（大平板相机好钱也够+太重要天天背→问为什么买小的；新手机快照片好+电池只撑到下午→问感受；爸爸要买新电脑旧的也慢+照片音乐都在上面→问为什么留旧的；起初生气+听课更专心考了最好成绩→问看法；游戏看着很棒表哥说最好+玩一小时就收起来看书→问感受）+ Part 5 匹配（Maya 告诉爸爸五个同学手机最常用来做什么，8 件事 A-H 全部被反复提到，靠「最后说定的」判断，选项为短语）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L34",
+  "title": "New Gadgets",
+  "titleZh": "科技产品",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "technology",
+  "names": [
+    "Maya",
+    "Theo",
+    "Bell",
+    "Ella",
+    "Sam",
+    "Nina",
+    "Jack",
+    "Lily"
+  ],
+  "intro": "先听 Maya 和 Theo 聊新买的平板和手机：为什么买小的不买大的？新手机满意吗？为什么不换旧电脑？课堂禁用手机好不好？答案都要把前后两句合起来想——前一句常是「好的一面」，后一句才是真正的原因和感受。再听 Maya 告诉爸爸五个同学手机最常用来做什么——8 件事都会被反复提到，有人先说一件，后来改口，要听「最后说定的是什么」。",
+  "warmup": [
+    {
+      "word": "tablet",
+      "phonetic": "/ˈtæblət/",
+      "meaning": "平板电脑"
+    },
+    {
+      "word": "laptop",
+      "phonetic": "/ˈlæptɒp/",
+      "meaning": "笔记本电脑"
+    },
+    {
+      "word": "screen",
+      "phonetic": "/skriːn/",
+      "meaning": "屏幕"
+    },
+    {
+      "word": "battery",
+      "phonetic": "/ˈbætri/",
+      "meaning": "电池"
+    },
+    {
+      "word": "headphones",
+      "phonetic": "/ˈhedfəʊnz/",
+      "meaning": "耳机"
+    },
+    {
+      "word": "video game",
+      "phonetic": "/ˈvɪdiəʊ ɡeɪm/",
+      "meaning": "电子游戏"
+    },
+    {
+      "word": "news",
+      "phonetic": "/njuːz/",
+      "meaning": "新闻"
+    },
+    {
+      "word": "mark",
+      "phonetic": "/mɑːk/",
+      "meaning": "分数"
+    },
+    {
+      "word": "believe",
+      "phonetic": "/bɪˈliːv/",
+      "meaning": "相信"
+    },
+    {
+      "word": "thousand",
+      "phonetic": "/ˈθaʊznd/",
+      "meaning": "一千"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Maya 和 Theo 聊新买的平板和手机。五道题的答案都要把前后两句合起来想：前一句常是「好的一面」或「别人说的」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Theo, is that the new tablet? I thought you were getting the big one with the great camera."
+        },
+        {
+          "who": "Theo",
+          "sex": "m",
+          "text": "I nearly did. The big one has a much better camera and a very big screen, and I had enough money for it. But it's heavy, and I want to carry it to school every day. So I bought this small one. It's much lighter."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "It looks nice. And what do you think of my new phone? Everyone wanted to see it on the first day."
+        },
+        {
+          "who": "Theo",
+          "sex": "m",
+          "text": "It's fast, and your photos look great. Are you happy with it?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "The photos are great, and it is fast. But the battery only lasts until the afternoon, and then I have to stop using it for an hour. My old phone lasted two days. That makes me angry every day."
+        },
+        {
+          "who": "Theo",
+          "sex": "m",
+          "text": "My laptop is the same, but it's five years old."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Five years! Why don't you get a new one? Your dad said he'd buy you one for your birthday."
+        },
+        {
+          "who": "Theo",
+          "sex": "m",
+          "text": "He did, and the old one is slow. It takes five minutes to start. But all my photos and all my music are on it, and I don't want to lose them. So I'm keeping it for now."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "You can move them, you know. Did you hear about the new idea at school? No phones in class, starting on Monday."
+        },
+        {
+          "who": "Theo",
+          "sex": "m",
+          "text": "I heard. You'll hate that. You always use your phone to check English words."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "I did, and at first I was angry. But my class did it last week, and I listened so much more. I got the best mark of the year in the test on Friday. So now I think it's a good idea."
+        },
+        {
+          "who": "Theo",
+          "sex": "m",
+          "text": "Maybe I'll listen more too. By the way, my cousin gave me a new video game. He says it's the best game this year, and it does look great."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Have you played it?"
+        },
+        {
+          "who": "Theo",
+          "sex": "m",
+          "text": "For an hour on Saturday. Then I put it away and read my book. I don't think I'm the kind of person who likes games."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Then give it to me!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why did Theo buy the small tablet?",
+          "options": [
+            "He didn't have enough money for the big one.",
+            "It is lighter to carry.",
+            "It has a better camera."
+          ],
+          "answer": 1,
+          "explain": "前一句 The big one has a much better camera… and I had enough money for it（大的更好、钱也够）+ 后一句 But it's heavy, and I want to carry it to school every day——买小的是因为轻。相机好的是大的。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Maya feel about her new phone?",
+          "options": [
+            "She loves everything about it.",
+            "She thinks it is too slow.",
+            "She is unhappy about the battery."
+          ],
+          "answer": 2,
+          "explain": "前一句 The photos are great, and it is fast（照片好、速度快）+ 后一句 But the battery only lasts until the afternoon… That makes me angry every day——不满的是电池。"
+        },
+        {
+          "id": "q3",
+          "q": "Why is Theo keeping his old laptop?",
+          "options": [
+            "His photos and music are on it.",
+            "It is fast enough for him.",
+            "His dad won't buy him a new one."
+          ],
+          "answer": 0,
+          "explain": "前一句 He did（爸爸答应买）, and the old one is slow（旧的确实慢）+ 后一句 But all my photos and all my music are on it, and I don't want to lose them——留着是因为里面的照片和音乐。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Maya think about having no phones in class?",
+          "options": [
+            "She needs her phone for English.",
+            "She is angry about it.",
+            "She thinks it is a good idea."
+          ],
+          "answer": 2,
+          "explain": "前一句 at first I was angry（起初生气）+ 后一句 I listened so much more. I got the best mark of the year… So now I think it's a good idea——现在觉得是好事。「用手机查单词」是以前的习惯。"
+        },
+        {
+          "id": "q5",
+          "q": "How does Theo feel about the video game?",
+          "options": [
+            "He thinks it is the best game this year.",
+            "He is not very interested in it.",
+            "He plays it every day."
+          ],
+          "answer": 1,
+          "explain": "前一句 He says it's the best game this year, and it does look great（表哥说的、看着好）+ 后一句 I played for an hour… Then I put it away and read my book. I don't think I'm the kind of person who likes games——其实不感兴趣。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Maya 告诉爸爸五个同学手机最常用来做什么。把每个人和右边 A-H 的事情配起来。8 件事都会被反复提到，有人先说一件后来改口——要听「最后说定的是什么」。",
+      "options": [
+        "buy clothes",
+        "do homework",
+        "listen to music",
+        "play games",
+        "read the news",
+        "take photos",
+        "talk to friends",
+        "watch films"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Maya, your teacher asked everyone what they use their phones for most? What did your friends say? I use mine to read the news."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Nobody in my class said read the news, Dad. Ella said take photos. Everyone thought she'd say play games, because she's always on her phone, but she never plays games. She has ten thousand photos."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Ten thousand! And Sam?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Sam said play games at first. But then he remembered that his mum took all the games off his phone last month. So now he mostly uses it to do homework. He says it's boring, but true."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good for his mum. What about Nina?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Nina said listen to music. She has her headphones on all day. Miss Bell asked if she uses it to talk to friends, and Nina said no, she just listens to music."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Jack?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Jack wanted to say talk to friends, because he sends me a hundred messages a day. But Miss Bell said it has to be the thing you spend the most time on. He's on the bus for an hour every day, so he said watch films."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Films on a bus. And Lily?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Lily said buy clothes. She doesn't have much money, but she looks at clothes all day and buys something every week."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And you?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Me? I said do homework, like Sam. Miss Bell didn't believe me."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I don't believe you either."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ella",
+          "answer": 5,
+          "explain": "Ella said take photos. Everyone thought she'd say play games… but she never plays games——玩游戏是大家以为的，她说的是拍照。"
+        },
+        {
+          "id": "q7",
+          "q": "Sam",
+          "answer": 1,
+          "explain": "Sam said play games at first. But… his mum took all the games off his phone… So now he mostly uses it to do homework——先说游戏，后改成做作业。"
+        },
+        {
+          "id": "q8",
+          "q": "Nina",
+          "answer": 2,
+          "explain": "Nina said listen to music… she just listens to music——老师问是不是和朋友聊天，她说不是。"
+        },
+        {
+          "id": "q9",
+          "q": "Jack",
+          "answer": 7,
+          "explain": "Jack wanted to say talk to friends… But Miss Bell said it has to be the thing you spend the most time on… so he said watch films——想说聊天，最后说定的是看电影。"
+        },
+        {
+          "id": "q10",
+          "q": "Lily",
+          "answer": 0,
+          "explain": "Lily said buy clothes——直接说了。看新闻（只有爸爸）、玩游戏、和朋友聊天三件事被反复提到，但没有同学最后选它。"
+        }
+      ]
+    }
+  ]
+}

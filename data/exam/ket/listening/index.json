@@ -503,6 +503,20 @@
       "theme": "camping",
       "file": "data/exam/ket/listening/l33.json",
       "status": "ready"
+    },
+    {
+      "id": "L34",
+      "title": "New Gadgets",
+      "titleZh": "科技产品",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "technology",
+      "file": "data/exam/ket/listening/l34.json",
+      "status": "ready"
     }
   ]
 }
