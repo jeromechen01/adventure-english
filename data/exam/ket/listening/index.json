@@ -517,6 +517,20 @@
       "theme": "technology",
       "file": "data/exam/ket/listening/l34.json",
       "status": "ready"
+    },
+    {
+      "id": "L35",
+      "title": "Helping Week",
+      "titleZh": "志愿活动",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "helping",
+      "file": "data/exam/ket/listening/l35.json",
+      "status": "ready"
     }
   ]
 }

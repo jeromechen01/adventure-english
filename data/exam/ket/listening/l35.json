@@ -1,0 +1,332 @@
+{
+  "$comment": "听力训练营 L35（P-L3 续跑，阶段三第十五课=阶段三顶格课，接近真考）。脚本 100% 原创；Part 3 每题需综合前后两句判断（妈妈在医院、动物之家在隔壁+爷爷住过老人院还认识大家→问为什么选老人院；大家说无聊又冷手疼+清完海滩很美小男孩道谢→问感受；答应了书也备好+妹妹生病妈妈上班→问为什么没去；大家想去也是好主意+撞游泳比赛→问看法；周日累踢球时间少+从没这么开心→问感受）+ Part 5 匹配（Callum 告诉妈妈五个同学「助人周」各做什么，8 件事 A-H 全部被反复提到、五个人四个先选后改，靠「最后决定」判断，选项为短语）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L35",
+  "title": "Helping Week",
+  "titleZh": "志愿活动",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "helping",
+  "names": [
+    "Freya",
+    "Callum",
+    "Bell",
+    "Hall",
+    "Amy",
+    "Zac",
+    "Priya",
+    "Ethan",
+    "Holly"
+  ],
+  "intro": "阶段三最后一课，难度和真考一样。先听 Freya 和 Callum 聊做义工：为什么选老人院？清理海滩是什么感受？为什么没去图书馆？每周都去累不累？答案都要把前后两句合起来想——前一句常是「别人的看法」或「困难」，后一句才是真正的原因和感受。再听 Callum 告诉妈妈「助人周」五个同学各做什么——8 件事都会被反复提到，五个人里有四个先选了一件后来又改，要听「最后定下来做什么」。",
+  "warmup": [
+    {
+      "word": "grandfather",
+      "phonetic": "/ˈɡrænfɑːðə/",
+      "meaning": "爷爷；外公"
+    },
+    {
+      "word": "plastic",
+      "phonetic": "/ˈplæstɪk/",
+      "meaning": "塑料"
+    },
+    {
+      "word": "collect",
+      "phonetic": "/kəˈlekt/",
+      "meaning": "收集；捡拾"
+    },
+    {
+      "word": "competition",
+      "phonetic": "/ˌkɒmpəˈtɪʃn/",
+      "meaning": "比赛"
+    },
+    {
+      "word": "fence",
+      "phonetic": "/fens/",
+      "meaning": "栅栏"
+    },
+    {
+      "word": "dangerous",
+      "phonetic": "/ˈdeɪndʒərəs/",
+      "meaning": "危险的"
+    },
+    {
+      "word": "plant",
+      "phonetic": "/plɑːnt/",
+      "meaning": "种植"
+    },
+    {
+      "word": "hospital",
+      "phonetic": "/ˈhɒspɪtl/",
+      "meaning": "医院"
+    },
+    {
+      "word": "strange",
+      "phonetic": "/streɪndʒ/",
+      "meaning": "奇怪的"
+    },
+    {
+      "word": "give up",
+      "phonetic": "/ɡɪv ˈʌp/",
+      "meaning": "放弃"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Freya 和 Callum 聊做义工。五道题的答案都要把前后两句合起来想：前一句常是「别人的看法」或「遇到的困难」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "Callum, I heard you help at the old people's home every Saturday now. Why there? Your mum works at the hospital, doesn't she?"
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "She does, and she wanted me to help there. And the animal home is next to my house, so that would have been easy. But my grandfather lived at the old people's home for two years before he moved in with us, and I still know everyone there. So I went back."
+        },
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "That's lovely. I did the beach clean on Sunday with the school."
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "Everyone said that would be boring. Just collecting plastic all morning."
+        },
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "That's what I thought too. And it was cold, and my hands hurt after an hour. But when we finished, the beach looked beautiful, and a little boy came up and said thank you to us. I'm going every month now."
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "Good for you. I missed the reading morning at the library on Saturday. I feel terrible about it."
+        },
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "The one for little children? Did you forget?"
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "No, I said yes weeks ago, and I had the books ready in my bag on Friday night. But on Saturday morning my little sister was ill, and Mum had to work, so I stayed at home with her."
+        },
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "You couldn't do anything else. They'll understand."
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "I hope so. Are you doing the tree planting in the park next month? Miss Bell says it will make the park beautiful."
+        },
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "Everyone in my class wants to do it, and I think it's a great idea. But it's on the same day as my swimming competition, so I'll be in the swimming pool, not the park. I'm sad about that."
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "There will be other days."
+        },
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "And you? My friends think you're strange, giving up every Saturday. Aren't you tired of it?"
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "I am tired on Sundays, and I don't have much time for football now, that's true. But I've never been happier. Those old people are my friends now. I wouldn't stop for anything."
+        },
+        {
+          "who": "Freya",
+          "sex": "f",
+          "text": "Then maybe I'll come with you next Saturday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why did Callum choose to help at the old people's home?",
+          "options": [
+            "His mum works there.",
+            "It is next to his house.",
+            "He knows the people there."
+          ],
+          "answer": 2,
+          "explain": "前一句 my mum… wanted me to help there（医院）… the animal home is next to my house（隔壁的是动物之家）+ 后一句 my grandfather lived at the old people's home… I still know everyone there——选老人院是因为认识那里的人。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Freya feel about the beach clean?",
+          "options": [
+            "It was boring.",
+            "She is glad she did it.",
+            "Her hands hurt too much."
+          ],
+          "answer": 1,
+          "explain": "前一句 Everyone said that would be boring… it was cold, and my hands hurt（别人说无聊、确实又冷又疼）+ 后一句 But when we finished, the beach looked beautiful… I'm going every month now——她觉得很值得，还要每月去。"
+        },
+        {
+          "id": "q3",
+          "q": "Why didn't Callum go to the reading morning?",
+          "options": [
+            "He forgot about it.",
+            "He had to look after his sister.",
+            "He didn't have any books."
+          ],
+          "answer": 1,
+          "explain": "前一句 I said yes weeks ago, and I had the books ready in my bag（没忘、书也备好了）+ 后一句 my little sister was ill, and Mum had to work, so I stayed at home with her——是为了照顾妹妹。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Freya think about the tree planting?",
+          "options": [
+            "She doesn't think it is a good idea.",
+            "She thinks the park is beautiful already.",
+            "She would like to go but can't."
+          ],
+          "answer": 2,
+          "explain": "前一句 Everyone in my class wants to do it, and I think it's a great idea（想去、也觉得好）+ 后一句 But it's on the same day as my swimming competition… I'm sad about that——想去但去不了。"
+        },
+        {
+          "id": "q5",
+          "q": "How does Callum feel about helping every Saturday?",
+          "options": [
+            "He is happier than before.",
+            "He is too tired to keep going.",
+            "He misses playing football."
+          ],
+          "answer": 0,
+          "explain": "前一句 I am tired on Sundays, and I don't have much time for football（承认累、踢球时间少）+ 后一句 But I've never been happier… I wouldn't stop for anything——从没这么开心，不会停。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Callum 告诉妈妈「助人周」五个同学各做什么。把每个人和右边 A-H 的事情配起来。8 件事都会被反复提到，五个人里有四个先选了一件后来又改——要听「最后定下来做什么」。",
+      "options": [
+        "clean the beach",
+        "cook at the lunch club",
+        "help at the animal home",
+        "paint the fence",
+        "plant trees",
+        "read to children",
+        "visit old people",
+        "wash cars"
+      ],
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Callum, it's Helping Week at school next week, isn't it? You're going to visit old people, I know. What are your friends doing?"
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "Amy wanted to visit old people with me at first. But the home only has room for two people from our school, and Freya asked before Amy. So Amy is going to help at the animal home. She loves dogs."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "She'll be good at that. And Zac? He said he'd paint the fence."
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "He did say that, but the men from the town are going to paint the fence this week, so there's nothing to paint. Zac is going to wash cars in the car park to make money for the animal home."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Two people helping the animals, then. What about Priya?"
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "Priya said she'd clean the beach with Freya's group. But her mum says the sea is too dangerous in winter and said no. So Priya is going to cook at the lunch club for old people on Wednesdays."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Her mum is right about the sea. And Ethan?"
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "Ethan wanted to read to children at the library. He read one page to them on Monday, went red and couldn't speak. So now he's going to plant trees in the park with Mr Hall. No talking needed."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Poor Ethan. Who's going to read to children, then?"
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "Holly. She was going to wash cars with Zac, but she wanted something quieter. She reads to her little brother every night, so she'll be great."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Reading, trees, cooking, cars, animals. And old people for you."
+        },
+        {
+          "who": "Callum",
+          "sex": "m",
+          "text": "And Freya on the beach. Everyone's doing something."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "I'm very happy about that."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Amy",
+          "answer": 2,
+          "explain": "Amy wanted to visit old people with me at first. But the home only has room for two people… So Amy is going to help at the animal home——先说看望老人，名额满了，改成动物之家。"
+        },
+        {
+          "id": "q7",
+          "q": "Zac",
+          "answer": 7,
+          "explain": "He said he'd paint the fence… the men from the town are going to paint the fence… Zac is going to wash cars——先说刷栅栏，镇上的人来刷，改成洗车。"
+        },
+        {
+          "id": "q8",
+          "q": "Priya",
+          "answer": 1,
+          "explain": "Priya said she'd clean the beach… her mum says the sea is too dangerous… So Priya is going to cook at the lunch club——先说清海滩，妈妈不让，改成午餐俱乐部做饭。"
+        },
+        {
+          "id": "q9",
+          "q": "Ethan",
+          "answer": 4,
+          "explain": "Ethan wanted to read to children… went red and couldn't speak. So now he's going to plant trees——先说给孩子读书，太害羞，改成种树。"
+        },
+        {
+          "id": "q10",
+          "q": "Holly",
+          "answer": 5,
+          "explain": "Who's going to read to children, then? Holly. She was going to wash cars with Zac, but she wanted something quieter——先说洗车，改成给孩子读书。清海滩（Freya）、刷栅栏（镇上的人）、看望老人（Callum）三件都被反复提到，但都不是这五个人最后做的。"
+        }
+      ]
+    }
+  ]
+}
