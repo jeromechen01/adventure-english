@@ -1,0 +1,327 @@
+{
+  "$comment": "听力训练营 L23（P-L3 续跑，阶段三第三课）。脚本 100% 原创；Part 3 观点直说（一段长对话 5 题：为什么不买书 / 觉得围巾怎么样 / 对做蛋糕什么感受 / 为什么去集市买花 / 为什么要自己写卡片）+ Part 5 匹配直给（Emma 告诉 Leo 五个人各送了妈妈什么礼物，8 件物品 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L23",
+  "title": "A Birthday Present for Mum",
+  "titleZh": "买生日礼物",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "present",
+  "names": [
+    "Dan",
+    "Emma",
+    "Leo",
+    "Sue",
+    "Mark",
+    "Alice",
+    "Rosie",
+    "Ben",
+    "King"
+  ],
+  "intro": "先听 Dan 和姐姐 Emma 商量给妈妈买什么生日礼物：书、围巾、蛋糕还是花？题目问的是「为什么不买」「觉得怎么样」「什么感受」，每样东西都会被说到优点和缺点，要抓住说话人自己最后的态度。再听 Emma 告诉同学 Leo 五个人各送了妈妈什么礼物，把人和礼物配起来——8 件礼物都会被提到，有 3 件没人送。",
+  "warmup": [
+    {
+      "word": "shelf",
+      "phonetic": "/ʃelf/",
+      "meaning": "架子；书架"
+    },
+    {
+      "word": "recipe",
+      "phonetic": "/ˈresəpi/",
+      "meaning": "食谱；做法"
+    },
+    {
+      "word": "scarf",
+      "phonetic": "/skɑːf/",
+      "meaning": "围巾"
+    },
+    {
+      "word": "plant",
+      "phonetic": "/plɑːnt/",
+      "meaning": "植物；盆栽"
+    },
+    {
+      "word": "theatre",
+      "phonetic": "/ˈθɪətə/",
+      "meaning": "剧院"
+    },
+    {
+      "word": "fresh",
+      "phonetic": "/freʃ/",
+      "meaning": "新鲜的"
+    },
+    {
+      "word": "terrible",
+      "phonetic": "/ˈterəbl/",
+      "meaning": "糟糕的"
+    },
+    {
+      "word": "worried",
+      "phonetic": "/ˈwʌrid/",
+      "meaning": "担心的"
+    },
+    {
+      "word": "camera",
+      "phonetic": "/ˈkæmərə/",
+      "meaning": "相机"
+    },
+    {
+      "word": "ticket",
+      "phonetic": "/ˈtɪkɪt/",
+      "meaning": "票"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Dan 和 Emma 商量给妈妈买什么生日礼物。五道题问的是理由和看法，注意每样东西被否定的真正原因是什么。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Emma, it's Mum's birthday on Sunday. Have you got any ideas for a present? I've only got fifteen pounds."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "I was thinking about a book. She loves reading, and her shelf is already full, so she must like them."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "She does love reading, but she reads everything on her phone now. She hasn't opened a real book for a year. A full shelf isn't the problem. A new book would just sit there."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "OK, you're right. What about that scarf in the shop window on King Street?"
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "The blue one? It's twelve pounds. We could pay for it together."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "It's lovely, and the price is fine, but it's blue. Mum never wears blue. She says it makes her look ill. She could wear it next winter, but not if it's blue."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "True. She always wears green or red."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "So let's make her a birthday cake! Grandma says it's easy if you read the recipe carefully."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "I'd like to, but the last time I made a cake, the kitchen was dirty everywhere and the cake was black. I'm worried the same thing will happen again. I've got time on Saturday, that's not the problem."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Then I'll make the cake and you can help. And we can buy some flowers. Let's get them at the market, not at the flower shop."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Why? The flower shop is open on Sunday, and the prices are about the same."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Because the market flowers come from the farm that morning, so they're fresh. They stay nice all week. The shop flowers only last two days."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "OK. And I'll write the card. I know my writing is terrible, but Mum always laughs at the funny pictures I draw in my cards, and she keeps every one. And no, it's not because I broke her cup last week. I've already said sorry for that."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Fine. A cake, some flowers and a funny card. Let's go to the market early on Sunday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why doesn't Dan want to buy Mum a book?",
+          "options": [
+            "She has too many books already.",
+            "She doesn't have time to read.",
+            "She reads on her phone now."
+          ],
+          "answer": 2,
+          "explain": "she reads everything on her phone now. She hasn't opened a real book for a year——真正的原因是她现在都用手机看书。「书架满了」是 Emma 说的，Dan 说 A full shelf isn't the problem；「没时间」没有人说。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Emma think about the scarf?",
+          "options": [
+            "It costs too much.",
+            "The colour is wrong.",
+            "It is too warm for this time of year."
+          ],
+          "answer": 1,
+          "explain": "It's lovely, and the price is fine, but it's blue. Mum never wears blue——问题在颜色。价钱她说 fine；「下个冬天也能戴」说明季节不是问题。"
+        },
+        {
+          "id": "q3",
+          "q": "How does Dan feel about making a cake?",
+          "options": [
+            "He is worried it will go wrong.",
+            "He thinks it will be easy.",
+            "He is too busy to do it."
+          ],
+          "answer": 0,
+          "explain": "I'm worried the same thing will happen again——上次做糊了，他怕再失败。「容易」是 Grandma 说的；「有时间」他自己说了 that's not the problem。"
+        },
+        {
+          "id": "q4",
+          "q": "Why does Emma want to buy the flowers at the market?",
+          "options": [
+            "They are cheaper there.",
+            "The flower shop is closed on Sunday.",
+            "They stay fresh for longer."
+          ],
+          "answer": 2,
+          "explain": "the market flowers come from the farm that morning, so they're fresh. They stay nice all week——集市的花更新鲜、放得久。价钱 about the same；花店周日是开门的。"
+        },
+        {
+          "id": "q5",
+          "q": "Why does Dan want to write the card himself?",
+          "options": [
+            "Mum likes his funny pictures.",
+            "His writing is better than Emma's.",
+            "He wants to say sorry for something."
+          ],
+          "answer": 0,
+          "explain": "Mum always laughs at the funny pictures I draw in my cards, and she keeps every one——妈妈喜欢他画的画。他自己说 my writing is terrible；打碎杯子已经道过歉，it's not because I broke her cup。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Emma 告诉同学 Leo 五个人各送了妈妈什么生日礼物。把每个人和右边 A-H 的礼物配起来。8 件礼物都会被提到，有 3 件没人送——注意听「最后送的是什么」。",
+      "options": [
+        "bag",
+        "camera",
+        "flowers",
+        "hat",
+        "plant",
+        "scarf",
+        "tickets",
+        "watch"
+      ],
+      "script": [
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "Hi Emma. Did your mum have a nice birthday on Sunday? What did everyone give her?"
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "She loved everything. My brother and I made a cake and gave her some flowers from the market. They still look fresh today."
+        },
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "Nice. And what did your Aunt Sue give her?"
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Sue wanted to buy a scarf, but Mum already has three, so in the end she gave her a hat. It's green, Mum's favourite colour."
+        },
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "That was a good idea. What about your Uncle Mark? You said he always gives something big."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "He did again! He gave her a camera, a small one for holidays. Dad said it was too much, but Mum was so happy."
+        },
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "Wow. And Alice, the lady next door?"
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Alice gave her a plant from her garden. It has yellow flowers, and it's already in the kitchen window."
+        },
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "And Rosie? Your mum's best friend?"
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Rosie gave her a bag, a big blue one for work. And Uncle Ben gave her two tickets for the theatre next month."
+        },
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "The theatre! Lucky her. Did your dad get her something too?"
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "He wanted to buy her a watch, but the shop had sold the one he liked, so he's taking her out for dinner on Friday."
+        },
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "Well, that sounds like a lovely birthday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Sue",
+          "answer": 3,
+          "explain": "Sue wanted to buy a scarf, but Mum already has three, so in the end she gave her a hat——围巾是干扰，最后送的是帽子。"
+        },
+        {
+          "id": "q7",
+          "q": "Mark",
+          "answer": 1,
+          "explain": "He gave her a camera, a small one for holidays——舅舅送的是相机。"
+        },
+        {
+          "id": "q8",
+          "q": "Alice",
+          "answer": 4,
+          "explain": "Alice gave her a plant from her garden——邻居送的是自家花园的盆栽。"
+        },
+        {
+          "id": "q9",
+          "q": "Rosie",
+          "answer": 0,
+          "explain": "Rosie gave her a bag, a big blue one for work——好朋友送的是包。"
+        },
+        {
+          "id": "q10",
+          "q": "Ben",
+          "answer": 6,
+          "explain": "Uncle Ben gave her two tickets for the theatre next month——送的是剧院的票。手表是爸爸想买没买到，flowers 是 Emma 和弟弟送的。"
+        }
+      ]
+    }
+  ]
+}

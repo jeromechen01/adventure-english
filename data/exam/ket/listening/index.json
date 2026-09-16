@@ -349,6 +349,20 @@
       "theme": "weekend",
       "file": "data/exam/ket/listening/l22.json",
       "status": "ready"
+    },
+    {
+      "id": "L23",
+      "title": "A Birthday Present for Mum",
+      "titleZh": "买生日礼物",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "present",
+      "file": "data/exam/ket/listening/l23.json",
+      "status": "ready"
     }
   ]
 }
