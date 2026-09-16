@@ -1,0 +1,310 @@
+{
+  "$comment": "听力训练营 L22（P-L3 续跑，阶段三第二课）。脚本 100% 原创；Part 3 观点直说（一段长对话 5 题：为什么不去电影院 / 觉得动物园怎么样 / 对去海滩什么感受 / 为什么坐公交 / 觉得海滩咖啡馆怎么样）+ Part 5 匹配直给（Tom 告诉妈妈五个朋友周末各去哪里，8 个地点 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L22",
+  "title": "Where to Go at the Weekend",
+  "titleZh": "周末去哪玩",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "weekend",
+  "names": [
+    "Tom",
+    "Kate",
+    "Lily",
+    "Max",
+    "Olivia",
+    "Harry",
+    "Sophie"
+  ],
+  "intro": "先听 Tom 和 Kate 商量周六去哪里玩：电影院、动物园还是海滩？题目问的是「为什么不去」「觉得怎么样」「什么感受」，每个地方都会被说到好处和坏处，要抓住说话人自己最后的态度。再听 Tom 告诉妈妈五个朋友周末各去哪里，把人和地点配起来——8 个地点都会被提到，有 3 个没人去。",
+  "warmup": [
+    {
+      "word": "asleep",
+      "phonetic": "/əˈsliːp/",
+      "meaning": "睡着的"
+    },
+    {
+      "word": "worried",
+      "phonetic": "/ˈwʌrid/",
+      "meaning": "担心的"
+    },
+    {
+      "word": "noisy",
+      "phonetic": "/ˈnɔɪzi/",
+      "meaning": "吵闹的"
+    },
+    {
+      "word": "cousin",
+      "phonetic": "/ˈkʌzn/",
+      "meaning": "表兄弟姐妹"
+    },
+    {
+      "word": "museum",
+      "phonetic": "/mjuːˈziːəm/",
+      "meaning": "博物馆"
+    },
+    {
+      "word": "market",
+      "phonetic": "/ˈmɑːkɪt/",
+      "meaning": "集市"
+    },
+    {
+      "word": "farm",
+      "phonetic": "/fɑːm/",
+      "meaning": "农场"
+    },
+    {
+      "word": "library",
+      "phonetic": "/ˈlaɪbrəri/",
+      "meaning": "图书馆"
+    },
+    {
+      "word": "ship",
+      "phonetic": "/ʃɪp/",
+      "meaning": "船"
+    },
+    {
+      "word": "weather",
+      "phonetic": "/ˈweðə/",
+      "meaning": "天气"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Tom 和 Kate 商量周六去哪里玩。五道题问的是理由和看法，注意「but」后面的话，那才是说话人真正的意思。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Hi Kate. Are you free on Saturday? There's a new film at the cinema, and the tickets are cheaper on Saturday mornings."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "I saw that film last week with my cousin. It was good, but I don't want to see it again. The cinema is a long way from my house, but that isn't a problem."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "OK. Then what about the zoo? It's only ten minutes on the bus."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "I know it's near, but I went last year and I found it really boring. You walk for hours and the animals are all asleep. The tickets cost a lot as well, but that's not the real problem."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "All right. Let's go to the beach, then. My dad can drive us to the bus station."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "The beach! Yes! I'd love that. I haven't been there for months."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "The beach in October? It might rain. And aren't you tired after your football match on Friday?"
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "I looked at the weather on my phone. It's going to be sunny all day, so I'm not worried. And I'll be fine after a good sleep. Shall we take the train? It's faster."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "It's faster, but it stops in the town centre, and then it's a long walk to the beach. The bus stops right next to the beach. The tickets cost about the same, so let's take the bus."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "Good idea. And we can have lunch at the café by the beach."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "My dad says that café is too expensive."
+        },
+        {
+          "who": "Kate",
+          "sex": "f",
+          "text": "It isn't, if you just have a sandwich and a drink. I went there in the summer and the food was great. It gets noisy when it's busy, but we can eat early."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "OK. Let's meet at the bus stop at nine. Don't forget your hat!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why doesn't Kate want to go to the cinema?",
+          "options": [
+            "The tickets cost too much.",
+            "She has already seen the film.",
+            "It is a long way from her house."
+          ],
+          "answer": 1,
+          "explain": "I saw that film last week… I don't want to see it again——她已经看过了。「票价」是 Tom 说周六早上更便宜；「离家远」她自己说了 but that isn't a problem，不是原因。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Kate think about the zoo?",
+          "options": [
+            "It is boring.",
+            "It is too far away.",
+            "It costs too much."
+          ],
+          "answer": 0,
+          "explain": "I went last year and I found it really boring——她自己的看法是无聊。「远」不对，Tom 说只要十分钟；「贵」她提到了，但说 that's not the real problem。"
+        },
+        {
+          "id": "q3",
+          "q": "How does Kate feel about going to the beach?",
+          "options": [
+            "She is worried about the weather.",
+            "She is too tired to go.",
+            "She is excited about it."
+          ],
+          "answer": 2,
+          "explain": "The beach! Yes! I'd love that——很兴奋。「担心天气」是 Tom 说可能下雨，Kate 查了天气说 I'm not worried；「累」也是 Tom 问的，她说睡一觉就好。"
+        },
+        {
+          "id": "q4",
+          "q": "Why does Tom want to take the bus?",
+          "options": [
+            "It is faster than the train.",
+            "It stops next to the beach.",
+            "It is cheaper than the train."
+          ],
+          "answer": 1,
+          "explain": "The bus stops right next to the beach——坐火车下车还要走很远。「更快」的是火车；票价 about the same，不是更便宜。"
+        },
+        {
+          "id": "q5",
+          "q": "What does Kate think about the café by the beach?",
+          "options": [
+            "It is too noisy.",
+            "It costs too much.",
+            "The food is good."
+          ],
+          "answer": 2,
+          "explain": "I went there in the summer and the food was great——她自己的评价是好吃。「太贵」是 Tom 爸爸说的，Kate 说只点三明治不贵；「吵」她提到了，但说可以早点吃，不是问题。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Tom 告诉妈妈五个朋友这个周末各去哪里。把每个人和右边 A-H 的地点配起来。8 个地点都会被提到，有 3 个没人去——注意听「最后去的是哪里」。",
+      "options": [
+        "beach",
+        "cinema",
+        "farm",
+        "library",
+        "market",
+        "museum",
+        "park",
+        "zoo"
+      ],
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "So you and Kate are going to the beach on Saturday. Are your other friends doing anything this weekend?"
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Yes, everyone's busy. Lily is going to the museum with her dad. There's a new room with old ships, and she loves that kind of thing."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "That sounds nice. Isn't she going to the cinema with you? She usually does."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Not this time. And Max is going to his uncle's farm. He's going to help with the horses all weekend."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Max on a farm! He'll come home very dirty. What about Olivia?"
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Olivia is going to the market with her mum on Sunday morning. Her mum sells fruit there, and Olivia helps her."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "She's a good girl. And Harry? Is he going to the zoo again? He goes every month."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "No, the zoo is closed this weekend. Harry is going to the park to play football with his brother."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "And Sophie? Let me guess. She's staying at home with a book."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Nearly. She's going to the library. They have a story-writing morning on Saturday, and she really wants to go."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Well, everyone has a plan. Now go and find your beach hat."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Lily",
+          "answer": 5,
+          "explain": "Lily is going to the museum with her dad——直接说了。妈妈问是不是去电影院，Tom 说 Not this time。"
+        },
+        {
+          "id": "q7",
+          "q": "Max",
+          "answer": 2,
+          "explain": "Max is going to his uncle's farm——去叔叔的农场帮忙照看马。"
+        },
+        {
+          "id": "q8",
+          "q": "Olivia",
+          "answer": 4,
+          "explain": "Olivia is going to the market with her mum——周日早上去集市帮妈妈卖水果。"
+        },
+        {
+          "id": "q9",
+          "q": "Harry",
+          "answer": 6,
+          "explain": "Is he going to the zoo again? No, the zoo is closed… Harry is going to the park——动物园是干扰（关门了），最后去的是公园。"
+        },
+        {
+          "id": "q10",
+          "q": "Sophie",
+          "answer": 3,
+          "explain": "She's going to the library——妈妈猜她在家看书，Tom 说 Nearly（差不多），其实是去图书馆参加写故事活动。"
+        }
+      ]
+    }
+  ]
+}
