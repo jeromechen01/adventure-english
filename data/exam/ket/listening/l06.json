@@ -1,0 +1,314 @@
+{
+  "$comment": "听力训练营 L06（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L06",
+  "title": "A Birthday Party",
+  "titleZh": "生日聚会",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "party",
+  "names": [
+    "Tom",
+    "Lucy",
+    "Anna",
+    "Ben",
+    "Mia"
+  ],
+  "intro": "给 Lucy 办生日聚会：送什么、几点开始、吃什么、在哪儿办、怎么去。留意 too、closed、then 这些改口信号。",
+  "warmup": [
+    {
+      "word": "present",
+      "phonetic": "/ˈpreznt/",
+      "meaning": "礼物"
+    },
+    {
+      "word": "hundreds",
+      "phonetic": "/ˈhʌndrədz/",
+      "meaning": "成百上千"
+    },
+    {
+      "word": "board game",
+      "phonetic": "/ˈbɔːd ɡeɪm/",
+      "meaning": "桌游"
+    },
+    {
+      "word": "finish",
+      "phonetic": "/ˈfɪnɪʃ/",
+      "meaning": "结束"
+    },
+    {
+      "word": "order",
+      "phonetic": "/ˈɔːdə/",
+      "meaning": "点餐；订购"
+    },
+    {
+      "word": "closed",
+      "phonetic": "/kləʊzd/",
+      "meaning": "关门的"
+    },
+    {
+      "word": "lake",
+      "phonetic": "/leɪk/",
+      "meaning": "湖"
+    },
+    {
+      "word": "walk",
+      "phonetic": "/wɔːk/",
+      "meaning": "步行"
+    },
+    {
+      "word": "only",
+      "phonetic": "/ˈəʊnli/",
+      "meaning": "只；仅仅"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "I wanted to get Lucy a book for her birthday, but she's got hundreds."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "What about a board game?"
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "She doesn't like games much, so I'm getting her a football. She loves sport."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Good idea, she'll love that."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What present is Tom giving Lucy?",
+          "options": [
+            {
+              "icon": "activity-reading",
+              "alt": "a book"
+            },
+            {
+              "icon": "activity-boardgame",
+              "alt": "a board game"
+            },
+            {
+              "icon": "object-ball",
+              "alt": "a football"
+            }
+          ],
+          "answer": 2,
+          "explain": "书：她有几百本了；桌游：她不太喜欢；最后 I'm getting her a football。前两个都是被放弃的想法。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "What time does the party start, Mum?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "At three o'clock. It finishes at four."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Not half past three? The card says half past three."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "That was the old card. It's three now."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What time does the party start?",
+          "options": [
+            {
+              "icon": "clock-0300",
+              "alt": "3:00"
+            },
+            {
+              "icon": "clock-0330",
+              "alt": "3:30"
+            },
+            {
+              "icon": "clock-0400",
+              "alt": "4:00"
+            }
+          ],
+          "answer": 0,
+          "explain": "三点开始，四点结束；三点半是旧卡片上的时间（old card）。最后一句 It's three now 确认。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Shall we order pizza for the party?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The pizza place is closed on Sundays. Let's make sandwiches."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "And pasta?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "No, sandwiches are easier. And there's the birthday cake, of course."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What are they going to make for the party?",
+          "options": [
+            {
+              "icon": "food-pizza",
+              "alt": "pizza"
+            },
+            {
+              "icon": "food-sandwich",
+              "alt": "sandwiches"
+            },
+            {
+              "icon": "food-pasta",
+              "alt": "pasta"
+            }
+          ],
+          "answer": 1,
+          "explain": "披萨店周日关门，意面被 No 否定，Let's make sandwiches 是决定。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Is the party at your house, Anna?"
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "No, our house is too small. It's in the park, by the lake."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "What if it rains?"
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Then we'll go to the cinema."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "Where is the party going to be?",
+          "options": [
+            {
+              "icon": "place-school",
+              "alt": "at school"
+            },
+            {
+              "icon": "place-park",
+              "alt": "in the park"
+            },
+            {
+              "icon": "place-cinema",
+              "alt": "at the cinema"
+            }
+          ],
+          "answer": 1,
+          "explain": "家里太小；It's in the park 是地点；电影院只是下雨时的备选（What if it rains）。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Mum, can you drive me to the party?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "I'm working. Dad can take you on his bike."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "No, thanks, I'll walk. It's only ten minutes."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "All right, take your phone."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "How is Ben going to get to the party?",
+          "options": [
+            {
+              "icon": "transport-car",
+              "alt": "by car"
+            },
+            {
+              "icon": "transport-bike",
+              "alt": "by bike"
+            },
+            {
+              "icon": "transport-walk",
+              "alt": "on foot"
+            }
+          ],
+          "answer": 2,
+          "explain": "开车：妈妈要上班；自行车：Ben 说 No, thanks；最后 I'll walk。"
+        }
+      ]
+    }
+  ]
+}

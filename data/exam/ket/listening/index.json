@@ -102,6 +102,19 @@
       "theme": "clubs",
       "file": "data/exam/ket/listening/l05.json",
       "status": "ready"
+    },
+    {
+      "id": "L06",
+      "title": "A Birthday Party",
+      "titleZh": "生日聚会",
+      "stage": 1,
+      "parts": [
+        1
+      ],
+      "questionCount": 5,
+      "theme": "party",
+      "file": "data/exam/ket/listening/l06.json",
+      "status": "ready"
     }
   ]
 }
