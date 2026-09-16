@@ -1,0 +1,313 @@
+{
+  "$comment": "听力训练营 L02（P-L1）。脚本 100% 原创；阶段一 · 只练 Part 1 三图单选，5 题，每题一段 4-6 轮短对话 + 3 张 SVG 图。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.8x。",
+  "id": "L02",
+  "title": "A Weekend at Home",
+  "titleZh": "家里的周末",
+  "stage": 1,
+  "rate": 0.8,
+  "parts": [
+    1
+  ],
+  "theme": "family",
+  "names": [
+    "Tom",
+    "Emma",
+    "Jack",
+    "Grandma"
+  ],
+  "intro": "今天是周末在家的五段小对话：先做什么、早餐喝什么、奶奶带什么来、奶奶几点到、下午做什么。答案都会直接说出来，先把词听熟。",
+  "warmup": [
+    {
+      "word": "clean",
+      "phonetic": "/kliːn/",
+      "meaning": "打扫；弄干净"
+    },
+    {
+      "word": "match",
+      "phonetic": "/mætʃ/",
+      "meaning": "比赛"
+    },
+    {
+      "word": "toast",
+      "phonetic": "/təʊst/",
+      "meaning": "烤面包片"
+    },
+    {
+      "word": "juice",
+      "phonetic": "/dʒuːs/",
+      "meaning": "果汁"
+    },
+    {
+      "word": "a cup of tea",
+      "phonetic": "/ə kʌp əv tiː/",
+      "meaning": "一杯茶"
+    },
+    {
+      "word": "bring",
+      "phonetic": "/brɪŋ/",
+      "meaning": "带来"
+    },
+    {
+      "word": "arrive",
+      "phonetic": "/əˈraɪv/",
+      "meaning": "到达"
+    },
+    {
+      "word": "board game",
+      "phonetic": "/ˈbɔːd ɡeɪm/",
+      "meaning": "桌游；棋盘游戏"
+    },
+    {
+      "word": "half past",
+      "phonetic": "/hɑːf pɑːst/",
+      "meaning": "……点半"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Tom, are you going to play computer games all morning?"
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "No, Mum. First I'm going to clean my room."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Good idea. Your football match is in the afternoon."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "I know. I'm ready for it!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is Tom going to do first?",
+          "options": [
+            {
+              "icon": "activity-computer",
+              "alt": "play computer games"
+            },
+            {
+              "icon": "activity-cleaning",
+              "alt": "clean his room"
+            },
+            {
+              "icon": "activity-football",
+              "alt": "play football"
+            }
+          ],
+          "answer": 1,
+          "explain": "直接听 First 后面的动作：First I'm going to clean my room。电脑游戏是妈妈问的，足球赛在下午。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Dad, what do you want for breakfast? Some toast?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Yes, please, and an egg."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Would you like some juice too?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "No, thanks. Just a cup of tea for me."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What is Dad going to drink?",
+          "options": [
+            {
+              "icon": "food-juice",
+              "alt": "juice"
+            },
+            {
+              "icon": "food-tea",
+              "alt": "tea"
+            },
+            {
+              "icon": "food-milk",
+              "alt": "milk"
+            }
+          ],
+          "answer": 1,
+          "explain": "问的是喝什么（drink）。juice 被 No, thanks 拒绝了，答案是 a cup of tea。milk 没有出现。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Is Grandma coming on Sunday?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Yes, and she's bringing a cake she made."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Great! I hoped she would bring ice cream."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Ice cream is for the summer. Dad's making sandwiches for lunch, too."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is Grandma bringing on Sunday?",
+          "options": [
+            {
+              "icon": "food-cake",
+              "alt": "a cake"
+            },
+            {
+              "icon": "food-ice-cream",
+              "alt": "ice cream"
+            },
+            {
+              "icon": "food-sandwich",
+              "alt": "sandwiches"
+            }
+          ],
+          "answer": 0,
+          "explain": "she's bringing a cake 直接给出答案。冰淇淋只是 Jack 希望的，三明治是爸爸做的。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "Mum, what time is Grandma arriving?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "At half past three. Her train gets in at three."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "So she'll be here for tea at four?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Yes, she will."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What time is Grandma arriving?",
+          "options": [
+            {
+              "icon": "clock-0300",
+              "alt": "3:00"
+            },
+            {
+              "icon": "clock-0330",
+              "alt": "3:30"
+            },
+            {
+              "icon": "clock-0400",
+              "alt": "4:00"
+            }
+          ],
+          "answer": 1,
+          "explain": "问到达时间：At half past three。3 点是火车进站，4 点是喝茶时间。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Can we go to the park after lunch?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "It's going to rain this afternoon. Let's play a board game at home."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "OK. Can we watch TV after that?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Maybe, if the game finishes early."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What are they going to do after lunch?",
+          "options": [
+            {
+              "icon": "place-park",
+              "alt": "go to the park"
+            },
+            {
+              "icon": "activity-boardgame",
+              "alt": "play a board game"
+            },
+            {
+              "icon": "activity-tv",
+              "alt": "watch TV"
+            }
+          ],
+          "answer": 1,
+          "explain": "Let's play a board game at home 是爸爸的决定。公园因为要下雨去不了，看电视只是 Maybe。"
+        }
+      ]
+    }
+  ]
+}

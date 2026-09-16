@@ -50,6 +50,19 @@
       "theme": "school",
       "file": "data/exam/ket/listening/l01.json",
       "status": "ready"
+    },
+    {
+      "id": "L02",
+      "title": "A Weekend at Home",
+      "titleZh": "家里的周末",
+      "stage": 1,
+      "parts": [
+        1
+      ],
+      "questionCount": 5,
+      "theme": "family",
+      "file": "data/exam/ket/listening/l02.json",
+      "status": "ready"
     }
   ]
 }
