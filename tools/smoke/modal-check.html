@@ -297,6 +297,42 @@
         await window.__nav('home'); await sleep(300);
       }
 
+      // ⑨ PL0 听力答题态：L01 热身 → 开始盲听 → 导航隐藏 + 三图并排 → ‹ 弹确认（遮罩不关 / 继续留在原题 / Esc 也弹）→ 「离开」回训练营首页且导航恢复
+      storage.setGrade('KET');
+      storage.setExamProfile({ ...storage.getExamProfile(), level: 'KET', started: true });
+      await window.__nav('exam-listening', { lesson: 'L01' }); await sleep(600);
+      const lStart = app.querySelector('#startBtn');
+      r.listening = { warmupFound: !!lStart };
+      if (lStart) {
+        lStart.click(); await sleep(400);
+        applyNarrow();
+        const nav = document.getElementById('bottomNav');
+        r.listening.navHidden = getComputedStyle(nav).display === 'none';
+        r.listening.gradeBtnHidden = getComputedStyle(document.getElementById('gradeBtn')).display === 'none';
+        r.listening.threeImages = app.querySelectorAll('[data-q][data-opt] img').length === 3;
+        r.listening.playBtnFound = !!app.querySelector('#playBtn');
+        const rightLimit = LIMIT || document.documentElement.clientWidth;
+        r.listening.quizOverflow = [...app.querySelectorAll('*')].filter(el => el.getBoundingClientRect().right > rightLimit + 1).length;
+        r.listening.smallOpts = [...app.querySelectorAll('[data-q][data-opt]')].filter(b => b.getBoundingClientRect().height < 48).length;
+        app.querySelector('#examBackBtn').click(); await sleep(300);
+        r.listening.confirmOpens = modalOpen();
+        applyNarrow();
+        r.listening.overflow = modalOverflow();
+        clickBackdrop(); await sleep(150);
+        r.listening.stayOnBackdrop = modalOpen();
+        const stay = document.getElementById('focusStayBtn');
+        if (stay) stay.click();
+        await sleep(150);
+        r.listening.stillInQuizAfterStay = !!app.querySelector('#playBtn') && getComputedStyle(nav).display === 'none';
+        pressEsc(); await sleep(200);
+        r.listening.escOpensConfirm = modalOpen();
+        const leaveBtn = document.getElementById('focusLeaveBtn');
+        if (leaveBtn) leaveBtn.click();
+        await sleep(400);
+        r.listening.leftToCourse = !!app.querySelector('[data-lesson="L01"]');
+        r.listening.navRestored = getComputedStyle(nav).display !== 'none' && document.body.classList.contains('has-bottom-nav');
+      }
+
       // 汇总：任何一个「关不掉」即整体失败
       const flat = JSON.stringify(r);
       r.noDeadModal = !/"(xCloses|escCloses|cancelCloses|closeModalAlwaysWorks)":false/.test(flat);

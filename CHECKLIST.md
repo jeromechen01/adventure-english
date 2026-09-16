@@ -879,6 +879,52 @@
 
 ---
 
+## P-L0：KET 听力训练引擎 + L01 样课（缓存 `ea-v1.1.0`，2026-09-16，✅ 完成，⏸ 硬停机等家长手机验收 L01）
+
+> 新模块「听力训练营」：50 课规划、本批只做引擎 + 一课样课，不批量产课。版权红线：官方听力音频/tapescript/样卷一字不读不参考（Docs 下 pdf/zip/mp3 仅供家长自用，.gitignore 已拦）；脚本 100% 原创；音频只用 Web Speech API 实时合成，不入库任何音频文件。八课数据零改动（untouched 对 `tools/backup/pl0/` 全过）。
+
+### 单元 1 · 语音检查页 + 双声道 TTS（4797f3a）
+- [x] `speech.js` 新增：`isTTSSupported / listEnglishVoices / waitForVoices(等 voiceschanged，最多 1.5s) / pickDialogueVoices / speakDialogue`。选声：按名字猜性别优先一男一女、本机语音优先；只有两个不同声但猜不出性别就各占一个；★只有一个英文声时用音调 0.75（男）/1.25（女）区分
+- [x] `speakDialogue(turns,{rate,gap,voices,onTurn,onEnd})`：按 turn 拆多段 utterance，turn 之间停 700ms（规范 0.6-0.8s，实测 700/700）；只提供播放/取消——★ iOS 的 pause/resume 不可靠，故意不做拖动暂停；onend 不触发时按字数估时长强制推进（防播放态卡死）；攥住 utterance 引用防 Chrome GC 丢 onend；cancel 后延迟 120ms 再开口（部分 Chrome 会吞掉 cancel 后立刻的 speak）
+- [x] `storage.js` 新增 `KEYS.LISTENING`（voiceOk / voiceCheckedAt / voiceNames / mode），随导出导入重置走既有规范；课程成绩仍走 `EXAM_DRILLS`（id = `lis-LXX`）
+- [x] 新模块 `modules/voice-check.js`（路由 `voice-check`，入口在「我的」）：检测英文语音数、列出说话人 A/B 各用哪个声音、试听原创两句对话、「能听清，确认能用」落盘；全部语音折叠列表带本机/在线标注。无英文语音：平静提示 + 按平台（iPhone/iPad · 安卓 · Mac · Windows）给系统语音包安装指引 + 重新检测；浏览器不支持 speechSynthesis 也有单独文案
+
+### 单元 2 · 听力引擎（9eb53ab）
+- [x] 新模块 `modules/exam/listening.js`（路由 `exam-listening`）。课结构固定四步：**① 听前热身**（词表逐词 🔊）→ **② 盲听答题**（逐段播放 + 作答，不给对错；允许空题交卷，二次点击确认）→ **③ 对答案 + tapescript**（逐题 ✅/❌ + 我的/正确答案 + 解析 + 逐 turn 原文 + 🔊 再听不限次）→ **④ 跟读**（逐 turn 示范 → 🎤 录音 → `alignWords` LCS 词级对齐，≥75 过关，漏词下划线/多词删除线）
+- [x] 题型严格对齐 KET 五部分，不自创：Part 1 三图单选（SVG 图标 grid-3、按钮 ≥48px）/ Part 2 填空（`normalizeGap`：大小写不敏感、首尾空格容错、内部多空格合一、去句末句号；★拼写必须完全正确；英文数字词 ↔ 阿拉伯数字互认，twenty-five/twenty five/25 等价；`alt` 备选答案）/ Part 3·4 三选一 / Part 5 匹配（5 项配 A-H 8 选项下拉，≥48px）
+- [x] ★ 两遍机制：模拟模式每段严格 2 遍；练习模式 3 遍并在段头标注「练习模式」；用完后按钮禁用并提示「真考每段只放两遍」；模式开关在训练营首页（存 `LISTENING.mode`）
+- [x] ★ 答题态接 0.9.33：`enterFocus`（不 bindBack，‹/Esc 先确认，remain = 未作答题数，note 说明录音会停）；cleanup 与所有离开路径都 `stopPlayer()` 取消朗读；跟读为 ★ 级 `confirm:false`
+- [x] 错题落盘：`src:'listen'`，口径对齐 B4 12 字段（q = `[听力 Part N 题型] 题干` 摘要、lesson = L01、stage = Part 1、options/picked/correct 用 `A. 7:30` 文本）；答对同 qKey 自动毕业。错题本新增「🎧 听力」分区 + 「回到这一课再听 → L01」直达；meta 行 Part 标注不再套「环节」前缀
+- [x] 入口：备考中心 hub 新增「听力训练营」整行卡；阅读听力页拆成「听力训练营」+「听力套题（旧 3 套 25 题，模考仍用）」两入口；旧套题页顶部加回训练营链接
+
+### 单元 3 · SVG 图标库（6e1dbda）
+- [x] `assets/img/listening/` **44 个**：时钟 6（0700/0730/0800/0815/0845/0330）· 价格牌 4（£2.50/5/10/15）· 天气 6 · 交通 6 · 食物 8 · 活动 8 · 场所 6；生成器 `tools/gen-listening-icons.mjs`（**改图标改脚本再生成，不手改 SVG**）；清单 `data/exam/ket/listening/icons.json`（id / category / file / 英文 alt / 中文说明），SVG 内含 `<title>` + `aria-label`
+- [x] **命名规范**：文件名 `<类别>-<细项>.svg`，全小写，只用 a-z0-9 与连字符；类别 ∈ clock / price / weather / transport / food / activity / place；时钟 `clock-HHMM`（24 小时制补零）；价格 `price-<整数>[-<小数两位>]`（price-2-50 = £2.50）；统一 `viewBox 0 0 120 120` 正方形；自带米色底 #FFF8F0 + 浅橙描边（同记忆卡 SVG，属设计系统豁免③）；粗描边 4-5、圆角、少细节，96px 以下可辨；课文件 `options[].icon` 只写 id 不带扩展名
+- [x] 白底/深底两张 contact sheet 目测清晰（价格牌文字与孔位、意面图第一版不佳已改）
+
+### 单元 4 · L01 样课（d73904b）
+- [x] `data/exam/ket/listening/l01.json`《学校的一天 A Day at School》：阶段一 · 只练 Part 1 · 5 题，每题 4 轮原创短对话（校车几点出发 / 怎么去学校 / 午饭吃什么 / 下午做什么 / 放学在哪见）+ 3 张图；考点覆盖时间·交通·食物·活动·地点；解析写清 usually…but / going to / first·after that 等干扰规律；语速 0.8x；热身 10 词全在 A2 表
+- [x] 索引 `data/exam/ket/listening/index.json`（三阶段规格：一 0.8x L01-L10 Part 1 / 二 0.9x L11-L30 +Part 2·3 / 三 1.0x L31-L50 +Part 4·5；rules 两遍/三遍与 95% 词汇线）+ Schema 两份（`_schema.index.json / _schema.lesson.json`）；`data/exam/index.json` files 补登记
+- [x] 新工具 `tools/check-listening.mjs`（preflight ⑤）：题型口径逐 Part 校验（Part 1/4 每段 1 题 3 选项、Part 2/3/5 一段 5 题、Part 5 8 选项答案不重复）、图标 id 必须在清单、Part 1 每段 4-6 轮（每轮 >2 句告警）、★ A2 词汇覆盖 ≥95%（KET 1416 词 + 多词条目短语匹配 + 简易词形还原 + 功能词/称呼白名单，`names` 登记的人名不计）且超纲词必须进 warmup、warmup 自身必须在表内——**L01 实测 297/297 = 100%**；`check-data.mjs` 登记听力 index/lXX Schema 并默认全量校验
+
+### 收尾（本 commit）
+- [x] preflight 五项 ✔（ESM 42 文件 / Schema 4 + 编码 149 文件 / 听力课 / sw 登记 / ketLessonMap 50 课）；八课 untouched 对 `tools/backup/pl0` ✔
+- [x] **行为级 L01 全流程**（临时页 `_pl0check.html`，mock speechSynthesis 两个假英文声 + fetch 覆盖合成一课 L99 验 Part 2/5，跑完已删）：默认宽与 ?w=360 双跑 **0 false / 0 错误**——双声道分配（男/女声各一、单声时音调 0.75/1.25）· turn 间隔实测 700ms · cancel 后不再开口 · Part 2 判分 8 例（数字词/连字符/句号/大小写/拼错不过）· 热身 10 词逐词发音 · 盲听三图并排 + 练习模式 3 遍上限到点禁用（4 turn × 3 = 12 utterance）· 第 2 段 ‹ 弹「还有 3 题没做完」继续留原题 · 交卷 2/5 · 5 段 tapescript + 5 条解析 + 再听 · 3 条错题 12 字段齐全（src=listen · Part 1 · `A. 7:00` / `B. 7:30`）· 跟读 20 轮示范自动播 → 完成 → 回首页显示「最好 40%」· 错题本「🎧 听力 3」分区 → 回课直达 → 再做全对自动毕业且 best 100/tries 2 · 模拟模式无「练习模式」标且 2 遍禁用 · 「离开」真正退出并取消朗读 · Part 2 五个输入框 / Part 5 五个下拉 + 8 选项 / 长 tapescript 在 360 宽零溢出零小热区 · 判分 8/10（拼错 hats、匹配错 1）· ★无英文语音降级（getVoices 返回空）：语音检查页给 🔇 + 安装指引 + 重新检测且不渲染试听键，课内播放给提示且流程不卡 · 有声音时检测到 2 个 / 说话人 A·B / 试听两句用不同声 / 确认落盘 / 「我的」入口文案跟着变
+- [x] modal-check 双跑（默认宽 + ?w=360）**0 false / 无死弹窗**，新增 ⑨ 听力答题态专项（导航与年级键隐藏 / 三图 / ‹ 弹确认 / 遮罩不关 / 继续留原题 / Esc 弹 / 离开回训练营且导航恢复）；虚拟时钟下 gradePicker hot48 伪差按坑 13 真实时钟复测为 true
+- [x] smoke **45 在线 + 32 离线零失败**（新增 exam-listening / L01 热身 / 旧套题 / voice-check 在线 + 训练营与 L01 离线两条，唯一 console error 为预期 g51 探针）；sw-check（全新短路径 profile，真断网）：唯一缓存 `english-adventure-ea-v1.1.0`、壳 61 项、离线 504 兜底、清内容缓存不动壳 ✔
+- [x] 窄屏 shot ?w=360：训练营首页 / L01 热身 / 盲听三图页 / 语音检查 / exam-hub / 阅读听力页 / 「我的」**全部零溢出零小热区**（填空 / 匹配下拉 / 长 tapescript 由行为级页在 360 宽实测零溢出）
+- [x] sw → **ea-v1.1.0**（新模块 2 个 JS + 听力索引/图标清单进壳预取清单）
+- 本批 commit：4797f3a PL0-1 → 9eb53ab PL0-2 → 6e1dbda PL0-3 → d73904b PL0-4 → 收尾（sw + smoke/modal 用例 + CHECKLIST + 交接文档）
+
+### 📌 P-L1 续跑说明（L02-L10，家长在手机上验收 L01 后开工）
+- 范围：阶段一余下 9 课，全部 **Part 1 · 5 题 · 0.8x**，题材轮转（爱好 / 购物 / 旅行 / 家庭 / 天气 / 食物 / 运动 / 假期 / 动物），每课一个专抓点（数字 · 时间 · 地点 · 价格 各至少两课）
+- 工艺：复制 `l01.json` 结构（id/title/titleZh/stage/rate/parts/theme/names/intro/warmup 8-10 词/sections×5）；每段 4-6 轮、每轮 ≤2 句、干扰项三个都要在对话里出现、答案在 but / then / going to 之后；人名写进 `names`；跑 `node tools/check-listening.mjs L0X` 到 ≥95% 且超纲词全进 warmup；索引 `index.json` 追加 `{id,…,status:'ready'}` + questionCount；需要新图标就在 `tools/gen-listening-icons.mjs` 里加一条再生成（清单自动更新），命名按上面规范
+- ★ 索引与图标清单都在 sw 壳预取清单 → 收尾必 bump（ea-v1.1.1 或按当时序号）；一课一 commit
+- 收尾照旧：preflight（含 ⑤）+ untouched + 三件套 + 窄屏 shot（三图页用 `&click=%23startBtn`）+ 行为级页（本批 `_pl0check.html` 写法：mock speechSynthesis + fetch 覆盖；★测播放按钮要先等它进入 disabled 再等它恢复——handler 里先 await 语音清单才置 disabled，直接轮询会假失败）+ push 后硬停机
+- 阶段二起才需要的引擎能力已就位（Part 2 填空 / Part 3·4 三选一 / Part 5 匹配、0.9x/1.0x 由 stage.rate 决定），L11 起只需产数据
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
@@ -895,6 +941,7 @@
 11. **`data/grammar/index.json` 在 sw 壳缓存预取清单里（sw.js:73），走 cache-first。** 凡是新增/修改课程导致 index.json 变动，必须同时 bump CACHE_VERSION，否则老客户端读到旧索引、新课在目录里根本不出现（课文件已上线也看不到），是静默失效，不报错。
 12. **无头 Chrome 测完必须确认进程真的退光**（`Get-CimInstance Win32_Process` 按 CommandLine 里的 `eap` 过滤）——残留的无头实例会占住 `--user-data-dir` 锁，下一轮启动只是把 URL 递给旧实例然后退出，页面根本没加载，结果文件永远等不到。bash 里 `kill $!` 只杀得掉启动壳，杀不掉 Chrome 子进程树。
 13. **虚拟时钟跑法（`--virtual-time-budget` + shot.html/modal-check）速度快、自动退出，但会产生几何测量伪差**——热区/尺寸类断言（如 hot48）报 false 时必须用真实时钟（`Start-Process` + 轮询结果文件）单页复测确认，不能直接采信（B1 中 gradePicker hot48:false 即为伪差，真实时钟为 true）。同族坑：测量页不带 Tailwind 会几何失真（坑 6 注）、无头 Chrome viewport 最小约 492px（坑 6）、virtual-time-budget 挂住 SW 线程（坑 5，验 SW 时禁用虚拟时钟）。
+14. **无头 Chrome 收尾 Stop-Process 必须同时过滤 `Name -eq 'chrome.exe'`**——只按 CommandLine 含 profile 名过滤会把正在跑这条命令的 shell/pwsh 自己也杀掉（它的命令行里就有那个 profile 名），表现为工具直接退出码 255、一行输出都没有、Chrome 反而留下来（P-L0 踩过三次）。真实时钟跑法在本环境用 PowerShell `Start-Process` + 轮询 result.json + 上述过滤杀进程最稳；bash 里 `( chrome … & )` 子壳后台偶发根本没起来。
 
 ---
 
@@ -932,12 +979,13 @@
 
 ## 📊 统计
 
-- JS 模块：**36 个**（assets/js，含 exam/ 11 个 + grammar-hall/ 2 个 + utils/ 4 个，全部 check-esm 通过）+ `sw.js`
-- 数据文件：**144 个 JSON**（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
+- JS 模块：**42 个**（assets/js，check-esm 计数；P-L0 新增 modules/voice-check.js + modules/exam/listening.js，全部 check-esm 通过）+ `sw.js`
+- 数据文件：**149 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
 - 语法大厅：**50/50 课全部完工**（基石 G01-G12 + 骨架 G13-G26 + 进阶 G27-G42 + 精修 G43-G50，共 3200 题 + 352 侦探病句 = 3552 个题干全局无重复）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2571 词 / 22 话题**（V0.5-PET-s1 第 1 会话后，第 2 会话续扩 time + 新话题）；PET 阅读：**15 篇**
+- 听力训练营（P-L0）：**1/50 课**（L01 · Part 1 · 5 题）+ SVG 图标 **44 个**（tools/gen-listening-icons.mjs 生成）+ check-listening 词汇守卫（A2 覆盖 ≥95%）
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v1.0.1**（V0.5-PET-s1；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.0**（P-L0 听力训练营；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
 - 预缓存体积：**452 KB**（壳 44 项 + 索引 9 项；P2b 新增 `utils/ket-hall-map.js` 2 KB）；`data/` 内容 2,878 KB 走运行时缓存
 - 模块互链：KET 八课 ⇄ 语法大厅 双向跳转（P2b，映射表 `assets/js/utils/ket-hall-map.js`，八课内容零改动）
 - 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读

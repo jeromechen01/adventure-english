@@ -70,7 +70,7 @@ export async function renderListeningCourse(app, params = {}) {
         <button data-mode="practice" class="opt-btn text-sm ${prefs.mode !== 'mock' ? 'ring-2 ring-primary' : ''}" style="min-height:48px">🧸 练习模式<div class="text-cap font-normal text-gray-500">可放 3 遍</div></button>
         <button data-mode="mock" class="opt-btn text-sm ${prefs.mode === 'mock' ? 'ring-2 ring-primary' : ''}" style="min-height:48px">📝 模拟模式<div class="text-cap font-normal text-gray-500">严格 2 遍</div></button>
       </div>
-      <button id="voiceLink" class="w-full text-left text-xs mt-3 rounded-2xl px-3 py-2 ${prefs.voiceOk ? 'bg-green-50 text-green-700' : 'bg-yellow-50 text-orange-700'}" style="min-height:44px">
+      <button id="voiceLink" class="w-full text-left text-xs mt-3 rounded-2xl px-3 py-2 ${prefs.voiceOk ? 'bg-green-50 text-green-700' : 'bg-yellow-50 text-orange-700'}" style="min-height:48px">
         ${prefs.voiceOk ? '✅ 语音已检查过 · 再看一眼 ›' : '🔊 还没检查过这台设备的英文语音 · 去检查 ›'}
       </button>
     </div>

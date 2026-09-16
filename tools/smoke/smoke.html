@@ -118,6 +118,11 @@
       for (const p of ['exam-hub', 'exam-plan', 'exam-knowledge', 'exam-grammar', 'exam-reading', 'exam-writing', 'exam-mock', 'exam-checkin', 'exam-resources', 'exam-report']) {
         await visit('KET', p);
       }
+      // PL0 听力训练营：首页 / L01 热身页 / 语音检查页（无头 Chrome 无英文语音 → 走降级分支，也要能渲染）
+      await visit('KET', 'exam-listening');
+      await visit('KET', 'exam-listening', { lesson: 'L01' });
+      await visit('KET', 'exam-reading', { tab: 'listening' });
+      await visit('KET', 'voice-check');
 
       // === P2b 八课 ⇄ 语法大厅 双向跳转实点 ===
       const km = await import('./assets/js/utils/ket-hall-map.js');
@@ -274,6 +279,10 @@
       for (const p of ['exam-hub', 'exam-plan', 'exam-knowledge', 'exam-grammar', 'exam-reading', 'exam-writing', 'exam-mock', 'exam-resources']) await visit('offline-KET', p);
       await visit('offline-KET', 'exam-grammar', { lesson: 'L4' });
       p2b.offlineDeepDive = [...app.querySelectorAll('[data-hall]')].map(b => b.dataset.hall).join(',') === 'G07,G14,G15';
+      // PL0 离线：听力索引在壳缓存，l01.json 在线访问过 → 内容缓存可读
+      await visit('offline-KET', 'exam-listening');
+      await visit('offline-KET', 'exam-listening', { lesson: 'L01' });
+      p2b.offlineListeningWarmup = !!app.querySelector('#startBtn');
       const offlineRoutes = out.slice(onlineCount);
       await fetch('/__online?t=' + Date.now() + Math.random()).catch(() => {});
 
