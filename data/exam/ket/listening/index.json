@@ -405,6 +405,20 @@
       "theme": "holiday",
       "file": "data/exam/ket/listening/l26.json",
       "status": "ready"
+    },
+    {
+      "id": "L27",
+      "title": "The New Boy",
+      "titleZh": "新同学",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "classmates",
+      "file": "data/exam/ket/listening/l27.json",
+      "status": "ready"
     }
   ]
 }

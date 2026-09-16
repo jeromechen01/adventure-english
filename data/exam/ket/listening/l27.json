@@ -1,0 +1,316 @@
+{
+  "$comment": "听力训练营 L27（P-L3 续跑，阶段三第七课，委婉表达段）。脚本 100% 原创；Part 3 委婉表达（It's OK, but… / I'm not sure about that；一段长对话 5 题：觉得新同学怎么样 / 对换座位什么感受 / 新同学为什么加入足球队 / 对课后辅导英语什么态度 / 觉得班级派对怎么样）+ Part 5 匹配含「先选 A 后改 B」（Poppy 告诉爸爸五个同学各帮新同学补哪一科，8 门科目 A-H 全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L27",
+  "title": "The New Boy",
+  "titleZh": "新同学",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "classmates",
+  "names": [
+    "Poppy",
+    "Ethan",
+    "Marco",
+    "Bell",
+    "Zara",
+    "Tom",
+    "Ruby",
+    "Kai"
+  ],
+  "intro": "先听 Poppy 和 Ethan 聊班上新来的男生 Marco：他是不是不友好？换座位开心吗？要不要帮他补英语？说话人常用「It's OK, but…」「I'm not sure about that」这样的委婉说法，真正的意思在后面。再听 Poppy 告诉爸爸五个同学各帮 Marco 补哪一科——有人先说了一科后来又改了，要听「最后帮的是哪一科」。8 门科目都会被提到，有 3 门没人帮。",
+  "warmup": [
+    {
+      "word": "shy",
+      "phonetic": "/ʃaɪ/",
+      "meaning": "害羞的"
+    },
+    {
+      "word": "quiet",
+      "phonetic": "/ˈkwaɪət/",
+      "meaning": "安静的"
+    },
+    {
+      "word": "understand",
+      "phonetic": "/ˌʌndəˈstænd/",
+      "meaning": "听懂；理解"
+    },
+    {
+      "word": "prefer",
+      "phonetic": "/prɪˈfɜː/",
+      "meaning": "更喜欢"
+    },
+    {
+      "word": "geography",
+      "phonetic": "/dʒiˈɒɡrəfi/",
+      "meaning": "地理"
+    },
+    {
+      "word": "history",
+      "phonetic": "/ˈhɪstri/",
+      "meaning": "历史"
+    },
+    {
+      "word": "maths",
+      "phonetic": "/mæθs/",
+      "meaning": "数学"
+    },
+    {
+      "word": "science",
+      "phonetic": "/ˈsaɪəns/",
+      "meaning": "科学"
+    },
+    {
+      "word": "spelling",
+      "phonetic": "/ˈspelɪŋ/",
+      "meaning": "拼写"
+    },
+    {
+      "word": "piano",
+      "phonetic": "/piˈænəʊ/",
+      "meaning": "钢琴"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Poppy 和 Ethan 聊新同学 Marco。五道题问的是看法、感受和理由，注意「It's OK, but…」「I'm not sure」后面才是真正的意思，也要分清「别人说」和「我觉得」。",
+      "script": [
+        {
+          "who": "Ethan",
+          "sex": "m",
+          "text": "Poppy, what do you think of Marco, the new boy? He's been here a week now."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "He's nice, I think. He's very quiet, and some people in our class say he's not friendly because he doesn't talk much. But I think he's just shy. It's hard to start at a new school."
+        },
+        {
+          "who": "Ethan",
+          "sex": "m",
+          "text": "He said something really funny in maths yesterday, so he can't be that shy. Miss Bell moved me, so I sit next to him now."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "How is that? You looked a little sad on Monday."
+        },
+        {
+          "who": "Ethan",
+          "sex": "m",
+          "text": "It's OK, but I can't talk to you in class any more, and sometimes his English is hard to understand. I'm not angry with Miss Bell. It's just different. I liked my old seat."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "You'll be fine. He told me he's going to join the football team."
+        },
+        {
+          "who": "Ethan",
+          "sex": "m",
+          "text": "Really? Is he good? Someone said his dad was a football player."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "That's just a story someone made up. He told me he isn't very good. He played basketball at his old school. He just wants to make friends quickly, and football is the fastest way."
+        },
+        {
+          "who": "Ethan",
+          "sex": "m",
+          "text": "Smart. And Miss Bell asked if you could help him with his English homework after school."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "I'm not sure about that. I'd like to help, but my own homework takes hours every night, and Mum says I go to bed too late already."
+        },
+        {
+          "who": "Ethan",
+          "sex": "m",
+          "text": "His English is already good, if you ask me. Maybe he doesn't need help."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "Maybe. There's a party for him in class on Friday. Everyone's excited. Miss Bell thought it might be too soon, but then she said yes."
+        },
+        {
+          "who": "Ethan",
+          "sex": "m",
+          "text": "A party is OK, but I think a football match with his old school would be better. He'd love that more than cake."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "Then tell Miss Bell. She might say yes to both."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What does Poppy think about Marco?",
+          "options": [
+            "He is shy.",
+            "He is not friendly.",
+            "He is funny."
+          ],
+          "answer": 0,
+          "explain": "I think he's just shy——她自己的看法是害羞。「不友好」是 some people in our class say；「好笑」是 Ethan 说他在数学课上讲了好笑的话。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Ethan feel about sitting next to Marco?",
+          "options": [
+            "He is happy about it.",
+            "He would prefer his old seat.",
+            "He is angry with the teacher."
+          ],
+          "answer": 1,
+          "explain": "It's OK, but I can't talk to you… I liked my old seat——「It's OK, but」= 不太满意，他更喜欢原来的座位。「生气」不对，I'm not angry with Miss Bell。"
+        },
+        {
+          "id": "q3",
+          "q": "Why is Marco going to join the football team?",
+          "options": [
+            "He wants to make friends.",
+            "He is good at football.",
+            "His dad was a football player."
+          ],
+          "answer": 0,
+          "explain": "He just wants to make friends quickly, and football is the fastest way——为了交朋友。「踢得好」不对，he isn't very good，以前打篮球；「爸爸是球员」是别人编的故事。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Poppy think about helping Marco with his English homework?",
+          "options": [
+            "She is happy to do it.",
+            "She thinks his English is already good.",
+            "She doesn't have enough time."
+          ],
+          "answer": 2,
+          "explain": "I'm not sure about that… my own homework takes hours every night——「I'm not sure」= 不想，原因是自己没时间。「英语已经很好」是 Ethan 说的；「乐意帮」只是客气话 I'd like to help, but。"
+        },
+        {
+          "id": "q5",
+          "q": "What does Ethan think about the party on Friday?",
+          "options": [
+            "He is excited about it.",
+            "He thinks it is too soon.",
+            "He would prefer a football match."
+          ],
+          "answer": 2,
+          "explain": "A party is OK, but I think a football match with his old school would be better——「is OK, but」，其实更想办场球赛。「兴奋」是 everyone；「太早」是 Miss Bell 一开始觉得的。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Poppy 告诉爸爸五个同学各帮 Marco 补哪一科。把每个人和右边 A-H 的科目配起来。有人先说了一科后来又改了，要听「最后帮的是哪一科」。8 门科目都会被提到，有 3 门没人帮。",
+      "options": [
+        "art",
+        "English",
+        "geography",
+        "history",
+        "maths",
+        "music",
+        "science",
+        "sport"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So Miss Bell found some people to help the new boy? I thought you said you were too busy."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "I am, so I'm not doing it. But five people said yes. Ethan wanted to help with maths at first, but Marco is better at maths than Ethan is! So Ethan is helping him with sport. He's showing him how we play football here."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good idea. Who's doing English?"
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "Zara. She reads all the time and her spelling is perfect. They're going to read a book together after school on Mondays."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Tom? He loves geography, maps and all that."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "He does, and he said geography at first. But Marco already knows more about maps than the teacher. So Tom is helping with history. Marco doesn't know anything about the kings and queens here."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Nobody does. What about Ruby?"
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "Ruby is doing science with him. They have a test next month, and she's the best in the class."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And the last one?"
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "Kai. He said art, because he thought it would be easy, but he can't draw at all! So Kai is doing music. He plays the piano, and Marco wants to learn."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Five good friends already. Marco will be fine."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ethan",
+          "answer": 7,
+          "explain": "Ethan wanted to help with maths at first, but Marco is better at maths… So Ethan is helping him with sport——先说数学，后改成体育。"
+        },
+        {
+          "id": "q7",
+          "q": "Zara",
+          "answer": 1,
+          "explain": "Who's doing English? Zara——直接说了，她拼写很好。"
+        },
+        {
+          "id": "q8",
+          "q": "Tom",
+          "answer": 3,
+          "explain": "he said geography at first. But Marco already knows more about maps… So Tom is helping with history——先说地理，后改成历史。"
+        },
+        {
+          "id": "q9",
+          "q": "Ruby",
+          "answer": 6,
+          "explain": "Ruby is doing science with him——下个月有科学测验，她是班里最好的。"
+        },
+        {
+          "id": "q10",
+          "q": "Kai",
+          "answer": 5,
+          "explain": "He said art… but he can't draw at all! So Kai is doing music——先说美术，后改成音乐。数学、地理、美术都是干扰。"
+        }
+      ]
+    }
+  ]
+}
