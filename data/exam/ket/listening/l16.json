@@ -1,0 +1,331 @@
+{
+  "$comment": "听力训练营 L16（P-L2）。脚本 100% 原创；阶段二 · Part 4 主旨三选一（5 段，相似话题干扰：五段都是俱乐部，分别讲在做什么/哪天见面/花多少钱/选哪个/外出活动）+ Part 2 笔记填空（一段独白 5 空：姓名拼读 F-O-S-T-E-R、时间、房间号、价格、地名拼读 K-I-N-G-S-L-E-Y）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 0.9x。",
+  "id": "L16",
+  "title": "Club News",
+  "titleZh": "俱乐部活动",
+  "stage": 2,
+  "rate": 0.9,
+  "parts": [
+    4,
+    2
+  ],
+  "theme": "clubs",
+  "names": [
+    "Foster",
+    "Kingsley",
+    "Mia",
+    "Ben",
+    "Anna",
+    "Jack",
+    "Tom",
+    "Lucy"
+  ],
+  "intro": "五段都在说学校俱乐部，但重点不同：在排什么节目、改到哪天、要交多少钱、选哪个、周末去哪儿。再听一段新音乐社的通知，人名和演出场地都要拼出来。",
+  "warmup": [
+    {
+      "word": "club",
+      "phonetic": "/klʌb/",
+      "meaning": "俱乐部；社团"
+    },
+    {
+      "word": "theatre",
+      "phonetic": "/ˈθɪətə/",
+      "meaning": "剧场；戏剧"
+    },
+    {
+      "word": "practise",
+      "phonetic": "/ˈpræktɪs/",
+      "meaning": "练习"
+    },
+    {
+      "word": "chess",
+      "phonetic": "/tʃes/",
+      "meaning": "国际象棋"
+    },
+    {
+      "word": "term",
+      "phonetic": "/tɜːm/",
+      "meaning": "学期"
+    },
+    {
+      "word": "camera",
+      "phonetic": "/ˈkæmərə/",
+      "meaning": "相机"
+    },
+    {
+      "word": "instrument",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "meaning": "乐器"
+    },
+    {
+      "word": "guitar",
+      "phonetic": "/ɡɪˈtɑː/",
+      "meaning": "吉他"
+    },
+    {
+      "word": "concert",
+      "phonetic": "/ˈkɒnsət/",
+      "meaning": "音乐会"
+    },
+    {
+      "word": "hall",
+      "phonetic": "/hɔːl/",
+      "meaning": "礼堂；大厅"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "I'm in the theatre club this year. This term we're doing a play about a lost dog, and I'm the dog's owner."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "We practise our songs every week, and the play is in December. My whole family is coming to watch."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What is the girl talking about?",
+          "options": [
+            "what her club is doing this term",
+            "when her club meets",
+            "how much her club costs"
+          ],
+          "answer": 0,
+          "explain": "doing a play about a lost dog / practise our songs / the play is in December——在讲社团这学期在做什么。every week 只是顺带一提，钱没说。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Anna, is chess club still on Monday? I've got football that day now."
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "No, it's moved to Wednesday, because Mr Hill teaches on Mondays now."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Wednesday is perfect. Same room?"
+        },
+        {
+          "who": "Anna",
+          "sex": "f",
+          "text": "Yes, the same room, after school as always."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What are Ben and Anna talking about?",
+          "options": [
+            "the day the chess club meets",
+            "the room the chess club uses",
+            "a chess competition"
+          ],
+          "answer": 0,
+          "explain": "still on Monday? / moved to Wednesday / Wednesday is perfect——在说改到哪天。房间没变（same room），比赛没提。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Mr Hill",
+          "sex": "m",
+          "text": "A message for everyone in cooking club. From next week, please bring two pounds each time, to pay for the food we use."
+        },
+        {
+          "who": "Mr Hill",
+          "sex": "m",
+          "text": "It was free before, but food is more expensive now. If two pounds is a problem, come and talk to me."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What is the man talking about?",
+          "options": [
+            "the cost of the cooking club",
+            "what the club will cook next week",
+            "who teaches the cooking club"
+          ],
+          "answer": 0,
+          "explain": "bring two pounds each time / it was free before / more expensive——在说要交钱。做什么菜、谁来教都没说。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短对话，选出他们在讲什么。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Tom, which club are you joining? I can't choose between art and swimming."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Swimming is on Tuesday, and we've got music then. So I'm doing art."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Oh, I forgot about music. Art it is, then."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Great, we can sit together. It's in the room next to the library."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What are Jack and Tom talking about?",
+          "options": [
+            "which club to join",
+            "a swimming race",
+            "their music lesson"
+          ],
+          "answer": 0,
+          "explain": "which club are you joining / can't choose between art and swimming / art it is——在选社团。游泳和音乐只是选择的理由。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短话，选出说话的人在讲什么。",
+      "script": [
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Photo club, listen. On Saturday we're going to the park to take pictures of the birds and the lake."
+        },
+        {
+          "who": "Teacher",
+          "sex": "f",
+          "text": "Meet at the school gate at ten with your camera. Wear warm clothes, we'll be outside for two hours."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What is the teacher telling the photo club?",
+          "options": [
+            "about a trip on Saturday",
+            "about a photo competition",
+            "about buying a new camera"
+          ],
+          "answer": 0,
+          "explain": "going to the park to take pictures / meet at the school gate at ten——在说周六的外出活动。没有比赛，也不是买相机。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "听一段新社团的通知，把笔记补全。老师的名字和演出的地方会拼出来。",
+      "script": [
+        {
+          "who": "Mr Foster",
+          "sex": "m",
+          "text": "Hello, everyone. I'm Mr Foster, that's F-O-S-T-E-R, and I'm starting a new music club this term."
+        },
+        {
+          "who": "Mr Foster",
+          "sex": "m",
+          "text": "The club is every Thursday. School finishes at half past three, and we start at quarter to four, so you have time for a drink first."
+        },
+        {
+          "who": "Mr Foster",
+          "sex": "m",
+          "text": "We meet in room fourteen, the big music room. Not room four, that's too small for all the instruments."
+        },
+        {
+          "who": "Mr Foster",
+          "sex": "m",
+          "text": "The club costs fifteen pounds for the whole term. Last year it was twenty, but the school is paying for the new guitars."
+        },
+        {
+          "who": "Mr Foster",
+          "sex": "m",
+          "text": "Our first concert is in March, at Kingsley Hall in the town. That's K-I-N-G-S-L-E-Y. It has room for many more people than the school hall."
+        },
+        {
+          "who": "Mr Foster",
+          "sex": "m",
+          "text": "If you want to join, write your name on the list outside the music room by Friday. See you on Thursday!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Music Club — Teacher: Mr ______",
+          "answer": "Foster",
+          "explain": "I'm Mr Foster, that's F-O-S-T-E-R，照拼读写。"
+        },
+        {
+          "id": "q7",
+          "q": "Starts at: ______",
+          "answer": "3:45",
+          "alt": [
+            "3.45",
+            "quarter to four",
+            "three forty-five",
+            "three forty five"
+          ],
+          "explain": "we start at quarter to four = 3:45。half past three 是放学时间。"
+        },
+        {
+          "id": "q8",
+          "q": "Room: ______",
+          "answer": "14",
+          "alt": [
+            "fourteen"
+          ],
+          "explain": "we meet in room fourteen = 14。room four 被 not 否定。"
+        },
+        {
+          "id": "q9",
+          "q": "Cost for the term: £______",
+          "answer": "15",
+          "alt": [
+            "fifteen",
+            "£15",
+            "fifteen pounds"
+          ],
+          "explain": "fifteen pounds for the whole term = 15。twenty 是去年的价格。"
+        },
+        {
+          "id": "q10",
+          "q": "First concert at: ______ Hall",
+          "answer": "Kingsley",
+          "explain": "at Kingsley Hall … That's K-I-N-G-S-L-E-Y。不是 school hall。"
+        }
+      ]
+    }
+  ]
+}

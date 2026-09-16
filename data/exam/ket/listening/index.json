@@ -237,6 +237,20 @@
       "theme": "phone",
       "file": "data/exam/ket/listening/l15.json",
       "status": "ready"
+    },
+    {
+      "id": "L16",
+      "title": "Club News",
+      "titleZh": "俱乐部活动",
+      "stage": 2,
+      "parts": [
+        4,
+        2
+      ],
+      "questionCount": 10,
+      "theme": "clubs",
+      "file": "data/exam/ket/listening/l16.json",
+      "status": "ready"
     }
   ]
 }
