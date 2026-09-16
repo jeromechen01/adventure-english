@@ -1,0 +1,311 @@
+{
+  "$comment": "听力训练营 L21（P-L3 阶段三样课，匹配题型首次投入真课）。脚本 100% 原创；阶段三 · Part 3 观点态度三选一（一段长对话 5 题：为什么选美术班 / 觉得老师怎么样 / 为什么不能踢球 / 觉得象棋怎么样 / 为什么不上烹饪班，观点直说）+ Part 5 匹配（一段长对话，5 个朋友配 8 个课外班 A-H，8 个班全部被提到，3 个是干扰）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x（真考速度）。",
+  "id": "L21",
+  "title": "Choosing a Club",
+  "titleZh": "选课外班",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "clubs",
+  "names": [
+    "Lucy",
+    "Sam",
+    "Green",
+    "Anna",
+    "Ben",
+    "Emma",
+    "Jack",
+    "Rosa"
+  ],
+  "intro": "阶段三第一课，语速提到 1.0x，和真考一样快。先听 Lucy 和 Sam 商量选哪个课外班，题目问的是「为什么」「觉得怎么样」，答案要听人物自己说的理由和态度；再听 Lucy 告诉爸爸五个朋友各选了什么班，把人和班配起来——8 个班都会被提到，有 3 个没人选。",
+  "warmup": [
+    {
+      "word": "club",
+      "phonetic": "/klʌb/",
+      "meaning": "课外班；俱乐部"
+    },
+    {
+      "word": "term",
+      "phonetic": "/tɜːm/",
+      "meaning": "学期"
+    },
+    {
+      "word": "form",
+      "phonetic": "/fɔːm/",
+      "meaning": "表格"
+    },
+    {
+      "word": "chess",
+      "phonetic": "/tʃes/",
+      "meaning": "国际象棋"
+    },
+    {
+      "word": "guitar",
+      "phonetic": "/ɡɪˈtɑː/",
+      "meaning": "吉他"
+    },
+    {
+      "word": "poster",
+      "phonetic": "/ˈpəʊstə/",
+      "meaning": "海报"
+    },
+    {
+      "word": "science",
+      "phonetic": "/ˈsaɪəns/",
+      "meaning": "科学"
+    },
+    {
+      "word": "swimming pool",
+      "phonetic": "/ˈswɪmɪŋ puːl/",
+      "meaning": "游泳池"
+    },
+    {
+      "word": "difficult",
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "meaning": "困难的"
+    },
+    {
+      "word": "exercise",
+      "phonetic": "/ˈeksəsaɪz/",
+      "meaning": "锻炼；运动"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Lucy 和 Sam 商量这学期选什么课外班。五道题问的是理由和看法，注意每个人自己怎么说。",
+      "script": [
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Hi Lucy. Have you chosen your club for this term? We have to give the form to Mr Green tomorrow."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Yes, I'm going to do the art club again. I know some people think it's boring, but I love painting. It's the best hour of my week."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "You did that last year too. Is it because your best friend is in it?"
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "No, she's doing dance this year. I just like painting, that's all. And the teacher is great. Some people say she isn't very friendly, but she always helps you when you have a problem."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "That's good. I wanted to do football, but it's on Wednesdays, and I have my guitar lesson then. So I'm thinking about chess."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Chess? I went to chess club last year. I found it really difficult, you have to think so hard! I stopped after three weeks."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "My brother plays, and he says it's easy when you know how to play. He can teach me at home first."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "OK. What about the cooking club? It's new this year. My cousin did it at her school and she says it's fun."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "I saw the poster. It's on Fridays, which is fine, but it costs five pounds a week because you pay for the food. That's too much for me."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Really? I didn't know that. And the swimming club is free. Are you going to do that as well?"
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "No. The swimming pool is cold in winter, and I don't like getting wet after school. I'll just do chess."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Fine. Let's give our forms to Mr Green together tomorrow morning, before the first lesson."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Good idea. See you at the school gate at half past eight."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why is Lucy going to do the art club again?",
+          "options": [
+            "Her best friend is in it.",
+            "She enjoys painting.",
+            "She wants to be an artist."
+          ],
+          "answer": 1,
+          "explain": "I love painting. It's the best hour of my week——她自己说的理由是喜欢画画。Sam 问是不是因为好朋友，Lucy 说 No, she's doing dance；当画家没有提到。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Lucy think of the art teacher?",
+          "options": [
+            "She always helps.",
+            "She is not very friendly.",
+            "She is new this year."
+          ],
+          "answer": 0,
+          "explain": "Some people say she isn't very friendly, but she always helps you——「有人说她不友好」是别人的看法，but 后面才是 Lucy 自己的看法：总是帮你。「新来的」说的是烹饪班，不是老师。"
+        },
+        {
+          "id": "q3",
+          "q": "Why can't Sam do football?",
+          "options": [
+            "It costs too much.",
+            "He isn't good at it.",
+            "He has a guitar lesson on the same day."
+          ],
+          "answer": 2,
+          "explain": "football… it's on Wednesdays, and I have my guitar lesson then——足球和吉他课撞在周三。太贵说的是烹饪班；踢得好不好没提。"
+        },
+        {
+          "id": "q4",
+          "q": "What did Lucy think of chess last year?",
+          "options": [
+            "It was hard.",
+            "It was fun.",
+            "It was boring."
+          ],
+          "answer": 0,
+          "explain": "I found it really difficult, you have to think so hard! I stopped after three weeks——difficult = hard。「无聊」是别人对美术班的说法；「好玩」是表姐说烹饪班。"
+        },
+        {
+          "id": "q5",
+          "q": "Why isn't Sam going to do the cooking club?",
+          "options": [
+            "It is on the wrong day.",
+            "It costs too much.",
+            "He doesn't like cooking."
+          ],
+          "answer": 1,
+          "explain": "It's on Fridays, which is fine, but it costs five pounds a week… That's too much for me——日子没问题，是钱的问题。喜不喜欢做饭没说。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Lucy 告诉爸爸五个朋友各选了什么课外班。把每个人和右边 A-H 的班配起来。8 个班都会被提到，有 3 个没人选——注意听「谁最后选了什么」。",
+      "options": [
+        "art",
+        "chess",
+        "cooking",
+        "dance",
+        "football",
+        "guitar",
+        "science",
+        "swimming"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So, Lucy, did all your friends choose a club today?"
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Yes, Dad. Anna is doing dance. She already has dance lessons in town, so she'll be the best in the class."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "That sounds right for her. What about Ben? He's good at football."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "He is, but the football club was full. He's doing cooking. He says he wants to make pizza for his family."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Pizza! Nice. And Emma? She's your quiet friend, isn't she?"
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Yes. Emma chose chess. Her dad plays with her at home every evening, so she plays very well."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Jack? I think he plays the guitar."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "He does, but he has guitar lessons at home. At school he's doing science. They're going to learn about the stars and the planets."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "That sounds interesting. And Rosa? Is she in the art club with you?"
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "No, she wanted to, but she's doing swimming. Her mum says she needs more exercise."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Well, that's everyone. Now, tell me about your art club."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Anna",
+          "answer": 3,
+          "explain": "Anna is doing dance——直接说了。她在镇上上舞蹈课是补充信息。"
+        },
+        {
+          "id": "q7",
+          "q": "Ben",
+          "answer": 2,
+          "explain": "He's good at football, but the football club was full. He's doing cooking——足球是干扰，最后选的是烹饪。"
+        },
+        {
+          "id": "q8",
+          "q": "Emma",
+          "answer": 1,
+          "explain": "Emma chose chess——她爸爸每晚陪她下棋，所以她下得很好。"
+        },
+        {
+          "id": "q9",
+          "q": "Jack",
+          "answer": 6,
+          "explain": "he plays the guitar, but he has guitar lessons at home. At school he's doing science——吉他是干扰，在学校选的是科学。"
+        },
+        {
+          "id": "q10",
+          "q": "Rosa",
+          "answer": 7,
+          "explain": "Is she in the art club? No… she's doing swimming——美术是干扰（那是 Lucy 自己的班），Rosa 选的是游泳。"
+        }
+      ]
+    }
+  ]
+}
