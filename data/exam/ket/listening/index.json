@@ -27,14 +27,14 @@
       "name": "阶段二 · 加速",
       "rate": 0.9,
       "range": "L11-L30",
-      "desc": "加入 Part 2 填空与 Part 3 三选一。语速 0.9x。"
+      "desc": "加入 Part 4 主旨三选一与 Part 2 笔记填空。语速 0.9x。"
     },
     {
       "stage": 3,
       "name": "阶段三 · 全卷",
       "rate": 1,
       "range": "L31-L50",
-      "desc": "Part 4 主旨与 Part 5 匹配，五部分连做。语速 1.0x。"
+      "desc": "Part 3 观点态度与 Part 5 匹配，五部分连做。语速 1.0x。"
     }
   ],
   "lessons": [

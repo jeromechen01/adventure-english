@@ -342,9 +342,12 @@ export function pickDialogueVoices(voices) {
 }
 
 // 逐 turn 朗读对话：turns = [{ sex:'m'|'f', text }]，turn 之间停 gap 毫秒（默认 700，规范 0.6-0.8 秒）。
+// ★ 文本里的拼读串（"That's B-R-O-W-N"）拆成逐字母朗读，字母之间停 letterGap 毫秒（默认 350）——Part 2 姓名/地名拼写题用。
 // 只提供「播放 / 取消」——iOS 的 speechSynthesis.pause/resume 不可靠，故意不做拖动与暂停。
 // 返回 { cancel() }；onTurn(i) 每段开始时回调，onEnd(finished:boolean) 结束或取消时回调一次。
 let dialogueSeq = 0;
+// 拼读串：≥2 个单字母用连字符串起来（"B-R-O-W-N"、"S-A-M"）；split 用捕获组把它留在奇数位
+const SPELL_RE = /\b([A-Za-z](?:-[A-Za-z])+)\b/;
 const utterKeep = []; // Chrome 会在 utterance 被 GC 后不触发 onend，先攥住引用
 export function speakDialogue(turns, options = {}) {
   const seq = ++dialogueSeq;
@@ -371,12 +374,27 @@ export function speakDialogue(turns, options = {}) {
   }
   try { window.speechSynthesis.cancel(); } catch (e) { /* 忽略 */ }
 
+  // ★ P-L2：拼读串 "B-R-O-W-N" 拆成逐字母 utterance（整串交给 TTS 会被读成一个怪词），字母之间停 letterGap（默认 350ms）；
+  //   同一 turn 内正文与拼读串之间也只停 letterGap，turn 之间才停 gap；每个 chunk 记住所属 turn，onTurn 仍按 turn 回调一次
+  const letterGap = options.letterGap == null ? 350 : options.letterGap;
+  const chunks = [];
+  turns.forEach((t, ti) => {
+    const segs = String(t.text).split(SPELL_RE);
+    segs.forEach((seg, k) => {
+      if (k % 2 === 1) seg.split('-').forEach(L => chunks.push({ turn: ti, t, text: L.toUpperCase() + '.', gap: letterGap }));
+      else if (seg.replace(/^[\s,;:]+/, '').trim()) chunks.push({ turn: ti, t, text: seg.replace(/^[\s,;:]+/, '').trim(), gap: letterGap }); // 拼读串后面残留的逗号不单独开口
+    });
+    if (!chunks.length || chunks[chunks.length - 1].turn !== ti) chunks.push({ turn: ti, t, text: String(t.text), gap });
+    chunks[chunks.length - 1].gap = gap;
+  });
+
   const playTurn = (i) => {
     if (ended || seq !== dialogueSeq) return;
-    if (i >= turns.length) return finish(true);
-    const t = turns[i];
+    if (i >= chunks.length) return finish(true);
+    const c = chunks[i];
+    const t = c.t;
     const slot = t.sex === 'm' ? voices.m : voices.f;
-    const u = new SpeechSynthesisUtterance(t.text);
+    const u = new SpeechSynthesisUtterance(c.text);
     u.lang = (slot.voice && slot.voice.lang) || 'en-GB';
     if (slot.voice) u.voice = slot.voice;
     u.rate = rate;
@@ -387,7 +405,7 @@ export function speakDialogue(turns, options = {}) {
       if (moved || ended) return;
       moved = true;
       clearTimeout(guard);
-      timer = setTimeout(() => playTurn(i + 1), gap);
+      timer = setTimeout(() => playTurn(i + 1), c.gap);
     };
     u.onend = next;
     u.onerror = (ev) => {
@@ -397,10 +415,10 @@ export function speakDialogue(turns, options = {}) {
       next();
     };
     // 兜底：个别平台不触发 onend（无声音/合成失败），按字数估时长后强制推进，避免播放态卡死
-    const est = Math.min(20000, Math.max(2500, t.text.length * 90 / rate)) + 2500;
+    const est = Math.min(20000, Math.max(2500, c.text.length * 90 / rate)) + 2500;
     guard = setTimeout(next, est);
     utterKeep.push(u);
-    if (options.onTurn) { try { options.onTurn(i, t); } catch (e) { /* 忽略 */ } }
+    if ((i === 0 || chunks[i - 1].turn !== c.turn) && options.onTurn) { try { options.onTurn(c.turn, t); } catch (e) { /* 忽略 */ } }
     try { window.speechSynthesis.speak(u); } catch (e) { next(); }
   };
   // cancel() 之后立刻 speak 在部分 Chrome 版本会被吞掉，稍等再开口

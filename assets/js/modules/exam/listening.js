@@ -1,7 +1,7 @@
 // modules/exam/listening.js —— KET 听力训练营（PL0-2 引擎）
 // 课结构固定四步：① 听前热身 → ② 盲听答题 → ③ 对答案 + tapescript → ④ 跟读（LCS 词级打分）。
 // 题型严格对齐 KET 真考五部分（不自创）：
-//   Part 1 三图单选（SVG 图标）/ Part 2 填空（拼写必须全对，数字可写阿拉伯数字或英文数字词）/
+//   Part 1 三图单选（SVG 图标）/ Part 2 填空（拼写必须全对，数字可写阿拉伯数字或英文数字词，时间 7.30/7:30/half past seven 等价）/
 //   Part 3·4 三选一 / Part 5 匹配（5 项配 A-H 8 选项）。
 // ★ 两遍机制：每段录音重放上限 2 次（模拟模式）；练习模式放宽到 3 次并标注「练习模式」。
 // ★ 播放器只做播放/重放，不做拖动暂停（iOS speechSynthesis.pause/resume 不可靠）。
@@ -505,9 +505,35 @@ function numberize(s) {
   return String(total + cur);
 }
 
+// 时间写法归一（P-L2）："7.30" / "7:30" / "7 30" / "half past seven" / "seven thirty" / "quarter to eight" / "7 o'clock"
+// → 统一成 "7:30" 形；整点去掉 ":00"（"7:00" / "seven o'clock" / "7" 等价，对齐真考 key 的 7 / 7.00 写法）。不是时间返回 null
+const HOUR_WORDS = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, eleven: 11, twelve: 12 };
+const MIN_WORDS = { five: 5, ten: 10, quarter: 15, twenty: 20, 'twenty-five': 25, half: 30 };
+function timeize(s) {
+  const t = s.replace(/\b(am|pm|a\.m|p\.m|in the (morning|afternoon|evening))\b\.?/g, ' ').replace(/\s+/g, ' ').trim();
+  const fmt = (h, m) => (h < 0 || h > 24 || m < 0 || m > 59) ? null : (m === 0 ? String(h) : `${h}:${String(m).padStart(2, '0')}`);
+  const hourOf = (x) => (/^\d/.test(x) ? Number(x) : HOUR_WORDS[x]);
+  let m;
+  if ((m = t.match(/^(\d{1,2})\s*[.:h ]\s*(\d{2})$/))) return fmt(Number(m[1]), Number(m[2]));           // 7.30 / 7:30 / 7 30
+  if ((m = t.match(/^(\d{1,2}|[a-z]+) o'?clock$/))) { const h = hourOf(m[1]); return h == null ? null : fmt(h, 0); }
+  if ((m = t.match(/^(half|quarter|five|ten|twenty|twenty[- ]five) (past|to) (\d{1,2}|[a-z]+)$/))) {      // half past seven / quarter to eight
+    const mins = MIN_WORDS[m[1].replace(' ', '-')]; let h = hourOf(m[3]);
+    if (mins == null || h == null) return null;
+    if (m[2] === 'to') { h = h === 1 ? 12 : h - 1; return fmt(h, 60 - mins); }
+    return fmt(h, mins);
+  }
+  if ((m = t.match(/^([a-z]+) ([a-z]+(?:[- ][a-z]+)?)$/)) && HOUR_WORDS[m[1]] != null) {                    // seven thirty / eight forty-five
+    const mins = numberize(m[2]); return mins == null ? null : fmt(HOUR_WORDS[m[1]], Number(mins));
+  }
+  return null;
+}
+
 // Part 2 填空规范化：大小写不敏感、首尾空格容错、内部多空格合一、去掉句末句号；★ 拼写必须完全正确
+// 数字词 ↔ 阿拉伯数字互认（seven = 7），时间三种写法互认（7.30 = 7:30 = half past seven）
 export function normalizeGap(s) {
-  let t = String(s == null ? '' : s).trim().toLowerCase().replace(/\s+/g, ' ').replace(/[.。]+$/, '').trim();
+  const t = String(s == null ? '' : s).trim().toLowerCase().replace(/\s+/g, ' ').replace(/[.。]+$/, '').trim();
+  const tm = timeize(t); // 先认时间："seven thirty" 是 7:30，不能被数字词加法吃成 37
+  if (tm != null) return tm;
   const n = numberize(t);
   return n != null ? n : t;
 }

@@ -38,6 +38,7 @@ const IRREGULAR = { fell: 'fall', fallen: 'fall', went: 'go', gone: 'go', got: '
 
 function inLex(w) {
   if (LEX.has(w) || FUNCTION_WORDS.has(w)) return true;
+  if (w.includes('-')) return w.split('-').every(x => x && inLex(x)); // twenty-one / well-known：连字符复合词按各部分认（P-L2）
   if (IRREGULAR[w] && (LEX.has(IRREGULAR[w]) || FUNCTION_WORDS.has(IRREGULAR[w]))) return true;
   if (/^\d+([.:]\d+)?$/.test(w)) return true;
   const c = [];
@@ -57,7 +58,8 @@ function inLex(w) {
 
 // 文本 → 词元数组（先吃掉多词条目，再逐词）；names 里的人名跳过
 function tokenize(text, names) {
-  let s = ' ' + deaccent(String(text)).replace(/[’]/g, "'").replace(/[^A-Za-z0-9' .:-]/g, ' ') + ' ';
+  // P-L2：拼读串 "B-R-O-W-N" 是逐字母朗读不是词，整串跳过
+  let s = ' ' + deaccent(String(text)).replace(/\b[A-Za-z](?:-[A-Za-z])+\b/g, ' ').replace(/[’]/g, "'").replace(/[^A-Za-z0-9' .:-]/g, ' ') + ' ';
   const nameSet = new Set((names || []).map(n => n.toLowerCase()));
   s = s.toLowerCase().replace(/[a-z]+'[a-z]+/g, m => CONTRACTIONS[m] || m);
   const found = [];
