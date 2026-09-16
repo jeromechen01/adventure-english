@@ -1182,6 +1182,44 @@
 
 ---
 
+## P-L3 样课：听力阶段三 L21 + 索引改五阶段（缓存 `ea-v1.1.4`，2026-09-16，✅ 21/50 课，⏸ 硬停机等家长手机验收匹配题型与 1.0x 真速，禁止进入 L22）
+
+> 家长验收阶段二后开工。**只产数据 + 索引/Schema，引擎零改动**（`listening.js` / `speech.js` / `check-listening.mjs` 本批未动）。脚本 100% 原创、官方音频/tapescript/样卷一字不读；音频只用 Web Speech 实时合成不入库；八课数据零改动（untouched 对 `tools/backup/pl4/` 全过）。
+
+### 单元 0 · 索引改五阶段（家长拍板，commit e6365e4）
+- [x] `index.json` stages 3 → **5**：一 L01-L10 · 0.8x · Part 1 选图 / 二 L11-L20 · 0.9x · Part 4 主旨 + Part 2 填空 / 三 L21-L35 · 1.0x · Part 3 观点态度 + Part 5 匹配（名「真速」）/ 四 L36-L45 · 1.0x · 五部分混合 / 五 L46-L50 · 1.0x · 全真模拟；两份 Schema（index / lesson）`stage` 上限 3 → 5；`check-listening` 按阶段核 rate（L21 rate 1 ✔）
+- [x] 训练营首页跟着变：五段标题 + 各段范围；阶段四/五空段显示「这一阶段的课还在准备中」（行为级实测）；index 在壳预取清单 → 本批 bump
+
+### 单元 1 · L21 选课外班 Choosing a Club（commit 45d96f1，格式基线 = l11/l20.json + Part 5 段加 `options`）
+| 段 | 规格 | 内容 | 答案 |
+|---|---|---|---|
+| Part 3 | 一段长对话 13 轮 · 5 题各 3 文字选项 · 观点直说 | Lucy 和 Sam 商量选课外班：为什么再选美术班（喜欢画画；干扰：好朋友在班里 → 她今年跳舞 / 当画家没提）/ 觉得美术老师怎样（总是帮忙；干扰：别人说她不友好 / 「新」的是烹饪班）/ 为什么不能踢球（撞周三吉他课；干扰：太贵是烹饪班）/ 去年觉得象棋怎样（难；干扰：boring 是别人说美术 / fun 是表姐说烹饪）/ 为什么不上烹饪班（£5 一周太贵；干扰：周五没问题） | B A C A B |
+| Part 5 | 一段长对话 11 轮 · 5 人配 8 班 A-H · 匹配直给 | Lucy 告诉爸爸五个朋友选了什么：Anna 舞蹈 / Ben 烹饪（足球满了）/ Emma 象棋 / Jack 科学（吉他在家学）/ Rosa 游泳（想去美术但那是 Lucy 的班）；选项 art · chess · cooking · dance · football · guitar · science · swimming，**8 个全部被提到**，干扰 art / football / guitar | D C B G H |
+
+- [x] 词汇 A2 覆盖 **100%（573/573）**，warmup 10 词（club / term / form / chess / guitar / poster / science / swimming pool / difficult / exercise）
+- [x] 判分自测（临时脚本）：Part 3 answer 0-2 且分布 [1,0,2,0,1] 不全同字母 / Part 5 8 选项 + 5 题 answer 0-7 不重复 / 8 个选项与 5 个人名全部在对话里出现 / 题号 q1-q10 唯一 / explain 全含中文
+- [x] 词汇踩坑新增（不在 A2 表、也不能进 warmup）：`strict / stuck / tried / rule(s) / helpful / bit` → 绕法 not very friendly / have a problem / went to … last year / know how to play / always helps；`pool` 仍靠 `swimming pool` 短语进 warmup
+
+### 收尾（本 commit）
+- [x] preflight 五项 ✔（ESM 42 / Schema 23 + 编码 169 文件 / 听力 **21 课** / sw 登记 / ketLessonMap 50 课）；八课 untouched 对 `tools/backup/pl4` ✔
+- [x] ★ **行为级 L21 全流程 + 匹配专项**（临时页 `_pl3check.html`，从课文件自动取答案，跑完已删、alias 已撤）三跑 默认宽 / ?w=360 / ?w=360&novoice=1，各 **39 项 0 失败、0 console 错误**：热身 10 词逐词发音 · Part 3 一段 13 utterance 男女两声、utterance rate **1**（对答案页「语速 1x」）、turn 间隔实测 731-761ms、播放先 disabled 后恢复 · Part 3 五题 × 3 文字选项 15 个按钮 · **Part 5 页：8 个选项 A-H 两列网格 + 5 行「人名 + 下拉」，下拉 9 项（— + A-H），实测高 48 / 宽 96 / 360 宽下右边界 322、行高 48、零溢出** · 四轮判分：① 全对 10/10 绿卡 10 ② Part 3 全错 + Part 5 五项全选 A（**同一选项被选多次：引擎逐项判分、允许重复，与真考同一字母可重复填写一致**）→ 0/10 红卡 10、对答案页「我的答案 A. art / 正确答案 D. dance」、错题本 10 条（Part 5 五条 picked `A. art` / correct `D. dance` 形、options 8 项、q `[听力 Part 5 匹配] Anna`；Part 3 五条 `[听力 Part 3 三选一]`）③ Part 5 留两空（Jack / Rosa）交卷 → toast「还有 2 题没作答，也可以直接交卷」+ 按钮变「📝 确定交卷」+ 已选 D C B 不丢 → 再点 8/10、两空显示「（没作答）」 ④ Ben 也选 D（部分重复）→ 9/10 只 Ben 红卡「D. dance / C. cooking」 · 对答案页 2 段 tapescript 24 轮 + 再听键 · 训练营首页五阶段标题、L11-L20 / L21-L35 / L36-L45 / L46-L50 范围、两段「还在准备中」、「已上线 21 课」、L21 行「Part 3 + Part 5 · 10 题 · 最好 100%（练过 4 次）」
+- [x] **无语音降级复测**（novoice：getVoices 返回空）：播放态 `#noVoiceHint` 出现、按钮仍先 disabled 后恢复、单声、四轮判分与有声完全一致
+- [x] 三件套（真实时钟、每页全新 profile）：smoke **49 在线 + 36 离线零失败**（+2：在线 L21、离线 L21 热身页），唯一 console error 为预期 g51 探针；sw-check：唯一缓存 `english-adventure-ea-v1.1.4`、壳 61 项、离线内容/索引/壳 JS 命中、未缓存 504、清内容缓存不动壳 ✔；modal-check 默认宽 + ?w=360 **0 false**（⑨ 听力答题态全绿）
+- [x] 窄屏 shot ?w=360：训练营首页（五阶段）/ L21 Part 3 页（`&click=%23startBtn`）/ **Part 5 匹配页**（+`%23nextBtn`）/ 对答案页（+3×`%23nextBtn`，含空题二次确认）+ Part 5 页 **?w=320** —— **5 张零溢出零小热区**
+- [x] sw → **ea-v1.1.4**（索引改五阶段 + 新课）
+- 本批 commit：e6365e4 索引五阶段 + Schema → 45d96f1 L21 → 收尾（sw + smoke 用例 + CHECKLIST + 交接文档）
+
+### 📌 P-L3 续跑说明（L22-L35，家长验收 L21 后开工；本说明取代上一批的 P-L3 说明）
+- 家长验收要点（L21 已覆盖）：8 选项两列网格 + 5 个下拉在手机上好不好点、1.0x 跟不跟得上、错题本匹配题 `A. xxx` 文本；家长若要改匹配 UI（比如下拉换按钮矩阵）属引擎改动，另开批次不混进产课
+- 坡度（任务书口径）：**L22-L25** Part 3 观点直说（I think it's boring）+ Part 5 匹配直给；**L26-L30** Part 3 委婉表达（It's OK, but… = 不太喜欢）+ Part 5「先选 A 后改 B」；**L31-L35** Part 3 需综合两句判断 + Part 5 干扰项被反复提到，接近真考
+- 题材（任务书口径，一课一场景）：L22 周末去哪玩 / L23 买生日礼物 / L24 看电影 / L25 学校社团 / L26 假期旅行 / L27 新同学 / L28 家庭聚餐 / L29 运动比赛 / L30 宠物 / L31 搬家 / L32 学乐器 / L33 露营 / L34 科技产品 / L35 志愿活动
+- 规格：每课 `parts [3, 5]`、10 题、stage 3、rate 1；Part 3 一段 11-15 轮 5 题各 3 文字选项，answer 分布不要全同一字母；Part 5 一段 10-13 轮 + `options` 8 个 + 5 题 answer 0-7 不重复；**8 个选项全部在对话里出现、5 个项目名全部出现**；项目名直接写人名（登记 `names`），错题本题面自动为 `[听力 Part 5 匹配] Anna`；options 用 A2 单词（L22-L25）→ 短语（L31-L35）
+- 判分自测脚本照本批：answer 分布 / Part 5 不重复 / 选项全出现 / 人名全出现 / explain 含中文（Part 3/5 只比 answer 索引，没有填空归一化）
+- 词汇踩坑：本批新增 strict / stuck / tried / rule(s) / helpful / bit（见单元 1），P-L2 踩坑表继续有效；每课 `node tools/check-listening.mjs L2X` 必须 ≥95% 且超纲词全进 warmup
+- 工艺同 P-L2：一课一 commit；收尾 preflight（含 ⑤）+ untouched（备份在 `tools/backup/pl4/`）+ 三件套 + 窄屏 shot（Part 5 页 ?w=360）+ 行为级页（本批 `_pl3check.html` 写法：**`Object.defineProperty` 覆盖 speechSynthesis**（环境坑 15）+ 从课文件取答案自动跑四轮）+ 无语音 + sw bump + push 后硬停机
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
@@ -1198,6 +1236,7 @@
 11. **`data/grammar/index.json` 在 sw 壳缓存预取清单里（sw.js:73），走 cache-first。** 凡是新增/修改课程导致 index.json 变动，必须同时 bump CACHE_VERSION，否则老客户端读到旧索引、新课在目录里根本不出现（课文件已上线也看不到），是静默失效，不报错。
 12. **无头 Chrome 测完必须确认进程真的退光**（`Get-CimInstance Win32_Process` 按 CommandLine 里的 `eap` 过滤）——残留的无头实例会占住 `--user-data-dir` 锁，下一轮启动只是把 URL 递给旧实例然后退出，页面根本没加载，结果文件永远等不到。bash 里 `kill $!` 只杀得掉启动壳，杀不掉 Chrome 子进程树。
 13. **虚拟时钟跑法（`--virtual-time-budget` + shot.html/modal-check）速度快、自动退出，但会产生几何测量伪差**——热区/尺寸类断言（如 hot48）报 false 时必须用真实时钟（`Start-Process` + 轮询结果文件）单页复测确认，不能直接采信（B1 中 gradePicker hot48:false 即为伪差，真实时钟为 true）。同族坑：测量页不带 Tailwind 会几何失真（坑 6 注）、无头 Chrome viewport 最小约 492px（坑 6）、virtual-time-budget 挂住 SW 线程（坑 5，验 SW 时禁用虚拟时钟）。
+15. **行为级页 mock 语音：`window.speechSynthesis` 是只读访问器，`window.speechSynthesis = mock` 会被静默忽略**（P-L3 首跑 utterances=0，实际跑成了真无语音路径，断言全错）——必须 `Object.defineProperty(window, 'speechSynthesis', { value: mock, configurable: true })`；`SpeechSynthesisUtterance` 可直接赋假类。另：无语音路径 `waitForVoices` 要等满 1500ms 才开口，热身点词后断言前要等 ≥1.7s，否则那条 utterance 会串进下一段的计数。
 14. **无头 Chrome 收尾 Stop-Process 必须同时过滤 `Name -eq 'chrome.exe'`**——只按 CommandLine 含 profile 名过滤会把正在跑这条命令的 shell/pwsh 自己也杀掉（它的命令行里就有那个 profile 名），表现为工具直接退出码 255、一行输出都没有、Chrome 反而留下来（P-L0 踩过三次）。真实时钟跑法在本环境用 PowerShell `Start-Process` + 轮询 result.json + 上述过滤杀进程最稳；bash 里 `( chrome … & )` 子壳后台偶发根本没起来。
 
 ---
@@ -1237,12 +1276,12 @@
 ## 📊 统计
 
 - JS 模块：**42 个**（assets/js，check-esm 计数；P-L0 新增 modules/voice-check.js + modules/exam/listening.js，全部 check-esm 通过）+ `sw.js`
-- 数据文件：**168 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema；P-L1 +9：L02-L10；P-L2 +10：L11-L20）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
+- 数据文件：**169 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema；P-L1 +9：L02-L10；P-L2 +10：L11-L20；P-L3 +1：L21）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
 - 语法大厅：**50/50 课全部完工**（基石 G01-G12 + 骨架 G13-G26 + 进阶 G27-G42 + 精修 G43-G50，共 3200 题 + 352 侦探病句 = 3552 个题干全局无重复）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2571 词 / 22 话题**（V0.5-PET-s1 第 1 会话后，第 2 会话续扩 time + 新话题）；PET 阅读：**15 篇**
-- 听力训练营（P-L0 ~ P-L2）：**20/50 课**（阶段一 L01-L10 · Part 1 · 每课 5 题，共 50 题；阶段二 L11-L20 · Part 4 主旨 + Part 2 填空 · 每课 10 题，共 100 题）+ SVG 图标 **81 个 / 10 类**（tools/gen-listening-icons.mjs 生成，清单见 P-L1「★ 图标清单」）+ check-listening 词汇守卫（A2 覆盖 ≥95%，20 课实测 18 课 100%、L15/L19 99%+）
+- 听力训练营（P-L0 ~ P-L3）：**21/50 课**，索引五阶段（一 L01-L10 · Part 1 · 每课 5 题，共 50 题；二 L11-L20 · Part 4 主旨 + Part 2 填空 · 每课 10 题，共 100 题；三 L21-L35 · Part 3 观点态度 + Part 5 匹配 · 每课 10 题，已上 L21 样课 10 题；四 L36-L45 混合 / 五 L46-L50 全真 待产）+ SVG 图标 **81 个 / 10 类**（tools/gen-listening-icons.mjs 生成，清单见 P-L1「★ 图标清单」）+ check-listening 词汇守卫（A2 覆盖 ≥95%，21 课实测 19 课 100%、L15/L19 99%+）
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.3**（P-L2 续跑 L12-L20 阶段二完成；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.4**（P-L3 样课 L21 + 听力索引改五阶段；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
 - 预缓存体积：**452 KB**（壳 44 项 + 索引 9 项；P2b 新增 `utils/ket-hall-map.js` 2 KB）；`data/` 内容 2,878 KB 走运行时缓存
 - 模块互链：KET 八课 ⇄ 语法大厅 双向跳转（P2b，映射表 `assets/js/utils/ket-hall-map.js`，八课内容零改动）
 - 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读
