@@ -475,6 +475,20 @@
       "theme": "home",
       "file": "data/exam/ket/listening/l31.json",
       "status": "ready"
+    },
+    {
+      "id": "L32",
+      "title": "Learning an Instrument",
+      "titleZh": "学乐器",
+      "stage": 3,
+      "parts": [
+        3,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "music",
+      "file": "data/exam/ket/listening/l32.json",
+      "status": "ready"
     }
   ]
 }

@@ -1,0 +1,310 @@
+{
+  "$comment": "听力训练营 L32（P-L3 续跑，阶段三第十二课，综合两句判断段）。脚本 100% 原创；Part 3 每题需综合前后两句判断（喜欢钢琴老师也好+周六撞足球→问为什么停课；起初讨厌琴声+现在离不开→问感受；有钱想买+叔叔说先借来试→问为什么没买；老师很严第一课想哭+一个月进步大→问看法；大家都说该上台+一想到舞台手就冰凉→问感受）+ Part 5 匹配（Amber 告诉爸爸五个同学在学校音乐会各做什么，8 件事 A-H 全部被反复提到，靠「最后决定」判断，选项为短语）。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L32",
+  "title": "Learning an Instrument",
+  "titleZh": "学乐器",
+  "stage": 3,
+  "rate": 1,
+  "parts": [
+    3,
+    5
+  ],
+  "theme": "music",
+  "names": [
+    "Amber",
+    "Ravi",
+    "Cole",
+    "Leo",
+    "Mia",
+    "Jess",
+    "Tom"
+  ],
+  "intro": "先听 Amber 和 Ravi 聊学乐器：为什么停了钢琴课？小提琴拉了五年是什么感受？为什么还没买吉他？答案都要把前后两句合起来想——前一句常是「好的一面」，后一句才是真正的原因和感受。再听 Amber 告诉爸爸五个同学在学校音乐会各做什么——8 件事都会被反复提到，有人先说要做一件，后来换了，要听「最后定下来的是什么」。",
+  "warmup": [
+    {
+      "word": "piano",
+      "phonetic": "/piˈænəʊ/",
+      "meaning": "钢琴"
+    },
+    {
+      "word": "violin",
+      "phonetic": "/ˌvaɪəˈlɪn/",
+      "meaning": "小提琴"
+    },
+    {
+      "word": "guitar",
+      "phonetic": "/ɡɪˈtɑː/",
+      "meaning": "吉他"
+    },
+    {
+      "word": "drums",
+      "phonetic": "/drʌmz/",
+      "meaning": "鼓"
+    },
+    {
+      "word": "concert",
+      "phonetic": "/ˈkɒnsət/",
+      "meaning": "音乐会"
+    },
+    {
+      "word": "band",
+      "phonetic": "/bænd/",
+      "meaning": "乐队"
+    },
+    {
+      "word": "borrow",
+      "phonetic": "/ˈbɒrəʊ/",
+      "meaning": "借（入）"
+    },
+    {
+      "word": "stage",
+      "phonetic": "/steɪdʒ/",
+      "meaning": "舞台"
+    },
+    {
+      "word": "glad",
+      "phonetic": "/ɡlæd/",
+      "meaning": "高兴的"
+    },
+    {
+      "word": "poster",
+      "phonetic": "/ˈpəʊstə/",
+      "meaning": "海报"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "听 Amber 和 Ravi 聊学乐器。五道题的答案都要把前后两句合起来想：前一句常是「好的一面」或「别人的看法」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "Ravi, didn't you have piano lessons last year? I never hear you talk about them now."
+        },
+        {
+          "who": "Ravi",
+          "sex": "m",
+          "text": "I stopped in the summer. I loved the piano, and my teacher was really kind. But the lessons were on Saturday mornings, and that's when the football team practises. I had to choose, and I chose football."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "Was the piano too hard?"
+        },
+        {
+          "who": "Ravi",
+          "sex": "m",
+          "text": "No, I was good at it. I just couldn't do both. How is your violin going? You've played for years."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "Five years now. When I started, I hated the sound. My dad said it was like a cat crying, and my parents wanted me to stop. But now I play in the school band, and I can't think of a week without it."
+        },
+        {
+          "who": "Ravi",
+          "sex": "m",
+          "text": "That's great. I'd like to learn the guitar next. I saw a beautiful red one in the music shop last week, and I've got enough money from my birthday."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "So buy it!"
+        },
+        {
+          "who": "Ravi",
+          "sex": "m",
+          "text": "I wanted to. But my uncle says I should borrow his old one first, for a month, to see if I really like it. So I'm going to do that before I spend anything."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "Clever uncle. Have you met Mr Cole, the new music teacher?"
+        },
+        {
+          "who": "Ravi",
+          "sex": "m",
+          "text": "Not yet. Everyone says he's really hard."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "He is. He makes us practise every day, and in my first lesson I wanted to cry. But after only a month, my playing is so much better. I'm glad he came."
+        },
+        {
+          "who": "Ravi",
+          "sex": "m",
+          "text": "Then maybe he can help me with the concert. Everyone says I should play the guitar in it. My mum has already bought a ticket, and I know the song well. But every time I think about the stage, my hands go cold. I'll do it, but I'm not happy about it."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "You'll be fine. I'll be there with my violin, right next to you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why did Ravi stop his piano lessons?",
+          "options": [
+            "He didn't like his teacher.",
+            "The piano was too difficult.",
+            "He wanted to play football."
+          ],
+          "answer": 2,
+          "explain": "前一句 I loved the piano, and my teacher was really kind（老师好）+ 后一句 the lessons were on Saturday mornings, and that's when the football team practises… I chose football——停课是为了踢球。「太难」不对，he was good at it。"
+        },
+        {
+          "id": "q2",
+          "q": "How does Amber feel about her violin now?",
+          "options": [
+            "She still hates the sound.",
+            "She loves playing it.",
+            "She wants to stop."
+          ],
+          "answer": 1,
+          "explain": "前一句 When I started, I hated the sound（起初讨厌）+ 后一句 But now I play in the school band, and I can't think of a week without it——现在离不开它。「想停」是当年父母的想法。"
+        },
+        {
+          "id": "q3",
+          "q": "Why hasn't Ravi bought a guitar yet?",
+          "options": [
+            "He doesn't have enough money.",
+            "He wants to try one first.",
+            "He couldn't find one he liked."
+          ],
+          "answer": 1,
+          "explain": "前一句 I've got enough money… I wanted to（有钱、想买）+ 后一句 my uncle says I should borrow his old one first… to see if I really like it——先借来试一个月。钱够，也看中了红色那把。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Amber think about Mr Cole?",
+          "options": [
+            "She is glad he is her teacher.",
+            "She thinks he is too hard.",
+            "She doesn't like his lessons."
+          ],
+          "answer": 0,
+          "explain": "前一句 He makes us practise every day, and in my first lesson I wanted to cry（很严）+ 后一句 But after only a month, my playing is so much better. I'm glad he came——严但进步大，她很高兴。「太严」是 everyone says。"
+        },
+        {
+          "id": "q5",
+          "q": "How does Ravi feel about playing in the concert?",
+          "options": [
+            "He is excited about it.",
+            "He doesn't want to do it.",
+            "He is worried about it."
+          ],
+          "answer": 2,
+          "explain": "前一句 Everyone says I should… I know the song well（大家都支持、歌也会）+ 后一句 every time I think about the stage, my hands go cold. I'll do it, but I'm not happy about it——会上台，但很紧张担心。「不想做」不对，他说 I'll do it。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "听 Amber 告诉爸爸五个同学在学校音乐会各做什么。把每个人和右边 A-H 的事情配起来。8 件事都会被反复提到，有人先说要做一件，后来换了——要听「最后定下来的是什么」。",
+      "options": [
+        "make the posters",
+        "play the drums",
+        "play the guitar",
+        "play the piano",
+        "play the violin",
+        "sell the tickets",
+        "sing a song",
+        "take the photos"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Amber, the school concert is on Friday. You're playing the violin, I know. What are your friends doing?"
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "Ravi is going to play the guitar. Everyone thought he'd play the drums, because he plays the drums in his cousin's band. But he learned a song on his uncle's old guitar, so it's the guitar."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good for him. And Leo? He's the one with the big drums at home."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "He wanted to play the drums, but his little brother broke them last week. So Mr Cole asked him to sell the tickets at the door. He's happy, he likes talking to people."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Tickets for Leo, then. Is Mia making the posters again? Hers were lovely last year."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "She said she'd make the posters at first. But then Mr Cole heard her sing in the classroom, and now she's going to sing a song. The art club made the posters."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Mia singing! I didn't know she could. And who's going to play the piano? You?"
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "No, Dad, I play the violin. Tom is going to play the piano. He wanted to play the drums with Leo at first, but now there are no drums, so he's on the piano. He has had lessons for six years."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Fair enough. And Jess? She wanted to sell the tickets last year."
+        },
+        {
+          "who": "Amber",
+          "sex": "f",
+          "text": "She asked again, but Leo got that job. So Jess is going to take the photos. She's got her mum's big camera, and she'll put the pictures on the school website."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Guitar, tickets, a song, piano, photos, and your violin. I'll buy my ticket from Leo tomorrow."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ravi",
+          "answer": 2,
+          "explain": "Everyone thought he'd play the drums… But he learned a song on his uncle's old guitar, so it's the guitar——鼓是大家以为的，最后是吉他。"
+        },
+        {
+          "id": "q7",
+          "q": "Leo",
+          "answer": 5,
+          "explain": "He wanted to play the drums, but his little brother broke them… So Mr Cole asked him to sell the tickets——先说打鼓，鼓坏了，改成卖票。"
+        },
+        {
+          "id": "q8",
+          "q": "Mia",
+          "answer": 6,
+          "explain": "She said she'd make the posters at first. But then Mr Cole heard her sing… now she's going to sing a song——先说做海报，后改成唱歌。海报是美术社做的。"
+        },
+        {
+          "id": "q9",
+          "q": "Jess",
+          "answer": 7,
+          "explain": "She wanted to sell the tickets… but Leo got that job. So Jess is going to take the photos——想卖票被 Leo 占了，最后是拍照。"
+        },
+        {
+          "id": "q10",
+          "q": "Tom",
+          "answer": 3,
+          "explain": "He wanted to play the drums with Leo at first, but now there are no drums, so he's on the piano——先说和 Leo 打鼓，鼓没了，最后弹钢琴。打鼓、做海报、拉小提琴（Amber 自己）是干扰。"
+        }
+      ]
+    }
+  ]
+}
