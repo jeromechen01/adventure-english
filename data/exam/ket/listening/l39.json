@@ -1,0 +1,620 @@
+{
+  "$comment": "听力训练营 L39（P-L4 阶段四，首个三 Part 混合课，15 题）。脚本 100% 原创；按真考顺序 Part 1 → Part 3 → Part 4：Part 1 五段短对话选图（难度按 L10）+ Part 3 一段长对话 5 题观点态度（难度按 L35：综合前后两句）+ Part 4 五段短话各 1 题主旨（难度按 L20：段段含转折）。一课一场景=去海边。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L39",
+  "title": "A Day at the Beach",
+  "titleZh": "去海边",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    1,
+    3,
+    4
+  ],
+  "theme": "beach",
+  "names": [
+    "Tom",
+    "Sophie",
+    "Jake",
+    "Baker",
+    "Leo"
+  ],
+  "intro": "第一次三种题型连着做，15 题：先 5 道选图（几点出发、怎么去、带什么、天气、午饭），再听 Sophie 和 Jake 聊海边一日（火车上感觉、为什么没游泳、觉得咖啡馆怎么样、为什么提前走、下周末做什么——前后两句合起来想），最后 5 段海边的短话选主旨。Part 之间只有一句过渡，做完大约 15 分钟。",
+  "warmup": [
+    {
+      "word": "beach",
+      "phonetic": "/biːtʃ/",
+      "meaning": "海滩"
+    },
+    {
+      "word": "traffic",
+      "phonetic": "/ˈtræfɪk/",
+      "meaning": "车流；交通"
+    },
+    {
+      "word": "garage",
+      "phonetic": "/ˈɡærɑːʒ/",
+      "meaning": "修车厂；车库"
+    },
+    {
+      "word": "kite",
+      "phonetic": "/kaɪt/",
+      "meaning": "风筝"
+    },
+    {
+      "word": "journey",
+      "phonetic": "/ˈdʒɜːni/",
+      "meaning": "旅程"
+    },
+    {
+      "word": "towel",
+      "phonetic": "/ˈtaʊəl/",
+      "meaning": "毛巾"
+    },
+    {
+      "word": "rocks",
+      "phonetic": "/rɒks/",
+      "meaning": "岩石"
+    },
+    {
+      "word": "deep",
+      "phonetic": "/diːp/",
+      "meaning": "深的"
+    },
+    {
+      "word": "stomach ache",
+      "phonetic": "/ˈstʌmək eɪk/",
+      "meaning": "肚子疼"
+    },
+    {
+      "word": "sun cream",
+      "phonetic": "/ˈsʌn kriːm/",
+      "meaning": "防晒霜"
+    },
+    {
+      "word": "police station",
+      "phonetic": "/pəˈliːs ˌsteɪʃn/",
+      "meaning": "警察局"
+    },
+    {
+      "word": "sand",
+      "phonetic": "/sænd/",
+      "meaning": "沙子"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "Part 1 开始。听一段短对话，选出正确的图。三个选项都会出现，抓住最后定下来的那个。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Let's leave for the beach at seven tomorrow. The roads are quiet then."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "Seven is too early, Dad! Can we go at eight?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "At eight we'll be in traffic for an hour. Half past seven, and no later."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "OK, half past seven. I'll get up at seven."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What time will they leave for the beach?",
+          "options": [
+            {
+              "icon": "clock-0730",
+              "alt": "7:30"
+            },
+            {
+              "icon": "clock-0700",
+              "alt": "7:00"
+            },
+            {
+              "icon": "clock-0800",
+              "alt": "8:00"
+            }
+          ],
+          "answer": 0,
+          "explain": "seven 太早，eight 会堵车，最后 Half past seven, and no later = 7:30。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Mum, are we going to the beach in the car?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The car is at the garage until Monday, so no."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Can we go by bus, then? I like the bus."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The bus takes two hours. We'll go by train, it's only forty minutes, and the beach is next to the station."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "How will the family get to the beach?",
+          "options": [
+            {
+              "icon": "transport-car",
+              "alt": "by car"
+            },
+            {
+              "icon": "transport-train",
+              "alt": "by train"
+            },
+            {
+              "icon": "transport-bus",
+              "alt": "by bus"
+            }
+          ],
+          "answer": 1,
+          "explain": "汽车在修车厂（at the garage），公交要两小时，最后 We'll go by train。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "Shall I take the ball to the beach, Mum?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Tom is taking the ball. You take your kite, it's always windy there."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "And my camera? I want to take photos of the sea."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "I'm taking my camera, so leave yours at home. Just the kite."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What will Sophie take to the beach?",
+          "options": [
+            {
+              "icon": "object-ball",
+              "alt": "a ball"
+            },
+            {
+              "icon": "object-camera",
+              "alt": "a camera"
+            },
+            {
+              "icon": "object-kite",
+              "alt": "a kite"
+            }
+          ],
+          "answer": 2,
+          "explain": "球是 Tom 带，相机妈妈带（leave yours at home），Sophie 带的是 kite。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Mum, it's raining. Will the beach be OK tomorrow?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The radio says it's raining today, but tomorrow will be sunny all day."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Not cloudy like last time?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "No, sunny. There will be a little wind in the afternoon, which is good for your sister's kite."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What will the weather be like at the beach tomorrow?",
+          "options": [
+            {
+              "icon": "weather-rainy",
+              "alt": "rainy"
+            },
+            {
+              "icon": "weather-sunny",
+              "alt": "sunny"
+            },
+            {
+              "icon": "weather-cloudy",
+              "alt": "cloudy"
+            }
+          ],
+          "answer": 1,
+          "explain": "下雨是今天（today），多云是上次（last time），明天 sunny all day。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "The beach café makes great pizza. Shall we have lunch there?"
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "It's very expensive, Dad. Eight pounds for one pizza!"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "You're right. We'll make sandwiches at home and eat them on the beach."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "And ice cream after?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Ice cream after lunch, yes. But lunch is sandwiches."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What will they have for lunch at the beach?",
+          "options": [
+            {
+              "icon": "food-pizza",
+              "alt": "pizza"
+            },
+            {
+              "icon": "food-ice-cream",
+              "alt": "ice cream"
+            },
+            {
+              "icon": "food-sandwich",
+              "alt": "sandwiches"
+            }
+          ],
+          "answer": 2,
+          "explain": "披萨太贵，冰淇淋是饭后（after lunch），午饭是 sandwiches。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 3,
+      "intro": "Part 3 开始。听 Sophie 和 Jake 聊周末去海边。五道题的答案都要把前后两句合起来想：前一句常是「别人的看法」或「困难」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Sophie, how was the beach on Saturday? You went by train, didn't you? Forty minutes with your little brother!"
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "Everyone said that would be terrible, and Tom did talk the whole way. But we played a card game, and I could see the sea from the window. The journey went really fast."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Did you swim in the sea? It was sunny all day."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "I had my swimming things, and Mum said I could go in. But when I put my feet in the water, it was like ice! So I flew my kite on the sand."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "That's why I only swim in the swimming pool. Did you eat at the beach café? My dad says it costs too much."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "My dad says the same, so we brought sandwiches. But we went in for ice cream after lunch, and it was the best ice cream I've had in my life. I'd go back just for that."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Now I'm hungry. Did you stay until the evening?"
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "No, we left at three. It was still sunny, and there was a train at five, so we could have stayed. But Tom ate too much ice cream and got a stomach ache, so Mum said we had to go home."
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "Poor Tom. Are you going again next weekend? I could come too."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "I'd love to, and Dad said yes at first. But it's my grandmother's birthday on Saturday, and she lives two hours away, so we're going to her house. Maybe the weekend after?"
+        },
+        {
+          "who": "Jake",
+          "sex": "m",
+          "text": "OK, the weekend after. And I'll bring my own sandwiches."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "And money for ice cream. Don't forget that."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "What does Sophie say about the train journey?",
+          "options": [
+            "It was too long.",
+            "It was fun.",
+            "Her brother was quiet."
+          ],
+          "answer": 1,
+          "explain": "前一句 Everyone said that would be terrible, and Tom did talk the whole way（别人说糟糕、弟弟一直说话）+ 后一句 But we played a card game… The journey went really fast——她觉得很开心，一点不长。"
+        },
+        {
+          "id": "q7",
+          "q": "Why didn't Sophie swim in the sea?",
+          "options": [
+            "The water was too cold.",
+            "She forgot her swimming things.",
+            "Her mum said no."
+          ],
+          "answer": 0,
+          "explain": "前一句 I had my swimming things, and Mum said I could go in（带了泳衣、妈妈也同意）+ 后一句 But when I put my feet in the water, it was like ice——是水太冷。"
+        },
+        {
+          "id": "q8",
+          "q": "What does Sophie think about the beach café?",
+          "options": [
+            "The food costs too much.",
+            "There were too many people.",
+            "The ice cream is very good."
+          ],
+          "answer": 2,
+          "explain": "「costs too much」是两个爸爸说的。Sophie：the best ice cream I've had in my life. I'd go back just for that——她觉得冰淇淋特别好。"
+        },
+        {
+          "id": "q9",
+          "q": "Why did the family leave the beach early?",
+          "options": [
+            "The weather changed.",
+            "Sophie's brother was ill.",
+            "They had to catch a train."
+          ],
+          "answer": 1,
+          "explain": "前一句 It was still sunny… there was a train at five, so we could have stayed（天气好、火车也不急）+ 后一句 But Tom… got a stomach ache, so Mum said we had to go home——因为弟弟不舒服。"
+        },
+        {
+          "id": "q10",
+          "q": "What will Sophie do next Saturday?",
+          "options": [
+            "go to the beach with Jake",
+            "stay at home",
+            "visit her grandmother"
+          ],
+          "answer": 2,
+          "explain": "前一句 I'd love to, and Dad said yes at first（想去、爸爸也同意过）+ 后一句 But it's my grandmother's birthday on Saturday… we're going to her house——下周六去奶奶家，海边要等再下一周。"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "part": 4,
+      "intro": "Part 4 开始。听五段海边的短话，每段一题，选出说话人的主要意思。注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "Hello, everyone on the beach. The sea is fine for swimming today, and the water is warm."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "But please stay near the yellow boat, where our team can see you. Don't swim past the rocks on the left, the water is very deep there. Thank you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "q": "What is the man telling people?",
+          "options": [
+            "where it is safe to swim",
+            "that nobody can swim today",
+            "when the beach closes"
+          ],
+          "answer": 0,
+          "explain": "The sea is fine for swimming… But please stay near the yellow boat… Don't swim past the rocks——在说哪里可以游、哪里不能游。今天能游，没说关门时间。"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "I forgot my sun hat on Saturday, so I went to the beach shop to buy one. I wanted a white one."
+        },
+        {
+          "who": "Sophie",
+          "sex": "f",
+          "text": "But they only had very big hats for adults, and they cost twelve pounds. So I bought a big blue towel for four pounds and put it over my head. Everyone laughed, but it worked!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q12",
+          "q": "What did Sophie buy at the beach shop?",
+          "options": [
+            "a hat",
+            "a towel",
+            "some sun cream"
+          ],
+          "answer": 1,
+          "explain": "wanted a white hat… But they only had very big hats… So I bought a big blue towel——买的是毛巾。"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "Dad, can we go on the boat to see the birds on the rocks? It leaves at two."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "It's twelve pounds each, Tom. That's a lot of money for one hour."
+        },
+        {
+          "who": "Tom",
+          "sex": "m",
+          "text": "But you said we could do one special thing today. Please?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I did say that. OK, we'll go on the boat. But then no ice cream and no games on the beach this afternoon."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q13",
+          "q": "What does Dad agree to do?",
+          "options": [
+            "buy some ice cream",
+            "play games on the beach",
+            "pay for the boat"
+          ],
+          "answer": 2,
+          "explain": "It's twelve pounds… that's a lot（先嫌贵）→ OK, we'll go on the boat——同意坐船。冰淇淋和游戏都被 no 否定。"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "Hello, this is a message for Mrs Baker from the beach café. We found a blue bag under a table this afternoon, with a phone and some keys in it."
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "We'll keep it here in the café until six tonight. But after six, you'll need to go to the police station on Sea Road to get it. Thank you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "q": "Why is the woman calling?",
+          "options": [
+            "Someone left a bag in the café.",
+            "Mrs Baker wants to book a table.",
+            "The café is closing early."
+          ],
+          "answer": 0,
+          "explain": "We found a blue bag under a table… with a phone and some keys——是有人把包落在了咖啡馆。六点只是保管到几点，不是关门。"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "My family goes to the same beach every summer. Last year I thought it was boring, the same sand, the same café, and I didn't want to go again."
+        },
+        {
+          "who": "Leo",
+          "sex": "m",
+          "text": "But this year my cousin came with us. We went out in a little boat, and we built a sand castle as big as a car. I can't wait for next summer."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q15",
+          "q": "What does Leo say about the beach this year?",
+          "options": [
+            "He enjoyed it more than last year.",
+            "It was boring like always.",
+            "He wants to go to a different beach."
+          ],
+          "answer": 0,
+          "explain": "Last year I thought it was boring… didn't want to go again 是去年的想法，But this year… I can't wait for next summer——今年比去年开心得多，还想去同一个海滩。"
+        }
+      ]
+    }
+  ]
+}
