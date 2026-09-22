@@ -1,0 +1,419 @@
+{
+  "$comment": "听力训练营 L40（P-L4 阶段四，三 Part 混合课，15 题）。脚本 100% 原创；按真考顺序 Part 2 → Part 3 → Part 5：Part 2 咖啡馆经理给妈妈的电话留言 5 空（难度按 L20：地名拼读 R-E-D-H-I-L-L、日期、时间、价格、姓名拼读 E-L-L-I-S）+ Part 3 Mia 和 Josh 聊筹备 5 题观点态度（难度按 L35：综合前后两句）+ Part 5 Mia 告诉爸爸五个朋友各负责什么（难度按 L35：8 件事 A-H 全部被提到、四人先选后改，选项为短语）。一课一场景=生日派对筹备。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L40",
+  "title": "Party Plans",
+  "titleZh": "生日派对筹备",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    2,
+    3,
+    5
+  ],
+  "theme": "party",
+  "names": [
+    "Mia",
+    "Josh",
+    "Ruby",
+    "Anna",
+    "Sam",
+    "Kate",
+    "Redhill",
+    "Ellis"
+  ],
+  "intro": "三种题型连着做，15 题：先听咖啡馆经理给 Mia 妈妈的电话留言，填 5 个空（地名拼读、日期、开始时间、每人价格、经理姓名拼读）。再听 Mia 和 Josh 聊筹备：为什么在咖啡馆办、游戏好不好、担心蛋糕什么、音乐谁定、Josh 做什么——前后两句合起来想。最后听 Mia 告诉爸爸五个朋友各负责什么，8 件事都会被提到、四个人先选后改。Part 之间只有一句过渡。",
+  "warmup": [
+    {
+      "word": "party",
+      "phonetic": "/ˈpɑːti/",
+      "meaning": "派对；聚会"
+    },
+    {
+      "word": "message",
+      "phonetic": "/ˈmesɪdʒ/",
+      "meaning": "留言；信息"
+    },
+    {
+      "word": "full",
+      "phonetic": "/fʊl/",
+      "meaning": "满的；订满的"
+    },
+    {
+      "word": "manager",
+      "phonetic": "/ˈmænɪdʒə/",
+      "meaning": "经理"
+    },
+    {
+      "word": "living room",
+      "phonetic": "/ˈlɪvɪŋ ruːm/",
+      "meaning": "客厅"
+    },
+    {
+      "word": "quiz",
+      "phonetic": "/kwɪz/",
+      "meaning": "问答游戏"
+    },
+    {
+      "word": "worried",
+      "phonetic": "/ˈwʌrid/",
+      "meaning": "担心的"
+    },
+    {
+      "word": "balloon",
+      "phonetic": "/bəˈluːn/",
+      "meaning": "气球"
+    },
+    {
+      "word": "lemonade",
+      "phonetic": "/ˌleməˈneɪd/",
+      "meaning": "柠檬汽水"
+    },
+    {
+      "word": "plate",
+      "phonetic": "/pleɪt/",
+      "meaning": "盘子"
+    },
+    {
+      "word": "lights",
+      "phonetic": "/laɪts/",
+      "meaning": "彩灯"
+    },
+    {
+      "word": "cold",
+      "phonetic": "/kəʊld/",
+      "meaning": "感冒"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 2,
+      "intro": "Part 2 开始。听咖啡馆经理给 Mia 妈妈的电话留言，把笔记补全。五个空：地名拼读、日期、时间、价格、姓名拼读。每个空前后都有一个干扰。",
+      "script": [
+        {
+          "who": "Mrs Ellis",
+          "sex": "f",
+          "text": "Hello, this is a message for Mia's mum from the Redhill Café, about the birthday party. That's R-E-D-H-I-L-L."
+        },
+        {
+          "who": "Mrs Ellis",
+          "sex": "f",
+          "text": "You asked for Saturday the second of March, but we are full that day. We can do Friday the first of March, after school, if that is OK for you."
+        },
+        {
+          "who": "Mrs Ellis",
+          "sex": "f",
+          "text": "The party can start at half past two, and the room is yours until five. We need half an hour before the party to get the room ready, so please don't come before two."
+        },
+        {
+          "who": "Mrs Ellis",
+          "sex": "f",
+          "text": "It is five pounds for each child. That is for sandwiches, a drink and the cake. Parents who stay don't pay anything. Last year it was six pounds, so it is cheaper now."
+        },
+        {
+          "who": "Mrs Ellis",
+          "sex": "f",
+          "text": "If you have any questions, ask for me, Mrs Ellis. That's E-L-L-I-S. Please phone before Wednesday to say yes. Thank you, goodbye."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Place: the ______ Café",
+          "answer": "Redhill",
+          "explain": "from the Redhill Café… That's R-E-D-H-I-L-L，照拼读写。"
+        },
+        {
+          "id": "q2",
+          "q": "Date: Friday ______ March",
+          "answer": "1",
+          "alt": [
+            "1st",
+            "first",
+            "the first of",
+            "first of",
+            "1 March"
+          ],
+          "explain": "asked for Saturday the second of March, but we are full → We can do Friday the first of March——日期是 1 号。"
+        },
+        {
+          "id": "q3",
+          "q": "Party starts at: ______",
+          "answer": "2:30",
+          "alt": [
+            "2.30",
+            "half past two",
+            "two thirty"
+          ],
+          "explain": "The party can start at half past two = 2:30。five 是用到几点，two 是最早几点能到。"
+        },
+        {
+          "id": "q4",
+          "q": "Cost for each child: £______",
+          "answer": "5",
+          "alt": [
+            "£5",
+            "five pounds",
+            "5 pounds",
+            "five"
+          ],
+          "explain": "It is five pounds for each child = £5。six pounds 是去年的价格，家长不用付钱。"
+        },
+        {
+          "id": "q5",
+          "q": "Manager's name: Mrs ______",
+          "answer": "Ellis",
+          "explain": "ask for me, Mrs Ellis. That's E-L-L-I-S，照拼读写。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 3,
+      "intro": "Part 3 开始。听 Mia 和 Josh 聊派对筹备。五道题的答案都要把前后两句合起来想：前一句常是「别人的看法」或「困难」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Josh",
+          "sex": "m",
+          "text": "Mia, your birthday party is at the Redhill Café, isn't it? I thought you wanted it at home."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "I did want it at home, and Ruby said the swimming pool would be more fun. But fifteen people are coming, and our living room only has room for six. So it's the café."
+        },
+        {
+          "who": "Josh",
+          "sex": "m",
+          "text": "Fifteen! What are you all going to do?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "I'm planning a quiz and a dancing game. Ruby says they're for little kids."
+        },
+        {
+          "who": "Josh",
+          "sex": "m",
+          "text": "I thought that too, at first. But we played them at my cousin's party last month, and everyone was laughing, the big kids too. Keep them."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "OK, I will. The one thing I'm worried about is the cake."
+        },
+        {
+          "who": "Josh",
+          "sex": "m",
+          "text": "Why? Your mum makes great cakes."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "She does, and this one will be big enough for twenty. But she works until two on Friday, and the party starts at half past two. If she makes it after work, it won't be ready."
+        },
+        {
+          "who": "Josh",
+          "sex": "m",
+          "text": "Then ask her to make it on Thursday evening. What about music?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Ruby has made a list of songs. There are some I don't know. But she knows what everyone likes better than I do, and she's good at this. So I'll leave the music to her."
+        },
+        {
+          "who": "Josh",
+          "sex": "m",
+          "text": "Good. And what can I do? I can't cook, so don't ask me to help with the food."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "I know. And Kate is bringing the games."
+        },
+        {
+          "who": "Josh",
+          "sex": "m",
+          "text": "Then I'll bring my dad's camera and take photos of everyone. You can put them in a book after the party."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "That would be lovely. Thanks, Josh."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Why is Mia having her party at the café?",
+          "options": [
+            "Her house is too small.",
+            "Her friends wanted to go there.",
+            "It is cheaper than other places."
+          ],
+          "answer": 0,
+          "explain": "前一句 I did want it at home, and Ruby said the swimming pool（想在家、朋友提议游泳池）+ 后一句 But fifteen people are coming, and our living room only has room for six——家里太小。"
+        },
+        {
+          "id": "q7",
+          "q": "What does Josh think about the games?",
+          "options": [
+            "They are for younger children.",
+            "They are a good idea.",
+            "They take too long."
+          ],
+          "answer": 1,
+          "explain": "前一句 Ruby says they're for little kids… I thought that too, at first（别人和他起初都觉得幼稚）+ 后一句 But… everyone was laughing, the big kids too. Keep them——他觉得应该保留，是好主意。"
+        },
+        {
+          "id": "q8",
+          "q": "Why is Mia worried about the cake?",
+          "options": [
+            "It might not be ready in time.",
+            "It might be too small.",
+            "Her mum can't make cakes well."
+          ],
+          "answer": 0,
+          "explain": "前一句 Your mum makes great cakes… She does… big enough for twenty（做得好、也够大）+ 后一句 But she works until two… If she makes it after work, it won't be ready——担心来不及。"
+        },
+        {
+          "id": "q9",
+          "q": "What does Mia say about the music?",
+          "options": [
+            "She wants Josh to choose it.",
+            "She is happy for Ruby to choose it.",
+            "She doesn't like the songs."
+          ],
+          "answer": 1,
+          "explain": "前一句 There are some I don't know（有些歌不认识）+ 后一句 But she knows what everyone likes better than I do… I'll leave the music to her——放心交给 Ruby。"
+        },
+        {
+          "id": "q10",
+          "q": "What is Josh going to do at the party?",
+          "options": [
+            "help with the food",
+            "bring the games",
+            "take photos"
+          ],
+          "answer": 2,
+          "explain": "I can't cook, so don't ask me to help with the food（不做吃的）… Kate is bringing the games（游戏是 Kate）… I'll bring my dad's camera and take photos——他拍照。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 5,
+      "intro": "Part 5 开始。听 Mia 告诉爸爸五个朋友各负责派对的哪件事。把每个人和右边 A-H 的事情配起来。8 件事都会被提到，四个人先选了一件后来又改——要听「最后定下来做什么」。",
+      "options": [
+        "blow up the balloons",
+        "bring the music",
+        "buy the plates and cups",
+        "choose the games",
+        "make the lemonade",
+        "put up the lights",
+        "take the photos",
+        "write the cards"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Mia, the party is on Friday. Are your friends helping? What's Ruby doing?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Ruby wanted to write the cards at first, because her writing is lovely. But I wrote them myself on Sunday, so now she's going to bring the music. She's got all the best songs on her phone."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good. And Josh? He said something about balloons."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "He did want to blow up the balloons. But he's got a cold, so I said no. He's got his dad's camera, so he's going to take the photos."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "That's a better job for him. What about Anna?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Anna is going to buy the plates and cups. She wanted to make the lemonade, but her mum said no drinks in the car. Plates and cups are easy to carry."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good idea. And Sam? He's tall, he could help in the room."
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Sam said he'd blow up the balloons after Josh couldn't. But after two balloons he went red in the face, so he stopped. Now he's going to put up the lights, because he's tall."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So who's doing the balloons?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Nobody yet, maybe you! And Kate wanted to bring the music with Ruby, but two people can't do that. So Kate is going to choose the games, she knows lots of games."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Music, photos, plates, lights, games. And the lemonade?"
+        },
+        {
+          "who": "Mia",
+          "sex": "f",
+          "text": "Mum's making the lemonade and the cake. And I'll blow up the balloons myself."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "With my help, I think."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "q": "Ruby",
+          "answer": 1,
+          "explain": "Ruby wanted to write the cards at first… But I wrote them myself… now she's going to bring the music——先说写卡片，改成带音乐。"
+        },
+        {
+          "id": "q12",
+          "q": "Josh",
+          "answer": 6,
+          "explain": "He did want to blow up the balloons. But he's got a cold… he's going to take the photos——先说吹气球，感冒了，改成拍照。"
+        },
+        {
+          "id": "q13",
+          "q": "Anna",
+          "answer": 2,
+          "explain": "Anna is going to buy the plates and cups. She wanted to make the lemonade, but her mum said no drinks in the car——先想做柠檬水，妈妈不让，最后买盘子杯子。"
+        },
+        {
+          "id": "q14",
+          "q": "Sam",
+          "answer": 5,
+          "explain": "Sam said he'd blow up the balloons… But after two balloons he went red… Now he's going to put up the lights——先说吹气球，改成挂彩灯。"
+        },
+        {
+          "id": "q15",
+          "q": "Kate",
+          "answer": 3,
+          "explain": "Kate wanted to bring the music with Ruby, but two people can't do that. So Kate is going to choose the games——先说带音乐，改成选游戏。吹气球（Mia 自己）、做柠檬水（妈妈）、写卡片（Mia 写了）三件被反复提到，但都不是这五个人最后做的。"
+        }
+      ]
+    }
+  ]
+}

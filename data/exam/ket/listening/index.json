@@ -588,6 +588,21 @@
       "theme": "beach",
       "file": "data/exam/ket/listening/l39.json",
       "status": "ready"
+    },
+    {
+      "id": "L40",
+      "title": "Party Plans",
+      "titleZh": "生日派对筹备",
+      "stage": 4,
+      "parts": [
+        2,
+        3,
+        5
+      ],
+      "questionCount": 15,
+      "theme": "party",
+      "file": "data/exam/ket/listening/l40.json",
+      "status": "ready"
     }
   ]
 }
