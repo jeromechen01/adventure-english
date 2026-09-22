@@ -1,0 +1,410 @@
+{
+  "$comment": "听力训练营 L36（P-L4 阶段四首课，混合课）。脚本 100% 原创；阶段四练「切换」：Part 1 三图单选 5 段（难度按 L10：三个选项都出现，抓最后决定）+ Part 2 笔记填空一段独白 5 空（难度按 L20：姓名拼读 F-I-S-H-E-R、房间号、星期、价格 £3、电话号码）。按真考顺序 Part 1 → Part 2，中间只有一句过渡不打断。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L36",
+  "title": "First Day of Term",
+  "titleZh": "新学期第一天",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    1,
+    2
+  ],
+  "theme": "term",
+  "names": [
+    "Amy",
+    "Ben",
+    "Green",
+    "Fisher",
+    "Hill"
+  ],
+  "intro": "阶段四第一课，开始「连着练」：先做 5 道选图题（新学期第一天几点到校、怎么去、买什么、第一节课做什么、午饭多少钱），紧接着听校长的新学期通知填 5 个空。两种题型连着做，中间只有一句「Part 2 开始」，和真考一样不停下来。",
+  "warmup": [
+    {
+      "word": "term",
+      "phonetic": "/tɜːm/",
+      "meaning": "学期"
+    },
+    {
+      "word": "meeting",
+      "phonetic": "/ˈmiːtɪŋ/",
+      "meaning": "会议"
+    },
+    {
+      "word": "gate",
+      "phonetic": "/ɡeɪt/",
+      "meaning": "大门"
+    },
+    {
+      "word": "jumper",
+      "phonetic": "/ˈdʒʌmpə/",
+      "meaning": "套头毛衣"
+    },
+    {
+      "word": "computer",
+      "phonetic": "/kəmˈpjuːtə/",
+      "meaning": "电脑"
+    },
+    {
+      "word": "cook",
+      "phonetic": "/kʊk/",
+      "meaning": "厨师；做饭"
+    },
+    {
+      "word": "welcome",
+      "phonetic": "/ˈwelkəm/",
+      "meaning": "欢迎"
+    },
+    {
+      "word": "first floor",
+      "phonetic": "/ˌfɜːst ˈflɔː/",
+      "meaning": "二楼（英式一楼之上）"
+    },
+    {
+      "word": "swimming pool",
+      "phonetic": "/ˈswɪmɪŋ puːl/",
+      "meaning": "游泳池"
+    },
+    {
+      "word": "office",
+      "phonetic": "/ˈɒfɪs/",
+      "meaning": "办公室"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "Part 1 开始。听一段短对话，选出正确的图。三个选项都会出现，抓住最后定下来的那个。",
+      "script": [
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Ben, what time does school start tomorrow? It's the first day of term."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "It usually starts at half past eight, but tomorrow it's quarter to nine. The teachers have a meeting first."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "So I don't need to be there at quarter past eight?"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "No, that's just when the gate opens. Quarter to nine is fine."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What time does school start on the first day?",
+          "options": [
+            {
+              "icon": "clock-0815",
+              "alt": "8:15"
+            },
+            {
+              "icon": "clock-0830",
+              "alt": "8:30"
+            },
+            {
+              "icon": "clock-0845",
+              "alt": "8:45"
+            }
+          ],
+          "answer": 2,
+          "explain": "平时 half past eight，但明天 quarter to nine = 8:45。8:15 只是开大门的时间。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "How are you getting to school tomorrow? Is your dad driving you?"
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "He can't, he starts work early. I wanted to take the bus, but it's always full in the morning."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "You could walk with me."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "It's too far to walk from my house. I'll ride my bike, it only takes ten minutes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "How will Ben get to school tomorrow?",
+          "options": [
+            {
+              "icon": "transport-bus",
+              "alt": "by bus"
+            },
+            {
+              "icon": "transport-bike",
+              "alt": "by bike"
+            },
+            {
+              "icon": "transport-walk",
+              "alt": "on foot"
+            }
+          ],
+          "answer": 1,
+          "explain": "公交车太挤（always full），走路太远（too far to walk），最后 I'll ride my bike。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Amy, let's look at your school clothes. Your jacket still looks new."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Yes, it's fine. And my school shirts are OK too, I've got five."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "But this jumper is too small now, look, the arms are short. We'll buy a new one this afternoon."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Can it be a blue one this time?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "School jumpers are all grey, Amy."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What does Amy need to buy for school?",
+          "options": [
+            {
+              "icon": "clothes-jumper",
+              "alt": "a jumper"
+            },
+            {
+              "icon": "clothes-jacket",
+              "alt": "a jacket"
+            },
+            {
+              "icon": "clothes-t-shirt",
+              "alt": "a shirt"
+            }
+          ],
+          "answer": 0,
+          "explain": "夹克还像新的，衬衫有五件够用，毛衣 too small → We'll buy a new one，要买的是 jumper。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mr Green",
+          "sex": "m",
+          "text": "Good morning, Class 6. In the first lesson today we're not going to read or paint."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Are we going to play football, Mr Green?"
+        },
+        {
+          "who": "Mr Green",
+          "sex": "m",
+          "text": "No, football is this afternoon. This morning we're going to the computer room to make name cards for our new classroom."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Cool, I like the computer room."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What will the class do in the first lesson?",
+          "options": [
+            {
+              "icon": "activity-painting",
+              "alt": "painting"
+            },
+            {
+              "icon": "activity-football",
+              "alt": "football"
+            },
+            {
+              "icon": "activity-computer",
+              "alt": "using computers"
+            }
+          ],
+          "answer": 2,
+          "explain": "not going to read or paint，足球是下午（this afternoon），第一节课 going to the computer room。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Mum, is school lunch still three pounds a day?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "It was three pounds last term. The letter says it's two pounds fifty now, because the school has a new cook."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Cheaper, great! Can I have five pounds for two days, then?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Two days is only five pounds if you buy a drink too. Take two pounds fifty and I'll give you a bottle of water."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "How much is school lunch each day now?",
+          "options": [
+            {
+              "icon": "price-2-50",
+              "alt": "£2.50"
+            },
+            {
+              "icon": "price-3",
+              "alt": "£3"
+            },
+            {
+              "icon": "price-5",
+              "alt": "£5"
+            }
+          ],
+          "answer": 0,
+          "explain": "three pounds 是上学期的价格（last term），现在 two pounds fifty now = £2.50。five pounds 是两天加饮料的钱。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "Part 2 开始。听校长在新学期第一天的通知，把笔记补全。五个空：老师姓名拼读、教室号、星期、价格、电话号码。每个空前后都有一个干扰数字。",
+      "script": [
+        {
+          "who": "Head teacher",
+          "sex": "f",
+          "text": "Good morning, everyone, and welcome back to school. I hope you had a great summer. Some things are new this term, so please listen carefully."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "f",
+          "text": "First, Class 6 has a new teacher. Her name is Miss Fisher, that's F-I-S-H-E-R. She comes from a school in the city, and she loves sport."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "f",
+          "text": "Class 6 will not be in room twenty this year. That is the art room now. Your classroom is room twelve, on the first floor next to the library."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "f",
+          "text": "Music lessons were on Tuesday last year, but Mr Hill can only come on Thursday now. So bring your music books on Thursday, please."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "f",
+          "text": "Swimming starts next week. It's three pounds a week for the swimming pool. The bus there is free, so don't bring five pounds like last year."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "f",
+          "text": "If you are ill and can't come to school, your parents should phone the school office on six three oh, two one seven five. That's six three oh, two one seven five. Thank you, and have a good first day."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "New teacher of Class 6: Miss ______",
+          "answer": "Fisher",
+          "explain": "Her name is Miss Fisher, that's F-I-S-H-E-R，照拼读写。"
+        },
+        {
+          "id": "q7",
+          "q": "Classroom: Room ______",
+          "answer": "12",
+          "alt": [
+            "twelve"
+          ],
+          "explain": "will not be in room twenty（二十号是美术室）… Your classroom is room twelve = 12。"
+        },
+        {
+          "id": "q8",
+          "q": "Music lessons: on ______",
+          "answer": "Thursday",
+          "alt": [
+            "Thursdays"
+          ],
+          "explain": "were on Tuesday last year（去年是周二）… can only come on Thursday now，现在是 Thursday。"
+        },
+        {
+          "id": "q9",
+          "q": "Swimming: £______ a week",
+          "answer": "3",
+          "alt": [
+            "£3",
+            "three pounds",
+            "3 pounds",
+            "three"
+          ],
+          "explain": "three pounds a week for the swimming pool = £3。five pounds 是去年（大巴现在免费）。"
+        },
+        {
+          "id": "q10",
+          "q": "School office phone: ______",
+          "answer": "630 2175",
+          "alt": [
+            "6302175",
+            "630-2175"
+          ],
+          "explain": "six three oh, two one seven five = 630 2175。号码会重复一遍。"
+        }
+      ]
+    }
+  ]
+}
