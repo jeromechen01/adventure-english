@@ -545,6 +545,20 @@
       "theme": "term",
       "file": "data/exam/ket/listening/l36.json",
       "status": "ready"
+    },
+    {
+      "id": "L37",
+      "title": "The Weekend Market",
+      "titleZh": "周末市集",
+      "stage": 4,
+      "parts": [
+        3,
+        4
+      ],
+      "questionCount": 10,
+      "theme": "market",
+      "file": "data/exam/ket/listening/l37.json",
+      "status": "ready"
     }
   ]
 }

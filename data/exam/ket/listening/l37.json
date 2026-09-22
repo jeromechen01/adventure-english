@@ -1,0 +1,389 @@
+{
+  "$comment": "听力训练营 L37（P-L4 阶段四，混合课）。脚本 100% 原创；按真考顺序 Part 3 → Part 4：Part 3 一段长对话 5 题观点态度（难度按 L35：综合前后两句判断）+ Part 4 五段短话各 1 题主旨（难度按 L20：段段含转折）。一课一场景=周末市集。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L37",
+  "title": "The Weekend Market",
+  "titleZh": "周末市集",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    3,
+    4
+  ],
+  "theme": "market",
+  "names": [
+    "Lily",
+    "Oscar",
+    "Sam",
+    "Emma",
+    "Jess"
+  ],
+  "intro": "先听 Lily 和 Oscar 聊周末市集：她为什么去、Oscar 觉得新场地怎么样、为什么没买蓝包、觉得吃的怎么样、下周六做什么——答案要把前后两句合起来想。紧接着 Part 4：五段市集上的短话，每段一题选说话人的主要意思，注意 but 后面。两种题型连着做，中间不停。",
+  "warmup": [
+    {
+      "word": "market",
+      "phonetic": "/ˈmɑːkɪt/",
+      "meaning": "市集；市场"
+    },
+    {
+      "word": "aunt",
+      "phonetic": "/ɑːnt/",
+      "meaning": "姑姑；阿姨"
+    },
+    {
+      "word": "car park",
+      "phonetic": "/ˈkɑː pɑːk/",
+      "meaning": "停车场"
+    },
+    {
+      "word": "fit",
+      "phonetic": "/fɪt/",
+      "meaning": "装得下；合身"
+    },
+    {
+      "word": "price",
+      "phonetic": "/praɪs/",
+      "meaning": "价格"
+    },
+    {
+      "word": "cousin",
+      "phonetic": "/ˈkʌzn/",
+      "meaning": "表哥；堂妹"
+    },
+    {
+      "word": "vegetable",
+      "phonetic": "/ˈvedʒtəbl/",
+      "meaning": "蔬菜"
+    },
+    {
+      "word": "comic",
+      "phonetic": "/ˈkɒmɪk/",
+      "meaning": "漫画书"
+    },
+    {
+      "word": "plant",
+      "phonetic": "/plɑːnt/",
+      "meaning": "植物"
+    },
+    {
+      "word": "band",
+      "phonetic": "/bænd/",
+      "meaning": "乐队"
+    },
+    {
+      "word": "river",
+      "phonetic": "/ˈrɪvə/",
+      "meaning": "河"
+    },
+    {
+      "word": "size",
+      "phonetic": "/saɪz/",
+      "meaning": "尺码"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "Part 3 开始。听 Lily 和 Oscar 聊周末市集。五道题的答案都要把前后两句合起来想：前一句常是「别人的看法」或「困难」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "Lily, I saw you at the market on Saturday. Were you buying a present for your mum's birthday?"
+        },
+        {
+          "who": "Lily",
+          "sex": "f",
+          "text": "Her birthday is next month, so not yet. And all my friends were at the cinema. My aunt sells cakes at a table there, and she hurt her arm last week, so I sold cakes for her all morning."
+        },
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "That was kind. What do you think of the new place for the market, by the river?"
+        },
+        {
+          "who": "Lily",
+          "sex": "f",
+          "text": "I like it. What about you? You live on the other side of town."
+        },
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "It's a long way from my house now, I had to take the bus. But the old car park was so small that you couldn't move. Now everyone has room, and there's a band playing. I'm happy they moved it."
+        },
+        {
+          "who": "Lily",
+          "sex": "f",
+          "text": "Me too. Did you see the blue bag on the clothes table? I loved it."
+        },
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "Why didn't you buy it, then? Was it expensive?"
+        },
+        {
+          "who": "Lily",
+          "sex": "f",
+          "text": "No, the man only wanted eight pounds, and I had ten pounds in my pocket. But my school books don't fit in it. It's much smaller than it looks. So I left it there."
+        },
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "Better than buying something you can't use. I spent my money on food."
+        },
+        {
+          "who": "Lily",
+          "sex": "f",
+          "text": "My dad says the food there costs too much, and we should eat at home."
+        },
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "I don't think the prices are bad. I had a sandwich for two pounds, and it was the best sandwich I've had in my life. I want to try the pasta next time."
+        },
+        {
+          "who": "Lily",
+          "sex": "f",
+          "text": "Then come with me next Saturday. My aunt's arm is better now, so I don't need to work. We could look at the old books and get a sandwich."
+        },
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "I said yes to my cousin about the cinema on Saturday. But the film is at six, so the morning is free. Yes, let's do that."
+        },
+        {
+          "who": "Lily",
+          "sex": "f",
+          "text": "Great. I'll meet you at the bus stop at ten."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why did Lily go to the market on Saturday?",
+          "options": [
+            "to buy a present for her mum",
+            "to help her aunt",
+            "to meet her friends"
+          ],
+          "answer": 1,
+          "explain": "前一句 Her birthday is next month, so not yet（还没到买礼物的时候）… my friends were at the cinema（朋友都在电影院）+ 后一句 she hurt her arm… so I sold cakes for her all morning——是去帮姑姑卖蛋糕。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Oscar think about the new place for the market?",
+          "options": [
+            "It is better than the old place.",
+            "It is too far from his house.",
+            "It is too noisy."
+          ],
+          "answer": 0,
+          "explain": "前一句 It's a long way from my house（承认远）+ 后一句 But the old car park was so small… Now everyone has room… I'm happy they moved it——新场地比旧的好。乐队不是抱怨吵。"
+        },
+        {
+          "id": "q3",
+          "q": "Why didn't Lily buy the blue bag?",
+          "options": [
+            "It was too expensive.",
+            "She didn't have any money.",
+            "It was too small."
+          ],
+          "answer": 2,
+          "explain": "前一句 the man only wanted eight pounds, and I had ten pounds（不贵、也有钱）+ 后一句 But my school books don't fit in it. It's much smaller than it looks——太小了。"
+        },
+        {
+          "id": "q4",
+          "q": "What does Oscar say about the food at the market?",
+          "options": [
+            "It costs too much.",
+            "It is very good.",
+            "There is not enough of it."
+          ],
+          "answer": 1,
+          "explain": "「costs too much」是 Lily 的爸爸说的。Oscar：I don't think the prices are bad… the best sandwich I've had in my life… want to try the pasta next time——他觉得很好吃。"
+        },
+        {
+          "id": "q5",
+          "q": "What will Oscar do next Saturday morning?",
+          "options": [
+            "go to the market with Lily",
+            "go to the cinema with his cousin",
+            "help Lily's aunt sell cakes"
+          ],
+          "answer": 0,
+          "explain": "前一句 I said yes to my cousin about the cinema（约了看电影）+ 后一句 But the film is at six, so the morning is free. Yes, let's do that——早上和 Lily 去市集。姑姑的蛋糕已经不需要帮忙卖。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "Part 4 开始。听五段市集上的短话，每段一题，选出说话人的主要意思。注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "Good morning, everyone, and welcome to the Saturday market. Today the fruit and vegetables are not by the gate, where they always are."
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "There are men working on the road there, so you'll find the fruit and vegetables at the far end, next to the river. Everything else is in the same place as always."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "What is the woman telling people?",
+          "options": [
+            "where the fruit and vegetables are today",
+            "that the market closes early today",
+            "that the market is closed today"
+          ],
+          "answer": 0,
+          "explain": "not by the gate, where they always are… you'll find the fruit and vegetables at the far end——在说水果蔬菜摊今天搬到了哪里。市集照常开，没说关门或早关。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Excuse me, how much are these old comics?"
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "Two pounds each, or three for five pounds. They're very old ones."
+        },
+        {
+          "who": "Sam",
+          "sex": "m",
+          "text": "Three for five pounds is a good price. Oh, but I've only got four pounds."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "Give me the four, then, and take two. Come back next week for the third."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q7",
+          "q": "How many comics does Sam buy?",
+          "options": [
+            "three",
+            "two",
+            "one"
+          ],
+          "answer": 1,
+          "explain": "three for five pounds 是价格，but I've only got four pounds → Give me the four, then, and take two——只买了两本。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "I went to the market this morning to buy a birthday card for my grandmother. I wanted one with flowers on it."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "But the card table wasn't there today. So I bought her a little plant with yellow flowers. She likes plants more than cards, so it's better really."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q8",
+          "q": "What did Emma buy for her grandmother?",
+          "options": [
+            "a card",
+            "some flowers",
+            "a plant"
+          ],
+          "answer": 2,
+          "explain": "wanted a birthday card… But the card table wasn't there → So I bought her a little plant。花只是植物上的（with yellow flowers）。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Hi, Sam, it's Dad. I'm at the sports table at the market. I know you wanted the football boots from here."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "But they haven't got your size, only very big ones. So I'll get the shirt you liked, and we'll look for boots in town next week. See you at lunch."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q9",
+          "q": "What is Dad telling Sam?",
+          "options": [
+            "The sports table is closed.",
+            "He can't get the boots today.",
+            "The shirt is too big."
+          ],
+          "answer": 1,
+          "explain": "wanted the football boots… But they haven't got your size… look for boots in town next week——今天买不到靴子。太大的是靴子不是衬衫，摊位开着。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "Jess, you came to the market for the first time today. Did you like it?"
+        },
+        {
+          "who": "Jess",
+          "sex": "f",
+          "text": "I thought it would be boring, just old things on tables. I only came because my mum asked me to."
+        },
+        {
+          "who": "Oscar",
+          "sex": "m",
+          "text": "And was it boring?"
+        },
+        {
+          "who": "Jess",
+          "sex": "f",
+          "text": "No! There was a band playing, and I found a great hat for three pounds. I want to come every week now."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q10",
+          "q": "What does Jess say about the market?",
+          "options": [
+            "It was better than she thought.",
+            "It was boring.",
+            "There were too many people."
+          ],
+          "answer": 0,
+          "explain": "I thought it would be boring 是来之前的想法，No! There was a band… a great hat… want to come every week——比想的好得多。"
+        }
+      ]
+    }
+  ]
+}
