@@ -559,6 +559,20 @@
       "theme": "market",
       "file": "data/exam/ket/listening/l37.json",
       "status": "ready"
+    },
+    {
+      "id": "L38",
+      "title": "Sports Day",
+      "titleZh": "学校运动会",
+      "stage": 4,
+      "parts": [
+        2,
+        5
+      ],
+      "questionCount": 10,
+      "theme": "sport",
+      "file": "data/exam/ket/listening/l38.json",
+      "status": "ready"
     }
   ]
 }

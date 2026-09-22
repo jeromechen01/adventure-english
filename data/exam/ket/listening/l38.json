@@ -1,0 +1,279 @@
+{
+  "$comment": "听力训练营 L38（P-L4 阶段四，混合课）。脚本 100% 原创；按真考顺序 Part 2 → Part 5，两种「输入型」题连着做：Part 2 笔记填空一段独白 5 空（难度按 L20：地名拼读 W-E-S-T-F-I-E-L-D、时间、价格 £2.50、日期、姓名拼读 M-O-R-G-A-N）+ Part 5 匹配（难度按 L35：Amy 告诉爸爸五个同学运动会各参加什么，8 个项目 A-H 全部被提到、四人先选后改，选项为短语）。一课一场景=学校运动会。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L38",
+  "title": "Sports Day",
+  "titleZh": "学校运动会",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    2,
+    5
+  ],
+  "theme": "sport",
+  "names": [
+    "Westfield",
+    "Morgan",
+    "Amy",
+    "Ben",
+    "Chloe",
+    "Dan",
+    "Ella",
+    "Finn"
+  ],
+  "intro": "两种要「写」和「配」的题连着做：先听体育老师讲运动会安排，填 5 个空（地名拼读、开始时间、午饭价格、日期、老师姓名拼读）。紧接着 Part 5：听 Amy 告诉爸爸五个同学各参加什么项目——8 个项目都会被提到，四个人先选了一项后来又改，要听「最后定下来的」。中间只有一句「Part 5 开始」，不停下来。",
+  "warmup": [
+    {
+      "word": "sports day",
+      "phonetic": "/ˈspɔːts deɪ/",
+      "meaning": "运动会"
+    },
+    {
+      "word": "field",
+      "phonetic": "/fiːld/",
+      "meaning": "场地；田野"
+    },
+    {
+      "word": "race",
+      "phonetic": "/reɪs/",
+      "meaning": "赛跑"
+    },
+    {
+      "word": "team",
+      "phonetic": "/tiːm/",
+      "meaning": "队伍"
+    },
+    {
+      "word": "prize",
+      "phonetic": "/praɪz/",
+      "meaning": "奖品"
+    },
+    {
+      "word": "metres",
+      "phonetic": "/ˈmiːtəz/",
+      "meaning": "米"
+    },
+    {
+      "word": "long jump",
+      "phonetic": "/ˈlɒŋ dʒʌmp/",
+      "meaning": "跳远"
+    },
+    {
+      "word": "high jump",
+      "phonetic": "/ˈhaɪ dʒʌmp/",
+      "meaning": "跳高"
+    },
+    {
+      "word": "sandwich",
+      "phonetic": "/ˈsænwɪdʒ/",
+      "meaning": "三明治"
+    },
+    {
+      "word": "hurt",
+      "phonetic": "/hɜːt/",
+      "meaning": "弄伤；疼"
+    },
+    {
+      "word": "sun hat",
+      "phonetic": "/ˈsʌn hæt/",
+      "meaning": "遮阳帽"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 2,
+      "intro": "Part 2 开始。听体育老师讲运动会的安排，把笔记补全。五个空：地名拼读、时间、价格、日期、姓名拼读。每个空前后都有一个干扰。",
+      "script": [
+        {
+          "who": "Mr Morgan",
+          "sex": "m",
+          "text": "Good afternoon, everyone. Here is the news about sports day. This year it is not on the school field, because the grass is too wet."
+        },
+        {
+          "who": "Mr Morgan",
+          "sex": "m",
+          "text": "We are going to Westfield Park. That's W-E-S-T-F-I-E-L-D. It is a ten minute walk from school, so we will walk there together."
+        },
+        {
+          "who": "Mr Morgan",
+          "sex": "m",
+          "text": "The first race starts at half past nine, so please be at school at nine, not quarter past nine. The last race is at three o'clock."
+        },
+        {
+          "who": "Mr Morgan",
+          "sex": "m",
+          "text": "You can bring a packed lunch, or buy a sandwich and a drink at the park for two pounds fifty. Last year it was three pounds, so it's cheaper now."
+        },
+        {
+          "who": "Mr Morgan",
+          "sex": "m",
+          "text": "Sports day was going to be on the second of June, but that is a Sunday. So it is now on the third of June, a Monday. Please tell your parents the new date."
+        },
+        {
+          "who": "Mr Morgan",
+          "sex": "m",
+          "text": "If you have a question, come and find me, Mr Morgan, in the sports hall. That's M-O-R-G-A-N. Don't forget your sun hat and a bottle of water."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Place: ______ Park",
+          "answer": "Westfield",
+          "explain": "not on the school field… We are going to Westfield Park. That's W-E-S-T-F-I-E-L-D，照拼读写。"
+        },
+        {
+          "id": "q2",
+          "q": "First race starts at: ______",
+          "answer": "9:30",
+          "alt": [
+            "9.30",
+            "half past nine",
+            "nine thirty"
+          ],
+          "explain": "The first race starts at half past nine = 9:30。nine 是到校时间，quarter past nine 被 not 否定，three o'clock 是最后一场。"
+        },
+        {
+          "id": "q3",
+          "q": "Sandwich and drink: £______",
+          "answer": "2.50",
+          "alt": [
+            "£2.50",
+            "two pounds fifty",
+            "2 pounds 50",
+            "two fifty"
+          ],
+          "explain": "buy a sandwich and a drink at the park for two pounds fifty = £2.50。three pounds 是去年的价格。"
+        },
+        {
+          "id": "q4",
+          "q": "New date: ______ June",
+          "answer": "3",
+          "alt": [
+            "3rd",
+            "third",
+            "the third of",
+            "3 June",
+            "third of"
+          ],
+          "explain": "was going to be on the second of June, but that is a Sunday. So it is now on the third of June——新日期是 3 号。"
+        },
+        {
+          "id": "q5",
+          "q": "Ask for help: Mr ______",
+          "answer": "Morgan",
+          "explain": "come and find me, Mr Morgan… That's M-O-R-G-A-N，照拼读写。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 5,
+      "intro": "Part 5 开始。听 Amy 告诉爸爸五个同学运动会各参加什么项目。把每个人和右边 A-H 的项目配起来。8 个项目都会被提到，四个人先选了一项后来又改——要听「最后定下来的」。",
+      "options": [
+        "the 100 metres",
+        "the 400 metres",
+        "the egg and spoon race",
+        "the high jump",
+        "the long jump",
+        "the team race",
+        "the skipping race",
+        "the three-legged race"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Amy, is sports day on Monday? You're doing the 100 metres, I know. What about your friends?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Ben wanted to do the 100 metres with me. But there were too many people for that race, so Mr Morgan asked him to do the 400 metres. He's fast, so he'll be fine."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "That's a long race. And Chloe? She's the best jumper in your class."
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "She is, and she wanted to do the high jump. But she hurt her foot on Friday, so now she's doing the egg and spoon race. You don't need to run fast for that."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Poor Chloe. Who's doing the high jump, then?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "Dan. He was going to do the long jump, but Mr Morgan saw him jump over the wall in the playground and said he must do the high jump."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Funny! And what's Ella doing? The skipping race, like last year?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "She said she'd do the skipping race again. But then she fell over in it last time and everyone laughed, so she didn't want to do it again. She's doing the long jump now."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good for her. That leaves Finn. Is he doing the three-legged race with you?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "No, I'm in the 100 metres at the same time. Nobody wanted to do the skipping race after Ella left it, so Finn said he'd do it. He thinks it's funny."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So who's in the team race and the three-legged race?"
+        },
+        {
+          "who": "Amy",
+          "sex": "f",
+          "text": "The older classes do those. I'll tell you if we win anything."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Ben",
+          "answer": 1,
+          "explain": "Ben wanted to do the 100 metres with me. But there were too many people… asked him to do the 400 metres——先说 100 米，人太多，改成 400 米。"
+        },
+        {
+          "id": "q7",
+          "q": "Chloe",
+          "answer": 2,
+          "explain": "she wanted to do the high jump. But she hurt her foot… now she's doing the egg and spoon race——先说跳高，脚受伤，改成蛋勺赛。"
+        },
+        {
+          "id": "q8",
+          "q": "Dan",
+          "answer": 3,
+          "explain": "He was going to do the long jump, but Mr Morgan… said he must do the high jump——先说跳远，老师改成跳高。"
+        },
+        {
+          "id": "q9",
+          "q": "Ella",
+          "answer": 4,
+          "explain": "She said she'd do the skipping race again. But… she didn't want to do it again. She's doing the long jump now——先说跳绳赛，改成跳远。"
+        },
+        {
+          "id": "q10",
+          "q": "Finn",
+          "answer": 6,
+          "explain": "Nobody wanted to do the skipping race after Ella left it, so Finn said he'd do it——三腿赛被 No 否定，Finn 做跳绳赛。团队赛和三腿赛是高年级做的。"
+        }
+      ]
+    }
+  ]
+}
