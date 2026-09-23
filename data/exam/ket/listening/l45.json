@@ -1,0 +1,815 @@
+{
+  "$comment": "听力训练营 L45（P-L4 阶段四顶格课，全五 Part 25 题=一套不计时的全真）。脚本 100% 原创；按真考顺序 Part 1 → 2 → 3 → 4 → 5：Part 1 五段短对话选图（难度按 L10）+ Part 2 校长艺术节通知 5 空（难度按 L20：地名拼读 H-I-L-L-S-I-D-E、时间、星期、奖金、姓名拼读 K-E-N-T）+ Part 3 Leah 和 Kai 聊艺术节 5 题观点态度（难度按 L35：综合前后两句）+ Part 4 五段艺术节短话各 1 题主旨（难度按 L20：段段含转折）+ Part 5 Leah 告诉爷爷五个朋友在艺术节各做了什么（难度按 L35：8 件事 A-H 全部被提到、四人先选后改）。一课一场景=学校艺术节。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L45",
+  "title": "The Arts Festival",
+  "titleZh": "学校艺术节",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "theme": "festival",
+  "names": [
+    "Leah",
+    "Kai",
+    "Hillside",
+    "Kent",
+    "Ava",
+    "Noah",
+    "Grace",
+    "Louis",
+    "Isla"
+  ],
+  "intro": "阶段四最后一课：五个 Part 全部连着做，25 题，和一套真题一样多，做完大约 25 分钟——只是不计时。先 5 道选图（几点开演、家长票价、Leah 穿什么、音乐会在哪儿、午饭吃什么），再听校长的艺术节通知填 5 个空，然后听 Leah 和 Kai 聊艺术节（为什么唱歌不画画、Kai 对自己的电影、每天练习、Kai 爸爸为什么不来、结束后做什么），接着 5 段艺术节上的短话选主旨，最后听 Leah 告诉爷爷五个朋友各做了什么。Part 之间只有一句过渡，中途不要退出。",
+  "warmup": [
+    {
+      "word": "festival",
+      "phonetic": "/ˈfestɪvl/",
+      "meaning": "节日；艺术节"
+    },
+    {
+      "word": "stage",
+      "phonetic": "/steɪdʒ/",
+      "meaning": "舞台"
+    },
+    {
+      "word": "hall",
+      "phonetic": "/hɔːl/",
+      "meaning": "礼堂"
+    },
+    {
+      "word": "concert",
+      "phonetic": "/ˈkɒnsət/",
+      "meaning": "音乐会"
+    },
+    {
+      "word": "prize",
+      "phonetic": "/praɪz/",
+      "meaning": "奖；奖金"
+    },
+    {
+      "word": "practise",
+      "phonetic": "/ˈpræktɪs/",
+      "meaning": "练习"
+    },
+    {
+      "word": "voice",
+      "phonetic": "/vɔɪs/",
+      "meaning": "嗓子；声音"
+    },
+    {
+      "word": "pleased",
+      "phonetic": "/pliːzd/",
+      "meaning": "满意的；高兴的"
+    },
+    {
+      "word": "shy",
+      "phonetic": "/ʃaɪ/",
+      "meaning": "害羞的"
+    },
+    {
+      "word": "glue",
+      "phonetic": "/ɡluː/",
+      "meaning": "胶水"
+    },
+    {
+      "word": "drums",
+      "phonetic": "/drʌmz/",
+      "meaning": "鼓"
+    },
+    {
+      "word": "van",
+      "phonetic": "/væn/",
+      "meaning": "小货车"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "Part 1 开始。听一段短对话，选出正确的图。三个选项都会出现，抓住最后定下来的那个。",
+      "script": [
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Leah, what time does the show start on Saturday? Three o'clock?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "The art rooms open at three, but the show in the hall starts at four."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "So when do the singers have to be there?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "Mrs Kent wants us there by half past three, to get ready. But the show itself is at four."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What time does the show start on Saturday?",
+          "options": [
+            {
+              "icon": "clock-0400",
+              "alt": "4:00"
+            },
+            {
+              "icon": "clock-0300",
+              "alt": "3:00"
+            },
+            {
+              "icon": "clock-0330",
+              "alt": "3:30"
+            }
+          ],
+          "answer": 0,
+          "explain": "三点是美术室开门，三点半是歌手到场准备，演出 the show itself is at four = 4:00。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "How much are the tickets for parents this year, Leah? Five pounds, like last year?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "No, they're cheaper this year. It's three pounds for adults."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And for your little brother?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "Children don't pay, they're free. So just three pounds for you and three for Mum."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "How much is a ticket for a parent?",
+          "options": [
+            {
+              "icon": "price-5",
+              "alt": "£5"
+            },
+            {
+              "icon": "price-free",
+              "alt": "free"
+            },
+            {
+              "icon": "price-3",
+              "alt": "£3"
+            }
+          ],
+          "answer": 2,
+          "explain": "五镑是去年（like last year），免费的是小孩，成人 It's three pounds for adults = £3。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Leah, what are you wearing on stage? Your school jumper?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "It's too hot under the lights for a jumper. I wanted the blue jacket, but it doesn't fit me any more."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Then wear your white shirt, the one from the wedding. It looks lovely on you."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "OK, the white shirt. Can you wash it before Saturday?"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What will Leah wear on stage?",
+          "options": [
+            {
+              "icon": "clothes-t-shirt",
+              "alt": "a shirt"
+            },
+            {
+              "icon": "clothes-jumper",
+              "alt": "a jumper"
+            },
+            {
+              "icon": "clothes-jacket",
+              "alt": "a jacket"
+            }
+          ],
+          "answer": 0,
+          "explain": "毛衣太热，夹克穿不下（doesn't fit），最后 wear your white shirt → OK, the white shirt。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Is the concert in the park on Saturday? The poster says the park."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "It was going to be in the park, but it's going to rain. Mrs Kent asked the library, but it's too small for the band."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "So where is it?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "In the school hall, after the show. It's big enough, and it's dry."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "Where will the concert be on Saturday?",
+          "options": [
+            {
+              "icon": "place-park",
+              "alt": "in the park"
+            },
+            {
+              "icon": "place-library",
+              "alt": "in the library"
+            },
+            {
+              "icon": "place-school",
+              "alt": "at school"
+            }
+          ],
+          "answer": 2,
+          "explain": "公园要下雨，图书馆太小，最后 In the school hall——在学校。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Are there sandwiches at the festival café? I'll be hungry by lunch."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "They sold out before lunch last year. But there's a pizza van outside the hall this year."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Pizza, then. And your mum is bringing cakes, isn't she?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "Yes, but the cakes are for selling in the café. We'll get one after lunch."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What will Kai and Leah have for lunch at the festival?",
+          "options": [
+            {
+              "icon": "food-sandwich",
+              "alt": "sandwiches"
+            },
+            {
+              "icon": "food-pizza",
+              "alt": "pizza"
+            },
+            {
+              "icon": "food-cake",
+              "alt": "cake"
+            }
+          ],
+          "answer": 1,
+          "explain": "三明治去年就卖光，蛋糕是饭后（after lunch），午饭 Pizza, then——披萨。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "Part 2 开始。听校长讲艺术节的通知，把笔记补全。五个空：地名拼读、时间、星期、奖金、姓名拼读。每个空前后都有一个干扰。",
+      "script": [
+        {
+          "who": "Head teacher",
+          "sex": "m",
+          "text": "Good morning, everyone. Here is the news about the arts festival on Saturday. The school hall is too small for all the parents this year, so the festival is at Hillside Hall in town. That's H-I-L-L-S-I-D-E."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "m",
+          "text": "The hall opens at half past one for the paintings and models. The show on the stage starts at four, and it finishes at six."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "m",
+          "text": "If you have a painting for the art room, bring it to school by Thursday, please. Friday is too late, because we take everything to the hall on Friday morning."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "m",
+          "text": "There is a prize for the best painting: ten pounds to spend in the book shop. The second prize is five pounds. A visitor from the town museum will choose the winners."
+        },
+        {
+          "who": "Head teacher",
+          "sex": "m",
+          "text": "If you have any questions, ask Mrs Kent, the art teacher. That's K-E-N-T. She is in the art room at lunch every day this week. Thank you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Place: ______ Hall",
+          "answer": "Hillside",
+          "explain": "the festival is at Hillside Hall in town. That's H-I-L-L-S-I-D-E，照拼读写。学校礼堂太小。"
+        },
+        {
+          "id": "q7",
+          "q": "Hall opens at: ______",
+          "answer": "1:30",
+          "alt": [
+            "1.30",
+            "half past one",
+            "one thirty"
+          ],
+          "explain": "The hall opens at half past one = 1:30。four 是演出开始，six 是结束。"
+        },
+        {
+          "id": "q8",
+          "q": "Bring paintings to school by: ______",
+          "answer": "Thursday",
+          "explain": "bring it to school by Thursday, please. Friday is too late——截止是周四。"
+        },
+        {
+          "id": "q9",
+          "q": "First prize for best painting: £______",
+          "answer": "10",
+          "alt": [
+            "£10",
+            "ten pounds",
+            "10 pounds",
+            "ten"
+          ],
+          "explain": "a prize for the best painting: ten pounds to spend in the book shop = £10。five pounds 是二等奖。"
+        },
+        {
+          "id": "q10",
+          "q": "Questions: ask Mrs ______",
+          "answer": "Kent",
+          "explain": "ask Mrs Kent, the art teacher. That's K-E-N-T，照拼读写。"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "part": 3,
+      "intro": "Part 3 开始。听 Leah 和 Kai 聊艺术节。五道题的答案都要把前后两句合起来想：前一句常是「别人的看法」或「困难」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Leah, why are you singing at the festival and not painting? You painted last year."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "Everyone thinks it's because I can't paint. And Ava did ask me to sing with her group. But the big thing is that I love standing on a stage with the lights on. Painting is quiet, and I like noise."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Then singing is right for you. I'm showing my film, the funny one about our dog."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "I heard your brother thinks it's too short."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "He does, it's only four minutes. And I was worried at first that nobody would laugh. But I showed it to my class yesterday, and they laughed in all the right places. I'm really pleased with it now."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "I can't wait to see it. Do you know I practise my songs for an hour every day?"
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Every day? Isn't that too much, with all our homework?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "That's what Mum says, and it is hard, my voice hurts by Friday. But last week I sang the high part right for the first time. So it's working, and I'm not going to stop."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Good for you. Is your whole family coming on Saturday?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "Yes, all of them. What about your dad? He came last year."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "He wanted to come, and he's not working on Saturday, he asked for the day off. But my little sister has a party at the same time, and Mum is at work, so he has to take her. He says he'll watch the film at home."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "That's sad. Are you coming for pizza after the show? Everyone's going."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "I'd love to. But Mrs Kent asked the singers to stay and put the chairs away, and I said I'd help too. We can go for pizza after that, if it's still open."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "Chairs first, then pizza. OK!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "q": "Why is Leah singing at the festival?",
+          "options": [
+            "She is not good at painting.",
+            "Ava asked her to.",
+            "She likes being on stage."
+          ],
+          "answer": 2,
+          "explain": "前一句 Everyone thinks it's because I can't paint. And Ava did ask me（别人的猜测、朋友的邀请）+ 后一句 But the big thing is that I love standing on a stage——真正的原因是喜欢舞台。"
+        },
+        {
+          "id": "q12",
+          "q": "How does Kai feel about his film?",
+          "options": [
+            "He thinks it is too short.",
+            "He is pleased with it.",
+            "He is worried nobody will laugh."
+          ],
+          "answer": 1,
+          "explain": "前一句 your brother thinks it's too short… I was worried at first（哥哥的看法、起初的担心）+ 后一句 But… they laughed in all the right places. I'm really pleased with it now——现在很满意。"
+        },
+        {
+          "id": "q13",
+          "q": "What does Leah say about practising every day?",
+          "options": [
+            "It takes too much time.",
+            "It is boring.",
+            "It is hard but it is working."
+          ],
+          "answer": 2,
+          "explain": "前一句 That's what Mum says（太多是妈妈说的）, and it is hard, my voice hurts（承认难）+ 后一句 But last week I sang the high part right… So it's working——难但有效，不会停。"
+        },
+        {
+          "id": "q14",
+          "q": "Why isn't Kai's dad coming to the festival?",
+          "options": [
+            "He has to take Kai's sister to a party.",
+            "He is working on Saturday.",
+            "He is ill."
+          ],
+          "answer": 0,
+          "explain": "前一句 He wanted to come, and he's not working… asked for the day off（不是工作）+ 后一句 But my little sister has a party… so he has to take her——要送妹妹去派对。"
+        },
+        {
+          "id": "q15",
+          "q": "What will Kai do first after the show?",
+          "options": [
+            "go for pizza with everyone",
+            "go home to watch the film with his dad",
+            "help put the chairs away"
+          ],
+          "answer": 2,
+          "explain": "前一句 I'd love to（想去吃披萨）+ 后一句 But Mrs Kent asked the singers to stay and put the chairs away, and I said I'd help too… pizza after that——先收椅子。"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "part": 4,
+      "intro": "Part 4 开始。听五段艺术节上的短话，每段一题，选出说话人的主要意思。注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Mrs Kent",
+          "sex": "f",
+          "text": "Good afternoon, and welcome to the arts festival. Your ticket says the children's paintings are in the big hall."
+        },
+        {
+          "who": "Mrs Kent",
+          "sex": "f",
+          "text": "But we moved them this morning to the small room on the left, because the light is better there. The big hall is for the show at four. Enjoy your afternoon."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q16",
+          "q": "What is Mrs Kent telling visitors?",
+          "options": [
+            "where to find the paintings",
+            "that the show starts late",
+            "that the big hall is closed"
+          ],
+          "answer": 0,
+          "explain": "Your ticket says… the big hall. But we moved them… to the small room on the left——在说画搬到了哪里。演出照旧四点，大礼堂不关。"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "Noah, is your band playing first? That's what the poster says."
+        },
+        {
+          "who": "Noah",
+          "sex": "m",
+          "text": "We were going to be first. But the drums haven't arrived yet, the van broke down."
+        },
+        {
+          "who": "Kai",
+          "sex": "m",
+          "text": "So who's first now?"
+        },
+        {
+          "who": "Noah",
+          "sex": "m",
+          "text": "The dance group goes first, then the singers. We play after the singers, if the drums are here by then."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q17",
+          "q": "When is Noah's band playing?",
+          "options": [
+            "first",
+            "after the dance group",
+            "after the singers"
+          ],
+          "answer": 2,
+          "explain": "We were going to be first. But the drums haven't arrived… We play after the singers——排在歌手后面。舞蹈组第一，歌手第二。"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Ava",
+          "sex": "f",
+          "text": "I made a model of our school out of paper for the festival. It took me three weeks. This morning my little brother sat on it, and one wall broke."
+        },
+        {
+          "who": "Ava",
+          "sex": "f",
+          "text": "But Mrs Kent gave me glue and tape, and now you can't see anything wrong with it. It's on the table by the door, come and look."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q18",
+          "q": "What does Ava say about her model?",
+          "options": [
+            "It is broken.",
+            "It is OK now.",
+            "She didn't finish it."
+          ],
+          "answer": 1,
+          "explain": "one wall broke 是早上的事，But Mrs Kent gave me glue and tape, and now you can't see anything wrong——修好了。"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Leah, it's Dad. I'm in the hall now, but all the seats near the front were full when I got here."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So I'm at the back, by the door on the right, with Mum and your brother. Don't look for us on the left. Good luck!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q19",
+          "q": "What is Dad telling Leah?",
+          "options": [
+            "where the family is sitting",
+            "that he can't come to the show",
+            "that he will be late"
+          ],
+          "answer": 0,
+          "explain": "I'm in the hall now… So I'm at the back, by the door on the right——在说全家坐在哪里。人已经到了，不是来不了也不是晚到。"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Louis",
+          "sex": "m",
+          "text": "I didn't want to be in the festival. Standing on a stage in front of two hundred people? No way. I said no three times."
+        },
+        {
+          "who": "Louis",
+          "sex": "m",
+          "text": "But Mrs Kent asked me to read my story, just two pages, and when I finished, everyone stood up. I'm going to write a longer one for next year."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q20",
+          "q": "What does Louis say about reading his story?",
+          "options": [
+            "It went better than he thought.",
+            "He was too afraid to do it.",
+            "He didn't like his story."
+          ],
+          "answer": 0,
+          "explain": "I didn't want to… No way 是之前的想法，But… when I finished, everyone stood up. I'm going to write a longer one——比想的好得多。"
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "part": 5,
+      "intro": "Part 5 开始。听 Leah 在电话里告诉爷爷五个朋友在艺术节各做了什么。把每个人和右边 A-H 的事情配起来。8 件事都会被提到，四个人先想做一件后来又改——要听「最后做了什么」。",
+      "options": [
+        "danced on the stage",
+        "made a film",
+        "painted a picture",
+        "played the drums",
+        "read a story",
+        "sang a song",
+        "sold the tickets",
+        "took the photos"
+      ],
+      "script": [
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "Leah, tell me about the festival, I'm sorry I couldn't come. Did Ava sing with you in the end?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "She wanted to, and we practised together for weeks. But she got a cold on Friday and couldn't sing a note. So she painted a picture of the hall for the art room, and it won second prize."
+        },
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "Good for her. And Noah? He played the drums at the last concert, didn't he?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "He was going to play them again. But the drums never arrived, the van broke down. So he sold the tickets at the door with Mrs Kent, and he was very good at it."
+        },
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "And Grace? I remember she wanted to read a story."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "She wrote one, but she was too shy to read it in front of everyone. So she danced on the stage with the dance group. She was right at the front."
+        },
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "And Louis? He's always got a camera in his hand."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "He wanted to make a film, like Kai. But Kai made a film already, and Mrs Kent said one film is enough. So Louis took the photos all day, more than three hundred!"
+        },
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "Three hundred! And Isla? Did she dance with Grace?"
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "She was going to, but she hurt her foot on Thursday. So she read a story, the one Grace wrote! Everyone stood up at the end."
+        },
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "What a day. And you sang a song, I hope."
+        },
+        {
+          "who": "Leah",
+          "sex": "f",
+          "text": "Two songs, Grandfather. I'll sing them for you on Sunday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q21",
+          "q": "Ava",
+          "answer": 2,
+          "explain": "She wanted to（唱歌）… But she got a cold… So she painted a picture of the hall——先想唱歌，感冒了，改成画画。"
+        },
+        {
+          "id": "q22",
+          "q": "Noah",
+          "answer": 6,
+          "explain": "He played the drums at the last concert… He was going to play them again. But the drums never arrived… So he sold the tickets——鼓没到，改成卖票。"
+        },
+        {
+          "id": "q23",
+          "q": "Grace",
+          "answer": 0,
+          "explain": "she wanted to read a story. She wrote one, but she was too shy… So she danced on the stage——先想读故事，太害羞，改成跳舞。"
+        },
+        {
+          "id": "q24",
+          "q": "Louis",
+          "answer": 7,
+          "explain": "He wanted to make a film, like Kai. But Kai made a film already… So Louis took the photos——先想拍电影，改成拍照。"
+        },
+        {
+          "id": "q25",
+          "q": "Isla",
+          "answer": 4,
+          "explain": "Did she dance with Grace? She was going to, but she hurt her foot… So she read a story——先想跳舞，脚伤了，改成读故事。拍电影（Kai）、打鼓（鼓没到）、唱歌（Leah 自己）三件被反复提到，但都不是这五个人最后做的。"
+        }
+      ]
+    }
+  ]
+}

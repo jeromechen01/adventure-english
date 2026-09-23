@@ -664,6 +664,23 @@
       "theme": "holiday",
       "file": "data/exam/ket/listening/l44.json",
       "status": "ready"
+    },
+    {
+      "id": "L45",
+      "title": "The Arts Festival",
+      "titleZh": "学校艺术节",
+      "stage": 4,
+      "parts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questionCount": 25,
+      "theme": "festival",
+      "file": "data/exam/ket/listening/l45.json",
+      "status": "ready"
     }
   ]
 }
