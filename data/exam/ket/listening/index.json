@@ -633,6 +633,21 @@
       "theme": "cooking",
       "file": "data/exam/ket/listening/l42.json",
       "status": "ready"
+    },
+    {
+      "id": "L43",
+      "title": "The Spring Trip",
+      "titleZh": "班级春游",
+      "stage": 4,
+      "parts": [
+        3,
+        4,
+        5
+      ],
+      "questionCount": 15,
+      "theme": "trip",
+      "file": "data/exam/ket/listening/l43.json",
+      "status": "ready"
     }
   ]
 }

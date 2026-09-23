@@ -1,0 +1,497 @@
+{
+  "$comment": "听力训练营 L43（P-L4 阶段四，三 Part 混合课=真考后三部分，15 题）。脚本 100% 原创；按真考顺序 Part 3 → Part 4 → Part 5：Part 3 Maya 和 Ollie 聊春游 5 题观点态度（难度按 L35：综合前后两句）+ Part 4 五段春游短话各 1 题主旨（难度按 L20：段段含转折）+ Part 5 Ollie 告诉妈妈五个同学春游各负责带什么（难度按 L35：8 样东西 A-H 全部被提到、四人先选后改，选项为短语）。一课一场景=班级春游。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L43",
+  "title": "The Spring Trip",
+  "titleZh": "班级春游",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    3,
+    4,
+    5
+  ],
+  "theme": "trip",
+  "names": [
+    "Maya",
+    "Ollie",
+    "Reed",
+    "Poppy",
+    "Jack",
+    "Nina",
+    "Sam",
+    "Tara"
+  ],
+  "intro": "真考的后三部分连着做，15 题：先听 Maya 和 Ollie 聊班级春游（为什么去农场、坐大巴怎么样、为什么没去河边、觉得野餐怎么样、下次想去哪——前后两句合起来想），再听 5 段春游里的短话选主旨（注意 but 后面），最后听 Ollie 告诉妈妈五个同学各负责带什么——8 样东西都会被提到，四个人先选后改。Part 之间只有一句过渡，做完大约 15 分钟。",
+  "warmup": [
+    {
+      "word": "farm",
+      "phonetic": "/fɑːm/",
+      "meaning": "农场"
+    },
+    {
+      "word": "coach",
+      "phonetic": "/kəʊtʃ/",
+      "meaning": "长途大巴"
+    },
+    {
+      "word": "picnic",
+      "phonetic": "/ˈpɪknɪk/",
+      "meaning": "野餐"
+    },
+    {
+      "word": "hill",
+      "phonetic": "/hɪl/",
+      "meaning": "小山"
+    },
+    {
+      "word": "path",
+      "phonetic": "/pɑːθ/",
+      "meaning": "小路"
+    },
+    {
+      "word": "blanket",
+      "phonetic": "/ˈblæŋkɪt/",
+      "meaning": "毯子"
+    },
+    {
+      "word": "rubbish",
+      "phonetic": "/ˈrʌbɪʃ/",
+      "meaning": "垃圾"
+    },
+    {
+      "word": "torch",
+      "phonetic": "/tɔːtʃ/",
+      "meaning": "手电筒"
+    },
+    {
+      "word": "sheep",
+      "phonetic": "/ʃiːp/",
+      "meaning": "绵羊"
+    },
+    {
+      "word": "careful",
+      "phonetic": "/ˈkeəfl/",
+      "meaning": "小心的"
+    },
+    {
+      "word": "wood",
+      "phonetic": "/wʊd/",
+      "meaning": "树林"
+    },
+    {
+      "word": "museum",
+      "phonetic": "/mjuˈziːəm/",
+      "meaning": "博物馆"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 3,
+      "intro": "Part 3 开始。听 Maya 和 Ollie 聊班级春游。五道题的答案都要把前后两句合起来想：前一句常是「别人的看法」或「困难」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "Maya, the spring trip is to the farm this year, not the museum. Do you know why Mr Reed changed it?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Some people think it's because the museum costs more. And Poppy says it's because Mr Reed's brother works at the farm. But he told us the real thing on Monday: the museum is closed all month for building work. So it had to be the farm."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "But the farm is far. An hour on the coach! I get ill on coaches."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Everyone was worried about that. But you were fine last time, because you sat at the front and looked out of the window. Do that again, and we'll play cards."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "OK, the front seat. Are we walking to the big river in the woods? Jack says it's the best part."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "We were going to, and Mr Reed wanted to. But it rained all last week, and the path in the woods is under water. So we're going up the hill to see the sheep and the new baby sheep."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "Baby sheep are so cute. What about lunch? A picnic on the hill?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Yes, a picnic. My mum thinks a picnic is a bad idea, because the grass will be wet. But I love eating outside, and Mr Reed is bringing big blankets to sit on. It'll be the best part of the day."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "If it doesn't rain again. I'm bringing a lot of sandwiches."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "Where would you like to go next year, if you could choose?"
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "The museum is fine, and the beach would be nice. But I've never been to the mountains, and Mr Reed says you can see three lakes from the top. That's where I'd go."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "The mountains! That's a long way on a coach, Ollie."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "I'll sit at the front all the way."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "Why is the class going to the farm this year?",
+          "options": [
+            "The museum is closed.",
+            "The museum costs too much.",
+            "Mr Reed's brother works at the farm."
+          ],
+          "answer": 0,
+          "explain": "前一句 Some people think it's because the museum costs more… Poppy says… brother works at the farm（别人的猜测）+ 后一句 But he told us the real thing… the museum is closed all month——真正原因是博物馆关门。"
+        },
+        {
+          "id": "q2",
+          "q": "What does Maya say about Ollie and the coach?",
+          "options": [
+            "He should sit at the back.",
+            "He was fine last time.",
+            "He should not go on the trip."
+          ],
+          "answer": 1,
+          "explain": "前一句 Everyone was worried about that（大家都担心）+ 后一句 But you were fine last time, because you sat at the front… Do that again——上次坐前排就没事。"
+        },
+        {
+          "id": "q3",
+          "q": "Why isn't the class going to the river?",
+          "options": [
+            "Mr Reed doesn't want to go.",
+            "The path is under water.",
+            "It is too far to walk."
+          ],
+          "answer": 1,
+          "explain": "前一句 We were going to, and Mr Reed wanted to（原本要去、老师也想去）+ 后一句 But it rained all last week, and the path… is under water——是路被水淹了。"
+        },
+        {
+          "id": "q4",
+          "q": "How does Maya feel about the picnic?",
+          "options": [
+            "She thinks it is a bad idea.",
+            "She is worried about the wet grass.",
+            "She thinks it will be the best part."
+          ],
+          "answer": 2,
+          "explain": "前一句 My mum thinks a picnic is a bad idea, because the grass will be wet（是妈妈的看法）+ 后一句 But I love eating outside… It'll be the best part of the day——她觉得野餐是最好的部分。"
+        },
+        {
+          "id": "q5",
+          "q": "Where would Ollie like to go next year?",
+          "options": [
+            "to the museum",
+            "to the beach",
+            "to the mountains"
+          ],
+          "answer": 2,
+          "explain": "前一句 The museum is fine, and the beach would be nice（都还行）+ 后一句 But I've never been to the mountains… That's where I'd go——他选山区。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 4,
+      "intro": "Part 4 开始。听五段春游里的短话，每段一题，选出说话人的主要意思。注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Mr Reed",
+          "sex": "m",
+          "text": "Listen, everyone, before we get off the coach. There are three toilets by the farm shop, and you can go now."
+        },
+        {
+          "who": "Mr Reed",
+          "sex": "m",
+          "text": "But after that, we're walking up the hill, and there are no toilets up there for two hours. So go now, please, all of you, and bring your water bottles."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "What is Mr Reed telling the class?",
+          "options": [
+            "They should use the toilets now.",
+            "They must not go into the farm shop.",
+            "They should leave their water bottles on the coach."
+          ],
+          "answer": 0,
+          "explain": "you can go now… no toilets up there for two hours. So go now, please——主要意思是现在去上厕所。水瓶要带上，不是留在车上。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "Mr Reed, can we go and see the horses? They're just over there."
+        },
+        {
+          "who": "Mr Reed",
+          "sex": "m",
+          "text": "Not now, Poppy. We're going to the sheep first, the farmer is waiting for us."
+        },
+        {
+          "who": "Poppy",
+          "sex": "f",
+          "text": "Can we see them after the sheep, then?"
+        },
+        {
+          "who": "Mr Reed",
+          "sex": "m",
+          "text": "After the sheep it's lunch. But we can stop at the horses on the way back to the coach, if everyone is quick."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q7",
+          "q": "When can the class see the horses?",
+          "options": [
+            "now",
+            "after the sheep",
+            "before they go home"
+          ],
+          "answer": 2,
+          "explain": "Not now… After the sheep it's lunch… But we can stop at the horses on the way back to the coach——回程上车前看。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Nina",
+          "sex": "f",
+          "text": "I didn't want to go on the farm trip. I thought it would just be dirty fields and animals, and I like cities."
+        },
+        {
+          "who": "Nina",
+          "sex": "f",
+          "text": "But the farmer let us feed the new baby sheep with a bottle, and one fell asleep in my arms. I've asked my mum if we can go back at the weekend."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q8",
+          "q": "What does Nina say about the farm trip?",
+          "options": [
+            "It was better than she thought.",
+            "It was too dirty.",
+            "She would like to live in a city."
+          ],
+          "answer": 0,
+          "explain": "I didn't want to go… I thought it would just be dirty fields and animals 是去之前的想法，But the farmer let us feed the new baby sheep… asked my mum if we can go back——比想的好得多。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "Maya, have you seen my blue jacket? I left it on the blanket at lunch."
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "I saw it there, but Sam took it when we left. He thought it was his."
+        },
+        {
+          "who": "Jack",
+          "sex": "m",
+          "text": "So Sam has it? Where is he?"
+        },
+        {
+          "who": "Maya",
+          "sex": "f",
+          "text": "He gave it to Mr Reed when he saw it wasn't his. It's in Mr Reed's big bag on the coach."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q9",
+          "q": "Where is Jack's jacket now?",
+          "options": [
+            "on the blanket",
+            "with Sam",
+            "in Mr Reed's bag"
+          ],
+          "answer": 2,
+          "explain": "I saw it there, but Sam took it… He gave it to Mr Reed… It's in Mr Reed's big bag——现在在老师的包里。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Farmer",
+          "sex": "m",
+          "text": "Thank you for coming, everyone. Before you go, please put all your rubbish in the bins by the gate. We had a class last week that left it on the hill."
+        },
+        {
+          "who": "Farmer",
+          "sex": "m",
+          "text": "But your class has been the best this year. So everyone can take one apple from the box by the shop, for free. Have a safe journey home."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q10",
+          "q": "What is the farmer telling the class?",
+          "options": [
+            "They left rubbish on the hill.",
+            "They can each have a free apple.",
+            "They must buy something in the shop."
+          ],
+          "answer": 1,
+          "explain": "留垃圾的是上周的班级（a class last week），But your class has been the best… everyone can take one apple… for free——主要是说可以免费拿一个苹果。"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "part": 5,
+      "intro": "Part 5 开始。听 Ollie 告诉妈妈五个同学春游各负责带什么。把每个人和右边 A-H 的东西配起来。8 样东西都会被提到，四个人先选了一样后来又改——要听「最后定下来带什么」。",
+      "options": [
+        "a ball",
+        "a big blanket",
+        "a camera",
+        "a medicine box",
+        "a map of the farm",
+        "a torch",
+        "some rubbish bags",
+        "the class list"
+      ],
+      "script": [
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Ollie, Mr Reed asked some of you to bring things for the trip, didn't he? What is Jack bringing?"
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "Jack said he'd bring a ball at first, for games at lunch. But Mr Reed said no ball, because the sheep would run away. So Jack is bringing a camera, his dad's got a good one."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Good idea. And Poppy? She's very careful."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "She is, so Mr Reed asked her to bring a medicine box. She wanted to bring a map of the farm, but the farmer gives us maps at the gate."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "That's a good idea. What about Nina?"
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "Nina was going to bring a big blanket for the picnic. But Mr Reed is bringing three blankets now, so she's bringing some rubbish bags. The farmer wants the hill clean."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "And Sam? Let me guess, a ball."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "He wanted to! But no ball, remember. He asked for the class list, to count everyone on the coach. He says he's good at counting."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "And Tara? She always forgets things."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "That's why Mr Reed didn't give her the class list. She said she'd bring a camera, but Jack's got that now. So she's bringing a torch, because it might get dark in the woods."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "But you're not going into the woods, you said."
+        },
+        {
+          "who": "Ollie",
+          "sex": "m",
+          "text": "Mr Reed wants a torch, he says. And I'm bringing the sandwiches, lots of them."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "q": "Jack",
+          "answer": 2,
+          "explain": "Jack said he'd bring a ball at first… But Mr Reed said no ball… So Jack is bringing a camera——先说球，改成相机。"
+        },
+        {
+          "id": "q12",
+          "q": "Poppy",
+          "answer": 3,
+          "explain": "Mr Reed asked her to bring a medicine box. She wanted to bring a map of the farm, but the farmer gives us maps——地图不用带，带药箱。"
+        },
+        {
+          "id": "q13",
+          "q": "Nina",
+          "answer": 6,
+          "explain": "Nina was going to bring a big blanket… But Mr Reed is bringing three blankets now, so she's bringing some rubbish bags——先说毯子，改成垃圾袋。"
+        },
+        {
+          "id": "q14",
+          "q": "Sam",
+          "answer": 7,
+          "explain": "Let me guess, a ball → He wanted to! But no ball… He asked for the class list——球被否定，带班级名单。"
+        },
+        {
+          "id": "q15",
+          "q": "Tara",
+          "answer": 5,
+          "explain": "She said she'd bring a camera, but Jack's got that now. So she's bringing a torch——先说相机，改成手电筒。球（不许带）、毯子（老师带）、地图（农场发）三样被反复提到，但都不是这五个人最后带的。"
+        }
+      ]
+    }
+  ]
+}
