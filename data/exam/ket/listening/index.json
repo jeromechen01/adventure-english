@@ -618,6 +618,21 @@
       "theme": "zoo",
       "file": "data/exam/ket/listening/l41.json",
       "status": "ready"
+    },
+    {
+      "id": "L42",
+      "title": "Learning to Cook",
+      "titleZh": "学做饭",
+      "stage": 4,
+      "parts": [
+        1,
+        2,
+        3
+      ],
+      "questionCount": 15,
+      "theme": "cooking",
+      "file": "data/exam/ket/listening/l42.json",
+      "status": "ready"
     }
   ]
 }

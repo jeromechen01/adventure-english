@@ -1,0 +1,546 @@
+{
+  "$comment": "听力训练营 L42（P-L4 阶段四，三 Part 混合课=真考前三部分，15 题）。脚本 100% 原创；按真考顺序 Part 1 → Part 2 → Part 3：Part 1 五段短对话选图（难度按 L10）+ Part 2 烹饪班通知一段独白 5 空（难度按 L20：姓名拼读 L-A-M-B-E-R-T、星期、时间、价格、要带的东西）+ Part 3 Ella 和 Dan 聊烹饪班 5 题观点态度（难度按 L35：综合前后两句）。一课一场景=学做饭。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L42",
+  "title": "Learning to Cook",
+  "titleZh": "学做饭",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    1,
+    2,
+    3
+  ],
+  "theme": "cooking",
+  "names": [
+    "Ella",
+    "Dan",
+    "Lambert",
+    "Ruby",
+    "Sam"
+  ],
+  "intro": "真考的前三部分连着做，15 题：先 5 道选图（先做什么菜、几点上课、买什么、食谱书多少钱、在哪儿吃），再听学校烹饪班的通知填 5 个空（老师姓名拼读、星期、结束时间、六周价格、要带什么），最后听 Ella 和 Dan 聊烹饪班（为什么报名、老师怎么样、第一节课感受、煎饼去哪了、下周做什么——前后两句合起来想）。Part 之间只有一句过渡，做完大约 15 分钟。",
+  "warmup": [
+    {
+      "word": "recipe",
+      "phonetic": "/ˈresəpi/",
+      "meaning": "食谱"
+    },
+    {
+      "word": "oven",
+      "phonetic": "/ˈʌvn/",
+      "meaning": "烤箱"
+    },
+    {
+      "word": "sauce",
+      "phonetic": "/sɔːs/",
+      "meaning": "酱汁"
+    },
+    {
+      "word": "pancake",
+      "phonetic": "/ˈpænkeɪk/",
+      "meaning": "煎饼"
+    },
+    {
+      "word": "onion",
+      "phonetic": "/ˈʌnjən/",
+      "meaning": "洋葱"
+    },
+    {
+      "word": "flour",
+      "phonetic": "/ˈflaʊə/",
+      "meaning": "面粉"
+    },
+    {
+      "word": "bowl",
+      "phonetic": "/bəʊl/",
+      "meaning": "碗"
+    },
+    {
+      "word": "burn",
+      "phonetic": "/bɜːn/",
+      "meaning": "烧焦"
+    },
+    {
+      "word": "delicious",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "meaning": "美味的"
+    },
+    {
+      "word": "explain",
+      "phonetic": "/ɪkˈspleɪn/",
+      "meaning": "解释；讲解"
+    },
+    {
+      "word": "worried",
+      "phonetic": "/ˈwʌrid/",
+      "meaning": "担心的"
+    },
+    {
+      "word": "kitchen",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "meaning": "厨房"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "Part 1 开始。听一段短对话，选出正确的图。三个选项都会出现，抓住最后定下来的那个。",
+      "script": [
+        {
+          "who": "Mrs Lambert",
+          "sex": "f",
+          "text": "Welcome to the cooking class. We were going to make pizza today, but the big oven is broken."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Can we make a cake in the small oven, then?"
+        },
+        {
+          "who": "Mrs Lambert",
+          "sex": "f",
+          "text": "Cake is next week. Today we'll make pasta with tomato sauce, we only need the cooker for that."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Great, I love pasta."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What will the class make today?",
+          "options": [
+            {
+              "icon": "food-pizza",
+              "alt": "pizza"
+            },
+            {
+              "icon": "food-pasta",
+              "alt": "pasta"
+            },
+            {
+              "icon": "food-cake",
+              "alt": "a cake"
+            }
+          ],
+          "answer": 1,
+          "explain": "披萨因为烤箱坏了做不了，蛋糕是下周（next week），今天 we'll make pasta with tomato sauce。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Dan, is the cooking class at four today, like always?"
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "No, Mrs Lambert has a meeting. It starts at half past four today."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Oh, I thought it was half past three. That's what Ruby said."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Ruby got it wrong. Half past four, in the school kitchen."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What time does the cooking class start today?",
+          "options": [
+            {
+              "icon": "clock-0330",
+              "alt": "3:30"
+            },
+            {
+              "icon": "clock-0400",
+              "alt": "4:00"
+            },
+            {
+              "icon": "clock-0430",
+              "alt": "4:30"
+            }
+          ],
+          "answer": 2,
+          "explain": "四点是平时（like always），三点半是 Ruby 说错的，今天 It starts at half past four = 4:30。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Mum, I want to make pancakes tonight. Have we got eggs?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "There are six eggs in the fridge, and there's flour. But we haven't got any milk."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "I'll go to the shop, then. Shall I get apples for the pancakes too?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "There are apples in the bowl. Just the milk, please."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What does Dan need to buy?",
+          "options": [
+            {
+              "icon": "food-milk",
+              "alt": "milk"
+            },
+            {
+              "icon": "food-egg",
+              "alt": "eggs"
+            },
+            {
+              "icon": "food-apple",
+              "alt": "apples"
+            }
+          ],
+          "answer": 0,
+          "explain": "鸡蛋有六个，苹果碗里有，没有的是牛奶：Just the milk, please。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Dad, can I buy this cooking book? It was fifteen pounds, but it's in the sale now."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "How much is it now?"
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Ten pounds. The small one is eight, but it only has cakes in it."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "OK, the big one for ten. You can cook me dinner on Sunday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "How much does the cooking book cost now?",
+          "options": [
+            {
+              "icon": "price-8",
+              "alt": "£8"
+            },
+            {
+              "icon": "price-10",
+              "alt": "£10"
+            },
+            {
+              "icon": "price-15",
+              "alt": "£15"
+            }
+          ],
+          "answer": 1,
+          "explain": "十五镑是原价（It was），八镑是小本的，现在 Ten pounds → the big one for ten = £10。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Our pasta is ready. Let's take it to the park and eat it there."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "It's raining, Dan. What about the café next to school?"
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "You can't take your own food into a café. Mrs Lambert says we can eat in the school kitchen."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "OK, here in the kitchen, then. Pass me a fork."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "Where will Dan and Ella eat their pasta?",
+          "options": [
+            {
+              "icon": "place-park",
+              "alt": "in the park"
+            },
+            {
+              "icon": "place-cafe",
+              "alt": "in the café"
+            },
+            {
+              "icon": "place-school",
+              "alt": "at school"
+            }
+          ],
+          "answer": 2,
+          "explain": "公园下雨，咖啡馆不能自带食物，最后 we can eat in the school kitchen → OK, here in the kitchen。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "Part 2 开始。听学校烹饪班的通知，把笔记补全。五个空：老师姓名拼读、星期、结束时间、价格、要带的东西。每个空前后都有一个干扰。",
+      "script": [
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "Hello, everyone. Here is some news about the new cooking class for children. The teacher is Mrs Lambert. That's L-A-M-B-E-R-T. She was a cook in a hotel for ten years."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "The class was going to be on Saturday, but the school kitchen is full on Saturdays. So the class is every Wednesday after school."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "It starts at four o'clock and finishes at half past five. The kitchen closes at six, so please leave by then."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "The class costs twenty pounds for six weeks. That's cheaper than four pounds a week. The money is for the food you cook, and you take the food home."
+        },
+        {
+          "who": "Man",
+          "sex": "m",
+          "text": "You don't need to bring a bowl or a knife, the kitchen has everything. But please bring an old shirt to wear, because cooking can be dirty. See you on Wednesday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Teacher: Mrs ______",
+          "answer": "Lambert",
+          "explain": "The teacher is Mrs Lambert. That's L-A-M-B-E-R-T，照拼读写。"
+        },
+        {
+          "id": "q7",
+          "q": "Day: every ______",
+          "answer": "Wednesday",
+          "alt": [
+            "Wednesdays"
+          ],
+          "explain": "was going to be on Saturday, but… full on Saturdays. So the class is every Wednesday——是周三。"
+        },
+        {
+          "id": "q8",
+          "q": "Time: 4:00 to ______",
+          "answer": "5:30",
+          "alt": [
+            "5.30",
+            "half past five",
+            "five thirty"
+          ],
+          "explain": "finishes at half past five = 5:30。six 是厨房关门的时间。"
+        },
+        {
+          "id": "q9",
+          "q": "Cost: £______ for six weeks",
+          "answer": "20",
+          "alt": [
+            "£20",
+            "twenty pounds",
+            "20 pounds",
+            "twenty"
+          ],
+          "explain": "costs twenty pounds for six weeks = £20。four pounds a week 是用来比较的。"
+        },
+        {
+          "id": "q10",
+          "q": "Bring: an old ______",
+          "answer": "shirt",
+          "alt": [
+            "old shirt"
+          ],
+          "explain": "don't need to bring a bowl or a knife… But please bring an old shirt to wear——要带的是旧衬衫。"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "part": 3,
+      "intro": "Part 3 开始。听 Ella 和 Dan 聊烹饪班。五道题的答案都要把前后两句合起来想：前一句常是「别人的看法」或「困难」，后一句才是真正的原因和感受。",
+      "script": [
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Ella, why did you join the cooking class? Was it your mum's idea?"
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Mum said it was a good idea, and Ruby joined too. But the big thing is that Mum works all week, and I want to make dinner for the family on Sundays. Something better than sandwiches."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "That's a good idea. What do you think of Mrs Lambert?"
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Some people say she talks too much. What do you think?"
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "She does explain everything twice, that's true. But when my sauce went wrong last week, she came over and showed me what to do, and she never gets angry. I think she's great."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Me too. How did you feel in the first lesson? I was so worried before it started. I had never cut an onion in my life."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "Really? You looked fine to me."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "After ten minutes I was fine. And my pasta was delicious, Dad ate two plates. So I'm not worried any more."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "My pancakes were good too, on Wednesday. I made eight, and not one of them burned."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Did your sister like them? You said you'd take them home for her."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "I wanted to. But Sam's and Ruby's pancakes were black, and they had nothing to eat. So I gave them mine. My sister can have some next time."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "That was kind. What are we cooking next week? Mrs Lambert said pizza at the start of term."
+        },
+        {
+          "who": "Dan",
+          "sex": "m",
+          "text": "It was going to be pizza. But the big oven is still broken, so she said we'll make a cake in the small oven. Pizza will be after that."
+        },
+        {
+          "who": "Ella",
+          "sex": "f",
+          "text": "Cake is fine by me. I'll bring the eggs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "q": "Why did Ella join the cooking class?",
+          "options": [
+            "Her mum told her to.",
+            "Her friend Ruby joined.",
+            "She wants to cook for her family."
+          ],
+          "answer": 2,
+          "explain": "前一句 Mum said it was a good idea, and Ruby joined too（妈妈和朋友都只是原因之一）+ 后一句 But the big thing is… I want to make dinner for the family on Sundays——真正的原因是想给家人做饭。"
+        },
+        {
+          "id": "q12",
+          "q": "What does Dan think about Mrs Lambert?",
+          "options": [
+            "She talks too much.",
+            "She always helps you.",
+            "She often gets angry."
+          ],
+          "answer": 1,
+          "explain": "前一句 Some people say she talks too much… She does explain everything twice（承认话多）+ 后一句 But when my sauce went wrong… she came over and showed me… never gets angry. I think she's great——他觉得老师很会帮人。"
+        },
+        {
+          "id": "q13",
+          "q": "How did Ella feel about the first lesson?",
+          "options": [
+            "She was worried before it started.",
+            "It was too easy for her.",
+            "It was boring."
+          ],
+          "answer": 0,
+          "explain": "I was so worried before it started. I had never cut an onion + After ten minutes I was fine——开始前很担心，后来才好。"
+        },
+        {
+          "id": "q14",
+          "q": "Why didn't Dan take his pancakes home?",
+          "options": [
+            "He ate them all at school.",
+            "They burned.",
+            "He gave them to his friends."
+          ],
+          "answer": 2,
+          "explain": "前一句 I made eight, and not one of them burned… I wanted to（没糊、也想带回家）+ 后一句 But Sam's and Ruby's pancakes were black… So I gave them mine——送给了朋友。"
+        },
+        {
+          "id": "q15",
+          "q": "What will the class cook next week?",
+          "options": [
+            "pizza",
+            "pasta",
+            "a cake"
+          ],
+          "answer": 2,
+          "explain": "前一句 Mrs Lambert said pizza… It was going to be pizza（原计划）+ 后一句 But the big oven is still broken, so… we'll make a cake in the small oven——下周做蛋糕。"
+        }
+      ]
+    }
+  ]
+}
