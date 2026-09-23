@@ -1269,6 +1269,60 @@
 
 ---
 
+## P-L4：听力阶段四 L36-L45 混合（缓存 `ea-v1.1.6`，2026-09-23，✅ 阶段四 10 课全部完成 45/50，⏸ 硬停机等家长验收，不进入 P-L5）
+
+> 家长验收阶段三后开工。**只产课程数据 + 索引 + sw 版本 + smoke 用例，引擎零改动**（`listening.js` / `speech.js` / `check-listening.mjs` / Schema 本批未动）。10 课脚本 100% 原创，官方音频/tapescript/样卷一字不读；音频只用 Web Speech 实时合成不入库；八课数据零改动（untouched 对 `tools/backup/pl4/` 全过）。一课一 commit，各 Part 格式基线 = `l10.json`（Part 1）/ `l20.json`（Part 2/4）/ `l35.json`（Part 3/5）。
+
+### 单元 1 · 10 课（每课 2-5 个 Part 按真考顺序连排，`stage 4` · `rate 1` · 一课一场景贯穿所有 Part）
+| 课 | 题材 / theme | Part 组合 · 题数 · 段数 | 各 Part 要点（答案） | commit |
+|---|---|---|---|---|
+| L36 新学期第一天 | term | P1 + P2 · 10 题 · 6 段 | P1 开学几点/怎么去/买什么/第一节课/午饭 C B A C A；P2 校长通知 Miss Fisher F-I-S-H-E-R / Room 12 / Thursday / £3 / 630 2175 | 031bdd9 |
+| L37 周末市集 | market | P3 + P4 · 10 题 · 6 段 | P3 Lily 和 Oscar 14 轮 B A C B A（综合两句）；P4 五段 A B C B A | fbb7584 |
+| L38 学校运动会 | sport | P2 + P5 · 10 题 · 2 段（两种输入型题连排）| P2 Westfield W-E-S-T-F-I-E-L-D / 9:30 / £2.50 / 3 June / Morgan M-O-R-G-A-N；P5 五人配 8 项目 B C D E G（四人先选后改） | ffb7f07 |
+| L39 去海边 | beach | P1 + P3 + P4 · 15 题 · 11 段（首个三 Part）| P1 A B C B C；P3 Sophie 和 Jake 12 轮 B A C B C；P4 A B C A A | a2468f6 |
+| L40 生日派对筹备 | party | P2 + P3 + P5 · 15 题 · 3 段 | P2 Redhill R-E-D-H-I-L-L / 1 March / 2:30 / £5 / Ellis E-L-L-I-S；P3 14 轮 A B A B C；P5 五人配 8 短语 B G C F D | 71d9c1f |
+| L41 参观动物园 | zoo | P1 + P4 + P5 · 15 题 · 11 段 | P1 B C A A C；P4 A B A B A；P5 五人配 8 动物 E G H C A | defc0ea |
+| L42 学做饭 | cooking | P1 + P2 + P3 · 15 题 · 7 段（真考前三部分）| P1 B C A B C；P2 Lambert L-A-M-B-E-R-T / Wednesday / 5:30 / £20 / shirt；P3 14 轮 C B A C C | 5327e40 |
+| L43 班级春游 | trip | P3 + P4 + P5 · 15 题 · 7 段（真考后三部分）| P3 13 轮 A B B C C；P4 A C A C B；P5 五人配 8 样 C D G H F | 162d251 |
+| L44 假期在奶奶家 | holiday | P1 + P2 + P4 + P5 · 20 题 · 12 段（四 Part）| P1 B A C B A；P2 Millbrook M-I-L-L-B-R-O-O-K / 9:10 / Walker W-A-L-K-E-R / £2 / 12；P4 A B A C A；P5 B E D A F | ad52c90 |
+| L45 学校艺术节 | festival | **P1 + P2 + P3 + P4 + P5 · 25 题 · 13 段（阶段四顶格 = 一套不计时全真）** | P1 A C A C B；P2 Hillside H-I-L-L-S-I-D-E / 1:30 / Thursday / £10 / Kent K-E-N-T；P3 14 轮 C B C A C；P4 A C B A A；P5 C G A H E | 01ff7d7 |
+
+- [x] 搭配按任务书（与上批「搭配建议」不同处以任务书为准）：两 Part ×3（L36-L38）→ 三 Part ×5（L39-L43）→ 四 Part（L44）→ 五 Part（L45）；每种 Part 出现次数 P1 ×6 / P2 ×6 / P3 ×6 / P4 ×6 / P5 ×6
+- [x] **真考顺序**：sections 一律按 Part 号升序（selftest 强制），索引 `parts` 写实际升序数组、`questionCount` 求和；**Part 之间的分隔提示只写在每个 Part 第一段的 `intro` 里（「Part N 开始。…」），同 Part 后续段不重复**，引擎本来就按段连着放、段头「第 k/N 段」+ Part 标签 + 进度条跨 Part 连续（0 → 92.3%），没有任何打断（行为级实测 L45 13 段）
+- [x] 难度定位：Part 1 按 L10（三个选项都出现，抓最后决定）/ Part 2 按 L20（姓名地名拼读 + 时间 + 价格 + 日期/数量 + 电话，每空前后一个干扰）/ Part 3 按 L35（五题综合前后两句）/ Part 4 按 L20（段段含转折）/ Part 5 按 L35（8 项全出现、四人先选后改、选项为短语）；不加新干扰手法
+- [x] 词汇 A2 覆盖 **10 课全部 100%**（549-1551 词/课，L45 1551 词为全营最大）；warmup 10-12 词（任务书放宽到 10-15，但 Schema `warmup maxItems 12` 仍在，L45 第 13 词被拦下后删至 12——**不改 Schema**，混合课靠绕词把超纲控在 12 以内）
+- [x] 每课收尾：`check-listening LXX`（题型口径 + 词汇）+ `check-data`（Schema + 编码）+ 判分自测（临时 `selftest.mjs` 扩到多 Part：索引元信息一致 / stage 4 rate 1 / sections 升序 / q·s 编号连续 / 每 Part 第一段 intro 含「Part N 开始」/ P1 每段 4-6 轮 + 图标在清单 + 答案 0-2 / P2 一段 5-7 轮 + answer 字符串 + answer/alt/大写/首尾空格全过 `normalizeGap`、错一字母或末位 +1 判错、拼写题脚本必含 `F-I-S-H-E-R` 串 / P3 一段 11-15 轮男女交替 / P4 五段各 1 题 2-4 轮 / P5 一段 10-13 轮 + 8 选项逐字出现 + 5 人名出现且在 `names` + 答案不重复 / 模拟判分全对 = N、全 A = 只有 answer 0 的题、全空 = 0）
+- [x] ★ 词汇踩坑新增（不在 A2 表、也进不了 warmup；P-L2 / P-L3 两表继续有效）：`T-shirt（连字符拆成 t 不认，改 shirt）/ Ms（改 Miss）/ stall(s)（摊位改 table）/ pence（改整镑）/ usual / promised / sellers / sack / relay / mind / ha / there'll / even / blew / invitation / decorate / treasure / musical / trust / pool（dolphin pool 改 dolphin lake）/ keepers / bigger / cage / crocodile / seal / scary / reason / helpful / easily / ingredient / garlic / chop / mix / stir / burnt / apron / mess / though / waterfall / through / lamb(s)（改 baby sheep）/ bit / choice / mud / picked / aid（first aid box 改 medicine box）/ sensible / case / anyway / since / granny / knit / sew / jigsaw / attic / album / bored / wifi / lunchtime / shame / deal / drama / costume / exhibition / judge / nervous / proud / audience / poem / rehearsal`
+
+### 收尾（本 commit）
+- [x] preflight 五项 ✔（ESM 42 / Schema + 编码 **193 文件** / 听力 **45 课** / sw 登记 / ketLessonMap 50 课）；八课 untouched 对 `tools/backup/pl4` ✔
+- [x] ★ **行为级**（临时页 `_pl4check.html` 放仓库根、`Object.defineProperty` 覆盖 speechSynthesis + 假 SpeechSynthesisUtterance + 从课文件自动取答案跑四轮；跑完已删）：
+  - **L45 全五 Part 25 题**三跑：默认宽 462 项 / ?w=360 529 项 / ?w=360&novoice=1 542 项，**全部 0 失败、0 console 错误**——热身 12 词逐词发音 rate 0.9 · 13 段逐段：段头「第 k/13 段」、Part 标签、**进度条 0 → 92.3% 跨 Part 连续**、分隔提示只在 s1/s6/s7/s8/s13 出现、答题态隐藏底部导航；每段播放 disabled → 恢复、utterance 数 = chunk 数（P2 拼读串逐字母：H-I-L-L-S-I-D-E / K-E-N-T 共 19 chunk）、rate 全 1、男女声按 turn 性别对应、文本逐 chunk 一致、turn 间隔实测 700-715ms、「已听 1 遍」文案 · **25 题连做状态保持**：四轮判分 ① 全对 25/25 绿卡、不落错题 ② 全错（P1/3/4 选错项、P2 乱写、P5 错字母）0/25 红卡、**错题本 25 条 12 字段、各 Part 口径逐题核对**（P1 `A. 4:00` 形 + 3 options / P2 picked 原文 correct 答案 options null / P3·P4 `B. xxx` + 3 options / P5 `G. sold the tickets` + 8 options；q 为 `[听力 Part k 三图选一|填空|三选一|匹配] …`）③ 最后两题留空 → toast「还有 2 题没作答」+ 按钮变「📝 确定交卷」+ 二次点击 23/25 + 两题「（没作答）」④ **中途退出确认与恢复**：Part 3 段填完 5 题点 ‹ → 弹「还有 10 题没做完」（剩余数正确）+「录音会停下来」→「继续做题」关弹窗、仍在同一段、已选答案不丢；第 2 段点 ‹ →「离开」回训练营首页、底部导航恢复、语音已取消、再进从热身开始 · 首页「已上线 45 课」、L36-L45 全部出现、L45 行「Part 1 + Part 2 + Part 3 + Part 4 + Part 5 · 25 题 · 最好 100%（练过 3 次）」、阶段五仍「还在准备中」 · 360 宽：P2 输入框 / P3·P4 选项 / P5 下拉右边界全部 322、每页无横向溢出
+  - **L39 首个三 Part** 默认宽 399 项 0 失败（P1 三张 SVG 图 + 图钮 ≥48 高、P3 段中途退出确认「还有 5 题」、P4 五段、四轮判分 15/0/13）
+  - **十课扫描** `?sweep=L36,…,L45`（真实时钟 417s）：每课每段播一遍 + 全对交卷，**1354 项 0 失败**，311 个 turn 间隔实测 700-721ms，各课 utterance 数 = chunk 数（L38 P2 23 chunk 含两串拼读）
+- [x] ★ **120 分钟护栏核对（诚实记录，未改引擎）**：`assets/js/study-time.js` 的 `moduleForPage` 没有 `exam-listening` 映射 → **听力页不计入学习时长**（L45 三跑均 study 0→0、打卡分钟 0→0）；「不重复计时」成立，但「正确累计」不成立——一课 25 题做完约 25 分钟，护栏看不到。属引擎改动，**建议放进 P-L5 引擎批次**：`examMap` 加 `'exam-listening': 'ket-listening'` + `STUDY_MODULES` 登记 `{ label: 'KET 听力', icon: '🎧' }`（一行映射 + 一行登记，家长拍板后做）
+- [x] **无语音降级复测**（novoice：getVoices 返回空）L45 360 宽：单声按音调分男女（0.75 / 1.25）、voice 为空、utterance 数与四轮判分与有声完全一致
+- [x] 三件套（真实时钟、每跑全新 profile）：smoke **51 在线 + 38 离线零失败**（+2：在线 L45、离线 L45 热身页 `offlineListeningL45: true`），唯一 console error 为预期 g51 探针；sw-check：唯一缓存 `english-adventure-ea-v1.1.6`、壳 61 项、离线内容/索引/壳 JS 命中、未缓存 504、清内容缓存不动壳 ✔；modal-check 默认宽 + ?w=360 **0 false**（听力答题态 14 项全绿）
+- [x] 窄屏 shot ?w=360（虚拟时钟快跑）**11 张零溢出零小热区**：L38 填空页（`&click=%23startBtn`）/ 匹配页（+`%23nextBtn`）/ 对答案页（+3×，含空题二次确认）· L45 热身 / P1 / P2（+5×）/ P3（+6×）/ P4（+7×）/ P5（+12×）/ 对答案页（+14×）· 训练营首页
+- [x] `index.json` +10 课（updated 2026-09-23）→ sw **ea-v1.1.6**（索引在壳预取清单）
+- ⚙ 自检页踩坑（写下次行为级页时用）：① 引擎把拼读字母 chunk 成 **大写 + 句号**（`F.`），正文 chunk 会去掉开头的 `,;:` 与空白——比对文本要照这个口径；② 「留两题空」要在**全课题目展平后**取最后两题，不能取最后一段的最后两题（L39 最后一段是 Part 4 只有 1 题，首跑因此假失败 3 项）；③ 并行跑要一实例一端口一 profile（本批 8101-8109 / 8221-8231）
+- 本批 commit：031bdd9 L36 → fbb7584 L37 → ffb7f07 L38 → a2468f6 L39 → 71d9c1f L40 → defc0ea L41 → 5327e40 L42 → 162d251 L43 → ad52c90 L44 → 01ff7d7 L45 → 收尾（sw + smoke 用例 + CHECKLIST + 交接文档）
+
+### 📌 P-L5 续跑说明（L46-L50 阶段五「全真模拟」，家长验收阶段四后开工；★ 含引擎改动，先做 L46 样课再批量）
+- **定位**：每课五 Part 25 题按真考顺序（P1 5 段 / P2 1 段 / P3 1 段 / P4 5 段 / P5 1 段 = 13 段，`_schema.lesson.json` sections 上限 25 够用），`stage 5` · `rate 1` · `questionCount 25`；数据格式与 L45 完全一样（L45 就是「不计时的 L46」，可直接当骨架）
+- ★ **引擎需加「模拟模式」（这是本营首次改引擎，单独 commit、单独 sw bump，先于课数据）**：
+  1. **30 分钟计时**：进入盲听答题起倒计时 30:00，段头常显剩余时间，到时自动交卷（空题按错）；计时器走 `enterFocus` 的 `cleanup` 清掉，任何离开路径不留孤儿计时器（modal-check ⑦ 会抓）；`storage` 只存本次结果，不存中途快照（与 B 系列遗留②「进度快照」分开做）
+  2. **每段严格两遍**：`maxPlaysFor('mock')` 已是 2，模拟模式下不再显示「练习模式」标签，且**播放键在第 2 遍放完后锁死**（现有逻辑已如此，只需确认文案「真考每段只放两遍，这里也一样」保留）
+  3. **Part 间不可回退**：现引擎本就只有「下一段 ›」没有上一段，模拟模式再加一条：`‹` 只弹「交卷/继续」而不是「离开」（中途离开 = 交卷计分，避免刷分）；练习模式行为不变
+  4. **交卷出分（量表估算）**：25 题正确数 → 估算分数带（建议按剑桥量表口径粗分：≥20 题 ≈ 140+ 达 A2 优秀带 / 15-19 ≈ 120-139 及格带 / 10-14 ≈ 100-119 / <10 ≈ 100 以下；**只写「估算」二字，不写「官方」**；分档数字请家长拍板后写进 `index.json rules.scoreBands`，引擎读表不写死）；结果卡显示：正确数 / 用时 / 估算带 / 五个 Part 各对几题（跨 Part 弱项一眼看到）
+  5. **顺带修 120 分钟护栏映射**（见本批「120 分钟护栏核对」）：`study-time.js` 加 `exam-listening → ket-listening`，让模拟课 30 分钟真正计入
+  6. 模拟模式入口：训练营首页阶段五课卡直接进模拟模式（不走 `prefs.mode`），阶段一到四课不受影响；错题落盘口径不变（`src:'listen'`、12 字段）
+- **工艺**：① 引擎改动 commit + 行为级页（mock 计时器用 `performance.now` 偏移或直接缩短时限参数 `?mockMinutes=1` 验到时自动交卷）+ sw bump + push → 硬停机等家长验收模拟模式；② 通过后 L46 样课（题材建议：一次完整的周末——早上去市场 / 中午家庭午餐 / 下午运动 / 晚上电影；或直接沿用「学校生活」大场景）一课一 commit，push 后再等家长验收；③ 再批量 L47-L50（题材续用未用过的场景：机场 / 医院 / 图书馆借书 / 天气与出行 / 城市一日游）
+- **难度**：全部维持阶段四水平（各 Part 取其阶段顶格），不再往上加；Part 2 五空五类混合、Part 5 干扰反复；词汇 A2 覆盖 ≥95%（实质 100%）、warmup ≤12（Schema 上限）
+- 收尾照旧：preflight（含 ⑤）+ untouched（`tools/backup/pl4/` 继续用）+ 三件套 + 行为级（L46 计时到点自动交卷 / 中途 ‹ 交卷计分 / 出分卡五 Part 分布 / 错题落盘）+ 无语音 + 窄屏 shot（出分卡 ?w=360）+ sw bump + CHECKLIST 记录 50/50 + 交接文档 + push 后硬停机
+
+---
+
 ## ⚙️ 环境坑清单（每次开工前扫一眼）
 
 1. **本机 python 是 Windows 商店 stub，不可运行**。起服务用 `npx http-server`，或本项目自带的 `node tools/smoke/verify-server.mjs`（多了断网开关）。一律后台跑，绝不前台阻塞。
@@ -1325,12 +1379,12 @@
 ## 📊 统计
 
 - JS 模块：**42 个**（assets/js，check-esm 计数；P-L0 新增 modules/voice-check.js + modules/exam/listening.js，全部 check-esm 通过）+ `sw.js`
-- 数据文件：**183 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema；P-L1 +9：L02-L10；P-L2 +10：L11-L20；P-L3 +1：L21；P-L3 续跑 +14：L22-L35）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
+- 数据文件：**193 个 JSON**（P-L0 +5：听力索引/图标清单/L01/两份 Schema；P-L1 +9：L02-L10；P-L2 +10：L11-L20；P-L3 +1：L21；P-L3 续跑 +14：L22-L35；P-L4 +10：L36-L45）（含 KET 备考 + PET 镜像 + exam 清单 + V0.6 语法增强 + 语法大厅 50 课）
 - 语法大厅：**50/50 课全部完工**（基石 G01-G12 + 骨架 G13-G26 + 进阶 G27-G42 + 精修 G43-G50，共 3200 题 + 352 侦探病句 = 3552 个题干全局无重复）
 - KET 词库：**1416 词 / 20 话题**；PET 词库：**2571 词 / 22 话题**（V0.5-PET-s1 第 1 会话后，第 2 会话续扩 time + 新话题）；PET 阅读：**15 篇**
-- 听力训练营（P-L0 ~ P-L3 续跑）：**35/50 课**，索引五阶段（一 L01-L10 · Part 1 · 每课 5 题，共 50 题；二 L11-L20 · Part 4 主旨 + Part 2 填空 · 每课 10 题，共 100 题；三 L21-L35 · Part 3 观点态度 + Part 5 匹配 · 每课 10 题，共 150 题，全部完成；四 L36-L45 混合 / 五 L46-L50 全真 待产）+ SVG 图标 **81 个 / 10 类**（tools/gen-listening-icons.mjs 生成，清单见 P-L1「★ 图标清单」）+ check-listening 词汇守卫（A2 覆盖 ≥95%，35 课实测 33 课 100%、L15/L19 99%+）
+- 听力训练营（P-L0 ~ P-L4）：**45/50 课**，索引五阶段（一 L01-L10 · Part 1 · 每课 5 题，共 50 题；二 L11-L20 · Part 4 主旨 + Part 2 填空 · 每课 10 题，共 100 题；三 L21-L35 · Part 3 观点态度 + Part 5 匹配 · 每课 10 题，共 150 题；四 L36-L45 · 2-5 个 Part 混合按真考顺序 · 10/15/20/25 题，共 150 题，全部完成；五 L46-L50 全真模拟 待产，需引擎加模拟模式）+ SVG 图标 **81 个 / 10 类**（tools/gen-listening-icons.mjs 生成，清单见 P-L1「★ 图标清单」）+ check-listening 词汇守卫（A2 覆盖 ≥95%，45 课实测 43 课 100%、L15/L19 99%+）
 - KET 题库：Part5×8 套 / P1-P4 各 5 套 / 全真卷 3 套 / 听力 3 套 75 题 / 读物 20 篇 / 写作 22 题 22 范文 / 语法 8 课 512 题（V0.6 四环节）+ 特殊单词表 41 组 247 词（V0.8）
-- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.5**（P-L3 续跑 L22-L35 阶段三完成；1.1.4 为 P-L3 样课 L21 + 听力索引改五阶段；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
+- 勋章：20 个；Service Worker 缓存版本：**ea-v1.1.6**（P-L4 L36-L45 阶段四完成；1.1.5 为 P-L3 续跑 L22-L35 阶段三完成；1.1.4 为 P-L3 样课 L21 + 听力索引改五阶段；壳预缓存架构；0.9.2 为并行会话覆写产生的倒退号，已更正，见环境坑 9）
 - 预缓存体积：**452 KB**（壳 44 项 + 索引 9 项；P2b 新增 `utils/ket-hall-map.js` 2 KB）；`data/` 内容 2,878 KB 走运行时缓存
 - 模块互链：KET 八课 ⇄ 语法大厅 双向跳转（P2b，映射表 `assets/js/utils/ket-hall-map.js`，八课内容零改动）
 - 离线可用：应用壳与索引开箱即用；内容文件访问过一次后离线可读
