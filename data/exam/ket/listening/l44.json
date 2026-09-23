@@ -1,0 +1,693 @@
+{
+  "$comment": "听力训练营 L44（P-L4 阶段四，四 Part 混合课，20 题）。脚本 100% 原创；按真考顺序 Part 1 → Part 2 → Part 4 → Part 5：Part 1 五段短对话选图（难度按 L10）+ Part 2 奶奶讲这一周的安排 5 空（难度按 L20：地名拼读 M-I-L-L-B-R-O-O-K、时间、姓名拼读 W-A-L-K-E-R、价格、数量）+ Part 4 五段短话各 1 题主旨（难度按 L20：段段含转折）+ Part 5 Holly 告诉爸爸五个表兄妹今天各做了什么（难度按 L35：8 件事 A-H 全部被提到、四人先选后改）。一课一场景=假期在奶奶家。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L44",
+  "title": "A Week at Grandma's",
+  "titleZh": "假期在奶奶家",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "theme": "holiday",
+  "names": [
+    "Holly",
+    "Archie",
+    "Millbrook",
+    "Walker",
+    "Rosie",
+    "Toby",
+    "Evie",
+    "Max",
+    "Freddie"
+  ],
+  "intro": "四种题型连着做，20 题，做完大约 20 分钟：先 5 道选图（怎么去奶奶家、几点的车、第一晚做什么、天气、买什么），再听奶奶讲这一周的安排填 5 个空（集市地名拼读、公交时间、邻居姓名拼读、电影票价、要几个苹果），然后 5 段奶奶家的短话选主旨，最后听 Holly 告诉爸爸五个表兄妹今天各做了什么——8 件事都会被提到，四个人先选后改。Part 之间只有一句过渡，不停下来。",
+  "warmup": [
+    {
+      "word": "village",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "meaning": "村庄"
+    },
+    {
+      "word": "neighbour",
+      "phonetic": "/ˈneɪbə/",
+      "meaning": "邻居"
+    },
+    {
+      "word": "market",
+      "phonetic": "/ˈmɑːkɪt/",
+      "meaning": "集市"
+    },
+    {
+      "word": "board game",
+      "phonetic": "/ˈbɔːd ɡeɪm/",
+      "meaning": "桌游"
+    },
+    {
+      "word": "chickens",
+      "phonetic": "/ˈtʃɪkɪnz/",
+      "meaning": "鸡"
+    },
+    {
+      "word": "cupboard",
+      "phonetic": "/ˈkʌbəd/",
+      "meaning": "柜子"
+    },
+    {
+      "word": "pie",
+      "phonetic": "/paɪ/",
+      "meaning": "馅饼"
+    },
+    {
+      "word": "gate",
+      "phonetic": "/ɡeɪt/",
+      "meaning": "大门"
+    },
+    {
+      "word": "brush",
+      "phonetic": "/brʌʃ/",
+      "meaning": "刷子"
+    },
+    {
+      "word": "chess",
+      "phonetic": "/tʃes/",
+      "meaning": "国际象棋"
+    },
+    {
+      "word": "internet",
+      "phonetic": "/ˈɪntənet/",
+      "meaning": "网络"
+    },
+    {
+      "word": "back",
+      "phonetic": "/bæk/",
+      "meaning": "背；后背"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "Part 1 开始。听一段短对话，选出正确的图。三个选项都会出现，抓住最后定下来的那个。",
+      "script": [
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Dad, are you driving us to Grandma's on Monday?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I need the car for work that week, so no. I looked at the train, but it's very expensive in the holidays."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "So how do we get there?"
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Grandma says the bus goes right to her village. It takes two hours, but it's only six pounds."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "How will Holly and Archie get to Grandma's village?",
+          "options": [
+            {
+              "icon": "transport-train",
+              "alt": "by train"
+            },
+            {
+              "icon": "transport-bus",
+              "alt": "by bus"
+            },
+            {
+              "icon": "transport-car",
+              "alt": "by car"
+            }
+          ],
+          "answer": 1,
+          "explain": "爸爸要用车（so no），火车太贵，最后 the bus goes right to her village。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "Mum, what time is the bus on Monday? Quarter past eight?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Quarter past eight is the Sunday bus. On Monday it goes at quarter to nine."
+        },
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "So we should be at the bus stop by half past eight?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Yes, half past eight at the stop. The bus leaves at quarter to nine and it doesn't wait."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "What time does the bus leave on Monday?",
+          "options": [
+            {
+              "icon": "clock-0845",
+              "alt": "8:45"
+            },
+            {
+              "icon": "clock-0815",
+              "alt": "8:15"
+            },
+            {
+              "icon": "clock-0830",
+              "alt": "8:30"
+            }
+          ],
+          "answer": 0,
+          "explain": "8:15 是周日的车，8:30 是到车站的时间，周一的车 leaves at quarter to nine = 8:45。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Grandma, can we watch TV tonight? There's a good film on."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "The TV has been broken for a week, Holly, so I was going to read my book tonight."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Oh, but Archie found your old board game in the cupboard. Can we play that with you?"
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "The board game, I haven't played that for years! Yes, let's play it after dinner, my book can wait."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What will they do after dinner tonight?",
+          "options": [
+            {
+              "icon": "activity-tv",
+              "alt": "watch TV"
+            },
+            {
+              "icon": "activity-reading",
+              "alt": "read"
+            },
+            {
+              "icon": "activity-boardgame",
+              "alt": "play a board game"
+            }
+          ],
+          "answer": 2,
+          "explain": "电视坏了，读书是奶奶原来的打算（My book can wait），最后 let's play it after dinner——玩桌游。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "Grandma, is it still raining? It rained all day yesterday."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "Not any more. Look out of the window, the sun is out and the garden is dry."
+        },
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "Great! Can we go to the river?"
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "Yes, go today. Tomorrow will be cloudy and cold, the radio says."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the weather like in the village today?",
+          "options": [
+            {
+              "icon": "weather-rainy",
+              "alt": "rainy"
+            },
+            {
+              "icon": "weather-sunny",
+              "alt": "sunny"
+            },
+            {
+              "icon": "weather-cloudy",
+              "alt": "cloudy"
+            }
+          ],
+          "answer": 1,
+          "explain": "下雨是昨天（yesterday），多云是明天（Tomorrow），今天 the sun is out——晴天。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Grandma, I'm going to the village shop. Do you need milk?"
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "No, the farm brings milk every morning. But there's no tea left, and I can't start the day without tea."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Tea, then. And some apples for the pie?"
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "We've got apples on the tree in the garden. Just the tea, please."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "What does Holly need to buy at the shop?",
+          "options": [
+            {
+              "icon": "food-tea",
+              "alt": "tea"
+            },
+            {
+              "icon": "food-milk",
+              "alt": "milk"
+            },
+            {
+              "icon": "food-apple",
+              "alt": "apples"
+            }
+          ],
+          "answer": 0,
+          "explain": "牛奶农场每天送，苹果园子里有，没有的是茶：Just the tea, please。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 2,
+      "intro": "Part 2 开始。听奶奶讲这一周的安排，把笔记补全。五个空：地名拼读、时间、姓名拼读、价格、数量。每个空前后都有一个干扰。",
+      "script": [
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "Holly, Archie, listen. This is the plan for your week here. On Tuesday we're going to the market in Millbrook, that's M-I-L-L-B-R-O-O-K. It's the next village, twenty minutes on the bus."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "The bus goes at ten past nine, and there's another one at eleven. We'll take the early one, because the best cakes at the market go quickly."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "On Wednesday my neighbour, Mrs Walker, is taking you to the river to fish. That's W-A-L-K-E-R. Your grandfather wanted to take you, but his back hurts."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "On Thursday there's a film in the village hall at six. It costs two pounds for children, and adults are four pounds. Grandfather will pay for everyone."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "And on Friday we'll make apple pies, because your cousins are coming for dinner. I need twelve apples from the garden, not ten like last year. Can you get them for me?"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "Tuesday: market in ______",
+          "answer": "Millbrook",
+          "explain": "the market in Millbrook, that's M-I-L-L-B-R-O-O-K，照拼读写。"
+        },
+        {
+          "id": "q7",
+          "q": "Bus leaves at: ______",
+          "answer": "9:10",
+          "alt": [
+            "9.10",
+            "ten past nine",
+            "nine ten"
+          ],
+          "explain": "The bus goes at ten past nine = 9:10。eleven 是另一班，不坐。"
+        },
+        {
+          "id": "q8",
+          "q": "Wednesday: fishing with Mrs ______",
+          "answer": "Walker",
+          "explain": "my neighbour, Mrs Walker… That's W-A-L-K-E-R，照拼读写。爷爷背疼不去。"
+        },
+        {
+          "id": "q9",
+          "q": "Thursday: film, £______ for children",
+          "answer": "2",
+          "alt": [
+            "£2",
+            "two pounds",
+            "2 pounds",
+            "two"
+          ],
+          "explain": "It costs two pounds for children = £2。four pounds 是成人票。"
+        },
+        {
+          "id": "q10",
+          "q": "Friday: apples needed: ______",
+          "answer": "12",
+          "alt": [
+            "twelve"
+          ],
+          "explain": "I need twelve apples… not ten like last year——今年要 12 个。"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "part": 4,
+      "intro": "Part 4 开始。听五段奶奶家的短话，每段一题，选出说话人的主要意思。注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "Holly, I know you wanted to go fishing with me this week, like last summer. I wanted that too."
+        },
+        {
+          "who": "Grandfather",
+          "sex": "m",
+          "text": "But my back hurts, and the doctor says I must sit at home for a week. So Mrs Walker will take you. She's a better fisher than me, so you'll get more fish!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "q": "What is Grandfather telling Holly?",
+          "options": [
+            "He can't take her fishing this week.",
+            "Fishing is boring.",
+            "Mrs Walker doesn't like fishing."
+          ],
+          "answer": 0,
+          "explain": "I wanted that too… But my back hurts… I must sit at home——这周不能带她去钓鱼。Mrs Walker 钓得更好，不是不喜欢。"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "Grandma, there's no internet in the house! My tablet doesn't work here."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "The village shop hasn't got it either. But the library in the village has internet, and it's a ten minute walk."
+        },
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "I'll go now, then."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "It closes at four, so be quick. And take the dog with you, he needs a walk."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q12",
+          "q": "Where can Archie use the internet?",
+          "options": [
+            "at the village shop",
+            "at the library",
+            "at Grandma's house"
+          ],
+          "answer": 1,
+          "explain": "no internet in the house… The village shop hasn't got it either. But the library in the village has internet——只有图书馆有。"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "I found a box of old photos in Grandma's cupboard today. I thought they would be boring, just old pictures of people I don't know."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "But one of them was Mum when she was my age, on the same old bike I ride here! I'm going to take that one home to show her."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q13",
+          "q": "What does Holly say about the photos?",
+          "options": [
+            "She found one of her mum.",
+            "They were boring.",
+            "She doesn't know anyone in them."
+          ],
+          "answer": 0,
+          "explain": "I thought they would be boring… people I don't know 是打开前的想法，But one of them was Mum when she was my age——找到了妈妈小时候的照片。"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Archie, Dad phoned. He's coming to take us home on Saturday morning."
+        },
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "Saturday? I thought it was Sunday. That's what he said last week."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "It was Sunday. But he has to work on Sunday now, so it's Saturday, early."
+        },
+        {
+          "who": "Archie",
+          "sex": "m",
+          "text": "Then Friday is our last day. Let's go to the river again."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "q": "When is Dad taking the children home?",
+          "options": [
+            "on Sunday",
+            "on Friday",
+            "on Saturday"
+          ],
+          "answer": 2,
+          "explain": "It was Sunday. But he has to work on Sunday now, so it's Saturday——改成周六。周五是最后一天玩。"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "Hello, it's Mum. The children are fine. Holly wanted to phone you tonight, but she's asleep already, she was at the river all day."
+        },
+        {
+          "who": "Grandma",
+          "sex": "f",
+          "text": "Archie asked me to say: please bring his football boots when you come on Saturday. They're by the front door at home. See you then."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q15",
+          "q": "Why is Grandma phoning?",
+          "options": [
+            "to ask Dad to bring something",
+            "to say that Holly is ill",
+            "to ask Dad to come on a different day"
+          ],
+          "answer": 0,
+          "explain": "Holly 只是睡着了（asleep），不是生病；日子没变；主要是 please bring his football boots——让爸爸带东西。"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "part": 5,
+      "intro": "Part 5 开始。听 Holly 在电话里告诉爸爸五个表兄妹今天各做了什么。把每个人和右边 A-H 的事情配起来。8 件事都会被提到，四个人先想做一件后来又改——要听「最后做了什么」。",
+      "options": [
+        "climbed a tree",
+        "collected the eggs",
+        "made a cake",
+        "painted the gate",
+        "played chess",
+        "read old letters",
+        "rode the horse",
+        "went fishing"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Holly, it's Dad. Are the cousins all there? What did everyone do today? Last year Rosie rode the horse at the farm every day."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "She wanted to ride it again, but the farmer said it was too big for her now. So she collected the eggs from the chickens with Grandma, and she found eleven."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Eleven eggs! And Toby went fishing with you, didn't he?"
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "He came to the river, but he fell asleep in the sun after ten minutes. So he went back to the house and played chess with Grandfather all afternoon."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Evie? Has she made a cake yet? She loves baking."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "She was going to make one, but Grandma's oven stopped working. So she painted the gate with Grandma's green paint. It looks new now."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Good for her. What did Max do? Did he help Evie?"
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "He wanted to paint the gate too, but there was only one brush. So he climbed a tree, the big apple tree, and threw apples down for the pie."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I hope he was careful. And Freddie? Reading, I think."
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Yes, he found a box in the cupboard and read old letters all day, letters from Grandma to Grandfather. He says they're better than a book."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So who went fishing with you?"
+        },
+        {
+          "who": "Holly",
+          "sex": "f",
+          "text": "Mrs Walker. I got two fish, and we're having them for dinner. Nobody made a cake, so it's apples after."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q16",
+          "q": "Rosie",
+          "answer": 1,
+          "explain": "Last year Rosie rode the horse… She wanted to ride it again, but the farmer said it was too big… So she collected the eggs——骑马被拒，改成捡鸡蛋。"
+        },
+        {
+          "id": "q17",
+          "q": "Toby",
+          "answer": 4,
+          "explain": "Toby went fishing with you, didn't he? He came to the river, but he fell asleep… So he went back… and played chess——先去钓鱼睡着了，改成下棋。"
+        },
+        {
+          "id": "q18",
+          "q": "Evie",
+          "answer": 3,
+          "explain": "Has she made a cake yet? She was going to make one, but Grandma's oven stopped working. So she painted the gate——蛋糕做不成，改成刷大门。"
+        },
+        {
+          "id": "q19",
+          "q": "Max",
+          "answer": 0,
+          "explain": "He wanted to paint the gate too, but there was only one brush. So he climbed a tree——先想刷门，只有一把刷子，改成爬树摘苹果。"
+        },
+        {
+          "id": "q20",
+          "q": "Freddie",
+          "answer": 5,
+          "explain": "he found a box in the cupboard and read old letters all day——读旧信。骑马（去年）、做蛋糕（没人做）、钓鱼（Holly 自己和 Mrs Walker）三件被反复提到，但都不是这五个人今天做的。"
+        }
+      ]
+    }
+  ]
+}

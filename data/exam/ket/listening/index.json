@@ -648,6 +648,22 @@
       "theme": "trip",
       "file": "data/exam/ket/listening/l43.json",
       "status": "ready"
+    },
+    {
+      "id": "L44",
+      "title": "A Week at Grandma's",
+      "titleZh": "假期在奶奶家",
+      "stage": 4,
+      "parts": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "questionCount": 20,
+      "theme": "holiday",
+      "file": "data/exam/ket/listening/l44.json",
+      "status": "ready"
     }
   ]
 }
