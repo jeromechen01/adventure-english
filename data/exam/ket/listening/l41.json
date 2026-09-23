@@ -1,0 +1,617 @@
+{
+  "$comment": "听力训练营 L41（P-L4 阶段四，三 Part 混合课，15 题）。脚本 100% 原创；按真考顺序 Part 1 → Part 4 → Part 5：Part 1 五段短对话选图（难度按 L10：时间/价格/饮料/天气/地点）+ Part 4 五段动物园短话各 1 题主旨（难度按 L20：段段含转折）+ Part 5 Lucy 告诉爸爸五个同学最喜欢哪种动物（难度按 L35：8 种动物 A-H 全部被提到、四人先选后改）。一课一场景=参观动物园。词汇 ≥95% 落在 KET A2 词表，超出的词进 warmup。语速 1.0x。",
+  "id": "L41",
+  "title": "A Visit to the Zoo",
+  "titleZh": "参观动物园",
+  "stage": 4,
+  "rate": 1,
+  "parts": [
+    1,
+    4,
+    5
+  ],
+  "theme": "zoo",
+  "names": [
+    "Lucy",
+    "Ben",
+    "Emma",
+    "Harry",
+    "Zoe",
+    "Max",
+    "Mike"
+  ],
+  "intro": "三种题型连着做，15 题：先 5 道选图（企鹅喂食几点、儿童票多少钱、Lucy 喝什么、天气、和爸爸在哪儿碰头），再听 5 段动物园里的短话选主旨（注意 but 后面），最后听 Lucy 告诉爸爸五个同学最喜欢哪种动物——8 种动物都会被提到，四个人先说了一种后来又改。Part 之间只有一句过渡，做完大约 15 分钟。",
+  "warmup": [
+    {
+      "word": "zoo",
+      "phonetic": "/zuː/",
+      "meaning": "动物园"
+    },
+    {
+      "word": "penguin",
+      "phonetic": "/ˈpeŋɡwɪn/",
+      "meaning": "企鹅"
+    },
+    {
+      "word": "keeper",
+      "phonetic": "/ˈkiːpə/",
+      "meaning": "饲养员"
+    },
+    {
+      "word": "feed",
+      "phonetic": "/fiːd/",
+      "meaning": "喂"
+    },
+    {
+      "word": "dolphin",
+      "phonetic": "/ˈdɒlfɪn/",
+      "meaning": "海豚"
+    },
+    {
+      "word": "giraffe",
+      "phonetic": "/dʒəˈrɑːf/",
+      "meaning": "长颈鹿"
+    },
+    {
+      "word": "parrot",
+      "phonetic": "/ˈpærət/",
+      "meaning": "鹦鹉"
+    },
+    {
+      "word": "elephant",
+      "phonetic": "/ˈelɪfənt/",
+      "meaning": "大象"
+    },
+    {
+      "word": "bear",
+      "phonetic": "/beə/",
+      "meaning": "熊"
+    },
+    {
+      "word": "snake",
+      "phonetic": "/sneɪk/",
+      "meaning": "蛇"
+    },
+    {
+      "word": "goat",
+      "phonetic": "/ɡəʊt/",
+      "meaning": "山羊"
+    },
+    {
+      "word": "asleep",
+      "phonetic": "/əˈsliːp/",
+      "meaning": "睡着的"
+    }
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "part": 1,
+      "intro": "Part 1 开始。听一段短对话，选出正确的图。三个选项都会出现，抓住最后定下来的那个。",
+      "script": [
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Excuse me, is the penguin feeding at three o'clock today?"
+        },
+        {
+          "who": "Keeper",
+          "sex": "m",
+          "text": "It's usually at three, but the fish is late today. So it's at half past three."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Half past three. And the dolphin show?"
+        },
+        {
+          "who": "Keeper",
+          "sex": "m",
+          "text": "That's at four, by the dolphin lake. You can see both if you're quick."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "q": "What time is the penguin feeding today?",
+          "options": [
+            {
+              "icon": "clock-0300",
+              "alt": "3:00"
+            },
+            {
+              "icon": "clock-0330",
+              "alt": "3:30"
+            },
+            {
+              "icon": "clock-0400",
+              "alt": "4:00"
+            }
+          ],
+          "answer": 1,
+          "explain": "平时三点（usually at three），今天鱼晚到，So it's at half past three = 3:30。四点是海豚表演。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Two adults and two children, please. How much is a child's ticket?"
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "Adults are ten pounds and children are eight pounds. Under fives are free."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "She's six, so eight pounds. Oh, we've got a family card, does that help?"
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "Yes, with the family card children are only five pounds. So that's five pounds for each child."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q2",
+          "q": "How much is a child's ticket for this family?",
+          "options": [
+            {
+              "icon": "price-8",
+              "alt": "£8"
+            },
+            {
+              "icon": "price-10",
+              "alt": "£10"
+            },
+            {
+              "icon": "price-5",
+              "alt": "£5"
+            }
+          ],
+          "answer": 2,
+          "explain": "八镑是没有家庭卡的价格，十镑是成人票，with the family card children are only five pounds = £5。"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Mum, can I have an ice cream from the zoo café?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "It's too cold for ice cream today, Lucy. Have a drink."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "A hot milk, then?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "They don't have hot milk here, only tea and juice. Have an orange juice."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "OK, orange juice."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q3",
+          "q": "What will Lucy have at the zoo café?",
+          "options": [
+            {
+              "icon": "food-juice",
+              "alt": "juice"
+            },
+            {
+              "icon": "food-ice-cream",
+              "alt": "ice cream"
+            },
+            {
+              "icon": "food-milk",
+              "alt": "milk"
+            }
+          ],
+          "answer": 0,
+          "explain": "冰淇淋太冷不行，热牛奶没有，最后 Have an orange juice → OK, orange juice。"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Mum said to bring an umbrella to the zoo, because it might rain."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "The radio said windy but dry. But look, there's no wind at all now."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "And no rain. The sun's out, it's lovely."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Then let's leave the umbrella in the bag and go and see the giraffes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q4",
+          "q": "What is the weather like at the zoo now?",
+          "options": [
+            {
+              "icon": "weather-sunny",
+              "alt": "sunny"
+            },
+            {
+              "icon": "weather-windy",
+              "alt": "windy"
+            },
+            {
+              "icon": "weather-rainy",
+              "alt": "rainy"
+            }
+          ],
+          "answer": 0,
+          "explain": "下雨是妈妈担心的（might rain），刮风是电台说的（no wind at all now），现在 The sun's out——晴天。"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "part": 1,
+      "intro": "听一段短对话，选出正确的图。",
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I'll meet you all at the zoo café at four, OK?"
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "The café closes at half past three. We'll be in the zoo shop, the children want to look at the toys."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "That shop is always full of people, I'll never find you. Let's meet at the zoo gate, by the big sign."
+        },
+        {
+          "who": "Mum",
+          "sex": "f",
+          "text": "Fine, the gate at four. Don't be late."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q5",
+          "q": "Where will the family meet Dad at four o'clock?",
+          "options": [
+            {
+              "icon": "place-cafe",
+              "alt": "at the café"
+            },
+            {
+              "icon": "place-shop",
+              "alt": "at the shop"
+            },
+            {
+              "icon": "place-zoo",
+              "alt": "at the zoo gate"
+            }
+          ],
+          "answer": 2,
+          "explain": "咖啡馆三点半关门，商店人太多找不到，最后 Let's meet at the zoo gate → Fine, the gate at four。"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "part": 4,
+      "intro": "Part 4 开始。听五段动物园里的短话，每段一题，选出说话人的主要意思。注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "Good afternoon, visitors. The dolphin show at two o'clock will not happen today, because the keeper is cleaning the dolphin lake."
+        },
+        {
+          "who": "Woman",
+          "sex": "f",
+          "text": "But at two o'clock a keeper will give a talk about the dolphins next to the lake, and you can ask questions. The show will be back tomorrow at the same time."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q6",
+          "q": "What is the woman telling visitors?",
+          "options": [
+            "There is no dolphin show today.",
+            "The dolphin lake is closed all week.",
+            "The dolphin show is at a different time today."
+          ],
+          "answer": 0,
+          "explain": "The dolphin show at two o'clock will not happen today——今天没有表演，两点换成了讲解。明天恢复（back tomorrow），不是关一周，也不是改时间。"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Excuse me, can I feed the monkeys? I've got some banana."
+        },
+        {
+          "who": "Keeper",
+          "sex": "m",
+          "text": "Sorry, visitors can't feed the monkeys. Their food is special, and our food only."
+        },
+        {
+          "who": "Ben",
+          "sex": "m",
+          "text": "Oh. Can I feed any animals here?"
+        },
+        {
+          "who": "Keeper",
+          "sex": "m",
+          "text": "Yes, you can feed the goats at the children's farm at three o'clock. We give you the food, so don't bring your banana."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q7",
+          "q": "What can Ben do at the zoo?",
+          "options": [
+            "feed the monkeys",
+            "feed the goats",
+            "buy food for the animals"
+          ],
+          "answer": 1,
+          "explain": "visitors can't feed the monkeys（猴子不行）→ you can feed the goats at the children's farm——可以喂山羊。食物是动物园给的，不用买。"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "I wanted to see the lions most of all today. I've got a book about lions, and I know all their names."
+        },
+        {
+          "who": "Emma",
+          "sex": "f",
+          "text": "But they were all asleep behind the trees, and we couldn't see them. Then we went to the penguins, and one came right up to the glass and looked at me. That was the best part of the day."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q8",
+          "q": "What did Emma like best at the zoo?",
+          "options": [
+            "the penguins",
+            "the lions",
+            "the trees"
+          ],
+          "answer": 0,
+          "explain": "I wanted to see the lions 是来之前最想看的，But they were all asleep… Then we went to the penguins… That was the best part——最喜欢的是企鹅。"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "part": 4,
+      "intro": "听一段短话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Uncle Mike",
+          "sex": "m",
+          "text": "Hi Ben, it's Uncle Mike. I'm in the zoo shop with your little sister. She wants the big toy elephant, but it's twenty pounds."
+        },
+        {
+          "who": "Uncle Mike",
+          "sex": "m",
+          "text": "So I'm getting her the book about elephants for five pounds. It's got lovely pictures. We can look for a cheaper toy in town on Saturday. See you at the gate."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q9",
+          "q": "What is Uncle Mike buying in the zoo shop?",
+          "options": [
+            "a toy elephant",
+            "a book about elephants",
+            "a toy from a shop in town"
+          ],
+          "answer": 1,
+          "explain": "She wants the big toy elephant, but it's twenty pounds → So I'm getting her the book about elephants——买的是书。镇上的玩具是周六再看。"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "part": 4,
+      "intro": "听一段短对话，注意 but 后面说了什么。",
+      "script": [
+        {
+          "who": "Zoe",
+          "sex": "f",
+          "text": "Lucy, are you coming to the zoo again in the summer holidays? The baby bears will be big then."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "I'd like to, but it's two hours by bus, and I was so tired today. Only if someone drives."
+        },
+        {
+          "who": "Zoe",
+          "sex": "f",
+          "text": "My mum said she'll drive us in the car, it's only forty minutes."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Then yes! I'll bring the money for the tickets."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q10",
+          "q": "What does Lucy say about going to the zoo again?",
+          "options": [
+            "She will go if they can get there by car.",
+            "She thinks the tickets cost too much.",
+            "She doesn't want to go again."
+          ],
+          "answer": 0,
+          "explain": "I'd like to, but it's two hours by bus… Only if someone drives → My mum said she'll drive us → Then yes——有车就去。"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "part": 5,
+      "intro": "Part 5 开始。听 Lucy 告诉爸爸五个同学在动物园最喜欢哪种动物。把每个人和右边 A-H 的动物配起来。8 种动物都会被提到，四个人先说了一种后来又改——要听「最后最喜欢的」。",
+      "options": [
+        "the bears",
+        "the elephants",
+        "the giraffes",
+        "the lions",
+        "the monkeys",
+        "the parrots",
+        "the penguins",
+        "the snakes"
+      ],
+      "script": [
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Lucy, you all went to the zoo with school today. Which animals did your friends like best? Ben loves lions, I know."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "He said he was going to see the lions first. But they were asleep behind the trees all day. So he watched the monkeys for an hour, and now he says they're the best."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "Monkeys are funny. And Emma?"
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Emma wanted to see the elephants, because she has a toy one at home. But the elephant house was closed today, so she came to the penguins with me. One penguin looked right at her, and she loved it."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "What about Harry? Doesn't he like parrots?"
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "He does, and he talked to the parrots for ages. But then we went into the snake house, and a keeper let him hold a small snake. He said the snakes were the best thing in the whole zoo."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "I wouldn't hold a snake. And Zoe?"
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Zoe said she wanted to see the lions, like Ben. But when she saw the giraffes eating from the tall trees, she stayed there and didn't want to leave. So the giraffes for her."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "And Max? Let me guess, the elephants."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "No, he was with Emma when the elephant house was closed. He liked the bears. There were two baby bears playing in the water, and he took about a hundred photos of them."
+        },
+        {
+          "who": "Dad",
+          "sex": "m",
+          "text": "So nobody liked the lions best."
+        },
+        {
+          "who": "Lucy",
+          "sex": "f",
+          "text": "Not this time. They were asleep all day!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "q11",
+          "q": "Ben",
+          "answer": 4,
+          "explain": "He said he was going to see the lions first. But they were asleep… So he watched the monkeys… now he says they're the best——先说狮子，狮子睡觉，最喜欢猴子。"
+        },
+        {
+          "id": "q12",
+          "q": "Emma",
+          "answer": 6,
+          "explain": "Emma wanted to see the elephants… But the elephant house was closed… she came to the penguins with me… she loved it——先说大象，象馆关了，最喜欢企鹅。"
+        },
+        {
+          "id": "q13",
+          "q": "Harry",
+          "answer": 7,
+          "explain": "he talked to the parrots for ages. But then… a keeper let him hold a small snake. He said the snakes were the best thing——先是鹦鹉，最后最喜欢蛇。"
+        },
+        {
+          "id": "q14",
+          "q": "Zoe",
+          "answer": 2,
+          "explain": "Zoe said she wanted to see the lions… But when she saw the giraffes… didn't want to leave. So the giraffes for her——先说狮子，最喜欢长颈鹿。"
+        },
+        {
+          "id": "q15",
+          "q": "Max",
+          "answer": 0,
+          "explain": "Let me guess, the elephants → No… He liked the bears. There were two baby bears——大象被否定，最喜欢熊。狮子、大象、鹦鹉三种被反复提到，但都不是这五个人最后最喜欢的。"
+        }
+      ]
+    }
+  ]
+}

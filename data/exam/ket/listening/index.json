@@ -603,6 +603,21 @@
       "theme": "party",
       "file": "data/exam/ket/listening/l40.json",
       "status": "ready"
+    },
+    {
+      "id": "L41",
+      "title": "A Visit to the Zoo",
+      "titleZh": "参观动物园",
+      "stage": 4,
+      "parts": [
+        1,
+        4,
+        5
+      ],
+      "questionCount": 15,
+      "theme": "zoo",
+      "file": "data/exam/ket/listening/l41.json",
+      "status": "ready"
     }
   ]
 }
